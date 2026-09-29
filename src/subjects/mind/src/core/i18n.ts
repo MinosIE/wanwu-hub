@@ -395,6 +395,12 @@ export const I18N: Record<Lang, typeof zh> = { zh, en };
 let lang: Lang = 'zh';
 const listeners: ((l: Lang) => void)[] = [];
 
+/** 内嵌进 wanwu 主应用时，静态文案只作用在 mind 根内，避免覆盖主应用顶栏/页脚。 */
+let i18nRoot: ParentNode = document;
+export function setI18nRoot(r: ParentNode): void {
+  i18nRoot = r;
+}
+
 function detectLang(): Lang {
   try {
     const q = new URLSearchParams(location.search).get('lang');
@@ -454,11 +460,11 @@ export function L<T = string>(o: LObj | undefined | null, key: string): T {
 }
 
 export function applyStaticLang(): void {
-  document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((e) => {
+  i18nRoot.querySelectorAll<HTMLElement>('[data-i18n]').forEach((e) => {
     const key = e.dataset.i18n;
     if (key) e.textContent = t(key);
   });
-  document.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((e) => {
+  i18nRoot.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((e) => {
     const spec = e.dataset.i18nAttr || '';
     spec.split(',').forEach((pair) => {
       const [attr, key] = pair.split(':').map((s) => s.trim());

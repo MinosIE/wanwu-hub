@@ -7,6 +7,7 @@ import { renderHome } from "./shell/home";
 import * as soon from "./subjects/soon";
 import * as dynasty from "./subjects/dynasty";
 import * as econ from "./subjects/econ";
+import * as mind from "./subjects/mind";
 
 const app = document.getElementById("app")!;
 let currentCleanup: (() => void) | null = null;
@@ -44,8 +45,7 @@ async function renderView(): Promise<void> {
     return;
   }
   if (key === "mind") {
-    const sub = route.sub ? `#${route.sub}` : "";
-    view.innerHTML = `<iframe class="subject-frame" src="${import.meta.env.BASE_URL}mind.html${sub}" title="mind"></iframe>`;
+    currentCleanup = await mind.mount(view, route.sub);
     return;
   }
   const p = PROJECTS.find((x) => x.key === key);

@@ -1,4 +1,4 @@
-import { t, L, onLangChange, initLangSwitch } from "./i18n";
+import { t, L, onLangChange, initLangSwitch, setI18nRoot, applyStaticLang } from "./i18n";
 import { esc } from "./dom";
 import { loadJson } from "./data";
 import { initTheme } from "./theme";
@@ -23,7 +23,7 @@ function modFromHash(): string | null {
   return id && BUILT.has(id) ? id : null;
 }
 
-function activate(id: string, smooth = true): void {
+export function activate(id: string, smooth = true): void {
   document
     .querySelectorAll<HTMLElement>(".module")
     .forEach((s) => s.classList.toggle("active", s.id === id));
@@ -33,9 +33,14 @@ function activate(id: string, smooth = true): void {
   window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
 }
 
+let updateHistory = true;
+export function setHistoryUpdate(v: boolean): void {
+  updateHistory = v;
+}
+
 function go(id: string): void {
   activate(id);
-  if (modFromHash() !== id) history.pushState(null, "", `#${id}`);
+  if (updateHistory && modFromHash() !== id) history.pushState(null, "", `#${id}`);
 }
 
 function mountNav(): void {
@@ -134,9 +139,12 @@ function mountHeroMail(): void {
   a.href = `mailto:417913012@qq.com?subject=${subject}&body=${body}`;
 }
 
-export async function boot(): Promise<void> {
+export async function boot(root: ParentNode = document): Promise<void> {
   if (window.self !== window.top) document.body.classList.add("embedded");
-  initTheme();
+  setI18nRoot(root);
+  applyStaticLang();
+  document.title = t("docTitle");
+  initTheme(root);
   initLangSwitch();
   mountNav();
   mountPlaceholders();

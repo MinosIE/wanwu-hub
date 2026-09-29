@@ -1,12 +1,12 @@
-* {
+.mind-root * {
   box-sizing: border-box;
 }
 
-html {
+.mind-root {
   scroll-behavior: smooth;
 }
 
-body {
+.mind-root {
   margin: 0;
   background: var(--bg);
   color: var(--text);
@@ -22,41 +22,41 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
+  .mind-root {
     scroll-behavior: auto;
   }
-  * {
+  .mind-root * {
     transition: none !important;
   }
 }
 
-a {
+.mind-root a {
   color: var(--link);
   text-decoration: none;
 }
-a:hover {
+.mind-root a:hover {
   text-decoration: underline;
 }
 
-.wrap {
+.mind-root .wrap {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px 64px;
 }
 
-h1,
-h2,
-h3 {
+.mind-root h1,
+.mind-root h2,
+.mind-root h3 {
   line-height: 1.3;
   font-weight: 700;
 }
 
-button {
+.mind-root button {
   font: inherit;
   cursor: pointer;
 }
 
-.mod-sub {
+.mind-root .mod-sub {
   color: var(--muted);
   font-size: 0.95rem;
   margin: 6px 0 0;
@@ -66,12 +66,12 @@ button {
   text-align: center;
 }
 
-.noscript {
+.mind-root .noscript {
   padding: 40px 20px;
   text-align: center;
   color: var(--muted);
 }
 
-::selection {
+.mind-root ::selection {
   background: var(--accent-soft);
 }

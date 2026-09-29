@@ -1,6 +1,6 @@
 /* 设计令牌：万物心理学 —— 暖色调（陶土橙 + 暖金） */
-:root,
-:root[data-theme='light'] {
+.mind-root,
+.mind-root[data-theme='light'] {
   --bg: #faf6f1;
   --bg-soft: #f3ece2;
   --card: #ffffff;
@@ -20,7 +20,7 @@
   --ring: rgba(194, 104, 61, 0.35);
 }
 
-:root[data-theme='dark'] {
+.mind-root[data-theme='dark'] {
   --bg: #1a1512;
   --bg-soft: #211a16;
   --card: #251e19;

@@ -1,8 +1,8 @@
 import { t } from './i18n';
 
-export function initTheme(): void {
-  const btn = document.getElementById('themeBtn');
-  const label = document.getElementById('themeLabel');
+export function initTheme(root: ParentNode = document): void {
+  const btn = root.querySelector<HTMLElement>('#themeBtn');
+  const label = root.querySelector<HTMLElement>('#themeLabel');
   if (!btn || !label) return;
 
   const sync = () => {
