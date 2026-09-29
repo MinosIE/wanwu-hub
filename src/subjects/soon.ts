@@ -15,17 +15,20 @@ export function mount(view: HTMLElement, p?: (typeof PROJECTS)[number]): void {
         : "接入完成后即可在此直接浏览。";
     view.innerHTML = `
       <div class="soon-wrap">
-        <div style="font-size:2.4rem;margin-bottom:12px">${p ? p.emoji : "🚧"}</div>
-        ${title ? `<h2>${title}</h2>` : ""}
-        <p>${line1}</p>
-        <p>${line2}</p>
-        ${
-          p?.siteUrl
-            ? `<p style="margin-top:16px"><a class="gh-link" href="${p.siteUrl}" target="_blank" rel="noopener">${
-                lang === "en" ? "Visit original site ↗" : "访问原站点 ↗"
-              }</a></p>`
-            : ""
-        }
+        <div class="card" style="max-width:560px;margin:0 auto;text-align:center">
+          <div style="font-size:2.4rem;margin-bottom:8px">${p ? p.emoji : "🚧"}</div>
+          ${title ? `<h2>${title}</h2>` : ""}
+          <span class="status wip">${lang === "en" ? "In progress" : "接入中"}</span>
+          <p style="margin-top:14px">${line1}</p>
+          <p>${line2}</p>
+          ${
+            p?.siteUrl
+              ? `<p style="margin-top:16px"><a class="gh-link" href="${p.siteUrl}" target="_blank" rel="noopener">${
+                  lang === "en" ? "Visit original site ↗" : "访问原站点 ↗"
+                }</a></p>`
+              : ""
+          }
+        </div>
       </div>`;
   };
   render();
