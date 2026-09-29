@@ -1,0 +1,29 @@
+{
+  "name": "wanwu-hub",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "万物通识系列统一入口站：单一仓库聚合历史脉络与六大学科内容",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dynasty:validate": "node scripts/dynasty/validate-data.mjs",
+    "dynasty:check-i18n": "node scripts/dynasty/check-i18n.mjs",
+    "dynasty:build-search": "node scripts/dynasty/build-search.mjs && node scripts/dynasty/build-search-en.mjs",
+    "dynasty:build-records": "node scripts/dynasty/build-records.mjs",
+    "dynasty:build-people": "node scripts/dynasty/build-people.mjs",
+    "dynasty:update-overview": "node scripts/dynasty/update-overview.mjs",
+    "dynasty:fix-counts": "node scripts/dynasty/fix-overview-counts.mjs",
+    "dynasty:build-geo": "node scripts/dynasty/build-geo.mjs",
+    "dynasty:build-llms-full": "node scripts/dynasty/build-llms-full.mjs",
+    "dynasty:rebuild": "npm run dynasty:build-search && npm run dynasty:build-records && npm run dynasty:build-people && npm run dynasty:build-geo && npm run dynasty:build-llms-full"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.28",
+    "postcss-prefix-selector": "^2.2.1",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0"
+  }
+}

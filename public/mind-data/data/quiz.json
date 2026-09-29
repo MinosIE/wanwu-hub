@@ -1,0 +1,288 @@
+[
+  {
+    "id": "q-bias-1",
+    "term": "读新闻只挑认同的媒体，这在心理学叫？",
+    "termEn": "Only reading like-minded news is called what?",
+    "oneLiner": "一种常见但会窄化视野的认知习惯。",
+    "oneLinerEn": "A common habit that narrows your view.",
+    "detail": "确认偏误：我们更愿相信支持已有观点的证据，忽略反面信息。破解办法是主动寻找反面证据。",
+    "detailEn": "Confirmation bias: we favor evidence supporting existing beliefs and ignore the rest. Counter it by seeking disconfirming evidence.",
+    "options": [
+      { "text": "确认偏误", "textEn": "Confirmation bias", "correct": true },
+      { "text": "光环效应", "textEn": "Halo effect", "correct": false },
+      { "text": "沉没成本", "textEn": "Sunk cost", "correct": false }
+    ],
+    "related": ["confirmation-bias", "availability"],
+    "sources": [{ "label": "Kahneman (2011)", "year": 2011 }]
+  },
+  {
+    "id": "q-exp-1",
+    "term": "约 2/3 被试在「权威」指令下愿意对陌生人施加致命电击，出自哪个实验？",
+    "termEn": "Which experiment had ~2/3 obey 'authority' to 'lethal' shocks?",
+    "oneLiner": "一个关于服从的经典社会实验。",
+    "oneLinerEn": "A classic social study of obedience.",
+    "detail": "米尔格拉姆服从实验（1963）：普通人在实验者要求下一路加到最高电压（假的）。它推动了现代实验伦理规范。",
+    "detailEn": "Milgram's obedience experiment (1963): ordinary people went to the max voltage on command (fake). It spurred modern ethics rules.",
+    "options": [
+      {
+        "text": "斯坦福监狱实验",
+        "textEn": "Stanford prison",
+        "correct": false
+      },
+      {
+        "text": "米尔格拉姆服从实验",
+        "textEn": "Milgram obedience",
+        "correct": true
+      },
+      { "text": "棉花糖实验", "textEn": "Marshmallow test", "correct": false }
+    ],
+    "related": ["milgram", "stanford-prison"],
+    "sources": [
+      {
+        "label": "Milgram (1963)",
+        "year": 1963,
+        "url": "https://doi.org/10.1037/h0040525"
+      }
+    ]
+  },
+  {
+    "id": "q-memory-1",
+    "term": "「人只用了 10% 的大脑」这个说法？",
+    "termEn": "The claim 'we only use 10% of our brain' is...",
+    "oneLiner": "一条流传很广的说法。",
+    "oneLinerEn": "A widely spread claim.",
+    "detail": "是都市传说。脑成像显示即便静息，全脑也有广泛活动；任一部分受损都会带来功能缺损。",
+    "detailEn": "A myth. Imaging shows widespread activity even at rest; damage to any region causes deficits.",
+    "options": [
+      { "text": "科学事实", "textEn": "Scientific fact", "correct": false },
+      { "text": "都市传说", "textEn": "Urban myth", "correct": true },
+      {
+        "text": "只对左撇子成立",
+        "textEn": "True only for left-handers",
+        "correct": false
+      }
+    ],
+    "related": ["we-only-use-10-percent", "left-right-brain"],
+    "sources": [{ "label": "神经科学共识", "year": 2008 }]
+  },
+  {
+    "id": "q-decision-1",
+    "term": "亏 100 块的痛，约是赚 100 块的快的多少倍？",
+    "termEn": "The pain of losing 100 feels about how many times the joy of gaining 100?",
+    "oneLiner": "一个关于风险偏好的核心发现。",
+    "oneLinerEn": "A core finding about risk preference.",
+    "detail": "约两倍——这就是损失厌恶，由卡尼曼与特沃斯基的前景理论提出。",
+    "detailEn": "About twice—loss aversion, from Kahneman & Tversky's prospect theory.",
+    "options": [
+      { "text": "差不多一样", "textEn": "About the same", "correct": false },
+      { "text": "约两倍", "textEn": "About twice", "correct": true },
+      { "text": "约十倍", "textEn": "About ten times", "correct": false }
+    ],
+    "related": ["loss-aversion", "anchoring"],
+    "sources": [
+      {
+        "label": "Kahneman & Tversky (1979)",
+        "year": 1979,
+        "url": "https://doi.org/10.1016/0022-0531(79)90023-2"
+      }
+    ]
+  },
+  {
+    "id": "q-dev-1",
+    "term": "哪种夸法更有助于孩子扛挫折？",
+    "termEn": "Which praise better builds resilience in kids?",
+    "oneLiner": "育儿中一个被反复验证的差别。",
+    "oneLinerEn": "A repeatedly tested difference in parenting.",
+    "detail": "夸「努力」比夸「聪明」更好：成长型思维让人把困难当练习，而非对天赋的威胁。",
+    "detailEn": "Praising effort beats praising smarts: a growth mindset treats hard tasks as practice, not a threat to talent.",
+    "options": [
+      { "text": "夸聪明", "textEn": "Praise smartness", "correct": false },
+      { "text": "夸努力", "textEn": "Praise effort", "correct": true },
+      { "text": "都差不多", "textEn": "About the same", "correct": false }
+    ],
+    "related": ["parenting-praise", "self-efficacy"],
+    "sources": [{ "label": "Dweck (2006)", "year": 2006 }]
+  },
+  {
+    "id": "q-culture-1",
+    "term": "东亚文化更常见的「自我」倾向是？",
+    "termEn": "East Asian cultures lean toward which 'self'?",
+    "oneLiner": "跨文化心理学的一个经典区分。",
+    "oneLinerEn": "A classic cross-cultural distinction.",
+    "detail": "互依我（interdependent self）：把「我」放在关系与角色里，重和谐与责任，对应个体主义光谱的集体一端。",
+    "detailEn": "Interdependent self: the 'I' sits in roles and relationships, valuing harmony and duty—the collectivist end of the spectrum.",
+    "options": [
+      { "text": "独立我", "textEn": "Independent self", "correct": false },
+      { "text": "互依我", "textEn": "Interdependent self", "correct": true },
+      { "text": "无我", "textEn": "No self", "correct": false }
+    ],
+    "related": ["self-construal", "individualism-collectivism"],
+    "sources": [
+      {
+        "label": "Markus & Kitayama (1991)",
+        "year": 1991,
+        "url": "https://doi.org/10.1037/0033-2909.98.2.224"
+      }
+    ]
+  },
+  {
+    "id": "q-personality-1",
+    "term": "缩写「OCEAN」指的是哪个人格框架？",
+    "termEn": "The acronym 'OCEAN' refers to which personality framework?",
+    "oneLiner": "用五个字母概括人格的主流模型。",
+    "oneLinerEn": "The mainstream model that sums up personality in five letters.",
+    "detail": "大五人格（Big Five）：开放性 Openness、尽责性 Conscientiousness、外向性 Extraversion、宜人性 Agreeableness、神经质 Neuroticism。它是当前最被验证的特质框架，描述差异而非好坏。",
+    "detailEn": "The Big Five: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism—the best-validated trait framework, describing differences not good/bad.",
+    "options": [
+      { "text": "大五人格", "textEn": "Big Five", "correct": true },
+      {
+        "text": "弗洛伊德心理结构（本我/自我/超我）",
+        "textEn": "Freud's structure (id/ego/superego)",
+        "correct": false
+      },
+      {
+        "text": "马斯洛需求层次",
+        "textEn": "Maslow's hierarchy",
+        "correct": false
+      }
+    ],
+    "related": ["big-five", "freud"],
+    "sources": [{ "label": "McCrae & Costa (1992)", "year": 1992 }]
+  },
+  {
+    "id": "q-personality-2",
+    "term": "行为遗传学研究认为，人格差异中可归因于遗传的比例约为？",
+    "termEn": "Behavior genetics suggests about what share of personality variance is heritable?",
+    "oneLiner": "先天与后天的粗略比例。",
+    "oneLinerEn": "A rough nature-vs-nurture share.",
+    "detail": "约 40%–50%。其余来自环境、经历与随机因素；人格是「相对」稳定而非「完全」由基因决定，成年后仍可微调。",
+    "detailEn": "Roughly 40%–50%. The rest comes from environment, experience and chance; personality is relatively, not absolutely, stable and can shift somewhat in adulthood.",
+    "options": [
+      {
+        "text": "几乎 0%（全靠环境）",
+        "textEn": "Nearly 0% (all environment)",
+        "correct": false
+      },
+      { "text": "约 40%–50%", "textEn": "About 40%–50%", "correct": true },
+      {
+        "text": "约 90%（几乎全基因）",
+        "textEn": "About 90% (almost all genes)",
+        "correct": false
+      }
+    ],
+    "related": ["personality", "big-five"],
+    "sources": [{ "label": "Plomin et al. (2016)", "year": 2016 }]
+  },
+  {
+    "id": "q-personality-3",
+    "term": "一场热闹聚会后，你感到精力被「耗尽」、更想独处静静——这更可能说明？",
+    "termEn": "After a lively party you feel drained and want to be alone — this more likely means?",
+    "oneLiner": "一种常见的能量来源差异。",
+    "oneLinerEn": "A common difference in where energy comes from.",
+    "detail": "你可能偏向内向（introversion）：内向者的能量在独处中恢复，外向者在大社交中获得能量。这是倾向差异，不是社交能力问题，也不是疾病。大五描述的是平均倾向，不给人贴标签。",
+    "detailEn": "You may lean introverted: introverts recharge in solitude, extraverts in social buzz. It is a tendency, not a skill gap or disorder. The Big Five describes tendencies, not labels.",
+    "options": [
+      {
+        "text": "你社交能力有问题",
+        "textEn": "You have poor social skills",
+        "correct": false
+      },
+      {
+        "text": "你偏向内向，能量来自独处",
+        "textEn": "You lean introverted; solitude recharges you",
+        "correct": true
+      },
+      {
+        "text": "你一定患有社交焦虑障碍",
+        "textEn": "You must have social anxiety disorder",
+        "correct": false
+      }
+    ],
+    "related": ["big-five", "personality"],
+    "sources": [{ "label": "McCrae & Costa (1992)", "year": 1992 }]
+  },
+  {
+    "id": "q-personality-4",
+    "term": "你更享受「提前列好计划再出发」，还是「走到哪算哪」？这主要反映哪类差异？",
+    "termEn": "You prefer 'plan ahead' vs 'go with the flow' — this mainly reflects which difference?",
+    "oneLiner": "计划性属于哪个维度。",
+    "oneLinerEn": "Which dimension planning belongs to.",
+    "detail": "大五中的尽责性（Conscientiousness）：计划、条理、可靠程度。它与血型、左右脑分工无关（皆为流行误区）。高尽责更可能按时交付、少出纰漏，但只是概率倾向。",
+    "detailEn": "Conscientiousness in the Big Five: planning, order, reliability. It has nothing to do with blood type or left/right brain (both are myths). High conscientiousness predicts on-time, fewer slips—but only probabilistically.",
+    "options": [
+      {
+        "text": "尽责性高低",
+        "textEn": "Level of Conscientiousness",
+        "correct": true
+      },
+      {
+        "text": "血型差异（A/B/O/AB）",
+        "textEn": "Blood type (A/B/O/AB)",
+        "correct": false
+      },
+      {
+        "text": "左右脑分工",
+        "textEn": "Left/right brain split",
+        "correct": false
+      }
+    ],
+    "related": ["big-five", "personality", "left-right-brain"],
+    "sources": [{ "label": "McCrae & Costa (1992)", "year": 1992 }]
+  },
+  {
+    "id": "q-personality-5",
+    "term": "关于「性格测试、星座、血型」，心理学更支持的立场是？",
+    "termEn": "On 'personality tests, astrology, blood type', psychology leans toward which view?",
+    "oneLiner": "科学测量与伪科学的界线。",
+    "oneLinerEn": "The line between science and pseudoscience.",
+    "detail": "大五等特质量表可描述稳定的平均倾向、能跨文化验证，但不定义一个人、也不构成诊断；星座与血型—性格说法缺乏实证支持，属流行文化而非科学。人格相对但非绝对稳定，成年后仍可微调。",
+    "detailEn": "Trait scales like the Big Five describe stable average tendencies and are cross-culturally validated, but they don't define a person or constitute diagnosis. Astrology and blood-type-personality lack empirical support—pop culture, not science. Personality is relatively, not absolutely, fixed.",
+    "options": [
+      {
+        "text": "星座能准确预测一个人的人格",
+        "textEn": "Astrology accurately predicts personality",
+        "correct": false
+      },
+      {
+        "text": "大五等量表描述倾向、非诊断，且可验证",
+        "textEn": "Scales like Big Five describe tendencies, not diagnosis, and are testable",
+        "correct": true
+      },
+      {
+        "text": "人格完全由童年决定、成年后无法改变",
+        "textEn": "Personality is set in childhood, immutable in adulthood",
+        "correct": false
+      }
+    ],
+    "related": ["big-five", "personality", "left-right-brain"],
+    "sources": [{ "label": "McCrae & Costa (1992)", "year": 1992 }]
+  },
+  {
+    "id": "q-personality-6",
+    "term": "关于 MBTI（16型）与大五人格，主流心理学更支持的立场是？",
+    "termEn": "On MBTI (16 types) vs the Big Five, what does mainstream psychology lean toward?",
+    "oneLiner": "流行工具与科学框架的差别。",
+    "oneLinerEn": "The gap between a popular tool and a scientific framework.",
+    "detail": "大五（OCEAN）因重测稳定、可跨文化验证、对行为预测更强，被主流更倚重；MBTI 易懂、非贬义、适合破冰，但信度较低、把连续特质切成非此即彼。两者都可辅助自我觉察，但 MBTI 不宜作为能力或招聘的科学依据。",
+    "detailEn": "The Big Five is favored for stability, cross-cultural validity and predictive power; MBTI is easy, non-judgmental and good for icebreaking, but less reliable and splits continuous traits into either/or. Both aid self-reflection, yet MBTI shouldn't be a scientific basis for ability or hiring.",
+    "options": [
+      {
+        "text": "MBTI 比大五更科学、可直接用于招聘",
+        "textEn": "MBTI is more scientific and fit for hiring",
+        "correct": false
+      },
+      {
+        "text": "大五更受主流倚重；MBTI 适合作谈资而非定论",
+        "textEn": "Big Five is favored; MBTI is talk, not verdict",
+        "correct": true
+      },
+      {
+        "text": "两者都被证明无效",
+        "textEn": "Both are proven invalid",
+        "correct": false
+      }
+    ],
+    "related": ["big-five", "personality", "mbti"],
+    "sources": [{ "label": "McCrae & Costa (1992)", "year": 1992 }]
+  }
+]

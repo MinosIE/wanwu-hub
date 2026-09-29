@@ -4,432 +4,133 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>万物通识系列 — 系列入口</title>
-<meta name="description" content="万物通识系列聚合入口：一个入口看尽中华历史与六大学科（心理·哲学·地理·生物·物理·化学）的系列项目导航。">
+<meta name="description" content="万物通识系列统一入口：一个入口看尽中华历史与六大学科（心理·哲学·地理·生物·物理·化学）的系列项目导航。">
 <meta property="og:title" content="万物通识系列">
 <meta property="og:description" content="一个入口，看尽万物 —— 系列聚合导航站">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%90%3C/text%3E%3C/svg%3E">
+<script>
+  // 防闪：在样式应用前同步主题与语言
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+      var l = localStorage.getItem("lang");
+      if (!l) l = (navigator.language || "zh").toLowerCase().startsWith("en") ? "en" : "zh";
+      document.documentElement.lang = l === "en" ? "en" : "zh-CN";
+      document.documentElement.setAttribute("data-lang", l);
+    } catch (e) {}
+  })();
+</script>
 <style>
   :root, :root[data-theme="dark"] {
-    --bg: #0f1419;
-    --card: #1a2028;
-    --text: #e6e6e6;
-    --muted: #9aa5b1;
-    --accent: #d4a556;
-    --teal: #2dd4bf;
-    --border: #2a3441;
+    --bg: #0a1424; --card: #121d31; --text: #e8eef7; --muted: #8ea4c4;
+    --accent: #3b82f6; --teal: #38bdf8; --border: #20324d;
   }
   :root[data-theme="light"] {
-    --bg: #f4f6f9;
-    --card: #ffffff;
-    --text: #1a2028;
-    --muted: #5b6675;
-    --accent: #b8862f;
-    --teal: #0d9488;
-    --border: #e2e8f0;
+    --bg: #f6f9fc; --card: #ffffff; --text: #0a2540; --muted: #5b7290;
+    --accent: #2563eb; --teal: #0ea5e9; --border: #dce6f2;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    background: var(--bg);
-    color: var(--text);
+    background: var(--bg); color: var(--text);
     font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-    line-height: 1.7;
-    padding: 40px 20px;
-    max-width: 1080px;
-    margin: 0 auto;
-    transition: background .3s, color .3s;
+    line-height: 1.7; min-height: 100vh; transition: background .3s, color .3s;
   }
-  header { text-align: center; margin-bottom: 32px; }
-  h1 {
-    font-size: 2.2rem;
-    font-weight: 600;
-    background: linear-gradient(90deg, var(--teal), var(--accent));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-bottom: 8px;
+  html { scroll-behavior: smooth; }
+  #app { margin: 0 auto; padding: 24px 20px 0; }
+
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 0 20px; border-bottom: 1px solid var(--border); margin-bottom: 28px;
   }
-  .subtitle { color: var(--muted); font-size: 0.95rem; }
-  .intro {
-    color: var(--muted); font-size: 0.95rem;
-    max-width: 720px; margin: 16px auto 0; line-height: 1.8;
-  }
-  .toolbar {
-    display: flex; align-items: center; justify-content: center;
-    gap: 16px; margin-top: 22px;
-  }
-  .lang-switch {
-    display: inline-flex; border: 1px solid var(--border);
-    border-radius: 20px; overflow: hidden;
-  }
-  .lang-btn {
-    background: transparent; border: none; color: var(--muted);
-    padding: 6px 16px; font-size: .85rem; cursor: pointer; transition: all .2s;
-  }
-  .lang-btn.active { background: var(--accent); color: #0f1419; font-weight: 600; }
-  .theme-btn {
-    background: transparent; border: 1px solid var(--border);
-    border-radius: 50%; width: 38px; height: 38px; cursor: pointer;
-    font-size: 1rem; line-height: 1; transition: all .2s;
-  }
-  .theme-btn:hover { border-color: var(--accent); }
-  .stats {
-    display: flex; justify-content: center; gap: 32px; flex-wrap: wrap;
-    margin-top: 22px;
-  }
-  .stat { text-align: center; }
-  .stat .num {
-    font-size: 1.6rem; font-weight: 700; color: var(--accent);
+  .brand {
+    font-size: 1.25rem; font-weight: 700; text-decoration: none;
     background: linear-gradient(90deg, var(--teal), var(--accent));
     -webkit-background-clip: text; background-clip: text; color: transparent;
   }
-  .stat .label { font-size: 0.8rem; color: var(--muted); }
+  .toolbar { display: flex; align-items: center; gap: 14px; }
+  .lang-switch { display: inline-flex; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; }
+  .lang-btn { background: transparent; border: none; color: var(--muted); padding: 6px 16px; font-size: .85rem; cursor: pointer; transition: all .2s; }
+  .lang-btn.active { background: var(--accent); color: #fff; font-weight: 600; }
+  .theme-btn { background: transparent; border: 1px solid var(--border); border-radius: 50%; width: 38px; height: 38px; cursor: pointer; font-size: 1rem; line-height: 1; transition: all .2s; }
+  .theme-btn:hover { border-color: var(--accent); }
 
-  .nav {
-    display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
-    margin: 28px 0 36px;
+  .hero {
+    text-align: center; margin-bottom: 28px; position: relative; overflow: hidden;
+    padding: 32px 24px 28px; border: 1px solid var(--border); border-radius: 18px;
+    background:
+      radial-gradient(120% 120% at 50% -10%, rgba(56, 189, 248, .14), transparent 55%),
+      radial-gradient(100% 100% at 100% 0%, rgba(59, 130, 246, .10), transparent 60%);
   }
-  .nav a {
-    text-decoration: none; color: var(--muted);
-    border: 1px solid var(--border); border-radius: 20px;
-    padding: 6px 18px; font-size: 0.85rem; transition: all .2s;
-  }
+  .hero h1 { font-size: 2.6rem; font-weight: 700; letter-spacing: .5px; background: linear-gradient(90deg, var(--teal), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero .subtitle { color: var(--text); font-size: 1.05rem; margin-top: 8px; opacity: .9; }
+  .hero .intro { color: var(--muted); font-size: .95rem; max-width: 720px; margin: 14px auto 0; line-height: 1.8; }
+  .stats { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin-top: 24px; }
+  .stat { min-width: 130px; padding: 14px 22px; border: 1px solid var(--border); border-radius: 12px; background: rgba(255, 255, 255, .03); }
+  .stat .num { font-size: 1.8rem; font-weight: 700; background: linear-gradient(90deg, var(--teal), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .stat .label { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+
+  .nav { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin: 24px 0 32px; }
+  .nav a { text-decoration: none; color: var(--muted); border: 1px solid var(--border); border-radius: 20px; padding: 6px 18px; font-size: .85rem; transition: all .2s; }
   .nav a:hover { color: var(--accent); border-color: var(--accent); }
 
-  .section { margin-bottom: 48px; }
-  .section h2 {
-    font-size: 1.25rem;
-    color: var(--accent);
-    border-left: 3px solid var(--accent);
-    padding-left: 12px;
-    margin-bottom: 20px;
-  }
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
+  .section { margin-bottom: 44px; }
+  .section h2 { font-size: 1.25rem; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 12px; margin-bottom: 18px; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
   .card {
-    position: relative;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 24px;
-    transition: transform .2s, border-color .2s, background .3s;
+    position: relative; background: var(--card); border: 1px solid var(--border);
+    border-top: 3px solid var(--teal); border-radius: 12px; padding: 24px;
+    transition: transform .2s, border-color .2s, box-shadow .2s, background .3s;
     display: flex; flex-direction: column;
   }
-  .card:hover { transform: translateY(-3px); border-color: var(--accent); }
-  .card.soon { opacity: .72; }
+  .card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 10px 30px rgba(0, 0, 0, .18); }
+  .card.soon { opacity: .82; border-top-color: var(--border); }
   .card .emoji { font-size: 2rem; margin-bottom: 8px; }
+  .card.featured { flex-direction: row; align-items: center; gap: 28px; }
+  .card.featured .emoji { font-size: 4rem; margin: 0; flex: 0 0 auto; }
+  .card.featured .card-main { flex: 1; display: flex; flex-direction: column; }
+  .card.featured .desc { margin: 8px 0; }
   .card h3 { font-size: 1.15rem; color: var(--teal); margin-bottom: 2px; }
-  .card .sub-en { color: var(--muted); font-size: 0.82rem; margin-bottom: 10px; }
-  .card .repo {
-    font-family: "SF Mono", Consolas, monospace;
-    font-size: 0.88rem;
-    color: var(--accent);
-    margin-bottom: 10px;
-  }
-  .card .reason { color: var(--muted); font-size: 0.85rem; margin-top: 4px; flex-grow: 1; }
+  .card .sub-en { color: var(--muted); font-size: .82rem; margin-bottom: 8px; }
+  .card .desc { color: var(--muted); font-size: .9rem; line-height: 1.7; margin: 6px 0 4px; flex-grow: 1; }
   .card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
-  .chip {
-    font-size: 0.72rem; color: var(--muted);
-    background: rgba(154,165,177,.12);
-    border: 1px solid var(--border);
-    padding: 2px 9px; border-radius: 10px;
-  }
-
-  .status {
-    display: inline-block; font-size: 0.72rem; padding: 2px 10px;
-    border-radius: 12px; margin-left: 8px; vertical-align: middle;
-  }
-  .status.online { background: rgba(45,212,191,.15); color: var(--teal); }
-  .status.first { background: rgba(212,165,86,.18); color: var(--accent); }
-  .status.soon { background: rgba(154,165,177,.15); color: var(--muted); }
-
-  .gh-link {
-    position: relative; z-index: 2;
-    display: inline-block; margin-top: 4px;
-    font-size: 0.82rem; color: var(--accent); text-decoration: none;
-  }
+  .chip { font-size: .72rem; color: var(--muted); background: rgba(154,165,177,.12); border: 1px solid var(--border); padding: 2px 9px; border-radius: 10px; }
+  .status { display: inline-block; font-size: .72rem; padding: 2px 10px; border-radius: 12px; margin-left: 8px; vertical-align: middle; }
+  .status.online { background: rgba(56,189,248,.15); color: var(--teal); }
+  .status.first { background: rgba(59,130,246,.16); color: var(--accent); }
+  .status.soon { background: rgba(142,164,196,.15); color: var(--muted); }
+  .status.wip { background: rgba(59,130,246,.12); color: var(--accent); }
+  .gh-link { position: relative; z-index: 2; display: inline-block; margin-top: 4px; font-size: .82rem; color: var(--accent); text-decoration: none; }
   .gh-link:hover { text-decoration: underline; }
-
-  .btn {
-    display: inline-block; margin-top: 16px; text-decoration: none;
-    background: var(--accent); color: #0f1419; font-weight: 600;
-    padding: 8px 16px; border-radius: 8px; font-size: 0.85rem;
-    transition: opacity .2s; text-align: center;
-    position: relative; z-index: 2;
-  }
+  .btn { display: inline-block; margin-top: 16px; text-decoration: none; background: var(--accent); color: #fff; font-weight: 600; padding: 8px 16px; border-radius: 8px; font-size: .85rem; transition: opacity .2s; text-align: center; position: relative; z-index: 2; }
   .btn:hover { opacity: .85; }
-  .btn.stretched-link::after {
-    content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 1;
-  }
-  .btn.disabled {
-    background: transparent; color: var(--muted);
-    border: 1px solid var(--border); cursor: not-allowed; pointer-events: none;
-  }
+  .btn.disabled { background: transparent; color: var(--muted); border: 1px solid var(--border); cursor: not-allowed; pointer-events: none; }
+  code { font-family: "SF Mono", Consolas, monospace; background: rgba(154,165,177,.15); padding: 2px 6px; border-radius: 4px; font-size: .88em; color: var(--teal); }
+  .note { background: rgba(59,130,246,.08); border: 1px dashed var(--border); border-radius: 12px; padding: 16px 20px; color: var(--muted); font-size: .85rem; margin-top: 16px; }
 
-  code {
-    font-family: "SF Mono", Consolas, monospace;
-    background: rgba(154,165,177,.15);
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 0.88em;
-    color: var(--teal);
-  }
-  .note {
-    background: rgba(212,165,86,.08);
-    border: 1px dashed var(--border);
-    border-radius: 12px;
-    padding: 16px 20px;
-    color: var(--muted);
-    font-size: 0.85rem;
-    margin-top: 16px;
-  }
-  footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 60px; }
+  /* subject 内部（dynasty 等） */
+  .subject .sub-head { margin-bottom: 20px; }
+  .subject .sub-head h2 { font-size: 1.6rem; color: var(--teal); }
+  .subject .sub-head p { color: var(--muted); }
+  .subject .era { font-size: .72rem; color: var(--accent); letter-spacing: .05em; text-transform: uppercase; }
+  .subject .years { color: var(--muted); font-size: .82rem; margin: 2px 0 8px; font-family: "SF Mono", Consolas, monospace; }
+
+  .soon-wrap { text-align: center; padding: 80px 20px; color: var(--muted); }
+  .soon-wrap h2 { font-size: 1.6rem; color: var(--accent); margin-bottom: 10px; }
+
+  .site-footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 40px 0; }
+  .subject-frame { width: 100%; min-height: 86vh; border: 0; background: var(--bg); }
+  /* subject（dynasty / econ / mind 等）页面全宽，首页保持 1080px 卡片布局 */
+  #app.subject-mode { max-width: none; padding: 0; }
+  /* subject 模式（iframe 学科页）：去掉硬分隔线，对齐左右安全边距 */
+  #app.subject-mode .topbar { margin-bottom: 0; border-bottom-color: transparent; padding-left: 24px; padding-right: 24px; }
+  #app.subject-mode .site-footer { padding-left: 24px; padding-right: 24px; }
 </style>
 </head>
 <body>
-
-<header>
-  <h1 data-i18n="h1">万物通识系列</h1>
-  <p class="subtitle" data-i18n="subtitle">一个入口，看尽万物 —— 系列聚合导航站</p>
-  <p class="intro" data-i18n-html="intro">万物通识是一组围绕「通识教育 + 可视化」构建的开源项目集合：从中华千年历史脉络，延伸到心理、哲学、地理、生物、物理、化学六大学科。这里汇总所有子项目的入口，方便你一处抵达。</p>
-  <div class="toolbar">
-    <div class="lang-switch">
-      <button class="lang-btn" data-lang="zh">中</button>
-      <button class="lang-btn" data-lang="en">EN</button>
-    </div>
-    <button class="theme-btn" id="themeBtn" aria-label="切换明暗主题">☀️</button>
-  </div>
-  <div class="stats">
-    <div class="stat"><div class="num">8</div><div class="label" data-i18n="stat_projects">子项目</div></div>
-    <div class="stat"><div class="num">6</div><div class="label" data-i18n="stat_fields">学科领域</div></div>
-    <div class="stat"><div class="num">2</div><div class="label" data-i18n="stat_lines">命名主线</div></div>
-  </div>
-</header>
-
-<nav class="nav">
-  <a href="#line-timeline" data-i18n="nav_timeline">历史 · 脉络线</a>
-  <a href="#line-wanwu" data-i18n="nav_wanwu">万物线</a>
-</nav>
-
-<div class="section" id="line-timeline">
-  <h2 data-i18n="sec_timeline">历史 · 脉络线</h2>
-  <div class="card-grid">
-    <div class="card">
-      <div class="emoji">📜</div>
-      <h3 data-i18n="h3_dynasty">中华王朝</h3>
-      <div class="sub-en" data-i18n="sub_dynasty">千年脉络</div>
-      <div class="repo"><span class="repo-name">chinese-dynasty-timeline</span> <span class="status online" data-i18n="st_online">已上线</span></div>
-      <a class="gh-link" data-i18n="btn_repo" href="https://github.com/MinosIE/chinese-dynasty-timeline" target="_blank" rel="noopener">GitHub 仓库 ↗</a>
-      <p class="reason" data-i18n-html="reason_dynasty">中文走「诗意主标题 + 脉络」路线；仓库走 <code>[主题]-[形态]</code> 路线。时间轴形态的可视化骨架。</p>
-      <div class="tags" data-i18n-html="tags_dynasty"><span class="chip">朝代</span><span class="chip">帝王</span><span class="chip">大事件</span><span class="chip">时间轴</span></div>
-      <a class="btn stretched-link" data-i18n="btn_site" href="https://minosie.github.io/chinese-dynasty-timeline/" target="_blank" rel="noopener">访问站点 ↗</a>
-    </div>
-  </div>
-</div>
-
-<div class="section" id="line-wanwu">
-  <h2 data-i18n="sec_wanwu">万物线</h2>
-  <div class="card-grid">
-
-    <div class="card">
-      <div class="emoji">💰</div>
-      <h3 data-i18n="h3_econ">万物经济学</h3>
-      <div class="sub-en" data-i18n="sub_econ">供需之间看世界</div>
-      <div class="repo"><span class="repo-name">econ-everything</span> <span class="status first" data-i18n="st_first">系列首作</span></div>
-      <a class="gh-link" data-i18n="btn_repo" href="https://github.com/MinosIE/econ-everything" target="_blank" rel="noopener">GitHub 仓库 ↗</a>
-      <p class="reason" data-i18n-html="reason_econ">万物线首作。中文走「万物系列」路线；仓库走 <code>[主题]-everything</code> 路线。</p>
-      <div class="tags" data-i18n-html="tags_econ"><span class="chip">供需</span><span class="chip">市场</span><span class="chip">货币</span><span class="chip">行为</span></div>
-      <a class="btn stretched-link" data-i18n="btn_site" href="https://minosie.github.io/econ-everything/" target="_blank" rel="noopener">访问站点 ↗</a>
-    </div>
-
-    <div class="card soon">
-      <div class="emoji">🧠</div>
-      <h3 data-i18n="h3_mind">万物心理学</h3>
-      <div class="sub-en" data-i18n="sub_mind">读懂人心</div>
-      <div class="repo"><span class="repo-name">mind-everything</span> <span class="status soon" data-i18n="st_soon">敬请期待</span></div>
-      <p class="reason" data-i18n-html="reason_mind">mind 比 psyche 更亲民；可拆解为核心流派、认知偏差、著名实验、心理学家词典、生活应用等模块。</p>
-      <div class="tags" data-i18n-html="tags_mind"><span class="chip">流派</span><span class="chip">认知偏差</span><span class="chip">实验</span><span class="chip">生活应用</span></div>
-      <a class="btn disabled" data-i18n="btn_soon" href="#">敬请期待</a>
-    </div>
-
-    <div class="card soon">
-      <div class="emoji">🏛️</div>
-      <h3 data-i18n="h3_thought">万物哲学</h3>
-      <div class="sub-en" data-i18n="sub_thought">思想长河</div>
-      <div class="repo"><span class="repo-name">thought-everything</span> <span class="status soon" data-i18n="st_soon">敬请期待</span></div>
-      <p class="reason" data-i18n-html="reason_thought">thought 短且通用；可按「东西方哲学家—流派—核心命题—经典著作」组织，与历史项目的时间轴形态天然呼应。</p>
-      <div class="tags" data-i18n-html="tags_thought"><span class="chip">东西方</span><span class="chip">流派</span><span class="chip">核心命题</span><span class="chip">经典著作</span></div>
-      <a class="btn disabled" data-i18n="btn_soon" href="#">敬请期待</a>
-    </div>
-
-    <div class="card soon">
-      <div class="emoji">🌍</div>
-      <h3 data-i18n="h3_earth">万物地理</h3>
-      <div class="sub-en" data-i18n="sub_earth">山河经纬</div>
-      <div class="repo"><span class="repo-name">earth-everything</span> <span class="status soon" data-i18n="st_soon">敬请期待</span></div>
-      <p class="reason" data-i18n-html="reason_earth">earth 覆盖自然+人文地理；可做地形图鉴、气候带、国家档案、世界河流山脉排名等。</p>
-      <div class="tags" data-i18n-html="tags_earth"><span class="chip">地形</span><span class="chip">气候带</span><span class="chip">国家档案</span><span class="chip">河流山脉</span></div>
-      <a class="btn disabled" data-i18n="btn_soon" href="#">敬请期待</a>
-    </div>
-
-    <div class="card soon">
-      <div class="emoji">🧬</div>
-      <h3 data-i18n="h3_life">万物生物</h3>
-      <div class="sub-en" data-i18n="sub_life">生命之树</div>
-      <div class="repo"><span class="repo-name">life-everything</span> <span class="status soon" data-i18n="st_soon">敬请期待</span></div>
-      <p class="reason" data-i18n-html="reason_life">life 更宏观，能容纳演化史、分类学、细胞、遗传、生态等子模块，「生命之树」本身就是现成的可视化骨架。</p>
-      <div class="tags" data-i18n-html="tags_life"><span class="chip">演化</span><span class="chip">分类学</span><span class="chip">细胞</span><span class="chip">生态</span></div>
-      <a class="btn disabled" data-i18n="btn_soon" href="#">敬请期待</a>
-    </div>
-
-    <div class="card soon">
-      <div class="emoji">⚛️</div>
-      <h3 data-i18n="h3_physics">万物物理</h3>
-      <div class="sub-en" data-i18n="sub_physics">万物之理</div>
-      <div class="repo"><span class="repo-name">physics-everything</span> <span class="status soon" data-i18n="st_soon">敬请期待</span></div>
-      <p class="reason" data-i18n-html="reason_physics">「万物之理」在中文里几乎是为物理定制的双关；可做物理定律时间轴、常数表、著名实验、物理学家群像。</p>
-      <div class="tags" data-i18n-html="tags_physics"><span class="chip">定律</span><span class="chip">常数</span><span class="chip">实验</span><span class="chip">物理学家</span></div>
-      <a class="btn disabled" data-i18n="btn_soon" href="#">敬请期待</a>
-    </div>
-
-    <div class="card soon">
-      <div class="emoji">🧪</div>
-      <h3 data-i18n="h3_chem">万物化学</h3>
-      <div class="sub-en" data-i18n="sub_chem">物质之变</div>
-      <div class="repo"><span class="repo-name">chem-everything</span> <span class="status soon" data-i18n="st_soon">敬请期待</span></div>
-      <p class="reason" data-i18n-html="reason_chem">与 <code>econ-everything</code> 节奏完全对仗；元素周期表、化学反应、化学家、材料史都是现成的数据结构。</p>
-      <div class="tags" data-i18n-html="tags_chem"><span class="chip">元素</span><span class="chip">反应</span><span class="chip">材料</span><span class="chip">化学家</span></div>
-      <a class="btn disabled" data-i18n="btn_soon" href="#">敬请期待</a>
-    </div>
-
-  </div>
-</div>
-
-<div class="note" data-i18n-html="note">
-  💡 本仓库即系列入口站（万物通识），聚合所有项目导航。
-  历史·脉络线沿用 <code>[主题]-[形态]</code> 命名；万物线统一 <code>[主题]-everything</code>。
-  已上线项目接入线上站点与 GitHub 仓库跳转；规划中项目上线后，把对应仓库链接填入卡片即可。
-</div>
-
-<footer data-i18n="footer">万物通识系列入口 · 2026</footer>
-
-<script>
-  const i18n = {
-    zh: {
-      title: "万物通识系列 — 系列入口",
-      h1: "万物通识系列",
-      subtitle: "一个入口，看尽万物 —— 系列聚合导航站",
-      intro: "万物通识是一组围绕「通识教育 + 可视化」构建的开源项目集合：从中华千年历史脉络，延伸到心理、哲学、地理、生物、物理、化学六大学科。这里汇总所有子项目的入口，方便你一处抵达。",
-      stat_projects: "子项目", stat_fields: "学科领域", stat_lines: "命名主线",
-      nav_timeline: "历史 · 脉络线", nav_wanwu: "万物线",
-      sec_timeline: "历史 · 脉络线", sec_wanwu: "万物线",
-      st_online: "已上线", st_first: "系列首作", st_soon: "敬请期待",
-      btn_repo: "GitHub 仓库 ↗", btn_site: "访问站点 ↗", btn_soon: "敬请期待",
-      h3_dynasty: "中华王朝", sub_dynasty: "千年脉络",
-      reason_dynasty: "中文走「诗意主标题 + 脉络」路线；仓库走 <code>[主题]-[形态]</code> 路线。时间轴形态的可视化骨架。",
-      tags_dynasty: "<span class=\"chip\">朝代</span><span class=\"chip\">帝王</span><span class=\"chip\">大事件</span><span class=\"chip\">时间轴</span>",
-      h3_econ: "万物经济学", sub_econ: "供需之间看世界",
-      reason_econ: "万物线首作。中文走「万物系列」路线；仓库走 <code>[主题]-everything</code> 路线。",
-      tags_econ: "<span class=\"chip\">供需</span><span class=\"chip\">市场</span><span class=\"chip\">货币</span><span class=\"chip\">行为</span>",
-      h3_mind: "万物心理学", sub_mind: "读懂人心",
-      reason_mind: "mind 比 psyche 更亲民；可拆解为核心流派、认知偏差、著名实验、心理学家词典、生活应用等模块。",
-      tags_mind: "<span class=\"chip\">流派</span><span class=\"chip\">认知偏差</span><span class=\"chip\">实验</span><span class=\"chip\">生活应用</span>",
-      h3_thought: "万物哲学", sub_thought: "思想长河",
-      reason_thought: "thought 短且通用；可按「东西方哲学家—流派—核心命题—经典著作」组织，与历史项目的时间轴形态天然呼应。",
-      tags_thought: "<span class=\"chip\">东西方</span><span class=\"chip\">流派</span><span class=\"chip\">核心命题</span><span class=\"chip\">经典著作</span>",
-      h3_earth: "万物地理", sub_earth: "山河经纬",
-      reason_earth: "earth 覆盖自然+人文地理；可做地形图鉴、气候带、国家档案、世界河流山脉排名等。",
-      tags_earth: "<span class=\"chip\">地形</span><span class=\"chip\">气候带</span><span class=\"chip\">国家档案</span><span class=\"chip\">河流山脉</span>",
-      h3_life: "万物生物", sub_life: "生命之树",
-      reason_life: "life 更宏观，能容纳演化史、分类学、细胞、遗传、生态等子模块，「生命之树」本身就是现成的可视化骨架。",
-      tags_life: "<span class=\"chip\">演化</span><span class=\"chip\">分类学</span><span class=\"chip\">细胞</span><span class=\"chip\">生态</span>",
-      h3_physics: "万物物理", sub_physics: "万物之理",
-      reason_physics: "「万物之理」在中文里几乎是为物理定制的双关；可做物理定律时间轴、常数表、著名实验、物理学家群像。",
-      tags_physics: "<span class=\"chip\">定律</span><span class=\"chip\">常数</span><span class=\"chip\">实验</span><span class=\"chip\">物理学家</span>",
-      h3_chem: "万物化学", sub_chem: "物质之变",
-      reason_chem: "与 <code>econ-everything</code> 节奏完全对仗；元素周期表、化学反应、化学家、材料史都是现成的数据结构。",
-      tags_chem: "<span class=\"chip\">元素</span><span class=\"chip\">反应</span><span class=\"chip\">材料</span><span class=\"chip\">化学家</span>",
-      note: "💡 本仓库即系列入口站（万物通识），聚合所有项目导航。历史·脉络线沿用 <code>[主题]-[形态]</code> 命名；万物线统一 <code>[主题]-everything</code>。已上线项目接入线上站点与 GitHub 仓库跳转；规划中项目上线后，把对应仓库链接填入卡片即可。",
-      footer: "万物通识系列入口 · 2026"
-    },
-    en: {
-      title: "Wanwu Tongsheng Series — Hub",
-      h1: "Wanwu Tongsheng Series",
-      subtitle: "One hub to explore everything — the series portal",
-      intro: "Wanwu Tongsheng is a collection of open-source projects built around 'general education + visualization': from millennia of Chinese history to six disciplines — psychology, philosophy, geography, biology, physics, and chemistry. This hub gathers every sub-project's entry point in one place.",
-      stat_projects: "Projects", stat_fields: "Fields", stat_lines: "Naming Lines",
-      nav_timeline: "Timeline", nav_wanwu: "Everything Line",
-      sec_timeline: "Timeline", sec_wanwu: "Everything Line",
-      st_online: "Online", st_first: "First Work", st_soon: "Coming Soon",
-      btn_repo: "GitHub Repo ↗", btn_site: "Visit Site ↗", btn_soon: "Coming Soon",
-      h3_dynasty: "Chinese Dynasties", sub_dynasty: "A Millennia of Lineage",
-      reason_dynasty: "Chinese uses a poetic title + lineage style; repos follow <code>[topic]-[form]</code>. A timeline-based visualization skeleton.",
-      tags_dynasty: "<span class=\"chip\">Dynasties</span><span class=\"chip\">Emperors</span><span class=\"chip\">Events</span><span class=\"chip\">Timeline</span>",
-      h3_econ: "Economics of Everything", sub_econ: "The World through Supply & Demand",
-      reason_econ: "The first of the Everything line. Chinese follows the 'Wanwu series' style; repos use <code>[topic]-everything</code>.",
-      tags_econ: "<span class=\"chip\">Supply</span><span class=\"chip\">Market</span><span class=\"chip\">Money</span><span class=\"chip\">Behavior</span>",
-      h3_mind: "Mind of Everything", sub_mind: "Understanding the Mind",
-      reason_mind: "Mind reads friendlier than psyche; modularize into schools, cognitive biases, famous experiments, a psychologist dictionary, and daily-life applications.",
-      tags_mind: "<span class=\"chip\">Schools</span><span class=\"chip\">Biases</span><span class=\"chip\">Experiments</span><span class=\"chip\">Life</span>",
-      h3_thought: "Thought of Everything", sub_thought: "The River of Thought",
-      reason_thought: "Thought is short and generic; organize by philosophers—schools—core questions—classics, naturally echoing the timeline format.",
-      tags_thought: "<span class=\"chip\">East-West</span><span class=\"chip\">Schools</span><span class=\"chip\">Questions</span><span class=\"chip\">Classics</span>",
-      h3_earth: "Earth of Everything", sub_earth: "Mountains, Rivers & Coordinates",
-      reason_earth: "Earth covers physical and human geography; build terrain atlases, climate zones, country profiles, and river/mountain rankings.",
-      tags_earth: "<span class=\"chip\">Terrain</span><span class=\"chip\">Climate</span><span class=\"chip\">Countries</span><span class=\"chip\">Rivers</span>",
-      h3_life: "Life of Everything", sub_life: "The Tree of Life",
-      reason_life: "Life is broader, holding evolution, taxonomy, cells, genetics, and ecology; the Tree of Life is a ready-made visualization skeleton.",
-      tags_life: "<span class=\"chip\">Evolution</span><span class=\"chip\">Taxonomy</span><span class=\"chip\">Cells</span><span class=\"chip\">Ecology</span>",
-      h3_physics: "Physics of Everything", sub_physics: "The Order of All Things",
-      reason_physics: "'Order of all things' is almost a pun tailor-made for physics; build law timelines, constant tables, famed experiments, and physicist portraits.",
-      tags_physics: "<span class=\"chip\">Laws</span><span class=\"chip\">Constants</span><span class=\"chip\">Experiments</span><span class=\"chip\">Physicists</span>",
-      h3_chem: "Chemistry of Everything", sub_chem: "The Transformations of Matter",
-      reason_chem: "Rhymes perfectly with <code>econ-everything</code>; the periodic table, reactions, chemists, and material history are ready-made data structures.",
-      tags_chem: "<span class=\"chip\">Elements</span><span class=\"chip\">Reactions</span><span class=\"chip\">Materials</span><span class=\"chip\">Chemists</span>",
-      note: "💡 This repository is the series hub, aggregating navigation for all projects. The timeline line uses <code>[topic]-[form]</code>; the Everything line uses <code>[topic]-everything</code>. Live projects link to their site and GitHub repo; for planned ones, just fill in the repo link when ready.",
-      footer: "Wanwu Tongsheng Series Hub · 2026"
-    }
-  };
-
-  function applyLang(lang) {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const k = el.dataset.i18n;
-      if (i18n[lang][k] != null) el.textContent = i18n[lang][k];
-    });
-    document.querySelectorAll('[data-i18n-html]').forEach(el => {
-      const k = el.dataset.i18nHtml;
-      if (i18n[lang][k] != null) el.innerHTML = i18n[lang][k];
-    });
-    document.title = i18n[lang].title;
-    document.querySelectorAll('.lang-btn').forEach(b =>
-      b.classList.toggle('active', b.dataset.lang === lang));
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    localStorage.setItem('lang', lang);
-  }
-
-  function applyTheme(theme) {
-    document.documentElement.dataset.theme = theme;
-    const tb = document.getElementById('themeBtn');
-    tb.textContent = theme === 'dark' ? '☀️' : '🌙';
-    localStorage.setItem('theme', theme);
-  }
-
-  const savedLang = localStorage.getItem('lang') || 'zh';
-  const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-  const savedTheme = localStorage.getItem('theme') || (prefersLight ? 'light' : 'dark');
-
-  applyLang(savedLang);
-  applyTheme(savedTheme);
-
-  document.querySelectorAll('.lang-btn').forEach(b =>
-    b.addEventListener('click', () => applyLang(b.dataset.lang)));
-  document.getElementById('themeBtn').addEventListener('click', () =>
-    applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
-</script>
-
+<div id="app"></div>
+<script type="module" src="/src/main.ts"></script>
 </body>
 </html>
