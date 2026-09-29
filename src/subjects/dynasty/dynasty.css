@@ -1,8 +1,8 @@
 .dynasty-root {
-  --brand: #d4351c;
-  --brand-d: #b82e18;
-  --brand-100: #fbeae6;
-  --brand-50: #fdf4f1;
+  --brand: #2563eb;
+  --brand-d: #1d4ed8;
+  --brand-100: #e6effe;
+  --brand-50: #f3f8ff;
   --ink-900: #0a2540;
   --ink-700: #1a3a5c;
   --ink-500: #425466;
@@ -11,7 +11,7 @@
   --ink-200: #c1c9d2;
   --ink-100: #e3e8ee;
   --ink-50: #f6f9fc;
-  --gold: #c79a3a;
+  --gold: #38bdf8;
 
   --r1: 8px;
   --r2: 12px;
@@ -43,14 +43,14 @@
   --text-mute: #6b7d93;
   --border: #21354b;
   --chip-bg: #16273b;
-  --brand-50: #2a1410;
-  --brand-100: #4a1d14;
+  --brand-50: #16263f;
+  --brand-100: #1e3a5f;
   --emp-bg: #2a1410;
   --emp-border: #4a1d14;
   --etag-bg: #0f1d2e;
   --ink-100: #16273b;
   --ink-50: #0f1d2e;
-  --gold: #d9b65a;
+  --gold: #38bdf8;
 
   --s-soft: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.34);
   --s-card: 0 1px 3px rgba(0, 0, 0, 0.35), 0 8px 24px rgba(0, 0, 0, 0.4);

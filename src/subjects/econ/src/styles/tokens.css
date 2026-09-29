@@ -4,12 +4,12 @@
    明暗两套变量必须成对维护。
    ============================================================ */
 :root {
-  --brand: #0e7490;
-  --brand-d: #0b5e77;
-  --brand-l: #38a3bd;
-  --brand-50: #eaf6f9;
-  --brand-100: #d2ebf1;
-  --gold: #c79a3a;
+  --brand: #2563eb;
+  --brand-d: #1d4ed8;
+  --brand-l: #38bdf8;
+  --brand-50: #f3f8ff;
+  --brand-100: #e6effe;
+  --gold: #38bdf8;
   --gold-d: #9a7523;
   --gold-50: #fbf3e2;
 
@@ -63,8 +63,8 @@
   --chip-bg: #162f3a;
   --mark-bg: #4a3c14;
 
-  --brand-50: #0d2a33;
-  --brand-100: #12414f;
+  --brand-50: #16263f;
+  --brand-100: #1e3a5f;
   --gold-50: #2a2311;
   --ink-50: #0b1c26;
   --ink-100: #1b3540;
