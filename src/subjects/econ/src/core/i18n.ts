@@ -13,6 +13,13 @@ export const I18N: Record<Lang, typeof zh> = { zh, en };
 let lang: Lang = 'zh';
 const listeners: ((l: Lang) => void)[] = [];
 
+/** 在 wanwu 主应用内嵌时，econ 的静态文案只应作用在它自己的根节点下，
+ *  否则会覆盖主应用顶栏/页脚的 data-i18n 文本。挂载时由 index.ts 注入。 */
+let i18nRoot: ParentNode = document;
+export function setI18nRoot(r: ParentNode): void {
+  i18nRoot = r;
+}
+
 function detectLang(): Lang {
   try {
     const q = new URLSearchParams(location.search).get('lang');
@@ -73,13 +80,13 @@ export function L<T = string>(o: LObj | undefined | null, key: string): T {
   return o[key] as T;
 }
 
-/** 把 `data-i18n` / `data-i18n-attr` 节点按当前语言重写。 */
+/** 把 `data-i18n` / `data-i18n-attr` 节点按当前语言重写（仅限 econ 根内）。 */
 export function applyStaticLang(): void {
-  document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
+  i18nRoot.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
     if (key) el.textContent = t(key);
   });
-  document.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((el) => {
+  i18nRoot.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((el) => {
     const spec = el.dataset.i18nAttr || '';
     spec.split(',').forEach((pair) => {
       const [attr, key] = pair.split(':').map((s) => s.trim());

@@ -3,7 +3,7 @@
    品牌色：深青（财经·冷静·可信）+ 琥珀金（价值·重点）
    明暗两套变量必须成对维护。
    ============================================================ */
-:root {
+.econ-root {
   --brand: #0e7490;
   --brand-d: #0b5e77;
   --brand-l: #38a3bd;
@@ -51,7 +51,7 @@
   --nav-h: 58px;
 }
 
-:root[data-theme='dark'] {
+.econ-root[data-theme='dark'] {
   --bg: #0b1c26;
   --surface: #122a35;
   --surface-2: #183642;

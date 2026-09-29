@@ -1,4 +1,3 @@
-import { need } from './dom';
 import { onLangChange, t } from './i18n';
 
 type Theme = 'light' | 'dark';
@@ -17,8 +16,17 @@ function syncLabel(): void {
   btn.setAttribute('title', next === 'dark' ? t('themeToDark') : t('themeToLight'));
 }
 
-export function initTheme(): void {
-  const btn = need('#themeBtn');
+export function initTheme(root: ParentNode = document): void {
+  const btn = root.querySelector<HTMLElement>('#themeBtn');
+  // 主应用内嵌时 #themeBtn 已被主应用顶栏接管，econ 自身的按钮隐藏，此处直接跳过绑定
+  if (!btn) return;
+  const sync = (): void => {
+    const label = root.querySelector<HTMLElement>('#themeLabel');
+    if (!label || !btn) return;
+    const next = currentTheme() === 'light' ? 'dark' : 'light';
+    label.textContent = next === 'dark' ? t('themeToDark') : t('themeToLight');
+    btn.setAttribute('title', next === 'dark' ? t('themeToDark') : t('themeToLight'));
+  };
   btn.addEventListener('click', () => {
     const next: Theme = currentTheme() === 'light' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', next);
@@ -27,7 +35,7 @@ export function initTheme(): void {
     } catch {
       /* 隐私模式下忽略 */
     }
-    syncLabel();
+    sync();
   });
   // 系统主题跟随（用户未手动选择时）
   const mq = matchMedia('(prefers-color-scheme: dark)');
@@ -39,10 +47,10 @@ export function initTheme(): void {
     }
     const next: Theme = ev.matches ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', next);
-    syncLabel();
+    sync();
   });
-  onLangChange(syncLabel);
-  syncLabel();
+  onLangChange(sync);
+  sync();
 }
 
 // 嵌入（iframe）模式下，与宿主 wanwu 顶栏同步主题（共享 localStorage）

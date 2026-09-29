@@ -10,6 +10,7 @@ import {
   initLang,
   onLangChange,
   setLang,
+  setI18nRoot,
   t,
 } from "./core/i18n";
 import { preloadRelated } from "./core/related";
@@ -27,6 +28,11 @@ const instances = new Map<string, ModuleInstance>();
 const pending = new Map<string, Promise<void>>();
 let current = "m-home";
 let booted = false;
+/** 内嵌进主应用时关闭历史写入，避免 econ 改写 location.hash 污染主路由 URL。 */
+let updateHistory = true;
+export function setHistoryUpdate(v: boolean): void {
+  updateHistory = v;
+}
 
 /** 按当前语言生成预填主题/正文的 mailto 链接，唤起默认邮箱客户端。 */
 function mailtoHref(): string {
@@ -75,7 +81,9 @@ function setActive(id: string, entryId?: string): void {
   const def = MODULES.find((m) => m.id === id);
   // 条目级深链：#concepts/opportunity-cost；模块级：#concepts
   const hash = def ? `#${entryId ? `${def.key}/${entryId}` : def.key}` : "";
-  history.replaceState(null, "", hash || location.pathname + location.search);
+  if (updateHistory) {
+    history.replaceState(null, "", hash || location.pathname + location.search);
+  }
 }
 
 function flash(key: string): void {
@@ -109,7 +117,7 @@ async function ensureModule(def: ModuleDef): Promise<void> {
   await pending.get(def.id);
 }
 
-async function activate(
+export async function activate(
   id: string,
   openKey?: string,
   scroll = false,
@@ -233,14 +241,15 @@ function deepLink(): void {
 
 /* ---------------- 启动 ---------------- */
 
-function boot(): void {
+export function boot(root: ParentNode = document): void {
   if (booted) return;
   booted = true;
   if (window.self !== window.top) document.body.classList.add("embedded");
 
+  setI18nRoot(root);
   initLang();
   applyStaticLang();
-  initTheme();
+  initTheme(root);
   initDetail();
   void preloadRelated();
 
@@ -305,8 +314,11 @@ function boot(): void {
     ?.setAttribute("content", t("docDesc"));
 }
 
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", boot);
-} else {
-  boot();
+// 仅在独立运行（econ.html）时自动启动；被主应用内嵌时由 index.ts 显式 boot(root)。
+if (!document.getElementById("app")) {
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => boot());
+  } else {
+    boot();
+  }
 }

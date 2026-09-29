@@ -6,6 +6,7 @@ import { PROJECTS } from "./core/projects";
 import { renderHome } from "./shell/home";
 import * as soon from "./subjects/soon";
 import * as dynasty from "./subjects/dynasty";
+import * as econ from "./subjects/econ";
 
 const app = document.getElementById("app")!;
 let currentCleanup: (() => void) | null = null;
@@ -32,14 +33,19 @@ async function renderView(): Promise<void> {
   app.classList.add("subject-mode");
   const key = route.key;
   app.classList.toggle("subject-dynasty", key === "dynasty");
+  app.classList.toggle("subject-econ", key === "econ");
+  app.classList.toggle("subject-mind", key === "mind");
   if (key === "dynasty") {
     currentCleanup = await dynasty.mount(view);
     return;
   }
-  if (key === "econ" || key === "mind") {
-    const page = key === "econ" ? "econ.html" : "mind.html";
+  if (key === "econ") {
+    currentCleanup = await econ.mount(view, route.sub);
+    return;
+  }
+  if (key === "mind") {
     const sub = route.sub ? `#${route.sub}` : "";
-    view.innerHTML = `<iframe class="subject-frame" src="${import.meta.env.BASE_URL}${page}${sub}" title="${key}"></iframe>`;
+    view.innerHTML = `<iframe class="subject-frame" src="${import.meta.env.BASE_URL}mind.html${sub}" title="mind"></iframe>`;
     return;
   }
   const p = PROJECTS.find((x) => x.key === key);

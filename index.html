@@ -127,6 +127,11 @@
   /* subject 模式（iframe 学科页）：去掉硬分隔线，对齐左右安全边距 */
   #app.subject-mode .topbar { margin-bottom: 0; border-bottom-color: transparent; padding-left: 24px; padding-right: 24px; }
   #app.subject-mode .site-footer { padding-left: 24px; padding-right: 24px; }
+  /* econ / mind 内嵌时隐藏其自带的语言/主题按钮（由主应用顶栏统一接管） */
+  #app.subject-econ .econ-root .hero .theme-btn,
+  #app.subject-econ .econ-root .hero .lang-btn,
+  #app.subject-mind .mind-root .hero .theme-btn,
+  #app.subject-mind .mind-root .hero .lang-btn { display: none !important; }
 </style>
 </head>
 <body>
