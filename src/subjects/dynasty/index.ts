@@ -54,6 +54,20 @@ export async function mount(view: HTMLElement): Promise<() => void> {
   const win: any = new Proxy(window, {
     get(target: any, prop: any) {
       if (prop === "__setLang") return setLangFn;
+      // scrollTo / scrollBy / scroll 等，以及 addEventListener /
+      // removeEventListener / dispatchEvent 都要求 this 为真实 Window；
+      // 经 Proxy 调用时 this 会变成代理，触发 "Illegal invocation"，
+      // 或导致事件监听挂不到真实 window 上。统一绑定到真实 window。
+      if (
+        prop === "scrollTo" ||
+        prop === "scrollBy" ||
+        prop === "scroll" ||
+        prop === "addEventListener" ||
+        prop === "removeEventListener" ||
+        prop === "dispatchEvent"
+      ) {
+        return (...a: any[]) => (target as any)[prop](...a);
+      }
       return target[prop];
     },
     set(target: any, prop: any, value: any) {
