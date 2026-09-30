@@ -1,0 +1,80 @@
+/* ============================================================
+   设计令牌：颜色 / 圆角 / 阴影 / 排版
+   品牌色：深紫（哲思·深邃·内省）+ 暖金（智慧·经典）
+   明暗两套变量必须成对维护。
+   ============================================================ */
+.thought-root {
+  --brand: #5b21b6;
+  --brand-d: #4c1d95;
+  --brand-l: #7c3aed;
+  --brand-50: #f3eefc;
+  --brand-100: #e7ddf7;
+  --gold: #b07d2b;
+  --gold-d: #8a5f1c;
+  --gold-50: #faf3e6;
+
+  --ink-900: #241a3a;
+  --ink-700: #3f3360;
+  --ink-500: #574c70;
+  --ink-400: #7d7494;
+  --ink-300: #a39bb5;
+  --ink-200: #d3cce0;
+  --ink-100: #ebe7f2;
+  --ink-50: #f7f5fb;
+
+  --ok: #0f766e;
+  --ok-bg: #e6f5f2;
+  --no: #b3400f;
+  --no-bg: #fdeee7;
+
+  --r1: 8px;
+  --r2: 12px;
+  --r3: 16px;
+  --r4: 24px;
+
+  --bg: var(--ink-50);
+  --surface: #ffffff;
+  --surface-2: var(--ink-100);
+  --text: var(--ink-500);
+  --text-strong: var(--ink-900);
+  --text-soft: var(--ink-700);
+  --text-mute: var(--ink-400);
+  --border: var(--ink-100);
+  --chip-bg: var(--ink-50);
+  --mark-bg: #f3e6c4;
+
+  --s-soft: 0 1px 2px rgba(36, 26, 58, 0.04), 0 2px 8px rgba(36, 26, 58, 0.04);
+  --s-card: 0 1px 3px rgba(36, 26, 58, 0.06), 0 8px 24px rgba(36, 26, 58, 0.06);
+  --s-lift: 0 2px 4px rgba(36, 26, 58, 0.06), 0 16px 40px rgba(36, 26, 58, 0.1);
+
+  --hero: linear-gradient(158deg, #160d33 0%, #5b21b6 58%, #2a1a4a 100%);
+  --nav-h: 58px;
+}
+
+.thought-root[data-theme='dark'] {
+  --bg: #130d26;
+  --surface: #1c1533;
+  --surface-2: #251c41;
+  --text: #b9b0cf;
+  --text-strong: #ece8f6;
+  --text-soft: #d2cae6;
+  --text-mute: #8b82a3;
+  --border: #2c2247;
+  --chip-bg: #211a39;
+  --mark-bg: #4a3a14;
+
+  --brand-50: #221638;
+  --brand-100: #2f2150;
+  --gold-50: #2a2311;
+  --ink-50: #130d26;
+  --ink-100: #251c41;
+
+  --ok-bg: #0f2e2a;
+  --no-bg: #33190f;
+
+  --s-soft: 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.25);
+  --s-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --s-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.45);
+
+  --hero: linear-gradient(158deg, #0c0720 0%, #3b1d7a 58%, #160d2e 100%);
+}

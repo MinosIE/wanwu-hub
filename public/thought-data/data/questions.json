@@ -1,0 +1,222 @@
+[
+  {
+    "id": "free-will",
+    "name": "我们有自由意志吗，还是一切早已注定？",
+    "nameEn": "Do we have free will, or is everything determined?",
+    "era": "形而上学 · 横跨古今",
+    "eraEn": "Metaphysics · perennial",
+    "level": 2,
+    "order": 1,
+    "oneLiner": "如果过去与物理定律决定了此刻的一切，那「我选择」还是一种错觉？",
+    "oneLinerEn": "If the past and the laws of physics settle everything now, is 'I chose' an illusion?",
+    "positions": [
+      { "k": "决定论", "kEn": "Determinism", "v": "宇宙是因果链条，未来由过去与定律唯一决定，自由只是表象。", "vEn": "The universe is a causal chain; the future is fixed by the past and laws. Freedom is appearance." },
+      { "k": "相容论", "kEn": "Compatibilism", "v": "自由是「按自己的欲望与理性行动」，与决定论并不矛盾。", "vEn": "Freedom is acting on one's own reasons; this is compatible with determinism." },
+      { "k": " libertarianism", "kEn": "Libertarianism", "v": "存在非决定的、由主体发起的真正的选择。", "vEn": "There are undetermined, agent-initiated choices." }
+    ],
+    "why": "它决定了我们对责任、惩罚与自我叙事的理解：若行为早已注定，褒贬与奖罚还有意义吗？",
+    "whyEn": "It underpins our notions of responsibility, praise and punishment: if acts are fixed, do praise and blame survive?",
+    "thinkers": ["康德", "休谟", "萨特"],
+    "thinkersEn": ["Kant", "Hume", "Sartre"],
+    "related": ["mind-body", "self", "kant", "hume", "sartre"],
+    "sources": [{ "label": "《自由意志与决定论》SEP" }]
+  },
+  {
+    "id": "meaning",
+    "name": "生命有意义吗，还是我们得自己赋予？",
+    "nameEn": "Does life have meaning, or must we create it?",
+    "era": "价值哲学",
+    "eraEn": "Philosophy of value",
+    "level": 1,
+    "order": 2,
+    "oneLiner": "宇宙不在乎我们，但正因没有现成剧本，意义的笔才握在自己手里。",
+    "oneLinerEn": "The cosmos does not care, yet precisely because there is no script, the pen is in our hands.",
+    "positions": [
+      { "k": "客观意义论", "kEn": "Objective meaning", "v": "意义由某种更高的秩序（神、自然、共同体）预先给定。", "vEn": "Meaning is given in advance by a higher order — God, nature, community." },
+      { "k": "荒谬与反抗", "kEn": "Absurd & revolt", "v": "世界无先天意义，但人可在反抗荒诞中自我立法。", "vEn": "The world has no built-in meaning; we legislate our own through revolt." },
+      { "k": "建构论", "kEn": "Constructivism", "v": "意义来自关系、事业与爱等我们投身其中的东西。", "vEn": "Meaning arises from relations, projects and loves we commit to." }
+    ],
+    "why": "它是最切身的问题：如何活、为何坚持，往往取决于你信哪一套回答。",
+    "whyEn": "It is the most personal question: how to live and why to persist hinges on which answer you trust.",
+    "thinkers": ["加缪", "萨特", "孔子"],
+    "thinkersEn": ["Camus", "Sartre", "Confucius"],
+    "related": ["good-evil", "death", "camus", "sartre", "confucianism"],
+    "sources": [{ "label": "《西西弗神话》", "year": 1942 }]
+  },
+  {
+    "id": "good-evil",
+    "name": "善恶是客观存在的，还是文化建构？",
+    "nameEn": "Is good and evil objective, or a cultural construct?",
+    "era": "伦理学",
+    "eraEn": "Ethics",
+    "level": 1,
+    "order": 3,
+    "oneLiner": "若道德只是习俗，我们还能否说一种制度「就是错的」？",
+    "oneLinerEn": "If morality is mere custom, can we still say an institution is simply wrong?",
+    "positions": [
+      { "k": "道德实在论", "kEn": "Moral realism", "v": "某些对错独立于人的态度而成立，可被理性发现。", "vEn": "Some rights and wrongs hold independent of attitudes and are found by reason." },
+      { "k": "文化相对论", "kEn": "Cultural relativism", "v": "道德依社群与时代而变，没有跨文化的终极标准。", "vEn": "Morality varies by community and era; no cross-cultural final standard." },
+      { "k": "非认知论", "kEn": "Non-cognitivism", "v": "道德语词表达的是态度与情感，而非事实命题。", "vEn": "Moral words express attitudes and feelings, not factual claims." }
+    ],
+    "why": "它关系到人权、普世价值能否成立，以及我们如何面对异文化。",
+    "whyEn": "It bears on whether human rights and universal values can hold, and how we meet other cultures.",
+    "thinkers": ["康德", "密尔", "孔子"],
+    "thinkersEn": ["Kant", "Mill", "Confucius"],
+    "related": ["justice", "knowledge", "kant", "mill", "confucianism"],
+    "sources": [{ "label": "《伦理学基础》SEP" }]
+  },
+  {
+    "id": "knowledge",
+    "name": "知识从理性来，还是从经验来？",
+    "nameEn": "Does knowledge come from reason or from experience?",
+    "era": "认识论",
+    "eraEn": "Epistemology",
+    "level": 3,
+    "order": 4,
+    "oneLiner": "数学似乎是先天为真，而「火会烫」只能靠被烫过才懂——两者如何调和？",
+    "oneLinerEn": "Math seems true a priori, yet 'fire burns' is learned only by being burned — how are the two reconciled?",
+    "positions": [
+      { "k": "理性主义", "kEn": "Rationalism", "v": "清晰确定的知识源于理性与天赋观念。", "vEn": "Clear certain knowledge flows from reason and innate ideas." },
+      { "k": "经验主义", "kEn": "Empiricism", "v": "一切观念最终来自感官经验。", "vEn": "All ideas ultimately derive from sensory experience." },
+      { "k": "康德式综合", "kEn": "Kantian synthesis", "v": "经验提供材料，心智的范畴主动构造知识。", "vEn": "Experience supplies matter; the mind's categories actively shape knowledge." }
+    ],
+    "why": "它决定了科学、教育与「我们究竟能知道什么」的边界。",
+    "whyEn": "It sets the bounds of science, education and what we can ever know.",
+    "thinkers": ["笛卡尔", "休谟", "康德"],
+    "thinkersEn": ["Descartes", "Hume", "Kant"],
+    "related": ["mind-body", "reality", "rationalism", "empiricism", "kantian"],
+    "sources": [{ "label": "《纯粹理性批判》", "year": 1781 }]
+  },
+  {
+    "id": "mind-body",
+    "name": "心与脑是同一回事吗？",
+    "nameEn": "Is mind the same thing as brain?",
+    "era": "心灵哲学",
+    "eraEn": "Philosophy of mind",
+    "level": 3,
+    "order": 5,
+    "oneLiner": "当神经元放电，为什么会有「痛的感觉」这种内在体验？",
+    "oneLinerEn": "When neurons fire, why is there any inner feel of pain at all?",
+    "positions": [
+      { "k": "物理主义", "kEn": "Physicalism", "v": "心智是脑的状态与功能，原则上可还原。", "vEn": "Mind is brain states and functions, in principle reducible." },
+      { "k": "二元论", "kEn": "Dualism", "v": "精神与物质是两类不同的实体（如笛卡尔）。", "vEn": "Mind and matter are two distinct substances (cf. Descartes)." },
+      { "k": "属性二元论", "kEn": "Property dualism", "v": "物理过程伴生不可还原的主观感受（感受质）。", "vEn": "Physical processes are accompanied by irreducible subjective qualia." }
+    ],
+    "why": "它牵连意识、人格同一与人工智能能否「真正」体验。",
+    "whyEn": "It touches consciousness, personal identity and whether AI can truly feel.",
+    "thinkers": ["笛卡尔", "康德"],
+    "thinkersEn": ["Descartes", "Kant"],
+    "related": ["free-will", "self", "rationalism", "kantian"],
+    "sources": [{ "label": "《第一哲学沉思集》", "year": 1641 }]
+  },
+  {
+    "id": "justice",
+    "name": "公平到底是什么？",
+    "nameEn": "What exactly is fairness?",
+    "era": "政治哲学",
+    "eraEn": "Political philosophy",
+    "level": 2,
+    "order": 6,
+    "oneLiner": "均分、按需、按功、按自由——不同原则给出的答案天差地别。",
+    "oneLinerEn": "Equal split, to each by need, by desert, or by freedom — the answers diverge sharply.",
+    "positions": [
+      { "k": "功利主义正义", "kEn": "Utilitarian", "v": "最大化总体福祉即为正义。", "vEn": "Justice maximizes total well-being." },
+      { "k": "权利优先", "kEn": "Rights first", "v": "某些基本自由与权利不可为多数利益牺牲。", "vEn": "Some basic liberties and rights cannot be traded for the majority's gain." },
+      { "k": "平等自由主义", "kEn": "Egalitarian liberalism", "v": "社会合作的利益与负担应公平分配（差异原则）。", "vEn": "The benefits and burdens of social cooperation should be fairly shared (difference principle)." }
+    ],
+    "why": "税制、福利、平权行动都建立在你默认的公平观之上。",
+    "whyEn": "Taxation, welfare and affirmative action all rest on an unspoken theory of fairness.",
+    "thinkers": ["密尔", "罗尔斯", "康德"],
+    "thinkersEn": ["Mill", "Rawls", "Kant"],
+    "related": ["good-evil", "knowledge", "utilitarianism", "mill", "rawls"],
+    "sources": [{ "label": "《正义论》", "year": 1971 }]
+  },
+  {
+    "id": "reality",
+    "name": "我们感知的是真实，还是建构的假象？",
+    "nameEn": "Do we perceive reality, or a constructed illusion?",
+    "era": "认识论 · 形而上学",
+    "eraEn": "Epistemology · Metaphysics",
+    "level": 2,
+    "order": 7,
+    "oneLiner": "缸中之脑、洞穴阴影——我们如何证明眼前世界不是一层幕布？",
+    "oneLinerEn": "Brain in a vat, shadows on the cave wall — how prove the world is not a veil?",
+    "positions": [
+      { "k": "朴素实在论", "kEn": "Naive realism", "v": "感官直接呈现外部世界的本来面目。", "vEn": "The senses present the world as it is, directly." },
+      { "k": "现象与物自体", "kEn": "Phenomena/noumena", "v": "我们只见现象，物自体不可知（康德）。", "vEn": "We know only appearances; things-in-themselves are unknowable (Kant)." },
+      { "k": "观念论", "kEn": "Idealism", "v": "所谓外部世界依赖于心识而成立。", "vEn": "The so-called external world depends on mind for its being." }
+    ],
+    "why": "它关乎科学、媒体与梦境之间「何为真实」的界线。",
+    "whyEn": "It draws the line between science, media and dream — what counts as real.",
+    "thinkers": ["柏拉图", "康德", "笛卡尔"],
+    "thinkersEn": ["Plato", "Kant", "Descartes"],
+    "related": ["knowledge", "mind-body", "platonism", "kantian", "rationalism"],
+    "sources": [{ "label": "《理想国》洞穴寓言", "year": -375 }]
+  },
+  {
+    "id": "self",
+    "name": "连续的「我」真的存在吗？",
+    "nameEn": "Does a continuous 'self' really exist?",
+    "era": "心灵哲学 · 东方",
+    "eraEn": "Philosophy of mind · East",
+    "level": 2,
+    "order": 8,
+    "oneLiner": "十年前的你、昨天的你、此刻的你，凭什么说是同一个人？",
+    "oneLinerEn": "The you of a decade ago, yesterday and now — what makes them one person?",
+    "positions": [
+      { "k": "实体自我", "kEn": "Substantial self", "v": "有一个持续同一的灵魂或主体贯穿一生。", "vEn": "A persisting soul or subject runs through a life." },
+      { "k": " Bundle 论", "kEn": "Bundle theory", "v": "自我只是一束不断变化的知觉与记忆（休谟）。", "vEn": "The self is a shifting bundle of perceptions and memories (Hume)." },
+      { "k": "无我", "kEn": "Non-self (anatta)", "v": "佛教认为执著有我为苦之源，实无独立自性。", "vEn": "Buddhism sees clinging to self as the root of suffering; no independent self exists." }
+    ],
+    "why": "它影响我们对记忆、责任与生死的理解。",
+    "whyEn": "It shapes how we understand memory, responsibility and life and death.",
+    "thinkers": ["休谟", "释迦牟尼", "笛卡尔"],
+    "thinkersEn": ["Hume", "Siddhartha", "Descartes"],
+    "related": ["free-will", "mind-body", "reality", "buddhism", "empiricism"],
+    "sources": [{ "label": "《人类理解论》", "year": 1689 }]
+  },
+  {
+    "id": "god",
+    "name": "理性能否证明神存在？",
+    "nameEn": "Can reason prove that God exists?",
+    "era": "宗教哲学",
+    "eraEn": "Philosophy of religion",
+    "level": 3,
+    "order": 9,
+    "oneLiner": "从「不动的推动者」到「道德必需」，论证有力却也屡受质疑。",
+    "oneLinerEn": "From the 'unmoved mover' to the 'moral necessity', the proofs are strong yet contested.",
+    "positions": [
+      { "k": "宇宙论/目的论", "kEn": "Cosmological/Teleological", "v": "存在与秩序需要第一因或设计者来解释。", "vEn": "Existence and order need a first cause or designer." },
+      { "k": "本体论", "kEn": "Ontological", "v": "「最完满者」若存在于心必亦存于实（安瑟伦）。", "vEn": "The greatest conceivable being must exist in reality (Anselm)." },
+      { "k": "怀疑论", "kEn": "Skepticism", "v": "恶的问题与缺失证据使证明难以成立。", "vEn": "The problem of evil and lack of evidence undermine the proofs." }
+    ],
+    "why": "它处于信仰、伦理与公共理性的交汇处。",
+    "whyEn": "It sits at the crossroads of faith, ethics and public reason.",
+    "thinkers": ["康德", "柏拉图"],
+    "thinkersEn": ["Kant", "Plato"],
+    "related": ["good-evil", "meaning", "platonism", "kantian"],
+    "sources": [{ "label": "《纯粹理性批判》先验辨证论", "year": 1781 }]
+  },
+  {
+    "id": "death",
+    "name": "死亡是终点，还是转化？",
+    "nameEn": "Is death an end, or a transformation?",
+    "era": "生命哲学 · 东西方",
+    "eraEn": "Philosophy of life · East–West",
+    "level": 1,
+    "order": 10,
+    "oneLiner": "若死后无我，死亡便「与我无关」；若灵魂不灭，则如何活才对得起永恒？",
+    "oneLinerEn": "If there is no self after death, death 'does not concern us'; if the soul persists, how we live matters for eternity.",
+    "positions": [
+      { "k": "自然主义", "kEn": "Naturalism", "v": "死亡是意识活动的终止，不必恐惧亦无可言说。", "vEn": "Death ends conscious activity; nothing to fear, nothing to say beyond that." },
+      { "k": "灵魂不朽", "kEn": "Immortality", "v": "精神或灵魂在身体之外继续存在。", "vEn": "Mind or soul continues beyond the body." },
+      { "k": "转化观", "kEn": "Transformation", "v": "东方传统多视死生为气/因缘的流转相续。", "vEn": "Many Eastern traditions see death and birth as the flowing of qi or causes." }
+    ],
+    "why": "它决定我们如何对待临终、遗产与「好好活着」。",
+    "whyEn": "It decides how we treat dying, legacy and what it means to live well.",
+    "thinkers": ["伊壁鸠鲁", "孔子", "庄子"],
+    "thinkersEn": ["Epicurus", "Confucius", "Zhuangzi"],
+    "related": ["meaning", "self", "taoism", "confucianism"],
+    "sources": [{ "label": "《论死亡》伊壁鸠鲁" }]
+  }
+]

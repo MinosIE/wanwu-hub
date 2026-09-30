@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "counts": {
+    "schools": 14,
+    "questions": 10,
+    "classics": 12,
+    "thinkers": 14
+  },
+  "kpis": [
+    { "key": "schools", "icon": "🏛️", "value": 14 },
+    { "key": "questions", "icon": "❓", "value": 10 },
+    { "key": "classics", "icon": "📜", "value": 12 },
+    { "key": "thinkers", "icon": "👤", "value": 14 }
+  ]
+}

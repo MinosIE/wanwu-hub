@@ -1,0 +1,352 @@
+{
+  "confucianism": [
+    {
+      "m": "m-schools",
+      "n": "儒家",
+      "nEn": "Confucianism"
+    }
+  ],
+  "taoism": [
+    {
+      "m": "m-schools",
+      "n": "道家",
+      "nEn": "Taoism"
+    }
+  ],
+  "mohism": [
+    {
+      "m": "m-schools",
+      "n": "墨家",
+      "nEn": "Mohism"
+    }
+  ],
+  "legalism": [
+    {
+      "m": "m-schools",
+      "n": "法家",
+      "nEn": "Legalism"
+    }
+  ],
+  "buddhism": [
+    {
+      "m": "m-schools",
+      "n": "佛教哲学",
+      "nEn": "Buddhist Philosophy"
+    }
+  ],
+  "platonism": [
+    {
+      "m": "m-schools",
+      "n": "柏拉图主义",
+      "nEn": "Platonism"
+    }
+  ],
+  "aristotelianism": [
+    {
+      "m": "m-schools",
+      "n": "亚里士多德主义",
+      "nEn": "Aristotelianism"
+    }
+  ],
+  "stoicism": [
+    {
+      "m": "m-schools",
+      "n": "斯多葛学派",
+      "nEn": "Stoicism"
+    }
+  ],
+  "rationalism": [
+    {
+      "m": "m-schools",
+      "n": "理性主义",
+      "nEn": "Rationalism"
+    }
+  ],
+  "empiricism": [
+    {
+      "m": "m-schools",
+      "n": "经验主义",
+      "nEn": "Empiricism"
+    }
+  ],
+  "kantian": [
+    {
+      "m": "m-schools",
+      "n": "康德批判哲学",
+      "nEn": "Kantian Critique"
+    }
+  ],
+  "utilitarianism": [
+    {
+      "m": "m-schools",
+      "n": "功利主义",
+      "nEn": "Utilitarianism"
+    }
+  ],
+  "existentialism": [
+    {
+      "m": "m-schools",
+      "n": "存在主义",
+      "nEn": "Existentialism"
+    }
+  ],
+  "marxism": [
+    {
+      "m": "m-schools",
+      "n": "马克思主义",
+      "nEn": "Marxism"
+    }
+  ],
+  "free-will": [
+    {
+      "m": "m-questions",
+      "n": "我们有自由意志吗，还是一切早已注定？",
+      "nEn": "Do we have free will, or is everything determined?"
+    }
+  ],
+  "meaning": [
+    {
+      "m": "m-questions",
+      "n": "生命有意义吗，还是我们得自己赋予？",
+      "nEn": "Does life have meaning, or must we create it?"
+    }
+  ],
+  "good-evil": [
+    {
+      "m": "m-questions",
+      "n": "善恶是客观存在的，还是文化建构？",
+      "nEn": "Is good and evil objective, or a cultural construct?"
+    }
+  ],
+  "knowledge": [
+    {
+      "m": "m-questions",
+      "n": "知识从理性来，还是从经验来？",
+      "nEn": "Does knowledge come from reason or from experience?"
+    }
+  ],
+  "mind-body": [
+    {
+      "m": "m-questions",
+      "n": "心与脑是同一回事吗？",
+      "nEn": "Is mind the same thing as brain?"
+    }
+  ],
+  "justice": [
+    {
+      "m": "m-questions",
+      "n": "公平到底是什么？",
+      "nEn": "What exactly is fairness?"
+    }
+  ],
+  "reality": [
+    {
+      "m": "m-questions",
+      "n": "我们感知的是真实，还是建构的假象？",
+      "nEn": "Do we perceive reality, or a constructed illusion?"
+    }
+  ],
+  "self": [
+    {
+      "m": "m-questions",
+      "n": "连续的「我」真的存在吗？",
+      "nEn": "Does a continuous 'self' really exist?"
+    }
+  ],
+  "god": [
+    {
+      "m": "m-questions",
+      "n": "理性能否证明神存在？",
+      "nEn": "Can reason prove that God exists?"
+    }
+  ],
+  "death": [
+    {
+      "m": "m-questions",
+      "n": "死亡是终点，还是转化？",
+      "nEn": "Is death an end, or a transformation?"
+    }
+  ],
+  "lunyu": [
+    {
+      "m": "m-classics",
+      "n": "论语",
+      "nEn": "The Analects"
+    }
+  ],
+  "daodejing": [
+    {
+      "m": "m-classics",
+      "n": "道德经",
+      "nEn": "Tao Te Ching"
+    }
+  ],
+  "republic": [
+    {
+      "m": "m-classics",
+      "n": "理想国",
+      "nEn": "The Republic"
+    }
+  ],
+  "meditations": [
+    {
+      "m": "m-classics",
+      "n": "沉思录",
+      "nEn": "Meditations"
+    }
+  ],
+  "critique": [
+    {
+      "m": "m-classics",
+      "n": "纯粹理性批判",
+      "nEn": "Critique of Pure Reason"
+    }
+  ],
+  "sein-zeit": [
+    {
+      "m": "m-classics",
+      "n": "存在与时间",
+      "nEn": "Being and Time"
+    }
+  ],
+  "zarathustra": [
+    {
+      "m": "m-classics",
+      "n": "查拉图斯特拉如是说",
+      "nEn": "Thus Spoke Zarathustra"
+    }
+  ],
+  "nicomachean": [
+    {
+      "m": "m-classics",
+      "n": "尼各马可伦理学",
+      "nEn": "Nicomachean Ethics"
+    }
+  ],
+  "chuanxilu": [
+    {
+      "m": "m-classics",
+      "n": "传习录",
+      "nEn": "Instructions for Practical Living"
+    }
+  ],
+  "treatise": [
+    {
+      "m": "m-classics",
+      "n": "人性论",
+      "nEn": "A Treatise of Human Nature"
+    }
+  ],
+  "second-sex": [
+    {
+      "m": "m-classics",
+      "n": "第二性",
+      "nEn": "The Second Sex"
+    }
+  ],
+  "theory-of-justice": [
+    {
+      "m": "m-classics",
+      "n": "正义论",
+      "nEn": "A Theory of Justice"
+    }
+  ],
+  "kongzi": [
+    {
+      "m": "m-thinkers",
+      "n": "孔子",
+      "nEn": "Confucius"
+    }
+  ],
+  "laozi": [
+    {
+      "m": "m-thinkers",
+      "n": "老子",
+      "nEn": "Laozi"
+    }
+  ],
+  "plato": [
+    {
+      "m": "m-thinkers",
+      "n": "柏拉图",
+      "nEn": "Plato"
+    }
+  ],
+  "aristotle": [
+    {
+      "m": "m-thinkers",
+      "n": "亚里士多德",
+      "nEn": "Aristotle"
+    }
+  ],
+  "kant": [
+    {
+      "m": "m-thinkers",
+      "n": "康德",
+      "nEn": "Kant"
+    }
+  ],
+  "marx": [
+    {
+      "m": "m-thinkers",
+      "n": "马克思",
+      "nEn": "Marx"
+    }
+  ],
+  "nietzsche": [
+    {
+      "m": "m-thinkers",
+      "n": "尼采",
+      "nEn": "Nietzsche"
+    }
+  ],
+  "hume": [
+    {
+      "m": "m-thinkers",
+      "n": "休谟",
+      "nEn": "Hume"
+    }
+  ],
+  "sartre": [
+    {
+      "m": "m-thinkers",
+      "n": "萨特",
+      "nEn": "Sartre"
+    }
+  ],
+  "wangyangming": [
+    {
+      "m": "m-thinkers",
+      "n": "王阳明",
+      "nEn": "Wang Yangming"
+    }
+  ],
+  "descartes": [
+    {
+      "m": "m-thinkers",
+      "n": "笛卡尔",
+      "nEn": "Descartes"
+    }
+  ],
+  "mill": [
+    {
+      "m": "m-thinkers",
+      "n": "密尔",
+      "nEn": "Mill"
+    }
+  ],
+  "marcus": [
+    {
+      "m": "m-thinkers",
+      "n": "马可·奥勒留",
+      "nEn": "Marcus Aurelius"
+    }
+  ],
+  "beauvoir": [
+    {
+      "m": "m-thinkers",
+      "n": "波伏瓦",
+      "nEn": "Simone de Beauvoir"
+    }
+  ]
+}

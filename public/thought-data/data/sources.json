@@ -1,0 +1,8 @@
+[
+  { "label": "《中国哲学简史》冯友兰", "labelEn": "A Short History of Chinese Philosophy (Feng Youlan)", "year": 1948, "url": "https://en.wikipedia.org/wiki/A_Short_History_of_Chinese_Philosophy" },
+  { "label": "《西方哲学史》罗素", "labelEn": "A History of Western Philosophy (Bertrand Russell)", "year": 1945, "url": "https://en.wikipedia.org/wiki/A_History_of_Western_Philosophy" },
+  { "label": "Stanford 哲学百科 (SEP)", "labelEn": "Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/" },
+  { "label": "Internet Encyclopedia of Philosophy (IEP)", "labelEn": "Internet Encyclopedia of Philosophy", "url": "https://iep.utm.edu/" },
+  { "label": "《理想国》柏拉图", "labelEn": "Republic (Plato)", "year": -375, "url": "https://en.wikipedia.org/wiki/Republic_(Plato)" },
+  { "label": "《纯粹理性批判》康德", "labelEn": "Critique of Pure Reason (Kant)", "year": 1781, "url": "https://en.wikipedia.org/wiki/Critique_of_Pure_Reason" }
+]
