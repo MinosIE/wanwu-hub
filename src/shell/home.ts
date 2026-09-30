@@ -60,6 +60,42 @@ export function renderHome(view: HTMLElement): void {
     c.style.position = "relative";
     c.appendChild(overlay);
   });
+
+  mountHomeToTop(view);
+}
+
+// 首页「返回顶部」：滚动超过阈值时在右下角显示，点击平滑回顶。
+// 滚动监听只绑定一次（首页可能被多次渲染，如切换语言），每次渲染保证按钮存在即可；
+// 处理函数按 id 动态定位按钮，避免监听器在重复渲染中丢失。离开首页后按钮随
+// #view 重置而移除，处理函数找不到按钮即不动作，不会产生孤儿按钮。
+let homeToTopBound = false;
+const TO_TOP_SVG =
+  '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>';
+
+function mountHomeToTop(view: HTMLElement): void {
+  let btn = view.querySelector<HTMLButtonElement>("#toTopHome");
+  if (!btn) {
+    btn = document.createElement("button");
+    btn.id = "toTopHome";
+    btn.className = "to-top-home";
+    btn.type = "button";
+    btn.setAttribute("aria-label", "返回顶部");
+    btn.innerHTML = TO_TOP_SVG;
+    btn.addEventListener("click", () =>
+      window.scrollTo({ top: 0, behavior: "smooth" }),
+    );
+    view.appendChild(btn);
+  }
+
+  if (!homeToTopBound) {
+    homeToTopBound = true;
+    const onScroll = () => {
+      const el = document.getElementById("toTopHome");
+      if (el) el.classList.toggle("show", window.scrollY > 420);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  }
 }
 
 // 语言切换时重渲染当前首页

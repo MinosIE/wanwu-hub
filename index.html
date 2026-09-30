@@ -134,6 +134,23 @@
   #app.subject-mind .mind-root .hero .lang-btn,
   #app.subject-thought .thought-root .hero .theme-btn,
   #app.subject-thought .thought-root .hero .lang-btn { display: none !important; }
+
+  /* 首页返回顶部按钮（与学科页 to-top 行为一致） */
+  .to-top-home {
+    position: fixed; right: 22px; bottom: 22px; z-index: 60;
+    width: 46px; height: 46px; border: none; border-radius: 50%;
+    background: linear-gradient(135deg, var(--teal), var(--accent));
+    color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+    opacity: 0; transform: translateY(14px) scale(.92); pointer-events: none;
+    transition: opacity .25s, transform .25s, filter .15s;
+  }
+  .to-top-home.show { opacity: 1; transform: none; pointer-events: auto; }
+  .to-top-home:hover { filter: brightness(1.1); }
+  .to-top-home svg { width: 22px; height: 22px; }
+  @media (max-width: 560px) {
+    .to-top-home { right: 14px; bottom: 14px; width: 42px; height: 42px; }
+  }
 </style>
 </head>
 <body>
