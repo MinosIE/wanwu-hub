@@ -1,8 +1,10 @@
 [
-  { "label": "IUCN Red List", "year": 2024, "type": "物种受胁评估", "url": "https://www.iucnredlist.org/" },
-  { "label": "Kew State of the World's Plants", "year": 2024, "type": "植物多样性", "url": "https://stateofplants.kew.org/" },
-  { "label": "FAO Forestry & Fisheries", "year": 2024, "type": "森林与渔业", "url": "https://www.fao.org/" },
-  { "label": "IPBES", "year": 2023, "type": "生物多样性评估", "url": "https://ipbes.net/" },
-  { "label": "NOAA Ocean Service", "year": 2023, "type": "海洋生态", "url": "https://oceanservice.noaa.gov/" },
-  { "label": "Nature / Britannica", "year": 2023, "type": "综合", "url": "https://www.britannica.com/" }
+  { "label": "Campbell Biology（Campbell 等，第 12 版）", "year": 2020, "type": "教材", "url": "https://www.pearson.com/en-us/subjects/science/biology/campbell-biology.html" },
+  { "label": "Wikipedia: Life / Evolution 相关条目", "type": "百科", "url": "https://en.wikipedia.org/wiki/Life" },
+  { "label": "On the Origin of Species — C. Darwin (1859)", "year": 1859, "type": "原著", "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species" },
+  { "label": "Systema Naturae — C. Linnaeus (1735)", "year": 1735, "type": "原著", "url": "https://en.wikipedia.org/wiki/Systema_Naturae" },
+  { "label": "Nature: 生命之树与系统发育", "type": "期刊", "url": "https://www.nature.com/" },
+  { "label": "NASA Astrobiology / 生命起源研究", "type": "机构", "url": "https://astrobiology.nasa.gov/" },
+  { "label": "IUCN Red List（物种受威胁状况）", "type": "数据库", "url": "https://www.iucnredlist.org/" },
+  { "label": "GBIF（全球生物多样性信息设施）", "type": "数据库", "url": "https://www.gbif.org/" }
 ]
