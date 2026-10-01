@@ -1,0 +1,153 @@
+[
+  {
+    "id": "forest",
+    "name": "森林生态系统",
+    "nameEn": "Forest Ecosystem",
+    "era": "全球各气候带（热带至寒带）",
+    "eraEn": "All climate zones (tropical to boreal)",
+    "level": 1,
+    "oneLiner": "以乔木为骨架的多层生命系统，是陆地生物多样性与碳储的中心。",
+    "oneLinerEn": "A multi-layered living system built on trees — the center of terrestrial biodiversity and carbon storage.",
+    "positions": [
+      { "k": "结构", "kEn": "Structure", "v": "林冠、林下、灌木、地被分层。", "vEn": "Canopy, understory, shrub and floor layers." },
+      { "k": "功能", "kEn": "Function", "v": "固碳、涵养水源、庇护物种。", "vEn": "Sequesters carbon, holds water, shelters species." }
+    ],
+    "why": "地球上约一半陆地物种栖于森林；其碳库与气候、水安全直接相连。",
+    "whyEn": "About half of land species live in forests; their carbon pools tie directly to climate and water security.",
+    "thinkers": ["mammals", "birds", "flowering-plants", "fungi"],
+    "related": ["mammals", "birds", "flowering-plants", "tetrapods"],
+    "sources": [{ "label": "FAO Global Forest Resources", "year": 2022 }]
+  },
+  {
+    "id": "grassland",
+    "name": "草原生态系统",
+    "nameEn": "Grassland Ecosystem",
+    "era": "半干旱与中纬内陆",
+    "eraEn": "Semi-arid & mid-latitude interiors",
+    "level": 2,
+    "oneLiner": "以草本为主、乔木稀少的开阔系统，是放牧与大型草食动物的舞台。",
+    "oneLinerEn": "Open herb-dominated systems with few trees — the stage for grazing and large herbivores.",
+    "positions": [
+      { "k": "气候", "kEn": "Climate", "v": "降水不足以育林，旱季明显。", "vEn": "Too dry for forest, marked dry seasons." },
+      { "k": "火与食草", "kEn": "Fire & grazing", "v": "周期性干扰维持草优势。", "vEn": "Periodic disturbance keeps grass dominant." }
+    ],
+    "why": "全球重要的粮食与畜牧带，也是碳储存与野生物种的关键栖息地。",
+    "whyEn": "A major grain and livestock belt, and key habitat for carbon storage and wildlife.",
+    "thinkers": ["insects", "mammals", "flowering-plants"],
+    "related": ["mammals", "insects", "savanna"],
+    "sources": [{ "label": "WWF Terrestrial Ecoregions", "year": 2021 }]
+  },
+  {
+    "id": "coral-reef",
+    "name": "珊瑚礁生态系统",
+    "nameEn": "Coral Reef Ecosystem",
+    "era": "热带浅海（清水、暖水）",
+    "eraEn": "Tropical shallow seas (clear, warm)",
+    "level": 2,
+    "oneLiner": "由珊瑚虫与虫黄藻共生筑成的「海中雨林」，单位面积生物多样性极高。",
+    "oneLinerEn": "Built by corals and their algae symbionts — a 'rainforest of the sea' with extreme local biodiversity.",
+    "positions": [
+      { "k": "共生", "kEn": "Symbiosis", "v": "珊瑚虫与虫黄藻互利供能。", "vEn": "Corals and zooxanthellae trade energy." },
+      { "k": "脆弱", "kEn": "Fragile", "v": "升温即白化，对污染敏感。", "vEn": "Bleaches when warm; sensitive to pollution." }
+    ],
+    "why": "庇护约四分之一海洋物种，护岸与支撑渔业旅游；升温正引发大面积白化。",
+    "whyEn": "Shelters ~25% of marine species and protects coasts; warming drives mass bleaching.",
+    "thinkers": ["fish", "birds", "bacteria"],
+    "related": ["fish", "ocean", "dinosaurs"],
+    "sources": [{ "label": "NOAA / IPCC Ocean", "year": 2023 }]
+  },
+  {
+    "id": "wetland",
+    "name": "湿地生态系统",
+    "nameEn": "Wetland Ecosystem",
+    "era": "河湖岸带与沿海", "eraEn": "River/lake margins & coasts",
+    "level": 2,
+    "oneLiner": "水陆交错的过渡带，净化水质、调蓄洪水、固碳能力居各生态系统之首。",
+    "oneLinerEn": "Water-land transition zones that clean water, buffer floods and top all ecosystems in carbon storage.",
+    "positions": [
+      { "k": "功能", "kEn": "Function", "v": "过滤污染物、蓄洪、育幼场。", "vEn": "Filters pollutants, stores floodwater, nurseries." },
+      { "k": "类型", "kEn": "Types", "v": "沼泽、红树林、滩涂、稻田。", "vEn": "Marshes, mangroves, mudflats, paddies." }
+    ],
+    "why": "单位面积固碳最高，却在过去百年被填垦消失最快，保护优先级极高。",
+    "whyEn": "Highest carbon density per area, yet the fastest-disappearing — top protection priority.",
+    "thinkers": ["birds", "fish", "fungi"],
+    "related": ["birds", "fish", "freshwater"],
+    "sources": [{ "label": "Ramsar Convention", "year": 2022 }]
+  },
+  {
+    "id": "ocean",
+    "name": "海洋生态系统",
+    "nameEn": "Open Ocean Ecosystem",
+    "era": "全球海域（表层至深海）",
+    "eraEn": "Global seas (surface to deep)",
+    "level": 1,
+    "oneLiner": "覆盖七成地表、调节气候与氧碳循环的最大生命系统；从浮游生物到巨鲸。",
+    "oneLinerEn": "Covering 70% of Earth and regulating climate and the O₂/CO₂ cycle — from plankton to whales.",
+    "positions": [
+      { "k": "生产", "kEn": "Production", "v": "浮游植物贡献半数光合产氧。", "vEn": "Phytoplankton give half the O₂." },
+      { "k": "分层", "kEn": "Layers", "v": "光层、弱光层、无光深渊。", "vEn": "Euphotic, disphotic, aphotic depths." }
+    ],
+    "why": "地球气候与食物链的根基；塑料、升温与酸化是其三大威胁。",
+    "whyEn": "Foundation of climate and food webs; plastics, warming and acidification are the three threats.",
+    "thinkers": ["fish", "bacteria", "coral-reef"],
+    "related": ["fish", "coral-reef", "photosynthesis"],
+    "sources": [{ "label": "UN Ocean Decade", "year": 2023 }]
+  },
+  {
+    "id": "freshwater",
+    "name": "淡水生态系统",
+    "nameEn": "Freshwater Ecosystem",
+    "era": "河流、湖泊、湿地",
+    "eraEn": "Rivers, lakes, wetlands",
+    "level": 2,
+    "oneLiner": "仅占地表淡水不足 1% 的液态水，却承载不成比例的物种与人类用水。",
+    "oneLinerEn": "Less than 1% of liquid surface freshwater, yet hosts a disproportionate share of species and human water use.",
+    "positions": [
+      { "k": "连通", "kEn": "Connectivity", "v": "河—湖—湿地连续体。", "vEn": "River–lake–wetland continuum." },
+      { "k": "威胁", "kEn": "Threats", "v": "断流、富营养、外来种。", "vEn": "Flow loss, eutrophication, invasives." }
+    ],
+    "why": "饮用水与灌溉之源，生物多样性热点，却因截流与污染退化最快。",
+    "whyEn": "Source of drinking and irrigation water and a biodiversity hotspot, yet degrading fastest via damming and pollution.",
+    "thinkers": ["fish", "birds", "bacteria"],
+    "related": ["fish", "wetland", "tetrapods"],
+    "sources": [{ "label": "WWF Living Planet", "year": 2022 }]
+  },
+  {
+    "id": "tundra",
+    "name": "苔原与极地生态",
+    "nameEn": "Tundra & Polar",
+    "era": "极地及高山树线以上",
+    "eraEn": "Polar regions & above treeline",
+    "level": 3,
+    "oneLiner": "低温、生长季短、冻土广布；地衣苔藓与候鸟、大型草食者共存的脆弱系统。",
+    "oneLinerEn": "Cold, short seasons and widespread permafrost; a fragile system of lichens, mosses, migratory birds and large grazers.",
+    "positions": [
+      { "k": "冻土", "kEn": "Permafrost", "v": "土壤常年冻结锁碳。", "vEn": "Permanently frozen soil stores carbon." },
+      { "k": "敏感", "kEn": "Sensitive", "v": "升温速率全球最快。", "vEn": "Warming faster than anywhere." }
+    ],
+    "why": "冻土碳库影响全球气候； thawing 释放温室气体形成正反馈。",
+    "whyEn": "Its frozen carbon shapes global climate; thawing releases greenhouse gases in a feedback loop.",
+    "thinkers": ["birds", "mammals", "bacteria"],
+    "related": ["mammals", "birds", "photosynthesis"],
+    "sources": [{ "label": "NSIDC / IPCC", "year": 2023 }]
+  },
+  {
+    "id": "savanna",
+    "name": "稀树草原",
+    "nameEn": "Savanna",
+    "era": "热带雨林两侧（非洲为主）",
+    "eraEn": "Either side of rainforests (mainly Africa)",
+    "level": 2,
+    "oneLiner": "草为主、疏树点缀，干湿季分明，支撑着大规模野生动物迁徙。",
+    "oneLinerEn": "Grass-dominated with scattered trees and distinct wet/dry seasons, supporting vast wildlife migrations.",
+    "positions": [
+      { "k": "火", "kEn": "Fire", "v": "周期性野火抑制乔木。", "vEn": "Periodic fires check trees." },
+      { "k": "大型动物", "kEn": "Megafauna", "v": "草食与掠食者共演化。", "vEn": "Herbivores & predators co-evolve." }
+    ],
+    "why": "全球重要牧业与碳储存区，也是人象等共演化的舞台。",
+    "whyEn": "A global pasture and carbon zone, and the stage of human–elephant coevolution.",
+    "thinkers": ["mammals", "grassland", "insects"],
+    "related": ["mammals", "grassland", "humans"],
+    "sources": [{ "label": "UNEP / African Parks", "year": 2021 }]
+  }
+]

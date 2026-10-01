@@ -1,0 +1,154 @@
+[
+  {
+    "id": "darwin",
+    "name": "查尔斯·达尔文", "nameEn": "Charles Darwin",
+    "life": "1809—1882", "lifeEn": "1809–1882",
+    "country": "英国", "countryEn": "Britain",
+    "school": "演化生物学", "schoolEn": "Evolutionary biology",
+    "level": 1,
+    "oneLiner": "以《物种起源》提出自然选择学说，把「物种不变」改写为「共同祖先 + 渐进演化」。",
+    "oneLinerEn": "With On the Origin of Species he proposed natural selection, replacing 'fixed species' with 'common ancestry + gradual evolution'.",
+    "bio": "随小猎犬号环球考察，观察群岛物种差异，经数十年积累提出演化论，深刻改变了人类对自身在自然界位置的认知。",
+    "bioEn": "After a round-the-world voyage on the Beagle, his observations of island species led to evolution by natural selection, reshaping our place in nature.",
+    "ideas": [
+      { "k": "自然选择", "kEn": "Natural selection", "v": "适者留下更多后代，性状渐变。", "vEn": "Better-fit individuals leave more offspring; traits shift gradually." },
+      { "k": "共同祖先", "kEn": "Common descent", "v": "所有生命源自同一棵树。", "vEn": "All life shares one tree of descent." }
+    ],
+    "works": [{ "title": "物种起源", "titleEn": "On the Origin of Species", "year": 1859 }],
+    "quotes": [{ "q": "存活下来的，不是最强壮的，而是最能适应变化的。", "qEn": "It is not the strongest that survive, but those most responsive to change." }],
+    "related": ["humans", "mammals-rise", "cambrian", "wallace"]
+  },
+  {
+    "id": "linnaeus",
+    "name": "卡尔·林奈", "nameEn": "Carl Linnaeus",
+    "life": "1707—1778", "lifeEn": "1707–1778",
+    "country": "瑞典", "countryEn": "Sweden",
+    "school": "分类学", "schoolEn": "Taxonomy",
+    "level": 2,
+    "oneLiner": "创立双名法（属名 + 种加词），为混乱的生物命名建立可全球的秩序。",
+    "oneLinerEn": "He founded binomial nomenclature (genus + species), bringing global order to chaotic biological naming.",
+    "bio": "系统整理植物与动物，提出界门纲目科属种层级，奠定了现代生物分类的语言基础。",
+    "bioEn": "He systematically organized plants and animals into a hierarchy, founding the language of modern taxonomy.",
+    "ideas": [
+      { "k": "双名法", "kEn": "Binomial nomenclature", "v": "每个物种一个拉丁学名。", "vEn": "One Latin name per species." },
+      { "k": "分类层级", "kEn": "Ranks", "v": "界门纲目科属种体系。", "vEn": "Kingdom→species hierarchy." }
+    ],
+    "works": [{ "title": "自然系统", "titleEn": "Systema Naturae", "year": 1735 }],
+    "quotes": [{ "q": "我们数不清的物种，终须有共同的命名语言。", "qEn": "So many species demand one shared language of names." }],
+    "related": ["flowering-plants", "mammals", "bacteria"]
+  },
+  {
+    "id": "mendel",
+    "name": "格雷戈尔·孟德尔", "nameEn": "Gregor Mendel",
+    "life": "1822—1884", "lifeEn": "1822–1884",
+    "country": "奥地利（神父）", "countryEn": "Austria (monk)",
+    "school": "遗传学", "schoolEn": "Genetics",
+    "level": 2,
+    "oneLiner": "用豌豆实验揭示遗传的分离与自由组合定律，预言了「基因」的存在。",
+    "oneLinerEn": "His pea experiments revealed segregation and independent assortment, prefiguring the gene.",
+    "bio": "在修道院菜园里统计数千株豌豆性状，以量化方法发现了遗传规律，却长期被埋没。",
+    "bioEn": "Counting thousands of pea traits in a monastery garden, he found the laws of inheritance — overlooked in his lifetime.",
+    "ideas": [
+      { "k": "分离定律", "kEn": "Law of segregation", "v": "性状由成对因子决定。", "vEn": "Traits controlled by paired factors." },
+      { "k": "自由组合", "kEn": "Independent assortment", "v": "不同性状独立传递。", "vEn": "Different traits assort independently." }
+    ],
+    "works": [{ "title": "植物杂交实验", "titleEn": "Experiments on Plant Hybrids", "year": 1866 }],
+    "quotes": [{ "q": "自然从不跳跃。", "qEn": "Nature never makes a leap." }],
+    "related": ["flowering-plants", "insects", "humans"]
+  },
+  {
+    "id": "wallace",
+    "name": "阿尔弗雷德·华莱士", "nameEn": "Alfred Russel Wallace",
+    "life": "1823—1913", "lifeEn": "1823–1913",
+    "country": "英国", "countryEn": "Britain",
+    "school": "生物地理与演化", "schoolEn": "Biogeography & evolution",
+    "level": 3,
+    "oneLiner": "独立提出自然选择，并开创生物地理学，研究物种分布与地理边界。",
+    "oneLinerEn": "Independently proposed natural selection and founded biogeography, studying species distribution and barriers.",
+    "bio": "在马来群岛考察，划分出「华莱士线」，揭示物种分布与地质历史的关联。",
+    "bioEn": "Exploring the Malay Archipelago, he drew 'Wallace's Line', linking species distribution to geological history.",
+    "ideas": [
+      { "k": "共同发现", "kEn": "Co-discoverer", "v": "与自然选择学说同期提出。", "vEn": "Proposed natural selection concurrently." },
+      { "k": "华莱士线", "kEn": "Wallace Line", "v": "生物区系的分界。", "vEn": "A boundary of faunal realms." }
+    ],
+    "works": [{ "title": "论变种偏离原始类型的倾向", "titleEn": "On the Tendency of Varieties", "year": 1858 }],
+    "quotes": [{ "q": "每一物种都只在它起源的地方出现。", "qEn": "Every species appears first in the region where it originated." }],
+    "related": ["darwin", "cambrian", "islands"]
+  },
+  {
+    "id": "franklin",
+    "name": "罗莎琳德·富兰克林", "nameEn": "Rosalind Franklin",
+    "life": "1920—1958", "lifeEn": "1920–1958",
+    "country": "英国", "countryEn": "Britain",
+    "school": "结构生物学（X 射线衍射）", "schoolEn": "Structural biology (X-ray diffraction)",
+    "level": 3,
+    "oneLiner": "以 X 射线衍射拍出 DNA 的清晰图像（照片 51），为双螺旋结构提供关键证据。",
+    "oneLinerEn": "Her X-ray diffraction image (Photo 51) of DNA provided the key evidence for the double helix.",
+    "bio": "用晶体学方法研究 DNA 与病毒结构，其数据被他人用于构建双螺旋模型，贡献长期被低估。",
+    "bioEn": "Using crystallography on DNA and viruses, her data enabled the double-helix model; her role was long understated.",
+    "ideas": [
+      { "k": "照片51", "kEn": "Photo 51", "v": "揭示 DNA 螺旋与比例。", "vEn": "Revealed the helix and its proportions." },
+      { "k": "结构方法", "kEn": "Structural method", "v": "用衍射读分子几何。", "vEn": "Reading molecular geometry via diffraction." }
+    ],
+    "works": [{ "title": "DNA 纤维的 X 射线衍射", "titleEn": "X-ray diffraction of DNA fibers", "year": 1952 }],
+    "quotes": [{ "q": "科学属于愿意把证据摆在第一位的人。", "qEn": "Science belongs to those who put the evidence first." }],
+    "related": ["watson-crick", "humans", "bacteria"]
+  },
+  {
+    "id": "watson-crick",
+    "name": "沃森与克里克", "nameEn": "Watson & Crick",
+    "life": "1928—2024 / 1916—2004", "lifeEn": "1928–2024 / 1916–2004",
+    "country": "美国 / 英国", "countryEn": "USA / Britain",
+    "school": "分子生物学", "schoolEn": "Molecular biology",
+    "level": 2,
+    "oneLiner": "1953 年提出 DNA 双螺旋模型，阐明遗传信息的存储与复制机制。",
+    "oneLinerEn": "In 1953 they proposed the DNA double helix, explaining how genetic information is stored and copied.",
+    "bio": "综合晶体学数据（含富兰克林的衍射图）与模型构建，揭示了生命的分子密码，开启分子生物学时代。",
+    "bioEn": "Synthesizing crystallographic data (incl. Franklin's) with model-building, they revealed life's molecular code and launched molecular biology.",
+    "ideas": [
+      { "k": "双螺旋", "kEn": "Double helix", "v": "两条互补链缠绕。", "vEn": "Two complementary strands coiled." },
+      { "k": "半保留复制", "kEn": "Semiconservative replication", "v": "复制各留一条旧链。", "vEn": "Each copy keeps one old strand." }
+    ],
+    "works": [{ "title": "核酸的分子结构", "titleEn": "Molecular Structure of Nucleic Acids", "year": 1953 }],
+    "quotes": [{ "q": "我们发现了生命的秘密。", "qEn": "We have found the secret of life." }],
+    "related": ["franklin", "humans", "mendel"]
+  },
+  {
+    "id": "hooke",
+    "name": "罗伯特·胡克", "nameEn": "Robert Hooke",
+    "life": "1635—1703", "lifeEn": "1635–1703",
+    "country": "英国", "countryEn": "Britain",
+    "school": "显微与细胞学", "schoolEn": "Microscopy & cell theory",
+    "level": 3,
+    "oneLiner": "以显微镜观察软木，首次提出「细胞」（cell）一词，开启微观生命世界。",
+    "oneLinerEn": "Observing cork under a microscope, he coined 'cell' and opened the microscopic world of life.",
+    "bio": "自制复式显微镜并绘制大量微小结构，提出生物由小室构成，为细胞学说埋下伏笔。",
+    "bioEn": "Building compound microscopes, he drew tiny structures and proposed life is built of chambers, foreshadowing cell theory.",
+    "ideas": [
+      { "k": "细胞一词", "kEn": "Coined 'cell'", "v": "描述软木的小室。", "vEn": "Described cork's small chambers." },
+      { "k": "显微观察", "kEn": "Microscopy", "v": "把肉眼伸向微观。", "vEn": "Extended sight into the microscopic." }
+    ],
+    "works": [{ "title": "显微图谱", "titleEn": "Micrographia", "year": 1665 }],
+    "quotes": [{ "q": "在自然这本大书中，还有无数页未被翻开。", "qEn": "In nature's great book, countless pages remain unread." }],
+    "related": ["bacteria", "fungi", "flowering-plants"]
+  },
+  {
+    "id": "woese",
+    "name": "卡尔·伍斯", "nameEn": "Carl Woese",
+    "life": "1928—2012", "lifeEn": "1928–2012",
+    "country": "美国", "countryEn": "USA",
+    "school": "演化微生物学", "schoolEn": "Evolutionary microbiology",
+    "level": 3,
+    "oneLiner": "以核糖体 RNA 重新划分生命之树，提出「三域系统」（细菌、古菌、真核生物）。",
+    "oneLinerEn": "Using ribosomal RNA he redrew the tree of life into three domains: Bacteria, Archaea and Eukarya.",
+    "bio": "发现古菌这一此前被混作细菌的类群，重塑了我们对生命最早分支的理解。",
+    "bioEn": "He discovered Archaea — long mistaken for bacteria — reshaping our view of life's earliest branches.",
+    "ideas": [
+      { "k": "三域系统", "kEn": "Three domains", "v": "细菌/古菌/真核并列。", "vEn": "Bacteria / Archaea / Eukarya." },
+      { "k": "rRNA 时钟", "kEn": "rRNA clock", "v": "用序列估演化距离。", "vEn": "Sequence-based evolutionary distance." }
+    ],
+    "works": [{ "title": "生命的三域", "titleEn": "The Three Domains of Life", "year": 1990 }],
+    "quotes": [{ "q": "我们对生命之树的理解，需要被根本重写。", "qEn": "Our understanding of the tree of life needed to be rewritten." }],
+    "related": ["bacteria", "fungi", "humans"]
+  }
+]

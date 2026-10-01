@@ -1,0 +1,155 @@
+[
+  {
+    "id": "tropical-rainforest",
+    "name": "热带雨林",
+    "nameEn": "Tropical Rainforest",
+    "era": "赤道附近（亚马孙、刚果、东南亚）",
+    "eraEn": "Near the equator (Amazon, Congo, SE Asia)",
+    "level": 1,
+    "oneLiner": "全年高温多雨，物种密度全球最高，却土壤贫瘠——养分循环几乎全在生物体内。",
+    "oneLinerEn": "Hot and wet all year with the highest species density on Earth, yet poor soils — nutrients cycle almost entirely within living biomass.",
+    "positions": [
+      { "k": "气候", "kEn": "Climate", "v": "年降水量 >2000mm，无明显旱季，温度稳定。", "vEn": "Rainfall >2000mm, no real dry season, stable temperatures." },
+      { "k": "分层", "kEn": "Layers", "v": "乔木层、林下层、灌木、地被形成垂直结构。", "vEn": "Emergent, canopy, understory and floor form vertical structure." },
+      { "k": "土壤", "kEn": "Soils", "v": "强淋溶使养分流失，靠枯落物快速分解回补。", "vEn": "Heavy leaching drains nutrients; rapid litter decay recycles them." }
+    ],
+    "why": "地球之肺与碳库，调节全球气候；其消失会放大温室效应并带走无数未命名物种。",
+    "whyEn": "Earth's lungs and carbon store; its loss amplifies warming and erases countless unnamed species.",
+    "thinkers": ["brazil", "amazon", "congo"],
+    "related": ["amazon", "congo", "brazil"],
+    "sources": [{ "label": "WWF / IPCC", "year": 2023 }]
+  },
+  {
+    "id": "savanna",
+    "name": "热带草原",
+    "nameEn": "Savanna",
+    "era": "热带雨林南北两侧（非洲、南美、澳洲）",
+    "eraEn": "Either side of the rainforest (Africa, S. America, Australia)",
+    "level": 2,
+    "oneLiner": "干湿季分明，草为主、疏树点缀；支撑着地球上规模最大的野生动物迁徙。",
+    "oneLinerEn": "Distinct wet and dry seasons, grass-dominated with scattered trees; supports Earth's largest wildlife migrations.",
+    "positions": [
+      { "k": "降水", "kEn": "Rainfall", "v": "年降水 500–1500mm，集中于雨季。", "vEn": "500–1500mm, concentrated in the wet season." },
+      { "k": "火的作用", "kEn": "Fire", "v": "周期性野火维持草优势、抑制乔木。", "vEn": "Periodic fires maintain grass dominance and check trees." }
+    ],
+    "why": "既是重要牧业与碳储存区，也是人象、草食动物与掠食者共演化的舞台。",
+    "whyEn": "Both a pastoral and carbon-storage zone, and the stage where herbivores, predators and humans co-evolve.",
+    "thinkers": ["kenya", "sahara", "rift-valley"],
+    "related": ["kenya", "sahara", "nile"],
+    "sources": [{ "label": "UNEP / National Geographic", "year": 2021 }]
+  },
+  {
+    "id": "desert",
+    "name": "荒漠（沙漠）",
+    "nameEn": "Desert",
+    "era": "副热带高压与雨影区（撒哈拉、戈壁、澳洲内陆）",
+    "eraEn": "Subtropical highs & rain shadows (Sahara, Gobi, inland Australia)",
+    "level": 2,
+    "oneLiner": "年降水 <250mm，蒸发远大于降水；生命以耐旱与昼夜剧温为生存法则。",
+    "oneLinerEn": "Under 250mm a year, evaporation far exceeds rainfall; life survives by drought-tolerance and wild day-night temperature swings.",
+    "positions": [
+      { "k": "温度", "kEn": "Temperature", "v": "白天酷热、夜间骤冷，年温差大。", "vEn": "Scorching days, sharp nights; large annual ranges." },
+      { "k": "适应", "kEn": "Adaptation", "v": "植物深根、动物夜行与节水代谢。", "vEn": "Deep-rooted plants, nocturnal and water-conserving animals." }
+    ],
+    "why": "占陆地约三成，却是太阳能与矿产宝库；荒漠化扩张正威胁半干旱边境。",
+    "whyEn": "About a third of land, yet a treasury of solar energy and minerals; expanding desertification threatens semi-arid margins.",
+    "thinkers": ["egypt", "australia", "sahara"],
+    "related": ["sahara", "suez", "outback"],
+    "sources": [{ "label": "UNCCD / USGS", "year": 2022 }]
+  },
+  {
+    "id": "temperate-forest",
+    "name": "温带落叶林",
+    "nameEn": "Temperate Deciduous Forest",
+    "era": "中纬度（东亚、北美东部、欧洲）",
+    "eraEn": "Mid-latitudes (East Asia, eastern N. America, Europe)",
+    "level": 2,
+    "oneLiner": "四季分明，树木冬季落叶以抗寒；降水均匀，土壤较肥沃，人类聚居密集。",
+    "oneLinerEn": "Four clear seasons, trees shed leaves to survive winter; even rainfall and fairly fertile soils host dense human settlement.",
+    "positions": [
+      { "k": "季节", "kEn": "Seasons", "v": "春夏生长、秋冬休眠，物候节律强。", "vEn": "Grow in spring-summer, dormant in autumn-winter." },
+      { "k": "土壤", "kEn": "Soils", "v": "落叶层厚，有机质积累，肥力较高。", "vEn": "Thick leaf litter builds organic matter and fertility." }
+    ],
+    "why": "全球人口与农业核心带，也最易被城市与耕地取代，原生林残存稀少。",
+    "whyEn": "The demographic and agricultural core of the world, yet most easily replaced by cities and cropland; little primary forest remains.",
+    "thinkers": ["china", "usa", "indus"],
+    "related": ["great-plains", "himalaya", "ganges"],
+    "sources": [{ "label": "FAO / EPA", "year": 2020 }]
+  },
+  {
+    "id": "boreal-taiga",
+    "name": "北方针叶林（泰加林）",
+    "nameEn": "Boreal Taiga",
+    "era": "高纬度亚欧—北美（俄国、加拿大、北欧）",
+    "eraEn": "High latitudes, Eurasia–N. America (Russia, Canada, N. Europe)",
+    "level": 3,
+    "oneLiner": "耐寒针叶树广布，是全球面积最大的森林，也是巨大的碳与淡水储库。",
+    "oneLinerEn": "Cold-hardy conifers stretch across the largest forest on Earth — a giant store of carbon and fresh water.",
+    "positions": [
+      { "k": "气候", "kEn": "Climate", "v": "冬季漫长严寒，夏季短暂凉爽。", "vEn": "Long frigid winters, short cool summers." },
+      { "k": "储碳", "kEn": "Carbon", "v": "泥炭与冻土锁住大量碳。", "vEn": "Peat and permafrost lock vast carbon." }
+    ],
+    "why": "调节全球碳与气候的关键缓冲；冻土融化可能释放巨量温室气体。",
+    "whyEn": "A key buffer regulating global carbon and climate; thawing permafrost may release vast greenhouse gases.",
+    "thinkers": ["russia", "siberia", "baikal"],
+    "related": ["siberia", "baikal", "volga"],
+    "sources": [{ "label": "NASA / Global Forest Watch", "year": 2023 }]
+  },
+  {
+    "id": "tundra",
+    "name": "苔原",
+    "nameEn": "Tundra",
+    "era": "极地及高山树线以上",
+    "eraEn": "Polar regions and above the mountain treeline",
+    "level": 3,
+    "oneLiner": "低温、生长季极短、无乔木；地衣苔藓为主，下层多为永冻土。",
+    "oneLinerEn": "Cold, a very short growing season and no trees; lichens and mosses dominate over permafrost.",
+    "positions": [
+      { "k": "温度", "kEn": "Temperature", "v": "年均温低于 0℃，冻融循环强。", "vEn": "Mean below 0°C with strong freeze-thaw cycles." },
+      { "k": "永冻", "kEn": "Permafrost", "v": "土壤常年冻结，限制根系与工程。", "vEn": "Permanently frozen soil limits roots and construction." }
+    ],
+    "why": "对升温最敏感的生态系统之一，冻土碳释放与反照率变化反馈全球气候。",
+    "whyEn": "Among the most warming-sensitive ecosystems; permafrost carbon release and albedo shifts feed back on global climate.",
+    "thinkers": ["russia", "siberia", "alpine"],
+    "related": ["siberia", "baikal", "great-dividing"],
+    "sources": [{ "label": "NSIDC / IPCC", "year": 2023 }]
+  },
+  {
+    "id": "mediterranean",
+    "name": "地中海气候",
+    "nameEn": "Mediterranean Climate",
+    "era": "大陆西岸中纬（地中海、加州、智利中部的海岸）",
+    "eraEn": "Mid-latitude west coasts (Mediterranean, California, central Chile)",
+    "level": 2,
+    "oneLiner": "夏干热、冬温和多雨，是橄榄、葡萄与人类文明最偏爱的海岸带之一。",
+    "oneLinerEn": "Hot dry summers, mild rainy winters — one of the coastlines most favored by olives, vines and human civilization.",
+    "positions": [
+      { "k": "降水", "kEn": "Rainfall", "v": "雨热不同期，夏季干燥。", "vEn": "Rain and heat out of phase; dry summers." },
+      { "k": "植被", "kEn": "Vegetation", "v": "硬叶常绿灌丛（如地中海夏旱灌木）。", "vEn": "Sclerophyll evergreen shrubs." }
+    ],
+    "why": "宜居与农业价值极高，却长期面临缺水、野火与城市扩张压力。",
+    "whyEn": "Highly livable and agriculturally valuable, yet long pressed by water scarcity, wildfires and sprawl.",
+    "thinkers": ["egypt", "suez", "kenya"],
+    "related": ["suez", "nile", "sahara"],
+    "sources": [{ "label": "NOAA / Köppen", "year": 2021 }]
+  },
+  {
+    "id": "alpine",
+    "name": "高山带",
+    "nameEn": "Alpine Zone",
+    "era": "高海拔（喜马拉雅、安第斯、落基）",
+    "eraEn": "High elevations (Himalaya, Andes, Rockies)",
+    "level": 3,
+    "oneLiner": "随海拔上升气温与氧分压下降，植被呈垂直带谱；是亚洲大河的「水塔」。",
+    "oneLinerEn": "Temperature and oxygen fall with altitude, giving vertical life zones; the 'water towers' of Asia's great rivers.",
+    "positions": [
+      { "k": "垂直带谱", "kEn": "Zonation", "v": "从森林到草甸、裸岩、雪线分层。", "vEn": "Bands from forest to meadow, bare rock and snowline." },
+      { "k": "水塔", "kEn": "Water tower", "v": "冰川与积雪补给下游数十亿人。", "vEn": "Glaciers and snow feed billions downstream." }
+    ],
+    "why": "下游水安全与生物多样性所系；冰川退缩正削弱这一调节作用。",
+    "whyEn": "Underpins downstream water security and biodiversity; glacial retreat weakens this regulation.",
+    "thinkers": ["china", "india", "himalaya"],
+    "related": ["himalaya", "rockies", "andes"],
+    "sources": [{ "label": "ICIMOD / IPCC", "year": 2023 }]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "label": "IUCN Red List", "year": 2024, "type": "物种受胁评估", "url": "https://www.iucnredlist.org/" },
+  { "label": "Kew State of the World's Plants", "year": 2024, "type": "植物多样性", "url": "https://stateofplants.kew.org/" },
+  { "label": "FAO Forestry & Fisheries", "year": 2024, "type": "森林与渔业", "url": "https://www.fao.org/" },
+  { "label": "IPBES", "year": 2023, "type": "生物多样性评估", "url": "https://ipbes.net/" },
+  { "label": "NOAA Ocean Service", "year": 2023, "type": "海洋生态", "url": "https://oceanservice.noaa.gov/" },
+  { "label": "Nature / Britannica", "year": 2023, "type": "综合", "url": "https://www.britannica.com/" }
+]

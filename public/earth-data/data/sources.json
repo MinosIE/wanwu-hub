@@ -1,0 +1,8 @@
+[
+  { "label": "NASA Earth Observatory", "year": 2024, "type": "遥感与气候", "url": "https://earthobservatory.nasa.gov/" },
+  { "label": "National Geographic", "year": 2023, "type": "地理科普", "url": "https://www.nationalgeographic.com/" },
+  { "label": "WWF 世界自然基金会", "year": 2023, "type": "生态", "url": "https://www.worldwildlife.org/" },
+  { "label": "UNEP 联合国环境署", "year": 2022, "type": "环境", "url": "https://www.unep.org/" },
+  { "label": "CIA World Factbook", "year": 2024, "type": "国家档案", "url": "https://www.cia.gov/the-world-factbook/" },
+  { "label": "Encyclopaedia Britannica", "year": 2023, "type": "综合", "url": "https://www.britannica.com/" }
+]

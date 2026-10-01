@@ -1,0 +1,261 @@
+{
+  "china": [
+    {
+      "m": "m-schools",
+      "n": "中国",
+      "nEn": "China"
+    }
+  ],
+  "brazil": [
+    {
+      "m": "m-schools",
+      "n": "巴西",
+      "nEn": "Brazil"
+    }
+  ],
+  "egypt": [
+    {
+      "m": "m-schools",
+      "n": "埃及",
+      "nEn": "Egypt"
+    }
+  ],
+  "russia": [
+    {
+      "m": "m-schools",
+      "n": "俄罗斯",
+      "nEn": "Russia"
+    }
+  ],
+  "india": [
+    {
+      "m": "m-schools",
+      "n": "印度",
+      "nEn": "India"
+    }
+  ],
+  "usa": [
+    {
+      "m": "m-schools",
+      "n": "美国",
+      "nEn": "United States"
+    }
+  ],
+  "australia": [
+    {
+      "m": "m-schools",
+      "n": "澳大利亚",
+      "nEn": "Australia"
+    }
+  ],
+  "kenya": [
+    {
+      "m": "m-schools",
+      "n": "肯尼亚",
+      "nEn": "Kenya"
+    }
+  ],
+  "tropical-rainforest": [
+    {
+      "m": "m-questions",
+      "n": "热带雨林",
+      "nEn": "Tropical Rainforest"
+    }
+  ],
+  "savanna": [
+    {
+      "m": "m-questions",
+      "n": "热带草原",
+      "nEn": "Savanna"
+    }
+  ],
+  "desert": [
+    {
+      "m": "m-questions",
+      "n": "荒漠（沙漠）",
+      "nEn": "Desert"
+    }
+  ],
+  "temperate-forest": [
+    {
+      "m": "m-questions",
+      "n": "温带落叶林",
+      "nEn": "Temperate Deciduous Forest"
+    }
+  ],
+  "boreal-taiga": [
+    {
+      "m": "m-questions",
+      "n": "北方针叶林（泰加林）",
+      "nEn": "Boreal Taiga"
+    }
+  ],
+  "tundra": [
+    {
+      "m": "m-questions",
+      "n": "苔原",
+      "nEn": "Tundra"
+    }
+  ],
+  "mediterranean": [
+    {
+      "m": "m-questions",
+      "n": "地中海气候",
+      "nEn": "Mediterranean Climate"
+    }
+  ],
+  "alpine": [
+    {
+      "m": "m-questions",
+      "n": "高山带",
+      "nEn": "Alpine Zone"
+    }
+  ],
+  "himalaya": [
+    {
+      "m": "m-classics",
+      "n": "喜马拉雅山脉",
+      "nEn": "Himalayas"
+    }
+  ],
+  "yangtze": [
+    {
+      "m": "m-classics",
+      "n": "长江",
+      "nEn": "Yangtze River"
+    }
+  ],
+  "ganges": [
+    {
+      "m": "m-classics",
+      "n": "恒河",
+      "nEn": "Ganges River"
+    }
+  ],
+  "indus": [
+    {
+      "m": "m-classics",
+      "n": "印度河",
+      "nEn": "Indus River"
+    }
+  ],
+  "amazon": [
+    {
+      "m": "m-classics",
+      "n": "亚马逊河",
+      "nEn": "Amazon River"
+    }
+  ],
+  "nile": [
+    {
+      "m": "m-classics",
+      "n": "尼罗河",
+      "nEn": "Nile River"
+    }
+  ],
+  "victoria": [
+    {
+      "m": "m-classics",
+      "n": "维多利亚湖",
+      "nEn": "Lake Victoria"
+    }
+  ],
+  "rockies": [
+    {
+      "m": "m-classics",
+      "n": "落基山脉",
+      "nEn": "Rocky Mountains"
+    }
+  ],
+  "mississippi": [
+    {
+      "m": "m-classics",
+      "n": "密西西比河",
+      "nEn": "Mississippi River"
+    }
+  ],
+  "andes": [
+    {
+      "m": "m-classics",
+      "n": "安第斯山脉",
+      "nEn": "Andes"
+    }
+  ],
+  "great-barrier-reef": [
+    {
+      "m": "m-classics",
+      "n": "大堡礁",
+      "nEn": "Great Barrier Reef"
+    }
+  ],
+  "baikal": [
+    {
+      "m": "m-classics",
+      "n": "贝加尔湖",
+      "nEn": "Lake Baikal"
+    }
+  ],
+  "suez": [
+    {
+      "m": "m-classics",
+      "n": "苏伊士运河",
+      "nEn": "Suez Canal"
+    }
+  ],
+  "zhenghe": [
+    {
+      "m": "m-thinkers",
+      "n": "郑和",
+      "nEn": "Zheng He"
+    }
+  ],
+  "humboldt": [
+    {
+      "m": "m-thinkers",
+      "n": "亚历山大·冯·洪堡",
+      "nEn": "Alexander von Humboldt"
+    }
+  ],
+  "magellan": [
+    {
+      "m": "m-thinkers",
+      "n": "麦哲伦",
+      "nEn": "Ferdinand Magellan"
+    }
+  ],
+  "livingstone": [
+    {
+      "m": "m-thinkers",
+      "n": "戴维·利文斯通",
+      "nEn": "David Livingstone"
+    }
+  ],
+  "cousteau": [
+    {
+      "m": "m-thinkers",
+      "n": "雅克-伊夫·库斯托",
+      "nEn": "Jacques-Yves Cousteau"
+    }
+  ],
+  "ibn-battuta": [
+    {
+      "m": "m-thinkers",
+      "n": "伊本·白图泰",
+      "nEn": "Ibn Battuta"
+    }
+  ],
+  "ptolemy": [
+    {
+      "m": "m-thinkers",
+      "n": "托勒密",
+      "nEn": "Ptolemy"
+    }
+  ],
+  "eratosthenes": [
+    {
+      "m": "m-thinkers",
+      "n": "埃拉托色尼",
+      "nEn": "Eratosthenes"
+    }
+  ]
+}

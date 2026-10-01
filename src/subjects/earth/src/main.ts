@@ -28,9 +28,7 @@ const instances = new Map<string, ModuleInstance>();
 const pending = new Map<string, Promise<void>>();
 let current = "m-home";
 let booted = false;
-/** 思想总览图是否已展开（语言切换时需同步按钮文案）。 */
-let ovShown = false;
-/** 内嵌进主应用时关闭历史写入，避免 econ 改写 location.hash 污染主路由 URL。 */
+/** 内嵌进主应用时关闭历史写入，避免污染主路由 URL。 */
 let updateHistory = true;
 export function setHistoryUpdate(v: boolean): void {
   updateHistory = v;
@@ -110,7 +108,7 @@ async function ensureModule(def: ModuleDef): Promise<void> {
           const inst = await mod.default({ root, openDetail });
           if (inst) instances.set(def.id, inst);
         } catch (err) {
-          console.error("[thought] 模块渲染失败:", def.id, err);
+          console.error("[earth] 模块渲染失败:", def.id, err);
           root.innerHTML = `<p class="empty">${esc(t("ui.loadFail"))}</p>`;
         }
       })(),
@@ -198,53 +196,14 @@ async function renderRefs(): Promise<void> {
   }
 }
 
-function renderOverview(): void {
-  const home = document.getElementById("m-home");
-  const refs = document.getElementById("refsBox");
-  if (!home || !refs || document.getElementById("ovFig")) return;
-  const fig = document.createElement("div");
-  fig.className = "ov-fig";
-  fig.id = "ovFig";
-  fig.innerHTML =
-    '<button class="ov-toggle" id="ovToggle" type="button" aria-expanded="false">' +
-    '<span class="ov-toggle-t" data-i18n="ov.toggle"></span>' +
-    '<span class="ov-toggle-ic" aria-hidden="true">▾</span></button>' +
-    '<img class="ov-img" id="ovImg" alt="' +
-    esc(t("ov.alt")) +
-    '" loading="lazy" hidden />' +
-    '<figcaption class="ov-cap" id="ovCap" data-i18n="ov.cap" hidden></figcaption>';
-  home.insertBefore(fig, refs);
-  applyStaticLang();
-
-  const img = need("#ovImg") as HTMLImageElement;
-  const cap = need("#ovCap");
-  const btn = need("#ovToggle");
-  const tEl = btn.querySelector<HTMLElement>(".ov-toggle-t");
-  const syncLabel = () => {
-    if (tEl) tEl.textContent = ovShown ? t("ov.toggleClose") : t("ov.toggle");
-  };
-  ovShown = false;
-  btn.addEventListener("click", () => {
-    ovShown = !ovShown;
-    if (ovShown && !img.getAttribute("src")) {
-      img.src = BASE + "thought-data/thought-overview.png";
-    }
-    img.hidden = !ovShown;
-    cap.hidden = !ovShown;
-    btn.classList.toggle("open", ovShown);
-    btn.setAttribute("aria-expanded", String(ovShown));
-    syncLabel();
-  });
-}
-
 function renderFooter(): void {
   const foot = need("#foot");
   foot.innerHTML = `
     <p>${esc(t("foot.tip"))}</p>
-    <p>${esc(t("foot.sister"))}：<a href="https://MinosIE.github.io/chinese-dynasty-timeline/" target="_blank" rel="noopener noreferrer">中华王朝 · 千年脉络</a>
-      · ${esc(t("foot.data"))}：<a href="${BASE}thought-data/data/overview.json">overview.json</a>
-      · <a href="${BASE}thought-data/data/schools.json">schools.json</a>
-      · <a href="${BASE}thought-data/data/thinkers.json">thinkers.json</a>
+    <p>${esc(t("foot.sister"))}：<a href="https://minosie.github.io/wanwu-hub/" target="_blank" rel="noopener noreferrer">万物通识系列</a>
+      · ${esc(t("foot.data"))}：<a href="${BASE}earth-data/data/overview.json">overview.json</a>
+      · <a href="${BASE}earth-data/data/schools.json">schools.json</a>
+      · <a href="${BASE}earth-data/data/thinkers.json">thinkers.json</a>
     </p>
     <p>${esc(t("foot.copy"))}</p>`;
 }
@@ -296,7 +255,6 @@ export function boot(root: ParentNode = document): void {
   renderHome();
   void renderKpis();
   void renderRefs();
-  renderOverview();
   renderFooter();
   updateMailLinks();
   bindNav();
@@ -321,8 +279,6 @@ export function boot(root: ParentNode = document): void {
     void renderKpis();
     void renderRefs();
     updateMailLinks();
-    const ovT = document.querySelector<HTMLElement>("#ovToggle .ov-toggle-t");
-    if (ovT) ovT.textContent = t(ovShown ? "ov.toggleClose" : "ov.toggle");
     if (current !== "m-home") {
       const def = MODULES.find((m) => m.id === current);
       pending.delete(current);

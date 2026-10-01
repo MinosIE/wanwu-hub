@@ -24,7 +24,10 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run build
+      # 预渲染需要 Chrome：puppeteer 安装脚本会下载，这里显式再装一次以防被跳过
+      - name: Install Chrome for puppeteer
+        run: npx puppeteer browsers install chrome
+      - run: npm run build:ssg
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
