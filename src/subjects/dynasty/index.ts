@@ -27,7 +27,7 @@ export async function mount(view: HTMLElement): Promise<() => void> {
         case "querySelectorAll":
           return (s: string) => view.querySelectorAll(s);
         case "addEventListener":
-          return (...a: any[]) => view.addEventListener(...a);
+          return (...a: any[]) => (view.addEventListener as any)(...a);
         case "documentElement":
           return view;
         case "body":

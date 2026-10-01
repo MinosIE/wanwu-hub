@@ -97,6 +97,48 @@
       "nEn": "Marxism"
     }
   ],
+  "mingjia": [
+    {
+      "m": "m-schools",
+      "n": "名家",
+      "nEn": "School of Names"
+    }
+  ],
+  "yinyang": [
+    {
+      "m": "m-schools",
+      "n": "阴阳家",
+      "nEn": "Yin-Yang School"
+    }
+  ],
+  "pragmatism": [
+    {
+      "m": "m-schools",
+      "n": "实用主义",
+      "nEn": "Pragmatism"
+    }
+  ],
+  "analytic": [
+    {
+      "m": "m-schools",
+      "n": "分析哲学",
+      "nEn": "Analytic Philosophy"
+    }
+  ],
+  "skepticism": [
+    {
+      "m": "m-schools",
+      "n": "怀疑主义",
+      "nEn": "Skepticism"
+    }
+  ],
+  "xuanxue": [
+    {
+      "m": "m-schools",
+      "n": "魏晋玄学",
+      "nEn": "Neo-Taoist 'Dark Learning'"
+    }
+  ],
   "free-will": [
     {
       "m": "m-questions",
@@ -347,6 +389,48 @@
       "m": "m-thinkers",
       "n": "波伏瓦",
       "nEn": "Simone de Beauvoir"
+    }
+  ],
+  "zhuangzi": [
+    {
+      "m": "m-thinkers",
+      "n": "庄子",
+      "nEn": "Zhuangzi"
+    }
+  ],
+  "mengzi": [
+    {
+      "m": "m-thinkers",
+      "n": "孟子",
+      "nEn": "Mencius"
+    }
+  ],
+  "socrates": [
+    {
+      "m": "m-thinkers",
+      "n": "苏格拉底",
+      "nEn": "Socrates"
+    }
+  ],
+  "locke": [
+    {
+      "m": "m-thinkers",
+      "n": "洛克",
+      "nEn": "John Locke"
+    }
+  ],
+  "wittgenstein": [
+    {
+      "m": "m-thinkers",
+      "n": "维特根斯坦",
+      "nEn": "Ludwig Wittgenstein"
+    }
+  ],
+  "heidegger": [
+    {
+      "m": "m-thinkers",
+      "n": "海德格尔",
+      "nEn": "Martin Heidegger"
     }
   ]
 }
