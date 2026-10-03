@@ -27,7 +27,6 @@ const MAIL_DOMAIN = "qq.com";
 const instances = new Map<string, ModuleInstance>();
 const pending = new Map<string, Promise<void>>();
 let current = "m-home";
-let booted = false;
 /** 内嵌进主应用时关闭历史写入，避免 econ 改写 location.hash 污染主路由 URL。 */
 let updateHistory = true;
 export function setHistoryUpdate(v: boolean): void {
@@ -242,8 +241,10 @@ function deepLink(): void {
 /* ---------------- 启动 ---------------- */
 
 export function boot(root: ParentNode = document): void {
-  if (booted) return;
-  booted = true;
+  // 每次挂载都重新初始化：清空上一轮模块缓存，避免复用到已被销毁的旧 DOM
+  instances.clear();
+  pending.clear();
+  current = "m-home";
   if (window.self !== window.top) document.body.classList.add("embedded");
 
   setI18nRoot(root);
