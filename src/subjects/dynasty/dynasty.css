@@ -194,10 +194,10 @@
   transform: rotate(-4deg);
   z-index: 3;
 }
-/* subject-dynasty：hero 向上铺满顶栏下方、去顶部圆角，与渐变顶栏连成一体 */
+/* subject-dynasty：侧面出血贴合内容区，顶部正常落在透明顶栏下方，与首页同款融合 */
 #app.subject-dynasty .dynasty-root .hero {
-  margin: -24px -24px 0;
-  border-radius: 0 0 var(--r4) var(--r4);
+  margin: 0 -24px;
+  border-radius: var(--r4);
   box-shadow: 0 14px 34px rgba(28, 23, 20, 0.22);
 }
 .dynasty-root .hero h1 {

@@ -74,6 +74,33 @@
   .lang-btn.active { background: var(--accent); color: #fff; font-weight: 600; }
   .theme-btn { background: transparent; border: 1px solid var(--border); border-radius: 50%; width: 38px; height: 38px; cursor: pointer; font-size: 1rem; line-height: 1; transition: all .2s; }
   .theme-btn:hover { border-color: var(--accent); }
+  .subjects-menu { position: relative; }
+  .subjects-toggle {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: transparent; border: 1px solid var(--border); border-radius: 20px;
+    color: var(--muted); padding: 6px 14px; font-size: .85rem; cursor: pointer;
+    transition: border-color .2s, color .2s;
+  }
+  .subjects-toggle:hover,
+  .subjects-toggle[aria-expanded="true"] { border-color: var(--accent); color: var(--text); }
+  .subjects-toggle .caret { font-size: .7rem; transition: transform .2s; }
+  .subjects-toggle[aria-expanded="true"] .caret { transform: rotate(180deg); }
+  .subjects-panel {
+    position: absolute; top: calc(100% + 10px); right: 0; left: auto; z-index: 100;
+    min-width: min(280px, calc(100vw - 32px)); max-height: 72vh; overflow: auto;
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .22); padding: 8px;
+  }
+  .subject-item {
+    display: flex; align-items: center; gap: 12px; padding: 10px 12px;
+    border-radius: 10px; text-decoration: none; color: var(--text); transition: background .15s;
+  }
+  .subject-item:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+  .subject-item .si-emoji { font-size: 1.4rem; }
+  .subject-item .si-text { display: flex; flex-direction: column; line-height: 1.25; }
+  .subject-item .si-title { font-weight: 600; font-size: .92rem; }
+  .subject-item .si-status { font-size: .72rem; color: var(--muted); }
+  .subject-item .si-status.soon { color: var(--accent); }
 
   .hero {
     text-align: center; margin: 4px 0 40px; position: relative; overflow: hidden;
@@ -162,11 +189,6 @@
   /* subject 模式（iframe 学科页）：去掉硬分隔线，对齐左右安全边距 */
   #app.subject-mode .topbar {
     margin-bottom: 0; padding-left: 24px; padding-right: 24px;
-    background: color-mix(in srgb, var(--bg) 92%, transparent);
-    backdrop-filter: blur(8px) saturate(150%);
-    -webkit-backdrop-filter: blur(8px) saturate(150%);
-    border-bottom: 1px solid var(--border);
-    border-radius: 0;
   }
   #app.subject-mode .site-footer { padding-left: 24px; padding-right: 24px; }
   /* econ / mind / thought 内嵌时隐藏其自带的语言/主题按钮（由主应用顶栏统一接管） */

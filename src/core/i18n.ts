@@ -22,6 +22,7 @@ const base: Record<Lang, Dict> = {
     theme_light: "☀️",
     lang_zh: "中",
     lang_en: "EN",
+    nav_subjects: "学科",
   },
   en: {
     brand: "Wanwu Tongsheng",
@@ -43,6 +44,7 @@ const base: Record<Lang, Dict> = {
     theme_light: "☀️",
     lang_zh: "中",
     lang_en: "EN",
+    nav_subjects: "Subjects",
   },
 };
 
