@@ -199,7 +199,7 @@ function renderFooter(): void {
   const foot = need("#foot");
   foot.innerHTML = `
     <p>${esc(t("foot.tip"))}</p>
-    <p>${esc(t("foot.sister"))}：<a href="https://MinosIE.github.io/chinese-dynasty-timeline/" target="_blank" rel="noopener noreferrer">中华王朝 · 千年脉络</a>
+    <p>${esc(t("foot.sister"))}：<a href="https://minosie.github.io/wanwu-hub/#/subject/dynasty" target="_blank" rel="noopener noreferrer">中华王朝 · 千年脉络</a>
       · ${esc(t("foot.data"))}：<a href="${BASE}data/overview.json">overview.json</a>
       · <a href="${BASE}data/concepts.json">concepts.json</a>
       · ${esc(t("foot.llms"))}：<a href="${BASE}llms.txt">llms.txt</a>

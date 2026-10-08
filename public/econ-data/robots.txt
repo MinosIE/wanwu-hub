@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://MinosIE.github.io/econ-everything/sitemap.xml
+Sitemap: https://MinosIE.github.io/wanwu-hub/#/subject/econ/sitemap.xml

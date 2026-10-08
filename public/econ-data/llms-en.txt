@@ -3,16 +3,16 @@
 > A bilingual, ad-free educational site explaining economics in plain language: core concepts, glossary, macro, micro, money and finance, thinkers, schools of thought, economic history, behavioral economics, game theory, trade, everyday economics, charts, myths, a quiz and cross-country comparisons. All data are structured JSON with paired English fields (`*En`). Nothing here is investment advice.
 
 ## Data endpoints
-- [Overview and counts](https://MinosIE.github.io/econ-everything/data/overview.json): entry counts and home-page KPIs
-- [Core concepts](https://MinosIE.github.io/econ-everything/data/concepts.json) | [Glossary](https://MinosIE.github.io/econ-everything/data/glossary.json)
-- [Macroeconomics](https://MinosIE.github.io/econ-everything/data/macro.json) | [Microeconomics](https://MinosIE.github.io/econ-everything/data/micro.json) | [Money & finance](https://MinosIE.github.io/econ-everything/data/money.json)
-- [Thinkers](https://MinosIE.github.io/econ-everything/data/thinkers.json) | [Schools of thought](https://MinosIE.github.io/econ-everything/data/schools.json) | [Economic History](https://MinosIE.github.io/econ-everything/data/events.json)
-- [Behavioral economics](https://MinosIE.github.io/econ-everything/data/behavioral.json) | [Game theory](https://MinosIE.github.io/econ-everything/data/gametheory.json) | [Trade](https://MinosIE.github.io/econ-everything/data/trade.json)
-- [Everyday economics](https://MinosIE.github.io/econ-everything/data/everyday.json) | [Charts](https://MinosIE.github.io/econ-everything/data/charts.json)
-- [Myths](https://MinosIE.github.io/econ-everything/data/myths.json) | [Quiz](https://MinosIE.github.io/econ-everything/data/quiz.json) | [Compare](https://MinosIE.github.io/econ-everything/data/compare.json)
-- [References](https://MinosIE.github.io/econ-everything/data/sources.json) | [Search index](https://MinosIE.github.io/econ-everything/data/search.json) | [Related index](https://MinosIE.github.io/econ-everything/data/related.json)
-- [Full text](https://MinosIE.github.io/econ-everything/llms-full-en.txt): full plain-text dump of all structured data
-- [Chinese index](https://MinosIE.github.io/econ-everything/llms.txt): 中文索引
+- [Overview and counts](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/overview.json): entry counts and home-page KPIs
+- [Core concepts](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/concepts.json) | [Glossary](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/glossary.json)
+- [Macroeconomics](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/macro.json) | [Microeconomics](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/micro.json) | [Money & finance](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/money.json)
+- [Thinkers](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/thinkers.json) | [Schools of thought](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/schools.json) | [Economic History](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/events.json)
+- [Behavioral economics](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/behavioral.json) | [Game theory](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/gametheory.json) | [Trade](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/trade.json)
+- [Everyday economics](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/everyday.json) | [Charts](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/charts.json)
+- [Myths](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/myths.json) | [Quiz](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/quiz.json) | [Compare](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/compare.json)
+- [References](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/sources.json) | [Search index](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/search.json) | [Related index](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/related.json)
+- [Full text](https://MinosIE.github.io/wanwu-hub/#/subject/econ/llms-full-en.txt): full plain-text dump of all structured data
+- [Chinese index](https://MinosIE.github.io/wanwu-hub/#/subject/econ/llms.txt): 中文索引
 
 ## Modules
 - Core Concepts

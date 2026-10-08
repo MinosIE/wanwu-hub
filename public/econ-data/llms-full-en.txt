@@ -2,7 +2,7 @@
 
 > Complete plain-text dump of all structured data from a bilingual, ad-free educational site on economics. For LLM ingestion and citation.
 
-Source: https://MinosIE.github.io/econ-everything/
+Source: https://MinosIE.github.io/wanwu-hub/#/subject/econ/
 
 ## Core Concepts
 
