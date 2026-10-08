@@ -11,6 +11,8 @@ import * as mind from "./subjects/mind";
 import * as thought from "./subjects/thought";
 import * as earth from "./subjects/earth";
 import * as life from "./subjects/life";
+import * as physics from "./subjects/physics";
+import * as chem from "./subjects/chem";
 
 const app = document.getElementById("app")!;
 let currentCleanup: (() => void) | null = null;
@@ -28,7 +30,9 @@ async function renderView(): Promise<void> {
   // 切换视图前，重置上个视图残留的容器状态，避免样式串屏（如 dynasty-root 污染首页）
   view.className = "";
   view.removeAttribute("data-theme");
-  app.classList.remove("subject-mode", "subject-dynasty", "subject-econ", "subject-mind", "subject-thought", "subject-earth", "subject-life");
+  Array.from(app.classList).forEach((c) => {
+    if (c === "subject-mode" || c.startsWith("subject-")) app.classList.remove(c);
+  });
   if (route.name === "home") {
     document.title = "万物通识系列 — 系列入口";
     renderHome(view);
@@ -42,6 +46,8 @@ async function renderView(): Promise<void> {
   app.classList.toggle("subject-thought", key === "thought");
   app.classList.toggle("subject-earth", key === "earth");
   app.classList.toggle("subject-life", key === "life");
+  app.classList.toggle("subject-physics", key === "physics");
+  app.classList.toggle("subject-chem", key === "chem");
   if (key === "dynasty") {
     currentCleanup = await dynasty.mount(view);
     return;
@@ -64,6 +70,14 @@ async function renderView(): Promise<void> {
   }
   if (key === "life") {
     currentCleanup = await life.mount(view, route.sub);
+    return;
+  }
+  if (key === "physics") {
+    currentCleanup = await physics.mount(view, route.sub);
+    return;
+  }
+  if (key === "chem") {
+    currentCleanup = await chem.mount(view, route.sub);
     return;
   }
   const p = PROJECTS.find((x) => x.key === key);

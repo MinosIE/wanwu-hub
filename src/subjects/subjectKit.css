@@ -1,0 +1,189 @@
+/* 轻量学科视图共享样式（physics / chem 等）。复用主应用 :root 主题变量。 */
+.sub-wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 8px 20px 64px;
+}
+.sub-hero {
+  text-align: center;
+  margin: 4px 0 28px;
+  padding: 22px 24px 30px;
+  border-radius: 18px;
+  background:
+    radial-gradient(120% 130% at 50% -20%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 55%),
+    radial-gradient(100% 120% at 100% -10%, color-mix(in srgb, var(--teal) 14%, transparent), transparent 60%);
+}
+.sub-hero .sub-h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, var(--teal), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.sub-hero .sub-sub {
+  color: var(--text);
+  font-size: 1.02rem;
+  margin-top: 8px;
+  opacity: 0.92;
+}
+.sub-hero .sub-intro {
+  color: var(--muted);
+  font-size: 0.94rem;
+  max-width: 720px;
+  margin: 14px auto 0;
+  line-height: 1.8;
+}
+/* 模块导航 */
+.sub-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto 26px;
+}
+.sub-mod {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--card);
+  color: var(--muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.sub-mod .sm-ic { font-size: 1.05rem; }
+.sub-mod:hover { transform: translateY(-2px); color: var(--text); }
+.sub-mod.active {
+  border-color: var(--accent);
+  color: var(--text);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+/* 模块区：仅当前激活显示 */
+.sub-module { display: none; }
+.sub-module.active { display: block; animation: subFade 0.4s var(--ease-out); }
+@keyframes subFade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.sm-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.sm-head h2 { font-size: 1.4rem; font-weight: 700; }
+.sm-count { color: var(--muted); font-size: 0.85rem; }
+/* 卡片网格 */
+.sub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.sub-card {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: 12px;
+  padding: 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.28s var(--ease-out), box-shadow 0.28s var(--ease-out);
+}
+.sub-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 0 0 1px var(--accent), 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+.card-h { display: flex; align-items: center; gap: 10px; }
+.card-ic { font-size: 1.3rem; }
+.card-t { font-weight: 700; font-size: 1.05rem; }
+.lvl {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius: 10px;
+  padding: 1px 7px;
+}
+.card-lead { color: var(--muted); font-size: 0.9rem; line-height: 1.6; margin: 10px 0 14px; flex: 1; }
+.card-f { display: flex; align-items: center; gap: 8px; }
+.tag {
+  font-size: 0.75rem;
+  color: var(--muted);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.card-val {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.78rem;
+  color: var(--text);
+  background: color-mix(in srgb, var(--teal) 12%, transparent);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.card-go { margin-left: auto; font-size: 0.8rem; color: var(--accent); }
+/* 返回顶部 */
+.sub-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(14px) scale(0.92);
+  pointer-events: none;
+  transition: opacity 0.25s, transform 0.4s var(--ease-back);
+  z-index: 60;
+}
+.sub-top.show { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
+/* 详情弹层 */
+.sub-detail { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; }
+.sub-detail[hidden] { display: none; }
+.sd-backdrop { position: absolute; inset: 0; background: rgba(8, 12, 20, 0.5); backdrop-filter: blur(3px); }
+.sd-panel {
+  position: relative;
+  width: min(620px, 92vw);
+  max-height: 84vh;
+  overflow: auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 26px 24px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  animation: subFade 0.3s var(--ease-out);
+}
+.sd-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.sd-close:hover { color: var(--text); background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.sd-eyebrow { color: var(--accent); font-size: 0.82rem; font-weight: 600; }
+.sd-title { font-size: 1.7rem; font-weight: 700; margin: 6px 0 4px; }
+.sd-value { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); font-size: 0.95rem; margin-bottom: 10px; }
+.sd-lead { color: var(--text); font-size: 1rem; line-height: 1.7; margin-bottom: 12px; }
+.sd-sec { display: flex; gap: 8px; color: var(--muted); font-size: 0.92rem; line-height: 1.7; margin: 8px 0; }
+.sd-sec b { flex: none; }
+.sd-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .sub-module.active, .sub-card, .sub-top, .sd-panel { animation: none !important; transition: none !important; }
+}
