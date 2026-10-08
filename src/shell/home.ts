@@ -4,7 +4,7 @@ import { PROJECTS } from "../core/projects";
 export function renderHome(view: HTMLElement): void {
   const lang = getLang();
 
-  const card = (p: (typeof PROJECTS)[number], featured = false) => {
+  const card = (p: (typeof PROJECTS)[number], i = 0, featured = false) => {
     const name = lang === "en" ? p.en : p.zh;
     const sub = lang === "en" ? p.subEn : p.subZh;
     const desc = lang === "en" ? p.descEn : p.descZh;
@@ -20,15 +20,19 @@ export function renderHome(view: HTMLElement): void {
 
 
 
-    const cardInner = `
-      <h3>${name}</h3>
-      <div class="sub-en">${sub}</div>
+    const head = `
+      <div class="emoji">${p.emoji}</div>
+      <div class="card-titles">
+        <h3>${name}</h3>
+        ${sub ? `<div class="sub-en">${sub}</div>` : ""}
+      </div>`;
+    const body = `
       <p class="desc">${desc}</p>
       <div class="tags">${tags}</div>
       ${action}`;
-    return `<div class="card ${p.integrated ? "" : "soon"}${featured ? " featured" : ""}">
-      <div class="emoji">${p.emoji}</div>
-      <div class="card-main">${cardInner}</div>
+    return `<div class="card ${p.integrated ? "" : "soon"}${featured ? " featured" : ""}" style="--i:${i}">
+      <div class="card-head">${head}</div>
+      <div class="card-main">${body}</div>
     </div>`;
   };
 
@@ -40,7 +44,7 @@ export function renderHome(view: HTMLElement): void {
     </div>
     <section class="section" id="all">
       <h2 data-i18n="sec_all">${t("sec_all")}</h2>
-      <div class="card-grid">${PROJECTS.map((p) => card(p)).join("")}</div>
+      <div class="card-grid">${PROJECTS.map((p, i) => card(p, i)).join("")}</div>
     </section>
     <div class="note" data-i18n="note">${t("note")}</div>
   `;

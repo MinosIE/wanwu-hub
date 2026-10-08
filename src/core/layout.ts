@@ -5,7 +5,7 @@ import { toggleTheme, getTheme, onThemeChange } from "./theme";
 export function renderLayout(app: HTMLElement): void {
   app.innerHTML = `
     <header class="topbar">
-      <a href="#/" class="brand" data-i18n="brand">${t("brand")}</a>
+      <a href="#/" class="brand"><span class="mark">🌐</span><span data-i18n="brand">${t("brand")}</span></a>
       <div class="toolbar">
         <div class="lang-switch">
           <button class="lang-btn" data-lang="zh">中</button>
@@ -44,4 +44,13 @@ export function renderLayout(app: HTMLElement): void {
   onLangChange(syncLang);
   onLangChange(syncTheme);
   onThemeChange(syncTheme);
+
+  // 滚动时给顶栏加阴影（毛玻璃吸顶后的层次感）
+  const topbarEl = app.querySelector<HTMLElement>(".topbar");
+  if (topbarEl) {
+    const onScroll = () =>
+      topbarEl.classList.toggle("scrolled", window.scrollY > 8);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  }
 }
