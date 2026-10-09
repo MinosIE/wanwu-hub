@@ -6,7 +6,7 @@ const base: Record<Lang, Dict> = {
     brand: "万物通识",
     subtitle: "一个入口，看尽万物 —— 系列聚合导航站",
     intro:
-      "万物通识是一组围绕「通识教育 + 可视化」构建的开源项目集合：从中华千年历史脉络，延伸到心理、哲学、地理、生物、物理、化学六大学科。这里汇总所有子项目的入口，方便你一处抵达。",
+      "万物通识是一组围绕「通识教育 + 可视化」构建的开源项目集合：从中华千年历史脉络，延伸到心理、哲学、地理、生物四大学科。这里汇总所有子项目的入口，方便你一处抵达。",
     sec_all: "全部系列",
     btn_site: "访问站点 ↗",
     btn_repo: "GitHub 仓库 ↗",
@@ -26,7 +26,7 @@ const base: Record<Lang, Dict> = {
     brand: "Wanwu Tongsheng",
     subtitle: "One hub to explore everything — the series portal",
     intro:
-      "Wanwu Tongsheng is a collection of open-source projects built around 'general education + visualization': from millennia of Chinese history to six disciplines — psychology, philosophy, geography, biology, physics, and chemistry. This hub gathers every sub-project's entry point in one place.",
+      "Wanwu Tongsheng is a collection of open-source projects built around 'general education + visualization': from millennia of Chinese history to four disciplines — psychology, philosophy, geography, and biology. This hub gathers every sub-project's entry point in one place.",
     sec_all: "All Series",
     btn_site: "Visit Site ↗",
     btn_repo: "GitHub Repo ↗",
