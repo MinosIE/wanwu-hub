@@ -38,6 +38,12 @@ export interface SubjectModule {
   items: SubjectItem[];
 }
 
+export interface SubjectRef {
+  label: LStr;
+  url?: string;
+  type?: LStr;
+}
+
 export interface SubjectConfig {
   rootClass: string;
   accent: string;
@@ -45,6 +51,8 @@ export interface SubjectConfig {
   heroSub: LStr;
   intro?: LStr;
   modules: SubjectModule[];
+  /** 可选来源区（教材 / 著作 / 机构 / 科普…） */
+  refs?: SubjectRef[];
 }
 
 function esc(s: string): string {
@@ -110,25 +118,45 @@ function kpisInner(cfg: SubjectConfig): string {
     .join("");
 }
 
+function refsInner(refs: SubjectRef[]): string {
+  const items = refs
+    .map((r) => {
+      const label = esc(L(r.label));
+      const text = r.url
+        ? `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
+        : label;
+      return `<li>${text}${r.type ? `<span class="ref-type">${esc(L(r.type))}</span>` : ""}</li>`;
+    })
+    .join("");
+  return `<h2>${esc(L({ zh: "主要参考资料与数据来源", en: "Key References & Sources" }))}</h2>
+    <ul class="ref-list">${items}</ul>`;
+}
+
 export function createSubject(cfg: SubjectConfig) {
   return async (
     view: HTMLElement,
     sub?: string,
   ): Promise<() => void> => {
+    const hasRefs = !!(cfg.refs && cfg.refs.length);
     view.innerHTML = `<div class="${cfg.rootClass}" style="--accent:${cfg.accent}">
       <div class="sub-wrap">
         <section class="sub-hero">
           <h1 class="sub-h1">${esc(heroTitleText(cfg.heroTitle))}</h1>
           ${cfg.intro ? `<p class="sub-intro">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
+          <div class="sub-search-wrap">
+            <input id="subSearch" class="sub-search" type="search" autocomplete="off"
+              placeholder="${esc(L({ zh: "搜索：概念 / 术语 / 关键词…", en: "Search: concepts / terms / keywords…" }))}"
+              aria-label="${esc(L({ zh: "搜索", en: "Search" }))}" />
+          </div>
         </section>
-        <nav class="sub-nav" aria-label="模块导航">${cfg.modules
+        <nav class="sub-nav" id="subNav" aria-label="模块导航">${cfg.modules
           .map(
             (m, i) =>
               `<button class="sub-mod${i === 0 ? " active" : ""}" data-go="${m.key}"><span class="sm-ic" aria-hidden="true">${m.icon}</span><span class="sm-label">${esc(L(m.title))}</span></button>`,
           )
           .join("")}</nav>
-        <div class="sub-modules">${cfg.modules
+        <div class="sub-modules" id="subModules">${cfg.modules
           .map(
             (m, i) =>
               `<section class="sub-module${i === 0 ? " active" : ""}" id="sm-${m.key}">
@@ -137,6 +165,8 @@ export function createSubject(cfg: SubjectConfig) {
               </section>`,
           )
           .join("")}</div>
+        <div class="sub-results" id="subResults" hidden></div>
+        ${hasRefs ? `<section class="sub-refs" id="subRefs">${refsInner(cfg.refs!)}</section>` : ""}
         <footer class="sub-foot">
           <p class="foot-feedback">${esc(L(FEEDBACK_TEXT))}：<a href="https://github.com/MinosIE/wanwu-hub/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> · <a id="heroMailLink" href="${mailHref()}">${esc(L(MAIL_LABEL))}</a></p>
           <p class="sub-foot-copy">© 2026 万物通识 · MIT License</p>
@@ -199,6 +229,51 @@ export function createSubject(cfg: SubjectConfig) {
       });
     });
 
+    // 搜索：跨模块过滤卡片，命中项汇总到结果区
+    const allItems = cfg.modules.flatMap((m) => m.items.map((it) => ({ m, it })));
+    const searchInput = root.querySelector<HTMLInputElement>("#subSearch");
+    const resultsEl = root.querySelector<HTMLElement>("#subResults")!;
+    const navEl = root.querySelector<HTMLElement>("#subNav")!;
+    const modulesEl = root.querySelector<HTMLElement>("#subModules")!;
+
+    const onSearch = () => {
+      const q = (searchInput?.value ?? "").trim().toLowerCase();
+      if (!q) {
+        resultsEl.hidden = true;
+        navEl.style.display = "";
+        modulesEl.style.display = "";
+        cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
+        return;
+      }
+      const matches = allItems.filter(({ it }) => {
+        const hay = [
+          L(it.term),
+          L(it.oneLiner),
+          it.value ? L(it.value) : "",
+          ...(it.tags ?? []).map((t) => L(t)),
+        ]
+          .join(" ")
+          .toLowerCase();
+        return hay.includes(q);
+      });
+      navEl.style.display = "none";
+      modulesEl.style.display = "none";
+      resultsEl.hidden = false;
+      resultsEl.innerHTML = matches.length
+        ? matches.map(({ it }) => cardHTML(it)).join("")
+        : `<p class="sub-no-result">${esc(L({ zh: "未找到匹配项", en: "No matches" }))}</p>`;
+      resultsEl.querySelectorAll<HTMLElement>(".js-item").forEach((el) => {
+        const hit = allItems.find((x) => x.it.id === el.dataset.key);
+        if (!hit) return;
+        const open = () => openDetail(hit.m, hit.it.id);
+        el.addEventListener("click", open);
+        el.addEventListener("keydown", (e) => {
+          if ((e as KeyboardEvent).key === "Enter") open();
+        });
+      });
+    };
+    searchInput?.addEventListener("input", onSearch);
+
     const top = root.querySelector<HTMLElement>("#subTop")!;
     const onScroll = () => top.classList.toggle("show", window.scrollY > 420);
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -221,6 +296,14 @@ export function createSubject(cfg: SubjectConfig) {
       cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
       const ml = root.querySelector<HTMLAnchorElement>("#heroMailLink");
       if (ml) ml.href = mailHref();
+      if (searchInput)
+        searchInput.placeholder = L({
+          zh: "搜索：概念 / 术语 / 关键词…",
+          en: "Search: concepts / terms / keywords…",
+        });
+      if (!resultsEl.hidden) onSearch();
+      const refsEl = root.querySelector<HTMLElement>("#subRefs");
+      if (refsEl && cfg.refs && cfg.refs.length) refsEl.innerHTML = refsInner(cfg.refs);
       closeDetail();
     });
 
@@ -240,6 +323,7 @@ export function createSubject(cfg: SubjectConfig) {
 
     return () => {
       offLang();
+      window.removeEventListener("scroll", onScroll);
       closeDetail();
     };
   };

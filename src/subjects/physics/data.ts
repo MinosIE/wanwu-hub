@@ -397,4 +397,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       ],
     },
   ],
+  refs: [
+    { label: { zh: "《费曼物理学讲义》", en: "The Feynman Lectures on Physics" }, url: "https://www.feynmanlectures.caltech.edu/", type: { zh: "教材", en: "Textbook" } },
+    { label: { zh: "Khan Academy · 物理", en: "Khan Academy · Physics" }, url: "https://www.khanacademy.org/science/physics", type: { zh: "科普", en: "Educational" } },
+    { label: { zh: "HyperPhysics", en: "HyperPhysics" }, url: "http://hyperphysics.phy-astr.gsu.edu/", type: { zh: "工具", en: "Reference" } },
+    { label: { zh: "Wikipedia · Physics", en: "Wikipedia · Physics" }, url: "https://en.wikipedia.org/wiki/Physics", type: { zh: "百科", en: "Encyclopedia" } },
+  ],
 };

@@ -412,4 +412,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       ],
     },
   ],
+  refs: [
+    { label: { zh: "Khan Academy · 化学", en: "Khan Academy · Chemistry" }, url: "https://www.khanacademy.org/science/chemistry", type: { zh: "科普", en: "Educational" } },
+    { label: { zh: "PubChem", en: "PubChem" }, url: "https://pubchem.ncbi.nlm.nih.gov/", type: { zh: "工具", en: "Reference" } },
+    { label: { zh: "Royal Society of Chemistry", en: "Royal Society of Chemistry" }, url: "https://www.rsc.org/", type: { zh: "机构", en: "Institution" } },
+    { label: { zh: "Wikipedia · Chemistry", en: "Wikipedia · Chemistry" }, url: "https://en.wikipedia.org/wiki/Chemistry", type: { zh: "百科", en: "Encyclopedia" } },
+  ],
 };
