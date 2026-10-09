@@ -187,3 +187,22 @@
 @media (prefers-reduced-motion: reduce) {
   .sub-module.active, .sub-card, .sub-top, .sd-panel { animation: none !important; transition: none !important; }
 }
+/* footer 反馈区（与全站一致的反馈入口） */
+.sub-foot {
+  margin-top: 40px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+.sub-foot .foot-feedback {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.sub-foot .foot-feedback a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  padding-bottom: 1px;
+}
+.sub-foot .foot-feedback a:hover { opacity: 0.82; }

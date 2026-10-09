@@ -47,6 +47,26 @@ function esc(s: string): string {
   );
 }
 
+const FEEDBACK_TEXT: LStr = {
+  zh: "发现问题或有建议？欢迎通过 GitHub 提 Issue 或邮件反馈",
+  en: "Found a problem or have a suggestion? File a GitHub issue or email us",
+};
+const MAIL_LABEL: LStr = { zh: "✉️ 邮件反馈", en: "✉️ Email" };
+
+/** 生成预填主题/正文的 mailto 链接（与全站一致的反馈邮箱）。 */
+function mailHref(): string {
+  const subject = encodeURIComponent(
+    L({ zh: "【万物通识·问题反馈】", en: "[Wanwu Tongsheng feedback]" }),
+  );
+  const body = encodeURIComponent(
+    L({
+      zh: "您好，我在浏览「万物通识」时发现以下问题 / 建议：\n\n",
+      en: "Hi, I found the following issue / suggestion while browsing Wanwu Tongsheng:\n\n",
+    }),
+  );
+  return `mailto:417913012@qq.com?subject=${subject}&body=${body}`;
+}
+
 function cardHTML(item: SubjectItem): string {
   const value = item.value ? `<span class="card-val">${esc(L(item.value))}</span>` : "";
   return `<article class="sub-card js-item" data-key="${esc(item.id)}" tabindex="0" role="button" aria-label="${esc(L(item.term))}">
@@ -95,6 +115,9 @@ export function createSubject(cfg: SubjectConfig) {
               </section>`,
           )
           .join("")}</div>
+        <footer class="sub-foot">
+          <p class="foot-feedback">${esc(L(FEEDBACK_TEXT))}：<a href="https://github.com/MinosIE/wanwu-hub/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> · <a id="heroMailLink" href="${mailHref()}">${esc(L(MAIL_LABEL))}</a></p>
+        </footer>
       </div>
       <button class="sub-top" id="subTop" type="button" aria-label="返回顶部">↑</button>
       <div class="sub-detail" id="subDetail" hidden></div>
@@ -173,6 +196,8 @@ export function createSubject(cfg: SubjectConfig) {
         .querySelectorAll<HTMLElement>(".sm-head h2")
         .forEach((h, i) => (h.textContent = L(cfg.modules[i].title)));
       cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
+      const ml = root.querySelector<HTMLAnchorElement>("#heroMailLink");
+      if (ml) ml.href = mailHref();
       closeDetail();
     });
 
