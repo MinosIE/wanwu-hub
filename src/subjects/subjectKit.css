@@ -273,7 +273,7 @@
   font-size: 0.85rem;
 }
 /* 搜索框：位于 hero 之后、模块导航之前（与 FULL 学科一致），落在页面背景上 */
-.sub-search-wrap { width: 100%; max-width: 720px; margin: 4px auto 0; }
+.sub-search-wrap { width: 100%; max-width: 720px; margin: 4px auto 16px; }
 .sub-search {
   width: 100%;
   padding: 10px 16px;
