@@ -1,3 +1,5 @@
 @import './tokens.css';
 @import './base.css';
 @import './components.css';
+/* 共享学科 UI 层（单一事实来源，置于末尾以覆盖各学科副本） */
+@import '../../../../core/ui/ui.css';

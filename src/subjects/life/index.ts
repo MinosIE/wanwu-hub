@@ -14,7 +14,7 @@ export async function mount(
   view: HTMLElement,
   sub?: string,
 ): Promise<() => void> {
-  view.innerHTML = `<div class="life-root">${TEMPLATE}</div>`;
+  view.innerHTML = `<div class="life-root subject-root">${TEMPLATE}</div>`;
   const root = view.querySelector<HTMLElement>(".life-root");
   if (!root) return () => {};
 
