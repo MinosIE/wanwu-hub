@@ -551,35 +551,37 @@
   margin: 0 6px;
 }
 .mind-root .refs {
-  margin: 36px auto 0;
-  max-width: 760px;
+  margin: 18px 0 0;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 14px;
   box-shadow: var(--shadow);
-  padding: 22px 28px 14px;
+  padding: 20px 22px;
 }
 .mind-root .refs h2 {
-  font-size: 1.15rem;
-  text-align: center;
-  margin: 0 0 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  text-align: left;
+  margin: 0 0 4px;
 }
 .mind-root .refs .mod-sub {
   font-size: 0.85rem;
-  text-align: center;
+  text-align: left;
   margin: 0;
 }
 .mind-root .ref-list {
-  list-style: none;
-  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  gap: 6px 18px;
   margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
 }
 .mind-root .ref-list li {
   display: flex;
   align-items: baseline;
   gap: 8px;
-  padding: 6px 0;
-  border-bottom: 1px dashed var(--border);
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -593,7 +595,7 @@
 }
 .mind-root .ref-type {
   flex-shrink: 0;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: var(--faint);
 }
 
