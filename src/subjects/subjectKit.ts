@@ -144,12 +144,12 @@ export function createSubject(cfg: SubjectConfig) {
           <h1 class="sub-h1">${esc(heroTitleText(cfg.heroTitle))}</h1>
           ${cfg.intro ? `<p class="sub-intro">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
-          <div class="sub-search-wrap">
-            <input id="subSearch" class="sub-search" type="search" autocomplete="off"
-              placeholder="${esc(L({ zh: "搜索：概念 / 术语 / 关键词…", en: "Search: concepts / terms / keywords…" }))}"
-              aria-label="${esc(L({ zh: "搜索", en: "Search" }))}" />
-          </div>
         </section>
+        <div class="sub-search-wrap">
+          <input id="subSearch" class="sub-search" type="search" autocomplete="off"
+            placeholder="${esc(L({ zh: "搜索：概念 / 术语 / 关键词…", en: "Search: concepts / terms / keywords…" }))}"
+            aria-label="${esc(L({ zh: "搜索", en: "Search" }))}" />
+        </div>
         <nav class="sub-nav" id="subNav" aria-label="模块导航">${cfg.modules
           .map(
             (m, i) =>

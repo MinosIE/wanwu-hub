@@ -272,21 +272,24 @@
   color: var(--muted);
   font-size: 0.85rem;
 }
-/* 搜索框 */
-.sub-search-wrap { width: 100%; max-width: 520px; margin: 4px auto 0; }
+/* 搜索框：位于 hero 之后、模块导航之前（与 FULL 学科一致），落在页面背景上 */
+.sub-search-wrap { width: 100%; max-width: 720px; margin: 4px auto 0; }
 .sub-search {
   width: 100%;
   padding: 10px 16px;
   border-radius: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.14);
-  color: #fff;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
   font-size: 0.92rem;
   outline: none;
-  transition: border-color 0.2s, background 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
-.sub-search::placeholder { color: rgba(255, 255, 255, 0.7); }
-.sub-search:focus { border-color: #fff; background: rgba(255, 255, 255, 0.2); }
+.sub-search::placeholder { color: var(--muted); }
+.sub-search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
 /* 搜索结果区 */
 .sub-results {
   display: grid;
