@@ -74,31 +74,8 @@
   right: 86px;
 }
 
-/* ===== KPIs ===== */
-.mind-root .kpis {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 26px;
-}
-.mind-root .kpi {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 14px 22px;
-  min-width: 120px;
-  box-shadow: var(--shadow);
-}
-.mind-root .kpi .num {
-  font-size: 1.7rem;
-  font-weight: 800;
-  color: var(--accent);
-}
-.mind-root .kpi .label {
-  font-size: 0.8rem;
-  color: var(--muted);
-}
+/* KPI 样式已统一由共享 UI 层 src/core/ui/ui.css（scope: .subject-root）提供
+   （结构：.kpi > .kpi-ic + .kpi-body(.kpi-v + .kpi-l)） */
 
 /* 搜索框与结果样式已统一由共享 UI 层 src/core/ui/ui.css（scope: .subject-root）提供 */
 

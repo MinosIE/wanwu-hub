@@ -54,13 +54,19 @@ async function mountOverview(): Promise<void> {
   const render = () => {
     const kpisEl = document.getElementById("kpis");
     if (kpisEl) {
+      // 复用共享 UI 层的 KPI 结构（.kpi-ic / .kpi-body / .kpi-v / .kpi-l），
+      // 图标取自同 id 的 entries（kpi.file 去掉 .json 即 entry.id）。
+      const iconById = new Map<string, string>(
+        (ov.entries || []).map(
+          (e: any): [string, string] => [String(e.id), String(e.icon || "•")],
+        ),
+      );
       kpisEl.innerHTML = (ov.kpis || [])
-        .map(
-          (k: any) =>
-            `<div class="kpi"><div class="num">${esc(k.count ?? "—")}</div><div class="label">${esc(
-              t(k.titleKey),
-            )}</div></div>`,
-        )
+        .map((k: any) => {
+          const id = String(k.file || "").replace(/\.json$/, "");
+          const icon = iconById.get(id) || "•";
+          return `<div class="kpi"><span class="kpi-ic" aria-hidden="true">${esc(icon)}</span><span class="kpi-body"><b class="kpi-v">${esc(k.count ?? "—")}</b><span class="kpi-l">${esc(t(k.titleKey))}</span></span></div>`;
+        })
         .join("");
     }
     const grid = document.getElementById("homeGrid");
