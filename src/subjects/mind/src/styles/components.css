@@ -14,8 +14,8 @@
 }
 .mind-root .hero p {
   color: var(--muted);
-  max-width: 64ch;
   margin: 0 auto;
+  padding: 0 16px;
   font-size: 1rem;
 }
 .mind-root .hero-issue {

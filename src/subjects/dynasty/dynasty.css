@@ -223,7 +223,7 @@
 .dynasty-root .hero p {
   color: rgba(246, 237, 224, 0.82);
   font-size: 15px;
-  max-width: 640px;
+  padding: 0 16px;
 }
 .dynasty-root .hero .hero-issue {
   color: rgba(255, 255, 255, 0.72);
