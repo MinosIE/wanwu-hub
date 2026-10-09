@@ -101,6 +101,8 @@
   .subject-item .si-title { font-weight: 600; font-size: .92rem; }
   .subject-item .si-status { font-size: .72rem; color: var(--muted); }
   .subject-item .si-status.soon { color: var(--accent); }
+  .subject-item.current { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .subject-item.current .si-title { color: var(--accent); }
   /* 学科菜单仅在学科页（subject-mode）显示；首页已有学科卡片网格，避免冗余 */
   #app:not(.subject-mode) .subjects-menu { display: none; }
 

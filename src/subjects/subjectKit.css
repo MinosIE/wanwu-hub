@@ -1,8 +1,8 @@
 /* 轻量学科视图共享样式（physics / chem 等）。复用主应用 :root 主题变量。 */
 .sub-wrap {
-  max-width: 1180px;
+  width: 100%;
   margin: 0 auto;
-  padding: 8px 20px 64px;
+  padding: 8px 24px 64px;
 }
 .sub-hero {
   text-align: center;

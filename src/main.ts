@@ -36,6 +36,7 @@ async function renderView(): Promise<void> {
   if (route.name === "home") {
     document.title = "万物通识系列 — 系列入口";
     renderHome(view);
+    window.dispatchEvent(new CustomEvent("subject:change", { detail: { key: null } }));
     return;
   }
   app.classList.add("subject-mode");
@@ -48,6 +49,7 @@ async function renderView(): Promise<void> {
   app.classList.toggle("subject-life", key === "life");
   app.classList.toggle("subject-physics", key === "physics");
   app.classList.toggle("subject-chem", key === "chem");
+  window.dispatchEvent(new CustomEvent("subject:change", { detail: { key } }));
   if (key === "dynasty") {
     currentCleanup = await dynasty.mount(view);
     return;

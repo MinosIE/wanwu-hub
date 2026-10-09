@@ -1,6 +1,6 @@
 import { getLang, setLang, t, onLangChange } from "./i18n";
 import { toggleTheme, getTheme, onThemeChange } from "./theme";
-import { PROJECTS, statusLabel } from "./projects";
+import { PROJECTS } from "./projects";
 
 /** 渲染统一外壳：顶栏（品牌 + 语言/主题切换 + 返回首页）+ 内容容器 #view。 */
 export function renderLayout(app: HTMLElement): void {
@@ -10,7 +10,7 @@ export function renderLayout(app: HTMLElement): void {
       <div class="toolbar">
         <div class="subjects-menu">
           <button class="subjects-toggle" type="button" aria-haspopup="true" aria-expanded="false">
-            <span data-i18n="nav_subjects">${t("nav_subjects")}</span><span class="caret">▾</span>
+            <span id="subjToggleLabel">${t("nav_subjects")}</span><span class="caret">▾</span>
           </button>
           <div class="subjects-panel" hidden role="menu"></div>
         </div>
@@ -55,19 +55,31 @@ export function renderLayout(app: HTMLElement): void {
   // 学科下拉菜单：跨科导航，列表随语言刷新
   const subjectsPanel = app.querySelector<HTMLElement>(".subjects-panel");
   const subjectsToggle = app.querySelector<HTMLButtonElement>(".subjects-toggle");
+  let currentKey: string | null = null;
+  const applyCurrent = () => {
+    const lbl = document.getElementById("subjToggleLabel");
+    const p = currentKey ? PROJECTS.find((x) => x.key === currentKey) : null;
+    if (lbl) lbl.textContent = p ? (getLang() === "en" ? p.en : p.zh) : t("nav_subjects");
+    subjectsPanel?.querySelectorAll<HTMLElement>(".subject-item").forEach((a) =>
+      a.classList.toggle("current", a.getAttribute("href") === `#/subject/${currentKey}`),
+    );
+  };
   const renderSubjects = () => {
     if (!subjectsPanel) return;
     const lang = getLang();
     subjectsPanel.innerHTML = PROJECTS.map((p) => {
       const title = lang === "en" ? p.en : p.zh;
-      const status = statusLabel(p, lang);
-      const cls = p.integrated ? "" : " soon";
       return `<a class="subject-item" role="menuitem" href="#/subject/${p.key}">
         <span class="si-emoji">${p.emoji}</span>
-        <span class="si-text"><span class="si-title">${title}</span><span class="si-status${cls}">${status}</span></span>
+        <span class="si-text"><span class="si-title">${title}</span></span>
       </a>`;
     }).join("");
+    applyCurrent();
   };
+  window.addEventListener("subject:change", (e) => {
+    currentKey = ((e as CustomEvent).detail?.key as string) || null;
+    applyCurrent();
+  });
   const setSubjectsOpen = (open: boolean) => {
     if (!subjectsToggle || !subjectsPanel) return;
     subjectsToggle.setAttribute("aria-expanded", String(open));
