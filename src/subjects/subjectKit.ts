@@ -88,6 +88,21 @@ function cardHTML(item: SubjectItem): string {
  * 生成一个轻量、可双语、可深链的学科视图挂载函数。
  * 复用主应用 i18n/主题（全局 CSS 变量），不自带 core，避免每个学科复制一套。
  */
+function kpisInner(cfg: SubjectConfig): string {
+  const total = cfg.modules.reduce((n, m) => n + m.items.length, 0);
+  const kpis: { icon: string; value: string; label: LStr }[] = [
+    { icon: "🧩", value: String(total), label: { zh: "核心概念", en: "Concepts" } },
+    { icon: "📚", value: String(cfg.modules.length), label: { zh: "知识模块", en: "Modules" } },
+    { icon: "🌐", value: "中 / EN", label: { zh: "中英双语", en: "Bilingual" } },
+  ];
+  return kpis
+    .map(
+      (k) =>
+        `<div class="kpi"><span class="kpi-ic" aria-hidden="true">${esc(k.icon)}</span><span class="kpi-body"><b class="kpi-v">${esc(k.value)}</b><span class="kpi-l">${esc(L(k.label))}</span></span></div>`,
+    )
+    .join("");
+}
+
 export function createSubject(cfg: SubjectConfig) {
   return async (
     view: HTMLElement,
@@ -99,6 +114,7 @@ export function createSubject(cfg: SubjectConfig) {
           <h1 class="sub-h1">${esc(L(cfg.heroTitle))}</h1>
           <p class="sub-sub">${esc(L(cfg.heroSub))}</p>
           ${cfg.intro ? `<p class="sub-intro">${esc(L(cfg.intro))}</p>` : ""}
+          <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
         </section>
         <nav class="sub-nav" aria-label="模块导航">${cfg.modules
           .map(
@@ -190,6 +206,8 @@ export function createSubject(cfg: SubjectConfig) {
       if (sub) sub.textContent = L(cfg.heroSub);
       const intro = root.querySelector<HTMLElement>(".sub-intro");
       if (intro && cfg.intro) intro.textContent = L(cfg.intro);
+      const kpisEl = root.querySelector<HTMLElement>("#kpis");
+      if (kpisEl) kpisEl.innerHTML = kpisInner(cfg);
       root
         .querySelectorAll<HTMLElement>(".sub-mod .sm-label")
         .forEach((b, i) => (b.textContent = L(cfg.modules[i].title)));

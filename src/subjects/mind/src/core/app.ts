@@ -85,9 +85,13 @@ async function mountOverview(): Promise<void> {
       if (ov.refs && ov.refs.length) {
         refsBox.hidden = false;
         refList.innerHTML = ov.refs
-          .map(
-            (r: any) => `<li>${esc(typeof r === "string" ? r : r.label)}</li>`,
-          )
+          .map((s: any) => {
+            const label = `${esc(s.label)}${s.year ? `（${esc(s.year)}）` : ""}`;
+            const text = s.url
+              ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
+              : label;
+            return `<li>${text}${s.type ? `<span class="ref-type">${esc(s.type)}</span>` : ""}</li>`;
+          })
           .join("");
       } else {
         refsBox.hidden = true;

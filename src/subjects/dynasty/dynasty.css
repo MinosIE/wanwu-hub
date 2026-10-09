@@ -136,23 +136,35 @@
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-1px);
 }
-/* hero — 中式卷轴风 */
+/* hero — 中式卷轴风（沉浸式全幅） */
 .dynasty-root .hero {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 48px 28px 44px;
-  border-radius: var(--r4);
+  min-height: 34vh;
+  padding: 48px 24px 44px;
+  border-radius: 0;
   color: #f6ede0;
   background:
     radial-gradient(120% 80% at 50% -10%, rgba(201, 162, 39, 0.18), transparent 60%),
     linear-gradient(150deg, #1b1512 0%, #2a1b15 50%, #3a241b 100%);
+  background-size: 100% 100%, 180% 180%;
+  background-position: 0 0, 50% 50%;
   border: 1px solid rgba(201, 162, 39, 0.28);
   box-shadow: inset 0 0 0 1px rgba(201, 162, 39, 0.08), var(--s-lift);
   position: relative;
   overflow: hidden;
+  animation: heroBgBreath 14s ease-in-out infinite;
+}
+@keyframes heroBgBreath {
+  0%, 100% { background-position: 0 0, 35% 35%; }
+  50% { background-position: 0 0, 65% 65%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dynasty-root .hero { animation: none !important; }
 }
 /* 卷轴两侧轴头 */
 .dynasty-root .hero::before,
@@ -197,7 +209,7 @@
 /* subject-dynasty：侧面出血贴合内容区，顶部正常落在透明顶栏下方，与首页同款融合 */
 #app.subject-dynasty .dynasty-root .hero {
   margin: 0 -24px;
-  border-radius: var(--r4);
+  border-radius: 0;
   box-shadow: 0 14px 34px rgba(28, 23, 20, 0.22);
 }
 .dynasty-root .hero h1 {
@@ -1662,8 +1674,8 @@
 }
 @media (max-width: 640px) {
   .dynasty-root .hero {
-    padding: 54px 16px 22px;
-    gap: 12px;
+    padding: 40px 16px 20px;
+    gap: 10px;
     border-radius: var(--r3);
   }
   .dynasty-root .theme-btn,

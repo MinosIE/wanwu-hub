@@ -1,19 +1,44 @@
 /* ===== Hero ===== */
 .mind-root .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   text-align: center;
-  padding: 54px 0 30px;
+  margin-inline: -20px;
+  min-height: 34vh;
+  padding: 46px 20px 42px;
+  border-radius: 0;
+  background: var(--hero);
+  color: #fff;
+  overflow: hidden;
+}
+.mind-root .hero > *:not(.icon-btn) {
+  position: relative;
+  z-index: 1;
+}
+.mind-root .hero::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  z-index: 0;
+  background: radial-gradient(42% 55% at 50% 28%, rgba(255, 255, 255, 0.16), transparent 70%);
+  animation: heroBreath 10s ease-in-out infinite;
+  pointer-events: none;
 }
 .mind-root .hero h1 {
-  font-size: clamp(1.7rem, 4.5vw, 2.6rem);
-  margin: 0 auto 14px;
+  font-size: clamp(1.5rem, 3.8vw, 2.2rem);
+  font-weight: 700;
+  margin: 0 auto 10px;
   background: linear-gradient(100deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .mind-root .hero p {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.88);
   margin: 0 auto;
   padding: 0 16px;
   font-size: 1rem;
@@ -550,10 +575,26 @@
   margin: 12px 0 0;
 }
 .mind-root .ref-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   padding: 6px 0;
   border-bottom: 1px dashed var(--border);
   color: var(--muted);
   font-size: 0.9rem;
+}
+.mind-root .ref-list li a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.mind-root .ref-list li a:hover {
+  border-bottom-color: currentColor;
+}
+.mind-root .ref-type {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  color: var(--faint);
 }
 
 /* ===== Back to top ===== */
@@ -691,7 +732,7 @@
     right: 78px;
   }
   .mind-root .hero {
-    padding-top: 60px;
+    padding-top: 38px;
   }
 }
 

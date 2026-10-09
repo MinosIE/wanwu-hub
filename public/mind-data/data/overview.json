@@ -143,10 +143,10 @@
     }
   ],
   "refs": [
-    "《心理学与生活》（Richard J. Gerrig 等，2022）",
-    "《思考，快与慢》（Daniel Kahneman，2011）",
-    "《改变心理学的 40 项研究》（Roger R. Hock，2017）",
-    "American Psychological Association (APA) — apa.org",
-    "Simply Psychology（simplypsychology.org，通识入门参考）"
+    { "label": "《心理学与生活》Richard J. Gerrig 等", "year": 2022, "type": "教材", "url": "https://en.wikipedia.org/wiki/Psychology_and_Life" },
+    { "label": "《思考，快与慢》Daniel Kahneman", "year": 2011, "type": "著作", "url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" },
+    { "label": "《改变心理学的 40 项研究》Roger R. Hock", "year": 2017, "type": "著作", "url": "https://en.wikipedia.org/wiki/Forty_Studies_that_Changed_Psychology" },
+    { "label": "American Psychological Association (APA)", "year": 2024, "type": "机构", "url": "https://www.apa.org/" },
+    { "label": "Simply Psychology", "year": 2024, "type": "科普", "url": "https://www.simplypsychology.org/" }
   ]
 }
