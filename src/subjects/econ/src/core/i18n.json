@@ -178,7 +178,7 @@
     "foot.sister": "姊妹项目",
     "foot.data": "结构化数据",
     "foot.llms": "AI 全文索引",
-    "foot.copy": "© 2026 万物经济学 · MIT License"
+    "foot.copy": "© 2026 万物通识 · MIT License"
   },
   "en": {
     "docTitle": "Economics of Everything | A Plain-Language Guide to Economics",
@@ -359,6 +359,6 @@
     "foot.sister": "Sister project",
     "foot.data": "Structured data",
     "foot.llms": "LLM full text",
-    "foot.copy": "© 2026 Economics of Everything · MIT License"
+    "foot.copy": "© 2026 万物通识 · MIT License"
   }
 }

@@ -206,3 +206,8 @@
   padding-bottom: 1px;
 }
 .sub-foot .foot-feedback a:hover { opacity: 0.82; }
+.sub-foot-copy {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

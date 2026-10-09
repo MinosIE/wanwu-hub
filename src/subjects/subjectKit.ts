@@ -117,6 +117,7 @@ export function createSubject(cfg: SubjectConfig) {
           .join("")}</div>
         <footer class="sub-foot">
           <p class="foot-feedback">${esc(L(FEEDBACK_TEXT))}：<a href="https://github.com/MinosIE/wanwu-hub/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> · <a id="heroMailLink" href="${mailHref()}">${esc(L(MAIL_LABEL))}</a></p>
+          <p class="sub-foot-copy">© 2026 万物通识 · MIT License</p>
         </footer>
       </div>
       <button class="sub-top" id="subTop" type="button" aria-label="返回顶部">↑</button>

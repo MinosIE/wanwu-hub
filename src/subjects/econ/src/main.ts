@@ -200,12 +200,6 @@ function renderFooter(): void {
   foot.innerHTML = `
     <p class="foot-feedback">${esc(t("foot.feedback"))}：<a href="https://github.com/MinosIE/wanwu-hub/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> · <a id="heroMailLink" href="#">${esc(t("heroMail"))}</a></p>
     <p>${esc(t("foot.tip"))}</p>
-    <p>${esc(t("foot.sister"))}：<a href="https://minosie.github.io/wanwu-hub/#/subject/dynasty" target="_blank" rel="noopener noreferrer">中华王朝 · 千年脉络</a>
-      · ${esc(t("foot.data"))}：<a href="${BASE}data/overview.json">overview.json</a>
-      · <a href="${BASE}data/concepts.json">concepts.json</a>
-      · ${esc(t("foot.llms"))}：<a href="${BASE}llms.txt">llms.txt</a>
-      · <a href="${BASE}llms-full.txt">llms-full.txt</a>
-    </p>
     <p>${esc(t("foot.copy"))}</p>`;
 }
 
