@@ -119,7 +119,6 @@ export function createSubject(cfg: SubjectConfig) {
       <div class="sub-wrap">
         <section class="sub-hero">
           <h1 class="sub-h1">${esc(heroTitleText(cfg.heroTitle))}</h1>
-          <p class="sub-sub">${esc(L(cfg.heroSub))}</p>
           ${cfg.intro ? `<p class="sub-intro">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
         </section>
@@ -209,8 +208,6 @@ export function createSubject(cfg: SubjectConfig) {
     const offLang = onLangChange(() => {
       const h1 = root.querySelector<HTMLElement>(".sub-h1");
       if (h1) h1.textContent = heroTitleText(cfg.heroTitle);
-      const sub = root.querySelector<HTMLElement>(".sub-sub");
-      if (sub) sub.textContent = L(cfg.heroSub);
       const intro = root.querySelector<HTMLElement>(".sub-intro");
       if (intro && cfg.intro) intro.textContent = L(cfg.intro);
       const kpisEl = root.querySelector<HTMLElement>("#kpis");
