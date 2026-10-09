@@ -46,7 +46,6 @@ export function renderHome(view: HTMLElement): void {
       <h2 data-i18n="sec_all">${t("sec_all")}</h2>
       <div class="card-grid">${PROJECTS.map((p, i) => card(p, i)).join("")}</div>
     </section>
-    <div class="note" data-i18n="note">${t("note")}</div>
   `;
 
   // 整卡可点击（仅对站内可浏览的 integrated 卡片生效）
