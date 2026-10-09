@@ -8,6 +8,7 @@ import {
   applyStaticLang,
   getLang,
   initLang,
+  L,
   onLangChange,
   setLang,
   setI18nRoot,
@@ -16,7 +17,9 @@ import {
 import { preloadRelated } from "./core/related";
 import { initSearch } from "./core/search";
 import { initTheme } from "./core/theme";
-import type { LObj, OverviewFile, SearchEntry } from "./core/types";
+import { setI18n } from "../../../core/ui";
+import { setDataBase } from "../../../core/ui/data";
+import type { LObj, OverviewFile } from "./core/types";
 import { MODULES, moduleByKey, type ModuleDef } from "./modules";
 import type { ModuleInstance } from "./modules/types";
 
@@ -243,6 +246,8 @@ export function boot(root: ParentNode = document): void {
   if (window.self !== window.top) document.body.classList.add("embedded");
 
   setI18nRoot(root);
+  setI18n(t, L, getLang);
+  setDataBase(`${BASE}econ-data/data/`);
   initLang();
   applyStaticLang();
   initTheme(root);
@@ -257,8 +262,8 @@ export function boot(root: ParentNode = document): void {
   bindNav();
   bindTop();
 
-  initSearch((entry: SearchEntry) => {
-    void activate(entry.m, entry.id, true);
+  initSearch({
+    onPick: (entry) => void activate(entry.m, entry.id, true),
   });
 
   provideApp({
