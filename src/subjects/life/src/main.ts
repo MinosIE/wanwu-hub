@@ -203,6 +203,7 @@ function renderFooter(): void {
       · ${esc(t("foot.data"))}：<a href="${BASE}life-data/data/overview.json">overview.json</a>
       · <a href="${BASE}life-data/data/schools.json">schools.json</a>
       · <a href="${BASE}life-data/data/thinkers.json">thinkers.json</a>
+      · <a href="${BASE}life-data/data/endemics.json">endemics.json</a>
     </p>
     <p>${esc(t("foot.copy"))}</p>`;
 }

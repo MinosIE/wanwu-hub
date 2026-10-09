@@ -18,6 +18,7 @@ export const MODULES: ModuleDef[] = [
   { id: 'm-questions', key: 'questions', icon: '🌿', file: 'questions.json', priority: 0, load: () => import('./questions') },
   { id: 'm-classics', key: 'classics', icon: '🐾', file: 'classics.json', priority: 1, load: () => import('./classics') },
   { id: 'm-thinkers', key: 'thinkers', icon: '🔬', file: 'thinkers.json', priority: 1, load: () => import('./thinkers') },
+  { id: 'm-endemics', key: 'endemics', icon: '🐼', file: 'endemics.json', priority: 1, load: () => import('./endemics') },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

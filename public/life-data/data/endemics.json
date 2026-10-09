@@ -1,0 +1,218 @@
+[
+  {
+    "id": "giant-panda",
+    "name": "大熊猫",
+    "nameEn": "Giant Panda",
+    "taxon": "哺乳纲 · 食肉目 · 熊科",
+    "taxonEn": "Mammalia · Carnivora · Ursidae",
+    "status": "易危（VU）",
+    "statusEn": "Vulnerable (VU)",
+    "region": "中国西南山地（四川、陕西、甘肃）",
+    "regionEn": "Mountains of SW China (Sichuan, Shaanxi, Gansu)",
+    "oneLiner": "中国旗舰物种，以竹为食，是生物多样性保护的全球象征。",
+    "oneLinerEn": "China's flagship species, bamboo-feeding and a global symbol of conservation.",
+    "bio": "虽归入食肉目，却几乎完全以竹子为食；腕部籽骨特化为伪趾，便于抓握竹竿。栖息地退缩与破碎化曾使野生种群骤减，数十年的保护令其数量回升。",
+    "bioEn": "Though a carnivoran, it feeds almost entirely on bamboo; an enlarged wrist bone forms a pseudo-thumb for gripping. Habitat loss once crashed wild populations, but decades of protection have recovered their numbers.",
+    "traits": [
+      { "k": "食性特化", "kEn": "Diet specialization", "v": "约 99% 的食物为竹子", "vEn": "Roughly 99% of diet is bamboo" },
+      { "k": "伪趾", "kEn": "Pseudo-thumb", "v": "籽骨特化，便于握竹", "vEn": "Enlarged sesamoid bone aids gripping" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "保护伞物种，其栖息地惠及同域众多物种", "vEn": "Umbrella species; its habitat shelters many co-occurring species" },
+      { "k": "现状", "kEn": "Status", "v": "由濒危降为易危，仍受栖息地破碎化威胁", "vEn": "Downlisted to Vulnerable, still threatened by fragmentation" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "ginkgo",
+    "name": "银杏",
+    "nameEn": "Ginkgo",
+    "taxon": "银杏纲 · 银杏目 · 银杏科",
+    "taxonEn": "Ginkgoopsida · Ginkgoales · Ginkgoaceae",
+    "status": "野生濒危（EN）",
+    "statusEn": "Endangered in the wild (EN)",
+    "region": "中国华东（浙江天目山等地）",
+    "regionEn": "East China (e.g. Tianmu Mt., Zhejiang)",
+    "oneLiner": "孑遗亿年的「活化石」，是现存最古老的种子植物类群之一。",
+    "oneLinerEn": "A living fossil surviving for hundreds of millions of years — among the oldest seed-plant lineages.",
+    "bio": "银杏曾广布北半球，冰期后野生种群仅残存于中国。雌雄异株，叶扇形、秋日金黄；种子（白果）可食但含微量毒素，需妥善处理。",
+    "bioEn": "Once widespread across the Northern Hemisphere, wild ginkgo survived the ice ages only in China. Dioecious, with fan-shaped leaves that turn gold in autumn; its seeds are edible but mildly toxic if unprepared.",
+    "traits": [
+      { "k": "孑遗植物", "kEn": "Living fossil", "v": "古老类群的现生代表", "vEn": "Surviving lineage of an ancient group" },
+      { "k": "性状稳定", "kEn": "Conserved form", "v": "形态与化石几无差异", "vEn": "Morphology nearly unchanged from fossils" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "野生种群极小，栽培个体基因单一", "vEn": "Tiny wild populations; cultivars genetically narrow" },
+      { "k": "价值", "kEn": "Value", "v": "研究演化与气候的活样本", "vEn": "A live specimen for studying evolution and climate" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国珍稀濒危植物名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "metasequoia",
+    "name": "水杉",
+    "nameEn": "Dawn Redwood",
+    "taxon": "松柏纲 · 杉科",
+    "taxonEn": "Pinopsida · Cupressaceae",
+    "status": "濒危（EN）",
+    "statusEn": "Endangered (EN)",
+    "region": "中国华中（湖北利川、重庆石柱）",
+    "regionEn": "Central China (Lichuan, Hubei)",
+    "oneLiner": "曾被认为已灭绝，20 世纪在湖北被重新发现，是植物学上的奇迹。",
+    "oneLinerEn": "Thought extinct, rediscovered in Hubei in the 20th century — a botanical miracle.",
+    "bio": "水杉是落叶针叶树，与化石记录中的种类几乎一致，因而被称为「活化石」。野生植株仅存于川鄂交界狭小区域，现已广泛引种为全球行道树。",
+    "bioEn": "A deciduous conifer nearly identical to its fossil relatives, hence a 'living fossil'. Wild trees survive only in a tiny Sichuan–Hubei border zone, yet it is now planted worldwide as an ornamental.",
+    "traits": [
+      { "k": "落叶针叶", "kEn": "Deciduous conifer", "v": "针叶树中少见的落叶习性", "vEn": "Unusual among conifers for losing leaves" },
+      { "k": "孑遗", "kEn": "Relict", "v": "与白垩纪化石同形", "vEn": "Same form as Cretaceous fossils" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "野生种群极小，需就地保护", "vEn": "Tiny wild population needs in-situ protection" },
+      { "k": "科研价值", "kEn": "Research", "v": "连通化石与现生的关键证据", "vEn": "Key link between fossils and living flora" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国珍稀濒危植物名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "crested-ibis",
+    "name": "朱鹮",
+    "nameEn": "Crested Ibis",
+    "taxon": "鸟纲 · 鹮科",
+    "taxonEn": "Aves · Threskiornithidae",
+    "status": "濒危（EN）",
+    "statusEn": "Endangered (EN)",
+    "region": "中国中部（陕西洋县等地）",
+    "regionEn": "Central China (e.g. Yangxian, Shaanxi)",
+    "oneLiner": "曾仅存 7 只，经人工繁育与栖息地保护，成为濒危物种恢复的典范。",
+    "oneLinerEn": "Down to just 7 birds, then recovered through captive breeding — a model of endangered-species revival.",
+    "bio": "朱鹮体白羽橙、面部绯红，栖息于稻田与湿地，觅食小鱼、泥鳅与蛙。20 世纪 80 年代在陕西重新发现后，建立保护站与人工种群，数量显著回升。",
+    "bioEn": "White-plumaged with orange cheeks, it forages fish and frogs in rice paddies and wetlands. Rediscovered in Shaanxi in the 1980s, protected stations and captive breeding brought numbers back.",
+    "traits": [
+      { "k": "狭栖", "kEn": "Narrow habitat", "v": "依赖稻田与湿地觅食", "vEn": "Relies on paddies and wetlands for food" },
+      { "k": "繁殖慢", "kEn": "Slow breeding", "v": "每窝产卵少，恢复艰难", "vEn": "Few eggs per clutch, slow recovery" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "就地保护 + 人工繁育双轨成功", "vEn": "In-situ protection plus captive breeding succeeded" },
+      { "k": "现状", "kEn": "Status", "v": "种群回升但仍脆弱", "vEn": "Recovered but still fragile" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "white-headed-langur",
+    "name": "白头叶猴",
+    "nameEn": "White-headed Langur",
+    "taxon": "哺乳纲 · 猴科",
+    "taxonEn": "Mammalia · Cercopithecidae",
+    "status": "极危（CR）",
+    "statusEn": "Critically Endangered (CR)",
+    "region": "中国广西喀斯特（崇左）",
+    "regionEn": "Karst of Guangxi, China (Chongzuo)",
+    "oneLiner": "全球仅分布于广西喀斯特石山的狭域特有灵长类。",
+    "oneLinerEn": "A narrowly endemic primate found only in the karst hills of Guangxi.",
+    "bio": "通体黑毛、头顶与尾端雪白，栖于陡峭石灰岩峰丛，以树叶为食。分布区极窄，种群规模小，是灵长类中最濒危的类群之一。",
+    "bioEn": "Black-bodied with a white crown and tail-tip, it lives on steep limestone peaks, eating leaves. Its range is tiny and its population small, among the most endangered primates.",
+    "traits": [
+      { "k": "狭域特有", "kEn": "Narrow endemic", "v": "仅存于广西一小片喀斯特", "vEn": "Survives only in a small Guangxi karst area" },
+      { "k": "岩栖", "kEn": "Cliff dweller", "v": "适应陡崖与峰丛", "vEn": "Adapted to cliffs and peaks" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "喀斯特生态系统健康指示种", "vEn": "Indicator of karst ecosystem health" },
+      { "k": "现状", "kEn": "Status", "v": "保护区建立后趋稳", "vEn": "Stabilized after reserves established" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "chinese-alligator",
+    "name": "扬子鳄",
+    "nameEn": "Chinese Alligator",
+    "taxon": "爬行纲 · 鼍科",
+    "taxonEn": "Reptilia · Alligatoridae",
+    "status": "极危（CR）",
+    "statusEn": "Critically Endangered (CR)",
+    "region": "中国长江中下游（安徽、浙江）",
+    "regionEn": "Lower Yangtze, China (Anhui, Zhejiang)",
+    "oneLiner": "中国特有的小型短吻鳄，是世界上最濒危的鳄类之一。",
+    "oneLinerEn": "China's endemic small alligator — among the world's most endangered crocodilians.",
+    "bio": "与美洲短吻鳄近缘，体型较小、吻短，穴居于水边。野生数量曾极度稀少，经人工繁育放归，野外种群开始恢复。",
+    "bioEn": "Closely related to the American alligator but smaller with a short snout, it burrows along waterways. Wild numbers were once tiny; captive breeding and releases are restoring wild populations.",
+    "traits": [
+      { "k": "穴居", "kEn": "Burrower", "v": "在水岸掘洞越冬", "vEn": "Digs bankside burrows to overwinter" },
+      { "k": "耐寒", "kEn": "Cold-tolerant", "v": "鳄类中分布最北", "vEn": "The most northerly distributed crocodilian" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "人工繁育放归成效显著", "vEn": "Captive breeding and release show clear success" },
+      { "k": "现状", "kEn": "Status", "v": "野外仍稀少，依赖持续放归", "vEn": "Still rare in the wild, reliant on releases" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "tibetan-antelope",
+    "name": "藏羚羊",
+    "nameEn": "Tibetan Antelope",
+    "taxon": "哺乳纲 · 牛科",
+    "taxonEn": "Mammalia · Bovidae",
+    "status": "近危（NT）",
+    "statusEn": "Near Threatened (NT)",
+    "region": "中国青藏高原（羌塘、可可西里）",
+    "regionEn": "Qinghai–Tibet Plateau, China (Changtang, Hoh Xil)",
+    "oneLiner": "高原迁徙有蹄类，曾因绒被盗猎几近崩溃，如今显著恢复。",
+    "oneLinerEn": "A plateau migrant once devastated by poaching for its wool, now substantially recovered.",
+    "bio": "雄性具细长黑角，每年成群长途迁徙至产羔地。藏羚绒极细软，曾遭大量盗猎；设立保护区与打击偷猎后种群回升，保护级别下调。",
+    "bioEn": "Males bear long black horns and migrate en masse to calving grounds. Its ultrafine wool drove massive poaching; reserves and anti-poaching lifted numbers, lowering its threat rank.",
+    "traits": [
+      { "k": "高寒适应", "kEn": "Cold-adapted", "v": "耐受缺氧与严寒", "vEn": "Tolerates hypoxia and cold" },
+      { "k": "长距离迁徙", "kEn": "Long migration", "v": "季节性往返产羔地", "vEn": "Seasonal round trips to calving sites" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "反盗猎 + 保护区令种群回升", "vEn": "Anti-poaching and reserves rebuilt populations" },
+      { "k": "现状", "kEn": "Status", "v": "由濒危降为近危", "vEn": "Downlisted from Endangered to Near Threatened" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+    ]
+  },
+  {
+    "id": "chinese-sturgeon",
+    "name": "中华鲟",
+    "nameEn": "Chinese Sturgeon",
+    "taxon": "硬骨鱼纲 · 鲟科",
+    "taxonEn": "Osteichthyes · Acipenseridae",
+    "status": "极危（CR）",
+    "statusEn": "Critically Endangered (CR)",
+    "region": "中国长江及近海",
+    "regionEn": "Yangtze River and adjacent seas, China",
+    "oneLiner": "江海洄游的「活化石」大鱼，因大坝与航运几近失去自然繁殖。",
+    "oneLinerEn": "An anadromous 'living fossil' giant, nearly losing natural reproduction to dams and shipping.",
+    "bio": "中华鲟溯江产卵、海中成长，寿命可达数十年。葛洲坝等工程阻断洄游通道后自然繁殖急剧下降，现依赖人工增殖放流维系种群。",
+    "bioEn": "It spawns upstream and grows at sea, living decades. Dams like Gezhouba blocked its migration, collapsing wild reproduction; hatchery releases now sustain the population.",
+    "traits": [
+      { "k": "江海洄游", "kEn": "Anadromous", "v": "海中育肥、江中产卵", "vEn": "Feeds at sea, spawns in rivers" },
+      { "k": "孑遗", "kEn": "Relict", "v": "与恐龙同代的古老鱼类", "vEn": "Ancient fish coeval with dinosaurs" }
+    ],
+    "notes": [
+      { "k": "保护意义", "kEn": "Conservation", "v": "长江生态健康的旗舰指示", "vEn": "Flagship indicator of Yangtze ecosystem health" },
+      { "k": "现状", "kEn": "Status", "v": "自然繁殖近乎中断，靠放流维持", "vEn": "Wild spawning nearly halted; sustained by release" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
+      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+    ]
+  }
+]
