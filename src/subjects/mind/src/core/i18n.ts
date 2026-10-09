@@ -187,6 +187,7 @@ const zh = {
   'ui.comingSoon': '该模块正在建设中，敬请期待。',
 
   'foot.tip': '本站为通识科普，内容中立整理，不构成任何专业心理或医疗建议。',
+  'foot.feedback': '发现问题或有建议？欢迎通过 GitHub 提 Issue 或邮件反馈',
   'foot.sister': '姊妹项目',
   'foot.data': '结构化数据',
   'foot.llms': 'AI 全文索引',
@@ -384,6 +385,7 @@ const en: typeof zh = {
   'ui.comingSoon': 'This module is under construction. Stay tuned.',
 
   'foot.tip': 'An educational summary, neutral in tone. Nothing here is professional psychological or medical advice.',
+  'foot.feedback': 'Found a problem or have a suggestion? File a GitHub issue or email us',
   'foot.sister': 'Sister project',
   'foot.data': 'Structured data',
   'foot.llms': 'LLM full text',

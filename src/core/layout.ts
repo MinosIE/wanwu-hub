@@ -22,7 +22,6 @@ export function renderLayout(app: HTMLElement): void {
       </div>
     </header>
     <main id="view"></main>
-    <footer class="site-footer" data-i18n="footer">${t("footer")}</footer>
   `;
 
   const syncLang = () => {
