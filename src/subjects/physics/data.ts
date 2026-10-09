@@ -37,7 +37,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "匀变速直线运动", en: "Uniformly Accelerated Motion" },
           level: 1,
           oneLiner: { zh: "加速度恒定的直线运动，常用公式 v=v₀+at、x=v₀t+½at²、v²−v₀²=2ax。", en: "Constant acceleration: v=v₀+at, x=v₀t+½at², v²−v₀²=2ax." },
-          detail: { zh: "自由落体是加速度为 g≈9.8 m/s² 的匀加速运动；竖直上抛可分段或整体处理。", en: "Free fall is uniformly accelerated motion with a=g≈9.8 m/s²; vertical projection can be split or treated as a whole." },
+          detail: { zh: "自由落体是加速度为 g≈9.8 m/s² 的匀加速运动；竖直上抛可分段或整体处理。其中 v₀、v 为初、末速度，a 为加速度，t 为时间，x 为位移。", en: "Free fall is uniformly accelerated motion with a=g≈9.8 m/s²; vertical projection can be split or treated as a whole. Here v₀/v are initial/final velocity, a acceleration, t time, x displacement." },
           example: { zh: "苹果下落约 0.5 s 后速度达约 4.9 m/s。", en: "After ~0.5 s a falling apple reaches ~4.9 m/s." },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
@@ -56,7 +56,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "牛顿第二定律", en: "Newton's Second Law" },
           level: 1,
           oneLiner: { zh: "物体的加速度与合外力成正比、与质量成反比：F=ma。", en: "Acceleration is proportional to net force and inversely to mass: F=ma." },
-          detail: { zh: "F、a 均为矢量，方向一致；该定律是经典力学的核心方程。", en: "F and a are vectors in the same direction; it is the central equation of classical mechanics." },
+          detail: { zh: "F、a 均为矢量，方向一致；该定律是经典力学的核心方程。其中 F 为合外力（单位 N），m 为质量（kg），a 为加速度（m/s²）。", en: "F and a are vectors in the same direction; it is the central equation of classical mechanics. F is net force (N), m mass (kg), a acceleration (m/s²)." },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
         {
@@ -74,7 +74,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "摩擦力", en: "Friction" },
           level: 1,
           oneLiner: { zh: "阻碍相对运动或相对运动趋势的力，分静摩擦与滑动摩擦。", en: "A force opposing relative motion or its tendency; static or kinetic." },
-          detail: { zh: "滑动摩擦力 f=μN（μ 为动摩擦因数，N 为正压力）；静摩擦力随外力在 0 到最大静摩擦间变化。", en: "Kinetic friction f=μN; static friction varies from 0 up to its maximum with applied force." },
+          detail: { zh: "滑动摩擦力 f=μN（μ 为动摩擦因数，N 为正压力）；静摩擦力随外力在 0 到最大静摩擦间变化。其中 f 为滑动摩擦力，μ 为动摩擦因数，N 为接触面正压力。", en: "Kinetic friction f=μN; static friction varies from 0 up to its maximum with applied force. f kinetic friction, μ coefficient, N normal force." },
           tags: [{ zh: "力", en: "Force" }],
         },
         {
@@ -101,7 +101,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "圆周运动与向心力", en: "Circular Motion & Centripetal Force" },
           level: 2,
           oneLiner: { zh: "匀速圆周运动由指向圆心的向心力提供：F=mv²/r=mω²r。", en: "Uniform circular motion needs a centripetal force toward the center: F=mv²/r=mω²r." },
-          detail: { zh: "向心力不改速度大小，只改变方向；汽车转弯、卫星绕地均由此力维持。", en: "Centripetal force changes only direction, not speed; it keeps cars turning and satellites orbiting." },
+          detail: { zh: "向心力不改速度大小，只改变方向；汽车转弯、卫星绕地均由此力维持。其中 m 为质量，v 为线速度，ω 为角速度，r 为圆周半径。", en: "Centripetal force changes only direction, not speed; it keeps cars turning and satellites orbiting. m mass, v linear speed, ω angular speed, r radius." },
           tags: [{ zh: "力学", en: "Mechanics" }],
         },
         {
@@ -110,7 +110,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "万有引力定律", en: "Universal Gravitation" },
           level: 2,
           oneLiner: { zh: "任意两质点相互吸引：F=G·m₁m₂/r²。", en: "Any two masses attract: F=G·m₁m₂/r²." },
-          detail: { zh: "G 为引力常数；该定律统一了地面落体与天体运行。", en: "G is the gravitational constant; it unifies falling bodies and planetary orbits." },
+          detail: { zh: "G 为引力常数；该定律统一了地面落体与天体运行。其中 m₁、m₂ 为两物体质量，r 为两质点间距。", en: "G is the gravitational constant; it unifies falling bodies and planetary orbits. m₁/m₂ are the masses, r the distance between them." },
           tags: [{ zh: "引力", en: "Gravity" }],
         },
         {
@@ -119,7 +119,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "天体运动与开普勒定律", en: "Kepler's Laws" },
           level: 2,
           oneLiner: { zh: "行星沿椭圆轨道绕日，面积速度恒定，周期平方正比于半长轴立方。", en: "Planets follow ellipses; equal areas in equal times; T²∝a³." },
-          detail: { zh: "开普勒三定律由观测归纳，后被牛顿引力定律从理论上导出。", en: "Kepler's three laws, derived from observation, were later explained by Newton's gravitation." },
+          detail: { zh: "开普勒三定律由观测归纳，后被牛顿引力定律从理论上导出。其中 T 为公转周期，a 为椭圆轨道半长轴（T²∝a³）。", en: "Kepler's three laws, derived from observation, were later explained by Newton's gravitation. T is the orbital period, a the semi-major axis (T²∝a³)." },
           tags: [{ zh: "天体", en: "Astronomy" }],
         },
         {
@@ -128,7 +128,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "功与功率", en: "Work & Power" },
           level: 1,
           oneLiner: { zh: "功 W=Fs·cosθ（力在位移方向的分量乘位移）；功率 P=W/t。", en: "Work W=Fs·cosθ; power P=W/t." },
-          detail: { zh: "力与位移垂直时不做功；功率表示做功快慢。", en: "No work is done when force is perpendicular to displacement; power is the rate of doing work." },
+          detail: { zh: "力与位移垂直时不做功；功率表示做功快慢。其中 W 为功，F 为作用力，s 为位移，θ 为力与位移夹角，P 为功率，t 为时间。", en: "No work is done when force is perpendicular to displacement; power is the rate of doing work. W work, F force, s displacement, θ angle, P power, t time." },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
@@ -137,6 +137,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "动能与动能定理", en: "Kinetic Energy & Theorem" },
           level: 2,
           oneLiner: { zh: "动能 Eₖ=½mv²；合外力做功等于动能变化：W=ΔEₖ。", en: "Kinetic energy Eₖ=½mv²; net work equals its change: W=ΔEₖ." },
+          detail: { zh: "其中 Eₖ 为动能，m 为质量，v 为速率，W 为合外力做的功。", en: "Eₖ kinetic energy, m mass, v speed, W net work done." },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
@@ -145,7 +146,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "重力势能", en: "Gravitational Potential Energy" },
           level: 1,
           oneLiner: { zh: "物体因高度而具有的能量：Eₚ=mgh。", en: "Energy due to height: Eₚ=mgh." },
-          detail: { zh: "势能是系统共有的，与零势能面的选取有关。", en: "Potential energy belongs to a system and depends on the chosen reference level." },
+          detail: { zh: "势能是系统共有的，与零势能面的选取有关。其中 Eₚ 为重力势能，m 为质量，g 为重力加速度，h 为相对高度。", en: "Potential energy belongs to a system and depends on the chosen reference level. Eₚ gravitational potential, m mass, g gravity, h height." },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
@@ -163,7 +164,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "动量守恒", en: "Conservation of Momentum" },
           level: 2,
           oneLiner: { zh: "系统不受外力时，总动量 p=mv 保持不变。", en: "Without external force, total momentum p=mv is conserved." },
-          detail: { zh: "与牛顿第三定律等价，是分析碰撞、火箭推进的基本工具。", en: "Equivalent to Newton's third law; key for collisions and rocket propulsion." },
+          detail: { zh: "与牛顿第三定律等价，是分析碰撞、火箭推进的基本工具。其中 p 为动量，m 为质量，v 为速度。", en: "Equivalent to Newton's third law; key for collisions and rocket propulsion. p momentum, m mass, v velocity." },
           tags: [{ zh: "力学", en: "Mechanics" }],
         },
       ],
@@ -250,7 +251,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "光的直线传播", en: "Rectilinear Propagation" },
           level: 1,
           oneLiner: { zh: "光在同种均匀介质中沿直线传播，形成影与小孔成像。", en: "Light travels in straight lines in uniform media, forming shadows and pinhole images." },
-          detail: { zh: "真空中光速 c≈3.00×10⁸ m/s，是宇宙速度上限。", en: "In vacuum c≈3.00×10⁸ m/s, the cosmic speed limit." },
+          detail: { zh: "真空中光速 c≈3.00×10⁸ m/s，是宇宙速度上限。其中 c 为真空中的光速。", en: "In vacuum c≈3.00×10⁸ m/s, the cosmic speed limit. c is the speed of light in vacuum." },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -275,7 +276,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "光的折射", en: "Refraction" },
           level: 1,
           oneLiner: { zh: "光斜射入不同介质时传播方向偏折，池中视深变浅。", en: "Light bends crossing media obliquely; a pool looks shallower." },
-          detail: { zh: "折射率 n=c/v；斯涅尔定律 n₁sinθ₁=n₂sinθ₂。", en: "Refractive index n=c/v; Snell's law n₁sinθ₁=n₂sinθ₂." },
+          detail: { zh: "折射率 n=c/v；斯涅尔定律 n₁sinθ₁=n₂sinθ₂。其中 n 为折射率，θ₁、θ₂ 为入射、折射光线与法线的夹角。", en: "Refractive index n=c/v; Snell's law n₁sinθ₁=n₂sinθ₂. n refractive index, θ₁/θ₂ angles with the normal." },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -337,7 +338,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "温度与温标", en: "Temperature & Scales" },
           level: 1,
           oneLiner: { zh: "温度表示冷热程度；摄氏℃与热力学温标 K 满足 K=℃+273.15。", en: "Temperature measures hot/cold; K=℃+273.15." },
-          detail: { zh: "热力学温度（开尔文）是国际单位制基本单位，零度为绝对零度。", en: "Kelvin is an SI base unit; absolute zero is its zero." },
+          detail: { zh: "热力学温度（开尔文）是国际单位制基本单位，零度为绝对零度。其中 K 为热力学温度（开尔文），℃ 为摄氏温度。", en: "Kelvin is an SI base unit; absolute zero is its zero. K is thermodynamic temperature, ℃ Celsius." },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
@@ -364,7 +365,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "热力学第一定律", en: "First Law of Thermodynamics" },
           level: 2,
           oneLiner: { zh: "能量守恒在热学中的表述：ΔU=Q+W（吸热与做功均改变内能）。", en: "Energy conservation: ΔU=Q+W (heat and work change internal energy)." },
-          detail: { zh: "是能量守恒定律在热力学系统的具体形式。", en: "The conservation of energy applied to thermodynamic systems." },
+          detail: { zh: "是能量守恒定律在热力学系统的具体形式。其中 ΔU 为内能变化，Q 为系统吸收的热量，W 为外界对系统做的功。", en: "The conservation of energy applied to thermodynamic systems. ΔU internal-energy change, Q heat absorbed, W work done on the system." },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
@@ -373,7 +374,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "比热容", en: "Specific Heat" },
           level: 1,
           oneLiner: { zh: "单位质量升高 1℃ 吸收的热量：Q=cmΔt。", en: "Heat to raise 1 kg by 1℃: Q=cmΔt." },
-          detail: { zh: "水的比热容大，故沿海温差小、可作冷却剂。", en: "Water's high specific heat moderates coast climate and cools engines." },
+          detail: { zh: "水的比热容大，故沿海温差小、可作冷却剂。其中 Q 为吸收或放出的热量，c 为比热容，m 为质量，Δt 为温度变化。", en: "Water's high specific heat moderates coast climate and cools engines. Q heat exchanged, c specific heat, m mass, Δt temperature change." },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
@@ -399,7 +400,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "热机与效率", en: "Heat Engine & Efficiency" },
           level: 2,
           oneLiner: { zh: "将内能转化为机械功的装置；效率受卡诺极限约束。", en: "A device turning internal energy into work; efficiency is bounded by Carnot's limit." },
-          detail: { zh: "卡诺热机效率 η=1−T冷/T热，只与两热源温度有关。", en: "Carnot efficiency η=1−T_cold/T_hot depends only on the two reservoir temperatures." },
+          detail: { zh: "卡诺热机效率 η=1−T冷/T热，只与两热源温度有关。其中 η 为热机效率，T_热 与 T_冷 为高温、低温热源的热力学温度（K）。", en: "Carnot efficiency η=1−T_cold/T_hot depends only on the two reservoir temperatures. η efficiency, T_hot/T_cold the reservoir temperatures (K)." },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
@@ -408,7 +409,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "气体实验定律", en: "Gas Laws" },
           level: 2,
           oneLiner: { zh: "玻意耳 pV=C、查理 V∝T、盖-吕萨克 p∝T，统一为 pV=nRT。", en: "Boyle pV=C, Charles V∝T, Gay-Lussac p∝T, unified as pV=nRT." },
-          detail: { zh: "理想气体状态方程描述了压强、体积、温度与物质的量的关系。", en: "The ideal-gas equation links pressure, volume, temperature and amount." },
+          detail: { zh: "理想气体状态方程描述了压强、体积、温度与物质的量的关系。其中 p 为压强，V 为体积，n 为物质的量，R 为气体常数，T 为热力学温度。", en: "The ideal-gas equation links pressure, volume, temperature and amount. p pressure, V volume, n amount, R gas constant, T thermodynamic temperature." },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
@@ -434,7 +435,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "电荷与库仑定律", en: "Charge & Coulomb's Law" },
           level: 1,
           oneLiner: { zh: "同种电荷相斥、异种相吸；F=k·q₁q₂/r²。", en: "Like charges repel, unlike attract; F=k·q₁q₂/r²." },
-          detail: { zh: "电荷守恒：电荷既不能创生也不能消灭，只能转移。", en: "Charge is conserved: it can only be transferred, never created or destroyed." },
+          detail: { zh: "电荷守恒：电荷既不能创生也不能消灭，只能转移。其中 k 为静电力常量，q₁、q₂ 为两点电荷电量，r 为间距。", en: "Charge is conserved: it can only be transferred, never created or destroyed. k electrostatic constant, q₁/q₂ charges, r distance." },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
@@ -443,7 +444,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "电场与电场强度", en: "Electric Field" },
           level: 2,
           oneLiner: { zh: "电荷周围存在电场；E=F/q，方向为正电荷受力方向。", en: "A charge creates an electric field; E=F/q, directed as a positive test charge is pushed." },
-          detail: { zh: "电场线从正电荷出发、终止于负电荷，疏密表强弱。", en: "Field lines start at + and end at −; density shows strength." },
+          detail: { zh: "电场线从正电荷出发、终止于负电荷，疏密表强弱。其中 E 为电场强度，F 为试探电荷受力，q 为试探电荷电量。", en: "Field lines start at + and end at −; density shows strength. E field strength, F force on test charge, q test charge." },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
@@ -452,7 +453,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "电势与电势能", en: "Electric Potential" },
           level: 2,
           oneLiner: { zh: "电势差即电压 U=W/q；沿电场线电势降低。", en: "Potential difference is voltage U=W/q; potential drops along field lines." },
-          detail: { zh: "等势面与电场线垂直；带电粒子在等势面上移动电场力不做功。", en: "Equipotentials are perpendicular to field lines; moving on one costs no work." },
+          detail: { zh: "等势面与电场线垂直；带电粒子在等势面上移动电场力不做功。其中 U 为电势差（电压），W 为电场力做的功，q 为电荷电量。", en: "Equipotentials are perpendicular to field lines; moving on one costs no work. U potential difference (voltage), W work by field, q charge." },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
@@ -461,7 +462,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "电容", en: "Capacitance" },
           level: 2,
           oneLiner: { zh: "电容器储存电荷的本领：C=Q/U。", en: "A capacitor's ability to store charge: C=Q/U." },
-          detail: { zh: "平行板电容 C=εS/d，与极板面积和介电常数成正比、与间距成反比。", en: "Parallel-plate C=εS/d, proportional to area and permittivity, inverse to spacing." },
+          detail: { zh: "平行板电容 C=εS/d，与极板面积和介电常数成正比、与间距成反比。其中 C 为电容，Q 为极板带电量，U 为电压，ε 为介电常数，S 为极板面积，d 为间距。", en: "Parallel-plate C=εS/d, proportional to area and permittivity, inverse to spacing. C capacitance, Q charge, U voltage, ε permittivity, S area, d spacing." },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
@@ -470,7 +471,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "电流·电阻·欧姆定律", en: "Current · Resistance · Ohm" },
           level: 1,
           oneLiner: { zh: "电流 I=Q/t；电阻 R=U/I；欧姆定律 U=IR。", en: "Current I=Q/t; resistance R=U/I; Ohm's law U=IR." },
-          detail: { zh: "电阻与材料、长度、横截面积和温度有关：R=ρL/S。", en: "Resistance depends on material, length, area and temperature: R=ρL/S." },
+          detail: { zh: "电阻与材料、长度、横截面积和温度有关：R=ρL/S。其中 I 为电流，Q 为电荷量，t 为时间，R 为电阻，U 为电压，ρ 为电阻率，L 为长度，S 为横截面积。", en: "Resistance depends on material, length, area and temperature: R=ρL/S. I current, Q charge, t time, R resistance, U voltage, ρ resistivity, L length, S area." },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
@@ -488,7 +489,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "电功与电功率", en: "Electric Work & Power" },
           level: 1,
           oneLiner: { zh: "电功 W=UIt；电功率 P=UI。", en: "Work W=UIt; power P=UI." },
-          detail: { zh: "纯电阻电路中 P=I²R=U²/R。", en: "For pure resistors P=I²R=U²/R." },
+          detail: { zh: "纯电阻电路中 P=I²R=U²/R。其中 W 为电功，P 为电功率，U 为电压，I 为电流，t 为时间，R 为电阻。", en: "For pure resistors P=I²R=U²/R. W electrical work, P power, U voltage, I current, t time, R resistance." },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
@@ -497,7 +498,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "焦耳定律", en: "Joule's Law" },
           level: 1,
           oneLiner: { zh: "电流热效应：Q=I²Rt。", en: "Current's heating effect: Q=I²Rt." },
-          detail: { zh: "电炉、保险丝都利用电流的热效应。", en: "Heaters and fuses exploit the heating effect of current." },
+          detail: { zh: "电炉、保险丝都利用电流的热效应。其中 Q 为产生的热量，I 为电流，R 为电阻，t 为通电时间。", en: "Heaters and fuses exploit the heating effect of current. Q heat produced, I current, R resistance, t time." },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
@@ -515,7 +516,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "安培力", en: "Ampere Force" },
           level: 2,
           oneLiner: { zh: "通电导线在磁场中受力：F=BIL·sinθ。", en: "A current-carrying wire feels F=BIL·sinθ in a field." },
-          detail: { zh: "电动机即利用安培力使线圈转动。", en: "Electric motors use Ampere force to spin coils." },
+          detail: { zh: "电动机即利用安培力使线圈转动。其中 F 为安培力，B 为磁感应强度，I 为电流，L 为导线长度，θ 为电流与磁场方向夹角。", en: "Electric motors use Ampere force to spin coils. F Ampere force, B field, I current, L length, θ angle between I and B." },
           tags: [{ zh: "磁学", en: "Magnetism" }],
         },
         {
@@ -524,7 +525,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "洛伦兹力", en: "Lorentz Force" },
           level: 2,
           oneLiner: { zh: "运动电荷在磁场中受力：f=qvB·sinθ，方向用左手定则。", en: "A moving charge feels f=qvB·sinθ, direction by the left-hand rule." },
-          detail: { zh: "洛伦兹力不改变速率，只改变速度方向，使其做圆周或螺旋运动。", en: "Lorentz force changes direction, not speed, giving circular or helical paths." },
+          detail: { zh: "洛伦兹力不改变速率，只改变速度方向，使其做圆周或螺旋运动。其中 f 为洛伦兹力，q 为电荷量，v 为速度，B 为磁感应强度，θ 为速度与磁场方向夹角。", en: "Lorentz force changes direction, not speed, giving circular or helical paths. f Lorentz force, q charge, v velocity, B field, θ angle." },
           tags: [{ zh: "磁学", en: "Magnetism" }],
         },
         {
@@ -577,6 +578,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "宇宙膨胀与红移", en: "Expansion & Redshift" },
           level: 2,
           oneLiner: { zh: "星系光谱普遍红移，说明宇宙在膨胀（哈勃定律 v=H₀d）。", en: "Cosmic redshift shows expansion (Hubble's law v=H₀d)." },
+          detail: { zh: "其中 v 为星系退行速度，H₀ 为哈勃常数，d 为星系距离。", en: "v recession speed, H₀ Hubble constant, d distance." },
           tags: [{ zh: "宇宙学", en: "Cosmology" }],
         },
         {
@@ -629,7 +631,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "时间膨胀", en: "Time Dilation" },
           level: 3,
           oneLiner: { zh: "运动时钟变慢：Δt=Δt₀/√(1−v²/c²)。", en: "Moving clocks run slow: Δt=Δt₀/√(1−v²/c²)." },
-          detail: { zh: "粒子加速器中的不稳定粒子寿命因此被显著延长。", en: "Unstable particles in accelerators live longer as predicted." },
+          detail: { zh: "粒子加速器中的不稳定粒子寿命因此被显著延长。其中 Δt 为运动参考系测得的时间，Δt₀ 为静止参考系的原时，v 为相对速度，c 为光速。", en: "Unstable particles in accelerators live longer as predicted. Δt moving-frame time, Δt₀ rest proper time, v relative speed, c light speed." },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {
@@ -638,6 +640,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "长度收缩", en: "Length Contraction" },
           level: 3,
           oneLiner: { zh: "运动方向上的长度变短：L=L₀√(1−v²/c²)。", en: "Length along motion shortens: L=L₀√(1−v²/c²)." },
+          detail: { zh: "其中 L 为运动参考系测得的长度，L₀ 为静止时的原长，v 为相对速度，c 为光速。", en: "L measured in the moving frame, L₀ the rest length, v relative speed, c light speed." },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {
@@ -646,7 +649,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "质能方程", en: "Mass–Energy Equivalence" },
           level: 3,
           oneLiner: { zh: "质量即能量：E=mc²。", en: "Mass is energy: E=mc²." },
-          detail: { zh: "核反应释放的能量正来自质量的微小亏损。", en: "Nuclear energy comes from tiny mass defects." },
+          detail: { zh: "核反应释放的能量正来自质量的微小亏损。其中 E 为能量，m 为质量，c 为光速。", en: "Nuclear energy comes from tiny mass defects. E energy, m mass, c speed of light." },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {

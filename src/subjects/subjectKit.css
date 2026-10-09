@@ -118,3 +118,86 @@
 @media (prefers-reduced-motion: reduce) {
   .subject-root .sd-panel { animation: none !important; transition: none !important; }
 }
+
+/* ---------------- 完整周期表（kind: "periodic"） ---------------- */
+.subject-root .pt-grid {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+  grid-auto-rows: auto;
+  gap: 4px;
+  align-items: stretch;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.subject-root .pt-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  min-height: 46px;
+  padding: 4px 2px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--surface);
+  color: #1a2733;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.subject-root .pt-cell.js-pt:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.5);
+  border-color: var(--accent);
+  z-index: 2;
+}
+.subject-root .pt-z { font-size: 9px; line-height: 1; color: #5a6b78; align-self: flex-start; }
+.subject-root .pt-sym { font-size: 15px; font-weight: 800; line-height: 1.1; }
+.subject-root .pt-name { font-size: 9px; line-height: 1; color: #44565f; }
+.subject-root .pt-marker {
+  cursor: default;
+  background: transparent;
+  border-style: dashed;
+  color: var(--text-mute);
+  font-size: 9px;
+  font-weight: 600;
+}
+.subject-root .pt-marker:hover { transform: none; box-shadow: none; border-color: var(--border); }
+.subject-root .pt-spacer { min-height: 10px; }
+
+.subject-root .pt-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+  padding: 10px 2px 0;
+  font-size: 0.8rem;
+  color: var(--text-soft);
+}
+.subject-root .pt-leg { display: inline-flex; align-items: center; gap: 6px; }
+.subject-root .pt-swatch {
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* 周期表分类配色（浅色底 + 深色字，保证可读性） */
+.subject-root .cat-alkali    { background: #ffd1d1; }
+.subject-root .cat-alkaline  { background: #ffe0b0; }
+.subject-root .cat-transition{ background: #fff0a8; }
+.subject-root .cat-post      { background: #d6eec0; }
+.subject-root .cat-metalloid { background: #bfe6dc; }
+.subject-root .cat-nonmetal  { background: #c4e3ff; }
+.subject-root .cat-halogen   { background: #ddd0ff; }
+.subject-root .cat-noble     { background: #ffd1ec; }
+.subject-root .cat-lanthanide{ background: #d2ead0; }
+.subject-root .cat-actinide  { background: #f0e2c4; }
+.subject-root .cat-unknown   { background: #e2e6ea; }
+
+@media (max-width: 720px) {
+  .subject-root .pt-grid { grid-template-columns: repeat(18, minmax(30px, 1fr)); }
+  .subject-root .pt-sym { font-size: 12px; }
+  .subject-root .pt-name { display: none; }
+  .subject-root .pt-z { font-size: 7px; }
+}

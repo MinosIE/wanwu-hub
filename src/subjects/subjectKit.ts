@@ -17,6 +17,20 @@ export const heroTitleText = (o?: LStr): string => {
   return `${o.zh}${o.en ? ` · ${o.en}` : ""}`;
 };
 
+export interface PeriodicCell {
+  /** 网格行（周期；镧系=9，锕系=10） */
+  row: number;
+  /** 网格列（族 1–18） */
+  col: number;
+  symbol: string;
+  /** 原子序数 */
+  z: number;
+  /** 分类键，对应 .cat-* 与 PT_CATS */
+  cat: string;
+  /** 相对原子质量 */
+  mass?: string;
+}
+
 export interface SubjectItem {
   id: string;
   icon?: string;
@@ -29,6 +43,8 @@ export interface SubjectItem {
   example?: LStr;
   tags?: LStr[];
   related?: string[];
+  /** 周期表单元专用：提供后该条目按 2D 网格渲染 */
+  pt?: PeriodicCell;
 }
 
 export interface SubjectModule {
@@ -36,6 +52,8 @@ export interface SubjectModule {
   icon: string;
   title: LStr;
   items: SubjectItem[];
+  /** 渲染方式：cards（默认）或 periodic（完整周期表 2D 网格） */
+  kind?: "cards" | "periodic";
 }
 
 export interface SubjectRef {
@@ -120,6 +138,44 @@ function kpisInner(cfg: SubjectConfig): string {
     .join("");
 }
 
+/** 周期表分类（键与 .cat-* 颜色类、与数据 cat 字段一一对应）。 */
+const PT_CATS: { key: string; zh: string; en: string }[] = [
+  { key: "alkali", zh: "碱金属", en: "Alkali" },
+  { key: "alkaline", zh: "碱土金属", en: "Alkaline earth" },
+  { key: "transition", zh: "过渡金属", en: "Transition" },
+  { key: "post", zh: "主族金属", en: "Post-transition" },
+  { key: "metalloid", zh: "类金属", en: "Metalloid" },
+  { key: "nonmetal", zh: "非金属", en: "Nonmetal" },
+  { key: "halogen", zh: "卤素", en: "Halogen" },
+  { key: "noble", zh: "稀有气体", en: "Noble gas" },
+  { key: "lanthanide", zh: "镧系", en: "Lanthanide" },
+  { key: "actinide", zh: "锕系", en: "Actinide" },
+  { key: "unknown", zh: "人工合成", en: "Synthetic" },
+];
+
+/** 渲染完整周期表（2D 网格 + 图例）。镧系/锕系放在下方独立两行。 */
+function periodicHTML(m: SubjectModule): string {
+  const cells = m.items
+    .map((it) => {
+      const p = it.pt!;
+      return `<button class="pt-cell cat-${p.cat} js-pt" style="grid-row:${p.row};grid-column:${p.col}" data-key="${esc(it.id)}" aria-label="${esc(L(it.term))}">
+        <span class="pt-z">${p.z}</span>
+        <span class="pt-sym">${esc(p.symbol)}</span>
+        <span class="pt-name">${esc(it.term.zh)}</span>
+      </button>`;
+    })
+    .join("");
+  const markers = `
+    <div class="pt-cell pt-marker" style="grid-row:6;grid-column:3">57–71</div>
+    <div class="pt-cell pt-marker" style="grid-row:7;grid-column:3">89–103</div>
+    <div class="pt-spacer" style="grid-row:8;grid-column:1/-1"></div>`;
+  const legend = `<div class="pt-legend" style="grid-row:11;grid-column:1/-1">${PT_CATS.map(
+    (c) =>
+      `<span class="pt-leg"><i class="pt-swatch cat-${c.key}"></i>${esc(L({ zh: c.zh, en: c.en }))}</span>`,
+  ).join("")}</div>`;
+  return cells + markers + legend;
+}
+
 function refsInner(refs: SubjectRef[]): string {
   const items = refs
     .map((r) => {
@@ -163,7 +219,7 @@ export function createSubject(cfg: SubjectConfig) {
             (m, i) =>
               `<section class="module${i === 0 ? " active" : ""}" id="sm-${m.key}">
                 <header class="sm-head"><h2>${esc(L(m.title))}</h2><span class="sm-count"></span></header>
-                <div class="card-grid"></div>
+                <div class="card-grid${m.kind === "periodic" ? " pt-grid" : ""}"></div>
               </section>`,
           )
           .join("")}</div>
@@ -182,6 +238,19 @@ export function createSubject(cfg: SubjectConfig) {
     const grids = root.querySelectorAll<HTMLElement>(".card-grid");
 
     const renderModule = (m: SubjectModule, grid: HTMLElement) => {
+      if (m.kind === "periodic") {
+        grid.innerHTML = periodicHTML(m);
+        grid.querySelectorAll<HTMLElement>(".js-pt").forEach((el) => {
+          const open = () => openDetail(m, el.dataset.key!);
+          el.addEventListener("click", open);
+          el.addEventListener("keydown", (e) => {
+            if ((e as KeyboardEvent).key === "Enter") open();
+          });
+        });
+        const sec = root.querySelector<HTMLElement>(`#sm-${m.key}`);
+        if (sec) sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(m.items.length);
+        return;
+      }
       grid.innerHTML = m.items.map(cardHTML).join("");
       grid.querySelectorAll<HTMLElement>(".js-item").forEach((el) => {
         const open = () => openDetail(m, el.dataset.key!);

@@ -1,4 +1,157 @@
-import type { SubjectConfig } from "../subjectKit";
+import type { SubjectConfig, SubjectItem } from "../subjectKit";
+
+/* ---------- 完整元素周期表数据（118 个元素） ---------- */
+const CAT_ZH: Record<string, string> = {
+  alkali: "碱金属", alkaline: "碱土金属", transition: "过渡金属", post: "主族金属",
+  metalloid: "类金属", nonmetal: "非金属", halogen: "卤素", noble: "稀有气体",
+  lanthanide: "镧系", actinide: "锕系", unknown: "人工合成",
+};
+
+// [z, 符号, 中文名, 英文名, 分类, 周期, 族, 相对原子质量, 备注?]
+type RawEl = [number, string, string, string, string, number, number, string, string?];
+const RAW: RawEl[] = [
+  [1, "H", "氢", "Hydrogen", "nonmetal", 1, 1, "1.008"],
+  [2, "He", "氦", "Helium", "noble", 1, 18, "4.003"],
+  [3, "Li", "锂", "Lithium", "alkali", 2, 1, "6.941"],
+  [4, "Be", "铍", "Beryllium", "alkaline", 2, 2, "9.012"],
+  [5, "B", "硼", "Boron", "metalloid", 2, 13, "10.81"],
+  [6, "C", "碳", "Carbon", "nonmetal", 2, 14, "12.01", "有机化学骨架，金刚石/石墨等为同素异形体"],
+  [7, "N", "氮", "Nitrogen", "nonmetal", 2, 15, "14.01", "空气主要成分，蛋白质与核酸的组成元素"],
+  [8, "O", "氧", "Oxygen", "nonmetal", 2, 16, "16.00", "支持呼吸与燃烧，地壳含量最高"],
+  [9, "F", "氟", "Fluorine", "halogen", 2, 17, "19.00", "非金属性最强的元素"],
+  [10, "Ne", "氖", "Neon", "noble", 2, 18, "20.18", "霓虹灯发光气体"],
+  [11, "Na", "钠", "Sodium", "alkali", 3, 1, "22.99", "活泼金属，与氯形成食盐"],
+  [12, "Mg", "镁", "Magnesium", "alkaline", 3, 2, "24.31", "燃烧发白光，叶绿素中心原子"],
+  [13, "Al", "铝", "Aluminum", "post", 3, 13, "26.98", "地壳含量最高的金属"],
+  [14, "Si", "硅", "Silicon", "metalloid", 3, 14, "28.09", "半导体工业基础"],
+  [15, "P", "磷", "Phosphorus", "nonmetal", 3, 15, "30.97", "存在于 ATP 与 DNA"],
+  [16, "S", "硫", "Sulfur", "nonmetal", 3, 16, "32.06", "黄色固体，用于制硫酸"],
+  [17, "Cl", "氯", "Chlorine", "halogen", 3, 17, "35.45", "黄绿色气体，强氧化性"],
+  [18, "Ar", "氩", "Argon", "noble", 3, 18, "39.95"],
+  [19, "K", "钾", "Potassium", "alkali", 4, 1, "39.10", "维持神经与肌肉功能"],
+  [20, "Ca", "钙", "Calcium", "alkaline", 4, 2, "40.08", "骨骼与牙齿主要成分"],
+  [21, "Sc", "钪", "Scandium", "transition", 4, 3, "44.96"],
+  [22, "Ti", "钛", "Titanium", "transition", 4, 4, "47.87", "强度高、耐腐蚀"],
+  [23, "V", "钒", "Vanadium", "transition", 4, 5, "50.94"],
+  [24, "Cr", "铬", "Chromium", "transition", 4, 6, "52.00", "不锈钢关键成分"],
+  [25, "Mn", "锰", "Manganese", "transition", 4, 7, "54.94"],
+  [26, "Fe", "铁", "Iron", "transition", 4, 8, "55.85", "血红蛋白与钢的核心"],
+  [27, "Co", "钴", "Cobalt", "transition", 4, 9, "58.93"],
+  [28, "Ni", "镍", "Nickel", "transition", 4, 10, "58.69"],
+  [29, "Cu", "铜", "Copper", "transition", 4, 11, "63.55", "优良导体，古代即使用"],
+  [30, "Zn", "锌", "Zinc", "transition", 4, 12, "65.38", "镀锌防锈，电池负极"],
+  [31, "Ga", "镓", "Gallium", "post", 4, 13, "69.72"],
+  [32, "Ge", "锗", "Germanium", "metalloid", 4, 14, "72.63"],
+  [33, "As", "砷", "Arsenic", "metalloid", 4, 15, "74.92", "有毒性"],
+  [34, "Se", "硒", "Selenium", "nonmetal", 4, 16, "78.97"],
+  [35, "Br", "溴", "Bromine", "halogen", 4, 17, "79.90", "常温下为液体"],
+  [36, "Kr", "氪", "Krypton", "noble", 4, 18, "83.80"],
+  [37, "Rb", "铷", "Rubidium", "alkali", 5, 1, "85.47"],
+  [38, "Sr", "锶", "Strontium", "alkaline", 5, 2, "87.62"],
+  [39, "Y", "钇", "Yttrium", "transition", 5, 3, "88.91"],
+  [40, "Zr", "锆", "Zirconium", "transition", 5, 4, "91.22"],
+  [41, "Nb", "铌", "Niobium", "transition", 5, 5, "92.91"],
+  [42, "Mo", "钼", "Molybdenum", "transition", 5, 6, "95.95"],
+  [43, "Tc", "锝", "Technetium", "transition", 5, 7, "98", "首个人工合成元素"],
+  [44, "Ru", "钌", "Ruthenium", "transition", 5, 8, "101.1"],
+  [45, "Rh", "铑", "Rhodium", "transition", 5, 9, "102.9"],
+  [46, "Pd", "钯", "Palladium", "transition", 5, 10, "106.4"],
+  [47, "Ag", "银", "Silver", "transition", 5, 11, "107.9", "导电导热最佳"],
+  [48, "Cd", "镉", "Cadmium", "transition", 5, 12, "112.4"],
+  [49, "In", "铟", "Indium", "post", 5, 13, "114.8"],
+  [50, "Sn", "锡", "Tin", "post", 5, 14, "118.7"],
+  [51, "Sb", "锑", "Antimony", "metalloid", 5, 15, "121.8"],
+  [52, "Te", "碲", "Tellurium", "metalloid", 5, 16, "127.6"],
+  [53, "I", "碘", "Iodine", "halogen", 5, 17, "126.9", "甲状腺激素成分"],
+  [54, "Xe", "氙", "Xenon", "noble", 5, 18, "131.3"],
+  [55, "Cs", "铯", "Cesium", "alkali", 6, 1, "132.9"],
+  [56, "Ba", "钡", "Barium", "alkaline", 6, 2, "137.3"],
+  [72, "Hf", "铪", "Hafnium", "transition", 6, 4, "178.5"],
+  [73, "Ta", "钽", "Tantalum", "transition", 6, 5, "180.9"],
+  [74, "W", "钨", "Tungsten", "transition", 6, 6, "183.8", "灯丝材料，熔点高"],
+  [75, "Re", "铼", "Rhenium", "transition", 6, 7, "186.2"],
+  [76, "Os", "锇", "Osmium", "transition", 6, 8, "190.2", "密度最大的金属"],
+  [77, "Ir", "铱", "Iridium", "transition", 6, 9, "192.2"],
+  [78, "Pt", "铂", "Platinum", "transition", 6, 10, "195.1", "贵金属催化剂"],
+  [79, "Au", "金", "Gold", "transition", 6, 11, "197.0", "稳定贵金属，延展性极佳"],
+  [80, "Hg", "汞", "Mercury", "transition", 6, 12, "200.6", "常温下为液体金属"],
+  [81, "Tl", "铊", "Thallium", "post", 6, 13, "204.4"],
+  [82, "Pb", "铅", "Lead", "post", 6, 14, "207.2", "有毒重金属"],
+  [83, "Bi", "铋", "Bismuth", "post", 6, 15, "209.0"],
+  [84, "Po", "钋", "Polonium", "post", 6, 16, "209", "放射性"],
+  [85, "At", "砹", "Astatine", "halogen", 6, 17, "210", "极稀有放射性"],
+  [86, "Rn", "氡", "Radon", "noble", 6, 18, "222", "放射性气体"],
+  [57, "La", "镧", "Lanthanum", "lanthanide", 6, 3, "138.9"],
+  [58, "Ce", "铈", "Cerium", "lanthanide", 6, 3, "140.1"],
+  [59, "Pr", "镨", "Praseodymium", "lanthanide", 6, 3, "140.9"],
+  [60, "Nd", "钕", "Neodymium", "lanthanide", 6, 3, "144.2", "强磁体材料"],
+  [61, "Pm", "钷", "Promethium", "lanthanide", 6, 3, "145", "放射性"],
+  [62, "Sm", "钐", "Samarium", "lanthanide", 6, 3, "150.4"],
+  [63, "Eu", "铕", "Europium", "lanthanide", 6, 3, "152.0"],
+  [64, "Gd", "钆", "Gadolinium", "lanthanide", 6, 3, "157.3"],
+  [65, "Tb", "铽", "Terbium", "lanthanide", 6, 3, "158.9"],
+  [66, "Dy", "镝", "Dysprosium", "lanthanide", 6, 3, "162.5"],
+  [67, "Ho", "钬", "Holmium", "lanthanide", 6, 3, "164.9"],
+  [68, "Er", "铒", "Erbium", "lanthanide", 6, 3, "167.3"],
+  [69, "Tm", "铥", "Thulium", "lanthanide", 6, 3, "168.9"],
+  [70, "Yb", "镱", "Ytterbium", "lanthanide", 6, 3, "173.0"],
+  [71, "Lu", "镥", "Lutetium", "lanthanide", 6, 3, "175.0"],
+  [87, "Fr", "钫", "Francium", "alkali", 7, 1, "223", "放射性最强的碱金属"],
+  [88, "Ra", "镭", "Radium", "alkaline", 7, 2, "226", "放射性，曾用于夜光"],
+  [104, "Rf", "𬬻", "Rutherfordium", "transition", 7, 4, "267"],
+  [105, "Db", "𬭊", "Dubnium", "transition", 7, 5, "268"],
+  [106, "Sg", "𬭳", "Seaborgium", "transition", 7, 6, "269"],
+  [107, "Bh", "𬭛", "Bohrium", "transition", 7, 7, "270"],
+  [108, "Hs", "𬭶", "Hassium", "transition", 7, 8, "269"],
+  [109, "Mt", "鿏", "Meitnerium", "transition", 7, 9, "278"],
+  [110, "Ds", "𫟼", "Darmstadtium", "transition", 7, 10, "281"],
+  [111, "Rg", "𬬭", "Roentgenium", "transition", 7, 11, "282"],
+  [112, "Cn", "鿔", "Copernicium", "transition", 7, 12, "285"],
+  [113, "Nh", "鿭", "Nihonium", "unknown", 7, 13, "286"],
+  [114, "Fl", "𫓧", "Flerovium", "unknown", 7, 14, "289"],
+  [115, "Mc", "镆", "Moscovium", "unknown", 7, 15, "290"],
+  [116, "Lv", "𫟷", "Livermorium", "unknown", 7, 16, "293"],
+  [117, "Ts", "鿬", "Tennessine", "halogen", 7, 17, "294"],
+  [118, "Og", "鿫", "Oganesson", "noble", 7, 18, "294"],
+  [89, "Ac", "锕", "Actinium", "actinide", 7, 3, "227"],
+  [90, "Th", "钍", "Thorium", "actinide", 7, 3, "232.0"],
+  [91, "Pa", "镤", "Protactinium", "actinide", 7, 3, "231.0"],
+  [92, "U", "铀", "Uranium", "actinide", 7, 3, "238.0", "核燃料，原子能核心"],
+  [93, "Np", "镎", "Neptunium", "actinide", 7, 3, "237"],
+  [94, "Pu", "钚", "Plutonium", "actinide", 7, 3, "244", "核反应堆/武器材料"],
+  [95, "Am", "镅", "Americium", "actinide", 7, 3, "243"],
+  [96, "Cm", "锔", "Curium", "actinide", 7, 3, "247"],
+  [97, "Bk", "锫", "Berkelium", "actinide", 7, 3, "247"],
+  [98, "Cf", "锎", "Californium", "actinide", 7, 3, "251"],
+  [99, "Es", "锿", "Einsteinium", "actinide", 7, 3, "252"],
+  [100, "Fm", "镄", "Fermium", "actinide", 7, 3, "257"],
+  [101, "Md", "钔", "Mendelevium", "actinide", 7, 3, "258"],
+  [102, "No", "锘", "Nobelium", "actinide", 7, 3, "259"],
+  [103, "Lr", "铹", "Lawrencium", "actinide", 7, 3, "262"],
+];
+
+function elToItem(e: RawEl): SubjectItem {
+  const [z, sym, zh, en, cat, period, group, mass, note] = e;
+  const isLan = cat === "lanthanide";
+  const isAct = cat === "actinide";
+  const row = isLan ? 9 : isAct ? 10 : period;
+  const col = isLan ? 3 + (z - 57) : isAct ? 3 + (z - 89) : group;
+  const catZh = CAT_ZH[cat] ?? cat;
+  return {
+    id: "el-" + sym.toLowerCase(),
+    term: { zh, en },
+    value: { zh: mass, en: mass },
+    oneLiner: { zh: note ?? `第${period}周期 · ${catZh}`, en: note ?? catZh },
+    detail: {
+      zh: `${zh}（${en}），原子序数 ${z}，相对原子质量约 ${mass}，属于${catZh}。`,
+      en: `${en} (Z=${z}), relative atomic mass ≈ ${mass}, ${cat}.`,
+    },
+    tags: [{ zh: catZh, en: cat }],
+    pt: { row, col, symbol: sym, z, cat, mass },
+  };
+}
+
+const periodicItems: SubjectItem[] = RAW.map(elToItem);
 
 export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
   heroTitle: { zh: "万物化学", en: "Chemistry of Everything" },
@@ -115,11 +268,19 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
-    /* ===================== 元素周期表 ===================== */
+    /* ===================== 完整元素周期表（118 元素） ===================== */
     {
-      key: "periodic-table",
-      icon: "📊",
+      key: "periodic-table-full",
+      icon: "🧭",
       title: { zh: "元素周期表", en: "Periodic Table" },
+      kind: "periodic",
+      items: periodicItems,
+    },
+    /* ===================== 周期律与趋势 ===================== */
+    {
+      key: "trends",
+      icon: "📊",
+      title: { zh: "周期律与趋势", en: "Periodic Trends" },
       items: [
         {
           id: "periods-groups",
