@@ -10,6 +10,13 @@ export const L = (o?: LStr | string): string => {
   return getLang() === "en" ? o.en || o.zh : o.zh || o.en;
 };
 
+/** hero 标题：中文模式显示「中文 · English」，英文模式仅 English（与其它学科的 i18n 表现一致）。 */
+export const heroTitleText = (o?: LStr): string => {
+  if (!o) return "";
+  if (getLang() === "en") return o.en || o.zh;
+  return `${o.zh}${o.en ? ` · ${o.en}` : ""}`;
+};
+
 export interface SubjectItem {
   id: string;
   icon?: string;
@@ -111,7 +118,7 @@ export function createSubject(cfg: SubjectConfig) {
     view.innerHTML = `<div class="${cfg.rootClass}" style="--accent:${cfg.accent}">
       <div class="sub-wrap">
         <section class="sub-hero">
-          <h1 class="sub-h1">${esc(L(cfg.heroTitle))}</h1>
+          <h1 class="sub-h1">${esc(heroTitleText(cfg.heroTitle))}</h1>
           <p class="sub-sub">${esc(L(cfg.heroSub))}</p>
           ${cfg.intro ? `<p class="sub-intro">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
@@ -201,7 +208,7 @@ export function createSubject(cfg: SubjectConfig) {
 
     const offLang = onLangChange(() => {
       const h1 = root.querySelector<HTMLElement>(".sub-h1");
-      if (h1) h1.textContent = L(cfg.heroTitle);
+      if (h1) h1.textContent = heroTitleText(cfg.heroTitle);
       const sub = root.querySelector<HTMLElement>(".sub-sub");
       if (sub) sub.textContent = L(cfg.heroSub);
       const intro = root.querySelector<HTMLElement>(".sub-intro");
