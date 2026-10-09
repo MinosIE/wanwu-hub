@@ -82,6 +82,7 @@
     "ui.influence": "意义",
     "ui.points": "要点",
     "foot.tip": "本站为通识科普，内容中立整理，仅供学习，不构成任何专业意见。",
+    "foot.feedback": "发现问题或有建议？欢迎通过 GitHub 提 Issue 或邮件反馈",
     "foot.sister": "系列首页",
     "foot.data": "结构化数据",
     "foot.copy": "© 2026 万物生物 · MIT License"
@@ -169,6 +170,7 @@
     "ui.influence": "Significance",
     "ui.points": "Points",
     "foot.tip": "An educational summary, neutral in tone. For learning only, not professional advice.",
+    "foot.feedback": "Found a problem or have a suggestion? File a GitHub issue or email us",
     "foot.sister": "Series home",
     "foot.data": "Structured data",
     "foot.copy": "© 2026 Life of Everything · MIT License"

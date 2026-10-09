@@ -18,19 +18,6 @@ export const TEMPLATE = `<div class="wrap">
         <p data-i18n="heroSub">
           从孔子到康德，从庄子到波伏瓦——把东西方的思想长河，讲成看得懂的常识。中立、结构化、中英双语、免费无广告。
         </p>
-        <p class="hero-issue">
-          <span data-i18n="heroIssue"
-            >发现问题或有建议？欢迎提 Issue 或邮件反馈：</span
-          ><a
-            class="hero-issue-link"
-            href="https://github.com/MinosIE/wanwu-hub/issues"
-            target="_blank"
-            rel="noopener noreferrer"
-            >GitHub Issues ↗</a
-          ><a id="heroMailLink" class="hero-issue-link-alt" href="#"
-            ><span data-i18n="heroMail">✉️ 邮件反馈</span></a
-          >
-        </p>
         <div class="kpis" id="kpis"></div>
       </section>
 
