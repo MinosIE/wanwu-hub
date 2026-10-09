@@ -34,7 +34,7 @@ export function initSearch(openDetailById: (id: string) => void): void {
     activeIdx = (i + hits.length) % hits.length;
     box
       .querySelectorAll<HTMLElement>(".sr-item")
-      .forEach((b, j) => b.classList.toggle("active", j === activeIdx));
+      .forEach((b, j) => b.classList.toggle("on", j === activeIdx));
   };
   const openHit = (i: number): void => {
     const h = hits[i];
@@ -72,9 +72,11 @@ export function initSearch(openDetailById: (id: string) => void): void {
     box.innerHTML = hits
       .map(
         (h, i) =>
-          `<button class="sr-item" data-i="${i}" role="option"><span class="sr-tag">${esc(
+          `<div class="sr-item" role="option" data-i="${i}"><span class="sr-type">${esc(
             h.typeLabel,
-          )}</span><span>${esc(h.title)}</span></button>`,
+          )}</span><span class="sr-name">${esc(h.title)}</span><span class="sr-x">${esc(
+            h.sub,
+          )}</span></div>`,
       )
       .join("");
     box

@@ -84,11 +84,11 @@ function mailHref(): string {
 
 function cardHTML(item: SubjectItem): string {
   const value = item.value ? `<span class="card-val">${esc(L(item.value))}</span>` : "";
-  return `<article class="sub-card js-item" data-key="${esc(item.id)}" tabindex="0" role="button" aria-label="${esc(L(item.term))}">
+  return `<article class="card js-item" data-key="${esc(item.id)}" tabindex="0" role="button" aria-label="${esc(L(item.term))}">
     <header class="card-h">
       <span class="card-ic">${item.icon ?? "•"}</span>
       <span class="card-t">${esc(L(item.term))}</span>
-      ${item.level != null ? `<span class="lvl">L${item.level}</span>` : ""}
+      ${item.level != null ? `<span class="lvl lvl-${item.level}">L${item.level}</span>` : ""}
     </header>
     <p class="card-lead">${esc(L(item.oneLiner))}</p>
     <footer class="card-f">
@@ -101,13 +101,15 @@ function cardHTML(item: SubjectItem): string {
 
 /**
  * 生成一个轻量、可双语、可深链的学科视图挂载函数。
- * 复用主应用 i18n/主题（全局 CSS 变量），不自带 core，避免每个学科复制一套。
+ * hero / 搜索 / 模块导航 / 卡片 / 来源 / 页脚 均复用共享 UI 层（src/core/ui/ui.css），
+ * 不自带一份副本；仅详情面板与联机搜索结果为学科专属实现。
  */
 function kpisInner(cfg: SubjectConfig): string {
   const total = cfg.modules.reduce((n, m) => n + m.items.length, 0);
   const kpis: { icon: string; value: string; label: LStr }[] = [
     { icon: "🧩", value: String(total), label: { zh: "核心概念", en: "Concepts" } },
     { icon: "📚", value: String(cfg.modules.length), label: { zh: "知识模块", en: "Modules" } },
+    { icon: "📎", value: String(cfg.refs?.length ?? 0), label: { zh: "参考来源", en: "References" } },
     { icon: "🌐", value: "中 / EN", label: { zh: "中英双语", en: "Bilingual" } },
   ];
   return kpis
@@ -138,46 +140,46 @@ export function createSubject(cfg: SubjectConfig) {
     sub?: string,
   ): Promise<() => void> => {
     const hasRefs = !!(cfg.refs && cfg.refs.length);
-    view.innerHTML = `<div class="${cfg.rootClass}" style="--accent:${cfg.accent}">
-      <div class="sub-wrap">
-        <section class="sub-hero">
-          <h1 class="sub-h1">${esc(heroTitleText(cfg.heroTitle))}</h1>
-          ${cfg.intro ? `<p class="sub-intro">${esc(L(cfg.intro))}</p>` : ""}
+    view.innerHTML = `<div class="${cfg.rootClass} subject-root" style="--accent:${cfg.accent};--hero:linear-gradient(155deg, color-mix(in srgb, ${cfg.accent} 72%, #06121a), color-mix(in srgb, ${cfg.accent} 40%, #06121a))">
+      <div class="wrap">
+        <section class="hero">
+          <h1>${esc(heroTitleText(cfg.heroTitle))}</h1>
+          ${cfg.intro ? `<p class="hero-sub">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
         </section>
-        <div class="sub-search-wrap">
-          <input id="subSearch" class="sub-search" type="search" autocomplete="off"
+        <div class="search">
+          <input id="search" class="search-input" type="search" autocomplete="off"
             placeholder="${esc(L({ zh: "搜索：概念 / 术语 / 关键词…", en: "Search: concepts / terms / keywords…" }))}"
             aria-label="${esc(L({ zh: "搜索", en: "Search" }))}" />
         </div>
-        <nav class="sub-nav" id="subNav" aria-label="模块导航">${cfg.modules
+        <nav class="modnav" aria-label="模块导航">${cfg.modules
           .map(
             (m, i) =>
-              `<button class="sub-mod${i === 0 ? " active" : ""}" data-go="${m.key}"><span class="sm-ic" aria-hidden="true">${m.icon}</span><span class="sm-label">${esc(L(m.title))}</span></button>`,
+              `<button class="mod${i === 0 ? " active" : ""}" data-go="${m.key}"><span class="sm-ic" aria-hidden="true">${m.icon}</span><span class="sm-label">${esc(L(m.title))}</span></button>`,
           )
           .join("")}</nav>
-        <div class="sub-modules" id="subModules">${cfg.modules
+        <div class="modules">${cfg.modules
           .map(
             (m, i) =>
-              `<section class="sub-module${i === 0 ? " active" : ""}" id="sm-${m.key}">
+              `<section class="module${i === 0 ? " active" : ""}" id="sm-${m.key}">
                 <header class="sm-head"><h2>${esc(L(m.title))}</h2><span class="sm-count"></span></header>
-                <div class="sub-grid"></div>
+                <div class="card-grid"></div>
               </section>`,
           )
           .join("")}</div>
         <div class="sub-results" id="subResults" hidden></div>
-        ${hasRefs ? `<section class="sub-refs" id="subRefs">${refsInner(cfg.refs!)}</section>` : ""}
-        <footer class="sub-foot">
+        ${hasRefs ? `<section class="refs" id="refs">${refsInner(cfg.refs!)}</section>` : ""}
+        <footer class="foot">
           <p class="foot-feedback">${esc(L(FEEDBACK_TEXT))}：<a href="https://github.com/MinosIE/wanwu-hub/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> · <a id="heroMailLink" href="${mailHref()}">${esc(L(MAIL_LABEL))}</a></p>
-          <p class="sub-foot-copy">© 2026 万物通识 · MIT License</p>
+          <p class="foot-copy">© 2026 万物通识 · MIT License</p>
         </footer>
       </div>
-      <button class="sub-top" id="subTop" type="button" aria-label="返回顶部">↑</button>
+      <button class="to-top" id="toTop" type="button" aria-label="返回顶部">↑</button>
       <div class="sub-detail" id="subDetail" hidden></div>
     </div>`;
 
     const root = view.querySelector<HTMLElement>(`.${cfg.rootClass}`)!;
-    const grids = root.querySelectorAll<HTMLElement>(".sub-grid");
+    const grids = root.querySelectorAll<HTMLElement>(".card-grid");
 
     const renderModule = (m: SubjectModule, grid: HTMLElement) => {
       grid.innerHTML = m.items.map(cardHTML).join("");
@@ -218,12 +220,12 @@ export function createSubject(cfg: SubjectConfig) {
 
     cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
 
-    root.querySelectorAll<HTMLElement>(".sub-mod").forEach((btn) => {
+    root.querySelectorAll<HTMLElement>(".mod").forEach((btn) => {
       btn.addEventListener("click", () => {
         const k = btn.dataset.go!;
-        root.querySelectorAll(".sub-mod").forEach((b) => b.classList.toggle("active", b === btn));
+        root.querySelectorAll(".mod").forEach((b) => b.classList.toggle("active", b === btn));
         root
-          .querySelectorAll<HTMLElement>(".sub-module")
+          .querySelectorAll<HTMLElement>(".module")
           .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
@@ -231,10 +233,10 @@ export function createSubject(cfg: SubjectConfig) {
 
     // 搜索：跨模块过滤卡片，命中项汇总到结果区
     const allItems = cfg.modules.flatMap((m) => m.items.map((it) => ({ m, it })));
-    const searchInput = root.querySelector<HTMLInputElement>("#subSearch");
+    const searchInput = root.querySelector<HTMLInputElement>("#search");
     const resultsEl = root.querySelector<HTMLElement>("#subResults")!;
-    const navEl = root.querySelector<HTMLElement>("#subNav")!;
-    const modulesEl = root.querySelector<HTMLElement>("#subModules")!;
+    const navEl = root.querySelector<HTMLElement>(".modnav")!;
+    const modulesEl = root.querySelector<HTMLElement>(".modules")!;
 
     const onSearch = () => {
       const q = (searchInput?.value ?? "").trim().toLowerCase();
@@ -274,21 +276,21 @@ export function createSubject(cfg: SubjectConfig) {
     };
     searchInput?.addEventListener("input", onSearch);
 
-    const top = root.querySelector<HTMLElement>("#subTop")!;
+    const top = root.querySelector<HTMLElement>("#toTop")!;
     const onScroll = () => top.classList.toggle("show", window.scrollY > 420);
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
     top.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 
     const offLang = onLangChange(() => {
-      const h1 = root.querySelector<HTMLElement>(".sub-h1");
+      const h1 = root.querySelector<HTMLElement>(".hero h1");
       if (h1) h1.textContent = heroTitleText(cfg.heroTitle);
-      const intro = root.querySelector<HTMLElement>(".sub-intro");
+      const intro = root.querySelector<HTMLElement>(".hero-sub");
       if (intro && cfg.intro) intro.textContent = L(cfg.intro);
       const kpisEl = root.querySelector<HTMLElement>("#kpis");
       if (kpisEl) kpisEl.innerHTML = kpisInner(cfg);
       root
-        .querySelectorAll<HTMLElement>(".sub-mod .sm-label")
+        .querySelectorAll<HTMLElement>(".mod .sm-label")
         .forEach((b, i) => (b.textContent = L(cfg.modules[i].title)));
       root
         .querySelectorAll<HTMLElement>(".sm-head h2")
@@ -302,7 +304,7 @@ export function createSubject(cfg: SubjectConfig) {
           en: "Search: concepts / terms / keywords…",
         });
       if (!resultsEl.hidden) onSearch();
-      const refsEl = root.querySelector<HTMLElement>("#subRefs");
+      const refsEl = root.querySelector<HTMLElement>("#refs");
       if (refsEl && cfg.refs && cfg.refs.length) refsEl.innerHTML = refsInner(cfg.refs);
       closeDetail();
     });
@@ -312,10 +314,10 @@ export function createSubject(cfg: SubjectConfig) {
       const m = cfg.modules.find((x) => x.key === k);
       if (m) {
         root
-          .querySelectorAll(".sub-mod")
+          .querySelectorAll(".mod")
           .forEach((b) => b.classList.toggle("active", (b as HTMLElement).dataset.go === k));
         root
-          .querySelectorAll<HTMLElement>(".sub-module")
+          .querySelectorAll<HTMLElement>(".module")
           .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
         if (id) openDetail(m, id);
       }

@@ -100,70 +100,7 @@
   color: var(--muted);
 }
 
-/* ===== Search ===== */
-.mind-root .search {
-  position: relative;
-  max-width: 620px;
-  margin: 18px auto 8px;
-}
-.mind-root .search input {
-  width: 100%;
-  padding: 13px 16px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  color: var(--text);
-  font-size: 0.95rem;
-  outline: none;
-}
-.mind-root .search input:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 4px var(--ring);
-}
-.mind-root .search-results {
-  position: absolute;
-  z-index: 30;
-  top: calc(100% + 6px);
-  left: 0;
-  right: 0;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  box-shadow: var(--shadow-hover);
-  max-height: 60vh;
-  overflow: auto;
-  padding: 6px;
-}
-.mind-root .search-results .sr-item {
-  display: block;
-  width: 100%;
-  text-align: left;
-  background: none;
-  border: none;
-  color: var(--text);
-  padding: 10px 12px;
-  border-radius: 8px;
-  display: flex;
-  gap: 10px;
-  align-items: baseline;
-}
-.mind-root .search-results .sr-item:hover,
-.mind-root .search-results .sr-item.active {
-  background: var(--accent-soft);
-}
-.mind-root .search-results .sr-tag {
-  font-size: 0.7rem;
-  color: #fff;
-  background: var(--accent);
-  border-radius: 8px;
-  padding: 1px 8px;
-  white-space: nowrap;
-}
-.mind-root .search-results .sr-empty {
-  padding: 12px;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
+/* 搜索框与结果样式已统一由共享 UI 层 src/core/ui/ui.css（scope: .subject-root）提供 */
 
 /* ===== Module nav ===== */
 .mind-root .modnav {

@@ -19,6 +19,28 @@
   --shadow-hover: 0 12px 30px rgba(90, 60, 40, 0.16);
   --ring: rgba(194, 104, 61, 0.35);
   --hero: linear-gradient(160deg, #2a1408 0%, #9c4f2c 55%, #5e2c14 100%);
+  /* 规范 token 别名桥：对接共享 UI 层 src/core/ui/ui.css */
+  --brand: var(--accent);
+  --brand-d: var(--accent-strong);
+  --brand-50: color-mix(in srgb, var(--accent) 18%, transparent);
+  --surface: var(--card);
+  --surface-2: var(--card-2);
+  --text-strong: var(--text);
+  --text-soft: var(--muted);
+  --text-mute: var(--muted);
+  --chip-bg: var(--accent-soft);
+  --r2: 12px;
+  --r3: 14px;
+  --s-soft: var(--shadow);
+  --s-lift: var(--shadow-hover);
+  --s-card: var(--shadow);
+  --mark-bg: color-mix(in srgb, var(--accent) 16%, transparent);
+  --gold: var(--accent-2);
+  --gold-50: color-mix(in srgb, var(--accent-2) 18%, transparent);
+  --gold-d: var(--accent-strong);
+  --nav-h: 56px;
+  --ok: #3a9d6b;
+  --ok-bg: color-mix(in srgb, #3a9d6b 16%, transparent);
 }
 
 .mind-root[data-theme='dark'] {
@@ -40,4 +62,26 @@
   --shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.5);
   --ring: rgba(229, 147, 83, 0.4);
   --hero: linear-gradient(160deg, #1a0e07 0%, #b5612f 55%, #4a2310 100%);
+  /* 规范 token 别名桥：对接共享 UI 层 src/core/ui/ui.css */
+  --brand: var(--accent);
+  --brand-d: var(--accent-strong);
+  --brand-50: color-mix(in srgb, var(--accent) 18%, transparent);
+  --surface: var(--card);
+  --surface-2: var(--card-2);
+  --text-strong: var(--text);
+  --text-soft: var(--muted);
+  --text-mute: var(--muted);
+  --chip-bg: var(--accent-soft);
+  --r2: 12px;
+  --r3: 14px;
+  --s-soft: var(--shadow);
+  --s-lift: var(--shadow-hover);
+  --s-card: var(--shadow);
+  --mark-bg: color-mix(in srgb, var(--accent) 16%, transparent);
+  --gold: var(--accent-2);
+  --gold-50: color-mix(in srgb, var(--accent-2) 18%, transparent);
+  --gold-d: var(--accent-strong);
+  --nav-h: 56px;
+  --ok: #3a9d6b;
+  --ok-bg: color-mix(in srgb, #3a9d6b 16%, transparent);
 }
