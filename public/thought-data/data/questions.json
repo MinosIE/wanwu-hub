@@ -12,7 +12,7 @@
     "positions": [
       { "k": "决定论", "kEn": "Determinism", "v": "宇宙是因果链条，未来由过去与定律唯一决定，自由只是表象。", "vEn": "The universe is a causal chain; the future is fixed by the past and laws. Freedom is appearance." },
       { "k": "相容论", "kEn": "Compatibilism", "v": "自由是「按自己的欲望与理性行动」，与决定论并不矛盾。", "vEn": "Freedom is acting on one's own reasons; this is compatible with determinism." },
-      { "k": " libertarianism", "kEn": "Libertarianism", "v": "存在非决定的、由主体发起的真正的选择。", "vEn": "There are undetermined, agent-initiated choices." }
+      { "k": "意志自由论", "kEn": "Libertarianism", "v": "存在非决定的、由主体发起的真正的选择。", "vEn": "There are undetermined, agent-initiated choices." }
     ],
     "why": "它决定了我们对责任、惩罚与自我叙事的理解：若行为早已注定，褒贬与奖罚还有意义吗？",
     "whyEn": "It underpins our notions of responsibility, praise and punishment: if acts are fixed, do praise and blame survive?",
@@ -218,5 +218,115 @@
     "thinkersEn": ["Epicurus", "Confucius", "Zhuangzi"],
     "related": ["meaning", "self", "taoism", "confucianism"],
     "sources": [{ "label": "《论死亡》伊壁鸠鲁" }]
+  },
+  {
+    "id": "beauty",
+    "name": "美是客观的属性，还是赏者的投射？",
+    "nameEn": "Is beauty in the thing, or in the beholder?",
+    "era": "美学 · 横跨古今",
+    "eraEn": "Aesthetics · perennial",
+    "level": 2,
+    "order": 11,
+    "oneLiner": "一朵花的红是它自身的性质，而它的美似乎离不了观赏者的心。",
+    "oneLinerEn": "A flower's red seems its own, yet its beauty seems to need a mind to behold it.",
+    "positions": [
+      { "k": "客观论", "kEn": "Objectivism", "v": "美在于比例、和谐等对象自身的形式属性。", "vEn": "Beauty lies in form: proportion, harmony, order." },
+      { "k": "主观论", "kEn": "Subjectivism", "v": "美只是观者愉悦情感的投射，人无一定。", "vEn": "Beauty is a projection of pleasure; tastes differ." },
+      { "k": "共通感", "kEn": "Shared sense", "v": "康德称审美虽无功利却期待普遍同意。", "vEn": "Kant: judgment is disinterested yet claims universal assent." }
+    ],
+    "why": "它牵动艺术的价值、品味的可否高下，以及我们能否理性地争论审美。",
+    "whyEn": "It bears on the worth of art, whether tastes rank, and whether aesthetic dispute can be rational.",
+    "thinkers": ["柏拉图", "康德", "休谟"],
+    "thinkersEn": ["Plato", "Kant", "Hume"],
+    "related": ["platonism", "kant", "knowledge"],
+    "sources": [{ "label": "《判断力批判》康德" }]
+  },
+  {
+    "id": "other-minds",
+    "name": "我怎么确定别人也有内心体验？",
+    "nameEn": "How do I know other minds exist?",
+    "era": "认识论 · 心灵哲学",
+    "eraEn": "Epistemology · philosophy of mind",
+    "level": 3,
+    "order": 12,
+    "oneLiner": "我只能直接意识到自己的感受，他人的内心永远藏在行为与语言之后。",
+    "oneLinerEn": "I access only my own experience; others' minds stay hidden behind behaviour and speech.",
+    "positions": [
+      { "k": "类比论证", "kEn": "Analogy", "v": "由他人与我身体的相似推断其有心。", "vEn": "Infer minds from bodies like my own." },
+      { "k": "行为主义", "kEn": "Behaviourism", "v": "心即倾向性的行为，可公开验证。", "vEn": "Mind is behavioural disposition, publicly checkable." },
+      { "k": "他者面孔", "kEn": "Face of the other", "v": "列维纳斯：他人的面容直接向我显现。", "vEn": "Levinas: the other's face shows itself to me directly." }
+    ],
+    "why": "若他人之心不可证实，同理、伦理与交往的根基就要动摇。",
+    "whyEn": "If other minds can't be known, empathy, ethics and society lose their footing.",
+    "thinkers": ["维特根斯坦", "萨特", "胡塞尔"],
+    "thinkersEn": ["Wittgenstein", "Sartre", "Husserl"],
+    "related": ["mind-body", "self", "analytic"],
+    "sources": [{ "label": "《哲学研究》维特根斯坦" }]
+  },
+  {
+    "id": "universals",
+    "name": "数字、性质这类抽象物真实存在吗？",
+    "nameEn": "Do abstract things like numbers and properties exist?",
+    "era": "形而上学 · 共相问题",
+    "eraEn": "Metaphysics · the problem of universals",
+    "level": 3,
+    "order": 13,
+    "oneLiner": "数学定理似乎永恒为真，但那个「真」指的是一个独立存在的世界，还是只是语言约定？",
+    "oneLinerEn": "Mathematical truths seem eternally valid — do they point to a real realm, or merely to our conventions?",
+    "positions": [
+      { "k": "实在论", "kEn": "Realism", "v": "共相独立于个别事物真实存在（柏拉图）。", "vEn": "Universals exist apart from particulars (Plato)." },
+      { "k": "唯名论", "kEn": "Nominalism", "v": "只有个别事物存在，共相仅是名称。", "vEn": "Only particulars exist; universals are names." },
+      { "k": "概念论", "kEn": "Conceptualism", "v": "共相是心智对相似的抽象。", "vEn": "Universals are mental abstractions from likeness." }
+    ],
+    "why": "它决定了数学与科学的对象究竟是什么，也牵动一般与个别的根基。",
+    "whyEn": "It settles what mathematics and science are about, and underpins the one-over-many problem.",
+    "thinkers": ["柏拉图", "亚里士多德", "奥卡姆"],
+    "thinkersEn": ["Plato", "Aristotle", "Ockham"],
+    "related": ["platonism", "aristotelianism", "reality"],
+    "sources": [{ "label": "《共相问题》SEP" }]
+  },
+  {
+    "id": "induction",
+    "name": "凭什么相信明天太阳照常升起？",
+    "nameEn": "What justifies trusting the sun will rise tomorrow?",
+    "era": "认识论 · 归纳问题",
+    "eraEn": "Epistemology · the problem of induction",
+    "level": 2,
+    "order": 14,
+    "oneLiner": "从「过去一直如此」到「将来也如此」，中间似乎总差一个无法被经验证明的跳跃。",
+    "oneLinerEn": "From 'it has always been so' to 'it will be so' there seems a gap no experience can bridge.",
+    "positions": [
+      { "k": "怀疑论", "kEn": "Skepticism", "v": "休谟：归纳只是心理习惯，无理性根据。", "vEn": "Hume: induction is habit, without rational ground." },
+      { "k": "证成循环", "kEn": "Circularity", "v": "用过去成功辩护归纳，本身就在归纳。", "vEn": "Justifying induction by its success already assumes it." },
+      { "k": "最佳解释", "kEn": "Inference to best", "v": "自然齐一律作为最佳解释而被接受。", "vEn": "Uniformity of nature accepted as the best explanation." }
+    ],
+    "why": "整个经验科学与日常预测都建在归纳之上；若它无据，知识的根基就要重估。",
+    "whyEn": "All empirical science rests on induction; if unjustified, the roots of knowledge must be re-examined.",
+    "thinkers": ["休谟", "康德", "波普尔"],
+    "thinkersEn": ["Hume", "Kant", "Popper"],
+    "related": ["knowledge", "empiricism", "hume"],
+    "sources": [{ "label": "《人性论》休谟" }]
+  },
+  {
+    "id": "moral-realism",
+    "name": "道德是被发现的真理，还是被发明的规矩？",
+    "nameEn": "Are moral truths discovered or invented?",
+    "era": "元伦理学 · 古今",
+    "eraEn": "Metaethics · perennial",
+    "level": 3,
+    "order": 15,
+    "oneLiner": "「虐待无辜是错的」像数学一样客观为真，还是只是我们情感的表达？",
+    "oneLinerEn": "Is 'hurting the innocent is wrong' true like mathematics, or just an expression of feeling?",
+    "positions": [
+      { "k": "道德实在论", "kEn": "Realism", "v": "存在独立于意见的道德事实。", "vEn": "Moral facts exist independent of opinion." },
+      { "k": "表达主义", "kEn": "Expressivism", "v": "道德句只表达态度，不在描述事实。", "vEn": "Moral claims express attitudes, not facts." },
+      { "k": "错误论", "kEn": "Error theory", "v": "道德都在声称客观性，却都落空。", "vEn": "All moral claims assert objectivity and all are false." }
+    ],
+    "why": "若道德只是发明，人权与正义将失去超越习俗的依据。",
+    "whyEn": "If morality is invented, rights and justice lose footing beyond mere custom.",
+    "thinkers": ["康德", "密尔", "尼采"],
+    "thinkersEn": ["Kant", "Mill", "Nietzsche"],
+    "related": ["good-evil", "justice", "utilitarianism"],
+    "sources": [{ "label": "《道德形而上学的奠基》康德" }]
   }
 ]

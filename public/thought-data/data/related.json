@@ -209,6 +209,41 @@
       "nEn": "Is death an end, or a transformation?"
     }
   ],
+  "beauty": [
+    {
+      "m": "m-questions",
+      "n": "美是客观的属性，还是赏者的投射？",
+      "nEn": "Is beauty in the thing, or in the beholder?"
+    }
+  ],
+  "other-minds": [
+    {
+      "m": "m-questions",
+      "n": "我怎么确定别人也有内心体验？",
+      "nEn": "How do I know other minds exist?"
+    }
+  ],
+  "universals": [
+    {
+      "m": "m-questions",
+      "n": "数字、性质这类抽象物真实存在吗？",
+      "nEn": "Do abstract things like numbers and properties exist?"
+    }
+  ],
+  "induction": [
+    {
+      "m": "m-questions",
+      "n": "凭什么相信明天太阳照常升起？",
+      "nEn": "What justifies trusting the sun will rise tomorrow?"
+    }
+  ],
+  "moral-realism": [
+    {
+      "m": "m-questions",
+      "n": "道德是被发现的真理，还是被发明的规矩？",
+      "nEn": "Are moral truths discovered or invented?"
+    }
+  ],
   "lunyu": [
     {
       "m": "m-classics",
@@ -291,6 +326,34 @@
       "m": "m-classics",
       "n": "正义论",
       "nEn": "A Theory of Justice"
+    }
+  ],
+  "groundwork": [
+    {
+      "m": "m-classics",
+      "n": "道德形而上学的奠基",
+      "nEn": "Groundwork of the Metaphysics of Morals"
+    }
+  ],
+  "ethics-spinoza": [
+    {
+      "m": "m-classics",
+      "n": "伦理学",
+      "nEn": "Ethics"
+    }
+  ],
+  "philosophical-investigations": [
+    {
+      "m": "m-classics",
+      "n": "哲学研究",
+      "nEn": "Philosophical Investigations"
+    }
+  ],
+  "being-and-nothingness": [
+    {
+      "m": "m-classics",
+      "n": "存在与虚无",
+      "nEn": "Being and Nothingness"
     }
   ],
   "kongzi": [
@@ -431,6 +494,41 @@
       "m": "m-thinkers",
       "n": "海德格尔",
       "nEn": "Martin Heidegger"
+    }
+  ],
+  "aquinas": [
+    {
+      "m": "m-thinkers",
+      "n": "托马斯·阿奎那",
+      "nEn": "Thomas Aquinas"
+    }
+  ],
+  "spinoza": [
+    {
+      "m": "m-thinkers",
+      "n": "斯宾诺莎",
+      "nEn": "Baruch Spinoza"
+    }
+  ],
+  "zhu-xi": [
+    {
+      "m": "m-thinkers",
+      "n": "朱熹",
+      "nEn": "Zhu Xi"
+    }
+  ],
+  "dewey": [
+    {
+      "m": "m-thinkers",
+      "n": "约翰·杜威",
+      "nEn": "John Dewey"
+    }
+  ],
+  "camus": [
+    {
+      "m": "m-thinkers",
+      "n": "阿尔贝·加缪",
+      "nEn": "Albert Camus"
     }
   ]
 }
