@@ -252,6 +252,263 @@
   font-size: 1rem;
 }
 
+/* ============ 反应物/生成物逐项释义（仅详情）============ */
+.subject-root .sd-subs {
+  display: grid;
+  gap: 14px;
+  margin: 2px 0 16px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.subject-root .sub-group:last-child {
+  margin-bottom: 0;
+}
+.subject-root .sub-h {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.subject-root .sub-group[data-role="l"] .sub-h {
+  color: #2563eb;
+}
+.subject-root .sub-group[data-role="r"] .sub-h {
+  color: var(--brand);
+}
+.subject-root .sub-group[data-role="c"] .sub-h {
+  color: #e07b39;
+}
+.subject-root .sub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.subject-root .sub {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+.subject-root .sub-f {
+  flex: 0 0 auto;
+  min-width: 5.4em;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--text);
+}
+.subject-root .sub-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.subject-root .sub-n {
+  font-size: 0.94rem;
+  color: var(--text);
+}
+.subject-root .sub-d {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--text-soft);
+}
+@media (max-width: 420px) {
+  .subject-root .sub {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+/* ============ 反应动画（仅详情面板 .eq-anim；纯 transform/opacity）============ */
+.subject-root .sd-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.subject-root .sd-title-row .sd-title {
+  flex: 1 1 auto;
+}
+.subject-root .eq-anim .eq {
+  justify-content: flex-start;
+}
+.subject-root .eq-replay {
+  flex: 0 0 auto;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-mute);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.subject-root .eq-replay:hover {
+  color: var(--text);
+  border-color: var(--text-mute);
+}
+.subject-root .eq-anim .eq {
+  padding: 2px 4px;
+  border-radius: 8px;
+}
+.subject-root .eq-anim .eq-up {
+  display: inline-block;
+  font-style: normal;
+  color: #3b82f6;
+}
+.subject-root .eq-anim .eq-down {
+  display: inline-block;
+  font-style: normal;
+  color: var(--text-mute);
+}
+
+@keyframes eq-side-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes eq-line-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes eq-op-in {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes eq-cond-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes eq-bubble {
+  0% {
+    transform: translateY(2px);
+    opacity: 0.55;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-7px);
+    opacity: 0.6;
+  }
+}
+@keyframes eq-fall {
+  0% {
+    transform: translateY(-2px);
+    opacity: 0.55;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(7px);
+    opacity: 0.6;
+  }
+}
+@keyframes eq-flicker {
+  0%,
+  100% {
+    opacity: 0.8;
+    text-shadow: 0 0 2px currentColor;
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 8px currentColor;
+  }
+}
+@keyframes eq-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  50% {
+    box-shadow: 0 0 12px -2px var(--brand);
+  }
+}
+@keyframes eq-flow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+/* 阶段编排：反应物 → 关系符“画出”→ 条件 → 生成物 */
+.subject-root .eq-anim .eq-side:first-of-type {
+  animation: eq-side-in 0.45s ease both;
+}
+.subject-root .eq-anim .eq-side:last-of-type {
+  animation: eq-side-in 0.45s ease 0.8s both;
+}
+.subject-root .eq-anim .eq-line {
+  transform-origin: center;
+  animation: eq-line-draw 0.5s ease 0.45s both;
+}
+.subject-root .eq-anim .eq-op {
+  animation: eq-op-in 0.3s ease 0.45s both;
+}
+.subject-root .eq-anim .eq-cond {
+  animation: eq-cond-in 0.4s ease 0.7s both;
+}
+
+/* 现象微动效（序列后循环）*/
+.subject-root .eq-anim .eq-up {
+  animation: eq-bubble 1.7s ease-in 1.1s infinite;
+}
+.subject-root .eq-anim .eq-down {
+  animation: eq-fall 1.7s ease-in 1.1s infinite;
+}
+.subject-root .eq-anim .eq-fire .eq-line {
+  border-top-color: #f97316;
+  color: #f97316;
+  animation:
+    eq-line-draw 0.5s ease 0.45s both,
+    eq-flicker 1s ease 1s infinite;
+}
+.subject-root .eq-anim .eq-elec .eq-line {
+  border-top-color: #3b82f6;
+  animation:
+    eq-line-draw 0.5s ease 0.45s both,
+    eq-flicker 0.7s ease 1s infinite;
+}
+.subject-root .eq-anim .eq-heat .eq-cond {
+  color: #e07b39;
+}
+.subject-root .eq-anim .eq-light .eq {
+  animation: eq-glow 1.6s ease-in-out 1s infinite;
+}
+.subject-root .eq-anim .eq-cat .eq-cond {
+  color: var(--brand);
+}
+.subject-root .eq-anim .eq-equilibrium .eq-op {
+  color: var(--brand);
+  animation:
+    eq-op-in 0.3s ease 0.45s both,
+    eq-flow 1.4s ease-in-out 1s infinite;
+}
+
 /* 返回顶部箭头字号（共享 .to-top 未设字号，补足以匹配旧视觉） */
 .subject-root .to-top {
   font-size: 1.3rem;
@@ -261,6 +518,24 @@
   .subject-root .sd-panel {
     animation: none !important;
     transition: none !important;
+  }
+  .subject-root .eq-replay {
+    display: none;
+  }
+  .subject-root .eq-anim .eq-side,
+  .subject-root .eq-anim .eq-line,
+  .subject-root .eq-anim .eq-op,
+  .subject-root .eq-anim .eq-cond,
+  .subject-root .eq-anim .eq-up,
+  .subject-root .eq-anim .eq-down,
+  .subject-root .eq-anim .eq-light .eq {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .subject-root .eq-anim .eq-up,
+  .subject-root .eq-anim .eq-down {
+    opacity: 1 !important;
   }
 }
 

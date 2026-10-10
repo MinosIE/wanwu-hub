@@ -43,6 +43,18 @@ export interface Eq {
   rel?: "reaction" | "equal" | "arrow" | "equilibrium";
 }
 
+/** 反应参与物/生成物的逐项释义。f 为化学式（受信，可含下标）；name/note 为纯文本（转义）。 */
+export interface Sub {
+  /** 化学式（含系数），如 "2KMnO₄" */
+  f: string;
+  /** 中文名 + 状态，如 "高锰酸钾（紫黑色固体）" */
+  name: LStr;
+  /** 在本反应中的角色/现象/用途说明 */
+  note: LStr;
+  /** 归属：l=反应物 / r=生成物 / c=条件·催化剂·介质 */
+  role: "l" | "r" | "c";
+}
+
 export interface SubjectItem {
   id: string;
   icon?: string;
@@ -60,6 +72,8 @@ export interface SubjectItem {
   figure?: string | LStr;
   /** 结构化公式（受信渲染，见 eqHTML）；单条或数组。 */
   eq?: Eq | Eq[];
+  /** 反应参与物/生成物的逐项释义（仅详情面板展示，见 subsHTML）。 */
+  subs?: Sub[];
   /** 周期表单元专用：提供后该条目按 2D 网格渲染 */
   pt?: PeriodicCell;
 }
@@ -111,6 +125,25 @@ const EQ_OP_CHAR: Record<string, string> = {
   equal: "=",
   equilibrium: "⇌",
 };
+/** 将生成/消耗的现象符号包为可动画节点：↑ 气体上浮、↓ 沉淀下落。 */
+function markSides(s: string): string {
+  return s
+    .replace(/↑/g, '<i class="eq-up" aria-hidden="true">↑</i>')
+    .replace(/↓/g, '<i class="eq-down" aria-hidden="true">↓</i>');
+}
+
+/** 根据反应条件推断现象类（火焰/加热/通电/光照/催化），供 CSS 微动效选择器。 */
+function condFxClass(cond?: LStr): string {
+  const c = L(cond);
+  if (!c) return "";
+  if (/点燃|ignite/i.test(c)) return " eq-fire";
+  if (/通电|electrolysis/i.test(c)) return " eq-elec";
+  if (/光照|叶绿体|light/i.test(c)) return " eq-light";
+  if (/催化|catalys|cat\.|MnO₂/i.test(c)) return " eq-cat";
+  if (/△|加热|heat|高温|high temp/i.test(c)) return " eq-heat";
+  return "";
+}
+
 function eqOne(e: Eq): string {
   const rel = e.rel ?? "reaction";
   const op =
@@ -121,14 +154,58 @@ function eqOne(e: Eq): string {
   const relInner = e.cond
     ? `<span class="eq-cond">${esc(L(e.cond))}</span>${op}<span class="eq-cond"></span>`
     : op;
-  return `<span class="eq eq-${rel}"><span class="eq-side">${e.lhs}</span><span class="eq-rel">${relInner}</span><span class="eq-side">${e.rhs}</span></span>`;
+  const fx = condFxClass(e.cond);
+  return `<span class="eq eq-${rel}${fx}"><span class="eq-side">${markSides(
+    e.lhs,
+  )}</span><span class="eq-rel">${relInner}</span><span class="eq-side">${markSides(
+    e.rhs,
+  )}</span></span>`;
 }
 
-/** 公式集：作为受信静态内容输出（仅开发者-authored，切勿传入用户输入）；无内容返回空串。 */
-function eqHTML(eq?: Eq | Eq[]): string {
+/** 公式集：作为受信静态内容输出（仅开发者-authored，切勿传入用户输入）；无内容返回空串。
+ *  animated=true（仅详情面板）：包上 .eq-anim 以启用反应动画（重放按钮由标题行提供）。 */
+function eqHTML(eq?: Eq | Eq[], animated = false): string {
   if (!eq) return "";
   const arr = Array.isArray(eq) ? eq : [eq];
-  return `<div class="eq-set">${arr.map(eqOne).join("")}</div>`;
+  const body = arr.map(eqOne).join("");
+  return `<div class="eq-set${animated ? " eq-anim" : ""}">${body}</div>`;
+}
+
+/** 重放按钮（放在详情标题行右侧）；仅当条目含公式时渲染。 */
+function replayBtn(eq?: Eq | Eq[]): string {
+  if (!eq) return "";
+  return `<button class="eq-replay" type="button">${esc(
+    L({ zh: "↻ 重放", en: "↻ Replay" }),
+  )}</button>`;
+}
+
+/** 反应物/生成物逐项释义：按 反应物 / 生成物 / 条件 分组展示（仅详情）。 */
+const SUB_GROUPS: { role: "l" | "r" | "c"; label: LStr }[] = [
+  { role: "l", label: { zh: "反应物", en: "Reactants" } },
+  { role: "r", label: { zh: "生成物", en: "Products" } },
+  {
+    role: "c",
+    label: { zh: "条件 · 催化/介质", en: "Conditions · Catalyst/Medium" },
+  },
+];
+function subsHTML(subs?: Sub[]): string {
+  if (!subs || !subs.length) return "";
+  const groups = SUB_GROUPS.map((g) => {
+    const items = subs.filter((s) => s.role === g.role);
+    if (!items.length) return "";
+    const lis = items
+      .map(
+        (s) =>
+          `<li class="sub"><span class="sub-f">${s.f}</span><span class="sub-body"><b class="sub-n">${esc(
+            L(s.name),
+          )}</b><span class="sub-d">${esc(L(s.note))}</span></span></li>`,
+      )
+      .join("");
+    return `<div class="sub-group" data-role="${g.role}"><h4 class="sub-h">${esc(
+      L(g.label),
+    )}</h4><ul class="sub-list">${lis}</ul></div>`;
+  }).join("");
+  return `<div class="sd-subs">${groups}</div>`;
 }
 
 const FEEDBACK_TEXT: LStr = {
@@ -348,10 +425,14 @@ export function createSubject(cfg: SubjectConfig) {
       d.innerHTML = `<div class="sd-backdrop"></div><div class="sd-panel" role="dialog" aria-modal="true">
         <button class="sd-close" type="button" aria-label="关闭">×</button>
         <div class="sd-eyebrow">${esc(L(m.title))}${item.level != null ? ` · L${item.level}` : ""}</div>
-        <h2 class="sd-title">${esc(L(item.term))}</h2>
+        <div class="sd-title-row">
+          <h2 class="sd-title">${esc(L(item.term))}</h2>
+          ${replayBtn(item.eq)}
+        </div>
         ${item.value ? `<div class="sd-value">${esc(L(item.value))}</div>` : ""}
         <div class="sd-lead">${esc(L(item.oneLiner))}</div>
-        ${eqHTML(item.eq)}
+        ${eqHTML(item.eq, true)}
+        ${subsHTML(item.subs)}
         ${figureHTML(item.figure)}
         ${item.detail ? `<p class="sd-sec"><b>📘</b><span>${esc(L(item.detail))}</span></p>` : ""}
         ${item.example ? `<p class="sd-sec"><b>🧪</b><span>${esc(L(item.example))}</span></p>` : ""}
@@ -360,6 +441,16 @@ export function createSubject(cfg: SubjectConfig) {
       d.hidden = false;
       d.querySelector(".sd-close")!.addEventListener("click", closeDetail);
       d.querySelector(".sd-backdrop")!.addEventListener("click", closeDetail);
+      // 重放：移除 .eq-anim 后强制回流再添加，重启 CSS 动画序列。
+      d.querySelectorAll<HTMLElement>(".eq-replay").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const set = d.querySelector<HTMLElement>(".eq-anim");
+          if (!set) return;
+          set.classList.remove("eq-anim");
+          void set.offsetWidth;
+          set.classList.add("eq-anim");
+        });
+      });
     };
 
     cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
