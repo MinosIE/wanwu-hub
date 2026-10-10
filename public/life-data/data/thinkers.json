@@ -286,5 +286,77 @@
     "quotes": [{ "q": "在自然界面前保持谦卑，是智慧的开端。", "qEn": "Humility before the natural world is the beginning of wisdom." }],
     "related": ["hamilton", "lovelock", "tropical-rainforest"],
     "sources": [{ "label": "Wikipedia: E. O. Wilson", "url": "https://en.wikipedia.org/wiki/E._O._Wilson" }]
+  },
+  {
+    "id": "pasteur",
+    "name": "路易斯·巴斯德",
+    "nameEn": "Louis Pasteur",
+    "life": "1822—1895",
+    "lifeEn": "1822–1895",
+    "country": "法国",
+    "countryEn": "France",
+    "school": "微生物学与免疫学",
+    "schoolEn": "Microbiology & immunology",
+    "level": 1,
+    "oneLiner": "以实验证伪自然发生说，建立细菌致病理论与疫苗，发明巴氏消毒法。",
+    "oneLinerEn": "Disproved spontaneous generation, founded germ theory and vaccines, and invented pasteurization.",
+    "bio": "从晶体光学转向微生物研究，用鹅颈烧瓶实验推翻了生命自生的旧说，研制炭疽、鸡霍乱与狂犬病疫苗，将实验微生物学推向医学实践。",
+    "bioEn": "Moving from crystal optics to microbes, his swan-flask experiment overturned spontaneous generation; he built vaccines for anthrax, cholera and rabies and turned microbiology into medicine.",
+    "ideas": [
+      { "k": "疾病的细菌学说", "kEn": "Germ theory", "v": "许多疾病由微生物引起。", "vEn": "Many diseases are caused by microorganisms." },
+      { "k": "预防接种", "kEn": "Vaccination", "v": "以减毒病原激发免疫保护。", "vEn": "Attenuated pathogens prime protective immunity." }
+    ],
+    "works": [{ "title": "鹅颈烧瓶实验", "titleEn": "Swan-neck flask experiment", "year": 1861 }],
+    "quotes": [{ "q": "幸运只青睐有准备的头脑。", "qEn": "Chance favors only the prepared mind." }],
+    "related": ["bacteria", "mendel", "darwin"],
+    "order": -3
+  },
+  {
+    "id": "goodall",
+    "name": "珍妮·古道尔",
+    "nameEn": "Jane Goodall",
+    "life": "1934—",
+    "lifeEn": "1934–",
+    "country": "英国",
+    "countryEn": "United Kingdom",
+    "school": "灵长类行为与保护",
+    "schoolEn": "Primatology & conservation",
+    "level": 2,
+    "oneLiner": "在冈比溪长期野外观察黑猩猩，发现其使用工具与复杂社会，重写了人与动物的界限。",
+    "oneLinerEn": "Her decades of Gombe fieldwork on chimpanzee tool use and society redrew the boundary between humans and animals.",
+    "bio": "以参与观察法揭示黑猩猩制造工具、捕食与情感生活，促使学界重新定义“人”；此后毕生投身自然保护与公众教育。",
+    "bioEn": "Through immersive observation she revealed chimps making tools, hunting and feeling, forcing science to redefine 'person'; she then devoted her life to conservation and education.",
+    "ideas": [
+      { "k": "工具使用", "kEn": "Tool use", "v": "黑猩猩修整枝条钓取白蚁。", "vEn": "Chimps modify twigs to fish for termites." },
+      { "k": "个体与文化", "kEn": "Persons & culture", "v": "群体间存在习得的行为传统。", "vEn": "Groups carry learned behavioural traditions." }
+    ],
+    "works": [{ "title": "在冈比溪的阴影下", "titleEn": "In the Shadow of Man", "year": 1971 }],
+    "quotes": [{ "q": "你所做的每件事都有意义，你必须决定要成为什么样的人。", "qEn": "What you do makes a difference; you must decide what kind." }],
+    "related": ["mammalia", "wilson", "darwin"],
+    "order": -2
+  },
+  {
+    "id": "margulis",
+    "name": "林恩·马古利斯",
+    "nameEn": "Lynn Margulis",
+    "life": "1938—2011",
+    "lifeEn": "1938–2011",
+    "country": "美国",
+    "countryEn": "United States",
+    "school": "演化生物学·内共生",
+    "schoolEn": "Evolutionary biology · symbiosis",
+    "level": 2,
+    "oneLiner": "重提内共生学说，阐明线粒体与叶绿体源于被吞入的细菌，重塑了复杂细胞起源的认识。",
+    "oneLinerEn": "Revived symbiogenesis, showing mitochondria and chloroplasts arose from engulfed bacteria and recasting the origin of complex cells.",
+    "bio": "以大量证据论证真核细胞是早期微生物共生的嵌合体，挑战以竞争为中心的正统演化观，强调合作在演化中的创造力量。",
+    "bioEn": "With abundant evidence she argued eukaryotes are microbial symbiotic chimera, challenging competition-centric orthodoxy and stressing cooperation's creative role in evolution.",
+    "ideas": [
+      { "k": "内共生起源", "kEn": "Endosymbiosis", "v": "细胞器源于自由生活的细菌。", "vEn": "Organelles derive from free-living bacteria." },
+      { "k": "合作即演化", "kEn": "Symbiosis drives evolution", "v": "合并与共生成就新体形。", "vEn": "Merging and symbiosis forge new body plans." }
+    ],
+    "works": [{ "title": "真核细胞演化", "titleEn": "Origin of Eukaryotic Cells", "year": 1970 }],
+    "quotes": [{ "q": "生命不是靠竞争而成功，而是靠相互依存。", "qEn": "Life does not consist of competition but of cooperation and interdependence." }],
+    "related": ["eukaryotic-cell", "bacteria", "darwin"],
+    "order": -1
   }
 ]

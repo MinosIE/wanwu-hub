@@ -158,5 +158,138 @@
     "thinkers": ["aves", "fungi", "angiosperms"],
     "related": ["tropical-rainforest", "coral-reef", "temperate-forest"],
     "sources": [{ "label": "Wikipedia: Wetland", "url": "https://en.wikipedia.org/wiki/Wetland" }]
+  },
+  {
+    "id": "mangrove",
+    "name": "红树林",
+    "nameEn": "Mangrove Forest",
+    "era": "热带与亚热带的潮间带泥滩",
+    "eraEn": "Intertidal mudflats of the tropics and subtropics",
+    "level": 2,
+    "oneLiner": "生长在咸淡水交汇潮间带的耐盐木本植物群落，是海岸的天然屏障与育幼场。",
+    "oneLinerEn": "Salt-tolerant woody plants on the intertidal where fresh meets sea — a natural coastal shield and nursery.",
+    "positions": [
+      { "k": "适应", "kEn": "Adaptation", "v": "支柱根、呼吸根与排盐机制应对缺氧高盐。", "vEn": "Stilt and air roots plus salt excretion cope with low oxygen and salinity." },
+      { "k": "胎生", "kEn": "Vivipary", "v": "种子在母树萌发成胚轴后落地生根。", "vEn": "Seeds germinate on the parent into propagules before dropping." }
+    ],
+    "why": "消浪护岸、固碳储泥，并为鱼虾蟹与候鸟提供庇护，是高效的蓝色碳汇。",
+    "whyEn": "Damps waves, shields coasts, buries carbon and shelters fish, crabs and migratory birds — a potent blue-carbon sink.",
+    "thinkers": ["wilson", "darwin", "coral-reef"],
+    "related": ["coral-reef", "wetland", "tropical-rainforest"],
+    "sources": [{ "label": "Wikipedia: Mangrove", "url": "https://en.wikipedia.org/wiki/Mangrove" }]
+  },
+  {
+    "id": "hydrothermal-vent",
+    "name": "深海热液喷口",
+    "nameEn": "Hydrothermal Vents",
+    "era": "大洋中脊的黑暗深海",
+    "eraEn": "Lightless deep sea along mid-ocean ridges",
+    "level": 3,
+    "oneLiner": "海底热泉喷出矿物与化学能，化能合成细菌支撑起不依赖阳光的独特生命绿洲。",
+    "oneLinerEn": "Superheated mineral springs whose chemosynthetic bacteria power oases of life independent of sunlight.",
+    "positions": [
+      { "k": "能量来源", "kEn": "Energy", "v": "以硫化氢等化学能替代光合作用。", "vEn": "Chemical energy from hydrogen sulfide replaces photosynthesis." },
+      { "k": "代表生物", "kEn": "Life", "v": "管虫、盲虾与嗜热微生物成群聚集。", "vEn": "Tube worms, eyeless shrimp and thermophiles cluster densely." }
+    ],
+    "why": "重新定义了生命的能量边界，也是探索地球生命起源与地外生命的钥匙。",
+    "whyEn": "Redefines the energy limits of life and offers clues to life's origin and to possible life beyond Earth.",
+    "thinkers": ["origin-of-life", "bacteria", "archaea"],
+    "related": ["deep-sea", "archaea", "bacteria"],
+    "sources": [{ "label": "Wikipedia: Hydrothermal vent", "url": "https://en.wikipedia.org/wiki/Hydrothermal_vent" }]
+  },
+  {
+    "id": "kelp-forest",
+    "name": "海藻林",
+    "nameEn": "Kelp Forest",
+    "era": "温带的冷水近岸海域",
+    "eraEn": "Cool, nutrient-rich temperate coastal waters",
+    "level": 2,
+    "oneLiner": "大型褐藻（海藻）构建的水下森林，生长极快，是近海生物多样性最高的生境之一。",
+    "oneLinerEn": "Underwater forests of giant brown algae — among the fastest-growing and most biodiverse near-shore habitats.",
+    "positions": [
+      { "k": "结构", "kEn": "Structure", "v": "固着器、柄与叶片随波摇曳形成三层。", "vEn": "Holdfast, stipe and blades sway in layered canopy." },
+      { "k": "关键种", "kEn": "Keystone", "v": "海獭捕食海胆，间接守护海藻林。", "vEn": "Sea otters eat urchins, indirectly guarding the kelp." }
+    ],
+    "why": "提供栖息与饵料、固碳并支撑渔业；海胆暴增与升温易使其崩解为荒芜。",
+    "whyEn": "Shelters life, feeds fisheries and stores carbon; urchin blooms and warming can collapse it into barrens.",
+    "thinkers": ["wilson", "lovelock", "coral-reef"],
+    "related": ["coral-reef", "deep-sea", "tundra"],
+    "sources": [{ "label": "Wikipedia: Kelp forest", "url": "https://en.wikipedia.org/wiki/Kelp_forest" }]
+  },
+  {
+    "id": "savanna",
+    "name": "热带稀树草原",
+    "nameEn": "Savanna",
+    "era": "雨林与荒漠之间的热带地带",
+    "eraEn": "Tropical belt between rainforest and desert",
+    "level": 2,
+    "oneLiner": "以禾草为主、散生乔灌的开阔生态系统，干湿季交替并依赖周期性的自然火。",
+    "oneLinerEn": "Open grassland dotted with trees, driven by wet–dry seasons and periodic fire.",
+    "positions": [
+      { "k": "火", "kEn": "Fire", "v": "自然与人为火维持草本优势、抑制林木。", "vEn": "Natural and human fire keeps grass dominant and checks trees." },
+      { "k": "草食", "kEn": "Grazing", "v": "大规模有蹄类与迁徙塑造植被格局。", "vEn": "Mass ungulate herds and migrations shape the vegetation." }
+    ],
+    "why": "孕育地球上最壮观的野生动物迁徙与捕食者—猎物共演化，也支撑牧业文明。",
+    "whyEn": "Hosts Earth's grandest wildlife migrations and predator–prey coevolution, and underpins pastoral cultures.",
+    "thinkers": ["wallace", "darwin", "mammalia"],
+    "related": ["tropical-rainforest", "desert", "aves"],
+    "sources": [{ "label": "Wikipedia: Savanna", "url": "https://en.wikipedia.org/wiki/Savanna" }]
+  },
+  {
+    "id": "intertidal",
+    "name": "潮间带",
+    "nameEn": "Intertidal Zone",
+    "era": "海陆交界的周期性涨落带",
+    "eraEn": "The heaving boundary between sea and land",
+    "level": 2,
+    "oneLiner": "随潮汐在海水与空气间轮换的狭窄地带，生物须同时耐受干旱、冲击与盐度波动。",
+    "oneLinerEn": "A narrow strip alternating between submerged and exposed, where life must endure drying, wave shock and salinity swings.",
+    "positions": [
+      { "k": "分带", "kEn": "Zonation", "v": "不同耐受带的物种呈垂直分层分布。", "vEn": "Species with different tolerances form vertical bands." },
+      { "k": "适应", "kEn": "Adaptation", "v": "固着、闭壳与黏附对抗脱水与浪击。", "vEn": "Attachment, clamping and gluing resist drying and waves." }
+    ],
+    "why": "物质与能量在海洋和陆地间交换的枢纽，也是研究生态位与竞争的经典舞台。",
+    "whyEn": "A hub of sea–land exchange and a classic stage for studying niches and competition.",
+    "thinkers": ["wilson", "coral-reef", "mollusca"],
+    "related": ["coral-reef", "wetland", "mollusca"],
+    "sources": [{ "label": "Wikipedia: Intertidal", "url": "https://en.wikipedia.org/wiki/Intertidal_zone" }]
+  },
+  {
+    "id": "island",
+    "name": "岛屿生态系统",
+    "nameEn": "Island Ecosystems",
+    "era": "海洋与湖泊中的孤立陆地",
+    "eraEn": "Isolated land in oceans and lakes",
+    "level": 3,
+    "oneLiner": "与大陆隔绝的岛屿催生独特的适应辐射与高特有率，也格外脆弱于入侵与灭绝。",
+    "oneLinerEn": "Isolation breeds unique adaptive radiations and high endemism — and makes islands unusually vulnerable to invasion and extinction.",
+    "positions": [
+      { "k": "适应辐射", "kEn": "Radiation", "v": "祖先种分化出占据不同生态位的众多后代。", "vEn": "A founder splits into many species filling different niches." },
+      { "k": "岛屿法则", "kEn": "Island rules", "v": "常出现巨化、矮化与失飞等现象。", "vEn": "Gigantism, dwarfism and flightlessness are common." }
+    ],
+    "why": "达尔文雀与马达加斯加生物是演化论的摇篮；岛屿物种占当前灭绝危机的大头。",
+    "whyEn": "Darwin's finches and Madagascar cradled evolutionary theory; island species dominate today's extinction crisis.",
+    "thinkers": ["darwin", "wallace", "hamilton"],
+    "related": ["aves", "human-evolution", "k-pg-extinction"],
+    "sources": [{ "label": "Wikipedia: Island biogeography", "url": "https://en.wikipedia.org/wiki/Island_biogeography" }]
+  },
+  {
+    "id": "peatland",
+    "name": "泥炭地",
+    "nameEn": "Peatlands",
+    "era": "寒冷湿润的沼泽与苔原",
+    "eraEn": "Cold, waterlogged bogs and mires",
+    "level": 2,
+    "oneLiner": "未完全分解的植物残体经千年累积成泥炭，是单位面积储碳最高的陆地生态系统。",
+    "oneLinerEn": "Partly decayed plant matter accumulates as peat over millennia — the densest carbon store per area on land.",
+    "positions": [
+      { "k": "形成", "kEn": "Formation", "v": "长期积水缺氧使有机物分解极慢。", "vEn": "Waterlogging and low oxygen slow decay to a crawl." },
+      { "k": "储碳", "kEn": "Carbon", "v": "面积虽小，却封存全球约三成土壤碳。", "vEn": "Small in area yet holds roughly a third of soil carbon." }
+    ],
+    "why": "关键的天然碳库与蓄水层；一旦排水或燃烧会把巨量碳迅速释回大气。",
+    "whyEn": "A vital carbon vault and water reservoir; draining or burning it releases vast carbon fast.",
+    "thinkers": ["lovelock", "congo-basin", "tundra"],
+    "related": ["tundra", "wetland", "boreal-taiga"],
+    "sources": [{ "label": "Wikipedia: Peat", "url": "https://en.wikipedia.org/wiki/Peat" }]
   }
 ]

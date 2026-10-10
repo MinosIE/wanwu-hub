@@ -1,15 +1,15 @@
 {
   "version": "1.0",
   "counts": {
-    "schools": 8,
-    "questions": 8,
-    "classics": 12,
-    "thinkers": 8
+    "schools": 15,
+    "questions": 15,
+    "classics": 15,
+    "thinkers": 15
   },
   "kpis": [
-    { "key": "schools", "icon": "🧬", "value": 8 },
-    { "key": "questions", "icon": "🌿", "value": 8 },
-    { "key": "classics", "icon": "🐾", "value": 12 },
-    { "key": "thinkers", "icon": "🔬", "value": 8 }
+    { "key": "schools", "icon": "🧬", "value": 15 },
+    { "key": "questions", "icon": "🌿", "value": 15 },
+    { "key": "classics", "icon": "🐾", "value": 15 },
+    { "key": "thinkers", "icon": "🔬", "value": 15 }
   ]
 }

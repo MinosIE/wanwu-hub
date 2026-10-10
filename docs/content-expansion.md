@@ -198,7 +198,7 @@
 | M1     | 阶段 A：chem 新模块（化学键/有机/溶液/能量/平衡/电化学） | ✅ 15 模块 |
 | M2     | 阶段 A：physics 补强模块                                 | ✅ 16 模块 |
 | M3     | 阶段 B：earth 四类补数据                                 | ✅ schools 8→15 / questions 8→15、条目 56 |
-| M4     | 阶段 B：life 四类补数据                                  | ⬜         |
+| M4     | 阶段 B：life 四类补数据                                  | ✅ 四类均 8/12→15，条目 60 |
 | M5     | 阶段 B：thought/mind/econ 补数据                         | ⬜         |
 | M6     | 阶段 C：earth/life/thought 新分类视图（改模板）          | ⬜         |
 | M7     | 全学科达「极丰富」门槛复核                               | ⬜         |

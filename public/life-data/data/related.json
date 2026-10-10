@@ -55,6 +55,55 @@
       "nEn": "Protista"
     }
   ],
+  "reptilia": [
+    {
+      "m": "m-schools",
+      "n": "爬行纲",
+      "nEn": "Reptilia"
+    }
+  ],
+  "amphibia": [
+    {
+      "m": "m-schools",
+      "n": "两栖纲",
+      "nEn": "Amphibia"
+    }
+  ],
+  "actinopterygii": [
+    {
+      "m": "m-schools",
+      "n": "硬骨鱼类",
+      "nEn": "Ray-finned Fishes"
+    }
+  ],
+  "mollusca": [
+    {
+      "m": "m-schools",
+      "n": "软体动物",
+      "nEn": "Mollusca"
+    }
+  ],
+  "cnidaria": [
+    {
+      "m": "m-schools",
+      "n": "刺胞动物",
+      "nEn": "Cnidaria"
+    }
+  ],
+  "arachnida": [
+    {
+      "m": "m-schools",
+      "n": "蛛形纲",
+      "nEn": "Arachnida"
+    }
+  ],
+  "gymnosperms": [
+    {
+      "m": "m-schools",
+      "n": "裸子植物",
+      "nEn": "Gymnosperms"
+    }
+  ],
   "tropical-rainforest": [
     {
       "m": "m-questions",
@@ -109,6 +158,55 @@
       "m": "m-questions",
       "n": "湿地",
       "nEn": "Wetland"
+    }
+  ],
+  "mangrove": [
+    {
+      "m": "m-questions",
+      "n": "红树林",
+      "nEn": "Mangrove Forest"
+    }
+  ],
+  "hydrothermal-vent": [
+    {
+      "m": "m-questions",
+      "n": "深海热液喷口",
+      "nEn": "Hydrothermal Vents"
+    }
+  ],
+  "kelp-forest": [
+    {
+      "m": "m-questions",
+      "n": "海藻林",
+      "nEn": "Kelp Forest"
+    }
+  ],
+  "savanna": [
+    {
+      "m": "m-questions",
+      "n": "热带稀树草原",
+      "nEn": "Savanna"
+    }
+  ],
+  "intertidal": [
+    {
+      "m": "m-questions",
+      "n": "潮间带",
+      "nEn": "Intertidal Zone"
+    }
+  ],
+  "island": [
+    {
+      "m": "m-questions",
+      "n": "岛屿生态系统",
+      "nEn": "Island Ecosystems"
+    }
+  ],
+  "peatland": [
+    {
+      "m": "m-questions",
+      "n": "泥炭地",
+      "nEn": "Peatlands"
     }
   ],
   "origin-of-life": [
@@ -195,6 +293,27 @@
       "nEn": "Human Evolution"
     }
   ],
+  "great-oxygenation": [
+    {
+      "m": "m-classics",
+      "n": "大氧化事件",
+      "nEn": "Great Oxidation Event"
+    }
+  ],
+  "angiosperm-radiation": [
+    {
+      "m": "m-classics",
+      "n": "被子植物辐射",
+      "nEn": "Angiosperm Radiation"
+    }
+  ],
+  "dinosaurs-to-birds": [
+    {
+      "m": "m-classics",
+      "n": "恐龙演化为鸟类",
+      "nEn": "Dinosaurs to Birds"
+    }
+  ],
   "yuan-longping": [
     {
       "m": "m-thinkers",
@@ -277,6 +396,27 @@
       "m": "m-thinkers",
       "n": "爱德华·威尔逊",
       "nEn": "E. O. Wilson"
+    }
+  ],
+  "pasteur": [
+    {
+      "m": "m-thinkers",
+      "n": "路易斯·巴斯德",
+      "nEn": "Louis Pasteur"
+    }
+  ],
+  "goodall": [
+    {
+      "m": "m-thinkers",
+      "n": "珍妮·古道尔",
+      "nEn": "Jane Goodall"
+    }
+  ],
+  "margulis": [
+    {
+      "m": "m-thinkers",
+      "n": "林恩·马古利斯",
+      "nEn": "Lynn Margulis"
     }
   ]
 }
