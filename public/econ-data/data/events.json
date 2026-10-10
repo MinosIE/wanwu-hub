@@ -16,7 +16,13 @@
     "impact": "催生了阿姆斯特丹证券交易所与近代资本市场，也为公司治理、审计与信息披露制度埋下伏笔。",
     "impactEn": "It spawned the Amsterdam stock exchange and modern capital markets, planting the seeds of corporate governance, audit and disclosure.",
     "related": ["money-creation", "bubbles-crises"],
-    "sources": [{ "label": "荷兰东印度公司历史档案研究", "labelEn": "Historical research on the Dutch East India Company", "year": 2002 }]
+    "sources": [
+      {
+        "label": "荷兰东印度公司历史档案研究",
+        "labelEn": "Historical research on the Dutch East India Company",
+        "year": 2002
+      }
+    ]
   },
   {
     "id": "wealth-of-nations",
@@ -35,7 +41,13 @@
     "impact": "确立了「市场协调分散决策」的核心命题，直接影响此后两百多年的经济政策与贸易秩序。",
     "impactEn": "Established the core proposition that markets coordinate dispersed decisions, shaping economic policy and trade for two centuries.",
     "related": ["comparative-advantage", "scarcity"],
-    "sources": [{ "label": "斯密《国富论》", "labelEn": "Smith, The Wealth of Nations", "year": 1776 }]
+    "sources": [
+      {
+        "label": "斯密《国富论》",
+        "labelEn": "Smith, The Wealth of Nations",
+        "year": 1776
+      }
+    ]
   },
   {
     "id": "crisis-1825",
@@ -54,7 +66,13 @@
     "impact": "证明危机是工业化金融体系的常态特征，推动了公司法、银行监管与最后贷款人角色的讨论。",
     "impactEn": "Proved crises are a regular feature of industrial financial systems, prompting debate on company law, bank regulation and a lender of last resort.",
     "related": ["money-creation", "bubbles-crises", "business-cycle"],
-    "sources": [{ "label": "英国 1825 年金融危机史料汇编", "labelEn": "Compiled sources on the British crisis of 1825", "year": 2000 }]
+    "sources": [
+      {
+        "label": "英国 1825 年金融危机史料汇编",
+        "labelEn": "Compiled sources on the British crisis of 1825",
+        "year": 2000
+      }
+    ]
   },
   {
     "id": "gold-standard",
@@ -73,7 +91,13 @@
     "impact": "促进了国际贸易与资本流动，但也限制了逆周期调控空间，最终在大萧条与战争冲击下瓦解。",
     "impactEn": "It boosted trade and capital flows while restricting countercyclical policy, and it fell apart under depression and war.",
     "related": ["monetary-history", "fx-regimes", "great-depression"],
-    "sources": [{ "label": "艾肯格林《金镣铐》", "labelEn": "Eichengreen, Golden Fetters", "year": 1992 }]
+    "sources": [
+      {
+        "label": "艾肯格林《金镣铐》",
+        "labelEn": "Eichengreen, Golden Fetters",
+        "year": 1992
+      }
+    ]
   },
   {
     "id": "great-depression",
@@ -92,7 +116,13 @@
     "impact": "催生了凯恩斯革命、存款保险、证券监管与布雷顿森林体系，重塑了此后八十年的宏观政策框架。",
     "impactEn": "It produced the Keynesian revolution, deposit insurance, securities regulation and Bretton Woods, reshaping macro policy for eighty years.",
     "related": ["gold-standard", "keynesian", "bretton-woods"],
-    "sources": [{ "label": "弗里德曼、施瓦茨《美国货币史》", "labelEn": "Friedman & Schwartz, A Monetary History of the United States", "year": 1963 }]
+    "sources": [
+      {
+        "label": "弗里德曼、施瓦茨《美国货币史》",
+        "labelEn": "Friedman & Schwartz, A Monetary History of the United States",
+        "year": 1963
+      }
+    ]
   },
   {
     "id": "general-theory",
@@ -111,7 +141,13 @@
     "impact": "战后三十年财政与货币政策成为调控常态，并演化为今天的新凯恩斯主义模型。",
     "impactEn": "For three decades fiscal and monetary policy became routine tools, evolving into today's New Keynesian models.",
     "related": ["great-depression", "keynesian", "milton-friedman"],
-    "sources": [{ "label": "凯恩斯《就业、利息和货币通论》", "labelEn": "Keynes, The General Theory", "year": 1936 }]
+    "sources": [
+      {
+        "label": "凯恩斯《就业、利息和货币通论》",
+        "labelEn": "Keynes, The General Theory",
+        "year": 1936
+      }
+    ]
   },
   {
     "id": "bretton-woods",
@@ -130,7 +166,13 @@
     "impact": "带来近三十年的贸易扩张与相对稳定，同时确立了以 IMF 为核心的国际货币协调机制。",
     "impactEn": "It delivered nearly three decades of trade expansion and relative stability and established IMF-centred monetary coordination.",
     "related": ["gold-standard", "fx-regimes", "nixon-shock"],
-    "sources": [{ "label": "IMF 布雷顿森林体系历史档案", "labelEn": "IMF historical archives on Bretton Woods", "year": 2021 }]
+    "sources": [
+      {
+        "label": "IMF 布雷顿森林体系历史档案",
+        "labelEn": "IMF historical archives on Bretton Woods",
+        "year": 2021
+      }
+    ]
   },
   {
     "id": "nixon-shock",
@@ -149,7 +191,13 @@
     "impact": "世界进入信用货币与浮动汇率时代，货币政策获得更大空间，也带来更高的通胀风险。",
     "impactEn": "The world entered the fiat-money and floating-rate era: more monetary room and higher inflation risk.",
     "related": ["bretton-woods", "monetary-history", "inflation"],
-    "sources": [{ "label": "美联储历史档案 1971 年公告", "labelEn": "Federal Reserve historical records, 1971 announcement", "year": 1971 }]
+    "sources": [
+      {
+        "label": "美联储历史档案 1971 年公告",
+        "labelEn": "Federal Reserve historical records, 1971 announcement",
+        "year": 1971
+      }
+    ]
   },
   {
     "id": "oil-crisis",
@@ -168,7 +216,13 @@
     "impact": "「滞胀」成为现实，凯恩斯式需求管理失效，理论与政策转向货币主义与供给侧。",
     "impactEn": "'Stagflation' became real, Keynesian demand management failed and thinking turned to monetarism and supply-side policy.",
     "related": ["stagflation", "monetarism", "volcker-shock"],
-    "sources": [{ "label": "IEA 石油危机回顾报告", "labelEn": "IEA retrospective on the oil crises", "year": 2014 }]
+    "sources": [
+      {
+        "label": "IEA 石油危机回顾报告",
+        "labelEn": "IEA retrospective on the oil crises",
+        "year": 2014
+      }
+    ]
   },
   {
     "id": "volcker-shock",
@@ -187,7 +241,13 @@
     "impact": "通胀预期被锚定，奠定了此后四十年央行独立性与通胀目标制的制度共识。",
     "impactEn": "Expectations were anchored, establishing a forty-year consensus on central bank independence and inflation targeting.",
     "related": ["inflation", "central-bank", "monetarism"],
-    "sources": [{ "label": "美联储联邦基金利率历史数据", "labelEn": "Federal Reserve historical federal funds rate data", "year": 2024 }]
+    "sources": [
+      {
+        "label": "美联储联邦基金利率历史数据",
+        "labelEn": "Federal Reserve historical federal funds rate data",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "plaza-accord",
@@ -206,7 +266,13 @@
     "impact": "日元快速升值长期影响日本产业与资产价格，成为讨论汇率协调与资产泡沫的经典案例。",
     "impactEn": "The yen's rapid appreciation shaped Japanese industry and asset prices, making it a classic case in exchange-rate coordination and bubbles.",
     "related": ["fx-regimes", "bubbles-crises", "exchange-rate"],
-    "sources": [{ "label": "广场协议联合声明全文", "labelEn": "Plaza Accord joint statement", "year": 1985 }]
+    "sources": [
+      {
+        "label": "广场协议联合声明全文",
+        "labelEn": "Plaza Accord joint statement",
+        "year": 1985
+      }
+    ]
   },
   {
     "id": "asian-crisis",
@@ -225,7 +291,13 @@
     "impact": "亚洲多国转向浮动汇率与外汇储备积累，IMF 的救助条件也引发广泛争论与改革。",
     "impactEn": "Many Asian economies moved to floating rates and reserve accumulation, and IMF conditionality came under intense debate and reform.",
     "related": ["fx-regimes", "bubbles-crises", "money-creation"],
-    "sources": [{ "label": "IMF 亚洲金融危机专题评估", "labelEn": "IMF assessments of the Asian financial crisis", "year": 2003 }]
+    "sources": [
+      {
+        "label": "IMF 亚洲金融危机专题评估",
+        "labelEn": "IMF assessments of the Asian financial crisis",
+        "year": 2003
+      }
+    ]
   },
   {
     "id": "gfc-2008",
@@ -244,7 +316,13 @@
     "impact": "催生宏观审慎监管、压力测试与《巴塞尔协议 III》，并开启长达十余年的低利率与量化宽松时代。",
     "impactEn": "It produced macroprudential regulation, stress testing and Basel III, and opened a decade-long era of low rates and quantitative easing.",
     "related": ["bubbles-crises", "systemic-risk", "qe"],
-    "sources": [{ "label": "美国金融危机调查委员会最终报告", "labelEn": "US Financial Crisis Inquiry Commission final report", "year": 2011 }]
+    "sources": [
+      {
+        "label": "美国金融危机调查委员会最终报告",
+        "labelEn": "US Financial Crisis Inquiry Commission final report",
+        "year": 2011
+      }
+    ]
   },
   {
     "id": "covid-shock",
@@ -263,7 +341,13 @@
     "impact": "避免了债务通缩式萧条，但也带来后续通胀压力、财政债务上升与央行资产负债表大幅扩张。",
     "impactEn": "It avoided a debt-deflationary slump but left higher inflation, larger public debt and greatly expanded central bank balance sheets.",
     "related": ["qe", "fiscal-multiplier", "inflation"],
-    "sources": [{ "label": "IMF 财政监测 2021 年疫情应对评估", "labelEn": "IMF Fiscal Monitor, pandemic response assessment", "year": 2021 }]
+    "sources": [
+      {
+        "label": "IMF 财政监测 2021 年疫情应对评估",
+        "labelEn": "IMF Fiscal Monitor, pandemic response assessment",
+        "year": 2021
+      }
+    ]
   },
   {
     "id": "inflation-surge-2022",
@@ -282,7 +366,13 @@
     "impact": "再度验证央行可信度与通胀预期管理的重要性，也让「滞胀风险」重新回到政策讨论中心。",
     "impactEn": "It re-confirmed the importance of credibility and expectation management and returned stagflation risk to policy debate.",
     "related": ["inflation", "central-bank", "volcker-shock"],
-    "sources": [{ "label": "BIS 年度经济报告 通胀与加息章节", "labelEn": "BIS Annual Economic Report, inflation and policy chapter", "year": 2024 }]
+    "sources": [
+      {
+        "label": "BIS 年度经济报告 通胀与加息章节",
+        "labelEn": "BIS Annual Economic Report, inflation and policy chapter",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "reform-opening-1978",
@@ -301,7 +391,13 @@
     "impact": "此后四十余年实现了高速工业化与大规模减贫，同时也伴随收入与区域差距、环境与债务等难题，是从计划到市场的标志性转折。",
     "impactEn": "It delivered rapid industrialisation and mass poverty reduction over the next four decades, alongside challenges of inequality, the environment and debt — a landmark turn from plan to market.",
     "related": ["comparative-advantage", "gdp"],
-    "sources": [{ "label": "世界银行 中国改革开放四十年回顾", "labelEn": "World Bank, China 40 Years of Reform and Development", "year": 2019 }]
+    "sources": [
+      {
+        "label": "世界银行 中国改革开放四十年回顾",
+        "labelEn": "World Bank, China 40 Years of Reform and Development",
+        "year": 2019
+      }
+    ]
   },
   {
     "id": "china-wto-2001",
@@ -320,6 +416,147 @@
     "impact": "出口与制造业产能快速扩张，中国深度嵌入全球产业链；同时也带来了产业冲击、贸易摩擦与对外依赖的讨论。",
     "impactEn": "Exports and manufacturing capacity expanded rapidly and China became deeply embedded in global supply chains; it also sparked debate on industry shocks, trade friction and external dependence.",
     "related": ["tariff", "comparative-advantage"],
-    "sources": [{ "label": "WTO 中国加入议定书", "labelEn": "WTO Protocol on the Accession of China", "year": 2001 }]
+    "sources": [
+      {
+        "label": "WTO 中国加入议定书",
+        "labelEn": "WTO Protocol on the Accession of China",
+        "year": 2001
+      }
+    ]
+  },
+  {
+    "id": "industrial-revolution",
+    "y": 1760,
+    "yearLabel": "约 1760–1840",
+    "yearLabelEn": "c. 1760–1840",
+    "title": "工业革命",
+    "titleEn": "The Industrial Revolution",
+    "place": "英国",
+    "placeEn": "Britain",
+    "level": 2,
+    "what": "以蒸汽机、纺织机械与铁冶为代表，生产从家庭作坊转向工厂，人均产出首次摆脱长期停滞。",
+    "whatEn": "Steam engines, mechanized textiles and iron shifted production from workshops to factories, and output per person first escaped long-run stagnation.",
+    "why": "产权与专利保护、煤炭与资本可得、农业剩余释放劳动力、科学与工艺结合，使突破在英国率先发生。",
+    "whyEn": "Property rights and patents, coal and capital, an agricultural surplus freeing labor, and the marriage of science and craft let the breakthrough start in Britain.",
+    "impact": "奠定现代增长与城市化，重塑全球力量格局；也带来圈地、童工与污染等社会代价，催生后续劳工与环境制度。",
+    "impactEn": "It laid the base for modern growth and urbanization and reset global power, while enclosure, child labor and pollution spurred later labor and environmental institutions.",
+    "related": ["economic-growth", "productivity", "wealth-of-nations"],
+    "sources": [
+      {
+        "label": "克拉夫特《工业革命》",
+        "labelEn": "Crafts, The Industrial Revolution",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "id": "new-deal-1933",
+    "y": 1933,
+    "yearLabel": "1933–1939",
+    "yearLabelEn": "1933–1939",
+    "title": "罗斯福新政",
+    "titleEn": "The New Deal",
+    "place": "美国",
+    "placeEn": "United States",
+    "level": 2,
+    "what": "大萧条下，联邦以公共工程、金融整顿、社保与监管扩张政府职能，试验需求管理的财政政策。",
+    "whatEn": "Amid the Depression, the federal government expanded through public works, financial repair, social security and regulation, testing demand-management fiscal policy.",
+    "why": "市场自发调整失灵、失业与通缩深重，凯恩斯式以支出补需求的思路与政治压力共同推动干预。",
+    "whyEn": "Self-correction failed amid mass unemployment and deflation; Keynesian spending-to-fill-demand ideas and political pressure drove intervention.",
+    "impact": "建立存款保险、证券监管与社保体系，塑造现代福利国家雏形；其对增速的实际拉动至今仍有争议。",
+    "impactEn": "It built deposit insurance, securities regulation and social security—prototypes of the modern welfare state—though its real pull on growth remains debated.",
+    "related": [
+      "great-depression",
+      "general-theory",
+      "fiscal-multiplier",
+      "deposit-insurance"
+    ],
+    "sources": [
+      {
+        "label": "班克罗夫特《大萧条与新政》",
+        "labelEn": "Bancroft, The Great Depression and the New Deal",
+        "year": 2005
+      }
+    ]
+  },
+  {
+    "id": "neoliberal-turn-1980",
+    "y": 1981,
+    "yearLabel": "约 1979–1990",
+    "yearLabelEn": "c. 1979–1990",
+    "title": "新自由主义转向",
+    "titleEn": "The Neoliberal Turn",
+    "place": "英国与美国",
+    "placeEn": "UK & US",
+    "level": 3,
+    "what": "撒切尔与里根推行私有化、放松管制、削减税率与控通胀，国家退、市场进成为政策主旋律。",
+    "whatEn": "Thatcher and Reagan pushed privatization, deregulation, tax cuts and inflation control; the state retreated as the market advanced.",
+    "why": "滞胀暴露凯恩斯共识乏力，货币主义与供给学派崛起，工会式微为改革提供政治窗口。",
+    "whyEn": "Stagflation exposed the limits of the Keynesian consensus; monetarism and supply-side economics rose while union decline opened a political window.",
+    "impact": "提升效率与资本回报、压低通胀，但也加剧不平等与金融不稳定，影响延续至今的全球政策辩论。",
+    "impactEn": "It lifted efficiency and returns and tamed inflation but deepened inequality and financial instability, still shaping global policy debate.",
+    "related": [
+      "volcker-shock",
+      "inflation-causes",
+      "monetary-transmission",
+      "gini"
+    ],
+    "sources": [
+      {
+        "label": "哈维《简短的新自由主义史》",
+        "labelEn": "Harvey, A Brief History of Neoliberalism",
+        "year": 2005
+      }
+    ]
+  },
+  {
+    "id": "japan-bubble-1991",
+    "y": 1991,
+    "yearLabel": "1989–1991",
+    "yearLabelEn": "1989–1991",
+    "title": "日本泡沫破裂",
+    "titleEn": "Japan's Bubble Burst",
+    "place": "日本",
+    "placeEn": "Japan",
+    "level": 3,
+    "what": "股市与地价在广场协议后巨幅膨胀，1989–1991 先后破裂，日本陷入长期低增长与通缩的「失去的十年」。",
+    "whatEn": "Equities and land ballooned after the Plaza Accord, then burst in 1989–1991, plunging Japan into a 'lost decade' of low growth and deflation.",
+    "why": "宽松货币与信贷扩张推高资产，银行与企业过度负债、期限错配，破裂后资产负债表受损抑制支出。",
+    "whyEn": "Easy money and credit inflated assets; over-leveraged firms and banks and maturity mismatch meant a balance-sheet slump suppressed spending after the crash.",
+    "impact": "成为资产负债表衰退与长期通缩的经典案例，警示资产泡沫与政策迟滞，深刻影响后来的危机应对。",
+    "impactEn": "It became the textbook case of a balance-sheet recession and prolonged deflation, warning on bubbles and slow policy, shaping later crisis response.",
+    "related": ["bubbles-crises", "plaza-accord", "qe", "deflation"],
+    "sources": [
+      {
+        "label": "辜朝明《资产负债表衰退》",
+        "labelEn": "Koo, The Holy Grail of Macroeconomics",
+        "year": 2008
+      }
+    ]
+  },
+  {
+    "id": "euro-1999",
+    "y": 1999,
+    "yearLabel": "1999（纸币 2002）",
+    "yearLabelEn": "1999 (notes 2002)",
+    "title": "欧元启动",
+    "titleEn": "The Launch of the Euro",
+    "place": "欧洲联盟",
+    "placeEn": "European Union",
+    "level": 3,
+    "what": "多国以单一货币启动经济与货币联盟，汇率风险消失，但货币政策交由欧洲央行统一制定。",
+    "whatEn": "Several states launched economic and monetary union on one currency, erasing exchange-rate risk but handing monetary policy to a single ECB.",
+    "why": "以共同货币深化一体化、降低交易成本并制衡美元，被视为政治与经济双重工程。",
+    "whyEn": "A common currency was meant to deepen integration, cut transaction costs and offset the dollar—a project both political and economic.",
+    "impact": "贸易与金融融合加深，但财政不统一遇上非对称冲击埋下隐患，直接酿成后来的欧债危机。",
+    "impactEn": "Trade and finance integrated more deeply, but unified money over divided treasuries and asymmetric shocks sowed the seeds of the euro-area crisis.",
+    "related": ["fx-regimes", "exchange-rate", "bretton-woods", "asian-crisis"],
+    "sources": [
+      {
+        "label": "德格拉韦《镜中的欧洲》",
+        "labelEn": "De Grauwe, Economics of Monetary Union",
+        "year": 2012
+      }
+    ]
   }
 ]

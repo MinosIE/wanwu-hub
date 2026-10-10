@@ -14,8 +14,18 @@
     "experimentEn": "In coin-flip experiments, participants typically demanded a 200 gain to accept a 100 loss, implying roughly double weight on losses.",
     "everyday": "促销说「立减 200」比「打九折」更打动人；因为前者被感知为收益，后者被感知为损失。",
     "everydayEn": "'Save 200' converts better than '10% off', because one reads as a gain and the other as a smaller loss.",
-    "related": ["loss-aversion-effect", "mental-accounting", "endowment-effect-behav"],
-    "sources": [{ "label": "卡尼曼、特沃斯基《前景理论：风险决策分析》", "labelEn": "Kahneman & Tversky, Prospect Theory: An Analysis of Decision under Risk", "year": 1979 }]
+    "related": [
+      "loss-aversion-effect",
+      "mental-accounting",
+      "endowment-effect-behav"
+    ],
+    "sources": [
+      {
+        "label": "卡尼曼、特沃斯基《前景理论：风险决策分析》",
+        "labelEn": "Kahneman & Tversky, Prospect Theory: An Analysis of Decision under Risk",
+        "year": 1979
+      }
+    ]
   },
   {
     "id": "anchoring-effect",
@@ -33,7 +43,13 @@
     "everyday": "商场先标「原价 1299，现价 599」，599 是否划算完全取决于那个被给定的锚。",
     "everydayEn": "A 'was 1299, now 599' tag makes 599 look cheap purely because of the supplied anchor.",
     "related": ["prospect-theory", "herding-effect", "asset-bubble"],
-    "sources": [{ "label": "特沃斯基、卡尼曼《判断中的锚定与调整》", "labelEn": "Tversky & Kahneman, Judgment under Uncertainty: Heuristics and Biases", "year": 1974 }]
+    "sources": [
+      {
+        "label": "特沃斯基、卡尼曼《判断中的锚定与调整》",
+        "labelEn": "Tversky & Kahneman, Judgment under Uncertainty: Heuristics and Biases",
+        "year": 1974
+      }
+    ]
   },
   {
     "id": "loss-aversion-effect",
@@ -51,7 +67,13 @@
     "everyday": "订阅自动续费取消按钮做得很深，因为失去已有服务比从未拥有更难接受。",
     "everydayEn": "Cancellation flows are deliberately buried: giving up an existing service is harder than never signing up.",
     "related": ["prospect-theory", "sunk-cost", "endowment-effect-behav"],
-    "sources": [{ "label": "卡尼曼《思考，快与慢》", "labelEn": "Kahneman, Thinking, Fast and Slow", "year": 2011 }]
+    "sources": [
+      {
+        "label": "卡尼曼《思考，快与慢》",
+        "labelEn": "Kahneman, Thinking, Fast and Slow",
+        "year": 2011
+      }
+    ]
   },
   {
     "id": "herding-effect",
@@ -69,7 +91,13 @@
     "everyday": "餐厅门口排长队并不代表更好吃，只代表前面有人排队。",
     "everydayEn": "A long restaurant queue signals earlier diners, not necessarily better food.",
     "related": ["anchoring-effect", "asset-bubble", "systemic-risk"],
-    "sources": [{ "label": "阿希《群体压力研究》", "labelEn": "Asch, Studies of Independence and Conformity", "year": 1956 }]
+    "sources": [
+      {
+        "label": "阿希《群体压力研究》",
+        "labelEn": "Asch, Studies of Independence and Conformity",
+        "year": 1956
+      }
+    ]
   },
   {
     "id": "hyperbolic-discounting",
@@ -87,7 +115,13 @@
     "everyday": "深夜下单、次日后悔；把购物 App 移出首页或设置 24 小时冷静期就是自我承诺。",
     "everydayEn": "Late-night purchases regretted next morning; removing shopping apps from the home screen or imposing a 24-hour rule is self-commitment.",
     "related": ["prospect-theory", "mental-accounting", "sunk-cost"],
-    "sources": [{ "label": "塞勒、谢弗林《自我控制的困境》", "labelEn": "Thaler & Shefrin, An Economic Theory of Self-Control", "year": 1981 }]
+    "sources": [
+      {
+        "label": "塞勒、谢弗林《自我控制的困境》",
+        "labelEn": "Thaler & Shefrin, An Economic Theory of Self-Control",
+        "year": 1981
+      }
+    ]
   },
   {
     "id": "mental-accounting",
@@ -104,8 +138,18 @@
     "experimentEn": "For the same show, whether a ticket was bought or gifted changes refund behaviour and willingness to rebuy, despite identical value.",
     "everyday": "年终奖更容易被花掉，而每月工资则被小心规划。",
     "everydayEn": "Year-end bonuses are spent more freely than monthly salary, which tends to be budgeted carefully.",
-    "related": ["prospect-theory", "hyperbolic-discounting", "endowment-effect-behav"],
-    "sources": [{ "label": "塞勒《心理账户与消费者选择》", "labelEn": "Thaler, Mental Accounting and Consumer Choice", "year": 1985 }]
+    "related": [
+      "prospect-theory",
+      "hyperbolic-discounting",
+      "endowment-effect-behav"
+    ],
+    "sources": [
+      {
+        "label": "塞勒《心理账户与消费者选择》",
+        "labelEn": "Thaler, Mental Accounting and Consumer Choice",
+        "year": 1985
+      }
+    ]
   },
   {
     "id": "endowment-effect-behav",
@@ -123,6 +167,120 @@
     "everyday": "免费试用 30 天后退货率低于预期，因为「已经在用」使它变成要失去的东西。",
     "everydayEn": "Free-trial return rates are lower than expected: once in use, giving it back feels like a loss.",
     "related": ["loss-aversion-effect", "prospect-theory", "mental-accounting"],
-    "sources": [{ "label": "卡尼曼、尼奇、塞勒《禀赋效应的实验检验》", "labelEn": "Kahneman, Knetsch & Thaler, Experimental Tests of the Endowment Effect", "year": 1990 }]
+    "sources": [
+      {
+        "label": "卡尼曼、尼奇、塞勒《禀赋效应的实验检验》",
+        "labelEn": "Kahneman, Knetsch & Thaler, Experimental Tests of the Endowment Effect",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "id": "overconfidence",
+    "name": "过度自信",
+    "nameEn": "Overconfidence",
+    "category": "判断与决策",
+    "categoryEn": "Judgment & Decision",
+    "level": 2,
+    "oneLiner": "人们系统性高估自己的知识准确度、控制力与相对能力。",
+    "oneLinerEn": "People systematically overestimate the accuracy of their knowledge, their control and their relative ability.",
+    "detail": "过度自信有三种表现：高估正确率（校准差）、高估控制力（错觉控制）与高估相对位置（多数人自认高于平均）。它驱动过度交易、创业热潮与项目预算超支，也会低估竞争与风险。适当自信推动行动，系统性过度则代价高昂。",
+    "detailEn": "Overconfidence shows up as over-precision (poor calibration), over-placement (most rate themselves above average) and over-investment (illusion of control). It drives excessive trading, startup waves and cost overruns, while underweighting competition and risk. Healthy confidence spurs action; systematic overconfidence is costly.",
+    "experiment": "调查发现约 80% 的司机自认技术高于平均水平，这在数学上不可能。",
+    "experimentEn": "Surveys find about 80% of drivers rate themselves above average—an arithmetic impossibility.",
+    "everyday": "频繁买卖基金的散户常跑输大盘，部分正是过度自信与交易成本所致。",
+    "everydayEn": "Retail investors who trade often tend to underperform, partly due to overconfidence and costs.",
+    "related": [
+      "anchoring-effect",
+      "prospect-theory",
+      "hyperbolic-discounting"
+    ],
+    "sources": [
+      {
+        "label": "巴伯、奥迪恩《过度交易》；摩尔—丹内尔「优于平均」效应",
+        "labelEn": "Barber & Odean, Trading Is Hazardous; Moore & Dunne, better-than-average",
+        "year": 1996
+      }
+    ]
+  },
+  {
+    "id": "framing-effect-behav",
+    "name": "框架效应",
+    "nameEn": "Framing Effect",
+    "category": "判断与决策",
+    "categoryEn": "Judgment & Decision",
+    "level": 2,
+    "oneLiner": "同一事实换个表述方式，就能反转人的选择。",
+    "oneLinerEn": "Rephrasing the same fact can flip people's choice.",
+    "detail": "当选项被描述为「存活率」还是「死亡率」、是「折扣」还是「加价」，人虽面对等价结果却做不同决定。这与损失厌恶和参照点有关：被框成损失时更愿冒险，被框成收益时更愿求稳。政策与营销的「选择架构」正利用框架改变行为。",
+    "detailEn": "Whether an option is cast as a survival vs. mortality rate, or a discount vs. a surcharge, changes choices despite equivalent outcomes. Tied to loss aversion and reference points: framed as a loss people gamble, framed as a gain they play safe. Policy and marketing 'choice architecture' exploits framing to steer behavior.",
+    "experiment": "「亚洲疾病问题」中，把方案说成能救 200 人还是死 400 人，选择随之反转。",
+    "experimentEn": "In the 'Asian disease problem', describing a plan as saving 200 vs. killing 400 flips the choice.",
+    "everyday": "「90% 成功率」听起来比「10% 失败率」更令人放心，尽管两者等价。",
+    "everydayEn": "'90% success' feels safer than '10% failure' though they are identical.",
+    "related": ["prospect-theory", "anchoring-effect", "mental-accounting"],
+    "sources": [
+      {
+        "label": "特沃斯基、卡尼曼《框架效应研究》",
+        "labelEn": "Tversky & Kahneman, The Framing of Decisions",
+        "year": 1981
+      }
+    ]
+  },
+  {
+    "id": "status-quo-bias",
+    "name": "现状偏好",
+    "nameEn": "Status-Quo Bias",
+    "category": "判断与决策",
+    "categoryEn": "Judgment & Decision",
+    "level": 2,
+    "oneLiner": "面对选择时，人偏爱维持现状，即便改变明显更有利。",
+    "oneLinerEn": "When choosing, people prefer keeping things as they are, even when change clearly pays.",
+    "detail": "现状偏好源于损失厌恶、后悔规避与默认效应：改变被视为可能带来损失，因此需足够补偿才愿变动。它使养老金、医保等自动加入（opt-in）远少于自动默认（opt-out）参与，也让组织难以改革。默认值不是中性的，它默默决定了多数人的结果。",
+    "detailEn": "Status-quo bias stems from loss aversion, regret avoidance and the default effect: change looks like a potential loss, so it needs large compensation to overcome. It makes opt-in far lower than opt-out for pensions and health plans, and stalls organizational reform. Defaults are not neutral—they quietly decide most outcomes.",
+    "experiment": "把器官捐献设为默认同意（可退出）的国家，登记率远高于需主动加入者。",
+    "experimentEn": "Countries defaulting to organ donation (with opt-out) see far higher registration than opt-in ones.",
+    "everyday": "续订、套餐与隐私设置一旦设成默认，多数人一生都不会去改。",
+    "everydayEn": "Renewals, plans and privacy defaults are rarely touched by most users once set.",
+    "related": [
+      "endowment-effect-behav",
+      "mental-accounting",
+      "anchoring-effect"
+    ],
+    "sources": [
+      {
+        "label": "萨缪尔森、泽克豪泽（1988）；约翰逊等《助推》",
+        "labelEn": "Samuelson & Zeckhauser (1988); Johnson et al., defaults",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "id": "fairness-reciprocity",
+    "name": "公平与互惠",
+    "nameEn": "Fairness and Reciprocity",
+    "category": "社会偏好",
+    "categoryEn": "Social Preferences",
+    "level": 2,
+    "oneLiner": "人不只看自己所得，也在意分配是否公平，愿为惩罚不公付出代价。",
+    "oneLinerEn": "People care not only about their own payoff but about fair splits, even paying to punish unfairness.",
+    "detail": "「最后通牒」「信任」「公共品」等实验显示，人会拒绝过低分配、回报信任、惩罚搭便车者，哪怕损及自身收益。这挑战了新古典的纯自利假设，说明合作建立在互惠、声誉与内在公平感之上，也为工资效率、税收遵从与制度设计提供依据。",
+    "detailEn": "Ultimatum, trust and public-goods games show people reject low offers, repay trust and punish free-riders—even at a cost to themselves. This challenges pure-self-interest assumptions: cooperation rests on reciprocity, reputation and an innate sense of fairness, informing efficiency wages, tax compliance and institutional design.",
+    "experiment": "最后通牒博弈中，提议者开价过低常被拒，双方皆空手，只为「惩罚贪心」。",
+    "experimentEn": "In the ultimatum game, a stingy offer is often rejected so both get nothing—purely to punish greed.",
+    "everyday": "商家「大数据杀熟」被发现时，消费者宁可弃用也要惩罚不公定价。",
+    "everydayEn": "When price discrimination against loyal customers is exposed, people boycott to punish the unfairness.",
+    "related": [
+      "endowment-effect-behav",
+      "hyperbolic-discounting",
+      "nash-equilibrium-game"
+    ],
+    "sources": [
+      {
+        "label": "古特、诺瓦布、萨缪尔森（1987）；费尔—施米特「利他惩罚」",
+        "labelEn": "Guth, Schmittou & Schwarze; Fehr & Schmidt, altruistic punishment",
+        "year": 1987
+      }
+    ]
   }
 ]

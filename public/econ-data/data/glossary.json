@@ -48,7 +48,13 @@
     "plain": "东西越来越便宜，听起来是好事，但大家会一直等更便宜，于是生意更难做。",
     "plainEn": "Prices keep falling — sounds good, until everyone waits for cheaper and business gets harder.",
     "related": ["inflation-rate", "liquidity", "deficit"],
-    "sources": [{ "label": "IMF 关于通缩风险的专题说明", "labelEn": "IMF notes on deflation risk", "year": 2023 }]
+    "sources": [
+      {
+        "label": "IMF 关于通缩风险的专题说明",
+        "labelEn": "IMF notes on deflation risk",
+        "year": 2023
+      }
+    ]
   },
   {
     "id": "stagflation",
@@ -169,7 +175,12 @@
     "defEn": "How quickly an asset can be sold near its fair value; also how abundant funds are in a market.",
     "plain": "想卖就能马上卖掉还不掉价，就叫流动性好。",
     "plainEn": "If you can sell quickly without a price discount, liquidity is good.",
-    "related": ["open-market-operation", "systemic-risk", "asset-bubble", "short-selling"]
+    "related": [
+      "open-market-operation",
+      "systemic-risk",
+      "asset-bubble",
+      "short-selling"
+    ]
   },
   {
     "id": "yield-curve",
@@ -289,7 +300,11 @@
     "defEn": "The increase in total cost from producing one more unit.",
     "plain": "多做一件，总共多花多少钱。",
     "plainEn": "How much more it costs in total to make one extra unit.",
-    "related": ["economies-of-scale", "consumer-surplus", "price-discrimination"]
+    "related": [
+      "economies-of-scale",
+      "consumer-surplus",
+      "price-discrimination"
+    ]
   },
   {
     "id": "economies-of-scale",
@@ -446,7 +461,13 @@
     "plain": "一个 0 到 1 的数字，越接近 1 说明差距越大。",
     "plainEn": "A number between 0 and 1: closer to 1 means bigger gaps.",
     "related": ["engel", "ppp", "nominal-real"],
-    "sources": [{ "label": "世界银行 基尼系数数据库", "labelEn": "World Bank Gini index database", "year": 2024 }]
+    "sources": [
+      {
+        "label": "世界银行 基尼系数数据库",
+        "labelEn": "World Bank Gini index database",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "engel",
@@ -533,7 +554,13 @@
     "plain": "你看跌某只股票，就找人借来先卖掉，等它真跌了再低价买回来还掉，中间的价差就是赚的。但要是它不跌反涨，你就得用更高的价格买回来还，亏的会越涨越多、没有封顶。",
     "plainEn": "You think a stock will fall, so you borrow and sell it now; if it drops you buy back cheap, return it and keep the gap. But if it rises instead, you must buy back higher to return it — and the loss grows the higher it climbs, with no cap.",
     "related": ["asset-bubble", "leverage", "systemic-risk", "liquidity"],
-    "sources": [{ "label": "SEC 关于卖空机制与风险披露的说明", "labelEn": "SEC overview of short selling and risk disclosure", "year": 2023 }]
+    "sources": [
+      {
+        "label": "SEC 关于卖空机制与风险披露的说明",
+        "labelEn": "SEC overview of short selling and risk disclosure",
+        "year": 2023
+      }
+    ]
   },
   {
     "id": "kondratiev-wave",
@@ -547,6 +574,170 @@
     "plain": "有人把经济想象成有「长呼吸」：每五六十年一波由重大技术革命带动的繁荣与调整。但这个「长周期」到底是不是规律，学界一直争论，因为它很难被数据干净地证明。",
     "plainEn": "Some picture the economy as having a 'long breath' — a boom and adjustment every fifty-odd years driven by major technological revolutions. Whether this 'long cycle' is a real law is still debated, because it is hard to prove cleanly from data.",
     "related": ["business-cycle"],
-    "sources": [{ "label": "康德拉季耶夫《经济生活中的长波》", "labelEn": "Kondratiev, The Long Waves in Economic Life", "year": 1925 }]
+    "sources": [
+      {
+        "label": "康德拉季耶夫《经济生活中的长波》",
+        "labelEn": "Kondratiev, The Long Waves in Economic Life",
+        "year": 1925
+      }
+    ]
+  },
+  {
+    "id": "marginal-propensity",
+    "term": "边际消费倾向",
+    "termEn": "Marginal Propensity to Consume",
+    "abbr": "MPC",
+    "category": "宏观",
+    "categoryEn": "Macro",
+    "def": "新增一单位收入中用于消费的比例，取值介于 0 与 1 之间，决定财政乘数的大小。",
+    "defEn": "The share of an extra unit of income spent on consumption, between 0 and 1; it sets the size of the fiscal multiplier.",
+    "plain": "多发 100 元工资金，若你花掉 60 元，边际消费倾向就是 0.6；它越高，一圈消费转发的拉动越大。",
+    "plainEn": "Get 100 yuan more and spend 60, so the MPC is 0.6; the higher it is, the bigger the spending cascade.",
+    "related": ["fiscal-policy", "unemployment-rate"],
+    "sources": [
+      {
+        "label": "凯恩斯《就业、利息和货币通论》",
+        "labelEn": "Keynes, The General Theory",
+        "year": 1936
+      }
+    ]
+  },
+  {
+    "id": "deadweight-loss",
+    "term": "无谓损失",
+    "termEn": "Deadweight Loss",
+    "category": "微观",
+    "categoryEn": "Micro",
+    "def": "因价格扭曲（如税收、垄断、价格管制）导致交易量低于有效率水平，而永久蒸发、不归于任何人的福利损失。",
+    "defEn": "Welfare permanently lost to no one because a price distortion (tax, monopoly, control) drives trade below the efficient volume.",
+    "plain": "一笔本可成交、买卖双方都划算的交易因税费或限价而黄了，这块消失的好处就无人得到，即无谓损失。",
+    "plainEn": "A win-win deal that falls through due to a tax or a price cap makes the gain vanish for everyone—that is deadweight loss.",
+    "related": ["consumer-surplus", "price-discrimination", "tariff"],
+    "sources": [
+      {
+        "label": "马歇尔《经济学原理》",
+        "labelEn": "Marshall, Principles of Economics",
+        "year": 1890
+      }
+    ]
+  },
+  {
+    "id": "human-capital",
+    "term": "人力资本",
+    "termEn": "Human Capital",
+    "category": "增长与劳动",
+    "categoryEn": "Growth & Labor",
+    "def": "体现在人身上的知识、技能与健康的存量，能通过教育、培训与医疗投资积累并提升生产率。",
+    "defEn": "The stock of knowledge, skills and health embodied in people, accumulated via education, training and health investment to raise productivity.",
+    "plain": "把读书、学手艺与健身看作对自己这台“牛”的升级，它们日后能产出更多，这就是人力资本。",
+    "plainEn": "Think of study, craft and fitness as upgrades to your own productivity for later— that is human capital.",
+    "related": ["economic-growth", "unemployment-rate", "gini"],
+    "sources": [
+      {
+        "label": "舒尔茨、贝克尔《人力资本》",
+        "labelEn": "Schultz; Becker, Human Capital",
+        "year": 1964
+      }
+    ]
+  },
+  {
+    "id": "transaction-cost",
+    "term": "交易成本",
+    "termEn": "Transaction Cost",
+    "category": "制度",
+    "categoryEn": "Institutional",
+    "def": "完成一笔交换除价格外的全部耗费：搜寻、谈判、签约、监督与执行，决定企业与市场的边界。",
+    "defEn": "All costs beyond price to make an exchange—search, bargaining, contracting, monitoring and enforcement—that set the boundary of the firm.",
+    "plain": "找房、议价、写合同、防对方赖账花的精力，就是交易成本；它们太高时，人们宁愿自己办公司而不外包。",
+    "plainEn": "The effort to search, haggle, contract and police deals is transaction cost; when too high, people build a firm rather than buy outside.",
+    "related": ["entry-barrier", "information-asymmetry", "supply-chain"],
+    "sources": [
+      {
+        "label": "科斯《企业的性质》；诺斯《制度、制度变迁》",
+        "labelEn": "Coase, The Nature of the Firm; North, Institutions",
+        "year": 1937
+      }
+    ]
+  },
+  {
+    "id": "moral-hazard",
+    "term": "道德风险",
+    "termEn": "Moral Hazard",
+    "category": "信息",
+    "categoryEn": "Information",
+    "def": "交易后一方因有他人兜底而改变行为、变得更爱冒险，导致保障方承担更多损失的倾向。",
+    "defEn": "After a deal, one side takes more risks because others bear the loss, leaving the protector to foot a larger bill.",
+    "plain": "买了全险就可能停车不锁、开车更野——反正有人埋单，这就是道德风险。",
+    "plainEn": "With full insurance you may stop locking the car and drive wilder—someone else pays— that is moral hazard.",
+    "related": ["credit-rating", "systemic-risk", "leverage"],
+    "sources": [
+      {
+        "label": "阿罗、 Pauly 关于保险道德风险",
+        "labelEn": "Arrow; Pauly on insurance moral hazard",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "id": "velocity-of-money",
+    "term": "货币流通速度",
+    "termEn": "Velocity of Money",
+    "abbr": "V",
+    "category": "货币",
+    "categoryEn": "Money",
+    "def": "单位时间内一块钱平均支撑多少交易，由费雪方程 MV=PT 把货币量与名义产出相连。",
+    "defEn": "How many transactions a dollar backs per period; the equation of exchange MV=PT links the money stock to nominal output.",
+    "plain": "同样多的钱，转手越快、支撑的交易就越多；反之钱躺在手里，再多也拉不起经济。",
+    "plainEn": "The faster the same dollars change hands, the more trade they support; idle money lifts nothing no matter how plentiful.",
+    "related": ["inflation-rate", "money-creation", "qe"],
+    "sources": [
+      {
+        "label": "费雪《货币的购买力》",
+        "labelEn": "Fisher, The Purchasing Power of Money",
+        "year": 1911
+      }
+    ]
+  },
+  {
+    "id": "monetary-base",
+    "term": "基础货币与货币乘数",
+    "termEn": "Monetary Base and Money Multiplier",
+    "category": "货币",
+    "categoryEn": "Money",
+    "def": "基础货币是央行发行的现金加商业银行存款；银行靠存贷循环把它放大为成倍的广义货币。",
+    "defEn": "The base is central-bank currency plus bank reserves; deposit-lending cycles multiply it into broad money several times over.",
+    "plain": "央行只印 100 元，经你存银行、银行再贷出去转几手，社会上可能流通出几百元存款——这就是乘数。",
+    "plainEn": "The central bank issues 100 yuan; after you deposit and banks relend it, hundreds in deposits may circulate—that is the multiplier.",
+    "related": [
+      "reserve-requirement",
+      "money-creation",
+      "open-market-operation"
+    ],
+    "sources": [
+      {
+        "label": "弗里德曼、施瓦茨《美国货币史》",
+        "labelEn": "Friedman & Schwartz, A Monetary History of the US",
+        "year": 1963
+      }
+    ]
+  },
+  {
+    "id": "seigniorage",
+    "term": "铸币税",
+    "termEn": "Seigniorage",
+    "category": "货币与财政",
+    "categoryEn": "Money & Fiscal",
+    "def": "发行货币面价与铸造成本之差带来的收益，也是政府靠增发货币稀释存量财富、变相征税的能力。",
+    "defEn": "The gain from the gap between a currency's face value and its cost to produce, and thus a government's power to tax by diluting wealth through money creation.",
+    "plain": "央行“印钱”看似无成本，但当经量太多物价上涨，持币者财富被稀释，相当于交了一笔隐形的铸币税。",
+    "plainEn": "'Printing money' seems costless, but when too much floods in and prices rise, holders lose wealth—an invisible seigniorage tax.",
+    "related": ["inflation-rate", "deficit", "central-bank-term"],
+    "sources": [
+      {
+        "label": "萨金特《货币与铸币税》",
+        "labelEn": "Sargent on money and seigniorage",
+        "year": 1982
+      }
+    ]
   }
 ]

@@ -499,6 +499,62 @@
       "nEn": "Kondratiev Wave (长波)"
     }
   ],
+  "marginal-propensity": [
+    {
+      "m": "m-glossary",
+      "n": "边际消费倾向（MPC）",
+      "nEn": "Marginal Propensity to Consume (MPC)"
+    }
+  ],
+  "deadweight-loss": [
+    {
+      "m": "m-glossary",
+      "n": "无谓损失",
+      "nEn": "Deadweight Loss"
+    }
+  ],
+  "human-capital": [
+    {
+      "m": "m-glossary",
+      "n": "人力资本",
+      "nEn": "Human Capital"
+    }
+  ],
+  "transaction-cost": [
+    {
+      "m": "m-glossary",
+      "n": "交易成本",
+      "nEn": "Transaction Cost"
+    }
+  ],
+  "moral-hazard": [
+    {
+      "m": "m-glossary",
+      "n": "道德风险",
+      "nEn": "Moral Hazard"
+    }
+  ],
+  "velocity-of-money": [
+    {
+      "m": "m-glossary",
+      "n": "货币流通速度（V）",
+      "nEn": "Velocity of Money (V)"
+    }
+  ],
+  "monetary-base": [
+    {
+      "m": "m-glossary",
+      "n": "基础货币与货币乘数",
+      "nEn": "Monetary Base and Money Multiplier"
+    }
+  ],
+  "seigniorage": [
+    {
+      "m": "m-glossary",
+      "n": "铸币税",
+      "nEn": "Seigniorage"
+    }
+  ],
   "gdp-measure": [
     {
       "m": "m-macro",
@@ -541,6 +597,34 @@
       "nEn": "The Business Cycle"
     }
   ],
+  "productivity": [
+    {
+      "m": "m-macro",
+      "n": "生产率与长期增长",
+      "nEn": "Productivity and Long-Run Growth"
+    }
+  ],
+  "output-gap": [
+    {
+      "m": "m-macro",
+      "n": "产出缺口与潜在增长",
+      "nEn": "The Output Gap and Potential Growth"
+    }
+  ],
+  "expectations": [
+    {
+      "m": "m-macro",
+      "n": "预期与政策传导",
+      "nEn": "Expectations and Policy Transmission"
+    }
+  ],
+  "debt-dynamics": [
+    {
+      "m": "m-macro",
+      "n": "债务动态与可持续性",
+      "nEn": "Debt Dynamics and Sustainability"
+    }
+  ],
   "demand-curve": [
     {
       "m": "m-micro",
@@ -574,6 +658,34 @@
       "m": "m-micro",
       "n": "外部性的治理工具",
       "nEn": "Tools for Externalities"
+    }
+  ],
+  "consumer-choice": [
+    {
+      "m": "m-micro",
+      "n": "消费者选择与边际效用",
+      "nEn": "Consumer Choice and Marginal Utility"
+    }
+  ],
+  "factor-markets": [
+    {
+      "m": "m-micro",
+      "n": "要素市场与工资",
+      "nEn": "Factor Markets and Wages"
+    }
+  ],
+  "price-signals": [
+    {
+      "m": "m-micro",
+      "n": "价格作为信号",
+      "nEn": "Prices as Signals"
+    }
+  ],
+  "public-choice": [
+    {
+      "m": "m-micro",
+      "n": "公共选择与政府失灵",
+      "nEn": "Public Choice and Government Failure"
     }
   ],
   "monetary-history": [
@@ -616,6 +728,34 @@
       "m": "m-money",
       "n": "泡沫与危机",
       "nEn": "Bubbles and Crises"
+    }
+  ],
+  "payments-systems": [
+    {
+      "m": "m-money",
+      "n": "支付与清算体系",
+      "nEn": "Payments and Settlement"
+    }
+  ],
+  "digital-currency": [
+    {
+      "m": "m-money",
+      "n": "数字货币与稳定币",
+      "nEn": "Digital Currency and Stablecoins"
+    }
+  ],
+  "shadow-banking": [
+    {
+      "m": "m-money",
+      "n": "影子银行与期限错配",
+      "nEn": "Shadow Banking and Maturity Mismatch"
+    }
+  ],
+  "deposit-insurance": [
+    {
+      "m": "m-money",
+      "n": "存款保险与安全网",
+      "nEn": "Deposit Insurance and Safety Nets"
     }
   ],
   "adam-smith": [
@@ -863,6 +1003,41 @@
       "nEn": "China Joins the World Trade Organization"
     }
   ],
+  "industrial-revolution": [
+    {
+      "m": "m-events",
+      "n": "工业革命",
+      "nEn": "The Industrial Revolution"
+    }
+  ],
+  "new-deal-1933": [
+    {
+      "m": "m-events",
+      "n": "罗斯福新政",
+      "nEn": "The New Deal"
+    }
+  ],
+  "neoliberal-turn-1980": [
+    {
+      "m": "m-events",
+      "n": "新自由主义转向",
+      "nEn": "The Neoliberal Turn"
+    }
+  ],
+  "japan-bubble-1991": [
+    {
+      "m": "m-events",
+      "n": "日本泡沫破裂",
+      "nEn": "Japan's Bubble Burst"
+    }
+  ],
+  "euro-1999": [
+    {
+      "m": "m-events",
+      "n": "欧元启动",
+      "nEn": "The Launch of the Euro"
+    }
+  ],
   "prospect-theory": [
     {
       "m": "m-behavioral",
@@ -910,6 +1085,34 @@
       "m": "m-behavioral",
       "n": "禀赋效应",
       "nEn": "Endowment Effect"
+    }
+  ],
+  "overconfidence": [
+    {
+      "m": "m-behavioral",
+      "n": "过度自信",
+      "nEn": "Overconfidence"
+    }
+  ],
+  "framing-effect-behav": [
+    {
+      "m": "m-behavioral",
+      "n": "框架效应",
+      "nEn": "Framing Effect"
+    }
+  ],
+  "status-quo-bias": [
+    {
+      "m": "m-behavioral",
+      "n": "现状偏好",
+      "nEn": "Status-Quo Bias"
+    }
+  ],
+  "fairness-reciprocity": [
+    {
+      "m": "m-behavioral",
+      "n": "公平与互惠",
+      "nEn": "Fairness and Reciprocity"
     }
   ],
   "prisoners-dilemma": [
@@ -987,6 +1190,34 @@
       "m": "m-trade",
       "n": "汇率如何影响贸易",
       "nEn": "How Exchange Rates Affect Trade"
+    }
+  ],
+  "trade-institutions": [
+    {
+      "m": "m-trade",
+      "n": "WTO 与贸易规则",
+      "nEn": "The WTO and Trade Rules"
+    }
+  ],
+  "protectionism-tools": [
+    {
+      "m": "m-trade",
+      "n": "关税之外的壁垒",
+      "nEn": "Barriers Beyond Tariffs"
+    }
+  ],
+  "services-digital-trade": [
+    {
+      "m": "m-trade",
+      "n": "服务与数字贸易",
+      "nEn": "Services and Digital Trade"
+    }
+  ],
+  "trade-and-jobs": [
+    {
+      "m": "m-trade",
+      "n": "贸易与就业再分配",
+      "nEn": "Trade and Job Reallocation"
     }
   ],
   "queueing": [

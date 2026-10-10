@@ -10,10 +10,30 @@
     "lead": "从实物、金属、可兑换纸币到信用货币，每一次切换都源于信任载体的变化。",
     "leadEn": "From commodities to metal, convertible notes and fiat money, each switch followed a change in what carries trust.",
     "points": [
-      { "k": "实物与金属", "kEn": "Commodity and metal", "v": "贝壳、盐、白银、黄金因稀缺与易分割而被选为货币。", "vEn": "Shells, salt, silver and gold were chosen for scarcity and divisibility." },
-      { "k": "可兑换纸币", "kEn": "Convertible notes", "v": "钱庄与银行发行的票据，承诺可换金属，降低了携带成本。", "vEn": "Bank notes promising metal on demand cut the cost of carrying value." },
-      { "k": "金本位与崩溃", "kEn": "Gold standard and its end", "v": "固定兑换限制了政策空间，大萧条与战争迫使各国相继脱钩。", "vEn": "Fixed convertibility limited policy space; depression and war pushed countries off it." },
-      { "k": "信用货币", "kEn": "Fiat money", "v": "价值来自国家信用与法定清偿地位，货币政策获得更大空间，也承担更大责任。", "vEn": "Value rests on state credibility and legal tender status: more policy room, and more responsibility." }
+      {
+        "k": "实物与金属",
+        "kEn": "Commodity and metal",
+        "v": "贝壳、盐、白银、黄金因稀缺与易分割而被选为货币。",
+        "vEn": "Shells, salt, silver and gold were chosen for scarcity and divisibility."
+      },
+      {
+        "k": "可兑换纸币",
+        "kEn": "Convertible notes",
+        "v": "钱庄与银行发行的票据，承诺可换金属，降低了携带成本。",
+        "vEn": "Bank notes promising metal on demand cut the cost of carrying value."
+      },
+      {
+        "k": "金本位与崩溃",
+        "kEn": "Gold standard and its end",
+        "v": "固定兑换限制了政策空间，大萧条与战争迫使各国相继脱钩。",
+        "vEn": "Fixed convertibility limited policy space; depression and war pushed countries off it."
+      },
+      {
+        "k": "信用货币",
+        "kEn": "Fiat money",
+        "v": "价值来自国家信用与法定清偿地位，货币政策获得更大空间，也承担更大责任。",
+        "vEn": "Value rests on state credibility and legal tender status: more policy room, and more responsibility."
+      }
     ],
     "watch": [
       "「货币必须有内在价值」是一种常见直觉，但现代货币的锚是制度与预期，而非金属。",
@@ -24,7 +44,13 @@
       "History is full of currencies destroyed by over-issuance, which is why central bank independence matters."
     ],
     "related": ["central-bank-tools", "money-creation", "bubbles-crises"],
-    "sources": [{ "label": "米什金《货币金融学》", "labelEn": "Mishkin, The Economics of Money, Banking and Financial Markets", "year": 2019 }]
+    "sources": [
+      {
+        "label": "米什金《货币金融学》",
+        "labelEn": "Mishkin, The Economics of Money, Banking and Financial Markets",
+        "year": 2019
+      }
+    ]
   },
   {
     "id": "central-bank-tools",
@@ -37,10 +63,30 @@
     "lead": "政策利率、公开市场操作、准备金要求与资产购买，是调节货币条件的主要工具。",
     "leadEn": "Policy rates, open market operations, reserve requirements and asset purchases are the main levers.",
     "points": [
-      { "k": "政策利率", "kEn": "Policy rate", "v": "最常用的信号工具，直接改变短端资金价格。", "vEn": "The most used signal, directly moving the price of short-term funds." },
-      { "k": "公开市场操作", "kEn": "Open market operations", "v": "买卖证券调节银行体系流动性，让市场利率贴近目标。", "vEn": "Buying and selling securities to keep market rates near target." },
-      { "k": "准备金与宏观审慎", "kEn": "Reserves and macroprudential", "v": "准备金率、资本缓冲、贷款价值比等工具直接约束信贷扩张。", "vEn": "Reserve ratios, capital buffers and loan-to-value caps directly constrain credit growth." },
-      { "k": "资产购买与前瞻指引", "kEn": "Asset purchases and guidance", "v": "利率触底后压降长端利率，并用沟通管理预期。", "vEn": "With rates at the floor, buying assets pushes long yields down while communication steers expectations." }
+      {
+        "k": "政策利率",
+        "kEn": "Policy rate",
+        "v": "最常用的信号工具，直接改变短端资金价格。",
+        "vEn": "The most used signal, directly moving the price of short-term funds."
+      },
+      {
+        "k": "公开市场操作",
+        "kEn": "Open market operations",
+        "v": "买卖证券调节银行体系流动性，让市场利率贴近目标。",
+        "vEn": "Buying and selling securities to keep market rates near target."
+      },
+      {
+        "k": "准备金与宏观审慎",
+        "kEn": "Reserves and macroprudential",
+        "v": "准备金率、资本缓冲、贷款价值比等工具直接约束信贷扩张。",
+        "vEn": "Reserve ratios, capital buffers and loan-to-value caps directly constrain credit growth."
+      },
+      {
+        "k": "资产购买与前瞻指引",
+        "kEn": "Asset purchases and guidance",
+        "v": "利率触底后压降长端利率，并用沟通管理预期。",
+        "vEn": "With rates at the floor, buying assets pushes long yields down while communication steers expectations."
+      }
     ],
     "watch": [
       "央行面对的是「物价稳定」与「金融稳定」的潜在冲突：长期低利率可能催生资产泡沫。",
@@ -51,7 +97,13 @@
       "Credibility is part of policy power: if markets believe the bank, less tightening is needed."
     ],
     "related": ["monetary-history", "rate-system", "money-creation"],
-    "sources": [{ "label": "BIS 年度经济报告 央行工具章节", "labelEn": "BIS Annual Economic Report, central bank tools", "year": 2024 }]
+    "sources": [
+      {
+        "label": "BIS 年度经济报告 央行工具章节",
+        "labelEn": "BIS Annual Economic Report, central bank tools",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "rate-system",
@@ -64,10 +116,30 @@
     "lead": "从政策利率到货币市场利率、国债收益率、信贷利率，构成一条层层加价的传导链。",
     "leadEn": "From the policy rate to money-market rates, government yields and lending rates, rates form a chain of mark-ups.",
     "points": [
-      { "k": "无风险利率", "kEn": "Risk-free rate", "v": "通常以国债收益率为基准，是其他资产定价的锚。", "vEn": "Usually the government yield, the anchor for pricing other assets." },
-      { "k": "期限溢价", "kEn": "Term premium", "v": "期限越长不确定性越大，投资者要求额外补偿，形成上倾曲线。", "vEn": "Longer maturities carry more uncertainty, so investors demand extra compensation, sloping the curve up." },
-      { "k": "信用溢价", "kEn": "Credit spread", "v": "违约风险越高，借款利率相对无风险利率的加点越大。", "vEn": "Higher default risk means a larger spread over the risk-free rate." },
-      { "k": "期限错配", "kEn": "Maturity mismatch", "v": "短借长贷是银行盈利模式，也是流动性风险的根源。", "vEn": "Borrowing short and lending long is the banking business model and the root of liquidity risk." }
+      {
+        "k": "无风险利率",
+        "kEn": "Risk-free rate",
+        "v": "通常以国债收益率为基准，是其他资产定价的锚。",
+        "vEn": "Usually the government yield, the anchor for pricing other assets."
+      },
+      {
+        "k": "期限溢价",
+        "kEn": "Term premium",
+        "v": "期限越长不确定性越大，投资者要求额外补偿，形成上倾曲线。",
+        "vEn": "Longer maturities carry more uncertainty, so investors demand extra compensation, sloping the curve up."
+      },
+      {
+        "k": "信用溢价",
+        "kEn": "Credit spread",
+        "v": "违约风险越高，借款利率相对无风险利率的加点越大。",
+        "vEn": "Higher default risk means a larger spread over the risk-free rate."
+      },
+      {
+        "k": "期限错配",
+        "kEn": "Maturity mismatch",
+        "v": "短借长贷是银行盈利模式，也是流动性风险的根源。",
+        "vEn": "Borrowing short and lending long is the banking business model and the root of liquidity risk."
+      }
     ],
     "watch": [
       "收益率曲线倒挂常被当作衰退前兆，但它只是概率信号，不是必然预言。",
@@ -78,7 +150,13 @@
       "Real rates drive real decisions: 5% nominal with 6% inflation is a negative real rate."
     ],
     "related": ["central-bank-tools", "money-creation", "fx-regimes"],
-    "sources": [{ "label": "美联储 H.15 利率统计说明", "labelEn": "US Federal Reserve H.15 selected interest rates", "year": 2024 }]
+    "sources": [
+      {
+        "label": "美联储 H.15 利率统计说明",
+        "labelEn": "US Federal Reserve H.15 selected interest rates",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "money-creation",
@@ -91,10 +169,30 @@
     "lead": "银行不是把存款贷出去，而是「先放贷、后创存款」，货币因此内生扩张。",
     "leadEn": "Banks do not lend out deposits; they lend first and create the deposit, so money expands endogenously.",
     "points": [
-      { "k": "贷款创造存款", "kEn": "Loans create deposits", "v": "发放贷款时同时在借款人账户记账，货币总量随即增加。", "vEn": "Making a loan simultaneously credits the borrower's account, so the money stock rises." },
-      { "k": "准备金约束", "kEn": "Reserve constraint", "v": "准备金与资本充足率限制扩张上限，但通常不是日常最紧的约束。", "vEn": "Reserves and capital ratios cap expansion but are rarely the binding constraint day to day." },
-      { "k": "货币乘数", "kEn": "Money multiplier", "v": "教科书以准备金率倒推乘数，现实中受信贷需求与银行风险偏好影响。", "vEn": "Textbooks derive a multiplier from reserve ratios; in practice credit demand and bank risk appetite dominate." },
-      { "k": "影子银行", "kEn": "Shadow banking", "v": "非银机构承担信用中介功能，扩张了货币与信用，也带来监管盲区。", "vEn": "Non-bank intermediaries extend credit and money, expanding both and creating regulatory blind spots." }
+      {
+        "k": "贷款创造存款",
+        "kEn": "Loans create deposits",
+        "v": "发放贷款时同时在借款人账户记账，货币总量随即增加。",
+        "vEn": "Making a loan simultaneously credits the borrower's account, so the money stock rises."
+      },
+      {
+        "k": "准备金约束",
+        "kEn": "Reserve constraint",
+        "v": "准备金与资本充足率限制扩张上限，但通常不是日常最紧的约束。",
+        "vEn": "Reserves and capital ratios cap expansion but are rarely the binding constraint day to day."
+      },
+      {
+        "k": "货币乘数",
+        "kEn": "Money multiplier",
+        "v": "教科书以准备金率倒推乘数，现实中受信贷需求与银行风险偏好影响。",
+        "vEn": "Textbooks derive a multiplier from reserve ratios; in practice credit demand and bank risk appetite dominate."
+      },
+      {
+        "k": "影子银行",
+        "kEn": "Shadow banking",
+        "v": "非银机构承担信用中介功能，扩张了货币与信用，也带来监管盲区。",
+        "vEn": "Non-bank intermediaries extend credit and money, expanding both and creating regulatory blind spots."
+      }
     ],
     "watch": [
       "「存款来自储蓄」是常见的直觉错误：在信用货币体系中，贷款先创造存款。",
@@ -105,7 +203,13 @@
       "Credit expansion and asset prices reinforce each other, the key mechanism behind financial cycles."
     ],
     "related": ["central-bank-tools", "bubbles-crises", "rate-system"],
-    "sources": [{ "label": "英格兰银行《现代经济中的货币创造》", "labelEn": "Bank of England, Money creation in the modern economy", "year": 2014 }]
+    "sources": [
+      {
+        "label": "英格兰银行《现代经济中的货币创造》",
+        "labelEn": "Bank of England, Money creation in the modern economy",
+        "year": 2014
+      }
+    ]
   },
   {
     "id": "fx-regimes",
@@ -118,10 +222,30 @@
     "lead": "固定、浮动与有管理的浮动各有利弊，核心权衡是「稳定」与「政策自主」不可兼得。",
     "leadEn": "Fixed, floating and managed floats trade off stability against policy autonomy.",
     "points": [
-      { "k": "固定汇率", "kEn": "Fixed", "v": "锚定他国货币，降低贸易与投资不确定性，但需消耗外储并让渡货币政策。", "vEn": "Pegging to another currency reduces trade uncertainty but costs reserves and monetary autonomy." },
-      { "k": "浮动汇率", "kEn": "Floating", "v": "由市场决定，货币政策独立，但汇率波动增加企业风险管理成本。", "vEn": "Market-determined rates preserve policy independence but raise hedging costs for firms." },
-      { "k": "有管理浮动", "kEn": "Managed float", "v": "以市场为主、必要时干预，实践中大多数经济体处于这一区间。", "vEn": "Mostly market-driven with occasional intervention: where most economies actually sit." },
-      { "k": "不可能三角", "kEn": "Impossible trinity", "v": "资本自由流动、固定汇率、独立货币政策，三者最多同时实现两个。", "vEn": "Free capital flows, a fixed rate and independent policy: at most two of the three." }
+      {
+        "k": "固定汇率",
+        "kEn": "Fixed",
+        "v": "锚定他国货币，降低贸易与投资不确定性，但需消耗外储并让渡货币政策。",
+        "vEn": "Pegging to another currency reduces trade uncertainty but costs reserves and monetary autonomy."
+      },
+      {
+        "k": "浮动汇率",
+        "kEn": "Floating",
+        "v": "由市场决定，货币政策独立，但汇率波动增加企业风险管理成本。",
+        "vEn": "Market-determined rates preserve policy independence but raise hedging costs for firms."
+      },
+      {
+        "k": "有管理浮动",
+        "kEn": "Managed float",
+        "v": "以市场为主、必要时干预，实践中大多数经济体处于这一区间。",
+        "vEn": "Mostly market-driven with occasional intervention: where most economies actually sit."
+      },
+      {
+        "k": "不可能三角",
+        "kEn": "Impossible trinity",
+        "v": "资本自由流动、固定汇率、独立货币政策，三者最多同时实现两个。",
+        "vEn": "Free capital flows, a fixed rate and independent policy: at most two of the three."
+      }
     ],
     "watch": [
       "「操纵汇率」在国际规则中需具体证据界定，不宜作为泛化指控。",
@@ -132,7 +256,13 @@
       "Reserves cap intervention capacity; depletion often forces a one-off revaluation."
     ],
     "related": ["rate-system", "money-creation", "bubbles-crises"],
-    "sources": [{ "label": "IMF 汇率安排与汇率限制年报", "labelEn": "IMF Annual Report on Exchange Arrangements and Exchange Restrictions", "year": 2023 }]
+    "sources": [
+      {
+        "label": "IMF 汇率安排与汇率限制年报",
+        "labelEn": "IMF Annual Report on Exchange Arrangements and Exchange Restrictions",
+        "year": 2023
+      }
+    ]
   },
   {
     "id": "bubbles-crises",
@@ -145,10 +275,30 @@
     "lead": "泡沫的典型配方是宽松资金 + 新叙事 + 杠杆 + 错配，破裂则通过资产负债表传染。",
     "leadEn": "Bubbles typically combine easy money, a new story, leverage and mismatch; the crash spreads through balance sheets.",
     "points": [
-      { "k": "形成条件", "kEn": "Conditions", "v": "低利率、金融创新、新叙事（新技术/新市场）与羊群行为共同推高价格。", "vEn": "Low rates, financial innovation, a new story and herding push prices up together." },
-      { "k": "传染路径", "kEn": "Contagion", "v": "资产价格下跌触发追缴保证金与抛售，抵押品价值下降压缩信贷。", "vEn": "Falling prices trigger margin calls and selling; collateral values drop and credit contracts." },
-      { "k": "政策应对", "kEn": "Policy response", "v": "降息、流动性支持、担保与资本注入，优先阻断系统性传染。", "vEn": "Rate cuts, liquidity support, guarantees and recapitalisation aim to stop systemic contagion." },
-      { "k": "事后代价", "kEn": "Aftermath", "v": "去杠杆导致长期低增长与失业上升，恢复往往以年计。", "vEn": "Deleveraging brings prolonged weak growth and higher unemployment; recovery takes years." }
+      {
+        "k": "形成条件",
+        "kEn": "Conditions",
+        "v": "低利率、金融创新、新叙事（新技术/新市场）与羊群行为共同推高价格。",
+        "vEn": "Low rates, financial innovation, a new story and herding push prices up together."
+      },
+      {
+        "k": "传染路径",
+        "kEn": "Contagion",
+        "v": "资产价格下跌触发追缴保证金与抛售，抵押品价值下降压缩信贷。",
+        "vEn": "Falling prices trigger margin calls and selling; collateral values drop and credit contracts."
+      },
+      {
+        "k": "政策应对",
+        "kEn": "Policy response",
+        "v": "降息、流动性支持、担保与资本注入，优先阻断系统性传染。",
+        "vEn": "Rate cuts, liquidity support, guarantees and recapitalisation aim to stop systemic contagion."
+      },
+      {
+        "k": "事后代价",
+        "kEn": "Aftermath",
+        "v": "去杠杆导致长期低增长与失业上升，恢复往往以年计。",
+        "vEn": "Deleveraging brings prolonged weak growth and higher unemployment; recovery takes years."
+      }
     ],
     "watch": [
       "「识别泡沫」在事前极难：事后看似明显，事前与「基本面改善」难以区分。",
@@ -159,6 +309,224 @@
       "Macroprudential tools aim to soften the aftermath, not to precisely prick bubbles."
     ],
     "related": ["money-creation", "central-bank-tools", "fx-regimes"],
-    "sources": [{ "label": "IMF《全球金融稳定报告》", "labelEn": "IMF Global Financial Stability Report", "year": 2024 }]
+    "sources": [
+      {
+        "label": "IMF《全球金融稳定报告》",
+        "labelEn": "IMF Global Financial Stability Report",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "payments-systems",
+    "title": "支付与清算体系",
+    "titleEn": "Payments and Settlement",
+    "icon": "💳",
+    "category": "货币",
+    "categoryEn": "Money",
+    "level": 2,
+    "lead": "钱的本体是记账：支付体系决定谁欠谁、何时结清，是现代经济的血管。",
+    "leadEn": "Money is bookkeeping at heart: the payments system decides who owes whom and when it settles—the economy's circulatory system.",
+    "points": [
+      {
+        "k": "零售与批发",
+        "kEn": "Retail vs wholesale",
+        "v": "日常扫码/刷卡走零售支付，银行间大额走批发系统实时总额结算。",
+        "vEn": "Everyday QR/card payments ride rails; interbank large transfers use real-time gross settlement."
+      },
+      {
+        "k": "清算与结算",
+        "kEn": "Clearing and settlement",
+        "v": "先算清应收应付（清算），再完成资金最终转移（结算），时点差产生风险。",
+        "vEn": "First net out claims (clearing), then make the final transfer (settlement); the lag between them creates risk."
+      },
+      {
+        "k": "基础设施",
+        "kEn": "Infrastructure",
+        "v": "央行大额系统与卡组织构成关键基础设施，宕机即系统性风险。",
+        "vEn": "Central-bank rails and card networks are critical infrastructure; an outage is systemic risk."
+      },
+      {
+        "k": "跨境痛点",
+        "kEn": "Cross-border friction",
+        "v": "多层代理行与报文系统使跨境支付慢、贵、不透明。",
+        "vEn": "Chains of correspondent banks and messaging make cross-border payment slow, costly and opaque."
+      }
+    ],
+    "watch": [
+      "支付即时化降低信用风险，却要求更高的流动性管理与技术韧性。",
+      "数据与入口集中使科技巨头成为新的系统重要性节点。"
+    ],
+    "watchEn": [
+      "Faster settlement cuts credit risk but demands tighter liquidity management and resilience.",
+      "Concentrated data and access make tech giants new systemically important nodes."
+    ],
+    "related": ["monetary-history", "money-creation", "qe"],
+    "sources": [
+      {
+        "label": "BIS 支付、清算与市场基础设施体系",
+        "labelEn": "BIS CPSS principles for financial market infrastructures",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "digital-currency",
+    "title": "数字货币与稳定币",
+    "titleEn": "Digital Currency and Stablecoins",
+    "icon": "🪙",
+    "category": "金融创新",
+    "categoryEn": "Financial innovation",
+    "level": 3,
+    "lead": "从现金到银行存款再到代币，货币形态在变，信任与记账的核心未变。",
+    "leadEn": "From cash to bank deposits to tokens: the form of money changes, but trust and bookkeeping remain the core.",
+    "points": [
+      {
+        "k": "CBDC",
+        "kEn": "CBDC",
+        "v": "央行数字货币是零售央行的直接负债，兼顾效率与监管，但涉隐私与金融脱媒。",
+        "vEn": "A central-bank digital currency is a direct central-bank liability—efficient yet raising privacy and disintermediation concerns."
+      },
+      {
+        "k": "私人加密货币",
+        "kEn": "Private crypto",
+        "v": "去中心化记账与无国界，但波动大、能耗高、多用于投机而非支付。",
+        "vEn": "Decentralized and borderless, yet volatile, energy-hungry and used more for speculation than payment."
+      },
+      {
+        "k": "稳定币",
+        "kEn": "Stablecoins",
+        "v": "挂钩法币以求稳定，靠储备资产兑付，挤兑与储备不透明是隐患。",
+        "vEn": "Pegged to fiat for stability and redeemed via reserves; runs and opaque reserves are the risk."
+      },
+      {
+        "k": "货币主权",
+        "kEn": "Monetary sovereignty",
+        "v": "广泛美元化稳定币削弱弱币国政策空间，推动各国加快自研。",
+        "vEn": "Widespread dollar-pegged stablecoins erode weak-currency policy space, spurring homegrown projects."
+      }
+    ],
+    "watch": [
+      "可编程性与可控匿名之间的张力，是 CBDC 设计最难权衡之处。",
+      "多数数字资产仍受传统金融监管，‘去中心化’并不等于免于监管。"
+    ],
+    "watchEn": [
+      "Balancing programmability against controllable anonymity is CBDC's hardest design trade-off.",
+      "Most digital assets remain under conventional finance rules; 'decentralized' is not 'unregulated'."
+    ],
+    "related": ["monetary-history", "fx-regimes", "payments-systems"],
+    "sources": [
+      {
+        "label": "BIS《创新走廊：CBDC 评估》",
+        "labelEn": "BIS Innovation Hub: CBDC evaluation",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "shadow-banking",
+    "title": "影子银行与期限错配",
+    "titleEn": "Shadow Banking and Maturity Mismatch",
+    "icon": "🏦",
+    "category": "金融稳定",
+    "categoryEn": "Financial stability",
+    "level": 3,
+    "lead": "在监管银行体系之外，同样在做借贷与转换期限的事，却少有安全网支撑。",
+    "leadEn": "Outside the regulated banking system lies lending and maturity transformation with fewer backstops.",
+    "points": [
+      {
+        "k": "什么是影子银行",
+        "kEn": "What it is",
+        "v": "货币基金、理财、同业、担保债务凭证等执行类银行功能而不受同等监管。",
+        "vEn": "Money funds, wealth-management products, interbank and structured credit act bank-like without equal regulation."
+      },
+      {
+        "k": "三个脆弱性",
+        "kEn": "Three vulnerabilities",
+        "v": "期限错配、流动性错配与高杠杆，一旦信心动摇就会挤兑式抛售。",
+        "vEn": "Maturity, liquidity mismatch and high leverage—shake confidence and runs turn into fire sales."
+      },
+      {
+        "k": "监管套利",
+        "kEn": "Regulatory arbitrage",
+        "v": "活动向监管更松处迁移，规则漏洞使风险隐蔽积累。",
+        "vEn": "Activity migrates to looser rules; gaps let risk build out of sight."
+      },
+      {
+        "k": "传染渠道",
+        "kEn": "Contagion",
+        "v": "与银行高度互联，使影子部门的风暴反噬正规体系。",
+        "vEn": "Deep links to banks let a shadow storm rebound onto the regulated system."
+      }
+    ],
+    "watch": [
+      "2008 年危机大量肇因于影子部门，宏观审慎将监管扩展到银行以外。",
+      "“大而不倒”之外还有“密而不倒”：互联度本身也是系统性风险源。"
+    ],
+    "watchEn": [
+      "The 2008 crisis owed much to the shadow sector; macroprudential oversight widened beyond banks.",
+      "Beyond 'too big to fail' lies 'too interconnected to fail'."
+    ],
+    "related": ["money-creation", "bubbles-crises", "leverage"],
+    "sources": [
+      {
+        "label": "FSB 全球影子银行监测报告",
+        "labelEn": "FSB Global Shadow Banking Monitoring Report",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "deposit-insurance",
+    "title": "存款保险与安全网",
+    "titleEn": "Deposit Insurance and Safety Nets",
+    "icon": "🛡️",
+    "category": "金融稳定",
+    "categoryEn": "Financial stability",
+    "level": 3,
+    "lead": "为存款兜底能防挤兑，却也会鼓励银行冒险，这就是安全网的两难。",
+    "leadEn": "Backstop deposits and you prevent runs but invite risk-taking—that is the safety-net dilemma.",
+    "points": [
+      {
+        "k": "为何存在",
+        "kEn": "Why it exists",
+        "v": "银行天然面临“先取先得”博弈，保险打破自我实现式挤兑。",
+        "vEn": "Banks face a first-come-first-served game; insurance breaks self-fulfilling runs."
+      },
+      {
+        "k": "道德风险",
+        "kEn": "Moral hazard",
+        "v": "储户不再监督银行、银行敢于加风险，需以审慎监管与资本要求对冲。",
+        "vEn": "Depositors stop monitoring and banks take risk—offset by prudential rules and capital."
+      },
+      {
+        "k": "有限 vs 全额",
+        "kEn": "Capped vs full",
+        "v": "限额保险保留部分市场纪律，全额保护更稳但道德风险更大。",
+        "vEn": "A cap preserves some discipline; full cover is steadier but riskier in behavior."
+      },
+      {
+        "k": "最后贷款人",
+        "kEn": "Lender of last resort",
+        "v": "央行向健康但遭挤兑的机构注入流动性，与保险共同构成安全网。",
+        "vEn": "The central bank lends to sound-but-run-out institutions, forming the backstop with insurance."
+      }
+    ],
+    "watch": [
+      "保护上限与赔付速度决定了恐慌时市场能否真正稳定。",
+      "安全网不可免费：成本以保费、财政风险与潜在通胀方式分摊。"
+    ],
+    "watchEn": [
+      "The coverage cap and payout speed decide whether panic truly stabilizes.",
+      "The backstop isn't free: it costs premiums, fiscal risk and possible inflation."
+    ],
+    "related": ["central-bank-tools", "bubbles-crises", "money-creation"],
+    "sources": [
+      {
+        "label": "FDIC《监管改革》；戴蒙德—迪布维格模型",
+        "labelEn": "FDIC; Diamond & Dybvig bank-run model",
+        "year": 1983
+      }
+    ]
   }
 ]

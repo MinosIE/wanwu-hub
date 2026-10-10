@@ -10,10 +10,30 @@
     "lead": "价格变化是「沿曲线移动」，收入、偏好、替代品价格变化才是「整条曲线平移」。",
     "leadEn": "A price change moves you along the curve; income, tastes or substitute prices shift the whole curve.",
     "points": [
-      { "k": "沿曲线移动", "kEn": "Movement along", "v": "只有自身价格变化才导致需求量变化，其余因素不变。", "vEn": "Only the good's own price changes quantity demanded, holding everything else constant." },
-      { "k": "曲线右移", "kEn": "Shift right", "v": "收入上升、偏好转向、替代品涨价或买家人数增加都会推高需求。", "vEn": "Higher income, shifting tastes, pricier substitutes or more buyers all raise demand." },
-      { "k": "曲线左移", "kEn": "Shift left", "v": "互补品涨价、预期未来降价、替代品降价都会压低需求。", "vEn": "Pricier complements, expectations of future discounts or cheaper substitutes reduce demand." },
-      { "k": "需求 vs 需求量", "kEn": "Demand vs quantity", "v": "中文常混用，但前者指整条曲线，后者指某一价格下的具体数量。", "vEn": "Demand is the whole curve; quantity demanded is the amount at a given price." }
+      {
+        "k": "沿曲线移动",
+        "kEn": "Movement along",
+        "v": "只有自身价格变化才导致需求量变化，其余因素不变。",
+        "vEn": "Only the good's own price changes quantity demanded, holding everything else constant."
+      },
+      {
+        "k": "曲线右移",
+        "kEn": "Shift right",
+        "v": "收入上升、偏好转向、替代品涨价或买家人数增加都会推高需求。",
+        "vEn": "Higher income, shifting tastes, pricier substitutes or more buyers all raise demand."
+      },
+      {
+        "k": "曲线左移",
+        "kEn": "Shift left",
+        "v": "互补品涨价、预期未来降价、替代品降价都会压低需求。",
+        "vEn": "Pricier complements, expectations of future discounts or cheaper substitutes reduce demand."
+      },
+      {
+        "k": "需求 vs 需求量",
+        "kEn": "Demand vs quantity",
+        "v": "中文常混用，但前者指整条曲线，后者指某一价格下的具体数量。",
+        "vEn": "Demand is the whole curve; quantity demanded is the amount at a given price."
+      }
     ],
     "watch": [
       "把「价格上涨导致需求减少」和「需求减少导致价格下跌」混为一谈，是最常见的因果倒置。",
@@ -24,7 +44,13 @@
       "Price and quantity rising together usually means a curve shifted, not that the law of demand failed."
     ],
     "related": ["elasticity-pricing", "cost-structure", "market-forms"],
-    "sources": [{ "label": "马歇尔《经济学原理》", "labelEn": "Marshall, Principles of Economics", "year": 1890 }]
+    "sources": [
+      {
+        "label": "马歇尔《经济学原理》",
+        "labelEn": "Marshall, Principles of Economics",
+        "year": 1890
+      }
+    ]
   },
   {
     "id": "elasticity-pricing",
@@ -37,10 +63,30 @@
     "lead": "涨价能否增加收入，取决于需求弹性；弹性小于 1 时涨价增收，大于 1 时涨价反而减收。",
     "leadEn": "Whether a price rise raises revenue depends on elasticity: below 1 it helps, above 1 it hurts.",
     "points": [
-      { "k": "缺乏弹性", "kEn": "Inelastic", "v": "必需品、替代品少、占支出比例小 → 涨价后销量跌得少，收入增加。", "vEn": "Necessities with few substitutes and a small budget share lose few sales, so revenue rises." },
-      { "k": "富有弹性", "kEn": "Elastic", "v": "非必需、替代品多、比价方便 → 涨价后销量大跌，收入可能下降。", "vEn": "Discretionary goods with many substitutes lose sales sharply, so revenue can fall." },
-      { "k": "长期更敏感", "kEn": "More elastic over time", "v": "短期难以改变习惯，长期可以换车、搬家、改配方，弹性上升。", "vEn": "Habits adjust slowly: over time people can switch cars or suppliers, raising elasticity." },
-      { "k": "定价启示", "kEn": "Pricing lesson", "v": "把不同弹性的人群分开（学生票、早鸟价），是提高总收入的标准做法。", "vEn": "Separating groups by elasticity — student fares, early-bird rates — is the standard way to raise revenue." }
+      {
+        "k": "缺乏弹性",
+        "kEn": "Inelastic",
+        "v": "必需品、替代品少、占支出比例小 → 涨价后销量跌得少，收入增加。",
+        "vEn": "Necessities with few substitutes and a small budget share lose few sales, so revenue rises."
+      },
+      {
+        "k": "富有弹性",
+        "kEn": "Elastic",
+        "v": "非必需、替代品多、比价方便 → 涨价后销量大跌，收入可能下降。",
+        "vEn": "Discretionary goods with many substitutes lose sales sharply, so revenue can fall."
+      },
+      {
+        "k": "长期更敏感",
+        "kEn": "More elastic over time",
+        "v": "短期难以改变习惯，长期可以换车、搬家、改配方，弹性上升。",
+        "vEn": "Habits adjust slowly: over time people can switch cars or suppliers, raising elasticity."
+      },
+      {
+        "k": "定价启示",
+        "kEn": "Pricing lesson",
+        "v": "把不同弹性的人群分开（学生票、早鸟价），是提高总收入的标准做法。",
+        "vEn": "Separating groups by elasticity — student fares, early-bird rates — is the standard way to raise revenue."
+      }
     ],
     "watch": [
       "「涨价一定赚钱」只在缺乏弹性时成立，很多企业败在这里。",
@@ -51,7 +97,13 @@
       "Elasticity is an estimate, not a constant: it varies by period and market."
     ],
     "related": ["demand-curve", "market-forms", "cost-structure"],
-    "sources": [{ "label": "曼昆《经济学原理》", "labelEn": "Mankiw, Principles of Economics", "year": 2020 }]
+    "sources": [
+      {
+        "label": "曼昆《经济学原理》",
+        "labelEn": "Mankiw, Principles of Economics",
+        "year": 2020
+      }
+    ]
   },
   {
     "id": "cost-structure",
@@ -64,10 +116,30 @@
     "lead": "固定成本、可变成本与边际成本决定企业的盈亏平衡点与最优产量。",
     "leadEn": "Fixed, variable and marginal costs determine a firm's break-even point and optimal output.",
     "points": [
-      { "k": "固定成本", "kEn": "Fixed", "v": "与产量无关（厂房、软件研发、牌照），产量越大单件摊得越薄。", "vEn": "Independent of output (plants, software development, licences) and spread thinner as volume grows." },
-      { "k": "可变成本", "kEn": "Variable", "v": "随产量变化（原料、计件工资、运费）。", "vEn": "Scales with output: materials, piece-rate wages, freight." },
-      { "k": "边际成本", "kEn": "Marginal", "v": "多做一件的增量成本；只要价格高于它，短期内继续生产就是合理的。", "vEn": "The extra cost of one more unit: while price exceeds it, producing on is rational in the short run." },
-      { "k": "盈亏平衡", "kEn": "Break-even", "v": "总贡献（价格 − 可变成本）覆盖固定成本时的产量即为平衡点。", "vEn": "The output at which total contribution (price minus variable cost) covers fixed cost." }
+      {
+        "k": "固定成本",
+        "kEn": "Fixed",
+        "v": "与产量无关（厂房、软件研发、牌照），产量越大单件摊得越薄。",
+        "vEn": "Independent of output (plants, software development, licences) and spread thinner as volume grows."
+      },
+      {
+        "k": "可变成本",
+        "kEn": "Variable",
+        "v": "随产量变化（原料、计件工资、运费）。",
+        "vEn": "Scales with output: materials, piece-rate wages, freight."
+      },
+      {
+        "k": "边际成本",
+        "kEn": "Marginal",
+        "v": "多做一件的增量成本；只要价格高于它，短期内继续生产就是合理的。",
+        "vEn": "The extra cost of one more unit: while price exceeds it, producing on is rational in the short run."
+      },
+      {
+        "k": "盈亏平衡",
+        "kEn": "Break-even",
+        "v": "总贡献（价格 − 可变成本）覆盖固定成本时的产量即为平衡点。",
+        "vEn": "The output at which total contribution (price minus variable cost) covers fixed cost."
+      }
     ],
     "watch": [
       "固定成本高、边际成本低的行业（软件、内容、航空）天然趋向规模集中与价格战。",
@@ -78,7 +150,13 @@
       "Treating spent fixed cost as a reason to continue is the sunk-cost fallacy."
     ],
     "related": ["market-forms", "elasticity-pricing", "demand-curve"],
-    "sources": [{ "label": "平狄克、鲁宾费尔德《微观经济学》", "labelEn": "Pindyck & Rubinfeld, Microeconomics", "year": 2018 }]
+    "sources": [
+      {
+        "label": "平狄克、鲁宾费尔德《微观经济学》",
+        "labelEn": "Pindyck & Rubinfeld, Microeconomics",
+        "year": 2018
+      }
+    ]
   },
   {
     "id": "market-forms",
@@ -91,10 +169,30 @@
     "lead": "从完全竞争到垄断，卖家数量与产品差异决定定价权，也决定对消费者与效率的影响。",
     "leadEn": "From perfect competition to monopoly, seller count and differentiation determine pricing power and welfare.",
     "points": [
-      { "k": "完全竞争", "kEn": "Perfect competition", "v": "众多小卖家、同质产品、自由进出，长期利润趋近于零。", "vEn": "Many small sellers of identical goods with free entry: long-run profit tends to zero." },
-      { "k": "垄断竞争", "kEn": "Monopolistic competition", "v": "产品有差异（餐馆、服装），短期有定价权，长期因进入而摊薄。", "vEn": "Differentiated products (restaurants, apparel) give short-run pricing power that erodes with entry." },
-      { "k": "寡头", "kEn": "Oligopoly", "v": "少数几家彼此牵制，策略互动明显，可能默契维持高价。", "vEn": "A few interdependent players: strategic interaction can sustain high prices tacitly." },
-      { "k": "垄断", "kEn": "Monopoly", "v": "单一卖家可定价，但受需求约束；若靠壁垒维持，需监管介入。", "vEn": "A single seller can set price, limited by demand; if sustained by barriers, regulation follows." }
+      {
+        "k": "完全竞争",
+        "kEn": "Perfect competition",
+        "v": "众多小卖家、同质产品、自由进出，长期利润趋近于零。",
+        "vEn": "Many small sellers of identical goods with free entry: long-run profit tends to zero."
+      },
+      {
+        "k": "垄断竞争",
+        "kEn": "Monopolistic competition",
+        "v": "产品有差异（餐馆、服装），短期有定价权，长期因进入而摊薄。",
+        "vEn": "Differentiated products (restaurants, apparel) give short-run pricing power that erodes with entry."
+      },
+      {
+        "k": "寡头",
+        "kEn": "Oligopoly",
+        "v": "少数几家彼此牵制，策略互动明显，可能默契维持高价。",
+        "vEn": "A few interdependent players: strategic interaction can sustain high prices tacitly."
+      },
+      {
+        "k": "垄断",
+        "kEn": "Monopoly",
+        "v": "单一卖家可定价，但受需求约束；若靠壁垒维持，需监管介入。",
+        "vEn": "A single seller can set price, limited by demand; if sustained by barriers, regulation follows."
+      }
     ],
     "watch": [
       "「集中度下降就一定有竞争」未必成立：地域、渠道或数据壁垒可能仍阻止有效竞争。",
@@ -104,8 +202,18 @@
       "Falling concentration does not guarantee competition: geographic, channel or data barriers may persist.",
       "Monopoly is not always harmful: in natural monopolies (grids, water networks) one provider is cheapest."
     ],
-    "related": ["cost-structure", "externality-policy", "information-asymmetry"],
-    "sources": [{ "label": "泰勒尔《产业组织理论》", "labelEn": "Tirole, The Theory of Industrial Organization", "year": 1988 }]
+    "related": [
+      "cost-structure",
+      "externality-policy",
+      "information-asymmetry"
+    ],
+    "sources": [
+      {
+        "label": "泰勒尔《产业组织理论》",
+        "labelEn": "Tirole, The Theory of Industrial Organization",
+        "year": 1988
+      }
+    ]
   },
   {
     "id": "externality-policy",
@@ -118,10 +226,30 @@
     "lead": "庇古税、排污权交易、科斯式产权界定与直接管制各有适用条件与代价。",
     "leadEn": "Pigouvian taxes, permit trading, Coasean property rights and direct regulation each fit different conditions.",
     "points": [
-      { "k": "庇古税", "kEn": "Pigouvian tax", "v": "按边际外部成本征税，把社会成本内化到价格中，简单但税率难定。", "vEn": "Taxing the marginal external cost internalises it, yet the right rate is hard to know." },
-      { "k": "排污权交易", "kEn": "Cap and trade", "v": "先定总量再让市场分配配额，减排成本低者多减、成本高者购买。", "vEn": "Cap the total and let the market allocate permits: cheap abaters cut more, costly ones buy." },
-      { "k": "产权界定", "kEn": "Property rights", "v": "若交易成本低、产权清晰，双方可自行协商达成有效结果（科斯定理）。", "vEn": "With clear rights and low transaction costs, parties can bargain to an efficient outcome (Coase)." },
-      { "k": "直接管制", "kEn": "Regulation", "v": "标准、禁令、技术强制，执行确定但往往缺乏灵活性、成本更高。", "vEn": "Standards, bans and technology mandates are certain to enforce but inflexible and often costlier." }
+      {
+        "k": "庇古税",
+        "kEn": "Pigouvian tax",
+        "v": "按边际外部成本征税，把社会成本内化到价格中，简单但税率难定。",
+        "vEn": "Taxing the marginal external cost internalises it, yet the right rate is hard to know."
+      },
+      {
+        "k": "排污权交易",
+        "kEn": "Cap and trade",
+        "v": "先定总量再让市场分配配额，减排成本低者多减、成本高者购买。",
+        "vEn": "Cap the total and let the market allocate permits: cheap abaters cut more, costly ones buy."
+      },
+      {
+        "k": "产权界定",
+        "kEn": "Property rights",
+        "v": "若交易成本低、产权清晰，双方可自行协商达成有效结果（科斯定理）。",
+        "vEn": "With clear rights and low transaction costs, parties can bargain to an efficient outcome (Coase)."
+      },
+      {
+        "k": "直接管制",
+        "kEn": "Regulation",
+        "v": "标准、禁令、技术强制，执行确定但往往缺乏灵活性、成本更高。",
+        "vEn": "Standards, bans and technology mandates are certain to enforce but inflexible and often costlier."
+      }
     ],
     "watch": [
       "科斯定理的前提（产权清晰、交易成本低）在现实中常常不成立，因此不能一律「交给市场」。",
@@ -132,7 +260,13 @@
       "Under a cap, how permits are initially allocated decides who wins and who loses."
     ],
     "related": ["market-forms", "information-asymmetry", "cost-structure"],
-    "sources": [{ "label": "科斯《社会成本问题》", "labelEn": "Coase, The Problem of Social Cost", "year": 1960 }]
+    "sources": [
+      {
+        "label": "科斯《社会成本问题》",
+        "labelEn": "Coase, The Problem of Social Cost",
+        "year": 1960
+      }
+    ]
   },
   {
     "id": "information-asymmetry",
@@ -145,10 +279,30 @@
     "lead": "一方知道得更多，市场可能萎缩甚至消失，因为好商品被坏商品挤出。",
     "leadEn": "When one side knows more, markets can shrink or vanish as good products are driven out.",
     "points": [
-      { "k": "逆向选择", "kEn": "Adverse selection", "v": "交易前信息劣势方无法分辨质量，只愿出平均价，优质卖家退出。", "vEn": "Before contracting, the less informed side pays an average price, so high-quality sellers exit." },
-      { "k": "道德风险", "kEn": "Moral hazard", "v": "交易后因有人兜底而改变行为，如参保后更不注意健康。", "vEn": "After contracting, protection changes behaviour, such as taking fewer health precautions once insured." },
-      { "k": "信号", "kEn": "Signalling", "v": "有成本且难以伪造的信号（学历、认证、保修）能重建信任。", "vEn": "Costly, hard-to-fake signals (degrees, certification, warranties) rebuild trust." },
-      { "k": "筛选", "kEn": "Screening", "v": "信息劣势方设计机制让不同类型自我暴露，如免赔额与自付比例。", "vEn": "The less informed side designs menus that make types reveal themselves, such as deductibles." }
+      {
+        "k": "逆向选择",
+        "kEn": "Adverse selection",
+        "v": "交易前信息劣势方无法分辨质量，只愿出平均价，优质卖家退出。",
+        "vEn": "Before contracting, the less informed side pays an average price, so high-quality sellers exit."
+      },
+      {
+        "k": "道德风险",
+        "kEn": "Moral hazard",
+        "v": "交易后因有人兜底而改变行为，如参保后更不注意健康。",
+        "vEn": "After contracting, protection changes behaviour, such as taking fewer health precautions once insured."
+      },
+      {
+        "k": "信号",
+        "kEn": "Signalling",
+        "v": "有成本且难以伪造的信号（学历、认证、保修）能重建信任。",
+        "vEn": "Costly, hard-to-fake signals (degrees, certification, warranties) rebuild trust."
+      },
+      {
+        "k": "筛选",
+        "kEn": "Screening",
+        "v": "信息劣势方设计机制让不同类型自我暴露，如免赔额与自付比例。",
+        "vEn": "The less informed side designs menus that make types reveal themselves, such as deductibles."
+      }
     ],
     "watch": [
       "二手车、保险、信贷、招聘、医疗是信息不对称最典型的五个场景。",
@@ -159,6 +313,224 @@
       "Platform ratings and third-party certification are modern signals, but fake reviews erode them."
     ],
     "related": ["market-forms", "externality-policy", "demand-curve"],
-    "sources": [{ "label": "阿克洛夫《柠檬市场》", "labelEn": "Akerlof, The Market for Lemons", "year": 1970 }]
+    "sources": [
+      {
+        "label": "阿克洛夫《柠檬市场》",
+        "labelEn": "Akerlof, The Market for Lemons",
+        "year": 1970
+      }
+    ]
+  },
+  {
+    "id": "consumer-choice",
+    "title": "消费者选择与边际效用",
+    "titleEn": "Consumer Choice and Marginal Utility",
+    "icon": "🛒",
+    "category": "需求",
+    "categoryEn": "Demand",
+    "level": 2,
+    "lead": "理性消费者把每一元花在不同商品上获得相等的边际满足，需求曲线由此而来。",
+    "leadEn": "A rational buyer allocates each dollar until marginal satisfaction equalizes across goods—that is where demand comes from.",
+    "points": [
+      {
+        "k": "边际效用递减",
+        "kEn": "Diminishing marginal utility",
+        "v": "同一商品越多，每多一单位带来的满足越小，愿意支付随之下降。",
+        "vEn": "Each extra unit adds less satisfaction, so willingness to pay falls as you consume more."
+      },
+      {
+        "k": "预算约束",
+        "kEn": "Budget constraint",
+        "v": "收入与价格划定可行集，消费者在约束内取无差异曲线切点。",
+        "vEn": "Income and prices bound the feasible set; the optimum sits where the budget line touches an indifference curve."
+      },
+      {
+        "k": "替代与收入效应",
+        "kEn": "Substitution and income effects",
+        "v": "降价既使人转多买相对便宜者，又变相提高实际收入。",
+        "vEn": "A price cut both shifts buying toward the now-cheaper good and raises real income."
+      },
+      {
+        "k": "展示偏好",
+        "kEn": "Revealed preference",
+        "v": "与其追问主观效用，不如从实际选择反推偏好，奠定可验证的基础。",
+        "vEn": "Rather than probe subjective utility, infer preference from actual choices, giving the theory testable footing."
+      }
+    ],
+    "watch": [
+      "真实消费者常受预算幻觉、品牌与默认选项影响，未必最优化。",
+      "行为经济学用参考点与损失厌恶修正了完全理性的消费假设。"
+    ],
+    "watchEn": [
+      "Real buyers fall for money illusion, brands and defaults, and rarely optimize.",
+      "Behavioral economics revises fully-rational consumption with reference points and loss aversion."
+    ],
+    "related": ["demand-curve", "elasticity-pricing", "consumer-surplus"],
+    "sources": [
+      {
+        "label": "马歇尔《经济学原理》；萨缪尔森展示偏好",
+        "labelEn": "Marshall, Principles; Samuelson, revealed preference",
+        "year": 1938
+      }
+    ]
+  },
+  {
+    "id": "factor-markets",
+    "title": "要素市场与工资",
+    "titleEn": "Factor Markets and Wages",
+    "icon": "🧑‍🔧",
+    "category": "市场",
+    "categoryEn": "Markets",
+    "level": 3,
+    "lead": "工资不由“需要”决定，而由劳动的边际产品价值与供求共同决定。",
+    "leadEn": "Wages are set not by 'need' but by labor's marginal revenue product and by supply and demand.",
+    "points": [
+      {
+        "k": "边际生产力",
+        "kEn": "Marginal product",
+        "v": "竞争企业雇人直到工人边际产出价值等于工资。",
+        "vEn": "A competitive firm hires until the worker's marginal product value equals the wage."
+      },
+      {
+        "k": "人力资本",
+        "kEn": "Human capital",
+        "v": "教育、培训与经验提高生产率，形成工资差异的主因之一。",
+        "vEn": "Education, training and experience raise productivity, a key source of wage gaps."
+      },
+      {
+        "k": "补偿性差异",
+        "kEn": "Compensating differentials",
+        "v": "危险、辛苦、不稳定岗位靠高薪补偿非金钱成本。",
+        "vEn": "Dangerous, unpleasant or unstable jobs command pay that offsets non-monetary costs."
+      },
+      {
+        "k": "制度与搜职",
+        "kEn": "Institutions and search",
+        "v": "最低工资、工会、信息摩擦与歧视使真实工资偏离竞争解。",
+        "vEn": "Minimum wages, unions, search frictions and discrimination push real wages off the competitive answer."
+      }
+    ],
+    "watch": [
+      "最低工资对就业的影响取决于市场力量，结论依情境而异、并非一刀切。",
+      "全球化与技术进步会重新给不同技能定价，加剧工资不平等。"
+    ],
+    "watchEn": [
+      "Minimum wage's employment effect depends on market power; there is no one-size-fits-all answer.",
+      "Globalization and technology reprice skills, widening wage inequality."
+    ],
+    "related": ["cost-structure", "elasticity-pricing", "gini"],
+    "sources": [
+      {
+        "label": "贝克尔《人力资本》；卡德—克鲁格最低工资研究",
+        "labelEn": "Becker, Human Capital; Card & Krueger on minimum wage",
+        "year": 1994
+      }
+    ]
+  },
+  {
+    "id": "price-signals",
+    "title": "价格作为信号",
+    "titleEn": "Prices as Signals",
+    "icon": "📡",
+    "category": "机制",
+    "categoryEn": "Mechanisms",
+    "level": 2,
+    "lead": "价格无需中央计划就把稀缺与偏好压缩成一个数字，指引千千万万陌生人协作。",
+    "leadEn": "Prices compress scarcity and preference into one number, coordinating millions of strangers without central planning.",
+    "points": [
+      {
+        "k": "知识问题",
+        "kEn": "The knowledge problem",
+        "v": "哈耶克指出分散知识无人能总集，价格利用它们而无需知晓全局。",
+        "vEn": "Hayek: dispersed knowledge no one can aggregate—prices use it without anyone holding the whole."
+      },
+      {
+        "k": "激励与配给",
+        "kEn": "Incentive and rationing",
+        "v": "高价同时鼓励多生产、促使少浪费，充当无声的配给器。",
+        "vEn": "High prices simultaneously encourage more supply and less waste—a silent rationing device."
+      },
+      {
+        "k": "价格失灵",
+        "kEn": "When prices misfire",
+        "v": "外部性、公共品与信息不对称会让价格偏离真实社会成本与价值。",
+        "vEn": "Externalities, public goods and information gaps drive prices away from true social cost and value."
+      },
+      {
+        "k": "价格管制",
+        "kEn": "Price controls",
+        "v": "人为压低易致短缺与排队，抬高则致过剩与浪费。",
+        "vEn": "Forcing prices down breeds shortages and queues; holding them up breeds surpluses and waste."
+      }
+    ],
+    "watch": [
+      "价格传递信息也会放大噪声，短期波动未必反映长期稀缺。",
+      "市场能组织协作，但不自动保证公平与底线保障。"
+    ],
+    "watchEn": [
+      "Prices carry information but can amplify noise; short swings need not reflect long-run scarcity.",
+      "Markets organize cooperation but do not guarantee fairness or a floor."
+    ],
+    "related": ["supply-demand", "equilibrium", "externality-policy"],
+    "sources": [
+      {
+        "label": "哈耶克《知识在社会中的运用》",
+        "labelEn": "Hayek, The Use of Knowledge in Society",
+        "year": 1945
+      }
+    ]
+  },
+  {
+    "id": "public-choice",
+    "title": "公共选择与政府失灵",
+    "titleEn": "Public Choice and Government Failure",
+    "icon": "🏛️",
+    "category": "市场失灵",
+    "categoryEn": "Market failure",
+    "level": 3,
+    "lead": "市场会失灵，制定政策的官员、选民与利益集团同样理性自利，政府也可能失灵。",
+    "leadEn": "Markets fail, but the officials, voters and interest groups who set policy are equally self-interested—government can fail too.",
+    "points": [
+      {
+        "k": "理性无知",
+        "kEn": "Rational ignorance",
+        "v": "单票影响力微小，选民缺乏动力了如指掌，容易被口号与叙事左右。",
+        "vEn": "One vote barely matters, so voters under-invest in information and fall for slogans and narrative."
+      },
+      {
+        "k": "集中收益、分散成本",
+        "kEn": "Concentrated benefits",
+        "v": "小集团为集中好处积极游说，大众分摊成本却难以组织。",
+        "vEn": "Small groups lobby hard for concentrated gains while dispersed losers struggle to organize."
+      },
+      {
+        "k": "寻租",
+        "kEn": "Rent-seeking",
+        "v": "把资源用于争取特权与补贴而非创造财富，造成真实损耗。",
+        "vEn": "Spending resources to grab privileges and subsidies rather than create wealth causes real waste."
+      },
+      {
+        "k": "选票周期",
+        "kEn": "Political business cycle",
+        "v": "选前扩张、选后紧缩，短期政治动机扭曲长期政策。",
+        "vEn": "Expand before the vote, tighten after it—short-term political motives distort long-term policy."
+      }
+    ],
+    "watch": [
+      "指出政府失灵不等于市场万能，关键是比较两种现实的治理成本。",
+      "好的制度设计（透明、问责、约束）意在减轻而非消除自利行为。"
+    ],
+    "watchEn": [
+      "Spotting government failure isn't a case for laissez-faire; compare the costs of realistic alternatives.",
+      "Good institutions (transparency, accountability, constraints) curb rather than erase self-interest."
+    ],
+    "related": ["externality-policy", "information-asymmetry", "public-goods"],
+    "sources": [
+      {
+        "label": "布坎南—图洛克《同意的计算》；奥尔森《集体行动的逻辑》",
+        "labelEn": "Buchanan & Tullock; Olson, The Logic of Collective Action",
+        "year": 1962
+      }
+    ]
   }
 ]

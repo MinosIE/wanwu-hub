@@ -11,11 +11,27 @@
     "example": "两国分别专注自己放弃代价最小的产品并交换，两国可消费的组合都更大。",
     "exampleEn": "Two countries specialise in what costs them least to forgo, and both can consume a larger bundle.",
     "views": [
-      { "k": "主流经济学观点", "kEn": "Mainstream view", "v": "贸易提高总产出、降低价格、扩大选择，长期对多数人有利。", "vEn": "Trade raises output, lowers prices and widens choice, benefiting most people over time." },
-      { "k": "批评与修正", "kEn": "Critiques", "v": "收益分配不均、产业空心化与安全依赖风险真实存在，不能只用总量论证。", "vEn": "Uneven distribution, deindustrialisation and security dependence are real, so aggregate arguments alone are insufficient." }
+      {
+        "k": "主流经济学观点",
+        "kEn": "Mainstream view",
+        "v": "贸易提高总产出、降低价格、扩大选择，长期对多数人有利。",
+        "vEn": "Trade raises output, lowers prices and widens choice, benefiting most people over time."
+      },
+      {
+        "k": "批评与修正",
+        "kEn": "Critiques",
+        "v": "收益分配不均、产业空心化与安全依赖风险真实存在，不能只用总量论证。",
+        "vEn": "Uneven distribution, deindustrialisation and security dependence are real, so aggregate arguments alone are insufficient."
+      }
     ],
     "related": ["tariff-war", "trade-deficit-meaning", "currency-and-trade"],
-    "sources": [{ "label": "李嘉图《政治经济学及赋税原理》", "labelEn": "Ricardo, On the Principles of Political Economy and Taxation", "year": 1817 }]
+    "sources": [
+      {
+        "label": "李嘉图《政治经济学及赋税原理》",
+        "labelEn": "Ricardo, On the Principles of Political Economy and Taxation",
+        "year": 1817
+      }
+    ]
   },
   {
     "id": "tariff-war",
@@ -29,11 +45,31 @@
     "example": "对进口洗衣机加税后，本国同类产品价格同步上升，消费者实际承担了大部分成本。",
     "exampleEn": "After tariffs on imported washing machines, domestic prices rose too, so consumers bore much of the cost.",
     "views": [
-      { "k": "支持关税的理由", "kEn": "Case for", "v": "保护幼稚产业、维护供应链安全、应对不公平补贴与倾销。", "vEn": "Protecting infant industries, securing supply chains, and countering unfair subsidies or dumping." },
-      { "k": "反对关税的理由", "kEn": "Case against", "v": "抬高国内成本、引发报复、保护低效率、最终由本国消费者买单。", "vEn": "Raising domestic costs, inviting retaliation, protecting inefficiency and ultimately taxing local consumers." }
+      {
+        "k": "支持关税的理由",
+        "kEn": "Case for",
+        "v": "保护幼稚产业、维护供应链安全、应对不公平补贴与倾销。",
+        "vEn": "Protecting infant industries, securing supply chains, and countering unfair subsidies or dumping."
+      },
+      {
+        "k": "反对关税的理由",
+        "kEn": "Case against",
+        "v": "抬高国内成本、引发报复、保护低效率、最终由本国消费者买单。",
+        "vEn": "Raising domestic costs, inviting retaliation, protecting inefficiency and ultimately taxing local consumers."
+      }
     ],
-    "related": ["gains-from-trade", "trade-deficit-meaning", "global-supply-chain-risks"],
-    "sources": [{ "label": "WTO 关税与贸易政策审议报告", "labelEn": "WTO trade policy review reports", "year": 2024 }]
+    "related": [
+      "gains-from-trade",
+      "trade-deficit-meaning",
+      "global-supply-chain-risks"
+    ],
+    "sources": [
+      {
+        "label": "WTO 关税与贸易政策审议报告",
+        "labelEn": "WTO trade policy review reports",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "trade-deficit-meaning",
@@ -47,11 +83,27 @@
     "example": "一个国家大量进口设备用于扩产，短期逆差扩大但未来产能提升；另一种逆差源于长期借债消费，性质完全不同。",
     "exampleEn": "Importing machinery to expand capacity widens a deficit temporarily; borrowing to fund consumption is a different matter entirely.",
     "views": [
-      { "k": "不必恐慌", "kEn": "Not alarming per se", "v": "逆差可反映投资吸引力与全球分工位置，是储蓄投资关系的镜像。", "vEn": "A deficit can reflect investment attractiveness and global division of labour: a mirror of the saving-investment balance." },
-      { "k": "值得警惕", "kEn": "Worth watching", "v": "若由持续借债消费驱动，可能积累外债风险与货币脆弱性。", "vEn": "If driven by debt-financed consumption, it can accumulate external debt risk and currency fragility." }
+      {
+        "k": "不必恐慌",
+        "kEn": "Not alarming per se",
+        "v": "逆差可反映投资吸引力与全球分工位置，是储蓄投资关系的镜像。",
+        "vEn": "A deficit can reflect investment attractiveness and global division of labour: a mirror of the saving-investment balance."
+      },
+      {
+        "k": "值得警惕",
+        "kEn": "Worth watching",
+        "v": "若由持续借债消费驱动，可能积累外债风险与货币脆弱性。",
+        "vEn": "If driven by debt-financed consumption, it can accumulate external debt risk and currency fragility."
+      }
     ],
     "related": ["gains-from-trade", "tariff-war", "currency-and-trade"],
-    "sources": [{ "label": "IMF 对外部门报告", "labelEn": "IMF External Sector Report", "year": 2024 }]
+    "sources": [
+      {
+        "label": "IMF 对外部门报告",
+        "labelEn": "IMF External Sector Report",
+        "year": 2024
+      }
+    ]
   },
   {
     "id": "global-supply-chain-risks",
@@ -65,11 +117,27 @@
     "example": "一颗几元钱的芯片缺货，导致整车厂停产，损失以数十亿计。",
     "exampleEn": "A shortage of a chip costing a few dollars halted car plants, with losses in the billions.",
     "views": [
-      { "k": "效率优先", "kEn": "Efficiency first", "v": "专业化与规模效应显著降低成本，过度冗余会削弱长期竞争力。", "vEn": "Specialisation and scale cut costs sharply; excessive redundancy erodes long-run competitiveness." },
-      { "k": "韧性优先", "kEn": "Resilience first", "v": "关键领域的断供代价极高，适度冗余是必要的保险费。", "vEn": "In critical sectors, disruption costs are extreme, so some redundancy is necessary insurance." }
+      {
+        "k": "效率优先",
+        "kEn": "Efficiency first",
+        "v": "专业化与规模效应显著降低成本，过度冗余会削弱长期竞争力。",
+        "vEn": "Specialisation and scale cut costs sharply; excessive redundancy erodes long-run competitiveness."
+      },
+      {
+        "k": "韧性优先",
+        "kEn": "Resilience first",
+        "v": "关键领域的断供代价极高，适度冗余是必要的保险费。",
+        "vEn": "In critical sectors, disruption costs are extreme, so some redundancy is necessary insurance."
+      }
     ],
     "related": ["gains-from-trade", "tariff-war", "trade-deficit-meaning"],
-    "sources": [{ "label": "OECD 全球价值链报告", "labelEn": "OECD reports on global value chains", "year": 2023 }]
+    "sources": [
+      {
+        "label": "OECD 全球价值链报告",
+        "labelEn": "OECD reports on global value chains",
+        "year": 2023
+      }
+    ]
   },
   {
     "id": "currency-and-trade",
@@ -83,10 +151,182 @@
     "example": "本币贬值后出国旅游与进口商品变贵，出口企业订单增加往往要等几个季度。",
     "exampleEn": "After depreciation, overseas travel and imports get pricier while export orders pick up only quarters later.",
     "views": [
-      { "k": "贬值有利出口", "kEn": "Depreciation helps exports", "v": "价格竞争力增强，出口数量与就业可能改善。", "vEn": "Price competitiveness improves and export volumes and jobs may rise." },
-      { "k": "代价与限制", "kEn": "Costs and limits", "v": "推高进口成本与输入型通胀，若供应链高度依赖进口则效果有限。", "vEn": "It raises import costs and imported inflation, and matters little when supply chains depend heavily on imports." }
+      {
+        "k": "贬值有利出口",
+        "kEn": "Depreciation helps exports",
+        "v": "价格竞争力增强，出口数量与就业可能改善。",
+        "vEn": "Price competitiveness improves and export volumes and jobs may rise."
+      },
+      {
+        "k": "代价与限制",
+        "kEn": "Costs and limits",
+        "v": "推高进口成本与输入型通胀，若供应链高度依赖进口则效果有限。",
+        "vEn": "It raises import costs and imported inflation, and matters little when supply chains depend heavily on imports."
+      }
     ],
-    "related": ["gains-from-trade", "trade-deficit-meaning", "global-supply-chain-risks"],
-    "sources": [{ "label": "IMF 汇率与贸易弹性研究", "labelEn": "IMF research on exchange rates and trade elasticities", "year": 2022 }]
+    "related": [
+      "gains-from-trade",
+      "trade-deficit-meaning",
+      "global-supply-chain-risks"
+    ],
+    "sources": [
+      {
+        "label": "IMF 汇率与贸易弹性研究",
+        "labelEn": "IMF research on exchange rates and trade elasticities",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "trade-institutions",
+    "topic": "WTO 与贸易规则",
+    "topicEn": "The WTO and Trade Rules",
+    "level": 3,
+    "oneLiner": "多边规则把最惠国、国民待遇与争端解决机制制度化，旨在降低任意壁垒。",
+    "oneLinerEn": "Multilateral rules institutionalize most-favored-nation, national treatment and dispute settlement to curb arbitrary barriers.",
+    "detail": "关贸总协定—世贸组织体系以回合谈判逐步降关税，并靠非歧视原则与可诉机制约束政策。但新议题（数字、国企、补贴）难达成共识，上诉机构停摆使争端解决受困，区域/双边协定与“友岸外包”逐浪兴起。",
+    "detailEn": "The GATT-WTO system cut tariffs round by round and disciplines policy via non-discrimination and appealable rules. Yet new issues (digital, state firms, subsidies) resist consensus, a stalled appellate body weakens settlement, and regional/bilateral deals and 'friend-shoring' rise.",
+    "example": "一方加征关税常遭向 WTO 提起争端解决；胜诉后若不改，另一方获授权对等报复。",
+    "exampleEn": "A tariff hike may be challenged at the WTO; if uncorrected after losing, the complainant gains rights to retaliate.",
+    "views": [
+      {
+        "k": "规则价值",
+        "kEn": "Value of rules",
+        "v": "提供可预期与争端解决渠道，降低逐底竞争与贸易战的风险。",
+        "vEn": "Predictability and a dispute channel reduce race-to-the-bottom and trade-war risk."
+      },
+      {
+        "k": "改革争论",
+        "kEn": "Reform debate",
+        "v": "发展中待遇、国企补贴与强制劳控使改革陷入分歧。",
+        "vEn": "Developing-country status, state subsidies and labor standards split reformers."
+      },
+      {
+        "k": "区域化趋势",
+        "kEn": "Regionalism",
+        "v": "多边停滞下，高标准区域协定成为新规则实验场。",
+        "vEn": "With multilateralism stalled, high-standard regional pacts become testing grounds."
+      }
+    ],
+    "related": ["tariff", "comparative-advantage", "supply-chain"],
+    "sources": [
+      {
+        "label": "WTO《世界贸易报告》",
+        "labelEn": "WTO World Trade Report",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "protectionism-tools",
+    "topic": "关税之外的壁垒",
+    "topicEn": "Barriers Beyond Tariffs",
+    "level": 3,
+    "oneLiner": "现代保护主义多藏在标准、补贴与行政程序等非关税壁垒里。",
+    "oneLinerEn": "Modern protectionism hides in standards, subsidies and red tape—non-tariff barriers.",
+    "detail": "关税之外，配额、技术标、卫生检疫、本地含量要求、反倾销与出口管制同样扭曲贸易，且更隐蔽、更难量化。产业政策回潮使补贴与“购买本国”条款成为新摩擦源，常以安全为名行保护之实。",
+    "detailEn": "Beyond tariffs, quotas, technical standards, sanitary rules, local-content mandates, anti-dumping and export controls also distort trade—and are subtler and harder to measure. The return of industrial policy and 'Buy National' clauses, often under security pretexts, breeds new friction.",
+    "example": "以“安全审查”限制某类进口，或以本地含量要求把外企锁入供应链。",
+    "exampleEn": "'Security review' throttles certain imports; local-content rules lock foreign firms into the supply chain.",
+    "views": [
+      {
+        "k": "保护效果",
+        "kEn": "Protective bite",
+        "v": "非关税壁垒往往比关税更能阻断进口，但同样抬高国内成本。",
+        "vEn": "Non-tariff barriers often block imports more than tariffs, but raise domestic costs too."
+      },
+      {
+        "k": "正当边界",
+        "kEn": "Legitimate line",
+        "v": "环保、安全与保护主义仅一线之隔，关键在是否变相歧视。",
+        "vEn": "Environment, safety and protectionism share a thin line—de facto discrimination is the test."
+      }
+    ],
+    "related": ["tariff-war", "gains-from-trade", "supply-chain"],
+    "sources": [
+      {
+        "label": "UNCTAD 非关税壁垒分类",
+        "labelEn": "UNCTAD classification of non-tariff measures",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "services-digital-trade",
+    "topic": "服务与数字贸易",
+    "topicEn": "Services and Digital Trade",
+    "level": 3,
+    "oneLiner": "全球贸易重心正从货物转向服务与数据流，无形交付重新定义“跨境”。",
+    "oneLinerEn": "Trade is shifting from goods to services and data flows; intangible delivery redefines 'cross-border'.",
+    "detail": "数字平台使软件、咨询、教育、医疗与娱乐可即时跨境交付，服务贸易占比持续上升。但也带来数据本地化、数字服务税、隐私与知识产权等新争端，传统关税框架难以适用。",
+    "detailEn": "Platforms deliver software, consulting, education, health and entertainment instantly across borders, lifting services' share. But data localization, digital services taxes, privacy and IP spark new disputes that old tariff frameworks can't fit.",
+    "example": "一家云公司无需在当地设厂即可服务多国客户，却面临数据出境与数字税约束。",
+    "exampleEn": "A cloud firm serves many countries without a local plant yet faces data-export rules and digital taxes.",
+    "views": [
+      {
+        "k": "比较优势新形态",
+        "kEn": "New advantage",
+        "v": "人才与时区而非港口成为服务出口的关键禀赋。",
+        "vEn": "Talent and time zones, not ports, drive service exports."
+      },
+      {
+        "k": "监管难题",
+        "kEn": "Regulatory puzzle",
+        "v": "数字贸易额难统计，税基侵蚀与利润转移引发征税之争。",
+        "vEn": "Digital flows resist measurement; base erosion sparks taxing fights."
+      }
+    ],
+    "related": [
+      "global-supply-chain-risks",
+      "comparative-advantage",
+      "trade-deficit-meaning"
+    ],
+    "sources": [
+      {
+        "label": "OECD/WTO 增值贸易与数字测度",
+        "labelEn": "OECD/WTO trade in value added & digital measurement",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "trade-and-jobs",
+    "topic": "贸易与就业再分配",
+    "topicEn": "Trade and Job Reallocation",
+    "level": 3,
+    "oneLiner": "贸易做大蛋糕的同时重新切分，受益者与受冲击者往往不是同一拨人。",
+    "oneLinerEn": "Trade enlarges the pie but slices it anew; winners and displaced workers are rarely the same people.",
+    "detail": "比较优势使国家整体受益，但进口竞争行业会失业、工资受压，调整成本集中于特定地区与人群。“中国冲击”研究显示受影响社区恢复缓慢。争议不在净收益，而在分配与补偿是否到位。",
+    "detailEn": "Comparative advantage gains the nation, yet import-competing sectors lose jobs and wage ground, with adjustment concentrated locally. 'China shock' studies show slow recovery in hit communities. The debate is not net gains but distribution and whether compensation arrives.",
+    "example": "自由贸易使消费者买到便宜商品，但某地工厂外迁令当地工人承受代价。",
+    "exampleEn": "Free trade gives consumers cheap goods, while offshoring a plant imposes costs on the town it leaves.",
+    "views": [
+      {
+        "k": "净收益",
+        "kEn": "Net gains",
+        "v": "价格下降、出口部门扩张带来的总福利通常为正。",
+        "vEn": "Lower prices and export-sector expansion usually raise total welfare."
+      },
+      {
+        "k": "分配政治",
+        "kEn": "Distribution politics",
+        "v": "若缺乏再培训与过渡支持，受损者会转化为反贸易民意。",
+        "vEn": "Without retraining and transition aid, losers fuel anti-trade sentiment."
+      },
+      {
+        "k": "政策取向",
+        "kEn": "Policy answer",
+        "v": "与其筑壁，不如投资调整补助，让开放更可持续。",
+        "vEn": "Fund adjustment aid rather than walls to keep openness sustainable."
+      }
+    ],
+    "related": ["gains-from-trade", "tariff-war", "unemployment-rate"],
+    "sources": [
+      {
+        "label": "Autor、Dorn、Hanson“中国冲击”研究",
+        "labelEn": "Autor, Dorn & Hanson, the China shock",
+        "year": 2013
+      }
+    ]
   }
 ]
