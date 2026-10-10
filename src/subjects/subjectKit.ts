@@ -31,6 +31,18 @@ export interface PeriodicCell {
   mass?: string;
 }
 
+/** 结构化公式：化学方程式 / 物理定律等。lhs、rhs 为受信内容（可含 <sub>/<sup> 等标记，不转义）。 */
+export interface Eq {
+  /** 等号左侧（反应物 / 因变量） */
+  lhs: string;
+  /** 等号右侧（生成物 / 表达式） */
+  rhs: string;
+  /** 关系符上方标注（如反应条件：点燃 / △ / 催化剂） */
+  cond?: LStr;
+  /** 连接样式：reaction=长双等号（默认，化学）/ equal=等号 / arrow=箭头 / equilibrium=可逆箭头 ⇌ */
+  rel?: "reaction" | "equal" | "arrow" | "equilibrium";
+}
+
 export interface SubjectItem {
   id: string;
   icon?: string;
@@ -46,6 +58,8 @@ export interface SubjectItem {
   /** 可选示意图：内联 SVG。字符串=中英共用；{zh,en}=按语言各取一张。
    *  详情面板将其作为受信静态内容原样渲染（不经 HTML 转义），仅供开发者-authored 使用。 */
   figure?: string | LStr;
+  /** 结构化公式（受信渲染，见 eqHTML）；单条或数组。 */
+  eq?: Eq | Eq[];
   /** 周期表单元专用：提供后该条目按 2D 网格渲染 */
   pt?: PeriodicCell;
 }
@@ -91,6 +105,32 @@ function figureHTML(fig?: string | LStr): string {
   return raw && raw.trim() ? `<div class="sd-figure">${raw}</div>` : "";
 }
 
+/** 单条公式：lhs [条件置于关系符上方] rhs。lhs/rhs 为受信 HTML（不转义）；cond 为纯文本（转义）。 */
+const EQ_OP_CHAR: Record<string, string> = {
+  arrow: "→",
+  equal: "=",
+  equilibrium: "⇌",
+};
+function eqOne(e: Eq): string {
+  const rel = e.rel ?? "reaction";
+  const op =
+    rel === "reaction"
+      ? `<span class="eq-line"></span>`
+      : `<span class="eq-op">${EQ_OP_CHAR[rel]}</span>`;
+  // 有条件：上下各铺一层（下方为空镜像），使关系符始终垂直居中；无条件：不渲染 cond。
+  const relInner = e.cond
+    ? `<span class="eq-cond">${esc(L(e.cond))}</span>${op}<span class="eq-cond"></span>`
+    : op;
+  return `<span class="eq eq-${rel}"><span class="eq-side">${e.lhs}</span><span class="eq-rel">${relInner}</span><span class="eq-side">${e.rhs}</span></span>`;
+}
+
+/** 公式集：作为受信静态内容输出（仅开发者-authored，切勿传入用户输入）；无内容返回空串。 */
+function eqHTML(eq?: Eq | Eq[]): string {
+  if (!eq) return "";
+  const arr = Array.isArray(eq) ? eq : [eq];
+  return `<div class="eq-set">${arr.map(eqOne).join("")}</div>`;
+}
+
 const FEEDBACK_TEXT: LStr = {
   zh: "发现问题或有建议？欢迎通过 GitHub 提 Issue 或邮件反馈",
   en: "Found a problem or have a suggestion? File a GitHub issue or email us",
@@ -121,6 +161,7 @@ function cardHTML(item: SubjectItem): string {
       <span class="card-t">${esc(L(item.term))}</span>
       ${item.level != null ? `<span class="lvl lvl-${item.level}">L${item.level}</span>` : ""}
     </header>
+    ${item.eq ? `<div class="card-eq">${eqHTML(Array.isArray(item.eq) ? item.eq[0] : item.eq)}</div>` : ""}
     <p class="card-lead">${esc(L(item.oneLiner))}</p>
     <footer class="card-f">
       ${item.tags && item.tags.length ? `<span class="tag">${esc(L(item.tags[0]))}</span>` : ""}
@@ -310,6 +351,7 @@ export function createSubject(cfg: SubjectConfig) {
         <h2 class="sd-title">${esc(L(item.term))}</h2>
         ${item.value ? `<div class="sd-value">${esc(L(item.value))}</div>` : ""}
         <div class="sd-lead">${esc(L(item.oneLiner))}</div>
+        ${eqHTML(item.eq)}
         ${figureHTML(item.figure)}
         ${item.detail ? `<p class="sd-sec"><b>📘</b><span>${esc(L(item.detail))}</span></p>` : ""}
         ${item.example ? `<p class="sd-sec"><b>🧪</b><span>${esc(L(item.example))}</span></p>` : ""}

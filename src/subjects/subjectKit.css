@@ -185,6 +185,73 @@
   font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
+/* ---------------- 结构化公式（化学方程式 / 物理定律） ---------------- */
+.subject-root .eq-set {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 6px 0 14px;
+}
+.subject-root .eq {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  font-size: 1.08rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+.subject-root .eq-side {
+  white-space: nowrap;
+}
+.subject-root .eq-side sub,
+.subject-root .eq-side sup {
+  font-size: 0.72em;
+}
+.subject-root .eq-rel {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.4em;
+}
+.subject-root .eq-cond {
+  font-size: 0.66em;
+  line-height: 1.2;
+  min-height: 1.2em;
+  white-space: nowrap;
+  color: var(--text-soft);
+}
+.subject-root .eq-line {
+  width: 100%;
+  margin-top: 3px;
+  border-top: 3px double currentColor;
+}
+.subject-root .eq-op {
+  font-size: 1.15em;
+  line-height: 1;
+}
+.subject-root .eq-equal .eq-rel,
+.subject-root .eq-arrow .eq-rel,
+.subject-root .eq-equilibrium .eq-rel {
+  min-width: 1.6em;
+}
+.subject-root .eq-equilibrium .eq-op {
+  font-size: 1.05em;
+}
+.subject-root .eq-equal .eq-cond,
+.subject-root .eq-arrow .eq-cond {
+  min-height: 0;
+}
+/* 卡片上的公式块：稍紧凑，居中 */
+.subject-root .card-eq {
+  margin: 2px 0 8px;
+}
+.subject-root .card-eq .eq {
+  font-size: 1rem;
+}
+
 /* 返回顶部箭头字号（共享 .to-top 未设字号，补足以匹配旧视觉） */
 .subject-root .to-top {
   font-size: 1.3rem;
@@ -205,6 +272,9 @@
   gap: 4px;
   align-items: stretch;
   overflow-x: auto;
+  /* overflow-x:auto 会连带裁掉纵向溢出；顶行元素（氢/氦）hover 上浮 +
+     投影需要上方留白，否则会被上边界裁剪 */
+  padding-top: 12px;
   padding-bottom: 4px;
 }
 .subject-root .pt-cell {
