@@ -43,6 +43,9 @@ export interface SubjectItem {
   example?: LStr;
   tags?: LStr[];
   related?: string[];
+  /** 可选示意图：内联 SVG。字符串=中英共用；{zh,en}=按语言各取一张。
+   *  详情面板将其作为受信静态内容原样渲染（不经 HTML 转义），仅供开发者-authored 使用。 */
+  figure?: string | LStr;
   /** 周期表单元专用：提供后该条目按 2D 网格渲染 */
   pt?: PeriodicCell;
 }
@@ -80,6 +83,14 @@ function esc(s: string): string {
   );
 }
 
+/** 示意图：作为受信静态 SVG 原样输出（不转义）；无内容则返回空串。
+ *  仅用于开发者-authored 的 data.ts 常量，切勿传入用户输入。 */
+function figureHTML(fig?: string | LStr): string {
+  if (!fig) return "";
+  const raw = typeof fig === "string" ? fig : L(fig);
+  return raw && raw.trim() ? `<div class="sd-figure">${raw}</div>` : "";
+}
+
 const FEEDBACK_TEXT: LStr = {
   zh: "发现问题或有建议？欢迎通过 GitHub 提 Issue 或邮件反馈",
   en: "Found a problem or have a suggestion? File a GitHub issue or email us",
@@ -101,7 +112,9 @@ function mailHref(): string {
 }
 
 function cardHTML(item: SubjectItem): string {
-  const value = item.value ? `<span class="card-val">${esc(L(item.value))}</span>` : "";
+  const value = item.value
+    ? `<span class="card-val">${esc(L(item.value))}</span>`
+    : "";
   return `<article class="card js-item" data-key="${esc(item.id)}" tabindex="0" role="button" aria-label="${esc(L(item.term))}">
     <header class="card-h">
       <span class="card-ic">${item.icon ?? "•"}</span>
@@ -125,10 +138,26 @@ function cardHTML(item: SubjectItem): string {
 function kpisInner(cfg: SubjectConfig): string {
   const total = cfg.modules.reduce((n, m) => n + m.items.length, 0);
   const kpis: { icon: string; value: string; label: LStr }[] = [
-    { icon: "🧩", value: String(total), label: { zh: "核心概念", en: "Concepts" } },
-    { icon: "📚", value: String(cfg.modules.length), label: { zh: "知识模块", en: "Modules" } },
-    { icon: "📎", value: String(cfg.refs?.length ?? 0), label: { zh: "参考来源", en: "References" } },
-    { icon: "🌐", value: "中 / EN", label: { zh: "中英双语", en: "Bilingual" } },
+    {
+      icon: "🧩",
+      value: String(total),
+      label: { zh: "核心概念", en: "Concepts" },
+    },
+    {
+      icon: "📚",
+      value: String(cfg.modules.length),
+      label: { zh: "知识模块", en: "Modules" },
+    },
+    {
+      icon: "📎",
+      value: String(cfg.refs?.length ?? 0),
+      label: { zh: "参考来源", en: "References" },
+    },
+    {
+      icon: "🌐",
+      value: "中 / EN",
+      label: { zh: "中英双语", en: "Bilingual" },
+    },
   ];
   return kpis
     .map(
@@ -191,10 +220,7 @@ function refsInner(refs: SubjectRef[]): string {
 }
 
 export function createSubject(cfg: SubjectConfig) {
-  return async (
-    view: HTMLElement,
-    sub?: string,
-  ): Promise<() => void> => {
+  return async (view: HTMLElement, sub?: string): Promise<() => void> => {
     const hasRefs = !!(cfg.refs && cfg.refs.length);
     view.innerHTML = `<div class="${cfg.rootClass} subject-root" style="--accent:${cfg.accent};--hero:linear-gradient(155deg, color-mix(in srgb, ${cfg.accent} 72%, #06121a), color-mix(in srgb, ${cfg.accent} 40%, #06121a))">
       <div class="wrap">
@@ -248,7 +274,10 @@ export function createSubject(cfg: SubjectConfig) {
           });
         });
         const sec = root.querySelector<HTMLElement>(`#sm-${m.key}`);
-        if (sec) sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(m.items.length);
+        if (sec)
+          sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(
+            m.items.length,
+          );
         return;
       }
       grid.innerHTML = m.items.map(cardHTML).join("");
@@ -260,7 +289,10 @@ export function createSubject(cfg: SubjectConfig) {
         });
       });
       const sec = root.querySelector<HTMLElement>(`#sm-${m.key}`);
-      if (sec) sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(m.items.length);
+      if (sec)
+        sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(
+          m.items.length,
+        );
     };
 
     const closeDetail = () => {
@@ -278,6 +310,7 @@ export function createSubject(cfg: SubjectConfig) {
         <h2 class="sd-title">${esc(L(item.term))}</h2>
         ${item.value ? `<div class="sd-value">${esc(L(item.value))}</div>` : ""}
         <div class="sd-lead">${esc(L(item.oneLiner))}</div>
+        ${figureHTML(item.figure)}
         ${item.detail ? `<p class="sd-sec"><b>📘</b><span>${esc(L(item.detail))}</span></p>` : ""}
         ${item.example ? `<p class="sd-sec"><b>🧪</b><span>${esc(L(item.example))}</span></p>` : ""}
         ${item.tags && item.tags.length ? `<div class="sd-tags">${item.tags.map((t) => `<span class="tag">${esc(L(t))}</span>`).join("")}</div>` : ""}
@@ -292,7 +325,9 @@ export function createSubject(cfg: SubjectConfig) {
     root.querySelectorAll<HTMLElement>(".mod").forEach((btn) => {
       btn.addEventListener("click", () => {
         const k = btn.dataset.go!;
-        root.querySelectorAll(".mod").forEach((b) => b.classList.toggle("active", b === btn));
+        root
+          .querySelectorAll(".mod")
+          .forEach((b) => b.classList.toggle("active", b === btn));
         root
           .querySelectorAll<HTMLElement>(".module")
           .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
@@ -301,7 +336,9 @@ export function createSubject(cfg: SubjectConfig) {
     });
 
     // 搜索：跨模块过滤卡片，命中项汇总到结果区
-    const allItems = cfg.modules.flatMap((m) => m.items.map((it) => ({ m, it })));
+    const allItems = cfg.modules.flatMap((m) =>
+      m.items.map((it) => ({ m, it })),
+    );
     const searchInput = root.querySelector<HTMLInputElement>("#search");
     const resultsEl = root.querySelector<HTMLElement>("#subResults")!;
     const navEl = root.querySelector<HTMLElement>(".modnav")!;
@@ -349,7 +386,9 @@ export function createSubject(cfg: SubjectConfig) {
     const onScroll = () => top.classList.toggle("show", window.scrollY > 420);
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
-    top.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    top.addEventListener("click", () =>
+      window.scrollTo({ top: 0, behavior: "smooth" }),
+    );
 
     const offLang = onLangChange(() => {
       const h1 = root.querySelector<HTMLElement>(".hero h1");
@@ -374,7 +413,8 @@ export function createSubject(cfg: SubjectConfig) {
         });
       if (!resultsEl.hidden) onSearch();
       const refsEl = root.querySelector<HTMLElement>("#refs");
-      if (refsEl && cfg.refs && cfg.refs.length) refsEl.innerHTML = refsInner(cfg.refs);
+      if (refsEl && cfg.refs && cfg.refs.length)
+        refsEl.innerHTML = refsInner(cfg.refs);
       closeDetail();
     });
 
@@ -384,7 +424,9 @@ export function createSubject(cfg: SubjectConfig) {
       if (m) {
         root
           .querySelectorAll(".mod")
-          .forEach((b) => b.classList.toggle("active", (b as HTMLElement).dataset.go === k));
+          .forEach((b) =>
+            b.classList.toggle("active", (b as HTMLElement).dataset.go === k),
+          );
         root
           .querySelectorAll<HTMLElement>(".module")
           .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));

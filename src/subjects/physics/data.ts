@@ -663,6 +663,127 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
+    /* ===================== 原子物理与原子核（含示意图） ===================== */
+    {
+      key: "atomic",
+      icon: "☢️",
+      title: { zh: "原子物理与原子核", en: "Atomic & Nuclear Physics" },
+      items: [
+        {
+          id: "nuclear-model",
+          icon: "🪐",
+          term: { zh: "原子的核式模型", en: "Nuclear Model of the Atom" },
+          level: 2,
+          oneLiner: { zh: "卢瑟福提出原子核式结构，玻尔引入量子化轨道解释氢原子。", en: "Rutherford proposed the nuclear atom; Bohr added quantized orbits to explain hydrogen." },
+          detail: { zh: "α 粒子散射实验表明正电荷集中于很小的核；玻尔假设电子在特定能级轨道上稳定运动，跃迁时吸收或辐射光子。", en: "α-scattering showed positive charge concentrated in a tiny nucleus; Bohr assumed electrons in fixed-energy orbits, emitting or absorbing photons on jumps." },
+          tags: [{ zh: "原子", en: "Atomic" }],
+          figure: `<svg viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g fill="none" stroke="#3b82f6" stroke-opacity="0.7" stroke-width="1.6"><circle cx="150" cy="112" r="30"/><circle cx="150" cy="112" r="56"/><circle cx="150" cy="112" r="82"/></g>
+  <circle cx="150" cy="112" r="20" fill="#e5484d"/><text x="150" y="116" text-anchor="middle" font-size="10" fill="#fff">核 +Ze</text>
+  <g fill="#22c55e"><circle cx="180" cy="112" r="5"/><circle cx="150" cy="56" r="5"/><circle cx="150" cy="194" r="5"/><circle cx="94" cy="112" r="5"/></g>
+  <text x="8" y="22" font-size="12" fill="currentColor">电子在量子化轨道上绕核</text>
+  <text x="250" y="116" font-size="11" fill="#22c55e">e⁻</text>
+</svg>`,
+        },
+        {
+          id: "energy-levels",
+          icon: "📶",
+          term: { zh: "能级与氢原子光谱", en: "Energy Levels & Spectra" },
+          level: 3,
+          oneLiner: { zh: "原子能量量子化；电子在高能级向低能级跃迁时辐射一份光子 hν。", en: "Atomic energy is quantized; an electron dropping levels emits a photon of energy hν." },
+          detail: { zh: "能级差决定光子频率：hν = E高 − E低；氢原子光谱的谱线即各能级间跃迁的结果（巴耳末系等）。", en: "The level gap fixes the frequency: hν = E_high − E_low; hydrogen's spectral lines are these transitions (Balmer series, etc.)." },
+          tags: [{ zh: "量子", en: "Quantum" }],
+          figure: `<svg viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <line x1="46" y1="28" x2="46" y2="205" stroke="currentColor" stroke-opacity="0.5"/><text x="10" y="30" font-size="11" fill="currentColor">E</text>
+  <g stroke="#3b82f6" stroke-width="2">
+    <line x1="74" y1="196" x2="210" y2="196"/><line x1="74" y1="152" x2="210" y2="152"/><line x1="74" y1="116" x2="210" y2="116"/><line x1="74" y1="88" x2="210" y2="88"/>
+  </g>
+  <g font-size="10" fill="currentColor"><text x="56" y="199">n=1</text><text x="56" y="155">n=2</text><text x="56" y="119">n=3</text><text x="56" y="91">n=4</text></g>
+  <defs><marker id="arE" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#22c55e"/></marker></defs>
+  <line x1="170" y1="116" x2="170" y2="152" stroke="#22c55e" stroke-width="2" marker-end="url(#arE)"/>
+  <path d="M178 150 q10 -8 20 0 q10 8 20 0 q10 -8 20 0" fill="none" stroke="#e5484d" stroke-width="1.6"/>
+  <text x="240" y="140" font-size="11" fill="#e5484d">光子 hν</text>
+  <text x="74" y="215" font-size="11" fill="currentColor">跃迁释放光子 hν = E₃ − E₂</text>
+</svg>`,
+        },
+        {
+          id: "wave-particle",
+          icon: "🌗",
+          term: { zh: "波粒二象性", en: "Wave–Particle Duality" },
+          level: 3,
+          oneLiner: { zh: "光与实物粒子都兼具波动性与粒子性。", en: "Both light and matter show wave and particle aspects." },
+          detail: { zh: "光电效应、康普顿散射揭示光的粒子性；德布罗意提出物质波 λ = h/p，电子衍射实验证实。粒子性强的宏观物体波动性可忽略。", en: "Photoelectric and Compton effects reveal light's particle side; de Broglie's matter waves λ = h/p were confirmed by electron diffraction." },
+          tags: [{ zh: "量子", en: "Quantum" }],
+        },
+        {
+          id: "nucleus-isotope",
+          icon: "🔵",
+          term: { zh: "原子核与同位素", en: "Nucleus & Isotopes" },
+          level: 2,
+          oneLiner: { zh: "原子核由质子与中子构成，质子数决定元素、中子数形成同位素。", en: "Nuclei of protons and neutrons: protons set the element, neutrons give isotopes." },
+          detail: { zh: "用 ᴬZX 表示：Z 为质子数（电荷数）、A 为质量数（质子 + 中子）；质子数相同、中子数不同者互为同位素（如氕、氘、氚）。", en: "Notated ᴬZX: Z protons, A mass number; same Z but different N are isotopes (protium, deuterium, tritium)." },
+          tags: [{ zh: "原子核", en: "Nuclear" }],
+        },
+        {
+          id: "radioactivity",
+          icon: "☢️",
+          term: { zh: "放射性与半衰期", en: "Radioactivity & Half-life" },
+          level: 2,
+          oneLiner: { zh: "不稳定核自发放出 α、β、γ 射线衰变；半衰期描述衰变快慢。", en: "Unstable nuclei emit α, β, γ radiation; half-life measures the decay rate." },
+          detail: { zh: "α 射线是氦核（电离强、穿透弱）、β 是高速电子、γ 是光子（穿透最强）；半衰期是统计规律，不随物理化学环境改变。", en: "α = helium nuclei (ionizing, weak penetration), β = fast electrons, γ = photons (most penetrating); half-life is statistical and environment-independent." },
+          tags: [{ zh: "原子核", en: "Nuclear" }],
+          figure: `<svg viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="130" y="26" width="150" height="8" fill="#e5484d"/><text x="272" y="34" font-size="10" fill="#e5484d">负极 −</text>
+  <rect x="130" y="186" width="150" height="8" fill="#3b82f6"/><text x="272" y="194" font-size="10" fill="#3b82f6">正极 +</text>
+  <rect x="40" y="98" width="26" height="24" fill="#9aa4b2"/><text x="18" y="140" font-size="10" fill="currentColor">放射源</text>
+  <g fill="none" stroke-width="2.4">
+    <path d="M66 110 H130 Q200 110 240 86" stroke="#e5484d"/>
+    <path d="M66 110 H130 Q180 110 195 175" stroke="#22c55e"/>
+    <line x1="66" y1="110" x2="320" y2="110" stroke="#9aa4b2"/>
+  </g>
+  <g font-size="11"><text x="250" y="80" fill="#e5484d">α（少量偏折）</text><text x="150" y="196" fill="#22c55e">β（大幅偏折）</text><text x="286" y="104" fill="#9aa4b2">γ</text></g>
+</svg>`,
+        },
+        {
+          id: "binding-energy",
+          icon: "⚖️",
+          term: { zh: "核力与结合能", en: "Nuclear Force & Binding Energy" },
+          level: 3,
+          oneLiner: { zh: "核力把核子束缚在一起；形成核时质量亏损以结合能释放。", en: "The strong force binds nucleons; the mass defect appears as binding energy." },
+          detail: { zh: "由 E = mc²，结合能对应质量亏损；比结合能（每个核子）越大核越稳定，中等质量核最稳，故重核裂变、轻核聚变都能释放能量。", en: "Via E = mc² binding energy matches a mass defect; higher binding energy per nucleon means greater stability, so both fission of heavy and fusion of light nuclei release energy." },
+          tags: [{ zh: "原子核", en: "Nuclear" }],
+        },
+        {
+          id: "fission",
+          icon: "💥",
+          term: { zh: "核裂变与链式反应", en: "Fission & Chain Reaction" },
+          level: 3,
+          oneLiner: { zh: "重核（如铀-235）俘获中子后分裂，放出能量与中子，引发链式反应。", en: "A heavy nucleus (U-235) absorbs a neutron, splits, and releases energy plus neutrons, driving a chain reaction." },
+          detail: { zh: "一次裂变约释 200 MeV 并放出 2–3 个中子；可控链式反应用于核电站，不可控则用于核武器。", en: "Each fission yields ~200 MeV and 2–3 neutrons; controlled in reactors, uncontrolled in weapons." },
+          tags: [{ zh: "原子核", en: "Nuclear" }],
+          figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <circle cx="46" cy="92" r="7" fill="#9aa4b2"/><text x="34" y="72" font-size="10" fill="currentColor">n</text>
+  <path d="M56 92 H86" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.6"/>
+  <circle cx="120" cy="92" r="26" fill="#e5484d"/><text x="120" y="96" text-anchor="middle" font-size="10" fill="#fff">U-235</text>
+  <path d="M150 92 H176" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.6"/>
+  <circle cx="200" cy="70" r="17" fill="#3b82f6"/><text x="200" y="74" text-anchor="middle" font-size="9" fill="#fff">Ba</text>
+  <circle cx="200" cy="116" r="14" fill="#3b82f6"/><text x="200" y="120" text-anchor="middle" font-size="9" fill="#fff">Kr</text>
+  <g fill="#22c55e"><circle cx="248" cy="56" r="6"/><circle cx="268" cy="92" r="6"/><circle cx="248" cy="128" r="6"/></g>
+  <g stroke="#22c55e" stroke-width="1.4"><line x1="216" y1="62" x2="242" y2="56"/><line x1="216" y1="92" x2="262" y2="92"/><line x1="216" y1="122" x2="242" y2="128"/></g>
+  <text x="250" y="165" font-size="11" fill="currentColor">放出 2–3 中子 + 能量 ≈ 200 MeV，引发链式反应</text>
+</svg>`,
+        },
+        {
+          id: "fusion",
+          icon: "☀️",
+          term: { zh: "核聚变", en: "Nuclear Fusion" },
+          level: 3,
+          oneLiner: { zh: "轻核（氘氚）在超高温下结合成较重核，释放巨大能量。", en: "Light nuclei (deuterium–tritium) fuse at extreme heat into heavier ones, releasing vast energy." },
+          detail: { zh: "太阳与氢弹能量源于聚变；单位质量释能比裂变更大、产物更清洁，但需上亿度高温约束（磁约束/惯性约束），可控聚变仍在攻关。", en: "The Sun and hydrogen bombs run on fusion; per mass it releases more energy than fission with cleaner products, but needs >10⁸ K confinement (magnetic/inertial) — controlled fusion is still being mastered." },
+          tags: [{ zh: "原子核", en: "Nuclear" }],
+        },
+      ],
+    },
     /* ===================== 关键常数 ===================== */
     {
       key: "constants",

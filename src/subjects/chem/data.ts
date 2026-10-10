@@ -268,6 +268,171 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
+    /* ===================== 物质结构（含示意图） ===================== */
+    {
+      key: "structure",
+      icon: "🧱",
+      title: { zh: "物质结构", en: "Matter & Structure" },
+      items: [
+        {
+          id: "atom-anatomy",
+          icon: "⚛️",
+          term: { zh: "原子的构成", en: "Anatomy of an Atom" },
+          level: 1,
+          oneLiner: { zh: "原子 = 居于中心的原子核（质子 + 中子）+ 核外分层运动的电子。", en: "An atom = a central nucleus (protons + neutrons) ringed by electrons in shells." },
+          detail: { zh: "质子带正电、电子带负电、中子不带电；中性原子中质子数 = 原子序数 = 核外电子数，质量数 = 质子数 + 中子数。", en: "Protons are +, electrons −, neutrons 0; in a neutral atom protons = atomic number = electrons, and mass number = protons + neutrons." },
+          tags: [{ zh: "结构", en: "Structure" }],
+          figure: `<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g fill="none" stroke="currentColor" stroke-opacity="0.4">
+    <circle cx="150" cy="118" r="34"/><circle cx="150" cy="118" r="62"/><circle cx="150" cy="118" r="90"/>
+  </g>
+  <circle cx="150" cy="118" r="22" fill="#e5484d"/>
+  <text x="150" y="122" text-anchor="middle" font-size="11" fill="#fff">p⁺ n⁰</text>
+  <g fill="#3b82f6">
+    <circle cx="184" cy="118" r="5.5"/><circle cx="116" cy="118" r="5.5"/>
+    <circle cx="150" cy="56" r="5.5"/><circle cx="194" cy="162" r="5.5"/><circle cx="106" cy="74" r="5.5"/>
+    <circle cx="240" cy="118" r="5.5"/><circle cx="150" cy="208" r="5.5"/><circle cx="60" cy="118" r="5.5"/>
+  </g>
+  <text x="6" y="22" font-size="12" fill="currentColor">电子分层绕核运动 Electrons in shells</text>
+  <text x="250" y="40" font-size="11" fill="#e5484d">● 原子核 nucleus</text>
+  <text x="250" y="58" font-size="11" fill="#3b82f6">● 电子 electron</text>
+</svg>`,
+        },
+        {
+          id: "electron-config",
+          icon: "🪑",
+          term: { zh: "核外电子排布", en: "Electron Configuration" },
+          level: 1,
+          oneLiner: { zh: "电子按能级分层排布，各层最多容纳 2n² 个；最外层不超过 8 个。", en: "Electrons fill shells by energy, each holding at most 2n², with no more than 8 in the outermost shell." },
+          detail: { zh: "前 20 号元素常按 2·8·8 规律排布；最外层电子数决定元素的化学性质与化合价。", en: "Elements 1–20 roughly follow 2·8·8; the outermost count sets chemical behavior and valence." },
+          tags: [{ zh: "结构", en: "Structure" }],
+          figure: `<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g fill="none" stroke="currentColor" stroke-opacity="0.4"><circle cx="150" cy="120" r="34"/><circle cx="150" cy="120" r="62"/><circle cx="150" cy="120" r="90"/></g>
+  <circle cx="150" cy="120" r="20" fill="#e5484d"/><text x="150" y="124" text-anchor="middle" font-size="11" fill="#fff">Na +11</text>
+  <g fill="#3b82f6">
+    <circle cx="184" cy="120" r="5"/><circle cx="116" cy="120" r="5"/>
+    <circle cx="212" cy="120" r="5"/><circle cx="88" cy="120" r="5"/><circle cx="150" cy="58" r="5"/><circle cx="150" cy="182" r="5"/><circle cx="194" cy="76" r="5"/><circle cx="106" cy="164" r="5"/><circle cx="106" cy="76" r="5"/><circle cx="194" cy="164" r="5"/>
+    <circle cx="240" cy="120" r="6" fill="#22c55e"/>
+  </g>
+  <text x="258" y="88" font-size="12" fill="currentColor">K 2</text>
+  <text x="258" y="124" font-size="12" fill="currentColor">L 8</text>
+  <text x="250" y="152" font-size="12" fill="#22c55e">M 1</text>
+  <text x="6" y="22" font-size="12" fill="currentColor">钠 Na：2·8·1，最外层 1 个电子易失去</text>
+</svg>`,
+        },
+        {
+          id: "ionic-bond",
+          icon: "🧲",
+          term: { zh: "离子键", en: "Ionic Bond" },
+          level: 1,
+          oneLiner: { zh: "活泼金属把电子交给活泼非金属，形成阴阳离子，靠静电作用结合。", en: "A metal transfers electrons to a nonmetal; the resulting ions attract electrostatically." },
+          detail: { zh: "如 NaCl：Na 失 1 电子成 Na⁺，Cl 得 1 电子成 Cl⁻；离子键无方向性，熔沸点高、固态不导电、熔融或溶于水导电。", en: "In NaCl, Na loses one electron (Na⁺) and Cl gains it (Cl⁻); ionic solids have high melting points and conduct when molten or dissolved." },
+          tags: [{ zh: "成键", en: "Bonding" }],
+          figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#22c55e"/></marker></defs>
+  <circle cx="60" cy="70" r="28" fill="none" stroke="#22c55e" stroke-width="2"/><text x="60" y="74" text-anchor="middle" font-size="12" fill="currentColor">Na</text>
+  <circle cx="90" cy="70" r="4.5" fill="#22c55e"/>
+  <path d="M100 70 H150" stroke="#22c55e" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="96" y="52" font-size="10" fill="#22c55e">失去 1e⁻</text>
+  <circle cx="188" cy="70" r="32" fill="none" stroke="#e5484d" stroke-width="2"/><text x="188" y="74" text-anchor="middle" font-size="12" fill="currentColor">Cl</text>
+  <text x="150" y="120" font-size="11" fill="#e5484d">得到 1e⁻</text>
+  <circle cx="70" cy="165" r="16" fill="#22c55e" opacity="0.85"/><text x="70" y="169" text-anchor="middle" font-size="11" fill="#fff">Na⁺</text>
+  <text x="100" y="169" font-size="16" fill="currentColor">····</text>
+  <circle cx="150" cy="165" r="20" fill="#e5484d" opacity="0.85"/><text x="150" y="169" text-anchor="middle" font-size="11" fill="#fff">Cl⁻</text>
+  <text x="185" y="169" font-size="11" fill="currentColor">静电作用＝离子键</text>
+</svg>`,
+        },
+        {
+          id: "covalent-bond",
+          icon: "🤝",
+          term: { zh: "共价键", en: "Covalent Bond" },
+          level: 1,
+          oneLiner: { zh: "两原子共用电子对而成键，多见于非金属之间。", en: "Atoms share electron pairs; common between nonmetals." },
+          detail: { zh: "如 H₂、H₂O、CO₂；共用一对为单键、两对为双键、三对为三键；分极性键（H–Cl）与非极性键（H–H）。", en: "E.g. H₂, H₂O, CO₂; one/two/three shared pairs give single/double/triple bonds; polar (H–Cl) vs nonpolar (H–H)." },
+          tags: [{ zh: "成键", en: "Bonding" }],
+          figure: `<svg viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <circle cx="130" cy="86" r="48" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.85"/>
+  <circle cx="210" cy="86" r="48" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.85"/>
+  <text x="88" y="90" text-anchor="middle" font-size="14" fill="currentColor">H</text>
+  <text x="252" y="90" text-anchor="middle" font-size="14" fill="currentColor">H</text>
+  <circle cx="162" cy="76" r="5" fill="#22c55e"/><circle cx="178" cy="96" r="5" fill="#22c55e"/>
+  <text x="170" y="44" text-anchor="middle" font-size="11" fill="#22c55e">共用电子对 shared pair</text>
+  <text x="170" y="158" text-anchor="middle" font-size="12" fill="currentColor">H₂ · 电子共用不转移</text>
+</svg>`,
+        },
+        {
+          id: "vsepr",
+          icon: "📐",
+          term: { zh: "分子空间构型（VSEPR）", en: "Molecular Shape (VSEPR)" },
+          level: 2,
+          oneLiner: { zh: "价层电子对相互排斥，使分子采取排斥最小的空间排布。", en: "Valence electron pairs repel, so molecules adopt the arrangement of least repulsion." },
+          detail: { zh: "CO₂ 直线形（180°）、H₂O 为 V 形（约 105°）、CH₄ 为正四面体（109.5°）、NH₃ 为三角锥形。构型影响分子极性与性质。", en: "CO₂ is linear (180°), H₂O bent (~105°), CH₄ tetrahedral (109.5°), NH₃ trigonal pyramidal; shape drives polarity and properties." },
+          tags: [{ zh: "结构", en: "Structure" }],
+          figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g stroke="currentColor" stroke-width="2">
+    <line x1="34" y1="72" x2="66" y2="72"/><line x1="74" y1="72" x2="106" y2="72"/>
+    <line x1="180" y1="66" x2="162" y2="98"/><line x1="180" y1="66" x2="198" y2="98"/>
+    <line x1="290" y1="72" x2="290" y2="46"/><line x1="290" y1="72" x2="266" y2="98"/><line x1="290" y1="72" x2="314" y2="98"/><line x1="290" y1="72" x2="304" y2="112"/>
+  </g>
+  <g stroke="none" font-size="10" text-anchor="middle" fill="#fff">
+    <circle cx="70" cy="72" r="12" fill="#3b82f6"/><text x="70" y="75">C</text>
+    <circle cx="22" cy="72" r="11" fill="#e5484d"/><text x="22" y="75">O</text>
+    <circle cx="118" cy="72" r="11" fill="#e5484d"/><text x="118" y="75">O</text>
+    <circle cx="180" cy="62" r="11" fill="#e5484d"/><text x="180" y="65">O</text>
+    <circle cx="160" cy="102" r="8" fill="#9aa4b2"/><text x="160" y="105">H</text>
+    <circle cx="200" cy="102" r="8" fill="#9aa4b2"/><text x="200" y="105">H</text>
+    <circle cx="290" cy="72" r="12" fill="#3b82f6"/><text x="290" y="75">C</text>
+    <circle cx="290" cy="42" r="8" fill="#9aa4b2"/><text x="290" y="45">H</text>
+    <circle cx="264" cy="100" r="8" fill="#9aa4b2"/><text x="264" y="103">H</text>
+    <circle cx="316" cy="100" r="8" fill="#9aa4b2"/><text x="316" y="103">H</text>
+    <circle cx="304" cy="116" r="8" fill="#9aa4b2"/><text x="304" y="119">H</text>
+  </g>
+  <g font-size="11" fill="currentColor" text-anchor="middle">
+    <text x="70" y="140">直线形 180° CO₂</text>
+    <text x="180" y="140">V 形 105° H₂O</text>
+    <text x="292" y="150">正四面体 CH₄</text>
+  </g>
+</svg>`,
+        },
+        {
+          id: "hydrogen-bond",
+          icon: "🫧",
+          term: { zh: "分子间作用力与氢键", en: "Intermolecular Forces & H-Bonds" },
+          level: 2,
+          oneLiner: { zh: "分子间存在比化学键弱得多的作用力；含 H–F/O/N 时形成氢键。", en: "Weak forces act between molecules; H bonded to F/O/N forms hydrogen bonds." },
+          detail: { zh: "范德华力普遍存在；氢键比范德华力强，使水、HF、NH₃ 沸点反常偏高，也维系 DNA 双螺旋与蛋白质结构。", en: "Van der Waals forces are universal; stronger H-bonds raise the boiling points of water, HF and NH₃ and hold DNA and protein structures." },
+          tags: [{ zh: "结构", en: "Structure" }],
+          figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g stroke="currentColor" stroke-width="2">
+    <line x1="110" y1="70" x2="90" y2="96"/><line x1="110" y1="70" x2="130" y2="96"/>
+    <line x1="250" y1="70" x2="230" y2="96"/><line x1="250" y1="70" x2="270" y2="96"/>
+  </g>
+  <g stroke="#e5484d" stroke-width="1.6" stroke-dasharray="5 4">
+    <line x1="130" y1="96" x2="228" y2="96"/><line x1="90" y1="96" x2="120" y2="130"/>
+  </g>
+  <g stroke="none" font-size="10" text-anchor="middle" fill="#fff">
+    <circle cx="110" cy="70" r="12" fill="#e5484d"/><text x="110" y="73">O</text>
+    <circle cx="90" cy="100" r="8" fill="#9aa4b2"/><text x="90" y="103">H</text>
+    <circle cx="130" cy="100" r="8" fill="#9aa4b2"/><text x="130" y="103">H</text>
+    <circle cx="250" cy="70" r="12" fill="#e5484d"/><text x="250" y="73">O</text>
+    <circle cx="230" cy="100" r="8" fill="#9aa4b2"/><text x="230" y="103">H</text>
+    <circle cx="270" cy="100" r="8" fill="#9aa4b2"/><text x="270" y="103">H</text>
+  </g>
+  <text x="180" y="88" text-anchor="middle" font-size="10" fill="#e5484d">氢键 H-bond</text>
+  <text x="180" y="168" text-anchor="middle" font-size="12" fill="currentColor">O–H···O 氢键使水沸点反常偏高</text>
+</svg>`,
+        },
+        {
+          id: "crystal-types",
+          icon: "💎",
+          term: { zh: "晶体类型", en: "Crystal Types" },
+          level: 2,
+          oneLiner: { zh: "微粒按一定方式有序排列成晶体，按结合微粒与作用分为四类。", en: "Particles ordered into crystals, grouped by what holds them together." },
+          detail: { zh: "离子晶体（NaCl）由离子键结合、熔沸点较高；原子晶体（金刚石、SiO₂）共价键成网、极硬极高熔；分子晶体（干冰、冰）靠分子间作用力、熔沸点低；金属晶体由金属键结合、导电导热延展好。", en: "Ionic (NaCl, via ionic bonds), covalent-network (diamond, SiO₂, very hard and refractory), molecular (dry ice, ice, low melting) and metallic (metal bonding, conductive and malleable)." },
+          tags: [{ zh: "结构", en: "Structure" }],
+        },
+      ],
+    },
     /* ===================== 完整元素周期表（118 元素） ===================== */
     {
       key: "periodic-table-full",

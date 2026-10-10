@@ -6,7 +6,7 @@
    映射到共享层所需的规范词表（--brand/--surface/--text-mute…）。 */
 
 /* 注入共享 UI 层（hero / kpis / search / modnav / module / card / refs / foot / to-top …） */
-@import '../core/ui/ui.css';
+@import "../core/ui/ui.css";
 
 /* 规范 token 别名桥：对接共享 UI 层
    共享层依赖规范词表；subjectKit 使用本地令牌（--accent/--card/--muted…），
@@ -48,7 +48,10 @@
   font-weight: 800;
   color: var(--text-strong);
 }
-.subject-root .sm-count { color: var(--text-mute); font-size: 0.85rem; }
+.subject-root .sm-count {
+  color: var(--text-mute);
+  font-size: 0.85rem;
+}
 
 /* 卡片数值徽标（共享层未覆盖） */
 .subject-root .card-val {
@@ -75,9 +78,23 @@
 }
 
 /* 详情弹层（学科专属） */
-.subject-root .sub-detail { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; }
-.subject-root .sub-detail[hidden] { display: none; }
-.subject-root .sd-backdrop { position: absolute; inset: 0; background: rgba(8, 12, 20, 0.5); backdrop-filter: blur(3px); }
+.subject-root .sub-detail {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subject-root .sub-detail[hidden] {
+  display: none;
+}
+.subject-root .sd-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 12, 20, 0.5);
+  backdrop-filter: blur(3px);
+}
 .subject-root .sd-panel {
   position: relative;
   width: min(620px, 92vw);
@@ -103,20 +120,81 @@
   cursor: pointer;
   border-radius: 8px;
 }
-.subject-root .sd-close:hover { color: var(--text); background: color-mix(in srgb, var(--accent) 10%, transparent); }
-.subject-root .sd-eyebrow { color: var(--accent); font-size: 0.82rem; font-weight: 600; }
-.subject-root .sd-title { font-size: 1.7rem; font-weight: 700; margin: 6px 0 4px; }
-.subject-root .sd-value { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); font-size: 0.95rem; margin-bottom: 10px; }
-.subject-root .sd-lead { color: var(--text); font-size: 1rem; line-height: 1.7; margin-bottom: 12px; }
-.subject-root .sd-sec { display: flex; gap: 8px; color: var(--muted); font-size: 0.92rem; line-height: 1.7; margin: 8px 0; }
-.subject-root .sd-sec b { flex: none; }
-.subject-root .sd-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.subject-root .sd-close:hover {
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.subject-root .sd-eyebrow {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.subject-root .sd-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 6px 0 4px;
+}
+.subject-root .sd-value {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+.subject-root .sd-lead {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.subject-root .sd-sec {
+  display: flex;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin: 8px 0;
+}
+.subject-root .sd-sec b {
+  flex: none;
+}
+.subject-root .sd-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+/* 示意图（内联 SVG）：居中、响应式缩放，跟随主题色 */
+.subject-root .sd-figure {
+  margin: 6px 0 14px;
+  padding: 16px 12px;
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  color: var(--text);
+}
+.subject-root .sd-figure svg {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+}
+.subject-root .sd-figure text {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
 
 /* 返回顶部箭头字号（共享 .to-top 未设字号，补足以匹配旧视觉） */
-.subject-root .to-top { font-size: 1.3rem; }
+.subject-root .to-top {
+  font-size: 1.3rem;
+}
 
 @media (prefers-reduced-motion: reduce) {
-  .subject-root .sd-panel { animation: none !important; transition: none !important; }
+  .subject-root .sd-panel {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 /* ---------------- 完整周期表（kind: "periodic"） ---------------- */
@@ -151,9 +229,22 @@
   border-color: var(--accent);
   z-index: 2;
 }
-.subject-root .pt-z { font-size: 9px; line-height: 1; color: #5a6b78; align-self: flex-start; }
-.subject-root .pt-sym { font-size: 15px; font-weight: 800; line-height: 1.1; }
-.subject-root .pt-name { font-size: 9px; line-height: 1; color: #44565f; }
+.subject-root .pt-z {
+  font-size: 9px;
+  line-height: 1;
+  color: #5a6b78;
+  align-self: flex-start;
+}
+.subject-root .pt-sym {
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.subject-root .pt-name {
+  font-size: 9px;
+  line-height: 1;
+  color: #44565f;
+}
 .subject-root .pt-marker {
   cursor: default;
   background: transparent;
@@ -162,8 +253,14 @@
   font-size: 9px;
   font-weight: 600;
 }
-.subject-root .pt-marker:hover { transform: none; box-shadow: none; border-color: var(--border); }
-.subject-root .pt-spacer { min-height: 10px; }
+.subject-root .pt-marker:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--border);
+}
+.subject-root .pt-spacer {
+  min-height: 10px;
+}
 
 .subject-root .pt-legend {
   display: flex;
@@ -174,7 +271,11 @@
   font-size: 0.8rem;
   color: var(--text-soft);
 }
-.subject-root .pt-leg { display: inline-flex; align-items: center; gap: 6px; }
+.subject-root .pt-leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
 .subject-root .pt-swatch {
   width: 13px;
   height: 13px;
@@ -183,21 +284,51 @@
 }
 
 /* 周期表分类配色（浅色底 + 深色字，保证可读性） */
-.subject-root .cat-alkali    { background: #ffd1d1; }
-.subject-root .cat-alkaline  { background: #ffe0b0; }
-.subject-root .cat-transition{ background: #fff0a8; }
-.subject-root .cat-post      { background: #d6eec0; }
-.subject-root .cat-metalloid { background: #bfe6dc; }
-.subject-root .cat-nonmetal  { background: #c4e3ff; }
-.subject-root .cat-halogen   { background: #ddd0ff; }
-.subject-root .cat-noble     { background: #ffd1ec; }
-.subject-root .cat-lanthanide{ background: #d2ead0; }
-.subject-root .cat-actinide  { background: #f0e2c4; }
-.subject-root .cat-unknown   { background: #e2e6ea; }
+.subject-root .cat-alkali {
+  background: #ffd1d1;
+}
+.subject-root .cat-alkaline {
+  background: #ffe0b0;
+}
+.subject-root .cat-transition {
+  background: #fff0a8;
+}
+.subject-root .cat-post {
+  background: #d6eec0;
+}
+.subject-root .cat-metalloid {
+  background: #bfe6dc;
+}
+.subject-root .cat-nonmetal {
+  background: #c4e3ff;
+}
+.subject-root .cat-halogen {
+  background: #ddd0ff;
+}
+.subject-root .cat-noble {
+  background: #ffd1ec;
+}
+.subject-root .cat-lanthanide {
+  background: #d2ead0;
+}
+.subject-root .cat-actinide {
+  background: #f0e2c4;
+}
+.subject-root .cat-unknown {
+  background: #e2e6ea;
+}
 
 @media (max-width: 720px) {
-  .subject-root .pt-grid { grid-template-columns: repeat(18, minmax(30px, 1fr)); }
-  .subject-root .pt-sym { font-size: 12px; }
-  .subject-root .pt-name { display: none; }
-  .subject-root .pt-z { font-size: 7px; }
+  .subject-root .pt-grid {
+    grid-template-columns: repeat(18, minmax(30px, 1fr));
+  }
+  .subject-root .pt-sym {
+    font-size: 12px;
+  }
+  .subject-root .pt-name {
+    display: none;
+  }
+  .subject-root .pt-z {
+    font-size: 7px;
+  }
 }
