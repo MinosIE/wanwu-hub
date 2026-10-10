@@ -36,7 +36,13 @@
         "vEn": "Societies shift from high birth/death to low birth/death; the intervening demographic dividend and ageing matter greatly."
       }
     ],
-    "related": ["monsoon", "desert", "water-cycle", "urbanization", "economic-development"],
+    "related": [
+      "monsoon",
+      "desert",
+      "water-cycle",
+      "urbanization",
+      "economic-development"
+    ],
     "sources": [
       {
         "label": "联合国《世界人口展望》；人口地理学综述",
@@ -82,7 +88,13 @@
         "vEn": "Housing pressure, congestion, degradation and segregated poverty are common costs of rapid growth."
       }
     ],
-    "related": ["population-distribution", "settlement-patterns", "industrial-location", "china", "india"],
+    "related": [
+      "population-distribution",
+      "settlement-patterns",
+      "industrial-location",
+      "china",
+      "india"
+    ],
     "sources": [
       {
         "label": "联合国《世界城市化展望》；城市地理学经典",
@@ -128,7 +140,12 @@
         "vEn": "The fringe blends both, where farmland is lost fastest and commuting living expands."
       }
     ],
-    "related": ["urbanization", "river-landforms", "agricultural-location", "water-cycle"],
+    "related": [
+      "urbanization",
+      "river-landforms",
+      "agricultural-location",
+      "water-cycle"
+    ],
     "sources": [
       {
         "label": "乡村地理学与聚落形态研究",
@@ -174,7 +191,13 @@
         "vEn": "Over-cultivation and poor irrigation bring erosion, salinization and desertification, threatening sustainable use."
       }
     ],
-    "related": ["monsoon", "biome-zonation", "desert", "climate-genesis", "human-land"],
+    "related": [
+      "monsoon",
+      "biome-zonation",
+      "desert",
+      "climate-genesis",
+      "human-land"
+    ],
     "sources": [
       {
         "label": "杜能《孤立国》；农业区位论综述",
@@ -220,7 +243,14 @@
         "vEn": "Moving from bulky resource processing to high-tech and green manufacturing is the renewal path of old industrial districts."
       }
     ],
-    "related": ["transport-networks", "urbanization", "globalization", "economic-development", "usa", "china"],
+    "related": [
+      "transport-networks",
+      "urbanization",
+      "globalization",
+      "economic-development",
+      "usa",
+      "china"
+    ],
     "sources": [
       {
         "label": "韦伯《工业区位论》；产业转移研究",
@@ -266,7 +296,13 @@
         "vEn": "The internet and fiber move information near-free, reshaping business, cities and remote work."
       }
     ],
-    "related": ["globalization", "urbanization", "suez", "commercial-trade", "industrial-location"],
+    "related": [
+      "globalization",
+      "urbanization",
+      "suez",
+      "commercial-trade",
+      "industrial-location"
+    ],
     "sources": [
       {
         "label": "交通地理学与网络经济研究",
@@ -312,7 +348,13 @@
         "vEn": "From bazaars and department stores to malls and e-commerce, retail keeps migrating online and back to the neighborhood."
       }
     ],
-    "related": ["transport-networks", "globalization", "suez", "urbanization", "west-asia"],
+    "related": [
+      "transport-networks",
+      "globalization",
+      "suez",
+      "urbanization",
+      "west-asia"
+    ],
     "sources": [
       {
         "label": "克里斯塔勒《中心地理论》；商业地理综述",
@@ -358,7 +400,13 @@
         "vEn": "Fields, temples, streets and food are landscapes written by people, legible as a group's history."
       }
     ],
-    "related": ["china", "india", "west-asia", "southeast-asia", "political-geography"],
+    "related": [
+      "china",
+      "india",
+      "west-asia",
+      "southeast-asia",
+      "political-geography"
+    ],
     "sources": [
       {
         "label": "萨帕尔·文化地理与景观研究",
@@ -404,7 +452,13 @@
         "vEn": "From local gerrymandering to regional integration and globalization, power is reorganized across spatial scales."
       }
     ],
-    "related": ["cultural-regions", "globalization", "russia", "central-asia", "economic-development"],
+    "related": [
+      "cultural-regions",
+      "globalization",
+      "russia",
+      "central-asia",
+      "economic-development"
+    ],
     "sources": [
       {
         "label": "麦金德与豪斯霍弗地缘政治；政治地理综述",
@@ -450,7 +504,13 @@
         "vEn": "Export orientation, import substitution, resource booms and human-capital investment offer distinct catch-up strategies."
       }
     ],
-    "related": ["industrial-location", "globalization", "usa", "kenya", "population-distribution"],
+    "related": [
+      "industrial-location",
+      "globalization",
+      "usa",
+      "kenya",
+      "population-distribution"
+    ],
     "sources": [
       {
         "label": "世界经济地图与人类发展报告",
@@ -496,7 +556,13 @@
         "vEn": "Global links magnify opportunity but sharpen rivalry; places respond with niche industries and cultural identity."
       }
     ],
-    "related": ["transport-networks", "economic-development", "commercial-trade", "urbanization", "cultural-regions"],
+    "related": [
+      "transport-networks",
+      "economic-development",
+      "commercial-trade",
+      "urbanization",
+      "cultural-regions"
+    ],
     "sources": [
       {
         "label": "弗里德曼《世界是平的》；全球化地理研究",
@@ -542,7 +608,13 @@
         "vEn": "Circular economy, clean energy and spatial planning seek fairness across generations and regions."
       }
     ],
-    "related": ["climate-genesis", "water-cycle", "biome-zonation", "agricultural-location", "desert"],
+    "related": [
+      "climate-genesis",
+      "water-cycle",
+      "biome-zonation",
+      "agricultural-location",
+      "desert"
+    ],
     "sources": [
       {
         "label": "布伦特兰《我们共同的未来》；可持续发展目标",
