@@ -366,6 +366,9 @@
   box-shadow: 0 6px 14px -12px rgba(8, 47, 73, 0.5);
 }
 .subject-root .mod {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 7px 14px;
   border: 1px solid var(--border);
   border-radius: 999px;
