@@ -23,6 +23,10 @@ const principles = fs.existsSync(path.join(D, "principles.json"))
 const branches = fs.existsSync(path.join(D, "branches.json"))
   ? read("branches.json")
   : [];
+// human-geo 为 earth 新增人文地理视图（机制卡同构）。
+const humanGeo = fs.existsSync(path.join(D, "human-geo.json"))
+  ? read("human-geo.json")
+  : [];
 const search = [];
 for (const s of schools)
   search.push({
@@ -84,6 +88,16 @@ for (const b of branches)
     nEn: b.titleEn,
     xEn: b.leadEn,
   });
+for (const h of humanGeo)
+  search.push({
+    m: "m-human-geo",
+    id: h.id,
+    t: "search.t.humanGeo",
+    n: h.title,
+    x: h.lead,
+    nEn: h.titleEn,
+    xEn: h.leadEn,
+  });
 const related = {};
 const add = (id, m, n, nEn) => {
   (related[id] ??= []).push({ m, n, nEn });
@@ -94,6 +108,7 @@ for (const c of classics) add(c.id, "m-classics", c.name, c.nameEn);
 for (const t of thinkers) add(t.id, "m-thinkers", t.name, t.nameEn);
 for (const p of principles) add(p.id, "m-principles", p.title, p.titleEn);
 for (const b of branches) add(b.id, "m-branches", b.title, b.titleEn);
+for (const h of humanGeo) add(h.id, "m-human-geo", h.title, h.titleEn);
 fs.writeFileSync(path.join(D, "search.json"), JSON.stringify(search) + "\n");
 fs.writeFileSync(
   path.join(D, "related.json"),

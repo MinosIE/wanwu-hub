@@ -467,5 +467,89 @@
       "n": "自然带与地域分异规律",
       "nEn": "Natural Zonation and Regional Differentiation"
     }
+  ],
+  "population-distribution": [
+    {
+      "m": "m-human-geo",
+      "n": "人口分布与迁移",
+      "nEn": "Population Distribution and Migration"
+    }
+  ],
+  "urbanization": [
+    {
+      "m": "m-human-geo",
+      "n": "城市化与城市体系",
+      "nEn": "Urbanization and Urban Systems"
+    }
+  ],
+  "settlement-patterns": [
+    {
+      "m": "m-human-geo",
+      "n": "聚落形态与乡村景观",
+      "nEn": "Settlement Patterns and Rural Landscapes"
+    }
+  ],
+  "agricultural-location": [
+    {
+      "m": "m-human-geo",
+      "n": "农业区位与土地利用",
+      "nEn": "Agricultural Location and Land Use"
+    }
+  ],
+  "industrial-location": [
+    {
+      "m": "m-human-geo",
+      "n": "工业区位与产业转移",
+      "nEn": "Industrial Location and Relocation"
+    }
+  ],
+  "transport-networks": [
+    {
+      "m": "m-human-geo",
+      "n": "交通与通讯网络",
+      "nEn": "Transport and Communication Networks"
+    }
+  ],
+  "commercial-trade": [
+    {
+      "m": "m-human-geo",
+      "n": "贸易与商业空间",
+      "nEn": "Trade and Commercial Space"
+    }
+  ],
+  "cultural-regions": [
+    {
+      "m": "m-human-geo",
+      "n": "文化区、语言与宗教",
+      "nEn": "Cultural Regions, Language and Religion"
+    }
+  ],
+  "political-geography": [
+    {
+      "m": "m-human-geo",
+      "n": "政治地理与国界",
+      "nEn": "Political Geography and Boundaries"
+    }
+  ],
+  "economic-development": [
+    {
+      "m": "m-human-geo",
+      "n": "发展差异与经济地理",
+      "nEn": "Development Gaps and Economic Geography"
+    }
+  ],
+  "globalization": [
+    {
+      "m": "m-human-geo",
+      "n": "全球化与空间联系",
+      "nEn": "Globalization and Spatial Connection"
+    }
+  ],
+  "human-land": [
+    {
+      "m": "m-human-geo",
+      "n": "人地关系与可持续发展",
+      "nEn": "Human-Land Relations and Sustainability"
+    }
   ]
 }

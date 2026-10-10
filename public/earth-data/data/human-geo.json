@@ -1,0 +1,554 @@
+[
+  {
+    "id": "population-distribution",
+    "title": "人口分布与迁移",
+    "titleEn": "Population Distribution and Migration",
+    "icon": "🌆",
+    "category": "人口",
+    "categoryEn": "Population",
+    "level": 1,
+    "order": 1,
+    "lead": "世界人口并非均匀铺开，而是聚集在温带近海的平原与大河沿岸；推动其增减与流动的，是自然条件与经济机会的双重引力。",
+    "leadEn": "World population is far from even—it clusters on temperate, coastal plains and great river valleys, shaped jointly by natural endowment and economic pull.",
+    "points": [
+      {
+        "k": "分布格局",
+        "kEn": "Pattern",
+        "v": "东亚、南亚、欧洲与北美东部构成几大稠密区，荒漠、寒带与高山则地广人稀。",
+        "vEn": "East and South Asia, Europe and eastern North America are dense; deserts, polar and alpine zones are sparsely peopled."
+      },
+      {
+        "k": "影响因素",
+        "kEn": "Drivers",
+        "v": "气候、水源、地形等自然基底，叠加就业、收入与公共服务等经济拉力。",
+        "vEn": "A natural base of climate, water and terrain, overlaid by economic pulls of jobs, income and services."
+      },
+      {
+        "k": "迁移类型",
+        "kEn": "Migration",
+        "v": "从乡村到城市的国内迁移，与跨越国界的国际移民，动机含务工、求学与避难。",
+        "vEn": "Rural-to-urban domestic moves and cross-border international migration, driven by work, study and refuge."
+      },
+      {
+        "k": "人口转变",
+        "kEn": "Transition",
+        "v": "社会从高出生高死亡走向低出生低死亡，中间的人口红利与老龄化影响深远。",
+        "vEn": "Societies shift from high birth/death to low birth/death; the intervening demographic dividend and ageing matter greatly."
+      }
+    ],
+    "related": ["monsoon", "desert", "water-cycle", "urbanization", "economic-development"],
+    "sources": [
+      {
+        "label": "联合国《世界人口展望》；人口地理学综述",
+        "labelEn": "UN World Population Prospects; population geography syntheses",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "urbanization",
+    "title": "城市化与城市体系",
+    "titleEn": "Urbanization and Urban Systems",
+    "icon": "🏙️",
+    "category": "城市",
+    "categoryEn": "Urban",
+    "level": 2,
+    "order": 2,
+    "lead": "人口与经济活动向城市持续集聚，既重塑地表景观，也形成由全球城市到中小城镇的等级体系。",
+    "leadEn": "People and economic activity keep clustering in cities, remaking the landscape and forming a hierarchy from global cities to small towns.",
+    "points": [
+      {
+        "k": "衡量指标",
+        "kEn": "Measures",
+        "v": "以城镇人口占总人口比重衡量城市化水平，速度可与经济发展阶段脱节。",
+        "vEn": "Urbanization is gauged by the share of urban population; its pace can outpace or lag economic development."
+      },
+      {
+        "k": "集聚动因",
+        "kEn": "Agglomeration",
+        "v": "就业机会、规模经济与完善基础设施吸引人口流入，形成集聚效应。",
+        "vEn": "Jobs, economies of scale and dense infrastructure draw inflows, creating agglomeration effects."
+      },
+      {
+        "k": "城市等级",
+        "kEn": "Hierarchy",
+        "v": "少数全球城市居于顶层，下接区域中心城市与庞大的中小城镇网络。",
+        "vEn": "A few world cities sit at the top, above regional hubs and a broad web of smaller towns."
+      },
+      {
+        "k": "城市问题",
+        "kEn": "Urban issues",
+        "v": "住房紧张、交通拥堵、环境退化与贫富分区是快速扩张的常见代价。",
+        "vEn": "Housing pressure, congestion, degradation and segregated poverty are common costs of rapid growth."
+      }
+    ],
+    "related": ["population-distribution", "settlement-patterns", "industrial-location", "china", "india"],
+    "sources": [
+      {
+        "label": "联合国《世界城市化展望》；城市地理学经典",
+        "labelEn": "UN World Urbanization Prospects; urban geography classics",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "settlement-patterns",
+    "title": "聚落形态与乡村景观",
+    "titleEn": "Settlement Patterns and Rural Landscapes",
+    "icon": "🏡",
+    "category": "聚落",
+    "categoryEn": "Settlement",
+    "level": 1,
+    "order": 3,
+    "lead": "人类的居所既有沿河沿路铺展的线状村舍，也有围绕水井庙宇团聚的村落——形态记录着水源、地形与生产方式。",
+    "leadEn": "Human dwellings range from linear hamlets along rivers and roads to nucleated villages clustered round a well or temple—form records water, terrain and livelihood.",
+    "points": [
+      {
+        "k": "聚散形态",
+        "kEn": "Nucleated vs dispersed",
+        "v": "集村紧凑、分散民居疏朗，前者常见于灌溉农业区，后者多现于牧业与山地。",
+        "vEn": "Nucleated villages are compact, dispersed farmsteads sparse; the first suits irrigated farming, the second herding and uplands."
+      },
+      {
+        "k": "选址逻辑",
+        "kEn": "Site logic",
+        "v": "靠近水源、避开洪患、背风向阳与交通便利是传统聚落选址的共同准则。",
+        "vEn": "Near water, safe from floods, sheltered from wind, sun-facing and well-linked—shared rules of traditional siting."
+      },
+      {
+        "k": "景观差异",
+        "kEn": "Landscape contrast",
+        "v": "平原村落密集规整，山区聚落零散依山，水乡则以河为街、以桥为门。",
+        "vEn": "Plain villages are dense and orderly, mountain hamlets scattered on slopes, water towns use rivers as streets and bridges as gates."
+      },
+      {
+        "k": "城乡过渡",
+        "kEn": "Rural-urban fringe",
+        "v": "城市边缘的郊区带兼具两类特征，是耕地流失与通勤居住最活跃之地。",
+        "vEn": "The fringe blends both, where farmland is lost fastest and commuting living expands."
+      }
+    ],
+    "related": ["urbanization", "river-landforms", "agricultural-location", "water-cycle"],
+    "sources": [
+      {
+        "label": "乡村地理学与聚落形态研究",
+        "labelEn": "Rural geography and settlement morphological studies",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "id": "agricultural-location",
+    "title": "农业区位与土地利用",
+    "titleEn": "Agricultural Location and Land Use",
+    "icon": "🌾",
+    "category": "农业",
+    "categoryEn": "Agriculture",
+    "level": 2,
+    "order": 4,
+    "lead": "种什么、在哪里种，由光热水土的自然禀赋与距市场远近的经济账共同决定，形成各具特色的农业地域类型。",
+    "leadEn": "What and where to grow is set by the natural gift of light, heat, water and soil together with distance to market, yielding distinct regional farming types.",
+    "points": [
+      {
+        "k": "自然条件",
+        "kEn": "Natural base",
+        "v": "气候决定熟制与作物种类，地形影响机械化，水源灌溉与土壤肥力制约单产。",
+        "vEn": "Climate fixes cropping seasons and species, terrain shapes mechanization, while water, irrigation and fertility cap yields."
+      },
+      {
+        "k": "区位理论",
+        "kEn": "Location theory",
+        "v": "杜能圈以运距与地租解释环绕城市的农业带分布，易腐作物近城布局。",
+        "vEn": "Thünen's rings explain farm belts around a city by haul distance and rent; perishables sit nearest."
+      },
+      {
+        "k": "地域类型",
+        "kEn": "Farming types",
+        "v": "季风水田农业、商品谷物农业、混合农业、大牧场放牧业与园艺业分处不同环境。",
+        "vEn": "Monsoon paddy, commercial grain, mixed farming, ranching and horticulture each occupy distinct settings."
+      },
+      {
+        "k": "人地压力",
+        "kEn": "Land pressure",
+        "v": "过度开垦与灌溉不当引发水土流失、盐碱化与荒漠化，威胁可持续利用。",
+        "vEn": "Over-cultivation and poor irrigation bring erosion, salinization and desertification, threatening sustainable use."
+      }
+    ],
+    "related": ["monsoon", "biome-zonation", "desert", "climate-genesis", "human-land"],
+    "sources": [
+      {
+        "label": "杜能《孤立国》；农业区位论综述",
+        "labelEn": "Von Thünen, The Isolated State; agricultural location syntheses",
+        "year": 1826
+      }
+    ]
+  },
+  {
+    "id": "industrial-location",
+    "title": "工业区位与产业转移",
+    "titleEn": "Industrial Location and Relocation",
+    "icon": "🏭",
+    "category": "产业",
+    "categoryEn": "Industry",
+    "level": 3,
+    "order": 5,
+    "lead": "工厂选址权衡原料、能源、市场与劳动力成本；随比较优势变迁，产业在区域间不断梯度转移，重绘世界经济地图。",
+    "leadEn": "Plants weigh raw materials, energy, markets and labor cost; as comparative advantages shift, industries step down across regions, redrawing the economic map.",
+    "points": [
+      {
+        "k": "区位因素",
+        "kEn": "Location factors",
+        "v": "原料指向、市场指向、动力指向与劳动力指向，决定不同类型工业的聚集地。",
+        "vEn": "Material-, market-, power- and labor-oriented pulls each anchor different industry types."
+      },
+      {
+        "k": "工业集聚",
+        "kEn": "Clustering",
+        "v": "相关企业地理集中可共享基础设施与配套，降低成本并激发创新。",
+        "vEn": "Geographic clustering lets firms share infrastructure and suppliers, cutting costs and sparking innovation."
+      },
+      {
+        "k": "产业转移",
+        "kEn": "Relocation",
+        "v": "劳动密集型环节从发达地区转向成本更低的承接地，呈雁行梯度推进。",
+        "vEn": "Labor-intensive stages migrate from rich regions to lower-cost hosts, advancing in a flying-geese gradient."
+      },
+      {
+        "k": "转型升级",
+        "kEn": "Upgrading",
+        "v": "从资源粗加工走向技术密集与绿色制造，是传统工业区的再生之路。",
+        "vEn": "Moving from bulky resource processing to high-tech and green manufacturing is the renewal path of old industrial districts."
+      }
+    ],
+    "related": ["transport-networks", "urbanization", "globalization", "economic-development", "usa", "china"],
+    "sources": [
+      {
+        "label": "韦伯《工业区位论》；产业转移研究",
+        "labelEn": "Weber, Theory of the Location of Industries; relocation studies",
+        "year": 1909
+      }
+    ]
+  },
+  {
+    "id": "transport-networks",
+    "title": "交通与通讯网络",
+    "titleEn": "Transport and Communication Networks",
+    "icon": "🚄",
+    "category": "交通",
+    "categoryEn": "Transport",
+    "level": 1,
+    "order": 6,
+    "lead": "铁路、公路、航线与光缆编织成流动的网络，压缩时空、连接市场，也决定哪些地方繁荣、哪些被绕开。",
+    "leadEn": "Rails, roads, air routes and fiber weave flowing networks that compress space and time, link markets, and decide which places thrive and which are bypassed.",
+    "points": [
+      {
+        "k": "方式比较",
+        "kEn": "Modes",
+        "v": "水运廉价运量大、铁路连续性强、公路灵活门到门、航空迅捷、管道专运流体。",
+        "vEn": "Shipping is cheap and capacious, rail steady, road flexible door-to-door, air swift, pipelines dedicated to fluids."
+      },
+      {
+        "k": "网络枢纽",
+        "kEn": "Nodes",
+        "v": "港口、铁路交会点与航空枢纽因转运功能兴起，成为城市成长的引擎。",
+        "vEn": "Ports, rail junctions and air hubs rise on transshipment, becoming engines of urban growth."
+      },
+      {
+        "k": "时空压缩",
+        "kEn": "Time-space compression",
+        "v": "提速与降本拉近了遥远市场的距离，使生鲜与零部件得以全球当日达。",
+        "vEn": "Faster, cheaper travel shrinks distant markets, letting perishables and parts cross the globe within a day."
+      },
+      {
+        "k": "数字网络",
+        "kEn": "Digital links",
+        "v": "互联网与光纤让信息几近免费流动，重塑商业、城市与远程工作格局。",
+        "vEn": "The internet and fiber move information near-free, reshaping business, cities and remote work."
+      }
+    ],
+    "related": ["globalization", "urbanization", "suez", "commercial-trade", "industrial-location"],
+    "sources": [
+      {
+        "label": "交通地理学与网络经济研究",
+        "labelEn": "Transport geography and network economics studies",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "id": "commercial-trade",
+    "title": "贸易与商业空间",
+    "titleEn": "Trade and Commercial Space",
+    "icon": "🚢",
+    "category": "商贸",
+    "categoryEn": "Trade",
+    "level": 2,
+    "order": 7,
+    "lead": "商品从产地经批发、零售的层级流向消费者，贸易通道的兴衰塑造了港口、集市与城市的地理命运。",
+    "leadEn": "Goods flow from origin to consumer through wholesale and retail tiers; the rise and fall of trade routes shapes the geographic fate of ports, markets and cities.",
+    "points": [
+      {
+        "k": "商业层级",
+        "kEn": "Hierarchy",
+        "v": "中心地理论解释城镇作为服务中心的等级、数量与腹地范围。",
+        "vEn": "Central place theory explains towns as service centers in a hierarchy of rank, number and hinterland."
+      },
+      {
+        "k": "贸易流向",
+        "kEn": "Flows",
+        "v": "资源制成品互补,发达国家与发展中国家沿比较优势展开产业内与产业间贸易。",
+        "vEn": "Raw and finished goods complement one another; advanced and developing economies trade both across and within industries."
+      },
+      {
+        "k": "通道兴衰",
+        "kEn": "Route shifts",
+        "v": "从丝绸之路到大航海、苏伊士与巴拿马运河，新通道改写沿岸城市的繁荣。",
+        "vEn": "From the Silk Road to the Age of Sail and the Suez and Panama canals, new routes recast the wealth of port cities."
+      },
+      {
+        "k": "零售变革",
+        "kEn": "Retail change",
+        "v": "从集市、百货到购物中心与电商，商业空间不断向线上与社区两端迁移。",
+        "vEn": "From bazaars and department stores to malls and e-commerce, retail keeps migrating online and back to the neighborhood."
+      }
+    ],
+    "related": ["transport-networks", "globalization", "suez", "urbanization", "west-asia"],
+    "sources": [
+      {
+        "label": "克里斯塔勒《中心地理论》；商业地理综述",
+        "labelEn": "Christaller, Central Places in Southern Germany; commercial geography syntheses",
+        "year": 1933
+      }
+    ]
+  },
+  {
+    "id": "cultural-regions",
+    "title": "文化区、语言与宗教",
+    "titleEn": "Cultural Regions, Language and Religion",
+    "icon": "🕌",
+    "category": "文化",
+    "categoryEn": "Culture",
+    "level": 2,
+    "order": 8,
+    "lead": "语言、宗教、习俗与建筑在空间中聚合成文化区；它们的扩散、叠加与碰撞，构成人文地理最生动的图层。",
+    "leadEn": "Language, religion, custom and architecture coalesce into cultural regions; their diffusion, overlap and clash form geography's most vivid layer.",
+    "points": [
+      {
+        "k": "文化区划",
+        "kEn": "Regions",
+        "v": "以语言、宗教或生产方式的相对均质边界划分，边界多为过渡带而非直线。",
+        "vEn": "Drawn on the relative homogeneity of language, faith or livelihood, their edges are transition zones rather than lines."
+      },
+      {
+        "k": "文化扩散",
+        "kEn": "Diffusion",
+        "v": "扩张扩散、迁移扩散与层级扩散，让观念、作物与创新沿路径传播。",
+        "vEn": "Expansion, relocation and hierarchical diffusion carry ideas, crops and innovations along routes."
+      },
+      {
+        "k": "语言宗教",
+        "kEn": "Language & faith",
+        "v": "语系分布与三大一神教等信仰版图深刻影响地名、建筑与区域认同。",
+        "vEn": "Language families and the great monotheisms shape place-names, buildings and regional identity."
+      },
+      {
+        "k": "文化景观",
+        "kEn": "Cultural landscape",
+        "v": "田垄、庙宇、街巷与饮食皆为人所书写的景观，可读出一个群体的历史。",
+        "vEn": "Fields, temples, streets and food are landscapes written by people, legible as a group's history."
+      }
+    ],
+    "related": ["china", "india", "west-asia", "southeast-asia", "political-geography"],
+    "sources": [
+      {
+        "label": "萨帕尔·文化地理与景观研究",
+        "labelEn": "Sauer, cultural geography and landscape studies",
+        "year": 1925
+      }
+    ]
+  },
+  {
+    "id": "political-geography",
+    "title": "政治地理与国界",
+    "titleEn": "Political Geography and Boundaries",
+    "icon": "🗺️",
+    "category": "政治",
+    "categoryEn": "Political",
+    "level": 3,
+    "order": 9,
+    "lead": "领土、国界与地缘格局划定权力的空间；国家的形状、位置与资源，深刻影响其战略选择与国际角色。",
+    "leadEn": "Territory, borders and geopolitics map power onto space; a state's shape, position and resources deeply shape its strategy and world role.",
+    "points": [
+      {
+        "k": "国界类型",
+        "kEn": "Boundary types",
+        "v": "天然界沿山河荒漠划定，人为界以经纬线或民族语言为据，常埋争端。",
+        "vEn": "Natural bounds follow rivers, ranges and deserts; artificial ones use meridians or ethnicity, often sowing dispute."
+      },
+      {
+        "k": "国家形状",
+        "kEn": "State shape",
+        "v": "紧凑、狭长或破碎的领土影响交通、治理与分裂主义的风险。",
+        "vEn": "Compact, elongated or fragmented territory affects transport, governance and separatist risk."
+      },
+      {
+        "k": "地缘理论",
+        "kEn": "Geopolitics",
+        "v": "海权与陆权之争、边缘地带学说，尝试以空间解释大国博弈。",
+        "vEn": "Sea- versus land-power and the rimland thesis try to explain great-power rivalry through space."
+      },
+      {
+        "k": "尺度政治",
+        "kEn": "Politics of scale",
+        "v": "从地方选区划分到区域一体化与全球化，权力在不同空间尺度上重组。",
+        "vEn": "From local gerrymandering to regional integration and globalization, power is reorganized across spatial scales."
+      }
+    ],
+    "related": ["cultural-regions", "globalization", "russia", "central-asia", "economic-development"],
+    "sources": [
+      {
+        "label": "麦金德与豪斯霍弗地缘政治；政治地理综述",
+        "labelEn": "Mackinder and geopolitical theory; political geography syntheses",
+        "year": 1904
+      }
+    ]
+  },
+  {
+    "id": "economic-development",
+    "title": "发展差异与经济地理",
+    "titleEn": "Development Gaps and Economic Geography",
+    "icon": "📊",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "order": 10,
+    "lead": "财富与产业在空间上高度不均，发达与发展中地区的差距，由历史、制度、区位与资源共同书写。",
+    "leadEn": "Wealth and industry are starkly uneven in space; the gap between advanced and developing regions is written by history, institutions, location and resources.",
+    "points": [
+      {
+        "k": "衡量维度",
+        "kEn": "Measures",
+        "v": "人均 GDP、产业结构、人类发展指数等指标共同刻画发展水平。",
+        "vEn": "GDP per capita, sectoral structure and the Human Development Index together depict development level."
+      },
+      {
+        "k": "区域差异",
+        "kEn": "Disparity",
+        "v": "核心区与边缘区的收入、就业与基础设施落差，在一国内部同样显著。",
+        "vEn": "Core–periphery gaps in income, jobs and infrastructure are as sharp within countries as between them."
+      },
+      {
+        "k": "贫困陷阱",
+        "kEn": "Poverty trap",
+        "v": "内陆锁定、疾病、教育与资本匮乏相互强化，使部分地区难以起飞。",
+        "vEn": "Landlocked-ness, disease, weak schooling and thin capital reinforce each other, stalling takeoff."
+      },
+      {
+        "k": "发展路径",
+        "kEn": "Pathways",
+        "v": "出口导向、进口替代、资源开发与人力资本投入构成不同的赶超策略。",
+        "vEn": "Export orientation, import substitution, resource booms and human-capital investment offer distinct catch-up strategies."
+      }
+    ],
+    "related": ["industrial-location", "globalization", "usa", "kenya", "population-distribution"],
+    "sources": [
+      {
+        "label": "世界经济地图与人类发展报告",
+        "labelEn": "World economic mapping and Human Development Reports",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "id": "globalization",
+    "title": "全球化与空间联系",
+    "titleEn": "Globalization and Spatial Connection",
+    "icon": "🌐",
+    "category": "联系",
+    "categoryEn": "Connection",
+    "level": 3,
+    "order": 11,
+    "lead": "资本、商品、信息与人口的跨境流动把世界缝合成一张网络，既带来效率与互联，也制造依赖与失衡的赢家输家。",
+    "leadEn": "Cross-border flows of capital, goods, information and people stitch the world into one network—delivering efficiency and connection, yet breeding dependence and uneven winners and losers.",
+    "points": [
+      {
+        "k": "多维流动",
+        "kEn": "Flows",
+        "v": "贸易、投资、移民与数据流相互叠加，构成全球空间经济骨架。",
+        "vEn": "Trade, investment, migration and data flows stack into the skeleton of the global spatial economy."
+      },
+      {
+        "k": "全球城市",
+        "kEn": "World cities",
+        "v": "少数节点指挥跨国公司与金融，形成金字塔式的全球城市等级。",
+        "vEn": "A few nodes command multinationals and finance, forming a pyramidal world-city hierarchy."
+      },
+      {
+        "k": "全球生产",
+        "kEn": "Global production",
+        "v": "一件产品的设计、零部件与组装分布于多国，形成全球价值链。",
+        "vEn": "A single product's design, parts and assembly scatter across countries into a global value chain."
+      },
+      {
+        "k": "本地回应",
+        "kEn": "Local response",
+        "v": "全球连通放大机会也激化竞争，地方以特色产业与文化认同作出回应。",
+        "vEn": "Global links magnify opportunity but sharpen rivalry; places respond with niche industries and cultural identity."
+      }
+    ],
+    "related": ["transport-networks", "economic-development", "commercial-trade", "urbanization", "cultural-regions"],
+    "sources": [
+      {
+        "label": "弗里德曼《世界是平的》；全球化地理研究",
+        "labelEn": "Friedman, The World Is Flat; globalization geography studies",
+        "year": 2005
+      }
+    ]
+  },
+  {
+    "id": "human-land",
+    "title": "人地关系与可持续发展",
+    "titleEn": "Human-Land Relations and Sustainability",
+    "icon": "♻️",
+    "category": "人地",
+    "categoryEn": "Sustainability",
+    "level": 3,
+    "order": 12,
+    "lead": "人类适应并改造环境，也反受其制约；如何在发展与承载之间求衡，是贯穿人文与自然的地理核心命题。",
+    "leadEn": "Humans adapt to and remake the environment, yet remain bound by it; balancing development against carrying capacity is geography's central question spanning nature and society.",
+    "points": [
+      {
+        "k": "理论演进",
+        "kEn": "Evolving thought",
+        "v": "从环境决定论到人地协调与可持续发展，认知不断从单向走向互动。",
+        "vEn": "From environmental determinism to harmony and sustainability, understanding has moved from one-way to interactive."
+      },
+      {
+        "k": "资源压力",
+        "kEn": "Resource strain",
+        "v": "水土、能源与生物资源的过量索取，逼近地球系统的承载极限。",
+        "vEn": "Over-drafting of water, soil, energy and biological resources pushes toward the planet's carrying limits."
+      },
+      {
+        "k": "环境风险",
+        "kEn": "Hazards",
+        "v": "气候变化、灾害与污染使脆弱地区承受不成比例的风险与损失。",
+        "vEn": "Climate change, disasters and pollution impose disproportionate risk and loss on the vulnerable."
+      },
+      {
+        "k": "可持续路径",
+        "kEn": "Sustainable paths",
+        "v": "循环经济、清洁能源与国土空间规划，寻求代际与区域的公平。",
+        "vEn": "Circular economy, clean energy and spatial planning seek fairness across generations and regions."
+      }
+    ],
+    "related": ["climate-genesis", "water-cycle", "biome-zonation", "agricultural-location", "desert"],
+    "sources": [
+      {
+        "label": "布伦特兰《我们共同的未来》；可持续发展目标",
+        "labelEn": "Brundtland, Our Common Future; Sustainable Development Goals",
+        "year": 1987
+      }
+    ]
+  }
+]

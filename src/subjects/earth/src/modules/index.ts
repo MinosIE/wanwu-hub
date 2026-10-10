@@ -39,6 +39,14 @@ export const MODULES: ModuleDef[] = [
     load: () => import("./principles"),
   },
   {
+    id: "m-human-geo",
+    key: "humanGeo",
+    icon: "🏙️",
+    file: "human-geo.json",
+    priority: 1,
+    load: () => import("./human-geo"),
+  },
+  {
     id: "m-classics",
     key: "classics",
     icon: "🏔️",
