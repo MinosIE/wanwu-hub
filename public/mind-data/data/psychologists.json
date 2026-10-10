@@ -10,8 +10,18 @@
     "oneLinerEn": "Proposed the unconscious and the id/ego/superego structure, founded the talking cure, and reshaped how we see the irrational self.",
     "detail": "弗洛伊德认为大量心理活动在意识之外运作，童年冲突会以神经症形式延续。他发展出自由联想与梦的解析，强调性与攻击驱力。其理论可证伪性弱、样本偏狭，后世争议巨大，但「潜意识」概念已深入文化与临床。",
     "detailEn": "Freud held that much mental life is unconscious and childhood conflict surfaces as neurosis. He developed free association and dream analysis around sex and aggression drives. Weak falsifiability and narrow samples make him contested, yet 'the unconscious' now pervades culture and clinic.",
-    "keyIdeas": ["潜意识", "本我/自我/超我", "心理防御机制", "心理性欲发展阶段"],
-    "keyIdeasEn": ["Unconscious", "Id / Ego / Superego", "Defense mechanisms", "Psychosexual stages"],
+    "keyIdeas": [
+      "潜意识",
+      "本我/自我/超我",
+      "心理防御机制",
+      "心理性欲发展阶段"
+    ],
+    "keyIdeasEn": [
+      "Unconscious",
+      "Id / Ego / Superego",
+      "Defense mechanisms",
+      "Psychosexual stages"
+    ],
     "works": ["梦的解析", "自我与本我"],
     "worksEn": ["The Interpretation of Dreams", "The Ego and the Id"],
     "related": ["psychoanalysis", "defense-mechanism", "attachment"],
@@ -30,7 +40,12 @@
     "detail": "皮亚杰认为儿童不是缩小版成人，而是以不同结构理解世界：感知运动、前运算、具体运算到形式运算。他通过临床访谈法观察推理错误，奠定了发生认识论，影响了一代教育与玩具设计。",
     "detailEn": "Piaget argued children are not small adults but understand the world via distinct structures: sensorimotor, preoperational, concrete and formal operations. His clinical interviews revealed reasoning errors and founded genetic epistemology, shaping education and toy design.",
     "keyIdeas": ["图式", "同化与顺应", "认知发展阶段", "发生认识论"],
-    "keyIdeasEn": ["Schema", "Assimilation & Accommodation", "Stages of development", "Genetic epistemology"],
+    "keyIdeasEn": [
+      "Schema",
+      "Assimilation & Accommodation",
+      "Stages of development",
+      "Genetic epistemology"
+    ],
     "works": ["发生认识论原理"],
     "worksEn": ["The Principles of Genetic Epistemology"],
     "related": ["schema", "cognitivism"],
@@ -49,7 +64,12 @@
     "detail": "斯金纳区分应答性（经典）与操作性（后果控制）行为，研究强化程式（固定/可变比率）如何影响反应率。他拒斥内在心理实体的解释，认为预测与控制行为只需关注可观察的刺激—反应—强化链条。",
     "detailEn": "Skinner separated respondent (classical) from operant (consequence-controlled) behavior and studied schedules (fixed/variable ratio) shaping response rates. He rejected inner mental entities, holding that prediction and control need only observable stimulus-response-reinforcement chains.",
     "keyIdeas": ["操作性条件反射", "强化程式", "行为塑造", "激进行为主义"],
-    "keyIdeasEn": ["Operant conditioning", "Reinforcement schedules", "Shaping", "Radical behaviorism"],
+    "keyIdeasEn": [
+      "Operant conditioning",
+      "Reinforcement schedules",
+      "Shaping",
+      "Radical behaviorism"
+    ],
     "works": ["科学与人类行为", "超越自由与尊严"],
     "worksEn": ["Science and Human Behavior", "Beyond Freedom and Dignity"],
     "related": ["behaviorism", "reinforcement"],
@@ -68,7 +88,12 @@
     "detail": "班杜拉以「波波玩偶实验」证明儿童会模仿成人攻击行为；他认为行为、认知与环境相互决定（三元交互）。自我效能感——对自己完成某事的信心——是动机与坚持的核心前因。",
     "detailEn": "Bandura's Bobo doll experiment showed children imitate adult aggression; he held behavior, cognition and environment co-determine each other (triadic reciprocity). Self-efficacy — belief in one's capability — is a core antecedent of motivation and persistence.",
     "keyIdeas": ["观察学习", "自我效能", "三元交互决定论", "榜样示范"],
-    "keyIdeasEn": ["Observational learning", "Self-efficacy", "Reciprocal determinism", "Modeling"],
+    "keyIdeasEn": [
+      "Observational learning",
+      "Self-efficacy",
+      "Reciprocal determinism",
+      "Modeling"
+    ],
     "works": ["自我效能：控制的运用"],
     "worksEn": ["Self-Efficacy: The Exercise of Control"],
     "related": ["behaviorism", "self"],
@@ -87,7 +112,12 @@
     "detail": "卡尼曼与特沃斯基提出前景理论，说明人在不确定下如何系统性偏离理性（损失厌恶、框架效应）。他将多年研究写成《思考，快与慢》，把启发式与偏差从实验室带向大众与政策设计。",
     "detailEn": "With Tversky, Kahneman proposed prospect theory showing systematic departures from rationality under uncertainty (loss aversion, framing). 'Thinking, Fast and Slow' brought heuristics and biases from lab to public and policy.",
     "keyIdeas": ["系统1/系统2", "前景理论", "启发式与偏差", "损失厌恶"],
-    "keyIdeasEn": ["System 1 / System 2", "Prospect theory", "Heuristics & biases", "Loss aversion"],
+    "keyIdeasEn": [
+      "System 1 / System 2",
+      "Prospect theory",
+      "Heuristics & biases",
+      "Loss aversion"
+    ],
     "works": ["思考，快与慢"],
     "worksEn": ["Thinking, Fast and Slow"],
     "related": ["memory", "self"],
@@ -106,7 +136,12 @@
     "detail": "马斯洛是人本心理学奠基人之一，反对只谈病态或机械行为，强调人的潜能、主动性与成长。需求层次虽广为人知，但其严格实证支持有限，且「自我实现」的定义较含糊。",
     "detailEn": "A founder of humanistic psychology, Maslow rejected-only-pathology or mechanical views, stressing potential, agency and growth. The hierarchy is famous yet weakly evidenced, and 'self-actualization' is loosely defined.",
     "keyIdeas": ["需求层次", "自我实现", "人本主义", "峰值体验"],
-    "keyIdeasEn": ["Hierarchy of needs", "Self-actualization", "Humanism", "Peak experience"],
+    "keyIdeasEn": [
+      "Hierarchy of needs",
+      "Self-actualization",
+      "Humanism",
+      "Peak experience"
+    ],
     "works": ["动机与人格"],
     "worksEn": ["Motivation and Personality"],
     "related": ["humanistic", "motivation"],
@@ -125,7 +160,11 @@
     "detail": "巴甫洛夫本是生理学家，研究消化时偶然发现：铃声与食物反复配对后，狗仅听铃声也会流口水。这一「条件反应」成为行为主义与学习的基石，也启发了后续恐惧条件反射研究。",
     "detailEn": "A physiologist studying digestion, Pavlov found by chance that after pairing a bell with food, dogs salivated to the bell alone. This 'conditioned response' became a cornerstone of behaviorism and later fear-conditioning research.",
     "keyIdeas": ["经典条件反射", "无条件/条件刺激", "联想学习"],
-    "keyIdeasEn": ["Classical conditioning", "Unconditioned / conditioned stimulus", "Associative learning"],
+    "keyIdeasEn": [
+      "Classical conditioning",
+      "Unconditioned / conditioned stimulus",
+      "Associative learning"
+    ],
     "works": ["条件反射演讲集"],
     "worksEn": ["Conditioned Reflexes"],
     "related": ["conditioning", "behaviorism"],
@@ -144,11 +183,115 @@
     "detail": "艾克曼在巴布亚新几内亚与西方样本中均发现喜悦、悲伤、愤怒、恐惧、厌恶、惊讶六种表情被一致识别，支持情绪普遍性。他编制的 FACS 面部动作编码系统被广泛用于心理学与测谎研究。",
     "detailEn": "Across Papua New Guinea and Western samples, Ekman found six expressions (joy, sadness, anger, fear, disgust, surprise) recognized consistently, supporting universality. His FACS coding system is widely used in psychology and deception research.",
     "keyIdeas": ["基本情绪普遍性", "面部表情", "微表情", "FACS 编码"],
-    "keyIdeasEn": ["Universality of basic emotions", "Facial expression", "Micro-expression", "FACS coding"],
+    "keyIdeasEn": [
+      "Universality of basic emotions",
+      "Facial expression",
+      "Micro-expression",
+      "FACS coding"
+    ],
     "works": ["情绪的解析", "说谎"],
     "worksEn": ["Emotions Revealed", "Telling Lies"],
     "related": ["emotion", "theory-of-mind"],
     "tags": ["情绪", "社会"],
     "sources": [{ "label": "Ekman, P. 《情绪的解析》", "year": 2003 }]
+  },
+  {
+    "id": "carl-rogers",
+    "name": "卡尔·罗杰斯",
+    "nameEn": "Carl Rogers",
+    "era": "1902–1987",
+    "field": "人本主义 · 临床",
+    "fieldEn": "Humanistic · Clinical",
+    "oneLiner": "创立以当事人为中心的疗法，主张真诚、共情与无条件积极关注能激活人的自我成长。",
+    "oneLinerEn": "Founded client-centered therapy, holding that genuineness, empathy and unconditional positive regard unlock self-growth.",
+    "detail": "罗杰斯相信人天生有自我实现的倾向，心理困扰源于真实自我与外界条件之间的落差。他把治疗关系本身视为疗愈的核心，强调治疗师需提供安全、不评判的氛围，让当事人重新倾听自己的经验。",
+    "detailEn": "Rogers trusted an innate drive toward self-actualization, seeing distress as a gap between the real self and others' conditions. He treated the therapeutic relationship itself as curative, offering a safe, non-judging space.",
+    "keyIdeas": ["自我实现倾向", "真诚一致", "无条件积极关注", "共情理解"],
+    "keyIdeasEn": [
+      "Self-actualizing tendency",
+      "Congruence",
+      "Unconditional positive regard",
+      "Empathic understanding"
+    ],
+    "works": ["论人的成长", "自由与隐私"],
+    "worksEn": ["On Becoming a Person", "Freedom to Learn"],
+    "related": ["maslow", "bandura", "self-concept"],
+    "tags": ["人本主义", "临床", "治疗"],
+    "sources": [{ "label": "Rogers, C. 《论人的成长》", "year": 1961 }]
+  },
+  {
+    "id": "aaron-beck",
+    "name": "阿伦·贝克",
+    "nameEn": "Aaron Beck",
+    "era": "1921–2021",
+    "field": "认知疗法",
+    "fieldEn": "Cognitive therapy",
+    "oneLiner": "创立认知疗法，指出抑郁源于自动思维与认知歪曲，可通过检验与重构来缓解。",
+    "oneLinerEn": "Created cognitive therapy, showing depression stems from automatic thoughts and cognitive distortions that can be tested and reframed.",
+    "detail": "贝克发现抑郁者常有『认知三角』——对自我、世界与未来的负性看法，并伴随灾难化、非黑即白等歪曲。他发展出结构化、短程、实证支持的疗法，成为今天抑郁症一线治疗与 CBT 的根基。",
+    "detailEn": "Beck found depressed people show a 'cognitive triad' of negative views of self, world and future, plus distortions like catastrophizing. His structured, brief, evidence-based method underpins today's CBT and first-line depression care.",
+    "keyIdeas": ["自动思维", "认知三角", "认知歪曲", "苏格拉底式提问"],
+    "keyIdeasEn": [
+      "Automatic thoughts",
+      "Cognitive triad",
+      "Cognitive distortions",
+      "Socratic questioning"
+    ],
+    "works": ["认知疗法与情绪障碍", "抑郁的认知治疗"],
+    "worksEn": [
+      "Cognitive Therapy and the Emotional Disorders",
+      "Cognitive Therapy of Depression"
+    ],
+    "related": ["kahneman", "carl-rogers", "cognitive-distortion"],
+    "tags": ["临床", "认知", "治疗"],
+    "sources": [{ "label": "Beck, A. 《认知疗法与情绪障碍》", "year": 1976 }]
+  },
+  {
+    "id": "vygotsky",
+    "name": "利维·维果茨基",
+    "nameEn": "Lev Vygotsky",
+    "era": "1896–1934",
+    "field": "发展 · 教育心理",
+    "fieldEn": "Developmental · Educational",
+    "oneLiner": "提出最近发展区与文化工具论，强调高级心理机能先在人际、后在个体内部形成。",
+    "oneLinerEn": "Proposed the Zone of Proximal Development and cultural tools, stressing that higher functions appear first between people, then within.",
+    "detail": "维果茨基认为学习先于并推动发展，语言、符号等文化工具重塑思维；在他人搭建的『脚手架』下，儿童能完成独立时还做不到的任务。其思想深刻影响了建构主义教学与合作学习。",
+    "detailEn": "Vygotsky held that learning leads development and that cultural tools like language reshape thought; with a scaffold, children achieve what they cannot yet alone. His ideas deeply shaped constructivist teaching and collaborative learning.",
+    "keyIdeas": ["最近发展区", "文化工具", "脚手架", "内化"],
+    "keyIdeasEn": [
+      "Zone of Proximal Development",
+      "Cultural tools",
+      "Scaffolding",
+      "Internalization"
+    ],
+    "works": ["思想中的人生", "思维与言语"],
+    "worksEn": ["Thought and Language", "Mind in Society"],
+    "related": ["piaget", "bandura", "scaffolding"],
+    "tags": ["发展", "教育"],
+    "sources": [{ "label": "Vygotsky, L. 《思维与言语》", "year": 1934 }]
+  },
+  {
+    "id": "martin-seligman",
+    "name": "马丁·塞利格曼",
+    "nameEn": "Martin Seligman",
+    "era": "1942–",
+    "field": "积极心理学",
+    "fieldEn": "Positive psychology",
+    "oneLiner": "从『习得性无助』转向积极心理学，主张研究优势、幸福与意义而非只盯着疾病。",
+    "oneLinerEn": "From learned helplessness to positive psychology, urging the study of strengths, well-being and meaning, not just disorder.",
+    "detail": "早期实验揭示了无法逃脱时产生的『习得性无助』；后来他推动心理学关注人的繁荣，提出 PERMA 幸福模型与性格优势，令积极心理学成为主流分支。",
+    "detailEn": "Early work revealed 'learned helplessness' when escape is impossible; he later steered psychology toward human flourishing, proposing the PERMA model and character strengths, making positive psychology mainstream.",
+    "keyIdeas": ["习得性无助", "习得性乐观", "PERMA 模型", "性格优势"],
+    "keyIdeasEn": [
+      "Learned helplessness",
+      "Learned optimism",
+      "PERMA model",
+      "Character strengths"
+    ],
+    "works": ["活出最乐观的自己", "持续的幸福"],
+    "worksEn": ["Learned Optimism", "Flourish"],
+    "related": ["maslow", "aaron-beck", "kahneman"],
+    "tags": ["积极心理", "临床"],
+    "sources": [{ "label": "Seligman, M. 《活出最乐观的自己》", "year": 1990 }]
   }
 ]

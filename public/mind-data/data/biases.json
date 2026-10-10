@@ -94,5 +94,53 @@
     "category": "元认知",
     "related": ["halo-effect"],
     "sources": [{ "label": "Kruger & Dunning (1999)", "year": 1999 }]
+  },
+  {
+    "id": "fundamental-attribution-error",
+    "term": "基本归因错误",
+    "termEn": "Fundamental Attribution Error",
+    "oneLiner": "解释他人行为时高估性格、低估情境，把偶然的失误当作本性。",
+    "oneLinerEn": "We over-credit disposition and under-credit situation in others, reading a slip as character.",
+    "detail": "表现：别人迟到就认为他懒，自己迟到却怪交通。为什么：观察他人时情境不明显、行为显眼。如何避免：先问「换成我在那个处境会怎样」。",
+    "detailEn": "Shows as: they're late so they're lazy, I'm late because of traffic. Why: the situation is hidden when we watch others. Avoid it by asking 'how would I act in their place?'",
+    "category": "社会认知",
+    "related": ["confirmation-bias", "halo-effect", "bandwagon"],
+    "sources": [{ "label": "Ross, L. (1977)", "year": 1977 }]
+  },
+  {
+    "id": "hindsight-bias",
+    "term": "后见之明偏误",
+    "termEn": "Hindsight Bias",
+    "oneLiner": "事后总觉得『我早就知道会这样』，高估了自己事前的预测力。",
+    "oneLinerEn": "Afterward we feel 'I knew it all along', overrating how predictable events were beforehand.",
+    "detail": "表现：结果一出就说股灾、比赛或选举早已写在脸上。为什么：新信息重塑了我们对旧预期的记忆。如何避免：事前写下预测，用记录对抗事后美化。",
+    "detailEn": "Shows as: once the result is known, crashes or elections seem obvious. Why: new info rewrites memory of old expectations. Avoid it by logging predictions in advance.",
+    "category": "决策判断",
+    "related": ["confirmation-bias", "availability", "loss-aversion"],
+    "sources": [{ "label": "《思考，快与慢》", "year": 2011 }]
+  },
+  {
+    "id": "framing-effect",
+    "term": "框架效应",
+    "termEn": "Framing Effect",
+    "oneLiner": "同一信息的不同表述（收益还是损失）会系统性地改变我们的选择。",
+    "oneLinerEn": "The same facts, framed as gains or losses, systematically shift our choices.",
+    "detail": "表现：说『存活率 90%』比『死亡率 10%』更让人接受手术。为什么：损失比收益更刺痛，我们怕损失。如何避免：把同一选项用不同框架重写一遍再比较。",
+    "detailEn": "Shows as: '90% survive' wins over '10% die' for the same surgery. Why: losses loom larger than gains. Avoid it by restating each option in the opposite frame.",
+    "category": "决策判断",
+    "related": ["loss-aversion", "anchoring", "sunk-cost"],
+    "sources": [{ "label": "Kahneman & Tversky (1984)", "year": 1984 }]
+  },
+  {
+    "id": "endowment-effect",
+    "term": "禀赋效应",
+    "termEn": "Endowment Effect",
+    "oneLiner": "一旦拥有某物，我们对它的估值就高于未拥有时。",
+    "oneLinerEn": "Once we own something, we value it higher than before we owned it.",
+    "detail": "表现：马克杯实验里拥有者索要价远高于买家愿付价；旧物舍不得卖。为什么：失去被当作损失，损失被放大。如何避免：假设自己从未拥有，问现在愿花多少去买。",
+    "detailEn": "Shows as: owners demand far more for a mug than buyers will pay; we hoard old things. Why: giving up feels like a loss, and losses loom. Avoid it by asking what you'd pay to buy it now.",
+    "category": "决策判断",
+    "related": ["loss-aversion", "sunk-cost", "anchoring"],
+    "sources": [{ "label": "Kahneman et al. (1990)", "year": 1990 }]
   }
 ]

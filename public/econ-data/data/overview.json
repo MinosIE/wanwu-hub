@@ -3,7 +3,7 @@
   "counts": {
     "concepts": 26,
     "glossary": 45,
-    "thinkers": 8,
+    "thinkers": 12,
     "events": 17
   },
   "kpis": [
@@ -20,7 +20,7 @@
     {
       "key": "thinkers",
       "icon": "👤",
-      "value": 8
+      "value": 12
     },
     {
       "key": "events",
