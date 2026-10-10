@@ -19,8 +19,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "📏",
           term: { zh: "运动的描述", en: "Describing Motion" },
           level: 1,
-          oneLiner: { zh: "用位移、速度、加速度描述物体位置随时间的变化。", en: "Displacement, velocity and acceleration describe how position changes with time." },
-          detail: { zh: "位移是矢量（初位置指向末位置）；速度是位移对时间的变化率；加速度是速度对时间的变化率，反映速度变化的快慢。", en: "Displacement is the vector from start to end; velocity is its rate of change; acceleration is the rate of change of velocity." },
+          oneLiner: {
+            zh: "用位移、速度、加速度描述物体位置随时间的变化。",
+            en: "Displacement, velocity and acceleration describe how position changes with time.",
+          },
+          detail: {
+            zh: "位移是矢量（初位置指向末位置）；速度是位移对时间的变化率；加速度是速度对时间的变化率，反映速度变化的快慢。",
+            en: "Displacement is the vector from start to end; velocity is its rate of change; acceleration is the rate of change of velocity.",
+          },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
         {
@@ -28,35 +34,68 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "➡️",
           term: { zh: "匀速直线运动", en: "Uniform Linear Motion" },
           level: 1,
-          oneLiner: { zh: "速度恒定、轨迹为直线的运动，位移与时间成正比。", en: "Motion at constant velocity along a straight line; displacement is proportional to time." },
+          oneLiner: {
+            zh: "速度恒定、轨迹为直线的运动，位移与时间成正比。",
+            en: "Motion at constant velocity along a straight line; displacement is proportional to time.",
+          },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
         {
           id: "accelerated-motion",
+          eq: [
+            { lhs: "v", rhs: "v₀ + at", rel: "equal" },
+            { lhs: "x", rhs: "v₀t + ½at²", rel: "equal" },
+            { lhs: "v²", rhs: "v₀² + 2ax", rel: "equal" },
+          ],
           icon: "📈",
           term: { zh: "匀变速直线运动", en: "Uniformly Accelerated Motion" },
           level: 1,
-          oneLiner: { zh: "加速度恒定的直线运动，常用公式 v=v₀+at、x=v₀t+½at²、v²−v₀²=2ax。", en: "Constant acceleration: v=v₀+at, x=v₀t+½at², v²−v₀²=2ax." },
-          detail: { zh: "自由落体是加速度为 g≈9.8 m/s² 的匀加速运动；竖直上抛可分段或整体处理。其中 v₀、v 为初、末速度，a 为加速度，t 为时间，x 为位移。", en: "Free fall is uniformly accelerated motion with a=g≈9.8 m/s²; vertical projection can be split or treated as a whole. Here v₀/v are initial/final velocity, a acceleration, t time, x displacement." },
-          example: { zh: "苹果下落约 0.5 s 后速度达约 4.9 m/s。", en: "After ~0.5 s a falling apple reaches ~4.9 m/s." },
+          oneLiner: {
+            zh: "加速度恒定的直线运动，常用公式 v=v₀+at、x=v₀t+½at²、v²−v₀²=2ax。",
+            en: "Constant acceleration: v=v₀+at, x=v₀t+½at², v²−v₀²=2ax.",
+          },
+          detail: {
+            zh: "自由落体是加速度为 g≈9.8 m/s² 的匀加速运动；竖直上抛可分段或整体处理。其中 v₀、v 为初、末速度，a 为加速度，t 为时间，x 为位移。",
+            en: "Free fall is uniformly accelerated motion with a=g≈9.8 m/s²; vertical projection can be split or treated as a whole. Here v₀/v are initial/final velocity, a acceleration, t time, x displacement.",
+          },
+          example: {
+            zh: "苹果下落约 0.5 s 后速度达约 4.9 m/s。",
+            en: "After ~0.5 s a falling apple reaches ~4.9 m/s.",
+          },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
         {
           id: "newton-1",
           icon: "🍎",
-          term: { zh: "牛顿第一定律（惯性）", en: "Newton's First Law (Inertia)" },
+          term: {
+            zh: "牛顿第一定律（惯性）",
+            en: "Newton's First Law (Inertia)",
+          },
           level: 1,
-          oneLiner: { zh: "不受外力或合外力为零时，物体保持静止或匀速直线运动。", en: "With no net force, an object stays at rest or in uniform motion." },
-          detail: { zh: "惯性是物体保持原有运动状态的属性，质量越大惯性越大。", en: "Inertia is the tendency to keep current motion; larger mass means larger inertia." },
+          oneLiner: {
+            zh: "不受外力或合外力为零时，物体保持静止或匀速直线运动。",
+            en: "With no net force, an object stays at rest or in uniform motion.",
+          },
+          detail: {
+            zh: "惯性是物体保持原有运动状态的属性，质量越大惯性越大。",
+            en: "Inertia is the tendency to keep current motion; larger mass means larger inertia.",
+          },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
         {
           id: "newton-2",
+          eq: { lhs: "F", rhs: "ma", rel: "equal" },
           icon: "⚖️",
           term: { zh: "牛顿第二定律", en: "Newton's Second Law" },
           level: 1,
-          oneLiner: { zh: "物体的加速度与合外力成正比、与质量成反比：F=ma。", en: "Acceleration is proportional to net force and inversely to mass: F=ma." },
-          detail: { zh: "F、a 均为矢量，方向一致；该定律是经典力学的核心方程。其中 F 为合外力（单位 N），m 为质量（kg），a 为加速度（m/s²）。", en: "F and a are vectors in the same direction; it is the central equation of classical mechanics. F is net force (N), m mass (kg), a acceleration (m/s²)." },
+          oneLiner: {
+            zh: "物体的加速度与合外力成正比、与质量成反比：F=ma。",
+            en: "Acceleration is proportional to net force and inversely to mass: F=ma.",
+          },
+          detail: {
+            zh: "F、a 均为矢量，方向一致；该定律是经典力学的核心方程。其中 F 为合外力（单位 N），m 为质量（kg），a 为加速度（m/s²）。",
+            en: "F and a are vectors in the same direction; it is the central equation of classical mechanics. F is net force (N), m mass (kg), a acceleration (m/s²).",
+          },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
         {
@@ -64,17 +103,30 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🤝",
           term: { zh: "牛顿第三定律", en: "Newton's Third Law" },
           level: 1,
-          oneLiner: { zh: "作用力与反作用力大小相等、方向相反、作用在不同物体上。", en: "Action and reaction are equal, opposite, and act on different bodies." },
-          detail: { zh: "两个力同时产生、同时消失，不能相互抵消（因作用对象不同）。", en: "The pair appears and vanishes together and never cancels (different bodies)." },
+          oneLiner: {
+            zh: "作用力与反作用力大小相等、方向相反、作用在不同物体上。",
+            en: "Action and reaction are equal, opposite, and act on different bodies.",
+          },
+          detail: {
+            zh: "两个力同时产生、同时消失，不能相互抵消（因作用对象不同）。",
+            en: "The pair appears and vanishes together and never cancels (different bodies).",
+          },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
         {
           id: "friction",
+          eq: { lhs: "f", rhs: "μN", rel: "equal" },
           icon: "🪝",
           term: { zh: "摩擦力", en: "Friction" },
           level: 1,
-          oneLiner: { zh: "阻碍相对运动或相对运动趋势的力，分静摩擦与滑动摩擦。", en: "A force opposing relative motion or its tendency; static or kinetic." },
-          detail: { zh: "滑动摩擦力 f=μN（μ 为动摩擦因数，N 为正压力）；静摩擦力随外力在 0 到最大静摩擦间变化。其中 f 为滑动摩擦力，μ 为动摩擦因数，N 为接触面正压力。", en: "Kinetic friction f=μN; static friction varies from 0 up to its maximum with applied force. f kinetic friction, μ coefficient, N normal force." },
+          oneLiner: {
+            zh: "阻碍相对运动或相对运动趋势的力，分静摩擦与滑动摩擦。",
+            en: "A force opposing relative motion or its tendency; static or kinetic.",
+          },
+          detail: {
+            zh: "滑动摩擦力 f=μN（μ 为动摩擦因数，N 为正压力）；静摩擦力随外力在 0 到最大静摩擦间变化。其中 f 为滑动摩擦力，μ 为动摩擦因数，N 为接触面正压力。",
+            en: "Kinetic friction f=μN; static friction varies from 0 up to its maximum with applied force. f kinetic friction, μ coefficient, N normal force.",
+          },
           tags: [{ zh: "力", en: "Force" }],
         },
         {
@@ -82,8 +134,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚓",
           term: { zh: "共点力平衡", en: "Equilibrium of Forces" },
           level: 1,
-          oneLiner: { zh: "物体受多个共点力而静止或匀速时，合外力为零。", en: "When balanced by concurrent forces, the net force is zero." },
-          detail: { zh: "可用正交分解法：任意方向合力均为零。", en: "Resolve into components: net force is zero in every direction." },
+          oneLiner: {
+            zh: "物体受多个共点力而静止或匀速时，合外力为零。",
+            en: "When balanced by concurrent forces, the net force is zero.",
+          },
+          detail: {
+            zh: "可用正交分解法：任意方向合力均为零。",
+            en: "Resolve into components: net force is zero in every direction.",
+          },
           tags: [{ zh: "力", en: "Force" }],
         },
         {
@@ -91,26 +149,49 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🎯",
           term: { zh: "曲线运动与平抛", en: "Curved & Projectile Motion" },
           level: 2,
-          oneLiner: { zh: "速度方向与合力不在一直线时做曲线运动；平抛是水平匀速加竖直自由落体。", en: "Curved motion occurs when velocity and net force are not collinear; a projectile combines horizontal uniform and vertical free-fall motion." },
-          detail: { zh: "平抛可分解为水平匀速与竖直匀加速两个独立分运动。", en: "A projectile splits into independent horizontal uniform and vertical accelerated motions." },
+          oneLiner: {
+            zh: "速度方向与合力不在一直线时做曲线运动；平抛是水平匀速加竖直自由落体。",
+            en: "Curved motion occurs when velocity and net force are not collinear; a projectile combines horizontal uniform and vertical free-fall motion.",
+          },
+          detail: {
+            zh: "平抛可分解为水平匀速与竖直匀加速两个独立分运动。",
+            en: "A projectile splits into independent horizontal uniform and vertical accelerated motions.",
+          },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
         {
           id: "centripetal",
+          eq: { lhs: "F", rhs: "mv²/r = mω²r", rel: "equal" },
           icon: "🌀",
-          term: { zh: "圆周运动与向心力", en: "Circular Motion & Centripetal Force" },
+          term: {
+            zh: "圆周运动与向心力",
+            en: "Circular Motion & Centripetal Force",
+          },
           level: 2,
-          oneLiner: { zh: "匀速圆周运动由指向圆心的向心力提供：F=mv²/r=mω²r。", en: "Uniform circular motion needs a centripetal force toward the center: F=mv²/r=mω²r." },
-          detail: { zh: "向心力不改速度大小，只改变方向；汽车转弯、卫星绕地均由此力维持。其中 m 为质量，v 为线速度，ω 为角速度，r 为圆周半径。", en: "Centripetal force changes only direction, not speed; it keeps cars turning and satellites orbiting. m mass, v linear speed, ω angular speed, r radius." },
+          oneLiner: {
+            zh: "匀速圆周运动由指向圆心的向心力提供：F=mv²/r=mω²r。",
+            en: "Uniform circular motion needs a centripetal force toward the center: F=mv²/r=mω²r.",
+          },
+          detail: {
+            zh: "向心力不改速度大小，只改变方向；汽车转弯、卫星绕地均由此力维持。其中 m 为质量，v 为线速度，ω 为角速度，r 为圆周半径。",
+            en: "Centripetal force changes only direction, not speed; it keeps cars turning and satellites orbiting. m mass, v linear speed, ω angular speed, r radius.",
+          },
           tags: [{ zh: "力学", en: "Mechanics" }],
         },
         {
           id: "gravitation",
+          eq: { lhs: "F", rhs: "G·m₁m₂/r²", rel: "equal" },
           icon: "🌎",
           term: { zh: "万有引力定律", en: "Universal Gravitation" },
           level: 2,
-          oneLiner: { zh: "任意两质点相互吸引：F=G·m₁m₂/r²。", en: "Any two masses attract: F=G·m₁m₂/r²." },
-          detail: { zh: "G 为引力常数；该定律统一了地面落体与天体运行。其中 m₁、m₂ 为两物体质量，r 为两质点间距。", en: "G is the gravitational constant; it unifies falling bodies and planetary orbits. m₁/m₂ are the masses, r the distance between them." },
+          oneLiner: {
+            zh: "任意两质点相互吸引：F=G·m₁m₂/r²。",
+            en: "Any two masses attract: F=G·m₁m₂/r².",
+          },
+          detail: {
+            zh: "G 为引力常数；该定律统一了地面落体与天体运行。其中 m₁、m₂ 为两物体质量，r 为两质点间距。",
+            en: "G is the gravitational constant; it unifies falling bodies and planetary orbits. m₁/m₂ are the masses, r the distance between them.",
+          },
           tags: [{ zh: "引力", en: "Gravity" }],
         },
         {
@@ -118,35 +199,68 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🪐",
           term: { zh: "天体运动与开普勒定律", en: "Kepler's Laws" },
           level: 2,
-          oneLiner: { zh: "行星沿椭圆轨道绕日，面积速度恒定，周期平方正比于半长轴立方。", en: "Planets follow ellipses; equal areas in equal times; T²∝a³." },
-          detail: { zh: "开普勒三定律由观测归纳，后被牛顿引力定律从理论上导出。其中 T 为公转周期，a 为椭圆轨道半长轴（T²∝a³）。", en: "Kepler's three laws, derived from observation, were later explained by Newton's gravitation. T is the orbital period, a the semi-major axis (T²∝a³)." },
+          oneLiner: {
+            zh: "行星沿椭圆轨道绕日，面积速度恒定，周期平方正比于半长轴立方。",
+            en: "Planets follow ellipses; equal areas in equal times; T²∝a³.",
+          },
+          detail: {
+            zh: "开普勒三定律由观测归纳，后被牛顿引力定律从理论上导出。其中 T 为公转周期，a 为椭圆轨道半长轴（T²∝a³）。",
+            en: "Kepler's three laws, derived from observation, were later explained by Newton's gravitation. T is the orbital period, a the semi-major axis (T²∝a³).",
+          },
           tags: [{ zh: "天体", en: "Astronomy" }],
         },
         {
           id: "work-power",
+          eq: [
+            { lhs: "W", rhs: "Fs·cosθ", rel: "equal" },
+            { lhs: "P", rhs: "W/t", rel: "equal" },
+          ],
           icon: "💪",
           term: { zh: "功与功率", en: "Work & Power" },
           level: 1,
-          oneLiner: { zh: "功 W=Fs·cosθ（力在位移方向的分量乘位移）；功率 P=W/t。", en: "Work W=Fs·cosθ; power P=W/t." },
-          detail: { zh: "力与位移垂直时不做功；功率表示做功快慢。其中 W 为功，F 为作用力，s 为位移，θ 为力与位移夹角，P 为功率，t 为时间。", en: "No work is done when force is perpendicular to displacement; power is the rate of doing work. W work, F force, s displacement, θ angle, P power, t time." },
+          oneLiner: {
+            zh: "功 W=Fs·cosθ（力在位移方向的分量乘位移）；功率 P=W/t。",
+            en: "Work W=Fs·cosθ; power P=W/t.",
+          },
+          detail: {
+            zh: "力与位移垂直时不做功；功率表示做功快慢。其中 W 为功，F 为作用力，s 为位移，θ 为力与位移夹角，P 为功率，t 为时间。",
+            en: "No work is done when force is perpendicular to displacement; power is the rate of doing work. W work, F force, s displacement, θ angle, P power, t time.",
+          },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
           id: "kinetic-energy",
+          eq: [
+            { lhs: "Eₖ", rhs: "½mv²", rel: "equal" },
+            { lhs: "W", rhs: "ΔEₖ", rel: "equal" },
+          ],
           icon: "🚀",
           term: { zh: "动能与动能定理", en: "Kinetic Energy & Theorem" },
           level: 2,
-          oneLiner: { zh: "动能 Eₖ=½mv²；合外力做功等于动能变化：W=ΔEₖ。", en: "Kinetic energy Eₖ=½mv²; net work equals its change: W=ΔEₖ." },
-          detail: { zh: "其中 Eₖ 为动能，m 为质量，v 为速率，W 为合外力做的功。", en: "Eₖ kinetic energy, m mass, v speed, W net work done." },
+          oneLiner: {
+            zh: "动能 Eₖ=½mv²；合外力做功等于动能变化：W=ΔEₖ。",
+            en: "Kinetic energy Eₖ=½mv²; net work equals its change: W=ΔEₖ.",
+          },
+          detail: {
+            zh: "其中 Eₖ 为动能，m 为质量，v 为速率，W 为合外力做的功。",
+            en: "Eₖ kinetic energy, m mass, v speed, W net work done.",
+          },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
           id: "potential-energy",
+          eq: { lhs: "Eₚ", rhs: "mgh", rel: "equal" },
           icon: "⛰️",
           term: { zh: "重力势能", en: "Gravitational Potential Energy" },
           level: 1,
-          oneLiner: { zh: "物体因高度而具有的能量：Eₚ=mgh。", en: "Energy due to height: Eₚ=mgh." },
-          detail: { zh: "势能是系统共有的，与零势能面的选取有关。其中 Eₚ 为重力势能，m 为质量，g 为重力加速度，h 为相对高度。", en: "Potential energy belongs to a system and depends on the chosen reference level. Eₚ gravitational potential, m mass, g gravity, h height." },
+          oneLiner: {
+            zh: "物体因高度而具有的能量：Eₚ=mgh。",
+            en: "Energy due to height: Eₚ=mgh.",
+          },
+          detail: {
+            zh: "势能是系统共有的，与零势能面的选取有关。其中 Eₚ 为重力势能，m 为质量，g 为重力加速度，h 为相对高度。",
+            en: "Potential energy belongs to a system and depends on the chosen reference level. Eₚ gravitational potential, m mass, g gravity, h height.",
+          },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
@@ -154,17 +268,30 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔋",
           term: { zh: "机械能守恒", en: "Conservation of Mechanical Energy" },
           level: 2,
-          oneLiner: { zh: "只有重力或弹力做功时，动能与势能之和保持不变。", en: "With only gravity/elastic forces doing work, kinetic plus potential energy is constant." },
-          detail: { zh: "可用来快速求解抛体、单摆、过山车类问题。", en: "Useful for projectiles, pendulums and roller-coaster problems." },
+          oneLiner: {
+            zh: "只有重力或弹力做功时，动能与势能之和保持不变。",
+            en: "With only gravity/elastic forces doing work, kinetic plus potential energy is constant.",
+          },
+          detail: {
+            zh: "可用来快速求解抛体、单摆、过山车类问题。",
+            en: "Useful for projectiles, pendulums and roller-coaster problems.",
+          },
           tags: [{ zh: "能量", en: "Energy" }],
         },
         {
           id: "momentum",
+          eq: { lhs: "p", rhs: "mv", rel: "equal" },
           icon: "🏹",
           term: { zh: "动量守恒", en: "Conservation of Momentum" },
           level: 2,
-          oneLiner: { zh: "系统不受外力时，总动量 p=mv 保持不变。", en: "Without external force, total momentum p=mv is conserved." },
-          detail: { zh: "与牛顿第三定律等价，是分析碰撞、火箭推进的基本工具。其中 p 为动量，m 为质量，v 为速度。", en: "Equivalent to Newton's third law; key for collisions and rocket propulsion. p momentum, m mass, v velocity." },
+          oneLiner: {
+            zh: "系统不受外力时，总动量 p=mv 保持不变。",
+            en: "Without external force, total momentum p=mv is conserved.",
+          },
+          detail: {
+            zh: "与牛顿第三定律等价，是分析碰撞、火箭推进的基本工具。其中 p 为动量，m 为质量，v 为速度。",
+            en: "Equivalent to Newton's third law; key for collisions and rocket propulsion. p momentum, m mass, v velocity.",
+          },
           tags: [{ zh: "力学", en: "Mechanics" }],
         },
       ],
@@ -178,10 +305,19 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         {
           id: "sound-propagation",
           icon: "〰️",
-          term: { zh: "声音的产生与传播", en: "Sound Production & Propagation" },
+          term: {
+            zh: "声音的产生与传播",
+            en: "Sound Production & Propagation",
+          },
           level: 1,
-          oneLiner: { zh: "声音由物体振动产生，以声波形式通过介质传播，真空不传声。", en: "Sound comes from vibration and travels as waves through a medium; it cannot cross a vacuum." },
-          detail: { zh: "声波是机械波，需固体、液体或气体等介质。", en: "Sound is a mechanical wave requiring a material medium." },
+          oneLiner: {
+            zh: "声音由物体振动产生，以声波形式通过介质传播，真空不传声。",
+            en: "Sound comes from vibration and travels as waves through a medium; it cannot cross a vacuum.",
+          },
+          detail: {
+            zh: "声波是机械波，需固体、液体或气体等介质。",
+            en: "Sound is a mechanical wave requiring a material medium.",
+          },
           tags: [{ zh: "声学", en: "Acoustics" }],
         },
         {
@@ -189,7 +325,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "💨",
           term: { zh: "声速", en: "Speed of Sound" },
           level: 1,
-          oneLiner: { zh: "常温下空气中约 340 m/s，一般固体>液体>气体。", en: "About 340 m/s in air at room temperature; usually solid>liquid>gas." },
+          oneLiner: {
+            zh: "常温下空气中约 340 m/s，一般固体>液体>气体。",
+            en: "About 340 m/s in air at room temperature; usually solid>liquid>gas.",
+          },
           tags: [{ zh: "声学", en: "Acoustics" }],
         },
         {
@@ -197,8 +336,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🎵",
           term: { zh: "音调·响度·音色", en: "Pitch · Loudness · Timbre" },
           level: 1,
-          oneLiner: { zh: "频率决定音调高低，振幅决定响度大小，波形决定音色。", en: "Frequency sets pitch, amplitude sets loudness, waveform sets timbre." },
-          detail: { zh: "女声频率高、音调高；大鼓振幅大、响度大。", en: "Higher frequency gives higher pitch; larger amplitude gives greater loudness." },
+          oneLiner: {
+            zh: "频率决定音调高低，振幅决定响度大小，波形决定音色。",
+            en: "Frequency sets pitch, amplitude sets loudness, waveform sets timbre.",
+          },
+          detail: {
+            zh: "女声频率高、音调高；大鼓振幅大、响度大。",
+            en: "Higher frequency gives higher pitch; larger amplitude gives greater loudness.",
+          },
           tags: [{ zh: "声学", en: "Acoustics" }],
         },
         {
@@ -206,8 +351,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "📟",
           term: { zh: "分贝", en: "Decibel" },
           level: 1,
-          oneLiner: { zh: "表示响度级的相对单位，与声强对数相关。", en: "A relative unit for loudness level, logarithmic in sound intensity." },
-          detail: { zh: "0 dB 约为人耳听阈；长期高于 85 dB 可能损伤听力。", en: "0 dB is near the hearing threshold; prolonged >85 dB can damage hearing." },
+          oneLiner: {
+            zh: "表示响度级的相对单位，与声强对数相关。",
+            en: "A relative unit for loudness level, logarithmic in sound intensity.",
+          },
+          detail: {
+            zh: "0 dB 约为人耳听阈；长期高于 85 dB 可能损伤听力。",
+            en: "0 dB is near the hearing threshold; prolonged >85 dB can damage hearing.",
+          },
           tags: [{ zh: "声学", en: "Acoustics" }],
         },
         {
@@ -215,8 +366,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🚨",
           term: { zh: "多普勒效应", en: "Doppler Effect" },
           level: 2,
-          oneLiner: { zh: "波源与观察者相对运动时，接收频率发生变化。", en: "Relative motion between source and observer shifts the received frequency." },
-          detail: { zh: "靠近时频率升高（音调变尖），远离时降低；用于测速与天文红移。", en: "Approaching raises pitch, receding lowers it; used in speed radar and cosmological redshift." },
+          oneLiner: {
+            zh: "波源与观察者相对运动时，接收频率发生变化。",
+            en: "Relative motion between source and observer shifts the received frequency.",
+          },
+          detail: {
+            zh: "靠近时频率升高（音调变尖），远离时降低；用于测速与天文红移。",
+            en: "Approaching raises pitch, receding lowers it; used in speed radar and cosmological redshift.",
+          },
           tags: [{ zh: "波", en: "Waves" }],
         },
         {
@@ -224,8 +381,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🎻",
           term: { zh: "共振与共鸣", en: "Resonance" },
           level: 2,
-          oneLiner: { zh: "驱动频率接近系统固有频率时，振幅急剧增大的现象。", en: "Amplitude grows sharply when driving frequency nears natural frequency." },
-          detail: { zh: "共鸣箱、军队过桥齐步易引发共振，需避免。", en: "Resonance powers musical boxes but can destroy bridges if troops march in step." },
+          oneLiner: {
+            zh: "驱动频率接近系统固有频率时，振幅急剧增大的现象。",
+            en: "Amplitude grows sharply when driving frequency nears natural frequency.",
+          },
+          detail: {
+            zh: "共鸣箱、军队过桥齐步易引发共振，需避免。",
+            en: "Resonance powers musical boxes but can destroy bridges if troops march in step.",
+          },
           tags: [{ zh: "波", en: "Waves" }],
         },
         {
@@ -233,8 +396,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🐬",
           term: { zh: "超声波与次声波", en: "Ultrasonic & Infrasonic" },
           level: 1,
-          oneLiner: { zh: "频率高于 20 kHz 为超声波，低于 20 Hz 为次声波。", en: "Above 20 kHz is ultrasonic, below 20 Hz infrasonic." },
-          detail: { zh: "超声用于医学成像与探伤；次声可由地震、核爆产生。", en: "Ultrasound aids medical imaging; infrasound arises from quakes and explosions." },
+          oneLiner: {
+            zh: "频率高于 20 kHz 为超声波，低于 20 Hz 为次声波。",
+            en: "Above 20 kHz is ultrasonic, below 20 Hz infrasonic.",
+          },
+          detail: {
+            zh: "超声用于医学成像与探伤；次声可由地震、核爆产生。",
+            en: "Ultrasound aids medical imaging; infrasound arises from quakes and explosions.",
+          },
           tags: [{ zh: "声学", en: "Acoustics" }],
         },
       ],
@@ -250,8 +419,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "☀️",
           term: { zh: "光的直线传播", en: "Rectilinear Propagation" },
           level: 1,
-          oneLiner: { zh: "光在同种均匀介质中沿直线传播，形成影与小孔成像。", en: "Light travels in straight lines in uniform media, forming shadows and pinhole images." },
-          detail: { zh: "真空中光速 c≈3.00×10⁸ m/s，是宇宙速度上限。其中 c 为真空中的光速。", en: "In vacuum c≈3.00×10⁸ m/s, the cosmic speed limit. c is the speed of light in vacuum." },
+          oneLiner: {
+            zh: "光在同种均匀介质中沿直线传播，形成影与小孔成像。",
+            en: "Light travels in straight lines in uniform media, forming shadows and pinhole images.",
+          },
+          detail: {
+            zh: "真空中光速 c≈3.00×10⁸ m/s，是宇宙速度上限。其中 c 为真空中的光速。",
+            en: "In vacuum c≈3.00×10⁸ m/s, the cosmic speed limit. c is the speed of light in vacuum.",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -259,7 +434,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🪞",
           term: { zh: "光的反射", en: "Reflection" },
           level: 1,
-          oneLiner: { zh: "反射角等于入射角；分镜面反射与漫反射。", en: "Angle of reflection equals angle of incidence; specular or diffuse." },
+          oneLiner: {
+            zh: "反射角等于入射角；分镜面反射与漫反射。",
+            en: "Angle of reflection equals angle of incidence; specular or diffuse.",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -267,16 +445,29 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "👥",
           term: { zh: "平面镜成像", en: "Plane Mirror Imaging" },
           level: 1,
-          oneLiner: { zh: "成等大、正立、左右相反的虚像，物像关于镜面对称。", en: "Forms an equal, upright, laterally inverted virtual image, symmetric about the mirror." },
+          oneLiner: {
+            zh: "成等大、正立、左右相反的虚像，物像关于镜面对称。",
+            en: "Forms an equal, upright, laterally inverted virtual image, symmetric about the mirror.",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
           id: "refraction",
+          eq: [
+            { lhs: "n", rhs: "c/v", rel: "equal" },
+            { lhs: "n₁sinθ₁", rhs: "n₂sinθ₂", rel: "equal" },
+          ],
           icon: "💧",
           term: { zh: "光的折射", en: "Refraction" },
           level: 1,
-          oneLiner: { zh: "光斜射入不同介质时传播方向偏折，池中视深变浅。", en: "Light bends crossing media obliquely; a pool looks shallower." },
-          detail: { zh: "折射率 n=c/v；斯涅尔定律 n₁sinθ₁=n₂sinθ₂。其中 n 为折射率，θ₁、θ₂ 为入射、折射光线与法线的夹角。", en: "Refractive index n=c/v; Snell's law n₁sinθ₁=n₂sinθ₂. n refractive index, θ₁/θ₂ angles with the normal." },
+          oneLiner: {
+            zh: "光斜射入不同介质时传播方向偏折，池中视深变浅。",
+            en: "Light bends crossing media obliquely; a pool looks shallower.",
+          },
+          detail: {
+            zh: "折射率 n=c/v；斯涅尔定律 n₁sinθ₁=n₂sinθ₂。其中 n 为折射率，θ₁、θ₂ 为入射、折射光线与法线的夹角。",
+            en: "Refractive index n=c/v; Snell's law n₁sinθ₁=n₂sinθ₂. n refractive index, θ₁/θ₂ angles with the normal.",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -284,8 +475,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔷",
           term: { zh: "全反射", en: "Total Internal Reflection" },
           level: 2,
-          oneLiner: { zh: "光从光密到光疏且入射角大于临界角时，全部反射无折射。", en: "From dense to rare medium beyond the critical angle, all light reflects." },
-          detail: { zh: "是光导纤维与全反射棱镜的原理。", en: "Underlies optical fibers and reflecting prisms." },
+          oneLiner: {
+            zh: "光从光密到光疏且入射角大于临界角时，全部反射无折射。",
+            en: "From dense to rare medium beyond the critical angle, all light reflects.",
+          },
+          detail: {
+            zh: "是光导纤维与全反射棱镜的原理。",
+            en: "Underlies optical fibers and reflecting prisms.",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -293,8 +490,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔍",
           term: { zh: "透镜与凸透镜成像", en: "Lenses & Convex Imaging" },
           level: 2,
-          oneLiner: { zh: "凸透镜对光有会聚作用；成像规律由物距 u 决定。", en: "Convex lenses converge light; image follows object distance u." },
-          detail: { zh: "u>2f 成倒立缩小实像（照相机）；f<u<2f 成倒立放大实像（投影仪）；u<f 成正立放大虚像（放大镜）。", en: "u>2f:缩小实像(相机); f<u<2f:放大实像(投影仪); u<f:放大虚像(放大镜)." },
+          oneLiner: {
+            zh: "凸透镜对光有会聚作用；成像规律由物距 u 决定。",
+            en: "Convex lenses converge light; image follows object distance u.",
+          },
+          detail: {
+            zh: "u>2f 成倒立缩小实像（照相机）；f<u<2f 成倒立放大实像（投影仪）；u<f 成正立放大虚像（放大镜）。",
+            en: "u>2f:缩小实像(相机); f<u<2f:放大实像(投影仪); u<f:放大虚像(放大镜).",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -302,8 +505,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌟",
           term: { zh: "光的色散", en: "Dispersion" },
           level: 1,
-          oneLiner: { zh: "白光经棱镜分解为七色光，因各色光折射率不同。", en: "A prism splits white light into colors because refractive index varies with color." },
-          detail: { zh: "牛顿以此证明白光由多种色光组成；彩虹即水滴色散。", en: "Newton showed white light is composite; rainbows are droplet dispersion." },
+          oneLiner: {
+            zh: "白光经棱镜分解为七色光，因各色光折射率不同。",
+            en: "A prism splits white light into colors because refractive index varies with color.",
+          },
+          detail: {
+            zh: "牛顿以此证明白光由多种色光组成；彩虹即水滴色散。",
+            en: "Newton showed white light is composite; rainbows are droplet dispersion.",
+          },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },
         {
@@ -311,8 +520,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌗",
           term: { zh: "干涉与衍射", en: "Interference & Diffraction" },
           level: 3,
-          oneLiner: { zh: "两列相干光叠加成明暗条纹（干涉）；光绕过障碍偏离直线（衍射）。", en: "Coherent light adds to bright/dark fringes (interference); light bends around obstacles (diffraction)." },
-          detail: { zh: "杨氏双缝演示干涉；泊松亮斑是衍射反例成名的证据。", en: "Young's double-slit shows interference; Poisson's spot is a famous diffraction proof." },
+          oneLiner: {
+            zh: "两列相干光叠加成明暗条纹（干涉）；光绕过障碍偏离直线（衍射）。",
+            en: "Coherent light adds to bright/dark fringes (interference); light bends around obstacles (diffraction).",
+          },
+          detail: {
+            zh: "杨氏双缝演示干涉；泊松亮斑是衍射反例成名的证据。",
+            en: "Young's double-slit shows interference; Poisson's spot is a famous diffraction proof.",
+          },
           tags: [{ zh: "物理光学", en: "Physical Optics" }],
         },
         {
@@ -320,8 +535,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🕶️",
           term: { zh: "偏振", en: "Polarization" },
           level: 3,
-          oneLiner: { zh: "横波特有的振动方向选择性，证明光是横波。", en: "Directional filtering of vibration, proving light is transverse." },
-          detail: { zh: "偏光太阳镜利用偏振削减水面反光。", en: "Polarized sunglasses cut glare off water." },
+          oneLiner: {
+            zh: "横波特有的振动方向选择性，证明光是横波。",
+            en: "Directional filtering of vibration, proving light is transverse.",
+          },
+          detail: {
+            zh: "偏光太阳镜利用偏振削减水面反光。",
+            en: "Polarized sunglasses cut glare off water.",
+          },
           tags: [{ zh: "物理光学", en: "Physical Optics" }],
         },
       ],
@@ -334,11 +555,18 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       items: [
         {
           id: "temperature",
+          eq: { lhs: "K", rhs: "℃ + 273.15", rel: "equal" },
           icon: "🌡️",
           term: { zh: "温度与温标", en: "Temperature & Scales" },
           level: 1,
-          oneLiner: { zh: "温度表示冷热程度；摄氏℃与热力学温标 K 满足 K=℃+273.15。", en: "Temperature measures hot/cold; K=℃+273.15." },
-          detail: { zh: "热力学温度（开尔文）是国际单位制基本单位，零度为绝对零度。其中 K 为热力学温度（开尔文），℃ 为摄氏温度。", en: "Kelvin is an SI base unit; absolute zero is its zero. K is thermodynamic temperature, ℃ Celsius." },
+          oneLiner: {
+            zh: "温度表示冷热程度；摄氏℃与热力学温标 K 满足 K=℃+273.15。",
+            en: "Temperature measures hot/cold; K=℃+273.15.",
+          },
+          detail: {
+            zh: "热力学温度（开尔文）是国际单位制基本单位，零度为绝对零度。其中 K 为热力学温度（开尔文），℃ 为摄氏温度。",
+            en: "Kelvin is an SI base unit; absolute zero is its zero. K is thermodynamic temperature, ℃ Celsius.",
+          },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
@@ -346,8 +574,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚛️",
           term: { zh: "分子动理论", en: "Kinetic Theory" },
           level: 1,
-          oneLiner: { zh: "物质由大量分子组成，分子永不停息做无规则运动，分子间有作用力。", en: "Matter is made of molecules in perpetual random motion with intermolecular forces." },
-          detail: { zh: "扩散、布朗运动都是分子热运动的证据。", en: "Diffusion and Brownian motion evidence molecular motion." },
+          oneLiner: {
+            zh: "物质由大量分子组成，分子永不停息做无规则运动，分子间有作用力。",
+            en: "Matter is made of molecules in perpetual random motion with intermolecular forces.",
+          },
+          detail: {
+            zh: "扩散、布朗运动都是分子热运动的证据。",
+            en: "Diffusion and Brownian motion evidence molecular motion.",
+          },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
@@ -355,26 +589,46 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔥",
           term: { zh: "内能", en: "Internal Energy" },
           level: 1,
-          oneLiner: { zh: "物体内所有分子动能与势能的总和。", en: "Total molecular kinetic and potential energy of a body." },
-          detail: { zh: "内能与温度、体积、物态有关；理想气体内能只取决于温度。", en: "Depends on T, V and phase; for ideal gas it is a function of T only." },
+          oneLiner: {
+            zh: "物体内所有分子动能与势能的总和。",
+            en: "Total molecular kinetic and potential energy of a body.",
+          },
+          detail: {
+            zh: "内能与温度、体积、物态有关；理想气体内能只取决于温度。",
+            en: "Depends on T, V and phase; for ideal gas it is a function of T only.",
+          },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
           id: "first-law",
+          eq: { lhs: "ΔU", rhs: "Q + W", rel: "equal" },
           icon: "♨️",
           term: { zh: "热力学第一定律", en: "First Law of Thermodynamics" },
           level: 2,
-          oneLiner: { zh: "能量守恒在热学中的表述：ΔU=Q+W（吸热与做功均改变内能）。", en: "Energy conservation: ΔU=Q+W (heat and work change internal energy)." },
-          detail: { zh: "是能量守恒定律在热力学系统的具体形式。其中 ΔU 为内能变化，Q 为系统吸收的热量，W 为外界对系统做的功。", en: "The conservation of energy applied to thermodynamic systems. ΔU internal-energy change, Q heat absorbed, W work done on the system." },
+          oneLiner: {
+            zh: "能量守恒在热学中的表述：ΔU=Q+W（吸热与做功均改变内能）。",
+            en: "Energy conservation: ΔU=Q+W (heat and work change internal energy).",
+          },
+          detail: {
+            zh: "是能量守恒定律在热力学系统的具体形式。其中 ΔU 为内能变化，Q 为系统吸收的热量，W 为外界对系统做的功。",
+            en: "The conservation of energy applied to thermodynamic systems. ΔU internal-energy change, Q heat absorbed, W work done on the system.",
+          },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
           id: "specific-heat",
+          eq: { lhs: "Q", rhs: "cmΔt", rel: "equal" },
           icon: "🧊",
           term: { zh: "比热容", en: "Specific Heat" },
           level: 1,
-          oneLiner: { zh: "单位质量升高 1℃ 吸收的热量：Q=cmΔt。", en: "Heat to raise 1 kg by 1℃: Q=cmΔt." },
-          detail: { zh: "水的比热容大，故沿海温差小、可作冷却剂。其中 Q 为吸收或放出的热量，c 为比热容，m 为质量，Δt 为温度变化。", en: "Water's high specific heat moderates coast climate and cools engines. Q heat exchanged, c specific heat, m mass, Δt temperature change." },
+          oneLiner: {
+            zh: "单位质量升高 1℃ 吸收的热量：Q=cmΔt。",
+            en: "Heat to raise 1 kg by 1℃: Q=cmΔt.",
+          },
+          detail: {
+            zh: "水的比热容大，故沿海温差小、可作冷却剂。其中 Q 为吸收或放出的热量，c 为比热容，m 为质量，Δt 为温度变化。",
+            en: "Water's high specific heat moderates coast climate and cools engines. Q heat exchanged, c specific heat, m mass, Δt temperature change.",
+          },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
@@ -382,7 +636,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌬️",
           term: { zh: "热传递", en: "Heat Transfer" },
           level: 1,
-          oneLiner: { zh: "热由高温传向低温，方式有传导、对流、辐射。", en: "Heat moves from hot to cold by conduction, convection, radiation." },
+          oneLiner: {
+            zh: "热由高温传向低温，方式有传导、对流、辐射。",
+            en: "Heat moves from hot to cold by conduction, convection, radiation.",
+          },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
@@ -390,26 +647,46 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "❄️",
           term: { zh: "物态变化", en: "Phase Changes" },
           level: 1,
-          oneLiner: { zh: "熔化/凝固、汽化/液化、升华/凝华，相变时温度常保持不变。", en: "Melting/freezing, vaporization/condensation, sublimation/deposition; temperature stays put during phase change." },
-          detail: { zh: "晶体有固定熔点，非晶体（如玻璃）没有。", en: "Crystals have a fixed melting point; amorphous solids do not." },
+          oneLiner: {
+            zh: "熔化/凝固、汽化/液化、升华/凝华，相变时温度常保持不变。",
+            en: "Melting/freezing, vaporization/condensation, sublimation/deposition; temperature stays put during phase change.",
+          },
+          detail: {
+            zh: "晶体有固定熔点，非晶体（如玻璃）没有。",
+            en: "Crystals have a fixed melting point; amorphous solids do not.",
+          },
           tags: [{ zh: "热学", en: "Thermodynamics" }],
         },
         {
           id: "heat-engine",
+          eq: { lhs: "η", rhs: "1 − T冷/T热", rel: "equal" },
           icon: "🚂",
           term: { zh: "热机与效率", en: "Heat Engine & Efficiency" },
           level: 2,
-          oneLiner: { zh: "将内能转化为机械功的装置；效率受卡诺极限约束。", en: "A device turning internal energy into work; efficiency is bounded by Carnot's limit." },
-          detail: { zh: "卡诺热机效率 η=1−T冷/T热，只与两热源温度有关。其中 η 为热机效率，T_热 与 T_冷 为高温、低温热源的热力学温度（K）。", en: "Carnot efficiency η=1−T_cold/T_hot depends only on the two reservoir temperatures. η efficiency, T_hot/T_cold the reservoir temperatures (K)." },
+          oneLiner: {
+            zh: "将内能转化为机械功的装置；效率受卡诺极限约束。",
+            en: "A device turning internal energy into work; efficiency is bounded by Carnot's limit.",
+          },
+          detail: {
+            zh: "卡诺热机效率 η=1−T冷/T热，只与两热源温度有关。其中 η 为热机效率，T_热 与 T_冷 为高温、低温热源的热力学温度（K）。",
+            en: "Carnot efficiency η=1−T_cold/T_hot depends only on the two reservoir temperatures. η efficiency, T_hot/T_cold the reservoir temperatures (K).",
+          },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
           id: "gas-laws",
+          eq: { lhs: "pV", rhs: "nRT", rel: "equal" },
           icon: "🎈",
           term: { zh: "气体实验定律", en: "Gas Laws" },
           level: 2,
-          oneLiner: { zh: "玻意耳 pV=C、查理 V∝T、盖-吕萨克 p∝T，统一为 pV=nRT。", en: "Boyle pV=C, Charles V∝T, Gay-Lussac p∝T, unified as pV=nRT." },
-          detail: { zh: "理想气体状态方程描述了压强、体积、温度与物质的量的关系。其中 p 为压强，V 为体积，n 为物质的量，R 为气体常数，T 为热力学温度。", en: "The ideal-gas equation links pressure, volume, temperature and amount. p pressure, V volume, n amount, R gas constant, T thermodynamic temperature." },
+          oneLiner: {
+            zh: "玻意耳 pV=C、查理 V∝T、盖-吕萨克 p∝T，统一为 pV=nRT。",
+            en: "Boyle pV=C, Charles V∝T, Gay-Lussac p∝T, unified as pV=nRT.",
+          },
+          detail: {
+            zh: "理想气体状态方程描述了压强、体积、温度与物质的量的关系。其中 p 为压强，V 为体积，n 为物质的量，R 为气体常数，T 为热力学温度。",
+            en: "The ideal-gas equation links pressure, volume, temperature and amount. p pressure, V volume, n amount, R gas constant, T thermodynamic temperature.",
+          },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
@@ -417,8 +694,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔀",
           term: { zh: "热力学第二定律", en: "Second Law of Thermodynamics" },
           level: 3,
-          oneLiner: { zh: "热量不能自发从低温物体传向高温物体；孤立系统熵不减。", en: "Heat does not flow spontaneously from cold to hot; entropy of an isolated system never decreases." },
-          detail: { zh: "它指出了宏观过程的方向性，也被视为时间箭头的来源。", en: "It sets the direction of macro processes and the arrow of time." },
+          oneLiner: {
+            zh: "热量不能自发从低温物体传向高温物体；孤立系统熵不减。",
+            en: "Heat does not flow spontaneously from cold to hot; entropy of an isolated system never decreases.",
+          },
+          detail: {
+            zh: "它指出了宏观过程的方向性，也被视为时间箭头的来源。",
+            en: "It sets the direction of macro processes and the arrow of time.",
+          },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
       ],
@@ -431,47 +714,86 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       items: [
         {
           id: "coulomb",
+          eq: { lhs: "F", rhs: "k·q₁q₂/r²", rel: "equal" },
           icon: "➕",
           term: { zh: "电荷与库仑定律", en: "Charge & Coulomb's Law" },
           level: 1,
-          oneLiner: { zh: "同种电荷相斥、异种相吸；F=k·q₁q₂/r²。", en: "Like charges repel, unlike attract; F=k·q₁q₂/r²." },
-          detail: { zh: "电荷守恒：电荷既不能创生也不能消灭，只能转移。其中 k 为静电力常量，q₁、q₂ 为两点电荷电量，r 为间距。", en: "Charge is conserved: it can only be transferred, never created or destroyed. k electrostatic constant, q₁/q₂ charges, r distance." },
+          oneLiner: {
+            zh: "同种电荷相斥、异种相吸；F=k·q₁q₂/r²。",
+            en: "Like charges repel, unlike attract; F=k·q₁q₂/r².",
+          },
+          detail: {
+            zh: "电荷守恒：电荷既不能创生也不能消灭，只能转移。其中 k 为静电力常量，q₁、q₂ 为两点电荷电量，r 为间距。",
+            en: "Charge is conserved: it can only be transferred, never created or destroyed. k electrostatic constant, q₁/q₂ charges, r distance.",
+          },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
           id: "electric-field",
+          eq: { lhs: "E", rhs: "F/q", rel: "equal" },
           icon: "🕸️",
           term: { zh: "电场与电场强度", en: "Electric Field" },
           level: 2,
-          oneLiner: { zh: "电荷周围存在电场；E=F/q，方向为正电荷受力方向。", en: "A charge creates an electric field; E=F/q, directed as a positive test charge is pushed." },
-          detail: { zh: "电场线从正电荷出发、终止于负电荷，疏密表强弱。其中 E 为电场强度，F 为试探电荷受力，q 为试探电荷电量。", en: "Field lines start at + and end at −; density shows strength. E field strength, F force on test charge, q test charge." },
+          oneLiner: {
+            zh: "电荷周围存在电场；E=F/q，方向为正电荷受力方向。",
+            en: "A charge creates an electric field; E=F/q, directed as a positive test charge is pushed.",
+          },
+          detail: {
+            zh: "电场线从正电荷出发、终止于负电荷，疏密表强弱。其中 E 为电场强度，F 为试探电荷受力，q 为试探电荷电量。",
+            en: "Field lines start at + and end at −; density shows strength. E field strength, F force on test charge, q test charge.",
+          },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
           id: "potential",
+          eq: { lhs: "U", rhs: "W/q", rel: "equal" },
           icon: "🔋",
           term: { zh: "电势与电势能", en: "Electric Potential" },
           level: 2,
-          oneLiner: { zh: "电势差即电压 U=W/q；沿电场线电势降低。", en: "Potential difference is voltage U=W/q; potential drops along field lines." },
-          detail: { zh: "等势面与电场线垂直；带电粒子在等势面上移动电场力不做功。其中 U 为电势差（电压），W 为电场力做的功，q 为电荷电量。", en: "Equipotentials are perpendicular to field lines; moving on one costs no work. U potential difference (voltage), W work by field, q charge." },
+          oneLiner: {
+            zh: "电势差即电压 U=W/q；沿电场线电势降低。",
+            en: "Potential difference is voltage U=W/q; potential drops along field lines.",
+          },
+          detail: {
+            zh: "等势面与电场线垂直；带电粒子在等势面上移动电场力不做功。其中 U 为电势差（电压），W 为电场力做的功，q 为电荷电量。",
+            en: "Equipotentials are perpendicular to field lines; moving on one costs no work. U potential difference (voltage), W work by field, q charge.",
+          },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
           id: "capacitance",
+          eq: { lhs: "C", rhs: "Q/U", rel: "equal" },
           icon: "🧰",
           term: { zh: "电容", en: "Capacitance" },
           level: 2,
-          oneLiner: { zh: "电容器储存电荷的本领：C=Q/U。", en: "A capacitor's ability to store charge: C=Q/U." },
-          detail: { zh: "平行板电容 C=εS/d，与极板面积和介电常数成正比、与间距成反比。其中 C 为电容，Q 为极板带电量，U 为电压，ε 为介电常数，S 为极板面积，d 为间距。", en: "Parallel-plate C=εS/d, proportional to area and permittivity, inverse to spacing. C capacitance, Q charge, U voltage, ε permittivity, S area, d spacing." },
+          oneLiner: {
+            zh: "电容器储存电荷的本领：C=Q/U。",
+            en: "A capacitor's ability to store charge: C=Q/U.",
+          },
+          detail: {
+            zh: "平行板电容 C=εS/d，与极板面积和介电常数成正比、与间距成反比。其中 C 为电容，Q 为极板带电量，U 为电压，ε 为介电常数，S 为极板面积，d 为间距。",
+            en: "Parallel-plate C=εS/d, proportional to area and permittivity, inverse to spacing. C capacitance, Q charge, U voltage, ε permittivity, S area, d spacing.",
+          },
           tags: [{ zh: "电学", en: "Electricity" }],
         },
         {
           id: "ohm",
+          eq: [
+            { lhs: "I", rhs: "Q/t", rel: "equal" },
+            { lhs: "R", rhs: "U/I", rel: "equal" },
+            { lhs: "U", rhs: "IR", rel: "equal" },
+          ],
           icon: "🔌",
           term: { zh: "电流·电阻·欧姆定律", en: "Current · Resistance · Ohm" },
           level: 1,
-          oneLiner: { zh: "电流 I=Q/t；电阻 R=U/I；欧姆定律 U=IR。", en: "Current I=Q/t; resistance R=U/I; Ohm's law U=IR." },
-          detail: { zh: "电阻与材料、长度、横截面积和温度有关：R=ρL/S。其中 I 为电流，Q 为电荷量，t 为时间，R 为电阻，U 为电压，ρ 为电阻率，L 为长度，S 为横截面积。", en: "Resistance depends on material, length, area and temperature: R=ρL/S. I current, Q charge, t time, R resistance, U voltage, ρ resistivity, L length, S area." },
+          oneLiner: {
+            zh: "电流 I=Q/t；电阻 R=U/I；欧姆定律 U=IR。",
+            en: "Current I=Q/t; resistance R=U/I; Ohm's law U=IR.",
+          },
+          detail: {
+            zh: "电阻与材料、长度、横截面积和温度有关：R=ρL/S。其中 I 为电流，Q 为电荷量，t 为时间，R 为电阻，U 为电压，ρ 为电阻率，L 为长度，S 为横截面积。",
+            en: "Resistance depends on material, length, area and temperature: R=ρL/S. I current, Q charge, t time, R resistance, U voltage, ρ resistivity, L length, S area.",
+          },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
@@ -479,26 +801,49 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔗",
           term: { zh: "串并联电路", en: "Series & Parallel" },
           level: 1,
-          oneLiner: { zh: "串联电流相等、电压分压；并联电压相等、电流分流。", en: "Series: same current, shared voltage; parallel: same voltage, shared current." },
-          detail: { zh: "总电阻串联相加、并联倒数相加。", en: "Total R adds in series, adds in reciprocal in parallel." },
+          oneLiner: {
+            zh: "串联电流相等、电压分压；并联电压相等、电流分流。",
+            en: "Series: same current, shared voltage; parallel: same voltage, shared current.",
+          },
+          detail: {
+            zh: "总电阻串联相加、并联倒数相加。",
+            en: "Total R adds in series, adds in reciprocal in parallel.",
+          },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
           id: "electric-power",
+          eq: [
+            { lhs: "W", rhs: "UIt", rel: "equal" },
+            { lhs: "P", rhs: "UI", rel: "equal" },
+          ],
           icon: "💡",
           term: { zh: "电功与电功率", en: "Electric Work & Power" },
           level: 1,
-          oneLiner: { zh: "电功 W=UIt；电功率 P=UI。", en: "Work W=UIt; power P=UI." },
-          detail: { zh: "纯电阻电路中 P=I²R=U²/R。其中 W 为电功，P 为电功率，U 为电压，I 为电流，t 为时间，R 为电阻。", en: "For pure resistors P=I²R=U²/R. W electrical work, P power, U voltage, I current, t time, R resistance." },
+          oneLiner: {
+            zh: "电功 W=UIt；电功率 P=UI。",
+            en: "Work W=UIt; power P=UI.",
+          },
+          detail: {
+            zh: "纯电阻电路中 P=I²R=U²/R。其中 W 为电功，P 为电功率，U 为电压，I 为电流，t 为时间，R 为电阻。",
+            en: "For pure resistors P=I²R=U²/R. W electrical work, P power, U voltage, I current, t time, R resistance.",
+          },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
           id: "joule",
+          eq: { lhs: "Q", rhs: "I²Rt", rel: "equal" },
           icon: "🥵",
           term: { zh: "焦耳定律", en: "Joule's Law" },
           level: 1,
-          oneLiner: { zh: "电流热效应：Q=I²Rt。", en: "Current's heating effect: Q=I²Rt." },
-          detail: { zh: "电炉、保险丝都利用电流的热效应。其中 Q 为产生的热量，I 为电流，R 为电阻，t 为通电时间。", en: "Heaters and fuses exploit the heating effect of current. Q heat produced, I current, R resistance, t time." },
+          oneLiner: {
+            zh: "电流热效应：Q=I²Rt。",
+            en: "Current's heating effect: Q=I²Rt.",
+          },
+          detail: {
+            zh: "电炉、保险丝都利用电流的热效应。其中 Q 为产生的热量，I 为电流，R 为电阻，t 为通电时间。",
+            en: "Heaters and fuses exploit the heating effect of current. Q heat produced, I current, R resistance, t time.",
+          },
           tags: [{ zh: "电路", en: "Circuits" }],
         },
         {
@@ -506,26 +851,46 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🧲",
           term: { zh: "磁场与磁感线", en: "Magnetic Field" },
           level: 1,
-          oneLiner: { zh: "磁体、电流周围存在磁场；可用安培定则判断方向。", en: "Magnets and currents create magnetic fields; use the right-hand rule for direction." },
-          detail: { zh: "奥斯特实验首次证明电流能产生磁场。", en: "Oersted first showed a current produces a magnetic field." },
+          oneLiner: {
+            zh: "磁体、电流周围存在磁场；可用安培定则判断方向。",
+            en: "Magnets and currents create magnetic fields; use the right-hand rule for direction.",
+          },
+          detail: {
+            zh: "奥斯特实验首次证明电流能产生磁场。",
+            en: "Oersted first showed a current produces a magnetic field.",
+          },
           tags: [{ zh: "磁学", en: "Magnetism" }],
         },
         {
           id: "ampere-force",
+          eq: { lhs: "F", rhs: "BIL·sinθ", rel: "equal" },
           icon: "📐",
           term: { zh: "安培力", en: "Ampere Force" },
           level: 2,
-          oneLiner: { zh: "通电导线在磁场中受力：F=BIL·sinθ。", en: "A current-carrying wire feels F=BIL·sinθ in a field." },
-          detail: { zh: "电动机即利用安培力使线圈转动。其中 F 为安培力，B 为磁感应强度，I 为电流，L 为导线长度，θ 为电流与磁场方向夹角。", en: "Electric motors use Ampere force to spin coils. F Ampere force, B field, I current, L length, θ angle between I and B." },
+          oneLiner: {
+            zh: "通电导线在磁场中受力：F=BIL·sinθ。",
+            en: "A current-carrying wire feels F=BIL·sinθ in a field.",
+          },
+          detail: {
+            zh: "电动机即利用安培力使线圈转动。其中 F 为安培力，B 为磁感应强度，I 为电流，L 为导线长度，θ 为电流与磁场方向夹角。",
+            en: "Electric motors use Ampere force to spin coils. F Ampere force, B field, I current, L length, θ angle between I and B.",
+          },
           tags: [{ zh: "磁学", en: "Magnetism" }],
         },
         {
           id: "lorentz",
+          eq: { lhs: "f", rhs: "qvB·sinθ", rel: "equal" },
           icon: "🎯",
           term: { zh: "洛伦兹力", en: "Lorentz Force" },
           level: 2,
-          oneLiner: { zh: "运动电荷在磁场中受力：f=qvB·sinθ，方向用左手定则。", en: "A moving charge feels f=qvB·sinθ, direction by the left-hand rule." },
-          detail: { zh: "洛伦兹力不改变速率，只改变速度方向，使其做圆周或螺旋运动。其中 f 为洛伦兹力，q 为电荷量，v 为速度，B 为磁感应强度，θ 为速度与磁场方向夹角。", en: "Lorentz force changes direction, not speed, giving circular or helical paths. f Lorentz force, q charge, v velocity, B field, θ angle." },
+          oneLiner: {
+            zh: "运动电荷在磁场中受力：f=qvB·sinθ，方向用左手定则。",
+            en: "A moving charge feels f=qvB·sinθ, direction by the left-hand rule.",
+          },
+          detail: {
+            zh: "洛伦兹力不改变速率，只改变速度方向，使其做圆周或螺旋运动。其中 f 为洛伦兹力，q 为电荷量，v 为速度，B 为磁感应强度，θ 为速度与磁场方向夹角。",
+            en: "Lorentz force changes direction, not speed, giving circular or helical paths. f Lorentz force, q charge, v velocity, B field, θ angle.",
+          },
           tags: [{ zh: "磁学", en: "Magnetism" }],
         },
         {
@@ -533,8 +898,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌀",
           term: { zh: "电磁感应", en: "Electromagnetic Induction" },
           level: 2,
-          oneLiner: { zh: "磁通量变化产生感应电动势：法拉第定律与楞次定律。", en: "Changing flux induces EMF: Faraday's and Lenz's laws." },
-          detail: { zh: "发电机、变压器都基于电磁感应；楞次定律指出感应电流总是阻碍变化。", en: "Generators and transformers rely on it; Lenz's law says induced current opposes the change." },
+          oneLiner: {
+            zh: "磁通量变化产生感应电动势：法拉第定律与楞次定律。",
+            en: "Changing flux induces EMF: Faraday's and Lenz's laws.",
+          },
+          detail: {
+            zh: "发电机、变压器都基于电磁感应；楞次定律指出感应电流总是阻碍变化。",
+            en: "Generators and transformers rely on it; Lenz's law says induced current opposes the change.",
+          },
           tags: [{ zh: "电磁", en: "Electromagnetism" }],
         },
         {
@@ -542,8 +913,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "📡",
           term: { zh: "交变电流与电磁波", en: "AC & Electromagnetic Waves" },
           level: 3,
-          oneLiner: { zh: "变化的电场与磁场相互激发，形成传播的电磁波。", en: "Changing E and B fields sustain each other as traveling EM waves." },
-          detail: { zh: "麦克斯韦统一电磁并预言电磁波；赫兹实验证实。频谱含无线电、可见光、X 射线等。", en: "Maxwell unified EM and predicted waves; Hertz confirmed them; the spectrum spans radio to X-rays." },
+          oneLiner: {
+            zh: "变化的电场与磁场相互激发，形成传播的电磁波。",
+            en: "Changing E and B fields sustain each other as traveling EM waves.",
+          },
+          detail: {
+            zh: "麦克斯韦统一电磁并预言电磁波；赫兹实验证实。频谱含无线电、可见光、X 射线等。",
+            en: "Maxwell unified EM and predicted waves; Hertz confirmed them; the spectrum spans radio to X-rays.",
+          },
           tags: [{ zh: "电磁", en: "Electromagnetism" }],
         },
       ],
@@ -559,8 +936,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🪐",
           term: { zh: "太阳系", en: "Solar System" },
           level: 1,
-          oneLiner: { zh: "以太阳为中心，八大行星及卫星、小行星、彗星等组成的天体系统。", en: "The Sun-centered system of eight planets, moons, asteroids and comets." },
-          detail: { zh: "日心说由哥白尼确立，开普勒与牛顿完善了运动规律。", en: "Copernicus set the heliocentric model; Kepler and Newton refined the laws." },
+          oneLiner: {
+            zh: "以太阳为中心，八大行星及卫星、小行星、彗星等组成的天体系统。",
+            en: "The Sun-centered system of eight planets, moons, asteroids and comets.",
+          },
+          detail: {
+            zh: "日心说由哥白尼确立，开普勒与牛顿完善了运动规律。",
+            en: "Copernicus set the heliocentric model; Kepler and Newton refined the laws.",
+          },
           tags: [{ zh: "天体", en: "Astronomy" }],
         },
         {
@@ -568,17 +951,30 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "✨",
           term: { zh: "恒星与星系", en: "Stars & Galaxies" },
           level: 1,
-          oneLiner: { zh: "恒星靠核聚变发光；太阳位于银河系一条旋臂上。", en: "Stars shine by fusion; the Sun lies in a spiral arm of the Milky Way." },
-          detail: { zh: "星系由海量恒星、气体与暗物质构成，宇宙中有数千亿个星系。", en: "Galaxies of stars, gas and dark matter number in the hundreds of billions." },
+          oneLiner: {
+            zh: "恒星靠核聚变发光；太阳位于银河系一条旋臂上。",
+            en: "Stars shine by fusion; the Sun lies in a spiral arm of the Milky Way.",
+          },
+          detail: {
+            zh: "星系由海量恒星、气体与暗物质构成，宇宙中有数千亿个星系。",
+            en: "Galaxies of stars, gas and dark matter number in the hundreds of billions.",
+          },
           tags: [{ zh: "天体", en: "Astronomy" }],
         },
         {
           id: "redshift",
+          eq: { lhs: "v", rhs: "H₀d", rel: "equal" },
           icon: "📉",
           term: { zh: "宇宙膨胀与红移", en: "Expansion & Redshift" },
           level: 2,
-          oneLiner: { zh: "星系光谱普遍红移，说明宇宙在膨胀（哈勃定律 v=H₀d）。", en: "Cosmic redshift shows expansion (Hubble's law v=H₀d)." },
-          detail: { zh: "其中 v 为星系退行速度，H₀ 为哈勃常数，d 为星系距离。", en: "v recession speed, H₀ Hubble constant, d distance." },
+          oneLiner: {
+            zh: "星系光谱普遍红移，说明宇宙在膨胀（哈勃定律 v=H₀d）。",
+            en: "Cosmic redshift shows expansion (Hubble's law v=H₀d).",
+          },
+          detail: {
+            zh: "其中 v 为星系退行速度，H₀ 为哈勃常数，d 为星系距离。",
+            en: "v recession speed, H₀ Hubble constant, d distance.",
+          },
           tags: [{ zh: "宇宙学", en: "Cosmology" }],
         },
         {
@@ -586,8 +982,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "💥",
           term: { zh: "大爆炸宇宙论", en: "Big Bang Theory" },
           level: 2,
-          oneLiner: { zh: "宇宙源于约 138 亿年前的一次极高温高密度状态膨胀。", en: "The universe expanded from a hot, dense state ~13.8 billion years ago." },
-          detail: { zh: "宇宙微波背景辐射是其重要观测证据。", en: "The cosmic microwave background is key evidence." },
+          oneLiner: {
+            zh: "宇宙源于约 138 亿年前的一次极高温高密度状态膨胀。",
+            en: "The universe expanded from a hot, dense state ~13.8 billion years ago.",
+          },
+          detail: {
+            zh: "宇宙微波背景辐射是其重要观测证据。",
+            en: "The cosmic microwave background is key evidence.",
+          },
           tags: [{ zh: "宇宙学", en: "Cosmology" }],
         },
         {
@@ -595,8 +997,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🕳️",
           term: { zh: "黑洞", en: "Black Hole" },
           level: 3,
-          oneLiner: { zh: "引力极强、连光也无法逃逸的天体，边界称为事件视界。", en: "An object so dense that not even light escapes; bounded by the event horizon." },
-          detail: { zh: "由大质量恒星坍缩形成；2019 年首张黑洞照片由事件视界望远镜拍摄。", en: "Formed by collapse of massive stars; first image captured in 2019." },
+          oneLiner: {
+            zh: "引力极强、连光也无法逃逸的天体，边界称为事件视界。",
+            en: "An object so dense that not even light escapes; bounded by the event horizon.",
+          },
+          detail: {
+            zh: "由大质量恒星坍缩形成；2019 年首张黑洞照片由事件视界望远镜拍摄。",
+            en: "Formed by collapse of massive stars; first image captured in 2019.",
+          },
           tags: [{ zh: "天体", en: "Astronomy" }],
         },
         {
@@ -604,8 +1012,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "〰️",
           term: { zh: "引力波", en: "Gravitational Waves" },
           level: 3,
-          oneLiner: { zh: "加速运动的质量扰动时空产生的涟漪，以光速传播。", en: "Ripples in spacetime from accelerating masses, traveling at light speed." },
-          detail: { zh: "2015 年 LIGO 首次直接探测到双黑洞并合产生的引力波。", en: "LIGO first detected them in 2015 from merging black holes." },
+          oneLiner: {
+            zh: "加速运动的质量扰动时空产生的涟漪，以光速传播。",
+            en: "Ripples in spacetime from accelerating masses, traveling at light speed.",
+          },
+          detail: {
+            zh: "2015 年 LIGO 首次直接探测到双黑洞并合产生的引力波。",
+            en: "LIGO first detected them in 2015 from merging black holes.",
+          },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
       ],
@@ -619,37 +1033,64 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         {
           id: "sr-postulates",
           icon: "📜",
-          term: { zh: "狭义相对论基本原理", en: "Postulates of Special Relativity" },
+          term: {
+            zh: "狭义相对论基本原理",
+            en: "Postulates of Special Relativity",
+          },
           level: 3,
-          oneLiner: { zh: "相对性原理 + 光速不变原理：所有惯性系物理定律相同，真空中光速恒为 c。", en: "Relativity + light-speed invariance: laws are same in all inertial frames; c is constant." },
-          detail: { zh: "由爱因斯坦于 1905 年提出，颠覆了绝对时空观。", en: "Einstein (1905) overturned absolute space and time." },
+          oneLiner: {
+            zh: "相对性原理 + 光速不变原理：所有惯性系物理定律相同，真空中光速恒为 c。",
+            en: "Relativity + light-speed invariance: laws are same in all inertial frames; c is constant.",
+          },
+          detail: {
+            zh: "由爱因斯坦于 1905 年提出，颠覆了绝对时空观。",
+            en: "Einstein (1905) overturned absolute space and time.",
+          },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {
           id: "time-dilation",
+          eq: { lhs: "Δt", rhs: "Δt₀/√(1−v²/c²)", rel: "equal" },
           icon: "⏳",
           term: { zh: "时间膨胀", en: "Time Dilation" },
           level: 3,
-          oneLiner: { zh: "运动时钟变慢：Δt=Δt₀/√(1−v²/c²)。", en: "Moving clocks run slow: Δt=Δt₀/√(1−v²/c²)." },
-          detail: { zh: "粒子加速器中的不稳定粒子寿命因此被显著延长。其中 Δt 为运动参考系测得的时间，Δt₀ 为静止参考系的原时，v 为相对速度，c 为光速。", en: "Unstable particles in accelerators live longer as predicted. Δt moving-frame time, Δt₀ rest proper time, v relative speed, c light speed." },
+          oneLiner: {
+            zh: "运动时钟变慢：Δt=Δt₀/√(1−v²/c²)。",
+            en: "Moving clocks run slow: Δt=Δt₀/√(1−v²/c²).",
+          },
+          detail: {
+            zh: "粒子加速器中的不稳定粒子寿命因此被显著延长。其中 Δt 为运动参考系测得的时间，Δt₀ 为静止参考系的原时，v 为相对速度，c 为光速。",
+            en: "Unstable particles in accelerators live longer as predicted. Δt moving-frame time, Δt₀ rest proper time, v relative speed, c light speed.",
+          },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {
           id: "length-contraction",
+          eq: { lhs: "L", rhs: "L₀√(1−v²/c²)", rel: "equal" },
           icon: "📏",
           term: { zh: "长度收缩", en: "Length Contraction" },
           level: 3,
-          oneLiner: { zh: "运动方向上的长度变短：L=L₀√(1−v²/c²)。", en: "Length along motion shortens: L=L₀√(1−v²/c²)." },
-          detail: { zh: "其中 L 为运动参考系测得的长度，L₀ 为静止时的原长，v 为相对速度，c 为光速。", en: "L measured in the moving frame, L₀ the rest length, v relative speed, c light speed." },
+          oneLiner: {
+            zh: "运动方向上的长度变短：L=L₀√(1−v²/c²)。",
+            en: "Length along motion shortens: L=L₀√(1−v²/c²).",
+          },
+          detail: {
+            zh: "其中 L 为运动参考系测得的长度，L₀ 为静止时的原长，v 为相对速度，c 为光速。",
+            en: "L measured in the moving frame, L₀ the rest length, v relative speed, c light speed.",
+          },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {
           id: "mass-energy",
+          eq: { lhs: "E", rhs: "mc²", rel: "equal" },
           icon: "⚛️",
           term: { zh: "质能方程", en: "Mass–Energy Equivalence" },
           level: 3,
           oneLiner: { zh: "质量即能量：E=mc²。", en: "Mass is energy: E=mc²." },
-          detail: { zh: "核反应释放的能量正来自质量的微小亏损。其中 E 为能量，m 为质量，c 为光速。", en: "Nuclear energy comes from tiny mass defects. E energy, m mass, c speed of light." },
+          detail: {
+            zh: "核反应释放的能量正来自质量的微小亏损。其中 E 为能量，m 为质量，c 为光速。",
+            en: "Nuclear energy comes from tiny mass defects. E energy, m mass, c speed of light.",
+          },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
         {
@@ -657,8 +1098,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌐",
           term: { zh: "广义相对论与时空弯曲", en: "General Relativity" },
           level: 3,
-          oneLiner: { zh: "引力被诠释为时空的弯曲，物质告诉时空如何弯曲。", en: "Gravity is spacetime curvature caused by mass-energy." },
-          detail: { zh: "预言了光线偏折、引力红移、黑洞与引力波，均已被观测证实。", en: "Predicts light bending, gravitational redshift, black holes and waves — all observed." },
+          oneLiner: {
+            zh: "引力被诠释为时空的弯曲，物质告诉时空如何弯曲。",
+            en: "Gravity is spacetime curvature caused by mass-energy.",
+          },
+          detail: {
+            zh: "预言了光线偏折、引力红移、黑洞与引力波，均已被观测证实。",
+            en: "Predicts light bending, gravitational redshift, black holes and waves — all observed.",
+          },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
       ],
@@ -674,8 +1121,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🪐",
           term: { zh: "原子的核式模型", en: "Nuclear Model of the Atom" },
           level: 2,
-          oneLiner: { zh: "卢瑟福提出原子核式结构，玻尔引入量子化轨道解释氢原子。", en: "Rutherford proposed the nuclear atom; Bohr added quantized orbits to explain hydrogen." },
-          detail: { zh: "α 粒子散射实验表明正电荷集中于很小的核；玻尔假设电子在特定能级轨道上稳定运动，跃迁时吸收或辐射光子。", en: "α-scattering showed positive charge concentrated in a tiny nucleus; Bohr assumed electrons in fixed-energy orbits, emitting or absorbing photons on jumps." },
+          oneLiner: {
+            zh: "卢瑟福提出原子核式结构，玻尔引入量子化轨道解释氢原子。",
+            en: "Rutherford proposed the nuclear atom; Bohr added quantized orbits to explain hydrogen.",
+          },
+          detail: {
+            zh: "α 粒子散射实验表明正电荷集中于很小的核；玻尔假设电子在特定能级轨道上稳定运动，跃迁时吸收或辐射光子。",
+            en: "α-scattering showed positive charge concentrated in a tiny nucleus; Bohr assumed electrons in fixed-energy orbits, emitting or absorbing photons on jumps.",
+          },
           tags: [{ zh: "原子", en: "Atomic" }],
           figure: `<svg viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <g fill="none" stroke="#3b82f6" stroke-opacity="0.7" stroke-width="1.6"><circle cx="150" cy="112" r="30"/><circle cx="150" cy="112" r="56"/><circle cx="150" cy="112" r="82"/></g>
@@ -687,11 +1140,18 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "energy-levels",
+          eq: { lhs: "hν", rhs: "E高 − E低", rel: "equal" },
           icon: "📶",
           term: { zh: "能级与氢原子光谱", en: "Energy Levels & Spectra" },
           level: 3,
-          oneLiner: { zh: "原子能量量子化；电子在高能级向低能级跃迁时辐射一份光子 hν。", en: "Atomic energy is quantized; an electron dropping levels emits a photon of energy hν." },
-          detail: { zh: "能级差决定光子频率：hν = E高 − E低；氢原子光谱的谱线即各能级间跃迁的结果（巴耳末系等）。", en: "The level gap fixes the frequency: hν = E_high − E_low; hydrogen's spectral lines are these transitions (Balmer series, etc.)." },
+          oneLiner: {
+            zh: "原子能量量子化；电子在高能级向低能级跃迁时辐射一份光子 hν。",
+            en: "Atomic energy is quantized; an electron dropping levels emits a photon of energy hν.",
+          },
+          detail: {
+            zh: "能级差决定光子频率：hν = E高 − E低；氢原子光谱的谱线即各能级间跃迁的结果（巴耳末系等）。",
+            en: "The level gap fixes the frequency: hν = E_high − E_low; hydrogen's spectral lines are these transitions (Balmer series, etc.).",
+          },
           tags: [{ zh: "量子", en: "Quantum" }],
           figure: `<svg viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <line x1="46" y1="28" x2="46" y2="205" stroke="currentColor" stroke-opacity="0.5"/><text x="10" y="30" font-size="11" fill="currentColor">E</text>
@@ -708,11 +1168,18 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "wave-particle",
+          eq: { lhs: "λ", rhs: "h/p", rel: "equal" },
           icon: "🌗",
           term: { zh: "波粒二象性", en: "Wave–Particle Duality" },
           level: 3,
-          oneLiner: { zh: "光与实物粒子都兼具波动性与粒子性。", en: "Both light and matter show wave and particle aspects." },
-          detail: { zh: "光电效应、康普顿散射揭示光的粒子性；德布罗意提出物质波 λ = h/p，电子衍射实验证实。粒子性强的宏观物体波动性可忽略。", en: "Photoelectric and Compton effects reveal light's particle side; de Broglie's matter waves λ = h/p were confirmed by electron diffraction." },
+          oneLiner: {
+            zh: "光与实物粒子都兼具波动性与粒子性。",
+            en: "Both light and matter show wave and particle aspects.",
+          },
+          detail: {
+            zh: "光电效应、康普顿散射揭示光的粒子性；德布罗意提出物质波 λ = h/p，电子衍射实验证实。粒子性强的宏观物体波动性可忽略。",
+            en: "Photoelectric and Compton effects reveal light's particle side; de Broglie's matter waves λ = h/p were confirmed by electron diffraction.",
+          },
           tags: [{ zh: "量子", en: "Quantum" }],
         },
         {
@@ -720,8 +1187,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔵",
           term: { zh: "原子核与同位素", en: "Nucleus & Isotopes" },
           level: 2,
-          oneLiner: { zh: "原子核由质子与中子构成，质子数决定元素、中子数形成同位素。", en: "Nuclei of protons and neutrons: protons set the element, neutrons give isotopes." },
-          detail: { zh: "用 ᴬZX 表示：Z 为质子数（电荷数）、A 为质量数（质子 + 中子）；质子数相同、中子数不同者互为同位素（如氕、氘、氚）。", en: "Notated ᴬZX: Z protons, A mass number; same Z but different N are isotopes (protium, deuterium, tritium)." },
+          oneLiner: {
+            zh: "原子核由质子与中子构成，质子数决定元素、中子数形成同位素。",
+            en: "Nuclei of protons and neutrons: protons set the element, neutrons give isotopes.",
+          },
+          detail: {
+            zh: "用 ᴬZX 表示：Z 为质子数（电荷数）、A 为质量数（质子 + 中子）；质子数相同、中子数不同者互为同位素（如氕、氘、氚）。",
+            en: "Notated ᴬZX: Z protons, A mass number; same Z but different N are isotopes (protium, deuterium, tritium).",
+          },
           tags: [{ zh: "原子核", en: "Nuclear" }],
         },
         {
@@ -729,8 +1202,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "☢️",
           term: { zh: "放射性与半衰期", en: "Radioactivity & Half-life" },
           level: 2,
-          oneLiner: { zh: "不稳定核自发放出 α、β、γ 射线衰变；半衰期描述衰变快慢。", en: "Unstable nuclei emit α, β, γ radiation; half-life measures the decay rate." },
-          detail: { zh: "α 射线是氦核（电离强、穿透弱）、β 是高速电子、γ 是光子（穿透最强）；半衰期是统计规律，不随物理化学环境改变。", en: "α = helium nuclei (ionizing, weak penetration), β = fast electrons, γ = photons (most penetrating); half-life is statistical and environment-independent." },
+          oneLiner: {
+            zh: "不稳定核自发放出 α、β、γ 射线衰变；半衰期描述衰变快慢。",
+            en: "Unstable nuclei emit α, β, γ radiation; half-life measures the decay rate.",
+          },
+          detail: {
+            zh: "α 射线是氦核（电离强、穿透弱）、β 是高速电子、γ 是光子（穿透最强）；半衰期是统计规律，不随物理化学环境改变。",
+            en: "α = helium nuclei (ionizing, weak penetration), β = fast electrons, γ = photons (most penetrating); half-life is statistical and environment-independent.",
+          },
           tags: [{ zh: "原子核", en: "Nuclear" }],
           figure: `<svg viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <rect x="130" y="26" width="150" height="8" fill="#e5484d"/><text x="272" y="34" font-size="10" fill="#e5484d">负极 −</text>
@@ -749,8 +1228,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚖️",
           term: { zh: "核力与结合能", en: "Nuclear Force & Binding Energy" },
           level: 3,
-          oneLiner: { zh: "核力把核子束缚在一起；形成核时质量亏损以结合能释放。", en: "The strong force binds nucleons; the mass defect appears as binding energy." },
-          detail: { zh: "由 E = mc²，结合能对应质量亏损；比结合能（每个核子）越大核越稳定，中等质量核最稳，故重核裂变、轻核聚变都能释放能量。", en: "Via E = mc² binding energy matches a mass defect; higher binding energy per nucleon means greater stability, so both fission of heavy and fusion of light nuclei release energy." },
+          oneLiner: {
+            zh: "核力把核子束缚在一起；形成核时质量亏损以结合能释放。",
+            en: "The strong force binds nucleons; the mass defect appears as binding energy.",
+          },
+          detail: {
+            zh: "由 E = mc²，结合能对应质量亏损；比结合能（每个核子）越大核越稳定，中等质量核最稳，故重核裂变、轻核聚变都能释放能量。",
+            en: "Via E = mc² binding energy matches a mass defect; higher binding energy per nucleon means greater stability, so both fission of heavy and fusion of light nuclei release energy.",
+          },
           tags: [{ zh: "原子核", en: "Nuclear" }],
         },
         {
@@ -758,8 +1243,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "💥",
           term: { zh: "核裂变与链式反应", en: "Fission & Chain Reaction" },
           level: 3,
-          oneLiner: { zh: "重核（如铀-235）俘获中子后分裂，放出能量与中子，引发链式反应。", en: "A heavy nucleus (U-235) absorbs a neutron, splits, and releases energy plus neutrons, driving a chain reaction." },
-          detail: { zh: "一次裂变约释 200 MeV 并放出 2–3 个中子；可控链式反应用于核电站，不可控则用于核武器。", en: "Each fission yields ~200 MeV and 2–3 neutrons; controlled in reactors, uncontrolled in weapons." },
+          oneLiner: {
+            zh: "重核（如铀-235）俘获中子后分裂，放出能量与中子，引发链式反应。",
+            en: "A heavy nucleus (U-235) absorbs a neutron, splits, and releases energy plus neutrons, driving a chain reaction.",
+          },
+          detail: {
+            zh: "一次裂变约释 200 MeV 并放出 2–3 个中子；可控链式反应用于核电站，不可控则用于核武器。",
+            en: "Each fission yields ~200 MeV and 2–3 neutrons; controlled in reactors, uncontrolled in weapons.",
+          },
           tags: [{ zh: "原子核", en: "Nuclear" }],
           figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <circle cx="46" cy="92" r="7" fill="#9aa4b2"/><text x="34" y="72" font-size="10" fill="currentColor">n</text>
@@ -778,8 +1269,14 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "☀️",
           term: { zh: "核聚变", en: "Nuclear Fusion" },
           level: 3,
-          oneLiner: { zh: "轻核（氘氚）在超高温下结合成较重核，释放巨大能量。", en: "Light nuclei (deuterium–tritium) fuse at extreme heat into heavier ones, releasing vast energy." },
-          detail: { zh: "太阳与氢弹能量源于聚变；单位质量释能比裂变更大、产物更清洁，但需上亿度高温约束（磁约束/惯性约束），可控聚变仍在攻关。", en: "The Sun and hydrogen bombs run on fusion; per mass it releases more energy than fission with cleaner products, but needs >10⁸ K confinement (magnetic/inertial) — controlled fusion is still being mastered." },
+          oneLiner: {
+            zh: "轻核（氘氚）在超高温下结合成较重核，释放巨大能量。",
+            en: "Light nuclei (deuterium–tritium) fuse at extreme heat into heavier ones, releasing vast energy.",
+          },
+          detail: {
+            zh: "太阳与氢弹能量源于聚变；单位质量释能比裂变更大、产物更清洁，但需上亿度高温约束（磁约束/惯性约束），可控聚变仍在攻关。",
+            en: "The Sun and hydrogen bombs run on fusion; per mass it releases more energy than fission with cleaner products, but needs >10⁸ K confinement (magnetic/inertial) — controlled fusion is still being mastered.",
+          },
           tags: [{ zh: "原子核", en: "Nuclear" }],
         },
       ],
@@ -790,14 +1287,86 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "🔢",
       title: { zh: "关键常数", en: "Key Constants" },
       items: [
-        { id: "c", icon: "💡", term: { zh: "光速", en: "Speed of Light" }, value: { zh: "≈ 3.00×10⁸ m/s", en: "≈ 3.00×10⁸ m/s" }, oneLiner: { zh: "真空中的光速，相对论与电磁学的基石。", en: "Speed of light in vacuum; cornerstone of relativity and EM." } },
-        { id: "h", icon: "➿", term: { zh: "普朗克常数", en: "Planck Constant" }, value: { zh: "6.626×10⁻³⁴ J·s", en: "6.626×10⁻³⁴ J·s" }, oneLiner: { zh: "量子化的尺度，E=hν。", en: "Scale of quantization, E=hν." } },
-        { id: "G", icon: "🪐", term: { zh: "引力常数", en: "Gravitational Constant" }, value: { zh: "6.674×10⁻¹¹ N·m²/kg²", en: "6.674×10⁻¹¹ N·m²/kg²" }, oneLiner: { zh: "万有引力定律中的比例系数。", en: "Proportionality in Newton's gravitation." } },
-        { id: "e", icon: "⚡", term: { zh: "元电荷", en: "Elementary Charge" }, value: { zh: "1.602×10⁻¹⁹ C", en: "1.602×10⁻¹⁹ C" }, oneLiner: { zh: "质子所带电量（电子电荷绝对值）。", en: "Charge of a proton (magnitude of an electron's)." } },
-        { id: "k", icon: "🌡️", term: { zh: "玻尔兹曼常数", en: "Boltzmann Constant" }, value: { zh: "1.38×10⁻²³ J/K", en: "1.38×10⁻²³ J/K" }, oneLiner: { zh: "连接温度与微观平均动能。", en: "Bridges temperature and microscopic kinetic energy." } },
-        { id: "Na", icon: "🧮", term: { zh: "阿伏伽德罗常数", en: "Avogadro's Number" }, value: { zh: "6.022×10²³ mol⁻¹", en: "6.022×10²³ mol⁻¹" }, oneLiner: { zh: "1 摩尔物质含基本单元的个数。", en: "Entities per mole of substance." } },
-        { id: "eps0", icon: "🕸️", term: { zh: "真空介电常数", en: "Vacuum Permittivity" }, value: { zh: "8.854×10⁻¹² F/m", en: "8.854×10⁻¹² F/m" }, oneLiner: { zh: "库仑定律中的比例系数 ε₀。", en: "The ε₀ in Coulomb's law." } },
-        { id: "me", icon: "🔘", term: { zh: "电子质量", en: "Electron Mass" }, value: { zh: "9.109×10⁻³¹ kg", en: "9.109×10⁻³¹ kg" }, oneLiner: { zh: "基本粒子中最轻的稳定带电粒子质量。", en: "Mass of the lightest stable charged particle." } },
+        {
+          id: "c",
+          icon: "💡",
+          term: { zh: "光速", en: "Speed of Light" },
+          value: { zh: "≈ 3.00×10⁸ m/s", en: "≈ 3.00×10⁸ m/s" },
+          oneLiner: {
+            zh: "真空中的光速，相对论与电磁学的基石。",
+            en: "Speed of light in vacuum; cornerstone of relativity and EM.",
+          },
+        },
+        {
+          id: "h",
+          icon: "➿",
+          term: { zh: "普朗克常数", en: "Planck Constant" },
+          value: { zh: "6.626×10⁻³⁴ J·s", en: "6.626×10⁻³⁴ J·s" },
+          oneLiner: {
+            zh: "量子化的尺度，E=hν。",
+            en: "Scale of quantization, E=hν.",
+          },
+        },
+        {
+          id: "G",
+          icon: "🪐",
+          term: { zh: "引力常数", en: "Gravitational Constant" },
+          value: { zh: "6.674×10⁻¹¹ N·m²/kg²", en: "6.674×10⁻¹¹ N·m²/kg²" },
+          oneLiner: {
+            zh: "万有引力定律中的比例系数。",
+            en: "Proportionality in Newton's gravitation.",
+          },
+        },
+        {
+          id: "e",
+          icon: "⚡",
+          term: { zh: "元电荷", en: "Elementary Charge" },
+          value: { zh: "1.602×10⁻¹⁹ C", en: "1.602×10⁻¹⁹ C" },
+          oneLiner: {
+            zh: "质子所带电量（电子电荷绝对值）。",
+            en: "Charge of a proton (magnitude of an electron's).",
+          },
+        },
+        {
+          id: "k",
+          icon: "🌡️",
+          term: { zh: "玻尔兹曼常数", en: "Boltzmann Constant" },
+          value: { zh: "1.38×10⁻²³ J/K", en: "1.38×10⁻²³ J/K" },
+          oneLiner: {
+            zh: "连接温度与微观平均动能。",
+            en: "Bridges temperature and microscopic kinetic energy.",
+          },
+        },
+        {
+          id: "Na",
+          icon: "🧮",
+          term: { zh: "阿伏伽德罗常数", en: "Avogadro's Number" },
+          value: { zh: "6.022×10²³ mol⁻¹", en: "6.022×10²³ mol⁻¹" },
+          oneLiner: {
+            zh: "1 摩尔物质含基本单元的个数。",
+            en: "Entities per mole of substance.",
+          },
+        },
+        {
+          id: "eps0",
+          icon: "🕸️",
+          term: { zh: "真空介电常数", en: "Vacuum Permittivity" },
+          value: { zh: "8.854×10⁻¹² F/m", en: "8.854×10⁻¹² F/m" },
+          oneLiner: {
+            zh: "库仑定律中的比例系数 ε₀。",
+            en: "The ε₀ in Coulomb's law.",
+          },
+        },
+        {
+          id: "me",
+          icon: "🔘",
+          term: { zh: "电子质量", en: "Electron Mass" },
+          value: { zh: "9.109×10⁻³¹ kg", en: "9.109×10⁻³¹ kg" },
+          oneLiner: {
+            zh: "基本粒子中最轻的稳定带电粒子质量。",
+            en: "Mass of the lightest stable charged particle.",
+          },
+        },
       ],
     },
     /* ===================== 著名实验 ===================== */
@@ -806,14 +1375,78 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "🔬",
       title: { zh: "著名实验", en: "Landmark Experiments" },
       items: [
-        { id: "double-slit", icon: "🌗", term: { zh: "杨氏双缝实验", en: "Young's Double-Slit" }, oneLiner: { zh: "光过双缝形成干涉条纹，证明光的波动性。", en: "Light through two slits makes interference fringes, proving waves." } },
-        { id: "michelson-morley", icon: "📏", term: { zh: "迈克尔逊-莫雷实验", en: "Michelson–Morley" }, oneLiner: { zh: "探测「以太风」得零结果，为相对论扫清障碍。", en: "Sought the aether wind but found none, clearing the way for relativity." } },
-        { id: "millikan", icon: "💧", term: { zh: "密立根油滴实验", en: "Millikan Oil-Drop" }, oneLiner: { zh: "悬浮带电油滴测出元电荷，证实电荷量子化。", en: "Measured the elementary charge, confirming quantization." } },
-        { id: "rutherford", icon: "⚛️", term: { zh: "卢瑟福金箔实验", en: "Rutherford Gold-Foil" }, oneLiner: { zh: "α 粒子大角度散射，提出原子核式模型。", en: "Large-angle α scattering led to the nuclear model." } },
-        { id: "cavendish", icon: "⚖️", term: { zh: "卡文迪许扭秤", en: "Cavendish Experiment" }, oneLiner: { zh: "首次测出引力常数 G，并估算地球质量。", en: "First measured G and estimated Earth's mass." } },
-        { id: "photoelectric", icon: "🔆", term: { zh: "光电效应实验", en: "Photoelectric Effect" }, oneLiner: { zh: "光照射金属打出电子，爱因斯坦用量子解释，佐证光子说。", en: "Light ejects electrons; Einstein's quantum explanation supported photons." } },
-        { id: "galileo-incline", icon: "📐", term: { zh: "伽利略斜面实验", en: "Galileo's Inclined Plane" }, oneLiner: { zh: "用斜面「冲淡重力」研究匀加速运动，奠定实验物理。", en: "Diluted gravity with ramps to study uniform acceleration, founding experimental physics." } },
-        { id: "hertz", icon: "📡", term: { zh: "赫兹电磁波实验", en: "Hertz EM-Wave" }, oneLiner: { zh: "用振荡电路发射并接收电磁波，证实麦克斯韦预言。", en: "Generated and detected EM waves, confirming Maxwell." } },
+        {
+          id: "double-slit",
+          icon: "🌗",
+          term: { zh: "杨氏双缝实验", en: "Young's Double-Slit" },
+          oneLiner: {
+            zh: "光过双缝形成干涉条纹，证明光的波动性。",
+            en: "Light through two slits makes interference fringes, proving waves.",
+          },
+        },
+        {
+          id: "michelson-morley",
+          icon: "📏",
+          term: { zh: "迈克尔逊-莫雷实验", en: "Michelson–Morley" },
+          oneLiner: {
+            zh: "探测「以太风」得零结果，为相对论扫清障碍。",
+            en: "Sought the aether wind but found none, clearing the way for relativity.",
+          },
+        },
+        {
+          id: "millikan",
+          icon: "💧",
+          term: { zh: "密立根油滴实验", en: "Millikan Oil-Drop" },
+          oneLiner: {
+            zh: "悬浮带电油滴测出元电荷，证实电荷量子化。",
+            en: "Measured the elementary charge, confirming quantization.",
+          },
+        },
+        {
+          id: "rutherford",
+          icon: "⚛️",
+          term: { zh: "卢瑟福金箔实验", en: "Rutherford Gold-Foil" },
+          oneLiner: {
+            zh: "α 粒子大角度散射，提出原子核式模型。",
+            en: "Large-angle α scattering led to the nuclear model.",
+          },
+        },
+        {
+          id: "cavendish",
+          icon: "⚖️",
+          term: { zh: "卡文迪许扭秤", en: "Cavendish Experiment" },
+          oneLiner: {
+            zh: "首次测出引力常数 G，并估算地球质量。",
+            en: "First measured G and estimated Earth's mass.",
+          },
+        },
+        {
+          id: "photoelectric",
+          icon: "🔆",
+          term: { zh: "光电效应实验", en: "Photoelectric Effect" },
+          oneLiner: {
+            zh: "光照射金属打出电子，爱因斯坦用量子解释，佐证光子说。",
+            en: "Light ejects electrons; Einstein's quantum explanation supported photons.",
+          },
+        },
+        {
+          id: "galileo-incline",
+          icon: "📐",
+          term: { zh: "伽利略斜面实验", en: "Galileo's Inclined Plane" },
+          oneLiner: {
+            zh: "用斜面「冲淡重力」研究匀加速运动，奠定实验物理。",
+            en: "Diluted gravity with ramps to study uniform acceleration, founding experimental physics.",
+          },
+        },
+        {
+          id: "hertz",
+          icon: "📡",
+          term: { zh: "赫兹电磁波实验", en: "Hertz EM-Wave" },
+          oneLiner: {
+            zh: "用振荡电路发射并接收电磁波，证实麦克斯韦预言。",
+            en: "Generated and detected EM waves, confirming Maxwell.",
+          },
+        },
       ],
     },
     /* ===================== 物理学家 ===================== */
@@ -822,16 +1455,96 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "🧑‍🔬",
       title: { zh: "物理学家", en: "Physicists" },
       items: [
-        { id: "newton", icon: "🍎", term: { zh: "艾萨克·牛顿", en: "Isaac Newton" }, oneLiner: { zh: "经典力学与微积分奠基人，《原理》建立三定律与万有引力。", en: "Founder of classical mechanics and calculus; Principia set the three laws and gravitation." } },
-        { id: "einstein", icon: "🧠", term: { zh: "阿尔伯特·爱因斯坦", en: "Albert Einstein" }, oneLiner: { zh: "狭义与广义相对论、光电效应，重塑时空与引力观。", en: "Special & general relativity and the photoelectric effect reshaped space, time and gravity." } },
-        { id: "maxwell", icon: "🧲", term: { zh: "詹姆斯·麦克斯韦", en: "James Clerk Maxwell" }, oneLiner: { zh: "统一电、磁、光，提出麦克斯韦方程组。", en: "Unified electricity, magnetism and light via Maxwell's equations." } },
-        { id: "bohr", icon: "🪐", term: { zh: "尼尔斯·玻尔", en: "Niels Bohr" }, oneLiner: { zh: "原子量子化模型与哥本哈根诠释。", en: "Quantized atomic model and the Copenhagen interpretation." } },
-        { id: "curie", icon: "☢️", term: { zh: "玛丽·居里", en: "Marie Curie" }, oneLiner: { zh: "放射性研究先驱，首位两获诺贝尔奖的科学家。", en: "Pioneer of radioactivity; first person to win two Nobel Prizes." } },
-        { id: "galileo", icon: "🔭", term: { zh: "伽利略·伽利雷", en: "Galileo Galilei" }, oneLiner: { zh: "近代实验物理与天文观测奠基人，惯性概念先驱。", en: "Founder of modern experimental physics and observational astronomy; pioneer of inertia." } },
-        { id: "faraday", icon: "🌀", term: { zh: "迈克尔·法拉第", en: "Michael Faraday" }, oneLiner: { zh: "发现电磁感应，奠定电力工业基础。", en: "Discovered electromagnetic induction, foundation of the electrical industry." } },
-        { id: "kepler", icon: "🪐", term: { zh: "约翰内斯·开普勒", en: "Johannes Kepler" }, oneLiner: { zh: "提出行星运动三定律，揭示天体运行规律。", en: "Formulated the three laws of planetary motion." } },
-        { id: "planck", icon: "➿", term: { zh: "马克斯·普朗克", en: "Max Planck" }, oneLiner: { zh: "提出能量量子化，开创量子理论。", en: "Proposed energy quantization, launching quantum theory." } },
-        { id: "hertz", icon: "📡", term: { zh: "海因里希·赫兹", en: "Heinrich Hertz" }, oneLiner: { zh: "首次实验证实电磁波存在。", en: "First experimentally confirmed electromagnetic waves." } },
+        {
+          id: "newton",
+          icon: "🍎",
+          term: { zh: "艾萨克·牛顿", en: "Isaac Newton" },
+          oneLiner: {
+            zh: "经典力学与微积分奠基人，《原理》建立三定律与万有引力。",
+            en: "Founder of classical mechanics and calculus; Principia set the three laws and gravitation.",
+          },
+        },
+        {
+          id: "einstein",
+          icon: "🧠",
+          term: { zh: "阿尔伯特·爱因斯坦", en: "Albert Einstein" },
+          oneLiner: {
+            zh: "狭义与广义相对论、光电效应，重塑时空与引力观。",
+            en: "Special & general relativity and the photoelectric effect reshaped space, time and gravity.",
+          },
+        },
+        {
+          id: "maxwell",
+          icon: "🧲",
+          term: { zh: "詹姆斯·麦克斯韦", en: "James Clerk Maxwell" },
+          oneLiner: {
+            zh: "统一电、磁、光，提出麦克斯韦方程组。",
+            en: "Unified electricity, magnetism and light via Maxwell's equations.",
+          },
+        },
+        {
+          id: "bohr",
+          icon: "🪐",
+          term: { zh: "尼尔斯·玻尔", en: "Niels Bohr" },
+          oneLiner: {
+            zh: "原子量子化模型与哥本哈根诠释。",
+            en: "Quantized atomic model and the Copenhagen interpretation.",
+          },
+        },
+        {
+          id: "curie",
+          icon: "☢️",
+          term: { zh: "玛丽·居里", en: "Marie Curie" },
+          oneLiner: {
+            zh: "放射性研究先驱，首位两获诺贝尔奖的科学家。",
+            en: "Pioneer of radioactivity; first person to win two Nobel Prizes.",
+          },
+        },
+        {
+          id: "galileo",
+          icon: "🔭",
+          term: { zh: "伽利略·伽利雷", en: "Galileo Galilei" },
+          oneLiner: {
+            zh: "近代实验物理与天文观测奠基人，惯性概念先驱。",
+            en: "Founder of modern experimental physics and observational astronomy; pioneer of inertia.",
+          },
+        },
+        {
+          id: "faraday",
+          icon: "🌀",
+          term: { zh: "迈克尔·法拉第", en: "Michael Faraday" },
+          oneLiner: {
+            zh: "发现电磁感应，奠定电力工业基础。",
+            en: "Discovered electromagnetic induction, foundation of the electrical industry.",
+          },
+        },
+        {
+          id: "kepler",
+          icon: "🪐",
+          term: { zh: "约翰内斯·开普勒", en: "Johannes Kepler" },
+          oneLiner: {
+            zh: "提出行星运动三定律，揭示天体运行规律。",
+            en: "Formulated the three laws of planetary motion.",
+          },
+        },
+        {
+          id: "planck",
+          icon: "➿",
+          term: { zh: "马克斯·普朗克", en: "Max Planck" },
+          oneLiner: {
+            zh: "提出能量量子化，开创量子理论。",
+            en: "Proposed energy quantization, launching quantum theory.",
+          },
+        },
+        {
+          id: "hertz",
+          icon: "📡",
+          term: { zh: "海因里希·赫兹", en: "Heinrich Hertz" },
+          oneLiner: {
+            zh: "首次实验证实电磁波存在。",
+            en: "First experimentally confirmed electromagnetic waves.",
+          },
+        },
       ],
     },
     /* ===================== 名词词典 ===================== */
@@ -840,23 +1553,122 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "📖",
       title: { zh: "名词词典", en: "Glossary" },
       items: [
-        { id: "entropy", icon: "🔀", term: { zh: "熵", en: "Entropy" }, oneLiner: { zh: "系统无序程度的度量，也是热力学第二定律的核心。", en: "A measure of disorder and the heart of the second law." } },
-        { id: "photon", icon: "✨", term: { zh: "光子", en: "Photon" }, oneLiner: { zh: "光的量子，静质量为零的电磁场能量包。", en: "The quantum of light, a massless packet of EM energy." } },
-        { id: "field", icon: "🕸️", term: { zh: "场", en: "Field" }, oneLiner: { zh: "空间中每点赋予一个物理量的分布，如引力场、电磁场。", en: "An assignment of a physical quantity to every point in space." } },
-        { id: "plasma", icon: "⚡", term: { zh: "等离子体", en: "Plasma" }, oneLiner: { zh: "电离气体，由自由电子与离子组成，物质的第四态。", en: "Ionized gas of free electrons and ions — the fourth state of matter." } },
-        { id: "wavelength", icon: "🌊", term: { zh: "波长", en: "Wavelength" }, oneLiner: { zh: "波在一个周期内传播的距离，符号 λ。", en: "Distance a wave travels in one period, symbol λ." } },
-        { id: "frequency", icon: "🔁", term: { zh: "频率", en: "Frequency" }, oneLiner: { zh: "单位时间内振动的次数，单位赫兹 Hz。", en: "Oscillations per unit time, in hertz (Hz)." } },
-        { id: "vector", icon: "➡️", term: { zh: "矢量", en: "Vector" }, oneLiner: { zh: "既有大小又有方向的物理量，如位移、力、速度。", en: "A quantity with magnitude and direction, e.g. displacement, force, velocity." } },
-        { id: "inertial-frame", icon: "🛰️", term: { zh: "惯性系", en: "Inertial Frame" }, oneLiner: { zh: "不受外力、保持静止或匀速直线运动的参考系。", en: "A frame at rest or in uniform motion, free of net force." } },
-        { id: "quantum", icon: "📊", term: { zh: "量子", en: "Quantum" }, oneLiner: { zh: "物理量不可再分的最小单元；微观世界离散化的体现。", en: "The smallest indivisible unit of a quantity; discreteness in the micro-world." } },
-        { id: "duality", icon: "🌗", term: { zh: "波粒二象性", en: "Wave-Particle Duality" }, oneLiner: { zh: "微观粒子既表现波动性也表现粒子性。", en: "Microscopic particles exhibit both wave and particle behavior." } },
+        {
+          id: "entropy",
+          icon: "🔀",
+          term: { zh: "熵", en: "Entropy" },
+          oneLiner: {
+            zh: "系统无序程度的度量，也是热力学第二定律的核心。",
+            en: "A measure of disorder and the heart of the second law.",
+          },
+        },
+        {
+          id: "photon",
+          icon: "✨",
+          term: { zh: "光子", en: "Photon" },
+          oneLiner: {
+            zh: "光的量子，静质量为零的电磁场能量包。",
+            en: "The quantum of light, a massless packet of EM energy.",
+          },
+        },
+        {
+          id: "field",
+          icon: "🕸️",
+          term: { zh: "场", en: "Field" },
+          oneLiner: {
+            zh: "空间中每点赋予一个物理量的分布，如引力场、电磁场。",
+            en: "An assignment of a physical quantity to every point in space.",
+          },
+        },
+        {
+          id: "plasma",
+          icon: "⚡",
+          term: { zh: "等离子体", en: "Plasma" },
+          oneLiner: {
+            zh: "电离气体，由自由电子与离子组成，物质的第四态。",
+            en: "Ionized gas of free electrons and ions — the fourth state of matter.",
+          },
+        },
+        {
+          id: "wavelength",
+          icon: "🌊",
+          term: { zh: "波长", en: "Wavelength" },
+          oneLiner: {
+            zh: "波在一个周期内传播的距离，符号 λ。",
+            en: "Distance a wave travels in one period, symbol λ.",
+          },
+        },
+        {
+          id: "frequency",
+          icon: "🔁",
+          term: { zh: "频率", en: "Frequency" },
+          oneLiner: {
+            zh: "单位时间内振动的次数，单位赫兹 Hz。",
+            en: "Oscillations per unit time, in hertz (Hz).",
+          },
+        },
+        {
+          id: "vector",
+          icon: "➡️",
+          term: { zh: "矢量", en: "Vector" },
+          oneLiner: {
+            zh: "既有大小又有方向的物理量，如位移、力、速度。",
+            en: "A quantity with magnitude and direction, e.g. displacement, force, velocity.",
+          },
+        },
+        {
+          id: "inertial-frame",
+          icon: "🛰️",
+          term: { zh: "惯性系", en: "Inertial Frame" },
+          oneLiner: {
+            zh: "不受外力、保持静止或匀速直线运动的参考系。",
+            en: "A frame at rest or in uniform motion, free of net force.",
+          },
+        },
+        {
+          id: "quantum",
+          icon: "📊",
+          term: { zh: "量子", en: "Quantum" },
+          oneLiner: {
+            zh: "物理量不可再分的最小单元；微观世界离散化的体现。",
+            en: "The smallest indivisible unit of a quantity; discreteness in the micro-world.",
+          },
+        },
+        {
+          id: "duality",
+          icon: "🌗",
+          term: { zh: "波粒二象性", en: "Wave-Particle Duality" },
+          oneLiner: {
+            zh: "微观粒子既表现波动性也表现粒子性。",
+            en: "Microscopic particles exhibit both wave and particle behavior.",
+          },
+        },
       ],
     },
   ],
   refs: [
-    { label: { zh: "《费曼物理学讲义》", en: "The Feynman Lectures on Physics" }, url: "https://www.feynmanlectures.caltech.edu/", type: { zh: "教材", en: "Textbook" } },
-    { label: { zh: "Khan Academy · 物理", en: "Khan Academy · Physics" }, url: "https://www.khanacademy.org/science/physics", type: { zh: "科普", en: "Educational" } },
-    { label: { zh: "HyperPhysics", en: "HyperPhysics" }, url: "http://hyperphysics.phy-astr.gsu.edu/", type: { zh: "工具", en: "Reference" } },
-    { label: { zh: "Wikipedia · Physics", en: "Wikipedia · Physics" }, url: "https://en.wikipedia.org/wiki/Physics", type: { zh: "百科", en: "Encyclopedia" } },
+    {
+      label: {
+        zh: "《费曼物理学讲义》",
+        en: "The Feynman Lectures on Physics",
+      },
+      url: "https://www.feynmanlectures.caltech.edu/",
+      type: { zh: "教材", en: "Textbook" },
+    },
+    {
+      label: { zh: "Khan Academy · 物理", en: "Khan Academy · Physics" },
+      url: "https://www.khanacademy.org/science/physics",
+      type: { zh: "科普", en: "Educational" },
+    },
+    {
+      label: { zh: "HyperPhysics", en: "HyperPhysics" },
+      url: "http://hyperphysics.phy-astr.gsu.edu/",
+      type: { zh: "工具", en: "Reference" },
+    },
+    {
+      label: { zh: "Wikipedia · Physics", en: "Wikipedia · Physics" },
+      url: "https://en.wikipedia.org/wiki/Physics",
+      type: { zh: "百科", en: "Encyclopedia" },
+    },
   ],
 };
