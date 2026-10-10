@@ -530,5 +530,82 @@
       "n": "阿尔贝·加缪",
       "nEn": "Albert Camus"
     }
+  ],
+  "metaphysics": [
+    {
+      "m": "m-branches",
+      "n": "形而上学",
+      "nEn": "Metaphysics"
+    }
+  ],
+  "epistemology": [
+    {
+      "m": "m-branches",
+      "n": "认识论",
+      "nEn": "Epistemology"
+    }
+  ],
+  "ethics": [
+    {
+      "m": "m-branches",
+      "n": "伦理学",
+      "nEn": "Ethics"
+    }
+  ],
+  "logic": [
+    {
+      "m": "m-branches",
+      "n": "逻辑学",
+      "nEn": "Logic"
+    }
+  ],
+  "aesthetics": [
+    {
+      "m": "m-branches",
+      "n": "美学",
+      "nEn": "Aesthetics"
+    }
+  ],
+  "political-philosophy": [
+    {
+      "m": "m-branches",
+      "n": "政治哲学",
+      "nEn": "Political Philosophy"
+    }
+  ],
+  "philosophy-of-mind": [
+    {
+      "m": "m-branches",
+      "n": "心灵哲学",
+      "nEn": "Philosophy of Mind"
+    }
+  ],
+  "philosophy-of-science": [
+    {
+      "m": "m-branches",
+      "n": "科学哲学",
+      "nEn": "Philosophy of Science"
+    }
+  ],
+  "philosophy-of-language": [
+    {
+      "m": "m-branches",
+      "n": "语言哲学",
+      "nEn": "Philosophy of Language"
+    }
+  ],
+  "philosophy-of-history": [
+    {
+      "m": "m-branches",
+      "n": "历史哲学",
+      "nEn": "Philosophy of History"
+    }
+  ],
+  "phenomenology": [
+    {
+      "m": "m-branches",
+      "n": "现象学与诠释学",
+      "nEn": "Phenomenology and Hermeneutics"
+    }
   ]
 }

@@ -1,4 +1,4 @@
-import type { ModuleRender } from './types';
+import type { ModuleRender } from "./types";
 
 export interface ModuleDef {
   /** DOM 中的 section id */
@@ -14,11 +14,54 @@ export interface ModuleDef {
 }
 
 export const MODULES: ModuleDef[] = [
-  { id: 'm-schools', key: 'schools', icon: '🧬', file: 'schools.json', priority: 0, load: () => import('./schools') },
-  { id: 'm-questions', key: 'questions', icon: '🌿', file: 'questions.json', priority: 0, load: () => import('./questions') },
-  { id: 'm-classics', key: 'classics', icon: '🐾', file: 'classics.json', priority: 1, load: () => import('./classics') },
-  { id: 'm-thinkers', key: 'thinkers', icon: '🔬', file: 'thinkers.json', priority: 1, load: () => import('./thinkers') },
-  { id: 'm-endemics', key: 'endemics', icon: '🐼', file: 'endemics.json', priority: 1, load: () => import('./endemics') },
+  {
+    id: "m-schools",
+    key: "schools",
+    icon: "🧬",
+    file: "schools.json",
+    priority: 0,
+    load: () => import("./schools"),
+  },
+  {
+    id: "m-questions",
+    key: "questions",
+    icon: "🌿",
+    file: "questions.json",
+    priority: 0,
+    load: () => import("./questions"),
+  },
+  {
+    id: "m-principles",
+    key: "principles",
+    icon: "🧫",
+    file: "principles.json",
+    priority: 1,
+    load: () => import("./principles"),
+  },
+  {
+    id: "m-classics",
+    key: "classics",
+    icon: "🐾",
+    file: "classics.json",
+    priority: 1,
+    load: () => import("./classics"),
+  },
+  {
+    id: "m-thinkers",
+    key: "thinkers",
+    icon: "🔬",
+    file: "thinkers.json",
+    priority: 1,
+    load: () => import("./thinkers"),
+  },
+  {
+    id: "m-endemics",
+    key: "endemics",
+    icon: "🐼",
+    file: "endemics.json",
+    priority: 1,
+    load: () => import("./endemics"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

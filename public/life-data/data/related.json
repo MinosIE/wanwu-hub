@@ -418,5 +418,89 @@
       "n": "林恩·马古利斯",
       "nEn": "Lynn Margulis"
     }
+  ],
+  "cell-fundamentals": [
+    {
+      "m": "m-principles",
+      "n": "细胞：生命的基本单位",
+      "nEn": "The Cell: Life's Basic Unit"
+    }
+  ],
+  "metabolism-enzymes": [
+    {
+      "m": "m-principles",
+      "n": "酶与新陈代谢",
+      "nEn": "Enzymes and Metabolism"
+    }
+  ],
+  "energy-flow": [
+    {
+      "m": "m-principles",
+      "n": "光合作用与细胞呼吸",
+      "nEn": "Photosynthesis and Respiration"
+    }
+  ],
+  "heredity-mendel": [
+    {
+      "m": "m-principles",
+      "n": "遗传的孟德尔定律",
+      "nEn": "Mendel's Laws of Inheritance"
+    }
+  ],
+  "central-dogma": [
+    {
+      "m": "m-principles",
+      "n": "DNA 与中心法则",
+      "nEn": "DNA and the Central Dogma"
+    }
+  ],
+  "natural-selection": [
+    {
+      "m": "m-principles",
+      "n": "自然选择与适应",
+      "nEn": "Natural Selection and Adaptation"
+    }
+  ],
+  "speciation": [
+    {
+      "m": "m-principles",
+      "n": "物种形成与多样性",
+      "nEn": "Speciation and Diversity"
+    }
+  ],
+  "ecosystem-dynamics": [
+    {
+      "m": "m-principles",
+      "n": "生态系统的能量与物质",
+      "nEn": "Energy and Matter in Ecosystems"
+    }
+  ],
+  "population-ecology": [
+    {
+      "m": "m-principles",
+      "n": "种群与群落",
+      "nEn": "Populations and Communities"
+    }
+  ],
+  "homeostasis": [
+    {
+      "m": "m-principles",
+      "n": "内环境稳态",
+      "nEn": "Internal Stability (Homeostasis)"
+    }
+  ],
+  "immunity": [
+    {
+      "m": "m-principles",
+      "n": "免疫防御",
+      "nEn": "Immune Defense"
+    }
+  ],
+  "biodiversity-value": [
+    {
+      "m": "m-principles",
+      "n": "生物多样性及其价值",
+      "nEn": "Biodiversity and Its Value"
+    }
   ]
 }

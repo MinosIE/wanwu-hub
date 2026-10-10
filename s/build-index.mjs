@@ -19,6 +19,10 @@ const thinkers = read("thinkers.json");
 const principles = fs.existsSync(path.join(D, "principles.json"))
   ? read("principles.json")
   : [];
+// branches 为 thought 新增分类视图（机制/分支卡同构）。
+const branches = fs.existsSync(path.join(D, "branches.json"))
+  ? read("branches.json")
+  : [];
 const search = [];
 for (const s of schools)
   search.push({
@@ -70,6 +74,16 @@ for (const p of principles)
     nEn: p.titleEn,
     xEn: p.leadEn,
   });
+for (const b of branches)
+  search.push({
+    m: "m-branches",
+    id: b.id,
+    t: "search.t.branch",
+    n: b.title,
+    x: b.lead,
+    nEn: b.titleEn,
+    xEn: b.leadEn,
+  });
 const related = {};
 const add = (id, m, n, nEn) => {
   (related[id] ??= []).push({ m, n, nEn });
@@ -79,6 +93,7 @@ for (const q of questions) add(q.id, "m-questions", q.name, q.nameEn);
 for (const c of classics) add(c.id, "m-classics", c.name, c.nameEn);
 for (const t of thinkers) add(t.id, "m-thinkers", t.name, t.nameEn);
 for (const p of principles) add(p.id, "m-principles", p.title, p.titleEn);
+for (const b of branches) add(b.id, "m-branches", b.title, b.titleEn);
 fs.writeFileSync(path.join(D, "search.json"), JSON.stringify(search) + "\n");
 fs.writeFileSync(
   path.join(D, "related.json"),

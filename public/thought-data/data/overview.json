@@ -3,12 +3,14 @@
   "counts": {
     "schools": 20,
     "questions": 15,
+    "branches": 11,
     "classics": 16,
     "thinkers": 25
   },
   "kpis": [
     { "key": "schools", "icon": "🏛️", "value": 20 },
     { "key": "questions", "icon": "❓", "value": 15 },
+    { "key": "branches", "icon": "🧩", "value": 11 },
     { "key": "classics", "icon": "📜", "value": 16 },
     { "key": "thinkers", "icon": "👤", "value": 25 }
   ]

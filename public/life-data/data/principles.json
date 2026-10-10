@@ -1,0 +1,567 @@
+[
+  {
+    "id": "cell-fundamentals",
+    "title": "细胞：生命的基本单位",
+    "titleEn": "The Cell: Life's Basic Unit",
+    "icon": "🔬",
+    "category": "细胞",
+    "categoryEn": "Cell",
+    "level": 1,
+    "order": 1,
+    "lead": "一切生物都由细胞构成，细胞膜、细胞质与遗传物质把化学反应区室化为可自我维持、可分裂的最小生命单元。",
+    "leadEn": "All organisms are made of cells; membrane, cytoplasm and genetic material package chemistry into the smallest self-maintaining, self-dividing unit of life.",
+    "points": [
+      {
+        "k": "两大类型",
+        "kEn": "Two types",
+        "v": "原核细胞无核膜、体积小；真核细胞有核与膜性细胞器，结构更复杂。",
+        "vEn": "Prokaryotes lack a nucleus and are small; eukaryotes have a nucleus and membrane-bound organelles."
+      },
+      {
+        "k": "边界与运输",
+        "kEn": "Boundary and transport",
+        "v": "细胞膜的选择透过性靠被动扩散与主动转运调控物质进出。",
+        "vEn": "The membrane's selective permeability moves matter by passive diffusion and active transport."
+      },
+      {
+        "k": "分工协作",
+        "kEn": "Division of labor",
+        "v": "线粒体供能、核糖体合成蛋白、溶酶体降解——细胞器各司其职。",
+        "vEn": "Mitochondria supply energy, ribosomes build proteins, lysosomes digest—each organelle has its role."
+      },
+      {
+        "k": "分裂与增殖",
+        "kEn": "Division",
+        "v": "细胞由既有细胞分裂而来，遗传信息随之精确复制并分配。",
+        "vEn": "Cells arise from pre-existing cells, copying and dividing their genetic information faithfully."
+      }
+    ],
+    "related": ["eukaryotic-cell", "bacteria", "archaea"],
+    "sources": [
+      {
+        "label": "《细胞分子生物学》；施莱登与施旺细胞学说",
+        "labelEn": "Molecular Biology of the Cell; the cell doctrine of Schleiden and Schwann",
+        "year": 1839
+      }
+    ]
+  },
+  {
+    "id": "metabolism-enzymes",
+    "title": "酶与新陈代谢",
+    "titleEn": "Enzymes and Metabolism",
+    "icon": "⚗️",
+    "category": "代谢",
+    "categoryEn": "Metabolism",
+    "level": 2,
+    "order": 2,
+    "lead": "代谢是细胞内所有化学反应的总称，酶作为生物催化剂以高度专一性把反应加速百万倍，让温和条件下的生命成为可能。",
+    "leadEn": "Metabolism is the sum of a cell's chemistry; enzymes as biocatalysts speed reactions up to a million-fold with high specificity, making life possible under mild conditions.",
+    "points": [
+      {
+        "k": "合成与分解",
+        "kEn": "Build and break",
+        "v": "同化作用储能合成分子，异化作用分解释能，两者耦联运转。",
+        "vEn": "Anabolism builds and stores; catabolism breaks down and releases—the two run coupled."
+      },
+      {
+        "k": "催化机制",
+        "kEn": "How catalysis works",
+        "v": "酶降低反应活化能，靠活性位点与底物精确契合发挥作用。",
+        "vEn": "Enzymes lower activation energy, acting as active sites fit substrates precisely."
+      },
+      {
+        "k": "调节方式",
+        "kEn": "Regulation",
+        "v": "温度、pH 与反馈抑制共同调控酶活，维持代谢流的平衡。",
+        "vEn": "Temperature, pH and feedback inhibition tune enzyme activity to steady metabolic flux."
+      },
+      {
+        "k": "能量通货",
+        "kEn": "Energy currency",
+        "v": "ATP 是通用的能量载体，在放能与需能反应间转移磷酸基团。",
+        "vEn": "ATP is the universal energy shuttle, transferring phosphate between energy-releasing and -requiring reactions."
+      }
+    ],
+    "related": ["photosynthesis", "energy-flow", "cell-fundamentals"],
+    "sources": [
+      {
+        "label": "《生物化学》代谢与酶学总论",
+        "labelEn": "Biochemistry: general metabolism and enzymology",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "energy-flow",
+    "title": "光合作用与细胞呼吸",
+    "titleEn": "Photosynthesis and Respiration",
+    "icon": "🌱",
+    "category": "代谢",
+    "categoryEn": "Metabolism",
+    "level": 2,
+    "order": 3,
+    "lead": "光合作用把太阳能固定成有机物，细胞呼吸再把有机物氧化释能为 ATP——一存一取，驱动几乎所有生命活动。",
+    "leadEn": "Photosynthesis fixes sunlight into organic matter; respiration oxidizes it back into ATP—one stores, one releases, powering nearly all life.",
+    "points": [
+      {
+        "k": "光反应",
+        "kEn": "Light reactions",
+        "v": "叶绿素捕获光能，水光解释氧并生成 ATP 与 NADPH。",
+        "vEn": "Chlorophyll traps light; splitting water releases oxygen and makes ATP and NADPH."
+      },
+      {
+        "k": "碳固定",
+        "kEn": "Carbon fixation",
+        "v": "暗反应以二氧化碳合成糖类，把能量藏进化学键。",
+        "vEn": "The dark reactions build sugars from CO2, storing energy in chemical bonds."
+      },
+      {
+        "k": "有氧呼吸",
+        "kEn": "Aerobic respiration",
+        "v": "糖酵解、三羧酸循环与氧化磷酸化逐步释放能量，绝大多数 ATP 在此生成。",
+        "vEn": "Glycolysis, the Krebs cycle and oxidative phosphorylation release energy stepwise, yielding most ATP."
+      },
+      {
+        "k": "生态意义",
+        "kEn": "Ecological role",
+        "v": "光合与呼吸构成全球碳氧循环的两大支柱，维系大气成分。",
+        "vEn": "Photosynthesis and respiration are the twin pillars of the global carbon–oxygen cycle."
+      }
+    ],
+    "related": [
+      "metabolism-enzymes",
+      "great-oxygenation",
+      "ecosystem-dynamics"
+    ],
+    "sources": [
+      {
+        "label": "光合与呼吸能量代谢经典研究",
+        "labelEn": "Classic studies of photosynthetic and respiratory energetics",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "id": "heredity-mendel",
+    "title": "遗传的孟德尔定律",
+    "titleEn": "Mendel's Laws of Inheritance",
+    "icon": "🧬",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 2,
+    "order": 4,
+    "lead": "性状由离散的遗传因子（基因）决定，它们成对存在、彼此独立、随生殖细胞分离重组——孟德尔由此奠定了遗传学。",
+    "leadEn": "Traits are set by discrete factors (genes) that come in pairs, segregate and assort independently into gametes—Mendel's foundation of genetics.",
+    "points": [
+      {
+        "k": "分离定律",
+        "kEn": "Segregation",
+        "v": "成对因子在形成配子时彼此分离，各入一个配子。",
+        "vEn": "Paired factors separate when gametes form, each entering one gamete."
+      },
+      {
+        "k": "自由组合",
+        "kEn": "Independent assortment",
+        "v": "非同源染色体上的基因在减数分裂中自由组合。",
+        "vEn": "Genes on different chromosomes assort freely during meiosis."
+      },
+      {
+        "k": "显性与隐性",
+        "kEn": "Dominant and recessive",
+        "v": "杂合子只表现显性性状，隐性在纯合时才显现。",
+        "vEn": "Heterozygotes show the dominant trait; the recessive appears only when homozygous."
+      },
+      {
+        "k": "后世拓展",
+        "kEn": "Beyond Mendel",
+        "v": "连锁、不完全显性与多基因现象补充了简单孟德尔比例。",
+        "vEn": "Linkage, incomplete dominance and polygeny extend the simple Mendelian ratios."
+      }
+    ],
+    "related": ["mendel", "central-dogma", "natural-selection"],
+    "sources": [
+      {
+        "label": "孟德尔《豌豆杂交实验》",
+        "labelEn": "Mendel, Experiments on Plant Hybrids",
+        "year": 1866
+      }
+    ]
+  },
+  {
+    "id": "central-dogma",
+    "title": "DNA 与中心法则",
+    "titleEn": "DNA and the Central Dogma",
+    "icon": "🪄",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 3,
+    "order": 5,
+    "lead": "遗传信息以 DNA 碱基序列存储，经转录成 RNA、再翻译成蛋白质而表达——信息流的这一方向就是中心法则。",
+    "leadEn": "Genetic information is stored in DNA's base sequence and expressed via transcription to RNA and translation to protein—this flow is the central dogma.",
+    "points": [
+      {
+        "k": "双螺旋",
+        "kEn": "Double helix",
+        "v": "两条反向平行链以碱基互补配对，既稳定又便于复制与读取。",
+        "vEn": "Two antiparallel strands pair by complementary bases—stable yet easy to copy and read."
+      },
+      {
+        "k": "半保留复制",
+        "kEn": "Semi-conservative copying",
+        "v": "复制时双链解开，各以旧链为模板合成新链。",
+        "vEn": "During copying the strands unwind, each templating a new partner."
+      },
+      {
+        "k": "转录翻译",
+        "kEn": "Transcribe and translate",
+        "v": "基因转录成 mRNA，核糖体按三联密码子装配氨基酸成蛋白质。",
+        "vEn": "Genes are transcribed into mRNA; ribosomes read codons to assemble proteins."
+      },
+      {
+        "k": "变异之源",
+        "kEn": "Source of variation",
+        "v": "碱基改变造成突变，为遗传多样与进化提供原材料。",
+        "vEn": "Base changes cause mutation, the raw material of diversity and evolution."
+      }
+    ],
+    "related": ["watson-crick", "heredity-mendel", "natural-selection"],
+    "sources": [
+      {
+        "label": "沃森与克里克 DNA 结构；中心法则",
+        "labelEn": "Watson and Crick on DNA structure; the central dogma",
+        "year": 1953
+      }
+    ]
+  },
+  {
+    "id": "natural-selection",
+    "title": "自然选择与适应",
+    "titleEn": "Natural Selection and Adaptation",
+    "icon": "🦓",
+    "category": "进化",
+    "categoryEn": "Evolution",
+    "level": 2,
+    "order": 6,
+    "lead": "变异可遗传、资源有限、生存存在差异——满足这些条件，适应环境的性状便代代累积，这就是达尔文的自然选择。",
+    "leadEn": "Where variation is heritable, resources are limited and survival differs, traits suited to the environment accumulate across generations—Darwin's natural selection.",
+    "points": [
+      {
+        "k": "四个前提",
+        "kEn": "Four premises",
+        "v": "过度繁殖、遗传变异、生存竞争、适者留下——缺一不成选择。",
+        "vEn": "Overproduction, heritable variation, competition and differential survival—selection needs all four."
+      },
+      {
+        "k": "适应的形成",
+        "kEn": "How adaptation forms",
+        "v": "长颈鹿的颈、蛾的拟态都是环境对可遗传变异的定向筛选。",
+        "vEn": "Giraffe necks and moth mimicry are environments directionally sorting heritable variation."
+      },
+      {
+        "k": "选择的层级",
+        "kEn": "Levels",
+        "v": "性选择、群体选择与亲缘选择补充了单纯的个体适应度。",
+        "vEn": "Sexual, group and kin selection enrich the bare idea of individual fitness."
+      },
+      {
+        "k": "证据链",
+        "kEn": "The evidence",
+        "v": "化石序列、同源结构、分子钟与实时观察共同支持演化事实。",
+        "vEn": "Fossil sequences, homologous structures, molecular clocks and live observation all back evolution."
+      }
+    ],
+    "related": ["darwin", "wallace", "origin-of-life", "speciation"],
+    "sources": [
+      {
+        "label": "达尔文《物种起源》",
+        "labelEn": "Darwin, On the Origin of Species",
+        "year": 1859
+      }
+    ]
+  },
+  {
+    "id": "speciation",
+    "title": "物种形成与多样性",
+    "titleEn": "Speciation and Diversity",
+    "icon": "🌳",
+    "category": "进化",
+    "categoryEn": "Evolution",
+    "level": 3,
+    "order": 7,
+    "lead": "当种群间的基因交流被地理或生殖屏障切断，各自独立演化终致无法杂交——新的物种便这样诞生，生命之树不断分枝。",
+    "leadEn": "When gene flow between populations is cut by geographic or reproductive barriers, each evolves on its own until interbreeding fails—new species form and the tree of life branches.",
+    "points": [
+      {
+        "k": "隔离机制",
+        "kEn": "Isolation",
+        "v": "地理隔离阻隔交配，生殖隔离（行为、时间、杂交不育）维持物种边界。",
+        "vEn": "Geographic isolation blocks mating; reproductive barriers (behavioral, temporal, hybrid sterility) keep species apart."
+      },
+      {
+        "k": "成种方式",
+        "kEn": "Modes",
+        "v": "异地成种最常见，同域与多倍体成种在植物中尤为突出。",
+        "vEn": "Allopatric speciation is commonest; sympatric and polyploid forms stand out in plants."
+      },
+      {
+        "k": "适应辐射",
+        "kEn": "Adaptive radiation",
+        "v": "进入空旷生态位后快速分化，如达尔文雀与岛屿类群。",
+        "vEn": "Into open niches lineages diversify fast—Darwin's finches and island faunas."
+      },
+      {
+        "k": "灭绝与更替",
+        "kEn": "Extinction",
+        "v": "物种会消亡，大灭绝清空生态位，为幸存者开启新的辐射。",
+        "vEn": "Species end; mass extinctions clear niches and open fresh radiations for survivors."
+      }
+    ],
+    "related": [
+      "natural-selection",
+      "cambrian-explosion",
+      "biodiversity-value"
+    ],
+    "sources": [
+      {
+        "label": "迈尔《物种与进化》成种理论",
+        "labelEn": "Mayr, Species and Evolution; speciation theory",
+        "year": 1963
+      }
+    ]
+  },
+  {
+    "id": "ecosystem-dynamics",
+    "title": "生态系统的能量与物质",
+    "titleEn": "Energy and Matter in Ecosystems",
+    "icon": "🍃",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "order": 8,
+    "lead": "能量沿食物链单向流动、逐级递减，物质却在生物与非环境之间循环往返——一出一回，撑起整个生态系统。",
+    "leadEn": "Energy flows one way down food chains and dwindles each step, while matter cycles between living and non-living parts—one passes through, one recirculates.",
+    "points": [
+      {
+        "k": "营养结构",
+        "kEn": "Trophic structure",
+        "v": "生产者、消费者与分解者构成食物链与更复杂的食物网。",
+        "vEn": "Producers, consumers and decomposers form chains and richer food webs."
+      },
+      {
+        "k": "能量金字塔",
+        "kEn": "Energy pyramid",
+        "v": "每级只传递约一成能量，限制了食物链的长度与顶级数量。",
+        "vEn": "Roughly one tenth of energy passes up each level, capping chain length and top predators."
+      },
+      {
+        "k": "物质循环",
+        "kEn": "Nutrient cycling",
+        "v": "碳、氮、水与磷在生物地球化学循环中被反复利用。",
+        "vEn": "Carbon, nitrogen, water and phosphorus are reused through biogeochemical cycles."
+      },
+      {
+        "k": "稳定性",
+        "kEn": "Stability",
+        "v": "负反馈与多样性赋予系统抵抗力与恢复力。",
+        "vEn": "Negative feedback and diversity give systems resistance and resilience."
+      }
+    ],
+    "related": [
+      "tropical-rainforest",
+      "coral-reef",
+      "energy-flow",
+      "great-oxygenation"
+    ],
+    "sources": [
+      {
+        "label": "坦斯利生态系统概念与林德曼能量效率",
+        "labelEn": "Tansley's ecosystem concept; Lindeman's energy efficiency",
+        "year": 1942
+      }
+    ]
+  },
+  {
+    "id": "population-ecology",
+    "title": "种群与群落",
+    "titleEn": "Populations and Communities",
+    "icon": "🐜",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "order": 9,
+    "lead": "同种个体构成种群，异种种群聚合为群落；出生死亡、迁入迁出与种间关系共同刻画它们的数量与格局。",
+    "leadEn": "Same-species individuals form a population, many populations form a community; births, deaths, migration and species interactions shape their numbers and pattern.",
+    "points": [
+      {
+        "k": "数量特征",
+        "kEn": "Demography",
+        "v": "年龄结构、性比与增长率决定种群的兴衰与预测。",
+        "vEn": "Age structure, sex ratio and growth rate set a population's rise and forecast."
+      },
+      {
+        "k": "环境容纳量",
+        "kEn": "Carrying capacity",
+        "v": "资源限制使增长呈 S 形，种群围绕 K 值波动。",
+        "vEn": "Limits bend growth into an S-curve, oscillating around the carrying capacity K."
+      },
+      {
+        "k": "种间关系",
+        "kEn": "Interactions",
+        "v": "竞争、捕食、寄生与互利共生编织群落网络。",
+        "vEn": "Competition, predation, parasitism and mutualism weave the community web."
+      },
+      {
+        "k": "群落演替",
+        "kEn": "Succession",
+        "v": "从裸地到顶极群落，物种组成随时间有序更替。",
+        "vEn": "From bare ground to climax, composition turns over in an ordered sequence."
+      }
+    ],
+    "related": ["grassland", "savanna", "ecosystem-dynamics"],
+    "sources": [
+      {
+        "label": "种群生态学群落演替经典研究",
+        "labelEn": "Classic population ecology and succession studies",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "homeostasis",
+    "title": "内环境稳态",
+    "titleEn": "Internal Stability (Homeostasis)",
+    "icon": "⚖️",
+    "category": "生理",
+    "categoryEn": "Physiology",
+    "level": 2,
+    "order": 10,
+    "lead": "尽管外界波动，机体仍把体温、酸碱、血糖与渗透压维持在一定区间——这种动态稳定是复杂生命的前提。",
+    "leadEn": "Despite a shifting outside, the body holds temperature, pH, glucose and osmolarity within bands—this dynamic stability underlies complex life.",
+    "points": [
+      {
+        "k": "负反馈核心",
+        "kEn": "Negative feedback",
+        "v": "偏离设定值即触发反向调节，如出汗散热、胰岛素降糖。",
+        "vEn": "Deviation from a set-point triggers a corrective response—sweating to cool, insulin to lower sugar."
+      },
+      {
+        "k": "调节系统",
+        "kEn": "Control systems",
+        "v": "神经快速精准、体液缓慢持久、免疫清除异常，三者协同。",
+        "vEn": "Nerves act fast, hormones slow and long, immunity clears the abnormal—the three coordinate."
+      },
+      {
+        "k": "稳态失衡",
+        "kEn": "When it fails",
+        "v": "调节崩溃表现为发热、糖尿与脱水，是许多疾病的共通底色。",
+        "vEn": "Failed regulation shows as fever, glycosuria or dehydration—the common thread of disease."
+      },
+      {
+        "k": "生态回响",
+        "kEn": "Wider echo",
+        "v": "从细胞到生态系统的自我调节，遵循相似的反馈原理。",
+        "vEn": "From cells to ecosystems, self-regulation follows the same feedback logic."
+      }
+    ],
+    "related": ["cell-fundamentals", "metabolism-enzymes", "immunity"],
+    "sources": [
+      {
+        "label": "坎农《人体的智慧》稳态理论",
+        "labelEn": "Cannon, The Wisdom of the Body; homeostasis",
+        "year": 1932
+      }
+    ]
+  },
+  {
+    "id": "immunity",
+    "title": "免疫防御",
+    "titleEn": "Immune Defense",
+    "icon": "🛡️",
+    "category": "生理",
+    "categoryEn": "Physiology",
+    "level": 2,
+    "order": 11,
+    "lead": "机体以屏障、先天免疫与适应性免疫层层设防，并凭免疫记忆对再犯的病原体反应更快——疫苗正是借力于此。",
+    "leadEn": "The body defends in layers—barriers, innate and adaptive immunity—and with memory responds faster on re-infection; vaccines harness exactly this.",
+    "points": [
+      {
+        "k": "第一道屏障",
+        "kEn": "First barrier",
+        "v": "皮肤、黏膜与胃酸阻挡绝大多数入侵，是非特异的前线。",
+        "vEn": "Skin, mucosa and stomach acid block most invaders—an unspecific frontline."
+      },
+      {
+        "k": "先天免疫",
+        "kEn": "Innate",
+        "v": "吞噬细胞与炎症反应快速泛化应答，不针对特定病原。",
+        "vEn": "Phagocytes and inflammation respond fast and broadly, not targeting a specific pathogen."
+      },
+      {
+        "k": "适应性免疫",
+        "kEn": "Adaptive",
+        "v": "抗体与 T 细胞精准识别特定抗原，效应强但有潜伏期。",
+        "vEn": "Antibodies and T cells target specific antigens—potent but with a lag."
+      },
+      {
+        "k": "免疫记忆",
+        "kEn": "Memory",
+        "v": "记忆细胞在再遇同种抗原时迅捷扩增，构成疫苗的原理。",
+        "vEn": "Memory cells surge on re-encounter—the very basis of vaccination."
+      }
+    ],
+    "related": ["pasteur", "bacteria", "homeostasis"],
+    "sources": [
+      {
+        "label": "巴斯德免疫与疫苗研究",
+        "labelEn": "Pasteur on immunity and vaccination",
+        "year": 1885
+      }
+    ]
+  },
+  {
+    "id": "biodiversity-value",
+    "title": "生物多样性及其价值",
+    "titleEn": "Biodiversity and Its Value",
+    "icon": "🦋",
+    "category": "综合",
+    "categoryEn": "Synthesis",
+    "level": 1,
+    "order": 12,
+    "lead": "从基因、物种到生态系统的多层多样性，既是演化的成果，也是生态系统稳定与人类福祉的根基。",
+    "leadEn": "Diversity across genes, species and ecosystems is both the fruit of evolution and the bedrock of ecological stability and human well-being.",
+    "points": [
+      {
+        "k": "三个层次",
+        "kEn": "Three levels",
+        "v": "遗传多样性、物种多样性与生态系统多样性层层嵌套。",
+        "vEn": "Genetic, species and ecosystem diversity nest within one another."
+      },
+      {
+        "k": "多重价值",
+        "kEn": "Many values",
+        "v": "提供食物药物、调节气候、维持授粉，兼有潜在与审美价值。",
+        "vEn": "It yields food and medicine, regulates climate, sustains pollination—and holds latent and aesthetic worth."
+      },
+      {
+        "k": "丧失之危",
+        "kEn": "Loss and risk",
+        "v": "生境破碎、过度开发与气候变化正推高灭绝速率，削弱系统韧性。",
+        "vEn": "Fragmentation, overexploitation and warming raise extinction rates and erode resilience."
+      },
+      {
+        "k": "保护路径",
+        "kEn": "Conservation",
+        "v": "就地保护、迁地保育与可持续利用并重，守护演化潜力。",
+        "vEn": "In-situ reserves, ex-situ care and sustainable use together safeguard evolutionary potential."
+      }
+    ],
+    "related": ["wilson", "human-evolution", "speciation"],
+    "sources": [
+      {
+        "label": "EO·威尔逊《生物多样性》",
+        "labelEn": "E. O. Wilson, The Diversity of Life",
+        "year": 1992
+      }
+    ]
+  }
+]

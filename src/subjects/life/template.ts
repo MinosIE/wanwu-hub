@@ -43,6 +43,9 @@ export const TEMPLATE = `<div class="wrap">
         <button class="mod" data-go="m-questions" data-i18n="nav.questions">
           核心命题
         </button>
+        <button class="mod" data-go="m-principles" data-i18n="nav.principles">
+          生命原理
+        </button>
         <button class="mod" data-go="m-classics" data-i18n="nav.classics">
           经典著作
         </button>
@@ -90,6 +93,18 @@ export const TEMPLATE = `<div class="wrap">
         <div class="filters" id="questionsFilters"></div>
         <p class="count" id="questionsCount"></p>
         <div class="card-grid" id="questionsGrid"></div>
+      </section>
+
+      <section class="module" id="m-principles">
+        <header class="mod-head">
+          <h2 data-i18n="principles.title">生命原理</h2>
+          <p class="mod-sub" data-i18n="principles.sub">
+            从细胞到生态，生命如何获取能量、传递遗传、演化适应并自我调节。点击卡片看机制与要点。
+          </p>
+        </header>
+        <div class="filters" id="principlesFilters"></div>
+        <p class="count" id="principlesCount"></p>
+        <div class="card-grid" id="principlesGrid"></div>
       </section>
 
       <section class="module" id="m-classics">

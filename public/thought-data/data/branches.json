@@ -1,0 +1,508 @@
+[
+  {
+    "id": "metaphysics",
+    "title": "形而上学",
+    "titleEn": "Metaphysics",
+    "icon": "🔷",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 1,
+    "lead": "在可感现象之下，追问「存在本身」是什么——实体、属性、因果、可能与现实，形而上学试图画出实在的最一般骨架。",
+    "leadEn": "Beneath the sensible world it asks what being itself is—substance, property, cause, possibility and act—drawing the most general frame of reality.",
+    "points": [
+      {
+        "k": "核心问题",
+        "kEn": "Key questions",
+        "v": "什么真正存在？共相是否实在？变化如何可能？",
+        "vEn": "What truly exists? Are universals real? How is change possible?"
+      },
+      {
+        "k": "两大传统",
+        "kEn": "Two traditions",
+        "v": "亚里士多德的实体论与柏拉图的理念论构成持久的张力。",
+        "vEn": "Aristotle's substance and Plato's Forms form a lasting tension."
+      },
+      {
+        "k": "近代批判",
+        "kEn": "Modern critique",
+        "v": "康德指出理性一旦越出经验便陷入二律背反。",
+        "vEn": "Kant showed that reason, past experience, falls into antinomy."
+      },
+      {
+        "k": "当代表貌",
+        "kEn": "Today",
+        "v": "分析形而上学重探可能性、必然性与同一性的逻辑。",
+        "vEn": "Analytic metaphysics revisits the logic of possibility, necessity and identity."
+      }
+    ],
+    "related": ["reality", "universals", "aristotelianism", "platonism"],
+    "sources": [
+      {
+        "label": "亚里士多德《形而上学》",
+        "labelEn": "Aristotle, Metaphysics",
+        "year": -330
+      }
+    ]
+  },
+  {
+    "id": "epistemology",
+    "title": "认识论",
+    "titleEn": "Epistemology",
+    "icon": "👁️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 2,
+    "lead": "我们凭什么说「知道」？认识论考察知识的来源、证成与限度，在理性与经验、确定与怀疑之间划界。",
+    "leadEn": "On what grounds do we say we 'know'? Epistemology examines the source, justification and limits of knowledge, dividing reason from experience, certainty from doubt.",
+    "points": [
+      {
+        "k": "两大阵营",
+        "kEn": "Two camps",
+        "v": "理性主义者诉诸天赋观念，经验主义者一切归于感官。",
+        "vEn": "Rationalists appeal to innate ideas; empiricists trace all to the senses."
+      },
+      {
+        "k": "知识定义",
+        "kEn": "What knowledge is",
+        "v": "传统将知识解为「被证成的真信念」，盖梯尔反例使其复杂化。",
+        "vEn": "Knowledge as 'justified true belief'—complicated by Gettier's counterexamples."
+      },
+      {
+        "k": "怀疑挑战",
+        "kEn": "Skeptical challenge",
+        "v": "恶魔、梦境与缸中之脑逼迫我们回答认识的确定性。",
+        "vEn": "Demons, dreams and brains-in-vats force us to answer how certain we can be."
+      },
+      {
+        "k": "归纳问题",
+        "kEn": "Induction",
+        "v": "从过去的规律推出未来，其正当性休谟至今悬而未决。",
+        "vEn": "Inferring the future from the past—its warrant left unresolved since Hume."
+      }
+    ],
+    "related": ["knowledge", "induction", "rationalism", "empiricism"],
+    "sources": [
+      {
+        "label": "笛卡尔《第一哲学沉思集》；休谟《人类理解研究》",
+        "labelEn": "Descartes, Meditations; Hume, Enquiry Concerning Human Understanding",
+        "year": 1748
+      }
+    ]
+  },
+  {
+    "id": "ethics",
+    "title": "伦理学",
+    "titleEn": "Ethics",
+    "icon": "⚖️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 3,
+    "lead": "人应当如何生活、如何行动？伦理学在德性、义务与后果三条路径之间，追问善的理由与正当的标准。",
+    "leadEn": "How should one live and act? Ethics probes the grounds of the good and the standard of the right along three roads: virtue, duty and consequence.",
+    "points": [
+      {
+        "k": "三大范式",
+        "kEn": "Three paradigms",
+        "v": "德性论看重品格，义务论看重准则，后果论看重结果。",
+        "vEn": "Virtue ethics prizes character, deontology principle, consequentialism outcomes."
+      },
+      {
+        "k": "善恶之争",
+        "kEn": "Good and evil",
+        "v": "道德是客观实在还是主观投射，元伦理学各执一端。",
+        "vEn": "Whether morality is objective fact or projection—metaethics splits."
+      },
+      {
+        "k": "应用延伸",
+        "kEn": "Applied reach",
+        "v": "生命、环境、技术与数据伦理把原则带入具体抉择。",
+        "vEn": "Bioethics, environmental, tech and data ethics carry principles into concrete choices."
+      },
+      {
+        "k": "幸福之问",
+        "kEn": "Well-being",
+        "v": "何为良善生活？快乐、德性还是自我实现，答案各异。",
+        "vEn": "What is the good life—pleasure, virtue or flourishing? Answers diverge."
+      }
+    ],
+    "related": ["good-evil", "justice", "stoicism", "nicomachean"],
+    "sources": [
+      {
+        "label": "亚里士多德《尼各马可伦理学》；康德《道德形而上学奠基》",
+        "labelEn": "Aristotle, Nicomachean Ethics; Kant, Groundwork",
+        "year": 1785
+      }
+    ]
+  },
+  {
+    "id": "logic",
+    "title": "逻辑学",
+    "titleEn": "Logic",
+    "icon": "➗",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 4,
+    "lead": "从前提能否必然得出结论？逻辑研究有效推理的形式结构，为数学、计算机与一切论证提供底层规则。",
+    "leadEn": "Do conclusions follow of necessity from premises? Logic studies the form of valid inference, the base rules for mathematics, computing and every argument.",
+    "points": [
+      {
+        "k": "演绎与归纳",
+        "kEn": "Deduction and induction",
+        "v": "演绎保真、结论已含于前提；归纳扩知、却只给或然。",
+        "vEn": "Deduction preserves truth already in the premises; induction extends yet yields only probability."
+      },
+      {
+        "k": "形式系统",
+        "kEn": "Formal systems",
+        "v": "命题与谓词逻辑以符号刻画联结词与量词的有效性。",
+        "vEn": "Propositional and predicate logic use symbols to fix validity of connectives and quantifiers."
+      },
+      {
+        "k": "悖论之界",
+        "kEn": "Paradox at the edge",
+        "v": "说谎者悖论暴露了语言与自我指涉的深层困难。",
+        "vEn": "The liar paradox exposes the deep trouble of language and self-reference."
+      },
+      {
+        "k": "计算之源",
+        "kEn": "Roots of computing",
+        "v": "图灵与哥德尔的工作让逻辑走向可计算性与不完备。",
+        "vEn": "Turing and Gödel carried logic toward computability and incompleteness."
+      }
+    ],
+    "related": ["mingjia", "analytic", "induction"],
+    "sources": [
+      {
+        "label": "亚里士多德《工具论》；弗雷格概念文字",
+        "labelEn": "Aristotle, Organon; Frege's Begriffsschrift",
+        "year": 1879
+      }
+    ]
+  },
+  {
+    "id": "aesthetics",
+    "title": "美学",
+    "titleEn": "Aesthetics",
+    "icon": "🎨",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 5,
+    "lead": "何为美？审美判断既有主观感受又要求他人认同，美学追问美、崇高与艺术的根据与意义。",
+    "leadEn": "What is beauty? The aesthetic judgment feels subjective yet demands assent—Aesthetics asks the ground and meaning of beauty, the sublime and art.",
+    "points": [
+      {
+        "k": "趣味悖论",
+        "kEn": "The paradox of taste",
+        "v": "「趣味无争辩」与人们对美的普遍期许彼此拉扯。",
+        "vEn": "'No dispute about taste' pulls against our hope for universal agreement on beauty."
+      },
+      {
+        "k": "无功利的愉悦",
+        "kEn": "Disinterested pleasure",
+        "v": "康德认为审美不涉利害，却仍具普遍可传达性。",
+        "vEn": "Kant held the aesthetic free of interest yet universally communicable."
+      },
+      {
+        "k": "艺术定义",
+        "kEn": "Defining art",
+        "v": "模仿、表现、形式到体制论，艺术的边界不断被重写。",
+        "vEn": "From imitation, expression and form to institutional theory, art's boundary keeps being rewritten."
+      },
+      {
+        "k": "崇高之美",
+        "kEn": "The sublime",
+        "v": "面对浩瀚与威力，痛感转化为一种超越的愉悦。",
+        "vEn": "Before vastness and might, pain turns into a transcendent pleasure."
+      }
+    ],
+    "related": ["beauty", "kantian", "plato"],
+    "sources": [
+      {
+        "label": "康德《判断力批判》；鲍姆加登创立美学",
+        "labelEn": "Kant, Critique of Judgment; Baumgarten founds aesthetics",
+        "year": 1790
+      }
+    ]
+  },
+  {
+    "id": "political-philosophy",
+    "title": "政治哲学",
+    "titleEn": "Political Philosophy",
+    "icon": "🏛️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 6,
+    "lead": "权力何时正当、分配怎样公平？政治哲学在正义、自由与秩序之间，为共同生活的制度寻找理由。",
+    "leadEn": "When is power legitimate, distribution fair? Political Philosophy, between justice, liberty and order, seeks reasons for the institutions of shared life.",
+    "points": [
+      {
+        "k": "正当性",
+        "kEn": "Legitimacy",
+        "v": "统治凭神意、契约还是同意？合法性根基历经转移。",
+        "vEn": "Rule by divine will, contract or consent—the ground of legitimacy has shifted."
+      },
+      {
+        "k": "正义之争",
+        "kEn": "Debating justice",
+        "v": "功利、平等与自由至上给出不同的分配原则。",
+        "vEn": "Utility, equality and libertarianism propose rival principles of distribution."
+      },
+      {
+        "k": "理想国",
+        "kEn": "The ideal state",
+        "v": "从柏拉图哲人王到儒家仁政，构想善治的传统各异。",
+        "vEn": "From Plato's philosopher-kings to Confucian benevolent rule, visions of good governance differ."
+      },
+      {
+        "k": "自由与平等",
+        "kEn": "Liberty and equality",
+        "v": "消极自由、积极自由与差异原则构成当代主线张力。",
+        "vEn": "Negative and positive liberty plus the difference principle form today's chief tension."
+      }
+    ],
+    "related": ["justice", "confucianism", "marxism", "republic"],
+    "sources": [
+      {
+        "label": "柏拉图《理想国》；罗尔斯《正义论》",
+        "labelEn": "Plato, Republic; Rawls, A Theory of Justice",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-mind",
+    "title": "心灵哲学",
+    "titleEn": "Philosophy of Mind",
+    "icon": "🧠",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 7,
+    "lead": "意识如何从物质中涌现？心灵哲学追问心与身的关系、感受质的秘密，以及他心与自我何以可知。",
+    "leadEn": "How does mind arise from matter? Philosophy of Mind probes the mind–body relation, the riddle of qualia, and how other minds and the self can be known.",
+    "points": [
+      {
+        "k": "身心难题",
+        "kEn": "The mind–body problem",
+        "v": "二元、同一、功能与泛心诸论各试图弥合心与物的裂缝。",
+        "vEn": "Dualism, identity, functionalism and panpsychism each try to bridge mind and matter."
+      },
+      {
+        "k": "感受质",
+        "kEn": "Qualia",
+        "v": "「看到红的样子」这类主观体验似乎无法被客观描述穷尽。",
+        "vEn": "'What red looks like' seems resistant to exhaustive objective description."
+      },
+      {
+        "k": "他心问题",
+        "kEn": "Other minds",
+        "v": "我只能直接确知自己的心灵，如何推知他人也有意识？",
+        "vEn": "I know my own mind directly—how do I infer others are conscious too?"
+      },
+      {
+        "k": "机器之心",
+        "kEn": "Machine minds",
+        "v": "强人工智能与中文房间之争，把问题推向计算的边界。",
+        "vEn": "Strong AI versus the Chinese Room push the question to computation's edge."
+      }
+    ],
+    "related": ["mind-body", "self", "other-minds", "descartes"],
+    "sources": [
+      {
+        "label": "笛卡尔《第一哲学沉思集》；当代心灵哲学综述",
+        "labelEn": "Descartes, Meditations; contemporary surveys of philosophy of mind",
+        "year": 1641
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-science",
+    "title": "科学哲学",
+    "titleEn": "Philosophy of Science",
+    "icon": "🔭",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 8,
+    "lead": "科学凭什么可靠？它考察解释与证成、理论与观察、划界与范式，追问知识增长的真实机制。",
+    "leadEn": "Why is science trustworthy? It examines explanation and warrant, theory and observation, demarcation and paradigm—the real mechanics of growing knowledge.",
+    "points": [
+      {
+        "k": "划界问题",
+        "kEn": "Demarcation",
+        "v": "可证伪性被用来区分科学与非科学，却并非无懈可击。",
+        "vEn": "Falsifiability divides science from non-science, though not without difficulty."
+      },
+      {
+        "k": "归纳与确证",
+        "kEn": "Induction and confirmation",
+        "v": "有限观察如何支持全称定律，是悬置多年的难题。",
+        "vEn": "How finite observations back universal laws has long remained vexed."
+      },
+      {
+        "k": "范式革命",
+        "kEn": "Paradigm shifts",
+        "v": "库恩指科学并非线性累积，而是经危机换轨。",
+        "vEn": "Kuhn held science advances not by accumulation but through crisis and revolution."
+      },
+      {
+        "k": "实在之争",
+        "kEn": "Realism debate",
+        "v": "电子是否真实存在，还是只是管用的理论虚构？",
+        "vEn": "Are electrons real, or convenient fictions of a working theory?"
+      }
+    ],
+    "related": ["induction", "knowledge", "analytic"],
+    "sources": [
+      {
+        "label": "波普尔《科学发现的逻辑》；库恩《科学革命的结构》",
+        "labelEn": "Popper, Logic of Scientific Discovery; Kuhn, Structure of Scientific Revolutions",
+        "year": 1962
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-language",
+    "title": "语言哲学",
+    "titleEn": "Philosophy of Language",
+    "icon": "💬",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 9,
+    "lead": "词如何指物、句如何表意？语言哲学研究意义、指称与使用，二十世纪许多哲学问题都被重述为语言问题。",
+    "leadEn": "How do words refer, sentences mean? Philosophy of Language studies sense, reference and use—much of twentieth-century philosophy was restated as questions about language.",
+    "points": [
+      {
+        "k": "意义与指称",
+        "kEn": "Sense and reference",
+        "v": "弗雷格区分「晨星」与「暮星」的同指异义。",
+        "vEn": "Frege split the shared reference and differing sense of 'morning star' and 'evening star'."
+      },
+      {
+        "k": "语言游戏",
+        "kEn": "Language games",
+        "v": "后期维特根斯坦主张意义在于其在生活形式中的使用。",
+        "vEn": "The later Wittgenstein held that meaning lies in use within a form of life."
+      },
+      {
+        "k": "言语行为",
+        "kEn": "Speech acts",
+        "v": "说话即做事——承诺、命令以言行事改变世界。",
+        "vEn": "To speak is to act—promising and ordering do things with words."
+      },
+      {
+        "k": "私人语言",
+        "kEn": "Private language",
+        "v": "只关一己、无从公共检验的语言被认为不可能。",
+        "vEn": "A language referencing only one's own, untestable in public, is held impossible."
+      }
+    ],
+    "related": ["wittgenstein", "analytic", "universals"],
+    "sources": [
+      {
+        "label": "弗雷格《论意义与指称》；维特根斯坦《哲学研究》",
+        "labelEn": "Frege, On Sense and Reference; Wittgenstein, Philosophical Investigations",
+        "year": 1953
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-history",
+    "title": "历史哲学",
+    "titleEn": "Philosophy of History",
+    "icon": "⏳",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 10,
+    "lead": "历史有方向与规律吗？它追问进程是否合乎理性、个体与结构孰轻，以及我们能否理解一个时代。",
+    "leadEn": "Does history have direction and law? It asks whether the course follows reason, whether agents or structures weigh more, and whether an age can be understood.",
+    "points": [
+      {
+        "k": "目的之问",
+        "kEn": "Purpose",
+        "v": "历史是朝着自由或终点行进，还是只是偶然堆积？",
+        "vEn": "Does history march toward freedom or an end, or is it mere contingent accumulation?"
+      },
+      {
+        "k": "唯物史观",
+        "kEn": "Materialist view",
+        "v": "马克思以生产方式与阶级斗争解释社会形态的更替。",
+        "vEn": "Marx read the succession of social forms through modes of production and class struggle."
+      },
+      {
+        "k": "解释与理解",
+        "kEn": "Explanation",
+        "v": "史家是客观重演还是被自身视域所限，诠释学各有回答。",
+        "vEn": "Whether historians re-enact objectively or are bound by their own horizon—hermeneutics answers differ."
+      },
+      {
+        "k": "进步叙事",
+        "kEn": "Progress",
+        "v": "理性、自由与福祉不断增进的信念，两次世界大战后饱受质疑。",
+        "vEn": "The faith in ever-growing reason, liberty and welfare was deeply shaken by the world wars."
+      }
+    ],
+    "related": ["marx", "marxism", "reality"],
+    "sources": [
+      {
+        "label": "黑格尔《历史哲学讲录》；马克思唯物史观",
+        "labelEn": "Hegel, Lectures on the Philosophy of History; Marx's materialist conception",
+        "year": 1837
+      }
+    ]
+  },
+  {
+    "id": "phenomenology",
+    "title": "现象学与诠释学",
+    "titleEn": "Phenomenology and Hermeneutics",
+    "icon": "🌫️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 11,
+    "lead": "回到事情本身——悬置预设、描述意识如何显现世界，再由诠释学追问理解如何在历史与语言中发生。",
+    "leadEn": "To the things themselves—bracketing presets to describe how consciousness reveals the world, then asking how understanding happens in history and language.",
+    "points": [
+      {
+        "k": "意向性",
+        "kEn": "Intentionality",
+        "v": "意识总是关于某物的意识，主客二分在体验中被消融。",
+        "vEn": "Consciousness is always of something; the subject–object split dissolves in lived experience."
+      },
+      {
+        "k": "生活世界",
+        "kEn": "Lifeworld",
+        "v": "一切科学都植根于我们前理论的、直接经验的世界。",
+        "vEn": "All science is rooted in our pre-theoretical, directly lived world."
+      },
+      {
+        "k": "诠释循环",
+        "kEn": "The hermeneutic circle",
+        "v": "理解部分须借助整体、整体又来自部分，循环而非谬误。",
+        "vEn": "Parts are read through the whole and the whole from parts—a circle, not a fallacy."
+      },
+      {
+        "k": "此在分析",
+        "kEn": "Dasein",
+        "v": "海德格尔以「在世界中存在」重新追问存在的意义。",
+        "vEn": "Heidegger re-asks the meaning of being through 'being-in-the-world'."
+      }
+    ],
+    "related": ["heidegger", "sein-zeit", "being-and-nothingness", "self"],
+    "sources": [
+      {
+        "label": "胡塞尔《逻辑研究》；海德格尔《存在与时间》",
+        "labelEn": "Husserl, Logical Investigations; Heidegger, Being and Time",
+        "year": 1927
+      }
+    ]
+  }
+]
