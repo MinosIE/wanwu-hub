@@ -14,7 +14,12 @@
     "influence": "生命从此开启，后续所有演化都建立在这第一步之上。",
     "influenceEn": "Life began; every later transition builds on this first step.",
     "related": ["photosynthesis", "eukaryotic-cell", "deep-sea"],
-    "sources": [{ "label": "Wikipedia: Abiogenesis", "url": "https://en.wikipedia.org/wiki/Abiogenesis" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Abiogenesis",
+        "url": "https://en.wikipedia.org/wiki/Abiogenesis"
+      }
+    ]
   },
   {
     "id": "photosynthesis",
@@ -31,7 +36,12 @@
     "influence": "改写了大气成分，既灭绝了厌氧菌，也为复杂需氧生命铺路。",
     "influenceEn": "Reshaped the atmosphere—wiped out anaerobes yet enabled complex aerobic life.",
     "related": ["origin-of-life", "eukaryotic-cell", "bacteria"],
-    "sources": [{ "label": "Wikipedia: Great Oxidation Event", "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Great Oxidation Event",
+        "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+      }
+    ]
   },
   {
     "id": "eukaryotic-cell",
@@ -48,7 +58,12 @@
     "influence": "真核结构让大型、多细胞、分工复杂的生命成为可能。",
     "influenceEn": "Eukaryotic architecture enabled large, multicellular, specialized life.",
     "related": ["origin-of-life", "multicellularity", "photosynthesis"],
-    "sources": [{ "label": "Wikipedia: Endosymbiotic theory", "url": "https://en.wikipedia.org/wiki/Symbiogenesis" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Endosymbiotic theory",
+        "url": "https://en.wikipedia.org/wiki/Symbiogenesis"
+      }
+    ]
   },
   {
     "id": "multicellularity",
@@ -65,7 +80,12 @@
     "influence": "体型的增大与器官的形成都以此为前提。",
     "influenceEn": "Precondition for larger bodies and organs.",
     "related": ["eukaryotic-cell", "cambrian-explosion", "angiosperms"],
-    "sources": [{ "label": "Wikipedia: Multicellular organism", "url": "https://en.wikipedia.org/wiki/Multicellular_organism" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Multicellular organism",
+        "url": "https://en.wikipedia.org/wiki/Multicellular_organism"
+      }
+    ]
   },
   {
     "id": "cambrian-explosion",
@@ -82,7 +102,12 @@
     "influence": "奠定了此后动物界的基本蓝图，现代生态的雏形在此定型。",
     "influenceEn": "Set the blueprint for the animal kingdom and modern ecosystems.",
     "related": ["multicellularity", "land-animals", "origin-of-life"],
-    "sources": [{ "label": "Wikipedia: Cambrian explosion", "url": "https://en.wikipedia.org/wiki/Cambrian_explosion" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Cambrian explosion",
+        "url": "https://en.wikipedia.org/wiki/Cambrian_explosion"
+      }
+    ]
   },
   {
     "id": "land-plants",
@@ -99,7 +124,12 @@
     "influence": "陆地生态与后续动物登陆的基础，也显著增强了风化与碳循环。",
     "influenceEn": "Foundation for terrestrial ecosystems and later animal landfall; boosted weathering and carbon cycling.",
     "related": ["multicellularity", "land-animals", "angiosperms"],
-    "sources": [{ "label": "Wikipedia: Evolutionary history of plants", "url": "https://en.wikipedia.org/wiki/Evolutionary_history_of_plants" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Evolutionary history of plants",
+        "url": "https://en.wikipedia.org/wiki/Evolutionary_history_of_plants"
+      }
+    ]
   },
   {
     "id": "land-animals",
@@ -116,7 +146,12 @@
     "influence": "脊椎动物从此占据陆地，最终演化出爬行动物、恐龙与哺乳动物。",
     "influenceEn": "Vertebrates colonized land, leading to reptiles, dinosaurs and mammals.",
     "related": ["land-plants", "mammalian-radiation", "cambrian-explosion"],
-    "sources": [{ "label": "Wikipedia: Tetrapod", "url": "https://en.wikipedia.org/wiki/Tetrapod" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Tetrapod",
+        "url": "https://en.wikipedia.org/wiki/Tetrapod"
+      }
+    ]
   },
   {
     "id": "permian-extinction",
@@ -133,7 +168,12 @@
     "influence": "清空生态位，为恐龙在三叠—侏罗纪的崛起腾出空间。",
     "influenceEn": "Cleared niches, opening the way for dinosaur dominance in the Triassic–Jurassic.",
     "related": ["mesozoic-dinosaurs", "k-pg-extinction", "cambrian-explosion"],
-    "sources": [{ "label": "Wikipedia: Permian–Triassic extinction", "url": "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Permian–Triassic extinction",
+        "url": "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event"
+      }
+    ]
   },
   {
     "id": "mesozoic-dinosaurs",
@@ -150,7 +190,12 @@
     "influence": "定义了中生代生态，鸟类的延续让恐龙以另一种形式存活至今。",
     "influenceEn": "Defined Mesozoic ecology; birds let dinosaurs survive to today.",
     "related": ["k-pg-extinction", "land-animals", "aves"],
-    "sources": [{ "label": "Wikipedia: Dinosaur", "url": "https://en.wikipedia.org/wiki/Dinosaur" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Dinosaur",
+        "url": "https://en.wikipedia.org/wiki/Dinosaur"
+      }
+    ]
   },
   {
     "id": "k-pg-extinction",
@@ -167,7 +212,12 @@
     "influence": "终结中生代，开启新生代，哺乳动物由此走上中心舞台。",
     "influenceEn": "Ended the Mesozoic, opened the Cenozoic; mammals took center stage.",
     "related": ["mammalian-radiation", "mesozoic-dinosaurs", "angiosperms"],
-    "sources": [{ "label": "Wikipedia: Cretaceous–Paleogene extinction", "url": "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Cretaceous–Paleogene extinction",
+        "url": "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction"
+      }
+    ]
   },
   {
     "id": "mammalian-radiation",
@@ -184,7 +234,12 @@
     "influence": "铺垫了包括灵长类与人类在内的后续演化主线。",
     "influenceEn": "Set the stage for primates and ultimately humans.",
     "related": ["mammalia", "human-evolution", "k-pg-extinction"],
-    "sources": [{ "label": "Wikipedia: Mammal", "url": "https://en.wikipedia.org/wiki/Mammal" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Mammal",
+        "url": "https://en.wikipedia.org/wiki/Mammal"
+      }
+    ]
   },
   {
     "id": "human-evolution",
@@ -201,7 +256,12 @@
     "influence": "人类成为首个能系统性改造生物圈与气候的物种。",
     "influenceEn": "Humans became the first species to systematically reshape the biosphere and climate.",
     "related": ["mammalian-radiation", "mammalia"],
-    "sources": [{ "label": "Wikipedia: Human evolution", "url": "https://en.wikipedia.org/wiki/Human_evolution" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Human evolution",
+        "url": "https://en.wikipedia.org/wiki/Human_evolution"
+      }
+    ]
   },
   {
     "id": "great-oxygenation",
@@ -218,7 +278,12 @@
     "influence": "为需氧代谢与大型复杂生命铺路，却也造成厌氧生物的大规模衰退，是地球最早的生态革命。",
     "influenceEn": "Paved the way for aerobic metabolism and complex life, while crashing anaerobic biospheres — Earth's first ecological revolution.",
     "related": ["photosynthesis", "origin-of-life", "eukaryotic-cell"],
-    "sources": [{ "label": "Wikipedia: Great Oxidation Event", "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Great Oxidation Event",
+        "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+      }
+    ]
   },
   {
     "id": "angiosperm-radiation",
@@ -235,7 +300,12 @@
     "influence": "为昆虫、鸟类与哺乳动物提供新生态位与食物基础，奠定了现代景观与人类农业的底色。",
     "influenceEn": "Created niches and food for insects, birds and mammals, setting the canvas of modern landscapes and of human agriculture.",
     "related": ["land-plants", "angiosperms", "aves"],
-    "sources": [{ "label": "Wikipedia: Angiosperm", "url": "https://en.wikipedia.org/wiki/Angiosperm" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Angiosperm",
+        "url": "https://en.wikipedia.org/wiki/Angiosperm"
+      }
+    ]
   },
   {
     "id": "dinosaurs-to-birds",
@@ -252,6 +322,11 @@
     "influence": "把恐龙与鸟联结为同一演化谱系，成为演化论最生动的例证之一，也让恐龙以鸟类之形延续至今。",
     "influenceEn": "Binds dinosaurs and birds into one lineage — a vivid proof of evolution — letting dinosaurs survive today as birds.",
     "related": ["mesozoic-dinosaurs", "aves", "k-pg-extinction"],
-    "sources": [{ "label": "Wikipedia: Origin of birds", "url": "https://en.wikipedia.org/wiki/Origin_of_birds" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Origin of birds",
+        "url": "https://en.wikipedia.org/wiki/Origin_of_birds"
+      }
+    ]
   }
 ]

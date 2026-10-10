@@ -18,12 +18,32 @@
     "bio": "周游列国而行道不遇，晚年归鲁讲学、删述六经，其言行由弟子辑为《论语》，奠定东亚文明的伦理底色。",
     "bioEn": "He traveled among states seeking a ruler to reform, then taught and edited classics; his sayings became the Analects, the ethical bedrock of East Asia.",
     "ideas": [
-      { "k": "仁", "kEn": "Ren", "v": "推己及人的不忍人之心，是礼的根基。", "vEn": "Humaneness extended to others; the root of ritual." },
-      { "k": "中庸", "kEn": "Zhongyong", "v": "过犹不及，执两用中。", "vEn": "Avoid extremes; hold the middle." },
-      { "k": "有教无类", "kEn": "Education for all", "v": "打破贵族垄断，首开私学。", "vEn": "Opened learning beyond the aristocracy." }
+      {
+        "k": "仁",
+        "kEn": "Ren",
+        "v": "推己及人的不忍人之心，是礼的根基。",
+        "vEn": "Humaneness extended to others; the root of ritual."
+      },
+      {
+        "k": "中庸",
+        "kEn": "Zhongyong",
+        "v": "过犹不及，执两用中。",
+        "vEn": "Avoid extremes; hold the middle."
+      },
+      {
+        "k": "有教无类",
+        "kEn": "Education for all",
+        "v": "打破贵族垄断，首开私学。",
+        "vEn": "Opened learning beyond the aristocracy."
+      }
     ],
     "works": [{ "title": "论语", "titleEn": "The Analects", "year": -479 }],
-    "quotes": [{ "q": "己所不欲，勿施于人。", "qEn": "Do not impose on others what you yourself do not desire." }],
+    "quotes": [
+      {
+        "q": "己所不欲，勿施于人。",
+        "qEn": "Do not impose on others what you yourself do not desire."
+      }
+    ],
     "related": ["confucianism", "mengzi", "lunyu"],
     "sources": [{ "label": "《论语》" }]
   },
@@ -46,12 +66,32 @@
     "bio": "传说为周守藏室之史，见周室衰微，西出函谷关，应关令尹喜之请著《道德经》五千言。",
     "bioEn": "Reputedly an archivist who, disillusioned with the declining Zhou, wrote the Dao De Jing at a border pass before vanishing west.",
     "ideas": [
-      { "k": "道法自然", "kEn": "Dao follows nature", "v": "万物依其本然运行，不假外求。", "vEn": "All things move by their own nature." },
-      { "k": "无为", "kEn": "Wuwei", "v": "不妄为、因势利导，而非不为。", "vEn": "Act without forcing; not inaction but non-interference." },
-      { "k": "柔弱胜刚强", "kEn": "Soft over hard", "v": "水善利万物而不争。", "vEn": "Water benefits all and contends with none." }
+      {
+        "k": "道法自然",
+        "kEn": "Dao follows nature",
+        "v": "万物依其本然运行，不假外求。",
+        "vEn": "All things move by their own nature."
+      },
+      {
+        "k": "无为",
+        "kEn": "Wuwei",
+        "v": "不妄为、因势利导，而非不为。",
+        "vEn": "Act without forcing; not inaction but non-interference."
+      },
+      {
+        "k": "柔弱胜刚强",
+        "kEn": "Soft over hard",
+        "v": "水善利万物而不争。",
+        "vEn": "Water benefits all and contends with none."
+      }
     ],
     "works": [{ "title": "道德经", "titleEn": "Dao De Jing", "year": -400 }],
-    "quotes": [{ "q": "上善若水，水善利万物而不争。", "qEn": "The highest good is like water, which nourishes all things without strife." }],
+    "quotes": [
+      {
+        "q": "上善若水，水善利万物而不争。",
+        "qEn": "The highest good is like water, which nourishes all things without strife."
+      }
+    ],
     "related": ["taoism", "zhuangzi", "daodejing"],
     "sources": [{ "label": "《道德经》" }]
   },
@@ -74,12 +114,32 @@
     "bio": "苏格拉底弟子，创办雅典学园（Academy），以对话体写下大量著作，奠定西方形而上学与政治哲学。",
     "bioEn": "A student of Socrates, he founded the Academy in Athens and wrote dialogues that founded Western metaphysics and political philosophy.",
     "ideas": [
-      { "k": "理型论", "kEn": "Theory of Forms", "v": "完美的共相独立存在，感官世界只是摹本。", "vEn": "Perfect universals exist apart; the sensible world is a copy." },
-      { "k": "洞穴寓言", "kEn": "Cave allegory", "v": "被囚者误把影子当真实。", "vEn": "Prisoners mistake shadows for reality." },
-      { "k": "哲人王", "kEn": "Philosopher-king", "v": "唯有爱智者应执掌城邦。", "vEn": "Only lovers of wisdom should rule." }
+      {
+        "k": "理型论",
+        "kEn": "Theory of Forms",
+        "v": "完美的共相独立存在，感官世界只是摹本。",
+        "vEn": "Perfect universals exist apart; the sensible world is a copy."
+      },
+      {
+        "k": "洞穴寓言",
+        "kEn": "Cave allegory",
+        "v": "被囚者误把影子当真实。",
+        "vEn": "Prisoners mistake shadows for reality."
+      },
+      {
+        "k": "哲人王",
+        "kEn": "Philosopher-king",
+        "v": "唯有爱智者应执掌城邦。",
+        "vEn": "Only lovers of wisdom should rule."
+      }
     ],
     "works": [{ "title": "理想国", "titleEn": "The Republic", "year": -375 }],
-    "quotes": [{ "q": "未经省察的人生不值得过。", "qEn": "The unexamined life is not worth living." }],
+    "quotes": [
+      {
+        "q": "未经省察的人生不值得过。",
+        "qEn": "The unexamined life is not worth living."
+      }
+    ],
     "related": ["platonism", "aristotle", "republic"],
     "sources": [{ "label": "《理想国》", "year": -375 }]
   },
@@ -102,12 +162,35 @@
     "bio": "柏拉图弟子、亚历山大大帝之师，创立吕克昂学园，著作涵盖逻辑、自然、伦理与政治学，是中世纪学术的骨架。",
     "bioEn": "Student of Plato and tutor to Alexander, he founded the Lyceum; his works across logic, nature, ethics and politics became the skeleton of medieval learning.",
     "ideas": [
-      { "k": "四因说", "kEn": "Four causes", "v": "质料、形式、动力、目的解释事物。", "vEn": "Matter, form, agent, purpose explain things." },
-      { "k": "德性即中道", "kEn": "Virtue as mean", "v": "过度与不及之间恰好处。", "vEn": "The right measure between excess and defect." },
-      { "k": "实践智慧", "kEn": "Phronesis", "v": "在具体处境中择善的能力。", "vEn": "The ability to choose well in concrete situations." }
+      {
+        "k": "四因说",
+        "kEn": "Four causes",
+        "v": "质料、形式、动力、目的解释事物。",
+        "vEn": "Matter, form, agent, purpose explain things."
+      },
+      {
+        "k": "德性即中道",
+        "kEn": "Virtue as mean",
+        "v": "过度与不及之间恰好处。",
+        "vEn": "The right measure between excess and defect."
+      },
+      {
+        "k": "实践智慧",
+        "kEn": "Phronesis",
+        "v": "在具体处境中择善的能力。",
+        "vEn": "The ability to choose well in concrete situations."
+      }
     ],
-    "works": [{ "title": "尼各马可伦理学", "titleEn": "Nicomachean Ethics", "year": -330 }],
-    "quotes": [{ "q": "人是政治的动物。", "qEn": "Man is by nature a political animal." }],
+    "works": [
+      {
+        "title": "尼各马可伦理学",
+        "titleEn": "Nicomachean Ethics",
+        "year": -330
+      }
+    ],
+    "quotes": [
+      { "q": "人是政治的动物。", "qEn": "Man is by nature a political animal." }
+    ],
     "related": ["aristotelianism", "plato", "nicomachean"],
     "sources": [{ "label": "《尼各马可伦理学》", "year": -330 }]
   },
@@ -130,12 +213,38 @@
     "bio": "终身未离柯尼斯堡，以三大批判重塑认识论、伦理学与美学，被誉为「哲学界的哥白尼革命」。",
     "bioEn": "He never left Königsberg yet, with his three Critiques, reshaped epistemology, ethics and aesthetics — a 'Copernican revolution' in philosophy.",
     "ideas": [
-      { "k": "先验范畴", "kEn": "A priori categories", "v": "心智主动构造经验。", "vEn": "The mind actively structures experience." },
-      { "k": "绝对命令", "kEn": "Categorical imperative", "v": "只按你同时愿意成为普遍法则的准则行动。", "vEn": "Act only on maxims you could will universal law." },
-      { "k": "人是目的", "kEn": "Humanity as end", "v": "切勿把人仅当手段。", "vEn": "Never treat humanity merely as means." }
+      {
+        "k": "先验范畴",
+        "kEn": "A priori categories",
+        "v": "心智主动构造经验。",
+        "vEn": "The mind actively structures experience."
+      },
+      {
+        "k": "绝对命令",
+        "kEn": "Categorical imperative",
+        "v": "只按你同时愿意成为普遍法则的准则行动。",
+        "vEn": "Act only on maxims you could will universal law."
+      },
+      {
+        "k": "人是目的",
+        "kEn": "Humanity as end",
+        "v": "切勿把人仅当手段。",
+        "vEn": "Never treat humanity merely as means."
+      }
     ],
-    "works": [{ "title": "纯粹理性批判", "titleEn": "Critique of Pure Reason", "year": 1781 }],
-    "quotes": [{ "q": "位我上者灿烂星空，道德律令在我心中。", "qEn": "Two things fill the mind with awe: the starry heavens above and the moral law within." }],
+    "works": [
+      {
+        "title": "纯粹理性批判",
+        "titleEn": "Critique of Pure Reason",
+        "year": 1781
+      }
+    ],
+    "quotes": [
+      {
+        "q": "位我上者灿烂星空，道德律令在我心中。",
+        "qEn": "Two things fill the mind with awe: the starry heavens above and the moral law within."
+      }
+    ],
     "related": ["kantian", "rationalism", "empiricism", "critique"],
     "sources": [{ "label": "《纯粹理性批判》", "year": 1781 }]
   },
@@ -158,12 +267,32 @@
     "bio": "与恩格斯合著《共产党宣言》，穷毕生之力写《资本论》，其学说深刻塑造了 20 世纪的政治版图。",
     "bioEn": "With Engels he wrote the Manifesto and spent his life on Capital; his thought reshaped 20th-century politics.",
     "ideas": [
-      { "k": "历史唯物主义", "kEn": "Historical materialism", "v": "生产方式决定社会结构。", "vEn": "The mode of production shapes society." },
-      { "k": "剩余价值", "kEn": "Surplus value", "v": "利润来自对劳动的 unpaid 占有。", "vEn": "Profit arises from unpaid labor." },
-      { "k": "异化", "kEn": "Alienation", "v": "劳动者与产品、劳动、类本质相疏离。", "vEn": "Workers are estranged from product, act and species-being." }
+      {
+        "k": "历史唯物主义",
+        "kEn": "Historical materialism",
+        "v": "生产方式决定社会结构。",
+        "vEn": "The mode of production shapes society."
+      },
+      {
+        "k": "剩余价值",
+        "kEn": "Surplus value",
+        "v": "利润来自对劳动的 unpaid 占有。",
+        "vEn": "Profit arises from unpaid labor."
+      },
+      {
+        "k": "异化",
+        "kEn": "Alienation",
+        "v": "劳动者与产品、劳动、类本质相疏离。",
+        "vEn": "Workers are estranged from product, act and species-being."
+      }
     ],
     "works": [{ "title": "资本论", "titleEn": "Capital", "year": 1867 }],
-    "quotes": [{ "q": "哲学家们只是用不同的方式解释世界，问题在于改变世界。", "qEn": "Philosophers have only interpreted the world; the point is to change it." }],
+    "quotes": [
+      {
+        "q": "哲学家们只是用不同的方式解释世界，问题在于改变世界。",
+        "qEn": "Philosophers have only interpreted the world; the point is to change it."
+      }
+    ],
     "related": ["marxism", "utilitarianism"],
     "sources": [{ "label": "《资本论》", "year": 1867 }]
   },
@@ -186,12 +315,38 @@
     "bio": "曾任 Basel 古典语文学教授，因病退隐著述，以格言体犀利批判基督教道德与虚无主义。",
     "bioEn": "A classical philology professor who, ill and reclusive, wrote aphoristic critiques of Christian morality and nihilism.",
     "ideas": [
-      { "k": "上帝已死", "kEn": "God is dead", "v": "传统价值失稳，人须重新立法。", "vEn": "Traditional values collapse; humans must re-legislate." },
-      { "k": "权力意志", "kEn": "Will to power", "v": "生命本质是扩张与自我超越的冲动。", "vEn": "Life is the drive to expand and surpass." },
-      { "k": "永恒轮回", "kEn": "Eternal recurrence", "v": "若此生无限重复，你能否说「我愿意」？", "vEn": "If this life recurred forever, could you say 'I will it'?" }
+      {
+        "k": "上帝已死",
+        "kEn": "God is dead",
+        "v": "传统价值失稳，人须重新立法。",
+        "vEn": "Traditional values collapse; humans must re-legislate."
+      },
+      {
+        "k": "权力意志",
+        "kEn": "Will to power",
+        "v": "生命本质是扩张与自我超越的冲动。",
+        "vEn": "Life is the drive to expand and surpass."
+      },
+      {
+        "k": "永恒轮回",
+        "kEn": "Eternal recurrence",
+        "v": "若此生无限重复，你能否说「我愿意」？",
+        "vEn": "If this life recurred forever, could you say 'I will it'?"
+      }
     ],
-    "works": [{ "title": "查拉图斯特拉如是说", "titleEn": "Thus Spoke Zarathustra", "year": 1883 }],
-    "quotes": [{ "q": "那些杀不死我的，使我更强大。", "qEn": "What does not kill me makes me stronger." }],
+    "works": [
+      {
+        "title": "查拉图斯特拉如是说",
+        "titleEn": "Thus Spoke Zarathustra",
+        "year": 1883
+      }
+    ],
+    "quotes": [
+      {
+        "q": "那些杀不死我的，使我更强大。",
+        "qEn": "What does not kill me makes me stronger."
+      }
+    ],
     "related": ["existentialism", "zarathustra"],
     "sources": [{ "label": "《查拉图斯特拉如是说》", "year": 1883 }]
   },
@@ -201,10 +356,12 @@
     "nameEn": "Hume",
     "life": "1711—1776",
     "lifeEn": "1711–1776",
-    "country": "苏格兰", "countryEn": "Scotland",
+    "country": "苏格兰",
+    "countryEn": "Scotland",
     "school": "经验主义",
     "schoolEn": "Empiricism",
-    "level": 3, "order": 8,
+    "level": 3,
+    "order": 8,
     "tags": ["经验主义", "怀疑论"],
     "tagsEn": ["Empiricism", "Skepticism"],
     "oneLiner": "观念皆来自印象，因果只是习惯的恒常联结。",
@@ -212,12 +369,38 @@
     "bio": "苏格兰启蒙核心人物，以《人性论》《人类理解研究》把经验主义推至怀疑论边缘，自谓「唤醒」了康德。",
     "bioEn": "A central Scottish Enlightenment figure whose Treatise and Enquiry pushed empiricism toward skepticism and, he said, 'awoke' Kant.",
     "ideas": [
-      { "k": "印象与观念", "kEn": "Impressions & ideas", "v": "观念是印象的黯淡副本。", "vEn": "Ideas are faint copies of impressions." },
-      { "k": "因果质疑", "kEn": "On causation", "v": "我们从未看见「必然」，只见恒常接续。", "vEn": "We never see necessity, only constant sequence." },
-      { "k": "自我 bundle", "kEn": "Self as bundle", "v": "自我是一束流动的知觉。", "vEn": "The self is a bundle of fleeting perceptions." }
+      {
+        "k": "印象与观念",
+        "kEn": "Impressions & ideas",
+        "v": "观念是印象的黯淡副本。",
+        "vEn": "Ideas are faint copies of impressions."
+      },
+      {
+        "k": "因果质疑",
+        "kEn": "On causation",
+        "v": "我们从未看见「必然」，只见恒常接续。",
+        "vEn": "We never see necessity, only constant sequence."
+      },
+      {
+        "k": "自我 bundle",
+        "kEn": "Self as bundle",
+        "v": "自我是一束流动的知觉。",
+        "vEn": "The self is a bundle of fleeting perceptions."
+      }
     ],
-    "works": [{ "title": "人性论", "titleEn": "A Treatise of Human Nature", "year": 1739 }],
-    "quotes": [{ "q": "理性是激情的奴隶。", "qEn": "Reason is, and ought only to be, the slave of the passions." }],
+    "works": [
+      {
+        "title": "人性论",
+        "titleEn": "A Treatise of Human Nature",
+        "year": 1739
+      }
+    ],
+    "quotes": [
+      {
+        "q": "理性是激情的奴隶。",
+        "qEn": "Reason is, and ought only to be, the slave of the passions."
+      }
+    ],
     "related": ["empiricism", "self", "treatise"],
     "sources": [{ "label": "《人性论》", "year": 1739 }]
   },
@@ -227,7 +410,8 @@
     "nameEn": "Sartre",
     "life": "1905—1980",
     "lifeEn": "1905–1980",
-    "country": "法国", "countryEn": "France",
+    "country": "法国",
+    "countryEn": "France",
     "school": "存在主义",
     "schoolEn": "Existentialism",
     "level": 3,
@@ -239,12 +423,35 @@
     "bio": "法国哲人与作家，二战后成为存在主义旗手，主张人在荒诞中须为自己与全体人类负责。",
     "bioEn": "French philosopher and writer who became the postwar voice of existentialism: in absurdity, we bear responsibility for ourselves and all.",
     "ideas": [
-      { "k": "存在先于本质", "kEn": "Existence precedes essence", "v": "人先存在，再借行动成为某类人。", "vEn": "We exist first, then become via action." },
-      { "k": "绝对自由与责任", "kEn": "Freedom & responsibility", "v": "自由选择即选择人类整体形象。", "vEn": "To choose freely is to choose for all humanity." },
-      { "k": "本真", "kEn": "Authenticity", "v": "不诿过于处境，直面自己的选择。", "vEn": "Own your choices instead of blaming circumstance." }
+      {
+        "k": "存在先于本质",
+        "kEn": "Existence precedes essence",
+        "v": "人先存在，再借行动成为某类人。",
+        "vEn": "We exist first, then become via action."
+      },
+      {
+        "k": "绝对自由与责任",
+        "kEn": "Freedom & responsibility",
+        "v": "自由选择即选择人类整体形象。",
+        "vEn": "To choose freely is to choose for all humanity."
+      },
+      {
+        "k": "本真",
+        "kEn": "Authenticity",
+        "v": "不诿过于处境，直面自己的选择。",
+        "vEn": "Own your choices instead of blaming circumstance."
+      }
     ],
-    "works": [{ "title": "存在与虚无", "titleEn": "Being and Nothingness", "year": 1943 }],
-    "quotes": [{ "q": "人被判处自由。", "qEn": "Man is condemned to be free." }],
+    "works": [
+      {
+        "title": "存在与虚无",
+        "titleEn": "Being and Nothingness",
+        "year": 1943
+      }
+    ],
+    "quotes": [
+      { "q": "人被判处自由。", "qEn": "Man is condemned to be free." }
+    ],
     "related": ["existentialism", "meaning", "second-sex"],
     "sources": [{ "label": "《存在与虚无》", "year": 1943 }]
   },
@@ -254,8 +461,10 @@
     "nameEn": "Wang Yangming",
     "life": "1472—1529",
     "lifeEn": "1472–1529",
-    "country": "中国 · 明代", "countryEn": "China · Ming",
-    "school": "心学（儒家）", "schoolEn": "Heart-Mind Learning",
+    "country": "中国 · 明代",
+    "countryEn": "China · Ming",
+    "school": "心学（儒家）",
+    "schoolEn": "Heart-Mind Learning",
     "level": 2,
     "order": 10,
     "tags": ["明代", "心学"],
@@ -265,12 +474,38 @@
     "bio": "明代大儒与军事家，平宁王之乱，于龙场悟道，创立阳明学，影响东亚近世行动伦理。",
     "bioEn": "A Ming statesman-general who, after his epiphany at Longchang, founded Yangming learning, shaping East Asian activist ethics.",
     "ideas": [
-      { "k": "心即理", "kEn": "Mind is principle", "v": "不必外求，天理即在心。", "vEn": "Principle is not outside; it is in the mind." },
-      { "k": "知行合一", "kEn": "Unity of knowledge-action", "v": "真知必发为行，不行只是未知。", "vEn": "True knowing issues in action; otherwise it is not yet known." },
-      { "k": "致良知", "kEn": "Extend innate knowing", "v": "在事上磨练本有的道德判断。", "vEn": "Cultivate the native moral sense through affairs." }
+      {
+        "k": "心即理",
+        "kEn": "Mind is principle",
+        "v": "不必外求，天理即在心。",
+        "vEn": "Principle is not outside; it is in the mind."
+      },
+      {
+        "k": "知行合一",
+        "kEn": "Unity of knowledge-action",
+        "v": "真知必发为行，不行只是未知。",
+        "vEn": "True knowing issues in action; otherwise it is not yet known."
+      },
+      {
+        "k": "致良知",
+        "kEn": "Extend innate knowing",
+        "v": "在事上磨练本有的道德判断。",
+        "vEn": "Cultivate the native moral sense through affairs."
+      }
     ],
-    "works": [{ "title": "传习录", "titleEn": "Instructions for Practical Living", "year": 1572 }],
-    "quotes": [{ "q": "你未看此花时，此花与汝心同归于寂。", "qEn": "Until you look, the flower and your mind alike are idle." }],
+    "works": [
+      {
+        "title": "传习录",
+        "titleEn": "Instructions for Practical Living",
+        "year": 1572
+      }
+    ],
+    "quotes": [
+      {
+        "q": "你未看此花时，此花与汝心同归于寂。",
+        "qEn": "Until you look, the flower and your mind alike are idle."
+      }
+    ],
     "related": ["confucianism", "chuanxilu", "kongzi"],
     "sources": [{ "label": "《传习录》" }]
   },
@@ -280,7 +515,8 @@
     "nameEn": "Descartes",
     "life": "1596—1650",
     "lifeEn": "1596–1650",
-    "country": "法国", "countryEn": "France",
+    "country": "法国",
+    "countryEn": "France",
     "school": "理性主义",
     "schoolEn": "Rationalism",
     "level": 3,
@@ -292,11 +528,32 @@
     "bio": "数学家与哲学家，创立解析几何，主张以清晰分明的观念重建知识大厦，开启近代认识论。",
     "bioEn": "Mathematician-philosopher who founded analytic geometry and rebuilt knowledge on clear distinct ideas, opening modern epistemology.",
     "ideas": [
-      { "k": "普遍怀疑", "kEn": "Methodic doubt", "v": "凡可疑者皆暂悬置。", "vEn": "Set aside whatever can be doubted." },
-      { "k": "我思故我在", "kEn": "Cogito", "v": "怀疑本身证明思考者存在。", "vEn": "The very act of doubt proves the thinker exists." },
-      { "k": "心物二元", "kEn": "Dualism", "v": "心灵与广延之物本质不同。", "vEn": "Mind and extended matter are of different essence." }
+      {
+        "k": "普遍怀疑",
+        "kEn": "Methodic doubt",
+        "v": "凡可疑者皆暂悬置。",
+        "vEn": "Set aside whatever can be doubted."
+      },
+      {
+        "k": "我思故我在",
+        "kEn": "Cogito",
+        "v": "怀疑本身证明思考者存在。",
+        "vEn": "The very act of doubt proves the thinker exists."
+      },
+      {
+        "k": "心物二元",
+        "kEn": "Dualism",
+        "v": "心灵与广延之物本质不同。",
+        "vEn": "Mind and extended matter are of different essence."
+      }
     ],
-    "works": [{ "title": "第一哲学沉思集", "titleEn": "Meditations on First Philosophy", "year": 1641 }],
+    "works": [
+      {
+        "title": "第一哲学沉思集",
+        "titleEn": "Meditations on First Philosophy",
+        "year": 1641
+      }
+    ],
     "quotes": [{ "q": "我思故我在。", "qEn": "I think, therefore I am." }],
     "related": ["rationalism", "mind-body", "kantian"],
     "sources": [{ "label": "《第一哲学沉思集》", "year": 1641 }]
@@ -307,7 +564,8 @@
     "nameEn": "Mill",
     "life": "1806—1873",
     "lifeEn": "1806–1873",
-    "country": "英国", "countryEn": "Britain",
+    "country": "英国",
+    "countryEn": "Britain",
     "school": "功利主义",
     "schoolEn": "Utilitarianism",
     "level": 2,
@@ -319,12 +577,34 @@
     "bio": "由父亲严教成才，毕生推动功利主义、女性平权与言论自由，是 19 世纪自由主义标杆。",
     "bioEn": "Educated rigorously by his father, he advanced utilitarianism, women's equality and free speech — a 19th-c. liberal benchmark.",
     "ideas": [
-      { "k": "最大幸福", "kEn": "Greatest happiness", "v": "行为的对错看总体福祉净值。", "vEn": "Right acts maximize net well-being." },
-      { "k": "快乐有高下", "kEn": "Higher pleasures", "v": "宁愿做不满足的人，不做满足的猪。", "vEn": "Better a dissatisfied Socrates than a satisfied pig." },
-      { "k": "伤害原则", "kEn": "Harm principle", "v": "仅当损害他人，国家方可干预。", "vEn": "The state may intervene only to prevent harm to others." }
+      {
+        "k": "最大幸福",
+        "kEn": "Greatest happiness",
+        "v": "行为的对错看总体福祉净值。",
+        "vEn": "Right acts maximize net well-being."
+      },
+      {
+        "k": "快乐有高下",
+        "kEn": "Higher pleasures",
+        "v": "宁愿做不满足的人，不做满足的猪。",
+        "vEn": "Better a dissatisfied Socrates than a satisfied pig."
+      },
+      {
+        "k": "伤害原则",
+        "kEn": "Harm principle",
+        "v": "仅当损害他人，国家方可干预。",
+        "vEn": "The state may intervene only to prevent harm to others."
+      }
     ],
-    "works": [{ "title": "功利主义", "titleEn": "Utilitarianism", "year": 1863 }],
-    "quotes": [{ "q": "个人的自由，以不伤害他人为界。", "qEn": "The liberty of one ends where harm to another begins." }],
+    "works": [
+      { "title": "功利主义", "titleEn": "Utilitarianism", "year": 1863 }
+    ],
+    "quotes": [
+      {
+        "q": "个人的自由，以不伤害他人为界。",
+        "qEn": "The liberty of one ends where harm to another begins."
+      }
+    ],
     "related": ["utilitarianism", "justice", "good-evil"],
     "sources": [{ "label": "《功利主义》", "year": 1863 }]
   },
@@ -334,7 +614,8 @@
     "nameEn": "Marcus Aurelius",
     "life": "121—180",
     "lifeEn": "121–180",
-    "country": "罗马", "countryEn": "Rome",
+    "country": "罗马",
+    "countryEn": "Rome",
     "school": "斯多葛学派",
     "schoolEn": "Stoicism",
     "level": 1,
@@ -346,12 +627,32 @@
     "bio": "罗马「五贤帝」之末，戎马一生而夜夜自省，留下未打算出版的《沉思录》。",
     "bioEn": "The last of Rome's 'Five Good Emperors', he campaigned on the frontiers yet wrote nightly self-reflections never meant for print.",
     "ideas": [
-      { "k": "控制二分", "kEn": "Dichotomy of control", "v": "只操心你能决定的。", "vEn": "Care only for what is up to you." },
-      { "k": "顺应自然", "kEn": "Follow nature", "v": "接受必然，履行本分。", "vEn": "Accept necessity, do your part." },
-      { "k": "当下", "kEn": "The present", "v": "过去与未来皆不在你手中。", "vEn": "Past and future are not yours to grip." }
+      {
+        "k": "控制二分",
+        "kEn": "Dichotomy of control",
+        "v": "只操心你能决定的。",
+        "vEn": "Care only for what is up to you."
+      },
+      {
+        "k": "顺应自然",
+        "kEn": "Follow nature",
+        "v": "接受必然，履行本分。",
+        "vEn": "Accept necessity, do your part."
+      },
+      {
+        "k": "当下",
+        "kEn": "The present",
+        "v": "过去与未来皆不在你手中。",
+        "vEn": "Past and future are not yours to grip."
+      }
     ],
     "works": [{ "title": "沉思录", "titleEn": "Meditations", "year": 180 }],
-    "quotes": [{ "q": "你拥有控制你思想的力量，外界无法动摇。", "qEn": "You have power over your mind — not outside events. Realize this, and you will find strength." }],
+    "quotes": [
+      {
+        "q": "你拥有控制你思想的力量，外界无法动摇。",
+        "qEn": "You have power over your mind — not outside events. Realize this, and you will find strength."
+      }
+    ],
     "related": ["stoicism", "meditations"],
     "sources": [{ "label": "《沉思录》", "year": 180 }]
   },
@@ -361,7 +662,8 @@
     "nameEn": "Simone de Beauvoir",
     "life": "1908—1986",
     "lifeEn": "1908–1986",
-    "country": "法国", "countryEn": "France",
+    "country": "法国",
+    "countryEn": "France",
     "school": "存在主义 / 女性主义",
     "schoolEn": "Existentialism / Feminism",
     "level": 2,
@@ -373,12 +675,32 @@
     "bio": "与萨特相伴一生而各自独立，以《第二性》《名士风流》把哲学写进性别与自由的现场。",
     "bioEn": "Lifelong companion of Sartre yet independent, she brought philosophy to questions of sex and freedom in The Second Sex and The Mandarins.",
     "ideas": [
-      { "k": "他者化", "kEn": "The Other", "v": "女性被定义为相对于男性的「他者」。", "vEn": "Woman is defined as the Other relative to man." },
-      { "k": "被造成的女人", "kEn": "Becoming a woman", "v": "性别是历史与社会的产物。", "vEn": "Gender is made by history and society." },
-      { "k": "超越", "kEn": "Transcendence", "v": "人应超越既定角色，自我筹划。", "vEn": "One should transcend given roles and project oneself." }
+      {
+        "k": "他者化",
+        "kEn": "The Other",
+        "v": "女性被定义为相对于男性的「他者」。",
+        "vEn": "Woman is defined as the Other relative to man."
+      },
+      {
+        "k": "被造成的女人",
+        "kEn": "Becoming a woman",
+        "v": "性别是历史与社会的产物。",
+        "vEn": "Gender is made by history and society."
+      },
+      {
+        "k": "超越",
+        "kEn": "Transcendence",
+        "v": "人应超越既定角色，自我筹划。",
+        "vEn": "One should transcend given roles and project oneself."
+      }
     ],
     "works": [{ "title": "第二性", "titleEn": "The Second Sex", "year": 1949 }],
-    "quotes": [{ "q": "女人不是天生的，而是被塑造成的。", "qEn": "One is not born, but rather becomes, a woman." }],
+    "quotes": [
+      {
+        "q": "女人不是天生的，而是被塑造成的。",
+        "qEn": "One is not born, but rather becomes, a woman."
+      }
+    ],
     "related": ["existentialism", "meaning", "second-sex"],
     "sources": [{ "label": "《第二性》", "year": 1949 }]
   },
@@ -401,12 +723,32 @@
     "bio": "战国道家代表，承老子而恣肆发挥；《庄子》以寓言写哲学，把自由精神推向极致，深深滋养了后世的文艺与心境。",
     "bioEn": "The great Daoist of the Warring States who pushed Laozi further; the Zhuangzi uses parables to radicalize spiritual freedom and shaped later literature and art.",
     "ideas": [
-      { "k": "逍遥游", "kEn": "Carefree Wandering", "v": "超越功名得失，与天地精神往来。", "vEn": "Transcend fame and gain; roam with the spirit of heaven and earth." },
-      { "k": "齐物论", "kEn": "Equality of Things", "v": "是非、美丑、生死本无绝对分界。", "vEn": "Right/wrong, beauty/ugly, life/death have no fixed boundary." },
-      { "k": "无用之大用", "kEn": "Use of the Useless", "v": "不材之木得以全生，利害相生。", "vEn": "The uncarved tree survives; use and uselessness intertwine." }
+      {
+        "k": "逍遥游",
+        "kEn": "Carefree Wandering",
+        "v": "超越功名得失，与天地精神往来。",
+        "vEn": "Transcend fame and gain; roam with the spirit of heaven and earth."
+      },
+      {
+        "k": "齐物论",
+        "kEn": "Equality of Things",
+        "v": "是非、美丑、生死本无绝对分界。",
+        "vEn": "Right/wrong, beauty/ugly, life/death have no fixed boundary."
+      },
+      {
+        "k": "无用之大用",
+        "kEn": "Use of the Useless",
+        "v": "不材之木得以全生，利害相生。",
+        "vEn": "The uncarved tree survives; use and uselessness intertwine."
+      }
     ],
     "works": [{ "title": "庄子", "titleEn": "Zhuangzi", "year": -300 }],
-    "quotes": [{ "q": "吾生也有涯，而知也无涯。", "qEn": "Life has a limit; knowledge has none." }],
+    "quotes": [
+      {
+        "q": "吾生也有涯，而知也无涯。",
+        "qEn": "Life has a limit; knowledge has none."
+      }
+    ],
     "related": ["taoism", "laozi", "xuanxue", "zhuangzi-book", "mingjia"],
     "sources": [{ "label": "《庄子》" }]
   },
@@ -429,12 +771,32 @@
     "bio": "战国儒家大宗，游说诸侯行王道、反霸道，高扬「民为贵」；其说经宋儒推尊为「亚圣」。",
     "bioEn": "A Warring-States Confucian who urged humane kingship over hegemony and declared 'the people are weightiest'; later honored as the Second Sage.",
     "ideas": [
-      { "k": "性善", "kEn": "Innate Goodness", "v": "恻隐、羞恶、辞让、是非，四端具足。", "vEn": "Compassion, shame, deference, discernment — four sprouts within." },
-      { "k": "仁政", "kEn": "Humane Government", "v": "推不忍人之心以保民而王。", "vEn": "Extend the unforced heart to care for the people." },
-      { "k": "浩然之气", "kEn": "Flood-like Qi", "v": "配义与道，充塞于天地。", "vEn": "A spirit nourished by rightness and the Way." }
+      {
+        "k": "性善",
+        "kEn": "Innate Goodness",
+        "v": "恻隐、羞恶、辞让、是非，四端具足。",
+        "vEn": "Compassion, shame, deference, discernment — four sprouts within."
+      },
+      {
+        "k": "仁政",
+        "kEn": "Humane Government",
+        "v": "推不忍人之心以保民而王。",
+        "vEn": "Extend the unforced heart to care for the people."
+      },
+      {
+        "k": "浩然之气",
+        "kEn": "Flood-like Qi",
+        "v": "配义与道，充塞于天地。",
+        "vEn": "A spirit nourished by rightness and the Way."
+      }
     ],
     "works": [{ "title": "孟子", "titleEn": "Mencius", "year": -300 }],
-    "quotes": [{ "q": "民为贵，社稷次之，君为轻。", "qEn": "The people are weightiest; the state comes next; the ruler is lightest." }],
+    "quotes": [
+      {
+        "q": "民为贵，社稷次之，君为轻。",
+        "qEn": "The people are weightiest; the state comes next; the ruler is lightest."
+      }
+    ],
     "related": ["confucianism", "kongzi", "lunyu", "xunzi", "mengzi-book"],
     "sources": [{ "label": "《孟子》" }]
   },
@@ -457,13 +819,46 @@
     "bio": "雅典哲人，不立文字，借对话逼问前提交出「自知无知」；终以「败坏青年」获罪，饮鸩而亡，成为哲学生命的典范。",
     "bioEn": "An Athenian who wrote nothing but questioned citizens into contradiction, claiming only to know that he did not know; condemned and executed, he became philosophy's martyr.",
     "ideas": [
-      { "k": "诘问法(elenchus)", "kEn": "Elenchus", "v": "以追问暴露信念的内在矛盾。", "vEn": "Questioning that exposes contradiction in belief." },
-      { "k": "德性即知识", "kEn": "Virtue is Knowledge", "v": "无人有意作恶，恶出于无知。", "vEn": "No one errs willingly; evil stems from ignorance." },
-      { "k": "未经省察的人生", "kEn": "Unexamined Life", "v": "不反思的生活不值得过。", "vEn": "The unexamined life is not worth living." }
+      {
+        "k": "诘问法(elenchus)",
+        "kEn": "Elenchus",
+        "v": "以追问暴露信念的内在矛盾。",
+        "vEn": "Questioning that exposes contradiction in belief."
+      },
+      {
+        "k": "德性即知识",
+        "kEn": "Virtue is Knowledge",
+        "v": "无人有意作恶，恶出于无知。",
+        "vEn": "No one errs willingly; evil stems from ignorance."
+      },
+      {
+        "k": "未经省察的人生",
+        "kEn": "Unexamined Life",
+        "v": "不反思的生活不值得过。",
+        "vEn": "The unexamined life is not worth living."
+      }
     ],
-    "works": [{ "title": "柏拉图对话录(记述)", "titleEn": "Plato's Dialogues", "year": -380 }],
-    "quotes": [{ "q": "我唯一知道的，是我一无所知。", "qEn": "I know that I do not know." }],
-    "related": ["platonism", "aristotelianism", "plato", "republic", "knowledge", "self"],
+    "works": [
+      {
+        "title": "柏拉图对话录(记述)",
+        "titleEn": "Plato's Dialogues",
+        "year": -380
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我唯一知道的，是我一无所知。",
+        "qEn": "I know that I do not know."
+      }
+    ],
+    "related": [
+      "platonism",
+      "aristotelianism",
+      "plato",
+      "republic",
+      "knowledge",
+      "self"
+    ],
     "sources": [{ "label": "《申辩篇》柏拉图" }]
   },
   {
@@ -485,16 +880,51 @@
     "bio": "英国经验论奠基者，著《人类理解论》与《政府论》，主张自然权利与分权，深刻影响启蒙运动与近代宪政。",
     "bioEn": "Founder of British empiricism; his Essay and Two Treatises argued natural rights and separation of powers, shaping the Enlightenment and modern constitutions.",
     "ideas": [
-      { "k": "白板说", "kEn": "Tabula Rasa", "v": "心灵初如白纸，经验写入一切。", "vEn": "The mind begins blank; experience writes all." },
-      { "k": "自然权利", "kEn": "Natural Rights", "v": "生命、自由、财产不可剥夺。", "vEn": "Life, liberty, property are inalienable." },
-      { "k": "分权", "kEn": "Separation of Powers", "v": "立法、行政相分以防专断。", "vEn": "Divide legislative and executive to check power." }
+      {
+        "k": "白板说",
+        "kEn": "Tabula Rasa",
+        "v": "心灵初如白纸，经验写入一切。",
+        "vEn": "The mind begins blank; experience writes all."
+      },
+      {
+        "k": "自然权利",
+        "kEn": "Natural Rights",
+        "v": "生命、自由、财产不可剥夺。",
+        "vEn": "Life, liberty, property are inalienable."
+      },
+      {
+        "k": "分权",
+        "kEn": "Separation of Powers",
+        "v": "立法、行政相分以防专断。",
+        "vEn": "Divide legislative and executive to check power."
+      }
     ],
     "works": [
-      { "title": "人类理解论", "titleEn": "Essay Concerning Human Understanding", "year": 1689 },
-      { "title": "政府论", "titleEn": "Two Treatises of Government", "year": 1689 }
+      {
+        "title": "人类理解论",
+        "titleEn": "Essay Concerning Human Understanding",
+        "year": 1689
+      },
+      {
+        "title": "政府论",
+        "titleEn": "Two Treatises of Government",
+        "year": 1689
+      }
     ],
-    "quotes": [{ "q": "哪里没有法律，哪里就没有自由。", "qEn": "Where there is no law, there is no freedom." }],
-    "related": ["empiricism", "rationalism", "hume", "kantian", "justice", "theory-of-justice"],
+    "quotes": [
+      {
+        "q": "哪里没有法律，哪里就没有自由。",
+        "qEn": "Where there is no law, there is no freedom."
+      }
+    ],
+    "related": [
+      "empiricism",
+      "rationalism",
+      "hume",
+      "kantian",
+      "justice",
+      "theory-of-justice"
+    ],
     "sources": [{ "label": "《政府论》", "year": 1689 }]
   },
   {
@@ -516,15 +946,43 @@
     "bio": "20世纪最具颠覆力的哲学家，前后期思想判若两人；《逻辑哲学论》与《哲学研究》各自开宗立派，影响语言哲学与心灵哲学。",
     "bioEn": "The most radical philosopher of the century; his Tractatus and Philosophical Investigations founded two distinct schools, reshaping language and mind.",
     "ideas": [
-      { "k": "语言图像论", "kEn": "Picture Theory", "v": "命题以逻辑结构映照事实。", "vEn": "Propositions mirror facts in logical structure." },
-      { "k": "意义即用法", "kEn": "Meaning is Use", "v": "词的意义在其语言游戏中的用法。", "vEn": "A word's meaning is its use in the language-game." },
-      { "k": "家族相似", "kEn": "Family Resemblance", "v": "概念靠交叠相似连成网络。", "vEn": "Concepts link by overlapping similarities." }
+      {
+        "k": "语言图像论",
+        "kEn": "Picture Theory",
+        "v": "命题以逻辑结构映照事实。",
+        "vEn": "Propositions mirror facts in logical structure."
+      },
+      {
+        "k": "意义即用法",
+        "kEn": "Meaning is Use",
+        "v": "词的意义在其语言游戏中的用法。",
+        "vEn": "A word's meaning is its use in the language-game."
+      },
+      {
+        "k": "家族相似",
+        "kEn": "Family Resemblance",
+        "v": "概念靠交叠相似连成网络。",
+        "vEn": "Concepts link by overlapping similarities."
+      }
     ],
     "works": [
-      { "title": "逻辑哲学论", "titleEn": "Tractatus Logico-Philosophicus", "year": 1921 },
-      { "title": "哲学研究", "titleEn": "Philosophical Investigations", "year": 1953 }
+      {
+        "title": "逻辑哲学论",
+        "titleEn": "Tractatus Logico-Philosophicus",
+        "year": 1921
+      },
+      {
+        "title": "哲学研究",
+        "titleEn": "Philosophical Investigations",
+        "year": 1953
+      }
     ],
-    "quotes": [{ "q": "凡不可言说者，必保持沉默。", "qEn": "Whereof one cannot speak, thereof one must be silent." }],
+    "quotes": [
+      {
+        "q": "凡不可言说者，必保持沉默。",
+        "qEn": "Whereof one cannot speak, thereof one must be silent."
+      }
+    ],
     "related": ["analytic", "pragmatism", "kantian", "empiricism"],
     "sources": [{ "label": "《逻辑哲学论》", "year": 1921 }]
   },
@@ -547,12 +1005,34 @@
     "bio": "20世纪存在哲学巨擘，《存在与时间》开启此在的分析；晚年转向诗意栖居与技术批判，影响存在主义与后现代思潮。",
     "bioEn": "A towering figure of existential thought; Being and Time launched Dasein-analysis, while his later writings on poetry and technology shaped postmodernism.",
     "ideas": [
-      { "k": "此在(Dasein)", "kEn": "Dasein", "v": "人是对自身存在有所领会的存在者。", "vEn": "The human being is the entity that understands its own being." },
-      { "k": "在世存在", "kEn": "Being-in-the-world", "v": "人总已置身于世界之中。", "vEn": "We are always already thrown into a world." },
-      { "k": "向死而生", "kEn": "Being-toward-death", "v": "直面死亡才本真地领受自身。", "vEn": "Only facing death do we own our finite self." }
+      {
+        "k": "此在(Dasein)",
+        "kEn": "Dasein",
+        "v": "人是对自身存在有所领会的存在者。",
+        "vEn": "The human being is the entity that understands its own being."
+      },
+      {
+        "k": "在世存在",
+        "kEn": "Being-in-the-world",
+        "v": "人总已置身于世界之中。",
+        "vEn": "We are always already thrown into a world."
+      },
+      {
+        "k": "向死而生",
+        "kEn": "Being-toward-death",
+        "v": "直面死亡才本真地领受自身。",
+        "vEn": "Only facing death do we own our finite self."
+      }
     ],
-    "works": [{ "title": "存在与时间", "titleEn": "Being and Time", "year": 1927 }],
-    "quotes": [{ "q": "人，被抛入此世，并走向死亡。", "qEn": "Thrown into the world, we are underway toward death." }],
+    "works": [
+      { "title": "存在与时间", "titleEn": "Being and Time", "year": 1927 }
+    ],
+    "quotes": [
+      {
+        "q": "人，被抛入此世，并走向死亡。",
+        "qEn": "Thrown into the world, we are underway toward death."
+      }
+    ],
     "related": ["existentialism", "sein-zeit", "sartre", "death", "self"],
     "sources": [{ "label": "《存在与时间》", "year": 1927 }]
   },
@@ -575,11 +1055,28 @@
     "bio": "以「五路论证」上帝存在、以自然法伦理学奠基道德，其《神学大全》成为中世纪思想的高峰。",
     "bioEn": "His Five Ways argued for God, his natural law grounded ethics, and the Summa Theologica crowned medieval thought.",
     "ideas": [
-      { "k": "五路论证", "kEn": "Five Ways", "v": "由运动与因果推出第一推动者。", "vEn": "Infers a first mover from motion and causation." },
-      { "k": "自然法", "kEn": "Natural law", "v": "道德根植于理性对人性目的的认识。", "vEn": "Morality rests on reason grasping human ends." }
+      {
+        "k": "五路论证",
+        "kEn": "Five Ways",
+        "v": "由运动与因果推出第一推动者。",
+        "vEn": "Infers a first mover from motion and causation."
+      },
+      {
+        "k": "自然法",
+        "kEn": "Natural law",
+        "v": "道德根植于理性对人性目的的认识。",
+        "vEn": "Morality rests on reason grasping human ends."
+      }
     ],
-    "works": [{ "title": "神学大全", "titleEn": "Summa Theologica", "year": 1274 }],
-    "quotes": [{ "q": "对最高事物的一点点认识，胜于对琐物的确定知识。", "qEn": "A little knowledge of the highest things surpasses certainty in trifles." }],
+    "works": [
+      { "title": "神学大全", "titleEn": "Summa Theologica", "year": 1274 }
+    ],
+    "quotes": [
+      {
+        "q": "对最高事物的一点点认识，胜于对琐物的确定知识。",
+        "qEn": "A little knowledge of the highest things surpasses certainty in trifles."
+      }
+    ],
     "related": ["aristotelianism", "reality", "god"],
     "sources": [{ "label": "《神学大全》" }]
   },
@@ -602,11 +1099,26 @@
     "bio": "以几何学方法写作《伦理学》，否定人格神与自由意志，主张以理智之爱理解世界而获得自由。",
     "bioEn": "Writing the Ethics in geometric order, he denied a personal God and free will, finding freedom in understanding the world.",
     "ideas": [
-      { "k": "神即自然", "kEn": "God or Nature", "v": "只有一种实体，即神或自然。", "vEn": "One substance alone: God, or Nature." },
-      { "k": "决定论", "kEn": "Determinism", "v": "心灵与身体按同一必然律运行。", "vEn": "Mind and body run by one necessary order." }
+      {
+        "k": "神即自然",
+        "kEn": "God or Nature",
+        "v": "只有一种实体，即神或自然。",
+        "vEn": "One substance alone: God, or Nature."
+      },
+      {
+        "k": "决定论",
+        "kEn": "Determinism",
+        "v": "心灵与身体按同一必然律运行。",
+        "vEn": "Mind and body run by one necessary order."
+      }
     ],
     "works": [{ "title": "伦理学", "titleEn": "Ethics", "year": 1677 }],
-    "quotes": [{ "q": "不嘲笑，不哀痛，不憎恨，只理解。", "qEn": "Not to laugh, not to weep, not to hate — but to understand." }],
+    "quotes": [
+      {
+        "q": "不嘲笑，不哀痛，不憎恨，只理解。",
+        "qEn": "Not to laugh, not to weep, not to hate — but to understand."
+      }
+    ],
     "related": ["rationalism", "descartes", "free-will"],
     "sources": [{ "label": "《伦理学》" }]
   },
@@ -629,11 +1141,32 @@
     "bio": "以《四书章句集注》将四书提升为儒学核心，其理气二元论成为后世科举正统与东亚士人精神的支柱。",
     "bioEn": "His variorum notes on the Four Books made them the canon; his li–qi framework became the exam orthodoxy of later East Asia.",
     "ideas": [
-      { "k": "理在事先", "kEn": "Principle before things", "v": "事物皆分统一普遍之理。", "vEn": "All things partake one universal principle." },
-      { "k": "格物穷理", "kEn": "Investigate things", "v": "即物而穷其理以通全体。", "vEn": "Study each thing to exhaust its principle." }
+      {
+        "k": "理在事先",
+        "kEn": "Principle before things",
+        "v": "事物皆分统一普遍之理。",
+        "vEn": "All things partake one universal principle."
+      },
+      {
+        "k": "格物穷理",
+        "kEn": "Investigate things",
+        "v": "即物而穷其理以通全体。",
+        "vEn": "Study each thing to exhaust its principle."
+      }
     ],
-    "works": [{ "title": "四书章句集注", "titleEn": "Variorum Notes on the Four Books", "year": 1190 }],
-    "quotes": [{ "q": "问渠那得清如许，为有源头活水来。", "qEn": "Why is it so clear? Because living water flows from its source." }],
+    "works": [
+      {
+        "title": "四书章句集注",
+        "titleEn": "Variorum Notes on the Four Books",
+        "year": 1190
+      }
+    ],
+    "quotes": [
+      {
+        "q": "问渠那得清如许，为有源头活水来。",
+        "qEn": "Why is it so clear? Because living water flows from its source."
+      }
+    ],
     "related": ["confucianism", "kongzi", "mengzi", "moral-realism"],
     "sources": [{ "label": "《四书章句集注》" }]
   },
@@ -656,11 +1189,32 @@
     "bio": "以实验主义认识论与进步主义教育改革影响二十世纪，主张哲学应直面具体的人类问题而非经院玄想。",
     "bioEn": "His instrumentalism and progressive education shaped the twentieth century, pressing philosophy to face live human problems.",
     "ideas": [
-      { "k": "工具主义", "kEn": "Instrumentalism", "v": "观念是应对环境的工具，以效果验真。", "vEn": "Ideas are tools; their worth shows in consequences." },
-      { "k": "从做中学", "kEn": "Learning by doing", "v": "教育在经验与反思的循环中发生。", "vEn": "Learning grows from an experience–reflection cycle." }
+      {
+        "k": "工具主义",
+        "kEn": "Instrumentalism",
+        "v": "观念是应对环境的工具，以效果验真。",
+        "vEn": "Ideas are tools; their worth shows in consequences."
+      },
+      {
+        "k": "从做中学",
+        "kEn": "Learning by doing",
+        "v": "教育在经验与反思的循环中发生。",
+        "vEn": "Learning grows from an experience–reflection cycle."
+      }
     ],
-    "works": [{ "title": "民主与教育", "titleEn": "Democracy and Education", "year": 1916 }],
-    "quotes": [{ "q": "教育不是为生活做准备，教育本身就是生活。", "qEn": "Education is not preparation for life; education is life itself." }],
+    "works": [
+      {
+        "title": "民主与教育",
+        "titleEn": "Democracy and Education",
+        "year": 1916
+      }
+    ],
+    "quotes": [
+      {
+        "q": "教育不是为生活做准备，教育本身就是生活。",
+        "qEn": "Education is not preparation for life; education is life itself."
+      }
+    ],
     "related": ["pragmatism", "empiricism", "induction"],
     "sources": [{ "label": "《民主与教育》" }]
   },
@@ -683,11 +1237,28 @@
     "bio": "以《西西弗神话》提出荒诞，以《局外人》写沉默的旁观者，主张在认清荒诞后仍反叛地、自由地活。",
     "bioEn": "The Myth of Sisyphus named the absurd, The Stranger its silent witness; he urged living on in revolt and freedom after facing it.",
     "ideas": [
-      { "k": "荒诞", "kEn": "The absurd", "v": "人对意义的渴望与世界无回应之间的张力。", "vEn": "The tension between our hunger for meaning and the world's silence." },
-      { "k": "反叛", "kEn": "Revolt", "v": "不自杀也不寄望于彼岸，而是在推石上山中肯定生活。", "vEn": "Neither suicide nor hope, but affirming life in the endless task." }
+      {
+        "k": "荒诞",
+        "kEn": "The absurd",
+        "v": "人对意义的渴望与世界无回应之间的张力。",
+        "vEn": "The tension between our hunger for meaning and the world's silence."
+      },
+      {
+        "k": "反叛",
+        "kEn": "Revolt",
+        "v": "不自杀也不寄望于彼岸，而是在推石上山中肯定生活。",
+        "vEn": "Neither suicide nor hope, but affirming life in the endless task."
+      }
     ],
-    "works": [{ "title": "西西弗神话", "titleEn": "The Myth of Sisyphus", "year": 1942 }],
-    "quotes": [{ "q": "应当想象西西弗是幸福的。", "qEn": "One must imagine Sisyphus happy." }],
+    "works": [
+      { "title": "西西弗神话", "titleEn": "The Myth of Sisyphus", "year": 1942 }
+    ],
+    "quotes": [
+      {
+        "q": "应当想象西西弗是幸福的。",
+        "qEn": "One must imagine Sisyphus happy."
+      }
+    ],
     "related": ["existentialism", "meaning", "death"],
     "sources": [{ "label": "《西西弗神话》" }]
   }

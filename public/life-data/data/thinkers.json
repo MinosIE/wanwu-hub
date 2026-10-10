@@ -15,11 +15,32 @@
     "bio": "毕生致力于水稻杂种优势利用，把实验室成果推向千万亩农田，被誉为「让中国人把饭碗端在自己手里」的科学家。",
     "bioEn": "He devoted his life to heterosis in rice, turning lab gains into millions of acres of farmland, securing China's food supply.",
     "ideas": [
-      { "k": "杂种优势", "kEn": "Heterosis", "v": "利用杂交优势提产", "vEn": "Boost yield via hybrid vigor" },
-      { "k": "种业自主", "kEn": "Seed sovereignty", "v": "把饭碗端在自己手里", "vEn": "Hold our own rice bowl" }
+      {
+        "k": "杂种优势",
+        "kEn": "Heterosis",
+        "v": "利用杂交优势提产",
+        "vEn": "Boost yield via hybrid vigor"
+      },
+      {
+        "k": "种业自主",
+        "kEn": "Seed sovereignty",
+        "v": "把饭碗端在自己手里",
+        "vEn": "Hold our own rice bowl"
+      }
     ],
-    "works": [{ "title": "杂交水稻育种", "titleEn": "Hybrid Rice Breeding", "year": 1973 }],
-    "quotes": [{ "q": "我毕生的追求，就是让所有人远离饥饿。", "qEn": "My lifelong pursuit is to keep hunger away from all." }],
+    "works": [
+      {
+        "title": "杂交水稻育种",
+        "titleEn": "Hybrid Rice Breeding",
+        "year": 1973
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我毕生的追求，就是让所有人远离饥饿。",
+        "qEn": "My lifelong pursuit is to keep hunger away from all."
+      }
+    ],
     "related": ["mendel", "darwin"],
     "order": -4
   },
@@ -39,11 +60,28 @@
     "bio": "在古籍启发下改用低温萃取以保留活性成分，使青蒿素成为挽救全球数亿人生命的抗疟药。",
     "bioEn": "Inspired by ancient texts, she used low-temperature extraction to preserve the active compound, making artemisinin a life-saver worldwide.",
     "ideas": [
-      { "k": "青蒿素", "kEn": "Artemisinin", "v": "高效抗疟单体成分", "vEn": "Potent antimalarial compound" },
-      { "k": "古为今用", "kEn": "Old texts, new drugs", "v": "从中医药文献寻线索", "vEn": "Mined traditional texts for leads" }
+      {
+        "k": "青蒿素",
+        "kEn": "Artemisinin",
+        "v": "高效抗疟单体成分",
+        "vEn": "Potent antimalarial compound"
+      },
+      {
+        "k": "古为今用",
+        "kEn": "Old texts, new drugs",
+        "v": "从中医药文献寻线索",
+        "vEn": "Mined traditional texts for leads"
+      }
     ],
-    "works": [{ "title": "青蒿素研究", "titleEn": "Artemisinin Research", "year": 1972 }],
-    "quotes": [{ "q": "荣誉属于中国科学家群体。", "qEn": "The honor belongs to China's community of scientists." }],
+    "works": [
+      { "title": "青蒿素研究", "titleEn": "Artemisinin Research", "year": 1972 }
+    ],
+    "quotes": [
+      {
+        "q": "荣誉属于中国科学家群体。",
+        "qEn": "The honor belongs to China's community of scientists."
+      }
+    ],
     "related": ["linnaeus"],
     "order": -3
   },
@@ -63,11 +101,32 @@
     "bio": "在物资匮乏年代坚持显微操作研究，证明细胞核在发育中的主导作用，并为克隆技术埋下伏笔。",
     "bioEn": "With scant resources he pursued micromanipulation, showing the nucleus's leading role in development and prefiguring cloning.",
     "ideas": [
-      { "k": "核质关系", "kEn": "Nucleus–cytoplasm", "v": "核主导发育命运", "vEn": "Nucleus directs developmental fate" },
-      { "k": "核移植", "kEn": "Nuclear transfer", "v": "鱼类核移植先驱", "vEn": "Pioneer of fish nuclear transfer" }
+      {
+        "k": "核质关系",
+        "kEn": "Nucleus–cytoplasm",
+        "v": "核主导发育命运",
+        "vEn": "Nucleus directs developmental fate"
+      },
+      {
+        "k": "核移植",
+        "kEn": "Nuclear transfer",
+        "v": "鱼类核移植先驱",
+        "vEn": "Pioneer of fish nuclear transfer"
+      }
     ],
-    "works": [{ "title": "鱼类细胞核移植研究", "titleEn": "Fish Nuclear Transfer Studies", "year": 1963 }],
-    "quotes": [{ "q": "科学的事业，要一代一代传下去。", "qEn": "The cause of science must pass from generation to generation." }],
+    "works": [
+      {
+        "title": "鱼类细胞核移植研究",
+        "titleEn": "Fish Nuclear Transfer Studies",
+        "year": 1963
+      }
+    ],
+    "quotes": [
+      {
+        "q": "科学的事业，要一代一代传下去。",
+        "qEn": "The cause of science must pass from generation to generation."
+      }
+    ],
     "related": ["mendel", "watson-crick"],
     "order": -2
   },
@@ -87,11 +146,32 @@
     "bio": "将孟德尔—摩尔根遗传学说系统引入中国，并以金鱼的变异与选育揭示遗传规律。",
     "bioEn": "He introduced Mendelian–Morganian genetics to China and used goldfish variation and breeding to reveal genetic laws.",
     "ideas": [
-      { "k": "金鱼遗传", "kEn": "Goldfish genetics", "v": "以金鱼示遗传变异", "vEn": "Goldfish as a model of variation" },
-      { "k": "遗传学科奠基", "kEn": "Founding genetics", "v": "在中国建立遗传学研究", "vEn": "Established genetics research in China" }
+      {
+        "k": "金鱼遗传",
+        "kEn": "Goldfish genetics",
+        "v": "以金鱼示遗传变异",
+        "vEn": "Goldfish as a model of variation"
+      },
+      {
+        "k": "遗传学科奠基",
+        "kEn": "Founding genetics",
+        "v": "在中国建立遗传学研究",
+        "vEn": "Established genetics research in China"
+      }
     ],
-    "works": [{ "title": "金鱼的家化与变异", "titleEn": "Domestication and Variation of Goldfish", "year": 1934 }],
-    "quotes": [{ "q": "遗传之学，当为中国科学之基。", "qEn": "Genetics should be a foundation of Chinese science." }],
+    "works": [
+      {
+        "title": "金鱼的家化与变异",
+        "titleEn": "Domestication and Variation of Goldfish",
+        "year": 1934
+      }
+    ],
+    "quotes": [
+      {
+        "q": "遗传之学，当为中国科学之基。",
+        "qEn": "Genetics should be a foundation of Chinese science."
+      }
+    ],
     "related": ["mendel", "darwin"],
     "order": -1
   },
@@ -111,13 +191,39 @@
     "bio": "随小猎犬号环球考察后，于 1859 年出版《物种起源》，用大量证据说明物种随时间变化、共同由来，并把人工选择类比自然选择。",
     "bioEn": "After the Beagle voyage he published On the Origin of Species (1859), arguing descent with modification and common ancestry via selection akin to breeding.",
     "ideas": [
-      { "k": "自然选择", "v": "更适应的个体留下更多后代", "kEn": "Natural selection", "vEn": "Better-adapted individuals leave more offspring" },
-      { "k": "共同由来", "v": "所有生物源自共同祖先", "kEn": "Common descent", "vEn": "All life shares common ancestry" }
+      {
+        "k": "自然选择",
+        "v": "更适应的个体留下更多后代",
+        "kEn": "Natural selection",
+        "vEn": "Better-adapted individuals leave more offspring"
+      },
+      {
+        "k": "共同由来",
+        "v": "所有生物源自共同祖先",
+        "kEn": "Common descent",
+        "vEn": "All life shares common ancestry"
+      }
     ],
-    "works": [{ "title": "物种起源", "titleEn": "On the Origin of Species", "year": 1859 }],
-    "quotes": [{ "q": "能够存活下来的，不是最强壮的，也不是最聪明的，而是最适应变化的。", "qEn": "It is not the strongest… but the most adaptable to change that survives." }],
+    "works": [
+      {
+        "title": "物种起源",
+        "titleEn": "On the Origin of Species",
+        "year": 1859
+      }
+    ],
+    "quotes": [
+      {
+        "q": "能够存活下来的，不是最强壮的，也不是最聪明的，而是最适应变化的。",
+        "qEn": "It is not the strongest… but the most adaptable to change that survives."
+      }
+    ],
     "related": ["wallace", "mendel", "human-evolution"],
-    "sources": [{ "label": "Wikipedia: Charles Darwin", "url": "https://en.wikipedia.org/wiki/Charles_Darwin" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Charles Darwin",
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin"
+      }
+    ]
   },
   {
     "id": "linnaeus",
@@ -135,13 +241,32 @@
     "bio": "在《自然系统》中逐级划分界门纲目科属种，用属名＋种加词的双名法统一命名，至今仍是生物分类的骨架。",
     "bioEn": "In Systema Naturae he ranked kingdom→species and standardized genus+species binomials—still the backbone of taxonomy.",
     "ideas": [
-      { "k": "双名法", "v": "属名+种加词唯一标识物种", "kEn": "Binomial nomenclature", "vEn": "Genus+species uniquely names a species" },
-      { "k": "等级分类", "v": "界门纲目科属种的层级", "kEn": "Hierarchy", "vEn": "Kingdom→species ranks" }
+      {
+        "k": "双名法",
+        "v": "属名+种加词唯一标识物种",
+        "kEn": "Binomial nomenclature",
+        "vEn": "Genus+species uniquely names a species"
+      },
+      {
+        "k": "等级分类",
+        "v": "界门纲目科属种的层级",
+        "kEn": "Hierarchy",
+        "vEn": "Kingdom→species ranks"
+      }
     ],
-    "works": [{ "title": "自然系统", "titleEn": "Systema Naturae", "year": 1735 }],
-    "quotes": [{ "q": "上帝创造，林奈整理。", "qEn": "God creates, Linnaeus arranges." }],
+    "works": [
+      { "title": "自然系统", "titleEn": "Systema Naturae", "year": 1735 }
+    ],
+    "quotes": [
+      { "q": "上帝创造，林奈整理。", "qEn": "God creates, Linnaeus arranges." }
+    ],
     "related": ["darwin", "mammalia", "angiosperms"],
-    "sources": [{ "label": "Wikipedia: Carl Linnaeus", "url": "https://en.wikipedia.org/wiki/Carl_Linnaeus" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Carl Linnaeus",
+        "url": "https://en.wikipedia.org/wiki/Carl_Linnaeus"
+      }
+    ]
   },
   {
     "id": "mendel",
@@ -159,13 +284,34 @@
     "bio": "他提出性状由离散因子（今称基因）控制，并总结显性、分离与自由组合定律；其工作在当时被忽视，世纪之交才被重新发现。",
     "bioEn": "He argued traits are carried by discrete factors (genes) and stated dominance, segregation and independent assortment; overlooked then, rediscovered around 1900.",
     "ideas": [
-      { "k": "分离定律", "v": "等位基因在配子中分开", "kEn": "Law of segregation", "vEn": "Alleles separate into gametes" },
-      { "k": "自由组合", "v": "不同性状独立遗传", "kEn": "Independent assortment", "vEn": "Traits assort independently" }
+      {
+        "k": "分离定律",
+        "v": "等位基因在配子中分开",
+        "kEn": "Law of segregation",
+        "vEn": "Alleles separate into gametes"
+      },
+      {
+        "k": "自由组合",
+        "v": "不同性状独立遗传",
+        "kEn": "Independent assortment",
+        "vEn": "Traits assort independently"
+      }
     ],
-    "works": [{ "title": "植物杂交实验", "titleEn": "Experiments on Plant Hybridization", "year": 1866 }],
+    "works": [
+      {
+        "title": "植物杂交实验",
+        "titleEn": "Experiments on Plant Hybridization",
+        "year": 1866
+      }
+    ],
     "quotes": [{ "q": "我的时代会到来的。", "qEn": "My time will come." }],
     "related": ["darwin", "watson-crick", "linnaeus"],
-    "sources": [{ "label": "Wikipedia: Gregor Mendel", "url": "https://en.wikipedia.org/wiki/Gregor_Mendel" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Gregor Mendel",
+        "url": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+      }
+    ]
   },
   {
     "id": "watson-crick",
@@ -183,13 +329,36 @@
     "bio": "基于弗兰克林等人的 X 射线衍射数据，构建出碱基互补配对、反向平行双链的结构，解释了遗传信息的存储与复制。",
     "bioEn": "Building on Franklin's X-ray data, they modeled base-paired antiparallel strands, explaining how genetic info is stored and copied.",
     "ideas": [
-      { "k": "双螺旋", "v": "两条反向平行链", "kEn": "Double helix", "vEn": "Two antiparallel strands" },
-      { "k": "碱基互补", "v": "A–T、G–C 配对", "kEn": "Complementary base pairing", "vEn": "A–T, G–C pairing" }
+      {
+        "k": "双螺旋",
+        "v": "两条反向平行链",
+        "kEn": "Double helix",
+        "vEn": "Two antiparallel strands"
+      },
+      {
+        "k": "碱基互补",
+        "v": "A–T、G–C 配对",
+        "kEn": "Complementary base pairing",
+        "vEn": "A–T, G–C pairing"
+      }
     ],
-    "works": [{ "title": "核酸的分子结构", "titleEn": "Molecular Structure of Nucleic Acids", "year": 1953 }],
-    "quotes": [{ "q": "我们发现了生命的秘密。", "qEn": "We have found the secret of life." }],
+    "works": [
+      {
+        "title": "核酸的分子结构",
+        "titleEn": "Molecular Structure of Nucleic Acids",
+        "year": 1953
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我们发现了生命的秘密。",
+        "qEn": "We have found the secret of life."
+      }
+    ],
     "related": ["mendel", "darwin", "eukaryotic-cell"],
-    "sources": [{ "label": "Wikipedia: DNA", "url": "https://en.wikipedia.org/wiki/DNA" }]
+    "sources": [
+      { "label": "Wikipedia: DNA", "url": "https://en.wikipedia.org/wiki/DNA" }
+    ]
   },
   {
     "id": "wallace",
@@ -207,13 +376,39 @@
     "bio": "在马来群岛考察时提出物种因地理隔离与选择而分化，划定了著名的「华莱士线」，区分亚洲与澳洲动物区系。",
     "bioEn": "In the Malay Archipelago he argued geographic isolation plus selection drives divergence, drawing the Wallace Line between Asian and Australian faunas.",
     "ideas": [
-      { "k": "自然选择（独立）", "v": "与达尔文同年提出", "kEn": "Natural selection (independent)", "vEn": "Proposed the same year as Darwin" },
-      { "k": "华莱士线", "v": "生物地理分界", "kEn": "Wallace Line", "vEn": "Biogeographic boundary" }
+      {
+        "k": "自然选择（独立）",
+        "v": "与达尔文同年提出",
+        "kEn": "Natural selection (independent)",
+        "vEn": "Proposed the same year as Darwin"
+      },
+      {
+        "k": "华莱士线",
+        "v": "生物地理分界",
+        "kEn": "Wallace Line",
+        "vEn": "Biogeographic boundary"
+      }
     ],
-    "works": [{ "title": "论变种偏离原始类型的倾向", "titleEn": "On the Tendency of Varieties", "year": 1858 }],
-    "quotes": [{ "q": "每一个物种都来自此前存在的近缘物种。", "qEn": "Every species has come into existence coincident with a pre-existing species." }],
+    "works": [
+      {
+        "title": "论变种偏离原始类型的倾向",
+        "titleEn": "On the Tendency of Varieties",
+        "year": 1858
+      }
+    ],
+    "quotes": [
+      {
+        "q": "每一个物种都来自此前存在的近缘物种。",
+        "qEn": "Every species has come into existence coincident with a pre-existing species."
+      }
+    ],
     "related": ["darwin", "mammalia", "coral-reef"],
-    "sources": [{ "label": "Wikipedia: Alfred Russel Wallace", "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Alfred Russel Wallace",
+        "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+      }
+    ]
   },
   {
     "id": "hamilton",
@@ -231,13 +426,39 @@
     "bio": "他提出 inclusive fitness（内含适合度）：个体可通过帮助近亲繁衍而传递共享基因，从而解释看似牺牲自我的利他行为。",
     "bioEn": "He formulated inclusive fitness: helping relatives reproduce spreads shared genes, explaining apparent self-sacrifice.",
     "ideas": [
-      { "k": "亲缘选择", "v": "r·B > C 才利他", "kEn": "Kin selection", "vEn": "Altruism when r·B > C" },
-      { "k": "内含适合度", "v": "直接+间接繁殖成功", "kEn": "Inclusive fitness", "vEn": "Direct + indirect reproductive success" }
+      {
+        "k": "亲缘选择",
+        "v": "r·B > C 才利他",
+        "kEn": "Kin selection",
+        "vEn": "Altruism when r·B > C"
+      },
+      {
+        "k": "内含适合度",
+        "v": "直接+间接繁殖成功",
+        "kEn": "Inclusive fitness",
+        "vEn": "Direct + indirect reproductive success"
+      }
     ],
-    "works": [{ "title": "社会行为的遗传演化", "titleEn": "The Genetical Evolution of Social Behaviour", "year": 1964 }],
-    "quotes": [{ "q": "利他的真正尺度，是基因的延续。", "qEn": "The true measure of altruism is the persistence of genes." }],
+    "works": [
+      {
+        "title": "社会行为的遗传演化",
+        "titleEn": "The Genetical Evolution of Social Behaviour",
+        "year": 1964
+      }
+    ],
+    "quotes": [
+      {
+        "q": "利他的真正尺度，是基因的延续。",
+        "qEn": "The true measure of altruism is the persistence of genes."
+      }
+    ],
     "related": ["darwin", "wilson", "insecta"],
-    "sources": [{ "label": "Wikipedia: W. D. Hamilton", "url": "https://en.wikipedia.org/wiki/W._D._Hamilton" }]
+    "sources": [
+      {
+        "label": "Wikipedia: W. D. Hamilton",
+        "url": "https://en.wikipedia.org/wiki/W._D._Hamilton"
+      }
+    ]
   },
   {
     "id": "lovelock",
@@ -255,13 +476,39 @@
     "bio": "他认为生命与岩石、大气、海洋共同维持适宜生存的条件（如稳定的氧与温度），强调生物圈整体的反馈与调节能力。",
     "bioEn": "He argued life, rocks, air and ocean jointly maintain habitable conditions (stable O₂, temperature), stressing biosphere-wide feedback.",
     "ideas": [
-      { "k": "盖亚假说", "v": "地球如同一个超级有机体", "kEn": "Gaia hypothesis", "vEn": "Earth as a superorganism" },
-      { "k": "负反馈调节", "v": "生物圈维持稳态", "kEn": "Negative feedback", "vEn": "Biosphere holds homeostasis" }
+      {
+        "k": "盖亚假说",
+        "v": "地球如同一个超级有机体",
+        "kEn": "Gaia hypothesis",
+        "vEn": "Earth as a superorganism"
+      },
+      {
+        "k": "负反馈调节",
+        "v": "生物圈维持稳态",
+        "kEn": "Negative feedback",
+        "vEn": "Biosphere holds homeostasis"
+      }
     ],
-    "works": [{ "title": "盖亚：地球生命的新审视", "titleEn": "Gaia: A New Look at Life", "year": 1979 }],
-    "quotes": [{ "q": "地球是一个单一、自我调节的生命系统。", "qEn": "The Earth is a single, self-regulating living system." }],
+    "works": [
+      {
+        "title": "盖亚：地球生命的新审视",
+        "titleEn": "Gaia: A New Look at Life",
+        "year": 1979
+      }
+    ],
+    "quotes": [
+      {
+        "q": "地球是一个单一、自我调节的生命系统。",
+        "qEn": "The Earth is a single, self-regulating living system."
+      }
+    ],
     "related": ["deep-sea", "tundra", "darwin"],
-    "sources": [{ "label": "Wikipedia: Gaia hypothesis", "url": "https://en.wikipedia.org/wiki/Gaia_hypothesis" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Gaia hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Gaia_hypothesis"
+      }
+    ]
   },
   {
     "id": "wilson",
@@ -279,13 +526,40 @@
     "bio": "他与麦克阿瑟共创岛屿生物地理学，解释物种数随岛屿面积与隔离度变化；后又提出社会生物学，用演化解释社会行为。",
     "bioEn": "With MacArthur he co-founded island biogeography (species vs. area & isolation); later he launched sociobiology, explaining social behavior by evolution.",
     "ideas": [
-      { "k": "岛屿生物地理", "v": "面积大、隔离近则物种多", "kEn": "Island biogeography", "vEn": "Bigger, nearer islands hold more species" },
-      { "k": "生物多样性", "v": "保护优先事项", "kEn": "Biodiversity", "vEn": "A conservation priority" }
+      {
+        "k": "岛屿生物地理",
+        "v": "面积大、隔离近则物种多",
+        "kEn": "Island biogeography",
+        "vEn": "Bigger, nearer islands hold more species"
+      },
+      {
+        "k": "生物多样性",
+        "v": "保护优先事项",
+        "kEn": "Biodiversity",
+        "vEn": "A conservation priority"
+      }
     ],
-    "works": [{ "title": "社会生物学", "titleEn": "Sociobiology", "year": 1975 }, { "title": "缤纷的生命", "titleEn": "The Diversity of Life", "year": 1992 }],
-    "quotes": [{ "q": "在自然界面前保持谦卑，是智慧的开端。", "qEn": "Humility before the natural world is the beginning of wisdom." }],
+    "works": [
+      { "title": "社会生物学", "titleEn": "Sociobiology", "year": 1975 },
+      {
+        "title": "缤纷的生命",
+        "titleEn": "The Diversity of Life",
+        "year": 1992
+      }
+    ],
+    "quotes": [
+      {
+        "q": "在自然界面前保持谦卑，是智慧的开端。",
+        "qEn": "Humility before the natural world is the beginning of wisdom."
+      }
+    ],
     "related": ["hamilton", "lovelock", "tropical-rainforest"],
-    "sources": [{ "label": "Wikipedia: E. O. Wilson", "url": "https://en.wikipedia.org/wiki/E._O._Wilson" }]
+    "sources": [
+      {
+        "label": "Wikipedia: E. O. Wilson",
+        "url": "https://en.wikipedia.org/wiki/E._O._Wilson"
+      }
+    ]
   },
   {
     "id": "pasteur",
@@ -303,11 +577,32 @@
     "bio": "从晶体光学转向微生物研究，用鹅颈烧瓶实验推翻了生命自生的旧说，研制炭疽、鸡霍乱与狂犬病疫苗，将实验微生物学推向医学实践。",
     "bioEn": "Moving from crystal optics to microbes, his swan-flask experiment overturned spontaneous generation; he built vaccines for anthrax, cholera and rabies and turned microbiology into medicine.",
     "ideas": [
-      { "k": "疾病的细菌学说", "kEn": "Germ theory", "v": "许多疾病由微生物引起。", "vEn": "Many diseases are caused by microorganisms." },
-      { "k": "预防接种", "kEn": "Vaccination", "v": "以减毒病原激发免疫保护。", "vEn": "Attenuated pathogens prime protective immunity." }
+      {
+        "k": "疾病的细菌学说",
+        "kEn": "Germ theory",
+        "v": "许多疾病由微生物引起。",
+        "vEn": "Many diseases are caused by microorganisms."
+      },
+      {
+        "k": "预防接种",
+        "kEn": "Vaccination",
+        "v": "以减毒病原激发免疫保护。",
+        "vEn": "Attenuated pathogens prime protective immunity."
+      }
     ],
-    "works": [{ "title": "鹅颈烧瓶实验", "titleEn": "Swan-neck flask experiment", "year": 1861 }],
-    "quotes": [{ "q": "幸运只青睐有准备的头脑。", "qEn": "Chance favors only the prepared mind." }],
+    "works": [
+      {
+        "title": "鹅颈烧瓶实验",
+        "titleEn": "Swan-neck flask experiment",
+        "year": 1861
+      }
+    ],
+    "quotes": [
+      {
+        "q": "幸运只青睐有准备的头脑。",
+        "qEn": "Chance favors only the prepared mind."
+      }
+    ],
     "related": ["bacteria", "mendel", "darwin"],
     "order": -3
   },
@@ -327,11 +622,32 @@
     "bio": "以参与观察法揭示黑猩猩制造工具、捕食与情感生活，促使学界重新定义“人”；此后毕生投身自然保护与公众教育。",
     "bioEn": "Through immersive observation she revealed chimps making tools, hunting and feeling, forcing science to redefine 'person'; she then devoted her life to conservation and education.",
     "ideas": [
-      { "k": "工具使用", "kEn": "Tool use", "v": "黑猩猩修整枝条钓取白蚁。", "vEn": "Chimps modify twigs to fish for termites." },
-      { "k": "个体与文化", "kEn": "Persons & culture", "v": "群体间存在习得的行为传统。", "vEn": "Groups carry learned behavioural traditions." }
+      {
+        "k": "工具使用",
+        "kEn": "Tool use",
+        "v": "黑猩猩修整枝条钓取白蚁。",
+        "vEn": "Chimps modify twigs to fish for termites."
+      },
+      {
+        "k": "个体与文化",
+        "kEn": "Persons & culture",
+        "v": "群体间存在习得的行为传统。",
+        "vEn": "Groups carry learned behavioural traditions."
+      }
     ],
-    "works": [{ "title": "在冈比溪的阴影下", "titleEn": "In the Shadow of Man", "year": 1971 }],
-    "quotes": [{ "q": "你所做的每件事都有意义，你必须决定要成为什么样的人。", "qEn": "What you do makes a difference; you must decide what kind." }],
+    "works": [
+      {
+        "title": "在冈比溪的阴影下",
+        "titleEn": "In the Shadow of Man",
+        "year": 1971
+      }
+    ],
+    "quotes": [
+      {
+        "q": "你所做的每件事都有意义，你必须决定要成为什么样的人。",
+        "qEn": "What you do makes a difference; you must decide what kind."
+      }
+    ],
     "related": ["mammalia", "wilson", "darwin"],
     "order": -2
   },
@@ -351,11 +667,32 @@
     "bio": "以大量证据论证真核细胞是早期微生物共生的嵌合体，挑战以竞争为中心的正统演化观，强调合作在演化中的创造力量。",
     "bioEn": "With abundant evidence she argued eukaryotes are microbial symbiotic chimera, challenging competition-centric orthodoxy and stressing cooperation's creative role in evolution.",
     "ideas": [
-      { "k": "内共生起源", "kEn": "Endosymbiosis", "v": "细胞器源于自由生活的细菌。", "vEn": "Organelles derive from free-living bacteria." },
-      { "k": "合作即演化", "kEn": "Symbiosis drives evolution", "v": "合并与共生成就新体形。", "vEn": "Merging and symbiosis forge new body plans." }
+      {
+        "k": "内共生起源",
+        "kEn": "Endosymbiosis",
+        "v": "细胞器源于自由生活的细菌。",
+        "vEn": "Organelles derive from free-living bacteria."
+      },
+      {
+        "k": "合作即演化",
+        "kEn": "Symbiosis drives evolution",
+        "v": "合并与共生成就新体形。",
+        "vEn": "Merging and symbiosis forge new body plans."
+      }
     ],
-    "works": [{ "title": "真核细胞演化", "titleEn": "Origin of Eukaryotic Cells", "year": 1970 }],
-    "quotes": [{ "q": "生命不是靠竞争而成功，而是靠相互依存。", "qEn": "Life does not consist of competition but of cooperation and interdependence." }],
+    "works": [
+      {
+        "title": "真核细胞演化",
+        "titleEn": "Origin of Eukaryotic Cells",
+        "year": 1970
+      }
+    ],
+    "quotes": [
+      {
+        "q": "生命不是靠竞争而成功，而是靠相互依存。",
+        "qEn": "Life does not consist of competition but of cooperation and interdependence."
+      }
+    ],
     "related": ["eukaryotic-cell", "bacteria", "darwin"],
     "order": -1
   }

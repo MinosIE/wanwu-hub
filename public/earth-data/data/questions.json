@@ -9,9 +9,24 @@
     "oneLiner": "全年高温多雨，物种密度全球最高，却土壤贫瘠——养分循环几乎全在生物体内。",
     "oneLinerEn": "Hot and wet all year with the highest species density on Earth, yet poor soils — nutrients cycle almost entirely within living biomass.",
     "positions": [
-      { "k": "气候", "kEn": "Climate", "v": "年降水量 >2000mm，无明显旱季，温度稳定。", "vEn": "Rainfall >2000mm, no real dry season, stable temperatures." },
-      { "k": "分层", "kEn": "Layers", "v": "乔木层、林下层、灌木、地被形成垂直结构。", "vEn": "Emergent, canopy, understory and floor form vertical structure." },
-      { "k": "土壤", "kEn": "Soils", "v": "强淋溶使养分流失，靠枯落物快速分解回补。", "vEn": "Heavy leaching drains nutrients; rapid litter decay recycles them." }
+      {
+        "k": "气候",
+        "kEn": "Climate",
+        "v": "年降水量 >2000mm，无明显旱季，温度稳定。",
+        "vEn": "Rainfall >2000mm, no real dry season, stable temperatures."
+      },
+      {
+        "k": "分层",
+        "kEn": "Layers",
+        "v": "乔木层、林下层、灌木、地被形成垂直结构。",
+        "vEn": "Emergent, canopy, understory and floor form vertical structure."
+      },
+      {
+        "k": "土壤",
+        "kEn": "Soils",
+        "v": "强淋溶使养分流失，靠枯落物快速分解回补。",
+        "vEn": "Heavy leaching drains nutrients; rapid litter decay recycles them."
+      }
     ],
     "why": "地球之肺与碳库，调节全球气候；其消失会放大温室效应并带走无数未命名物种。",
     "whyEn": "Earth's lungs and carbon store; its loss amplifies warming and erases countless unnamed species.",
@@ -29,8 +44,18 @@
     "oneLiner": "干湿季分明，草为主、疏树点缀；支撑着地球上规模最大的野生动物迁徙。",
     "oneLinerEn": "Distinct wet and dry seasons, grass-dominated with scattered trees; supports Earth's largest wildlife migrations.",
     "positions": [
-      { "k": "降水", "kEn": "Rainfall", "v": "年降水 500–1500mm，集中于雨季。", "vEn": "500–1500mm, concentrated in the wet season." },
-      { "k": "火的作用", "kEn": "Fire", "v": "周期性野火维持草优势、抑制乔木。", "vEn": "Periodic fires maintain grass dominance and check trees." }
+      {
+        "k": "降水",
+        "kEn": "Rainfall",
+        "v": "年降水 500–1500mm，集中于雨季。",
+        "vEn": "500–1500mm, concentrated in the wet season."
+      },
+      {
+        "k": "火的作用",
+        "kEn": "Fire",
+        "v": "周期性野火维持草优势、抑制乔木。",
+        "vEn": "Periodic fires maintain grass dominance and check trees."
+      }
     ],
     "why": "既是重要牧业与碳储存区，也是人象、草食动物与掠食者共演化的舞台。",
     "whyEn": "Both a pastoral and carbon-storage zone, and the stage where herbivores, predators and humans co-evolve.",
@@ -48,8 +73,18 @@
     "oneLiner": "年降水 <250mm，蒸发远大于降水；生命以耐旱与昼夜剧温为生存法则。",
     "oneLinerEn": "Under 250mm a year, evaporation far exceeds rainfall; life survives by drought-tolerance and wild day-night temperature swings.",
     "positions": [
-      { "k": "温度", "kEn": "Temperature", "v": "白天酷热、夜间骤冷，年温差大。", "vEn": "Scorching days, sharp nights; large annual ranges." },
-      { "k": "适应", "kEn": "Adaptation", "v": "植物深根、动物夜行与节水代谢。", "vEn": "Deep-rooted plants, nocturnal and water-conserving animals." }
+      {
+        "k": "温度",
+        "kEn": "Temperature",
+        "v": "白天酷热、夜间骤冷，年温差大。",
+        "vEn": "Scorching days, sharp nights; large annual ranges."
+      },
+      {
+        "k": "适应",
+        "kEn": "Adaptation",
+        "v": "植物深根、动物夜行与节水代谢。",
+        "vEn": "Deep-rooted plants, nocturnal and water-conserving animals."
+      }
     ],
     "why": "占陆地约三成，却是太阳能与矿产宝库；荒漠化扩张正威胁半干旱边境。",
     "whyEn": "About a third of land, yet a treasury of solar energy and minerals; expanding desertification threatens semi-arid margins.",
@@ -67,8 +102,18 @@
     "oneLiner": "四季分明，树木冬季落叶以抗寒；降水均匀，土壤较肥沃，人类聚居密集。",
     "oneLinerEn": "Four clear seasons, trees shed leaves to survive winter; even rainfall and fairly fertile soils host dense human settlement.",
     "positions": [
-      { "k": "季节", "kEn": "Seasons", "v": "春夏生长、秋冬休眠，物候节律强。", "vEn": "Grow in spring-summer, dormant in autumn-winter." },
-      { "k": "土壤", "kEn": "Soils", "v": "落叶层厚，有机质积累，肥力较高。", "vEn": "Thick leaf litter builds organic matter and fertility." }
+      {
+        "k": "季节",
+        "kEn": "Seasons",
+        "v": "春夏生长、秋冬休眠，物候节律强。",
+        "vEn": "Grow in spring-summer, dormant in autumn-winter."
+      },
+      {
+        "k": "土壤",
+        "kEn": "Soils",
+        "v": "落叶层厚，有机质积累，肥力较高。",
+        "vEn": "Thick leaf litter builds organic matter and fertility."
+      }
     ],
     "why": "全球人口与农业核心带，也最易被城市与耕地取代，原生林残存稀少。",
     "whyEn": "The demographic and agricultural core of the world, yet most easily replaced by cities and cropland; little primary forest remains.",
@@ -86,8 +131,18 @@
     "oneLiner": "耐寒针叶树广布，是全球面积最大的森林，也是巨大的碳与淡水储库。",
     "oneLinerEn": "Cold-hardy conifers stretch across the largest forest on Earth — a giant store of carbon and fresh water.",
     "positions": [
-      { "k": "气候", "kEn": "Climate", "v": "冬季漫长严寒，夏季短暂凉爽。", "vEn": "Long frigid winters, short cool summers." },
-      { "k": "储碳", "kEn": "Carbon", "v": "泥炭与冻土锁住大量碳。", "vEn": "Peat and permafrost lock vast carbon." }
+      {
+        "k": "气候",
+        "kEn": "Climate",
+        "v": "冬季漫长严寒，夏季短暂凉爽。",
+        "vEn": "Long frigid winters, short cool summers."
+      },
+      {
+        "k": "储碳",
+        "kEn": "Carbon",
+        "v": "泥炭与冻土锁住大量碳。",
+        "vEn": "Peat and permafrost lock vast carbon."
+      }
     ],
     "why": "调节全球碳与气候的关键缓冲；冻土融化可能释放巨量温室气体。",
     "whyEn": "A key buffer regulating global carbon and climate; thawing permafrost may release vast greenhouse gases.",
@@ -105,8 +160,18 @@
     "oneLiner": "低温、生长季极短、无乔木；地衣苔藓为主，下层多为永冻土。",
     "oneLinerEn": "Cold, a very short growing season and no trees; lichens and mosses dominate over permafrost.",
     "positions": [
-      { "k": "温度", "kEn": "Temperature", "v": "年均温低于 0℃，冻融循环强。", "vEn": "Mean below 0°C with strong freeze-thaw cycles." },
-      { "k": "永冻", "kEn": "Permafrost", "v": "土壤常年冻结，限制根系与工程。", "vEn": "Permanently frozen soil limits roots and construction." }
+      {
+        "k": "温度",
+        "kEn": "Temperature",
+        "v": "年均温低于 0℃，冻融循环强。",
+        "vEn": "Mean below 0°C with strong freeze-thaw cycles."
+      },
+      {
+        "k": "永冻",
+        "kEn": "Permafrost",
+        "v": "土壤常年冻结，限制根系与工程。",
+        "vEn": "Permanently frozen soil limits roots and construction."
+      }
     ],
     "why": "对升温最敏感的生态系统之一，冻土碳释放与反照率变化反馈全球气候。",
     "whyEn": "Among the most warming-sensitive ecosystems; permafrost carbon release and albedo shifts feed back on global climate.",
@@ -124,8 +189,18 @@
     "oneLiner": "夏干热、冬温和多雨，是橄榄、葡萄与人类文明最偏爱的海岸带之一。",
     "oneLinerEn": "Hot dry summers, mild rainy winters — one of the coastlines most favored by olives, vines and human civilization.",
     "positions": [
-      { "k": "降水", "kEn": "Rainfall", "v": "雨热不同期，夏季干燥。", "vEn": "Rain and heat out of phase; dry summers." },
-      { "k": "植被", "kEn": "Vegetation", "v": "硬叶常绿灌丛（如地中海夏旱灌木）。", "vEn": "Sclerophyll evergreen shrubs." }
+      {
+        "k": "降水",
+        "kEn": "Rainfall",
+        "v": "雨热不同期，夏季干燥。",
+        "vEn": "Rain and heat out of phase; dry summers."
+      },
+      {
+        "k": "植被",
+        "kEn": "Vegetation",
+        "v": "硬叶常绿灌丛（如地中海夏旱灌木）。",
+        "vEn": "Sclerophyll evergreen shrubs."
+      }
     ],
     "why": "宜居与农业价值极高，却长期面临缺水、野火与城市扩张压力。",
     "whyEn": "Highly livable and agriculturally valuable, yet long pressed by water scarcity, wildfires and sprawl.",
@@ -143,8 +218,18 @@
     "oneLiner": "随海拔上升气温与氧分压下降，植被呈垂直带谱；是亚洲大河的「水塔」。",
     "oneLinerEn": "Temperature and oxygen fall with altitude, giving vertical life zones; the 'water towers' of Asia's great rivers.",
     "positions": [
-      { "k": "垂直带谱", "kEn": "Zonation", "v": "从森林到草甸、裸岩、雪线分层。", "vEn": "Bands from forest to meadow, bare rock and snowline." },
-      { "k": "水塔", "kEn": "Water tower", "v": "冰川与积雪补给下游数十亿人。", "vEn": "Glaciers and snow feed billions downstream." }
+      {
+        "k": "垂直带谱",
+        "kEn": "Zonation",
+        "v": "从森林到草甸、裸岩、雪线分层。",
+        "vEn": "Bands from forest to meadow, bare rock and snowline."
+      },
+      {
+        "k": "水塔",
+        "kEn": "Water tower",
+        "v": "冰川与积雪补给下游数十亿人。",
+        "vEn": "Glaciers and snow feed billions downstream."
+      }
     ],
     "why": "下游水安全与生物多样性所系；冰川退缩正削弱这一调节作用。",
     "whyEn": "Underpins downstream water security and biodiversity; glacial retreat weakens this regulation.",
@@ -162,8 +247,18 @@
     "oneLiner": "以自身重量运动的冰体与冰原，是地球的淡水水库与气候记录仪。",
     "oneLinerEn": "Ice masses moving under their own weight — Earth's freshwater reservoirs and climate archives.",
     "positions": [
-      { "k": "形成", "kEn": "Formation", "v": "积雪经压实、重结晶成冰，在重力下沿运动。", "vEn": "Snow compacts and recrystallizes into ice that flows under gravity." },
-      { "k": "作用", "kEn": "Impact", "v": "刨蚀形成 U 形谷、冰碛地貌；融水补给河流。", "vEn": "Erodes U-shaped valleys and moraines; meltwater feeds rivers." }
+      {
+        "k": "形成",
+        "kEn": "Formation",
+        "v": "积雪经压实、重结晶成冰，在重力下沿运动。",
+        "vEn": "Snow compacts and recrystallizes into ice that flows under gravity."
+      },
+      {
+        "k": "作用",
+        "kEn": "Impact",
+        "v": "刨蚀形成 U 形谷、冰碛地貌；融水补给河流。",
+        "vEn": "Erodes U-shaped valleys and moraines; meltwater feeds rivers."
+      }
     ],
     "why": "储存全球大部分淡水，调节海平面与河流供水；变暖下萎缩威胁水源与沿海城市。",
     "whyEn": "Holds most of the world's freshwater and modulates sea level and river supply; retreat threatens water sources and coasts.",
@@ -181,8 +276,18 @@
     "oneLiner": "岩石圈板块在地幔对流上缓慢移动，塑造了山脉、海沟、地震与火山的全部分布。",
     "oneLinerEn": "Lithospheric plates drift on mantle convection, shaping where mountains, trenches, quakes and volcanoes occur.",
     "positions": [
-      { "k": "边界类型", "kEn": "Boundaries", "v": "张裂（洋中脊）、俯冲（海沟）、平错（转换断层）。", "vEn": "Divergent (ridges), convergent (trenches), transform (faults)." },
-      { "k": "动力", "kEn": "Engine", "v": "地幔热对流与板块重力拖拽驱动每年数厘米运动。", "vEn": "Mantle convection and slab pull drive centimetre-per-year motion." }
+      {
+        "k": "边界类型",
+        "kEn": "Boundaries",
+        "v": "张裂（洋中脊）、俯冲（海沟）、平错（转换断层）。",
+        "vEn": "Divergent (ridges), convergent (trenches), transform (faults)."
+      },
+      {
+        "k": "动力",
+        "kEn": "Engine",
+        "v": "地幔热对流与板块重力拖拽驱动每年数厘米运动。",
+        "vEn": "Mantle convection and slab pull drive centimetre-per-year motion."
+      }
     ],
     "why": "现代地理学的统一理论，解释了大陆漂移、造山带、地震带与矿产分布的成因。",
     "whyEn": "The unifying theory of geology, explaining continental drift, mountain belts, earthquake zones and ore distribution.",
@@ -200,8 +305,18 @@
     "oneLiner": "蒸发、水汽输送、降水、径流与下渗构成的闭合循环，驱动淡水的时空更新。",
     "oneLinerEn": "A closed loop of evaporation, transport, precipitation, runoff and infiltration that renews fresh water in time and space.",
     "positions": [
-      { "k": "环节", "kEn": "Links", "v": "蒸发蒸腾→凝结降水→地表与地下径流→回归海洋。", "vEn": "Evapotranspiration → condensation/precipitation → surface & groundwater runoff → back to sea." },
-      { "k": "人为影响", "kEn": "Human impact", "v": "取水、水库、城市化与气候改变局部分配。", "vEn": "Abstraction, dams, urbanization and warming reshape local distribution." }
+      {
+        "k": "环节",
+        "kEn": "Links",
+        "v": "蒸发蒸腾→凝结降水→地表与地下径流→回归海洋。",
+        "vEn": "Evapotranspiration → condensation/precipitation → surface & groundwater runoff → back to sea."
+      },
+      {
+        "k": "人为影响",
+        "kEn": "Human impact",
+        "v": "取水、水库、城市化与气候改变局部分配。",
+        "vEn": "Abstraction, dams, urbanization and warming reshape local distribution."
+      }
     ],
     "why": "维系生命与农业、调节气候与地貌；水资源时空不均是其分布的核心矛盾。",
     "whyEn": "Sustains life, farming and climate and sculpts landforms; uneven space-time supply is water's core scarcity tension.",
@@ -219,8 +334,18 @@
     "oneLiner": "盛行风与密度差驱动的海水大规模流动，调节全球热量与气候。",
     "oneLinerEn": "Wind- and density-driven seawater flow that redistributes heat and climate globally.",
     "positions": [
-      { "k": "分类", "kEn": "Types", "v": "暖流增温增湿、寒流降温减湿；风海流与密度流。", "vEn": "Warm currents heat and moisten, cold cool and dry; wind-driven and density-driven." },
-      { "k": "输送带", "kEn": "Conveyor", "v": "温盐环流将热量由高纬输送、联结各大洋。", "vEn": "The thermohaline conveyor moves heat poleward and links the oceans." }
+      {
+        "k": "分类",
+        "kEn": "Types",
+        "v": "暖流增温增湿、寒流降温减湿；风海流与密度流。",
+        "vEn": "Warm currents heat and moisten, cold cool and dry; wind-driven and density-driven."
+      },
+      {
+        "k": "输送带",
+        "kEn": "Conveyor",
+        "v": "温盐环流将热量由高纬输送、联结各大洋。",
+        "vEn": "The thermohaline conveyor moves heat poleward and links the oceans."
+      }
     ],
     "why": "影响沿岸气候、渔场分布与航运，并是地球热量平衡与碳吸收的关键环节。",
     "whyEn": "Shapes coastal climates, fisheries and shipping, and is key to Earth's heat balance and carbon uptake.",
@@ -238,8 +363,18 @@
     "oneLiner": "海陆热力差异使风向季节反转，带来集中而年际波动显著的雨季。",
     "oneLinerEn": "Land–sea heating flips winds by season, delivering concentrated and highly variable rainy seasons.",
     "positions": [
-      { "k": "成因", "kEn": "Cause", "v": "夏季陆低风从海洋吹向陆地带来降水。", "vEn": "Summer low pressure draws moist wind from sea to land." },
-      { "k": "风险", "kEn": "Risk", "v": "来得早晚与强弱决定洪涝或干旱。", "vEn": "Its timing and strength decide floods or droughts." }
+      {
+        "k": "成因",
+        "kEn": "Cause",
+        "v": "夏季陆低风从海洋吹向陆地带来降水。",
+        "vEn": "Summer low pressure draws moist wind from sea to land."
+      },
+      {
+        "k": "风险",
+        "kEn": "Risk",
+        "v": "来得早晚与强弱决定洪涝或干旱。",
+        "vEn": "Its timing and strength decide floods or droughts."
+      }
     ],
     "why": "养活了世界最密集的稻作人口，其强弱直接关系到南亚与东亚的农业与水安全。",
     "whyEn": "Sustains the world's densest rice-growing populations; its strength directly drives South and East Asian farming and water security.",
@@ -257,8 +392,18 @@
     "oneLiner": "珊瑚虫与藻类共生的活体建筑，是海洋中的热带雨林，生物多样性极高。",
     "oneLinerEn": "Living structures of coral–algae symbiosis — the rainforests of the sea, with immense biodiversity.",
     "positions": [
-      { "k": "条件", "kEn": "Conditions", "v": "水温 23–29℃、光照充足、盐度稳定的浅海。", "vEn": "Warm (23–29°C), well-lit, stable-salinity shallow water." },
-      { "k": "威胁", "kEn": "Threats", "v": "升温白化、酸化、污染与过度捕捞。", "vEn": "Warming bleaching, acidification, pollution and overfishing." }
+      {
+        "k": "条件",
+        "kEn": "Conditions",
+        "v": "水温 23–29℃、光照充足、盐度稳定的浅海。",
+        "vEn": "Warm (23–29°C), well-lit, stable-salinity shallow water."
+      },
+      {
+        "k": "威胁",
+        "kEn": "Threats",
+        "v": "升温白化、酸化、污染与过度捕捞。",
+        "vEn": "Warming bleaching, acidification, pollution and overfishing."
+      }
     ],
     "why": "庇护海洋物种、保护海岸并支撑渔业与旅游；对升温最敏感，是气候变化的前哨。",
     "whyEn": "Shelters marine life, buffers coasts and supports fisheries and tourism; highly warmth-sensitive, it is a frontline of climate change.",
@@ -276,8 +421,18 @@
     "oneLiner": "可溶岩石被水长期溶蚀形成的地貌，多峰林、溶洞、天坑与地下河。",
     "oneLinerEn": "Landforms from dissolving soluble rock by water — tower karst, caves, sinkholes and underground rivers.",
     "positions": [
-      { "k": "成因", "kEn": "Cause", "v": "含 CO₂ 的水溶蚀碳酸钙，沿裂隙扩大洞穴。", "vEn": "CO₂-charged water dissolves calcium carbonate along fractures into caves." },
-      { "k": "形态", "kEn": "Forms", "v": "石林、峰林、洼地、钟乳石与地下河。", "vEn": "Stone forests, peaks, dolines, stalactites and subterranean rivers." }
+      {
+        "k": "成因",
+        "kEn": "Cause",
+        "v": "含 CO₂ 的水溶蚀碳酸钙，沿裂隙扩大洞穴。",
+        "vEn": "CO₂-charged water dissolves calcium carbonate along fractures into caves."
+      },
+      {
+        "k": "形态",
+        "kEn": "Forms",
+        "v": "石林、峰林、洼地、钟乳石与地下河。",
+        "vEn": "Stone forests, peaks, dolines, stalactites and subterranean rivers."
+      }
     ],
     "why": "塑造独特景观与地下水系，却土层薄、易石漠化，是生态治理的难点。",
     "whyEn": "Creates striking scenery and groundwater systems but thin, desertification-prone soils, making it a hard case for ecological care.",

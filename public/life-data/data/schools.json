@@ -11,14 +11,32 @@
     "founders": ["代表：人、鲸、蝙蝠、象"],
     "foundersEn": ["e.g. humans, whales, bats, elephants"],
     "keyIdeas": ["毛发与乳腺", "恒温与高代谢", "三块听小骨", "胎盘哺乳"],
-    "keyIdeasEn": ["Hair & mammary glands", "Endothermy", "Three ossicles", "Placental birth"],
+    "keyIdeasEn": [
+      "Hair & mammary glands",
+      "Endothermy",
+      "Three ossicles",
+      "Placental birth"
+    ],
     "strengths": ["生态位广泛", "学习与适应力强", "海陆空三栖分布"],
     "strengthsEn": ["Wide niches", "Strong learning", "Land, sea & air"],
-    "criticisms": ["栖息地丧失威胁众多物种", "气候变化挤压分布区", "大型物种繁殖慢、恢复难"],
-    "criticismsEn": ["Habitat loss", "Climate squeeze", "Slow recovery of large spp."],
+    "criticisms": [
+      "栖息地丧失威胁众多物种",
+      "气候变化挤压分布区",
+      "大型物种繁殖慢、恢复难"
+    ],
+    "criticismsEn": [
+      "Habitat loss",
+      "Climate squeeze",
+      "Slow recovery of large spp."
+    ],
     "order": 1,
     "related": ["tropical-rainforest", "darwin", "cambrian-explosion"],
-    "sources": [{ "label": "Wikipedia: Mammal", "url": "https://en.wikipedia.org/wiki/Mammal" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Mammal",
+        "url": "https://en.wikipedia.org/wiki/Mammal"
+      }
+    ]
   },
   {
     "id": "aves",
@@ -32,14 +50,32 @@
     "founders": ["代表：信天翁、蜂鸟、鸵鸟"],
     "foundersEn": ["e.g. albatross, hummingbird, ostrich"],
     "keyIdeas": ["羽毛与飞行", "喙无齿", "气囊双重呼吸", "恐龙后裔"],
-    "keyIdeasEn": ["Feathers & flight", "Toothless beak", "Air-sac breathing", "Dinosaur descendants"],
+    "keyIdeasEn": [
+      "Feathers & flight",
+      "Toothless beak",
+      "Air-sac breathing",
+      "Dinosaur descendants"
+    ],
     "strengths": ["飞行拓展生态位", "传粉与种子传播", "广布各大陆"],
-    "strengthsEn": ["Flight niches", "Pollination & seed spread", "All continents"],
+    "strengthsEn": [
+      "Flight niches",
+      "Pollination & seed spread",
+      "All continents"
+    ],
     "criticisms": ["栖息地破碎化", "迁徙廊道被切断", "外来物种与捕猎压力"],
-    "criticismsEn": ["Habitat fragmentation", "Migration barriers", "Hunting & invasives"],
+    "criticismsEn": [
+      "Habitat fragmentation",
+      "Migration barriers",
+      "Hunting & invasives"
+    ],
     "order": 2,
     "related": ["coral-reef", "grassland", "k-pg-extinction"],
-    "sources": [{ "label": "Wikipedia: Bird", "url": "https://en.wikipedia.org/wiki/Bird" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Bird",
+        "url": "https://en.wikipedia.org/wiki/Bird"
+      }
+    ]
   },
   {
     "id": "insecta",
@@ -53,14 +89,24 @@
     "founders": ["代表：蜜蜂、蝴蝶、甲虫"],
     "foundersEn": ["e.g. bees, butterflies, beetles"],
     "keyIdeas": ["外骨骼与分节", "六足与翅", "完全 / 不完全变态", "极多种数"],
-    "keyIdeasEn": ["Exoskeleton", "Six legs & wings", "Metamorphosis", "Huge species count"],
+    "keyIdeasEn": [
+      "Exoskeleton",
+      "Six legs & wings",
+      "Metamorphosis",
+      "Huge species count"
+    ],
     "strengths": ["传粉主力", "分解与物质循环", "食物链基底"],
     "strengthsEn": ["Top pollinators", "Decomposers", "Food-web base"],
     "criticisms": ["农药导致数量下降", "生境单一化", "部分种类入侵危害"],
     "criticismsEn": ["Pesticide decline", "Monocultures", "Some invasives"],
     "order": 3,
     "related": ["tropical-rainforest", "angiosperms", "grassland"],
-    "sources": [{ "label": "Wikipedia: Insect", "url": "https://en.wikipedia.org/wiki/Insect" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Insect",
+        "url": "https://en.wikipedia.org/wiki/Insect"
+      }
+    ]
   },
   {
     "id": "angiosperms",
@@ -74,14 +120,24 @@
     "founders": ["代表：稻、兰、栎"],
     "foundersEn": ["e.g. rice, orchids, oaks"],
     "keyIdeas": ["花与果实", "双受精", "维管束发达", "与传粉者协同"],
-    "keyIdeasEn": ["Flowers & fruit", "Double fertilization", "Vascular tissue", "Pollinator coevolution"],
+    "keyIdeasEn": [
+      "Flowers & fruit",
+      "Double fertilization",
+      "Vascular tissue",
+      "Pollinator coevolution"
+    ],
     "strengths": ["初级生产主力", "粮食与纤维来源", "水土保持"],
     "strengthsEn": ["Primary production", "Food & fiber", "Soil retention"],
     "criticisms": ["单一栽培降低遗传多样性", "传粉者减少威胁产量", "生境破坏"],
     "criticismsEn": ["Monoculture risk", "Pollinator loss", "Habitat loss"],
     "order": 4,
     "related": ["tropical-rainforest", "insecta", "multicellularity"],
-    "sources": [{ "label": "Wikipedia: Flowering plant", "url": "https://en.wikipedia.org/wiki/Flowering_plant" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Flowering plant",
+        "url": "https://en.wikipedia.org/wiki/Flowering_plant"
+      }
+    ]
   },
   {
     "id": "fungi",
@@ -94,15 +150,34 @@
     "coreEn": "Eukaryotes with chitinous walls and absorptive heterotrophy via mycelia; mostly decomposers and mycorrhizal partners central to nutrient cycling.",
     "founders": ["代表：蘑菇、酵母、青霉"],
     "foundersEn": ["e.g. mushrooms, yeast, penicillium"],
-    "keyIdeas": ["菌丝与几丁质壁", "吸收式异养", "分解与菌根", "与动物亲缘更近"],
-    "keyIdeasEn": ["Mycelia & chitin", "Absorptive feeding", "Decomposers & mycorrhizae", "Closer to animals"],
+    "keyIdeas": [
+      "菌丝与几丁质壁",
+      "吸收式异养",
+      "分解与菌根",
+      "与动物亲缘更近"
+    ],
+    "keyIdeasEn": [
+      "Mycelia & chitin",
+      "Absorptive feeding",
+      "Decomposers & mycorrhizae",
+      "Closer to animals"
+    ],
     "strengths": ["驱动物质循环", "与植物共生提效", "发酵与抗生素来源"],
-    "strengthsEn": ["Drive recycling", "Mycorrhizal boost", "Fermentation & antibiotics"],
+    "strengthsEn": [
+      "Drive recycling",
+      "Mycorrhizal boost",
+      "Fermentation & antibiotics"
+    ],
     "criticisms": ["部分种类致病", "生境破坏威胁野生种", "公众认知不足"],
     "criticismsEn": ["Some pathogens", "Wild spp. at risk", "Underappreciated"],
     "order": 5,
     "related": ["tropical-rainforest", "multicellularity", "wilson"],
-    "sources": [{ "label": "Wikipedia: Fungi", "url": "https://en.wikipedia.org/wiki/Fungus" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Fungi",
+        "url": "https://en.wikipedia.org/wiki/Fungus"
+      }
+    ]
   },
   {
     "id": "bacteria",
@@ -116,14 +191,24 @@
     "founders": ["代表：大肠杆菌、蓝菌、根瘤菌"],
     "foundersEn": ["e.g. E. coli, cyanobacteria, rhizobia"],
     "keyIdeas": ["无核膜原核", "环状 DNA", "二分裂繁殖快", "代谢高度多样"],
-    "keyIdeasEn": ["No nucleus", "Circular DNA", "Fast binary fission", "Diverse metabolism"],
+    "keyIdeasEn": [
+      "No nucleus",
+      "Circular DNA",
+      "Fast binary fission",
+      "Diverse metabolism"
+    ],
     "strengths": ["固氮维持肥力", "分解驱动循环", "人体共生与健康"],
     "strengthsEn": ["Nitrogen fixation", "Recycling", "Human symbiosis"],
     "criticisms": ["少数致病", "抗生素耐药性上升", "群落失衡致病"],
     "criticismsEn": ["Few pathogens", "Antibiotic resistance", "Dysbiosis"],
     "order": 6,
     "related": ["origin-of-life", "photosynthesis", "archaea"],
-    "sources": [{ "label": "Wikipedia: Bacteria", "url": "https://en.wikipedia.org/wiki/Bacteria" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Bacteria",
+        "url": "https://en.wikipedia.org/wiki/Bacteria"
+      }
+    ]
   },
   {
     "id": "archaea",
@@ -137,14 +222,24 @@
     "founders": ["代表：产甲烷古菌、嗜热古菌"],
     "foundersEn": ["e.g. methanogens, thermophiles"],
     "keyIdeas": ["独立域", "极端环境适应", "独特膜脂与 rRNA", "与真核更近缘"],
-    "keyIdeasEn": ["Separate domain", "Extremophile traits", "Unique lipids & rRNA", "Eukaryote kin"],
+    "keyIdeasEn": [
+      "Separate domain",
+      "Extremophile traits",
+      "Unique lipids & rRNA",
+      "Eukaryote kin"
+    ],
     "strengths": ["极端环境生存", "产甲烷参与碳循环", "揭示生命边界"],
     "strengthsEn": ["Extreme survival", "Methanogenesis", "Life's limits"],
     "criticisms": ["多数难以培养", "公众认知低", "生态作用常被低估"],
     "criticismsEn": ["Hard to culture", "Low profile", "Underestimated role"],
     "order": 7,
     "related": ["origin-of-life", "bacteria", "deep-sea"],
-    "sources": [{ "label": "Wikipedia: Archaea", "url": "https://en.wikipedia.org/wiki/Archaea" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Archaea",
+        "url": "https://en.wikipedia.org/wiki/Archaea"
+      }
+    ]
   },
   {
     "id": "protista",
@@ -157,15 +252,34 @@
     "coreEn": "A paraphyletic grab-bag of eukaryotes outside plants, animals and fungi—amoebae, algae, malaria parasites—key to eukaryotic diversity.",
     "founders": ["代表：硅藻、疟原虫、眼虫"],
     "foundersEn": ["e.g. diatoms, Plasmodium, Euglena"],
-    "keyIdeas": ["真核但不成界清晰", "含光合与寄生", "单细胞为主", "真核起源活化石"],
-    "keyIdeasEn": ["Eukaryotic catch-all", "Photo- & parasitic", "Mostly unicellular", "Eukaryote origins"],
+    "keyIdeas": [
+      "真核但不成界清晰",
+      "含光合与寄生",
+      "单细胞为主",
+      "真核起源活化石"
+    ],
+    "keyIdeasEn": [
+      "Eukaryotic catch-all",
+      "Photo- & parasitic",
+      "Mostly unicellular",
+      "Eukaryote origins"
+    ],
     "strengths": ["海洋初级生产主力（硅藻）", "揭示真核演化", "生态指示作用"],
-    "strengthsEn": ["Ocean primary production", "Eukaryote history", "Bioindicators"],
+    "strengthsEn": [
+      "Ocean primary production",
+      "Eukaryote history",
+      "Bioindicators"
+    ],
     "criticisms": ["分类上并系", "部分种类致病（如疟原虫）", "监测不足"],
     "criticismsEn": ["Paraphyletic", "Some pathogens", "Under-monitored"],
     "order": 8,
     "related": ["eukaryotic-cell", "origin-of-life", "tropical-rainforest"],
-    "sources": [{ "label": "Wikipedia: Protist", "url": "https://en.wikipedia.org/wiki/Protist" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Protist",
+        "url": "https://en.wikipedia.org/wiki/Protist"
+      }
+    ]
   },
   {
     "id": "reptilia",
@@ -178,15 +292,42 @@
     "coreEn": "Scaled, air-breathing, mostly egg-laying cold-blooded vertebrates — turtles, lizards, snakes and crocodiles (birds too branch from within this lineage).",
     "founders": ["代表：巨蜥、响尾蛇、海龟"],
     "foundersEn": ["e.g. monitor lizards, rattlesnakes, sea turtles"],
-    "keyIdeas": ["角质鳞片防水", "羊膜卵适于陆地", "变温代谢节能", "多为肉食或特化食性"],
-    "keyIdeasEn": ["Waterproof scales", "Amniotic egg", "Ectothermy saves energy", "Predatory specials"],
+    "keyIdeas": [
+      "角质鳞片防水",
+      "羊膜卵适于陆地",
+      "变温代谢节能",
+      "多为肉食或特化食性"
+    ],
+    "keyIdeasEn": [
+      "Waterproof scales",
+      "Amniotic egg",
+      "Ectothermy saves energy",
+      "Predatory specials"
+    ],
     "strengths": ["适应干旱与多变气候", "种类多、分布广", "食物链关键环"],
-    "strengthsEn": ["Adapted to aridity", "Diverse and widespread", "Key food-web link"],
-    "criticisms": ["依赖环境温度活动受限", "非法宠物贸易与栖息地破坏", "气候变暖扭曲后代性别比"],
-    "criticismsEn": ["Bound by ambient temperature", "Illegal pet trade & habitat loss", "Warming skews sex ratios"],
+    "strengthsEn": [
+      "Adapted to aridity",
+      "Diverse and widespread",
+      "Key food-web link"
+    ],
+    "criticisms": [
+      "依赖环境温度活动受限",
+      "非法宠物贸易与栖息地破坏",
+      "气候变暖扭曲后代性别比"
+    ],
+    "criticismsEn": [
+      "Bound by ambient temperature",
+      "Illegal pet trade & habitat loss",
+      "Warming skews sex ratios"
+    ],
     "order": 9,
     "related": ["land-animals", "k-pg-extinction", "desert"],
-    "sources": [{ "label": "Wikipedia: Reptile", "url": "https://en.wikipedia.org/wiki/Reptile" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Reptile",
+        "url": "https://en.wikipedia.org/wiki/Reptile"
+      }
+    ]
   },
   {
     "id": "amphibia",
@@ -200,14 +341,36 @@
     "founders": ["代表：蛙、蜕螈、蚓螈"],
     "foundersEn": ["e.g. frogs, salamanders, caecilians"],
     "keyIdeas": ["皮肤呼吸与透水", "变态发育", "繁殖依赖水体", "环境指示物种"],
-    "keyIdeasEn": ["Permeable skin breathing", "Metamorphosis", "Water-bound breeding", "Environmental indicators"],
+    "keyIdeasEn": [
+      "Permeable skin breathing",
+      "Metamorphosis",
+      "Water-bound breeding",
+      "Environmental indicators"
+    ],
     "strengths": ["连接水生与陆地生态", "控制害虫数量", "发育研究模式生物"],
-    "strengthsEn": ["Link aquatic and land systems", "Pest control", "Model for developmental biology"],
-    "criticisms": ["壶菌病与气候致全球衰退", "皮肤透水易受污染", "栖息地破碎化严重"],
-    "criticismsEn": ["Chytrid fungus & climate decline", "Pollution via permeable skin", "Severe habitat fragmentation"],
+    "strengthsEn": [
+      "Link aquatic and land systems",
+      "Pest control",
+      "Model for developmental biology"
+    ],
+    "criticisms": [
+      "壶菌病与气候致全球衰退",
+      "皮肤透水易受污染",
+      "栖息地破碎化严重"
+    ],
+    "criticismsEn": [
+      "Chytrid fungus & climate decline",
+      "Pollution via permeable skin",
+      "Severe habitat fragmentation"
+    ],
     "order": 10,
     "related": ["land-animals", "wetland", "origin-of-life"],
-    "sources": [{ "label": "Wikipedia: Amphibian", "url": "https://en.wikipedia.org/wiki/Amphibian" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Amphibian",
+        "url": "https://en.wikipedia.org/wiki/Amphibian"
+      }
+    ]
   },
   {
     "id": "actinopterygii",
@@ -221,14 +384,32 @@
     "founders": ["代表：鲤鱼、金枪鱼、海马"],
     "foundersEn": ["e.g. carp, tuna, seahorses"],
     "keyIdeas": ["鳍条支撑", "鱼鳔调浮力", "侧线感知", "种类超 3 万"],
-    "keyIdeasEn": ["Fin rays", "Swim bladder", "Lateral line", "30,000+ species"],
+    "keyIdeasEn": [
+      "Fin rays",
+      "Swim bladder",
+      "Lateral line",
+      "30,000+ species"
+    ],
     "strengths": ["水生食物网核心", "全球重要蛋白来源", "形态与生态高度多样"],
-    "strengthsEn": ["Core of aquatic food webs", "Major global protein source", "Extreme morphological diversity"],
+    "strengthsEn": [
+      "Core of aquatic food webs",
+      "Major global protein source",
+      "Extreme morphological diversity"
+    ],
     "criticisms": ["过度捕捞使资源下降", "水坝阻断洄游", "水温与酸化影响发育"],
-    "criticismsEn": ["Overfishing depletes stocks", "Dams block migration", "Warming & acidification harm larvae"],
+    "criticismsEn": [
+      "Overfishing depletes stocks",
+      "Dams block migration",
+      "Warming & acidification harm larvae"
+    ],
     "order": 11,
     "related": ["deep-sea", "coral-reef", "cambrian-explosion"],
-    "sources": [{ "label": "Wikipedia: Actinopterygii", "url": "https://en.wikipedia.org/wiki/Actinopterygii" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Actinopterygii",
+        "url": "https://en.wikipedia.org/wiki/Actinopterygii"
+      }
+    ]
   },
   {
     "id": "mollusca",
@@ -242,14 +423,36 @@
     "founders": ["代表：蚌、蜗牛、章鱼"],
     "foundersEn": ["e.g. clams, snails, octopus"],
     "keyIdeas": ["外套膜分泌贝壳", "足部多样", "头足类高智能", "齿舌刮食"],
-    "keyIdeasEn": ["Mantle secretes shell", "Varied muscular foot", "Cephalopod intelligence", "Radula for feeding"],
+    "keyIdeasEn": [
+      "Mantle secretes shell",
+      "Varied muscular foot",
+      "Cephalopod intelligence",
+      "Radula for feeding"
+    ],
     "strengths": ["海淡陆三域分布", "水质净化与滤食", "生态系统工程师"],
-    "strengthsEn": ["Sea, fresh and land", "Filter-feeding cleans water", "Ecosystem engineers"],
-    "criticisms": ["贝类受酸化威胁壳体", "入侵物种（如田螺）危害大", "过度采集使野生种群下降"],
-    "criticismsEn": ["Acidification dissolves shells", "Invasive snails cause harm", "Over-harvesting depletes wild stocks"],
+    "strengthsEn": [
+      "Sea, fresh and land",
+      "Filter-feeding cleans water",
+      "Ecosystem engineers"
+    ],
+    "criticisms": [
+      "贝类受酸化威胁壳体",
+      "入侵物种（如田螺）危害大",
+      "过度采集使野生种群下降"
+    ],
+    "criticismsEn": [
+      "Acidification dissolves shells",
+      "Invasive snails cause harm",
+      "Over-harvesting depletes wild stocks"
+    ],
     "order": 12,
     "related": ["cambrian-explosion", "coral-reef", "deep-sea"],
-    "sources": [{ "label": "Wikipedia: Mollusca", "url": "https://en.wikipedia.org/wiki/Mollusca" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Mollusca",
+        "url": "https://en.wikipedia.org/wiki/Mollusca"
+      }
+    ]
   },
   {
     "id": "cnidaria",
@@ -263,14 +466,36 @@
     "founders": ["代表：珊瑚虫、海月水母、海葵"],
     "foundersEn": ["e.g. coral polyps, moon jelly, anemones"],
     "keyIdeas": ["刺细胞捕食", "水螅与水母世代", "珊瑚与藻共生", "辐射对称"],
-    "keyIdeasEn": ["Cnidocyte stinging", "Polyp–medusa alternation", "Coral–algae symbiosis", "Radial symmetry"],
+    "keyIdeasEn": [
+      "Cnidocyte stinging",
+      "Polyp–medusa alternation",
+      "Coral–algae symbiosis",
+      "Radial symmetry"
+    ],
     "strengths": ["珊瑚礁奠基生态系统", "海洋食物网环节", "再生与演化研究价值"],
-    "strengthsEn": ["Corals found reef ecosystems", "Food-web link", "Regeneration and evolutionary study"],
-    "criticisms": ["造礁珊瑚对升温与酸化敏感", "水母爆发与生态失衡", "栖息地破坏影响珊瑚"],
-    "criticismsEn": ["Reef-builders sensitive to heat & acid", "Jellyfish blooms signal imbalance", "Habitat damage harms corals"],
+    "strengthsEn": [
+      "Corals found reef ecosystems",
+      "Food-web link",
+      "Regeneration and evolutionary study"
+    ],
+    "criticisms": [
+      "造礁珊瑚对升温与酸化敏感",
+      "水母爆发与生态失衡",
+      "栖息地破坏影响珊瑚"
+    ],
+    "criticismsEn": [
+      "Reef-builders sensitive to heat & acid",
+      "Jellyfish blooms signal imbalance",
+      "Habitat damage harms corals"
+    ],
     "order": 13,
     "related": ["coral-reef", "cambrian-explosion", "deep-sea"],
-    "sources": [{ "label": "Wikipedia: Cnidaria", "url": "https://en.wikipedia.org/wiki/Cnidaria" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Cnidaria",
+        "url": "https://en.wikipedia.org/wiki/Cnidaria"
+      }
+    ]
   },
   {
     "id": "arachnida",
@@ -284,14 +509,36 @@
     "founders": ["代表：园蛛、蜱螨、蝎子"],
     "foundersEn": ["e.g. orb-weavers, mites & ticks, scorpions"],
     "keyIdeas": ["头胸部与腹部", "螯肢与触肢", "吐丝结网", "气管与书肺呼吸"],
-    "keyIdeasEn": ["Cephalothorax & abdomen", "Chelicerae & pedipalps", "Silk spinning", "Tracheae & book lungs"],
+    "keyIdeasEn": [
+      "Cephalothorax & abdomen",
+      "Chelicerae & pedipalps",
+      "Silk spinning",
+      "Tracheae & book lungs"
+    ],
     "strengths": ["控制昆虫种群的主力", "蛛丝材料性能卓越", "极端环境适应力强"],
-    "strengthsEn": ["Major insect controllers", "Remarkable silk material", "Tough in extremes"],
-    "criticisms": ["部分种类叮咬或传播疾病", "气候变暖扩大分布区", "天敌减少时易暴发"],
-    "criticismsEn": ["Some bite or spread disease", "Warming extends ranges", "Outbreaks when predators fall"],
+    "strengthsEn": [
+      "Major insect controllers",
+      "Remarkable silk material",
+      "Tough in extremes"
+    ],
+    "criticisms": [
+      "部分种类叮咬或传播疾病",
+      "气候变暖扩大分布区",
+      "天敌减少时易暴发"
+    ],
+    "criticismsEn": [
+      "Some bite or spread disease",
+      "Warming extends ranges",
+      "Outbreaks when predators fall"
+    ],
     "order": 14,
     "related": ["insecta", "land-animals", "desert"],
-    "sources": [{ "label": "Wikipedia: Arachnid", "url": "https://en.wikipedia.org/wiki/Arachnid" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Arachnid",
+        "url": "https://en.wikipedia.org/wiki/Arachnid"
+      }
+    ]
   },
   {
     "id": "gymnosperms",
@@ -305,13 +552,31 @@
     "founders": ["代表：马尾松、银杏、苏铁"],
     "foundersEn": ["e.g. pines, ginkgo, cycads"],
     "keyIdeas": ["种子无果皮包被", "球果与孢子叶", "木质部发达", "风媒传粉"],
-    "keyIdeasEn": ["Naked seeds", "Cones and sporophylls", "Well-developed xylem", "Wind pollination"],
+    "keyIdeasEn": [
+      "Naked seeds",
+      "Cones and sporophylls",
+      "Well-developed xylem",
+      "Wind pollination"
+    ],
     "strengths": ["耐寒耐旱、成林稳定", "木材与生态屏障", "银杏等活化石"],
-    "strengthsEn": ["Hardy, stable forests", "Timber and ecological barrier", "Living fossils like ginkgo"],
+    "strengthsEn": [
+      "Hardy, stable forests",
+      "Timber and ecological barrier",
+      "Living fossils like ginkgo"
+    ],
     "criticisms": ["多样性低于被子植物", "易受害虫与火灾", "部分类群濒危古老"],
-    "criticismsEn": ["Less diverse than angiosperms", "Vulnerable to pests & fire", "Some ancient lineages threatened"],
+    "criticismsEn": [
+      "Less diverse than angiosperms",
+      "Vulnerable to pests & fire",
+      "Some ancient lineages threatened"
+    ],
     "order": 15,
     "related": ["mesozoic-dinosaurs", "ginkgo", "land-plants"],
-    "sources": [{ "label": "Wikipedia: Gymnosperm", "url": "https://en.wikipedia.org/wiki/Gymnosperm" }]
+    "sources": [
+      {
+        "label": "Wikipedia: Gymnosperm",
+        "url": "https://en.wikipedia.org/wiki/Gymnosperm"
+      }
+    ]
   }
 ]

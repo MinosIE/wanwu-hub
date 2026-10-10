@@ -2569,7 +2569,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         {
           id: "intermolecular",
           icon: "💧",
-          term: { zh: "分子间作用力与氢键", en: "Intermolecular Forces & Hydrogen Bonding" },
+          term: {
+            zh: "分子间作用力与氢键",
+            en: "Intermolecular Forces & Hydrogen Bonding",
+          },
           oneLiner: {
             zh: "分子间的弱作用（范德华力）与较强的氢键，决定熔沸点与溶解性。",
             en: "Weak van der Waals forces and stronger hydrogen bonds govern boiling points and solubility.",

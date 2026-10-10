@@ -10,9 +10,24 @@
     "oneLiner": "如果过去与物理定律决定了此刻的一切，那「我选择」还是一种错觉？",
     "oneLinerEn": "If the past and the laws of physics settle everything now, is 'I chose' an illusion?",
     "positions": [
-      { "k": "决定论", "kEn": "Determinism", "v": "宇宙是因果链条，未来由过去与定律唯一决定，自由只是表象。", "vEn": "The universe is a causal chain; the future is fixed by the past and laws. Freedom is appearance." },
-      { "k": "相容论", "kEn": "Compatibilism", "v": "自由是「按自己的欲望与理性行动」，与决定论并不矛盾。", "vEn": "Freedom is acting on one's own reasons; this is compatible with determinism." },
-      { "k": "意志自由论", "kEn": "Libertarianism", "v": "存在非决定的、由主体发起的真正的选择。", "vEn": "There are undetermined, agent-initiated choices." }
+      {
+        "k": "决定论",
+        "kEn": "Determinism",
+        "v": "宇宙是因果链条，未来由过去与定律唯一决定，自由只是表象。",
+        "vEn": "The universe is a causal chain; the future is fixed by the past and laws. Freedom is appearance."
+      },
+      {
+        "k": "相容论",
+        "kEn": "Compatibilism",
+        "v": "自由是「按自己的欲望与理性行动」，与决定论并不矛盾。",
+        "vEn": "Freedom is acting on one's own reasons; this is compatible with determinism."
+      },
+      {
+        "k": "意志自由论",
+        "kEn": "Libertarianism",
+        "v": "存在非决定的、由主体发起的真正的选择。",
+        "vEn": "There are undetermined, agent-initiated choices."
+      }
     ],
     "why": "它决定了我们对责任、惩罚与自我叙事的理解：若行为早已注定，褒贬与奖罚还有意义吗？",
     "whyEn": "It underpins our notions of responsibility, praise and punishment: if acts are fixed, do praise and blame survive?",
@@ -32,9 +47,24 @@
     "oneLiner": "宇宙不在乎我们，但正因没有现成剧本，意义的笔才握在自己手里。",
     "oneLinerEn": "The cosmos does not care, yet precisely because there is no script, the pen is in our hands.",
     "positions": [
-      { "k": "客观意义论", "kEn": "Objective meaning", "v": "意义由某种更高的秩序（神、自然、共同体）预先给定。", "vEn": "Meaning is given in advance by a higher order — God, nature, community." },
-      { "k": "荒谬与反抗", "kEn": "Absurd & revolt", "v": "世界无先天意义，但人可在反抗荒诞中自我立法。", "vEn": "The world has no built-in meaning; we legislate our own through revolt." },
-      { "k": "建构论", "kEn": "Constructivism", "v": "意义来自关系、事业与爱等我们投身其中的东西。", "vEn": "Meaning arises from relations, projects and loves we commit to." }
+      {
+        "k": "客观意义论",
+        "kEn": "Objective meaning",
+        "v": "意义由某种更高的秩序（神、自然、共同体）预先给定。",
+        "vEn": "Meaning is given in advance by a higher order — God, nature, community."
+      },
+      {
+        "k": "荒谬与反抗",
+        "kEn": "Absurd & revolt",
+        "v": "世界无先天意义，但人可在反抗荒诞中自我立法。",
+        "vEn": "The world has no built-in meaning; we legislate our own through revolt."
+      },
+      {
+        "k": "建构论",
+        "kEn": "Constructivism",
+        "v": "意义来自关系、事业与爱等我们投身其中的东西。",
+        "vEn": "Meaning arises from relations, projects and loves we commit to."
+      }
     ],
     "why": "它是最切身的问题：如何活、为何坚持，往往取决于你信哪一套回答。",
     "whyEn": "It is the most personal question: how to live and why to persist hinges on which answer you trust.",
@@ -54,9 +84,24 @@
     "oneLiner": "若道德只是习俗，我们还能否说一种制度「就是错的」？",
     "oneLinerEn": "If morality is mere custom, can we still say an institution is simply wrong?",
     "positions": [
-      { "k": "道德实在论", "kEn": "Moral realism", "v": "某些对错独立于人的态度而成立，可被理性发现。", "vEn": "Some rights and wrongs hold independent of attitudes and are found by reason." },
-      { "k": "文化相对论", "kEn": "Cultural relativism", "v": "道德依社群与时代而变，没有跨文化的终极标准。", "vEn": "Morality varies by community and era; no cross-cultural final standard." },
-      { "k": "非认知论", "kEn": "Non-cognitivism", "v": "道德语词表达的是态度与情感，而非事实命题。", "vEn": "Moral words express attitudes and feelings, not factual claims." }
+      {
+        "k": "道德实在论",
+        "kEn": "Moral realism",
+        "v": "某些对错独立于人的态度而成立，可被理性发现。",
+        "vEn": "Some rights and wrongs hold independent of attitudes and are found by reason."
+      },
+      {
+        "k": "文化相对论",
+        "kEn": "Cultural relativism",
+        "v": "道德依社群与时代而变，没有跨文化的终极标准。",
+        "vEn": "Morality varies by community and era; no cross-cultural final standard."
+      },
+      {
+        "k": "非认知论",
+        "kEn": "Non-cognitivism",
+        "v": "道德语词表达的是态度与情感，而非事实命题。",
+        "vEn": "Moral words express attitudes and feelings, not factual claims."
+      }
     ],
     "why": "它关系到人权、普世价值能否成立，以及我们如何面对异文化。",
     "whyEn": "It bears on whether human rights and universal values can hold, and how we meet other cultures.",
@@ -76,9 +121,24 @@
     "oneLiner": "数学似乎是先天为真，而「火会烫」只能靠被烫过才懂——两者如何调和？",
     "oneLinerEn": "Math seems true a priori, yet 'fire burns' is learned only by being burned — how are the two reconciled?",
     "positions": [
-      { "k": "理性主义", "kEn": "Rationalism", "v": "清晰确定的知识源于理性与天赋观念。", "vEn": "Clear certain knowledge flows from reason and innate ideas." },
-      { "k": "经验主义", "kEn": "Empiricism", "v": "一切观念最终来自感官经验。", "vEn": "All ideas ultimately derive from sensory experience." },
-      { "k": "康德式综合", "kEn": "Kantian synthesis", "v": "经验提供材料，心智的范畴主动构造知识。", "vEn": "Experience supplies matter; the mind's categories actively shape knowledge." }
+      {
+        "k": "理性主义",
+        "kEn": "Rationalism",
+        "v": "清晰确定的知识源于理性与天赋观念。",
+        "vEn": "Clear certain knowledge flows from reason and innate ideas."
+      },
+      {
+        "k": "经验主义",
+        "kEn": "Empiricism",
+        "v": "一切观念最终来自感官经验。",
+        "vEn": "All ideas ultimately derive from sensory experience."
+      },
+      {
+        "k": "康德式综合",
+        "kEn": "Kantian synthesis",
+        "v": "经验提供材料，心智的范畴主动构造知识。",
+        "vEn": "Experience supplies matter; the mind's categories actively shape knowledge."
+      }
     ],
     "why": "它决定了科学、教育与「我们究竟能知道什么」的边界。",
     "whyEn": "It sets the bounds of science, education and what we can ever know.",
@@ -98,9 +158,24 @@
     "oneLiner": "当神经元放电，为什么会有「痛的感觉」这种内在体验？",
     "oneLinerEn": "When neurons fire, why is there any inner feel of pain at all?",
     "positions": [
-      { "k": "物理主义", "kEn": "Physicalism", "v": "心智是脑的状态与功能，原则上可还原。", "vEn": "Mind is brain states and functions, in principle reducible." },
-      { "k": "二元论", "kEn": "Dualism", "v": "精神与物质是两类不同的实体（如笛卡尔）。", "vEn": "Mind and matter are two distinct substances (cf. Descartes)." },
-      { "k": "属性二元论", "kEn": "Property dualism", "v": "物理过程伴生不可还原的主观感受（感受质）。", "vEn": "Physical processes are accompanied by irreducible subjective qualia." }
+      {
+        "k": "物理主义",
+        "kEn": "Physicalism",
+        "v": "心智是脑的状态与功能，原则上可还原。",
+        "vEn": "Mind is brain states and functions, in principle reducible."
+      },
+      {
+        "k": "二元论",
+        "kEn": "Dualism",
+        "v": "精神与物质是两类不同的实体（如笛卡尔）。",
+        "vEn": "Mind and matter are two distinct substances (cf. Descartes)."
+      },
+      {
+        "k": "属性二元论",
+        "kEn": "Property dualism",
+        "v": "物理过程伴生不可还原的主观感受（感受质）。",
+        "vEn": "Physical processes are accompanied by irreducible subjective qualia."
+      }
     ],
     "why": "它牵连意识、人格同一与人工智能能否「真正」体验。",
     "whyEn": "It touches consciousness, personal identity and whether AI can truly feel.",
@@ -120,9 +195,24 @@
     "oneLiner": "均分、按需、按功、按自由——不同原则给出的答案天差地别。",
     "oneLinerEn": "Equal split, to each by need, by desert, or by freedom — the answers diverge sharply.",
     "positions": [
-      { "k": "功利主义正义", "kEn": "Utilitarian", "v": "最大化总体福祉即为正义。", "vEn": "Justice maximizes total well-being." },
-      { "k": "权利优先", "kEn": "Rights first", "v": "某些基本自由与权利不可为多数利益牺牲。", "vEn": "Some basic liberties and rights cannot be traded for the majority's gain." },
-      { "k": "平等自由主义", "kEn": "Egalitarian liberalism", "v": "社会合作的利益与负担应公平分配（差异原则）。", "vEn": "The benefits and burdens of social cooperation should be fairly shared (difference principle)." }
+      {
+        "k": "功利主义正义",
+        "kEn": "Utilitarian",
+        "v": "最大化总体福祉即为正义。",
+        "vEn": "Justice maximizes total well-being."
+      },
+      {
+        "k": "权利优先",
+        "kEn": "Rights first",
+        "v": "某些基本自由与权利不可为多数利益牺牲。",
+        "vEn": "Some basic liberties and rights cannot be traded for the majority's gain."
+      },
+      {
+        "k": "平等自由主义",
+        "kEn": "Egalitarian liberalism",
+        "v": "社会合作的利益与负担应公平分配（差异原则）。",
+        "vEn": "The benefits and burdens of social cooperation should be fairly shared (difference principle)."
+      }
     ],
     "why": "税制、福利、平权行动都建立在你默认的公平观之上。",
     "whyEn": "Taxation, welfare and affirmative action all rest on an unspoken theory of fairness.",
@@ -142,15 +232,36 @@
     "oneLiner": "缸中之脑、洞穴阴影——我们如何证明眼前世界不是一层幕布？",
     "oneLinerEn": "Brain in a vat, shadows on the cave wall — how prove the world is not a veil?",
     "positions": [
-      { "k": "朴素实在论", "kEn": "Naive realism", "v": "感官直接呈现外部世界的本来面目。", "vEn": "The senses present the world as it is, directly." },
-      { "k": "现象与物自体", "kEn": "Phenomena/noumena", "v": "我们只见现象，物自体不可知（康德）。", "vEn": "We know only appearances; things-in-themselves are unknowable (Kant)." },
-      { "k": "观念论", "kEn": "Idealism", "v": "所谓外部世界依赖于心识而成立。", "vEn": "The so-called external world depends on mind for its being." }
+      {
+        "k": "朴素实在论",
+        "kEn": "Naive realism",
+        "v": "感官直接呈现外部世界的本来面目。",
+        "vEn": "The senses present the world as it is, directly."
+      },
+      {
+        "k": "现象与物自体",
+        "kEn": "Phenomena/noumena",
+        "v": "我们只见现象，物自体不可知（康德）。",
+        "vEn": "We know only appearances; things-in-themselves are unknowable (Kant)."
+      },
+      {
+        "k": "观念论",
+        "kEn": "Idealism",
+        "v": "所谓外部世界依赖于心识而成立。",
+        "vEn": "The so-called external world depends on mind for its being."
+      }
     ],
     "why": "它关乎科学、媒体与梦境之间「何为真实」的界线。",
     "whyEn": "It draws the line between science, media and dream — what counts as real.",
     "thinkers": ["柏拉图", "康德", "笛卡尔"],
     "thinkersEn": ["Plato", "Kant", "Descartes"],
-    "related": ["knowledge", "mind-body", "platonism", "kantian", "rationalism"],
+    "related": [
+      "knowledge",
+      "mind-body",
+      "platonism",
+      "kantian",
+      "rationalism"
+    ],
     "sources": [{ "label": "《理想国》洞穴寓言", "year": -375 }]
   },
   {
@@ -164,9 +275,24 @@
     "oneLiner": "十年前的你、昨天的你、此刻的你，凭什么说是同一个人？",
     "oneLinerEn": "The you of a decade ago, yesterday and now — what makes them one person?",
     "positions": [
-      { "k": "实体自我", "kEn": "Substantial self", "v": "有一个持续同一的灵魂或主体贯穿一生。", "vEn": "A persisting soul or subject runs through a life." },
-      { "k": " Bundle 论", "kEn": "Bundle theory", "v": "自我只是一束不断变化的知觉与记忆（休谟）。", "vEn": "The self is a shifting bundle of perceptions and memories (Hume)." },
-      { "k": "无我", "kEn": "Non-self (anatta)", "v": "佛教认为执著有我为苦之源，实无独立自性。", "vEn": "Buddhism sees clinging to self as the root of suffering; no independent self exists." }
+      {
+        "k": "实体自我",
+        "kEn": "Substantial self",
+        "v": "有一个持续同一的灵魂或主体贯穿一生。",
+        "vEn": "A persisting soul or subject runs through a life."
+      },
+      {
+        "k": " Bundle 论",
+        "kEn": "Bundle theory",
+        "v": "自我只是一束不断变化的知觉与记忆（休谟）。",
+        "vEn": "The self is a shifting bundle of perceptions and memories (Hume)."
+      },
+      {
+        "k": "无我",
+        "kEn": "Non-self (anatta)",
+        "v": "佛教认为执著有我为苦之源，实无独立自性。",
+        "vEn": "Buddhism sees clinging to self as the root of suffering; no independent self exists."
+      }
     ],
     "why": "它影响我们对记忆、责任与生死的理解。",
     "whyEn": "It shapes how we understand memory, responsibility and life and death.",
@@ -186,9 +312,24 @@
     "oneLiner": "从「不动的推动者」到「道德必需」，论证有力却也屡受质疑。",
     "oneLinerEn": "From the 'unmoved mover' to the 'moral necessity', the proofs are strong yet contested.",
     "positions": [
-      { "k": "宇宙论/目的论", "kEn": "Cosmological/Teleological", "v": "存在与秩序需要第一因或设计者来解释。", "vEn": "Existence and order need a first cause or designer." },
-      { "k": "本体论", "kEn": "Ontological", "v": "「最完满者」若存在于心必亦存于实（安瑟伦）。", "vEn": "The greatest conceivable being must exist in reality (Anselm)." },
-      { "k": "怀疑论", "kEn": "Skepticism", "v": "恶的问题与缺失证据使证明难以成立。", "vEn": "The problem of evil and lack of evidence undermine the proofs." }
+      {
+        "k": "宇宙论/目的论",
+        "kEn": "Cosmological/Teleological",
+        "v": "存在与秩序需要第一因或设计者来解释。",
+        "vEn": "Existence and order need a first cause or designer."
+      },
+      {
+        "k": "本体论",
+        "kEn": "Ontological",
+        "v": "「最完满者」若存在于心必亦存于实（安瑟伦）。",
+        "vEn": "The greatest conceivable being must exist in reality (Anselm)."
+      },
+      {
+        "k": "怀疑论",
+        "kEn": "Skepticism",
+        "v": "恶的问题与缺失证据使证明难以成立。",
+        "vEn": "The problem of evil and lack of evidence undermine the proofs."
+      }
     ],
     "why": "它处于信仰、伦理与公共理性的交汇处。",
     "whyEn": "It sits at the crossroads of faith, ethics and public reason.",
@@ -208,9 +349,24 @@
     "oneLiner": "若死后无我，死亡便「与我无关」；若灵魂不灭，则如何活才对得起永恒？",
     "oneLinerEn": "If there is no self after death, death 'does not concern us'; if the soul persists, how we live matters for eternity.",
     "positions": [
-      { "k": "自然主义", "kEn": "Naturalism", "v": "死亡是意识活动的终止，不必恐惧亦无可言说。", "vEn": "Death ends conscious activity; nothing to fear, nothing to say beyond that." },
-      { "k": "灵魂不朽", "kEn": "Immortality", "v": "精神或灵魂在身体之外继续存在。", "vEn": "Mind or soul continues beyond the body." },
-      { "k": "转化观", "kEn": "Transformation", "v": "东方传统多视死生为气/因缘的流转相续。", "vEn": "Many Eastern traditions see death and birth as the flowing of qi or causes." }
+      {
+        "k": "自然主义",
+        "kEn": "Naturalism",
+        "v": "死亡是意识活动的终止，不必恐惧亦无可言说。",
+        "vEn": "Death ends conscious activity; nothing to fear, nothing to say beyond that."
+      },
+      {
+        "k": "灵魂不朽",
+        "kEn": "Immortality",
+        "v": "精神或灵魂在身体之外继续存在。",
+        "vEn": "Mind or soul continues beyond the body."
+      },
+      {
+        "k": "转化观",
+        "kEn": "Transformation",
+        "v": "东方传统多视死生为气/因缘的流转相续。",
+        "vEn": "Many Eastern traditions see death and birth as the flowing of qi or causes."
+      }
     ],
     "why": "它决定我们如何对待临终、遗产与「好好活着」。",
     "whyEn": "It decides how we treat dying, legacy and what it means to live well.",
@@ -230,9 +386,24 @@
     "oneLiner": "一朵花的红是它自身的性质，而它的美似乎离不了观赏者的心。",
     "oneLinerEn": "A flower's red seems its own, yet its beauty seems to need a mind to behold it.",
     "positions": [
-      { "k": "客观论", "kEn": "Objectivism", "v": "美在于比例、和谐等对象自身的形式属性。", "vEn": "Beauty lies in form: proportion, harmony, order." },
-      { "k": "主观论", "kEn": "Subjectivism", "v": "美只是观者愉悦情感的投射，人无一定。", "vEn": "Beauty is a projection of pleasure; tastes differ." },
-      { "k": "共通感", "kEn": "Shared sense", "v": "康德称审美虽无功利却期待普遍同意。", "vEn": "Kant: judgment is disinterested yet claims universal assent." }
+      {
+        "k": "客观论",
+        "kEn": "Objectivism",
+        "v": "美在于比例、和谐等对象自身的形式属性。",
+        "vEn": "Beauty lies in form: proportion, harmony, order."
+      },
+      {
+        "k": "主观论",
+        "kEn": "Subjectivism",
+        "v": "美只是观者愉悦情感的投射，人无一定。",
+        "vEn": "Beauty is a projection of pleasure; tastes differ."
+      },
+      {
+        "k": "共通感",
+        "kEn": "Shared sense",
+        "v": "康德称审美虽无功利却期待普遍同意。",
+        "vEn": "Kant: judgment is disinterested yet claims universal assent."
+      }
     ],
     "why": "它牵动艺术的价值、品味的可否高下，以及我们能否理性地争论审美。",
     "whyEn": "It bears on the worth of art, whether tastes rank, and whether aesthetic dispute can be rational.",
@@ -252,9 +423,24 @@
     "oneLiner": "我只能直接意识到自己的感受，他人的内心永远藏在行为与语言之后。",
     "oneLinerEn": "I access only my own experience; others' minds stay hidden behind behaviour and speech.",
     "positions": [
-      { "k": "类比论证", "kEn": "Analogy", "v": "由他人与我身体的相似推断其有心。", "vEn": "Infer minds from bodies like my own." },
-      { "k": "行为主义", "kEn": "Behaviourism", "v": "心即倾向性的行为，可公开验证。", "vEn": "Mind is behavioural disposition, publicly checkable." },
-      { "k": "他者面孔", "kEn": "Face of the other", "v": "列维纳斯：他人的面容直接向我显现。", "vEn": "Levinas: the other's face shows itself to me directly." }
+      {
+        "k": "类比论证",
+        "kEn": "Analogy",
+        "v": "由他人与我身体的相似推断其有心。",
+        "vEn": "Infer minds from bodies like my own."
+      },
+      {
+        "k": "行为主义",
+        "kEn": "Behaviourism",
+        "v": "心即倾向性的行为，可公开验证。",
+        "vEn": "Mind is behavioural disposition, publicly checkable."
+      },
+      {
+        "k": "他者面孔",
+        "kEn": "Face of the other",
+        "v": "列维纳斯：他人的面容直接向我显现。",
+        "vEn": "Levinas: the other's face shows itself to me directly."
+      }
     ],
     "why": "若他人之心不可证实，同理、伦理与交往的根基就要动摇。",
     "whyEn": "If other minds can't be known, empathy, ethics and society lose their footing.",
@@ -274,9 +460,24 @@
     "oneLiner": "数学定理似乎永恒为真，但那个「真」指的是一个独立存在的世界，还是只是语言约定？",
     "oneLinerEn": "Mathematical truths seem eternally valid — do they point to a real realm, or merely to our conventions?",
     "positions": [
-      { "k": "实在论", "kEn": "Realism", "v": "共相独立于个别事物真实存在（柏拉图）。", "vEn": "Universals exist apart from particulars (Plato)." },
-      { "k": "唯名论", "kEn": "Nominalism", "v": "只有个别事物存在，共相仅是名称。", "vEn": "Only particulars exist; universals are names." },
-      { "k": "概念论", "kEn": "Conceptualism", "v": "共相是心智对相似的抽象。", "vEn": "Universals are mental abstractions from likeness." }
+      {
+        "k": "实在论",
+        "kEn": "Realism",
+        "v": "共相独立于个别事物真实存在（柏拉图）。",
+        "vEn": "Universals exist apart from particulars (Plato)."
+      },
+      {
+        "k": "唯名论",
+        "kEn": "Nominalism",
+        "v": "只有个别事物存在，共相仅是名称。",
+        "vEn": "Only particulars exist; universals are names."
+      },
+      {
+        "k": "概念论",
+        "kEn": "Conceptualism",
+        "v": "共相是心智对相似的抽象。",
+        "vEn": "Universals are mental abstractions from likeness."
+      }
     ],
     "why": "它决定了数学与科学的对象究竟是什么，也牵动一般与个别的根基。",
     "whyEn": "It settles what mathematics and science are about, and underpins the one-over-many problem.",
@@ -296,9 +497,24 @@
     "oneLiner": "从「过去一直如此」到「将来也如此」，中间似乎总差一个无法被经验证明的跳跃。",
     "oneLinerEn": "From 'it has always been so' to 'it will be so' there seems a gap no experience can bridge.",
     "positions": [
-      { "k": "怀疑论", "kEn": "Skepticism", "v": "休谟：归纳只是心理习惯，无理性根据。", "vEn": "Hume: induction is habit, without rational ground." },
-      { "k": "证成循环", "kEn": "Circularity", "v": "用过去成功辩护归纳，本身就在归纳。", "vEn": "Justifying induction by its success already assumes it." },
-      { "k": "最佳解释", "kEn": "Inference to best", "v": "自然齐一律作为最佳解释而被接受。", "vEn": "Uniformity of nature accepted as the best explanation." }
+      {
+        "k": "怀疑论",
+        "kEn": "Skepticism",
+        "v": "休谟：归纳只是心理习惯，无理性根据。",
+        "vEn": "Hume: induction is habit, without rational ground."
+      },
+      {
+        "k": "证成循环",
+        "kEn": "Circularity",
+        "v": "用过去成功辩护归纳，本身就在归纳。",
+        "vEn": "Justifying induction by its success already assumes it."
+      },
+      {
+        "k": "最佳解释",
+        "kEn": "Inference to best",
+        "v": "自然齐一律作为最佳解释而被接受。",
+        "vEn": "Uniformity of nature accepted as the best explanation."
+      }
     ],
     "why": "整个经验科学与日常预测都建在归纳之上；若它无据，知识的根基就要重估。",
     "whyEn": "All empirical science rests on induction; if unjustified, the roots of knowledge must be re-examined.",
@@ -318,9 +534,24 @@
     "oneLiner": "「虐待无辜是错的」像数学一样客观为真，还是只是我们情感的表达？",
     "oneLinerEn": "Is 'hurting the innocent is wrong' true like mathematics, or just an expression of feeling?",
     "positions": [
-      { "k": "道德实在论", "kEn": "Realism", "v": "存在独立于意见的道德事实。", "vEn": "Moral facts exist independent of opinion." },
-      { "k": "表达主义", "kEn": "Expressivism", "v": "道德句只表达态度，不在描述事实。", "vEn": "Moral claims express attitudes, not facts." },
-      { "k": "错误论", "kEn": "Error theory", "v": "道德都在声称客观性，却都落空。", "vEn": "All moral claims assert objectivity and all are false." }
+      {
+        "k": "道德实在论",
+        "kEn": "Realism",
+        "v": "存在独立于意见的道德事实。",
+        "vEn": "Moral facts exist independent of opinion."
+      },
+      {
+        "k": "表达主义",
+        "kEn": "Expressivism",
+        "v": "道德句只表达态度，不在描述事实。",
+        "vEn": "Moral claims express attitudes, not facts."
+      },
+      {
+        "k": "错误论",
+        "kEn": "Error theory",
+        "v": "道德都在声称客观性，却都落空。",
+        "vEn": "All moral claims assert objectivity and all are false."
+      }
     ],
     "why": "若道德只是发明，人权与正义将失去超越习俗的依据。",
     "whyEn": "If morality is invented, rights and justice lose footing beyond mere custom.",
