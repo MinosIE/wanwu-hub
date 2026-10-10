@@ -10,10 +10,10 @@
 
 两种实现范式并存：
 
-| 类型 | 学科 | 入口 | 能力 |
-|---|---|---|---|
-| **FULL** | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换 |
-| **LIGHTWEIGHT** | `physics / chem`（2 个） | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 模块卡 + 详情弹层 + footer，**无搜索/筛选/refs** |
+| 类型            | 学科                                                     | 入口                                                     | 能力                                                          |
+| --------------- | -------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------- |
+| **FULL**        | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS                | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换               |
+| **LIGHTWEIGHT** | `physics / chem`（2 个）                                 | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 模块卡 + 详情弹层 + footer，**无搜索/筛选/refs** |
 
 工程：Vite 构建 + puppeteer SSG 预渲染（`build:ssg`）；GitHub Pages 自动部署（`.github/workflows/deploy.yml`）。
 **测试：零覆盖**。文档：三份根文档均已过时。
@@ -25,6 +25,7 @@
 本轮已完成：physics/chem hero 中英文后缀、hero 副标题（sub-sub）移除、mind refs 布局对齐其它学科。
 
 剩余缺口：
+
 - [ ] **physics/chem 补齐搜索框**：FULL 有 `#search` + `search-results`（`econ/src/core/search.ts`）；subjectKit 当前无。可复用 `core` 搜索或注入。
 - [ ] **physics/chem 补齐过滤器**：FULL 各模块有筛选逻辑（`src/subjects/*/src/modules/shared.ts`、`ui.ts`）。
 - [ ] **physics/chem 补齐 refs / 来源区**：FULL 渲染 `sources.json`（`econ/src/main.ts` `renderRefs`）；physics/chem 无。
@@ -51,7 +52,8 @@
 ## 4. 工程化（中优先）
 
 - [ ] **补测试**：当前零测试（`devDependencies` 无 vitest/jest，无 `*.test.*`）。建议 vitest 冒烟测试：构建产物、关键渲染、i18n 切换、路由分发。
-- [ ] **类型检查进 CI**：`build` 仅 `vite build`，未跑 `tsc --noEmit`；可加类型检查步骤防回归。
+- [x] **类型检查 / 数据校验进 CI**：新增 `npm run verify`（typecheck + check:json + dynasty 校验）与 `.github/workflows/ci.yml`（PR/push 跑 verify + build）。
+- [x] **单一真相源 / 去重**：`src/core/subjects.json`（四脚本共享）、`src/core/dataKit.ts`（data.ts 工厂）、`s/build-index.mjs`（合并三份 index-builder）、GEO 域名统一为 minosie。
 - [ ] **CloudStudio 部署**：项目记忆里有 CloudStudio 规则但未配置任何 CloudStudio 文件；如需多端部署可补，否则维持 GitHub Pages。
 
 ## 5. 体验 / 设计
@@ -63,29 +65,30 @@
 - [ ] **无障碍**：aria、键盘导航、对比度（hero 标题对比度本轮已修）。
 - [ ] **收藏 / 书签、分享深链**：physics/chem 已支持 `#subject/physics/mod/id` 深链，可推广到 FULL 学科。
 
-## 6. 文档更新（高优先）
+## 6. 文档更新（已基本完成）
 
-现有 `PLAN.md` / `readme.md` / `agent.md` 描述**旧版纯静态导航站**（单 `index.html` + 内联 style、无构建），与当前 Vite + TS + subject SPA 严重不符，会误导协作者：
+> 状态更新：`readme.md` / `agent.md` / `docs/README.md` 已重写为当前 Vite + TS + subject SPA 现状，并补充了 `subjects.json` 单一真相源 / `dataKit` / GEO 生成器 / 派生索引重建 / CI 门禁 / 品牌与分析。`PLAN.md` 仍为收敛前的历史规划，保留作背景（可选：加一行指向本 BACKLOG 的“已完成”说明）。
 
-- [ ] **重写 `readme.md`**：技术栈（Vite + TS + 零框架）、目录结构（`src/subjects/<name>/`）、本地预览（`npm run dev` / `build:ssg`）、整体架构。
-- [ ] **重写 `agent.md`**：design tokens（现由各 `tokens.css` + `index.html :root` 定义，变量已扩展 `--link / --shadow / --faint` 等）、区块结构、新增学科流程（复制 subjectKit 或 template）、修改约束。
-- [ ] **更新 `PLAN.md`**：标记收敛已完成（8 学科已统一进 `wanwu-hub`），把「阶段 5 补齐 5 学科」改为「physics/chem 已用 subjectKit 接入、内容与功能待深化」，并纳入本文档的架构决策。
-- [ ] **新建 `docs/`**：放置更细的开发 / 内容贡献指南（当前无 `docs/` 目录）。
+- [x] **重写 `readme.md`**：技术栈、目录（含 `subjects.json`/`dataKit`/`_shared`/`scripts`）、本地预览与数据脚本、GEO 与品牌分析。
+- [x] **重写 `agent.md`**：design tokens、新增学科流程（改 `subjects.json`）、§７ GEO/重建/CI。
+- [ ] **更新 `PLAN.md`**：标记收敛已完成（可选，低优先）。
+- [x] **新建 `docs/`**：`docs/README.md` 开发/内容贡献指南（含派生数据与 GEO 生成）。
 
 ## 7. 优先级总览
 
-| 优先级 | 项 | 价值 |
-|---|---|---|
-| **P0** | §1 physics/chem 搜索 / 筛选 / refs 补齐 + 切换按钮 | 跨学科一致性的最后缺口 |
-| **P0** | §6 文档重写 | 当前文档误导，blocker for 协作者 |
-| **P1** | §2 架构决策（subjectKit vs FULL） | 决定长期维护成本 |
-| **P1** | §3 内容深化（physics/chem/econ/mind） | 内容质量 |
-| **P2** | §4 测试 / CI | 稳定性 |
-| **P2** | §5 体验 / 设计 | polish |
+| 优先级 | 项                                                 | 价值                             |
+| ------ | -------------------------------------------------- | -------------------------------- |
+| **P0** | §1 physics/chem 搜索 / 筛选 / refs 补齐 + 切换按钮 | 跨学科一致性的最后缺口           |
+| **P0** | §6 文档重写                                        | 当前文档误导，blocker for 协作者 |
+| **P1** | §2 架构决策（subjectKit vs FULL）                  | 决定长期维护成本                 |
+| **P1** | §3 内容深化（physics/chem/econ/mind）              | 内容质量                         |
+| **P2** | §4 测试 / CI                                       | 稳定性                           |
+| **P2** | §5 体验 / 设计                                     | polish                           |
 
 ---
 
 ### 附：本轮已落地（供追溯）
+
 - `d824262` physics/chem hero 补中英文后缀（与其它学科 i18n 一致）
 - `dfad0f3` 移除 physics/chem hero 副标题（sub-sub）
 - `29d043c` mind refs 区块布局对齐其它学科（左对齐标题 + 多列网格 + 去虚线）
