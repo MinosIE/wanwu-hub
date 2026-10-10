@@ -1,4 +1,4 @@
-import type { SubjectConfig, SubjectItem } from "../subjectKit";
+import type { SubjectConfig, SubjectItem, Sub } from "../subjectKit";
 
 /* ---------- 完整元素周期表数据（118 个元素） ---------- */
 const CAT_ZH: Record<string, string> = {
@@ -917,6 +917,47 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       items: [
         {
           id: "eq-h2o2",
+          subs: [
+            {
+              f: "2H₂O₂",
+              name: { zh: "过氧化氢（双氧水）", en: "Hydrogen peroxide" },
+              note: {
+                zh: "无色液体，遇催化剂迅速分解放出氧。",
+                en: "Colourless liquid; rapidly decomposes to release O₂ over a catalyst.",
+              },
+              role: "l",
+            },
+            {
+              f: "MnO₂",
+              name: {
+                zh: "二氧化锰（黑色粉末）",
+                en: "Manganese dioxide (black powder)",
+              },
+              note: {
+                zh: "作催化剂，加快分解而自身不消耗。",
+                en: "Catalyst; speeds decomposition without being consumed.",
+              },
+              role: "c",
+            },
+            {
+              f: "2H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "分解的另一产物。",
+                en: "The other product of decomposition.",
+              },
+              role: "r",
+            },
+            {
+              f: "O₂↑",
+              name: { zh: "氧气", en: "Oxygen gas" },
+              note: {
+                zh: "能使带火星木条复燃，是收集目标。",
+                en: "Relights a glowing splint; the gas being collected.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🧪",
           term: { zh: "过氧化氢分解制氧气", en: "Oxygen from H₂O₂" },
           oneLiner: {
@@ -936,6 +977,50 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-kmno4",
+          subs: [
+            {
+              f: "2KMnO₄",
+              name: {
+                zh: "高锰酸钾（紫黑色固体）",
+                en: "Potassium permanganate (purple-black solid)",
+              },
+              note: {
+                zh: "加热即分解，实验室制氧原料。",
+                en: "Decomposes on heating; a lab source of O₂.",
+              },
+              role: "l",
+            },
+            {
+              f: "K₂MnO₄",
+              name: {
+                zh: "锰酸钾（绿色固体）",
+                en: "Potassium manganate (green solid)",
+              },
+              note: { zh: "残留固体之一。", en: "One of the residual solids." },
+              role: "r",
+            },
+            {
+              f: "MnO₂",
+              name: {
+                zh: "二氧化锰（黑色固体）",
+                en: "Manganese dioxide (black solid)",
+              },
+              note: {
+                zh: "同时生成的副产物。",
+                en: "By-product formed alongside.",
+              },
+              role: "r",
+            },
+            {
+              f: "O₂↑",
+              name: { zh: "氧气", en: "Oxygen gas" },
+              note: {
+                zh: "供收集，使带火星木条复燃。",
+                en: "Collected; relights a glowing splint.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🟣",
           term: { zh: "高锰酸钾受热分解", en: "KMnO₄ Decomposition" },
           oneLiner: {
@@ -955,6 +1040,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-kclo3",
+          subs: [
+            {
+              f: "2KClO₃",
+              name: {
+                zh: "氯酸钾（白色固体）",
+                en: "Potassium chlorate (white solid)",
+              },
+              note: {
+                zh: "分解放出氧气。",
+                en: "Decomposes to release oxygen.",
+              },
+              role: "l",
+            },
+            {
+              f: "MnO₂",
+              name: { zh: "二氧化锰", en: "Manganese dioxide" },
+              note: {
+                zh: "催化剂，降低反应温度、加快速率。",
+                en: "Catalyst; lowers temperature and speeds the reaction.",
+              },
+              role: "c",
+            },
+            {
+              f: "2KCl",
+              name: {
+                zh: "氯化钾（白色固体）",
+                en: "Potassium chloride (white solid)",
+              },
+              note: { zh: "残留固体。", en: "Residual solid." },
+              role: "r",
+            },
+            {
+              f: "3O₂↑",
+              name: { zh: "氧气", en: "Oxygen gas" },
+              note: { zh: "制取目标气体。", en: "The target gas produced." },
+              role: "r",
+            },
+          ],
           icon: "🟡",
           term: { zh: "氯酸钾受热分解", en: "KClO₃ Decomposition" },
           oneLiner: {
@@ -970,6 +1093,53 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-co2",
+          subs: [
+            {
+              f: "CaCO₃",
+              name: {
+                zh: "碳酸钙（大理石/石灰石）",
+                en: "Calcium carbonate (marble/limestone)",
+              },
+              note: {
+                zh: "块状固体，与酸反应放气。",
+                en: "Lumpy solid; reacts with acid giving off gas.",
+              },
+              role: "l",
+            },
+            {
+              f: "2HCl",
+              name: { zh: "稀盐酸", en: "Dilute hydrochloric acid" },
+              note: {
+                zh: "提供 H⁺ 与碳酸根反应。",
+                en: "Supplies H⁺ to react with carbonate.",
+              },
+              role: "l",
+            },
+            {
+              f: "CaCl₂",
+              name: { zh: "氯化钙", en: "Calcium chloride" },
+              note: {
+                zh: "溶于水留在溶液中。",
+                en: "Dissolves, remaining in solution.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "反应生成。", en: "Formed in the reaction." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "使澄清石灰水变浑浊，向上排空气法收集。",
+                en: "Turns limewater cloudy; collected by upward displacement of air.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🪨",
           term: { zh: "大理石与盐酸制二氧化碳", en: "CO₂ from Carbonate" },
           oneLiner: {
@@ -988,6 +1158,38 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-electrolysis",
+          subs: [
+            {
+              f: "2H₂O",
+              name: {
+                zh: "水（加少量电解质）",
+                en: "Water (with a little electrolyte)",
+              },
+              note: {
+                zh: "被电解；加电解质增强导电性。",
+                en: "Electrolysed; electrolyte aids conduction.",
+              },
+              role: "l",
+            },
+            {
+              f: "2H₂↑",
+              name: { zh: "氢气", en: "Hydrogen gas" },
+              note: {
+                zh: "负极产生，可燃，体积约为氧气两倍。",
+                en: "At the cathode; flammable, about twice the O₂ volume.",
+              },
+              role: "r",
+            },
+            {
+              f: "O₂↑",
+              name: { zh: "氧气", en: "Oxygen gas" },
+              note: {
+                zh: "正极产生，助燃。",
+                en: "At the anode; supports combustion.",
+              },
+              role: "r",
+            },
+          ],
           icon: "⚡",
           term: { zh: "电解水", en: "Electrolysis of Water" },
           oneLiner: {
@@ -1007,6 +1209,50 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-fe-cuso4",
+          subs: [
+            {
+              f: "Fe",
+              name: { zh: "铁（银白色金属）", en: "Iron (silvery metal)" },
+              note: {
+                zh: "较活泼，作还原剂置换铜。",
+                en: "More reactive; reduces and displaces copper.",
+              },
+              role: "l",
+            },
+            {
+              f: "CuSO₄",
+              name: {
+                zh: "硫酸铜（蓝色溶液）",
+                en: "Copper(II) sulfate (blue solution)",
+              },
+              note: {
+                zh: "提供待置换的铜离子。",
+                en: "Supplies the Cu²⁺ to be displaced.",
+              },
+              role: "l",
+            },
+            {
+              f: "FeSO₄",
+              name: {
+                zh: "硫酸亚铁（浅绿色溶液）",
+                en: "Iron(II) sulfate (pale-green solution)",
+              },
+              note: {
+                zh: "溶液由蓝变浅绿。",
+                en: "Solution fades from blue to pale green.",
+              },
+              role: "r",
+            },
+            {
+              f: "Cu",
+              name: { zh: "铜（红色固体）", en: "Copper (red solid)" },
+              note: {
+                zh: "析出附着于铁表面，湿法炼铜原理。",
+                en: "Deposits on the iron; the basis of hydrometallurgical copper.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🔵",
           term: { zh: "铁置换硫酸铜（湿法炼铜）", en: "Fe Displaces Cu" },
           oneLiner: {
@@ -1025,6 +1271,38 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-metal-acid",
+          subs: [
+            {
+              f: "Zn",
+              name: { zh: "锌粒", en: "Zinc granules" },
+              note: {
+                zh: "活泼金属，与稀酸反应放氢。",
+                en: "Reactive metal; gives H₂ with dilute acid.",
+              },
+              role: "l",
+            },
+            {
+              f: "H₂SO₄",
+              name: { zh: "稀硫酸", en: "Dilute sulfuric acid" },
+              note: { zh: "提供 H⁺。", en: "Supplies H⁺." },
+              role: "l",
+            },
+            {
+              f: "ZnSO₄",
+              name: { zh: "硫酸锌", en: "Zinc sulfate" },
+              note: { zh: "溶于水。", en: "Dissolves in water." },
+              role: "r",
+            },
+            {
+              f: "H₂↑",
+              name: { zh: "氢气", en: "Hydrogen gas" },
+              note: {
+                zh: "可燃，实验室制氢常用此法。",
+                en: "Flammable; a common lab route to H₂.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🔩",
           term: { zh: "活泼金属与稀硫酸", en: "Metal + Acid" },
           oneLiner: {
@@ -1043,6 +1321,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-ch4",
+          subs: [
+            {
+              f: "CH₄",
+              name: {
+                zh: "甲烷（天然气主要成分）",
+                en: "Methane (main component of natural gas)",
+              },
+              note: {
+                zh: "可燃气体，作燃料。",
+                en: "Flammable gas used as fuel.",
+              },
+              role: "l",
+            },
+            {
+              f: "2O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "助燃。", en: "Supports combustion." },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "燃烧产物，使石灰水浑浊。",
+                en: "Combustion product; clouds limewater.",
+              },
+              role: "r",
+            },
+            {
+              f: "2H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "火焰上方冷烧杯内壁出现水珠。",
+                en: "Droplets condense on a cold beaker over the flame.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🔥",
           term: { zh: "甲烷燃烧", en: "Methane Combustion" },
           oneLiner: {
@@ -1062,6 +1378,32 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-h2",
+          subs: [
+            {
+              f: "2H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: {
+                zh: "可燃气体，点燃前需验纯。",
+                en: "Flammable; must be tested for purity before ignition.",
+              },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "助燃。", en: "Supports combustion." },
+              role: "l",
+            },
+            {
+              f: "2H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "唯一产物，淡蓝色火焰、放热。",
+                en: "Sole product; pale-blue flame, exothermic.",
+              },
+              role: "r",
+            },
+          ],
           icon: "💧",
           term: { zh: "氢气燃烧", en: "Hydrogen Combustion" },
           oneLiner: {
@@ -1077,6 +1419,47 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-neutralize",
+          subs: [
+            {
+              f: "HCl",
+              name: {
+                zh: "盐酸（强酸）",
+                en: "Hydrochloric acid (strong acid)",
+              },
+              note: { zh: "提供 H⁺。", en: "Supplies H⁺." },
+              role: "l",
+            },
+            {
+              f: "NaOH",
+              name: {
+                zh: "氢氧化钠（强碱）",
+                en: "Sodium hydroxide (strong base)",
+              },
+              note: { zh: "提供 OH⁻。", en: "Supplies OH⁻." },
+              role: "l",
+            },
+            {
+              f: "NaCl",
+              name: {
+                zh: "氯化钠（食盐主要成分）",
+                en: "Sodium chloride (table salt)",
+              },
+              note: {
+                zh: "中和生成的盐。",
+                en: "The salt formed by neutralization.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "H⁺ 与 OH⁻ 结合；酚酞褪色指示终点。",
+                en: "H⁺ and OH⁻ combine; phenolphthalein fading marks the endpoint.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🧫",
           term: { zh: "盐酸中和氢氧化钠", en: "HCl Neutralizes NaOH" },
           oneLiner: {
@@ -1095,6 +1478,41 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-na2co3-hcl",
+          subs: [
+            {
+              f: "Na₂CO₃",
+              name: {
+                zh: "碳酸钠（纯碱/苏打）",
+                en: "Sodium carbonate (soda ash)",
+              },
+              note: {
+                zh: "与酸反应放气。",
+                en: "Reacts with acid releasing gas.",
+              },
+              role: "l",
+            },
+            {
+              f: "2HCl",
+              name: { zh: "稀盐酸", en: "Dilute hydrochloric acid" },
+              note: { zh: "提供 H⁺。", en: "Supplies H⁺." },
+              role: "l",
+            },
+            {
+              f: "2NaCl",
+              name: { zh: "氯化钠", en: "Sodium chloride" },
+              note: { zh: "中和生成。", en: "Formed by neutralization." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "大量放气，泡沫灭火器原理之一。",
+                en: "Vigorous effervescence; underlies foam extinguishers.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🫧",
           term: { zh: "碳酸钠与盐酸", en: "Na₂CO₃ + HCl" },
           oneLiner: {
@@ -1113,6 +1531,32 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-cao",
+          subs: [
+            {
+              f: "CaO",
+              name: { zh: "生石灰（白色固体）", en: "Quicklime (white solid)" },
+              note: {
+                zh: "与水剧烈化合。",
+                en: "Reacts vigorously with water.",
+              },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "与生石灰化合。", en: "Combines with quicklime." },
+              role: "l",
+            },
+            {
+              f: "Ca(OH)₂",
+              name: { zh: "熟石灰/消石灰", en: "Slaked lime" },
+              note: {
+                zh: "反应放热，用于建筑与干燥。",
+                en: "Exothermic product; used in building and drying.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🧱",
           term: { zh: "生石灰遇水", en: "CaO + Water" },
           oneLiner: {
@@ -1128,6 +1572,41 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-limewater",
+          subs: [
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "待检验的气体。", en: "The gas being tested." },
+              role: "l",
+            },
+            {
+              f: "Ca(OH)₂",
+              name: {
+                zh: "澄清石灰水（氢氧化钙溶液）",
+                en: "Limewater (calcium hydroxide solution)",
+              },
+              note: { zh: "检验试剂。", en: "The testing reagent." },
+              role: "l",
+            },
+            {
+              f: "CaCO₃↓",
+              name: {
+                zh: "碳酸钙（白色沉淀）",
+                en: "Calcium carbonate (white precipitate)",
+              },
+              note: {
+                zh: "使溶液变浑浊，CO₂ 的特征现象。",
+                en: "Clouds the solution; the signature test for CO₂.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "反应生成。", en: "Formed in the reaction." },
+              role: "r",
+            },
+          ],
           icon: "🥛",
           term: {
             zh: "二氧化碳使石灰水变浑浊",
@@ -1149,6 +1628,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-rust",
+          subs: [
+            {
+              f: "4Fe",
+              name: { zh: "铁", en: "Iron" },
+              note: { zh: "被腐蚀的金属。", en: "The metal being corroded." },
+              role: "l",
+            },
+            {
+              f: "3O₂",
+              name: { zh: "氧气（空气）", en: "Oxygen (from air)" },
+              note: {
+                zh: "发生吸氧腐蚀。",
+                en: "Drives oxygen-absorption corrosion.",
+              },
+              role: "l",
+            },
+            {
+              f: "xH₂O",
+              name: { zh: "水（潮湿环境）", en: "Water (moist conditions)" },
+              note: {
+                zh: "形成电解质膜，促成电化学腐蚀。",
+                en: "Forms an electrolyte film enabling electrochemical corrosion.",
+              },
+              role: "l",
+            },
+            {
+              f: "2Fe₂O₃·xH₂O",
+              name: {
+                zh: "铁锈（红棕色疏松固体）",
+                en: "Rust (flaky reddish-brown solid)",
+              },
+              note: {
+                zh: "主要成分为氧化铁水合物，疏松不能保护内部铁。",
+                en: "Hydrated iron(III) oxide; porous, so it cannot protect the metal beneath.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🟥",
           term: { zh: "铁生锈（吸氧腐蚀）", en: "Iron Rusting" },
           oneLiner: {
@@ -1167,6 +1684,41 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-bacl2",
+          subs: [
+            {
+              f: "BaCl₂",
+              name: { zh: "氯化钡溶液", en: "Barium chloride solution" },
+              note: { zh: "提供 Ba²⁺。", en: "Supplies Ba²⁺." },
+              role: "l",
+            },
+            {
+              f: "H₂SO₄",
+              name: {
+                zh: "硫酸（含 SO₄²⁻）",
+                en: "Sulfuric acid (contains SO₄²⁻)",
+              },
+              note: { zh: "待检验对象。", en: "The species being tested." },
+              role: "l",
+            },
+            {
+              f: "BaSO₄↓",
+              name: {
+                zh: "硫酸钡（白色沉淀）",
+                en: "Barium sulfate (white precipitate)",
+              },
+              note: {
+                zh: "不溶于稀硝酸，SO₄²⁻ 的特征检验。",
+                en: "Insoluble in dilute nitric acid; the signature test for SO₄²⁻.",
+              },
+              role: "r",
+            },
+            {
+              f: "2HCl",
+              name: { zh: "盐酸", en: "Hydrochloric acid" },
+              note: { zh: "同时生成。", en: "Formed alongside." },
+              role: "r",
+            },
+          ],
           icon: "🧂",
           term: { zh: "氯化钡检验硫酸根", en: "Test Sulfate with BaCl₂" },
           oneLiner: {
@@ -1185,6 +1737,38 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-nahco3",
+          subs: [
+            {
+              f: "2NaHCO₃",
+              name: {
+                zh: "碳酸氢钠（小苏打）",
+                en: "Sodium bicarbonate (baking soda)",
+              },
+              note: { zh: "受热分解。", en: "Decomposes on heating." },
+              role: "l",
+            },
+            {
+              f: "Na₂CO₃",
+              name: { zh: "碳酸钠（纯碱）", en: "Sodium carbonate (soda ash)" },
+              note: { zh: "残留固体。", en: "Residual solid." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "反应生成。", en: "Formed in the reaction." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "使面团疏松膨大，膨松剂原理。",
+                en: "Aerates dough; the leavening principle.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🫧",
           term: { zh: "碳酸氢钠受热分解", en: "NaHCO₃ Decomposition" },
           oneLiner: {
@@ -1212,6 +1796,62 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       items: [
         {
           id: "eq-hou",
+          subs: [
+            {
+              f: "NaCl",
+              name: {
+                zh: "氯化钠（饱和食盐水）",
+                en: "Sodium chloride (brine)",
+              },
+              note: { zh: "提供 Na⁺。", en: "Supplies Na⁺." },
+              role: "l",
+            },
+            {
+              f: "NH₃",
+              name: { zh: "氨", en: "Ammonia" },
+              note: {
+                zh: "先通氨使溶液呈碱性，利于吸收 CO₂。",
+                en: "Passed first to alkalinize the brine, aiding CO₂ absorption.",
+              },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "通入提供碳酸根。",
+                en: "Passed in to supply carbonate.",
+              },
+              role: "l",
+            },
+            {
+              f: "NaHCO₃↓",
+              name: { zh: "碳酸氢钠", en: "Sodium bicarbonate" },
+              note: {
+                zh: "因溶解度较小而析出，是锻烧得纯碱的中间体。",
+                en: "Precipitates as the least soluble; the intermediate calcined to soda ash.",
+              },
+              role: "r",
+            },
+            {
+              f: "NH₄Cl",
+              name: { zh: "氯化铵", en: "Ammonium chloride" },
+              note: {
+                zh: "作氮肥析出，提高原料利用率。",
+                en: "Crystallized out as nitrogen fertilizer, raising salt utilization.",
+              },
+              role: "r",
+            },
+            {
+              f: "Na₂CO₃",
+              name: { zh: "碳酸钠（纯碱）", en: "Sodium carbonate (soda ash)" },
+              note: {
+                zh: "最终产品，由 NaHCO₃ 受热分解得到。",
+                en: "Final product, from thermal decomposition of NaHCO₃.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🧂",
           term: { zh: "侯氏制碱法", en: "Hou's Process" },
           oneLiner: {
@@ -1234,6 +1874,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-sapon",
+          subs: [
+            {
+              f: "(C₁₇H₃₅COO)₃C₃H₅",
+              name: { zh: "油脂（硬脂酸甘油酯）", en: "Fat (tristearin)" },
+              note: { zh: "制肥皂的原料。", en: "The feedstock for soap." },
+              role: "l",
+            },
+            {
+              f: "3NaOH",
+              name: {
+                zh: "氢氧化钠（烧碱）",
+                en: "Sodium hydroxide (caustic soda)",
+              },
+              note: {
+                zh: "使油脂水解（皂化）。",
+                en: "Hydrolyzes the fat (saponification).",
+              },
+              role: "l",
+            },
+            {
+              f: "3C₁₇H₃₅COONa",
+              name: { zh: "硬脂酸钠", en: "Sodium stearate" },
+              note: {
+                zh: "肥㚬的主要成分，具去污能力。",
+                en: "The main soap component; has cleansing power.",
+              },
+              role: "r",
+            },
+            {
+              f: "C₃H₅(OH)₃",
+              name: { zh: "丙三醇（甘油）", en: "Glycerol" },
+              note: {
+                zh: "副产物，具润肤用途。",
+                en: "By-product; used as a skin moisturizer.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🧼",
           term: { zh: "皂化反应（制肥皂）", en: "Saponification" },
           oneLiner: {
@@ -1253,6 +1931,32 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-nh3",
+          subs: [
+            {
+              f: "N₂",
+              name: { zh: "氮气（来自空气）", en: "Nitrogen (from air)" },
+              note: { zh: "合成氨原料。", en: "Feedstock for ammonia." },
+              role: "l",
+            },
+            {
+              f: "3H₂",
+              name: {
+                zh: "氢气（来自水/燃料）",
+                en: "Hydrogen (from water/fuel)",
+              },
+              note: { zh: "另一原料。", en: "The other feedstock." },
+              role: "l",
+            },
+            {
+              f: "2NH₃",
+              name: { zh: "氨", en: "Ammonia" },
+              note: {
+                zh: "化肥工业之母；反应可逆。",
+                en: "The backbone of fertilizer making; the reaction is reversible.",
+              },
+              role: "r",
+            },
+          ],
           icon: "⚗️",
           term: { zh: "工业合成氨", en: "Ammonia Synthesis" },
           oneLiner: {
@@ -1273,6 +1977,50 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-chloralkali",
+          subs: [
+            {
+              f: "2NaCl",
+              name: {
+                zh: "氯化钠（饱和食盐水）",
+                en: "Sodium chloride (brine)",
+              },
+              note: { zh: "原料。", en: "The feedstock." },
+              role: "l",
+            },
+            {
+              f: "2H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "参与电解。", en: "Participates in electrolysis." },
+              role: "l",
+            },
+            {
+              f: "2NaOH",
+              name: {
+                zh: "氢氧化钠（烧碱）",
+                en: "Sodium hydroxide (caustic soda)",
+              },
+              note: { zh: "阴极区生成。", en: "Formed near the cathode." },
+              role: "r",
+            },
+            {
+              f: "H₂↑",
+              name: { zh: "氢气", en: "Hydrogen gas" },
+              note: {
+                zh: "阴极产物，可燃。",
+                en: "Cathode product; flammable.",
+              },
+              role: "r",
+            },
+            {
+              f: "Cl₂↑",
+              name: { zh: "氯气", en: "Chlorine gas" },
+              note: {
+                zh: "阳极产物，与 NaOH 反应制漂白液。",
+                en: "Anode product; with NaOH makes bleach.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🔌",
           term: { zh: "氯碱工业（电解食盐水）", en: "Chlor-Alkali" },
           oneLiner: {
@@ -1292,6 +2040,71 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-bleach",
+          subs: [
+            {
+              f: "2Cl₂",
+              name: { zh: "氯气", en: "Chlorine" },
+              note: {
+                zh: "与石灰乳反应制漂白粉。",
+                en: "Reacted with lime milk to make bleaching powder.",
+              },
+              role: "l",
+            },
+            {
+              f: "2Ca(OH)₂",
+              name: {
+                zh: "石灰乳（氢氧化钙）",
+                en: "Lime milk (calcium hydroxide)",
+              },
+              note: { zh: "原料。", en: "The feedstock." },
+              role: "l",
+            },
+            {
+              f: "Ca(ClO)₂",
+              name: { zh: "次氯酸钙", en: "Calcium hypochlorite" },
+              note: {
+                zh: "漂白粉的有效成分。",
+                en: "The active component of bleaching powder.",
+              },
+              role: "r",
+            },
+            {
+              f: "CaCl₂",
+              name: { zh: "氯化钙", en: "Calcium chloride" },
+              note: { zh: "副产物。", en: "By-product." },
+              role: "r",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳（空气）", en: "Carbon dioxide (air)" },
+              note: {
+                zh: "与次氯酸钙反应导致失效。",
+                en: "Reacts with Ca(ClO)₂, causing spoilage.",
+              },
+              role: "l",
+            },
+            {
+              f: "CaCO₃↓",
+              name: {
+                zh: "碳酸钙（白色沉淀）",
+                en: "Calcium carbonate (white precipitate)",
+              },
+              note: {
+                zh: "失效过程产物。",
+                en: "Product of the spoilage reaction.",
+              },
+              role: "r",
+            },
+            {
+              f: "2HClO",
+              name: { zh: "次氯酸", en: "Hypochlorous acid" },
+              note: {
+                zh: "强氧化性，起漂白作用，也因此失效。",
+                en: "Strong oxidizer; does the bleaching and hence the spoilage.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🪣",
           term: { zh: "漂白粉的制取与失效", en: "Bleaching Powder" },
           oneLiner: {
@@ -1313,6 +2126,35 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-iron",
+          subs: [
+            {
+              f: "Fe₂O₃",
+              name: {
+                zh: "氧化铁（铁矿石主要成分）",
+                en: "Iron(III) oxide (main ore component)",
+              },
+              note: { zh: "被还原。", en: "Is reduced." },
+              role: "l",
+            },
+            {
+              f: "3CO",
+              name: { zh: "一氧化碳", en: "Carbon monoxide" },
+              note: { zh: "还原剂。", en: "The reducing agent." },
+              role: "l",
+            },
+            {
+              f: "2Fe",
+              name: { zh: "铁（生铁）", en: "Iron (pig iron)" },
+              note: { zh: "冶炼目标产物。", en: "The smelting target." },
+              role: "r",
+            },
+            {
+              f: "3CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "氧化产物。", en: "Oxidation product." },
+              role: "r",
+            },
+          ],
           icon: "🏗️",
           term: { zh: "高炉练铁", en: "Blast-Furnace Iron" },
           oneLiner: {
@@ -1332,6 +2174,38 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-thermite",
+          subs: [
+            {
+              f: "2Al",
+              name: { zh: "铝粉", en: "Aluminum powder" },
+              note: {
+                zh: "强还原剂，反应放出大量热。",
+                en: "Strong reducer; the reaction releases intense heat.",
+              },
+              role: "l",
+            },
+            {
+              f: "Fe₂O₃",
+              name: { zh: "氧化铁", en: "Iron(III) oxide" },
+              note: { zh: "被铝还原。", en: "Reduced by aluminum." },
+              role: "l",
+            },
+            {
+              f: "Al₂O₃",
+              name: { zh: "氧化铝", en: "Aluminum oxide" },
+              note: { zh: "反应生成。", en: "Formed in the reaction." },
+              role: "r",
+            },
+            {
+              f: "2Fe",
+              name: { zh: "铁（熔融态）", en: "Iron (molten)" },
+              note: {
+                zh: "高温熔化流出，用于野外焊接钢轨。",
+                en: "Molten iron runs out; used to weld rails on site.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🚄",
           term: { zh: "铝热反应", en: "Thermite Reaction" },
           oneLiner: {
@@ -1351,6 +2225,50 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-ester",
+          subs: [
+            {
+              f: "CH₃COOH",
+              name: { zh: "乙酸（醋酸）", en: "Acetic acid" },
+              note: {
+                zh: "提供酰基，脱去 –OH。",
+                en: "Supplies the acyl group, losing –OH.",
+              },
+              role: "l",
+            },
+            {
+              f: "C₂H₅OH",
+              name: { zh: "乙醇", en: "Ethanol" },
+              note: {
+                zh: "提供乙氧基，脱去 –H。",
+                en: "Supplies the ethoxy group, losing –H.",
+              },
+              role: "l",
+            },
+            {
+              f: "浓硫酸",
+              name: { zh: "浓硫酸", en: "Concentrated sulfuric acid" },
+              note: {
+                zh: "催化剂兼吸水剂，促进平衡右移。",
+                en: "Catalyst and water absorber, shifting equilibrium right.",
+              },
+              role: "c",
+            },
+            {
+              f: "CH₃COOC₂H₅",
+              name: { zh: "乙酸乙酯", en: "Ethyl acetate" },
+              note: {
+                zh: "有香味的酯，酒香/香精来源。",
+                en: "Fragrant ester; source of fruity aromas.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "反应生成。", en: "Formed in the reaction." },
+              role: "r",
+            },
+          ],
           icon: "🍶",
           term: { zh: "酯化反应", en: "Esterification" },
           oneLiner: {
@@ -1371,6 +2289,41 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-ethanol-ox",
+          subs: [
+            {
+              f: "2CH₃CH₂OH",
+              name: { zh: "乙醇", en: "Ethanol" },
+              note: { zh: "被氧化。", en: "Is oxidized." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "氧化剂。", en: "The oxidizer." },
+              role: "l",
+            },
+            {
+              f: "Cu",
+              name: { zh: "铜", en: "Copper" },
+              note: { zh: "作催化剂。", en: "Serves as catalyst." },
+              role: "c",
+            },
+            {
+              f: "2CH₃CHO",
+              name: { zh: "乙醛", en: "Acetaldehyde" },
+              note: {
+                zh: "氧化产物，有刺激性气味。",
+                en: "Oxidation product; pungent odor.",
+              },
+              role: "r",
+            },
+            {
+              f: "2H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "反应生成。", en: "Formed in the reaction." },
+              role: "r",
+            },
+          ],
           icon: "🌡️",
           term: { zh: "乙醇的催化氧化", en: "Catalytic Oxidation of Ethanol" },
           oneLiner: {
@@ -1390,6 +2343,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-photosyn",
+          subs: [
+            {
+              f: "6CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "原料，被固定。",
+                en: "Feedstock; fixed into organic matter.",
+              },
+              role: "l",
+            },
+            {
+              f: "6H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "光解提供氢并放出氧。",
+                en: "Photolysed to supply hydrogen and release oxygen.",
+              },
+              role: "l",
+            },
+            {
+              f: "C₆H₁₂O₆",
+              name: { zh: "葡萄糖", en: "Glucose" },
+              note: {
+                zh: "储存化学能的有机物。",
+                en: "Energy-rich organic product.",
+              },
+              role: "r",
+            },
+            {
+              f: "6O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: {
+                zh: "地球氧气的主要来源。",
+                en: "The main source of Earth's oxygen.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🌿",
           term: { zh: "光合作用", en: "Photosynthesis" },
           oneLiner: {
@@ -1409,6 +2400,38 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-ferment",
+          subs: [
+            {
+              f: "C₆H₁₂O₆",
+              name: { zh: "葡萄糖", en: "Glucose" },
+              note: { zh: "发酵底物。", en: "The fermentation substrate." },
+              role: "l",
+            },
+            {
+              f: "酶",
+              name: { zh: "酒化酶", en: "Zymase" },
+              note: { zh: "生物催化剂。", en: "A biological catalyst." },
+              role: "c",
+            },
+            {
+              f: "2C₂H₅OH",
+              name: { zh: "乙醇（酒精）", en: "Ethanol (alcohol)" },
+              note: {
+                zh: "酿酒目标产物。",
+                en: "The target product of brewing.",
+              },
+              role: "r",
+            },
+            {
+              f: "2CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "使面包/馒头膨松。",
+                en: "Leavens bread and steamed buns.",
+              },
+              role: "r",
+            },
+          ],
           icon: "🍞",
           term: { zh: "酒精发酵", en: "Alcoholic Fermentation" },
           oneLiner: {
@@ -1428,6 +2451,59 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
         {
           id: "eq-antacid",
+          subs: [
+            {
+              f: "Al(OH)₃",
+              name: { zh: "氢氧化铝", en: "Aluminum hydroxide" },
+              note: {
+                zh: "胃药（胃舒平）有效成分，中和胃酸。",
+                en: "Active antacid; neutralizes stomach acid.",
+              },
+              role: "l",
+            },
+            {
+              f: "NaHCO₃",
+              name: {
+                zh: "碳酸氢钠（小苏打）",
+                en: "Sodium bicarbonate (baking soda)",
+              },
+              note: {
+                zh: "也可中和胃酸，但会产气。",
+                en: "Also neutralizes acid but releases gas.",
+              },
+              role: "l",
+            },
+            {
+              f: "HCl",
+              name: {
+                zh: "盐酸（胃酸主要成分）",
+                en: "Hydrochloric acid (stomach acid)",
+              },
+              note: { zh: "被中和的对象。", en: "The acid being neutralized." },
+              role: "l",
+            },
+            {
+              f: "AlCl₃",
+              name: { zh: "氯化铝", en: "Aluminum chloride" },
+              note: { zh: "中和产物。", en: "Neutralization product." },
+              role: "r",
+            },
+            {
+              f: "NaCl",
+              name: { zh: "氯化钠", en: "Sodium chloride" },
+              note: { zh: "中和产物。", en: "Neutralization product." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: {
+                zh: "小苏打中和时产生，易腹胀者慎用。",
+                en: "Given off by baking soda; can cause bloating.",
+              },
+              role: "r",
+            },
+          ],
           icon: "💊",
           term: { zh: "胃酸中和（胃药）", en: "Stomach-Acid Neutralization" },
           oneLiner: {
