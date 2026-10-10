@@ -24,6 +24,9 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # 门禁：类型 / 数据 / i18n 校验，失败则不构建、不发布
+      - name: Verify (typecheck + 数据 + i18n)
+        run: npm run verify
       # 预渲染需要 Chrome：puppeteer 安装脚本会下载，这里显式再装一次以防被跳过
       - name: Install Chrome for puppeteer
         run: npx puppeteer browsers install chrome

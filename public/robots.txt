@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://wedo2016.github.io/wanwu-hub/sitemap.xml
+Sitemap: https://minosie.github.io/wanwu-hub/sitemap.xml

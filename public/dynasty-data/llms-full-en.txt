@@ -2,7 +2,7 @@
 
 > A static, zero-dependency educational site on Chinese imperial history, from the Xia to the Qing dynasty (21 dynasties & transitional periods). Full plain-text dump of all structured data for LLM ingestion.
 
-Source: https://wedo2016.github.io/wanwu-hub/
+Source: https://minosie.github.io/wanwu-hub/
 
 ## 各王朝详情
 

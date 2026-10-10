@@ -5,14 +5,24 @@ import { renderLayout } from "./core/layout";
 import { PROJECTS } from "./core/projects";
 import { renderHome } from "./shell/home";
 import * as soon from "./subjects/soon";
-import * as dynasty from "./subjects/dynasty";
-import * as econ from "./subjects/econ";
-import * as mind from "./subjects/mind";
-import * as thought from "./subjects/thought";
-import * as earth from "./subjects/earth";
-import * as life from "./subjects/life";
-import * as physics from "./subjects/physics";
-import * as chem from "./subjects/chem";
+
+/**
+ * 学科模块懒加载注册表：按 key 动态 import，Vite 各自切成独立 chunk，
+ * 仅在进入该学科时才下载其 JS + CSS（dynasty 的脚本 / 样式尤其大）。
+ * 统一签名：mount(view, sub?) => Promise<cleanup>
+ */
+type SubjectMount = (view: HTMLElement, sub?: string) => Promise<() => void>;
+const SUBJECT_LOADERS: Record<string, () => Promise<{ mount: SubjectMount }>> =
+  {
+    dynasty: () => import("./subjects/dynasty"),
+    econ: () => import("./subjects/econ"),
+    mind: () => import("./subjects/mind"),
+    thought: () => import("./subjects/thought"),
+    earth: () => import("./subjects/earth"),
+    life: () => import("./subjects/life"),
+    physics: () => import("./subjects/physics"),
+    chem: () => import("./subjects/chem"),
+  };
 
 const app = document.getElementById("app")!;
 let currentCleanup: (() => void) | null = null;
@@ -31,12 +41,15 @@ async function renderView(): Promise<void> {
   view.className = "";
   view.removeAttribute("data-theme");
   Array.from(app.classList).forEach((c) => {
-    if (c === "subject-mode" || c.startsWith("subject-")) app.classList.remove(c);
+    if (c === "subject-mode" || c.startsWith("subject-"))
+      app.classList.remove(c);
   });
   if (route.name === "home") {
     document.title = "万物通识系列 — 系列入口";
     renderHome(view);
-    window.dispatchEvent(new CustomEvent("subject:change", { detail: { key: null } }));
+    window.dispatchEvent(
+      new CustomEvent("subject:change", { detail: { key: null } }),
+    );
     return;
   }
   app.classList.add("subject-mode");
@@ -50,36 +63,10 @@ async function renderView(): Promise<void> {
   app.classList.toggle("subject-physics", key === "physics");
   app.classList.toggle("subject-chem", key === "chem");
   window.dispatchEvent(new CustomEvent("subject:change", { detail: { key } }));
-  if (key === "dynasty") {
-    currentCleanup = await dynasty.mount(view);
-    return;
-  }
-  if (key === "econ") {
-    currentCleanup = await econ.mount(view, route.sub);
-    return;
-  }
-  if (key === "mind") {
-    currentCleanup = await mind.mount(view, route.sub);
-    return;
-  }
-  if (key === "thought") {
-    currentCleanup = await thought.mount(view, route.sub);
-    return;
-  }
-  if (key === "earth") {
-    currentCleanup = await earth.mount(view, route.sub);
-    return;
-  }
-  if (key === "life") {
-    currentCleanup = await life.mount(view, route.sub);
-    return;
-  }
-  if (key === "physics") {
-    currentCleanup = await physics.mount(view, route.sub);
-    return;
-  }
-  if (key === "chem") {
-    currentCleanup = await chem.mount(view, route.sub);
+  const loader = SUBJECT_LOADERS[key];
+  if (loader) {
+    const mod = await loader();
+    currentCleanup = await mod.mount(view, route.sub);
     return;
   }
   const p = PROJECTS.find((x) => x.key === key);

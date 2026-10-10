@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://minosie.github.io/wanwu-hub/dynasty-data/sitemap.xml

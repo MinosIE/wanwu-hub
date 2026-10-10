@@ -51,7 +51,7 @@
   --nav-h: 58px;
 }
 
-.econ-root[data-theme='dark'] {
+.econ-root[data-theme="dark"] {
   --bg: #0b1c26;
   --surface: #122a35;
   --surface-2: #183642;
@@ -76,5 +76,5 @@
   --s-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
   --s-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.45);
 
-  --hero: linear-gradient(158deg, #041a24 0%, #0a5568 58%, #072b33 100%);
+  --hero: linear-gradient(158deg, #03141c 0%, #073b48 58%, #051f26 100%);
 }

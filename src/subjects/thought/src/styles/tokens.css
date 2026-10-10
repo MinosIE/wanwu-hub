@@ -51,7 +51,7 @@
   --nav-h: 58px;
 }
 
-.thought-root[data-theme='dark'] {
+.thought-root[data-theme="dark"] {
   --bg: #130d26;
   --surface: #1c1533;
   --surface-2: #251c41;
@@ -76,5 +76,5 @@
   --s-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
   --s-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.45);
 
-  --hero: linear-gradient(158deg, #0c0720 0%, #3b1d7a 58%, #160d2e 100%);
+  --hero: linear-gradient(158deg, #0a0518 0%, #271550 58%, #120a24 100%);
 }

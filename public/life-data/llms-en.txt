@@ -1,0 +1,16 @@
+# Life of Everything
+
+> Evolution, taxonomy, cells and ecology — the diversity of life and how it all connects.
+
+## Data endpoints
+- [Classics](https://minosie.github.io/wanwu-hub/life-data/data/classics.json)
+- [Endemic species](https://minosie.github.io/wanwu-hub/life-data/data/endemics.json)
+- [Overview & counts](https://minosie.github.io/wanwu-hub/life-data/data/overview.json)
+- [Core questions](https://minosie.github.io/wanwu-hub/life-data/data/questions.json)
+- [Related index](https://minosie.github.io/wanwu-hub/life-data/data/related.json)
+- [Schools](https://minosie.github.io/wanwu-hub/life-data/data/schools.json)
+- [Search index](https://minosie.github.io/wanwu-hub/life-data/data/search.json)
+- [References](https://minosie.github.io/wanwu-hub/life-data/data/sources.json)
+- [Thinkers](https://minosie.github.io/wanwu-hub/life-data/data/thinkers.json)
+- [Page](https://minosie.github.io/wanwu-hub/subject/life/)
+- [Chinese index](https://minosie.github.io/wanwu-hub/life-data/llms.txt)

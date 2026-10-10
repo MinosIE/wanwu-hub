@@ -1,0 +1,14 @@
+# 万物哲学
+
+> 串起东西方哲学流派、核心命题与经典著作，在追问与思辨中理解我们如何认识世界。
+
+## 数据入口
+- [经典著作](https://minosie.github.io/wanwu-hub/thought-data/data/classics.json)
+- [概览与计数](https://minosie.github.io/wanwu-hub/thought-data/data/overview.json)
+- [核心问题](https://minosie.github.io/wanwu-hub/thought-data/data/questions.json)
+- [相关条目索引](https://minosie.github.io/wanwu-hub/thought-data/data/related.json)
+- [学派](https://minosie.github.io/wanwu-hub/thought-data/data/schools.json)
+- [搜索索引](https://minosie.github.io/wanwu-hub/thought-data/data/search.json)
+- [参考资料](https://minosie.github.io/wanwu-hub/thought-data/data/sources.json)
+- [思想家](https://minosie.github.io/wanwu-hub/thought-data/data/thinkers.json)
+- [页面](https://minosie.github.io/wanwu-hub/subject/thought/)

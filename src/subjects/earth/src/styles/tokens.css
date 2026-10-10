@@ -51,7 +51,7 @@
   --nav-h: 58px;
 }
 
-.earth-root[data-theme='dark'] {
+.earth-root[data-theme="dark"] {
   --bg: #0a1714;
   --surface: #122019;
   --surface-2: #19291f;
@@ -76,5 +76,5 @@
   --s-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
   --s-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.45);
 
-  --hero: linear-gradient(158deg, #06110d 0%, #0b5d56 58%, #0a201b 100%);
+  --hero: linear-gradient(158deg, #04100d 0%, #083f3a 58%, #061714 100%);
 }

@@ -8,9 +8,9 @@
  * 主题色由 CSS 变量驱动，无需传入。
  */
 
-import { fetchData } from './data';
-import { esc, need } from './dom';
-import { t, getLang } from './ui';
+import { fetchData } from "./data";
+import { esc, need } from "./dom";
+import { t, getLang } from "./ui";
 
 export interface SearchEntry {
   m: string;
@@ -28,15 +28,15 @@ export interface SearchController {
 }
 
 export interface InitSearchOpts {
-  input: string; // 输入框选择器，默认 '#search'
-  results: string; // 结果容器选择器，默认 '#searchResults'
+  input?: string; // 输入框选择器，默认 '#search'
+  results?: string; // 结果容器选择器，默认 '#searchResults'
   onPick: (entry: SearchEntry) => void;
   fetchUrl?: string; // 索引文件，默认 'search.json'
 }
 
 export function initSearch(opts: InitSearchOpts): SearchController {
-  const inputSel = opts.input ?? '#search';
-  const resultsSel = opts.results ?? '#searchResults';
+  const inputSel = opts.input ?? "#search";
+  const resultsSel = opts.results ?? "#searchResults";
   const input = need<HTMLInputElement>(inputSel);
   const box = need(resultsSel);
 
@@ -48,7 +48,7 @@ export function initSearch(opts: InitSearchOpts): SearchController {
   function ensureIndex(): Promise<void> {
     if (index) return Promise.resolve();
     if (!loading) {
-      loading = fetchData<SearchEntry[]>(opts.fetchUrl ?? 'search.json')
+      loading = fetchData<SearchEntry[]>(opts.fetchUrl ?? "search.json")
         .then((data) => {
           index = data;
         })
@@ -60,10 +60,10 @@ export function initSearch(opts: InitSearchOpts): SearchController {
   }
 
   function score(entry: SearchEntry, q: string): number {
-    const n = (entry.n || '').toLowerCase();
-    const x = (entry.x || '').toLowerCase();
-    const nEn = (entry.nEn || '').toLowerCase();
-    const xEn = (entry.xEn || '').toLowerCase();
+    const n = (entry.n || "").toLowerCase();
+    const x = (entry.x || "").toLowerCase();
+    const nEn = (entry.nEn || "").toLowerCase();
+    const xEn = (entry.xEn || "").toLowerCase();
     if (n === q || nEn === q) return 0;
     if (n.startsWith(q) || nEn.startsWith(q)) return 1;
     if (n.includes(q) || nEn.includes(q)) return 2;
@@ -73,22 +73,22 @@ export function initSearch(opts: InitSearchOpts): SearchController {
 
   function render(list: SearchEntry[]): void {
     if (!list.length) {
-      box.innerHTML = `<p class="sr-empty">${esc(t('searchEmpty'))}</p>`;
+      box.innerHTML = `<p class="sr-empty">${esc(t("searchEmpty"))}</p>`;
       box.hidden = false;
       return;
     }
     const lang = getLang();
     box.innerHTML = list
       .map((e, i) => {
-        const name = (lang === 'en' && e.nEn) || e.n;
-        const x = (lang === 'en' && e.xEn) || e.x || '';
-        return `<div class="sr-item${i === cursor ? ' on' : ''}" role="option" data-i="${i}">
+        const name = (lang === "en" && e.nEn) || e.n;
+        const x = (lang === "en" && e.xEn) || e.x || "";
+        return `<div class="sr-item${i === cursor ? " on" : ""}" role="option" data-i="${i}">
           <span class="sr-type">${esc(t(e.t))}</span>
           <span class="sr-name">${esc(name)}</span>
           <span class="sr-x">${esc(x)}</span>
         </div>`;
       })
-      .join('');
+      .join("");
     box.hidden = false;
   }
 
@@ -111,23 +111,28 @@ export function initSearch(opts: InitSearchOpts): SearchController {
     });
   }
 
-  input.addEventListener('input', () => run(input.value));
-  input.addEventListener('focus', () => {
+  input.addEventListener("input", () => run(input.value));
+  input.addEventListener("focus", () => {
     if (!input.value.trim()) close();
   });
-  input.addEventListener('keydown', (ev) => {
-    if (ev.key === 'Escape') {
+  input.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") {
       close();
       return;
     }
     if (!items.length) return;
-    if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
+    if (ev.key === "ArrowDown" || ev.key === "ArrowUp") {
       ev.preventDefault();
-      cursor = ev.key === 'ArrowDown' ? (cursor + 1) % items.length : (cursor - 1 + items.length) % items.length;
-      box.querySelectorAll('.sr-item').forEach((node, i) => node.classList.toggle('on', i === cursor));
+      cursor =
+        ev.key === "ArrowDown"
+          ? (cursor + 1) % items.length
+          : (cursor - 1 + items.length) % items.length;
+      box
+        .querySelectorAll(".sr-item")
+        .forEach((node, i) => node.classList.toggle("on", i === cursor));
       return;
     }
-    if (ev.key === 'Enter') {
+    if (ev.key === "Enter") {
       ev.preventDefault();
       const picked = items[cursor >= 0 ? cursor : 0];
       if (picked) {
@@ -137,8 +142,8 @@ export function initSearch(opts: InitSearchOpts): SearchController {
     }
   });
 
-  box.addEventListener('click', (ev) => {
-    const node = (ev.target as HTMLElement).closest<HTMLElement>('.sr-item');
+  box.addEventListener("click", (ev) => {
+    const node = (ev.target as HTMLElement).closest<HTMLElement>(".sr-item");
     if (!node) return;
     const picked = items[Number(node.dataset.i)];
     if (picked) {
@@ -147,13 +152,13 @@ export function initSearch(opts: InitSearchOpts): SearchController {
     }
   });
 
-  document.addEventListener('click', (ev) => {
-    if (!(ev.target as HTMLElement).closest('.search')) close();
+  document.addEventListener("click", (ev) => {
+    if (!(ev.target as HTMLElement).closest(".search")) close();
   });
 
   function close(): void {
     box.hidden = true;
-    box.innerHTML = '';
+    box.innerHTML = "";
     items = [];
     cursor = -1;
   }

@@ -6,7 +6,7 @@
 // 渲染同一页；对不执行 JS 的爬虫也提供可读内容（SEO）。
 import { createServer } from "node:http";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join, extname, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import puppeteer from "puppeteer";
@@ -22,16 +22,24 @@ if (!existsSync(DIST)) {
   process.exit(1);
 }
 
-// 需要预渲染的页面：首页 + 已接入的学科。
+// 需要预渲染的页面：首页 + 已接入的学科（清单来自唯一数据源 src/core/subjects.json）。
 // file: 输出到 dist 下的相对路径；url: 本地服务器访问路径（含 hash）；hash: 静态文件直访时补足的 hash。
+const SUBJECTS = JSON.parse(
+  readFileSync(join(ROOT, "src", "core", "subjects.json"), "utf8"),
+);
 const ROUTES = [
-  { file: "index.html", url: `${BASE}/`, title: "万物通识系列 — 系列入口", hash: null },
-  { file: "subject/dynasty/index.html", url: `${BASE}/#/subject/dynasty`, title: "中华王朝 — 万物通识系列", hash: "#/subject/dynasty" },
-  { file: "subject/econ/index.html", url: `${BASE}/#/subject/econ`, title: "万物经济学 — 万物通识系列", hash: "#/subject/econ" },
-  { file: "subject/mind/index.html", url: `${BASE}/#/subject/mind`, title: "万物心理学 — 万物通识系列", hash: "#/subject/mind" },
-  { file: "subject/thought/index.html", url: `${BASE}/#/subject/thought`, title: "万物哲学 — 万物通识系列", hash: "#/subject/thought" },
-  { file: "subject/earth/index.html", url: `${BASE}/#/subject/earth`, title: "万物地理 — 万物通识系列", hash: "#/subject/earth" },
-  { file: "subject/life/index.html", url: `${BASE}/#/subject/life`, title: "万物生物 — 万物通识系列", hash: "#/subject/life" },
+  {
+    file: "index.html",
+    url: `${BASE}/`,
+    title: "万物通识系列 — 系列入口",
+    hash: null,
+  },
+  ...SUBJECTS.filter((s) => s.integrated).map((s) => ({
+    file: `subject/${s.key}/index.html`,
+    url: `${BASE}/#/subject/${s.key}`,
+    title: `${s.zh} — 万物通识系列`,
+    hash: `#/subject/${s.key}`,
+  })),
 ];
 
 const MIME = {
@@ -108,7 +116,10 @@ async function renderRoute(browser, route) {
     let html = await page.content();
 
     // 替换标题
-    html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${route.title}</title>`);
+    html = html.replace(
+      /<title>[\s\S]*?<\/title>/i,
+      `<title>${route.title}</title>`,
+    );
     // 直接访问静态文件时补足 hash，保证 main.ts 接管后渲染同一页
     if (route.hash) {
       html = html.replace(
@@ -129,7 +140,8 @@ async function renderRoute(browser, route) {
 
 // 解析 Chrome 可执行文件：优先环境变量，其次本机常见安装，最后回退到 puppeteer 自带
 function resolveChrome() {
-  if (process.env.PUPPETEER_EXECUTABLE_PATH) return process.env.PUPPETEER_EXECUTABLE_PATH;
+  if (process.env.PUPPETEER_EXECUTABLE_PATH)
+    return process.env.PUPPETEER_EXECUTABLE_PATH;
   const candidates = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",

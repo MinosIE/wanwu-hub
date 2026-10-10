@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.w3.org/1999/sitemap.xml">
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/?lang=en</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/concepts.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/glossary.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/psychologists.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/schools.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/biases.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/experiments.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/timeline.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/everyday.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/myths.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/quiz.json</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://MinosIE.github.io/wanwu-hub/#/subject/mind/data/compare.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/subject/mind/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/subject/mind/?lang=en</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/concepts.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/glossary.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/psychologists.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/schools.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/biases.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/experiments.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/timeline.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/everyday.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/myths.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/quiz.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/compare.json</loc><changefreq>monthly</changefreq></url>
 </urlset>

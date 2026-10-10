@@ -1,6 +1,6 @@
 /* 设计令牌：万物心理学 —— 暖色调（陶土橙 + 暖金） */
 .mind-root,
-.mind-root[data-theme='light'] {
+.mind-root[data-theme="light"] {
   --bg: #faf6f1;
   --bg-soft: #f3ece2;
   --card: #ffffff;
@@ -43,7 +43,7 @@
   --ok-bg: color-mix(in srgb, #3a9d6b 16%, transparent);
 }
 
-.mind-root[data-theme='dark'] {
+.mind-root[data-theme="dark"] {
   --bg: #1a1512;
   --bg-soft: #211a16;
   --card: #251e19;
@@ -61,7 +61,7 @@
   --shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
   --shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.5);
   --ring: rgba(229, 147, 83, 0.4);
-  --hero: linear-gradient(160deg, #1a0e07 0%, #b5612f 55%, #4a2310 100%);
+  --hero: linear-gradient(160deg, #140a05 0%, #6e3a1e 55%, #2c160b 100%);
   /* 规范 token 别名桥：对接共享 UI 层 src/core/ui/ui.css */
   --brand: var(--accent);
   --brand-d: var(--accent-strong);

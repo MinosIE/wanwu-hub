@@ -1,0 +1,28 @@
+name: CI
+
+# 门禁：PR / 推送到 main 时，先跑类型检查 + 全量 JSON 校验 + dynasty 数据/i18n 校验 + 构建，
+# 任一失败即阻断（早于 Deploy，避免坏数据 / 类型回归上线白屏）。
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: 类型检查 + 数据校验 + i18n 检查
+        run: npm run verify
+      - name: 构建校验
+        run: npm run build

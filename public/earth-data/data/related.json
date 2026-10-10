@@ -111,6 +111,20 @@
       "nEn": "Alpine Zone"
     }
   ],
+  "yellow-river": [
+    {
+      "m": "m-classics",
+      "n": "黄河",
+      "nEn": "Yellow River"
+    }
+  ],
+  "qinghai-plateau": [
+    {
+      "m": "m-classics",
+      "n": "青藏高原",
+      "nEn": "Qinghai–Tibet Plateau"
+    }
+  ],
   "himalaya": [
     {
       "m": "m-classics",
@@ -207,6 +221,27 @@
       "m": "m-thinkers",
       "n": "郑和",
       "nEn": "Zheng He"
+    }
+  ],
+  "li-daoyuan": [
+    {
+      "m": "m-thinkers",
+      "n": "郦道元",
+      "nEn": "Li Daoyuan"
+    }
+  ],
+  "xu-xiake": [
+    {
+      "m": "m-thinkers",
+      "n": "徐霞客",
+      "nEn": "Xu Xiake"
+    }
+  ],
+  "zhu-kezhen": [
+    {
+      "m": "m-thinkers",
+      "n": "竺可桢",
+      "nEn": "Zhu Kezhen"
     }
   ],
   "humboldt": [

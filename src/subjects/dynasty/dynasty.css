@@ -29,6 +29,7 @@
   --emp-bg: var(--brand-50);
   --emp-border: var(--brand-100);
   --etag-bg: var(--surface);
+  --hero: linear-gradient(158deg, #2a0f0a 0%, #cf3a20 58%, #3a160e 100%);
   --s-soft: 0 1px 2px rgba(10, 37, 64, 0.04), 0 2px 8px rgba(10, 37, 64, 0.04);
   --s-card: 0 1px 3px rgba(10, 37, 64, 0.06), 0 8px 24px rgba(10, 37, 64, 0.06);
   --s-lift: 0 2px 4px rgba(10, 37, 64, 0.06), 0 16px 40px rgba(10, 37, 64, 0.1);
@@ -52,6 +53,7 @@
   --ink-50: #0f1d2e;
   --gold: #d9b65a;
 
+  --hero: linear-gradient(158deg, #150604 0%, #6e2013 58%, #1f0b07 100%);
   --s-soft: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.34);
   --s-card: 0 1px 3px rgba(0, 0, 0, 0.35), 0 8px 24px rgba(0, 0, 0, 0.4);
   --s-lift: 0 2px 4px rgba(0, 0, 0, 0.35), 0 16px 40px rgba(0, 0, 0, 0.5);
@@ -136,75 +138,59 @@
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-1px);
 }
-/* hero — 中式卷轴风（沉浸式全幅） */
+/* hero — 与其他学科统一：单色 --hero 渐变 + 白色径向高光 + 角部光晕 */
 .dynasty-root .hero {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 12px;
   align-items: center;
   justify-content: center;
+  gap: 13px;
   text-align: center;
   min-height: 34vh;
   padding: 48px 24px 44px;
   border-radius: 0;
-  color: #f6ede0;
-  background:
-    radial-gradient(120% 80% at 50% -10%, rgba(201, 162, 39, 0.18), transparent 60%),
-    linear-gradient(150deg, #1b1512 0%, #2a1b15 50%, #3a241b 100%);
-  background-size: 100% 100%, 180% 180%;
-  background-position: 0 0, 50% 50%;
-  border: 1px solid rgba(201, 162, 39, 0.28);
-  box-shadow: inset 0 0 0 1px rgba(201, 162, 39, 0.08), var(--s-lift);
-  position: relative;
+  background: var(--hero);
+  color: #fff;
   overflow: hidden;
-  animation: heroBgBreath 14s ease-in-out infinite;
 }
-@keyframes heroBgBreath {
-  0%, 100% { background-position: 0 0, 35% 35%; }
-  50% { background-position: 0 0, 65% 65%; }
+.dynasty-root .hero > *:not(.icon-btn) {
+  position: relative;
+  z-index: 1;
 }
-@media (prefers-reduced-motion: reduce) {
-  .dynasty-root .hero { animation: none !important; }
+.dynasty-root .hero::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  z-index: 0;
+  background: radial-gradient(
+    42% 55% at 50% 28%,
+    rgba(255, 255, 255, 0.16),
+    transparent 70%
+  );
+  animation: heroBreath 10s ease-in-out infinite;
+  pointer-events: none;
 }
-/* 卷轴两侧轴头 */
-.dynasty-root .hero::before,
 .dynasty-root .hero::after {
   content: "";
   position: absolute;
-  top: -1px;
-  bottom: -1px;
-  width: 10px;
-  background: linear-gradient(180deg, #c9a227, #8a6d1f);
-  box-shadow: 0 0 12px rgba(201, 162, 39, 0.35);
+  right: -70px;
+  top: -70px;
+  z-index: 0;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--gold, #c79a3a) 34%, transparent),
+    transparent 70%
+  );
+  pointer-events: none;
 }
-.dynasty-root .hero::before {
-  left: 0;
-  border-radius: 0 var(--r4) var(--r4) 0;
-}
-.dynasty-root .hero::after {
-  right: 0;
-  border-radius: var(--r4) 0 0 var(--r4);
-}
-/* 印章 */
-.dynasty-root .hero-seal {
-  position: absolute;
-  top: 16px;
-  right: 18px;
-  width: 46px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
-  background: var(--brand);
-  border: 2px solid rgba(201, 162, 39, 0.85);
-  border-radius: 8px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
-  transform: rotate(-4deg);
-  z-index: 3;
+@media (prefers-reduced-motion: reduce) {
+  .dynasty-root .hero::before {
+    animation: none !important;
+  }
 }
 /* subject-dynasty：侧面出血贴合内容区，顶部正常落在透明顶栏下方，与首页同款融合 */
 #app.subject-dynasty .dynasty-root .hero {

@@ -1,0 +1,14 @@
+# 万物地理
+
+> 从地形、气候带到国家档案与河流山脉，建立对世界地理空间的整体认知。
+
+## 数据入口
+- [经典著作](https://minosie.github.io/wanwu-hub/earth-data/data/classics.json)
+- [概览与计数](https://minosie.github.io/wanwu-hub/earth-data/data/overview.json)
+- [核心问题](https://minosie.github.io/wanwu-hub/earth-data/data/questions.json)
+- [相关条目索引](https://minosie.github.io/wanwu-hub/earth-data/data/related.json)
+- [学派](https://minosie.github.io/wanwu-hub/earth-data/data/schools.json)
+- [搜索索引](https://minosie.github.io/wanwu-hub/earth-data/data/search.json)
+- [参考资料](https://minosie.github.io/wanwu-hub/earth-data/data/sources.json)
+- [思想家](https://minosie.github.io/wanwu-hub/earth-data/data/thinkers.json)
+- [页面](https://minosie.github.io/wanwu-hub/subject/earth/)

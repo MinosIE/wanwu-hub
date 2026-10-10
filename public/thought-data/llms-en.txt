@@ -1,0 +1,15 @@
+# Thought of Everything
+
+> Eastern and Western schools, core questions and classics — how we come to know the world through inquiry.
+
+## Data endpoints
+- [Classics](https://minosie.github.io/wanwu-hub/thought-data/data/classics.json)
+- [Overview & counts](https://minosie.github.io/wanwu-hub/thought-data/data/overview.json)
+- [Core questions](https://minosie.github.io/wanwu-hub/thought-data/data/questions.json)
+- [Related index](https://minosie.github.io/wanwu-hub/thought-data/data/related.json)
+- [Schools](https://minosie.github.io/wanwu-hub/thought-data/data/schools.json)
+- [Search index](https://minosie.github.io/wanwu-hub/thought-data/data/search.json)
+- [References](https://minosie.github.io/wanwu-hub/thought-data/data/sources.json)
+- [Thinkers](https://minosie.github.io/wanwu-hub/thought-data/data/thinkers.json)
+- [Page](https://minosie.github.io/wanwu-hub/subject/thought/)
+- [Chinese index](https://minosie.github.io/wanwu-hub/thought-data/llms.txt)

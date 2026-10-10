@@ -51,7 +51,7 @@
   --nav-h: 58px;
 }
 
-.life-root[data-theme='dark'] {
+.life-root[data-theme="dark"] {
   --bg: #08160e;
   --surface: #0f1f16;
   --surface-2: #16271c;
@@ -76,5 +76,5 @@
   --s-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
   --s-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.45);
 
-  --hero: linear-gradient(158deg, #051009 0%, #166534 58%, #0a1f14 100%);
+  --hero: linear-gradient(158deg, #04100a 0%, #0e3d24 58%, #071a11 100%);
 }

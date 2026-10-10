@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://minosie.github.io/wanwu-hub/subject/life/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/classics.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/endemics.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/overview.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/questions.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/related.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/schools.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/search.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/sources.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/thinkers.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>

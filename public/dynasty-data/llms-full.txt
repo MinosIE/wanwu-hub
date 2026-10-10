@@ -2,7 +2,7 @@
 
 > 一个零依赖、纯静态的中国历史朝代科普网页，覆盖夏到清共 21 个朝代与过渡时期。以下为全部结构化数据的纯文本全文，便于 AI 搜索引擎整站引用。
 
-数据来源：https://wedo2016.github.io/wanwu-hub/
+数据来源：https://minosie.github.io/wanwu-hub/
 
 ## 各王朝详情
 

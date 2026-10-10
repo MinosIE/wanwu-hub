@@ -3,16 +3,16 @@
 > 用经济学解释世界的通识科普静态站：核心概念、名词词典、宏观经济、微观经济、货币与金融、经济思想家、经济学流派、经济发展史、行为经济学、博弈论、国际贸易、生活中的经济学、数据可视化、常见误区、小测验与中外对比。全部数据为结构化 JSON，中英双语字段成对（中文原文 + `*En`）。本站不提供任何投资建议。
 
 ## 数据入口
-- [概览与计数](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/overview.json)：各模块条目数与首页 KPI
-- [核心概念](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/concepts.json)｜[名词词典](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/glossary.json)
-- [宏观经济](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/macro.json)｜[微观经济](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/micro.json)｜[货币与金融](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/money.json)
-- [经济思想家](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/thinkers.json)｜[经济学流派](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/schools.json)｜[经济发展史](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/events.json)
-- [行为经济学](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/behavioral.json)｜[博弈论](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/gametheory.json)｜[国际贸易](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/trade.json)
-- [生活中的经济学](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/everyday.json)｜[数据可视化](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/charts.json)
-- [常见误区](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/myths.json)｜[小测验](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/quiz.json)｜[中外对比](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/compare.json)
-- [参考资料](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/sources.json)｜[搜索索引](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/search.json)｜[相关条目索引](https://MinosIE.github.io/wanwu-hub/#/subject/econ/data/related.json)
-- [全量文本](https://MinosIE.github.io/wanwu-hub/#/subject/econ/llms-full.txt)：整站结构化数据的纯文本全文（便于整站引用）
-- [英文索引](https://MinosIE.github.io/wanwu-hub/#/subject/econ/llms-en.txt)：English version of this index
+- [概览与计数](https://minosie.github.io/wanwu-hub/econ-data/data/overview.json)：各模块条目数与首页 KPI
+- [核心概念](https://minosie.github.io/wanwu-hub/econ-data/data/concepts.json)｜[名词词典](https://minosie.github.io/wanwu-hub/econ-data/data/glossary.json)
+- [宏观经济](https://minosie.github.io/wanwu-hub/econ-data/data/macro.json)｜[微观经济](https://minosie.github.io/wanwu-hub/econ-data/data/micro.json)｜[货币与金融](https://minosie.github.io/wanwu-hub/econ-data/data/money.json)
+- [经济思想家](https://minosie.github.io/wanwu-hub/econ-data/data/thinkers.json)｜[经济学流派](https://minosie.github.io/wanwu-hub/econ-data/data/schools.json)｜[经济发展史](https://minosie.github.io/wanwu-hub/econ-data/data/events.json)
+- [行为经济学](https://minosie.github.io/wanwu-hub/econ-data/data/behavioral.json)｜[博弈论](https://minosie.github.io/wanwu-hub/econ-data/data/gametheory.json)｜[国际贸易](https://minosie.github.io/wanwu-hub/econ-data/data/trade.json)
+- [生活中的经济学](https://minosie.github.io/wanwu-hub/econ-data/data/everyday.json)｜[数据可视化](https://minosie.github.io/wanwu-hub/econ-data/data/charts.json)
+- [常见误区](https://minosie.github.io/wanwu-hub/econ-data/data/myths.json)｜[小测验](https://minosie.github.io/wanwu-hub/econ-data/data/quiz.json)｜[中外对比](https://minosie.github.io/wanwu-hub/econ-data/data/compare.json)
+- [参考资料](https://minosie.github.io/wanwu-hub/econ-data/data/sources.json)｜[搜索索引](https://minosie.github.io/wanwu-hub/econ-data/data/search.json)｜[相关条目索引](https://minosie.github.io/wanwu-hub/econ-data/data/related.json)
+- [全量文本](https://minosie.github.io/wanwu-hub/econ-data/llms-full.txt)：整站结构化数据的纯文本全文（便于整站引用）
+- [英文索引](https://minosie.github.io/wanwu-hub/econ-data/llms-en.txt)：English version of this index
 
 ## 模块导航
 - 核心概念
