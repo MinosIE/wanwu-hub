@@ -2656,6 +2656,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             cond: { zh: "光照", en: "light" },
             rhs: "CH₃Cl + HCl",
           },
+          subs: [
+            {
+              f: "CH₄",
+              name: { zh: "甲烷", en: "Methane" },
+              note: {
+                zh: "被取代的有机物，C–H 中的氢被替换。",
+                en: "The organic substrate; a C–H hydrogen is replaced.",
+              },
+              role: "l",
+            },
+            {
+              f: "Cl₂",
+              name: { zh: "氯气", en: "Chlorine" },
+              note: {
+                zh: "光照下产生氯自由基，作取代试剂。",
+                en: "Forms chlorine radicals under light; the substituting agent.",
+              },
+              role: "l",
+            },
+            {
+              f: "CH₃Cl",
+              name: { zh: "一氯甲烷", en: "Chloromethane" },
+              note: {
+                zh: "取代主产物（气体）。",
+                en: "Main substitution product (gas).",
+              },
+              role: "r",
+            },
+            {
+              f: "HCl",
+              name: { zh: "氯化氢", en: "Hydrogen chloride" },
+              note: {
+                zh: "伴随生成的取代副产物。",
+                en: "Co-product of the substitution.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "有机反应", en: "Reaction" }],
         },
         {
@@ -2670,6 +2708,35 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             lhs: "CH₂=CH₂ + Br₂",
             rhs: "CH₂BrCH₂Br",
           },
+          subs: [
+            {
+              f: "CH₂=CH₂",
+              name: { zh: "乙烯", en: "Ethene" },
+              note: {
+                zh: "含碳碳双键，加成反应物。",
+                en: "Has a C=C double bond; the addition substrate.",
+              },
+              role: "l",
+            },
+            {
+              f: "Br₂",
+              name: { zh: "溴（溴水）", en: "Bromine water" },
+              note: {
+                zh: "断开双键加成，使溴水褪色。",
+                en: "Adds across the double bond, decolorizing bromine water.",
+              },
+              role: "l",
+            },
+            {
+              f: "CH₂BrCH₂Br",
+              name: { zh: "1,2-二溴乙烷", en: "1,2-Dibromoethane" },
+              note: {
+                zh: "加成产物，双键变单键。",
+                en: "Addition product; the double bond becomes single.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "有机反应", en: "Reaction" }],
         },
         {
@@ -2685,6 +2752,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             cond: { zh: "浓硫酸 · 170℃", en: "conc. H₂SO₄, 170℃" },
             rhs: "CH₂=CH₂↑ + H₂O",
           },
+          subs: [
+            {
+              f: "C₂H₅OH",
+              name: { zh: "乙醇", en: "Ethanol" },
+              note: {
+                zh: "消去反应底物，脱去一分子水。",
+                en: "Elimination substrate; loses one water molecule.",
+              },
+              role: "l",
+            },
+            {
+              f: "H₂SO₄（浓）",
+              name: { zh: "浓硫酸", en: "Concentrated sulfuric acid" },
+              note: {
+                zh: "催化剂兼脱水剂，170 ℃ 下促进消去。",
+                en: "Catalyst and dehydrating agent; drives elimination at 170 °C.",
+              },
+              role: "c",
+            },
+            {
+              f: "CH₂=CH₂↑",
+              name: { zh: "乙烯（气体）", en: "Ethene (gas)" },
+              note: {
+                zh: "消去产物，新生碳碳双键。",
+                en: "Elimination product with a new C=C bond.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "被脱去的小分子。",
+                en: "The small molecule eliminated.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "有机反应", en: "Reaction" }],
         },
         {
@@ -2700,6 +2805,35 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             cond: { zh: "催化剂", en: "catalyst" },
             rhs: "[—CH₂—CH₂—]ₙ",
           },
+          subs: [
+            {
+              f: "nCH₂=CH₂",
+              name: { zh: "乙烯（单体）", en: "Ethene (monomer)" },
+              note: {
+                zh: "n 个单体经加成聚合。",
+                en: "n monomers joining by addition.",
+              },
+              role: "l",
+            },
+            {
+              f: "催化剂",
+              name: { zh: "催化剂", en: "Catalyst" },
+              note: {
+                zh: "引发加聚反应的条件/介质。",
+                en: "Medium that initiates the polymerization.",
+              },
+              role: "c",
+            },
+            {
+              f: "[—CH₂—CH₂—]ₙ",
+              name: { zh: "聚乙烯", en: "Polyethylene" },
+              note: {
+                zh: "加成聚合生成的高分子。",
+                en: "The polymer formed by addition polymerization.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "有机反应", en: "Reaction" }],
         },
         {
@@ -2811,6 +2945,29 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             rhs: "Na⁺ + Cl⁻",
             rel: "equal",
           },
+          subs: [
+            {
+              f: "NaCl",
+              name: {
+                zh: "氯化钠（强电解质）",
+                en: "Sodium chloride (strong electrolyte)",
+              },
+              note: { zh: "溶于水完全电离。", en: "Ionizes fully in water." },
+              role: "l",
+            },
+            {
+              f: "Na⁺",
+              name: { zh: "钠离子", en: "Sodium ion" },
+              note: { zh: "电离出的阳离子。", en: "Cation released." },
+              role: "r",
+            },
+            {
+              f: "Cl⁻",
+              name: { zh: "氯离子", en: "Chloride ion" },
+              note: { zh: "电离出的阴离子。", en: "Anion released." },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "溶液", en: "Solution" }],
         },
         {
@@ -2959,6 +3116,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             rhs: "2NH₃",
             rel: "equilibrium",
           },
+          subs: [
+            {
+              f: "N₂",
+              name: { zh: "氮气", en: "Nitrogen" },
+              note: {
+                zh: "合成氨原料，来自空气分离。",
+                en: "Feedstock from air separation.",
+              },
+              role: "l",
+            },
+            {
+              f: "3H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: {
+                zh: "合成氨的另一原料。",
+                en: "The other synthesis feedstock.",
+              },
+              role: "l",
+            },
+            {
+              f: "催化剂",
+              name: { zh: "铁触媒", en: "Iron catalyst" },
+              note: {
+                zh: "加快达到平衡，不改平衡位置。",
+                en: "Speeds arrival at equilibrium without shifting it.",
+              },
+              role: "c",
+            },
+            {
+              f: "2NH₃",
+              name: { zh: "氨气", en: "Ammonia" },
+              note: {
+                zh: "可逆反应的生成物。",
+                en: "Product of the reversible reaction.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "平衡", en: "Equilibrium" }],
         },
         {
@@ -2992,6 +3187,32 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             rhs: "CH₃COO⁻ + H⁺",
             rel: "equilibrium",
           },
+          subs: [
+            {
+              f: "CH₃COOH",
+              name: { zh: "醋酸（弱酸）", en: "Acetic acid (weak)" },
+              note: {
+                zh: "弱电解质，仅部分电离。",
+                en: "Weak electrolyte; only partly ionizes.",
+              },
+              role: "l",
+            },
+            {
+              f: "CH₃COO⁻",
+              name: { zh: "醋酸根离子", en: "Acetate ion" },
+              note: { zh: "电离出的阴离子。", en: "Anion from ionization." },
+              role: "r",
+            },
+            {
+              f: "H⁺",
+              name: { zh: "氢离子", en: "Hydrogen ion" },
+              note: {
+                zh: "电离出的阳离子，决定酸性。",
+                en: "Cation that sets acidity.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "平衡", en: "Equilibrium" }],
         },
         {
@@ -3033,6 +3254,44 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             rhs: "Zn²⁺ + Cu",
             rel: "equal",
           },
+          subs: [
+            {
+              f: "Zn",
+              name: { zh: "锌（负极）", en: "Zinc (anode)" },
+              note: {
+                zh: "失电子被氧化：Zn − 2e⁻ = Zn²⁺。",
+                en: "Oxidized by losing electrons: Zn − 2e⁻ = Zn²⁺.",
+              },
+              role: "l",
+            },
+            {
+              f: "Cu²⁺",
+              name: { zh: "铜离子（溶液）", en: "Copper ion (solution)" },
+              note: {
+                zh: "在正极得电子被还原。",
+                en: "Reduced at the cathode by gaining electrons.",
+              },
+              role: "l",
+            },
+            {
+              f: "Zn²⁺",
+              name: { zh: "锌离子", en: "Zinc ion" },
+              note: {
+                zh: "负极氧化进入溶液的产物。",
+                en: "Oxidation product entering solution.",
+              },
+              role: "r",
+            },
+            {
+              f: "Cu",
+              name: { zh: "铜", en: "Copper" },
+              note: {
+                zh: "正极还原析出的金属。",
+                en: "Metal deposited at the cathode.",
+              },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "电化学", en: "Electrochem" }],
         },
         {
@@ -3053,6 +3312,32 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             rhs: "2H₂↑ + O₂↑",
             rel: "equal",
           },
+          subs: [
+            {
+              f: "2H₂O",
+              name: { zh: "水（被电解）", en: "Water (electrolyzed)" },
+              note: {
+                zh: "通直流电发生电解。",
+                en: "Split by direct current.",
+              },
+              role: "l",
+            },
+            {
+              f: "2H₂↑",
+              name: { zh: "氢气（阴极）", en: "Hydrogen (cathode)" },
+              note: {
+                zh: "阴极还原产物，体积约为氧气两倍。",
+                en: "Cathode product, about twice the oxygen volume.",
+              },
+              role: "r",
+            },
+            {
+              f: "O₂↑",
+              name: { zh: "氧气（阳极）", en: "Oxygen (anode)" },
+              note: { zh: "阳极氧化产物。", en: "Anode oxidation product." },
+              role: "r",
+            },
+          ],
           tags: [{ zh: "电化学", en: "Electrochem" }],
         },
         {
