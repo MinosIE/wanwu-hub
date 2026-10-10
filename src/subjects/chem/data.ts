@@ -2522,6 +2522,580 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
+    /* ===================== 物质构成与化学键 ===================== */
+    {
+      key: "bonding",
+      icon: "🔗",
+      title: { zh: "物质构成与化学键", en: "Structure & Chemical Bonds" },
+      items: [
+        {
+          id: "ionic-bond",
+          icon: "🧲",
+          term: { zh: "离子键", en: "Ionic Bond" },
+          oneLiner: {
+            zh: "阴、阳离子通过静电作用结合，常见于活泼金属与活泼非金属。",
+            en: "Electrostatic attraction between ions; typical of active metals with active nonmetals.",
+          },
+          detail: {
+            zh: "如 NaCl：钠失去电子成 Na⁺、氯得到电子成 Cl⁻；离子化合物熔沸点较高、固态不导电、熔融或溶于水导电。",
+            en: "E.g. NaCl: Na loses an electron, Cl gains one. Ionic solids have high melting points and conduct when molten or dissolved.",
+          },
+          tags: [{ zh: "化学键", en: "Bonding" }],
+        },
+        {
+          id: "covalent-bond",
+          icon: "🤝",
+          term: { zh: "共价键", en: "Covalent Bond" },
+          oneLiner: {
+            zh: "原子间共用电子对形成的化学键，分极性与非极性。",
+            en: "Shared electron pairs between atoms; polar or nonpolar.",
+          },
+          detail: {
+            zh: "非金属之间常见。相同原子间为非极性（H₂、Cl₂），不同原子间为极性（HCl、H₂O）；可用电子式与结构式表示。",
+            en: "Common among nonmetals: nonpolar between like atoms (H₂), polar between unlike atoms (HCl). Shown by electron and structural formulas.",
+          },
+          tags: [{ zh: "化学键", en: "Bonding" }],
+        },
+        {
+          id: "metallic-bond",
+          icon: "",
+          term: { zh: "金属键", en: "Metallic Bond" },
+          oneLiner: {
+            zh: "金属阳离子与自由电子间的强烈作用，赋予金属导电、导热与延展性。",
+            en: "Cations in a sea of delocalized electrons; gives conductivity, malleability and luster.",
+          },
+          tags: [{ zh: "化学键", en: "Bonding" }],
+        },
+        {
+          id: "intermolecular",
+          icon: "💧",
+          term: { zh: "分子间作用力与氢键", en: "Intermolecular Forces & Hydrogen Bonding" },
+          oneLiner: {
+            zh: "分子间的弱作用（范德华力）与较强的氢键，决定熔沸点与溶解性。",
+            en: "Weak van der Waals forces and stronger hydrogen bonds govern boiling points and solubility.",
+          },
+          detail: {
+            zh: "氢键使水的沸点异常高、冰密度小于水；DNA 双链也靠氢键配对。",
+            en: "Hydrogen bonding raises water's boiling point, makes ice float, and pairs the DNA double helix.",
+          },
+          tags: [{ zh: "分子间", en: "Intermolecular" }],
+        },
+        {
+          id: "crystal-types",
+          icon: "💎",
+          term: { zh: "晶体类型", en: "Crystal Types" },
+          oneLiner: {
+            zh: "离子晶体、分子晶体、原子晶体与金属晶体，性质差异悬殊。",
+            en: "Ionic, molecular, covalent-network and metallic crystals differ greatly in properties.",
+          },
+          detail: {
+            zh: "金刚石（原子晶体）极硬、干冰（分子晶体）易升华、食盐（离子晶体）质脆能溶于水电解质。",
+            en: "Diamond (network) is very hard, dry ice (molecular) sublimes, salt (ionic) is brittle and its solution conducts.",
+          },
+          tags: [{ zh: "物质结构", en: "Structure" }],
+        },
+        {
+          id: "valence",
+          icon: "🔢",
+          term: { zh: "化合价", en: "Valence" },
+          oneLiner: {
+            zh: "元素在化合物中的结合能力，正负化合价代数和为零。",
+            en: "Combining power of an element; the sum of oxidation numbers in a neutral compound is zero.",
+          },
+          tags: [{ zh: "化学用语", en: "Notation" }],
+        },
+      ],
+    },
+    /* ===================== 有机化学 ===================== */
+    {
+      key: "organic",
+      icon: "🧬",
+      title: { zh: "有机化学", en: "Organic Chemistry" },
+      items: [
+        {
+          id: "org-functional",
+          icon: "🏷️",
+          term: { zh: "官能团", en: "Functional Groups" },
+          oneLiner: {
+            zh: "决定有机物化学特性的原子或原子团，如羟基、醛基、羧基。",
+            en: "Atom groups that dictate organic reactivity: hydroxyl, aldehyde, carboxyl, etc.",
+          },
+          detail: {
+            zh: "—OH（醇/酚）、—CHO（醛）、—COOH（酸）、—COO—（酯）、C=C（烯）；官能团决定类别与主要反应。",
+            en: "—OH, —CHO, —COOH, —COO—, C=C; the group defines the class and its key reactions.",
+          },
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "org-isomerism",
+          icon: "🔀",
+          term: { zh: "同分异构体", en: "Isomers" },
+          oneLiner: {
+            zh: "分子式相同、结构不同，性质因而各异的化合物。",
+            en: "Same molecular formula, different structure, hence different properties.",
+          },
+          detail: {
+            zh: "如正丁烷与异丁烷（碳链异构）、乙醇与二甲醚（官能团位置/类型异构）。",
+            en: "E.g. n-butane vs isobutane, ethanol vs dimethyl ether.",
+          },
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "org-substitution",
+          icon: "🔁",
+          term: { zh: "取代反应", en: "Substitution" },
+          oneLiner: {
+            zh: "有机物分子里的原子被其他原子替换，如甲烷氯代。",
+            en: "An atom is replaced by another, e.g. chlorination of methane.",
+          },
+          eq: {
+            lhs: "CH₄ + Cl₂",
+            cond: { zh: "光照", en: "light" },
+            rhs: "CH₃Cl + HCl",
+          },
+          tags: [{ zh: "有机反应", en: "Reaction" }],
+        },
+        {
+          id: "org-addition",
+          icon: "➕",
+          term: { zh: "加成反应", en: "Addition" },
+          oneLiner: {
+            zh: "不饱和键断开，两端加上其他原子，如乙烯使溴水褪色。",
+            en: "Atoms add across a double bond; e.g. ethene decolorizes bromine water.",
+          },
+          eq: {
+            lhs: "CH₂=CH₂ + Br₂",
+            rhs: "CH₂BrCH₂Br",
+          },
+          tags: [{ zh: "有机反应", en: "Reaction" }],
+        },
+        {
+          id: "org-elimination",
+          icon: "💨",
+          term: { zh: "消去反应", en: "Elimination" },
+          oneLiner: {
+            zh: "脱去小分子生成不饱和键，如乙醇脱水制乙烯。",
+            en: "Lose a small molecule to form a double bond; e.g. ethanol to ethene.",
+          },
+          eq: {
+            lhs: "C₂H₅OH",
+            cond: { zh: "浓硫酸 · 170℃", en: "conc. H₂SO₄, 170℃" },
+            rhs: "CH₂=CH₂↑ + H₂O",
+          },
+          tags: [{ zh: "有机反应", en: "Reaction" }],
+        },
+        {
+          id: "org-polymerization",
+          icon: "🔗",
+          term: { zh: "聚合反应", en: "Polymerization" },
+          oneLiner: {
+            zh: "许多小分子（单体）加成结合成高分子，如聚乙烯。",
+            en: "Many monomers join into a polymer, e.g. polyethylene.",
+          },
+          eq: {
+            lhs: "nCH₂=CH₂",
+            cond: { zh: "催化剂", en: "catalyst" },
+            rhs: "[—CH₂—CH₂—]ₙ",
+          },
+          tags: [{ zh: "有机反应", en: "Reaction" }],
+        },
+        {
+          id: "org-sugar",
+          icon: "🍬",
+          term: { zh: "糖类", en: "Carbohydrates" },
+          oneLiner: {
+            zh: "多羟基醛或酮，分单糖、二糖、多糖，是主要能源物质。",
+            en: "Polyhydroxy aldehydes/ketones; mono-, di- and polysaccharides, the main energy source.",
+          },
+          detail: {
+            zh: "葡萄糖（单糖）能发生银镜反应；淀粉、纤维素为多糖，遇碘淀粉变蓝。",
+            en: "Glucose gives the silver-mirror test; starch and cellulose are polysaccharides; starch turns blue with iodine.",
+          },
+          tags: [{ zh: "生命物质", en: "Biomolecule" }],
+        },
+        {
+          id: "org-protein",
+          icon: "🥚",
+          term: { zh: "蛋白质与氨基酸", en: "Proteins & Amino Acids" },
+          oneLiner: {
+            zh: "由氨基酸缩合而成的高分子，是生命活动的承担者。",
+            en: "Polymers of amino acids; the workhorses of life.",
+          },
+          detail: {
+            zh: "含肽键，遇浓硝酸变黄（显色）；高温、重金属、强酸碱使其变性。",
+            en: "Contain peptide bonds; turn yellow with conc. nitric acid; denatured by heat, heavy metals, strong acid/base.",
+          },
+          tags: [{ zh: "生命物质", en: "Biomolecule" }],
+        },
+      ],
+    },
+    /* ===================== 溶液与化学计算 ===================== */
+    {
+      key: "solutions",
+      icon: "🧪",
+      title: { zh: "溶液与化学计算", en: "Solutions & Calculations" },
+      items: [
+        {
+          id: "mole",
+          icon: "🔢",
+          term: { zh: "物质的量与摩尔", en: "Mole & Avogadro's Number" },
+          oneLiner: {
+            zh: "连接微观粒子与宏观质量的桥梁，1 mol 含约 6.02×10²³ 个粒子。",
+            en: "Bridges particles and mass; 1 mol holds about 6.02×10²³ entities.",
+          },
+          detail: {
+            zh: "n = m/M = N/Nₐ = V/Vm（气体标况 22.4 L/mol）；是化学计算的核心枢纽。",
+            en: "n = m/M = N/Nₐ = V/Vm (22.4 L/mol for gases at STP); the hub of stoichiometry.",
+          },
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "molarity",
+          icon: "💧",
+          term: { zh: "物质的量浓度", en: "Molarity" },
+          oneLiner: {
+            zh: "单位体积溶液里所含溶质的物质的量，单位 mol/L。",
+            en: "Moles of solute per litre of solution, in mol/L.",
+          },
+          detail: {
+            zh: "c = n/V；配制一定物质的量浓度溶液需用容量瓶、定容到刻度线。",
+            en: "c = n/V; prepared in a volumetric flask, made up to the mark.",
+          },
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "dilution",
+          icon: "🫗",
+          term: { zh: "溶液稀释", en: "Dilution" },
+          oneLiner: {
+            zh: "加水稀释前后溶质的量不变，据此计算浓度。",
+            en: "Solute amount stays constant when diluting; the basis of c₁V₁ = c₂V₂.",
+          },
+          detail: {
+            zh: "稀释定律 c₁V₁ = c₂V₂；配制稀溶液时按此量取浓溶液与水的体积。",
+            en: "Dilution law c₁V₁ = c₂V₂; measure the concentrated solution and water accordingly.",
+          },
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "solubility",
+          icon: "🧂",
+          term: { zh: "溶解度与饱和溶液", en: "Solubility & Saturation" },
+          oneLiner: {
+            zh: "一定温度下某固体在 100 g 溶剂里达到饱和所溶解的质量。",
+            en: "Grams of solute that saturate 100 g of solvent at a given temperature.",
+          },
+          detail: {
+            zh: "溶解度曲线随温度变化：多数固体升高、气体与少数物质（如熟石灰）降低；可分离提纯（蒸发结晶、降温结晶）。",
+            en: "Solubility curves: most solids rise with temperature, gases and a few (e.g. slaked lime) fall; used for separation by evaporation or cooling crystallization.",
+          },
+          tags: [{ zh: "溶液", en: "Solution" }],
+        },
+        {
+          id: "electrolyte",
+          icon: "⚡",
+          term: { zh: "电解质与非电解质", en: "Electrolytes" },
+          oneLiner: {
+            zh: "在水溶液或熔融态能导电的化合物为电解质，反之非电解质。",
+            en: "Compounds conducting in solution or melt are electrolytes; others are non-electrolytes.",
+          },
+          detail: {
+            zh: "强电解质（强酸、强碱、大部分盐）完全电离，弱电解质（弱酸弱碱）部分电离；电离方程式用 = 或 ⇌ 表示。",
+            en: "Strong electrolytes ionize fully (shown with =), weak ones partially (⇌).",
+          },
+          eq: {
+            lhs: "NaCl",
+            rhs: "Na⁺ + Cl⁻",
+            rel: "equal",
+          },
+          tags: [{ zh: "溶液", en: "Solution" }],
+        },
+        {
+          id: "ph",
+          icon: "🎯",
+          term: { zh: "pH 与酸碱度", en: "pH & Acidity" },
+          oneLiner: {
+            zh: "衡量溶液酸碱性强弱的标度，pH = −lg c(H⁺)。",
+            en: "Scale of acidity; pH = −log c(H⁺).",
+          },
+          detail: {
+            zh: "常温 pH<7 酸性、=7 中性、>7 碱性；pH 每差 1，氢离子浓度差 10 倍。可用指示剂或 pH 计测定。",
+            en: "At 25℃: pH<7 acidic, =7 neutral, >7 basic; each unit is a tenfold change in [H⁺]. Measured by indicators or a pH meter.",
+          },
+          tags: [{ zh: "溶液", en: "Solution" }],
+        },
+      ],
+    },
+    /* ===================== 化学反应与能量 ===================== */
+    {
+      key: "energy",
+      icon: "🔥",
+      title: { zh: "化学反应与能量", en: "Reaction Energy & Thermochemistry" },
+      items: [
+        {
+          id: "exo-endo",
+          icon: "🌡️",
+          term: { zh: "放热与吸热反应", en: "Exothermic & Endothermic" },
+          oneLiner: {
+            zh: "反应伴随能量变化：放出热量为放热，吸收热量为吸热。",
+            en: "Reactions release (exothermic) or absorb (endothermic) heat.",
+          },
+          detail: {
+            zh: "从键能看：断键吸能、成键放能，二者之差决定整体放热或吸热；燃烧、中和多为放热，Ba(OH)₂·8H₂O 与 NH₄Cl 为典型吸热。",
+            en: "Bond breaking absorbs, bond making releases; the difference sets the sign. Combustion and neutralization release heat; Ba(OH)₂·8H₂O + NH₄Cl absorbs it.",
+          },
+          tags: [{ zh: "能量", en: "Energy" }],
+        },
+        {
+          id: "enthalpy",
+          icon: "📉",
+          term: { zh: "反应热与焓变", en: "Enthalpy Change" },
+          oneLiner: {
+            zh: "恒压下的反应热称焓变 ΔH，放热为负、吸热为正。",
+            en: "Heat at constant pressure, ΔH: negative for exothermic, positive for endothermic.",
+          },
+          detail: {
+            zh: "热化学方程式需标注物质状态与 ΔH，如 C(s)+O₂(g)=CO₂(g) ΔH=−393.5 kJ/mol。",
+            en: "Thermochemical equations state phases and ΔH, e.g. C(s)+O₂(g)=CO₂(g) ΔH=−393.5 kJ/mol.",
+          },
+          tags: [{ zh: "能量", en: "Energy" }],
+        },
+        {
+          id: "combustion-heat",
+          icon: "🔥",
+          term: { zh: "燃烧热", en: "Heat of Combustion" },
+          oneLiner: {
+            zh: "1 mol 可燃物完全燃烧生成稳定氧化物时放出的热量。",
+            en: "Heat released when 1 mol of a substance burns fully to stable oxides.",
+          },
+          detail: {
+            zh: "规定生成液态水、CO₂ 等稳定态；化石燃料与新能源（氢能、生物质能）都以燃烧热衡量能量高低。",
+            en: "Defined with liquid water and CO₂ as stable products; fuels are ranked by it.",
+          },
+          tags: [{ zh: "能量", en: "Energy" }],
+        },
+        {
+          id: "neutralization-heat",
+          icon: "🤝",
+          term: { zh: "中和热", en: "Heat of Neutralization" },
+          oneLiner: {
+            zh: "稀强酸碱中和生成 1 mol 水时放出的热量，约 57.3 kJ/mol。",
+            en: "Heat released forming 1 mol water from dilute strong acid and base, about 57.3 kJ/mol.",
+          },
+          detail: {
+            zh: "本质 H⁺ + OH⁻ = H₂O；弱酸弱碱电离吸热会使实测中和热偏小。",
+            en: "Net ionic H⁺ + OH⁻ = H₂O; weak acids/bases absorb ionization heat, lowering the value.",
+          },
+          tags: [{ zh: "能量", en: "Energy" }],
+        },
+        {
+          id: "hess-law",
+          icon: "🧮",
+          term: { zh: "盖斯定律", en: "Hess's Law" },
+          oneLiner: {
+            zh: "反应热只与始态终态有关、与路径无关，可由已知反应叠加求得。",
+            en: "ΔH depends only on initial and final states, so target reactions can be built from known ones.",
+          },
+          detail: {
+            zh: "像代数式一样加减热化学方程式，ΔH 随之加减，用于求难以直接测定的反应热。",
+            en: "Add/subtract thermochemical equations and their ΔH to find hard-to-measure values.",
+          },
+          tags: [{ zh: "能量", en: "Energy" }],
+        },
+      ],
+    },
+    /* ===================== 速率与化学平衡 ===================== */
+    {
+      key: "kinetics",
+      icon: "⚖️",
+      title: { zh: "速率与化学平衡", en: "Rate & Equilibrium" },
+      items: [
+        {
+          id: "rate",
+          icon: "⏱️",
+          term: { zh: "化学反应速率", en: "Reaction Rate" },
+          oneLiner: {
+            zh: "单位时间内浓度的变化，衡量反应快慢。",
+            en: "Change of concentration per unit time; measures speed.",
+          },
+          detail: {
+            zh: "v = Δc/Δt，同一反应中各物质速率之比等于化学计量数之比；不能用固体或纯液体表示。",
+            en: "v = Δc/Δt; rates of species share the stoichiometric ratio; solids/liquids are excluded.",
+          },
+          tags: [{ zh: "速率", en: "Kinetics" }],
+        },
+        {
+          id: "rate-factors",
+          icon: "🎛️",
+          term: { zh: "影响速率的因素", en: "Factors Affecting Rate" },
+          oneLiner: {
+            zh: "浓度、压强、温度、催化剂都能改变反应速率。",
+            en: "Concentration, pressure, temperature and catalysts all change rate.",
+          },
+          detail: {
+            zh: "升温与加催化剂显著提高速率（增多活化分子/降低活化能）；增大浓度或压强增加单位体积内活化分子数。",
+            en: "Heating and catalysts raise rate most (more activated molecules / lower activation energy); higher concentration or pressure packs more collisions.",
+          },
+          tags: [{ zh: "速率", en: "Kinetics" }],
+        },
+        {
+          id: "equilibrium",
+          icon: "⚖️",
+          term: { zh: "化学平衡状态", en: "Chemical Equilibrium" },
+          oneLiner: {
+            zh: "正逆反应速率相等、各组分浓度保持不变的可逆状态。",
+            en: "Forward and reverse rates equal; concentrations stay constant in a reversible reaction.",
+          },
+          detail: {
+            zh: "特征“逆、等、动、定、变”；平衡常数 K 只随温度变化，K 越大正向进行程度越高。",
+            en: "Dynamic stillness; K depends only on temperature — larger K means greater forward extent.",
+          },
+          eq: {
+            lhs: "N₂ + 3H₂",
+            cond: { zh: "高温高压 · 催化剂", en: "high T,P · catalyst" },
+            rhs: "2NH₃",
+            rel: "equilibrium",
+          },
+          tags: [{ zh: "平衡", en: "Equilibrium" }],
+        },
+        {
+          id: "le-chatelier",
+          icon: "↔️",
+          term: { zh: "勒夏特列原理", en: "Le Chatelier's Principle" },
+          oneLiner: {
+            zh: "改变影响平衡的条件，平衡向减弱这种改变的方向移动。",
+            en: "When a stress is applied, equilibrium shifts to counteract it.",
+          },
+          detail: {
+            zh: "升温向吸热方向、增压向气体分子数少方向、增浓向消耗该物质方向移动；催化剂不移动平衡只加快到达。",
+            en: "Heat→endothermic side, pressure→fewer gas moles, concentration→consume added species; catalysts only speed arrival.",
+          },
+          tags: [{ zh: "平衡", en: "Equilibrium" }],
+        },
+        {
+          id: "ionization-eq",
+          icon: "🔬",
+          term: { zh: "弱电解质的电离平衡", en: "Ionization Equilibrium" },
+          oneLiner: {
+            zh: "弱酸弱碱部分电离，存在电离平衡，用电离度与 Ka 描述。",
+            en: "Weak acids/bases partially ionize; described by degree of ionization and Ka.",
+          },
+          detail: {
+            zh: "加水稀释、升温促进电离；同离子效应抑制电离。Ka 越大酸性越强。",
+            en: "Dilution and heat promote ionization; common-ion effect suppresses it. Larger Ka means stronger acid.",
+          },
+          eq: {
+            lhs: "CH₃COOH",
+            rhs: "CH₃COO⁻ + H⁺",
+            rel: "equilibrium",
+          },
+          tags: [{ zh: "平衡", en: "Equilibrium" }],
+        },
+        {
+          id: "hydrolysis",
+          icon: "🌊",
+          term: { zh: "盐类水解", en: "Salt Hydrolysis" },
+          oneLiner: {
+            zh: "盐的离子结合水电离的 H⁺ 或 OH⁻，使溶液显酸性或碱性。",
+            en: "Salt ions take H⁺ or OH⁻ from water, making the solution acidic or basic.",
+          },
+          detail: {
+            zh: "“谁强显谁性”：强碱弱酸盐水解显碱性（纯碱去油污），强酸弱碱盐水解显酸性；升温促进水解。",
+            en: "The stronger partner sets the tone: basic salts from strong base + weak acid (washing soda degreasing); heating promotes hydrolysis.",
+          },
+          tags: [{ zh: "平衡", en: "Equilibrium" }],
+        },
+      ],
+    },
+    /* ===================== 电化学 ===================== */
+    {
+      key: "electrochem",
+      icon: "🔋",
+      title: { zh: "电化学", en: "Electrochemistry" },
+      items: [
+        {
+          id: "galvanic",
+          icon: "🔋",
+          term: { zh: "原电池", en: "Galvanic Cell" },
+          oneLiner: {
+            zh: "把化学能转化为电能的装置，负极氧化、正极还原。",
+            en: "Converts chemical energy to electricity; anode oxidizes, cathode reduces.",
+          },
+          detail: {
+            zh: "锌铜原电池：负极 Zn−2e⁻=Zn²⁺（氧化），正极 2H⁺+2e⁻=H₂↑（还原）；电子经外电路由负到正。",
+            en: "Zn–Cu cell: anode Zn−2e⁻=Zn²⁺, cathode 2H⁺+2e⁻=H₂↑; electrons flow externally from − to +.",
+          },
+          eq: {
+            lhs: "Zn + Cu²⁺",
+            rhs: "Zn²⁺ + Cu",
+            rel: "equal",
+          },
+          tags: [{ zh: "电化学", en: "Electrochem" }],
+        },
+        {
+          id: "electrolytic",
+          icon: "⚡",
+          term: { zh: "电解池", en: "Electrolytic Cell" },
+          oneLiner: {
+            zh: "借助外加电流把电能转化为化学能的装置。",
+            en: "Uses external current to turn electricity into chemical change.",
+          },
+          detail: {
+            zh: "阳极氧化、阴极还原；电解水：阳极出 O₂、阴极出 H₂（体积比 1:2），阴阳两极得失电子数相等。",
+            en: "Anode oxidizes, cathode reduces; electrolyzing water gives O₂ and H₂ in a 1:2 volume ratio with equal electrons.",
+          },
+          eq: {
+            lhs: "2H₂O",
+            cond: { zh: "通电", en: "electrolysis" },
+            rhs: "2H₂↑ + O₂↑",
+            rel: "equal",
+          },
+          tags: [{ zh: "电化学", en: "Electrochem" }],
+        },
+        {
+          id: "corrosion",
+          icon: "🦠",
+          term: { zh: "金属的腐蚀与防护", en: "Metal Corrosion & Protection" },
+          oneLiner: {
+            zh: "金属被氧化而损耗，主要防止方法是隔绝或电化学保护。",
+            en: "Metals oxidize away; prevented by barrier or electrochemical protection.",
+          },
+          detail: {
+            zh: "钢铁吸氧腐蚀最常见；防护有涂镀层、改变组成（不锈钢）、牺牲阳极（接更活泼金属）与外加电流阴极保护法。",
+            en: "Iron's oxygen absorption rust is common; protection includes coatings, stainless alloys, sacrificial anodes and impressed-current cathodic protection.",
+          },
+          tags: [{ zh: "电化学", en: "Electrochem" }],
+        },
+        {
+          id: "electroplating",
+          icon: "🪙",
+          term: { zh: "电镀与电解精炼", en: "Electroplating & Refining" },
+          oneLiner: {
+            zh: "利用电解在表面镀上金属，或提纯粗金属。",
+            en: "Uses electrolysis to coat surfaces or purify crude metals.",
+          },
+          detail: {
+            zh: "电镀：镀层金属作阳极、待镀件作阴极、含镀层离子为电解液；电解精炼铜时粗铜作阳极、纯铜作阴极。",
+            en: "Plating: anode is coating metal, cathode the workpiece, electrolyte holds its ions; refining copper uses crude anode and pure cathode.",
+          },
+          tags: [{ zh: "电化学", en: "Electrochem" }],
+        },
+        {
+          id: "faraday",
+          icon: "🧲",
+          term: { zh: "法拉第电解定律", en: "Faraday's Laws" },
+          oneLiner: {
+            zh: "电极上析出物质的量与通过的电量成正比。",
+            en: "Mass deposited at an electrode is proportional to charge passed.",
+          },
+          detail: {
+            zh: "Q = It，1 mol 电子电量约 96500 C（法第常数 F）；据此由电量算析出金属的质量与气体的体积。",
+            en: "Q = It with F ≈ 96500 C/mol; use charge to compute deposited mass and gas volume.",
+          },
+          tags: [{ zh: "电化学", en: "Electrochem" }],
+        },
+      ],
+    },
     /* ===================== 化学家 ===================== */
     {
       key: "chemists",
