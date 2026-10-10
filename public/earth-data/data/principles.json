@@ -1,0 +1,508 @@
+[
+  {
+    "id": "continental-drift",
+    "title": "大陆漂移与板块构造",
+    "titleEn": "Continental Drift & Plate Tectonics",
+    "icon": "🌍",
+    "category": "地质",
+    "categoryEn": "Geology",
+    "level": 2,
+    "order": 1,
+    "lead": "岩石圈分裂为若七大板块，漂浮在软流层上缓慢移动——它们如何相互作用，塑造了山脉、海沟与地震带。",
+    "leadEn": "The lithosphere is broken into a handful of plates riding the soft asthenosphere; how they interact builds mountains, trenches and earthquake belts.",
+    "points": [
+      {
+        "k": "漂移的证据",
+        "kEn": "Evidence",
+        "v": "大陆轮廓拼合、同种化石与岩层跨洋分布、海底磁条带对称扩张。",
+        "vEn": "Jigsaw coastlines, matching fossils and rock belts across oceans, and symmetric seafloor magnetic stripes."
+      },
+      {
+        "k": "三类边界",
+        "kEn": "Three boundaries",
+        "v": "离散（张裂成洋中脊）、汇聚（俯冲造山或碰撞抬升）、转换（错动引发地震）。",
+        "vEn": "Divergent (ridges), convergent (subduction or collision), and transform (strike-slip quakes)."
+      },
+      {
+        "k": "驱动力",
+        "kEn": "Driving force",
+        "v": "地幔对流与板块自身的重力拖拽（板拉力、脊推力）共同推动。",
+        "vEn": "Mantle convection plus slab pull and ridge push move the plates."
+      },
+      {
+        "k": "地理后果",
+        "kEn": "Geographic outcome",
+        "v": "环太平洋火山地震带、喜马拉雅与阿尔卑斯的隆起都源于板块相互作用。",
+        "vEn": "The Pacific Ring of Fire and the rise of the Himalaya and Alps stem from plate interactions."
+      }
+    ],
+    "related": ["plate-tectonics", "seismic-volcanic", "geomorphic-processes"],
+    "sources": [
+      {
+        "label": "魏格纳《海陆的起源》；板块构造综述",
+        "labelEn": "Wegener, The Origin of Continents and Oceans; plate tectonics syntheses",
+        "year": 1915
+      }
+    ]
+  },
+  {
+    "id": "seismic-volcanic",
+    "title": "地震与火山活动",
+    "titleEn": "Earthquakes and Volcanism",
+    "icon": "🌋",
+    "category": "地质",
+    "categoryEn": "Geology",
+    "level": 2,
+    "order": 2,
+    "lead": "地壳应力骤然释放成地震、岩浆上涌成火山——它们多沿板块边界成带分布，是地球内部能量的出口。",
+    "leadEn": "Sudden stress release makes earthquakes, rising magma makes volcanoes—together they line the plate boundaries, venting Earth's internal energy.",
+    "points": [
+      {
+        "k": "震源与震中",
+        "kEn": "Focus and epicenter",
+        "v": "断裂起始处为震源，其地面投影为震中；纵波先至、横波破坏更大。",
+        "vEn": "The rupture starts at the focus, its surface point the epicenter; P-waves arrive first, S-waves do more damage."
+      },
+      {
+        "k": "测量方式",
+        "kEn": "Measuring",
+        "v": "震级衡量释放能量（对数关系），烈度衡量地面影响，两者不同。",
+        "vEn": "Magnitude gauges released energy (logarithmic); intensity gauges ground effects—they differ."
+      },
+      {
+        "k": "火山类型",
+        "kEn": "Volcano types",
+        "v": "岩浆黏度与气体决定喷发方式：宁静溢流的盾状与猛烈的爆发式。",
+        "vEn": "Magma viscosity and gas set the style: gentle effusive shields versus violent explosive eruptions."
+      },
+      {
+        "k": "灾害与红利",
+        "kEn": "Hazard and gift",
+        "v": "引发海啸、滑坡，却带来肥沃火山土与地热，人口常逆势聚集。",
+        "vEn": "They spawn tsunamis and landslides yet bring fertile ash soils and geothermal energy, drawing people anyway."
+      }
+    ],
+    "related": ["continental-drift", "plate-tectonics", "glacier"],
+    "sources": [
+      {
+        "label": "USGS 地震与火山监测资料",
+        "labelEn": "USGS earthquake and volcano monitoring",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "rock-cycle",
+    "title": "岩石圈物质循环",
+    "titleEn": "The Rock Cycle",
+    "icon": "🪨",
+    "category": "地质",
+    "categoryEn": "Geology",
+    "level": 2,
+    "order": 3,
+    "lead": "岩浆岩、沉积岩、变质岩在内力与外力作用下相互转化，岩石圈没有终点、只有循环。",
+    "leadEn": "Igneous, sedimentary and metamorphic rocks recycle into one another through internal and surface forces—no end, only a cycle.",
+    "points": [
+      {
+        "k": "三大类岩石",
+        "kEn": "Three rock families",
+        "v": "岩浆冷却成岩浆岩，碎屑或化学沉淀成沉积岩，高温高压改造为变质岩。",
+        "vEn": "Cooling magma forms igneous, settled or precipitated material forms sedimentary, heat and pressure metamorphose it."
+      },
+      {
+        "k": "转化动力",
+        "kEn": "Drivers",
+        "v": "构造运动与岩浆供热、风化侵蚀搬运与沉积作用共同推动循环。",
+        "vEn": "Tectonics and magma supply heat; weathering, erosion, transport and deposition drive the cycle."
+      },
+      {
+        "k": "时间尺度",
+        "kEn": "Deep time",
+        "v": "一次完整循环可跨越数千万年，地层因此成为地球历史的书页。",
+        "vEn": "A full cycle can span tens of millions of years, making strata the pages of Earth's history."
+      },
+      {
+        "k": "资源联系",
+        "kEn": "Resource link",
+        "v": "矿产、化石燃料与建材都在循环中富集，指向特定的成矿与成岩环境。",
+        "vEn": "Ores, fossil fuels and building stone concentrate within the cycle, tied to specific ore- and rock-forming settings."
+      }
+    ],
+    "related": ["geomorphic-processes", "continental-drift"],
+    "sources": [
+      {
+        "label": "《地质学原理》岩石循环章节",
+        "labelEn": "Principles of Geology, the rock cycle",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "climate-genesis",
+    "title": "气候的形成因子",
+    "titleEn": "What Makes Climate",
+    "icon": "🌡️",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 2,
+    "order": 4,
+    "lead": "太阳辐射打底，纬度、海陆、地形、洋流与大气环流共同调制，把一地长期的天气平均成气候。",
+    "leadEn": "Solar radiation sets the base; latitude, land–sea, relief, currents and circulation tune it, averaging a place's weather into climate.",
+    "points": [
+      {
+        "k": "纬度与太阳",
+        "kEn": "Latitude and sun",
+        "v": "太阳高度角随纬度递减，决定热量带从热带到寒带的分布。",
+        "vEn": "The sun's angle falls with latitude, dividing heat zones from torrid to frigid."
+      },
+      {
+        "k": "海陆差异",
+        "kEn": "Land–sea contrast",
+        "v": "海洋升温慢降温慢，沿海气温年较差小、降水多，内陆更极端。",
+        "vEn": "Ocean heats and cools slowly: coasts have smaller annual range and more rain, interiors are more extreme."
+      },
+      {
+        "k": "地形作用",
+        "kEn": "Relief",
+        "v": "海拔升高降温，迎风坡多地形雨、背风坡成雨影，垂直带谱由此而生。",
+        "vEn": "Height cools the air, windward slopes catch orographic rain, leeward sides lie in rain shadow, giving vertical zonation."
+      },
+      {
+        "k": "洋流影响",
+        "kEn": "Currents",
+        "v": "暖流增温增湿、寒流降温减湿，改变同纬度两岸的气候面貌。",
+        "vEn": "Warm currents add heat and moisture, cold ones strip them, reshaping coasts at the same latitude."
+      }
+    ],
+    "related": ["circulation-cells", "monsoon", "ocean-currents"],
+    "sources": [
+      {
+        "label": "斯特拉勒《自然地理体系》",
+        "labelEn": "Strahler, Physical Geography",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "circulation-cells",
+    "title": "三圈环流与气压带风带",
+    "titleEn": "Three-Cell Circulation and Pressure–Wind Belts",
+    "icon": "🌀",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 3,
+    "order": 5,
+    "lead": "赤道受热上升、极地下沉，叠加地转偏向力，把全球自赤道到极地劈成一串气压带与风带。",
+    "leadEn": "Air rises at the equator and sinks at the poles; spun by the Coriolis force, this carves a chain of pressure and wind belts from equator to pole.",
+    "points": [
+      {
+        "k": "三个环流圈",
+        "kEn": "Three cells",
+        "v": "哈德莱、费雷尔与极地环流圈交替，构成低纬信风、中纬西风与极地东风。",
+        "vEn": "Hadley, Ferrel and polar cells alternate, yielding trade, westerly and polar-easterly winds."
+      },
+      {
+        "k": "气压带",
+        "kEn": "Pressure belts",
+        "v": "赤道低压多雨、副热带高压干燥、副极地低压多锋面雨、极地高压干冷。",
+        "vEn": "Equatorial low is wet, subtropical high is dry, subpolar low brings frontal rain, polar high is cold and dry."
+      },
+      {
+        "k": "季节移动",
+        "kEn": "Seasonal shift",
+        "v": "气压带风带随太阳直射点南北移动，驱动季风进退与干旱带摆动。",
+        "vEn": "The belts migrate with the overhead sun, steering monsoon onset and the sway of dry zones."
+      },
+      {
+        "k": "地理意义",
+        "kEn": "Why it matters",
+        "v": "世界荒漠、草原与雨林的宏观格局，正是这些环流的地表投影。",
+        "vEn": "The global mosaic of deserts, grasslands and rainforests is these cells written onto the map."
+      }
+    ],
+    "related": ["climate-genesis", "monsoon", "desert"],
+    "sources": [
+      {
+        "label": "哈得来环流与行星风系经典模型",
+        "labelEn": "Hadley circulation and planetary wind system",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "weather-systems",
+    "title": "气团、锋面与天气系统",
+    "titleEn": "Air Masses, Fronts and Weather Systems",
+    "icon": "⛈️",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 2,
+    "order": 6,
+    "lead": "大尺度天气由气团的性质与锋面、气旋的相遇决定，温带气旋是中纬度最常见的变天引擎。",
+    "leadEn": "Synoptic weather hinges on air-mass character and on fronts and cyclones meeting; the mid-latitude cyclome is the region's chief change-maker.",
+    "points": [
+      {
+        "k": "气团",
+        "kEn": "Air masses",
+        "v": "按源地的冷暖与干湿分类，气团属性决定其控制下的天气基调。",
+        "vEn": "Classified by source temperature and moisture, an air mass sets the weather's baseline where it rules."
+      },
+      {
+        "k": "锋面",
+        "kEn": "Fronts",
+        "v": "冷锋陡急多对流、暖锋缓长多连续性降水，锢囚锋标志气旋成熟。",
+        "vEn": "Cold fronts are steep and convective, warm fronts gentle and steady, occluded fronts mark a maturing cyclone."
+      },
+      {
+        "k": "气旋与反气旋",
+        "kEn": "Cyclone and anticyclone",
+        "v": "低压气旋辐合上升多阴雨，高压反气旋下沉辐散多晴朗。",
+        "vEn": "Low pressure converges and rises into cloud and rain; high pressure subsides and spreads into clear skies."
+      },
+      {
+        "k": "天气图判读",
+        "kEn": "Reading charts",
+        "v": "等压线疏密定风力、锋符号定移动，是现代预报的基石。",
+        "vEn": "Isobar spacing sets wind speed and frontal symbols set motion—the foundation of modern forecasting."
+      }
+    ],
+    "related": ["circulation-cells", "climate-genesis"],
+    "sources": [
+      {
+        "label": "挪威学派气旋模型与天气图",
+        "labelEn": "Norwegian cyclone model and synoptic charts",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "hydrological-cycle",
+    "title": "水循环与水平衡",
+    "titleEn": "The Water Cycle and Water Balance",
+    "icon": "💧",
+    "category": "水文",
+    "categoryEn": "Hydrology",
+    "level": 1,
+    "order": 7,
+    "lead": "蒸发、水汽输送、降水、径流与下渗把海洋、大气与陆地连成一个闭合循环，淡水在其中不断更新。",
+    "leadEn": "Evaporation, transport, precipitation, runoff and infiltration link ocean, air and land into one closed loop that renews fresh water.",
+    "points": [
+      {
+        "k": "主要环节",
+        "kEn": "Key links",
+        "v": "海洋蒸发为主源，降水回陆，地表与地下径流再归海。",
+        "vEn": "The ocean is the main source; rain falls on land, and surface and groundwater carry it back."
+      },
+      {
+        "k": "能量驱动",
+        "kEn": "Powered by",
+        "v": "太阳供热驱动蒸发与输送，重力牵引降水与径流下行。",
+        "vEn": "Solar heat drives evaporation and transport, gravity pulls precipitation and runoff downward."
+      },
+      {
+        "k": "人类影响",
+        "kEn": "Human imprint",
+        "v": "取用水、修坝、砍伐与城市化改变径流与时空分布，加剧局部缺水。",
+        "vEn": "Withdrawal, dams, deforestation and cities reshape runoff and its distribution, deepening local scarcity."
+      },
+      {
+        "k": "时空不均",
+        "kEn": "Uneven supply",
+        "v": "降水与水资源在地区与季节上高度不均，决定农业与聚落格局。",
+        "vEn": "Rainfall and water vary sharply by place and season, shaping farming and settlement."
+      }
+    ],
+    "related": ["water-cycle", "climate-genesis", "river-landforms"],
+    "sources": [
+      {
+        "label": "联合国世界水发展报告",
+        "labelEn": "UN World Water Development Report",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "thermohaline",
+    "title": "洋流与温盐环流",
+    "titleEn": "Ocean Currents and the Thermohaline Conveyor",
+    "icon": "🌊",
+    "category": "水文",
+    "categoryEn": "Hydrology",
+    "level": 2,
+    "order": 8,
+    "lead": "风推动表层海流，冷暖与咸淡之差驱动深海缓慢环流，二者合成一台调节全球热量的传送带。",
+    "leadEn": "Wind drives surface currents while differences in temperature and salinity power a slow deep loop—together a belt that shuttles heat around the planet.",
+    "points": [
+      {
+        "k": "风海流与补偿流",
+        "kEn": "Wind and compensation",
+        "v": "盛行风带动表层水，离岸处底层冷水上涌形成上升流，渔场多在此。",
+        "vEn": "Prevailing winds drag surface water; offshore divergence draws cold upwelling that feeds great fisheries."
+      },
+      {
+        "k": "温盐环流",
+        "kEn": "Thermohaline",
+        "v": "高纬海水变冷变咸而下沉，深层缓慢回流，周期可达千年。",
+        "vEn": "Polar water grows cold and salty and sinks, seeping back at depth over a cycle up to a millennium."
+      },
+      {
+        "k": "热量调节",
+        "kEn": "Heat control",
+        "v": "洋流向高纬输热，使西欧比同纬度温暖，也影响全球气候分布。",
+        "vEn": "Currents carry heat poleward, warming Europe beyond its latitude and shaping climate worldwide."
+      },
+      {
+        "k": "变弱风险",
+        "kEn": "Weakening risk",
+        "v": "融冰注入淡水可能削弱下沉与环流，牵动区域乃至全球气候突变。",
+        "vEn": "Meltwater dilution may slow the sinking and the loop, tipping regional and even global climate."
+      }
+    ],
+    "related": ["ocean-currents", "hydrological-cycle", "climate-genesis"],
+    "sources": [
+      {
+        "label": "温盐输送带与大洋环流研究",
+        "labelEn": "Thermohaline conveyor and ocean gyre research",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "geomorphic-processes",
+    "title": "内外力作用与地貌演化",
+    "titleEn": "Endogenic and Exogenic Forces in Landform Evolution",
+    "icon": "⛰️",
+    "category": "地貌",
+    "categoryEn": "Geomorphology",
+    "level": 2,
+    "order": 9,
+    "lead": "内力（构造与岩浆）搭建地表骨架、抬高地势，外力（风化侵蚀搬运堆积）削高填低，地貌是两者较量的产物。",
+    "leadEn": "Inner forces (tectonics, magma) raise the frame while outer forces (weathering, erosion, transport, deposition) cut highs and fill lows—landforms are the tally of their contest.",
+    "points": [
+      {
+        "k": "内力筑形",
+        "kEn": "Building up",
+        "v": "褶皱、断层与抬升形成山脉高原，决定宏观地势格架。",
+        "vEn": "Folds, faults and uplift forge mountains and plateaus, setting the broad relief."
+      },
+      {
+        "k": "外力雕形",
+        "kEn": "Carving down",
+        "v": "流水、风、冰川与波浪按能量差异塑造谷、沙丘、峡湾与海蚀地貌。",
+        "vEn": "Water, wind, ice and waves, keyed to energy, sculpt valleys, dunes, fjords and coastal erosional forms."
+      },
+      {
+        "k": "侵蚀循环",
+        "kEn": "Erosion cycle",
+        "v": "戴维斯地貌循环描述从幼年壮年到老年阶段的起伏演化。",
+        "vEn": "Davis's cycle traces relief from youthful through mature to old stages."
+      },
+      {
+        "k": "均衡与响应",
+        "kEn": "Isostasy",
+        "v": "地壳随负载升降，剥蚀与沉积触发均衡回弹，抬升与侵蚀相互反馈。",
+        "vEn": "Crust rises and sinks with load; erosion and deposition trigger isostatic rebound, feedback between uplift and wear."
+      }
+    ],
+    "related": ["karst", "glacier", "river-landforms", "rock-cycle"],
+    "sources": [
+      {
+        "label": "戴维斯地貌循环与均衡理论",
+        "labelEn": "Davisian cycle and isostasy",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "river-landforms",
+    "title": "河流地貌与水系",
+    "titleEn": "River Landforms and Drainage",
+    "icon": "🏞️",
+    "category": "地貌",
+    "categoryEn": "Geomorphology",
+    "level": 2,
+    "order": 10,
+    "lead": "一条河从源头到河口，上游下切、中游搬运、下游堆积，把地形写成从峡谷到三角洲的连续剧本。",
+    "leadEn": "From source to mouth a river cuts upstream, carries through the middle and deposits downstream—a script from gorge to delta.",
+    "points": [
+      {
+        "k": "上中下游",
+        "kEn": "Long profile",
+        "v": "上游以下蚀为主成 V 形谷，中下游以侧蚀与堆积成宽谷与河曲。",
+        "vEn": "The upper reach cuts vertically into V-valleys; lower reaches widen and meander by lateral erosion and deposition."
+      },
+      {
+        "k": "流水地貌",
+        "kEn": "Fluvial forms",
+        "v": "冲积扇、河漫滩、牛轭湖与三角洲记录能量骤变处的堆积。",
+        "vEn": "Fans, floodplains, oxbow lakes and deltas mark deposition where energy drops."
+      },
+      {
+        "k": "水系格局",
+        "kEn": "Drainage patterns",
+        "v": "树枝状、平行状或放射状水系，反映岩性与构造格架。",
+        "vEn": "Dendritic, parallel or radial networks mirror the rock and structure beneath."
+      },
+      {
+        "k": "人地交织",
+        "kEn": "Human rivers",
+        "v": "大河孕育农业与文明，堤坝、调水与渠化又重塑其泥沙与生态。",
+        "vEn": "Great rivers cradled farming and civilization, while dams, diversions and channeling recast their sediment and ecology."
+      }
+    ],
+    "related": ["geomorphic-processes", "hydrological-cycle", "karst"],
+    "sources": [
+      {
+        "label": "河流地貌学与水系分析",
+        "labelEn": "Fluvial geomorphology and drainage analysis",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "biome-zonation",
+    "title": "自然带与地域分异规律",
+    "titleEn": "Natural Zonation and Regional Differentiation",
+    "icon": "🗺️",
+    "category": "综合",
+    "categoryEn": "Synthesis",
+    "level": 3,
+    "order": 11,
+    "lead": "气候决定植被与土壤，地理环境因此沿纬度、经度与垂直方向分层，呈现有规律的整体更替。",
+    "leadEn": "Climate steers vegetation and soils, so the landscape tiers along latitude, longitude and altitude in a law-governed whole.",
+    "points": [
+      {
+        "k": "纬度地带性",
+        "kEn": "Latitudinal zonation",
+        "v": "热量自赤道向两极递减，形成热带雨林到苔原的横向更替。",
+        "vEn": "Heat falls from equator to pole, stepping rainforest through tundra."
+      },
+      {
+        "k": "经度地带性",
+        "kEn": "Aridity gradient",
+        "v": "水分自沿海向内陆递减，出现森林—草原—荒漠的横向分异。",
+        "vEn": "Moisture wanes inland, giving a forest–steppe–desert sequence."
+      },
+      {
+        "k": "垂直地带性",
+        "kEn": "Altitudinal zonation",
+        "v": "山地水热随高度变化，坡面像微缩的从赤道到极地。",
+        "vEn": "Heat and water shift with height, so a slope reads as a mini equator-to-pole transect."
+      },
+      {
+        "k": "整体性",
+        "kEn": "Integrity",
+        "v": "气候、水文、土壤、生物相互耦合，牵一发而动全身。",
+        "vEn": "Climate, water, soil and life are coupled—one change ripples through the whole."
+      }
+    ],
+    "related": ["climate-genesis", "tundra", "desert"],
+    "sources": [
+      {
+        "label": "道库恰耶夫自然带学说",
+        "labelEn": "Dokuchaev's natural-zone doctrine",
+        "year": 2017
+      }
+    ]
+  }
+]

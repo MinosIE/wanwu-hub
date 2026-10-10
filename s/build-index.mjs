@@ -15,6 +15,10 @@ const schools = read("schools.json");
 const questions = read("questions.json");
 const classics = read("classics.json");
 const thinkers = read("thinkers.json");
+// principles 为 earth 试点新增分类视图；life/thought 无此文件时自动跳过，互不影响。
+const principles = fs.existsSync(path.join(D, "principles.json"))
+  ? read("principles.json")
+  : [];
 const search = [];
 for (const s of schools)
   search.push({
@@ -56,6 +60,16 @@ for (const t of thinkers)
     nEn: t.nameEn,
     xEn: t.oneLinerEn,
   });
+for (const p of principles)
+  search.push({
+    m: "m-principles",
+    id: p.id,
+    t: "search.t.principle",
+    n: p.title,
+    x: p.lead,
+    nEn: p.titleEn,
+    xEn: p.leadEn,
+  });
 const related = {};
 const add = (id, m, n, nEn) => {
   (related[id] ??= []).push({ m, n, nEn });
@@ -64,6 +78,7 @@ for (const s of schools) add(s.id, "m-schools", s.name, s.nameEn);
 for (const q of questions) add(q.id, "m-questions", q.name, q.nameEn);
 for (const c of classics) add(c.id, "m-classics", c.name, c.nameEn);
 for (const t of thinkers) add(t.id, "m-thinkers", t.name, t.nameEn);
+for (const p of principles) add(p.id, "m-principles", p.title, p.titleEn);
 fs.writeFileSync(path.join(D, "search.json"), JSON.stringify(search) + "\n");
 fs.writeFileSync(
   path.join(D, "related.json"),

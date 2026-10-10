@@ -390,5 +390,82 @@
       "n": "埃拉托色尼",
       "nEn": "Eratosthenes"
     }
+  ],
+  "continental-drift": [
+    {
+      "m": "m-principles",
+      "n": "大陆漂移与板块构造",
+      "nEn": "Continental Drift & Plate Tectonics"
+    }
+  ],
+  "seismic-volcanic": [
+    {
+      "m": "m-principles",
+      "n": "地震与火山活动",
+      "nEn": "Earthquakes and Volcanism"
+    }
+  ],
+  "rock-cycle": [
+    {
+      "m": "m-principles",
+      "n": "岩石圈物质循环",
+      "nEn": "The Rock Cycle"
+    }
+  ],
+  "climate-genesis": [
+    {
+      "m": "m-principles",
+      "n": "气候的形成因子",
+      "nEn": "What Makes Climate"
+    }
+  ],
+  "circulation-cells": [
+    {
+      "m": "m-principles",
+      "n": "三圈环流与气压带风带",
+      "nEn": "Three-Cell Circulation and Pressure–Wind Belts"
+    }
+  ],
+  "weather-systems": [
+    {
+      "m": "m-principles",
+      "n": "气团、锋面与天气系统",
+      "nEn": "Air Masses, Fronts and Weather Systems"
+    }
+  ],
+  "hydrological-cycle": [
+    {
+      "m": "m-principles",
+      "n": "水循环与水平衡",
+      "nEn": "The Water Cycle and Water Balance"
+    }
+  ],
+  "thermohaline": [
+    {
+      "m": "m-principles",
+      "n": "洋流与温盐环流",
+      "nEn": "Ocean Currents and the Thermohaline Conveyor"
+    }
+  ],
+  "geomorphic-processes": [
+    {
+      "m": "m-principles",
+      "n": "内外力作用与地貌演化",
+      "nEn": "Endogenic and Exogenic Forces in Landform Evolution"
+    }
+  ],
+  "river-landforms": [
+    {
+      "m": "m-principles",
+      "n": "河流地貌与水系",
+      "nEn": "River Landforms and Drainage"
+    }
+  ],
+  "biome-zonation": [
+    {
+      "m": "m-principles",
+      "n": "自然带与地域分异规律",
+      "nEn": "Natural Zonation and Regional Differentiation"
+    }
   ]
 }
