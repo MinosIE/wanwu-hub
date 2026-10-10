@@ -1,43 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="万物经济学 · Economics of Everything">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img"
+  aria-label="万物通识系列 · Hub of Everything">
   <defs>
     <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#052230" />
-      <stop offset="0.58" stop-color="#0E7490" />
-      <stop offset="1" stop-color="#0B3F4A" />
+      <stop offset="0" stop-color="#0a1424" />
+      <stop offset="0.58" stop-color="#12284a" />
+      <stop offset="1" stop-color="#0a1f38" />
     </linearGradient>
-    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
-      <stop offset="0" stop-color="#C79A3A" stop-opacity="0.5" />
-      <stop offset="1" stop-color="#C79A3A" stop-opacity="0" />
+    <radialGradient id="glow" cx="0.82" cy="0.2" r="0.62">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
     </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
   </defs>
 
   <rect width="1200" height="630" fill="url(#hero)" />
   <rect width="1200" height="630" fill="url(#glow)" />
 
-  <!-- 趋势线装饰 -->
-  <path
-    d="M80 520 L300 430 L470 470 L660 330 L850 372 L1120 180"
-    fill="none"
-    stroke="#C79A3A"
-    stroke-width="7"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    opacity="0.85"
-  />
-  <circle cx="1120" cy="180" r="14" fill="#C79A3A" />
+  <!-- 地球标记：一个入口，看尽万物 -->
+  <g fill="none" stroke="url(#mark)" stroke-width="6" stroke-linecap="round" opacity="0.95">
+    <circle cx="980" cy="300" r="150" />
+    <ellipse cx="980" cy="300" rx="66" ry="150" />
+    <line x1="830" y1="300" x2="1130" y2="300" />
+    <path d="M850 216 Q980 264 1110 216" />
+    <path d="M850 384 Q980 336 1110 384" />
+  </g>
 
-  <text x="80" y="250" fill="#FFFFFF" font-size="86" font-weight="800" font-family="PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif">
-    万物经济学
+  <text x="80" y="230" fill="#FFFFFF" font-size="90" font-weight="800"
+    font-family="PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif">
+    万物通识系列
   </text>
-  <text x="80" y="330" fill="#CFE9F0" font-size="46" font-weight="700" font-family="Helvetica, Arial, sans-serif">
-    Economics of Everything
+  <text x="82" y="300" fill="#38bdf8" font-size="42" font-weight="700" font-family="Helvetica, Arial, sans-serif">
+    Hub of Everything
   </text>
-  <text x="80" y="400" fill="#A9D3DE" font-size="30" font-family="PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif">
-    从供需、通胀到博弈论，把「万物」拆成看得懂的常识
+  <text x="82" y="360" fill="#8ea4c4" font-size="28"
+    font-family="PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif">
+    一个入口，看尽万物 —— 系列聚合导航站
   </text>
 
-  <g fill="#9FD0DB" font-size="24" font-family="PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif">
-    <text x="80" y="588">核心概念 · 名词词典 · 宏观 · 微观 · 货币金融 · 思想家 · 流派 · 大事记</text>
-    <text x="80" y="618">行为经济学 · 博弈论 · 国际贸易 · 生活经济学 · 图表 · 误区 · 测验 · 中外对比</text>
+  <g fill="#cfe0f5" font-size="26" font-family="PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif">
+    <text x="82" y="470">中华历史 · 心理学 · 经济学 · 哲学 · 地球科学</text>
+    <text x="82" y="512">生命科学 · 物理学 · 化学</text>
   </g>
 </svg>
