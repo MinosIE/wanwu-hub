@@ -82,5 +82,65 @@
     "category": "健康",
     "related": ["decision-fatigue"],
     "sources": [{ "label": "Walker (2017)", "year": 2017 }]
+  },
+  {
+    "id": "habit-loop",
+    "term": "习惯回路",
+    "termEn": "The Habit Loop",
+    "oneLiner": "习惯由「线索→行为→奖赏」自动循环，改习惯从改线索开始。",
+    "oneLinerEn": "A habit is a cue→routine→reward loop; change it by altering the cue.",
+    "detail": "机制：重复使行为从有意识控制转入基底神经节的自动程序，一遇线索就触发。怎么办：想养成好习惯，把线索醒目化、行为拆小（两分钟版）、即时奖励；想戒除，隐藏或替换线索、保留旧奖赏但换新行为。环境设计往往比意志力更省力。",
+    "detailEn": "Mechanism: repetition moves a behavior from deliberate control to automatic basal-ganglia routines fired by cues. To build a habit, make cues visible, shrink the action (a 2-minute version) and reward it now; to break one, hide or swap the cue and keep the reward but change the routine. Designing the environment beats raw willpower.",
+    "category": "行为",
+    "related": ["conditioning", "reinforcement", "self-efficacy"],
+    "sources": [{ "label": "Duhigg (2012)《习惯的力量》", "year": 2012 }]
+  },
+  {
+    "id": "spacing-retrieval",
+    "term": "间隔与提取练习",
+    "termEn": "Spacing & Retrieval Practice",
+    "oneLiner": "分次复习 + 主动默写回想，远比反复重读更记得住。",
+    "oneLinerEn": "Spaced review plus active recall beats rereading for lasting memory.",
+    "detail": "机制：间隔克服遗忘曲线、提取（自测）比重读更能强化痕迹，也暴露盲点。怎么办：用抽卡/闪卡隔几天自测、做习题而非反复看课本；宁可当下想得费力，也好过虚假的熟练感。这是证据最硬的学习法之一。",
+    "detailEn": "Mechanism: spacing counters the forgetting curve, and retrieval (self-testing) strengthens traces and exposes gaps better than rereading. Use flashcards with gaps of days, do practice problems rather than re-read; prefer effortful recall over a false sense of fluency. This is among the best-evidenced study methods.",
+    "category": "学习",
+    "related": ["memory", "metacognition", "growth-mindset"],
+    "sources": [{ "label": "Roediger & Karpicke (2006)", "year": 2006 }]
+  },
+  {
+    "id": "first-impression",
+    "term": "第一印象与晕轮",
+    "termEn": "First Impressions & Halo",
+    "oneLiner": "见面几秒就形成的判断会晕轮式地拉高对其他特质的评价。",
+    "oneLinerEn": "Snap judgments formed in seconds spill over, inflating ratings of other traits.",
+    "detail": "机制：首因效应与晕轮效应让一个突出优点（外貌、流利）污染整体判断。怎么办：招聘、交友、评审时先定好标准、分开逐项打分、延迟综合判断；意识到“看顺眼”不等于“有能力”，主动寻找反证。",
+    "detailEn": "Mechanism: primacy and the halo effect let one salient trait (looks, fluency) color the whole judgment. In hiring, dating and review, set criteria first, score traits separately and defer a global call; remember 'likable' is not 'competent' and actively seek disconfirming evidence.",
+    "category": "社会",
+    "related": ["halo-effect", "attribution", "confirmation-bias"],
+    "sources": [{ "label": "Thorndike (1920) 晕轮效应", "year": 1920 }]
+  },
+  {
+    "id": "emotion-labeling",
+    "term": "给情绪命名",
+    "termEn": "Affect Labeling",
+    "oneLiner": "说出「我现在很焦虑」本身就能稍稍调低情绪的强度。",
+    "oneLinerEn": "Saying 'I feel anxious' itself dials down the emotion's intensity.",
+    "detail": "机制：用词标注情绪会增强前额叶对杏仁核的抑制，把“被情绪淹没”转为“观察情绪”。怎么办：情绪上来时先具体命名（生气/失望/羡慕）、写在纸上；配合呼吸与认知重评。“说出来”不是软弱，而是有效的自我调节。",
+    "detailEn": "Mechanism: labeling an emotion boosts prefrontal inhibition of the amygdala, shifting you from being flooded to observing. When feelings rise, name them specifically (angry/disappointed/envious), put them on paper, pair with breath and reappraisal. 'Saying it' is not weakness but effective regulation.",
+    "category": "情绪",
+    "related": ["emotion", "stress-coping", "attention"],
+    "sources": [{ "label": "Lieberman (2007) 情绪标注的神经机制", "year": 2007 }]
+  },
+  {
+    "id": "exam-anxiety",
+    "term": "考试焦虑",
+    "termEn": "Test Anxiety",
+    "oneLiner": "焦虑占用了工作记忆，让人“明明会却考砸”。",
+    "oneLinerEn": "Anxiety hogs working memory, so what you knew 'slips' under pressure.",
+    "detail": "机制：担忧念头与抑制压力占用工作记忆，剩下给题目的容量减少。怎么办：考前模拟真实环境、熟练到自动；开考前写下担忧（表达性写作）以卸下载荷；把“紧张”重评为“兴奋/准备就绪”。重点不是消除焦虑，而是不让它吃掉思考资源。",
+    "detailEn": "Mechanism: worry and pressure-suppression consume working memory, leaving less for the items. Simulate real conditions, overlearn to automaticity, jot worries down before starting (expressive writing) to unload them, and reappraise 'nervous' as 'excited/ready'. The goal is not zero anxiety but keeping it from eating your thinking resources.",
+    "category": "学习",
+    "related": ["stress-coping", "working-memory", "self-efficacy"],
+    "sources": [{ "label": "Beilock (2010)《你的头脑如何欺骗你》", "year": 2010 }]
   }
 ]

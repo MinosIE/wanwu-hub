@@ -70,5 +70,65 @@
     "category": "学习",
     "related": ["left-right-brain", "multiple-intelligence"],
     "sources": [{ "label": "Hyde (2014)", "year": 2014 }]
+  },
+  {
+    "id": "learning-styles",
+    "term": "「按学习风格（视觉/听觉型）教才有效」",
+    "termEn": "Learning Styles Improve Learning",
+    "oneLiner": "人确有偏好，但把教学匹配到「风格」并不提升成绩。",
+    "oneLinerEn": "People have preferences, but matching teaching to 'styles' does not raise performance.",
+    "detail": "真相：大量研究未发现「风格匹配教学」的收益（学习风格假说缺乏证据）。内容本身更适合某种呈现方式（地理靠图、音乐靠听），而非因人而异。来源：Pashler 等 (2008) 综述。启示：与其贴标签，不如用好提取练习与多样化呈现。",
+    "detailEn": "Truth: many studies find no benefit to matching instruction to 'styles'; the learning-styles hypothesis lacks evidence. Content suits a mode on its own terms (maps for geography, sound for music), not per person. Source: Pashler et al. (2008). Instead of labeling, use retrieval practice and varied presentation.",
+    "category": "学习",
+    "related": ["learning-styles", "memory-like-recording", "multiple-intelligence"],
+    "sources": [{ "label": "Pashler et al. (2008)", "year": 2008 }]
+  },
+  {
+    "id": "venting-catharsis",
+    "term": "「发脾气戒泄能平怒」",
+    "termEn": "Venting Releases Anger",
+    "oneLiner": "打沙袋、大声叫嚷多在「排练」愤怒，反而强化而非消退。",
+    "oneLinerEn": "Hitting a bag or shouting often rehearses anger, strengthening rather than draining it.",
+    "detail": "真相：宣泄假说认为释放能排空怒气，但实验发现强烈宣泄常升高后续攻击。发泄把“怒气”与“攻击行为”反复联结，反而练习了它们。真正有效的是冷静、认知重评与问题解决。来源：Bushman (2002) 等。",
+    "detailEn": "Truth: catharsis theory says release empties anger, but experiments show vigorous venting often raises later aggression. Venting repeatedly pairs anger with attack—practicing it. Calming down, reappraisal and problem-solving work better. Source: Bushman (2002).",
+    "category": "情绪",
+    "related": ["emotion", "stress-coping", "freud"],
+    "sources": [{ "label": "Bushman (2002)", "year": 2002 }]
+  },
+  {
+    "id": "hypnosis-memory",
+    "term": "「催眠能准确恢复被遗忘的记忆」",
+    "termEn": "Hypnosis Recovers Accurate Memories",
+    "oneLiner": "催眠提升的不是准确度，而是自信——还会植入虚假记忆。",
+    "oneLinerEn": "Hypnosis boosts confidence, not accuracy—and can plant false memories.",
+    "detail": "真相：被试在催眠下更易把暗示当作“想起”，事后却更坚信不疑，即“记忆膨胀”。催眠不能像录像回放，反易造出虚构细节。因此多法庭不采信催眠证词。来源：Lynn 等关于催眠与记忆的综述。",
+    "detailEn": "Truth: under hypnosis people more often treat suggestions as 'remembering' yet feel more certain—memory inflation. Hypnosis cannot replay like a recording and readily fabricates detail, so many courts reject hypnotically refreshed testimony. Source: Lynn et al. on hypnosis and memory.",
+    "category": "记忆",
+    "related": ["memory", "loftus-eyewitness", "memory-like-recording"],
+    "sources": [{ "label": "Lynn et al. (2015)", "year": 2015 }]
+  },
+  {
+    "id": "iq-fixed",
+    "term": "「智商天生固定、努力无用」",
+    "termEn": "IQ Is Fixed and Effort Is Pointless",
+    "oneLiner": "智力有遗传成分但可受教育与环境影响，努力能提升表现。",
+    "oneLinerEn": "Intelligence is heritable yet shaped by education and environment; effort lifts performance.",
+    "detail": "真相：遗传率不为 1，且随环境变化；弗林效应显示分数世代上升。“固定型思维”使人遇挫即弃，而“成长型思维”配合有效方法能持续进步。天赋影响起点，方法与环境影响能走多远。来源：Dweck (2006)。",
+    "detailEn": "Truth: heritability is not 1 and varies with environment; the Flynn effect shows scores rising across generations. A 'fixed mindset' makes people quit at setbacks, while a 'growth mindset' with good methods sustains gains. Talent sets the starting point; method and environment set the distance. Source: Dweck (2006).",
+    "category": "学习",
+    "related": ["intelligence", "growth-mindset", "multiple-intelligence"],
+    "sources": [{ "label": "Tucker-Drob & Brion (2012)", "year": 2012 }]
+  },
+  {
+    "id": "high-self-esteem",
+    "term": "「高自尊必然带来好表现与好人品」",
+    "termEn": "High Self-Esteem Causes Success",
+    "oneLiner": "自尊与表现相关而非因果，盲目抬高还可能转成自负。",
+    "oneLinerEn": "Self-esteem correlates with performance but rarely causes it; inflating it can breed narcissism.",
+    "detail": "真相：Baumeister 等综述发现，提升自尊的干预并不直接改善学业或行为；真正预测表现的是能力与具体反馈。空洞表扬可能养出脆弱的高自尊甚至攻击性。更可取的是建立在真实掌握上的“安全高自尊”。来源：Baumeister et al. (2003)。",
+    "detailEn": "Truth: Baumeister's review found that boosting self-esteem does not directly improve schoolwork or conduct; skill and specific feedback predict performance. Empty praise can foster fragile, even aggressive, high self-esteem. Better is secure self-esteem built on real mastery. Source: Baumeister et al. (2003).",
+    "category": "人格",
+    "related": ["self", "self-efficacy", "parenting-praise"],
+    "sources": [{ "label": "Baumeister et al. (2003)", "year": 2003 }]
   }
 ]
