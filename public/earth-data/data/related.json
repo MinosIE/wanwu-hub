@@ -55,6 +55,55 @@
       "nEn": "Kenya"
     }
   ],
+  "japan": [
+    {
+      "m": "m-schools",
+      "n": "日本",
+      "nEn": "Japan"
+    }
+  ],
+  "iceland": [
+    {
+      "m": "m-schools",
+      "n": "冰岛",
+      "nEn": "Iceland"
+    }
+  ],
+  "antarctica": [
+    {
+      "m": "m-schools",
+      "n": "南极洲",
+      "nEn": "Antarctica"
+    }
+  ],
+  "congo-basin": [
+    {
+      "m": "m-schools",
+      "n": "刚果盆地",
+      "nEn": "Congo Basin"
+    }
+  ],
+  "west-asia": [
+    {
+      "m": "m-schools",
+      "n": "西亚（中东）",
+      "nEn": "West Asia (Middle East)"
+    }
+  ],
+  "southeast-asia": [
+    {
+      "m": "m-schools",
+      "n": "东南亚",
+      "nEn": "Southeast Asia"
+    }
+  ],
+  "central-asia": [
+    {
+      "m": "m-schools",
+      "n": "中亚",
+      "nEn": "Central Asia"
+    }
+  ],
   "tropical-rainforest": [
     {
       "m": "m-questions",
@@ -109,6 +158,55 @@
       "m": "m-questions",
       "n": "高山带",
       "nEn": "Alpine Zone"
+    }
+  ],
+  "glacier": [
+    {
+      "m": "m-questions",
+      "n": "冰川与冰盖",
+      "nEn": "Glaciers & Ice Sheets"
+    }
+  ],
+  "plate-tectonics": [
+    {
+      "m": "m-questions",
+      "n": "板块构造",
+      "nEn": "Plate Tectonics"
+    }
+  ],
+  "water-cycle": [
+    {
+      "m": "m-questions",
+      "n": "水循环",
+      "nEn": "The Water Cycle"
+    }
+  ],
+  "ocean-currents": [
+    {
+      "m": "m-questions",
+      "n": "洋流",
+      "nEn": "Ocean Currents"
+    }
+  ],
+  "monsoon": [
+    {
+      "m": "m-questions",
+      "n": "季风",
+      "nEn": "Monsoon"
+    }
+  ],
+  "coral-reef": [
+    {
+      "m": "m-questions",
+      "n": "珊瑚礁",
+      "nEn": "Coral Reefs"
+    }
+  ],
+  "karst": [
+    {
+      "m": "m-questions",
+      "n": "喀斯特地貌",
+      "nEn": "Karst Landforms"
     }
   ],
   "yellow-river": [

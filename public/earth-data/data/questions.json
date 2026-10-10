@@ -151,5 +151,138 @@
     "thinkers": ["china", "india", "himalaya"],
     "related": ["himalaya", "rockies", "andes"],
     "sources": [{ "label": "ICIMOD / IPCC", "year": 2023 }]
+  },
+  {
+    "id": "glacier",
+    "name": "冰川与冰盖",
+    "nameEn": "Glaciers & Ice Sheets",
+    "era": "极地与高山（南极、格陵兰、喜马拉雅）",
+    "eraEn": "Polar & alpine (Antarctica, Greenland, Himalaya)",
+    "level": 2,
+    "oneLiner": "以自身重量运动的冰体与冰原，是地球的淡水水库与气候记录仪。",
+    "oneLinerEn": "Ice masses moving under their own weight — Earth's freshwater reservoirs and climate archives.",
+    "positions": [
+      { "k": "形成", "kEn": "Formation", "v": "积雪经压实、重结晶成冰，在重力下沿运动。", "vEn": "Snow compacts and recrystallizes into ice that flows under gravity." },
+      { "k": "作用", "kEn": "Impact", "v": "刨蚀形成 U 形谷、冰碛地貌；融水补给河流。", "vEn": "Erodes U-shaped valleys and moraines; meltwater feeds rivers." }
+    ],
+    "why": "储存全球大部分淡水，调节海平面与河流供水；变暖下萎缩威胁水源与沿海城市。",
+    "whyEn": "Holds most of the world's freshwater and modulates sea level and river supply; retreat threatens water sources and coasts.",
+    "thinkers": ["antarctica", "qinghai-plateau", "alpine"],
+    "related": ["antarctica", "himalaya", "alpine"],
+    "sources": [{ "label": "WGMS / IPCC", "year": 2023 }]
+  },
+  {
+    "id": "plate-tectonics",
+    "name": "板块构造",
+    "nameEn": "Plate Tectonics",
+    "era": "全球岩石圈",
+    "eraEn": "Earth's global lithosphere",
+    "level": 3,
+    "oneLiner": "岩石圈板块在地幔对流上缓慢移动，塑造了山脉、海沟、地震与火山的全部分布。",
+    "oneLinerEn": "Lithospheric plates drift on mantle convection, shaping where mountains, trenches, quakes and volcanoes occur.",
+    "positions": [
+      { "k": "边界类型", "kEn": "Boundaries", "v": "张裂（洋中脊）、俯冲（海沟）、平错（转换断层）。", "vEn": "Divergent (ridges), convergent (trenches), transform (faults)." },
+      { "k": "动力", "kEn": "Engine", "v": "地幔热对流与板块重力拖拽驱动每年数厘米运动。", "vEn": "Mantle convection and slab pull drive centimetre-per-year motion." }
+    ],
+    "why": "现代地理学的统一理论，解释了大陆漂移、造山带、地震带与矿产分布的成因。",
+    "whyEn": "The unifying theory of geology, explaining continental drift, mountain belts, earthquake zones and ore distribution.",
+    "thinkers": ["iceland", "japan", "west-asia"],
+    "related": ["iceland", "japan", "himalaya"],
+    "sources": [{ "label": "USGS", "year": 2022 }]
+  },
+  {
+    "id": "water-cycle",
+    "name": "水循环",
+    "nameEn": "The Water Cycle",
+    "era": "全球海—陆—气",
+    "eraEn": "Global ocean–land–atmosphere",
+    "level": 2,
+    "oneLiner": "蒸发、水汽输送、降水、径流与下渗构成的闭合循环，驱动淡水的时空更新。",
+    "oneLinerEn": "A closed loop of evaporation, transport, precipitation, runoff and infiltration that renews fresh water in time and space.",
+    "positions": [
+      { "k": "环节", "kEn": "Links", "v": "蒸发蒸腾→凝结降水→地表与地下径流→回归海洋。", "vEn": "Evapotranspiration → condensation/precipitation → surface & groundwater runoff → back to sea." },
+      { "k": "人为影响", "kEn": "Human impact", "v": "取水、水库、城市化与气候改变局部分配。", "vEn": "Abstraction, dams, urbanization and warming reshape local distribution." }
+    ],
+    "why": "维系生命与农业、调节气候与地貌；水资源时空不均是其分布的核心矛盾。",
+    "whyEn": "Sustains life, farming and climate and sculpts landforms; uneven space-time supply is water's core scarcity tension.",
+    "thinkers": ["nile", "yangtze", "mississippi"],
+    "related": ["yangtze", "nile", "mississippi"],
+    "sources": [{ "label": "UN-Water", "year": 2023 }]
+  },
+  {
+    "id": "ocean-currents",
+    "name": "洋流",
+    "nameEn": "Ocean Currents",
+    "era": "全球大洋",
+    "eraEn": "World oceans",
+    "level": 3,
+    "oneLiner": "盛行风与密度差驱动的海水大规模流动，调节全球热量与气候。",
+    "oneLinerEn": "Wind- and density-driven seawater flow that redistributes heat and climate globally.",
+    "positions": [
+      { "k": "分类", "kEn": "Types", "v": "暖流增温增湿、寒流降温减湿；风海流与密度流。", "vEn": "Warm currents heat and moisten, cold cool and dry; wind-driven and density-driven." },
+      { "k": "输送带", "kEn": "Conveyor", "v": "温盐环流将热量由高纬输送、联结各大洋。", "vEn": "The thermohaline conveyor moves heat poleward and links the oceans." }
+    ],
+    "why": "影响沿岸气候、渔场分布与航运，并是地球热量平衡与碳吸收的关键环节。",
+    "whyEn": "Shapes coastal climates, fisheries and shipping, and is key to Earth's heat balance and carbon uptake.",
+    "thinkers": ["australia", "cousteau", "antarctica"],
+    "related": ["great-barrier-reef", "amazon", "antarctica"],
+    "sources": [{ "label": "NOAA", "year": 2022 }]
+  },
+  {
+    "id": "monsoon",
+    "name": "季风",
+    "nameEn": "Monsoon",
+    "era": "南亚、东南亚与中国东部",
+    "eraEn": "South/SE Asia and East China",
+    "level": 2,
+    "oneLiner": "海陆热力差异使风向季节反转，带来集中而年际波动显著的雨季。",
+    "oneLinerEn": "Land–sea heating flips winds by season, delivering concentrated and highly variable rainy seasons.",
+    "positions": [
+      { "k": "成因", "kEn": "Cause", "v": "夏季陆低风从海洋吹向陆地带来降水。", "vEn": "Summer low pressure draws moist wind from sea to land." },
+      { "k": "风险", "kEn": "Risk", "v": "来得早晚与强弱决定洪涝或干旱。", "vEn": "Its timing and strength decide floods or droughts." }
+    ],
+    "why": "养活了世界最密集的稻作人口，其强弱直接关系到南亚与东亚的农业与水安全。",
+    "whyEn": "Sustains the world's densest rice-growing populations; its strength directly drives South and East Asian farming and water security.",
+    "thinkers": ["india", "southeast-asia", "china"],
+    "related": ["ganges", "indus", "southeast-asia"],
+    "sources": [{ "label": "WMO", "year": 2023 }]
+  },
+  {
+    "id": "coral-reef",
+    "name": "珊瑚礁",
+    "nameEn": "Coral Reefs",
+    "era": "热带浅海（印度洋—太平洋）",
+    "eraEn": "Tropical shallow seas (Indo-Pacific)",
+    "level": 2,
+    "oneLiner": "珊瑚虫与藻类共生的活体建筑，是海洋中的热带雨林，生物多样性极高。",
+    "oneLinerEn": "Living structures of coral–algae symbiosis — the rainforests of the sea, with immense biodiversity.",
+    "positions": [
+      { "k": "条件", "kEn": "Conditions", "v": "水温 23–29℃、光照充足、盐度稳定的浅海。", "vEn": "Warm (23–29°C), well-lit, stable-salinity shallow water." },
+      { "k": "威胁", "kEn": "Threats", "v": "升温白化、酸化、污染与过度捕捞。", "vEn": "Warming bleaching, acidification, pollution and overfishing." }
+    ],
+    "why": "庇护海洋物种、保护海岸并支撑渔业与旅游；对升温最敏感，是气候变化的前哨。",
+    "whyEn": "Shelters marine life, buffers coasts and supports fisheries and tourism; highly warmth-sensitive, it is a frontline of climate change.",
+    "thinkers": ["australia", "southeast-asia", "cousteau"],
+    "related": ["great-barrier-reef", "southeast-asia", "ocean-currents"],
+    "sources": [{ "label": " Reef Base / GBRMPA", "year": 2023 }]
+  },
+  {
+    "id": "karst",
+    "name": "喀斯特地貌",
+    "nameEn": "Karst Landforms",
+    "era": "石灰岩广布区（中国西南、地中海岸）",
+    "eraEn": "Limestone regions (SW China, Dinaric coast)",
+    "level": 3,
+    "oneLiner": "可溶岩石被水长期溶蚀形成的地貌，多峰林、溶洞、天坑与地下河。",
+    "oneLinerEn": "Landforms from dissolving soluble rock by water — tower karst, caves, sinkholes and underground rivers.",
+    "positions": [
+      { "k": "成因", "kEn": "Cause", "v": "含 CO₂ 的水溶蚀碳酸钙，沿裂隙扩大洞穴。", "vEn": "CO₂-charged water dissolves calcium carbonate along fractures into caves." },
+      { "k": "形态", "kEn": "Forms", "v": "石林、峰林、洼地、钟乳石与地下河。", "vEn": "Stone forests, peaks, dolines, stalactites and subterranean rivers." }
+    ],
+    "why": "塑造独特景观与地下水系，却土层薄、易石漠化，是生态治理的难点。",
+    "whyEn": "Creates striking scenery and groundwater systems but thin, desertification-prone soils, making it a hard case for ecological care.",
+    "thinkers": ["china", "qinghai-plateau", "li-daoyuan"],
+    "related": ["china", "yangtze", "alpine"],
+    "sources": [{ "label": "UNESCO", "year": 2022 }]
   }
 ]
