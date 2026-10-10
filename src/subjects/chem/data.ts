@@ -2,31 +2,109 @@ import type { SubjectConfig, SubjectItem } from "../subjectKit";
 
 /* ---------- 完整元素周期表数据（118 个元素） ---------- */
 const CAT_ZH: Record<string, string> = {
-  alkali: "碱金属", alkaline: "碱土金属", transition: "过渡金属", post: "主族金属",
-  metalloid: "类金属", nonmetal: "非金属", halogen: "卤素", noble: "稀有气体",
-  lanthanide: "镧系", actinide: "锕系", unknown: "人工合成",
+  alkali: "碱金属",
+  alkaline: "碱土金属",
+  transition: "过渡金属",
+  post: "主族金属",
+  metalloid: "类金属",
+  nonmetal: "非金属",
+  halogen: "卤素",
+  noble: "稀有气体",
+  lanthanide: "镧系",
+  actinide: "锕系",
+  unknown: "人工合成",
 };
 
 // [z, 符号, 中文名, 英文名, 分类, 周期, 族, 相对原子质量, 备注?]
-type RawEl = [number, string, string, string, string, number, number, string, string?];
+type RawEl = [
+  number,
+  string,
+  string,
+  string,
+  string,
+  number,
+  number,
+  string,
+  string?,
+];
 const RAW: RawEl[] = [
   [1, "H", "氢", "Hydrogen", "nonmetal", 1, 1, "1.008"],
   [2, "He", "氦", "Helium", "noble", 1, 18, "4.003"],
   [3, "Li", "锂", "Lithium", "alkali", 2, 1, "6.941"],
   [4, "Be", "铍", "Beryllium", "alkaline", 2, 2, "9.012"],
   [5, "B", "硼", "Boron", "metalloid", 2, 13, "10.81"],
-  [6, "C", "碳", "Carbon", "nonmetal", 2, 14, "12.01", "有机化学骨架，金刚石/石墨等为同素异形体"],
-  [7, "N", "氮", "Nitrogen", "nonmetal", 2, 15, "14.01", "空气主要成分，蛋白质与核酸的组成元素"],
-  [8, "O", "氧", "Oxygen", "nonmetal", 2, 16, "16.00", "支持呼吸与燃烧，地壳含量最高"],
+  [
+    6,
+    "C",
+    "碳",
+    "Carbon",
+    "nonmetal",
+    2,
+    14,
+    "12.01",
+    "有机化学骨架，金刚石/石墨等为同素异形体",
+  ],
+  [
+    7,
+    "N",
+    "氮",
+    "Nitrogen",
+    "nonmetal",
+    2,
+    15,
+    "14.01",
+    "空气主要成分，蛋白质与核酸的组成元素",
+  ],
+  [
+    8,
+    "O",
+    "氧",
+    "Oxygen",
+    "nonmetal",
+    2,
+    16,
+    "16.00",
+    "支持呼吸与燃烧，地壳含量最高",
+  ],
   [9, "F", "氟", "Fluorine", "halogen", 2, 17, "19.00", "非金属性最强的元素"],
   [10, "Ne", "氖", "Neon", "noble", 2, 18, "20.18", "霓虹灯发光气体"],
   [11, "Na", "钠", "Sodium", "alkali", 3, 1, "22.99", "活泼金属，与氯形成食盐"],
-  [12, "Mg", "镁", "Magnesium", "alkaline", 3, 2, "24.31", "燃烧发白光，叶绿素中心原子"],
+  [
+    12,
+    "Mg",
+    "镁",
+    "Magnesium",
+    "alkaline",
+    3,
+    2,
+    "24.31",
+    "燃烧发白光，叶绿素中心原子",
+  ],
   [13, "Al", "铝", "Aluminum", "post", 3, 13, "26.98", "地壳含量最高的金属"],
   [14, "Si", "硅", "Silicon", "metalloid", 3, 14, "28.09", "半导体工业基础"],
-  [15, "P", "磷", "Phosphorus", "nonmetal", 3, 15, "30.97", "存在于 ATP 与 DNA"],
+  [
+    15,
+    "P",
+    "磷",
+    "Phosphorus",
+    "nonmetal",
+    3,
+    15,
+    "30.97",
+    "存在于 ATP 与 DNA",
+  ],
   [16, "S", "硫", "Sulfur", "nonmetal", 3, 16, "32.06", "黄色固体，用于制硫酸"],
-  [17, "Cl", "氯", "Chlorine", "halogen", 3, 17, "35.45", "黄绿色气体，强氧化性"],
+  [
+    17,
+    "Cl",
+    "氯",
+    "Chlorine",
+    "halogen",
+    3,
+    17,
+    "35.45",
+    "黄绿色气体，强氧化性",
+  ],
   [18, "Ar", "氩", "Argon", "noble", 3, 18, "39.95"],
   [19, "K", "钾", "Potassium", "alkali", 4, 1, "39.10", "维持神经与肌肉功能"],
   [20, "Ca", "钙", "Calcium", "alkaline", 4, 2, "40.08", "骨骼与牙齿主要成分"],
@@ -38,7 +116,17 @@ const RAW: RawEl[] = [
   [26, "Fe", "铁", "Iron", "transition", 4, 8, "55.85", "血红蛋白与钢的核心"],
   [27, "Co", "钴", "Cobalt", "transition", 4, 9, "58.93"],
   [28, "Ni", "镍", "Nickel", "transition", 4, 10, "58.69"],
-  [29, "Cu", "铜", "Copper", "transition", 4, 11, "63.55", "优良导体，古代即使用"],
+  [
+    29,
+    "Cu",
+    "铜",
+    "Copper",
+    "transition",
+    4,
+    11,
+    "63.55",
+    "优良导体，古代即使用",
+  ],
   [30, "Zn", "锌", "Zinc", "transition", 4, 12, "65.38", "镀锌防锈，电池负极"],
   [31, "Ga", "镓", "Gallium", "post", 4, 13, "69.72"],
   [32, "Ge", "锗", "Germanium", "metalloid", 4, 14, "72.63"],
@@ -73,7 +161,17 @@ const RAW: RawEl[] = [
   [76, "Os", "锇", "Osmium", "transition", 6, 8, "190.2", "密度最大的金属"],
   [77, "Ir", "铱", "Iridium", "transition", 6, 9, "192.2"],
   [78, "Pt", "铂", "Platinum", "transition", 6, 10, "195.1", "贵金属催化剂"],
-  [79, "Au", "金", "Gold", "transition", 6, 11, "197.0", "稳定贵金属，延展性极佳"],
+  [
+    79,
+    "Au",
+    "金",
+    "Gold",
+    "transition",
+    6,
+    11,
+    "197.0",
+    "稳定贵金属，延展性极佳",
+  ],
   [80, "Hg", "汞", "Mercury", "transition", 6, 12, "200.6", "常温下为液体金属"],
   [81, "Tl", "铊", "Thallium", "post", 6, 13, "204.4"],
   [82, "Pb", "铅", "Lead", "post", 6, 14, "207.2", "有毒重金属"],
@@ -130,6 +228,78 @@ const RAW: RawEl[] = [
   [103, "Lr", "铹", "Lawrencium", "actinide", 7, 3, "262"],
 ];
 
+/** 按构造原理（s²p⁶d¹⁰f¹⁴）近似计算各电子层容纳数，返回 [K, L, M, ...]。 */
+function shellsFor(z: number): number[] {
+  // 填充顺序（主量子数 n，该亚层容量）：1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p
+  //                                        6s 4f 5d 6p 7s 5f 6d 7p
+  const ORDER: [number, number][] = [
+    [1, 2],
+    [2, 2],
+    [2, 6],
+    [3, 2],
+    [3, 6],
+    [4, 2],
+    [3, 10],
+    [4, 6],
+    [5, 2],
+    [4, 10],
+    [5, 6],
+    [6, 2],
+    [4, 14],
+    [5, 10],
+    [6, 6],
+    [7, 2],
+    [5, 14],
+    [6, 10],
+    [7, 6],
+  ];
+  const shells: number[] = [];
+  let left = z;
+  for (const [n, cap] of ORDER) {
+    if (left <= 0) break;
+    const take = Math.min(cap, left);
+    shells[n - 1] = (shells[n - 1] ?? 0) + take;
+    left -= take;
+  }
+  return shells.map((v) => v ?? 0);
+}
+
+/** 生成原子结构示意图（玻尔模型：原子核 + 电子层 + 逐层电子），供详情弹层 figure 使用。 */
+function atomFigure(sym: string, z: number): string {
+  const shells = shellsFor(z);
+  const cx = 170;
+  const cy = 150;
+  const k = shells.length;
+  const rMin = 44;
+  const rMax = 128;
+  const radius = (i: number) =>
+    k <= 1 ? rMin : rMin + ((rMax - rMin) * i) / (k - 1);
+  const rings = shells
+    .map(
+      (_, i) => `<circle cx="${cx}" cy="${cy}" r="${radius(i).toFixed(1)}"/>`,
+    )
+    .join("");
+  let dots = "";
+  shells.forEach((cnt, i) => {
+    const r = radius(i);
+    for (let j = 0; j < cnt; j++) {
+      const a = -Math.PI / 2 + (2 * Math.PI * j) / cnt;
+      const x = (cx + r * Math.cos(a)).toFixed(1);
+      const y = (cy + r * Math.sin(a)).toFixed(1);
+      dots += `<circle cx="${x}" cy="${y}" r="4"/>`;
+    }
+  });
+  const dist = shells.join("·");
+  return `<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g fill="none" stroke="currentColor" stroke-opacity="0.35">${rings}</g>
+  <g fill="#3b82f6">${dots}</g>
+  <circle cx="${cx}" cy="${cy}" r="22" fill="#e5484d"/>
+  <text x="${cx}" y="${cy + 4}" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">${sym}</text>
+  <text x="8" y="18" font-size="11" fill="currentColor">${sym} · Z=${z}</text>
+  <text x="170" y="294" text-anchor="middle" font-size="11" fill="currentColor">电子层 ${dist}</text>
+</svg>`;
+}
+
 function elToItem(e: RawEl): SubjectItem {
   const [z, sym, zh, en, cat, period, group, mass, note] = e;
   const isLan = cat === "lanthanide";
@@ -147,6 +317,7 @@ function elToItem(e: RawEl): SubjectItem {
       en: `${en} (Z=${z}), relative atomic mass ≈ ${mass}, ${cat}.`,
     },
     tags: [{ zh: catZh, en: cat }],
+    figure: atomFigure(sym, z),
     pt: { row, col, symbol: sym, z, cat, mass },
   };
 }
@@ -172,8 +343,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚛️",
           term: { zh: "原子结构", en: "Atomic Structure" },
           level: 1,
-          oneLiner: { zh: "原子由带正电的原子核与核外电子组成，电子排布决定化学性质。", en: "Atoms have a positive nucleus and orbiting electrons; electron arrangement decides chemistry." },
-          detail: { zh: "原子核含质子与中子；电子按能级与轨道分层排布，价电子参与成键。", en: "The nucleus holds protons and neutrons; electrons occupy shells; valence electrons form bonds." },
+          oneLiner: {
+            zh: "原子由带正电的原子核与核外电子组成，电子排布决定化学性质。",
+            en: "Atoms have a positive nucleus and orbiting electrons; electron arrangement decides chemistry.",
+          },
+          detail: {
+            zh: "原子核含质子与中子；电子按能级与轨道分层排布，价电子参与成键。",
+            en: "The nucleus holds protons and neutrons; electrons occupy shells; valence electrons form bonds.",
+          },
           tags: [{ zh: "结构", en: "Structure" }],
         },
         {
@@ -181,8 +358,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "📐",
           term: { zh: "元素周期律", en: "Periodic Law" },
           level: 1,
-          oneLiner: { zh: "元素性质随原子序数呈周期性变化，周期表是其系统呈现。", en: "Element properties repeat periodically with atomic number; the table expresses this." },
-          detail: { zh: "门捷列夫按原子量排列并预言未知元素；现代周期表按原子序数排列。", en: "Mendeleev arranged by atomic weight; the modern table uses atomic number." },
+          oneLiner: {
+            zh: "元素性质随原子序数呈周期性变化，周期表是其系统呈现。",
+            en: "Element properties repeat periodically with atomic number; the table expresses this.",
+          },
+          detail: {
+            zh: "门捷列夫按原子量排列并预言未知元素；现代周期表按原子序数排列。",
+            en: "Mendeleev arranged by atomic weight; the modern table uses atomic number.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -190,8 +373,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔗",
           term: { zh: "化学键", en: "Chemical Bonds" },
           level: 1,
-          oneLiner: { zh: "原子通过离子键、共价键或金属键结合成分子与晶体。", en: "Atoms join via ionic, covalent or metallic bonds." },
-          detail: { zh: "离子键靠电子转移、共价键靠电子共享、金属键靠离域电子海，决定硬度、熔沸点和导电性。", en: "Ionic (transfer), covalent (sharing) and metallic (delocalized) bonds set hardness, melting point and conductivity." },
+          oneLiner: {
+            zh: "原子通过离子键、共价键或金属键结合成分子与晶体。",
+            en: "Atoms join via ionic, covalent or metallic bonds.",
+          },
+          detail: {
+            zh: "离子键靠电子转移、共价键靠电子共享、金属键靠离域电子海，决定硬度、熔沸点和导电性。",
+            en: "Ionic (transfer), covalent (sharing) and metallic (delocalized) bonds set hardness, melting point and conductivity.",
+          },
           tags: [{ zh: "成键", en: "Bonding" }],
         },
         {
@@ -199,8 +388,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🧫",
           term: { zh: "酸碱", en: "Acids & Bases" },
           level: 2,
-          oneLiner: { zh: "酸给出质子（H⁺），碱接受质子；pH 衡量溶液酸碱性。", en: "Acids donate protons (H⁺), bases accept them; pH measures acidity." },
-          detail: { zh: "按布朗斯特-劳里定义，酸碱是质子授受关系；强酸强碱中和生成盐与水。", en: "Brønsted–Lowry defines them by proton transfer; neutralization yields salt and water." },
+          oneLiner: {
+            zh: "酸给出质子（H⁺），碱接受质子；pH 衡量溶液酸碱性。",
+            en: "Acids donate protons (H⁺), bases accept them; pH measures acidity.",
+          },
+          detail: {
+            zh: "按布朗斯特-劳里定义，酸碱是质子授受关系；强酸强碱中和生成盐与水。",
+            en: "Brønsted–Lowry defines them by proton transfer; neutralization yields salt and water.",
+          },
           tags: [{ zh: "酸碱", en: "Acid-Base" }],
         },
         {
@@ -208,8 +403,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔋",
           term: { zh: "氧化还原反应", en: "Redox" },
           level: 2,
-          oneLiner: { zh: "电子转移过程：升价被氧化，降价被还原。", en: "Electron transfer: oxidation raises oxidation state, reduction lowers it." },
-          detail: { zh: "燃烧、腐蚀、电池都属氧化还原；氧化剂得电子、还原剂失电子，二者相伴。", en: "Combustion, corrosion and batteries are redox; oxidizing and reducing agents act together." },
+          oneLiner: {
+            zh: "电子转移过程：升价被氧化，降价被还原。",
+            en: "Electron transfer: oxidation raises oxidation state, reduction lowers it.",
+          },
+          detail: {
+            zh: "燃烧、腐蚀、电池都属氧化还原；氧化剂得电子、还原剂失电子，二者相伴。",
+            en: "Combustion, corrosion and batteries are redox; oxidizing and reducing agents act together.",
+          },
           tags: [{ zh: "反应", en: "Reactions" }],
         },
         {
@@ -217,8 +418,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚖️",
           term: { zh: "化学平衡", en: "Chemical Equilibrium" },
           level: 2,
-          oneLiner: { zh: "可逆反应正逆速率相等时，各物质浓度不再变化。", en: "When forward and reverse rates equal, concentrations stop changing." },
-          detail: { zh: "勒夏特列原理：改变浓度、温度或压强，平衡向削弱该改变的方向移动。", en: "Le Chatelier's principle: a system shifts to counteract changes in concentration, temperature or pressure." },
+          oneLiner: {
+            zh: "可逆反应正逆速率相等时，各物质浓度不再变化。",
+            en: "When forward and reverse rates equal, concentrations stop changing.",
+          },
+          detail: {
+            zh: "勒夏特列原理：改变浓度、温度或压强，平衡向削弱该改变的方向移动。",
+            en: "Le Chatelier's principle: a system shifts to counteract changes in concentration, temperature or pressure.",
+          },
           tags: [{ zh: "平衡", en: "Equilibrium" }],
         },
         {
@@ -226,8 +433,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⏱️",
           term: { zh: "反应速率", en: "Reaction Rate" },
           level: 2,
-          oneLiner: { zh: "浓度、温度、催化剂与表面积都会影响反应快慢。", en: "Concentration, temperature, catalysts and surface area affect rate." },
-          detail: { zh: "升温或加催化剂可降低活化能、加快反应；碰撞理论解释有效碰撞。", en: "Higher temperature or catalysts lower activation energy; collision theory explains effective collisions." },
+          oneLiner: {
+            zh: "浓度、温度、催化剂与表面积都会影响反应快慢。",
+            en: "Concentration, temperature, catalysts and surface area affect rate.",
+          },
+          detail: {
+            zh: "升温或加催化剂可降低活化能、加快反应；碰撞理论解释有效碰撞。",
+            en: "Higher temperature or catalysts lower activation energy; collision theory explains effective collisions.",
+          },
           tags: [{ zh: "动力学", en: "Kinetics" }],
         },
         {
@@ -235,8 +448,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌡️",
           term: { zh: "化学热力学", en: "Chemical Thermodynamics" },
           level: 3,
-          oneLiner: { zh: "用焓、熵、吉布斯自由能判断反应能否自发。", en: "Enthalpy, entropy and Gibbs free energy decide spontaneity." },
-          detail: { zh: "ΔG=ΔH−TΔS；ΔG<0 时反应自发，放热与熵增都有利于自发。", en: "ΔG=ΔH−TΔS; ΔG<0 means spontaneous." },
+          oneLiner: {
+            zh: "用焓、熵、吉布斯自由能判断反应能否自发。",
+            en: "Enthalpy, entropy and Gibbs free energy decide spontaneity.",
+          },
+          detail: {
+            zh: "ΔG=ΔH−TΔS；ΔG<0 时反应自发，放热与熵增都有利于自发。",
+            en: "ΔG=ΔH−TΔS; ΔG<0 means spontaneous.",
+          },
           tags: [{ zh: "热力学", en: "Thermodynamics" }],
         },
         {
@@ -244,8 +463,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🌀",
           term: { zh: "配位化合物", en: "Coordination Compounds" },
           level: 3,
-          oneLiner: { zh: "中心金属离子与配体通过配位键形成的复杂结构。", en: "Central metal ions bonded to ligands via coordinate bonds." },
-          detail: { zh: "常见于催化剂、颜料与生物分子（如血红素中的铁）。", en: "Seen in catalysts, pigments and biomolecules (e.g. iron in heme)." },
+          oneLiner: {
+            zh: "中心金属离子与配体通过配位键形成的复杂结构。",
+            en: "Central metal ions bonded to ligands via coordinate bonds.",
+          },
+          detail: {
+            zh: "常见于催化剂、颜料与生物分子（如血红素中的铁）。",
+            en: "Seen in catalysts, pigments and biomolecules (e.g. iron in heme).",
+          },
           tags: [{ zh: "无机", en: "Inorganic" }],
         },
         {
@@ -253,8 +478,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "💧",
           term: { zh: "溶液与溶解度", en: "Solutions & Solubility" },
           level: 1,
-          oneLiner: { zh: "一种或多种物质分散到另一种物质中形成均一稳定的混合物。", en: "A homogeneous, stable mixture of solutes dispersed in a solvent." },
-          detail: { zh: "溶解度随温度升高一般增大（气体反之）；饱和溶液与温度、压强有关。", en: "Solubility usually rises with temperature (gases opposite); saturation depends on T and pressure." },
+          oneLiner: {
+            zh: "一种或多种物质分散到另一种物质中形成均一稳定的混合物。",
+            en: "A homogeneous, stable mixture of solutes dispersed in a solvent.",
+          },
+          detail: {
+            zh: "溶解度随温度升高一般增大（气体反之）；饱和溶液与温度、压强有关。",
+            en: "Solubility usually rises with temperature (gases opposite); saturation depends on T and pressure.",
+          },
           tags: [{ zh: "溶液", en: "Solutions" }],
         },
         {
@@ -262,8 +493,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔗",
           term: { zh: "有机化学基础", en: "Organic Basics" },
           level: 2,
-          oneLiner: { zh: "以碳为骨架的化合物，常见官能团有羟基、羧基、氨基等。", en: "Carbon-based compounds with functional groups like hydroxyl, carboxyl and amino." },
-          detail: { zh: "烷、烯、炔、醇、酸、酯等构成有机家族；同分异构现象普遍。", en: "Alkanes, alkenes, alcohols, acids and esters form the organic family; isomers are common." },
+          oneLiner: {
+            zh: "以碳为骨架的化合物，常见官能团有羟基、羧基、氨基等。",
+            en: "Carbon-based compounds with functional groups like hydroxyl, carboxyl and amino.",
+          },
+          detail: {
+            zh: "烷、烯、炔、醇、酸、酯等构成有机家族；同分异构现象普遍。",
+            en: "Alkanes, alkenes, alcohols, acids and esters form the organic family; isomers are common.",
+          },
           tags: [{ zh: "有机", en: "Organic" }],
         },
       ],
@@ -279,8 +516,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚛️",
           term: { zh: "原子的构成", en: "Anatomy of an Atom" },
           level: 1,
-          oneLiner: { zh: "原子 = 居于中心的原子核（质子 + 中子）+ 核外分层运动的电子。", en: "An atom = a central nucleus (protons + neutrons) ringed by electrons in shells." },
-          detail: { zh: "质子带正电、电子带负电、中子不带电；中性原子中质子数 = 原子序数 = 核外电子数，质量数 = 质子数 + 中子数。", en: "Protons are +, electrons −, neutrons 0; in a neutral atom protons = atomic number = electrons, and mass number = protons + neutrons." },
+          oneLiner: {
+            zh: "原子 = 居于中心的原子核（质子 + 中子）+ 核外分层运动的电子。",
+            en: "An atom = a central nucleus (protons + neutrons) ringed by electrons in shells.",
+          },
+          detail: {
+            zh: "质子带正电、电子带负电、中子不带电；中性原子中质子数 = 原子序数 = 核外电子数，质量数 = 质子数 + 中子数。",
+            en: "Protons are +, electrons −, neutrons 0; in a neutral atom protons = atomic number = electrons, and mass number = protons + neutrons.",
+          },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <g fill="none" stroke="currentColor" stroke-opacity="0.4">
@@ -303,8 +546,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🪑",
           term: { zh: "核外电子排布", en: "Electron Configuration" },
           level: 1,
-          oneLiner: { zh: "电子按能级分层排布，各层最多容纳 2n² 个；最外层不超过 8 个。", en: "Electrons fill shells by energy, each holding at most 2n², with no more than 8 in the outermost shell." },
-          detail: { zh: "前 20 号元素常按 2·8·8 规律排布；最外层电子数决定元素的化学性质与化合价。", en: "Elements 1–20 roughly follow 2·8·8; the outermost count sets chemical behavior and valence." },
+          oneLiner: {
+            zh: "电子按能级分层排布，各层最多容纳 2n² 个；最外层不超过 8 个。",
+            en: "Electrons fill shells by energy, each holding at most 2n², with no more than 8 in the outermost shell.",
+          },
+          detail: {
+            zh: "前 20 号元素常按 2·8·8 规律排布；最外层电子数决定元素的化学性质与化合价。",
+            en: "Elements 1–20 roughly follow 2·8·8; the outermost count sets chemical behavior and valence.",
+          },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <g fill="none" stroke="currentColor" stroke-opacity="0.4"><circle cx="150" cy="120" r="34"/><circle cx="150" cy="120" r="62"/><circle cx="150" cy="120" r="90"/></g>
@@ -325,8 +574,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🧲",
           term: { zh: "离子键", en: "Ionic Bond" },
           level: 1,
-          oneLiner: { zh: "活泼金属把电子交给活泼非金属，形成阴阳离子，靠静电作用结合。", en: "A metal transfers electrons to a nonmetal; the resulting ions attract electrostatically." },
-          detail: { zh: "如 NaCl：Na 失 1 电子成 Na⁺，Cl 得 1 电子成 Cl⁻；离子键无方向性，熔沸点高、固态不导电、熔融或溶于水导电。", en: "In NaCl, Na loses one electron (Na⁺) and Cl gains it (Cl⁻); ionic solids have high melting points and conduct when molten or dissolved." },
+          oneLiner: {
+            zh: "活泼金属把电子交给活泼非金属，形成阴阳离子，靠静电作用结合。",
+            en: "A metal transfers electrons to a nonmetal; the resulting ions attract electrostatically.",
+          },
+          detail: {
+            zh: "如 NaCl：Na 失 1 电子成 Na⁺，Cl 得 1 电子成 Cl⁻；离子键无方向性，熔沸点高、固态不导电、熔融或溶于水导电。",
+            en: "In NaCl, Na loses one electron (Na⁺) and Cl gains it (Cl⁻); ionic solids have high melting points and conduct when molten or dissolved.",
+          },
           tags: [{ zh: "成键", en: "Bonding" }],
           figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#22c55e"/></marker></defs>
@@ -347,8 +602,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🤝",
           term: { zh: "共价键", en: "Covalent Bond" },
           level: 1,
-          oneLiner: { zh: "两原子共用电子对而成键，多见于非金属之间。", en: "Atoms share electron pairs; common between nonmetals." },
-          detail: { zh: "如 H₂、H₂O、CO₂；共用一对为单键、两对为双键、三对为三键；分极性键（H–Cl）与非极性键（H–H）。", en: "E.g. H₂, H₂O, CO₂; one/two/three shared pairs give single/double/triple bonds; polar (H–Cl) vs nonpolar (H–H)." },
+          oneLiner: {
+            zh: "两原子共用电子对而成键，多见于非金属之间。",
+            en: "Atoms share electron pairs; common between nonmetals.",
+          },
+          detail: {
+            zh: "如 H₂、H₂O、CO₂；共用一对为单键、两对为双键、三对为三键；分极性键（H–Cl）与非极性键（H–H）。",
+            en: "E.g. H₂, H₂O, CO₂; one/two/three shared pairs give single/double/triple bonds; polar (H–Cl) vs nonpolar (H–H).",
+          },
           tags: [{ zh: "成键", en: "Bonding" }],
           figure: `<svg viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <circle cx="130" cy="86" r="48" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.85"/>
@@ -365,8 +626,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "📐",
           term: { zh: "分子空间构型（VSEPR）", en: "Molecular Shape (VSEPR)" },
           level: 2,
-          oneLiner: { zh: "价层电子对相互排斥，使分子采取排斥最小的空间排布。", en: "Valence electron pairs repel, so molecules adopt the arrangement of least repulsion." },
-          detail: { zh: "CO₂ 直线形（180°）、H₂O 为 V 形（约 105°）、CH₄ 为正四面体（109.5°）、NH₃ 为三角锥形。构型影响分子极性与性质。", en: "CO₂ is linear (180°), H₂O bent (~105°), CH₄ tetrahedral (109.5°), NH₃ trigonal pyramidal; shape drives polarity and properties." },
+          oneLiner: {
+            zh: "价层电子对相互排斥，使分子采取排斥最小的空间排布。",
+            en: "Valence electron pairs repel, so molecules adopt the arrangement of least repulsion.",
+          },
+          detail: {
+            zh: "CO₂ 直线形（180°）、H₂O 为 V 形（约 105°）、CH₄ 为正四面体（109.5°）、NH₃ 为三角锥形。构型影响分子极性与性质。",
+            en: "CO₂ is linear (180°), H₂O bent (~105°), CH₄ tetrahedral (109.5°), NH₃ trigonal pyramidal; shape drives polarity and properties.",
+          },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <g stroke="currentColor" stroke-width="2">
@@ -397,10 +664,19 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         {
           id: "hydrogen-bond",
           icon: "🫧",
-          term: { zh: "分子间作用力与氢键", en: "Intermolecular Forces & H-Bonds" },
+          term: {
+            zh: "分子间作用力与氢键",
+            en: "Intermolecular Forces & H-Bonds",
+          },
           level: 2,
-          oneLiner: { zh: "分子间存在比化学键弱得多的作用力；含 H–F/O/N 时形成氢键。", en: "Weak forces act between molecules; H bonded to F/O/N forms hydrogen bonds." },
-          detail: { zh: "范德华力普遍存在；氢键比范德华力强，使水、HF、NH₃ 沸点反常偏高，也维系 DNA 双螺旋与蛋白质结构。", en: "Van der Waals forces are universal; stronger H-bonds raise the boiling points of water, HF and NH₃ and hold DNA and protein structures." },
+          oneLiner: {
+            zh: "分子间存在比化学键弱得多的作用力；含 H–F/O/N 时形成氢键。",
+            en: "Weak forces act between molecules; H bonded to F/O/N forms hydrogen bonds.",
+          },
+          detail: {
+            zh: "范德华力普遍存在；氢键比范德华力强，使水、HF、NH₃ 沸点反常偏高，也维系 DNA 双螺旋与蛋白质结构。",
+            en: "Van der Waals forces are universal; stronger H-bonds raise the boiling points of water, HF and NH₃ and hold DNA and protein structures.",
+          },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <g stroke="currentColor" stroke-width="2">
@@ -427,8 +703,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "💎",
           term: { zh: "晶体类型", en: "Crystal Types" },
           level: 2,
-          oneLiner: { zh: "微粒按一定方式有序排列成晶体，按结合微粒与作用分为四类。", en: "Particles ordered into crystals, grouped by what holds them together." },
-          detail: { zh: "离子晶体（NaCl）由离子键结合、熔沸点较高；原子晶体（金刚石、SiO₂）共价键成网、极硬极高熔；分子晶体（干冰、冰）靠分子间作用力、熔沸点低；金属晶体由金属键结合、导电导热延展好。", en: "Ionic (NaCl, via ionic bonds), covalent-network (diamond, SiO₂, very hard and refractory), molecular (dry ice, ice, low melting) and metallic (metal bonding, conductive and malleable)." },
+          oneLiner: {
+            zh: "微粒按一定方式有序排列成晶体，按结合微粒与作用分为四类。",
+            en: "Particles ordered into crystals, grouped by what holds them together.",
+          },
+          detail: {
+            zh: "离子晶体（NaCl）由离子键结合、熔沸点较高；原子晶体（金刚石、SiO₂）共价键成网、极硬极高熔；分子晶体（干冰、冰）靠分子间作用力、熔沸点低；金属晶体由金属键结合、导电导热延展好。",
+            en: "Ionic (NaCl, via ionic bonds), covalent-network (diamond, SiO₂, very hard and refractory), molecular (dry ice, ice, low melting) and metallic (metal bonding, conductive and malleable).",
+          },
           tags: [{ zh: "结构", en: "Structure" }],
         },
       ],
@@ -452,8 +734,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🟰",
           term: { zh: "周期与族", en: "Periods & Groups" },
           level: 1,
-          oneLiner: { zh: "横排为周期（电子层数相同），纵列为族（最外层电子数相同）。", en: "Rows are periods (same shells); columns are groups (same valence electrons)." },
-          detail: { zh: "现有 7 个周期、18 个纵列；主族（IA–VIIA）与副族（过渡金属）性质各异。", en: "Seven periods and 18 columns; main groups and transition metals differ in behavior." },
+          oneLiner: {
+            zh: "横排为周期（电子层数相同），纵列为族（最外层电子数相同）。",
+            en: "Rows are periods (same shells); columns are groups (same valence electrons).",
+          },
+          detail: {
+            zh: "现有 7 个周期、18 个纵列；主族（IA–VIIA）与副族（过渡金属）性质各异。",
+            en: "Seven periods and 18 columns; main groups and transition metals differ in behavior.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -461,8 +749,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "➡️",
           term: { zh: "同周期递变规律", en: "Across a Period" },
           level: 2,
-          oneLiner: { zh: "从左到右原子半径减小、金属性减弱、非金属性增强。", en: "Left to right: radius shrinks, metallic character weakens, nonmetals strengthen." },
-          detail: { zh: "核电荷数增大使原子对电子吸引更强，故失电子能力减弱、得电子能力增强。", en: "Rising nuclear charge tightens the pull on electrons, weakening loss and easing gain." },
+          oneLiner: {
+            zh: "从左到右原子半径减小、金属性减弱、非金属性增强。",
+            en: "Left to right: radius shrinks, metallic character weakens, nonmetals strengthen.",
+          },
+          detail: {
+            zh: "核电荷数增大使原子对电子吸引更强，故失电子能力减弱、得电子能力增强。",
+            en: "Rising nuclear charge tightens the pull on electrons, weakening loss and easing gain.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -470,8 +764,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⬇️",
           term: { zh: "同主族递变规律", en: "Down a Group" },
           level: 2,
-          oneLiner: { zh: "从上到下原子半径增大、金属性增强、非金属性减弱。", en: "Top to bottom: radius grows, metallic character strengthens, nonmetals weaken." },
-          detail: { zh: "电子层数增多使外层电子离核更远，更易失去。", en: "Extra shells move valence electrons farther, easing their loss." },
+          oneLiner: {
+            zh: "从上到下原子半径增大、金属性增强、非金属性减弱。",
+            en: "Top to bottom: radius grows, metallic character strengthens, nonmetals weaken.",
+          },
+          detail: {
+            zh: "电子层数增多使外层电子离核更远，更易失去。",
+            en: "Extra shells move valence electrons farther, easing their loss.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -479,8 +779,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⚔️",
           term: { zh: "金属性与非金属性", en: "Metallic & Nonmetallic" },
           level: 1,
-          oneLiner: { zh: "金属性指失电子能力，非金属性指得电子能力；分界线附近为类金属。", en: "Metallic = losing electrons; nonmetallic = gaining; metalloids sit near the divide." },
-          detail: { zh: "左下角（如铯、钫）金属性最强，右上角（如氟）非金属性最强。", en: "Strongest metals bottom-left (Cs, Fr); strongest nonmetal top-right (F)." },
+          oneLiner: {
+            zh: "金属性指失电子能力，非金属性指得电子能力；分界线附近为类金属。",
+            en: "Metallic = losing electrons; nonmetallic = gaining; metalloids sit near the divide.",
+          },
+          detail: {
+            zh: "左下角（如铯、钫）金属性最强，右上角（如氟）非金属性最强。",
+            en: "Strongest metals bottom-left (Cs, Fr); strongest nonmetal top-right (F).",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -488,7 +794,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "⭕",
           term: { zh: "原子半径趋势", en: "Atomic Radius Trend" },
           level: 2,
-          oneLiner: { zh: "同周期减小、同主族增大；稀有气体因计量方式通常单独较大。", en: "Shrinks across a period, grows down a group; noble-gas values differ by convention." },
+          oneLiner: {
+            zh: "同周期减小、同主族增大；稀有气体因计量方式通常单独较大。",
+            en: "Shrinks across a period, grows down a group; noble-gas values differ by convention.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -496,8 +805,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🎚️",
           term: { zh: "电负性与电离能", en: "Electronegativity & Ionization" },
           level: 2,
-          oneLiner: { zh: "电负性衡量吸引共用电子能力（氟最大）；电离能是失电子所需能量。", en: "Electronegativity gauges electron attraction (F largest); ionization energy is to remove an electron." },
-          detail: { zh: "二者同周期递增、同主族递减；稀有气体电离能出现反常。", en: "Both rise across a period and fall down a group; noble gases are exceptions." },
+          oneLiner: {
+            zh: "电负性衡量吸引共用电子能力（氟最大）；电离能是失电子所需能量。",
+            en: "Electronegativity gauges electron attraction (F largest); ionization energy is to remove an electron.",
+          },
+          detail: {
+            zh: "二者同周期递增、同主族递减；稀有气体电离能出现反常。",
+            en: "Both rise across a period and fall down a group; noble gases are exceptions.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -505,8 +820,14 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🔩",
           term: { zh: "过渡元素", en: "Transition Elements" },
           level: 2,
-          oneLiner: { zh: "周期表中部 d 区元素，多为有色、可变价、易形成配合物。", en: "Central d-block elements: often colored, multiple valences, complex-forming." },
-          detail: { zh: "铁、铜、锌等是生命与工业的重要过渡金属。", en: "Fe, Cu, Zn are vital transition metals in life and industry." },
+          oneLiner: {
+            zh: "周期表中部 d 区元素，多为有色、可变价、易形成配合物。",
+            en: "Central d-block elements: often colored, multiple valences, complex-forming.",
+          },
+          detail: {
+            zh: "铁、铜、锌等是生命与工业的重要过渡金属。",
+            en: "Fe, Cu, Zn are vital transition metals in life and industry.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
         {
@@ -514,38 +835,16 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           icon: "🎈",
           term: { zh: "稀有气体", en: "Noble Gases" },
           level: 1,
-          oneLiner: { zh: "最外层电子已满，化学性质极稳定，过去称惰性气体。", en: "Filled outer shells make them extremely stable, once called inert gases." },
-          detail: { zh: "氦、氖、氩、氪、氙、氡；可用于保护气、照明与制冷。", en: "He, Ne, Ar, Kr, Xe, Rn; used as shielding gas, lighting and cooling." },
+          oneLiner: {
+            zh: "最外层电子已满，化学性质极稳定，过去称惰性气体。",
+            en: "Filled outer shells make them extremely stable, once called inert gases.",
+          },
+          detail: {
+            zh: "氦、氖、氩、氪、氙、氡；可用于保护气、照明与制冷。",
+            en: "He, Ne, Ar, Kr, Xe, Rn; used as shielding gas, lighting and cooling.",
+          },
           tags: [{ zh: "周期表", en: "Periodic" }],
         },
-      ],
-    },
-    /* ===================== 元素 ===================== */
-    {
-      key: "elements",
-      icon: "🧬",
-      title: { zh: "元素", en: "Elements" },
-      items: [
-        { id: "h", icon: "💧", term: { zh: "氢", en: "Hydrogen" }, value: { zh: "H · 1 号", en: "H · Z=1" }, oneLiner: { zh: "宇宙中最丰富的元素，最轻的气体，可作清洁能源。", en: "Most abundant element; lightest gas and clean energy carrier." } },
-        { id: "he", icon: "🎈", term: { zh: "氦", en: "Helium" }, value: { zh: "He · 2 号", en: "He · Z=2" }, oneLiner: { zh: "稀有气体，极稳定、密度小，用于气球与制冷。", en: "Noble gas, very stable and light; used in balloons and cooling." } },
-        { id: "li", icon: "🔋", term: { zh: "锂", en: "Lithium" }, value: { zh: "Li · 3 号", en: "Li · Z=3" }, oneLiner: { zh: "最轻的金属，现代电池的核心材料。", en: "Lightest metal; core material of modern batteries." } },
-        { id: "c", icon: "⚫", term: { zh: "碳", en: "Carbon" }, value: { zh: "C · 6 号", en: "C · Z=6" }, oneLiner: { zh: "有机化学的核心，能形成长链与多种同素异形体。", en: "Core of organic chemistry; forms chains and allotropes like graphite and diamond." } },
-        { id: "n", icon: "💨", term: { zh: "氮", en: "Nitrogen" }, value: { zh: "N · 7 号", en: "N · Z=7" }, oneLiner: { zh: "空气中含量最高的气体，是蛋白质与核酸的组成元素。", en: "Most abundant gas in air; part of proteins and nucleic acids." } },
-        { id: "o", icon: "🫧", term: { zh: "氧", en: "Oxygen" }, value: { zh: "O · 8 号", en: "O · Z=8" }, oneLiner: { zh: "维持呼吸与燃烧，地壳中含量最高的元素。", en: "Sustains respiration and combustion; most abundant in Earth's crust." } },
-        { id: "na", icon: "🧂", term: { zh: "钠", en: "Sodium" }, value: { zh: "Na · 11 号", en: "Na · Z=11" }, oneLiner: { zh: "活泼碱金属，与氯结合成食盐（NaCl）。", en: "Reactive alkali metal; pairs with chlorine as table salt (NaCl)." } },
-        { id: "mg", icon: "🌟", term: { zh: "镁", en: "Magnesium" }, value: { zh: "Mg · 12 号", en: "Mg · Z=12" }, oneLiner: { zh: "轻金属，燃烧发出耀眼白光，是叶绿素的中心原子。", en: "Light metal burning with bright white light; center of chlorophyll." } },
-        { id: "al", icon: "🥫", term: { zh: "铝", en: "Aluminum" }, value: { zh: "Al · 13 号", en: "Al · Z=13" }, oneLiner: { zh: "地壳含量最高的金属，质轻耐腐蚀。", en: "Most abundant crustal metal; light and corrosion-resistant." } },
-        { id: "si", icon: "💾", term: { zh: "硅", en: "Silicon" }, value: { zh: "Si · 14 号", en: "Si · Z=14" }, oneLiner: { zh: "半导体工业的基础，地壳第二丰富的元素。", en: "Basis of semiconductors; second-most abundant crustal element." } },
-        { id: "p", icon: "🔥", term: { zh: "磷", en: "Phosphorus" }, value: { zh: "P · 15 号", en: "P · Z=15" }, oneLiner: { zh: "生命必需元素，存在于 ATP 与 DNA 中。", en: "Essential to life, in ATP and DNA." } },
-        { id: "s", icon: "🥚", term: { zh: "硫", en: "Sulfur" }, value: { zh: "S · 16 号", en: "S · Z=16" }, oneLiner: { zh: "黄色固体，用于硫酸生产与火药。", en: "Yellow solid; used in sulfuric acid and gunpowder." } },
-        { id: "cl", icon: "🟢", term: { zh: "氯", en: "Chlorine" }, value: { zh: "Cl · 17 号", en: "Cl · Z=17" }, oneLiner: { zh: "黄绿色气体，强氧化性与杀菌消毒能力。", en: "Yellow-green gas; strong oxidizer used in disinfection." } },
-        { id: "k", icon: "🍌", term: { zh: "钾", en: "Potassium" }, value: { zh: "K · 19 号", en: "K · Z=19" }, oneLiner: { zh: "活泼碱金属，对神经与肌肉功能至关重要。", en: "Reactive alkali metal vital to nerve and muscle function." } },
-        { id: "ca", icon: "🦴", term: { zh: "钙", en: "Calcium" }, value: { zh: "Ca · 20 号", en: "Ca · Z=20" }, oneLiner: { zh: "骨骼与牙齿的主要成分，常见于石灰石与石膏。", en: "Main component of bone and teeth; in limestone and gypsum." } },
-        { id: "fe", icon: "🔩", term: { zh: "铁", en: "Iron" }, value: { zh: "Fe · 26 号", en: "Fe · Z=26" }, oneLiner: { zh: "人类文明的支柱金属，血红蛋白与钢的核心成分。", en: "Backbone metal of civilization; core of hemoglobin and steel." } },
-        { id: "cu", icon: "🟤", term: { zh: "铜", en: "Copper" }, value: { zh: "Cu · 29 号", en: "Cu · Z=29" }, oneLiner: { zh: "优良导体，古代即用于铸造与货币。", en: "Excellent conductor; used since antiquity for casting and coinage." } },
-        { id: "zn", icon: "⚙️", term: { zh: "锌", en: "Zinc" }, value: { zh: "Zn · 30 号", en: "Zn · Z=30" }, oneLiner: { zh: "常作镀锌防锈层，也是干电池负极材料。", en: "Used for galvanizing and as battery anodes." } },
-        { id: "ag", icon: "🥈", term: { zh: "银", en: "Silver" }, value: { zh: "Ag · 47 号", en: "Ag · Z=47" }, oneLiner: { zh: "导电导热最佳的金属，用于首饰与电子。", en: "Best conductor; used in jewelry and electronics." } },
-        { id: "au", icon: "🥇", term: { zh: "金", en: "Gold" }, value: { zh: "Au · 79 号", en: "Au · Z=79" }, oneLiner: { zh: "化学性质极稳定、延展性好的贵金属，自古作货币与饰品。", en: "Extremely stable and ductile noble metal, long used for coinage." } },
       ],
     },
     /* ===================== 反应类型 ===================== */
@@ -554,12 +853,60 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "🔥",
       title: { zh: "反应类型", en: "Reaction Types" },
       items: [
-        { id: "synthesis", icon: "➕", term: { zh: "化合反应", en: "Synthesis" }, oneLiner: { zh: "多种物质生成一种新物质（A + B → AB）。", en: "Several substances form one product (A + B → AB)." } },
-        { id: "decomposition", icon: "➖", term: { zh: "分解反应", en: "Decomposition" }, oneLiner: { zh: "一种物质分解成多种物质（AB → A + B）。", en: "One substance breaks into several (AB → A + B)." } },
-        { id: "single", icon: "🔁", term: { zh: "置换反应", en: "Single Replacement" }, oneLiner: { zh: "活泼金属把较不活泼金属从其盐中置换出来。", en: "A more active metal displaces a less active one from its salt." } },
-        { id: "double", icon: "🔄", term: { zh: "复分解反应", en: "Double Replacement" }, oneLiner: { zh: "两种化合物交换组分，常生成沉淀、气体或水。", en: "Two compounds exchange parts, often yielding precipitate, gas or water." } },
-        { id: "combustion", icon: "🔥", term: { zh: "燃烧", en: "Combustion" }, oneLiner: { zh: "物质与氧气的剧烈氧化，发光放热。", en: "Vigorous oxidation with oxygen, releasing light and heat." } },
-        { id: "neutralization", icon: "🧪", term: { zh: "中和反应", en: "Neutralization" }, oneLiner: { zh: "酸与碱反应生成盐和水，pH 趋近 7。", en: "Acid and base form salt and water, pH trending to 7." } },
+        {
+          id: "synthesis",
+          icon: "➕",
+          term: { zh: "化合反应", en: "Synthesis" },
+          oneLiner: {
+            zh: "多种物质生成一种新物质（A + B → AB）。",
+            en: "Several substances form one product (A + B → AB).",
+          },
+        },
+        {
+          id: "decomposition",
+          icon: "➖",
+          term: { zh: "分解反应", en: "Decomposition" },
+          oneLiner: {
+            zh: "一种物质分解成多种物质（AB → A + B）。",
+            en: "One substance breaks into several (AB → A + B).",
+          },
+        },
+        {
+          id: "single",
+          icon: "🔁",
+          term: { zh: "置换反应", en: "Single Replacement" },
+          oneLiner: {
+            zh: "活泼金属把较不活泼金属从其盐中置换出来。",
+            en: "A more active metal displaces a less active one from its salt.",
+          },
+        },
+        {
+          id: "double",
+          icon: "🔄",
+          term: { zh: "复分解反应", en: "Double Replacement" },
+          oneLiner: {
+            zh: "两种化合物交换组分，常生成沉淀、气体或水。",
+            en: "Two compounds exchange parts, often yielding precipitate, gas or water.",
+          },
+        },
+        {
+          id: "combustion",
+          icon: "🔥",
+          term: { zh: "燃烧", en: "Combustion" },
+          oneLiner: {
+            zh: "物质与氧气的剧烈氧化，发光放热。",
+            en: "Vigorous oxidation with oxygen, releasing light and heat.",
+          },
+        },
+        {
+          id: "neutralization",
+          icon: "🧪",
+          term: { zh: "中和反应", en: "Neutralization" },
+          oneLiner: {
+            zh: "酸与碱反应生成盐和水，pH 趋近 7。",
+            en: "Acid and base form salt and water, pH trending to 7.",
+          },
+        },
       ],
     },
     /* ===================== 实验方程式 ===================== */
@@ -572,127 +919,530 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "eq-h2o2",
           icon: "🧪",
           term: { zh: "过氧化氢分解制氧气", en: "Oxygen from H₂O₂" },
-          oneLiner: { zh: "2H₂O₂ ==[MnO₂]== 2H₂O + O₂↑", en: "2H₂O₂ ==[MnO₂]== 2H₂O + O₂↑" },
-          detail: { zh: "二氧化锰作催化剂，实验室常温制氧的常用方法。", en: "MnO₂ catalyzes this common room-temperature lab method for O₂." },
+          oneLiner: {
+            zh: "双氧水加二氧化锰催化，常温分解放出氧气。",
+            en: "Hydrogen peroxide decomposes at room temperature over MnO₂ catalyst.",
+          },
+          eq: {
+            lhs: "2H₂O₂",
+            cond: { zh: "MnO₂（催化）", en: "MnO₂ (cat.)" },
+            rhs: "2H₂O + O₂↑",
+          },
+          detail: {
+            zh: "二氧化锰作催化剂，实验室常温制氧的常用方法。",
+            en: "MnO₂ catalyzes this common room-temperature lab method for O₂.",
+          },
           tags: [{ zh: "制气", en: "Gas" }],
         },
         {
           id: "eq-kmno4",
           icon: "🟣",
           term: { zh: "高锰酸钾受热分解", en: "KMnO₄ Decomposition" },
-          oneLiner: { zh: "2KMnO₄ ==△== K₂MnO₄ + MnO₂ + O₂↑", en: "2KMnO₄ ==△== K₂MnO₄ + MnO₂ + O₂↑" },
-          detail: { zh: "加热即可制氧，无需催化剂。", en: "Heating alone yields oxygen, no catalyst needed." },
+          oneLiner: {
+            zh: "高锰酸钾加热分解，放出氧气。",
+            en: "Potassium permanganate decomposes on heating, releasing O₂.",
+          },
+          eq: {
+            lhs: "2KMnO₄",
+            cond: { zh: "加热 △", en: "heat Δ" },
+            rhs: "K₂MnO₄ + MnO₂ + O₂↑",
+          },
+          detail: {
+            zh: "加热即可制氧，无需催化剂。",
+            en: "Heating alone yields oxygen, no catalyst needed.",
+          },
           tags: [{ zh: "制气", en: "Gas" }],
         },
         {
           id: "eq-kclo3",
           icon: "🟡",
           term: { zh: "氯酸钾受热分解", en: "KClO₃ Decomposition" },
-          oneLiner: { zh: "2KClO₃ ==[MnO₂, △]== 2KCl + 3O₂↑", en: "2KClO₃ ==[MnO₂, △]== 2KCl + 3O₂↑" },
+          oneLiner: {
+            zh: "氯酸钾在二氧化锰催化并加热下分解放氧。",
+            en: "Potassium chlorate decomposes with MnO₂ and heat to give O₂.",
+          },
+          eq: {
+            lhs: "2KClO₃",
+            cond: { zh: "MnO₂ · 加热", en: "MnO₂, Δ" },
+            rhs: "2KCl + 3O₂↑",
+          },
           tags: [{ zh: "制气", en: "Gas" }],
         },
         {
           id: "eq-co2",
           icon: "🪨",
           term: { zh: "大理石与盐酸制二氧化碳", en: "CO₂ from Carbonate" },
-          oneLiner: { zh: "CaCO₃ + 2HCl = CaCl₂ + H₂O + CO₂↑", en: "CaCO₃ + 2HCl = CaCl₂ + H₂O + CO₂↑" },
-          detail: { zh: "实验室制 CO₂ 的首选反应，也可用稀硫酸代替盐酸观察差异。", en: "The standard lab route to CO₂." },
+          oneLiner: {
+            zh: "大理石（碳酸钙）与稀盐酸反应制二氧化碳。",
+            en: "Marble (calcium carbonate) reacts with dilute HCl to give CO₂.",
+          },
+          eq: {
+            lhs: "CaCO₃ + 2HCl",
+            rhs: "CaCl₂ + H₂O + CO₂↑",
+          },
+          detail: {
+            zh: "实验室制 CO₂ 的首选反应，也可用稀硫酸代替盐酸观察差异。",
+            en: "The standard lab route to CO₂.",
+          },
           tags: [{ zh: "制气", en: "Gas" }],
         },
         {
           id: "eq-electrolysis",
           icon: "⚡",
           term: { zh: "电解水", en: "Electrolysis of Water" },
-          oneLiner: { zh: "2H₂O ==通电== 2H₂↑ + O₂↑", en: "2H₂O ==通电== 2H₂↑ + O₂↑" },
-          detail: { zh: "加少量电解质增强导电性；体积比 V(H₂):V(O₂)=2:1。", en: "A little electrolyte aids conduction; volume ratio H₂:O₂ = 2:1." },
+          oneLiner: {
+            zh: "水电解生成氢气和氧气。",
+            en: "Water electrolyses into hydrogen and oxygen.",
+          },
+          eq: {
+            lhs: "2H₂O",
+            cond: { zh: "通电", en: "electrolysis" },
+            rhs: "2H₂↑ + O₂↑",
+          },
+          detail: {
+            zh: "加少量电解质增强导电性；体积比 V(H₂):V(O₂)=2:1。",
+            en: "A little electrolyte aids conduction; volume ratio H₂:O₂ = 2:1.",
+          },
           tags: [{ zh: "电解", en: "Electrolysis" }],
         },
         {
           id: "eq-fe-cuso4",
           icon: "🔵",
           term: { zh: "铁置换硫酸铜（湿法炼铜）", en: "Fe Displaces Cu" },
-          oneLiner: { zh: "Fe + CuSO₄ = FeSO₄ + Cu", en: "Fe + CuSO₄ = FeSO₄ + Cu" },
-          detail: { zh: "活泼金属置换不活泼金属，溶液由蓝变浅绿。", en: "A more active metal displaces a less active one; blue fades to pale green." },
+          oneLiner: {
+            zh: "铁把铜从硫酸铜溶液中置换出来。",
+            en: "Iron displaces copper from copper(II) sulfate solution.",
+          },
+          eq: {
+            lhs: "Fe + CuSO₄",
+            rhs: "FeSO₄ + Cu",
+          },
+          detail: {
+            zh: "活泼金属置换不活泼金属，溶液由蓝变浅绿。",
+            en: "A more active metal displaces a less active one; blue fades to pale green.",
+          },
           tags: [{ zh: "置换", en: "Displacement" }],
         },
         {
           id: "eq-metal-acid",
           icon: "🔩",
           term: { zh: "活泼金属与稀硫酸", en: "Metal + Acid" },
-          oneLiner: { zh: "Zn + H₂SO₄ = ZnSO₄ + H₂↑", en: "Zn + H₂SO₄ = ZnSO₄ + H₂↑" },
-          detail: { zh: "镁、锌、铁可与稀酸反应放氢，铜等不活泼金属不行。", en: "Mg, Zn, Fe release H₂ with dilute acid; Cu does not." },
+          oneLiner: {
+            zh: "锌与稀硫酸反应放出氢气。",
+            en: "Zinc reacts with dilute sulfuric acid to release H₂.",
+          },
+          eq: {
+            lhs: "Zn + H₂SO₄",
+            rhs: "ZnSO₄ + H₂↑",
+          },
+          detail: {
+            zh: "镁、锌、铁可与稀酸反应放氢，铜等不活泼金属不行。",
+            en: "Mg, Zn, Fe release H₂ with dilute acid; Cu does not.",
+          },
           tags: [{ zh: "置换", en: "Displacement" }],
         },
         {
           id: "eq-ch4",
           icon: "🔥",
           term: { zh: "甲烷燃烧", en: "Methane Combustion" },
-          oneLiner: { zh: "CH₄ + 2O₂ ==点燃== CO₂ + 2H₂O", en: "CH₄ + 2O₂ ==点燃== CO₂ + 2H₂O" },
-          detail: { zh: "天然气主要成分，完全燃烧呈蓝色火焰。", en: "Main component of natural gas; clean blue flame when complete." },
+          oneLiner: {
+            zh: "甲烷在氧气中完全燃烧。",
+            en: "Methane burns completely in oxygen.",
+          },
+          eq: {
+            lhs: "CH₄ + 2O₂",
+            cond: { zh: "点燃", en: "ignite" },
+            rhs: "CO₂ + 2H₂O",
+          },
+          detail: {
+            zh: "天然气主要成分，完全燃烧呈蓝色火焰。",
+            en: "Main component of natural gas; clean blue flame when complete.",
+          },
           tags: [{ zh: "燃烧", en: "Combustion" }],
         },
         {
           id: "eq-h2",
           icon: "💧",
           term: { zh: "氢气燃烧", en: "Hydrogen Combustion" },
-          oneLiner: { zh: "2H₂ + O₂ ==点燃== 2H₂O", en: "2H₂ + O₂ ==点燃== 2H₂O" },
+          oneLiner: {
+            zh: "氢气燃烧生成水。",
+            en: "Hydrogen burns to form water.",
+          },
+          eq: {
+            lhs: "2H₂ + O₂",
+            cond: { zh: "点燃", en: "ignite" },
+            rhs: "2H₂O",
+          },
           tags: [{ zh: "燃烧", en: "Combustion" }],
         },
         {
           id: "eq-neutralize",
           icon: "🧫",
           term: { zh: "盐酸中和氢氧化钠", en: "HCl Neutralizes NaOH" },
-          oneLiner: { zh: "HCl + NaOH = NaCl + H₂O", en: "HCl + NaOH = NaCl + H₂O" },
-          detail: { zh: "强酸强碱中和，常用酚酞指示终点。", en: "Strong acid-base neutralization; phenolphthalein shows the endpoint." },
+          oneLiner: {
+            zh: "盐酸与氢氧化钠中和生成盐和水。",
+            en: "Hydrochloric acid is neutralized by sodium hydroxide.",
+          },
+          eq: {
+            lhs: "HCl + NaOH",
+            rhs: "NaCl + H₂O",
+          },
+          detail: {
+            zh: "强酸强碱中和，常用酚酞指示终点。",
+            en: "Strong acid-base neutralization; phenolphthalein shows the endpoint.",
+          },
           tags: [{ zh: "中和", en: "Neutralization" }],
         },
         {
           id: "eq-na2co3-hcl",
           icon: "🫧",
           term: { zh: "碳酸钠与盐酸", en: "Na₂CO₃ + HCl" },
-          oneLiner: { zh: "Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂↑", en: "Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂↑" },
-          detail: { zh: "泡沫灭火器原理之一，产生大量 CO₂。", en: "Underlies foam extinguishers, releasing much CO₂." },
+          oneLiner: {
+            zh: "碳酸钠与盐酸反应放出二氧化碳。",
+            en: "Sodium carbonate reacts with HCl, releasing CO₂.",
+          },
+          eq: {
+            lhs: "Na₂CO₃ + 2HCl",
+            rhs: "2NaCl + H₂O + CO₂↑",
+          },
+          detail: {
+            zh: "泡沫灭火器原理之一，产生大量 CO₂。",
+            en: "Underlies foam extinguishers, releasing much CO₂.",
+          },
           tags: [{ zh: "复分解", en: "Double" }],
         },
         {
           id: "eq-cao",
           icon: "🧱",
           term: { zh: "生石灰遇水", en: "CaO + Water" },
-          oneLiner: { zh: "CaO + H₂O = Ca(OH)₂", en: "CaO + H₂O = Ca(OH)₂" },
-          detail: { zh: "剧烈放热，生成熟石灰，用于干燥与建筑。", en: "Highly exothermic, giving slaked lime for drying and building." },
+          oneLiner: {
+            zh: "生石灰与水化合生成熟石灰。",
+            en: "Quicklime combines with water to form slaked lime.",
+          },
+          eq: { lhs: "CaO + H₂O", rhs: "Ca(OH)₂" },
+          detail: {
+            zh: "剧烈放热，生成熟石灰，用于干燥与建筑。",
+            en: "Highly exothermic, giving slaked lime for drying and building.",
+          },
           tags: [{ zh: "化合", en: "Synthesis" }],
         },
         {
           id: "eq-limewater",
           icon: "🥛",
-          term: { zh: "二氧化碳使石灰水变浑浊", en: "CO₂ Turns Limewater Cloudy" },
-          oneLiner: { zh: "CO₂ + Ca(OH)₂ = CaCO₃↓ + H₂O", en: "CO₂ + Ca(OH)₂ = CaCO₃↓ + H₂O" },
-          detail: { zh: "实验室检验 CO₂ 的特征反应；过量 CO₂ 会使沉淀溶解生成 Ca(HCO₃)₂。", en: "The textbook test for CO₂; excess CO₂ redissolves the precipitate." },
+          term: {
+            zh: "二氧化碳使石灰水变浑浊",
+            en: "CO₂ Turns Limewater Cloudy",
+          },
+          oneLiner: {
+            zh: "二氧化碳通入澄清石灰水生成白色沉淀。",
+            en: "Carbon dioxide turns limewater cloudy with a white precipitate.",
+          },
+          eq: {
+            lhs: "CO₂ + Ca(OH)₂",
+            rhs: "CaCO₃↓ + H₂O",
+          },
+          detail: {
+            zh: "实验室检验 CO₂ 的特征反应；过量 CO₂ 会使沉淀溶解生成 Ca(HCO₃)₂。",
+            en: "The textbook test for CO₂; excess CO₂ redissolves the precipitate.",
+          },
           tags: [{ zh: "检验", en: "Test" }],
         },
         {
           id: "eq-rust",
           icon: "🟥",
           term: { zh: "铁生锈（吸氧腐蚀）", en: "Iron Rusting" },
-          oneLiner: { zh: "4Fe + 3O₂ + xH₂O = 2Fe₂O₃·xH₂O", en: "4Fe + 3O₂ + xH₂O = 2Fe₂O₃·xH₂O" },
-          detail: { zh: "潮湿空气中铁发生电化学腐蚀，生成疏松的红棕色铁锈。", en: "In moist air iron undergoes electrochemical corrosion into flaky rust." },
+          oneLiner: {
+            zh: "铁在潮湿空气中发生吸氧腐蚀生锈。",
+            en: "Iron corrodes in moist air (oxygen absorption).",
+          },
+          eq: {
+            lhs: "4Fe + 3O₂ + xH₂O",
+            rhs: "2Fe₂O₃·xH₂O",
+          },
+          detail: {
+            zh: "潮湿空气中铁发生电化学腐蚀，生成疏松的红棕色铁锈。",
+            en: "In moist air iron undergoes electrochemical corrosion into flaky rust.",
+          },
           tags: [{ zh: "腐蚀", en: "Corrosion" }],
         },
         {
           id: "eq-bacl2",
           icon: "🧂",
           term: { zh: "氯化钡检验硫酸根", en: "Test Sulfate with BaCl₂" },
-          oneLiner: { zh: "BaCl₂ + H₂SO₄ = BaSO₄↓ + 2HCl", en: "BaCl₂ + H₂SO₄ = BaSO₄↓ + 2HCl" },
-          detail: { zh: "生成不溶于稀硝酸的白色 BaSO₄ 沉淀，用于检验 SO₄²⁻。", en: "White BaSO₄ precipitate insoluble in dilute nitric acid signals SO₄²⁻." },
+          oneLiner: {
+            zh: "氯化钡与硫酸生成白色硫酸钡沉淀。",
+            en: "Barium chloride gives a white BaSO₄ precipitate with sulfuric acid.",
+          },
+          eq: {
+            lhs: "BaCl₂ + H₂SO₄",
+            rhs: "BaSO₄↓ + 2HCl",
+          },
+          detail: {
+            zh: "生成不溶于稀硝酸的白色 BaSO₄ 沉淀，用于检验 SO₄²⁻。",
+            en: "White BaSO₄ precipitate insoluble in dilute nitric acid signals SO₄²⁻.",
+          },
           tags: [{ zh: "检验", en: "Test" }],
         },
         {
           id: "eq-nahco3",
           icon: "🫧",
           term: { zh: "碳酸氢钠受热分解", en: "NaHCO₃ Decomposition" },
-          oneLiner: { zh: "2NaHCO₃ ==△== Na₂CO₃ + H₂O + CO₂↑", en: "2NaHCO₃ ==△== Na₂CO₃ + H₂O + CO₂↑" },
-          detail: { zh: "焙制糕点常用作膨松剂，受热放出 CO₂ 使面团疏松。", en: "A leavening agent; heating releases CO₂ that aerates dough." },
+          oneLiner: {
+            zh: "碳酸氢钠受热分解放出二氧化碳。",
+            en: "Sodium bicarbonate decomposes on heating, releasing CO₂.",
+          },
+          eq: {
+            lhs: "2NaHCO₃",
+            cond: { zh: "加热 △", en: "heat Δ" },
+            rhs: "Na₂CO₃ + H₂O + CO₂↑",
+          },
+          detail: {
+            zh: "焙制糕点常用作膨松剂，受热放出 CO₂ 使面团疏松。",
+            en: "A leavening agent; heating releases CO₂ that aerates dough.",
+          },
           tags: [{ zh: "分解", en: "Decomposition" }],
+        },
+      ],
+    },
+    /* ===================== 化学与生产生活 ===================== */
+    {
+      key: "life-chem",
+      icon: "🏭",
+      title: { zh: "化学与生产生活", en: "Chemistry in Industry & Life" },
+      items: [
+        {
+          id: "eq-hou",
+          icon: "🧂",
+          term: { zh: "侯氏制碱法", en: "Hou's Process" },
+          oneLiner: {
+            zh: "向饱和氨盐水中通 CO₂，析出碳酸氢钠再锻烧得纯碱。",
+            en: "Pass CO₂ into ammoniated brine; precipitated NaHCO₃ is calcined to soda ash.",
+          },
+          eq: [
+            { lhs: "NaCl + NH₃ + CO₂ + H₂O", rhs: "NaHCO₃↓ + NH₄Cl" },
+            {
+              lhs: "2NaHCO₃",
+              cond: { zh: "加热 △", en: "heat Δ" },
+              rhs: "Na₂CO₃ + H₂O + CO₂↑",
+            },
+          ],
+          detail: {
+            zh: "侯德榜改进索尔维制碱法，使 NH₄Cl 作化肥析出，食盐利用率高。先通氨再通 CO₂，因 NaHCO₃ 溶解度较小而析出。",
+            en: "Hou Debang improved the Solvay process, crystallizing NH₄Cl as fertilizer with high salt utilization. Ammonia is passed first, then CO₂; NaHCO₃ precipitates as the least soluble.",
+          },
+          tags: [{ zh: "工业", en: "Industry" }],
+        },
+        {
+          id: "eq-sapon",
+          icon: "🧼",
+          term: { zh: "皂化反应（制肥皂）", en: "Saponification" },
+          oneLiner: {
+            zh: "油脂在氢氧化钠溶液中水解，生成高级脂肪酸钠和甘油。",
+            en: "Fats hydrolyze in NaOH solution into soap (fatty sodium salts) and glycerol.",
+          },
+          eq: {
+            lhs: "(C₁₇H₃₅COO)₃C₃H₅ + 3NaOH",
+            cond: { zh: "加热 △", en: "heat Δ" },
+            rhs: "3C₁₇H₃₅COONa + C₃H₅(OH)₃",
+          },
+          detail: {
+            zh: "硬脂酸甘油酯与 NaOH 共热，产物硬脂酸钠是肥皂主要成分，另一产物丙三醇即甘油。",
+            en: "Tristearin with NaOH gives sodium stearate (the main soap component) and glycerol.",
+          },
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "eq-nh3",
+          icon: "⚗️",
+          term: { zh: "工业合成氨", en: "Ammonia Synthesis" },
+          oneLiner: {
+            zh: "氮气与氢气在高温高压、催化剂下可逆化合生成氨。",
+            en: "N₂ and H₂ combine reversibly under high pressure, heat and catalyst.",
+          },
+          eq: {
+            lhs: "N₂ + 3H₂",
+            cond: { zh: "高温高压 · 催化剂", en: "high P·T, catalyst" },
+            rhs: "2NH₃",
+            rel: "equilibrium",
+          },
+          detail: {
+            zh: "哈伯法合成氨为化肥工业奠基，是 20 世纪最重要的化学工艺之一。反应可逆，正反应放热、气体分子数减小。",
+            en: "The Haber process underpins fertilizer making; the reaction is reversible, exothermic and reduces gas moles.",
+          },
+          tags: [{ zh: "工业", en: "Industry" }],
+        },
+        {
+          id: "eq-chloralkali",
+          icon: "🔌",
+          term: { zh: "氯碱工业（电解食盐水）", en: "Chlor-Alkali" },
+          oneLiner: {
+            zh: "电解饱和食盐水制取烧碱、氢气和氯气。",
+            en: "Electrolysis of brine yields caustic soda, H₂ and Cl₂.",
+          },
+          eq: {
+            lhs: "2NaCl + 2H₂O",
+            cond: { zh: "通电", en: "electrolysis" },
+            rhs: "2NaOH + H₂↑ + Cl₂↑",
+          },
+          detail: {
+            zh: "氯碱工业基础反应；阳极出 Cl₂、阴极出 H₂ 与 NaOH。Cl₂ 与 NaOH 反应即得漂白液。",
+            en: "The core chlor-alkali reaction: Cl₂ at the anode, H₂ and NaOH at the cathode; Cl₂ with NaOH makes bleach.",
+          },
+          tags: [{ zh: "电解", en: "Electrolysis" }],
+        },
+        {
+          id: "eq-bleach",
+          icon: "🪣",
+          term: { zh: "漂白粉的制取与失效", en: "Bleaching Powder" },
+          oneLiner: {
+            zh: "氯气与石灰乳制漂白粉，失效是因与空气中 CO₂ 反应生成 HClO。",
+            en: "Cl₂ with lime makes bleaching powder; it spoils by reacting with CO₂ to give HClO.",
+          },
+          eq: [
+            { lhs: "2Cl₂ + 2Ca(OH)₂", rhs: "Ca(ClO)₂ + CaCl₂ + 2H₂O" },
+            {
+              lhs: "Ca(ClO)₂ + CO₂ + H₂O",
+              rhs: "CaCO₃↓ + 2HClO",
+            },
+          ],
+          detail: {
+            zh: "有效成分 Ca(ClO)₂；接触空气与水生成强氧化性 HClO 而漂白，也随之失效。",
+            en: "Active Ca(ClO)₂ forms oxidizing HClO with air and water — the basis of bleaching and of spoilage.",
+          },
+          tags: [{ zh: "工业", en: "Industry" }],
+        },
+        {
+          id: "eq-iron",
+          icon: "🏗️",
+          term: { zh: "高炉练铁", en: "Blast-Furnace Iron" },
+          oneLiner: {
+            zh: "一氧化碳在高温下把氧化铁还原为铁。",
+            en: "CO reduces iron oxide to iron at high temperature.",
+          },
+          eq: {
+            lhs: "Fe₂O₃ + 3CO",
+            cond: { zh: "高温", en: "high temp" },
+            rhs: "2Fe + 3CO₂",
+          },
+          detail: {
+            zh: "高炉中以 CO 作还原剂练铁，是现代钢铁工业的核心反应。",
+            en: "CO serves as the reducing agent — the heart of modern ironmaking.",
+          },
+          tags: [{ zh: "工业", en: "Industry" }],
+        },
+        {
+          id: "eq-thermite",
+          icon: "🚄",
+          term: { zh: "铝热反应", en: "Thermite Reaction" },
+          oneLiner: {
+            zh: "铝与氧化铁高温反应，置换出铁并放出大量热。",
+            en: "Aluminum reduces iron oxide, yielding molten iron with intense heat.",
+          },
+          eq: {
+            lhs: "2Al + Fe₂O₃",
+            cond: { zh: "高温", en: "high temp" },
+            rhs: "Al₂O₃ + 2Fe",
+          },
+          detail: {
+            zh: "利用铝的强还原性与反应放热，产生高温熔融铁，用于野外焊接钢轨。",
+            en: "Aluminum's strong reducing power and the exothermicity give molten iron, used to weld rails on site.",
+          },
+          tags: [{ zh: "工业", en: "Industry" }],
+        },
+        {
+          id: "eq-ester",
+          icon: "🍶",
+          term: { zh: "酯化反应", en: "Esterification" },
+          oneLiner: {
+            zh: "乙酸与乙醇在浓硫酸催化下生成有香味的乙酸乙酯。",
+            en: "Acetic acid and ethanol form fragrant ethyl acetate, catalyzed by conc. H₂SO₄.",
+          },
+          eq: {
+            lhs: "CH₃COOH + C₂H₅OH",
+            cond: { zh: "浓硫酸 · △", en: "conc. H₂SO₄, Δ" },
+            rhs: "CH₃COOC₂H₅ + H₂O",
+            rel: "equilibrium",
+          },
+          detail: {
+            zh: "酸脱羟基、醇脱氢；浓硫酸作催化剂与吸水剂。酒的陈香、食醋风味部分源于酯类。",
+            en: "The acid loses –OH and the alcohol –H; conc. H₂SO₄ catalyzes and absorbs water. Esters contribute to aged-wine and vinegar aromas.",
+          },
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "eq-ethanol-ox",
+          icon: "🌡️",
+          term: { zh: "乙醇的催化氧化", en: "Catalytic Oxidation of Ethanol" },
+          oneLiner: {
+            zh: "乙醇在铜催化并加热下被氧化为乙醛。",
+            en: "Ethanol is oxidized to acetaldehyde over copper with heating.",
+          },
+          eq: {
+            lhs: "2CH₃CH₂OH + O₂",
+            cond: { zh: "Cu · 加热", en: "Cu, Δ" },
+            rhs: "2CH₃CHO + 2H₂O",
+          },
+          detail: {
+            zh: "铜丝作催化剂，是酒精在体内代谢、呼气酒精检测的化学原理之一。",
+            en: "Copper catalyzes this — related to how alcohol metabolizes and to breathalyzer chemistry.",
+          },
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "eq-photosyn",
+          icon: "🌿",
+          term: { zh: "光合作用", en: "Photosynthesis" },
+          oneLiner: {
+            zh: "绿色植物在光照与叶绿体下把 CO₂ 和水合成葡萄糖并放氧。",
+            en: "Plants build glucose from CO₂ and water using light in chloroplasts, releasing O₂.",
+          },
+          eq: {
+            lhs: "6CO₂ + 6H₂O",
+            cond: { zh: "光照 · 叶绿体", en: "light, chloroplast" },
+            rhs: "C₆H₁₂O₆ + 6O₂",
+          },
+          detail: {
+            zh: "地球氧气与有机物之源，维持碳—氧平衡，把太阳能转化为化学能。",
+            en: "The source of Earth's oxygen and organic matter; it balances the carbon cycle and stores solar energy.",
+          },
+          tags: [{ zh: "生活", en: "Life" }],
+        },
+        {
+          id: "eq-ferment",
+          icon: "🍞",
+          term: { zh: "酒精发酵", en: "Alcoholic Fermentation" },
+          oneLiner: {
+            zh: "葡萄糖在酒化酶作用下分解为乙醇和二氧化碳。",
+            en: "Glucose breaks into ethanol and CO₂ under the action of zymase.",
+          },
+          eq: {
+            lhs: "C₆H₁₂O₆",
+            cond: { zh: "酶", en: "enzyme" },
+            rhs: "2C₂H₅OH + 2CO₂↑",
+          },
+          detail: {
+            zh: "酿酒的核心反应；产生的 CO₂ 也是馒头、面包膨松的原因之一。",
+            en: "Key to brewing; the CO₂ also leavens bread and steamed buns.",
+          },
+          tags: [{ zh: "生活", en: "Life" }],
+        },
+        {
+          id: "eq-antacid",
+          icon: "💊",
+          term: { zh: "胃酸中和（胃药）", en: "Stomach-Acid Neutralization" },
+          oneLiner: {
+            zh: "氢氧化铝（或碳酸氢钠）中和过多的胃酸。",
+            en: "Aluminum hydroxide (or NaHCO₃) neutralizes excess stomach acid.",
+          },
+          eq: [
+            { lhs: "Al(OH)₃ + 3HCl", rhs: "AlCl₃ + 3H₂O" },
+            { lhs: "NaHCO₃ + HCl", rhs: "NaCl + H₂O + CO₂↑" },
+          ],
+          detail: {
+            zh: "胃酸主要成分是盐酸；含 Al(OH)₃ 的胃舒平通过中和缓解胃痛。小苏打也可中和但会产气。",
+            en: "Stomach acid is HCl; Al(OH)₃ antacids relieve pain by neutralization. Baking soda also works but releases gas.",
+          },
+          tags: [{ zh: "生活", en: "Life" }],
         },
       ],
     },
@@ -702,14 +1452,78 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "🧑‍🔬",
       title: { zh: "化学家", en: "Chemists" },
       items: [
-        { id: "mendeleev", icon: "📐", term: { zh: "德米特里·门捷列夫", en: "Dmitri Mendeleev" }, oneLiner: { zh: "编制第一张元素周期表，并预言了若干未知元素。", en: "Built the first periodic table and predicted unknown elements." } },
-        { id: "lavoisier", icon: "⚖️", term: { zh: "安托万·拉瓦锡", en: "Antoine Lavoisier" }, oneLiner: { zh: "现代化学之父，确立质量守恒与氧化学说。", en: "Father of modern chemistry; conservation of mass and oxygen theory." } },
-        { id: "dalton", icon: "⚛️", term: { zh: "约翰·道尔顿", en: "John Dalton" }, oneLiner: { zh: "提出原子论，认为物质由不可再分的原子构成。", en: "Proposed atomic theory: matter is made of indivisible atoms." } },
-        { id: "boyle", icon: "🫧", term: { zh: "罗伯特·玻意耳", en: "Robert Boyle" }, oneLiner: { zh: "玻意耳定律（pV = 常量）奠定气体研究基础。", en: "Boyle's law (pV = const) founded the study of gases." } },
-        { id: "curie", icon: "☢️", term: { zh: "玛丽·居里", en: "Marie Curie" }, oneLiner: { zh: "发现钋与镭，放射性研究的先驱。", en: "Discovered polonium and radium; pioneer of radioactivity." } },
-        { id: "pauling", icon: "🔗", term: { zh: "莱纳斯·鲍林", en: "Linus Pauling" }, oneLiner: { zh: "化学键本质与电负性研究的巨擘，两获诺贝尔奖。", en: "Giant of chemical bonding and electronegativity; two-time Nobel laureate." } },
-        { id: "avogadro", icon: "🧮", term: { zh: "阿莫迪欧·阿伏伽德罗", en: "Amedeo Avogadro" }, oneLiner: { zh: "提出同温同压下等体积气体含等量分子（阿伏伽德罗定律）。", en: "Equal gas volumes hold equal molecule counts at same T and P." } },
-        { id: "lechatelier", icon: "⚖️", term: { zh: "亨利·勒夏特列", en: "Henry Le Chatelier" }, oneLiner: { zh: "提出平衡移动原理，指导化工生产条件优化。", en: "Stated the equilibrium-shift principle guiding chemical industry." } },
+        {
+          id: "mendeleev",
+          icon: "📐",
+          term: { zh: "德米特里·门捷列夫", en: "Dmitri Mendeleev" },
+          oneLiner: {
+            zh: "编制第一张元素周期表，并预言了若干未知元素。",
+            en: "Built the first periodic table and predicted unknown elements.",
+          },
+        },
+        {
+          id: "lavoisier",
+          icon: "⚖️",
+          term: { zh: "安托万·拉瓦锡", en: "Antoine Lavoisier" },
+          oneLiner: {
+            zh: "现代化学之父，确立质量守恒与氧化学说。",
+            en: "Father of modern chemistry; conservation of mass and oxygen theory.",
+          },
+        },
+        {
+          id: "dalton",
+          icon: "⚛️",
+          term: { zh: "约翰·道尔顿", en: "John Dalton" },
+          oneLiner: {
+            zh: "提出原子论，认为物质由不可再分的原子构成。",
+            en: "Proposed atomic theory: matter is made of indivisible atoms.",
+          },
+        },
+        {
+          id: "boyle",
+          icon: "🫧",
+          term: { zh: "罗伯特·玻意耳", en: "Robert Boyle" },
+          oneLiner: {
+            zh: "玻意耳定律（pV = 常量）奠定气体研究基础。",
+            en: "Boyle's law (pV = const) founded the study of gases.",
+          },
+        },
+        {
+          id: "curie",
+          icon: "☢️",
+          term: { zh: "玛丽·居里", en: "Marie Curie" },
+          oneLiner: {
+            zh: "发现钋与镭，放射性研究的先驱。",
+            en: "Discovered polonium and radium; pioneer of radioactivity.",
+          },
+        },
+        {
+          id: "pauling",
+          icon: "🔗",
+          term: { zh: "莱纳斯·鲍林", en: "Linus Pauling" },
+          oneLiner: {
+            zh: "化学键本质与电负性研究的巨擘，两获诺贝尔奖。",
+            en: "Giant of chemical bonding and electronegativity; two-time Nobel laureate.",
+          },
+        },
+        {
+          id: "avogadro",
+          icon: "🧮",
+          term: { zh: "阿莫迪欧·阿伏伽德罗", en: "Amedeo Avogadro" },
+          oneLiner: {
+            zh: "提出同温同压下等体积气体含等量分子（阿伏伽德罗定律）。",
+            en: "Equal gas volumes hold equal molecule counts at same T and P.",
+          },
+        },
+        {
+          id: "lechatelier",
+          icon: "⚖️",
+          term: { zh: "亨利·勒夏特列", en: "Henry Le Chatelier" },
+          oneLiner: {
+            zh: "提出平衡移动原理，指导化工生产条件优化。",
+            en: "Stated the equilibrium-shift principle guiding chemical industry.",
+          },
+        },
       ],
     },
     /* ===================== 名词词典 ===================== */
@@ -718,23 +1532,122 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       icon: "📖",
       title: { zh: "名词词典", en: "Glossary" },
       items: [
-        { id: "mole", icon: "🧮", term: { zh: "摩尔", en: "Mole" }, oneLiner: { zh: "物质的量单位，1 摩尔含阿伏伽德罗常数个基本单元。", en: "Unit of amount of substance; one mole holds Avogadro's number of entities." } },
-        { id: "catalyst", icon: "⚡", term: { zh: "催化剂", en: "Catalyst" }, oneLiner: { zh: "改变反应速率却不在反应中消耗的物种。", en: "A species that changes rate without being consumed." } },
-        { id: "ph", icon: "🧫", term: { zh: "pH", en: "pH" }, oneLiner: { zh: "氢离子浓度的负对数，衡量溶液酸碱强弱。", en: "Negative log of hydrogen ion concentration; measures acidity." } },
-        { id: "isotope", icon: "♒", term: { zh: "同位素", en: "Isotope" }, oneLiner: { zh: "质子数相同、中子数不同的同种元素变体。", en: "Variants of an element with same protons, different neutrons." } },
-        { id: "electrolyte", icon: "🔌", term: { zh: "电解质", en: "Electrolyte" }, oneLiner: { zh: "溶于水或熔融后能导电的化合物。", en: "A compound that conducts electricity when dissolved or molten." } },
-        { id: "valence", icon: "🔢", term: { zh: "化合价", en: "Valence" }, oneLiner: { zh: "元素原子形成化学键时表现的结合能力，常用数值表示。", en: "An atom's combining capacity, expressed as a number." } },
-        { id: "allotrope", icon: "💎", term: { zh: "同素异形体", en: "Allotrope" }, oneLiner: { zh: "同种元素组成的不同单质，如金刚石与石墨。", en: "Different forms of the same element, e.g. diamond and graphite." } },
-        { id: "solubility", icon: "💧", term: { zh: "溶解度", en: "Solubility" }, oneLiner: { zh: "一定温度、压强下某物质在溶剂中达到饱和时的浓度。", en: "Concentration at saturation under given T and P." } },
-        { id: "activation", icon: "🚀", term: { zh: "活化能", en: "Activation Energy" }, oneLiner: { zh: "反应物变为活化络合物所需的最低能量壁垒。", en: "The energy barrier reactants must cross to react." } },
-        { id: "oxidation-state", icon: "🔋", term: { zh: "氧化数", en: "Oxidation State" }, oneLiner: { zh: "人为规定的原子表观电荷数，用于判断氧化还原。", en: "An assigned apparent charge used to track redox." } },
+        {
+          id: "mole",
+          icon: "🧮",
+          term: { zh: "摩尔", en: "Mole" },
+          oneLiner: {
+            zh: "物质的量单位，1 摩尔含阿伏伽德罗常数个基本单元。",
+            en: "Unit of amount of substance; one mole holds Avogadro's number of entities.",
+          },
+        },
+        {
+          id: "catalyst",
+          icon: "⚡",
+          term: { zh: "催化剂", en: "Catalyst" },
+          oneLiner: {
+            zh: "改变反应速率却不在反应中消耗的物种。",
+            en: "A species that changes rate without being consumed.",
+          },
+        },
+        {
+          id: "ph",
+          icon: "🧫",
+          term: { zh: "pH", en: "pH" },
+          oneLiner: {
+            zh: "氢离子浓度的负对数，衡量溶液酸碱强弱。",
+            en: "Negative log of hydrogen ion concentration; measures acidity.",
+          },
+        },
+        {
+          id: "isotope",
+          icon: "♒",
+          term: { zh: "同位素", en: "Isotope" },
+          oneLiner: {
+            zh: "质子数相同、中子数不同的同种元素变体。",
+            en: "Variants of an element with same protons, different neutrons.",
+          },
+        },
+        {
+          id: "electrolyte",
+          icon: "🔌",
+          term: { zh: "电解质", en: "Electrolyte" },
+          oneLiner: {
+            zh: "溶于水或熔融后能导电的化合物。",
+            en: "A compound that conducts electricity when dissolved or molten.",
+          },
+        },
+        {
+          id: "valence",
+          icon: "🔢",
+          term: { zh: "化合价", en: "Valence" },
+          oneLiner: {
+            zh: "元素原子形成化学键时表现的结合能力，常用数值表示。",
+            en: "An atom's combining capacity, expressed as a number.",
+          },
+        },
+        {
+          id: "allotrope",
+          icon: "💎",
+          term: { zh: "同素异形体", en: "Allotrope" },
+          oneLiner: {
+            zh: "同种元素组成的不同单质，如金刚石与石墨。",
+            en: "Different forms of the same element, e.g. diamond and graphite.",
+          },
+        },
+        {
+          id: "solubility",
+          icon: "💧",
+          term: { zh: "溶解度", en: "Solubility" },
+          oneLiner: {
+            zh: "一定温度、压强下某物质在溶剂中达到饱和时的浓度。",
+            en: "Concentration at saturation under given T and P.",
+          },
+        },
+        {
+          id: "activation",
+          icon: "🚀",
+          term: { zh: "活化能", en: "Activation Energy" },
+          oneLiner: {
+            zh: "反应物变为活化络合物所需的最低能量壁垒。",
+            en: "The energy barrier reactants must cross to react.",
+          },
+        },
+        {
+          id: "oxidation-state",
+          icon: "🔋",
+          term: { zh: "氧化数", en: "Oxidation State" },
+          oneLiner: {
+            zh: "人为规定的原子表观电荷数，用于判断氧化还原。",
+            en: "An assigned apparent charge used to track redox.",
+          },
+        },
       ],
     },
   ],
   refs: [
-    { label: { zh: "Khan Academy · 化学", en: "Khan Academy · Chemistry" }, url: "https://www.khanacademy.org/science/chemistry", type: { zh: "科普", en: "Educational" } },
-    { label: { zh: "PubChem", en: "PubChem" }, url: "https://pubchem.ncbi.nlm.nih.gov/", type: { zh: "工具", en: "Reference" } },
-    { label: { zh: "Royal Society of Chemistry", en: "Royal Society of Chemistry" }, url: "https://www.rsc.org/", type: { zh: "机构", en: "Institution" } },
-    { label: { zh: "Wikipedia · Chemistry", en: "Wikipedia · Chemistry" }, url: "https://en.wikipedia.org/wiki/Chemistry", type: { zh: "百科", en: "Encyclopedia" } },
+    {
+      label: { zh: "Khan Academy · 化学", en: "Khan Academy · Chemistry" },
+      url: "https://www.khanacademy.org/science/chemistry",
+      type: { zh: "科普", en: "Educational" },
+    },
+    {
+      label: { zh: "PubChem", en: "PubChem" },
+      url: "https://pubchem.ncbi.nlm.nih.gov/",
+      type: { zh: "工具", en: "Reference" },
+    },
+    {
+      label: {
+        zh: "Royal Society of Chemistry",
+        en: "Royal Society of Chemistry",
+      },
+      url: "https://www.rsc.org/",
+      type: { zh: "机构", en: "Institution" },
+    },
+    {
+      label: { zh: "Wikipedia · Chemistry", en: "Wikipedia · Chemistry" },
+      url: "https://en.wikipedia.org/wiki/Chemistry",
+      type: { zh: "百科", en: "Encyclopedia" },
+    },
   ],
 };
