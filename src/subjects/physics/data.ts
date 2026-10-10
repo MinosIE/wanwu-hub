@@ -1281,6 +1281,328 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
+    /* ===================== 机械振动与波 ===================== */
+    {
+      key: "waves",
+      icon: "🌊",
+      title: { zh: "机械振动与波", en: "Vibrations & Waves" },
+      items: [
+        {
+          id: "shm",
+          icon: "🪝",
+          term: { zh: "简谐运动", en: "Simple Harmonic Motion" },
+          level: 2,
+          oneLiner: {
+            zh: "物体在平衡位置附近往复运动，回复力与位移成正比、方向相反。",
+            en: "Oscillation about equilibrium with restoring force proportional to displacement.",
+          },
+          detail: {
+            zh: "F=−kx，加速度 a=−(k/m)x；位移随时间按正弦变化。典型模型：弹簧振子、小摆角单摆。",
+            en: "F=−kx so a=−(k/m)x; displacement varies sinusoidally. Models: spring oscillator, small-angle pendulum.",
+          },
+          tags: [{ zh: "振动", en: "Vibration" }],
+        },
+        {
+          id: "pendulum",
+          icon: "⏳",
+          term: { zh: "周期与频率", en: "Period & Frequency" },
+          level: 2,
+          oneLiner: {
+            zh: "完成一次全振动的时间叫周期 T，每秒振动次数叫频率 f，二者互为倒数。",
+            en: "Period T is time per cycle, frequency f is cycles per second; they are reciprocals.",
+          },
+          detail: {
+            zh: "T=1/f；单摆周期 T=2π√(L/g) 只与摆长和重力加速度有关、与质量无关（小摆角）。",
+            en: "T=1/f; a pendulum's T=2π√(L/g) depends on length and g only, not mass (small angles).",
+          },
+          eq: { lhs: "T", rhs: "2π√(L/g)", rel: "equal" },
+          tags: [{ zh: "振动", en: "Vibration" }],
+        },
+        {
+          id: "wave-motion",
+          icon: "〰️",
+          term: { zh: "波长·波速·频率", en: "Wavelength, Speed & Frequency" },
+          level: 2,
+          oneLiner: {
+            zh: "振动在介质中传播形成波，波速等于波长乘以频率。",
+            en: "A wave is vibration traveling through a medium; speed equals wavelength times frequency.",
+          },
+          detail: {
+            zh: "v=λf；波传播的是振动形式与能量，介质质点并不随波迁移。分横波（如弦波）与纵波（如声波）。",
+            en: "v=λf; waves carry form and energy, not matter. Transverse (string) vs longitudinal (sound).",
+          },
+          eq: { lhs: "v", rhs: "λf", rel: "equal" },
+          tags: [{ zh: "波动", en: "Wave" }],
+        },
+        {
+          id: "superposition",
+          icon: "🔃",
+          term: { zh: "波的叠加与干涉", en: "Superposition & Interference" },
+          level: 3,
+          oneLiner: {
+            zh: "两列相干波相遇时位移叠加，形成加强区与减弱区。",
+            en: "Overlapping coherent waves add, giving constructive and destructive regions.",
+          },
+          detail: {
+            zh: "频率相同、相位差恒定的相干波才能产生稳定干涉；路程差为波长整数倍加强、半整数倍减弱。衍射则是一切波共有的绕过障碍物现象。",
+            en: "Stable interference needs equal frequency and constant phase; integer wavelengths reinforce, half-integers cancel. Diffraction lets waves bend around obstacles.",
+          },
+          tags: [{ zh: "波动", en: "Wave" }],
+        },
+        {
+          id: "standing-wave",
+          icon: "🎸",
+          term: { zh: "驻波与共振", en: "Standing Waves & Resonance" },
+          level: 3,
+          oneLiner: {
+            zh: "两列同向反向波叠加形成驻定波形；驱动力频率接近固有频率时振幅最大即共振。",
+            en: "Counter-traveling waves form standing patterns; driving near natural frequency maximizes amplitude (resonance).",
+          },
+          detail: {
+            zh: "弦乐器、管乐器的音高源于驻波的波长；塔科马大桥风毁是共振破坏的经典案例。",
+            en: "String and wind instrument pitches arise from standing waves; the Tacoma Narrows collapse shows destructive resonance.",
+          },
+          tags: [{ zh: "波动", en: "Wave" }],
+        },
+      ],
+    },
+    /* ===================== 压强与浮力 ===================== */
+    {
+      key: "fluids",
+      icon: "🛟",
+      title: { zh: "压强与浮力", en: "Pressure & Buoyancy" },
+      items: [
+        {
+          id: "pressure",
+          icon: "👆",
+          term: { zh: "压强", en: "Pressure" },
+          level: 1,
+          oneLiner: {
+            zh: "单位面积上受到的压力，反映压力作用效果。",
+            en: "Force per unit area; measures how concentrated a push is.",
+          },
+          detail: {
+            zh: "p=F/S，单位帕斯卡 Pa；刀磨得薄、铁轨铺枕木分别通过减小/增大受力面积改变压强。",
+            en: "p=F/S in pascals; a sharp blade reduces area, sleepers under rails increase it.",
+          },
+          eq: { lhs: "p", rhs: "F/S", rel: "equal" },
+          tags: [{ zh: "力学", en: "Mechanics" }],
+        },
+        {
+          id: "liquid-pressure",
+          icon: "💧",
+          term: { zh: "液体压强", en: "Liquid Pressure" },
+          level: 2,
+          oneLiner: {
+            zh: "液体内部向各方都有压强，随深度与密度增大。",
+            en: "Liquids press in all directions; it grows with depth and density.",
+          },
+          detail: {
+            zh: "p=ρgh 只与密度、深度有关；连通器静止时液面等高（茶壶、船闸、下水道存水弯）。",
+            en: "p=ρgh depends on density and depth; connected vessels level out (teapots, locks, traps).",
+          },
+          eq: { lhs: "p", rhs: "ρgh", rel: "equal" },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "atmospheric",
+          icon: "🌍",
+          term: { zh: "大气压强", en: "Atmospheric Pressure" },
+          level: 2,
+          oneLiner: {
+            zh: "空气受重力与流动性产生压强，标准大气压约 1.01×10⁵ Pa。",
+            en: "Air's weight creates pressure; standard atmosphere ≈ 1.01×10⁵ Pa.",
+          },
+          detail: {
+            zh: "托里析利实验首次测出大气压；吸盘、吸管、活塞式抽水机都靠大气压工作；气压随海拔升高而降低。",
+            en: "Torricelli first measured it; suction cups, straws and pumps rely on it; it drops with altitude.",
+          },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "buoyancy",
+          icon: "🚤",
+          term: { zh: "浮力与阿基米德原理", en: "Buoyancy & Archimedes" },
+          level: 2,
+          oneLiner: {
+            zh: "浸入液体的物体受到向上托力，大小等于它排开液体所受的重力。",
+            en: "A body in fluid is lifted by a force equal to the weight of fluid it displaces.",
+          },
+          detail: {
+            zh: "F浮=ρ液gV排；浮沉条件比较浮力与重力（或密度）：轮船、潜水艇、气球与密度计都靠调控浮力。",
+            en: "F_buoy=ρ_fluid·g·V_displaced; float/sink compares buoyancy to weight (or density). Ships, submarines, balloons and hydrometers tune buoyancy.",
+          },
+          eq: { lhs: "F浮", rhs: "ρ液 g V排", rel: "equal" },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "bernoulli",
+          icon: "✈️",
+          term: { zh: "流体压强与流速", en: "Fluid Speed & Pressure" },
+          level: 3,
+          oneLiner: {
+            zh: "流体流速大的地方压强小，产生升力与吸附现象。",
+            en: "Faster flow means lower pressure, producing lift and suction.",
+          },
+          detail: {
+            zh: "机翼上凸下平使上方流速大、压强小而产生升力；两船并行相吸、火车站安全线都源于此。",
+            en: "A wing's curved top speeds flow and lowers pressure, giving lift; parallel ships attract and platform safety lines stem from this.",
+          },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+      ],
+    },
+    /* ===================== 物理方法与单位制 ===================== */
+    {
+      key: "methods",
+      icon: "📐",
+      title: { zh: "物理方法与单位制", en: "Methods & Units" },
+      items: [
+        {
+          id: "si-units",
+          icon: "📏",
+          term: { zh: "国际单位制", en: "SI Units" },
+          level: 1,
+          oneLiner: {
+            zh: "以米、千克、秒等七个基本单位为基础的统一计量体系。",
+            en: "A unified system built on seven base units including metre, kilogram and second.",
+          },
+          detail: {
+            zh: "力学三大基本量：长度 m、质量 kg、时间 s；导出单位如牛顿 N=kg·m/s²、焦耳 J=N·m、瓦特 W=J/s。",
+            en: "Mechanics bases: length m, mass kg, time s; derived units like newton N=kg·m/s², joule J=N·m, watt W=J/s.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "dimensional",
+          icon: "🧩",
+          term: { zh: "量纲分析", en: "Dimensional Analysis" },
+          level: 2,
+          oneLiner: {
+            zh: "用基本量的幂次组合检验公式、推导关系并换算单位。",
+            en: "Use powers of base quantities to check formulas, derive relations and convert units.",
+          },
+          detail: {
+            zh: "等式两边量纲必须一致，可快速判断公式是否可能有误；也可猜测量间的比例关系（如单摆周期对 L、g 的依赖）。",
+            en: "Both sides of an equation must share dimensions — a quick validity check — and can suggest proportional forms (e.g. a pendulum's dependence on L and g).",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "model-ideal",
+          icon: "🎯",
+          term: { zh: "理想模型", en: "Idealized Models" },
+          level: 2,
+          oneLiner: {
+            zh: "抓住主要因素、忽略次要因素建立的简化对象，是物理学的基本方法。",
+            en: "Simplifications keeping dominant factors and ignoring minor ones — a core physics method.",
+          },
+          detail: {
+            zh: "质点、点电荷、光滑面、理想气体、电阻等都是理想模型；实际物体能否近似取决于问题尺度与精度要求。",
+            en: "Point mass, point charge, frictionless surface, ideal gas, pure resistor — applicability depends on scale and required precision.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "error-measure",
+          icon: "📊",
+          term: { zh: "误差与有效数字", en: "Error & Significant Figures" },
+          level: 2,
+          oneLiner: {
+            zh: "测量值与真值之差叫误差，分系统误差与偶然误差，需如实记录有效数字。",
+            en: "Difference from the true value; systematic and random types, recorded with significant figures.",
+          },
+          detail: {
+            zh: "系统误差可通过校准仪器、改进方法减小；偶然误差用多次测量取平均减小；有效数字末位为估读位。",
+            en: "Calibration reduces systematic error; averaging reduces random error; the last significant digit is estimated.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+      ],
+    },
+    /* ===================== 物理与现代技术 ===================== */
+    {
+      key: "tech",
+      icon: "📡",
+      title: { zh: "物理与现代技术", en: "Physics & Modern Technology" },
+      items: [
+        {
+          id: "semiconductor",
+          icon: "💾",
+          term: { zh: "半导体与芯片", en: "Semiconductors & Chips" },
+          level: 3,
+          oneLiner: {
+            zh: "导电性介于导体与绝缘体之间，掺入杂质可精确调控，是晶体管的基石。",
+            en: "Conductivity between conductor and insulator, tunable by doping — the basis of transistors.",
+          },
+          detail: {
+            zh: "PN 结具有单向导电性，是二极管、晶体管、集成电路的基础；硅晶片上数十亿晶体管构成现代计算机与手机的核心。",
+            en: "A PN junction conducts one way, forming diodes, transistors and ICs; billions of transistors on silicon wafers power computers and phones.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "superconductor",
+          icon: "🧲",
+          term: { zh: "超导现象", en: "Superconductivity" },
+          level: 3,
+          oneLiner: {
+            zh: "某些材料降到临界温度以下电阻突降为零并完全抗磁。",
+            en: "Below a critical temperature some materials drop to zero resistance and expel magnetic fields.",
+          },
+          detail: {
+            zh: "零电阻可实现无损耗输电、强磁体（磁悬浮、MRI）；迈斯纳效应体现完全抗磁性；高温超导仍在攻关。",
+            en: "Zero resistance enables lossless power and strong magnets (maglev, MRI); the Meissner effect shows full diamagnetism; high-Tc remains a goal.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "laser",
+          icon: "🔦",
+          term: { zh: "激光", en: "Laser" },
+          level: 3,
+          oneLiner: {
+            zh: "受激辐射放大产生方向性好、单色度高、亮度极强的人造光。",
+            en: "Light amplified by stimulated emission — highly directional, monochromatic and intense.",
+          },
+          detail: {
+            zh: "激光用于光纤通信、精密切割、激光雷达、眼科手术与条码扫描；其相干性与高亮度源于受激辐射。",
+            en: "Used in fiber optics, cutting, LIDAR, eye surgery and scanning; coherence and brightness come from stimulated emission.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "nuclear-energy",
+          icon: "☢️",
+          term: { zh: "核能的利用", en: "Nuclear Energy" },
+          level: 3,
+          oneLiner: {
+            zh: "核裂变与核聚变释放巨大能量，是重要的高效能源。",
+            en: "Fission and fusion release vast energy — potent power sources.",
+          },
+          detail: {
+            zh: "核电站用可控裂变链式反应发电；太阳与氢弹靠聚变；可控聚变（“人造太阳”）因清洁、原料丰富而被寄予厚望。",
+            en: "Reactors run controlled fission; the Sun and bombs use fusion; controlled fusion (artificial suns) is prized for clean, abundant fuel.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "em-spectrum-tech",
+          icon: "📶",
+          term: { zh: "电磁波谱与应用", en: "Electromagnetic Spectrum" },
+          level: 2,
+          oneLiner: {
+            zh: "无线电波到射线构成电磁波谱，不同波段各有应用。",
+            en: "From radio to gamma rays, each band has its uses.",
+          },
+          detail: {
+            zh: "无线电用于通信广播，微波用于雷达与加热，红外线遥感与热成像，可见光是视觉，紫外线杀菌，X 射线成像，γ 射线治疗与探伤。",
+            en: "Radio for comms, microwaves for radar/heating, infrared for remote sensing, visible for sight, UV for sterilizing, X-rays for imaging, gamma for therapy/inspection.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+      ],
+    },
     /* ===================== 关键常数 ===================== */
     {
       key: "constants",
