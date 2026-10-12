@@ -1,0 +1,91 @@
+[
+  {
+    "id": "sound-propagation",
+    "icon": "〰️",
+    "term": "声音的产生与传播",
+    "termEn": "Sound Production & Propagation",
+    "level": 1,
+    "oneLiner": "声音由物体振动产生，以声波形式通过介质传播，真空不传声。",
+    "oneLinerEn": "Sound comes from vibration and travels as waves through a medium; it cannot cross a vacuum.",
+    "detail": "声波是机械波，需固体、液体或气体等介质。",
+    "detailEn": "Sound is a mechanical wave requiring a material medium.",
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
+  },
+  {
+    "id": "sound-speed",
+    "icon": "💨",
+    "term": "声速",
+    "termEn": "Speed of Sound",
+    "level": 1,
+    "oneLiner": "常温下空气中约 340 m/s，一般固体>液体>气体。",
+    "oneLinerEn": "About 340 m/s in air at room temperature; usually solid>liquid>gas.",
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
+  },
+  {
+    "id": "pitch-loudness",
+    "icon": "🎵",
+    "term": "音调·响度·音色",
+    "termEn": "Pitch · Loudness · Timbre",
+    "level": 1,
+    "oneLiner": "频率决定音调高低，振幅决定响度大小，波形决定音色。",
+    "oneLinerEn": "Frequency sets pitch, amplitude sets loudness, waveform sets timbre.",
+    "detail": "女声频率高、音调高；大鼓振幅大、响度大。",
+    "detailEn": "Higher frequency gives higher pitch; larger amplitude gives greater loudness.",
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
+  },
+  {
+    "id": "decibel",
+    "icon": "📟",
+    "term": "分贝",
+    "termEn": "Decibel",
+    "level": 1,
+    "oneLiner": "表示响度级的相对单位，与声强对数相关。",
+    "oneLinerEn": "A relative unit for loudness level, logarithmic in sound intensity.",
+    "detail": "0 dB 约为人耳听阈；长期高于 85 dB 可能损伤听力。",
+    "detailEn": "0 dB is near the hearing threshold; prolonged >85 dB can damage hearing.",
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
+  },
+  {
+    "id": "doppler",
+    "icon": "🚨",
+    "term": "多普勒效应",
+    "termEn": "Doppler Effect",
+    "level": 2,
+    "oneLiner": "波源与观察者相对运动时，接收频率发生变化。",
+    "oneLinerEn": "Relative motion between source and observer shifts the received frequency.",
+    "detail": "靠近时频率升高（音调变尖），远离时降低；用于测速与天文红移。",
+    "detailEn": "Approaching raises pitch, receding lowers it; used in speed radar and cosmological redshift.",
+    "tags": ["波"],
+    "tagsEn": ["Waves"]
+  },
+  {
+    "id": "resonance",
+    "icon": "🎻",
+    "term": "共振与共鸣",
+    "termEn": "Resonance",
+    "level": 2,
+    "oneLiner": "驱动频率接近系统固有频率时，振幅急剧增大的现象。",
+    "oneLinerEn": "Amplitude grows sharply when driving frequency nears natural frequency.",
+    "detail": "共鸣箱、军队过桥齐步易引发共振，需避免。",
+    "detailEn": "Resonance powers musical boxes but can destroy bridges if troops march in step.",
+    "tags": ["波"],
+    "tagsEn": ["Waves"]
+  },
+  {
+    "id": "ultrasonic",
+    "icon": "🐬",
+    "term": "超声波与次声波",
+    "termEn": "Ultrasonic & Infrasonic",
+    "level": 1,
+    "oneLiner": "频率高于 20 kHz 为超声波，低于 20 Hz 为次声波。",
+    "oneLinerEn": "Above 20 kHz is ultrasonic, below 20 Hz infrasonic.",
+    "detail": "超声用于医学成像与探伤；次声可由地震、核爆产生。",
+    "detailEn": "Ultrasound aids medical imaging; infrasound arises from quakes and explosions.",
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
+  }
+]

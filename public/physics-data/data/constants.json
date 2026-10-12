@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c",
+    "icon": "💡",
+    "term": "光速",
+    "termEn": "Speed of Light",
+    "value": "≈ 3.00×10⁸ m/s",
+    "oneLiner": "真空中的光速，相对论与电磁学的基石。",
+    "oneLinerEn": "Speed of light in vacuum; cornerstone of relativity and EM."
+  },
+  {
+    "id": "h",
+    "icon": "➿",
+    "term": "普朗克常数",
+    "termEn": "Planck Constant",
+    "value": "6.626×10⁻³⁴ J·s",
+    "oneLiner": "量子化的尺度，E=hν。",
+    "oneLinerEn": "Scale of quantization, E=hν."
+  },
+  {
+    "id": "G",
+    "icon": "🪐",
+    "term": "引力常数",
+    "termEn": "Gravitational Constant",
+    "value": "6.674×10⁻¹¹ N·m²/kg²",
+    "oneLiner": "万有引力定律中的比例系数。",
+    "oneLinerEn": "Proportionality in Newton's gravitation."
+  },
+  {
+    "id": "e",
+    "icon": "⚡",
+    "term": "元电荷",
+    "termEn": "Elementary Charge",
+    "value": "1.602×10⁻¹⁹ C",
+    "oneLiner": "质子所带电量（电子电荷绝对值）。",
+    "oneLinerEn": "Charge of a proton (magnitude of an electron's)."
+  },
+  {
+    "id": "k",
+    "icon": "🌡️",
+    "term": "玻尔兹曼常数",
+    "termEn": "Boltzmann Constant",
+    "value": "1.38×10⁻²³ J/K",
+    "oneLiner": "连接温度与微观平均动能。",
+    "oneLinerEn": "Bridges temperature and microscopic kinetic energy."
+  },
+  {
+    "id": "Na",
+    "icon": "🧮",
+    "term": "阿伏伽德罗常数",
+    "termEn": "Avogadro's Number",
+    "value": "6.022×10²³ mol⁻¹",
+    "oneLiner": "1 摩尔物质含基本单元的个数。",
+    "oneLinerEn": "Entities per mole of substance."
+  },
+  {
+    "id": "eps0",
+    "icon": "🕸️",
+    "term": "真空介电常数",
+    "termEn": "Vacuum Permittivity",
+    "value": "8.854×10⁻¹² F/m",
+    "oneLiner": "库仑定律中的比例系数 ε₀。",
+    "oneLinerEn": "The ε₀ in Coulomb's law."
+  },
+  {
+    "id": "me",
+    "icon": "🔘",
+    "term": "电子质量",
+    "termEn": "Electron Mass",
+    "value": "9.109×10⁻³¹ kg",
+    "oneLiner": "基本粒子中最轻的稳定带电粒子质量。",
+    "oneLinerEn": "Mass of the lightest stable charged particle."
+  }
+]

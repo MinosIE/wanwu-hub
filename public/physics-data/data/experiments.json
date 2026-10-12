@@ -1,0 +1,66 @@
+[
+  {
+    "id": "double-slit",
+    "icon": "🌗",
+    "term": "杨氏双缝实验",
+    "termEn": "Young's Double-Slit",
+    "oneLiner": "光过双缝形成干涉条纹，证明光的波动性。",
+    "oneLinerEn": "Light through two slits makes interference fringes, proving waves."
+  },
+  {
+    "id": "michelson-morley",
+    "icon": "📏",
+    "term": "迈克尔逊-莫雷实验",
+    "termEn": "Michelson–Morley",
+    "oneLiner": "探测「以太风」得零结果，为相对论扫清障碍。",
+    "oneLinerEn": "Sought the aether wind but found none, clearing the way for relativity."
+  },
+  {
+    "id": "millikan",
+    "icon": "💧",
+    "term": "密立根油滴实验",
+    "termEn": "Millikan Oil-Drop",
+    "oneLiner": "悬浮带电油滴测出元电荷，证实电荷量子化。",
+    "oneLinerEn": "Measured the elementary charge, confirming quantization."
+  },
+  {
+    "id": "rutherford",
+    "icon": "⚛️",
+    "term": "卢瑟福金箔实验",
+    "termEn": "Rutherford Gold-Foil",
+    "oneLiner": "α 粒子大角度散射，提出原子核式模型。",
+    "oneLinerEn": "Large-angle α scattering led to the nuclear model."
+  },
+  {
+    "id": "cavendish",
+    "icon": "⚖️",
+    "term": "卡文迪许扭秤",
+    "termEn": "Cavendish Experiment",
+    "oneLiner": "首次测出引力常数 G，并估算地球质量。",
+    "oneLinerEn": "First measured G and estimated Earth's mass."
+  },
+  {
+    "id": "photoelectric",
+    "icon": "🔆",
+    "term": "光电效应实验",
+    "termEn": "Photoelectric Effect",
+    "oneLiner": "光照射金属打出电子，爱因斯坦用量子解释，佐证光子说。",
+    "oneLinerEn": "Light ejects electrons; Einstein's quantum explanation supported photons."
+  },
+  {
+    "id": "galileo-incline",
+    "icon": "📐",
+    "term": "伽利略斜面实验",
+    "termEn": "Galileo's Inclined Plane",
+    "oneLiner": "用斜面「冲淡重力」研究匀加速运动，奠定实验物理。",
+    "oneLinerEn": "Diluted gravity with ramps to study uniform acceleration, founding experimental physics."
+  },
+  {
+    "id": "hertz",
+    "icon": "📡",
+    "term": "赫兹电磁波实验",
+    "termEn": "Hertz EM-Wave",
+    "oneLiner": "用振荡电路发射并接收电磁波，证实麦克斯韦预言。",
+    "oneLinerEn": "Generated and detected EM waves, confirming Maxwell."
+  }
+]

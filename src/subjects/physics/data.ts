@@ -496,7 +496,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           detail: {
             zh: "u>2f 成倒立缩小实像（照相机）；f<u<2f 成倒立放大实像（投影仪）；u<f 成正立放大虚像（放大镜）。",
-            en: "u>2f:缩小实像(相机); f<u<2f:放大实像(投影仪); u<f:放大虚像(放大镜).",
+            en: "u>2f gives a reduced real image (camera); f<u<2f an enlarged real image (projector); u<f an enlarged upright virtual image (magnifier).",
           },
           tags: [{ zh: "几何光学", en: "Geometric Optics" }],
         },

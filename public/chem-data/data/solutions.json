@@ -1,0 +1,101 @@
+[
+  {
+    "id": "mole",
+    "icon": "🔢",
+    "term": "物质的量与摩尔",
+    "termEn": "Mole & Avogadro's Number",
+    "oneLiner": "连接微观粒子与宏观质量的桥梁，1 mol 含约 6.02×10²³ 个粒子。",
+    "oneLinerEn": "Bridges particles and mass; 1 mol holds about 6.02×10²³ entities.",
+    "detail": "n = m/M = N/Nₐ = V/Vm（气体标况 22.4 L/mol）；是化学计算的核心枢纽。",
+    "detailEn": "n = m/M = N/Nₐ = V/Vm (22.4 L/mol for gases at STP); the hub of stoichiometry.",
+    "tags": ["计算"],
+    "tagsEn": ["Calculation"]
+  },
+  {
+    "id": "molarity",
+    "icon": "💧",
+    "term": "物质的量浓度",
+    "termEn": "Molarity",
+    "oneLiner": "单位体积溶液里所含溶质的物质的量，单位 mol/L。",
+    "oneLinerEn": "Moles of solute per litre of solution, in mol/L.",
+    "detail": "c = n/V；配制一定物质的量浓度溶液需用容量瓶、定容到刻度线。",
+    "detailEn": "c = n/V; prepared in a volumetric flask, made up to the mark.",
+    "tags": ["计算"],
+    "tagsEn": ["Calculation"]
+  },
+  {
+    "id": "dilution",
+    "icon": "🫗",
+    "term": "溶液稀释",
+    "termEn": "Dilution",
+    "oneLiner": "加水稀释前后溶质的量不变，据此计算浓度。",
+    "oneLinerEn": "Solute amount stays constant when diluting; the basis of c₁V₁ = c₂V₂.",
+    "detail": "稀释定律 c₁V₁ = c₂V₂；配制稀溶液时按此量取浓溶液与水的体积。",
+    "detailEn": "Dilution law c₁V₁ = c₂V₂; measure the concentrated solution and water accordingly.",
+    "tags": ["计算"],
+    "tagsEn": ["Calculation"]
+  },
+  {
+    "id": "solubility",
+    "icon": "🧂",
+    "term": "溶解度与饱和溶液",
+    "termEn": "Solubility & Saturation",
+    "oneLiner": "一定温度下某固体在 100 g 溶剂里达到饱和所溶解的质量。",
+    "oneLinerEn": "Grams of solute that saturate 100 g of solvent at a given temperature.",
+    "detail": "溶解度曲线随温度变化：多数固体升高、气体与少数物质（如熟石灰）降低；可分离提纯（蒸发结晶、降温结晶）。",
+    "detailEn": "Solubility curves: most solids rise with temperature, gases and a few (e.g. slaked lime) fall; used for separation by evaporation or cooling crystallization.",
+    "tags": ["溶液"],
+    "tagsEn": ["Solution"]
+  },
+  {
+    "id": "electrolyte",
+    "icon": "⚡",
+    "term": "电解质与非电解质",
+    "termEn": "Electrolytes",
+    "oneLiner": "在水溶液或熔融态能导电的化合物为电解质，反之非电解质。",
+    "oneLinerEn": "Compounds conducting in solution or melt are electrolytes; others are non-electrolytes.",
+    "detail": "强电解质（强酸、强碱、大部分盐）完全电离，弱电解质（弱酸弱碱）部分电离；电离方程式用 = 或 ⇌ 表示。",
+    "detailEn": "Strong electrolytes ionize fully (shown with =), weak ones partially (⇌).",
+    "eq": { "lhs": "NaCl", "rhs": "Na⁺ + Cl⁻", "rel": "equal" },
+    "subs": [
+      {
+        "f": "NaCl",
+        "name": "氯化钠（强电解质）",
+        "nameEn": "Sodium chloride (strong electrolyte)",
+        "note": "溶于水完全电离。",
+        "noteEn": "Ionizes fully in water.",
+        "role": "l"
+      },
+      {
+        "f": "Na⁺",
+        "name": "钠离子",
+        "nameEn": "Sodium ion",
+        "note": "电离出的阳离子。",
+        "noteEn": "Cation released.",
+        "role": "r"
+      },
+      {
+        "f": "Cl⁻",
+        "name": "氯离子",
+        "nameEn": "Chloride ion",
+        "note": "电离出的阴离子。",
+        "noteEn": "Anion released.",
+        "role": "r"
+      }
+    ],
+    "tags": ["溶液"],
+    "tagsEn": ["Solution"]
+  },
+  {
+    "id": "ph",
+    "icon": "🎯",
+    "term": "pH 与酸碱度",
+    "termEn": "pH & Acidity",
+    "oneLiner": "衡量溶液酸碱性强弱的标度，pH = −lg c(H⁺)。",
+    "oneLinerEn": "Scale of acidity; pH = −log c(H⁺).",
+    "detail": "常温 pH<7 酸性、=7 中性、>7 碱性；pH 每差 1，氢离子浓度差 10 倍。可用指示剂或 pH 计测定。",
+    "detailEn": "At 25℃: pH<7 acidic, =7 neutral, >7 basic; each unit is a tenfold change in [H⁺]. Measured by indicators or a pH meter.",
+    "tags": ["溶液"],
+    "tagsEn": ["Solution"]
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "rectilinear",
+    "icon": "☀️",
+    "term": "光的直线传播",
+    "termEn": "Rectilinear Propagation",
+    "level": 1,
+    "oneLiner": "光在同种均匀介质中沿直线传播，形成影与小孔成像。",
+    "oneLinerEn": "Light travels in straight lines in uniform media, forming shadows and pinhole images.",
+    "detail": "真空中光速 c≈3.00×10⁸ m/s，是宇宙速度上限。其中 c 为真空中的光速。",
+    "detailEn": "In vacuum c≈3.00×10⁸ m/s, the cosmic speed limit. c is the speed of light in vacuum.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "reflection",
+    "icon": "🪞",
+    "term": "光的反射",
+    "termEn": "Reflection",
+    "level": 1,
+    "oneLiner": "反射角等于入射角；分镜面反射与漫反射。",
+    "oneLinerEn": "Angle of reflection equals angle of incidence; specular or diffuse.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "plane-mirror",
+    "icon": "👥",
+    "term": "平面镜成像",
+    "termEn": "Plane Mirror Imaging",
+    "level": 1,
+    "oneLiner": "成等大、正立、左右相反的虚像，物像关于镜面对称。",
+    "oneLinerEn": "Forms an equal, upright, laterally inverted virtual image, symmetric about the mirror.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "refraction",
+    "eq": [
+      { "lhs": "n", "rhs": "c/v", "rel": "equal" },
+      { "lhs": "n₁sinθ₁", "rhs": "n₂sinθ₂", "rel": "equal" }
+    ],
+    "icon": "💧",
+    "term": "光的折射",
+    "termEn": "Refraction",
+    "level": 1,
+    "oneLiner": "光斜射入不同介质时传播方向偏折，池中视深变浅。",
+    "oneLinerEn": "Light bends crossing media obliquely; a pool looks shallower.",
+    "detail": "折射率 n=c/v；斯涅尔定律 n₁sinθ₁=n₂sinθ₂。其中 n 为折射率，θ₁、θ₂ 为入射、折射光线与法线的夹角。",
+    "detailEn": "Refractive index n=c/v; Snell's law n₁sinθ₁=n₂sinθ₂. n refractive index, θ₁/θ₂ angles with the normal.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "total-internal",
+    "icon": "🔷",
+    "term": "全反射",
+    "termEn": "Total Internal Reflection",
+    "level": 2,
+    "oneLiner": "光从光密到光疏且入射角大于临界角时，全部反射无折射。",
+    "oneLinerEn": "From dense to rare medium beyond the critical angle, all light reflects.",
+    "detail": "是光导纤维与全反射棱镜的原理。",
+    "detailEn": "Underlies optical fibers and reflecting prisms.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "lens",
+    "icon": "🔍",
+    "term": "透镜与凸透镜成像",
+    "termEn": "Lenses & Convex Imaging",
+    "level": 2,
+    "oneLiner": "凸透镜对光有会聚作用；成像规律由物距 u 决定。",
+    "oneLinerEn": "Convex lenses converge light; image follows object distance u.",
+    "detail": "u>2f 成倒立缩小实像（照相机）；f<u<2f 成倒立放大实像（投影仪）；u<f 成正立放大虚像（放大镜）。",
+    "detailEn": "u>2f gives a reduced real image (camera); f<u<2f an enlarged real image (projector); u<f an enlarged upright virtual image (magnifier).",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "dispersion",
+    "icon": "🌟",
+    "term": "光的色散",
+    "termEn": "Dispersion",
+    "level": 1,
+    "oneLiner": "白光经棱镜分解为七色光，因各色光折射率不同。",
+    "oneLinerEn": "A prism splits white light into colors because refractive index varies with color.",
+    "detail": "牛顿以此证明白光由多种色光组成；彩虹即水滴色散。",
+    "detailEn": "Newton showed white light is composite; rainbows are droplet dispersion.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "interference-diffraction",
+    "icon": "🌗",
+    "term": "干涉与衍射",
+    "termEn": "Interference & Diffraction",
+    "level": 3,
+    "oneLiner": "两列相干光叠加成明暗条纹（干涉）；光绕过障碍偏离直线（衍射）。",
+    "oneLinerEn": "Coherent light adds to bright/dark fringes (interference); light bends around obstacles (diffraction).",
+    "detail": "杨氏双缝演示干涉；泊松亮斑是衍射反例成名的证据。",
+    "detailEn": "Young's double-slit shows interference; Poisson's spot is a famous diffraction proof.",
+    "tags": ["物理光学"],
+    "tagsEn": ["Physical Optics"]
+  },
+  {
+    "id": "polarization",
+    "icon": "🕶️",
+    "term": "偏振",
+    "termEn": "Polarization",
+    "level": 3,
+    "oneLiner": "横波特有的振动方向选择性，证明光是横波。",
+    "oneLinerEn": "Directional filtering of vibration, proving light is transverse.",
+    "detail": "偏光太阳镜利用偏振削减水面反光。",
+    "detailEn": "Polarized sunglasses cut glare off water.",
+    "tags": ["物理光学"],
+    "tagsEn": ["Physical Optics"]
+  }
+]

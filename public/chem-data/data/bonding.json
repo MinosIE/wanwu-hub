@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ionic-bond",
+    "icon": "🧲",
+    "term": "离子键",
+    "termEn": "Ionic Bond",
+    "oneLiner": "阴、阳离子通过静电作用结合，常见于活泼金属与活泼非金属。",
+    "oneLinerEn": "Electrostatic attraction between ions; typical of active metals with active nonmetals.",
+    "detail": "如 NaCl：钠失去电子成 Na⁺、氯得到电子成 Cl⁻；离子化合物熔沸点较高、固态不导电、熔融或溶于水导电。",
+    "detailEn": "E.g. NaCl: Na loses an electron, Cl gains one. Ionic solids have high melting points and conduct when molten or dissolved.",
+    "tags": ["化学键"],
+    "tagsEn": ["Bonding"]
+  },
+  {
+    "id": "covalent-bond",
+    "icon": "🤝",
+    "term": "共价键",
+    "termEn": "Covalent Bond",
+    "oneLiner": "原子间共用电子对形成的化学键，分极性与非极性。",
+    "oneLinerEn": "Shared electron pairs between atoms; polar or nonpolar.",
+    "detail": "非金属之间常见。相同原子间为非极性（H₂、Cl₂），不同原子间为极性（HCl、H₂O）；可用电子式与结构式表示。",
+    "detailEn": "Common among nonmetals: nonpolar between like atoms (H₂), polar between unlike atoms (HCl). Shown by electron and structural formulas.",
+    "tags": ["化学键"],
+    "tagsEn": ["Bonding"]
+  },
+  {
+    "id": "metallic-bond",
+    "icon": "",
+    "term": "金属键",
+    "termEn": "Metallic Bond",
+    "oneLiner": "金属阳离子与自由电子间的强烈作用，赋予金属导电、导热与延展性。",
+    "oneLinerEn": "Cations in a sea of delocalized electrons; gives conductivity, malleability and luster.",
+    "tags": ["化学键"],
+    "tagsEn": ["Bonding"]
+  },
+  {
+    "id": "intermolecular",
+    "icon": "💧",
+    "term": "分子间作用力与氢键",
+    "termEn": "Intermolecular Forces & Hydrogen Bonding",
+    "oneLiner": "分子间的弱作用（范德华力）与较强的氢键，决定熔沸点与溶解性。",
+    "oneLinerEn": "Weak van der Waals forces and stronger hydrogen bonds govern boiling points and solubility.",
+    "detail": "氢键使水的沸点异常高、冰密度小于水；DNA 双链也靠氢键配对。",
+    "detailEn": "Hydrogen bonding raises water's boiling point, makes ice float, and pairs the DNA double helix.",
+    "tags": ["分子间"],
+    "tagsEn": ["Intermolecular"]
+  },
+  {
+    "id": "crystal-types",
+    "icon": "💎",
+    "term": "晶体类型",
+    "termEn": "Crystal Types",
+    "oneLiner": "离子晶体、分子晶体、原子晶体与金属晶体，性质差异悬殊。",
+    "oneLinerEn": "Ionic, molecular, covalent-network and metallic crystals differ greatly in properties.",
+    "detail": "金刚石（原子晶体）极硬、干冰（分子晶体）易升华、食盐（离子晶体）质脆能溶于水电解质。",
+    "detailEn": "Diamond (network) is very hard, dry ice (molecular) sublimes, salt (ionic) is brittle and its solution conducts.",
+    "tags": ["物质结构"],
+    "tagsEn": ["Structure"]
+  },
+  {
+    "id": "valence",
+    "icon": "🔢",
+    "term": "化合价",
+    "termEn": "Valence",
+    "oneLiner": "元素在化合物中的结合能力，正负化合价代数和为零。",
+    "oneLinerEn": "Combining power of an element; the sum of oxidation numbers in a neutral compound is zero.",
+    "tags": ["化学用语"],
+    "tagsEn": ["Notation"]
+  }
+]

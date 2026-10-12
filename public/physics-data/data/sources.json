@@ -1,0 +1,28 @@
+[
+  {
+    "label": "《费曼物理学讲义》",
+    "labelEn": "The Feynman Lectures on Physics",
+    "type": "教材",
+    "typeEn": "Textbook",
+    "url": "https://www.feynmanlectures.caltech.edu/"
+  },
+  {
+    "label": "Khan Academy · 物理",
+    "labelEn": "Khan Academy · Physics",
+    "type": "科普",
+    "typeEn": "Educational",
+    "url": "https://www.khanacademy.org/science/physics"
+  },
+  {
+    "label": "HyperPhysics",
+    "type": "工具",
+    "typeEn": "Reference",
+    "url": "http://hyperphysics.phy-astr.gsu.edu/"
+  },
+  {
+    "label": "Wikipedia · Physics",
+    "type": "百科",
+    "typeEn": "Encyclopedia",
+    "url": "https://en.wikipedia.org/wiki/Physics"
+  }
+]

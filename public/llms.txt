@@ -9,8 +9,8 @@
 - [万物哲学](https://minosie.github.io/wanwu-hub/subject/thought/)：[数据索引](https://minosie.github.io/wanwu-hub/thought-data/llms.txt)
 - [万物地理](https://minosie.github.io/wanwu-hub/subject/earth/)：[数据索引](https://minosie.github.io/wanwu-hub/earth-data/llms.txt)
 - [万物生物](https://minosie.github.io/wanwu-hub/subject/life/)：[数据索引](https://minosie.github.io/wanwu-hub/life-data/llms.txt)
-- [万物物理](https://minosie.github.io/wanwu-hub/subject/physics/)
-- [万物化学](https://minosie.github.io/wanwu-hub/subject/chem/)
+- [万物物理](https://minosie.github.io/wanwu-hub/subject/physics/)：[数据索引](https://minosie.github.io/wanwu-hub/physics-data/llms.txt)
+- [万物化学](https://minosie.github.io/wanwu-hub/subject/chem/)：[数据索引](https://minosie.github.io/wanwu-hub/chem-data/llms.txt)
 
 ## 站点资产
 - [站点地图](https://minosie.github.io/wanwu-hub/sitemap.xml)

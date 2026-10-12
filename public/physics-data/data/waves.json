@@ -1,0 +1,69 @@
+[
+  {
+    "id": "shm",
+    "icon": "🪝",
+    "term": "简谐运动",
+    "termEn": "Simple Harmonic Motion",
+    "level": 2,
+    "oneLiner": "物体在平衡位置附近往复运动，回复力与位移成正比、方向相反。",
+    "oneLinerEn": "Oscillation about equilibrium with restoring force proportional to displacement.",
+    "detail": "F=−kx，加速度 a=−(k/m)x；位移随时间按正弦变化。典型模型：弹簧振子、小摆角单摆。",
+    "detailEn": "F=−kx so a=−(k/m)x; displacement varies sinusoidally. Models: spring oscillator, small-angle pendulum.",
+    "tags": ["振动"],
+    "tagsEn": ["Vibration"]
+  },
+  {
+    "id": "pendulum",
+    "icon": "⏳",
+    "term": "周期与频率",
+    "termEn": "Period & Frequency",
+    "level": 2,
+    "oneLiner": "完成一次全振动的时间叫周期 T，每秒振动次数叫频率 f，二者互为倒数。",
+    "oneLinerEn": "Period T is time per cycle, frequency f is cycles per second; they are reciprocals.",
+    "detail": "T=1/f；单摆周期 T=2π√(L/g) 只与摆长和重力加速度有关、与质量无关（小摆角）。",
+    "detailEn": "T=1/f; a pendulum's T=2π√(L/g) depends on length and g only, not mass (small angles).",
+    "eq": { "lhs": "T", "rhs": "2π√(L/g)", "rel": "equal" },
+    "tags": ["振动"],
+    "tagsEn": ["Vibration"]
+  },
+  {
+    "id": "wave-motion",
+    "icon": "〰️",
+    "term": "波长·波速·频率",
+    "termEn": "Wavelength, Speed & Frequency",
+    "level": 2,
+    "oneLiner": "振动在介质中传播形成波，波速等于波长乘以频率。",
+    "oneLinerEn": "A wave is vibration traveling through a medium; speed equals wavelength times frequency.",
+    "detail": "v=λf；波传播的是振动形式与能量，介质质点并不随波迁移。分横波（如弦波）与纵波（如声波）。",
+    "detailEn": "v=λf; waves carry form and energy, not matter. Transverse (string) vs longitudinal (sound).",
+    "eq": { "lhs": "v", "rhs": "λf", "rel": "equal" },
+    "tags": ["波动"],
+    "tagsEn": ["Wave"]
+  },
+  {
+    "id": "superposition",
+    "icon": "🔃",
+    "term": "波的叠加与干涉",
+    "termEn": "Superposition & Interference",
+    "level": 3,
+    "oneLiner": "两列相干波相遇时位移叠加，形成加强区与减弱区。",
+    "oneLinerEn": "Overlapping coherent waves add, giving constructive and destructive regions.",
+    "detail": "频率相同、相位差恒定的相干波才能产生稳定干涉；路程差为波长整数倍加强、半整数倍减弱。衍射则是一切波共有的绕过障碍物现象。",
+    "detailEn": "Stable interference needs equal frequency and constant phase; integer wavelengths reinforce, half-integers cancel. Diffraction lets waves bend around obstacles.",
+    "tags": ["波动"],
+    "tagsEn": ["Wave"]
+  },
+  {
+    "id": "standing-wave",
+    "icon": "🎸",
+    "term": "驻波与共振",
+    "termEn": "Standing Waves & Resonance",
+    "level": 3,
+    "oneLiner": "两列同向反向波叠加形成驻定波形；驱动力频率接近固有频率时振幅最大即共振。",
+    "oneLinerEn": "Counter-traveling waves form standing patterns; driving near natural frequency maximizes amplitude (resonance).",
+    "detail": "弦乐器、管乐器的音高源于驻波的波长；塔科马大桥风毁是共振破坏的经典案例。",
+    "detailEn": "String and wind instrument pitches arise from standing waves; the Tacoma Narrows collapse shows destructive resonance.",
+    "tags": ["波动"],
+    "tagsEn": ["Wave"]
+  }
+]

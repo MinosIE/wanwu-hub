@@ -15,6 +15,64 @@ const CAT_ZH: Record<string, string> = {
   unknown: "人工合成",
 };
 
+/** 分类英文名（供 EN 模式的一句话与导出 JSON 使用）。 */
+const CAT_EN: Record<string, string> = {
+  alkali: "Alkali metal",
+  alkaline: "Alkaline earth metal",
+  transition: "Transition metal",
+  post: "Post-transition metal",
+  metalloid: "Metalloid",
+  nonmetal: "Nonmetal",
+  halogen: "Halogen",
+  noble: "Noble gas",
+  lanthanide: "Lanthanide",
+  actinide: "Actinide",
+  unknown: "Synthesized",
+};
+
+/** RAW 第 9 项备注的英文版，按元素符号对应；缺失时回退英文分类名。 */
+const NOTE_EN: Record<string, string> = {
+  C: "Backbone of organic chemistry; diamond and graphite are allotropes",
+  N: "Main component of air; part of proteins and nucleic acids",
+  O: "Supports respiration and combustion; most abundant in the crust",
+  F: "The most electronegative element",
+  Ne: "Glows in neon signs",
+  Na: "Reactive metal; forms table salt with chlorine",
+  Mg: "Burns with a bright white flame; centre of chlorophyll",
+  Al: "Most abundant metal in the crust",
+  Si: "Foundation of the semiconductor industry",
+  P: "Present in ATP and DNA",
+  S: "Yellow solid, used to make sulfuric acid",
+  Cl: "Yellow-green gas, a strong oxidizer",
+  K: "Maintains nerve and muscle function",
+  Ca: "Main mineral of bones and teeth",
+  Ti: "Strong and corrosion-resistant",
+  Cr: "Key ingredient of stainless steel",
+  Fe: "Core of haemoglobin and of steel",
+  Cu: "Excellent conductor, used since antiquity",
+  Zn: "Galvanizing against rust; battery anode",
+  As: "Toxic",
+  Br: "Liquid at room temperature",
+  Tc: "The first artificially produced element",
+  Ag: "Best conductor of heat and electricity",
+  I: "Component of thyroid hormones",
+  W: "Lamp-filament metal, very high melting point",
+  Os: "Densest metal",
+  Pt: "Precious-metal catalyst",
+  Au: "Corrosion-resistant precious metal, extremely malleable",
+  Hg: "Metal liquid at room temperature",
+  Pb: "Toxic heavy metal",
+  Po: "Radioactive",
+  At: "Radioactive and exceedingly rare",
+  Rn: "Radioactive gas",
+  Nd: "Used in powerful magnets",
+  Pm: "Radioactive",
+  Fr: "The most radioactive alkali metal",
+  Ra: "Radioactive; once used in luminous paint",
+  U: "Nuclear fuel, at the heart of atomic energy",
+  Pu: "Reactor and weapons material",
+};
+
 // [z, 符号, 中文名, 英文名, 分类, 周期, 族, 相对原子质量, 备注?]
 type RawEl = [
   number,
@@ -307,11 +365,15 @@ function elToItem(e: RawEl): SubjectItem {
   const row = isLan ? 9 : isAct ? 10 : period;
   const col = isLan ? 3 + (z - 57) : isAct ? 3 + (z - 89) : group;
   const catZh = CAT_ZH[cat] ?? cat;
+  const catEn = CAT_EN[cat] ?? cat;
   return {
     id: "el-" + sym.toLowerCase(),
     term: { zh, en },
     value: { zh: mass, en: mass },
-    oneLiner: { zh: note ?? `第${period}周期 · ${catZh}`, en: note ?? catZh },
+    oneLiner: {
+      zh: note ?? `第${period}周期 · ${catZh}`,
+      en: NOTE_EN[sym] ?? `Period ${period} · ${catEn}`,
+    },
     detail: {
       zh: `${zh}（${en}），原子序数 ${z}，相对原子质量约 ${mass}，属于${catZh}。`,
       en: `${en} (Z=${z}), relative atomic mass ≈ ${mass}, ${cat}.`,

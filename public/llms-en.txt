@@ -9,7 +9,7 @@
 - [Thought of Everything](https://minosie.github.io/wanwu-hub/subject/thought/): [data index](https://minosie.github.io/wanwu-hub/thought-data/llms-en.txt)
 - [Earth of Everything](https://minosie.github.io/wanwu-hub/subject/earth/): [data index](https://minosie.github.io/wanwu-hub/earth-data/llms-en.txt)
 - [Life of Everything](https://minosie.github.io/wanwu-hub/subject/life/): [data index](https://minosie.github.io/wanwu-hub/life-data/llms-en.txt)
-- [Physics of Everything](https://minosie.github.io/wanwu-hub/subject/physics/)
-- [Chemistry of Everything](https://minosie.github.io/wanwu-hub/subject/chem/)
+- [Physics of Everything](https://minosie.github.io/wanwu-hub/subject/physics/): [data index](https://minosie.github.io/wanwu-hub/physics-data/llms-en.txt)
+- [Chemistry of Everything](https://minosie.github.io/wanwu-hub/subject/chem/): [data index](https://minosie.github.io/wanwu-hub/chem-data/llms-en.txt)
 
 - [Site map](https://minosie.github.io/wanwu-hub/sitemap.xml)

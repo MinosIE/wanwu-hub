@@ -1,0 +1,142 @@
+[
+  {
+    "id": "rate",
+    "icon": "⏱️",
+    "term": "化学反应速率",
+    "termEn": "Reaction Rate",
+    "oneLiner": "单位时间内浓度的变化，衡量反应快慢。",
+    "oneLinerEn": "Change of concentration per unit time; measures speed.",
+    "detail": "v = Δc/Δt，同一反应中各物质速率之比等于化学计量数之比；不能用固体或纯液体表示。",
+    "detailEn": "v = Δc/Δt; rates of species share the stoichiometric ratio; solids/liquids are excluded.",
+    "tags": ["速率"],
+    "tagsEn": ["Kinetics"]
+  },
+  {
+    "id": "rate-factors",
+    "icon": "🎛️",
+    "term": "影响速率的因素",
+    "termEn": "Factors Affecting Rate",
+    "oneLiner": "浓度、压强、温度、催化剂都能改变反应速率。",
+    "oneLinerEn": "Concentration, pressure, temperature and catalysts all change rate.",
+    "detail": "升温与加催化剂显著提高速率（增多活化分子/降低活化能）；增大浓度或压强增加单位体积内活化分子数。",
+    "detailEn": "Heating and catalysts raise rate most (more activated molecules / lower activation energy); higher concentration or pressure packs more collisions.",
+    "tags": ["速率"],
+    "tagsEn": ["Kinetics"]
+  },
+  {
+    "id": "equilibrium",
+    "icon": "⚖️",
+    "term": "化学平衡状态",
+    "termEn": "Chemical Equilibrium",
+    "oneLiner": "正逆反应速率相等、各组分浓度保持不变的可逆状态。",
+    "oneLinerEn": "Forward and reverse rates equal; concentrations stay constant in a reversible reaction.",
+    "detail": "特征“逆、等、动、定、变”；平衡常数 K 只随温度变化，K 越大正向进行程度越高。",
+    "detailEn": "Dynamic stillness; K depends only on temperature — larger K means greater forward extent.",
+    "eq": {
+      "lhs": "N₂ + 3H₂",
+      "cond": "高温高压 · 催化剂",
+      "condEn": "high T,P · catalyst",
+      "rhs": "2NH₃",
+      "rel": "equilibrium"
+    },
+    "subs": [
+      {
+        "f": "N₂",
+        "name": "氮气",
+        "nameEn": "Nitrogen",
+        "note": "合成氨原料，来自空气分离。",
+        "noteEn": "Feedstock from air separation.",
+        "role": "l"
+      },
+      {
+        "f": "3H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "合成氨的另一原料。",
+        "noteEn": "The other synthesis feedstock.",
+        "role": "l"
+      },
+      {
+        "f": "催化剂",
+        "name": "铁触媒",
+        "nameEn": "Iron catalyst",
+        "note": "加快达到平衡，不改平衡位置。",
+        "noteEn": "Speeds arrival at equilibrium without shifting it.",
+        "role": "c"
+      },
+      {
+        "f": "2NH₃",
+        "name": "氨气",
+        "nameEn": "Ammonia",
+        "note": "可逆反应的生成物。",
+        "noteEn": "Product of the reversible reaction.",
+        "role": "r"
+      }
+    ],
+    "tags": ["平衡"],
+    "tagsEn": ["Equilibrium"]
+  },
+  {
+    "id": "le-chatelier",
+    "icon": "↔️",
+    "term": "勒夏特列原理",
+    "termEn": "Le Chatelier's Principle",
+    "oneLiner": "改变影响平衡的条件，平衡向减弱这种改变的方向移动。",
+    "oneLinerEn": "When a stress is applied, equilibrium shifts to counteract it.",
+    "detail": "升温向吸热方向、增压向气体分子数少方向、增浓向消耗该物质方向移动；催化剂不移动平衡只加快到达。",
+    "detailEn": "Heat→endothermic side, pressure→fewer gas moles, concentration→consume added species; catalysts only speed arrival.",
+    "tags": ["平衡"],
+    "tagsEn": ["Equilibrium"]
+  },
+  {
+    "id": "ionization-eq",
+    "icon": "🔬",
+    "term": "弱电解质的电离平衡",
+    "termEn": "Ionization Equilibrium",
+    "oneLiner": "弱酸弱碱部分电离，存在电离平衡，用电离度与 Ka 描述。",
+    "oneLinerEn": "Weak acids/bases partially ionize; described by degree of ionization and Ka.",
+    "detail": "加水稀释、升温促进电离；同离子效应抑制电离。Ka 越大酸性越强。",
+    "detailEn": "Dilution and heat promote ionization; common-ion effect suppresses it. Larger Ka means stronger acid.",
+    "eq": { "lhs": "CH₃COOH", "rhs": "CH₃COO⁻ + H⁺", "rel": "equilibrium" },
+    "subs": [
+      {
+        "f": "CH₃COOH",
+        "name": "醋酸（弱酸）",
+        "nameEn": "Acetic acid (weak)",
+        "note": "弱电解质，仅部分电离。",
+        "noteEn": "Weak electrolyte; only partly ionizes.",
+        "role": "l"
+      },
+      {
+        "f": "CH₃COO⁻",
+        "name": "醋酸根离子",
+        "nameEn": "Acetate ion",
+        "note": "电离出的阴离子。",
+        "noteEn": "Anion from ionization.",
+        "role": "r"
+      },
+      {
+        "f": "H⁺",
+        "name": "氢离子",
+        "nameEn": "Hydrogen ion",
+        "note": "电离出的阳离子，决定酸性。",
+        "noteEn": "Cation that sets acidity.",
+        "role": "r"
+      }
+    ],
+    "tags": ["平衡"],
+    "tagsEn": ["Equilibrium"]
+  },
+  {
+    "id": "hydrolysis",
+    "icon": "🌊",
+    "term": "盐类水解",
+    "termEn": "Salt Hydrolysis",
+    "oneLiner": "盐的离子结合水电离的 H⁺ 或 OH⁻，使溶液显酸性或碱性。",
+    "oneLinerEn": "Salt ions take H⁺ or OH⁻ from water, making the solution acidic or basic.",
+    "detail": "“谁强显谁性”：强碱弱酸盐水解显碱性（纯碱去油污），强酸弱碱盐水解显酸性；升温促进水解。",
+    "detailEn": "The stronger partner sets the tone: basic salts from strong base + weak acid (washing soda degreasing); heating promotes hydrolysis.",
+    "tags": ["平衡"],
+    "tagsEn": ["Equilibrium"]
+  }
+]

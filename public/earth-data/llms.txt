@@ -2,9 +2,13 @@
 
 > 从地形、气候带到国家档案与河流山脉，建立对世界地理空间的整体认知。
 
+共 79 条 / 6 类，全部为结构化 JSON。
+
 ## 数据入口
 - [经典著作](https://minosie.github.io/wanwu-hub/earth-data/data/classics.json)
+- [人文地理](https://minosie.github.io/wanwu-hub/earth-data/data/human-geo.json)
 - [概览与计数](https://minosie.github.io/wanwu-hub/earth-data/data/overview.json)
+- [原理](https://minosie.github.io/wanwu-hub/earth-data/data/principles.json)
 - [核心问题](https://minosie.github.io/wanwu-hub/earth-data/data/questions.json)
 - [相关条目索引](https://minosie.github.io/wanwu-hub/earth-data/data/related.json)
 - [学派](https://minosie.github.io/wanwu-hub/earth-data/data/schools.json)

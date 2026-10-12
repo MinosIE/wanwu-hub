@@ -1,0 +1,699 @@
+[
+  {
+    "id": "eq-hou",
+    "subs": [
+      {
+        "f": "NaCl",
+        "name": "氯化钠（饱和食盐水）",
+        "nameEn": "Sodium chloride (brine)",
+        "note": "提供 Na⁺。",
+        "noteEn": "Supplies Na⁺.",
+        "role": "l"
+      },
+      {
+        "f": "NH₃",
+        "name": "氨",
+        "nameEn": "Ammonia",
+        "note": "先通氨使溶液呈碱性，利于吸收 CO₂。",
+        "noteEn": "Passed first to alkalinize the brine, aiding CO₂ absorption.",
+        "role": "l"
+      },
+      {
+        "f": "CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "通入提供碳酸根。",
+        "noteEn": "Passed in to supply carbonate.",
+        "role": "l"
+      },
+      {
+        "f": "NaHCO₃↓",
+        "name": "碳酸氢钠",
+        "nameEn": "Sodium bicarbonate",
+        "note": "因溶解度较小而析出，是锻烧得纯碱的中间体。",
+        "noteEn": "Precipitates as the least soluble; the intermediate calcined to soda ash.",
+        "role": "r"
+      },
+      {
+        "f": "NH₄Cl",
+        "name": "氯化铵",
+        "nameEn": "Ammonium chloride",
+        "note": "作氮肥析出，提高原料利用率。",
+        "noteEn": "Crystallized out as nitrogen fertilizer, raising salt utilization.",
+        "role": "r"
+      },
+      {
+        "f": "Na₂CO₃",
+        "name": "碳酸钠（纯碱）",
+        "nameEn": "Sodium carbonate (soda ash)",
+        "note": "最终产品，由 NaHCO₃ 受热分解得到。",
+        "noteEn": "Final product, from thermal decomposition of NaHCO₃.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧂",
+    "term": "侯氏制碱法",
+    "termEn": "Hou's Process",
+    "oneLiner": "向饱和氨盐水中通 CO₂，析出碳酸氢钠再锻烧得纯碱。",
+    "oneLinerEn": "Pass CO₂ into ammoniated brine; precipitated NaHCO₃ is calcined to soda ash.",
+    "eq": [
+      { "lhs": "NaCl + NH₃ + CO₂ + H₂O", "rhs": "NaHCO₃↓ + NH₄Cl" },
+      {
+        "lhs": "2NaHCO₃",
+        "cond": "加热 △",
+        "condEn": "heat Δ",
+        "rhs": "Na₂CO₃ + H₂O + CO₂↑"
+      }
+    ],
+    "detail": "侯德榜改进索尔维制碱法，使 NH₄Cl 作化肥析出，食盐利用率高。先通氨再通 CO₂，因 NaHCO₃ 溶解度较小而析出。",
+    "detailEn": "Hou Debang improved the Solvay process, crystallizing NH₄Cl as fertilizer with high salt utilization. Ammonia is passed first, then CO₂; NaHCO₃ precipitates as the least soluble.",
+    "tags": ["工业"],
+    "tagsEn": ["Industry"]
+  },
+  {
+    "id": "eq-sapon",
+    "subs": [
+      {
+        "f": "(C₁₇H₃₅COO)₃C₃H₅",
+        "name": "油脂（硬脂酸甘油酯）",
+        "nameEn": "Fat (tristearin)",
+        "note": "制肥皂的原料。",
+        "noteEn": "The feedstock for soap.",
+        "role": "l"
+      },
+      {
+        "f": "3NaOH",
+        "name": "氢氧化钠（烧碱）",
+        "nameEn": "Sodium hydroxide (caustic soda)",
+        "note": "使油脂水解（皂化）。",
+        "noteEn": "Hydrolyzes the fat (saponification).",
+        "role": "l"
+      },
+      {
+        "f": "3C₁₇H₃₅COONa",
+        "name": "硬脂酸钠",
+        "nameEn": "Sodium stearate",
+        "note": "肥㚬的主要成分，具去污能力。",
+        "noteEn": "The main soap component; has cleansing power.",
+        "role": "r"
+      },
+      {
+        "f": "C₃H₅(OH)₃",
+        "name": "丙三醇（甘油）",
+        "nameEn": "Glycerol",
+        "note": "副产物，具润肤用途。",
+        "noteEn": "By-product; used as a skin moisturizer.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧼",
+    "term": "皂化反应（制肥皂）",
+    "termEn": "Saponification",
+    "oneLiner": "油脂在氢氧化钠溶液中水解，生成高级脂肪酸钠和甘油。",
+    "oneLinerEn": "Fats hydrolyze in NaOH solution into soap (fatty sodium salts) and glycerol.",
+    "eq": {
+      "lhs": "(C₁₇H₃₅COO)₃C₃H₅ + 3NaOH",
+      "cond": "加热 △",
+      "condEn": "heat Δ",
+      "rhs": "3C₁₇H₃₅COONa + C₃H₅(OH)₃"
+    },
+    "detail": "硬脂酸甘油酯与 NaOH 共热，产物硬脂酸钠是肥皂主要成分，另一产物丙三醇即甘油。",
+    "detailEn": "Tristearin with NaOH gives sodium stearate (the main soap component) and glycerol.",
+    "tags": ["有机"],
+    "tagsEn": ["Organic"]
+  },
+  {
+    "id": "eq-nh3",
+    "subs": [
+      {
+        "f": "N₂",
+        "name": "氮气（来自空气）",
+        "nameEn": "Nitrogen (from air)",
+        "note": "合成氨原料。",
+        "noteEn": "Feedstock for ammonia.",
+        "role": "l"
+      },
+      {
+        "f": "3H₂",
+        "name": "氢气（来自水/燃料）",
+        "nameEn": "Hydrogen (from water/fuel)",
+        "note": "另一原料。",
+        "noteEn": "The other feedstock.",
+        "role": "l"
+      },
+      {
+        "f": "2NH₃",
+        "name": "氨",
+        "nameEn": "Ammonia",
+        "note": "化肥工业之母；反应可逆。",
+        "noteEn": "The backbone of fertilizer making; the reaction is reversible.",
+        "role": "r"
+      }
+    ],
+    "icon": "⚗️",
+    "term": "工业合成氨",
+    "termEn": "Ammonia Synthesis",
+    "oneLiner": "氮气与氢气在高温高压、催化剂下可逆化合生成氨。",
+    "oneLinerEn": "N₂ and H₂ combine reversibly under high pressure, heat and catalyst.",
+    "eq": {
+      "lhs": "N₂ + 3H₂",
+      "cond": "高温高压 · 催化剂",
+      "condEn": "high P·T, catalyst",
+      "rhs": "2NH₃",
+      "rel": "equilibrium"
+    },
+    "detail": "哈伯法合成氨为化肥工业奠基，是 20 世纪最重要的化学工艺之一。反应可逆，正反应放热、气体分子数减小。",
+    "detailEn": "The Haber process underpins fertilizer making; the reaction is reversible, exothermic and reduces gas moles.",
+    "tags": ["工业"],
+    "tagsEn": ["Industry"]
+  },
+  {
+    "id": "eq-chloralkali",
+    "subs": [
+      {
+        "f": "2NaCl",
+        "name": "氯化钠（饱和食盐水）",
+        "nameEn": "Sodium chloride (brine)",
+        "note": "原料。",
+        "noteEn": "The feedstock.",
+        "role": "l"
+      },
+      {
+        "f": "2H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "参与电解。",
+        "noteEn": "Participates in electrolysis.",
+        "role": "l"
+      },
+      {
+        "f": "2NaOH",
+        "name": "氢氧化钠（烧碱）",
+        "nameEn": "Sodium hydroxide (caustic soda)",
+        "note": "阴极区生成。",
+        "noteEn": "Formed near the cathode.",
+        "role": "r"
+      },
+      {
+        "f": "H₂↑",
+        "name": "氢气",
+        "nameEn": "Hydrogen gas",
+        "note": "阴极产物，可燃。",
+        "noteEn": "Cathode product; flammable.",
+        "role": "r"
+      },
+      {
+        "f": "Cl₂↑",
+        "name": "氯气",
+        "nameEn": "Chlorine gas",
+        "note": "阳极产物，与 NaOH 反应制漂白液。",
+        "noteEn": "Anode product; with NaOH makes bleach.",
+        "role": "r"
+      }
+    ],
+    "icon": "🔌",
+    "term": "氯碱工业（电解食盐水）",
+    "termEn": "Chlor-Alkali",
+    "oneLiner": "电解饱和食盐水制取烧碱、氢气和氯气。",
+    "oneLinerEn": "Electrolysis of brine yields caustic soda, H₂ and Cl₂.",
+    "eq": {
+      "lhs": "2NaCl + 2H₂O",
+      "cond": "通电",
+      "condEn": "electrolysis",
+      "rhs": "2NaOH + H₂↑ + Cl₂↑"
+    },
+    "detail": "氯碱工业基础反应；阳极出 Cl₂、阴极出 H₂ 与 NaOH。Cl₂ 与 NaOH 反应即得漂白液。",
+    "detailEn": "The core chlor-alkali reaction: Cl₂ at the anode, H₂ and NaOH at the cathode; Cl₂ with NaOH makes bleach.",
+    "tags": ["电解"],
+    "tagsEn": ["Electrolysis"]
+  },
+  {
+    "id": "eq-bleach",
+    "subs": [
+      {
+        "f": "2Cl₂",
+        "name": "氯气",
+        "nameEn": "Chlorine",
+        "note": "与石灰乳反应制漂白粉。",
+        "noteEn": "Reacted with lime milk to make bleaching powder.",
+        "role": "l"
+      },
+      {
+        "f": "2Ca(OH)₂",
+        "name": "石灰乳（氢氧化钙）",
+        "nameEn": "Lime milk (calcium hydroxide)",
+        "note": "原料。",
+        "noteEn": "The feedstock.",
+        "role": "l"
+      },
+      {
+        "f": "Ca(ClO)₂",
+        "name": "次氯酸钙",
+        "nameEn": "Calcium hypochlorite",
+        "note": "漂白粉的有效成分。",
+        "noteEn": "The active component of bleaching powder.",
+        "role": "r"
+      },
+      {
+        "f": "CaCl₂",
+        "name": "氯化钙",
+        "nameEn": "Calcium chloride",
+        "note": "副产物。",
+        "noteEn": "By-product.",
+        "role": "r"
+      },
+      {
+        "f": "CO₂",
+        "name": "二氧化碳（空气）",
+        "nameEn": "Carbon dioxide (air)",
+        "note": "与次氯酸钙反应导致失效。",
+        "noteEn": "Reacts with Ca(ClO)₂, causing spoilage.",
+        "role": "l"
+      },
+      {
+        "f": "CaCO₃↓",
+        "name": "碳酸钙（白色沉淀）",
+        "nameEn": "Calcium carbonate (white precipitate)",
+        "note": "失效过程产物。",
+        "noteEn": "Product of the spoilage reaction.",
+        "role": "r"
+      },
+      {
+        "f": "2HClO",
+        "name": "次氯酸",
+        "nameEn": "Hypochlorous acid",
+        "note": "强氧化性，起漂白作用，也因此失效。",
+        "noteEn": "Strong oxidizer; does the bleaching and hence the spoilage.",
+        "role": "r"
+      }
+    ],
+    "icon": "🪣",
+    "term": "漂白粉的制取与失效",
+    "termEn": "Bleaching Powder",
+    "oneLiner": "氯气与石灰乳制漂白粉，失效是因与空气中 CO₂ 反应生成 HClO。",
+    "oneLinerEn": "Cl₂ with lime makes bleaching powder; it spoils by reacting with CO₂ to give HClO.",
+    "eq": [
+      { "lhs": "2Cl₂ + 2Ca(OH)₂", "rhs": "Ca(ClO)₂ + CaCl₂ + 2H₂O" },
+      { "lhs": "Ca(ClO)₂ + CO₂ + H₂O", "rhs": "CaCO₃↓ + 2HClO" }
+    ],
+    "detail": "有效成分 Ca(ClO)₂；接触空气与水生成强氧化性 HClO 而漂白，也随之失效。",
+    "detailEn": "Active Ca(ClO)₂ forms oxidizing HClO with air and water — the basis of bleaching and of spoilage.",
+    "tags": ["工业"],
+    "tagsEn": ["Industry"]
+  },
+  {
+    "id": "eq-iron",
+    "subs": [
+      {
+        "f": "Fe₂O₃",
+        "name": "氧化铁（铁矿石主要成分）",
+        "nameEn": "Iron(III) oxide (main ore component)",
+        "note": "被还原。",
+        "noteEn": "Is reduced.",
+        "role": "l"
+      },
+      {
+        "f": "3CO",
+        "name": "一氧化碳",
+        "nameEn": "Carbon monoxide",
+        "note": "还原剂。",
+        "noteEn": "The reducing agent.",
+        "role": "l"
+      },
+      {
+        "f": "2Fe",
+        "name": "铁（生铁）",
+        "nameEn": "Iron (pig iron)",
+        "note": "冶炼目标产物。",
+        "noteEn": "The smelting target.",
+        "role": "r"
+      },
+      {
+        "f": "3CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "氧化产物。",
+        "noteEn": "Oxidation product.",
+        "role": "r"
+      }
+    ],
+    "icon": "🏗️",
+    "term": "高炉练铁",
+    "termEn": "Blast-Furnace Iron",
+    "oneLiner": "一氧化碳在高温下把氧化铁还原为铁。",
+    "oneLinerEn": "CO reduces iron oxide to iron at high temperature.",
+    "eq": {
+      "lhs": "Fe₂O₃ + 3CO",
+      "cond": "高温",
+      "condEn": "high temp",
+      "rhs": "2Fe + 3CO₂"
+    },
+    "detail": "高炉中以 CO 作还原剂练铁，是现代钢铁工业的核心反应。",
+    "detailEn": "CO serves as the reducing agent — the heart of modern ironmaking.",
+    "tags": ["工业"],
+    "tagsEn": ["Industry"]
+  },
+  {
+    "id": "eq-thermite",
+    "subs": [
+      {
+        "f": "2Al",
+        "name": "铝粉",
+        "nameEn": "Aluminum powder",
+        "note": "强还原剂，反应放出大量热。",
+        "noteEn": "Strong reducer; the reaction releases intense heat.",
+        "role": "l"
+      },
+      {
+        "f": "Fe₂O₃",
+        "name": "氧化铁",
+        "nameEn": "Iron(III) oxide",
+        "note": "被铝还原。",
+        "noteEn": "Reduced by aluminum.",
+        "role": "l"
+      },
+      {
+        "f": "Al₂O₃",
+        "name": "氧化铝",
+        "nameEn": "Aluminum oxide",
+        "note": "反应生成。",
+        "noteEn": "Formed in the reaction.",
+        "role": "r"
+      },
+      {
+        "f": "2Fe",
+        "name": "铁（熔融态）",
+        "nameEn": "Iron (molten)",
+        "note": "高温熔化流出，用于野外焊接钢轨。",
+        "noteEn": "Molten iron runs out; used to weld rails on site.",
+        "role": "r"
+      }
+    ],
+    "icon": "🚄",
+    "term": "铝热反应",
+    "termEn": "Thermite Reaction",
+    "oneLiner": "铝与氧化铁高温反应，置换出铁并放出大量热。",
+    "oneLinerEn": "Aluminum reduces iron oxide, yielding molten iron with intense heat.",
+    "eq": {
+      "lhs": "2Al + Fe₂O₃",
+      "cond": "高温",
+      "condEn": "high temp",
+      "rhs": "Al₂O₃ + 2Fe"
+    },
+    "detail": "利用铝的强还原性与反应放热，产生高温熔融铁，用于野外焊接钢轨。",
+    "detailEn": "Aluminum's strong reducing power and the exothermicity give molten iron, used to weld rails on site.",
+    "tags": ["工业"],
+    "tagsEn": ["Industry"]
+  },
+  {
+    "id": "eq-ester",
+    "subs": [
+      {
+        "f": "CH₃COOH",
+        "name": "乙酸（醋酸）",
+        "nameEn": "Acetic acid",
+        "note": "提供酰基，脱去 –OH。",
+        "noteEn": "Supplies the acyl group, losing –OH.",
+        "role": "l"
+      },
+      {
+        "f": "C₂H₅OH",
+        "name": "乙醇",
+        "nameEn": "Ethanol",
+        "note": "提供乙氧基，脱去 –H。",
+        "noteEn": "Supplies the ethoxy group, losing –H.",
+        "role": "l"
+      },
+      {
+        "f": "浓硫酸",
+        "name": "浓硫酸",
+        "nameEn": "Concentrated sulfuric acid",
+        "note": "催化剂兼吸水剂，促进平衡右移。",
+        "noteEn": "Catalyst and water absorber, shifting equilibrium right.",
+        "role": "c"
+      },
+      {
+        "f": "CH₃COOC₂H₅",
+        "name": "乙酸乙酯",
+        "nameEn": "Ethyl acetate",
+        "note": "有香味的酯，酒香/香精来源。",
+        "noteEn": "Fragrant ester; source of fruity aromas.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "反应生成。",
+        "noteEn": "Formed in the reaction.",
+        "role": "r"
+      }
+    ],
+    "icon": "🍶",
+    "term": "酯化反应",
+    "termEn": "Esterification",
+    "oneLiner": "乙酸与乙醇在浓硫酸催化下生成有香味的乙酸乙酯。",
+    "oneLinerEn": "Acetic acid and ethanol form fragrant ethyl acetate, catalyzed by conc. H₂SO₄.",
+    "eq": {
+      "lhs": "CH₃COOH + C₂H₅OH",
+      "cond": "浓硫酸 · △",
+      "condEn": "conc. H₂SO₄, Δ",
+      "rhs": "CH₃COOC₂H₅ + H₂O",
+      "rel": "equilibrium"
+    },
+    "detail": "酸脱羟基、醇脱氢；浓硫酸作催化剂与吸水剂。酒的陈香、食醋风味部分源于酯类。",
+    "detailEn": "The acid loses –OH and the alcohol –H; conc. H₂SO₄ catalyzes and absorbs water. Esters contribute to aged-wine and vinegar aromas.",
+    "tags": ["有机"],
+    "tagsEn": ["Organic"]
+  },
+  {
+    "id": "eq-ethanol-ox",
+    "subs": [
+      {
+        "f": "2CH₃CH₂OH",
+        "name": "乙醇",
+        "nameEn": "Ethanol",
+        "note": "被氧化。",
+        "noteEn": "Is oxidized.",
+        "role": "l"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "氧化剂。",
+        "noteEn": "The oxidizer.",
+        "role": "l"
+      },
+      {
+        "f": "Cu",
+        "name": "铜",
+        "nameEn": "Copper",
+        "note": "作催化剂。",
+        "noteEn": "Serves as catalyst.",
+        "role": "c"
+      },
+      {
+        "f": "2CH₃CHO",
+        "name": "乙醛",
+        "nameEn": "Acetaldehyde",
+        "note": "氧化产物，有刺激性气味。",
+        "noteEn": "Oxidation product; pungent odor.",
+        "role": "r"
+      },
+      {
+        "f": "2H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "反应生成。",
+        "noteEn": "Formed in the reaction.",
+        "role": "r"
+      }
+    ],
+    "icon": "🌡️",
+    "term": "乙醇的催化氧化",
+    "termEn": "Catalytic Oxidation of Ethanol",
+    "oneLiner": "乙醇在铜催化并加热下被氧化为乙醛。",
+    "oneLinerEn": "Ethanol is oxidized to acetaldehyde over copper with heating.",
+    "eq": {
+      "lhs": "2CH₃CH₂OH + O₂",
+      "cond": "Cu · 加热",
+      "condEn": "Cu, Δ",
+      "rhs": "2CH₃CHO + 2H₂O"
+    },
+    "detail": "铜丝作催化剂，是酒精在体内代谢、呼气酒精检测的化学原理之一。",
+    "detailEn": "Copper catalyzes this — related to how alcohol metabolizes and to breathalyzer chemistry.",
+    "tags": ["有机"],
+    "tagsEn": ["Organic"]
+  },
+  {
+    "id": "eq-photosyn",
+    "subs": [
+      {
+        "f": "6CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "原料，被固定。",
+        "noteEn": "Feedstock; fixed into organic matter.",
+        "role": "l"
+      },
+      {
+        "f": "6H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "光解提供氢并放出氧。",
+        "noteEn": "Photolysed to supply hydrogen and release oxygen.",
+        "role": "l"
+      },
+      {
+        "f": "C₆H₁₂O₆",
+        "name": "葡萄糖",
+        "nameEn": "Glucose",
+        "note": "储存化学能的有机物。",
+        "noteEn": "Energy-rich organic product.",
+        "role": "r"
+      },
+      {
+        "f": "6O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "地球氧气的主要来源。",
+        "noteEn": "The main source of Earth's oxygen.",
+        "role": "r"
+      }
+    ],
+    "icon": "🌿",
+    "term": "光合作用",
+    "termEn": "Photosynthesis",
+    "oneLiner": "绿色植物在光照与叶绿体下把 CO₂ 和水合成葡萄糖并放氧。",
+    "oneLinerEn": "Plants build glucose from CO₂ and water using light in chloroplasts, releasing O₂.",
+    "eq": {
+      "lhs": "6CO₂ + 6H₂O",
+      "cond": "光照 · 叶绿体",
+      "condEn": "light, chloroplast",
+      "rhs": "C₆H₁₂O₆ + 6O₂"
+    },
+    "detail": "地球氧气与有机物之源，维持碳—氧平衡，把太阳能转化为化学能。",
+    "detailEn": "The source of Earth's oxygen and organic matter; it balances the carbon cycle and stores solar energy.",
+    "tags": ["生活"],
+    "tagsEn": ["Life"]
+  },
+  {
+    "id": "eq-ferment",
+    "subs": [
+      {
+        "f": "C₆H₁₂O₆",
+        "name": "葡萄糖",
+        "nameEn": "Glucose",
+        "note": "发酵底物。",
+        "noteEn": "The fermentation substrate.",
+        "role": "l"
+      },
+      {
+        "f": "酶",
+        "name": "酒化酶",
+        "nameEn": "Zymase",
+        "note": "生物催化剂。",
+        "noteEn": "A biological catalyst.",
+        "role": "c"
+      },
+      {
+        "f": "2C₂H₅OH",
+        "name": "乙醇（酒精）",
+        "nameEn": "Ethanol (alcohol)",
+        "note": "酿酒目标产物。",
+        "noteEn": "The target product of brewing.",
+        "role": "r"
+      },
+      {
+        "f": "2CO₂↑",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "使面包/馒头膨松。",
+        "noteEn": "Leavens bread and steamed buns.",
+        "role": "r"
+      }
+    ],
+    "icon": "🍞",
+    "term": "酒精发酵",
+    "termEn": "Alcoholic Fermentation",
+    "oneLiner": "葡萄糖在酒化酶作用下分解为乙醇和二氧化碳。",
+    "oneLinerEn": "Glucose breaks into ethanol and CO₂ under the action of zymase.",
+    "eq": {
+      "lhs": "C₆H₁₂O₆",
+      "cond": "酶",
+      "condEn": "enzyme",
+      "rhs": "2C₂H₅OH + 2CO₂↑"
+    },
+    "detail": "酿酒的核心反应；产生的 CO₂ 也是馒头、面包膨松的原因之一。",
+    "detailEn": "Key to brewing; the CO₂ also leavens bread and steamed buns.",
+    "tags": ["生活"],
+    "tagsEn": ["Life"]
+  },
+  {
+    "id": "eq-antacid",
+    "subs": [
+      {
+        "f": "Al(OH)₃",
+        "name": "氢氧化铝",
+        "nameEn": "Aluminum hydroxide",
+        "note": "胃药（胃舒平）有效成分，中和胃酸。",
+        "noteEn": "Active antacid; neutralizes stomach acid.",
+        "role": "l"
+      },
+      {
+        "f": "NaHCO₃",
+        "name": "碳酸氢钠（小苏打）",
+        "nameEn": "Sodium bicarbonate (baking soda)",
+        "note": "也可中和胃酸，但会产气。",
+        "noteEn": "Also neutralizes acid but releases gas.",
+        "role": "l"
+      },
+      {
+        "f": "HCl",
+        "name": "盐酸（胃酸主要成分）",
+        "nameEn": "Hydrochloric acid (stomach acid)",
+        "note": "被中和的对象。",
+        "noteEn": "The acid being neutralized.",
+        "role": "l"
+      },
+      {
+        "f": "AlCl₃",
+        "name": "氯化铝",
+        "nameEn": "Aluminum chloride",
+        "note": "中和产物。",
+        "noteEn": "Neutralization product.",
+        "role": "r"
+      },
+      {
+        "f": "NaCl",
+        "name": "氯化钠",
+        "nameEn": "Sodium chloride",
+        "note": "中和产物。",
+        "noteEn": "Neutralization product.",
+        "role": "r"
+      },
+      {
+        "f": "CO₂↑",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "小苏打中和时产生，易腹胀者慎用。",
+        "noteEn": "Given off by baking soda; can cause bloating.",
+        "role": "r"
+      }
+    ],
+    "icon": "💊",
+    "term": "胃酸中和（胃药）",
+    "termEn": "Stomach-Acid Neutralization",
+    "oneLiner": "氢氧化铝（或碳酸氢钠）中和过多的胃酸。",
+    "oneLinerEn": "Aluminum hydroxide (or NaHCO₃) neutralizes excess stomach acid.",
+    "eq": [
+      { "lhs": "Al(OH)₃ + 3HCl", "rhs": "AlCl₃ + 3H₂O" },
+      { "lhs": "NaHCO₃ + HCl", "rhs": "NaCl + H₂O + CO₂↑" }
+    ],
+    "detail": "胃酸主要成分是盐酸；含 Al(OH)₃ 的胃舒平通过中和缓解胃痛。小苏打也可中和但会产气。",
+    "detailEn": "Stomach acid is HCl; Al(OH)₃ antacids relieve pain by neutralization. Baking soda also works but releases gas.",
+    "tags": ["生活"],
+    "tagsEn": ["Life"]
+  }
+]

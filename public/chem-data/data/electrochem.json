@@ -1,0 +1,130 @@
+[
+  {
+    "id": "galvanic",
+    "icon": "🔋",
+    "term": "原电池",
+    "termEn": "Galvanic Cell",
+    "oneLiner": "把化学能转化为电能的装置，负极氧化、正极还原。",
+    "oneLinerEn": "Converts chemical energy to electricity; anode oxidizes, cathode reduces.",
+    "detail": "锌铜原电池：负极 Zn−2e⁻=Zn²⁺（氧化），正极 2H⁺+2e⁻=H₂↑（还原）；电子经外电路由负到正。",
+    "detailEn": "Zn–Cu cell: anode Zn−2e⁻=Zn²⁺, cathode 2H⁺+2e⁻=H₂↑; electrons flow externally from − to +.",
+    "eq": { "lhs": "Zn + Cu²⁺", "rhs": "Zn²⁺ + Cu", "rel": "equal" },
+    "subs": [
+      {
+        "f": "Zn",
+        "name": "锌（负极）",
+        "nameEn": "Zinc (anode)",
+        "note": "失电子被氧化：Zn − 2e⁻ = Zn²⁺。",
+        "noteEn": "Oxidized by losing electrons: Zn − 2e⁻ = Zn²⁺.",
+        "role": "l"
+      },
+      {
+        "f": "Cu²⁺",
+        "name": "铜离子（溶液）",
+        "nameEn": "Copper ion (solution)",
+        "note": "在正极得电子被还原。",
+        "noteEn": "Reduced at the cathode by gaining electrons.",
+        "role": "l"
+      },
+      {
+        "f": "Zn²⁺",
+        "name": "锌离子",
+        "nameEn": "Zinc ion",
+        "note": "负极氧化进入溶液的产物。",
+        "noteEn": "Oxidation product entering solution.",
+        "role": "r"
+      },
+      {
+        "f": "Cu",
+        "name": "铜",
+        "nameEn": "Copper",
+        "note": "正极还原析出的金属。",
+        "noteEn": "Metal deposited at the cathode.",
+        "role": "r"
+      }
+    ],
+    "tags": ["电化学"],
+    "tagsEn": ["Electrochem"]
+  },
+  {
+    "id": "electrolytic",
+    "icon": "⚡",
+    "term": "电解池",
+    "termEn": "Electrolytic Cell",
+    "oneLiner": "借助外加电流把电能转化为化学能的装置。",
+    "oneLinerEn": "Uses external current to turn electricity into chemical change.",
+    "detail": "阳极氧化、阴极还原；电解水：阳极出 O₂、阴极出 H₂（体积比 1:2），阴阳两极得失电子数相等。",
+    "detailEn": "Anode oxidizes, cathode reduces; electrolyzing water gives O₂ and H₂ in a 1:2 volume ratio with equal electrons.",
+    "eq": {
+      "lhs": "2H₂O",
+      "cond": "通电",
+      "condEn": "electrolysis",
+      "rhs": "2H₂↑ + O₂↑",
+      "rel": "equal"
+    },
+    "subs": [
+      {
+        "f": "2H₂O",
+        "name": "水（被电解）",
+        "nameEn": "Water (electrolyzed)",
+        "note": "通直流电发生电解。",
+        "noteEn": "Split by direct current.",
+        "role": "l"
+      },
+      {
+        "f": "2H₂↑",
+        "name": "氢气（阴极）",
+        "nameEn": "Hydrogen (cathode)",
+        "note": "阴极还原产物，体积约为氧气两倍。",
+        "noteEn": "Cathode product, about twice the oxygen volume.",
+        "role": "r"
+      },
+      {
+        "f": "O₂↑",
+        "name": "氧气（阳极）",
+        "nameEn": "Oxygen (anode)",
+        "note": "阳极氧化产物。",
+        "noteEn": "Anode oxidation product.",
+        "role": "r"
+      }
+    ],
+    "tags": ["电化学"],
+    "tagsEn": ["Electrochem"]
+  },
+  {
+    "id": "corrosion",
+    "icon": "🦠",
+    "term": "金属的腐蚀与防护",
+    "termEn": "Metal Corrosion & Protection",
+    "oneLiner": "金属被氧化而损耗，主要防止方法是隔绝或电化学保护。",
+    "oneLinerEn": "Metals oxidize away; prevented by barrier or electrochemical protection.",
+    "detail": "钢铁吸氧腐蚀最常见；防护有涂镀层、改变组成（不锈钢）、牺牲阳极（接更活泼金属）与外加电流阴极保护法。",
+    "detailEn": "Iron's oxygen absorption rust is common; protection includes coatings, stainless alloys, sacrificial anodes and impressed-current cathodic protection.",
+    "tags": ["电化学"],
+    "tagsEn": ["Electrochem"]
+  },
+  {
+    "id": "electroplating",
+    "icon": "🪙",
+    "term": "电镀与电解精炼",
+    "termEn": "Electroplating & Refining",
+    "oneLiner": "利用电解在表面镀上金属，或提纯粗金属。",
+    "oneLinerEn": "Uses electrolysis to coat surfaces or purify crude metals.",
+    "detail": "电镀：镀层金属作阳极、待镀件作阴极、含镀层离子为电解液；电解精炼铜时粗铜作阳极、纯铜作阴极。",
+    "detailEn": "Plating: anode is coating metal, cathode the workpiece, electrolyte holds its ions; refining copper uses crude anode and pure cathode.",
+    "tags": ["电化学"],
+    "tagsEn": ["Electrochem"]
+  },
+  {
+    "id": "faraday",
+    "icon": "🧲",
+    "term": "法拉第电解定律",
+    "termEn": "Faraday's Laws",
+    "oneLiner": "电极上析出物质的量与通过的电量成正比。",
+    "oneLinerEn": "Mass deposited at an electrode is proportional to charge passed.",
+    "detail": "Q = It，1 mol 电子电量约 96500 C（法第常数 F）；据此由电量算析出金属的质量与气体的体积。",
+    "detailEn": "Q = It with F ≈ 96500 C/mol; use charge to compute deposited mass and gas volume.",
+    "tags": ["电化学"],
+    "tagsEn": ["Electrochem"]
+  }
+]

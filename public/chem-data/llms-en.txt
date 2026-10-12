@@ -1,0 +1,26 @@
+# Chemistry of Everything
+
+> Elements, reactions, materials and chemists — how matter combines, breaks apart and transforms.
+
+232 entries across 15 categories, all as structured JSON.
+
+## Data endpoints
+- [Structure & Chemical Bonds](https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json)
+- [Chemists](https://minosie.github.io/wanwu-hub/chem-data/data/chemists.json)
+- [Core Concepts](https://minosie.github.io/wanwu-hub/chem-data/data/concepts.json)
+- [Electrochemistry](https://minosie.github.io/wanwu-hub/chem-data/data/electrochem.json)
+- [Reaction Energy & Thermochemistry](https://minosie.github.io/wanwu-hub/chem-data/data/energy.json)
+- [Common Lab Equations](https://minosie.github.io/wanwu-hub/chem-data/data/equations.json)
+- [Glossary](https://minosie.github.io/wanwu-hub/chem-data/data/glossary.json)
+- [Rate & Equilibrium](https://minosie.github.io/wanwu-hub/chem-data/data/kinetics.json)
+- [Chemistry in Industry & Life](https://minosie.github.io/wanwu-hub/chem-data/data/life-chem.json)
+- [Organic Chemistry](https://minosie.github.io/wanwu-hub/chem-data/data/organic.json)
+- [Overview & counts](https://minosie.github.io/wanwu-hub/chem-data/data/overview.json)
+- [Periodic Table](https://minosie.github.io/wanwu-hub/chem-data/data/periodic-table-full.json)
+- [Reaction Types](https://minosie.github.io/wanwu-hub/chem-data/data/reactions.json)
+- [Solutions & Calculations](https://minosie.github.io/wanwu-hub/chem-data/data/solutions.json)
+- [References](https://minosie.github.io/wanwu-hub/chem-data/data/sources.json)
+- [Matter & Structure](https://minosie.github.io/wanwu-hub/chem-data/data/structure.json)
+- [Periodic Trends](https://minosie.github.io/wanwu-hub/chem-data/data/trends.json)
+- [Page](https://minosie.github.io/wanwu-hub/subject/chem/)
+- [Chinese index](https://minosie.github.io/wanwu-hub/chem-data/llms.txt)

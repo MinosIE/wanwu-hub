@@ -1,0 +1,82 @@
+[
+  {
+    "id": "entropy",
+    "icon": "🔀",
+    "term": "熵",
+    "termEn": "Entropy",
+    "oneLiner": "系统无序程度的度量，也是热力学第二定律的核心。",
+    "oneLinerEn": "A measure of disorder and the heart of the second law."
+  },
+  {
+    "id": "photon",
+    "icon": "✨",
+    "term": "光子",
+    "termEn": "Photon",
+    "oneLiner": "光的量子，静质量为零的电磁场能量包。",
+    "oneLinerEn": "The quantum of light, a massless packet of EM energy."
+  },
+  {
+    "id": "field",
+    "icon": "🕸️",
+    "term": "场",
+    "termEn": "Field",
+    "oneLiner": "空间中每点赋予一个物理量的分布，如引力场、电磁场。",
+    "oneLinerEn": "An assignment of a physical quantity to every point in space."
+  },
+  {
+    "id": "plasma",
+    "icon": "⚡",
+    "term": "等离子体",
+    "termEn": "Plasma",
+    "oneLiner": "电离气体，由自由电子与离子组成，物质的第四态。",
+    "oneLinerEn": "Ionized gas of free electrons and ions — the fourth state of matter."
+  },
+  {
+    "id": "wavelength",
+    "icon": "🌊",
+    "term": "波长",
+    "termEn": "Wavelength",
+    "oneLiner": "波在一个周期内传播的距离，符号 λ。",
+    "oneLinerEn": "Distance a wave travels in one period, symbol λ."
+  },
+  {
+    "id": "frequency",
+    "icon": "🔁",
+    "term": "频率",
+    "termEn": "Frequency",
+    "oneLiner": "单位时间内振动的次数，单位赫兹 Hz。",
+    "oneLinerEn": "Oscillations per unit time, in hertz (Hz)."
+  },
+  {
+    "id": "vector",
+    "icon": "➡️",
+    "term": "矢量",
+    "termEn": "Vector",
+    "oneLiner": "既有大小又有方向的物理量，如位移、力、速度。",
+    "oneLinerEn": "A quantity with magnitude and direction, e.g. displacement, force, velocity."
+  },
+  {
+    "id": "inertial-frame",
+    "icon": "🛰️",
+    "term": "惯性系",
+    "termEn": "Inertial Frame",
+    "oneLiner": "不受外力、保持静止或匀速直线运动的参考系。",
+    "oneLinerEn": "A frame at rest or in uniform motion, free of net force."
+  },
+  {
+    "id": "quantum",
+    "icon": "📊",
+    "term": "量子",
+    "termEn": "Quantum",
+    "oneLiner": "物理量不可再分的最小单元；微观世界离散化的体现。",
+    "oneLinerEn": "The smallest indivisible unit of a quantity; discreteness in the micro-world."
+  },
+  {
+    "id": "duality",
+    "icon": "🌗",
+    "term": "波粒二象性",
+    "termEn": "Wave-Particle Duality",
+    "oneLiner": "微观粒子既表现波动性也表现粒子性。",
+    "oneLinerEn": "Microscopic particles exhibit both wave and particle behavior."
+  }
+]

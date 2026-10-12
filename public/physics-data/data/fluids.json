@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pressure",
+    "icon": "👆",
+    "term": "压强",
+    "termEn": "Pressure",
+    "level": 1,
+    "oneLiner": "单位面积上受到的压力，反映压力作用效果。",
+    "oneLinerEn": "Force per unit area; measures how concentrated a push is.",
+    "detail": "p=F/S，单位帕斯卡 Pa；刀磨得薄、铁轨铺枕木分别通过减小/增大受力面积改变压强。",
+    "detailEn": "p=F/S in pascals; a sharp blade reduces area, sleepers under rails increase it.",
+    "eq": { "lhs": "p", "rhs": "F/S", "rel": "equal" },
+    "tags": ["力学"],
+    "tagsEn": ["Mechanics"]
+  },
+  {
+    "id": "liquid-pressure",
+    "icon": "💧",
+    "term": "液体压强",
+    "termEn": "Liquid Pressure",
+    "level": 2,
+    "oneLiner": "液体内部向各方都有压强，随深度与密度增大。",
+    "oneLinerEn": "Liquids press in all directions; it grows with depth and density.",
+    "detail": "p=ρgh 只与密度、深度有关；连通器静止时液面等高（茶壶、船闸、下水道存水弯）。",
+    "detailEn": "p=ρgh depends on density and depth; connected vessels level out (teapots, locks, traps).",
+    "eq": { "lhs": "p", "rhs": "ρgh", "rel": "equal" },
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "atmospheric",
+    "icon": "🌍",
+    "term": "大气压强",
+    "termEn": "Atmospheric Pressure",
+    "level": 2,
+    "oneLiner": "空气受重力与流动性产生压强，标准大气压约 1.01×10⁵ Pa。",
+    "oneLinerEn": "Air's weight creates pressure; standard atmosphere ≈ 1.01×10⁵ Pa.",
+    "detail": "托里析利实验首次测出大气压；吸盘、吸管、活塞式抽水机都靠大气压工作；气压随海拔升高而降低。",
+    "detailEn": "Torricelli first measured it; suction cups, straws and pumps rely on it; it drops with altitude.",
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "buoyancy",
+    "icon": "🚤",
+    "term": "浮力与阿基米德原理",
+    "termEn": "Buoyancy & Archimedes",
+    "level": 2,
+    "oneLiner": "浸入液体的物体受到向上托力，大小等于它排开液体所受的重力。",
+    "oneLinerEn": "A body in fluid is lifted by a force equal to the weight of fluid it displaces.",
+    "detail": "F浮=ρ液gV排；浮沉条件比较浮力与重力（或密度）：轮船、潜水艇、气球与密度计都靠调控浮力。",
+    "detailEn": "F_buoy=ρ_fluid·g·V_displaced; float/sink compares buoyancy to weight (or density). Ships, submarines, balloons and hydrometers tune buoyancy.",
+    "eq": { "lhs": "F浮", "rhs": "ρ液 g V排", "rel": "equal" },
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "bernoulli",
+    "icon": "✈️",
+    "term": "流体压强与流速",
+    "termEn": "Fluid Speed & Pressure",
+    "level": 3,
+    "oneLiner": "流体流速大的地方压强小，产生升力与吸附现象。",
+    "oneLinerEn": "Faster flow means lower pressure, producing lift and suction.",
+    "detail": "机翼上凸下平使上方流速大、压强小而产生升力；两船并行相吸、火车站安全线都源于此。",
+    "detailEn": "A wing's curved top speeds flow and lowers pressure, giving lift; parallel ships attract and platform safety lines stem from this.",
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "mole",
+    "icon": "🧮",
+    "term": "摩尔",
+    "termEn": "Mole",
+    "oneLiner": "物质的量单位，1 摩尔含阿伏伽德罗常数个基本单元。",
+    "oneLinerEn": "Unit of amount of substance; one mole holds Avogadro's number of entities."
+  },
+  {
+    "id": "catalyst",
+    "icon": "⚡",
+    "term": "催化剂",
+    "termEn": "Catalyst",
+    "oneLiner": "改变反应速率却不在反应中消耗的物种。",
+    "oneLinerEn": "A species that changes rate without being consumed."
+  },
+  {
+    "id": "ph",
+    "icon": "🧫",
+    "term": "pH",
+    "oneLiner": "氢离子浓度的负对数，衡量溶液酸碱强弱。",
+    "oneLinerEn": "Negative log of hydrogen ion concentration; measures acidity."
+  },
+  {
+    "id": "isotope",
+    "icon": "♒",
+    "term": "同位素",
+    "termEn": "Isotope",
+    "oneLiner": "质子数相同、中子数不同的同种元素变体。",
+    "oneLinerEn": "Variants of an element with same protons, different neutrons."
+  },
+  {
+    "id": "electrolyte",
+    "icon": "🔌",
+    "term": "电解质",
+    "termEn": "Electrolyte",
+    "oneLiner": "溶于水或熔融后能导电的化合物。",
+    "oneLinerEn": "A compound that conducts electricity when dissolved or molten."
+  },
+  {
+    "id": "valence",
+    "icon": "🔢",
+    "term": "化合价",
+    "termEn": "Valence",
+    "oneLiner": "元素原子形成化学键时表现的结合能力，常用数值表示。",
+    "oneLinerEn": "An atom's combining capacity, expressed as a number."
+  },
+  {
+    "id": "allotrope",
+    "icon": "💎",
+    "term": "同素异形体",
+    "termEn": "Allotrope",
+    "oneLiner": "同种元素组成的不同单质，如金刚石与石墨。",
+    "oneLinerEn": "Different forms of the same element, e.g. diamond and graphite."
+  },
+  {
+    "id": "solubility",
+    "icon": "💧",
+    "term": "溶解度",
+    "termEn": "Solubility",
+    "oneLiner": "一定温度、压强下某物质在溶剂中达到饱和时的浓度。",
+    "oneLinerEn": "Concentration at saturation under given T and P."
+  },
+  {
+    "id": "activation",
+    "icon": "🚀",
+    "term": "活化能",
+    "termEn": "Activation Energy",
+    "oneLiner": "反应物变为活化络合物所需的最低能量壁垒。",
+    "oneLinerEn": "The energy barrier reactants must cross to react."
+  },
+  {
+    "id": "oxidation-state",
+    "icon": "🔋",
+    "term": "氧化数",
+    "termEn": "Oxidation State",
+    "oneLiner": "人为规定的原子表观电荷数，用于判断氧化还原。",
+    "oneLinerEn": "An assigned apparent charge used to track redox."
+  }
+]

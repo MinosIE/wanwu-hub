@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mendeleev",
+    "icon": "📐",
+    "term": "德米特里·门捷列夫",
+    "termEn": "Dmitri Mendeleev",
+    "oneLiner": "编制第一张元素周期表，并预言了若干未知元素。",
+    "oneLinerEn": "Built the first periodic table and predicted unknown elements."
+  },
+  {
+    "id": "lavoisier",
+    "icon": "⚖️",
+    "term": "安托万·拉瓦锡",
+    "termEn": "Antoine Lavoisier",
+    "oneLiner": "现代化学之父，确立质量守恒与氧化学说。",
+    "oneLinerEn": "Father of modern chemistry; conservation of mass and oxygen theory."
+  },
+  {
+    "id": "dalton",
+    "icon": "⚛️",
+    "term": "约翰·道尔顿",
+    "termEn": "John Dalton",
+    "oneLiner": "提出原子论，认为物质由不可再分的原子构成。",
+    "oneLinerEn": "Proposed atomic theory: matter is made of indivisible atoms."
+  },
+  {
+    "id": "boyle",
+    "icon": "🫧",
+    "term": "罗伯特·玻意耳",
+    "termEn": "Robert Boyle",
+    "oneLiner": "玻意耳定律（pV = 常量）奠定气体研究基础。",
+    "oneLinerEn": "Boyle's law (pV = const) founded the study of gases."
+  },
+  {
+    "id": "curie",
+    "icon": "☢️",
+    "term": "玛丽·居里",
+    "termEn": "Marie Curie",
+    "oneLiner": "发现钋与镭，放射性研究的先驱。",
+    "oneLinerEn": "Discovered polonium and radium; pioneer of radioactivity."
+  },
+  {
+    "id": "pauling",
+    "icon": "🔗",
+    "term": "莱纳斯·鲍林",
+    "termEn": "Linus Pauling",
+    "oneLiner": "化学键本质与电负性研究的巨擘，两获诺贝尔奖。",
+    "oneLinerEn": "Giant of chemical bonding and electronegativity; two-time Nobel laureate."
+  },
+  {
+    "id": "avogadro",
+    "icon": "🧮",
+    "term": "阿莫迪欧·阿伏伽德罗",
+    "termEn": "Amedeo Avogadro",
+    "oneLiner": "提出同温同压下等体积气体含等量分子（阿伏伽德罗定律）。",
+    "oneLinerEn": "Equal gas volumes hold equal molecule counts at same T and P."
+  },
+  {
+    "id": "lechatelier",
+    "icon": "⚖️",
+    "term": "亨利·勒夏特列",
+    "termEn": "Henry Le Chatelier",
+    "oneLiner": "提出平衡移动原理，指导化工生产条件优化。",
+    "oneLinerEn": "Stated the equilibrium-shift principle guiding chemical industry."
+  }
+]

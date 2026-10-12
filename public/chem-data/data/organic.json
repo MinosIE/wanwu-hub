@@ -1,0 +1,229 @@
+[
+  {
+    "id": "org-functional",
+    "icon": "🏷️",
+    "term": "官能团",
+    "termEn": "Functional Groups",
+    "oneLiner": "决定有机物化学特性的原子或原子团，如羟基、醛基、羧基。",
+    "oneLinerEn": "Atom groups that dictate organic reactivity: hydroxyl, aldehyde, carboxyl, etc.",
+    "detail": "—OH（醇/酚）、—CHO（醛）、—COOH（酸）、—COO—（酯）、C=C（烯）；官能团决定类别与主要反应。",
+    "detailEn": "—OH, —CHO, —COOH, —COO—, C=C; the group defines the class and its key reactions.",
+    "tags": ["有机"],
+    "tagsEn": ["Organic"]
+  },
+  {
+    "id": "org-isomerism",
+    "icon": "🔀",
+    "term": "同分异构体",
+    "termEn": "Isomers",
+    "oneLiner": "分子式相同、结构不同，性质因而各异的化合物。",
+    "oneLinerEn": "Same molecular formula, different structure, hence different properties.",
+    "detail": "如正丁烷与异丁烷（碳链异构）、乙醇与二甲醚（官能团位置/类型异构）。",
+    "detailEn": "E.g. n-butane vs isobutane, ethanol vs dimethyl ether.",
+    "tags": ["有机"],
+    "tagsEn": ["Organic"]
+  },
+  {
+    "id": "org-substitution",
+    "icon": "🔁",
+    "term": "取代反应",
+    "termEn": "Substitution",
+    "oneLiner": "有机物分子里的原子被其他原子替换，如甲烷氯代。",
+    "oneLinerEn": "An atom is replaced by another, e.g. chlorination of methane.",
+    "eq": {
+      "lhs": "CH₄ + Cl₂",
+      "cond": "光照",
+      "condEn": "light",
+      "rhs": "CH₃Cl + HCl"
+    },
+    "subs": [
+      {
+        "f": "CH₄",
+        "name": "甲烷",
+        "nameEn": "Methane",
+        "note": "被取代的有机物，C–H 中的氢被替换。",
+        "noteEn": "The organic substrate; a C–H hydrogen is replaced.",
+        "role": "l"
+      },
+      {
+        "f": "Cl₂",
+        "name": "氯气",
+        "nameEn": "Chlorine",
+        "note": "光照下产生氯自由基，作取代试剂。",
+        "noteEn": "Forms chlorine radicals under light; the substituting agent.",
+        "role": "l"
+      },
+      {
+        "f": "CH₃Cl",
+        "name": "一氯甲烷",
+        "nameEn": "Chloromethane",
+        "note": "取代主产物（气体）。",
+        "noteEn": "Main substitution product (gas).",
+        "role": "r"
+      },
+      {
+        "f": "HCl",
+        "name": "氯化氢",
+        "nameEn": "Hydrogen chloride",
+        "note": "伴随生成的取代副产物。",
+        "noteEn": "Co-product of the substitution.",
+        "role": "r"
+      }
+    ],
+    "tags": ["有机反应"],
+    "tagsEn": ["Reaction"]
+  },
+  {
+    "id": "org-addition",
+    "icon": "➕",
+    "term": "加成反应",
+    "termEn": "Addition",
+    "oneLiner": "不饱和键断开，两端加上其他原子，如乙烯使溴水褪色。",
+    "oneLinerEn": "Atoms add across a double bond; e.g. ethene decolorizes bromine water.",
+    "eq": { "lhs": "CH₂=CH₂ + Br₂", "rhs": "CH₂BrCH₂Br" },
+    "subs": [
+      {
+        "f": "CH₂=CH₂",
+        "name": "乙烯",
+        "nameEn": "Ethene",
+        "note": "含碳碳双键，加成反应物。",
+        "noteEn": "Has a C=C double bond; the addition substrate.",
+        "role": "l"
+      },
+      {
+        "f": "Br₂",
+        "name": "溴（溴水）",
+        "nameEn": "Bromine water",
+        "note": "断开双键加成，使溴水褪色。",
+        "noteEn": "Adds across the double bond, decolorizing bromine water.",
+        "role": "l"
+      },
+      {
+        "f": "CH₂BrCH₂Br",
+        "name": "1,2-二溴乙烷",
+        "nameEn": "1,2-Dibromoethane",
+        "note": "加成产物，双键变单键。",
+        "noteEn": "Addition product; the double bond becomes single.",
+        "role": "r"
+      }
+    ],
+    "tags": ["有机反应"],
+    "tagsEn": ["Reaction"]
+  },
+  {
+    "id": "org-elimination",
+    "icon": "💨",
+    "term": "消去反应",
+    "termEn": "Elimination",
+    "oneLiner": "脱去小分子生成不饱和键，如乙醇脱水制乙烯。",
+    "oneLinerEn": "Lose a small molecule to form a double bond; e.g. ethanol to ethene.",
+    "eq": {
+      "lhs": "C₂H₅OH",
+      "cond": "浓硫酸 · 170℃",
+      "condEn": "conc. H₂SO₄, 170℃",
+      "rhs": "CH₂=CH₂↑ + H₂O"
+    },
+    "subs": [
+      {
+        "f": "C₂H₅OH",
+        "name": "乙醇",
+        "nameEn": "Ethanol",
+        "note": "消去反应底物，脱去一分子水。",
+        "noteEn": "Elimination substrate; loses one water molecule.",
+        "role": "l"
+      },
+      {
+        "f": "H₂SO₄（浓）",
+        "name": "浓硫酸",
+        "nameEn": "Concentrated sulfuric acid",
+        "note": "催化剂兼脱水剂，170 ℃ 下促进消去。",
+        "noteEn": "Catalyst and dehydrating agent; drives elimination at 170 °C.",
+        "role": "c"
+      },
+      {
+        "f": "CH₂=CH₂↑",
+        "name": "乙烯（气体）",
+        "nameEn": "Ethene (gas)",
+        "note": "消去产物，新生碳碳双键。",
+        "noteEn": "Elimination product with a new C=C bond.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "被脱去的小分子。",
+        "noteEn": "The small molecule eliminated.",
+        "role": "r"
+      }
+    ],
+    "tags": ["有机反应"],
+    "tagsEn": ["Reaction"]
+  },
+  {
+    "id": "org-polymerization",
+    "icon": "🔗",
+    "term": "聚合反应",
+    "termEn": "Polymerization",
+    "oneLiner": "许多小分子（单体）加成结合成高分子，如聚乙烯。",
+    "oneLinerEn": "Many monomers join into a polymer, e.g. polyethylene.",
+    "eq": {
+      "lhs": "nCH₂=CH₂",
+      "cond": "催化剂",
+      "condEn": "catalyst",
+      "rhs": "[—CH₂—CH₂—]ₙ"
+    },
+    "subs": [
+      {
+        "f": "nCH₂=CH₂",
+        "name": "乙烯（单体）",
+        "nameEn": "Ethene (monomer)",
+        "note": "n 个单体经加成聚合。",
+        "noteEn": "n monomers joining by addition.",
+        "role": "l"
+      },
+      {
+        "f": "催化剂",
+        "name": "催化剂",
+        "nameEn": "Catalyst",
+        "note": "引发加聚反应的条件/介质。",
+        "noteEn": "Medium that initiates the polymerization.",
+        "role": "c"
+      },
+      {
+        "f": "[—CH₂—CH₂—]ₙ",
+        "name": "聚乙烯",
+        "nameEn": "Polyethylene",
+        "note": "加成聚合生成的高分子。",
+        "noteEn": "The polymer formed by addition polymerization.",
+        "role": "r"
+      }
+    ],
+    "tags": ["有机反应"],
+    "tagsEn": ["Reaction"]
+  },
+  {
+    "id": "org-sugar",
+    "icon": "🍬",
+    "term": "糖类",
+    "termEn": "Carbohydrates",
+    "oneLiner": "多羟基醛或酮，分单糖、二糖、多糖，是主要能源物质。",
+    "oneLinerEn": "Polyhydroxy aldehydes/ketones; mono-, di- and polysaccharides, the main energy source.",
+    "detail": "葡萄糖（单糖）能发生银镜反应；淀粉、纤维素为多糖，遇碘淀粉变蓝。",
+    "detailEn": "Glucose gives the silver-mirror test; starch and cellulose are polysaccharides; starch turns blue with iodine.",
+    "tags": ["生命物质"],
+    "tagsEn": ["Biomolecule"]
+  },
+  {
+    "id": "org-protein",
+    "icon": "🥚",
+    "term": "蛋白质与氨基酸",
+    "termEn": "Proteins & Amino Acids",
+    "oneLiner": "由氨基酸缩合而成的高分子，是生命活动的承担者。",
+    "oneLinerEn": "Polymers of amino acids; the workhorses of life.",
+    "detail": "含肽键，遇浓硝酸变黄（显色）；高温、重金属、强酸碱使其变性。",
+    "detailEn": "Contain peptide bonds; turn yellow with conc. nitric acid; denatured by heat, heavy metals, strong acid/base.",
+    "tags": ["生命物质"],
+    "tagsEn": ["Biomolecule"]
+  }
+]

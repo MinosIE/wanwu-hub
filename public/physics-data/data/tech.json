@@ -1,0 +1,67 @@
+[
+  {
+    "id": "semiconductor",
+    "icon": "💾",
+    "term": "半导体与芯片",
+    "termEn": "Semiconductors & Chips",
+    "level": 3,
+    "oneLiner": "导电性介于导体与绝缘体之间，掺入杂质可精确调控，是晶体管的基石。",
+    "oneLinerEn": "Conductivity between conductor and insulator, tunable by doping — the basis of transistors.",
+    "detail": "PN 结具有单向导电性，是二极管、晶体管、集成电路的基础；硅晶片上数十亿晶体管构成现代计算机与手机的核心。",
+    "detailEn": "A PN junction conducts one way, forming diodes, transistors and ICs; billions of transistors on silicon wafers power computers and phones.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "superconductor",
+    "icon": "🧲",
+    "term": "超导现象",
+    "termEn": "Superconductivity",
+    "level": 3,
+    "oneLiner": "某些材料降到临界温度以下电阻突降为零并完全抗磁。",
+    "oneLinerEn": "Below a critical temperature some materials drop to zero resistance and expel magnetic fields.",
+    "detail": "零电阻可实现无损耗输电、强磁体（磁悬浮、MRI）；迈斯纳效应体现完全抗磁性；高温超导仍在攻关。",
+    "detailEn": "Zero resistance enables lossless power and strong magnets (maglev, MRI); the Meissner effect shows full diamagnetism; high-Tc remains a goal.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "laser",
+    "icon": "🔦",
+    "term": "激光",
+    "termEn": "Laser",
+    "level": 3,
+    "oneLiner": "受激辐射放大产生方向性好、单色度高、亮度极强的人造光。",
+    "oneLinerEn": "Light amplified by stimulated emission — highly directional, monochromatic and intense.",
+    "detail": "激光用于光纤通信、精密切割、激光雷达、眼科手术与条码扫描；其相干性与高亮度源于受激辐射。",
+    "detailEn": "Used in fiber optics, cutting, LIDAR, eye surgery and scanning; coherence and brightness come from stimulated emission.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "nuclear-energy",
+    "icon": "☢️",
+    "term": "核能的利用",
+    "termEn": "Nuclear Energy",
+    "level": 3,
+    "oneLiner": "核裂变与核聚变释放巨大能量，是重要的高效能源。",
+    "oneLinerEn": "Fission and fusion release vast energy — potent power sources.",
+    "detail": "核电站用可控裂变链式反应发电；太阳与氢弹靠聚变；可控聚变（“人造太阳”）因清洁、原料丰富而被寄予厚望。",
+    "detailEn": "Reactors run controlled fission; the Sun and bombs use fusion; controlled fusion (artificial suns) is prized for clean, abundant fuel.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "em-spectrum-tech",
+    "icon": "📶",
+    "term": "电磁波谱与应用",
+    "termEn": "Electromagnetic Spectrum",
+    "level": 2,
+    "oneLiner": "无线电波到射线构成电磁波谱，不同波段各有应用。",
+    "oneLinerEn": "From radio to gamma rays, each band has its uses.",
+    "detail": "无线电用于通信广播，微波用于雷达与加热，红外线遥感与热成像，可见光是视觉，紫外线杀菌，X 射线成像，γ 射线治疗与探伤。",
+    "detailEn": "Radio for comms, microwaves for radar/heating, infrared for remote sensing, visible for sight, UV for sterilizing, X-rays for imaging, gamma for therapy/inspection.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  }
+]

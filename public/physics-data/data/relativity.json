@@ -1,0 +1,70 @@
+[
+  {
+    "id": "sr-postulates",
+    "icon": "📜",
+    "term": "狭义相对论基本原理",
+    "termEn": "Postulates of Special Relativity",
+    "level": 3,
+    "oneLiner": "相对性原理 + 光速不变原理：所有惯性系物理定律相同，真空中光速恒为 c。",
+    "oneLinerEn": "Relativity + light-speed invariance: laws are same in all inertial frames; c is constant.",
+    "detail": "由爱因斯坦于 1905 年提出，颠覆了绝对时空观。",
+    "detailEn": "Einstein (1905) overturned absolute space and time.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "time-dilation",
+    "eq": { "lhs": "Δt", "rhs": "Δt₀/√(1−v²/c²)", "rel": "equal" },
+    "icon": "⏳",
+    "term": "时间膨胀",
+    "termEn": "Time Dilation",
+    "level": 3,
+    "oneLiner": "运动时钟变慢：Δt=Δt₀/√(1−v²/c²)。",
+    "oneLinerEn": "Moving clocks run slow: Δt=Δt₀/√(1−v²/c²).",
+    "detail": "粒子加速器中的不稳定粒子寿命因此被显著延长。其中 Δt 为运动参考系测得的时间，Δt₀ 为静止参考系的原时，v 为相对速度，c 为光速。",
+    "detailEn": "Unstable particles in accelerators live longer as predicted. Δt moving-frame time, Δt₀ rest proper time, v relative speed, c light speed.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "length-contraction",
+    "eq": { "lhs": "L", "rhs": "L₀√(1−v²/c²)", "rel": "equal" },
+    "icon": "📏",
+    "term": "长度收缩",
+    "termEn": "Length Contraction",
+    "level": 3,
+    "oneLiner": "运动方向上的长度变短：L=L₀√(1−v²/c²)。",
+    "oneLinerEn": "Length along motion shortens: L=L₀√(1−v²/c²).",
+    "detail": "其中 L 为运动参考系测得的长度，L₀ 为静止时的原长，v 为相对速度，c 为光速。",
+    "detailEn": "L measured in the moving frame, L₀ the rest length, v relative speed, c light speed.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "mass-energy",
+    "eq": { "lhs": "E", "rhs": "mc²", "rel": "equal" },
+    "icon": "⚛️",
+    "term": "质能方程",
+    "termEn": "Mass–Energy Equivalence",
+    "level": 3,
+    "oneLiner": "质量即能量：E=mc²。",
+    "oneLinerEn": "Mass is energy: E=mc².",
+    "detail": "核反应释放的能量正来自质量的微小亏损。其中 E 为能量，m 为质量，c 为光速。",
+    "detailEn": "Nuclear energy comes from tiny mass defects. E energy, m mass, c speed of light.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "general-relativity",
+    "icon": "🌐",
+    "term": "广义相对论与时空弯曲",
+    "termEn": "General Relativity",
+    "level": 3,
+    "oneLiner": "引力被诠释为时空的弯曲，物质告诉时空如何弯曲。",
+    "oneLinerEn": "Gravity is spacetime curvature caused by mass-energy.",
+    "detail": "预言了光线偏折、引力红移、黑洞与引力波，均已被观测证实。",
+    "detailEn": "Predicts light bending, gravitational redshift, black holes and waves — all observed.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  }
+]

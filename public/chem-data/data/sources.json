@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Khan Academy · 化学",
+    "labelEn": "Khan Academy · Chemistry",
+    "type": "科普",
+    "typeEn": "Educational",
+    "url": "https://www.khanacademy.org/science/chemistry"
+  },
+  {
+    "label": "PubChem",
+    "type": "工具",
+    "typeEn": "Reference",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/"
+  },
+  {
+    "label": "Royal Society of Chemistry",
+    "type": "机构",
+    "typeEn": "Institution",
+    "url": "https://www.rsc.org/"
+  },
+  {
+    "label": "Wikipedia · Chemistry",
+    "type": "百科",
+    "typeEn": "Encyclopedia",
+    "url": "https://en.wikipedia.org/wiki/Chemistry"
+  }
+]

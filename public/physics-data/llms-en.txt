@@ -1,0 +1,27 @@
+# Physics of Everything
+
+> Laws, constants, landmark experiments and physicists — the elegant order governing the universe.
+
+130 entries across 16 categories, all as structured JSON.
+
+## Data endpoints
+- [Astronomy & Cosmos](https://minosie.github.io/wanwu-hub/physics-data/data/astronomy.json)
+- [Atomic & Nuclear Physics](https://minosie.github.io/wanwu-hub/physics-data/data/atomic.json)
+- [Key Constants](https://minosie.github.io/wanwu-hub/physics-data/data/constants.json)
+- [Electricity & Magnetism](https://minosie.github.io/wanwu-hub/physics-data/data/em.json)
+- [Landmark Experiments](https://minosie.github.io/wanwu-hub/physics-data/data/experiments.json)
+- [Pressure & Buoyancy](https://minosie.github.io/wanwu-hub/physics-data/data/fluids.json)
+- [Glossary](https://minosie.github.io/wanwu-hub/physics-data/data/glossary.json)
+- [Motion & Mechanics](https://minosie.github.io/wanwu-hub/physics-data/data/mechanics.json)
+- [Methods & Units](https://minosie.github.io/wanwu-hub/physics-data/data/methods.json)
+- [Optics](https://minosie.github.io/wanwu-hub/physics-data/data/optics.json)
+- [Overview & counts](https://minosie.github.io/wanwu-hub/physics-data/data/overview.json)
+- [Physicists](https://minosie.github.io/wanwu-hub/physics-data/data/physicists.json)
+- [Relativity](https://minosie.github.io/wanwu-hub/physics-data/data/relativity.json)
+- [Sound](https://minosie.github.io/wanwu-hub/physics-data/data/sound.json)
+- [References](https://minosie.github.io/wanwu-hub/physics-data/data/sources.json)
+- [Physics & Modern Technology](https://minosie.github.io/wanwu-hub/physics-data/data/tech.json)
+- [Thermal Physics](https://minosie.github.io/wanwu-hub/physics-data/data/thermal.json)
+- [Vibrations & Waves](https://minosie.github.io/wanwu-hub/physics-data/data/waves.json)
+- [Page](https://minosie.github.io/wanwu-hub/subject/physics/)
+- [Chinese index](https://minosie.github.io/wanwu-hub/physics-data/llms.txt)

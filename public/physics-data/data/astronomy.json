@@ -1,0 +1,81 @@
+[
+  {
+    "id": "solar-system",
+    "icon": "🪐",
+    "term": "太阳系",
+    "termEn": "Solar System",
+    "level": 1,
+    "oneLiner": "以太阳为中心，八大行星及卫星、小行星、彗星等组成的天体系统。",
+    "oneLinerEn": "The Sun-centered system of eight planets, moons, asteroids and comets.",
+    "detail": "日心说由哥白尼确立，开普勒与牛顿完善了运动规律。",
+    "detailEn": "Copernicus set the heliocentric model; Kepler and Newton refined the laws.",
+    "tags": ["天体"],
+    "tagsEn": ["Astronomy"]
+  },
+  {
+    "id": "stars-galaxies",
+    "icon": "✨",
+    "term": "恒星与星系",
+    "termEn": "Stars & Galaxies",
+    "level": 1,
+    "oneLiner": "恒星靠核聚变发光；太阳位于银河系一条旋臂上。",
+    "oneLinerEn": "Stars shine by fusion; the Sun lies in a spiral arm of the Milky Way.",
+    "detail": "星系由海量恒星、气体与暗物质构成，宇宙中有数千亿个星系。",
+    "detailEn": "Galaxies of stars, gas and dark matter number in the hundreds of billions.",
+    "tags": ["天体"],
+    "tagsEn": ["Astronomy"]
+  },
+  {
+    "id": "redshift",
+    "eq": { "lhs": "v", "rhs": "H₀d", "rel": "equal" },
+    "icon": "📉",
+    "term": "宇宙膨胀与红移",
+    "termEn": "Expansion & Redshift",
+    "level": 2,
+    "oneLiner": "星系光谱普遍红移，说明宇宙在膨胀（哈勃定律 v=H₀d）。",
+    "oneLinerEn": "Cosmic redshift shows expansion (Hubble's law v=H₀d).",
+    "detail": "其中 v 为星系退行速度，H₀ 为哈勃常数，d 为星系距离。",
+    "detailEn": "v recession speed, H₀ Hubble constant, d distance.",
+    "tags": ["宇宙学"],
+    "tagsEn": ["Cosmology"]
+  },
+  {
+    "id": "big-bang",
+    "icon": "💥",
+    "term": "大爆炸宇宙论",
+    "termEn": "Big Bang Theory",
+    "level": 2,
+    "oneLiner": "宇宙源于约 138 亿年前的一次极高温高密度状态膨胀。",
+    "oneLinerEn": "The universe expanded from a hot, dense state ~13.8 billion years ago.",
+    "detail": "宇宙微波背景辐射是其重要观测证据。",
+    "detailEn": "The cosmic microwave background is key evidence.",
+    "tags": ["宇宙学"],
+    "tagsEn": ["Cosmology"]
+  },
+  {
+    "id": "black-hole",
+    "icon": "🕳️",
+    "term": "黑洞",
+    "termEn": "Black Hole",
+    "level": 3,
+    "oneLiner": "引力极强、连光也无法逃逸的天体，边界称为事件视界。",
+    "oneLinerEn": "An object so dense that not even light escapes; bounded by the event horizon.",
+    "detail": "由大质量恒星坍缩形成；2019 年首张黑洞照片由事件视界望远镜拍摄。",
+    "detailEn": "Formed by collapse of massive stars; first image captured in 2019.",
+    "tags": ["天体"],
+    "tagsEn": ["Astronomy"]
+  },
+  {
+    "id": "gravitational-waves",
+    "icon": "〰️",
+    "term": "引力波",
+    "termEn": "Gravitational Waves",
+    "level": 3,
+    "oneLiner": "加速运动的质量扰动时空产生的涟漪，以光速传播。",
+    "oneLinerEn": "Ripples in spacetime from accelerating masses, traveling at light speed.",
+    "detail": "2015 年 LIGO 首次直接探测到双黑洞并合产生的引力波。",
+    "detailEn": "LIGO first detected them in 2015 from merging black holes.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  }
+]

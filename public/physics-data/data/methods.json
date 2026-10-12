@@ -1,0 +1,54 @@
+[
+  {
+    "id": "si-units",
+    "icon": "📏",
+    "term": "国际单位制",
+    "termEn": "SI Units",
+    "level": 1,
+    "oneLiner": "以米、千克、秒等七个基本单位为基础的统一计量体系。",
+    "oneLinerEn": "A unified system built on seven base units including metre, kilogram and second.",
+    "detail": "力学三大基本量：长度 m、质量 kg、时间 s；导出单位如牛顿 N=kg·m/s²、焦耳 J=N·m、瓦特 W=J/s。",
+    "detailEn": "Mechanics bases: length m, mass kg, time s; derived units like newton N=kg·m/s², joule J=N·m, watt W=J/s.",
+    "tags": ["方法"],
+    "tagsEn": ["Method"]
+  },
+  {
+    "id": "dimensional",
+    "icon": "🧩",
+    "term": "量纲分析",
+    "termEn": "Dimensional Analysis",
+    "level": 2,
+    "oneLiner": "用基本量的幂次组合检验公式、推导关系并换算单位。",
+    "oneLinerEn": "Use powers of base quantities to check formulas, derive relations and convert units.",
+    "detail": "等式两边量纲必须一致，可快速判断公式是否可能有误；也可猜测量间的比例关系（如单摆周期对 L、g 的依赖）。",
+    "detailEn": "Both sides of an equation must share dimensions — a quick validity check — and can suggest proportional forms (e.g. a pendulum's dependence on L and g).",
+    "tags": ["方法"],
+    "tagsEn": ["Method"]
+  },
+  {
+    "id": "model-ideal",
+    "icon": "🎯",
+    "term": "理想模型",
+    "termEn": "Idealized Models",
+    "level": 2,
+    "oneLiner": "抓住主要因素、忽略次要因素建立的简化对象，是物理学的基本方法。",
+    "oneLinerEn": "Simplifications keeping dominant factors and ignoring minor ones — a core physics method.",
+    "detail": "质点、点电荷、光滑面、理想气体、电阻等都是理想模型；实际物体能否近似取决于问题尺度与精度要求。",
+    "detailEn": "Point mass, point charge, frictionless surface, ideal gas, pure resistor — applicability depends on scale and required precision.",
+    "tags": ["方法"],
+    "tagsEn": ["Method"]
+  },
+  {
+    "id": "error-measure",
+    "icon": "📊",
+    "term": "误差与有效数字",
+    "termEn": "Error & Significant Figures",
+    "level": 2,
+    "oneLiner": "测量值与真值之差叫误差，分系统误差与偶然误差，需如实记录有效数字。",
+    "oneLinerEn": "Difference from the true value; systematic and random types, recorded with significant figures.",
+    "detail": "系统误差可通过校准仪器、改进方法减小；偶然误差用多次测量取平均减小；有效数字末位为估读位。",
+    "detailEn": "Calibration reduces systematic error; averaging reduces random error; the last significant digit is estimated.",
+    "tags": ["方法"],
+    "tagsEn": ["Method"]
+  }
+]

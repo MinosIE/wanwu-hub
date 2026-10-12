@@ -2,10 +2,13 @@
 
 > Evolution, taxonomy, cells and ecology — the diversity of life and how it all connects.
 
+80 entries across 6 categories, all as structured JSON.
+
 ## Data endpoints
 - [Classics](https://minosie.github.io/wanwu-hub/life-data/data/classics.json)
 - [Endemic species](https://minosie.github.io/wanwu-hub/life-data/data/endemics.json)
 - [Overview & counts](https://minosie.github.io/wanwu-hub/life-data/data/overview.json)
+- [Principles](https://minosie.github.io/wanwu-hub/life-data/data/principles.json)
 - [Core questions](https://minosie.github.io/wanwu-hub/life-data/data/questions.json)
 - [Related index](https://minosie.github.io/wanwu-hub/life-data/data/related.json)
 - [Schools](https://minosie.github.io/wanwu-hub/life-data/data/schools.json)

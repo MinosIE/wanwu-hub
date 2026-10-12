@@ -1,0 +1,167 @@
+{
+  "version": "0.1.0",
+  "generatedFrom": "src/subjects/chem/data.ts",
+  "heroTitle": "万物化学",
+  "heroTitleEn": "Chemistry of Everything",
+  "heroSub": "物质之变",
+  "heroSubEn": "The Transformations of Matter",
+  "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
+  "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
+  "total": 232,
+  "counts": {
+    "concepts": 11,
+    "structure": 7,
+    "periodic-table-full": 118,
+    "trends": 8,
+    "reactions": 6,
+    "equations": 16,
+    "life-chem": 12,
+    "bonding": 6,
+    "organic": 8,
+    "solutions": 6,
+    "energy": 5,
+    "kinetics": 6,
+    "electrochem": 5,
+    "chemists": 8,
+    "glossary": 10
+  },
+  "modules": [
+    {
+      "key": "concepts",
+      "icon": "🧪",
+      "title": "核心概念",
+      "titleEn": "Core Concepts",
+      "kind": "cards",
+      "count": 11
+    },
+    {
+      "key": "structure",
+      "icon": "🧱",
+      "title": "物质结构",
+      "titleEn": "Matter & Structure",
+      "kind": "cards",
+      "count": 7
+    },
+    {
+      "key": "periodic-table-full",
+      "icon": "🧭",
+      "title": "元素周期表",
+      "titleEn": "Periodic Table",
+      "kind": "periodic",
+      "count": 118
+    },
+    {
+      "key": "trends",
+      "icon": "📊",
+      "title": "周期律与趋势",
+      "titleEn": "Periodic Trends",
+      "kind": "cards",
+      "count": 8
+    },
+    {
+      "key": "reactions",
+      "icon": "🔥",
+      "title": "反应类型",
+      "titleEn": "Reaction Types",
+      "kind": "cards",
+      "count": 6
+    },
+    {
+      "key": "equations",
+      "icon": "📝",
+      "title": "常见实验方程式",
+      "titleEn": "Common Lab Equations",
+      "kind": "cards",
+      "count": 16
+    },
+    {
+      "key": "life-chem",
+      "icon": "🏭",
+      "title": "化学与生产生活",
+      "titleEn": "Chemistry in Industry & Life",
+      "kind": "cards",
+      "count": 12
+    },
+    {
+      "key": "bonding",
+      "icon": "🔗",
+      "title": "物质构成与化学键",
+      "titleEn": "Structure & Chemical Bonds",
+      "kind": "cards",
+      "count": 6
+    },
+    {
+      "key": "organic",
+      "icon": "🧬",
+      "title": "有机化学",
+      "titleEn": "Organic Chemistry",
+      "kind": "cards",
+      "count": 8
+    },
+    {
+      "key": "solutions",
+      "icon": "🧪",
+      "title": "溶液与化学计算",
+      "titleEn": "Solutions & Calculations",
+      "kind": "cards",
+      "count": 6
+    },
+    {
+      "key": "energy",
+      "icon": "🔥",
+      "title": "化学反应与能量",
+      "titleEn": "Reaction Energy & Thermochemistry",
+      "kind": "cards",
+      "count": 5
+    },
+    {
+      "key": "kinetics",
+      "icon": "⚖️",
+      "title": "速率与化学平衡",
+      "titleEn": "Rate & Equilibrium",
+      "kind": "cards",
+      "count": 6
+    },
+    {
+      "key": "electrochem",
+      "icon": "🔋",
+      "title": "电化学",
+      "titleEn": "Electrochemistry",
+      "kind": "cards",
+      "count": 5
+    },
+    {
+      "key": "chemists",
+      "icon": "🧑‍🔬",
+      "title": "化学家",
+      "titleEn": "Chemists",
+      "kind": "cards",
+      "count": 8
+    },
+    {
+      "key": "glossary",
+      "icon": "📖",
+      "title": "名词词典",
+      "titleEn": "Glossary",
+      "kind": "cards",
+      "count": 10
+    }
+  ],
+  "kpis": [
+    { "key": "concepts", "icon": "🧪", "value": 11 },
+    { "key": "structure", "icon": "🧱", "value": 7 },
+    { "key": "periodic-table-full", "icon": "🧭", "value": 118 },
+    { "key": "trends", "icon": "📊", "value": 8 },
+    { "key": "reactions", "icon": "🔥", "value": 6 },
+    { "key": "equations", "icon": "📝", "value": 16 },
+    { "key": "life-chem", "icon": "🏭", "value": 12 },
+    { "key": "bonding", "icon": "🔗", "value": 6 },
+    { "key": "organic", "icon": "🧬", "value": 8 },
+    { "key": "solutions", "icon": "🧪", "value": 6 },
+    { "key": "energy", "icon": "🔥", "value": 5 },
+    { "key": "kinetics", "icon": "⚖️", "value": 6 },
+    { "key": "electrochem", "icon": "🔋", "value": 5 },
+    { "key": "chemists", "icon": "🧑‍🔬", "value": 8 },
+    { "key": "glossary", "icon": "📖", "value": 10 }
+  ]
+}

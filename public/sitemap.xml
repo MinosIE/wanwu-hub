@@ -9,6 +9,9 @@
   <url><loc>https://minosie.github.io/wanwu-hub/subject/life/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/subject/physics/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/subject/chem/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/llms-full-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/llms-full.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -32,9 +35,29 @@
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/llms-full.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/chemists.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/concepts.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/electrochem.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/energy.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/equations.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/glossary.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/kinetics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/life-chem.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/organic.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/periodic-table-full.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/reactions.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/solutions.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/sources.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/structure.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/trends.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/data/archaeo.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/data/battles.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/data/capitals.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
@@ -76,7 +99,9 @@
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/data/unity.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/dynasty-data/data/world.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/classics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/human-geo.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/principles.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/questions.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/related.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/earth-data/data/schools.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
@@ -106,6 +131,7 @@
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/classics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/endemics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/principles.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/questions.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/related.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/schools.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
@@ -124,7 +150,30 @@
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/quiz.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/schools.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/timeline.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/astronomy.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/atomic.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/constants.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/em.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/experiments.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/fluids.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/glossary.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/mechanics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/methods.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/optics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/physicists.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/relativity.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/sound.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/sources.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/tech.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/thermal.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/physics-data/data/waves.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/branches.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/classics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/compare.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/experiments.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/glossary.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/myths.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/questions.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/related.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
@@ -132,4 +181,5 @@
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/search.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/sources.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/thinkers.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/thought-data/data/timeline.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>

@@ -1,0 +1,764 @@
+[
+  {
+    "id": "eq-h2o2",
+    "subs": [
+      {
+        "f": "2H₂O₂",
+        "name": "过氧化氢（双氧水）",
+        "nameEn": "Hydrogen peroxide",
+        "note": "无色液体，遇催化剂迅速分解放出氧。",
+        "noteEn": "Colourless liquid; rapidly decomposes to release O₂ over a catalyst.",
+        "role": "l"
+      },
+      {
+        "f": "MnO₂",
+        "name": "二氧化锰（黑色粉末）",
+        "nameEn": "Manganese dioxide (black powder)",
+        "note": "作催化剂，加快分解而自身不消耗。",
+        "noteEn": "Catalyst; speeds decomposition without being consumed.",
+        "role": "c"
+      },
+      {
+        "f": "2H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "分解的另一产物。",
+        "noteEn": "The other product of decomposition.",
+        "role": "r"
+      },
+      {
+        "f": "O₂↑",
+        "name": "氧气",
+        "nameEn": "Oxygen gas",
+        "note": "能使带火星木条复燃，是收集目标。",
+        "noteEn": "Relights a glowing splint; the gas being collected.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧪",
+    "term": "过氧化氢分解制氧气",
+    "termEn": "Oxygen from H₂O₂",
+    "oneLiner": "双氧水加二氧化锰催化，常温分解放出氧气。",
+    "oneLinerEn": "Hydrogen peroxide decomposes at room temperature over MnO₂ catalyst.",
+    "eq": {
+      "lhs": "2H₂O₂",
+      "cond": "MnO₂（催化）",
+      "condEn": "MnO₂ (cat.)",
+      "rhs": "2H₂O + O₂↑"
+    },
+    "detail": "二氧化锰作催化剂，实验室常温制氧的常用方法。",
+    "detailEn": "MnO₂ catalyzes this common room-temperature lab method for O₂.",
+    "tags": ["制气"],
+    "tagsEn": ["Gas"]
+  },
+  {
+    "id": "eq-kmno4",
+    "subs": [
+      {
+        "f": "2KMnO₄",
+        "name": "高锰酸钾（紫黑色固体）",
+        "nameEn": "Potassium permanganate (purple-black solid)",
+        "note": "加热即分解，实验室制氧原料。",
+        "noteEn": "Decomposes on heating; a lab source of O₂.",
+        "role": "l"
+      },
+      {
+        "f": "K₂MnO₄",
+        "name": "锰酸钾（绿色固体）",
+        "nameEn": "Potassium manganate (green solid)",
+        "note": "残留固体之一。",
+        "noteEn": "One of the residual solids.",
+        "role": "r"
+      },
+      {
+        "f": "MnO₂",
+        "name": "二氧化锰（黑色固体）",
+        "nameEn": "Manganese dioxide (black solid)",
+        "note": "同时生成的副产物。",
+        "noteEn": "By-product formed alongside.",
+        "role": "r"
+      },
+      {
+        "f": "O₂↑",
+        "name": "氧气",
+        "nameEn": "Oxygen gas",
+        "note": "供收集，使带火星木条复燃。",
+        "noteEn": "Collected; relights a glowing splint.",
+        "role": "r"
+      }
+    ],
+    "icon": "🟣",
+    "term": "高锰酸钾受热分解",
+    "termEn": "KMnO₄ Decomposition",
+    "oneLiner": "高锰酸钾加热分解，放出氧气。",
+    "oneLinerEn": "Potassium permanganate decomposes on heating, releasing O₂.",
+    "eq": {
+      "lhs": "2KMnO₄",
+      "cond": "加热 △",
+      "condEn": "heat Δ",
+      "rhs": "K₂MnO₄ + MnO₂ + O₂↑"
+    },
+    "detail": "加热即可制氧，无需催化剂。",
+    "detailEn": "Heating alone yields oxygen, no catalyst needed.",
+    "tags": ["制气"],
+    "tagsEn": ["Gas"]
+  },
+  {
+    "id": "eq-kclo3",
+    "subs": [
+      {
+        "f": "2KClO₃",
+        "name": "氯酸钾（白色固体）",
+        "nameEn": "Potassium chlorate (white solid)",
+        "note": "分解放出氧气。",
+        "noteEn": "Decomposes to release oxygen.",
+        "role": "l"
+      },
+      {
+        "f": "MnO₂",
+        "name": "二氧化锰",
+        "nameEn": "Manganese dioxide",
+        "note": "催化剂，降低反应温度、加快速率。",
+        "noteEn": "Catalyst; lowers temperature and speeds the reaction.",
+        "role": "c"
+      },
+      {
+        "f": "2KCl",
+        "name": "氯化钾（白色固体）",
+        "nameEn": "Potassium chloride (white solid)",
+        "note": "残留固体。",
+        "noteEn": "Residual solid.",
+        "role": "r"
+      },
+      {
+        "f": "3O₂↑",
+        "name": "氧气",
+        "nameEn": "Oxygen gas",
+        "note": "制取目标气体。",
+        "noteEn": "The target gas produced.",
+        "role": "r"
+      }
+    ],
+    "icon": "🟡",
+    "term": "氯酸钾受热分解",
+    "termEn": "KClO₃ Decomposition",
+    "oneLiner": "氯酸钾在二氧化锰催化并加热下分解放氧。",
+    "oneLinerEn": "Potassium chlorate decomposes with MnO₂ and heat to give O₂.",
+    "eq": {
+      "lhs": "2KClO₃",
+      "cond": "MnO₂ · 加热",
+      "condEn": "MnO₂, Δ",
+      "rhs": "2KCl + 3O₂↑"
+    },
+    "tags": ["制气"],
+    "tagsEn": ["Gas"]
+  },
+  {
+    "id": "eq-co2",
+    "subs": [
+      {
+        "f": "CaCO₃",
+        "name": "碳酸钙（大理石/石灰石）",
+        "nameEn": "Calcium carbonate (marble/limestone)",
+        "note": "块状固体，与酸反应放气。",
+        "noteEn": "Lumpy solid; reacts with acid giving off gas.",
+        "role": "l"
+      },
+      {
+        "f": "2HCl",
+        "name": "稀盐酸",
+        "nameEn": "Dilute hydrochloric acid",
+        "note": "提供 H⁺ 与碳酸根反应。",
+        "noteEn": "Supplies H⁺ to react with carbonate.",
+        "role": "l"
+      },
+      {
+        "f": "CaCl₂",
+        "name": "氯化钙",
+        "nameEn": "Calcium chloride",
+        "note": "溶于水留在溶液中。",
+        "noteEn": "Dissolves, remaining in solution.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "反应生成。",
+        "noteEn": "Formed in the reaction.",
+        "role": "r"
+      },
+      {
+        "f": "CO₂↑",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "使澄清石灰水变浑浊，向上排空气法收集。",
+        "noteEn": "Turns limewater cloudy; collected by upward displacement of air.",
+        "role": "r"
+      }
+    ],
+    "icon": "🪨",
+    "term": "大理石与盐酸制二氧化碳",
+    "termEn": "CO₂ from Carbonate",
+    "oneLiner": "大理石（碳酸钙）与稀盐酸反应制二氧化碳。",
+    "oneLinerEn": "Marble (calcium carbonate) reacts with dilute HCl to give CO₂.",
+    "eq": { "lhs": "CaCO₃ + 2HCl", "rhs": "CaCl₂ + H₂O + CO₂↑" },
+    "detail": "实验室制 CO₂ 的首选反应，也可用稀硫酸代替盐酸观察差异。",
+    "detailEn": "The standard lab route to CO₂.",
+    "tags": ["制气"],
+    "tagsEn": ["Gas"]
+  },
+  {
+    "id": "eq-electrolysis",
+    "subs": [
+      {
+        "f": "2H₂O",
+        "name": "水（加少量电解质）",
+        "nameEn": "Water (with a little electrolyte)",
+        "note": "被电解；加电解质增强导电性。",
+        "noteEn": "Electrolysed; electrolyte aids conduction.",
+        "role": "l"
+      },
+      {
+        "f": "2H₂↑",
+        "name": "氢气",
+        "nameEn": "Hydrogen gas",
+        "note": "负极产生，可燃，体积约为氧气两倍。",
+        "noteEn": "At the cathode; flammable, about twice the O₂ volume.",
+        "role": "r"
+      },
+      {
+        "f": "O₂↑",
+        "name": "氧气",
+        "nameEn": "Oxygen gas",
+        "note": "正极产生，助燃。",
+        "noteEn": "At the anode; supports combustion.",
+        "role": "r"
+      }
+    ],
+    "icon": "⚡",
+    "term": "电解水",
+    "termEn": "Electrolysis of Water",
+    "oneLiner": "水电解生成氢气和氧气。",
+    "oneLinerEn": "Water electrolyses into hydrogen and oxygen.",
+    "eq": {
+      "lhs": "2H₂O",
+      "cond": "通电",
+      "condEn": "electrolysis",
+      "rhs": "2H₂↑ + O₂↑"
+    },
+    "detail": "加少量电解质增强导电性；体积比 V(H₂):V(O₂)=2:1。",
+    "detailEn": "A little electrolyte aids conduction; volume ratio H₂:O₂ = 2:1.",
+    "tags": ["电解"],
+    "tagsEn": ["Electrolysis"]
+  },
+  {
+    "id": "eq-fe-cuso4",
+    "subs": [
+      {
+        "f": "Fe",
+        "name": "铁（银白色金属）",
+        "nameEn": "Iron (silvery metal)",
+        "note": "较活泼，作还原剂置换铜。",
+        "noteEn": "More reactive; reduces and displaces copper.",
+        "role": "l"
+      },
+      {
+        "f": "CuSO₄",
+        "name": "硫酸铜（蓝色溶液）",
+        "nameEn": "Copper(II) sulfate (blue solution)",
+        "note": "提供待置换的铜离子。",
+        "noteEn": "Supplies the Cu²⁺ to be displaced.",
+        "role": "l"
+      },
+      {
+        "f": "FeSO₄",
+        "name": "硫酸亚铁（浅绿色溶液）",
+        "nameEn": "Iron(II) sulfate (pale-green solution)",
+        "note": "溶液由蓝变浅绿。",
+        "noteEn": "Solution fades from blue to pale green.",
+        "role": "r"
+      },
+      {
+        "f": "Cu",
+        "name": "铜（红色固体）",
+        "nameEn": "Copper (red solid)",
+        "note": "析出附着于铁表面，湿法炼铜原理。",
+        "noteEn": "Deposits on the iron; the basis of hydrometallurgical copper.",
+        "role": "r"
+      }
+    ],
+    "icon": "🔵",
+    "term": "铁置换硫酸铜（湿法炼铜）",
+    "termEn": "Fe Displaces Cu",
+    "oneLiner": "铁把铜从硫酸铜溶液中置换出来。",
+    "oneLinerEn": "Iron displaces copper from copper(II) sulfate solution.",
+    "eq": { "lhs": "Fe + CuSO₄", "rhs": "FeSO₄ + Cu" },
+    "detail": "活泼金属置换不活泼金属，溶液由蓝变浅绿。",
+    "detailEn": "A more active metal displaces a less active one; blue fades to pale green.",
+    "tags": ["置换"],
+    "tagsEn": ["Displacement"]
+  },
+  {
+    "id": "eq-metal-acid",
+    "subs": [
+      {
+        "f": "Zn",
+        "name": "锌粒",
+        "nameEn": "Zinc granules",
+        "note": "活泼金属，与稀酸反应放氢。",
+        "noteEn": "Reactive metal; gives H₂ with dilute acid.",
+        "role": "l"
+      },
+      {
+        "f": "H₂SO₄",
+        "name": "稀硫酸",
+        "nameEn": "Dilute sulfuric acid",
+        "note": "提供 H⁺。",
+        "noteEn": "Supplies H⁺.",
+        "role": "l"
+      },
+      {
+        "f": "ZnSO₄",
+        "name": "硫酸锌",
+        "nameEn": "Zinc sulfate",
+        "note": "溶于水。",
+        "noteEn": "Dissolves in water.",
+        "role": "r"
+      },
+      {
+        "f": "H₂↑",
+        "name": "氢气",
+        "nameEn": "Hydrogen gas",
+        "note": "可燃，实验室制氢常用此法。",
+        "noteEn": "Flammable; a common lab route to H₂.",
+        "role": "r"
+      }
+    ],
+    "icon": "🔩",
+    "term": "活泼金属与稀硫酸",
+    "termEn": "Metal + Acid",
+    "oneLiner": "锌与稀硫酸反应放出氢气。",
+    "oneLinerEn": "Zinc reacts with dilute sulfuric acid to release H₂.",
+    "eq": { "lhs": "Zn + H₂SO₄", "rhs": "ZnSO₄ + H₂↑" },
+    "detail": "镁、锌、铁可与稀酸反应放氢，铜等不活泼金属不行。",
+    "detailEn": "Mg, Zn, Fe release H₂ with dilute acid; Cu does not.",
+    "tags": ["置换"],
+    "tagsEn": ["Displacement"]
+  },
+  {
+    "id": "eq-ch4",
+    "subs": [
+      {
+        "f": "CH₄",
+        "name": "甲烷（天然气主要成分）",
+        "nameEn": "Methane (main component of natural gas)",
+        "note": "可燃气体，作燃料。",
+        "noteEn": "Flammable gas used as fuel.",
+        "role": "l"
+      },
+      {
+        "f": "2O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "助燃。",
+        "noteEn": "Supports combustion.",
+        "role": "l"
+      },
+      {
+        "f": "CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "燃烧产物，使石灰水浑浊。",
+        "noteEn": "Combustion product; clouds limewater.",
+        "role": "r"
+      },
+      {
+        "f": "2H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "火焰上方冷烧杯内壁出现水珠。",
+        "noteEn": "Droplets condense on a cold beaker over the flame.",
+        "role": "r"
+      }
+    ],
+    "icon": "🔥",
+    "term": "甲烷燃烧",
+    "termEn": "Methane Combustion",
+    "oneLiner": "甲烷在氧气中完全燃烧。",
+    "oneLinerEn": "Methane burns completely in oxygen.",
+    "eq": {
+      "lhs": "CH₄ + 2O₂",
+      "cond": "点燃",
+      "condEn": "ignite",
+      "rhs": "CO₂ + 2H₂O"
+    },
+    "detail": "天然气主要成分，完全燃烧呈蓝色火焰。",
+    "detailEn": "Main component of natural gas; clean blue flame when complete.",
+    "tags": ["燃烧"],
+    "tagsEn": ["Combustion"]
+  },
+  {
+    "id": "eq-h2",
+    "subs": [
+      {
+        "f": "2H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "可燃气体，点燃前需验纯。",
+        "noteEn": "Flammable; must be tested for purity before ignition.",
+        "role": "l"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "助燃。",
+        "noteEn": "Supports combustion.",
+        "role": "l"
+      },
+      {
+        "f": "2H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "唯一产物，淡蓝色火焰、放热。",
+        "noteEn": "Sole product; pale-blue flame, exothermic.",
+        "role": "r"
+      }
+    ],
+    "icon": "💧",
+    "term": "氢气燃烧",
+    "termEn": "Hydrogen Combustion",
+    "oneLiner": "氢气燃烧生成水。",
+    "oneLinerEn": "Hydrogen burns to form water.",
+    "eq": { "lhs": "2H₂ + O₂", "cond": "点燃", "condEn": "ignite", "rhs": "2H₂O" },
+    "tags": ["燃烧"],
+    "tagsEn": ["Combustion"]
+  },
+  {
+    "id": "eq-neutralize",
+    "subs": [
+      {
+        "f": "HCl",
+        "name": "盐酸（强酸）",
+        "nameEn": "Hydrochloric acid (strong acid)",
+        "note": "提供 H⁺。",
+        "noteEn": "Supplies H⁺.",
+        "role": "l"
+      },
+      {
+        "f": "NaOH",
+        "name": "氢氧化钠（强碱）",
+        "nameEn": "Sodium hydroxide (strong base)",
+        "note": "提供 OH⁻。",
+        "noteEn": "Supplies OH⁻.",
+        "role": "l"
+      },
+      {
+        "f": "NaCl",
+        "name": "氯化钠（食盐主要成分）",
+        "nameEn": "Sodium chloride (table salt)",
+        "note": "中和生成的盐。",
+        "noteEn": "The salt formed by neutralization.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "H⁺ 与 OH⁻ 结合；酚酞褪色指示终点。",
+        "noteEn": "H⁺ and OH⁻ combine; phenolphthalein fading marks the endpoint.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧫",
+    "term": "盐酸中和氢氧化钠",
+    "termEn": "HCl Neutralizes NaOH",
+    "oneLiner": "盐酸与氢氧化钠中和生成盐和水。",
+    "oneLinerEn": "Hydrochloric acid is neutralized by sodium hydroxide.",
+    "eq": { "lhs": "HCl + NaOH", "rhs": "NaCl + H₂O" },
+    "detail": "强酸强碱中和，常用酚酞指示终点。",
+    "detailEn": "Strong acid-base neutralization; phenolphthalein shows the endpoint.",
+    "tags": ["中和"],
+    "tagsEn": ["Neutralization"]
+  },
+  {
+    "id": "eq-na2co3-hcl",
+    "subs": [
+      {
+        "f": "Na₂CO₃",
+        "name": "碳酸钠（纯碱/苏打）",
+        "nameEn": "Sodium carbonate (soda ash)",
+        "note": "与酸反应放气。",
+        "noteEn": "Reacts with acid releasing gas.",
+        "role": "l"
+      },
+      {
+        "f": "2HCl",
+        "name": "稀盐酸",
+        "nameEn": "Dilute hydrochloric acid",
+        "note": "提供 H⁺。",
+        "noteEn": "Supplies H⁺.",
+        "role": "l"
+      },
+      {
+        "f": "2NaCl",
+        "name": "氯化钠",
+        "nameEn": "Sodium chloride",
+        "note": "中和生成。",
+        "noteEn": "Formed by neutralization.",
+        "role": "r"
+      },
+      {
+        "f": "CO₂↑",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "大量放气，泡沫灭火器原理之一。",
+        "noteEn": "Vigorous effervescence; underlies foam extinguishers.",
+        "role": "r"
+      }
+    ],
+    "icon": "🫧",
+    "term": "碳酸钠与盐酸",
+    "termEn": "Na₂CO₃ + HCl",
+    "oneLiner": "碳酸钠与盐酸反应放出二氧化碳。",
+    "oneLinerEn": "Sodium carbonate reacts with HCl, releasing CO₂.",
+    "eq": { "lhs": "Na₂CO₃ + 2HCl", "rhs": "2NaCl + H₂O + CO₂↑" },
+    "detail": "泡沫灭火器原理之一，产生大量 CO₂。",
+    "detailEn": "Underlies foam extinguishers, releasing much CO₂.",
+    "tags": ["复分解"],
+    "tagsEn": ["Double"]
+  },
+  {
+    "id": "eq-cao",
+    "subs": [
+      {
+        "f": "CaO",
+        "name": "生石灰（白色固体）",
+        "nameEn": "Quicklime (white solid)",
+        "note": "与水剧烈化合。",
+        "noteEn": "Reacts vigorously with water.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "与生石灰化合。",
+        "noteEn": "Combines with quicklime.",
+        "role": "l"
+      },
+      {
+        "f": "Ca(OH)₂",
+        "name": "熟石灰/消石灰",
+        "nameEn": "Slaked lime",
+        "note": "反应放热，用于建筑与干燥。",
+        "noteEn": "Exothermic product; used in building and drying.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧱",
+    "term": "生石灰遇水",
+    "termEn": "CaO + Water",
+    "oneLiner": "生石灰与水化合生成熟石灰。",
+    "oneLinerEn": "Quicklime combines with water to form slaked lime.",
+    "eq": { "lhs": "CaO + H₂O", "rhs": "Ca(OH)₂" },
+    "detail": "剧烈放热，生成熟石灰，用于干燥与建筑。",
+    "detailEn": "Highly exothermic, giving slaked lime for drying and building.",
+    "tags": ["化合"],
+    "tagsEn": ["Synthesis"]
+  },
+  {
+    "id": "eq-limewater",
+    "subs": [
+      {
+        "f": "CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "待检验的气体。",
+        "noteEn": "The gas being tested.",
+        "role": "l"
+      },
+      {
+        "f": "Ca(OH)₂",
+        "name": "澄清石灰水（氢氧化钙溶液）",
+        "nameEn": "Limewater (calcium hydroxide solution)",
+        "note": "检验试剂。",
+        "noteEn": "The testing reagent.",
+        "role": "l"
+      },
+      {
+        "f": "CaCO₃↓",
+        "name": "碳酸钙（白色沉淀）",
+        "nameEn": "Calcium carbonate (white precipitate)",
+        "note": "使溶液变浑浊，CO₂ 的特征现象。",
+        "noteEn": "Clouds the solution; the signature test for CO₂.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "反应生成。",
+        "noteEn": "Formed in the reaction.",
+        "role": "r"
+      }
+    ],
+    "icon": "🥛",
+    "term": "二氧化碳使石灰水变浑浊",
+    "termEn": "CO₂ Turns Limewater Cloudy",
+    "oneLiner": "二氧化碳通入澄清石灰水生成白色沉淀。",
+    "oneLinerEn": "Carbon dioxide turns limewater cloudy with a white precipitate.",
+    "eq": { "lhs": "CO₂ + Ca(OH)₂", "rhs": "CaCO₃↓ + H₂O" },
+    "detail": "实验室检验 CO₂ 的特征反应；过量 CO₂ 会使沉淀溶解生成 Ca(HCO₃)₂。",
+    "detailEn": "The textbook test for CO₂; excess CO₂ redissolves the precipitate.",
+    "tags": ["检验"],
+    "tagsEn": ["Test"]
+  },
+  {
+    "id": "eq-rust",
+    "subs": [
+      {
+        "f": "4Fe",
+        "name": "铁",
+        "nameEn": "Iron",
+        "note": "被腐蚀的金属。",
+        "noteEn": "The metal being corroded.",
+        "role": "l"
+      },
+      {
+        "f": "3O₂",
+        "name": "氧气（空气）",
+        "nameEn": "Oxygen (from air)",
+        "note": "发生吸氧腐蚀。",
+        "noteEn": "Drives oxygen-absorption corrosion.",
+        "role": "l"
+      },
+      {
+        "f": "xH₂O",
+        "name": "水（潮湿环境）",
+        "nameEn": "Water (moist conditions)",
+        "note": "形成电解质膜，促成电化学腐蚀。",
+        "noteEn": "Forms an electrolyte film enabling electrochemical corrosion.",
+        "role": "l"
+      },
+      {
+        "f": "2Fe₂O₃·xH₂O",
+        "name": "铁锈（红棕色疏松固体）",
+        "nameEn": "Rust (flaky reddish-brown solid)",
+        "note": "主要成分为氧化铁水合物，疏松不能保护内部铁。",
+        "noteEn": "Hydrated iron(III) oxide; porous, so it cannot protect the metal beneath.",
+        "role": "r"
+      }
+    ],
+    "icon": "🟥",
+    "term": "铁生锈（吸氧腐蚀）",
+    "termEn": "Iron Rusting",
+    "oneLiner": "铁在潮湿空气中发生吸氧腐蚀生锈。",
+    "oneLinerEn": "Iron corrodes in moist air (oxygen absorption).",
+    "eq": { "lhs": "4Fe + 3O₂ + xH₂O", "rhs": "2Fe₂O₃·xH₂O" },
+    "detail": "潮湿空气中铁发生电化学腐蚀，生成疏松的红棕色铁锈。",
+    "detailEn": "In moist air iron undergoes electrochemical corrosion into flaky rust.",
+    "tags": ["腐蚀"],
+    "tagsEn": ["Corrosion"]
+  },
+  {
+    "id": "eq-bacl2",
+    "subs": [
+      {
+        "f": "BaCl₂",
+        "name": "氯化钡溶液",
+        "nameEn": "Barium chloride solution",
+        "note": "提供 Ba²⁺。",
+        "noteEn": "Supplies Ba²⁺.",
+        "role": "l"
+      },
+      {
+        "f": "H₂SO₄",
+        "name": "硫酸（含 SO₄²⁻）",
+        "nameEn": "Sulfuric acid (contains SO₄²⁻)",
+        "note": "待检验对象。",
+        "noteEn": "The species being tested.",
+        "role": "l"
+      },
+      {
+        "f": "BaSO₄↓",
+        "name": "硫酸钡（白色沉淀）",
+        "nameEn": "Barium sulfate (white precipitate)",
+        "note": "不溶于稀硝酸，SO₄²⁻ 的特征检验。",
+        "noteEn": "Insoluble in dilute nitric acid; the signature test for SO₄²⁻.",
+        "role": "r"
+      },
+      {
+        "f": "2HCl",
+        "name": "盐酸",
+        "nameEn": "Hydrochloric acid",
+        "note": "同时生成。",
+        "noteEn": "Formed alongside.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧂",
+    "term": "氯化钡检验硫酸根",
+    "termEn": "Test Sulfate with BaCl₂",
+    "oneLiner": "氯化钡与硫酸生成白色硫酸钡沉淀。",
+    "oneLinerEn": "Barium chloride gives a white BaSO₄ precipitate with sulfuric acid.",
+    "eq": { "lhs": "BaCl₂ + H₂SO₄", "rhs": "BaSO₄↓ + 2HCl" },
+    "detail": "生成不溶于稀硝酸的白色 BaSO₄ 沉淀，用于检验 SO₄²⁻。",
+    "detailEn": "White BaSO₄ precipitate insoluble in dilute nitric acid signals SO₄²⁻.",
+    "tags": ["检验"],
+    "tagsEn": ["Test"]
+  },
+  {
+    "id": "eq-nahco3",
+    "subs": [
+      {
+        "f": "2NaHCO₃",
+        "name": "碳酸氢钠（小苏打）",
+        "nameEn": "Sodium bicarbonate (baking soda)",
+        "note": "受热分解。",
+        "noteEn": "Decomposes on heating.",
+        "role": "l"
+      },
+      {
+        "f": "Na₂CO₃",
+        "name": "碳酸钠（纯碱）",
+        "nameEn": "Sodium carbonate (soda ash)",
+        "note": "残留固体。",
+        "noteEn": "Residual solid.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "反应生成。",
+        "noteEn": "Formed in the reaction.",
+        "role": "r"
+      },
+      {
+        "f": "CO₂↑",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "使面团疏松膨大，膨松剂原理。",
+        "noteEn": "Aerates dough; the leavening principle.",
+        "role": "r"
+      }
+    ],
+    "icon": "🫧",
+    "term": "碳酸氢钠受热分解",
+    "termEn": "NaHCO₃ Decomposition",
+    "oneLiner": "碳酸氢钠受热分解放出二氧化碳。",
+    "oneLinerEn": "Sodium bicarbonate decomposes on heating, releasing CO₂.",
+    "eq": {
+      "lhs": "2NaHCO₃",
+      "cond": "加热 △",
+      "condEn": "heat Δ",
+      "rhs": "Na₂CO₃ + H₂O + CO₂↑"
+    },
+    "detail": "焙制糕点常用作膨松剂，受热放出 CO₂ 使面团疏松。",
+    "detailEn": "A leavening agent; heating releases CO₂ that aerates dough.",
+    "tags": ["分解"],
+    "tagsEn": ["Decomposition"]
+  }
+]

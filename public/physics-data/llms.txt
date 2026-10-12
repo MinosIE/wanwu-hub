@@ -1,0 +1,26 @@
+# 万物物理
+
+> 从基本定律、常数到关键实验与物理学家，看见支配宇宙运行的简洁秩序。
+
+共 130 条 / 16 类，全部为结构化 JSON。
+
+## 数据入口
+- [天体与宇宙](https://minosie.github.io/wanwu-hub/physics-data/data/astronomy.json)
+- [原子物理与原子核](https://minosie.github.io/wanwu-hub/physics-data/data/atomic.json)
+- [关键常数](https://minosie.github.io/wanwu-hub/physics-data/data/constants.json)
+- [电磁学](https://minosie.github.io/wanwu-hub/physics-data/data/em.json)
+- [著名实验](https://minosie.github.io/wanwu-hub/physics-data/data/experiments.json)
+- [压强与浮力](https://minosie.github.io/wanwu-hub/physics-data/data/fluids.json)
+- [名词词典](https://minosie.github.io/wanwu-hub/physics-data/data/glossary.json)
+- [运动与力学](https://minosie.github.io/wanwu-hub/physics-data/data/mechanics.json)
+- [物理方法与单位制](https://minosie.github.io/wanwu-hub/physics-data/data/methods.json)
+- [光学](https://minosie.github.io/wanwu-hub/physics-data/data/optics.json)
+- [概览与计数](https://minosie.github.io/wanwu-hub/physics-data/data/overview.json)
+- [物理学家](https://minosie.github.io/wanwu-hub/physics-data/data/physicists.json)
+- [相对论](https://minosie.github.io/wanwu-hub/physics-data/data/relativity.json)
+- [声学](https://minosie.github.io/wanwu-hub/physics-data/data/sound.json)
+- [参考资料](https://minosie.github.io/wanwu-hub/physics-data/data/sources.json)
+- [物理与现代技术](https://minosie.github.io/wanwu-hub/physics-data/data/tech.json)
+- [热学](https://minosie.github.io/wanwu-hub/physics-data/data/thermal.json)
+- [机械振动与波](https://minosie.github.io/wanwu-hub/physics-data/data/waves.json)
+- [页面](https://minosie.github.io/wanwu-hub/subject/physics/)

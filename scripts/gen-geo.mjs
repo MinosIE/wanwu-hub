@@ -1,5 +1,5 @@
 // 统一站 GEO 生成器（路径式 URL，minosie 主机）：
-//  1) 为 thought / earth / life 生成各自的 llms.txt / llms-en.txt / robots.txt / sitemap.xml
+//  1) 为 thought / earth / life / physics / chem 生成各自的 llms.txt / llms-en.txt / robots.txt / sitemap.xml
 //     （dynasty 由 scripts/dynasty/build-geo.mjs 负责；econ / mind 为人工精修，仅做 URL 修正，不在本脚本覆盖）
 //  2) 生成站点根 hub 的 llms.txt / llms-en.txt / robots.txt，索引全部学科。
 // 用法：node scripts/gen-geo.mjs
@@ -22,8 +22,9 @@ const DATA_BACKED = new Set(
   ).map((s) => s.key),
 );
 
-// 由本脚本负责生成 llms 的学科（dynasty 自有 build-geo；econ/mind 为人工精修）
-const SCAFFOLD = ["thought", "earth", "life"];
+// 由本脚本负责生成 llms 的学科：scaffold 三科 + 轻量两科（physics/chem 的数据由 export-data 导出）
+// （dynasty 自有 build-geo；econ / mind 为人工精修）
+const SCAFFOLD = ["thought", "earth", "life", "physics", "chem"];
 // 标语直接复用 subjects.json 的 descZh/descEn，避免再维护一份文案
 const TAG = Object.fromEntries(
   SCAFFOLD.map((key) => {
@@ -37,12 +38,22 @@ const LABEL = {
   questions: { cn: "核心问题", en: "Core questions" },
   classics: { cn: "经典著作", en: "Classics" },
   thinkers: { cn: "思想家", en: "Thinkers" },
+  branches: { cn: "分支 / 机制", en: "Branches & mechanisms" },
+  principles: { cn: "原理", en: "Principles" },
+  humanGeo: { cn: "人文地理", en: "Human geography" },
+  glossary: { cn: "术语表", en: "Glossary" },
+  timeline: { cn: "时间线", en: "Timeline" },
+  experiments: { cn: "思想实验", en: "Thought experiments" },
+  compare: { cn: "中西对照", en: "East-West comparisons" },
+  myths: { cn: "常见误区", en: "Common misreadings" },
   sources: { cn: "参考资料", en: "References" },
   search: { cn: "搜索索引", en: "Search index" },
   related: { cn: "相关条目索引", en: "Related index" },
   endemics: { cn: "特有物种", en: "Endemic species" },
 };
-const labelOf = (stem, lang) => (LABEL[stem] ? LABEL[stem][lang] : stem);
+
+/** 文件名（kebab）→ LABEL 键（camel）：human-geo.json → humanGeo。 */
+const stemKey = (stem) => stem.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
 
 function dataFiles(key) {
   const dir = path.join(PUB, `${key}-data`, "data");
@@ -53,11 +64,58 @@ function dataFiles(key) {
     .sort();
 }
 
+/** 读取 overview.json（不存在或解析失败返回空对象）。 */
+function overviewOf(key) {
+  const file = path.join(PUB, `${key}-data`, "data", "overview.json");
+  try {
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+/**
+ * 数据入口清单：标签优先取 overview.modules（physics/chem 由 data.ts 导出，带中英标题），
+ * 其次 LABEL 表，最后用文件名本身。
+ */
+function dataEntries(key, ov) {
+  const titles = new Map(
+    (ov.modules ?? []).map((m) => [m.key, { cn: m.title, en: m.titleEn }]),
+  );
+  return dataFiles(key).map((f) => {
+    const name = path.basename(f, ".json");
+    const stem = stemKey(name);
+    // overview.modules 用原始模块 key（kebab），LABEL 表用 camel 键，两边都试。
+    const t = titles.get(name) ??
+      titles.get(stem) ??
+      LABEL[stem] ??
+      LABEL[name] ?? {
+        cn: stem,
+        en: stem,
+      };
+    return { f, cn: t.cn || stem, en: t.en || stem };
+  });
+}
+
+/** 规模行：overview.counts 存在时给出条目与分类数。 */
+function scaleOf(ov, lang) {
+  const counts = ov.counts ?? {};
+  const keys = Object.keys(counts);
+  if (!keys.length) return "";
+  const total = keys.reduce((n, k) => n + (Number(counts[k]) || 0), 0);
+  return lang === "cn"
+    ? `共 ${total} 条 / ${keys.length} 类，全部为结构化 JSON。`
+    : `${total} entries across ${keys.length} categories, all as structured JSON.`;
+}
+
 // ---------- 1) scaffold 学科：per-subject GEO ----------
 for (const key of SCAFFOLD) {
   const meta = ALL.find((x) => x.key === key);
   const dir = path.join(PUB, `${key}-data`);
-  const files = dataFiles(key);
+  const ov = overviewOf(key);
+  const files = dataEntries(key, ov);
+  const scale = scaleOf(ov, "cn");
+  const scaleEn = scaleOf(ov, "en");
   const base = `${SITE}${key}-data/`;
 
   const zh = [
@@ -65,11 +123,9 @@ for (const key of SCAFFOLD) {
     "",
     `> ${TAG[key].cn}`,
     "",
+    ...(scale ? [scale, ""] : []),
     "## 数据入口",
-    ...files.map(
-      (f) =>
-        `- [${labelOf(path.basename(f, ".json"), "cn")}](${base}data/${f})`,
-    ),
+    ...files.map((e) => `- [${e.cn}](${base}data/${e.f})`),
     `- [页面](${SITE}subject/${key}/)`,
     "",
   ].join("\n");
@@ -80,11 +136,9 @@ for (const key of SCAFFOLD) {
     "",
     `> ${TAG[key].en}`,
     "",
+    ...(scaleEn ? [scaleEn, ""] : []),
     "## Data endpoints",
-    ...files.map(
-      (f) =>
-        `- [${labelOf(path.basename(f, ".json"), "en")}](${base}data/${f})`,
-    ),
+    ...files.map((e) => `- [${e.en}](${base}data/${e.f})`),
     `- [Page](${SITE}subject/${key}/)`,
     `- [Chinese index](${base}llms.txt)`,
     "",
@@ -101,8 +155,8 @@ for (const key of SCAFFOLD) {
     `<url><loc>${base}llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>`,
     `<url><loc>${base}llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>`,
     ...files.map(
-      (f) =>
-        `<url><loc>${base}data/${f}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`,
+      (e) =>
+        `<url><loc>${base}data/${e.f}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`,
     ),
   ];
   fs.writeFileSync(

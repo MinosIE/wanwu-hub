@@ -109,6 +109,67 @@ for (const t of thinkers) add(t.id, "m-thinkers", t.name, t.nameEn);
 for (const p of principles) add(p.id, "m-principles", p.title, p.titleEn);
 for (const b of branches) add(b.id, "m-branches", b.title, b.titleEn);
 for (const h of humanGeo) add(h.id, "m-human-geo", h.title, h.titleEn);
+// thought 阶段 C 新增的五类视图（术语 / 时间线 / 思想实验 / 中西对比 / 误区）与
+// life 的中国特有物种：字段名各异，故用规格表驱动；文件不存在即跳过，互不影响。
+const EXTRA = [
+  {
+    file: "endemics.json",
+    m: "m-endemics",
+    t: "search.t.endemic",
+    name: "name",
+    text: "oneLiner",
+  },
+  {
+    file: "glossary.json",
+    m: "m-glossary",
+    t: "search.t.term",
+    name: "term",
+    text: "def",
+  },
+  {
+    file: "timeline.json",
+    m: "m-timeline",
+    t: "search.t.event",
+    name: "term",
+    text: "oneLiner",
+  },
+  {
+    file: "experiments.json",
+    m: "m-experiments",
+    t: "search.t.experiment",
+    name: "title",
+    text: "lead",
+  },
+  {
+    file: "compare.json",
+    m: "m-compare",
+    t: "search.t.comparison",
+    name: "title",
+    text: "lead",
+  },
+  {
+    file: "myths.json",
+    m: "m-myths",
+    t: "search.t.myth",
+    name: "term",
+    text: "truth",
+  },
+];
+for (const spec of EXTRA) {
+  if (!fs.existsSync(path.join(D, spec.file))) continue;
+  for (const it of read(spec.file)) {
+    search.push({
+      m: spec.m,
+      id: it.id,
+      t: spec.t,
+      n: it[spec.name],
+      x: it[spec.text],
+      nEn: it[spec.name + "En"],
+      xEn: it[spec.text + "En"],
+    });
+    add(it.id, spec.m, it[spec.name], it[spec.name + "En"]);
+  }
+}
 fs.writeFileSync(path.join(D, "search.json"), JSON.stringify(search) + "\n");
 fs.writeFileSync(
   path.join(D, "related.json"),
