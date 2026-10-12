@@ -144,7 +144,9 @@
         border-radius: 20px;
         overflow: hidden;
       }
-      .lang-btn {
+      /* 顶栏控件：选择器必须带 .toolbar 前缀，否则会把圆按钮 / 胶囊样式泄进学科内容
+         （学科 hero 里的 .theme-btn / .lang-btn 与顶栏同名） */
+      .toolbar .lang-btn {
         background: transparent;
         border: none;
         color: var(--muted);
@@ -153,12 +155,12 @@
         cursor: pointer;
         transition: all 0.2s;
       }
-      .lang-btn.active {
+      .toolbar .lang-btn.active {
         background: var(--accent);
         color: #fff;
         font-weight: 600;
       }
-      .theme-btn {
+      .toolbar .theme-btn {
         background: transparent;
         border: 1px solid var(--border);
         border-radius: 50%;
@@ -169,7 +171,7 @@
         line-height: 1;
         transition: all 0.2s;
       }
-      .theme-btn:hover {
+      .toolbar .theme-btn:hover {
         border-color: var(--accent);
       }
       .subjects-menu {
@@ -627,8 +629,9 @@
         padding-left: 24px;
         padding-right: 24px;
       }
-      /* 学科 hero 内自带的语言/主题按钮已桥接到主应用状态（src/core/viewControls.ts），
-         与顶栏同源，因此不再隐藏；dynasty 无此类按钮，其规则留在 dynasty.css 中。 */
+      /* 顶栏是语言 / 主题的唯一切换入口：各学科 hero 内的按钮已从模板里移除，
+         仅中华王朝保留（深色渐变上的玻璃胶囊），点击经 src/core/viewControls.ts
+         桥接到主应用状态，与顶栏同源。 */
       /* 首页返回顶部按钮（与学科页 to-top 行为一致） */
       .to-top-home {
         position: fixed;
@@ -724,10 +727,10 @@
         .subjects-panel {
           top: calc(100% + 6px);
         }
-        .lang-btn {
+        .toolbar .lang-btn {
           padding: 5px 11px;
         }
-        .theme-btn {
+        .toolbar .theme-btn {
           width: 34px;
           height: 34px;
           flex: 0 0 auto;

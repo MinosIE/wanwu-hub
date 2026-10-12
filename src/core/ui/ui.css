@@ -92,7 +92,8 @@
   color: #fff;
   overflow: hidden;
 }
-.subject-root .hero > *:not(.icon-btn) {
+/* hero 内不再放语言 / 主题按钮（由主应用顶栏统一提供），因此子元素全部参与居中流 */
+.subject-root .hero > * {
   position: relative;
   z-index: 1;
 }
@@ -175,35 +176,6 @@
   transform: translateY(-1px);
 }
 
-.subject-root .icon-btn {
-  position: absolute;
-  top: 16px;
-  height: 38px;
-  padding: 0 14px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.26);
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 600;
-  white-space: nowrap;
-  cursor: pointer;
-  backdrop-filter: blur(4px);
-  transition: 0.2s;
-  z-index: 5;
-}
-.subject-root .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.22);
-  transform: translateY(-1px);
-}
-.subject-root .theme-btn {
-  right: 16px;
-}
-.subject-root .lang-btn {
-  left: 16px;
-}
-
 /* ---------------- hero KPI ---------------- */
 .subject-root .kpis {
   display: grid;
@@ -220,14 +192,7 @@
 @media (max-width: 560px) {
   .subject-root .hero {
     margin-inline: -14px;
-    padding: 56px 18px 36px;
-  }
-  /* 窄屏下 hero 按钮收紧，避免与标题重叠 */
-  .subject-root .icon-btn {
-    top: 10px;
-    height: 30px;
-    padding: 0 10px;
-    font-size: 12px;
+    padding: 40px 18px 36px;
   }
   .subject-root .kpis {
     grid-template-columns: repeat(2, minmax(0, 1fr));

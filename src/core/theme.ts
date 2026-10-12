@@ -47,7 +47,7 @@ export function onThemeChange(cb: (t: Theme) => void): () => void {
 
 // 主题切换按钮的图标随语言刷新
 onLangChange(() => {
-  const btn = document.getElementById("themeBtn");
+  const btn = document.querySelector<HTMLElement>("header #themeBtn");
   if (btn) {
     const t = getTheme();
     btn.textContent = t === "dark" ? "☀️" : "🌙";

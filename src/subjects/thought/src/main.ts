@@ -9,7 +9,6 @@ import {
   getLang,
   initLang,
   onLangChange,
-  setLang,
   setI18nRoot,
   t,
 } from "./core/i18n";
@@ -328,18 +327,7 @@ export function boot(root: ParentNode = document): void {
     }
   });
 
-  // 语言切换按钮：按钮文案 = 点击后切换到的语言
-  const langBtn = need("#langBtn");
-  const label = need("#langLabel");
-  const syncLangLabel = () => {
-    label.textContent = getLang() === "zh" ? "EN" : "中文";
-    langBtn.setAttribute("title", t("langLabel"));
-  };
-  syncLangLabel();
-  langBtn.addEventListener("click", () =>
-    setLang(getLang() === "zh" ? "en" : "zh"),
-  );
-  onLangChange(syncLangLabel);
+  // hero 内不再放语言/主题按钮：切换统一由主应用顶栏提供（src/core/layout.ts）。
 
   // 标题 / 描述 / 语言属性随语言切换
   onLangChange(() => {

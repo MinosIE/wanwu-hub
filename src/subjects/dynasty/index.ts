@@ -1,5 +1,6 @@
 import { getLang, onLangChange } from "../../core/i18n";
 import { getTheme, onThemeChange } from "../../core/theme";
+import { bridgeViewControls } from "../../core/viewControls";
 import "./dynasty.css";
 import { TEMPLATE } from "./template";
 import { DYNASTY_SCRIPT } from "./logic";
@@ -107,9 +108,13 @@ export async function mount(view: HTMLElement): Promise<() => void> {
     if (setLangFn) setLangFn(l);
   });
   const offTheme = onThemeChange(applyTheme);
+  // 中华王朝是全站唯一在 hero 里保留语言 / 主题按钮的学科，
+  // 把它绑到主应用状态源，避免「视图换了、顶栏没换」。
+  const offCtl = bridgeViewControls(view);
 
   return () => {
     offLang();
     offTheme();
+    offCtl();
   };
 }

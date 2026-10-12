@@ -26,23 +26,26 @@ export function renderLayout(app: HTMLElement): void {
 
   const syncLang = () => {
     document
-      .querySelectorAll<HTMLButtonElement>(".lang-btn")
+      .querySelectorAll<HTMLButtonElement>("header .lang-btn")
       .forEach((b) =>
         b.classList.toggle("active", b.dataset.lang === getLang()),
       );
   };
   const syncTheme = () => {
-    const btn = document.getElementById("themeBtn");
+    // 用 header 作用域取按钮：dynasty 的 hero 里也有一个同 id 的 #themeBtn
+    const btn = document.querySelector<HTMLElement>("header #themeBtn");
     if (btn) btn.textContent = getTheme() === "dark" ? "☀️" : "🌙";
   };
 
-  document.querySelectorAll<HTMLButtonElement>(".lang-btn").forEach((b) =>
-    b.addEventListener("click", () =>
-      setLang(b.dataset.lang === "en" ? "en" : "zh"),
-    ),
-  );
   document
-    .getElementById("themeBtn")
+    .querySelectorAll<HTMLButtonElement>("header .lang-btn")
+    .forEach((b) =>
+      b.addEventListener("click", () =>
+        setLang(b.dataset.lang === "en" ? "en" : "zh"),
+      ),
+    );
+  document
+    .querySelector<HTMLElement>("header #themeBtn")
     ?.addEventListener("click", () => toggleTheme());
 
   syncLang();
@@ -53,15 +56,26 @@ export function renderLayout(app: HTMLElement): void {
 
   // 学科下拉菜单：跨科导航，列表随语言刷新
   const subjectsPanel = app.querySelector<HTMLElement>(".subjects-panel");
-  const subjectsToggle = app.querySelector<HTMLButtonElement>(".subjects-toggle");
+  const subjectsToggle =
+    app.querySelector<HTMLButtonElement>(".subjects-toggle");
   let currentKey: string | null = null;
   const applyCurrent = () => {
     const lbl = document.getElementById("subjToggleLabel");
     const p = currentKey ? PROJECTS.find((x) => x.key === currentKey) : null;
-    if (lbl) lbl.textContent = p ? (getLang() === "en" ? p.en : p.zh) : t("nav_subjects");
-    subjectsPanel?.querySelectorAll<HTMLElement>(".subject-item").forEach((a) =>
-      a.classList.toggle("current", a.getAttribute("href") === `#/subject/${currentKey}`),
-    );
+    if (lbl)
+      lbl.textContent = p
+        ? getLang() === "en"
+          ? p.en
+          : p.zh
+        : t("nav_subjects");
+    subjectsPanel
+      ?.querySelectorAll<HTMLElement>(".subject-item")
+      .forEach((a) =>
+        a.classList.toggle(
+          "current",
+          a.getAttribute("href") === `#/subject/${currentKey}`,
+        ),
+      );
   };
   const renderSubjects = () => {
     if (!subjectsPanel) return;
@@ -89,10 +103,12 @@ export function renderLayout(app: HTMLElement): void {
     setSubjectsOpen(subjectsPanel ? subjectsPanel.hidden : true);
   });
   subjectsPanel?.addEventListener("click", (e) => {
-    if ((e.target as HTMLElement).closest(".subject-item")) setSubjectsOpen(false);
+    if ((e.target as HTMLElement).closest(".subject-item"))
+      setSubjectsOpen(false);
   });
   document.addEventListener("click", (e) => {
-    if (!app.querySelector(".subjects-menu")?.contains(e.target as Node)) setSubjectsOpen(false);
+    if (!app.querySelector(".subjects-menu")?.contains(e.target as Node))
+      setSubjectsOpen(false);
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") setSubjectsOpen(false);

@@ -1,20 +1,5 @@
 export const TEMPLATE = `<div class="wrap">
-      <section class="hero">
-        <button
-          class="icon-btn theme-btn"
-          id="themeBtn"
-          aria-label="切换明暗主题"
-        >
-          <span id="themeLabel">夜间</span>
-        </button>
-        <button
-          class="icon-btn lang-btn"
-          id="langBtn"
-          aria-label="切换语言 Switch language"
-        >
-          <span id="langLabel">中文</span>
-        </button>
-        <h1 data-i18n="heroTitle">万物哲学 · Thought of Everything</h1>
+      <section class="hero">  <h1 data-i18n="heroTitle">万物哲学 · Thought of Everything</h1>
         <p data-i18n="heroSub">
           从孔子到康德，从庄子到波伏瓦——把东西方的思想长河，讲成看得懂的常识。中立、结构化、中英双语、免费无广告。
         </p>

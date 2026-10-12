@@ -1,6 +1,5 @@
 import "./subjectKit.css";
-import { getLang, onLangChange, setLang } from "../core/i18n";
-import { getTheme, onThemeChange, toggleTheme } from "../core/theme";
+import { getLang, onLangChange } from "../core/i18n";
 
 export type LStr = { zh: string; en: string };
 
@@ -38,10 +37,6 @@ const TXT = {
     en: "Nothing at this level yet",
   },
   noResult: { zh: "未找到匹配项", en: "No matches" },
-  theme: { zh: "切换明暗主题", en: "Toggle theme" },
-  lang: { zh: "切换语言 Switch language", en: "Switch language 切换语言" },
-  toDark: { zh: "夜间", en: "Dark" },
-  toLight: { zh: "日间", en: "Light" },
 };
 const fill = (tpl: LStr, n: number): string => L(tpl).replace("{n}", String(n));
 
@@ -369,21 +364,16 @@ function refsInner(refs: SubjectRef[]): string {
     <ul class="ref-list">${items}</ul>`;
 }
 
-/** hero 内的语言 / 主题按钮：文案描述「点击后会切到」的目标，行为走主应用状态（与顶栏同源）。 */
-const viewControlsHTML = (): string => {
-  const langName = getLang() === "zh" ? "EN" : "中文";
-  const themeName = L(getTheme() === "dark" ? TXT.toLight : TXT.toDark);
-  return `<button class="icon-btn theme-btn" type="button" data-ctl="theme" aria-label="${esc(L(TXT.theme))}" title="${esc(themeName)}"><span>${esc(themeName)}</span></button>
-        <button class="icon-btn lang-btn" type="button" data-ctl="lang" aria-label="${esc(L(TXT.lang))}" title="${esc(L(TXT.lang))}"><span>${esc(langName)}</span></button>`;
-};
-
+/**
+ * 轻量学科的通用外壳。语言与主题都不在这里切换 —— 全站唯一入口是主应用顶栏
+ * （src/core/layout.ts），本模块只通过 onLangChange 重渲染文案。
+ */
 export function createSubject(cfg: SubjectConfig) {
   return async (view: HTMLElement, sub?: string): Promise<() => void> => {
     const hasRefs = !!(cfg.refs && cfg.refs.length);
     view.innerHTML = `<div class="${cfg.rootClass} subject-root" style="--accent:${cfg.accent};--hero:linear-gradient(155deg, color-mix(in srgb, ${cfg.accent} 72%, #06121a), color-mix(in srgb, ${cfg.accent} 40%, #06121a))">
       <div class="wrap">
         <section class="hero">
-          ${viewControlsHTML()}
           <h1>${esc(heroTitleText(cfg.heroTitle))}</h1>
           ${cfg.heroSub ? `<p class="hero-tag">${esc(L(cfg.heroSub))}</p>` : ""}
           ${cfg.intro ? `<p class="hero-sub">${esc(L(cfg.intro))}</p>` : ""}
@@ -530,30 +520,6 @@ export function createSubject(cfg: SubjectConfig) {
       });
     };
 
-    /** hero 内两枚按钮的文案（描述「点击后会切到」的目标），与顶栏共用同一状态源。 */
-    const syncControls = (): void => {
-      const langBtn = root.querySelector<HTMLElement>('[data-ctl="lang"]');
-      if (langBtn) {
-        const name = getLang() === "zh" ? "EN" : "中文";
-        langBtn.innerHTML = `<span>${esc(name)}</span>`;
-        langBtn.setAttribute("title", L(TXT.lang));
-      }
-      const themeBtn = root.querySelector<HTMLElement>('[data-ctl="theme"]');
-      if (themeBtn) {
-        const name = L(getTheme() === "dark" ? TXT.toLight : TXT.toDark);
-        themeBtn.innerHTML = `<span>${esc(name)}</span>`;
-        themeBtn.setAttribute("title", name);
-      }
-    };
-    root
-      .querySelector<HTMLElement>('[data-ctl="lang"]')
-      ?.addEventListener("click", () =>
-        setLang(getLang() === "zh" ? "en" : "zh"),
-      );
-    root
-      .querySelector<HTMLElement>('[data-ctl="theme"]')
-      ?.addEventListener("click", () => toggleTheme());
-
     cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
 
     root.querySelectorAll<HTMLElement>(".mod").forEach((btn) => {
@@ -648,7 +614,6 @@ export function createSubject(cfg: SubjectConfig) {
           en: "Search: concepts / terms / keywords…",
         });
       if (!resultsEl.hidden) onSearch();
-      syncControls();
       const refsEl = root.querySelector<HTMLElement>("#refs");
       if (refsEl && cfg.refs && cfg.refs.length)
         refsEl.innerHTML = refsInner(cfg.refs);
@@ -671,11 +636,8 @@ export function createSubject(cfg: SubjectConfig) {
       }
     }
 
-    const offTheme = onThemeChange(syncControls);
-
     return () => {
       offLang();
-      offTheme();
       window.removeEventListener("scroll", onScroll);
       closeDetail();
     };

@@ -63,11 +63,8 @@
   margin: 0;
   padding: 0;
 }
-/* 站内模式：隐藏 dynasty 自带的语言/主题按钮（沿用 wanwu 顶栏） */
-.dynasty-root .theme-btn,
-.dynasty-root .lang-btn {
-  display: none !important;
-}
+/* 中华王朝保留 hero 内的语言 / 主题按钮（深色渐变上的玻璃胶囊），
+   点击已由 src/core/viewControls.ts 桥接到主应用状态，与顶栏同源。 */
 .dynasty-root {
   font-family:
     -apple-system, "PingFang SC", "Microsoft YaHei", Helvetica, Arial,
@@ -93,6 +90,7 @@
   top: 18px;
   right: 18px;
   z-index: 5;
+  width: auto;
   height: 40px;
   padding: 0 15px;
   border-radius: 999px;
@@ -101,6 +99,7 @@
   color: #fff;
   font-size: 13px;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
   backdrop-filter: blur(4px);
   display: inline-flex;
@@ -118,6 +117,7 @@
   top: 18px;
   left: 18px;
   z-index: 5;
+  width: auto;
   height: 40px;
   padding: 0 14px;
   border-radius: 999px;
@@ -126,6 +126,7 @@
   color: #fff;
   font-size: 13px;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
   backdrop-filter: blur(4px);
   display: inline-flex;
@@ -154,7 +155,8 @@
   color: #fff;
   overflow: hidden;
 }
-.dynasty-root .hero > *:not(.icon-btn) {
+/* 角落两枚按钮保持绝对定位，其余内容参与居中流式排布 */
+.dynasty-root .hero > *:not(.icon-btn):not(.theme-btn):not(.lang-btn) {
   position: relative;
   z-index: 1;
 }

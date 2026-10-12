@@ -1,33 +1,45 @@
 import { getLang, onLangChange, setLang } from "./i18n";
 import { getTheme, onThemeChange, toggleTheme } from "./theme";
 
+/** 主题按钮文案：描述「点击后会切到」的目标，与学科自带逻辑的语义一致 */
+const TXT: Record<"zh" | "en", Record<string, string>> = {
+  zh: {
+    lang: "切换语言 / Switch language",
+    dark: "🌙 夜间",
+    light: "☀️ 日间",
+  },
+  en: {
+    lang: "Switch language",
+    dark: "🌙 Night",
+    light: "☀️ Day",
+  },
+};
+
 /**
- * 学科视图 hero 内自带的语言 / 主题按钮（`#langBtn` / `#themeBtn`）与顶栏统一状态源。
+ * 把学科 hero 内自带的语言 / 主题按钮接到主应用的状态源上。
  * ------------------------------------------------------------
- * 各学科是从独立站点移植来的，hero 里保留了自己的切换按钮；若任其调用学科内部的
- * setLang / 主题写入，就会出现「视图换了、顶栏与别的学科没换」的分叉。
- * 这里在 root 的捕获阶段拦下点击（学科自身的监听器因此不再执行），改由主应用状态驱动，
- * 学科通过挂载时建立的桥接（onLangChange / onThemeChange）自然重渲染。
+ * 顶栏是全站唯一的切换入口；只有中华王朝在 hero 里保留了这两枚按钮（深色渐变背景上的
+ * 玻璃胶囊是它的招牌样式）。移植来的学科脚本会把点击绑到按钮自身、并写自己那套
+ * localStorage（沙箱里还是内存桩），于是出现「视图换了、顶栏和别的学科没换」的分叉。
+ * 这里在捕获阶段拦下点击并阻断继续传播（学科自身的监听器因此不执行），改由 core 的
+ * setLang / toggleTheme 驱动；学科再通过挂载时建立的 onLangChange / onThemeChange 桥接
+ * 重渲染，状态与顶栏自然一致。
  *
- * @param root 学科根节点（`.xxx-root.subject-root`）
- * @param t    该学科的界面文案函数（用到 `langLabel` / `themeToDark` / `themeToLight`）
+ * @param root 学科根节点（如 `.dynasty-root`）
  * @returns    卸载时的清理函数
  */
-export function bridgeViewControls(
-  root: HTMLElement,
-  t: (key: string) => string,
-): () => void {
+export function bridgeViewControls(root: HTMLElement): () => void {
   const sync = (): void => {
+    const l = TXT[getLang()];
     const langBtn = root.querySelector<HTMLElement>("#langBtn");
-    const langLabel = root.querySelector<HTMLElement>("#langLabel");
     const themeBtn = root.querySelector<HTMLElement>("#themeBtn");
     const themeLabel = root.querySelector<HTMLElement>("#themeLabel");
-    // 按钮文案描述「点击后会切到」的目标，与顶栏的「中 / EN」高亮保持一致
-    const langName = getLang() === "zh" ? "EN" : "中文";
-    if (langLabel) langLabel.textContent = langName;
-    if (langBtn) langBtn.setAttribute("title", t("langLabel"));
-    const themeName = t(getTheme() === "dark" ? "themeToLight" : "themeToDark");
+    // 语言按钮文案交给学科自己维护（dynasty 的语义是「当前语言」，它在每次重渲染时刷新），
+    // 这里只补 title；主题按钮文案则由本模块维护，因为学科只在自身被点击时才刷新图标。
+    if (langBtn) langBtn.setAttribute("title", l.lang);
+    const themeName = getTheme() === "dark" ? l.light : l.dark;
     if (themeLabel) themeLabel.textContent = themeName;
+    else if (themeBtn) themeBtn.textContent = themeName;
     if (themeBtn) themeBtn.setAttribute("title", themeName);
   };
   const onClick = (e: Event): void => {

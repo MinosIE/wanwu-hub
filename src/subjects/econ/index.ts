@@ -1,10 +1,9 @@
 import { TEMPLATE } from "./template";
 import "./src/styles/index.css";
 import { boot, activate, setHistoryUpdate } from "./src/main";
-import { setLang as econSetLang, t } from "./src/core/i18n";
+import { setLang as econSetLang } from "./src/core/i18n";
 import { onLangChange as onMainLang } from "../../core/i18n";
 import { onThemeChange as onMainTheme, getTheme } from "../../core/theme";
-import { bridgeViewControls } from "../../core/viewControls";
 
 /**
  * 把原 econ.html 独立子应用挂载进主应用 #view，移除 iframe。
@@ -32,7 +31,6 @@ export async function mount(
     root.setAttribute("data-theme", getTheme()),
   );
   // hero 内的语言 / 主题按钮改由主应用状态驱动，避免与顶栏分叉
-  const offCtl = bridgeViewControls(root, t);
 
   // 深链：#/subject/econ/<module>/<entry> -> econ 内部模块/条目
   if (sub) {
@@ -43,6 +41,5 @@ export async function mount(
   return () => {
     offLang();
     offTheme();
-    offCtl();
   };
 }
