@@ -31,7 +31,7 @@
     "why": "地球之肺与碳库，调节全球气候；其消失会放大温室效应并带走无数未命名物种。",
     "whyEn": "Earth's lungs and carbon store; its loss amplifies warming and erases countless unnamed species.",
     "thinkers": ["brazil", "amazon", "congo"],
-    "related": ["amazon", "congo", "brazil"],
+    "related": ["amazon", "congo-basin", "brazil"],
     "sources": [{ "label": "WWF / IPCC", "year": 2023 }]
   },
   {
@@ -60,7 +60,7 @@
     "why": "既是重要牧业与碳储存区，也是人象、草食动物与掠食者共演化的舞台。",
     "whyEn": "Both a pastoral and carbon-storage zone, and the stage where herbivores, predators and humans co-evolve.",
     "thinkers": ["kenya", "sahara", "rift-valley"],
-    "related": ["kenya", "sahara", "nile"],
+    "related": ["kenya", "desert", "nile"],
     "sources": [{ "label": "UNEP / National Geographic", "year": 2021 }]
   },
   {
@@ -89,7 +89,7 @@
     "why": "占陆地约三成，却是太阳能与矿产宝库；荒漠化扩张正威胁半干旱边境。",
     "whyEn": "About a third of land, yet a treasury of solar energy and minerals; expanding desertification threatens semi-arid margins.",
     "thinkers": ["egypt", "australia", "sahara"],
-    "related": ["sahara", "suez", "outback"],
+    "related": ["egypt", "suez", "australia"],
     "sources": [{ "label": "UNCCD / USGS", "year": 2022 }]
   },
   {
@@ -118,7 +118,7 @@
     "why": "全球人口与农业核心带，也最易被城市与耕地取代，原生林残存稀少。",
     "whyEn": "The demographic and agricultural core of the world, yet most easily replaced by cities and cropland; little primary forest remains.",
     "thinkers": ["china", "usa", "indus"],
-    "related": ["great-plains", "himalaya", "ganges"],
+    "related": ["himalaya", "ganges"],
     "sources": [{ "label": "FAO / EPA", "year": 2020 }]
   },
   {
@@ -147,7 +147,7 @@
     "why": "调节全球碳与气候的关键缓冲；冻土融化可能释放巨量温室气体。",
     "whyEn": "A key buffer regulating global carbon and climate; thawing permafrost may release vast greenhouse gases.",
     "thinkers": ["russia", "siberia", "baikal"],
-    "related": ["siberia", "baikal", "volga"],
+    "related": ["russia", "baikal"],
     "sources": [{ "label": "NASA / Global Forest Watch", "year": 2023 }]
   },
   {
@@ -176,7 +176,7 @@
     "why": "对升温最敏感的生态系统之一，冻土碳释放与反照率变化反馈全球气候。",
     "whyEn": "Among the most warming-sensitive ecosystems; permafrost carbon release and albedo shifts feed back on global climate.",
     "thinkers": ["russia", "siberia", "alpine"],
-    "related": ["siberia", "baikal", "great-dividing"],
+    "related": ["russia", "baikal"],
     "sources": [{ "label": "NSIDC / IPCC", "year": 2023 }]
   },
   {
@@ -205,7 +205,7 @@
     "why": "宜居与农业价值极高，却长期面临缺水、野火与城市扩张压力。",
     "whyEn": "Highly livable and agriculturally valuable, yet long pressed by water scarcity, wildfires and sprawl.",
     "thinkers": ["egypt", "suez", "kenya"],
-    "related": ["suez", "nile", "sahara"],
+    "related": ["suez", "nile", "desert"],
     "sources": [{ "label": "NOAA / Köppen", "year": 2021 }]
   },
   {

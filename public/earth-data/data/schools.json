@@ -120,7 +120,7 @@
       "Limited arable land"
     ],
     "order": 3,
-    "related": ["nile", "sahara", "suez"],
+    "related": ["nile", "desert", "suez"],
     "sources": [{ "label": "UNESCO / CAPMAS", "year": 2022 }]
   },
   {
@@ -154,7 +154,7 @@
       "Underdeveloped Far East"
     ],
     "order": 4,
-    "related": ["siberia", "baikal", "volga"],
+    "related": ["baikal", "boreal-taiga"],
     "sources": [{ "label": "Rosstat / Britannica", "year": 2023 }]
   },
   {
@@ -222,7 +222,7 @@
       "Aging infrastructure"
     ],
     "order": 6,
-    "related": ["rockies", "mississippi", "great-plains"],
+    "related": ["rockies", "mississippi"],
     "sources": [{ "label": "US Census / USGS", "year": 2023 }]
   },
   {
@@ -256,7 +256,7 @@
       "Fragile ecology"
     ],
     "order": 7,
-    "related": ["great-barrier-reef", "outback", "great-dividing"],
+    "related": ["great-barrier-reef", "desert"],
     "sources": [{ "label": "ABS / Geoscience Australia", "year": 2023 }]
   },
   {
@@ -290,7 +290,7 @@
       "Lower per-capita income"
     ],
     "order": 8,
-    "related": ["rift-valley", "victoria", "sahara"],
+    "related": ["plate-tectonics", "victoria", "desert"],
     "sources": [{ "label": "KNBS / UNEP", "year": 2022 }]
   },
   {

@@ -544,7 +544,7 @@
     "why": "关键的天然碳库与蓄水层；一旦排水或燃烧会把巨量碳迅速释回大气。",
     "whyEn": "A vital carbon vault and water reservoir; draining or burning it releases vast carbon fast.",
     "thinkers": ["lovelock", "congo-basin", "tundra"],
-    "related": ["tundra", "wetland", "boreal-taiga"],
+    "related": ["tundra", "wetland"],
     "sources": [
       {
         "label": "Wikipedia: Peat",

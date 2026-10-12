@@ -14,13 +14,34 @@
     "oneLiner": "七下西洋，以当时世界最大的宝船舰队远抵东非，比欧洲大航海早近一个世纪。",
     "oneLinerEn": "Seven voyages to the Western Oceans with the era's largest treasure fleets, reaching East Africa nearly a century before European expansion.",
     "bio": "宦官出身的回族航海家，受明成祖之命通使西洋，载和平交往而非殖民征服，留下精密的远洋航海图。",
-    "bioEn": "A Muslim eunuch admiral who, on Ming Emperor Yongle's orders, sailed for diplomacy not conquest, leaving detailed远洋 charts.",
+    "bioEn": "A Muslim eunuch admiral who, on Ming Emperor Yongle's orders, sailed for diplomacy not conquest, leaving detailed charts of the ocean routes.",
     "ideas": [
-      { "k": "宝船舰队", "kEn": "Treasure fleets", "v": "船体规模与航海组织远超同期。", "vEn": "Fleet scale and organization surpassed contemporaries." },
-      { "k": "和平通使", "kEn": "Diplomatic voyages", "v": "以朝贡与贸易立信，未殖民据点。", "vEn": "Built trust via tribute and trade, no colonial footholds." }
+      {
+        "k": "宝船舰队",
+        "kEn": "Treasure fleets",
+        "v": "船体规模与航海组织远超同期。",
+        "vEn": "Fleet scale and organization surpassed contemporaries."
+      },
+      {
+        "k": "和平通使",
+        "kEn": "Diplomatic voyages",
+        "v": "以朝贡与贸易立信，未殖民据点。",
+        "vEn": "Built trust via tribute and trade, no colonial footholds."
+      }
     ],
-    "works": [{ "title": "郑和航海图", "titleEn": "Zheng He's Nautical Chart", "year": 1430 }],
-    "quotes": [{ "q": "欲报效国家，惟以航海通达四方。", "qEn": "To serve the state, I would sail the seas and reach all quarters." }],
+    "works": [
+      {
+        "title": "郑和航海图",
+        "titleEn": "Zheng He's Nautical Chart",
+        "year": 1430
+      }
+    ],
+    "quotes": [
+      {
+        "q": "欲报效国家，惟以航海通达四方。",
+        "qEn": "To serve the state, I would sail the seas and reach all quarters."
+      }
+    ],
     "related": ["china", "india", "yangtze", "nile"]
   },
   {
@@ -39,11 +60,32 @@
     "bio": "以实地考察补正旧说，记录河流源流、地貌与风俗，开中国系统描述地理之先河。",
     "bioEn": "He corrected old texts through field study, recording river courses, landforms and customs, pioneering systematic descriptive geography in China.",
     "ideas": [
-      { "k": "因水证地", "kEn": "Geography via waterways", "v": "以河流为线索串连区域地理。", "vEn": "Used rivers to organize regional geography." },
-      { "k": "实证考察", "kEn": "Field verification", "v": "重亲历、轻因袭。", "vEn": "Valued firsthand observation over inherited claims." }
+      {
+        "k": "因水证地",
+        "kEn": "Geography via waterways",
+        "v": "以河流为线索串连区域地理。",
+        "vEn": "Used rivers to organize regional geography."
+      },
+      {
+        "k": "实证考察",
+        "kEn": "Field verification",
+        "v": "重亲历、轻因袭。",
+        "vEn": "Valued firsthand observation over inherited claims."
+      }
     ],
-    "works": [{ "title": "水经注", "titleEn": "Commentary on the Waterways Classic", "year": 500 }],
-    "quotes": [{ "q": "山水有灵，亦当惊知己于千古。", "qEn": "If mountains and rivers have spirit, they would be glad of a kindred mind across the ages." }],
+    "works": [
+      {
+        "title": "水经注",
+        "titleEn": "Commentary on the Waterways Classic",
+        "year": 500
+      }
+    ],
+    "quotes": [
+      {
+        "q": "山水有灵，亦当惊知己于千古。",
+        "qEn": "If mountains and rivers have spirit, they would be glad of a kindred mind across the ages."
+      }
+    ],
     "related": ["yangtze", "himalaya"],
     "order": -3
   },
@@ -63,11 +105,28 @@
     "bio": "弃科举而游历，以日记详记地形、洞穴与植被，留下《徐霞客游记》这一地理与旅行奇书。",
     "bioEn": "He abandoned the exam path for travel, logging terrain, caves and vegetation in Xu Xiake's Travels, a geographic and literary marvel.",
     "ideas": [
-      { "k": "岩溶考察", "kEn": "Karst study", "v": "详述峰林、溶洞与地下河。", "vEn": "Detailed peaks, caves and underground rivers." },
-      { "k": "日记实证", "kEn": "Diary evidence", "v": "以日记数十年实地观察。", "vEn": "Decades of dated, on-site observation." }
+      {
+        "k": "岩溶考察",
+        "kEn": "Karst study",
+        "v": "详述峰林、溶洞与地下河。",
+        "vEn": "Detailed peaks, caves and underground rivers."
+      },
+      {
+        "k": "日记实证",
+        "kEn": "Diary evidence",
+        "v": "以日记数十年实地观察。",
+        "vEn": "Decades of dated, on-site observation."
+      }
     ],
-    "works": [{ "title": "徐霞客游记", "titleEn": "Xu Xiake's Travels", "year": 1640 }],
-    "quotes": [{ "q": "达人所之未达，探人所之未知。", "qEn": "Reach where others have not, probe what others do not know." }],
+    "works": [
+      { "title": "徐霞客游记", "titleEn": "Xu Xiake's Travels", "year": 1640 }
+    ],
+    "quotes": [
+      {
+        "q": "达人所之未达，探人所之未知。",
+        "qEn": "Reach where others have not, probe what others do not know."
+      }
+    ],
     "related": ["yangtze", "himalaya"],
     "order": -2
   },
@@ -87,11 +146,32 @@
     "bio": "创建气象与地理研究机构，倡导以连续观测积累中国气候本底，奠定实证研究基础。",
     "bioEn": "He founded meteorological and geographic institutions, championing continuous observation to establish China's climatic baseline.",
     "ideas": [
-      { "k": "气候序列", "kEn": "Climate series", "v": "以长序列揭示季风与变迁。", "vEn": "Long records revealing monsoons and change." },
-      { "k": "物候观测", "kEn": "Phenology", "v": "以物候指示季节与农时。", "vEn": "Used phenology to mark seasons and farming." }
+      {
+        "k": "气候序列",
+        "kEn": "Climate series",
+        "v": "以长序列揭示季风与变迁。",
+        "vEn": "Long records revealing monsoons and change."
+      },
+      {
+        "k": "物候观测",
+        "kEn": "Phenology",
+        "v": "以物候指示季节与农时。",
+        "vEn": "Used phenology to mark seasons and farming."
+      }
     ],
-    "works": [{ "title": "中国近五千年来气候变迁的初步研究", "titleEn": "Preliminary Study on Climate Change in China over the Last 5000 Years", "year": 1972 }],
-    "quotes": [{ "q": "科学之使命，在求真与致用。", "qEn": "The mission of science is truth and usefulness." }],
+    "works": [
+      {
+        "title": "中国近五千年来气候变迁的初步研究",
+        "titleEn": "Preliminary Study on Climate Change in China over the Last 5000 Years",
+        "year": 1972
+      }
+    ],
+    "quotes": [
+      {
+        "q": "科学之使命，在求真与致用。",
+        "qEn": "The mission of science is truth and usefulness."
+      }
+    ],
     "related": ["china"],
     "order": -1
   },
@@ -111,11 +191,26 @@
     "bio": "南美科考五载，登钦博拉索、绘等温线，开创用测量与比较理解地球的方法，深刻影响达尔文与生态思想。",
     "bioEn": "Five years surveying South America, climbing Chimborazo and drawing isotherms; his measured, comparative method deeply influenced Darwin and ecology.",
     "ideas": [
-      { "k": "自然总体", "kEn": "Unity of nature", "v": "万物相互关联，须整体考察。", "vEn": "All things are connected; study as a whole." },
-      { "k": "等温线", "kEn": "Isotherms", "v": "以温度分布重构气候认知。", "vEn": "Reframed climate via temperature distribution." }
+      {
+        "k": "自然总体",
+        "kEn": "Unity of nature",
+        "v": "万物相互关联，须整体考察。",
+        "vEn": "All things are connected; study as a whole."
+      },
+      {
+        "k": "等温线",
+        "kEn": "Isotherms",
+        "v": "以温度分布重构气候认知。",
+        "vEn": "Reframed climate via temperature distribution."
+      }
     ],
     "works": [{ "title": "宇宙", "titleEn": "Kosmos", "year": 1845 }],
-    "quotes": [{ "q": "自然是活的整体，而非死物拼凑。", "qEn": "Nature is a living whole, not a dead assemblage." }],
+    "quotes": [
+      {
+        "q": "自然是活的整体，而非死物拼凑。",
+        "qEn": "Nature is a living whole, not a dead assemblage."
+      }
+    ],
     "related": ["andes", "amazon", "tropical-rainforest"]
   },
   {
@@ -134,11 +229,26 @@
     "bio": "为西班牙西航寻香料之路，穿麦哲伦海峡入太平洋；其船队返航确认了全球航行的可能。",
     "bioEn": "Sailing west for Spain, he crossed the strait into the Pacific; his fleet's return confirmed global circumnavigation.",
     "ideas": [
-      { "k": "环球实证", "kEn": "Circumnavigation", "v": "用航行证明地球是球体且海洋相连。", "vEn": "Proved by sail that Earth is round and oceans connect." },
-      { "k": "太平洋命名", "kEn": "Pacific naming", "v": "横渡时称其「平静之海」。", "vEn": "Named the ocean 'Pacific' for its calm crossing." }
+      {
+        "k": "环球实证",
+        "kEn": "Circumnavigation",
+        "v": "用航行证明地球是球体且海洋相连。",
+        "vEn": "Proved by sail that Earth is round and oceans connect."
+      },
+      {
+        "k": "太平洋命名",
+        "kEn": "Pacific naming",
+        "v": "横渡时称其「平静之海」。",
+        "vEn": "Named the ocean 'Pacific' for its calm crossing."
+      }
     ],
     "works": [],
-    "quotes": [{ "q": "大海，是连接世界最辽阔的道路。", "qEn": "The sea is the broadest road that connects the world." }],
+    "quotes": [
+      {
+        "q": "大海，是连接世界最辽阔的道路。",
+        "qEn": "The sea is the broadest road that connects the world."
+      }
+    ],
     "related": ["andes", "rockies", "suez"]
   },
   {
@@ -157,12 +267,29 @@
     "bio": "传教士兼探险家，三入非洲，绘制大量未知地图；其失踪与斯坦利「我找到你了」成为传奇。",
     "bioEn": "Missionary-explorer who mapped vast unknown regions; his disappearance and Stanley's 'Dr. Livingstone, I presume?' became legend.",
     "ideas": [
-      { "k": "内陆测绘", "kEn": "Interior mapping", "v": "首次系统绘出中部非洲水系。", "vEn": "First systematic mapping of central African waters." },
-      { "k": "废奴倡导", "kEn": "Anti-slavery", "v": "以探险揭示奴隶贸易之害。", "vEn": "Used exploration to expose the slave trade's evils." }
+      {
+        "k": "内陆测绘",
+        "kEn": "Interior mapping",
+        "v": "首次系统绘出中部非洲水系。",
+        "vEn": "First systematic mapping of central African waters."
+      },
+      {
+        "k": "废奴倡导",
+        "kEn": "Anti-slavery",
+        "v": "以探险揭示奴隶贸易之害。",
+        "vEn": "Used exploration to expose the slave trade's evils."
+      }
     ],
-    "works": [{ "title": "传教旅行日志", "titleEn": "Missionary Travels", "year": 1857 }],
-    "quotes": [{ "q": "我愿为非洲的开放与文明倾尽一生。", "qEn": "I will lay down my life for the opening of Africa to civilization." }],
-    "related": ["kenya", "victoria", "rift-valley", "nile"]
+    "works": [
+      { "title": "传教旅行日志", "titleEn": "Missionary Travels", "year": 1857 }
+    ],
+    "quotes": [
+      {
+        "q": "我愿为非洲的开放与文明倾尽一生。",
+        "qEn": "I will lay down my life for the opening of Africa to civilization."
+      }
+    ],
+    "related": ["kenya", "victoria", "plate-tectonics", "nile"]
   },
   {
     "id": "cousteau",
@@ -180,11 +307,28 @@
     "bio": "海军军官转型的海洋先驱，驾「卡里普索」号环游世界，用影像让亿万观众第一次看见海底。",
     "bioEn": "A naval officer turned ocean pioneer, he sailed the Calypso and showed billions the seabed for the first time.",
     "ideas": [
-      { "k": "水肺", "kEn": "Aqua-lung", "v": "让人类自由潜入水下呼吸。", "vEn": "Let humans breathe freely underwater." },
-      { "k": "海洋守护", "kEn": "Ocean stewardship", "v": "以影像推动海洋保护立法。", "vEn": "Used film to push ocean-protection law." }
+      {
+        "k": "水肺",
+        "kEn": "Aqua-lung",
+        "v": "让人类自由潜入水下呼吸。",
+        "vEn": "Let humans breathe freely underwater."
+      },
+      {
+        "k": "海洋守护",
+        "kEn": "Ocean stewardship",
+        "v": "以影像推动海洋保护立法。",
+        "vEn": "Used film to push ocean-protection law."
+      }
     ],
-    "works": [{ "title": "寂静的世界", "titleEn": "The Silent World", "year": 1953 }],
-    "quotes": [{ "q": "人类若不懂得海洋，便不懂这颗星球。", "qEn": "People protect what they love; to love the sea, they must know it." }],
+    "works": [
+      { "title": "寂静的世界", "titleEn": "The Silent World", "year": 1953 }
+    ],
+    "quotes": [
+      {
+        "q": "人类若不懂得海洋，便不懂这颗星球。",
+        "qEn": "People protect what they love; to love the sea, they must know it."
+      }
+    ],
     "related": ["great-barrier-reef", "amazon", "mediterranean"]
   },
   {
@@ -203,12 +347,29 @@
     "bio": "出身法学之家，本为朝觐出发，却走到中国、东非与金帐汗国；其游记是研究中世纪世界的珍贵史料。",
     "bioEn": "A jurist who set out to pilgrimage and reached China, East Africa and the Golden Horde; his Rihla is priceless medieval history.",
     "ideas": [
-      { "k": "陆上丝路", "kEn": "Overland routes", "v": "亲历从北非到中国的商旅网络。", "vEn": "Witnessed the trade networks from North Africa to China." },
-      { "k": "记述地理", "kEn": "Descriptive geography", "v": "以亲见记录城市、风俗与航路。", "vEn": "Recorded cities, customs and seaways from personal sight." }
+      {
+        "k": "陆上丝路",
+        "kEn": "Overland routes",
+        "v": "亲历从北非到中国的商旅网络。",
+        "vEn": "Witnessed the trade networks from North Africa to China."
+      },
+      {
+        "k": "记述地理",
+        "kEn": "Descriptive geography",
+        "v": "以亲见记录城市、风俗与航路。",
+        "vEn": "Recorded cities, customs and seaways from personal sight."
+      }
     ],
-    "works": [{ "title": "游记（里哈拉）", "titleEn": "The Rihla", "year": 1355 }],
-    "quotes": [{ "q": "旅行，是摘下面具、看见世界最好的方式。", "qEn": "Travel is the best way to remove masks and see the world." }],
-    "related": ["egypt", "nile", "suez", "sahara"]
+    "works": [
+      { "title": "游记（里哈拉）", "titleEn": "The Rihla", "year": 1355 }
+    ],
+    "quotes": [
+      {
+        "q": "旅行，是摘下面具、看见世界最好的方式。",
+        "qEn": "Travel is the best way to remove masks and see the world."
+      }
+    ],
+    "related": ["egypt", "nile", "suez", "desert"]
   },
   {
     "id": "ptolemy",
@@ -226,11 +387,26 @@
     "bio": "集希腊—罗马地理知识大成，以数学化方式整理地名与坐标，其地图虽有误却主导中世纪认知。",
     "bioEn": "Synthesizing Greco-Roman geography, he organized places mathematically; his maps, though flawed, dominated medieval thought.",
     "ideas": [
-      { "k": "经纬网格", "kEn": "Graticule", "v": "用经纬度定位，奠定制图科学。", "vEn": "Located places by lat/long, founding map science." },
-      { "k": "已知世界", "kEn": "Known world", "v": "系统汇编可居住世界的地理。", "vEn": "Systematically compiled the inhabited world's geography." }
+      {
+        "k": "经纬网格",
+        "kEn": "Graticule",
+        "v": "用经纬度定位，奠定制图科学。",
+        "vEn": "Located places by lat/long, founding map science."
+      },
+      {
+        "k": "已知世界",
+        "kEn": "Known world",
+        "v": "系统汇编可居住世界的地理。",
+        "vEn": "Systematically compiled the inhabited world's geography."
+      }
     ],
     "works": [{ "title": "地理学指南", "titleEn": "Geographia", "year": 150 }],
-    "quotes": [{ "q": "要以数学的精确，描绘大地应有的样子。", "qEn": "Depict the Earth as it is, with mathematical precision." }],
+    "quotes": [
+      {
+        "q": "要以数学的精确，描绘大地应有的样子。",
+        "qEn": "Depict the Earth as it is, with mathematical precision."
+      }
+    ],
     "related": ["mediterranean", "nile", "suez"]
   },
   {
@@ -249,11 +425,26 @@
     "bio": "亚历山大图书馆馆长，学问横跨数学、天文与地理，以简洁实验逼近地球尺度。",
     "bioEn": "Chief librarian at Alexandria, he spanned math, astronomy and geography, approximating Earth's size with a simple experiment.",
     "ideas": [
-      { "k": "测算周长", "kEn": "Circumference", "v": "日影差法估得地球周长近真值。", "vEn": "Shadow-difference method neared the true circumference." },
-      { "k": "地理学之名", "kEn": "Coined 'geography'", "v": "首创以「地理」统摄大地之学。", "vEn": "First named the study of the Earth 'geography'." }
+      {
+        "k": "测算周长",
+        "kEn": "Circumference",
+        "v": "日影差法估得地球周长近真值。",
+        "vEn": "Shadow-difference method neared the true circumference."
+      },
+      {
+        "k": "地理学之名",
+        "kEn": "Coined 'geography'",
+        "v": "首创以「地理」统摄大地之学。",
+        "vEn": "First named the study of the Earth 'geography'."
+      }
     ],
     "works": [{ "title": "地理学", "titleEn": "Geographika", "year": -200 }],
-    "quotes": [{ "q": "想知道大地多大，先学会仰望太阳。", "qEn": "To know Earth's size, first look up at the sun." }],
+    "quotes": [
+      {
+        "q": "想知道大地多大，先学会仰望太阳。",
+        "qEn": "To know Earth's size, first look up at the sun."
+      }
+    ],
     "related": ["mediterranean", "nile", "suez"]
   }
 ]

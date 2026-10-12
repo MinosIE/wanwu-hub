@@ -502,5 +502,61 @@
       "n": "生物多样性及其价值",
       "nEn": "Biodiversity and Its Value"
     }
+  ],
+  "giant-panda": [
+    {
+      "m": "m-endemics",
+      "n": "大熊猫",
+      "nEn": "Giant Panda"
+    }
+  ],
+  "ginkgo": [
+    {
+      "m": "m-endemics",
+      "n": "银杏",
+      "nEn": "Ginkgo"
+    }
+  ],
+  "metasequoia": [
+    {
+      "m": "m-endemics",
+      "n": "水杉",
+      "nEn": "Dawn Redwood"
+    }
+  ],
+  "crested-ibis": [
+    {
+      "m": "m-endemics",
+      "n": "朱鹮",
+      "nEn": "Crested Ibis"
+    }
+  ],
+  "white-headed-langur": [
+    {
+      "m": "m-endemics",
+      "n": "白头叶猴",
+      "nEn": "White-headed Langur"
+    }
+  ],
+  "chinese-alligator": [
+    {
+      "m": "m-endemics",
+      "n": "扬子鳄",
+      "nEn": "Chinese Alligator"
+    }
+  ],
+  "tibetan-antelope": [
+    {
+      "m": "m-endemics",
+      "n": "藏羚羊",
+      "nEn": "Tibetan Antelope"
+    }
+  ],
+  "chinese-sturgeon": [
+    {
+      "m": "m-endemics",
+      "n": "中华鲟",
+      "nEn": "Chinese Sturgeon"
+    }
   ]
 }
