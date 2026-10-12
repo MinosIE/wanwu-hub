@@ -30,11 +30,15 @@
               ? "dark"
               : "light";
           document.documentElement.setAttribute("data-theme", t);
-          var l = localStorage.getItem("lang");
+          // 与学科侧 detectLang() 保持同一优先级：?lang= > localStorage > navigator
+          // 只读不写 localStorage：直链不该把访客的长期偏好覆写掉
+          var l = new URLSearchParams(location.search).get("lang");
+          if (!l) l = localStorage.getItem("lang");
           if (!l)
             l = (navigator.language || "zh").toLowerCase().startsWith("en")
               ? "en"
               : "zh";
+          l = l === "en" ? "en" : "zh";
           document.documentElement.lang = l === "en" ? "en" : "zh-CN";
           document.documentElement.setAttribute("data-lang", l);
         } catch (e) {}
