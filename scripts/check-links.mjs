@@ -39,10 +39,15 @@ const PAIRED_KEYS = [
   "subtitle",
 ];
 
-const DUP_EXEMPT = new Set(["physics", "chem"]);
+/**
+ * 允许同一 id 跨模块重名：econ 的 `relatedChips()` 契约是「优先当前模块，其次取首个可用模块」，
+ * related.json 也把这类 id 存成多候选数组（如 gdp → m-concepts + m-glossary），
+ * 因此重名是设计而非缺陷；同文件内的重名仍由派生索引与 builder 兜住。
+ */
+const DUP_EXEMPT = new Set(["physics", "chem", "econ"]);
 const subjects = args.length
   ? args
-  : ["earth", "life", "thought", "physics", "chem"];
+  : ["earth", "life", "thought", "physics", "chem", "econ"];
 let errors = 0;
 let warnings = 0;
 

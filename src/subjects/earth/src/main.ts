@@ -8,6 +8,7 @@ import {
   applyStaticLang,
   getLang,
   initLang,
+  L,
   onLangChange,
   setI18nRoot,
   t,
@@ -179,13 +180,16 @@ async function renderRefs(): Promise<void> {
       box.hidden = true;
       return;
     }
+    const en = getLang() === "en";
+    const [yOpen, yClose] = en ? [" (", ")"] : ["（", "）"];
     list.innerHTML = items
       .map((s) => {
-        const label = `${esc(s.label)}${s.year ? `（${esc(s.year)}）` : ""}`;
+        // 英文界面优先 *En 字段（缺失回退中文），年份括号随语言
+        const label = `${esc(L<string>(s, "label"))}${s.year ? `${yOpen}${esc(s.year)}${yClose}` : ""}`;
         const text = s.url
           ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
           : label;
-        return `<li>${text}<span class="ref-type">${esc(s.type ?? "")}</span></li>`;
+        return `<li>${text}<span class="ref-type">${esc(L<string>(s, "type"))}</span></li>`;
       })
       .join("");
     box.hidden = false;

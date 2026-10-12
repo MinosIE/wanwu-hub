@@ -1,5 +1,5 @@
 import { esc, need } from './dom';
-import { t } from './i18n';
+import { getLang, t } from './i18n';
 import type { DetailPayload, SourceRef } from './types';
 
 let root: HTMLElement;
@@ -11,11 +11,19 @@ function levelLabel(level?: number): string {
   return t(`ui.lvl${level}`);
 }
 
+/** 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。 */
+function srcLabel(s: SourceRef): string {
+  const en = getLang() === 'en';
+  const label = en ? (s.labelEn || s.label) : s.label;
+  const year = s.year ? (en ? ` (${s.year})` : `（${s.year}）`) : '';
+  return `${esc(label)}${year}`;
+}
+
 function sourcesHtml(sources?: SourceRef[]): string {
   if (!sources?.length) return '';
   const items = sources
     .map((s) => {
-      const label = `${esc(s.label)}${s.year ? `（${s.year}）` : ''}`;
+      const label = srcLabel(s);
       return s.url
         ? `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a></li>`
         : `<li>${label}</li>`;

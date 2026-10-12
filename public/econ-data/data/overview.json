@@ -5,33 +5,37 @@
     "glossary": 53,
     "thinkers": 12,
     "events": 31,
-    "bubbles": 16
+    "bubbles": 16,
+    "behavioral": 11,
+    "charts": 7,
+    "compare": 4,
+    "everyday": 7,
+    "gametheory": 6,
+    "macro": 10,
+    "micro": 10,
+    "money": 10,
+    "myths": 6,
+    "quiz": 8,
+    "schools": 6,
+    "trade": 9
   },
   "kpis": [
-    {
-      "key": "concepts",
-      "icon": "💡",
-      "value": 26
-    },
-    {
-      "key": "glossary",
-      "icon": "📖",
-      "value": 53
-    },
-    {
-      "key": "thinkers",
-      "icon": "👤",
-      "value": 12
-    },
-    {
-      "key": "events",
-      "icon": "🗓️",
-      "value": 31
-    },
-    {
-      "key": "bubbles",
-      "icon": "🎭",
-      "value": 16
-    }
+    { "key": "concepts", "icon": "💡", "value": 26 },
+    { "key": "glossary", "icon": "📖", "value": 53 },
+    { "key": "thinkers", "icon": "👤", "value": 12 },
+    { "key": "events", "icon": "🗓️", "value": 31 },
+    { "key": "bubbles", "icon": "🎭", "value": 16 },
+    { "key": "behavioral", "icon": "🧠", "value": 11 },
+    { "key": "charts", "icon": "📊", "value": 7 },
+    { "key": "compare", "icon": "🌐", "value": 4 },
+    { "key": "everyday", "icon": "☕", "value": 7 },
+    { "key": "macro", "icon": "📈", "value": 10 },
+    { "key": "micro", "icon": "🛒", "value": 10 },
+    { "key": "money", "icon": "💰", "value": 10 },
+    { "key": "myths", "icon": "🔍", "value": 6 },
+    { "key": "quiz", "icon": "✅", "value": 8 },
+    { "key": "schools", "icon": "🏛️", "value": 6 },
+    { "key": "trade", "icon": "🚢", "value": 9 },
+    { "key": "gametheory", "icon": "♟️", "value": 6 }
   ]
 }
