@@ -53,6 +53,45 @@
   font-size: 0.85rem;
 }
 
+/* hero 副标语 / 导语（共享层只给了 .hero > p 的基线） */
+.subject-root .hero-tag {
+  margin: 2px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: rgba(255, 255, 255, 0.72);
+}
+.subject-root .hero-sub {
+  max-width: 640px;
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* 难度徽标三档分级：共享层的 brand/gold 在学科内同色，这里做一层递退区分 */
+.physics-root .lvl-1,
+.chem-root .lvl-1 {
+  background: var(--brand-50);
+  color: var(--brand);
+}
+.physics-root .lvl-2,
+.chem-root .lvl-2 {
+  background: color-mix(in srgb, var(--brand) 10%, transparent);
+  color: var(--text-soft);
+}
+.physics-root .lvl-3,
+.chem-root .lvl-3 {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-mute);
+}
+
+/* 模块内的难度筛选条（左对齐，贴合卡片网格） */
+.subject-root .sm-filters {
+  justify-content: flex-start;
+}
+
 /* 卡片数值徽标（共享层未覆盖） */
 .subject-root .card-val {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;

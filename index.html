@@ -627,22 +627,8 @@
         padding-left: 24px;
         padding-right: 24px;
       }
-      /* econ / mind / thought / dynasty 内嵌时隐藏其自带的语言/主题按钮（由主应用顶栏统一接管） */
-      #app.subject-dynasty .dynasty-root .hero .theme-btn,
-      #app.subject-dynasty .dynasty-root .hero .lang-btn,
-      #app.subject-econ .econ-root .hero .theme-btn,
-      #app.subject-econ .econ-root .hero .lang-btn,
-      #app.subject-mind .mind-root .hero .theme-btn,
-      #app.subject-mind .mind-root .hero .lang-btn,
-      #app.subject-thought .thought-root .hero .theme-btn,
-      #app.subject-thought .thought-root .hero .lang-btn,
-      #app.subject-earth .earth-root .hero .theme-btn,
-      #app.subject-earth .earth-root .hero .lang-btn,
-      #app.subject-life .life-root .hero .theme-btn,
-      #app.subject-life .life-root .hero .lang-btn {
-        display: none !important;
-      }
-
+      /* 学科 hero 内自带的语言/主题按钮已桥接到主应用状态（src/core/viewControls.ts），
+         与顶栏同源，因此不再隐藏；dynasty 无此类按钮，其规则留在 dynasty.css 中。 */
       /* 首页返回顶部按钮（与学科页 to-top 行为一致） */
       .to-top-home {
         position: fixed;
@@ -720,6 +706,10 @@
           max-width: 42vw;
           padding: 6px 10px;
           min-width: 0;
+          overflow: hidden;
+        }
+        .subjects-toggle .caret {
+          flex: 0 0 auto;
         }
         .subjects-toggle #subjToggleLabel {
           min-width: 0;

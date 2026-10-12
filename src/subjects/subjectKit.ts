@@ -1,5 +1,6 @@
 import "./subjectKit.css";
-import { getLang, onLangChange } from "../core/i18n";
+import { getLang, onLangChange, setLang } from "../core/i18n";
+import { getTheme, onThemeChange, toggleTheme } from "../core/theme";
 
 export type LStr = { zh: string; en: string };
 
@@ -16,6 +17,33 @@ export const heroTitleText = (o?: LStr): string => {
   if (getLang() === "en") return o.en || o.zh;
   return `${o.zh}${o.en ? ` · ${o.en}` : ""}`;
 };
+
+/** 难度等级文案：与 thought / earth / life 等学科的 ui.lvl1..3 用词一致。 */
+const LEVELS: { level: number; label: LStr }[] = [
+  { level: 1, label: { zh: "入门", en: "Intro" } },
+  { level: 2, label: { zh: "进阶", en: "Intermediate" } },
+  { level: 3, label: { zh: "拓展", en: "Advanced" } },
+];
+const levelLabel = (level?: number): string => {
+  const hit = LEVELS.find((x) => x.level === level);
+  return hit ? L(hit.label) : "";
+};
+/** 视图内小工具文案（轻量学科没有独立字典，故就地给中英对）。 */
+const TXT = {
+  all: { zh: "全部", en: "All" },
+  level: { zh: "难度", en: "Level" },
+  count: { zh: "共 {n} 条", en: "{n} entries" },
+  empty: {
+    zh: "该难度暂无条目，换个筛选试试",
+    en: "Nothing at this level yet",
+  },
+  noResult: { zh: "未找到匹配项", en: "No matches" },
+  theme: { zh: "切换明暗主题", en: "Toggle theme" },
+  lang: { zh: "切换语言 Switch language", en: "Switch language 切换语言" },
+  toDark: { zh: "夜间", en: "Dark" },
+  toLight: { zh: "日间", en: "Light" },
+};
+const fill = (tpl: LStr, n: number): string => L(tpl).replace("{n}", String(n));
 
 export interface PeriodicCell {
   /** 网格行（周期；镧系=9，锕系=10） */
@@ -86,6 +114,10 @@ export interface SubjectModule {
   /** 渲染方式：cards（默认）或 periodic（完整周期表 2D 网格） */
   kind?: "cards" | "periodic";
 }
+
+/** 只要模块里有任何带难度的条目，就提供难度筛选条（与 FULL 学科一致）。 */
+const hasLevels = (m: SubjectModule): boolean =>
+  m.kind !== "periodic" && m.items.some((it) => it.level != null);
 
 export interface SubjectRef {
   label: LStr;
@@ -236,7 +268,7 @@ function cardHTML(item: SubjectItem): string {
     <header class="card-h">
       <span class="card-ic">${item.icon ?? "•"}</span>
       <span class="card-t">${esc(L(item.term))}</span>
-      ${item.level != null ? `<span class="lvl lvl-${item.level}">L${item.level}</span>` : ""}
+      ${item.level != null ? `<span class="lvl lvl-${item.level}">${esc(levelLabel(item.level))}</span>` : ""}
     </header>
     ${item.eq ? `<div class="card-eq">${eqHTML(Array.isArray(item.eq) ? item.eq[0] : item.eq)}</div>` : ""}
     <p class="card-lead">${esc(L(item.oneLiner))}</p>
@@ -337,13 +369,23 @@ function refsInner(refs: SubjectRef[]): string {
     <ul class="ref-list">${items}</ul>`;
 }
 
+/** hero 内的语言 / 主题按钮：文案描述「点击后会切到」的目标，行为走主应用状态（与顶栏同源）。 */
+const viewControlsHTML = (): string => {
+  const langName = getLang() === "zh" ? "EN" : "中文";
+  const themeName = L(getTheme() === "dark" ? TXT.toLight : TXT.toDark);
+  return `<button class="icon-btn theme-btn" type="button" data-ctl="theme" aria-label="${esc(L(TXT.theme))}" title="${esc(themeName)}"><span>${esc(themeName)}</span></button>
+        <button class="icon-btn lang-btn" type="button" data-ctl="lang" aria-label="${esc(L(TXT.lang))}" title="${esc(L(TXT.lang))}"><span>${esc(langName)}</span></button>`;
+};
+
 export function createSubject(cfg: SubjectConfig) {
   return async (view: HTMLElement, sub?: string): Promise<() => void> => {
     const hasRefs = !!(cfg.refs && cfg.refs.length);
     view.innerHTML = `<div class="${cfg.rootClass} subject-root" style="--accent:${cfg.accent};--hero:linear-gradient(155deg, color-mix(in srgb, ${cfg.accent} 72%, #06121a), color-mix(in srgb, ${cfg.accent} 40%, #06121a))">
       <div class="wrap">
         <section class="hero">
+          ${viewControlsHTML()}
           <h1>${esc(heroTitleText(cfg.heroTitle))}</h1>
+          ${cfg.heroSub ? `<p class="hero-tag">${esc(L(cfg.heroSub))}</p>` : ""}
           ${cfg.intro ? `<p class="hero-sub">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
         </section>
@@ -363,6 +405,7 @@ export function createSubject(cfg: SubjectConfig) {
             (m, i) =>
               `<section class="module${i === 0 ? " active" : ""}" id="sm-${m.key}">
                 <header class="sm-head"><h2>${esc(L(m.title))}</h2><span class="sm-count"></span></header>
+                ${hasLevels(m) ? `<div class="filters sm-filters" role="group" aria-label="${esc(L(TXT.level))}"></div>` : ""}
                 <div class="card-grid${m.kind === "periodic" ? " pt-grid" : ""}"></div>
               </section>`,
           )
@@ -380,6 +423,41 @@ export function createSubject(cfg: SubjectConfig) {
 
     const root = view.querySelector<HTMLElement>(`.${cfg.rootClass}`)!;
     const grids = root.querySelectorAll<HTMLElement>(".card-grid");
+    /** 各模块当前的难度筛选（0 = 全部），与 FULL 学科的 mountGrid state.level 同义。 */
+    const levelState = new Map<string, number>();
+    const sectionOf = (m: SubjectModule): HTMLElement | null =>
+      root.querySelector<HTMLElement>(`#sm-${m.key}`);
+    const gridOf = (m: SubjectModule): HTMLElement | null =>
+      sectionOf(m)?.querySelector<HTMLElement>(".card-grid") ?? null;
+    const setCount = (m: SubjectModule, n: number): void => {
+      const el = sectionOf(m)?.querySelector<HTMLElement>(".sm-count");
+      if (el) el.textContent = fill(TXT.count, n);
+    };
+
+    /** 难度筛选条：chip 复用共享层样式；切换只重渲染本模块网格。 */
+    const renderFilterBar = (m: SubjectModule): void => {
+      const host = sectionOf(m)?.querySelector<HTMLElement>(".sm-filters");
+      if (!host) return;
+      const active = levelState.get(m.key) ?? 0;
+      const shown = LEVELS.filter((x) =>
+        m.items.some((it) => it.level === x.level),
+      );
+      host.innerHTML = [
+        `<span class="fl-label">${esc(L(TXT.level))}</span>`,
+        `<button type="button" class="chip${active === 0 ? " on" : ""}" data-lvl="0">${esc(L(TXT.all))}</button>`,
+        ...shown.map(
+          (x) =>
+            `<button type="button" class="chip${active === x.level ? " on" : ""}" data-lvl="${x.level}">${esc(L(x.label))}</button>`,
+        ),
+      ].join("");
+      host.querySelectorAll<HTMLElement>("[data-lvl]").forEach((node) => {
+        node.addEventListener("click", () => {
+          levelState.set(m.key, Number(node.dataset.lvl ?? 0));
+          const grid = gridOf(m);
+          if (grid) renderModule(m, grid);
+        });
+      });
+    };
 
     const renderModule = (m: SubjectModule, grid: HTMLElement) => {
       if (m.kind === "periodic") {
@@ -391,14 +469,16 @@ export function createSubject(cfg: SubjectConfig) {
             if ((e as KeyboardEvent).key === "Enter") open();
           });
         });
-        const sec = root.querySelector<HTMLElement>(`#sm-${m.key}`);
-        if (sec)
-          sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(
-            m.items.length,
-          );
+        setCount(m, m.items.length);
         return;
       }
-      grid.innerHTML = m.items.map(cardHTML).join("");
+      const level = levelState.get(m.key) ?? 0;
+      const items = level
+        ? m.items.filter((it) => Number(it.level) === level)
+        : m.items;
+      grid.innerHTML = items.length
+        ? items.map(cardHTML).join("")
+        : `<p class="empty">${esc(L(TXT.empty))}</p>`;
       grid.querySelectorAll<HTMLElement>(".js-item").forEach((el) => {
         const open = () => openDetail(m, el.dataset.key!);
         el.addEventListener("click", open);
@@ -406,11 +486,8 @@ export function createSubject(cfg: SubjectConfig) {
           if ((e as KeyboardEvent).key === "Enter") open();
         });
       });
-      const sec = root.querySelector<HTMLElement>(`#sm-${m.key}`);
-      if (sec)
-        sec.querySelector<HTMLElement>(".sm-count")!.textContent = String(
-          m.items.length,
-        );
+      renderFilterBar(m);
+      setCount(m, items.length);
     };
 
     const closeDetail = () => {
@@ -424,7 +501,7 @@ export function createSubject(cfg: SubjectConfig) {
       const d = root.querySelector<HTMLElement>("#subDetail")!;
       d.innerHTML = `<div class="sd-backdrop"></div><div class="sd-panel" role="dialog" aria-modal="true">
         <button class="sd-close" type="button" aria-label="关闭">×</button>
-        <div class="sd-eyebrow">${esc(L(m.title))}${item.level != null ? ` · L${item.level}` : ""}</div>
+        <div class="sd-eyebrow">${esc(L(m.title))}${item.level != null ? ` · ${esc(levelLabel(item.level))}` : ""}</div>
         <div class="sd-title-row">
           <h2 class="sd-title">${esc(L(item.term))}</h2>
           ${replayBtn(item.eq)}
@@ -452,6 +529,30 @@ export function createSubject(cfg: SubjectConfig) {
         });
       });
     };
+
+    /** hero 内两枚按钮的文案（描述「点击后会切到」的目标），与顶栏共用同一状态源。 */
+    const syncControls = (): void => {
+      const langBtn = root.querySelector<HTMLElement>('[data-ctl="lang"]');
+      if (langBtn) {
+        const name = getLang() === "zh" ? "EN" : "中文";
+        langBtn.innerHTML = `<span>${esc(name)}</span>`;
+        langBtn.setAttribute("title", L(TXT.lang));
+      }
+      const themeBtn = root.querySelector<HTMLElement>('[data-ctl="theme"]');
+      if (themeBtn) {
+        const name = L(getTheme() === "dark" ? TXT.toLight : TXT.toDark);
+        themeBtn.innerHTML = `<span>${esc(name)}</span>`;
+        themeBtn.setAttribute("title", name);
+      }
+    };
+    root
+      .querySelector<HTMLElement>('[data-ctl="lang"]')
+      ?.addEventListener("click", () =>
+        setLang(getLang() === "zh" ? "en" : "zh"),
+      );
+    root
+      .querySelector<HTMLElement>('[data-ctl="theme"]')
+      ?.addEventListener("click", () => toggleTheme());
 
     cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
 
@@ -502,7 +603,7 @@ export function createSubject(cfg: SubjectConfig) {
       resultsEl.hidden = false;
       resultsEl.innerHTML = matches.length
         ? matches.map(({ it }) => cardHTML(it)).join("")
-        : `<p class="sub-no-result">${esc(L({ zh: "未找到匹配项", en: "No matches" }))}</p>`;
+        : `<p class="sub-no-result">${esc(L(TXT.noResult))}</p>`;
       resultsEl.querySelectorAll<HTMLElement>(".js-item").forEach((el) => {
         const hit = allItems.find((x) => x.it.id === el.dataset.key);
         if (!hit) return;
@@ -528,6 +629,8 @@ export function createSubject(cfg: SubjectConfig) {
       if (h1) h1.textContent = heroTitleText(cfg.heroTitle);
       const intro = root.querySelector<HTMLElement>(".hero-sub");
       if (intro && cfg.intro) intro.textContent = L(cfg.intro);
+      const tag = root.querySelector<HTMLElement>(".hero-tag");
+      if (tag && cfg.heroSub) tag.textContent = L(cfg.heroSub);
       const kpisEl = root.querySelector<HTMLElement>("#kpis");
       if (kpisEl) kpisEl.innerHTML = kpisInner(cfg);
       root
@@ -545,6 +648,7 @@ export function createSubject(cfg: SubjectConfig) {
           en: "Search: concepts / terms / keywords…",
         });
       if (!resultsEl.hidden) onSearch();
+      syncControls();
       const refsEl = root.querySelector<HTMLElement>("#refs");
       if (refsEl && cfg.refs && cfg.refs.length)
         refsEl.innerHTML = refsInner(cfg.refs);
@@ -567,8 +671,11 @@ export function createSubject(cfg: SubjectConfig) {
       }
     }
 
+    const offTheme = onThemeChange(syncControls);
+
     return () => {
       offLang();
+      offTheme();
       window.removeEventListener("scroll", onScroll);
       closeDetail();
     };

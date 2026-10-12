@@ -1,9 +1,10 @@
 import { TEMPLATE } from "./template";
 import "./src/styles/index.css";
 import { boot, activate, setHistoryUpdate } from "./src/main";
-import { setLang as thoughtSetLang } from "./src/core/i18n";
+import { setLang as thoughtSetLang, t } from "./src/core/i18n";
 import { onLangChange as onMainLang } from "../../core/i18n";
 import { onThemeChange as onMainTheme, getTheme } from "../../core/theme";
+import { bridgeViewControls } from "../../core/viewControls";
 
 /**
  * 把 thought 子应用挂载进主应用 #view，移除 iframe。
@@ -30,6 +31,8 @@ export async function mount(
   const offTheme = onMainTheme(() =>
     root.setAttribute("data-theme", getTheme()),
   );
+  // hero 内的语言 / 主题按钮改由主应用状态驱动，避免与顶栏分叉
+  const offCtl = bridgeViewControls(root, t);
 
   // 深链：#/subject/thought/<module>/<entry> -> thought 内部模块/条目
   if (sub) {
@@ -40,5 +43,6 @@ export async function mount(
   return () => {
     offLang();
     offTheme();
+    offCtl();
   };
 }

@@ -187,6 +187,7 @@
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
   backdrop-filter: blur(4px);
   transition: 0.2s;
@@ -219,7 +220,14 @@
 @media (max-width: 560px) {
   .subject-root .hero {
     margin-inline: -14px;
-    padding: 40px 18px 36px;
+    padding: 56px 18px 36px;
+  }
+  /* 窄屏下 hero 按钮收紧，避免与标题重叠 */
+  .subject-root .icon-btn {
+    top: 10px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
   }
   .subject-root .kpis {
     grid-template-columns: repeat(2, minmax(0, 1fr));
