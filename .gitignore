@@ -30,3 +30,7 @@ dist-ssr
 # Temp screenshots
 .tmp-*.png
 .tmp-*.jpg
+.shot-*.png
+
+# 本地冒烟脚本的 Chrome 用户目录（puppeteer --user-data-dir）
+.chrome-smoke*/

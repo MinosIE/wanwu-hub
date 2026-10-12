@@ -27,7 +27,7 @@
 
 两种架构并存，扩充手法不同：
 
-- **subjectKit（LIGHTWEIGHT）**：`physics`、`chem` —— 配置驱动，加模块 = 往 `data.ts` 的 `modules[]` 追加，**最易扩充**，且已具备 `figure`/`eq`/动画/物质释义能力。
+- **subjectKit（LIGHTWEIGHT）**：`physics`、`chem` —— 配置驱动，加模块 = 往 `data.ts` 的 `modules[]` 追加，**最易扩充**，且已具备 `figure`/`eq`/动画/物质释义能力；`npm run data:export` 可把 `data.ts` 导出为 `public/<x>-data/data/*.json` 机器可读数据（含 llms.txt / sitemap / robots）。
 - **FULL 模板**：`dynasty`、`econ`、`mind`、`thought`、`earth`、`life` —— 自带 `template.ts` + `public/<x>-data/data/*.json`。加条目 = 改 JSON（易）；**加新分类视图 = 需改模板**（重）。
 
 | 学科    | 架构       | 现有模块                                                                     | 条目量 | 距门槛                               |
@@ -35,11 +35,11 @@
 | dynasty | FULL       | 19+                                                                          | 数千   | ✅ 达标（维持）                      |
 | econ    | FULL       | 概念/术语/人物/事件/宏微观/货币/贸易/行为/博弈/图表/日常/误区/测验/对比/流派 | 数百   | 🟡 接近，补强即可                    |
 | mind    | FULL       | 概念/术语/心理学家/流派/偏差/实验/时间线/测验/日常/误区/对比                 | 150±   | 🟡 达标边缘，补应用与临床            |
-| physics | subjectKit | 16 模块                                                                      | ~130   | 🟢 模块达标，补人物/实验             |
-| chem    | subjectKit | 15 模块                                                                      | ~190   | 🟢 模块达标·方程式规范全绿           |
-| thought | FULL       | 学派/问题/分支/经典/人物（5 类）                                             | ~87    | 🟠 已新增分支视图，继续补            |
-| earth   | FULL       | 地区/专题/原理/人文/典籍/人物（6 类）                                        | ~79    | 🟠 已达 6 视图（+原理+人文），继续补 |
-| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种（6 类）                                | ~72    | 🟠 已新增生命原理视图                |
+| physics | subjectKit | 16 模块                                                                      | 130    | 🟢 已导出机器可读 JSON               |
+| chem    | subjectKit | 15 模块                                                                      | 232    | 🟢 已导出机器可读 JSON               |
+| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）       | 184    | ✅ 视图与 mind/econ 同量级           |
+| earth   | FULL       | 地区/专题/原理/人文/典籍/人物（6 类）                                        | 79     | 🟠 已达 6 视图（+原理+人文），继续补 |
+| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种（6 类）                                | 80     | 🟠 已新增生命原理 + 特有物种视图     |
 
 ---
 
@@ -96,18 +96,18 @@
 
 ### 3.3 万物哲学 thought（🟠）
 
-**目标：4 类 → 10+。**
+**目标：4 类 → 10+。** 现 10 类 / 184 条 ✅
 
 - [x] 学派（补 `schools`→20+，含中国先秦诸子、宋明理学、近现代）（现 20）
 - [x] 哲学家（补 `thinkers`→25+）（现 25，新增阿奎那/斯宾诺莎/朱熹/杜威/加缪）
 - [~] 经典著作（补 `classics`→20+）（现 16，新增道德形而上学奠基/伦理学/哲学研究/存在与虚无）
 - [x] 核心问题（补 `questions`→15+）（现 15，新增美/他心/共相/归纳/道德实在论）
-- [x] 分支：形而上学/认识论/伦理学/逻辑学/美学/政治哲学/心灵/科学/语言/历史/现象学（新，11 条，独立视图🧩）
-- [ ] 哲学概念/术语表（新）
-- [ ] 哲学史时间线（新）
-- [ ] 思想实验（新）
-- [ ] 中西哲学对比（新/compare）
-- [ ] 常见误区（新/myths）
+- [x] 分支：形而上学/认识论/伦理学/逻辑学/美学/政治哲学/心灵/科学/语言/历史/现象学（11 条，独立视图🧩）
+- [x] 哲学术语表 `glossary.json`（新，26 条，含中英对照与易混提示）
+- [x] 哲学史时间线 `timeline.json`（新，20 条，公元前 6 世纪 → 当代）
+- [x] 思想实验 `experiments.json`（新，14 条：洞穴/缸中之脑/电车/中文房间/无知之幕…）
+- [x] 中西哲学对比 `compare.json`（新，10 组：名实/知行/正义与义…）
+- [x] 常见误区 `myths.json`（新，14 条：「哲学无用」「存在主义是虚无主义」…）
 
 ### 3.4 万物化学 chem（subjectKit，🟠）
 
@@ -187,9 +187,10 @@
 2. **深链稳定**：`id` 唯一，命名 `<域>-<主题>`（如 `earth-plate-tectonics`）。
 3. **公式/动画**：化学方程式用 `eq`+`subs`；物理定律用 `eq:{rel:"equal"}`。
 4. **图示**：关键概念补 SVG `figure`（玻尔模型/细胞/板块等）。
-5. **计数同步**：改数据后更新该学科 `overview.json` 的 `counts`/`kpis`（FULL）；subjectKit 自动统计。
-6. **验证**：每阶段 `npm run typecheck && npm run build`；FULL 数据改动跑 `npm run verify`（含 JSON 校验）。
-7. **提交**：按学科/阶段分组提交并推送，信息含范围与条目数。
+5. **计数同步**：改数据后更新该学科 `overview.json` 的 `counts`/`kpis`（FULL）；subjectKit 自动统计。文件命名与计数键的 kebab/camel 差异由 `check-links` 同义处理。
+6. **派生数据重建**：FULL 改数据后跑 `npm run index:build -- <subject>`（search/related）；subjectKit 改 `data.ts` 后跑 `npm run data:export`；对外文案/收录清单跑 `npm run gen:geo && npm run gen:sitemap`。
+7. **验证**：`npm run verify` = typecheck + `check:json` + `links:check`（死链/双语成对/英文混中文/派生索引覆盖/overview 计数）+ `data:check`（导出防漂移）+ dynasty 校验；再 `npm run build`。
+8. **提交**：按学科/阶段分组提交并推送，信息含范围与条目数。
 
 ---
 
@@ -204,6 +205,10 @@
 | M4     | 阶段 B：life 四类补数据                                  | ✅ 四类均 8/12→15，条目 60                                                                                                                          |
 | M5     | 阶段 B：thought/mind/econ 补数据                         | ✅ thought 条目76；mind 102→132；econ 174→206                                                                                                       |
 | M6     | 阶段 C：earth/life/thought 新分类视图（改模板）          | ✅ 三科均新增机制/分支视图：earth「自然地理原理」11、life「生命原理」12、thought「哲学分支」11；索引 67/72/87，typecheck/check:json(100)/build 全绿 |
-| M7     | 全学科达「极丰富」门槛复核                               | ⬜                                                                                                                                                  |
+| M7     | 阶段 C 续：thought 再补 5 类视图                         | ✅ 术语 26 / 时间线 20 / 思想实验 14 / 中西对比 10 / 误区 14，共 10 视图 184 条；索引 87→184                                                        |
+| M8     | physics/chem 机器可读数据上线                            | ✅ `scripts/export-data.mjs` 导出 physics 18 / chem 17 个 JSON + llms/llms-en/robots/sitemap；`data:check` 进 `verify` 防漂移                       |
+| M9     | 数据门禁与历史缺陷清零                                   | ✅ `scripts/check-links.mjs` 五科 0 错 0 警（earth/life 24 处 related 死链、1 处半截中文、earth/life overview 计数、life endemics 未进索引均已修）  |
+| M10    | 跨学科一致性收尾（subjectKit）                           | ✅ 难度筛选 chip + 视图内语言/主题按钮（与顶栏同源，`src/core/viewControls.ts` 桥接 5 个 FULL 学科）；`heroSub` 由死配置变为 hero 副标语            |
+| M11    | 全学科达「极丰富」门槛复核                               | ⬜                                                                                                                                                  |
 
 > 说明：受单轮产出规模限制，本计划分多轮执行；每轮完成若干模块即构建、提交、更新此表状态。

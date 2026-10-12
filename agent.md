@@ -96,7 +96,8 @@
 ## 7. GEO 抓取资产・数据重建·CI 门禁（维护约定）
 
 - **GEO 两层**：站点根 hub（`public/llms*.txt` / `robots.txt` / `sitemap.xml`）与 per-subject（`public/<key>-data/*`）；均**由脚本生成、勿手改**。域名统一为 `https://minosie.github.io/wanwu-hub/`（与 Vite `base=/wanwu-hub/` 一致）。
-- **生成器**：`scripts/gen-sitemap.mjs`（爬 `public` 出全量 URL）、`scripts/gen-geo.mjs`（scaffold 三科 per-subject GEO + 根 hub）；`build:ssg` 已前置 `gen:geo && gen:sitemap`，防产物陈旧。
+- **生成器**：`scripts/gen-sitemap.mjs`（爬 `public` 出全量 URL）、`scripts/gen-geo.mjs`（thought/earth/life 三科 + physics/chem 导出产物的 per-subject GEO + 根 hub）；`build:ssg` 已前置 `gen:geo && gen:sitemap`，防产物陈旧。
 - **派生索引**：改学科源数据后需 `npm run index:rebuild`（scaffold 用 `s/build-index.mjs <subject>`、econ 用 `s/build-econ-index.mjs`、dynasty 用 `dynasty:build-search`）。新增 builder 必须对既有 committed 输出 `git diff` 为 0（逐字节忠实）方可采信。
-- **门禁**：`npm run verify` = `typecheck` + `check:json`（`scripts/check-json.mjs` 全量 JSON）+ `dynasty:validate` + `dynasty:check-i18n`；`.github/workflows/ci.yml` 在 PR/push 到 main 时跑 `verify` + `build`，任一失败即阻断（早于 deploy）。
+- **门禁**：`npm run verify` = `typecheck` + `check:json`（全量 JSON）+ `links:check`（`scripts/check-links.mjs`：related 死链 / 双语成对 / 英文字段混中文 / 派生索引覆盖 / `overview` 计数）+ `data:check`（`scripts/export-data.mjs --check`，physics/chem 导出防漂移）+ `dynasty:validate` + `dynasty:check-i18n`；`.github/workflows/ci.yml` 在 PR/push 到 main 时跑 `verify` + `build`，任一失败即阻断（早于 deploy）。
+- **语言 / 主题状态源**：只允许顶栏（`src/core/layout.ts`）持有状态；学科 hero 内按钮由 `src/core/viewControls.ts` 的 `bridgeViewControls(root, t)` 在捕获阶段接管，新增学科不得在视图内自写 `setLang`/主题分支。
 - **品牌与分析**：根 `favicon.svg` / `og-cover.svg` 为 hub 风格并在 `index.html` 接线（`<link rel=icon>` + `og:image`）；百度统计内联于 `index.html` `<head>`。

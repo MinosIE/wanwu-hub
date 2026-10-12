@@ -10,29 +10,30 @@
 
 两种实现范式并存：
 
-| 类型            | 学科                                                     | 入口                                                     | 能力                                                          |
-| --------------- | -------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------- |
-| **FULL**        | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS                | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换               |
-| **LIGHTWEIGHT** | `physics / chem`（2 个）                                 | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 模块卡 + 详情弹层 + footer，**无搜索/筛选/refs** |
+| 类型            | 学科                                                     | 入口                                                     | 能力                                                                     |
+| --------------- | -------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **FULL**        | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS                | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换                          |
+| **LIGHTWEIGHT** | `physics / chem`（2 个）                                 | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情弹层 + refs + 视图内切换按钮 |
 
 工程：Vite 构建 + puppeteer SSG 预渲染（`build:ssg`）；GitHub Pages 自动部署（`.github/workflows/deploy.yml`）。
-**测试：零覆盖**。文档：三份根文档均已过时。
+数据门禁：`npm run verify` = typecheck + `check:json` + `links:check`（死链/双语/派生索引/overview 计数）+ `data:check`（physics/chem 导出防漂移）+ dynasty 校验。
+**测试：零覆盖**。文档：`readme.md` / `agent.md` / `docs/` 已对齐现状，`PLAN.md` 仍为历史规划。
 
 ---
 
-## 1. 跨学科一致性（高优先，当前主线）
+## 1. 跨学科一致性（本轮已收尾）
 
-本轮已完成：physics/chem hero 中英文后缀、hero 副标题（sub-sub）移除、mind refs 布局对齐其它学科。
+本轮已完成：physics/chem hero 中英文后缀、mind refs 布局对齐、**subjectKit 难度筛选 chip + 视图内语言/主题按钮 + `heroSub` 激活**、**FULL 五科学科内按钮桥接到顶栏状态（`src/core/viewControls.ts`）**、physics/chem 机器可读 JSON 导出与 `links:check`/`data:check` 入门禁。
 
-剩余缺口：
-
-- [ ] **physics/chem 补齐搜索框**：FULL 有 `#search` + `search-results`（`econ/src/core/search.ts`）；subjectKit 当前无。可复用 `core` 搜索或注入。
-- [ ] **physics/chem 补齐过滤器**：FULL 各模块有筛选逻辑（`src/subjects/*/src/modules/shared.ts`、`ui.ts`）。
-- [ ] **physics/chem 补齐 refs / 来源区**：FULL 渲染 `sources.json`（`econ/src/main.ts` `renderRefs`）；physics/chem 无。
-- [ ] **视图内主题 / 语言切换按钮**：FULL 内嵌 `.theme-btn` / `.lang-btn`；physics/chem 依赖全局顶栏，实测点击**未触发切换**（疑 bug，见 §5）。需统一交互或修复。
-- [ ] **`heroSub` 死配置**：`subjectKit.ts:45` 定义 `heroSub`（`SubjectConfig`），但 `:122` 仅渲染 `intro`，`heroSub` 从未渲染（physics/chem `data.ts` 里也写了该字段）。要么渲染、要么从接口移除。
+- [x] **physics/chem 搜索框**：`subjectKit` 已带 `#search` + 跨模块结果区（`.sub-results`）。
+- [x] **physics/chem 过滤器**：模块内新增「难度」chip（入门/进阶/拓展，复用共享 `.filters/.chip`），仅当该模块有 `level` 数据时渲染；计数行统一为「共 N 条 / N entries」。
+- [x] **physics/chem refs / 来源区**：`SubjectConfig.refs` 已渲染（physics 4 条，KPI 同步）。
+- [x] **视图内主题 / 语言切换按钮**：背景——index.html 早年用 `display:none !important` 把 FULL 学科 hero 内按钮隐藏（因其直接调用学科自己的 `setLang`，与顶栏状态分叉）。现新增 `bridgeViewControls`：在学科根节点捕获阶段拦下点击改走主应用状态，状态单一来源后已取消隐藏规则；subjectKit 也补上同构按钮（`data-ctl` 标记，不走 id）。
+- [x] **`heroSub` 死配置**：现渲染为 hero 副标语 `.hero-tag`（如「万物之理」），英文为 “The Order of All Things”。
+- [x] **详情面板难度文案**：徽标与 eyebrow 由 `L1/L2/L3` 改为中文等级词（入门/进阶/拓展），与 thought 等学科用词一致。
+- [ ] **`level` 数据覆盖面**：physics 130 条中 94 条有难度，chem 232 条仅 3 个模块（概念/结构/趋势）共 26 条有难度，其余模块无筛选条。补齐需给 chem 各模块补 `level`（不造伪数据）。
 - [ ] **KPI / 详情 / footer 视觉对齐**：physics/chem 的 `sub-detail` / 简单 footer 与 FULL 风格统一。
-- [ ] **首页学科计数口径对齐**：最近把首页简介改为「四大学科」，但顶栏/首页统计数字（学科数）需同步对齐，避免口径矛盾。
+- [ ] **首页学科计数口径对齐**：顶栏/首页统计数字（学科数）需同步对齐，避免口径矛盾。
 
 ## 2. 物理/化学功能补齐（与 §1 重叠，需架构决策）
 
@@ -59,7 +60,8 @@
 ## 5. 体验 / 设计
 
 - [ ] **全局跨科搜索**：目前搜索是学科内；可考虑壳层全局搜索跨所有学科。
-- [ ] **主题 / 语言切换 bug 排查**：physics/chem 视图内切换点击无效（依赖全局顶栏）——确认全局顶栏在宿主壳里是否真正可用，修复或补充视图内按钮。
+- [x] **主题 / 语言切换 bug 排查**：根因是学科内按钮走学科自己的 `setLang`/主题写入，与顶栏不同源；index.html 因此直接隐藏了它们。现由 `src/core/viewControls.ts` 桥接（捕获阶段 `stopPropagation` → 改调 core `setLang`/`toggleTheme`），7 个学科的视图内按钮与顶栏实测双向同步。
+- [ ] **重复 id 隐患**：顶栏 `#themeBtn` 与学科 hero `#themeBtn` 同页共存（HTML 无效，靠作用域查询规避）；彻底清理需重命名各学科移植模板里的 id（并入 §2 范式决策）。
 - [ ] **移动端适配一致性**：8 学科响应式核对（hero 高度本轮已统一收敛）。
 - [ ] **加载态 / 骨架屏、错误边界**。
 - [ ] **无障碍**：aria、键盘导航、对比度（hero 标题对比度本轮已修）。
@@ -71,19 +73,20 @@
 
 - [x] **重写 `readme.md`**：技术栈、目录（含 `subjects.json`/`dataKit`/`_shared`/`scripts`）、本地预览与数据脚本、GEO 与品牌分析。
 - [x] **重写 `agent.md`**：design tokens、新增学科流程（改 `subjects.json`）、§７ GEO/重建/CI。
-- [ ] **更新 `PLAN.md`**：标记收敛已完成（可选，低优先）。
+- [x] **更新 `PLAN.md`**：已标记「收敛已完成」并指向本 BACKLOG（`PLAN.md:4`）。
+- [ ] **physics/chem 状态位**：`src/core/subjects.json` 仍标 `status: "wip"`（首页显示「接入中」），但两科已具备搜索/筛选/详情/refs/机器可读 JSON + GEO。是否改 `online` 需你拍（会同步影响首页徽标、预渲染页与 `llms.txt` 口径）。
 - [x] **新建 `docs/`**：`docs/README.md` 开发/内容贡献指南（含派生数据与 GEO 生成）。
 
 ## 7. 优先级总览
 
-| 优先级 | 项                                                 | 价值                             |
-| ------ | -------------------------------------------------- | -------------------------------- |
-| **P0** | §1 physics/chem 搜索 / 筛选 / refs 补齐 + 切换按钮 | 跨学科一致性的最后缺口           |
-| **P0** | §6 文档重写                                        | 当前文档误导，blocker for 协作者 |
-| **P1** | §2 架构决策（subjectKit vs FULL）                  | 决定长期维护成本                 |
-| **P1** | §3 内容深化（physics/chem/econ/mind）              | 内容质量                         |
-| **P2** | §4 测试 / CI                                       | 稳定性                           |
-| **P2** | §5 体验 / 设计                                     | polish                           |
+| 优先级 | 项                                                     | 价值                                 |
+| ------ | ------------------------------------------------------ | ------------------------------------ |
+| ~~P0~~ | ~~§1 physics/chem 搜索 / 筛选 / refs 补齐 + 切换按钮~~ | ✅ 本轮已完成（见 §1）               |
+| **P0** | §6 文档重写                                            | ✅ 已基本完成，仅 `PLAN.md` 待标历史 |
+| **P1** | §2 架构决策（subjectKit vs FULL）                      | 决定长期维护成本                     |
+| **P1** | §3 内容深化（chem `level` 覆盖面 / earth / life）      | 内容质量                             |
+| **P2** | §4 测试                                                | 稳定性（CI 门禁已接 links/data）     |
+| **P2** | §5 体验 / 设计                                         | polish                               |
 
 ---
 
@@ -93,3 +96,8 @@
 - `dfad0f3` 移除 physics/chem hero 副标题（sub-sub）
 - `29d043c` mind refs 区块布局对齐其它学科（左对齐标题 + 多列网格 + 去虚线）
 - `05fdcde` 首页简介学科数 六→四
+- thought 新增 5 类视图（术语/时间线/思想实验/中西对比/误区），共 10 视图 184 条，索引 87→184
+- `scripts/export-data.mjs`：physics/chem `data.ts` → `public/<x>-data/data/*.json`（+ llms/robots/sitemap），`data:check` 防漂移
+- `scripts/check-links.mjs` 新增「派生索引覆盖」检查；earth/life 24 处 related 死链与 overview 计数清零
+- `scripts/jsonStyle.mjs`：`fmt-json` 与 `export-data` 共用同一排版器（导出产物天生即为仓库规范风格）
+- `src/core/viewControls.ts` + `subjectKit` 难度筛选/视图内按钮：7 科语言与主题双向同步（puppeteer 实测 0 报错）

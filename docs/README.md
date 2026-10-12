@@ -12,7 +12,9 @@ npm run build:ssg    # 构建 + puppeteer 预渲染（静态 HTML，利于 SEO/�
 ```
 
 类型检查：`npm run typecheck`（`tsc --noEmit`）。
-数据校验：`npm run check:json`（全量 JSON）+ `npm run verify`（= typecheck + check:json + dynasty 校验）。
+数据校验：`npm run verify` = typecheck + `check:json`（全量 JSON）+ `links:check`（`scripts/check-links.mjs`：related 死链 / 双语成对 / 英文字段混中文 / 派生索引覆盖 / `overview` 计数）+ `data:check`（physics/chem 导出防漂移）+ dynasty 校验。
+机器可读导出：physics/chem 的 `data.ts` 是单一真相源，`npm run data:export` 用 esbuild 转译并导出为 `public/<x>-data/data/*.json`（中英拆为 `字段` + `字段En`，与中文相同的 `*En` 省略）；改 `data.ts` 后必须重跑，否则 `data:check` 失败。
+JSON 排版：`npm run fmt:json [学科…]`（`--check` 只报告），与导出器共用 `scripts/jsonStyle.mjs`（2 空格、≤80 列内联、不转义中文）。
 CI：`.github/workflows/ci.yml` 在 PR / push 到 main 时跑 `verify` + `build`（任一失败即阻断，早于 deploy）。
 
 ## 2. 共享基建（不要重复造）
@@ -111,8 +113,9 @@ GitHub Pages：`push` 到 `main` 触发 `.github/workflows/deploy.yml`（`npm ru
 
 ## 6. 派生数据与 GEO 生成
 
-- **派生索引重建**（改源数据后必须重跑）：`npm run index:rebuild` 一次重建全部——scaffold 三科（earth/life/thought）走 `s/build-index.mjs <subject>`，econ 走 `s/build-econ-index.mjs`（内含 16 模块 field→摘要映射），dynasty 走 `npm run dynasty:build-search`。产物为 `public/<key>-data/data/{search,related}.json`；mind 无派生索引。验证纪律：新 builder 对既有 committed 输出 `git diff` 应为 0。
-- **GEO 生成**：`npm run gen:sitemap`（爬 `public` 出根 `sitemap.xml`）与 `npm run gen:geo`（scaffold 三科 per-subject GEO + 根 hub `llms*.txt`/`robots.txt`/`sitemap.xml`）。根 hub 与 per-subject 两层 GEO 均**脚本生成、勿手改**；`build:ssg` 已前置这两步。域名统一 `https://minosie.github.io/wanwu-hub/`。
+- **派生索引重建**（改源数据后必须重跑）：`npm run index:rebuild` 一次重建全部——scaffold 三科（earth/life/thought）走 `s/build-index.mjs <subject>`，econ 走 `s/build-econ-index.mjs`（内含 16 模块 field→摘要映射），dynasty 走 `npm run dynasty:build-search`。产物为 `public/<key>-data/data/{search,related}.json`；mind 无派生索引。验证纪律：新 builder 对既有 committed 输出 `git diff` 应为 0。新增分类时记得往 `s/build-index.mjs` 的 `EXTRA` 规格表补一行，否则 `links:check` 会以「派生索引覆盖」报错阻断。
+- **语言 / 主题单一状态源**：顶栏（`src/core/layout.ts`）拥有 lang + theme；学科 hero 自带的 `#langBtn` / `#themeBtn` 由 `src/core/viewControls.ts` 的 `bridgeViewControls(root, t)` 在捕获阶段接管（改调 core 状态，学科自身监听器不再执行），学科通过挂载时的 `onLangChange` / `onThemeChange` 桥接自然重渲染。新增 FULL 学科时在 `index.ts` 里加一行 `bridgeViewControls` 即可。
+- **GEO 生成**：`npm run gen:sitemap`（爬 `public` 出根 `sitemap.xml`）与 `npm run gen:geo`（thought/earth/life 三科 + physics/chem 导出产物的 per-subject GEO + 根 hub `llms*.txt`/`robots.txt`/`sitemap.xml`）。根 hub 与 per-subject 两层 GEO 均**脚本生成、勿手改**；`build:ssg` 已前置这两步。域名统一 `https://minosie.github.io/wanwu-hub/`。
 - **预渲染**：`s/prerender.mjs` 的 ROUTES 从 `subjects.json` 派生（首页 + 全部 integrated 学科），新增学科自动纳入。
 
 ## 7. 品牌与分析（`index.html`）
