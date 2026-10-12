@@ -250,6 +250,13 @@
   font-size: 10px;
   font-variant-numeric: tabular-nums;
 }
+/* 图形本体的口径角标：不依赖卡片外围文案 */
+.econ-root .c-mark {
+  fill: var(--text-mute);
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  opacity: 0.9;
+}
 .econ-root .c-line {
   fill: none;
   stroke: var(--brand);

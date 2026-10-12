@@ -1,5 +1,5 @@
 import { fetchData } from '../core/data';
-import { openDetail } from '../core/detail';
+import { openDetail, srcLabel } from '../core/detail';
 import { clickable, esc, need } from '../core/dom';
 import { L, t } from '../core/i18n';
 import type { LObj, SourceRef } from '../core/types';
@@ -93,11 +93,14 @@ function chartSvg(item: Chart): string {
     .map((p) => `<circle class="c-dot" cx="${x(Number(p.y)).toFixed(1)}" cy="${y(Number(p.v)).toFixed(1)}" r="2.6" />`)
     .join('');
 
+  // 口径标在图形本体里：卡片被截图 / 外链传播时，「这只是示意」不会跟着标题一起丢掉。
+  const mark = `<text class="c-mark" x="${W - PAD.r}" y="13" text-anchor="end">${esc(t('ui.chartMark'))}</text>`;
+
   return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(L(item, 'title'))}">
     ${grid}${zero}
     <path class="c-area" d="${area}" />
     <path class="c-line" d="${line}" />
-    ${dots}${xlabs}
+    ${dots}${xlabs}${mark}
   </svg>`;
 }
 
@@ -109,7 +112,8 @@ export default async function render(): Promise<ModuleInstance> {
   host.innerHTML = items
     .map((it) => {
       const src = (it.sources ?? [])[0];
-      const srcLabel = src ? `${src.label}${src.year ? ` ${src.year}` : ''}` : '';
+      // 走 core 的 srcLabel：英文界面取 labelEn，年份括号随语言（原本地拼接会漏出中文）
+      const srcTag = src ? srcLabel(src) : '';
       return `<article class="chart-card js-item" data-key="${it.id}">
         <header class="chart-h">
           <h3 class="chart-t">${escapeInline(L(it, 'title'))}</h3>
@@ -118,7 +122,7 @@ export default async function render(): Promise<ModuleInstance> {
         ${chartSvg(it)}
         <p class="chart-note">${escapeInline(L(it, 'note') ?? t('ui.chartNote'))}</p>
         <footer class="card-f">
-          <span class="tag">${esc(srcLabel)}</span>
+          <span class="tag">${srcTag}</span>
           <span class="card-go">${t('ui.enter')}</span>
         </footer>
       </article>`;

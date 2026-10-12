@@ -11,8 +11,8 @@ function levelLabel(level?: number): string {
   return t(`ui.lvl${level}`);
 }
 
-/** 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。 */
-function srcLabel(s: SourceRef): string {
+/** 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。图表卡等处复用，避免再写一份。 */
+export function srcLabel(s: SourceRef): string {
   const en = getLang() === 'en';
   const label = en ? (s.labelEn || s.label) : s.label;
   const year = s.year ? (en ? ` (${s.year})` : `（${s.year}）`) : '';

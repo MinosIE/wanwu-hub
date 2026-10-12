@@ -48,7 +48,7 @@
 
 - [ ] **physics/chem 种子内容深化**：（本条原记的「`data.ts:7` 标注『示例性内容，持续扩充中』」与「physics 31 条 / chem 34 条」均已失真：全仓无该标注（只有 econ 的「示例性年度近似值」），实际为 physics 130 条 / chem 232 条，其中 118 条是完整周期表。当前双语字段无缺失、难度字段已全覆盖；仍偏浅的是**每模块条目的广度**（physics 最少的 methods / fluids / relativity / waves / tech 各 4-5 条，chem 的 energy / electrochem 各 5 条），以及 physics 16 个模块、chem 15 个模块尚未覆盖力、热以外的专题（如近代物理实验、化学与工程、环境化学）。
 - [x] **econ 补「骗局与泡沫」模块与金融大事件**：新增 `bubbles.json`（16 条中英双语：郁金香、南海、庞氏、亨特兄弟、巴林、LTCM、互联网泡沫、安然、银广夏、麦道夫、LIBOR、PlusToken、Wirecard、LUNA、FTX 等）与新视图 `m-bubbles`（`template.ts` section + 导航按钮 + `s/build-econ-index.mjs` 登记 + i18n 双语键）；`events.json` 22→31（黑色星期一、黑色星期三/索罗斯做空英镑、俄罗斯违约、欧元区主权债务危机、闪电崩盘、2015 A 股异常波动、瑞郎脱钩、英国迷你预算、硅谷银行）。econ 模块 16→17、条目 207→232，overview 计数/KPI 与四份 GEO 文档已同步。
-- [ ] **econ 图表数据口径**：`i18n.json:92` 免责「示例性年度近似值，非实时数据」——补真实来源或明确标注。
+- [x] **econ 图表数据口径**：先摸底发现数据层早已说清（每张图标题带「（示意）」、`note`/`noteEn` 逐图免责、`sources` 标「近似整理」，`charts.ts` 已渲染，`llms-full.txt` 也带）；真正缺的是两件事，已修：① 口径标到 **SVG 本体**（`svg.chart .c-mark`，文案新增 `ui.chartMark`：「示意 · 非实测数据」/ “Schematic · not measured”），卡片被截图外传时口径不会随之丢失；② `charts.ts` 原本自己拼接 `src.label`，**英文界面漏中文**，改为复用 `core/detail.ts` 导出的 `srcLabel()`（单一真相源，年份括号随语言）。实测 7/7 张图双语均正常。**不换为真实数值序列**：本仓无法核验数据源，把近似值改扮成可引用统计比口径不清更糟。
 - [ ] **mind 在建模块**：`i18n.ts:187` `ui.comingSoon` = 「该模块正在建设中，敬请期待」——推进在建模块。
 - [ ] 各 `sources.json` / refs 来源补全与去重（已 10 个 FULL 文件含 `sources.json`）。
 
