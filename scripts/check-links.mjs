@@ -222,20 +222,26 @@ for (const subject of subjects) {
         errors++;
       }
     }
-    const kpiKeys = new Set((ov.kpis ?? []).map((k) => canon(k.key)));
-    for (const key of Object.keys(actual)) {
-      if (!kpiKeys.has(canon(key))) {
-        console.warn(`[${subject}] overview.kpis 缺少「${key}」`);
-        warnings++;
-      }
+    // KPI 只用于首屏概览，约定每科至多 4 项（中华王朝另有自己的校验）；
+    // 全量分类统计由 counts 承担，因此不再要求 kpis 覆盖每个数据文件。
+    // physics/chem 的 overview.json 是 data:export 的机器可读产物，hero KPI 由
+    // subjectKit 的 kpisInner() 现算 3 项，不读这份 kpis，故不受首屏约束。
+    const MAX_KPIS = 4;
+    const KIT_EXPORTED = new Set(["physics", "chem"]);
+    if (!KIT_EXPORTED.has(subject) && (ov.kpis ?? []).length > MAX_KPIS) {
+      console.warn(
+        `[${subject}] overview.kpis 有 ${ov.kpis.length} 项，约定首屏最多 ${MAX_KPIS} 项（移动端会占满首屏）`,
+      );
+      warnings++;
     }
     for (const k of ov.kpis ?? []) {
       const fileKey = actualByCanon.get(canon(k.key));
-      if (
-        typeof k.value === "number" &&
-        fileKey != null &&
-        actual[fileKey] !== k.value
-      ) {
+      if (fileKey == null) {
+        console.error(`[${subject}] overview.kpis.${k.key} 无对应数据文件`);
+        errors++;
+        continue;
+      }
+      if (typeof k.value === "number" && actual[fileKey] !== k.value) {
         console.error(
           `[${subject}] overview.kpis.${k.key}=${k.value}，实际 ${actual[fileKey]}`,
         );

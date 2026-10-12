@@ -14,14 +14,8 @@
   },
   "kpis": [
     { "key": "schools", "icon": "🏛️", "value": 20 },
-    { "key": "questions", "icon": "❓", "value": 15 },
-    { "key": "branches", "icon": "🧩", "value": 11 },
-    { "key": "classics", "icon": "📜", "value": 16 },
     { "key": "thinkers", "icon": "👤", "value": 25 },
-    { "key": "glossary", "icon": "📖", "value": 30 },
-    { "key": "timeline", "icon": "🕰️", "value": 25 },
-    { "key": "experiments", "icon": "🧪", "value": 14 },
-    { "key": "compare", "icon": "🌉", "value": 10 },
-    { "key": "myths", "icon": "🧯", "value": 18 }
+    { "key": "classics", "icon": "📜", "value": 16 },
+    { "key": "questions", "icon": "❓", "value": 15 }
   ]
 }

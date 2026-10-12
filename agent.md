@@ -71,6 +71,7 @@
 
 - `index.ts` 调用 `createSubject(cfg)`（`src/subjects/subjectKit.ts`），`cfg` 来自 `data.ts`（`SubjectConfig`：`heroTitle / intro / modules / refs`）。
 - 通用渲染器已提供：hero（标题含「中文 · English」+ 一段导语）、KPI、模块导航、模块标题（直接用共享 `.mod-head`，居中标题，不带计数）、卡片网格、详情弹层、搜索框、来源区、footer。
+- KPI 首屏约定：**除中华王朝外，每科 hero 的 KPI 固定 4 个**（移动端 `.kpis` 为两列，4 个正好两行；更多会把搜索框与模块卡顶出首屏）。全量分类统计放 `overview.json` 的 `counts`，`kpis` 只挑最有辨识度的四项（如 econ：概念 / 词典 / 发展史 / 骗局与泡沫）。`links:check` 对超过 4 项告警；physics/chem 例外——它们的 `overview.json` 是 `data:export` 产物，hero KPI 由 `subjectKit` 的 `kpisInner()` 现算。
 - 新增 / 调整 physics/chem **优先改 `data.ts`**，无需动模板；需要新交互能力时再扩展 `subjectKit.ts`。
 
 ## 5. 修改约束（重要）

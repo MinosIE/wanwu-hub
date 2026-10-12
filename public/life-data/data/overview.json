@@ -10,10 +10,8 @@
   },
   "kpis": [
     { "key": "schools", "icon": "🧬", "value": 15 },
-    { "key": "questions", "icon": "🌿", "value": 15 },
     { "key": "principles", "icon": "🧫", "value": 12 },
     { "key": "classics", "icon": "🐾", "value": 15 },
-    { "key": "thinkers", "icon": "🔬", "value": 15 },
     { "key": "endemics", "icon": "🐼", "value": 8 }
   ]
 }
