@@ -45,7 +45,7 @@
       }
     ],
     "related": ["confucianism", "mengzi", "lunyu"],
-    "sources": [{ "label": "《论语》" }]
+    "sources": [{ "label": "《论语》", "labelEn": "The Analects" }]
   },
   {
     "id": "laozi",
@@ -93,7 +93,7 @@
       }
     ],
     "related": ["taoism", "zhuangzi", "daodejing"],
-    "sources": [{ "label": "《道德经》" }]
+    "sources": [{ "label": "《道德经》", "labelEn": "Dao De Jing" }]
   },
   {
     "id": "plato",
@@ -141,7 +141,7 @@
       }
     ],
     "related": ["platonism", "aristotle", "republic"],
-    "sources": [{ "label": "《理想国》", "year": -375 }]
+    "sources": [{ "label": "《理想国》", "labelEn": "The Republic", "year": -375 }]
   },
   {
     "id": "aristotle",
@@ -192,7 +192,7 @@
       { "q": "人是政治的动物。", "qEn": "Man is by nature a political animal." }
     ],
     "related": ["aristotelianism", "plato", "nicomachean"],
-    "sources": [{ "label": "《尼各马可伦理学》", "year": -330 }]
+    "sources": [{ "label": "《尼各马可伦理学》", "labelEn": "Nicomachean Ethics", "year": -330 }]
   },
   {
     "id": "kant",
@@ -246,7 +246,7 @@
       }
     ],
     "related": ["kantian", "rationalism", "empiricism", "critique"],
-    "sources": [{ "label": "《纯粹理性批判》", "year": 1781 }]
+    "sources": [{ "label": "《纯粹理性批判》", "labelEn": "Critique of Pure Reason", "year": 1781 }]
   },
   {
     "id": "marx",
@@ -294,7 +294,7 @@
       }
     ],
     "related": ["marxism", "utilitarianism"],
-    "sources": [{ "label": "《资本论》", "year": 1867 }]
+    "sources": [{ "label": "《资本论》", "labelEn": "Das Kapital", "year": 1867 }]
   },
   {
     "id": "nietzsche",
@@ -348,7 +348,7 @@
       }
     ],
     "related": ["existentialism", "zarathustra"],
-    "sources": [{ "label": "《查拉图斯特拉如是说》", "year": 1883 }]
+    "sources": [{ "label": "《查拉图斯特拉如是说》", "labelEn": "Thus Spoke Zarathustra", "year": 1883 }]
   },
   {
     "id": "hume",
@@ -402,7 +402,7 @@
       }
     ],
     "related": ["empiricism", "self", "treatise"],
-    "sources": [{ "label": "《人性论》", "year": 1739 }]
+    "sources": [{ "label": "《人性论》", "labelEn": "A Treatise of Human Nature", "year": 1739 }]
   },
   {
     "id": "sartre",
@@ -453,7 +453,7 @@
       { "q": "人被判处自由。", "qEn": "Man is condemned to be free." }
     ],
     "related": ["existentialism", "meaning", "second-sex"],
-    "sources": [{ "label": "《存在与虚无》", "year": 1943 }]
+    "sources": [{ "label": "《存在与虚无》", "labelEn": "Being and Nothingness", "year": 1943 }]
   },
   {
     "id": "wangyangming",
@@ -507,7 +507,7 @@
       }
     ],
     "related": ["confucianism", "chuanxilu", "kongzi"],
-    "sources": [{ "label": "《传习录》" }]
+    "sources": [{ "label": "《传习录》", "labelEn": "Instructions for Practical Living" }]
   },
   {
     "id": "descartes",
@@ -556,7 +556,7 @@
     ],
     "quotes": [{ "q": "我思故我在。", "qEn": "I think, therefore I am." }],
     "related": ["rationalism", "mind-body", "kantian"],
-    "sources": [{ "label": "《第一哲学沉思集》", "year": 1641 }]
+    "sources": [{ "label": "《第一哲学沉思集》", "labelEn": "Meditations on First Philosophy", "year": 1641 }]
   },
   {
     "id": "mill",
@@ -606,7 +606,7 @@
       }
     ],
     "related": ["utilitarianism", "justice", "good-evil"],
-    "sources": [{ "label": "《功利主义》", "year": 1863 }]
+    "sources": [{ "label": "《功利主义》", "labelEn": "Utilitarianism", "year": 1863 }]
   },
   {
     "id": "marcus",
@@ -654,7 +654,7 @@
       }
     ],
     "related": ["stoicism", "meditations"],
-    "sources": [{ "label": "《沉思录》", "year": 180 }]
+    "sources": [{ "label": "《沉思录》", "labelEn": "Meditations", "year": 180 }]
   },
   {
     "id": "beauvoir",
@@ -702,7 +702,7 @@
       }
     ],
     "related": ["existentialism", "meaning", "second-sex"],
-    "sources": [{ "label": "《第二性》", "year": 1949 }]
+    "sources": [{ "label": "《第二性》", "labelEn": "The Second Sex", "year": 1949 }]
   },
   {
     "id": "zhuangzi",
@@ -750,7 +750,7 @@
       }
     ],
     "related": ["taoism", "laozi", "xuanxue", "qiwu", "mingjia", "butterfly-dream"],
-    "sources": [{ "label": "《庄子》" }]
+    "sources": [{ "label": "《庄子》", "labelEn": "Zhuangzi" }]
   },
   {
     "id": "mengzi",
@@ -798,7 +798,7 @@
       }
     ],
     "related": ["confucianism", "kongzi", "lunyu", "good-evil", "tl-mengzi-xunzi"],
-    "sources": [{ "label": "《孟子》" }]
+    "sources": [{ "label": "《孟子》", "labelEn": "Mencius" }]
   },
   {
     "id": "socrates",
@@ -859,7 +859,7 @@
       "knowledge",
       "self"
     ],
-    "sources": [{ "label": "《申辩篇》柏拉图" }]
+    "sources": [{ "label": "《申辩篇》柏拉图", "labelEn": "Apology (Plato)" }]
   },
   {
     "id": "locke",
@@ -925,7 +925,7 @@
       "justice",
       "theory-of-justice"
     ],
-    "sources": [{ "label": "《政府论》", "year": 1689 }]
+    "sources": [{ "label": "《政府论》", "labelEn": "Two Treatises of Government", "year": 1689 }]
   },
   {
     "id": "wittgenstein",
@@ -984,7 +984,7 @@
       }
     ],
     "related": ["analytic", "pragmatism", "kantian", "empiricism"],
-    "sources": [{ "label": "《逻辑哲学论》", "year": 1921 }]
+    "sources": [{ "label": "《逻辑哲学论》", "labelEn": "Tractatus Logico-Philosophicus", "year": 1921 }]
   },
   {
     "id": "heidegger",
@@ -1034,7 +1034,7 @@
       }
     ],
     "related": ["existentialism", "sein-zeit", "sartre", "death", "self"],
-    "sources": [{ "label": "《存在与时间》", "year": 1927 }]
+    "sources": [{ "label": "《存在与时间》", "labelEn": "Being and Time", "year": 1927 }]
   },
   {
     "id": "aquinas",
@@ -1078,7 +1078,7 @@
       }
     ],
     "related": ["aristotelianism", "reality", "god"],
-    "sources": [{ "label": "《神学大全》" }]
+    "sources": [{ "label": "《神学大全》", "labelEn": "Summa Theologica" }]
   },
   {
     "id": "spinoza",
@@ -1120,7 +1120,7 @@
       }
     ],
     "related": ["rationalism", "descartes", "free-will"],
-    "sources": [{ "label": "《伦理学》" }]
+    "sources": [{ "label": "《伦理学》", "labelEn": "Ethics" }]
   },
   {
     "id": "zhu-xi",
@@ -1168,7 +1168,7 @@
       }
     ],
     "related": ["confucianism", "kongzi", "mengzi", "moral-realism"],
-    "sources": [{ "label": "《四书章句集注》" }]
+    "sources": [{ "label": "《四书章句集注》", "labelEn": "Collected Commentaries on the Four Books" }]
   },
   {
     "id": "dewey",
@@ -1216,7 +1216,7 @@
       }
     ],
     "related": ["pragmatism", "empiricism", "induction"],
-    "sources": [{ "label": "《民主与教育》" }]
+    "sources": [{ "label": "《民主与教育》", "labelEn": "Democracy and Education" }]
   },
   {
     "id": "camus",
@@ -1260,6 +1260,6 @@
       }
     ],
     "related": ["existentialism", "meaning", "death"],
-    "sources": [{ "label": "《西西弗神话》" }]
+    "sources": [{ "label": "《西西弗神话》", "labelEn": "The Myth of Sisyphus" }]
   }
 ]

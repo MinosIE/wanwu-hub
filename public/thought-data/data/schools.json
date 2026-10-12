@@ -18,7 +18,7 @@
     "criticisms": ["偏重等级与服从，易沦为统治工具", "对制度性约束着墨较少"],
     "criticismsEn": ["Can justify hierarchy and obedience", "Says little about institutional checks"],
     "related": ["taoism", "legalism", "kongzi", "mengzi"],
-    "sources": [{ "label": "《论语》", "year": -479 }]
+    "sources": [{ "label": "《论语》", "labelEn": "The Analects", "year": -479 }]
   },
   {
     "id": "taoism",
@@ -39,7 +39,7 @@
     "criticisms": ["缺乏积极进取的行动方案", "容易滑向消极避世"],
     "criticismsEn": ["Offers little by way of active program", "Can slide into quietist withdrawal"],
     "related": ["confucianism", "buddhism", "laozi", "zhuangzi"],
-    "sources": [{ "label": "《道德经》", "year": -400 }]
+    "sources": [{ "label": "《道德经》", "labelEn": "Dao De Jing", "year": -400 }]
   },
   {
     "id": "mohism",
@@ -60,7 +60,7 @@
     "criticisms": ["兼爱难以自然生发，靠强力推行", "秦汉后中绝，影响受限"],
     "criticismsEn": ["Impartial love is hard to motivate", "Died out after Qin-Han unification"],
     "related": ["confucianism", "legalism"],
-    "sources": [{ "label": "《墨子》" }]
+    "sources": [{ "label": "《墨子》", "labelEn": "Mozi" }]
   },
   {
     "id": "legalism",
@@ -81,7 +81,7 @@
     "criticisms": ["纯任刑罚，忽视教化", "权力无制约则走向暴政"],
     "criticismsEn": ["Neglects moral education", "Unchecked power turns tyrannical"],
     "related": ["confucianism", "mohism", "tl-hobbes", "xingshan-hobbes-compare"],
-    "sources": [{ "label": "《韩非子》" }]
+    "sources": [{ "label": "《韩非子》", "labelEn": "Han Feizi" }]
   },
   {
     "id": "buddhism",
@@ -102,7 +102,7 @@
     "criticisms": ["「无我」「空」易被误读为虚无", "与世俗政治伦理衔接较弱"],
     "criticismsEn": ["Emptiness easily misread as nihilism", "Weak link to political ethics"],
     "related": ["taoism", "sunyata", "bundle-self-compare"],
-    "sources": [{ "label": "《中论》", "year": 150 }]
+    "sources": [{ "label": "《中论》", "labelEn": "Middle Treatise (Mulamadhyamakakarika)", "year": 150 }]
   },
   {
     "id": "platonism",
@@ -123,7 +123,7 @@
     "criticisms": ["理型与世界「分离」难以自洽", "轻视感官经验"],
     "criticismsEn": ["The Forms' separation is hard to defend", "Undervalues sensory experience"],
     "related": ["aristotelianism", "rationalism", "plato"],
-    "sources": [{ "label": "《理想国》", "year": -375 }]
+    "sources": [{ "label": "《理想国》", "labelEn": "The Republic", "year": -375 }]
   },
   {
     "id": "aristotelianism",
@@ -144,7 +144,7 @@
     "criticisms": ["目的论预设遭现代科学质疑", "中道的界定偏模糊"],
     "criticismsEn": ["Teleology questioned by modern science", "The 'mean' is loosely defined"],
     "related": ["platonism", "aristotle"],
-    "sources": [{ "label": "《尼各马可伦理学》", "year": -330 }]
+    "sources": [{ "label": "《尼各马可伦理学》", "labelEn": "Nicomachean Ethics", "year": -330 }]
   },
   {
     "id": "stoicism",
@@ -165,7 +165,7 @@
     "criticisms": ["对 injustices 倾向忍耐而非改变", "情感被压抑殆尽"],
     "criticismsEn": ["Tends to endure rather than reform", "Flirts with emotional suppression"],
     "related": ["ataraxia", "marcus", "fatalism-vs-determinism"],
-    "sources": [{ "label": "《沉思录》", "year": 180 }]
+    "sources": [{ "label": "《沉思录》", "labelEn": "Meditations", "year": 180 }]
   },
   {
     "id": "rationalism",
@@ -186,7 +186,7 @@
     "criticisms": ["天赋观念来源成疑", "忽视经验证据"],
     "criticismsEn": ["Innate ideas are dubious", "Neglects empirical evidence"],
     "related": ["empiricism", "descartes", "kantian"],
-    "sources": [{ "label": "《第一哲学沉思集》", "year": 1641 }]
+    "sources": [{ "label": "《第一哲学沉思集》", "labelEn": "Meditations on First Philosophy", "year": 1641 }]
   },
   {
     "id": "empiricism",
@@ -207,7 +207,7 @@
     "criticisms": ["极端者难以解释数学与必然", "怀疑论易滑向不可知"],
     "criticismsEn": ["Struggles with necessity and math", "Skepticism risks agnosticism"],
     "related": ["rationalism", "kantian", "hume"],
-    "sources": [{ "label": "《人类理解论》", "year": 1689 }]
+    "sources": [{ "label": "《人类理解论》", "labelEn": "An Essay Concerning Human Understanding", "year": 1689 }]
   },
   {
     "id": "kantian",
@@ -228,7 +228,7 @@
     "criticisms": ["体系繁复、门槛极高", "物自体不可知留尾巴"],
     "criticismsEn": ["Dense and forbidding", "The unknowable noumenon is a loose end"],
     "related": ["rationalism", "empiricism", "kant", "utilitarianism"],
-    "sources": [{ "label": "《纯粹理性批判》", "year": 1781 }]
+    "sources": [{ "label": "《纯粹理性批判》", "labelEn": "Critique of Pure Reason", "year": 1781 }]
   },
   {
     "id": "utilitarianism",
@@ -249,7 +249,7 @@
     "criticisms": ["难以计量与预测后果", "可能牺牲少数权利"],
     "criticismsEn": ["Hard to measure and predict", "Can override minority rights"],
     "related": ["kantian", "mill"],
-    "sources": [{ "label": "《功利主义》", "year": 1863 }]
+    "sources": [{ "label": "《功利主义》", "labelEn": "Utilitarianism", "year": 1863 }]
   },
   {
     "id": "existentialism",
@@ -270,7 +270,7 @@
     "criticisms": ["易流于主观 relativism", "系统性与论证偏弱"],
     "criticismsEn": ["Risks subjective relativism", "Thinner on systematic argument"],
     "related": ["phenomenology", "sartre", "camus"],
-    "sources": [{ "label": "《存在与虚无》", "year": 1943 }]
+    "sources": [{ "label": "《存在与虚无》", "labelEn": "Being and Nothingness", "year": 1943 }]
   },
   {
     "id": "marxism",
@@ -291,7 +291,7 @@
     "criticisms": ["历史决定论难以证伪", "计划经济实践屡受挫"],
     "criticismsEn": ["Historical determinism is hard to falsify", "Planned-economy record is poor"],
     "related": ["utilitarianism", "marx"],
-    "sources": [{ "label": "《资本论》", "year": 1867 }]
+    "sources": [{ "label": "《资本论》", "labelEn": "Das Kapital", "year": 1867 }]
   },
   {
     "id": "mingjia",
@@ -312,7 +312,7 @@
     "criticisms": ["流于巧辩，常脱离日用", "未发展出形式推演体系"],
     "criticismsEn": ["Risk of clever sophistry", "No formal deductive system emerged"],
     "related": ["taoism", "confucianism", "zhuangzi"],
-    "sources": [{ "label": "《公孙龙子》" }]
+    "sources": [{ "label": "《公孙龙子》", "labelEn": "Gongsun Longzi" }]
   },
   {
     "id": "yinyang",
@@ -333,7 +333,7 @@
     "criticisms": ["灾异附会易流于迷信", "循环论弱于线性进步观"],
     "criticismsEn": ["Portents drift into superstition", "Cyclical view underplays progress"],
     "related": ["confucianism", "taoism", "legalism"],
-    "sources": [{ "label": "《吕氏春秋·应同》" }]
+    "sources": [{ "label": "《吕氏春秋·应同》", "labelEn": "Lüshi Chunqiu: Yingtong" }]
   },
   {
     "id": "pragmatism",
@@ -354,7 +354,7 @@
     "criticisms": ["「有用即真」易滑向相对主义", "对逻辑与基础的重视不足"],
     "criticismsEn": ["'useful = true' risks relativism", "Underplays logic and foundations"],
     "related": ["empiricism", "utilitarianism", "kantian"],
-    "sources": [{ "label": "《实用主义》詹姆斯", "year": 1907 }]
+    "sources": [{ "label": "《实用主义》詹姆斯", "labelEn": "Pragmatism (William James)", "year": 1907 }]
   },
   {
     "id": "analytic",
@@ -375,7 +375,7 @@
     "criticisms": ["被讥为「只见语句不见人生」", "对价值与意义问题力有不逮"],
     "criticismsEn": ["Accused of missing life", "Weak on value and meaning"],
     "related": ["empiricism", "rationalism", "wittgenstein"],
-    "sources": [{ "label": "《逻辑哲学论》维特根斯坦", "year": 1921 }]
+    "sources": [{ "label": "《逻辑哲学论》维特根斯坦", "labelEn": "Tractatus Logico-Philosophicus (Wittgenstein)", "year": 1921 }]
   },
   {
     "id": "skepticism",
@@ -396,7 +396,7 @@
     "criticisms": ["彻底悬搁会瘫痪行动", "自我反驳：怀疑本身也当被怀疑"],
     "criticismsEn": ["Total suspension paralyses action", "Self-refuting: doubt the doubt too"],
     "related": ["stoicism", "platonism"],
-    "sources": [{ "label": "《皮浪学说概要》塞克斯都", "year": 200 }]
+    "sources": [{ "label": "《皮浪学说概要》塞克斯都", "labelEn": "Outlines of Pyrrhonism (Sextus Empiricus)", "year": 200 }]
   },
   {
     "id": "xuanxue",
@@ -417,6 +417,6 @@
     "criticisms": ["偏尚清谈，疏于事功", "易与现实责任脱节"],
     "criticismsEn": ["Too much pure talk", "Detached from duty"],
     "related": ["taoism", "confucianism", "laozi", "zhuangzi"],
-    "sources": [{ "label": "《老子注》王弼" }]
+    "sources": [{ "label": "《老子注》王弼", "labelEn": "Wang Bi's Commentary on the Laozi" }]
   }
 ]

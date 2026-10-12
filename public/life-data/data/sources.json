@@ -1,10 +1,10 @@
 [
-  { "label": "Campbell Biology（Campbell 等，第 12 版）", "year": 2020, "type": "教材", "url": "https://www.pearson.com/en-us/subjects/science/biology/campbell-biology.html" },
-  { "label": "Wikipedia: Life / Evolution 相关条目", "type": "百科", "url": "https://en.wikipedia.org/wiki/Life" },
-  { "label": "On the Origin of Species — C. Darwin (1859)", "year": 1859, "type": "原著", "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species" },
-  { "label": "Systema Naturae — C. Linnaeus (1735)", "year": 1735, "type": "原著", "url": "https://en.wikipedia.org/wiki/Systema_Naturae" },
-  { "label": "Nature: 生命之树与系统发育", "type": "期刊", "url": "https://www.nature.com/" },
-  { "label": "NASA Astrobiology / 生命起源研究", "type": "机构", "url": "https://astrobiology.nasa.gov/" },
-  { "label": "IUCN Red List（物种受威胁状况）", "type": "数据库", "url": "https://www.iucnredlist.org/" },
-  { "label": "GBIF（全球生物多样性信息设施）", "type": "数据库", "url": "https://www.gbif.org/" }
+  { "label": "Campbell Biology（Campbell 等，第 12 版）", "labelEn": "Campbell Biology (12th ed., Campbell et al.)", "year": 2020, "type": "教材", "typeEn": "Textbook", "url": "https://www.pearson.com/en-us/subjects/science/biology/campbell-biology.html" },
+  { "label": "Wikipedia: Life / Evolution 相关条目", "labelEn": "Wikipedia: Life / Evolution entries", "type": "百科", "typeEn": "Encyclopedia", "url": "https://en.wikipedia.org/wiki/Life" },
+  { "label": "On the Origin of Species — C. Darwin (1859)", "year": 1859, "type": "原著", "typeEn": "Primary source", "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species" },
+  { "label": "Systema Naturae — C. Linnaeus (1735)", "year": 1735, "type": "原著", "typeEn": "Primary source", "url": "https://en.wikipedia.org/wiki/Systema_Naturae" },
+  { "label": "Nature: 生命之树与系统发育", "labelEn": "Nature: The Tree of Life and Phylogeny", "type": "期刊", "typeEn": "Journal", "url": "https://www.nature.com/" },
+  { "label": "NASA Astrobiology / 生命起源研究", "labelEn": "NASA Astrobiology / Origin-of-Life Research", "type": "机构", "typeEn": "Institution", "url": "https://astrobiology.nasa.gov/" },
+  { "label": "IUCN Red List（物种受威胁状况）", "labelEn": "IUCN Red List (species threat status)", "type": "数据库", "typeEn": "Database", "url": "https://www.iucnredlist.org/" },
+  { "label": "GBIF（全球生物多样性信息设施）", "labelEn": "GBIF (Global Biodiversity Information Facility)", "type": "数据库", "typeEn": "Database", "url": "https://www.gbif.org/" }
 ]

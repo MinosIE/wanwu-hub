@@ -22,8 +22,8 @@
       { "k": "现状", "kEn": "Status", "v": "由濒危降为易危，仍受栖息地破碎化威胁", "vEn": "Downlisted to Vulnerable, still threatened by fragmentation" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -49,8 +49,8 @@
       { "k": "价值", "kEn": "Value", "v": "研究演化与气候的活样本", "vEn": "A live specimen for studying evolution and climate" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国珍稀濒危植物名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国珍稀濒危植物名录", "labelEn": "China Red List of Rare and Endangered Plants", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -76,8 +76,8 @@
       { "k": "科研价值", "kEn": "Research", "v": "连通化石与现生的关键证据", "vEn": "Key link between fossils and living flora" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国珍稀濒危植物名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国珍稀濒危植物名录", "labelEn": "China Red List of Rare and Endangered Plants", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -103,8 +103,8 @@
       { "k": "现状", "kEn": "Status", "v": "种群回升但仍脆弱", "vEn": "Recovered but still fragile" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -130,8 +130,8 @@
       { "k": "现状", "kEn": "Status", "v": "保护区建立后趋稳", "vEn": "Stabilized after reserves established" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -157,8 +157,8 @@
       { "k": "现状", "kEn": "Status", "v": "野外仍稀少，依赖持续放归", "vEn": "Still rare in the wild, reliant on releases" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -184,8 +184,8 @@
       { "k": "现状", "kEn": "Status", "v": "由濒危降为近危", "vEn": "Downlisted from Endangered to Near Threatened" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   },
   {
@@ -211,8 +211,8 @@
       { "k": "现状", "kEn": "Status", "v": "自然繁殖近乎中断，靠放流维持", "vEn": "Wild spawning nearly halted; sustained by release" }
     ],
     "sources": [
-      { "label": "IUCN 红色名录", "url": "", "type": "权威名录" },
-      { "label": "中国生物多样性红色名录", "url": "", "type": "国内名录" }
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
   }
 ]

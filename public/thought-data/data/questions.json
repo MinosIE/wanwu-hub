@@ -34,7 +34,7 @@
     "thinkers": ["康德", "休谟", "萨特"],
     "thinkersEn": ["Kant", "Hume", "Sartre"],
     "related": ["mind-body", "self", "kant", "hume", "sartre"],
-    "sources": [{ "label": "《自由意志与决定论》SEP" }]
+    "sources": [{ "label": "《自由意志与决定论》SEP", "labelEn": "SEP: Free Will" }]
   },
   {
     "id": "meaning",
@@ -71,7 +71,7 @@
     "thinkers": ["加缪", "萨特", "孔子"],
     "thinkersEn": ["Camus", "Sartre", "Confucius"],
     "related": ["good-evil", "death", "camus", "sartre", "confucianism"],
-    "sources": [{ "label": "《西西弗神话》", "year": 1942 }]
+    "sources": [{ "label": "《西西弗神话》", "labelEn": "The Myth of Sisyphus", "year": 1942 }]
   },
   {
     "id": "good-evil",
@@ -108,7 +108,7 @@
     "thinkers": ["康德", "密尔", "孔子"],
     "thinkersEn": ["Kant", "Mill", "Confucius"],
     "related": ["justice", "knowledge", "kant", "mill", "confucianism"],
-    "sources": [{ "label": "《伦理学基础》SEP" }]
+    "sources": [{ "label": "《伦理学基础》SEP", "labelEn": "SEP: Normative Ethics" }]
   },
   {
     "id": "knowledge",
@@ -145,7 +145,7 @@
     "thinkers": ["笛卡尔", "休谟", "康德"],
     "thinkersEn": ["Descartes", "Hume", "Kant"],
     "related": ["mind-body", "reality", "rationalism", "empiricism", "kantian"],
-    "sources": [{ "label": "《纯粹理性批判》", "year": 1781 }]
+    "sources": [{ "label": "《纯粹理性批判》", "labelEn": "Critique of Pure Reason", "year": 1781 }]
   },
   {
     "id": "mind-body",
@@ -182,7 +182,7 @@
     "thinkers": ["笛卡尔", "康德"],
     "thinkersEn": ["Descartes", "Kant"],
     "related": ["free-will", "self", "rationalism", "kantian"],
-    "sources": [{ "label": "《第一哲学沉思集》", "year": 1641 }]
+    "sources": [{ "label": "《第一哲学沉思集》", "labelEn": "Meditations on First Philosophy", "year": 1641 }]
   },
   {
     "id": "justice",
@@ -219,7 +219,7 @@
     "thinkers": ["密尔", "罗尔斯", "康德"],
     "thinkersEn": ["Mill", "Rawls", "Kant"],
     "related": ["good-evil", "knowledge", "utilitarianism", "mill", "theory-of-justice"],
-    "sources": [{ "label": "《正义论》", "year": 1971 }]
+    "sources": [{ "label": "《正义论》", "labelEn": "A Theory of Justice", "year": 1971 }]
   },
   {
     "id": "reality",
@@ -262,7 +262,7 @@
       "kantian",
       "rationalism"
     ],
-    "sources": [{ "label": "《理想国》洞穴寓言", "year": -375 }]
+    "sources": [{ "label": "《理想国》洞穴寓言", "labelEn": "Republic: The Allegory of the Cave", "year": -375 }]
   },
   {
     "id": "self",
@@ -299,7 +299,7 @@
     "thinkers": ["休谟", "释迦牟尼", "笛卡尔"],
     "thinkersEn": ["Hume", "Siddhartha", "Descartes"],
     "related": ["free-will", "mind-body", "reality", "buddhism", "empiricism"],
-    "sources": [{ "label": "《人类理解论》", "year": 1689 }]
+    "sources": [{ "label": "《人类理解论》", "labelEn": "An Essay Concerning Human Understanding", "year": 1689 }]
   },
   {
     "id": "god",
@@ -336,7 +336,7 @@
     "thinkers": ["康德", "柏拉图"],
     "thinkersEn": ["Kant", "Plato"],
     "related": ["good-evil", "meaning", "platonism", "kantian"],
-    "sources": [{ "label": "《纯粹理性批判》先验辨证论", "year": 1781 }]
+    "sources": [{ "label": "《纯粹理性批判》先验辨证论", "labelEn": "Critique of Pure Reason: Transcendental Dialectic", "year": 1781 }]
   },
   {
     "id": "death",
@@ -373,7 +373,7 @@
     "thinkers": ["伊壁鸠鲁", "孔子", "庄子"],
     "thinkersEn": ["Epicurus", "Confucius", "Zhuangzi"],
     "related": ["meaning", "self", "taoism", "confucianism"],
-    "sources": [{ "label": "《论死亡》伊壁鸠鲁" }]
+    "sources": [{ "label": "《论死亡》伊壁鸠鲁", "labelEn": "Epicurus, Letter to Menoeceus" }]
   },
   {
     "id": "beauty",
@@ -410,7 +410,7 @@
     "thinkers": ["柏拉图", "康德", "休谟"],
     "thinkersEn": ["Plato", "Kant", "Hume"],
     "related": ["platonism", "kant", "knowledge"],
-    "sources": [{ "label": "《判断力批判》康德" }]
+    "sources": [{ "label": "《判断力批判》康德", "labelEn": "Critique of Judgment (Kant)" }]
   },
   {
     "id": "other-minds",
@@ -447,7 +447,7 @@
     "thinkers": ["维特根斯坦", "萨特", "胡塞尔"],
     "thinkersEn": ["Wittgenstein", "Sartre", "Husserl"],
     "related": ["mind-body", "self", "analytic"],
-    "sources": [{ "label": "《哲学研究》维特根斯坦" }]
+    "sources": [{ "label": "《哲学研究》维特根斯坦", "labelEn": "Philosophical Investigations (Wittgenstein)" }]
   },
   {
     "id": "universals",
@@ -484,7 +484,7 @@
     "thinkers": ["柏拉图", "亚里士多德", "奥卡姆"],
     "thinkersEn": ["Plato", "Aristotle", "Ockham"],
     "related": ["platonism", "aristotelianism", "reality"],
-    "sources": [{ "label": "《共相问题》SEP" }]
+    "sources": [{ "label": "《共相问题》SEP", "labelEn": "SEP: Universals" }]
   },
   {
     "id": "induction",
@@ -521,7 +521,7 @@
     "thinkers": ["休谟", "康德", "波普尔"],
     "thinkersEn": ["Hume", "Kant", "Popper"],
     "related": ["knowledge", "empiricism", "hume"],
-    "sources": [{ "label": "《人性论》休谟" }]
+    "sources": [{ "label": "《人性论》休谟", "labelEn": "A Treatise of Human Nature (Hume)" }]
   },
   {
     "id": "moral-realism",
@@ -558,6 +558,6 @@
     "thinkers": ["康德", "密尔", "尼采"],
     "thinkersEn": ["Kant", "Mill", "Nietzsche"],
     "related": ["good-evil", "justice", "utilitarianism"],
-    "sources": [{ "label": "《道德形而上学的奠基》康德" }]
+    "sources": [{ "label": "《道德形而上学的奠基》康德", "labelEn": "Groundwork of the Metaphysics of Morals (Kant)" }]
   }
 ]
