@@ -45,12 +45,12 @@ wanwu-hub/
 
 ### 两种学科实现范式
 
-| 类型            | 学科                                           | 实现                                        | 能力                                                                   |
-| --------------- | ---------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------- |
-| **FULL**        | dynasty / econ / mind / thought / earth / life | 各自 `template.ts` + `main.ts` + 独立 CSS   | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换                        |
-| **LIGHTWEIGHT** | physics / chem                                 | `subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情 + 来源区 + 视图内切换按钮 |
+| 类型            | 学科                                           | 实现                                        | 能力                                                          |
+| --------------- | ---------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| **FULL**        | dynasty / econ / mind / thought / earth / life | 各自 `template.ts` + `main.ts` + 独立 CSS   | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换（仅 dynasty） |
+| **LIGHTWEIGHT** | physics / chem                                 | `subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情 + 来源区         |
 
-> 主题与语言的**唯一状态源在 `layout.ts` 的全局顶栏**；学科 hero 自带的 `.lang-btn` / `.theme-btn` 由 `src/core/viewControls.ts` 桥接到顶栏（捕获阶段接管点击），因此两处永远同步。轻量学科的视图内按钮直接调用 core `setLang` / `toggleTheme`。
+> 主题与语言的**唯一状态源在 `layout.ts` 的全局顶栏**，它也是全站唯一的切换入口：学科 hero 内不再放语言/主题按钮。例外是中华王朝（深色渐变上的玻璃胶囊是它的招牌样式），其 `.lang-btn` / `.theme-btn` 由 `src/core/viewControls.ts` 桥接到顶栏（捕获阶段接管点击），因此两处永远同步。
 
 ## 本地预览
 

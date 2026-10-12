@@ -196,19 +196,19 @@
 
 ## 6. 里程碑与进度
 
-| 里程碑 | 内容                                                     | 状态                                                                                                                                                |
-| ------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| M0     | 本计划文档                                               | ✅ 本文                                                                                                                                             |
-| M1     | 阶段 A：chem 新模块（化学键/有机/溶液/能量/平衡/电化学） | ✅ 15 模块                                                                                                                                          |
-| M2     | 阶段 A：physics 补强模块                                 | ✅ 16 模块                                                                                                                                          |
-| M3     | 阶段 B：earth 四类补数据                                 | ✅ schools 8→15 / questions 8→15、条目 56                                                                                                           |
-| M4     | 阶段 B：life 四类补数据                                  | ✅ 四类均 8/12→15，条目 60                                                                                                                          |
-| M5     | 阶段 B：thought/mind/econ 补数据                         | ✅ thought 条目76；mind 102→132；econ 174→206                                                                                                       |
-| M6     | 阶段 C：earth/life/thought 新分类视图（改模板）          | ✅ 三科均新增机制/分支视图：earth「自然地理原理」11、life「生命原理」12、thought「哲学分支」11；索引 67/72/87，typecheck/check:json(100)/build 全绿 |
-| M7     | 阶段 C 续：thought 再补 5 类视图                         | ✅ 术语 26 / 时间线 20 / 思想实验 14 / 中西对比 10 / 误区 14，共 10 视图 184 条；索引 87→184                                                        |
-| M8     | physics/chem 机器可读数据上线                            | ✅ `scripts/export-data.mjs` 导出 physics 18 / chem 17 个 JSON + llms/llms-en/robots/sitemap；`data:check` 进 `verify` 防漂移                       |
-| M9     | 数据门禁与历史缺陷清零                                   | ✅ `scripts/check-links.mjs` 五科 0 错 0 警（earth/life 24 处 related 死链、1 处半截中文、earth/life overview 计数、life endemics 未进索引均已修）  |
-| M10    | 跨学科一致性收尾（subjectKit）                           | ✅ 难度筛选 chip + 视图内语言/主题按钮（与顶栏同源，`src/core/viewControls.ts` 桥接 5 个 FULL 学科）；`heroSub` 由死配置变为 hero 副标语            |
-| M11    | 全学科达「极丰富」门槛复核                               | ⬜                                                                                                                                                  |
+| 里程碑 | 内容                                                     | 状态                                                                                                                                                            |
+| ------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| M0     | 本计划文档                                               | ✅ 本文                                                                                                                                                         |
+| M1     | 阶段 A：chem 新模块（化学键/有机/溶液/能量/平衡/电化学） | ✅ 15 模块                                                                                                                                                      |
+| M2     | 阶段 A：physics 补强模块                                 | ✅ 16 模块                                                                                                                                                      |
+| M3     | 阶段 B：earth 四类补数据                                 | ✅ schools 8→15 / questions 8→15、条目 56                                                                                                                       |
+| M4     | 阶段 B：life 四类补数据                                  | ✅ 四类均 8/12→15，条目 60                                                                                                                                      |
+| M5     | 阶段 B：thought/mind/econ 补数据                         | ✅ thought 条目76；mind 102→132；econ 174→206                                                                                                                   |
+| M6     | 阶段 C：earth/life/thought 新分类视图（改模板）          | ✅ 三科均新增机制/分支视图：earth「自然地理原理」11、life「生命原理」12、thought「哲学分支」11；索引 67/72/87，typecheck/check:json(100)/build 全绿             |
+| M7     | 阶段 C 续：thought 再补 5 类视图                         | ✅ 术语 26 / 时间线 20 / 思想实验 14 / 中西对比 10 / 误区 14，共 10 视图 184 条；索引 87→184                                                                    |
+| M8     | physics/chem 机器可读数据上线                            | ✅ `scripts/export-data.mjs` 导出 physics 18 / chem 17 个 JSON + llms/llms-en/robots/sitemap；`data:check` 进 `verify` 防漂移                                   |
+| M9     | 数据门禁与历史缺陷清零                                   | ✅ `scripts/check-links.mjs` 五科 0 错 0 警（earth/life 24 处 related 死链、1 处半截中文、earth/life overview 计数、life endemics 未进索引均已修）              |
+| M10    | 跨学科一致性收尾（subjectKit）                           | ✅ 难度筛选 chip 与 `heroSub` 副标语落地；学科 hero 内的语言/主题按钮移除（顶栏为唯一切换入口），仅中华王朝保留并由 `src/core/viewControls.ts` 桥接到主应用状态 |
+| M11    | 全学科达「极丰富」门槛复核                               | ⬜                                                                                                                                                              |
 
 > 说明：受单轮产出规模限制，本计划分多轮执行；每轮完成若干模块即构建、提交、更新此表状态。

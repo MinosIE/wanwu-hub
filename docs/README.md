@@ -114,7 +114,7 @@ GitHub Pages：`push` 到 `main` 触发 `.github/workflows/deploy.yml`（`npm ru
 ## 6. 派生数据与 GEO 生成
 
 - **派生索引重建**（改源数据后必须重跑）：`npm run index:rebuild` 一次重建全部——scaffold 三科（earth/life/thought）走 `s/build-index.mjs <subject>`，econ 走 `s/build-econ-index.mjs`（内含 16 模块 field→摘要映射），dynasty 走 `npm run dynasty:build-search`。产物为 `public/<key>-data/data/{search,related}.json`；mind 无派生索引。验证纪律：新 builder 对既有 committed 输出 `git diff` 应为 0。新增分类时记得往 `s/build-index.mjs` 的 `EXTRA` 规格表补一行，否则 `links:check` 会以「派生索引覆盖」报错阻断。
-- **语言 / 主题单一状态源**：顶栏（`src/core/layout.ts`）拥有 lang + theme；学科 hero 自带的 `#langBtn` / `#themeBtn` 由 `src/core/viewControls.ts` 的 `bridgeViewControls(root, t)` 在捕获阶段接管（改调 core 状态，学科自身监听器不再执行），学科通过挂载时的 `onLangChange` / `onThemeChange` 桥接自然重渲染。新增 FULL 学科时在 `index.ts` 里加一行 `bridgeViewControls` 即可。
+- **语言 / 主题单一状态源**：顶栏（`src/core/layout.ts`）是全站唯一切换入口，学科 hero 内不再放语言/主题按钮（新增学科也不得在视图内自写 `setLang` / 主题分支）。例外是中华王朝——它的深色渐变 hero 保留了两枚玻璃胶囊按钮，由 `src/core/viewControls.ts` 的 `bridgeViewControls(root)` 在捕获阶段接管点击（改调 core 状态，学科自身监听器不再执行），学科再通过挂载时的 `onLangChange` / `onThemeChange` 桥接重渲染。另：顶栏自身的样式必须写在 `.toolbar` 作用域下，裸 `.theme-btn` / `.lang-btn` 会泄进学科内容。
 - **GEO 生成**：`npm run gen:sitemap`（爬 `public` 出根 `sitemap.xml`）与 `npm run gen:geo`（thought/earth/life 三科 + physics/chem 导出产物的 per-subject GEO + 根 hub `llms*.txt`/`robots.txt`/`sitemap.xml`）。根 hub 与 per-subject 两层 GEO 均**脚本生成、勿手改**；`build:ssg` 已前置这两步。域名统一 `https://minosie.github.io/wanwu-hub/`。
 - **预渲染**：`s/prerender.mjs` 的 ROUTES 从 `subjects.json` 派生（首页 + 全部 integrated 学科），新增学科自动纳入。
 

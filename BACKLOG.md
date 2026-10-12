@@ -10,10 +10,10 @@
 
 两种实现范式并存：
 
-| 类型            | 学科                                                     | 入口                                                     | 能力                                                                     |
-| --------------- | -------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **FULL**        | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS                | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换                          |
-| **LIGHTWEIGHT** | `physics / chem`（2 个）                                 | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情弹层 + refs + 视图内切换按钮 |
+| 类型            | 学科                                                     | 入口                                                     | 能力                                                    |
+| --------------- | -------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |
+| **FULL**        | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS                | 搜索 / 筛选 / refs / 详情（语言与主题由顶栏统一切换）   |
+| **LIGHTWEIGHT** | `physics / chem`（2 个）                                 | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情弹层 + refs |
 
 工程：Vite 构建 + puppeteer SSG 预渲染（`build:ssg`）；GitHub Pages 自动部署（`.github/workflows/deploy.yml`）。
 数据门禁：`npm run verify` = typecheck + `check:json` + `links:check`（死链/双语/派生索引/overview 计数）+ `data:check`（physics/chem 导出防漂移）+ dynasty 校验。
@@ -23,12 +23,12 @@
 
 ## 1. 跨学科一致性（本轮已收尾）
 
-本轮已完成：physics/chem hero 中英文后缀、mind refs 布局对齐、**subjectKit 难度筛选 chip + 视图内语言/主题按钮 + `heroSub` 激活**、**FULL 五科学科内按钮桥接到顶栏状态（`src/core/viewControls.ts`）**、physics/chem 机器可读 JSON 导出与 `links:check`/`data:check` 入门禁。
+本轮已完成：physics/chem hero 中英文后缀、mind refs 布局对齐、**subjectKit 难度筛选 chip + `heroSub` 激活**、**学科 hero 内的语言/主题按钮移除（顶栏为唯一切换入口），仅中华王朝保留并桥接到主应用状态（`src/core/viewControls.ts`）**、physics/chem 机器可读 JSON 导出与 `links:check`/`data:check` 入门禁。
 
 - [x] **physics/chem 搜索框**：`subjectKit` 已带 `#search` + 跨模块结果区（`.sub-results`）。
 - [x] **physics/chem 过滤器**：模块内新增「难度」chip（入门/进阶/拓展，复用共享 `.filters/.chip`），仅当该模块有 `level` 数据时渲染；计数行统一为「共 N 条 / N entries」。
 - [x] **physics/chem refs / 来源区**：`SubjectConfig.refs` 已渲染（physics 4 条，KPI 同步）。
-- [x] **视图内主题 / 语言切换按钮**：背景——index.html 早年用 `display:none !important` 把 FULL 学科 hero 内按钮隐藏（因其直接调用学科自己的 `setLang`，与顶栏状态分叉）。现新增 `bridgeViewControls`：在学科根节点捕获阶段拦下点击改走主应用状态，状态单一来源后已取消隐藏规则；subjectKit 也补上同构按钮（`data-ctl` 标记，不走 id）。
+- [x] **视图内主题 / 语言切换按钮**：与顶栏重复，已从 thought / earth / life / mind / econ 的 hero 模板与 subjectKit（physics / chem）里移除，并同步摘掉各学科 `main.ts` 里对 `#langBtn` 的强依赖（`need()` 会抛错）与共享层 `.icon-btn` 死样式。**例外：中华王朝保留**（深色渐变上的玻璃胶囊是它的招牌样式），其点击由 `src/core/viewControls.ts` 在捕获阶段接管、改走 core `setLang` / `toggleTheme`，因此与顶栏同源；`dynasty.css` 里原有的 `display:none` 已删除。
 - [x] **`heroSub` 死配置**：现渲染为 hero 副标语 `.hero-tag`（如「万物之理」），英文为 “The Order of All Things”。
 - [x] **详情面板难度文案**：徽标与 eyebrow 由 `L1/L2/L3` 改为中文等级词（入门/进阶/拓展），与 thought 等学科用词一致。
 - [ ] **`level` 数据覆盖面**：physics 130 条中 94 条有难度，chem 232 条仅 3 个模块（概念/结构/趋势）共 26 条有难度，其余模块无筛选条。补齐需给 chem 各模块补 `level`（不造伪数据）。
@@ -60,8 +60,8 @@
 ## 5. 体验 / 设计
 
 - [ ] **全局跨科搜索**：目前搜索是学科内；可考虑壳层全局搜索跨所有学科。
-- [x] **主题 / 语言切换 bug 排查**：根因是学科内按钮走学科自己的 `setLang`/主题写入，与顶栏不同源；index.html 因此直接隐藏了它们。现由 `src/core/viewControls.ts` 桥接（捕获阶段 `stopPropagation` → 改调 core `setLang`/`toggleTheme`），7 个学科的视图内按钮与顶栏实测双向同步。
-- [ ] **重复 id 隐患**：顶栏 `#themeBtn` 与学科 hero `#themeBtn` 同页共存（HTML 无效，靠作用域查询规避）；彻底清理需重命名各学科移植模板里的 id（并入 §2 范式决策）。
+- [x] **主题 / 语言切换 bug 排查**：根因是学科内按钮走学科自己的 `setLang`/主题写入（dynasty 的 localStorage 还是沙箱内存桩），与顶栏不同源；index.html 因此直接隐藏了它们。现结论收敛为「顶栏是唯一切换入口」：除中华王朝外按钮已从模板移除，dynasty 的按钮由 `src/core/viewControls.ts` 桥接（捕获阶段 `stopPropagation` → 改调 core `setLang`/`toggleTheme`）。实测 8 科：顶栏切换对 8 科全部生效，dynasty hero 两枚按钮与顶栏双向同步，0 控制台报错。
+- [ ] **重复 id 隐患**：顶栏 `#themeBtn` 与中华王朝 hero `#themeBtn` 同页共存（HTML 无效）；主应用已改为 `header #themeBtn` 作用域查询规避，彻底清理需重命名移植模板里的 id（并入 §2 范式决策）。
 - [ ] **移动端适配一致性**：8 学科响应式核对（hero 高度本轮已统一收敛）。
 - [ ] **加载态 / 骨架屏、错误边界**。
 - [ ] **无障碍**：aria、键盘导航、对比度（hero 标题对比度本轮已修）。
@@ -100,4 +100,5 @@
 - `scripts/export-data.mjs`：physics/chem `data.ts` → `public/<x>-data/data/*.json`（+ llms/robots/sitemap），`data:check` 防漂移
 - `scripts/check-links.mjs` 新增「派生索引覆盖」检查；earth/life 24 处 related 死链与 overview 计数清零
 - `scripts/jsonStyle.mjs`：`fmt-json` 与 `export-data` 共用同一排版器（导出产物天生即为仓库规范风格）
-- `src/core/viewControls.ts` + `subjectKit` 难度筛选/视图内按钮：7 科语言与主题双向同步（puppeteer 实测 0 报错）
+- `src/core/viewControls.ts`（dynasty hero 按钮桥接）+ `subjectKit` 难度筛选：8 科顶栏语言/主题切换实测生效，dynasty 双向同步（puppeteer 0 报错）
+- 学科 hero 语言/主题按钮移除：顶栏样式改为 `.toolbar` 作用域（原先裸 `.theme-btn{width:38px}` 泄进学科 hero，把胶囊压成竖排圆钮）

@@ -9,16 +9,16 @@
 
 全部 8 个学科均已接入 `wanwu-hub`，由 `src/main.ts` 按 key 路由到各自 `mount`（`src/core/projects.ts`）：
 
-| 学科 | key | 状态 | 实现范式 |
-|---|---|---|---|
-| 中华王朝 · 千年脉络 | dynasty | online | FULL（template + main + CSS） |
-| 万物经济学 | econ | online | FULL |
-| 万物心理学 | mind | online | FULL |
-| 万物哲学 | thought | online | FULL |
-| 万物地理 | earth | online | FULL |
-| 万物生物 | life | online | FULL |
-| 万物物理 | physics | wip（内容种子化） | LIGHTWEIGHT（subjectKit） |
-| 万物化学 | chem | wip（内容种子化） | LIGHTWEIGHT（subjectKit） |
+| 学科                | key     | 状态              | 实现范式                      |
+| ------------------- | ------- | ----------------- | ----------------------------- |
+| 中华王朝 · 千年脉络 | dynasty | online            | FULL（template + main + CSS） |
+| 万物经济学          | econ    | online            | FULL                          |
+| 万物心理学          | mind    | online            | FULL                          |
+| 万物哲学            | thought | online            | FULL                          |
+| 万物地理            | earth   | online            | FULL                          |
+| 万物生物            | life    | online            | FULL                          |
+| 万物物理            | physics | wip（内容种子化） | LIGHTWEIGHT（subjectKit）     |
+| 万物化学            | chem    | wip（内容种子化） | LIGHTWEIGHT（subjectKit）     |
 
 > 本地实际已有内容的子项目即上述 8 个，统一进 `wanwu-hub` 后旧仓库可归档。
 
@@ -54,7 +54,7 @@
 
 收敛过程中形成了**双轨**，需在后续明确走向：
 
-- **FULL**：dynasty / econ / mind / thought / earth / life。自带 `template.ts` + `main.ts` + 独立 CSS，能力最完整（搜索 / 筛选 / refs / 详情 / 视图内切换）。
+- **FULL**：dynasty / econ / mind / thought / earth / life。自带 `template.ts` + `main.ts` + 独立 CSS，能力最完整（搜索 / 筛选 / refs / 详情；语言与主题由顶栏统一切换）。
 - **LIGHTWEIGHT**：physics / chem。用 `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动，复用通用渲染器（hero + KPI + 模块卡 + 详情 + 搜索 + 来源区）。
 
 **待决策（见 `BACKLOG.md` §2）**：长期是「继续扩展 subjectKit 让轻量学科追平 FULL」还是「把 physics/chem 升级为 FULL 模板、收敛为单一范式」。这决定后续每个学科的维护成本。
