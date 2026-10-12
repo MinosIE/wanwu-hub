@@ -26,7 +26,7 @@
     "worksEn": ["The Interpretation of Dreams", "The Ego and the Id"],
     "related": ["psychoanalysis", "defense-mechanism", "attachment"],
     "tags": ["精神分析", "临床"],
-    "sources": [{ "label": "Freud, S. 《梦的解析》", "year": 1900 }]
+    "sources": [{ "label": "Freud, S. 《梦的解析》", "labelEn": "Freud, S., The Interpretation of Dreams", "year": 1900 }]
   },
   {
     "id": "piaget",
@@ -50,7 +50,7 @@
     "worksEn": ["The Principles of Genetic Epistemology"],
     "related": ["schema", "cognitivism"],
     "tags": ["发展", "认知"],
-    "sources": [{ "label": "Piaget, J. 发生认识论", "year": 1952 }]
+    "sources": [{ "label": "Piaget, J. 发生认识论", "labelEn": "Piaget, J., Genetic Epistemology", "year": 1952 }]
   },
   {
     "id": "skinner",
@@ -74,7 +74,7 @@
     "worksEn": ["Science and Human Behavior", "Beyond Freedom and Dignity"],
     "related": ["behaviorism", "reinforcement"],
     "tags": ["行为", "学习"],
-    "sources": [{ "label": "Skinner, B. 《科学与人类行为》", "year": 1953 }]
+    "sources": [{ "label": "Skinner, B. 《科学与人类行为》", "labelEn": "Skinner, B., Science and Human Behavior", "year": 1953 }]
   },
   {
     "id": "bandura",
@@ -98,7 +98,7 @@
     "worksEn": ["Self-Efficacy: The Exercise of Control"],
     "related": ["behaviorism", "self"],
     "tags": ["社会", "学习"],
-    "sources": [{ "label": "Bandura, A. 《自我效能》", "year": 1997 }]
+    "sources": [{ "label": "Bandura, A. 《自我效能》", "labelEn": "Bandura, A., Self-Efficacy", "year": 1997 }]
   },
   {
     "id": "kahneman",
@@ -122,7 +122,7 @@
     "worksEn": ["Thinking, Fast and Slow"],
     "related": ["memory", "self"],
     "tags": ["认知", "决策"],
-    "sources": [{ "label": "Kahneman, D. 《思考，快与慢》", "year": 2011 }]
+    "sources": [{ "label": "Kahneman, D. 《思考，快与慢》", "labelEn": "Kahneman, D., Thinking, Fast and Slow", "year": 2011 }]
   },
   {
     "id": "maslow",
@@ -146,7 +146,7 @@
     "worksEn": ["Motivation and Personality"],
     "related": ["humanistic", "motivation"],
     "tags": ["人本", "动机"],
-    "sources": [{ "label": "Maslow, A. 《动机与人格》", "year": 1954 }]
+    "sources": [{ "label": "Maslow, A. 《动机与人格》", "labelEn": "Maslow, A., Motivation and Personality", "year": 1954 }]
   },
   {
     "id": "pavlov",
@@ -169,7 +169,7 @@
     "worksEn": ["Conditioned Reflexes"],
     "related": ["conditioning", "behaviorism"],
     "tags": ["行为", "生理"],
-    "sources": [{ "label": "Pavlov, I. 《条件反射》", "year": 1927 }]
+    "sources": [{ "label": "Pavlov, I. 《条件反射》", "labelEn": "Pavlov, I., Conditioned Reflexes", "year": 1927 }]
   },
   {
     "id": "ekman",
@@ -193,7 +193,7 @@
     "worksEn": ["Emotions Revealed", "Telling Lies"],
     "related": ["emotion", "theory-of-mind"],
     "tags": ["情绪", "社会"],
-    "sources": [{ "label": "Ekman, P. 《情绪的解析》", "year": 2003 }]
+    "sources": [{ "label": "Ekman, P. 《情绪的解析》", "labelEn": "Ekman, P., Emotions Revealed", "year": 2003 }]
   },
   {
     "id": "carl-rogers",
@@ -215,9 +215,9 @@
     ],
     "works": ["论人的成长", "自由与隐私"],
     "worksEn": ["On Becoming a Person", "Freedom to Learn"],
-    "related": ["maslow", "bandura", "self-concept"],
+    "related": ["maslow", "bandura", "self"],
     "tags": ["人本主义", "临床", "治疗"],
-    "sources": [{ "label": "Rogers, C. 《论人的成长》", "year": 1961 }]
+    "sources": [{ "label": "Rogers, C. 《论人的成长》", "labelEn": "Rogers, C., On Becoming a Person", "year": 1961 }]
   },
   {
     "id": "aaron-beck",
@@ -242,9 +242,9 @@
       "Cognitive Therapy and the Emotional Disorders",
       "Cognitive Therapy of Depression"
     ],
-    "related": ["kahneman", "carl-rogers", "cognitive-distortion"],
+    "related": ["kahneman", "carl-rogers"],
     "tags": ["临床", "认知", "治疗"],
-    "sources": [{ "label": "Beck, A. 《认知疗法与情绪障碍》", "year": 1976 }]
+    "sources": [{ "label": "Beck, A. 《认知疗法与情绪障碍》", "labelEn": "Beck, A., Cognitive Therapy and the Emotional Disorders", "year": 1976 }]
   },
   {
     "id": "vygotsky",
@@ -266,9 +266,9 @@
     ],
     "works": ["思想中的人生", "思维与言语"],
     "worksEn": ["Thought and Language", "Mind in Society"],
-    "related": ["piaget", "bandura", "scaffolding"],
+    "related": ["piaget", "bandura"],
     "tags": ["发展", "教育"],
-    "sources": [{ "label": "Vygotsky, L. 《思维与言语》", "year": 1934 }]
+    "sources": [{ "label": "Vygotsky, L. 《思维与言语》", "labelEn": "Vygotsky, L., Thought and Language", "year": 1934 }]
   },
   {
     "id": "martin-seligman",
@@ -292,6 +292,6 @@
     "worksEn": ["Learned Optimism", "Flourish"],
     "related": ["maslow", "aaron-beck", "kahneman"],
     "tags": ["积极心理", "临床"],
-    "sources": [{ "label": "Seligman, M. 《活出最乐观的自己》", "year": 1990 }]
+    "sources": [{ "label": "Seligman, M. 《活出最乐观的自己》", "labelEn": "Seligman, M., Learned Optimism", "year": 1990 }]
   }
 ]

@@ -1,4 +1,4 @@
-// 派生链接与双语完整性校验：为 earth / life / thought / physics / chem 检查
+// 派生链接与双语完整性校验：为 earth / life / thought / physics / chem / econ / mind 检查
 //   1) 每条 related 指向的 id 是否真实存在（跨模块，含同文件自指）
 //   2) 双语是否成对：含中文的主字段有无对应 `*En` 副本（缺失会回退中文，视为告警；
 //      纯符号 / 数值字段如 "pH"、相对原子质量无需翻译，不告警）
@@ -50,7 +50,7 @@ const SRC_KEYS = ["label", "type"];
 const DUP_EXEMPT = new Set(["physics", "chem", "econ"]);
 const subjects = args.length
   ? args
-  : ["earth", "life", "thought", "physics", "chem", "econ"];
+  : ["earth", "life", "thought", "physics", "chem", "econ", "mind"];
 let errors = 0;
 let warnings = 0;
 
@@ -189,6 +189,17 @@ for (const subject of subjects) {
       /* 解析失败由 check:json 负责报错，这里不重复计错 */
     }
   }
+  // 部分学科（mind）的页脚 refs 直接住在 overview.json.refs，同样得双语
+  const refsOvPath = path.join(dir, "overview.json");
+  if (fs.existsSync(refsOvPath)) {
+    try {
+      const ovj = JSON.parse(fs.readFileSync(refsOvPath, "utf8"));
+      if (Array.isArray(ovj?.refs))
+        srcPools.push(["overview.json", "<refs>", "refs", ovj.refs]);
+    } catch {
+      /* 同上 */
+    }
+  }
   for (const [f, id, key, arr] of srcPools) {
     for (const o of arr) {
       if (!o || typeof o !== "object") continue;
@@ -235,9 +246,12 @@ for (const subject of subjects) {
       actual[f.replace(/\.json$/, "")] = data.length;
     // 数据文件用 kebab（human-geo.json），而 earth 等学科的 overview / i18n 键沿用
     // camel（humanGeo）：同义看待，避免因命名风格误报。
-    const canon = (k) => k.replace(/-/g, "").toLowerCase();
+    const canon = (k) => String(k ?? "").replace(/-/g, "").toLowerCase();
+    // 早期移植的学科（mind）overview 是另一套结构：kpis[].file/titleKey/count，没有 counts。
+    // 缺 counts 时整套分类计数校验都不适用，硬跑只会刷一屏误导性的「缺少分类」。
+    const hasCounts = ov.counts && typeof ov.counts === "object";
     const countsByCanon = new Map(
-      Object.keys(ov.counts ?? {}).map((k) => [canon(k), k]),
+      Object.keys(hasCounts ? ov.counts : {}).map((k) => [canon(k), k]),
     );
     const actualByCanon = new Map(
       Object.keys(actual).map((k) => [canon(k), k]),
@@ -245,10 +259,12 @@ for (const subject of subjects) {
     for (const [key, n] of Object.entries(actual)) {
       const ck = countsByCanon.get(canon(key));
       if (!ck) {
-        console.warn(
-          `[${subject}] overview.counts 缺少分类「${key}」（实际 ${n} 条）`,
-        );
-        warnings++;
+        if (hasCounts) {
+          console.warn(
+            `[${subject}] overview.counts 缺少分类「${key}」（实际 ${n} 条）`,
+          );
+          warnings++;
+        }
       } else if (ov.counts[ck] !== n) {
         console.error(
           `[${subject}] overview.counts.${ck}=${ov.counts[ck]}，实际 ${n}`,
@@ -275,6 +291,16 @@ for (const subject of subjects) {
       warnings++;
     }
     for (const k of ov.kpis ?? []) {
+      if (typeof k?.key !== "string") {
+        // 旧 schema 用 file/titleKey/count，不能拿 key 去查文件（否则 canon(undefined) 直接抛异常）。
+        if (!k || !("file" in k)) {
+          console.error(
+            `[${subject}] overview.kpis 项缺 key 字段：${JSON.stringify(k)}`,
+          );
+          errors++;
+        }
+        continue;
+      }
       const fileKey = actualByCanon.get(canon(k.key));
       if (fileKey == null) {
         console.error(`[${subject}] overview.kpis.${k.key} 无对应数据文件`);

@@ -22,6 +22,10 @@ export interface DetailSection {
 
 export interface RefSource {
   label: string;
+  /** 英文界面优先用 labelEn，缺失回退中文 label。 */
+  labelEn?: string;
+  type?: string;
+  typeEn?: string;
   year?: number;
   url?: string;
 }

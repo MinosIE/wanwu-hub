@@ -8,8 +8,9 @@
     "detail": "为什么：面对厌恶任务，大脑立刻想逃，短期缓解强化了拖延。怎么办：把任务拆小到「5 分钟能开始」；用「先做完再奖励」替代「先玩再忙」；接受不完美初稿。",
     "detailEn": "Why: facing a dreaded task, the brain flees for quick relief, reinforcing the habit. What helps: shrink tasks to 'start in 5 min'; reward after, not before; accept an imperfect first draft.",
     "category": "自我管理",
+    "categoryEn": "Self-regulation",
     "related": ["self-efficacy", "dunning-kruger"],
-    "sources": [{ "label": "《拖延心理学》", "year": 2007 }]
+    "sources": [{ "label": "《拖延心理学》", "labelEn": "Steel, Procrastination: Why You Do It, What to Do About It", "year": 2007 }]
   },
   {
     "id": "decision-fatigue",
@@ -20,6 +21,7 @@
     "detail": "表现：晚饭点不动、购物乱买、对家人没耐心。为什么：自控是有限资源，会耗尽。怎么办：把重要决定放上午；固定琐碎选择（同款衣/食）；留出「不做决定」的时段。",
     "detailEn": "How it shows: can't pick dinner, impulse buys, short temper. Why: self-control is a limited, depletable resource. What helps: decide big things in the morning; automate small choices; schedule decision-free time.",
     "category": "决策",
+    "categoryEn": "Decision making",
     "related": ["loss-aversion", "anchoring"],
     "sources": [{ "label": "Baumeister et al. (1998)", "year": 1998 }]
   },
@@ -32,6 +34,7 @@
     "detail": "机制：别人的精选人生引发上行比较，多巴胺循环让人停不下。怎么办：关推送、设时段；用「主动创作」替代「被动刷」；睡前一小时不碰屏幕。",
     "detailEn": "Mechanism: others' highlights trigger upward comparison; dopamine loops keep you in. What helps: kill notifications, set time windows; create instead of scroll; no screens an hour before bed.",
     "category": "数字生活",
+    "categoryEn": "Digital life",
     "related": ["halo-effect", "confirmation-bias"],
     "sources": [{ "label": "Twenge (2017)", "year": 2017 }]
   },
@@ -44,6 +47,7 @@
     "detail": "三种模式：安全型（可依赖也可独处）、焦虑型（怕被弃、需确认）、回避型（疏离、怕被缠）。怎么办：看清自己的模式，用「直接表达需求」替代试探；对方模式不同别急于贴标签。",
     "detailEn": "Three patterns: secure (depend and be alone), anxious (fear abandonment, need reassurance), avoidant (distant, fear engulfment). What helps: name your pattern; say needs plainly instead of testing; don't rush to label the other.",
     "category": "关系",
+    "categoryEn": "Relationships",
     "related": ["attachment", "self-efficacy"],
     "sources": [{ "label": "Bowlby (1969)", "year": 1969 }]
   },
@@ -56,6 +60,7 @@
     "detail": "三征兆：情绪耗竭、对工作疏离、效能感下降。为什么：资源长期小于需求、缺乏自主。怎么办：找回小块掌控感（自己排优先级）；设边界；必要时谈工作量调整。本站不提供诊断。",
     "detailEn": "Three signs: exhaustion, detachment, low efficacy. Why: demand outruns resources, little autonomy. What helps: reclaim small control (set your own priorities); set boundaries; discuss load if needed. Not a diagnosis here.",
     "category": "职场",
+    "categoryEn": "Workplace",
     "related": ["decision-fatigue", "self-efficacy"],
     "sources": [{ "label": "Maslach (1981)", "year": 1981 }]
   },
@@ -68,6 +73,7 @@
     "detail": "机制：夸天赋让人怕失败、回避难事；夸努力让人把困难当练习（成长型思维）。怎么办：描述具体行为（「你刚才很专注」），少贴「聪明/笨」标签。",
     "detailEn": "Mechanism: praising talent breeds fear of failure; praising effort treats hard tasks as practice (growth mindset). What helps: name the behavior ('you stayed focused'), avoid 'smart/dumb' labels.",
     "category": "育儿",
+    "categoryEn": "Parenting",
     "related": ["self-efficacy", "marshmallow"],
     "sources": [{ "label": "Dweck (2006)", "year": 2006 }]
   },
@@ -80,6 +86,7 @@
     "detail": "机制：深睡期巩固记忆、清理代谢废物；缺睡则学不牢、情绪更脆。怎么办：固定作息、睡前降蓝光；考前别熬夜——睡眠本身就在复习。",
     "detailEn": "Mechanism: deep sleep consolidates memory and clears waste; lack of it weakens learning and frays mood. What helps: regular sleep, less screen light; don't pull all-nighters—sleep is review.",
     "category": "健康",
+    "categoryEn": "Health",
     "related": ["decision-fatigue"],
     "sources": [{ "label": "Walker (2017)", "year": 2017 }]
   },
@@ -92,8 +99,9 @@
     "detail": "机制：重复使行为从有意识控制转入基底神经节的自动程序，一遇线索就触发。怎么办：想养成好习惯，把线索醒目化、行为拆小（两分钟版）、即时奖励；想戒除，隐藏或替换线索、保留旧奖赏但换新行为。环境设计往往比意志力更省力。",
     "detailEn": "Mechanism: repetition moves a behavior from deliberate control to automatic basal-ganglia routines fired by cues. To build a habit, make cues visible, shrink the action (a 2-minute version) and reward it now; to break one, hide or swap the cue and keep the reward but change the routine. Designing the environment beats raw willpower.",
     "category": "行为",
+    "categoryEn": "Behavior",
     "related": ["conditioning", "reinforcement", "self-efficacy"],
-    "sources": [{ "label": "Duhigg (2012)《习惯的力量》", "year": 2012 }]
+    "sources": [{ "label": "Duhigg (2012)《习惯的力量》", "labelEn": "Duhigg (2012), The Power of Habit", "year": 2012 }]
   },
   {
     "id": "spacing-retrieval",
@@ -104,6 +112,7 @@
     "detail": "机制：间隔克服遗忘曲线、提取（自测）比重读更能强化痕迹，也暴露盲点。怎么办：用抽卡/闪卡隔几天自测、做习题而非反复看课本；宁可当下想得费力，也好过虚假的熟练感。这是证据最硬的学习法之一。",
     "detailEn": "Mechanism: spacing counters the forgetting curve, and retrieval (self-testing) strengthens traces and exposes gaps better than rereading. Use flashcards with gaps of days, do practice problems rather than re-read; prefer effortful recall over a false sense of fluency. This is among the best-evidenced study methods.",
     "category": "学习",
+    "categoryEn": "Learning",
     "related": ["memory", "metacognition", "growth-mindset"],
     "sources": [{ "label": "Roediger & Karpicke (2006)", "year": 2006 }]
   },
@@ -116,8 +125,9 @@
     "detail": "机制：首因效应与晕轮效应让一个突出优点（外貌、流利）污染整体判断。怎么办：招聘、交友、评审时先定好标准、分开逐项打分、延迟综合判断；意识到“看顺眼”不等于“有能力”，主动寻找反证。",
     "detailEn": "Mechanism: primacy and the halo effect let one salient trait (looks, fluency) color the whole judgment. In hiring, dating and review, set criteria first, score traits separately and defer a global call; remember 'likable' is not 'competent' and actively seek disconfirming evidence.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["halo-effect", "attribution", "confirmation-bias"],
-    "sources": [{ "label": "Thorndike (1920) 晕轮效应", "year": 1920 }]
+    "sources": [{ "label": "Thorndike (1920) 晕轮效应", "labelEn": "Thorndike (1920), A Constant Error in Psychological Ratings", "year": 1920 }]
   },
   {
     "id": "emotion-labeling",
@@ -128,8 +138,9 @@
     "detail": "机制：用词标注情绪会增强前额叶对杏仁核的抑制，把“被情绪淹没”转为“观察情绪”。怎么办：情绪上来时先具体命名（生气/失望/羡慕）、写在纸上；配合呼吸与认知重评。“说出来”不是软弱，而是有效的自我调节。",
     "detailEn": "Mechanism: labeling an emotion boosts prefrontal inhibition of the amygdala, shifting you from being flooded to observing. When feelings rise, name them specifically (angry/disappointed/envious), put them on paper, pair with breath and reappraisal. 'Saying it' is not weakness but effective regulation.",
     "category": "情绪",
+    "categoryEn": "Emotion",
     "related": ["emotion", "stress-coping", "attention"],
-    "sources": [{ "label": "Lieberman (2007) 情绪标注的神经机制", "year": 2007 }]
+    "sources": [{ "label": "Lieberman (2007) 情绪标注的神经机制", "labelEn": "Lieberman (2007), Putting Feelings into Words", "year": 2007 }]
   },
   {
     "id": "exam-anxiety",
@@ -140,7 +151,8 @@
     "detail": "机制：担忧念头与抑制压力占用工作记忆，剩下给题目的容量减少。怎么办：考前模拟真实环境、熟练到自动；开考前写下担忧（表达性写作）以卸下载荷；把“紧张”重评为“兴奋/准备就绪”。重点不是消除焦虑，而是不让它吃掉思考资源。",
     "detailEn": "Mechanism: worry and pressure-suppression consume working memory, leaving less for the items. Simulate real conditions, overlearn to automaticity, jot worries down before starting (expressive writing) to unload them, and reappraise 'nervous' as 'excited/ready'. The goal is not zero anxiety but keeping it from eating your thinking resources.",
     "category": "学习",
+    "categoryEn": "Learning",
     "related": ["stress-coping", "working-memory", "self-efficacy"],
-    "sources": [{ "label": "Beilock (2010)《你的头脑如何欺骗你》", "year": 2010 }]
+    "sources": [{ "label": "Beilock (2010)《你的头脑如何欺骗你》", "labelEn": "Beilock (2010), Choke", "year": 2010 }]
   }
 ]

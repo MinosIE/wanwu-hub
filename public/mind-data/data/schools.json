@@ -4,6 +4,7 @@
     "name": "精神分析",
     "nameEn": "Psychoanalysis",
     "era": "19世纪末–20世纪中叶",
+    "eraEn": "Late 19th–mid 20th century",
     "oneLiner": "以潜意识、童年冲突与驱力为核心，用谈话疗法探查行为背后的深层动力。",
     "oneLinerEn": "Centers on the unconscious, childhood conflict and drives, using the talking cure to probe deep motives.",
     "core": "心理活动大量在意识之外进行；童年经验与潜意识冲突塑造成年人格与症状，治疗在于让潜意识意识化。",
@@ -18,7 +19,7 @@
     "criticismsEn": "Hard to falsify, narrow samples (mostly Viennese middle-class women), many claims lack empirical support.",
     "related": ["freud", "defense-mechanism"],
     "tags": ["精神分析", "临床"],
-    "sources": [{ "label": "Freud, S. 《梦的解析》", "year": 1900 }]
+    "sources": [{ "label": "Freud, S. 《梦的解析》", "labelEn": "Freud, S., The Interpretation of Dreams", "year": 1900 }]
   },
   {
     "id": "behaviorism",
@@ -39,13 +40,14 @@
     "criticismsEn": "Neglects cognition, emotion and individuality; struggles to explain language acquisition and creativity.",
     "related": ["skinner", "pavlov", "conditioning", "reinforcement"],
     "tags": ["行为", "学习"],
-    "sources": [{ "label": "Watson, J. 《行为主义者眼中的心理学》", "year": 1913 }]
+    "sources": [{ "label": "Watson, J. 《行为主义者眼中的心理学》", "labelEn": "Watson, J., Psychology as the Behaviorist Views It", "year": 1913 }]
   },
   {
     "id": "cognitivism",
     "name": "认知心理学",
     "nameEn": "Cognitive Psychology",
     "era": "1950s–至今",
+    "eraEn": "1950s–present",
     "oneLiner": "把心智当作信息加工系统，研究注意、记忆、语言与问题解决的内部机制。",
     "oneLinerEn": "Treats the mind as an information-processing system, studying attention, memory, language and problem solving.",
     "core": "人脑像计算机一样编码、存储、提取信息；研究内部表征与加工过程，可借助实验与模型推断。",
@@ -60,13 +62,14 @@
     "criticismsEn": "The 'mind as computer' metaphor may oversimplify emotion, the unconscious and embodied experience.",
     "related": ["piaget", "schema", "memory", "priming"],
     "tags": ["认知"],
-    "sources": [{ "label": "Neisser, U. 《认知心理学》", "year": 1967 }]
+    "sources": [{ "label": "Neisser, U. 《认知心理学》", "labelEn": "Neisser, U., Cognitive Psychology", "year": 1967 }]
   },
   {
     "id": "humanistic",
     "name": "人本心理学",
     "nameEn": "Humanistic Psychology",
     "era": "1950s–至今",
+    "eraEn": "1950s–present",
     "oneLiner": "强调人的主动性、潜能与尊严，关注成长、自我实现与治疗中的真诚关系。",
     "oneLinerEn": "Stresses human agency, potential and dignity, focusing on growth, self-actualization and the genuine therapeutic bond.",
     "core": "人天生趋向成长与自我实现；环境应提供无条件积极关注，使个体敢于成为自己。",
@@ -81,13 +84,14 @@
     "criticismsEn": "Concepts like self-actualization are vague and weakly evidenced; criticized as too optimistic, ignoring the dark side.",
     "related": ["maslow", "attachment", "motivation"],
     "tags": ["人本", "临床"],
-    "sources": [{ "label": "Rogers, C. 《论人的成长》", "year": 1961 }]
+    "sources": [{ "label": "Rogers, C. 《论人的成长》", "labelEn": "Rogers, C., On Becoming a Person", "year": 1961 }]
   },
   {
     "id": "evolutionary",
     "name": "进化心理学",
     "nameEn": "Evolutionary Psychology",
     "era": "1980s–至今",
+    "eraEn": "1980s–present",
     "oneLiner": "用自然选择解释心智机制的起源，认为许多倾向是祖先环境中适应问题的产物。",
     "oneLinerEn": "Explains the origin of mental mechanisms via natural selection, seeing many tendencies as products of ancestral adaptive problems.",
     "core": "大脑由进化塑造，现代行为常是古老机制的「延伸」；用适应度成本—收益分析择偶、合作与恐惧等。",
@@ -102,13 +106,14 @@
     "criticismsEn": "Often criticized as post-hoc storytelling, hard to test, and prone to biological determinism and Social-Darwinist misuse.",
     "related": ["self", "emotion"],
     "tags": ["进化", "社会"],
-    "sources": [{ "label": "Buss, D. 《进化心理学》", "year": 1999 }]
+    "sources": [{ "label": "Buss, D. 《进化心理学》", "labelEn": "Buss, D., Evolutionary Psychology", "year": 1999 }]
   },
   {
     "id": "neuropsychology",
     "name": "神经心理学",
     "nameEn": "Neuropsychology",
     "era": "1980s–至今",
+    "eraEn": "1980s–present",
     "oneLiner": "用脑科学与神经影像把心智过程定位到具体的脑区与环路。",
     "oneLinerEn": "Locates mental processes in specific brain regions and circuits via neuroscience and neuroimaging.",
     "core": "认知与情绪是神经系统的活动；损伤、电生理与成像研究揭示脑结构与功能的对应关系。",
@@ -123,13 +128,14 @@
     "criticismsEn": "Correlation isn't causation; fMRI is easily over-read, and 'which region does X' is often oversimplified.",
     "related": ["memory", "emotion"],
     "tags": ["神经", "认知"],
-    "sources": [{ "label": "Damasio, A. 《笛卡尔的错误》", "year": 1994 }]
+    "sources": [{ "label": "Damasio, A. 《笛卡尔的错误》", "labelEn": "Damasio, A., Descartes' Error", "year": 1994 }]
   },
   {
     "id": "positive",
     "name": "积极心理学",
     "nameEn": "Positive Psychology",
     "era": "1998–至今",
+    "eraEn": "1998–present",
     "oneLiner": "不只研究病态，也系统研究幸福、优势、韧性与意义等「如何让人生更好」的议题。",
     "oneLinerEn": "Not only pathology, but systematically studies happiness, strengths, resilience and meaning — 'what makes life worth living'.",
     "core": "心理学应平衡地研究痛苦与繁盛；通过性格优势、心流与感恩等可操作路径提升主观幸福感。",
@@ -144,7 +150,7 @@
     "criticismsEn": "Some findings co-opted by self-help industry; well-being is culturally defined and long-term effects of interventions vary.",
     "related": ["maslow", "motivation"],
     "tags": ["积极", "幸福"],
-    "sources": [{ "label": "Seligman, M. 《真实的幸福》", "year": 2002 }]
+    "sources": [{ "label": "Seligman, M. 《真实的幸福》", "labelEn": "Seligman, M., Authentic Happiness", "year": 2002 }]
   },
   {
     "id": "structuralism",
@@ -165,6 +171,6 @@
     "criticismsEn": "Introspection is subjective and hard to verify, with inconsistent reports; soon replaced by behaviorism.",
     "related": ["wundt-1879"],
     "tags": ["基础", "早期"],
-    "sources": [{ "label": "Titchener, E. 《心理学教科书》", "year": 1908 }]
+    "sources": [{ "label": "Titchener, E. 《心理学教科书》", "labelEn": "Titchener, E., An Outline of Psychology", "year": 1908 }]
   }
 ]

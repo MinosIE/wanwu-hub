@@ -4,10 +4,11 @@
     "term": "「左脑人 / 右脑人」",
     "termEn": "Left-brain / Right-brain People",
     "oneLiner": "没有谁只用半边脑；分工是粗略的，整体协作才是常态。",
-    "oneLinerEn": "No one uses just one hemisphere;分工 is rough and whole-brain by default.",
+    "oneLinerEn": "No one uses just one hemisphere; division of labour is rough, and whole-brain cooperation is the default.",
     "detail": "真相：左右脑确有粗略分工（如语言偏左），但任何复杂任务都两半球协同。所谓「左脑逻辑/右脑创意」是营销式简化。来源：脑成像研究一致显示任务激活横跨两半球。",
     "detailEn": "Truth: hemispheres do differ roughly (e.g. language leans left), but any complex task uses both. 'Left=logic, right=creative' is a marketing simplification. Source: imaging shows whole-brain activation.",
     "category": "脑与心智",
+    "categoryEn": "Brain & mind",
     "related": ["multiple-intelligence"],
     "sources": [{ "label": "Nielsen et al. (2013)", "year": 2013 }]
   },
@@ -20,8 +21,9 @@
     "detail": "真相：大量研究未发现血型与人格特质有稳定相关；该说法主要流行于日本、韩国职场与婚恋。别用它给人贴标签。",
     "detailEn": "Truth: large studies find no stable link between blood type and traits; the belief is popular in Japan/Korea dating and hiring. Don't label people by it.",
     "category": "性格",
+    "categoryEn": "Temperament",
     "related": ["multiple-intelligence", "big-five"],
-    "sources": [{ "label": "综述：血型-性格无相关", "year": 2014 }]
+    "sources": [{ "label": "综述：血型-性格无相关", "labelEn": "Review: no link between blood type and personality", "year": 2014 }]
   },
   {
     "id": "multiple-intelligence",
@@ -32,6 +34,7 @@
     "detail": "真相：多元智能理论丰富了「智能不止 IQ」的视角，但市面「测试」多无信效度依据，不能据此定职业或分班。看趋势可以参考，下结论要谨慎。",
     "detailEn": "Truth: the theory broadened 'intelligence beyond IQ', but commercial 'tests' often lack validity and shouldn't sort careers or classes. Use as a lens, not a verdict.",
     "category": "智力",
+    "categoryEn": "Intelligence",
     "related": ["left-right-brain", "big-five"],
     "sources": [{ "label": "Gardner (1983)", "year": 1983 }]
   },
@@ -44,8 +47,9 @@
     "detail": "真相：脑成像显示即便静息，全脑也有广泛活动；任一部分受损都会带来功能缺损。来源：神经科学共识。",
     "detailEn": "Truth: imaging shows widespread activity even at rest; damage to any region causes deficits. Source: neuroscience consensus.",
     "category": "脑与心智",
+    "categoryEn": "Brain & mind",
     "related": ["left-right-brain"],
-    "sources": [{ "label": "神经科学共识", "year": 2008 }]
+    "sources": [{ "label": "神经科学共识", "labelEn": "Neuroscience consensus", "year": 2008 }]
   },
   {
     "id": "memory-like-recording",
@@ -56,6 +60,7 @@
     "detail": "真相：记忆是可重构的，提问方式、他人说法都会改变回忆（错误记忆）。来源：洛夫特斯关于「误导信息效应」的研究。",
     "detailEn": "Truth: memory is reconstructive; wording and others' suggestions reshape it (false memories). Source: Loftus on the misinformation effect.",
     "category": "记忆",
+    "categoryEn": "Memory",
     "related": ["confirmation-bias"],
     "sources": [{ "label": "Loftus & Palmer (1974)", "year": 1974 }]
   },
@@ -68,6 +73,7 @@
     "detail": "真相：所谓「男女脑」多是群体平均的微小差异，落到个人几乎无效；按性别分班教学未被证明更优。来源：性别与认知的元分析综述。",
     "detailEn": "Truth: 'male/female brain' mostly reflects tiny group averages, useless per person; sex-segregated teaching isn't proven better. Source: meta-analyses on sex and cognition.",
     "category": "学习",
+    "categoryEn": "Learning",
     "related": ["left-right-brain", "multiple-intelligence"],
     "sources": [{ "label": "Hyde (2014)", "year": 2014 }]
   },
@@ -80,6 +86,7 @@
     "detail": "真相：大量研究未发现「风格匹配教学」的收益（学习风格假说缺乏证据）。内容本身更适合某种呈现方式（地理靠图、音乐靠听），而非因人而异。来源：Pashler 等 (2008) 综述。启示：与其贴标签，不如用好提取练习与多样化呈现。",
     "detailEn": "Truth: many studies find no benefit to matching instruction to 'styles'; the learning-styles hypothesis lacks evidence. Content suits a mode on its own terms (maps for geography, sound for music), not per person. Source: Pashler et al. (2008). Instead of labeling, use retrieval practice and varied presentation.",
     "category": "学习",
+    "categoryEn": "Learning",
     "related": ["learning-styles", "memory-like-recording", "multiple-intelligence"],
     "sources": [{ "label": "Pashler et al. (2008)", "year": 2008 }]
   },
@@ -92,6 +99,7 @@
     "detail": "真相：宣泄假说认为释放能排空怒气，但实验发现强烈宣泄常升高后续攻击。发泄把“怒气”与“攻击行为”反复联结，反而练习了它们。真正有效的是冷静、认知重评与问题解决。来源：Bushman (2002) 等。",
     "detailEn": "Truth: catharsis theory says release empties anger, but experiments show vigorous venting often raises later aggression. Venting repeatedly pairs anger with attack—practicing it. Calming down, reappraisal and problem-solving work better. Source: Bushman (2002).",
     "category": "情绪",
+    "categoryEn": "Emotion",
     "related": ["emotion", "stress-coping", "freud"],
     "sources": [{ "label": "Bushman (2002)", "year": 2002 }]
   },
@@ -104,6 +112,7 @@
     "detail": "真相：被试在催眠下更易把暗示当作“想起”，事后却更坚信不疑，即“记忆膨胀”。催眠不能像录像回放，反易造出虚构细节。因此多法庭不采信催眠证词。来源：Lynn 等关于催眠与记忆的综述。",
     "detailEn": "Truth: under hypnosis people more often treat suggestions as 'remembering' yet feel more certain—memory inflation. Hypnosis cannot replay like a recording and readily fabricates detail, so many courts reject hypnotically refreshed testimony. Source: Lynn et al. on hypnosis and memory.",
     "category": "记忆",
+    "categoryEn": "Memory",
     "related": ["memory", "loftus-eyewitness", "memory-like-recording"],
     "sources": [{ "label": "Lynn et al. (2015)", "year": 2015 }]
   },
@@ -116,6 +125,7 @@
     "detail": "真相：遗传率不为 1，且随环境变化；弗林效应显示分数世代上升。“固定型思维”使人遇挫即弃，而“成长型思维”配合有效方法能持续进步。天赋影响起点，方法与环境影响能走多远。来源：Dweck (2006)。",
     "detailEn": "Truth: heritability is not 1 and varies with environment; the Flynn effect shows scores rising across generations. A 'fixed mindset' makes people quit at setbacks, while a 'growth mindset' with good methods sustains gains. Talent sets the starting point; method and environment set the distance. Source: Dweck (2006).",
     "category": "学习",
+    "categoryEn": "Learning",
     "related": ["intelligence", "growth-mindset", "multiple-intelligence"],
     "sources": [{ "label": "Tucker-Drob & Brion (2012)", "year": 2012 }]
   },
@@ -128,6 +138,7 @@
     "detail": "真相：Baumeister 等综述发现，提升自尊的干预并不直接改善学业或行为；真正预测表现的是能力与具体反馈。空洞表扬可能养出脆弱的高自尊甚至攻击性。更可取的是建立在真实掌握上的“安全高自尊”。来源：Baumeister et al. (2003)。",
     "detailEn": "Truth: Baumeister's review found that boosting self-esteem does not directly improve schoolwork or conduct; skill and specific feedback predict performance. Empty praise can foster fragile, even aggressive, high self-esteem. Better is secure self-esteem built on real mastery. Source: Baumeister et al. (2003).",
     "category": "人格",
+    "categoryEn": "Personality",
     "related": ["self", "self-efficacy", "parenting-praise"],
     "sources": [{ "label": "Baumeister et al. (2003)", "year": 2003 }]
   }

@@ -123,7 +123,7 @@
     "detail": "认知神经科学兴起，情绪、记忆、决策开始有了空间定位，也带来「 neuromarketing 」等新议题。",
     "detailEn": "Cognitive neuroscience rose; emotion, memory and choice gained spatial maps, plus new debates like neuromarketing.",
     "related": ["left-right-brain"],
-    "sources": [{ "label": "fMRI 普及 (1990s)", "year": 1992 }]
+    "sources": [{ "label": "fMRI 普及 (1990s)", "labelEn": "fMRI becomes widespread (1990s)", "year": 1992 }]
   },
   {
     "id": "positive-psych-2000",
@@ -147,6 +147,6 @@
     "detail": "用 AI 做认知建模、情绪陪伴、筛查辅助；同时带来隐私、依赖与误用风险。本站不提供诊断。",
     "detailEn": "AI for cognitive modeling, emotional support, screening aids; plus risks of privacy, dependency and misuse. Not a diagnosis here.",
     "related": ["social-media-mood"],
-    "sources": [{ "label": "综述 (2023)", "year": 2023 }]
+    "sources": [{ "label": "综述 (2023)", "labelEn": "Review (2023)", "year": 2023 }]
   }
 ]

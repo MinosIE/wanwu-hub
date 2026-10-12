@@ -1,5 +1,6 @@
 import { t, L, onLangChange, initLangSwitch, setI18nRoot, applyStaticLang } from "./i18n";
 import { esc } from "./dom";
+import { srcLabel } from "./detail";
 import { loadJson } from "./data";
 import { initTheme } from "./theme";
 import { initSearch } from "./search";
@@ -92,11 +93,13 @@ async function mountOverview(): Promise<void> {
         refsBox.hidden = false;
         refList.innerHTML = ov.refs
           .map((s: any) => {
-            const label = `${esc(s.label)}${s.year ? `（${esc(s.year)}）` : ""}`;
+            // 走 core 的 srcLabel：英文界面取 labelEn，年份括号随语言（原来固定中文括号）
+            const label = srcLabel(s);
             const text = s.url
               ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
               : label;
-            return `<li>${text}${s.type ? `<span class="ref-type">${esc(s.type)}</span>` : ""}</li>`;
+            const type = L<string>(s, "type");
+            return `<li>${text}${type ? `<span class="ref-type">${esc(type)}</span>` : ""}</li>`;
           })
           .join("");
       } else {

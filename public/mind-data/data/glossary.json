@@ -11,7 +11,7 @@
     "plainEn": "Pavlov's dog salivating at a bell is the classic case of a conditioned reflex.",
     "related": ["memory", "behaviorism", "pavlov"],
     "tags": ["学习", "行为"],
-    "sources": [{ "label": "Pavlov, I. 经典条件反射", "year": 1927 }]
+    "sources": [{ "label": "Pavlov, I. 经典条件反射", "labelEn": "Pavlov, I., Conditioned Reflexes", "year": 1927 }]
   },
   {
     "id": "schema",
@@ -25,7 +25,7 @@
     "plainEn": "You carry a default 'how to order at a restaurant' template in your head — that's a schema guiding new situations.",
     "related": ["memory", "cognitivism"],
     "tags": ["认知"],
-    "sources": [{ "label": "Piaget, J. 发生认识论", "year": 1952 }]
+    "sources": [{ "label": "Piaget, J. 发生认识论", "labelEn": "Piaget, J., Genetic Epistemology", "year": 1952 }]
   },
   {
     "id": "defense-mechanism",
@@ -39,7 +39,7 @@
     "plainEn": "Reframing an unbearable desire as 'I don't care anyway' is a defense that shields you from pain.",
     "related": ["freud", "psychoanalysis"],
     "tags": ["精神分析"],
-    "sources": [{ "label": "Freud, A. 《自我与本我》", "year": 1936 }]
+    "sources": [{ "label": "Freud, A. 《自我与本我》", "labelEn": "Freud, A., The Ego and the Id", "year": 1936 }]
   },
   {
     "id": "cognitive-dissonance",
@@ -53,7 +53,7 @@
     "plainEn": "Knowing smoking harms yet still smoking feels off — to ease it you may quietly tell yourself 'the risk is exaggerated'.",
     "related": ["self", "motivation"],
     "tags": ["社会", "动机"],
-    "sources": [{ "label": "Festinger, L. 《认知失调理论》", "year": 1957 }]
+    "sources": [{ "label": "Festinger, L. 《认知失调理论》", "labelEn": "Festinger, L., A Theory of Cognitive Dissonance", "year": 1957 }]
   },
   {
     "id": "priming",
@@ -67,7 +67,7 @@
     "plainEn": "After seeing 'doctor', you're more likely to complete '__or' as 'doctor' — a hidden association lit up.",
     "related": ["memory", "cognitivism"],
     "tags": ["认知"],
-    "sources": [{ "label": "Meyer, D. & Schvaneveldt, R. 语义启动", "year": 1971 }]
+    "sources": [{ "label": "Meyer, D. & Schvaneveldt, R. 语义启动", "labelEn": "Meyer & Schvaneveldt, Semantic Priming", "year": 1971 }]
   },
   {
     "id": "reinforcement",
@@ -81,7 +81,7 @@
     "plainEn": "A sticker for tidying (positive) or skipping dishes after homework (negative) both 'add incentive' for good behavior.",
     "related": ["behaviorism", "skinner"],
     "tags": ["行为"],
-    "sources": [{ "label": "Skinner, B. 《科学与人类行为》", "year": 1953 }]
+    "sources": [{ "label": "Skinner, B. 《科学与人类行为》", "labelEn": "Skinner, B., Science and Human Behavior", "year": 1953 }]
   },
   {
     "id": "learned-helplessness",
@@ -95,7 +95,7 @@
     "plainEn": "A caged dog shocked with no escape later won't flee even with the door open — it 'learned' helplessness. Humans under chronic failure do too.",
     "related": ["behaviorism", "motivation"],
     "tags": ["行为", "情绪"],
-    "sources": [{ "label": "Seligman, M. 习得性无助", "year": 1972 }]
+    "sources": [{ "label": "Seligman, M. 习得性无助", "labelEn": "Seligman, M., Learned Helplessness", "year": 1972 }]
   },
   {
     "id": "theory-of-mind",
@@ -109,7 +109,7 @@
     "plainEn": "Realizing 'mom can't see the candy, so she doesn't know where it is' — that insight that others' minds differ is theory of mind.",
     "related": ["self", "ekman"],
     "tags": ["发展", "社会"],
-    "sources": [{ "label": "Wimmer, H. & Perner, J. 错误信念任务", "year": 1983 }]
+    "sources": [{ "label": "Wimmer, H. & Perner, J. 错误信念任务", "labelEn": "Wimmer & Perner, The False-Belief Task", "year": 1983 }]
   },
   {
     "id": "metacognition",
@@ -123,7 +123,7 @@
     "plainEn": "After a page you ask 'did I really get this?' and decide whether to reread—that monitor-and-adjust move is metacognition.",
     "related": ["attention", "spacing-retrieval"],
     "tags": ["认知", "学习"],
-    "sources": [{ "label": "Flavell (1979) 认知发展", "year": 1979 }]
+    "sources": [{ "label": "Flavell (1979) 认知发展", "labelEn": "Flavell (1979), Cognitive Development", "year": 1979 }]
   },
   {
     "id": "working-memory",
@@ -137,7 +137,7 @@
     "plainEn": "The mental scratchpad holding intermediate results while you add 27+38 in your head is working memory.",
     "related": ["chunking", "attention", "memory"],
     "tags": ["认知", "记忆"],
-    "sources": [{ "label": "Baddeley (2000) 中央执行", "year": 2000 }]
+    "sources": [{ "label": "Baddeley (2000) 中央执行", "labelEn": "Baddeley (2000), The Central Executive", "year": 2000 }]
   },
   {
     "id": "neuroplasticity",
@@ -151,7 +151,7 @@
     "plainEn": "Violinists grow larger hand-representation areas, and the blind recruit visual cortex for hearing—the brain is reshaped by use.",
     "related": ["maguire-taxi", "growth-mindset"],
     "tags": ["神经", "发展"],
-    "sources": [{ "label": "Draganski (2004) 训练灰质变化", "year": 2004 }]
+    "sources": [{ "label": "Draganski (2004) 训练灰质变化", "labelEn": "Draganski (2004), Training-Induced Gray Matter Changes", "year": 2004 }]
   },
   {
     "id": "chunking",
@@ -165,7 +165,7 @@
     "plainEn": "Remembering 1-4-9-1-5 is hard; one familiar chunk '1491' is easy—binding fragments into known units is chunking.",
     "related": ["working-memory", "memory", "learning"],
     "tags": ["认知", "记忆"],
-    "sources": [{ "label": "Miller (1956) 神奇数字 7±2", "year": 1956 }]
+    "sources": [{ "label": "Miller (1956) 神奇数字 7±2", "labelEn": "Miller (1956), The Magical Number Seven, Plus or Minus Two", "year": 1956 }]
   },
   {
     "id": "growth-mindset",
@@ -179,7 +179,7 @@
     "plainEn": "Facing a hard problem you think 'not yet' instead of 'can't'—swapping 'can't' for 'not yet' is the growth-mindset voice.",
     "related": ["self-efficacy", "parenting-praise", "neuroplasticity"],
     "tags": ["动机", "学习"],
-    "sources": [{ "label": "Dweck (2006) 思维模式", "year": 2006 }]
+    "sources": [{ "label": "Dweck (2006) 思维模式", "labelEn": "Dweck (2006), Mindset", "year": 2006 }]
   },
   {
     "id": "flow",

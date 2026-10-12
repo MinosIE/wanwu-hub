@@ -8,8 +8,9 @@
     "detail": "表现：读新闻只挑认同的媒体、记起「我说过会这样」的预言而忘记落空的。为什么：大脑省能量，也保护自我认同。如何避免：主动寻找反面证据、把「我哪里可能错了」当作问题。",
     "detailEn": "How it shows: reading only like-minded media, recalling hits but forgetting misses. Why: the brain saves energy and protects identity. How to avoid: seek disconfirming evidence; ask 'where might I be wrong?'",
     "category": "社会认知",
+    "categoryEn": "Social cognition",
     "related": ["anchoring", "availability", "bandwagon"],
-    "sources": [{ "label": "《思考，快与慢》", "year": 2011 }]
+    "sources": [{ "label": "《思考，快与慢》", "labelEn": "Thinking, Fast and Slow", "year": 2011 }]
   },
   {
     "id": "anchoring",
@@ -20,6 +21,7 @@
     "detail": "表现：原价划掉再标「特价」、谈判先开高价更占优。为什么：系统1被初始值锚住，调整不足。如何避免：先想「合理区间」再谈价，多方比价。",
     "detailEn": "How it shows: strike-through prices, opening high in negotiation. Why: System 1 sticks to the anchor and under-adjusts. How to avoid: set your own fair range first, compare across sources.",
     "category": "决策",
+    "categoryEn": "Decision making",
     "related": ["confirmation-bias", "loss-aversion", "availability"],
     "sources": [{ "label": "Kahneman, Tversky (1974)", "year": 1974 }]
   },
@@ -32,6 +34,7 @@
     "detail": "表现：飞机失事刷屏后不敢坐飞机，却每天开车。为什么：记忆的鲜活度替代了真实频率。如何避免：用统计数据替代直觉印象。",
     "detailEn": "How it shows: fearing flying after a headline crash while driving daily. Why: vividness stands in for base rates. How to avoid: rely on statistics over impressions.",
     "category": "启发式",
+    "categoryEn": "Heuristics",
     "related": ["anchoring", "confirmation-bias"],
     "sources": [{ "label": "Tversky & Kahneman (1973)", "year": 1973 }]
   },
@@ -44,8 +47,9 @@
     "detail": "表现：死扛亏损股票、不愿换更优方案怕失去已有。为什么：进化上避损比逐利更关乎生存。如何避免：用「机会成本」提醒自己不行动也在损失。",
     "detailEn": "How it shows: holding losing stocks, refusing a better deal to avoid loss. Why: avoiding loss aided survival. How to avoid: weigh the cost of inaction too.",
     "category": "决策",
+    "categoryEn": "Decision making",
     "related": ["anchoring", "sunk-cost"],
-    "sources": [{ "label": "《思考，快与慢》", "year": 2011 }]
+    "sources": [{ "label": "《思考，快与慢》", "labelEn": "Thinking, Fast and Slow", "year": 2011 }]
   },
   {
     "id": "bandwagon",
@@ -56,6 +60,7 @@
     "detail": "表现：抢购、跟风投资、群体起哄。为什么：归属需求与「多数即正确」的捷径。如何避免：保留独立思考空间，先问「我自己信什么」。",
     "detailEn": "How it shows: panic buying, herd investing, mobbing. Why: need to belong and the shortcut 'majority = right'. How to avoid: keep space to think alone first.",
     "category": "社会认知",
+    "categoryEn": "Social cognition",
     "related": ["confirmation-bias", "asch-conformity"],
     "sources": [{ "label": "Asch (1951)", "year": 1951 }]
   },
@@ -68,6 +73,7 @@
     "detail": "表现：难看的电影看完才走、烂尾项目硬撑。为什么：不想承认「白花了」。如何避免：只问「从现在看，继续值不值」。",
     "detailEn": "How it shows: finishing a bad film, propping a failing project. Why: reluctance to admit waste. How to avoid: ask only 'is continuing worth it now?'",
     "category": "决策",
+    "categoryEn": "Decision making",
     "related": ["loss-aversion"],
     "sources": [{ "label": "Arkes & Blumer (1985)", "year": 1985 }]
   },
@@ -80,6 +86,7 @@
     "detail": "表现：颜值高的人被认为更聪明可靠、名校生更易获信任。为什么：大脑用整体印象替代理性分项。如何避免：就事论事，分开评估不同能力。",
     "detailEn": "How it shows: attractive people judged smarter; elite alumni trusted more. Why: global impression substitutes for itemized judgment. How to avoid: evaluate traits separately.",
     "category": "社会认知",
+    "categoryEn": "Social cognition",
     "related": ["confirmation-bias"],
     "sources": [{ "label": "Thorndike (1920)", "year": 1920 }]
   },
@@ -92,6 +99,7 @@
     "detail": "表现：新手自信满满、专家却谨慎。为什么：能力低者也缺乏「识别自己不行」的能力。如何避免：把「我不懂」当起点，向做得好的人请教。",
     "detailEn": "How it shows: novices overconfident, experts cautious. Why: the unskilled also lack the skill to see it. How to avoid: treat 'I don't know' as a start; learn from better performers.",
     "category": "元认知",
+    "categoryEn": "Metacognition",
     "related": ["halo-effect"],
     "sources": [{ "label": "Kruger & Dunning (1999)", "year": 1999 }]
   },
@@ -104,6 +112,7 @@
     "detail": "表现：别人迟到就认为他懒，自己迟到却怪交通。为什么：观察他人时情境不明显、行为显眼。如何避免：先问「换成我在那个处境会怎样」。",
     "detailEn": "Shows as: they're late so they're lazy, I'm late because of traffic. Why: the situation is hidden when we watch others. Avoid it by asking 'how would I act in their place?'",
     "category": "社会认知",
+    "categoryEn": "Social cognition",
     "related": ["confirmation-bias", "halo-effect", "bandwagon"],
     "sources": [{ "label": "Ross, L. (1977)", "year": 1977 }]
   },
@@ -116,8 +125,9 @@
     "detail": "表现：结果一出就说股灾、比赛或选举早已写在脸上。为什么：新信息重塑了我们对旧预期的记忆。如何避免：事前写下预测，用记录对抗事后美化。",
     "detailEn": "Shows as: once the result is known, crashes or elections seem obvious. Why: new info rewrites memory of old expectations. Avoid it by logging predictions in advance.",
     "category": "决策判断",
+    "categoryEn": "Judgment & decision making",
     "related": ["confirmation-bias", "availability", "loss-aversion"],
-    "sources": [{ "label": "《思考，快与慢》", "year": 2011 }]
+    "sources": [{ "label": "《思考，快与慢》", "labelEn": "Thinking, Fast and Slow", "year": 2011 }]
   },
   {
     "id": "framing-effect",
@@ -128,6 +138,7 @@
     "detail": "表现：说『存活率 90%』比『死亡率 10%』更让人接受手术。为什么：损失比收益更刺痛，我们怕损失。如何避免：把同一选项用不同框架重写一遍再比较。",
     "detailEn": "Shows as: '90% survive' wins over '10% die' for the same surgery. Why: losses loom larger than gains. Avoid it by restating each option in the opposite frame.",
     "category": "决策判断",
+    "categoryEn": "Judgment & decision making",
     "related": ["loss-aversion", "anchoring", "sunk-cost"],
     "sources": [{ "label": "Kahneman & Tversky (1984)", "year": 1984 }]
   },
@@ -140,6 +151,7 @@
     "detail": "表现：马克杯实验里拥有者索要价远高于买家愿付价；旧物舍不得卖。为什么：失去被当作损失，损失被放大。如何避免：假设自己从未拥有，问现在愿花多少去买。",
     "detailEn": "Shows as: owners demand far more for a mug than buyers will pay; we hoard old things. Why: giving up feels like a loss, and losses loom. Avoid it by asking what you'd pay to buy it now.",
     "category": "决策判断",
+    "categoryEn": "Judgment & decision making",
     "related": ["loss-aversion", "sunk-cost", "anchoring"],
     "sources": [{ "label": "Kahneman et al. (1990)", "year": 1990 }]
   }

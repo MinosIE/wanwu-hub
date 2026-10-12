@@ -11,6 +11,7 @@
     "ethics": "对参与者造成明显心理压迫，且实验者深度介入角色，方法论与伦理均受批评。",
     "ethicsEn": "Caused clear psychological distress and the experimenter was deeply involved; both method and ethics were criticized.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["milgram", "asch-conformity"],
     "sources": [{ "label": "Zimbardo (1971)", "year": 1971 }]
   },
@@ -26,6 +27,7 @@
     "ethics": "以欺骗制造强烈负罪感与焦虑，直接推动了知情同意与实验伦理审查制度。",
     "ethicsEn": "Deception caused strong guilt and anxiety, directly driving informed-consent and ethics-review systems.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["stanford-prison", "asch-conformity"],
     "sources": [
       {
@@ -47,6 +49,7 @@
     "ethics": "结论被媒体过度简化，可能让家庭背上「早期失败」的指责。",
     "ethicsEn": "Findings were oversimplified by media, risking blame on families for 'early failure'.",
     "category": "发展",
+    "categoryEn": "Development",
     "related": ["attachment", "self-efficacy"],
     "sources": [{ "label": "Mischel et al. (1972)", "year": 1972 }]
   },
@@ -62,6 +65,7 @@
     "ethics": "在无消除处理的情况下给婴儿植入恐惧，严重违反现代伦理。",
     "ethicsEn": "Implanting fear in an infant without reversal sharply violates modern ethics.",
     "category": "行为",
+    "categoryEn": "Behavior",
     "related": ["conditioning", "behaviorism"],
     "sources": [{ "label": "Watson & Rayner (1920)", "year": 1920 }]
   },
@@ -77,6 +81,7 @@
     "ethics": "轻度欺骗，无长期伤害，伦理争议较小。",
     "ethicsEn": "Mild deception with no lasting harm; ethics concerns were minor.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["bandwagon", "milgram"],
     "sources": [{ "label": "Asch (1951)", "year": 1951 }]
   },
@@ -92,14 +97,15 @@
     "ethics": "动物实验，按当时标准操作，现代需伦理审批。",
     "ethicsEn": "Animal study by then-current standards; today it needs ethics approval.",
     "category": "行为",
+    "categoryEn": "Behavior",
     "related": ["conditioning", "little-albert"],
     "sources": [{ "label": "Pavlov (1897)", "year": 1897 }]
   },
   {
-    "id": "cognitive-dissonance",
+    "id": "festinger-dissonance",
     "term": "认知失调实验",
-    "termEn": "Cognitive Dissonance",
-    "year": 1957,
+    "termEn": "Cognitive Dissonance Experiment",
+    "year": 1959,
     "oneLiner": "为无聊任务拿钱少的人，反而更觉得任务有趣。",
     "oneLinerEn": "Those paid little for a boring task found it more interesting.",
     "detail": "假设：态度与行为冲突会产生不适，人会改变态度来消除。过程：被试做极无聊的任务，一组拿 1 美元、一组拿 20 美元去骗下一个人「有趣」。结论：拿得少的人更说服自己任务有趣（理由不足）。启示：自由选择的微小代价最能改变信念。",
@@ -107,6 +113,7 @@
     "ethics": "轻度欺骗，无伤害，伦理争议小。",
     "ethicsEn": "Mild deception, no harm; minor ethics concern.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["confirmation-bias", "self-efficacy"],
     "sources": [{ "label": "Festinger & Carlsmith (1959)", "year": 1959 }]
   },
@@ -122,8 +129,9 @@
     "ethics": "涉及动物，当时伦理规范较宽；今已受动物福利规范约束。",
     "ethicsEn": "Used animals under looser period norms; today bound by animal-welfare rules.",
     "category": "行为",
+    "categoryEn": "Behavior",
     "related": ["learning", "conditioning", "reinforcement"],
-    "sources": [{ "label": "Skinner (1938)《有机体的行为》", "year": 1938 }]
+    "sources": [{ "label": "Skinner (1938)《有机体的行为》", "labelEn": "Skinner (1938), The Behavior of Organisms", "year": 1938 }]
   },
   {
     "id": "bandura-bobo",
@@ -137,6 +145,7 @@
     "ethics": "引发儿童攻击行为，存在争议；今已难重现。",
     "ethicsEn": "Induced aggression in children; controversial and hard to replicate today.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["learning", "milgram", "stanford-prison"],
     "sources": [{ "label": "Bandura, Ross & Ross (1961)", "year": 1961 }]
   },
@@ -152,6 +161,7 @@
     "ethics": "动物被严重隔离，痛苦明显；正因如此推动动物福利改革。",
     "ethicsEn": "Severe isolation caused clear distress; it helped spur animal-welfare reform.",
     "category": "发展",
+    "categoryEn": "Development",
     "related": ["attachment", "relationship-attachment"],
     "sources": [{ "label": "Harlow (1958)", "year": 1958 }]
   },
@@ -167,6 +177,7 @@
     "ethics": "轻度误导，无伤害，伦理争议小。",
     "ethicsEn": "Mild deception, no harm; minor ethics concern.",
     "category": "认知",
+    "categoryEn": "Cognition",
     "related": ["memory", "memory-like-recording", "schema"],
     "sources": [{ "label": "Loftus & Palmer (1974)", "year": 1974 }]
   },
@@ -182,6 +193,7 @@
     "ethics": "无伤害，仅需知情任务，争议小。",
     "ethicsEn": "No harm, a simple counting task; negligible concern.",
     "category": "认知",
+    "categoryEn": "Cognition",
     "related": ["attention", "perception", "priming"],
     "sources": [{ "label": "Simons & Chabris (1999)", "year": 1999 }]
   },
@@ -197,6 +209,7 @@
     "ethics": "完全无害，无争议。",
     "ethicsEn": "Entirely harmless; no concern.",
     "category": "认知",
+    "categoryEn": "Cognition",
     "related": ["attention", "self-efficacy"],
     "sources": [{ "label": "Stroop (1935)", "year": 1935 }]
   },
@@ -212,6 +225,7 @@
     "ethics": "观察性研究，无伤害，争议小（因果方向待证）。",
     "ethicsEn": "Observational, no harm; causality direction remains open.",
     "category": "神经",
+    "categoryEn": "Neuroscience",
     "related": ["neuroplasticity", "memory", "chunking"],
     "sources": [{ "label": "Maguire (2000)", "year": 2000 }]
   },
@@ -227,6 +241,7 @@
     "ethics": "完全无害，无争议。",
     "ethicsEn": "Entirely harmless; no concern.",
     "category": "社会",
+    "categoryEn": "Social",
     "related": ["halo-effect", "bandwagon", "priming"],
     "sources": [{ "label": "Zajonc (1968)", "year": 1968 }]
   }

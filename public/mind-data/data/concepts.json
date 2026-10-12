@@ -14,7 +14,7 @@
     "exampleEn": "Right now you are aware that you are reading, and can feel your posture and the room temperature — that 'knowing you are experiencing' is consciousness.",
     "related": ["self", "memory"],
     "tags": ["基础", "认知"],
-    "sources": [{ "label": "《心理学与生活》", "year": 2022 }]
+    "sources": [{ "label": "《心理学与生活》", "labelEn": "Psychology and Life", "year": 2022 }]
   },
   {
     "id": "memory",
@@ -31,7 +31,7 @@
     "exampleEn": "Words crammed the night before an exam fade quickly, while procedural memories like riding a bike last for years.",
     "related": ["conditioning", "priming", "schema", "kahneman"],
     "tags": ["认知"],
-    "sources": [{ "label": "Ebbinghaus, H. 《记忆》", "year": 1885 }]
+    "sources": [{ "label": "Ebbinghaus, H. 《记忆》", "labelEn": "Ebbinghaus, H., Memory", "year": 1885 }]
   },
   {
     "id": "emotion",
@@ -48,7 +48,7 @@
     "exampleEn": "The same racing heart feels warm in a friend's hug yet fearful near traffic — different appraisals, different emotions.",
     "related": ["motivation", "ekman", "self"],
     "tags": ["情绪", "社会"],
-    "sources": [{ "label": "Ekman, P. 《情绪的解析》", "year": 2003 }]
+    "sources": [{ "label": "Ekman, P. 《情绪的解析》", "labelEn": "Ekman, P., Emotions Revealed", "year": 2003 }]
   },
   {
     "id": "motivation",
@@ -65,7 +65,7 @@
     "exampleEn": "Some learn piano for love of melody (intrinsic), others for a grade prize (extrinsic) — the former tends to last longer.",
     "related": ["emotion", "maslow", "self"],
     "tags": ["动机"],
-    "sources": [{ "label": "Deci, E. & Ryan, R. 自我决定理论", "year": 1985 }]
+    "sources": [{ "label": "Deci, E. & Ryan, R. 自我决定理论", "labelEn": "Deci & Ryan, Self-Determination Theory", "year": 1985 }]
   },
   {
     "id": "personality",
@@ -82,7 +82,7 @@
     "exampleEn": "At the same dinner, one person talks nonstop (extravert), another observes quietly (introvert) — that stable difference is personality.",
     "related": ["attachment", "freud", "humanistic"],
     "tags": ["人格"],
-    "sources": [{ "label": "McCrae, R. & Costa, P. 大五人格", "year": 1992 }]
+    "sources": [{ "label": "McCrae, R. & Costa, P. 大五人格", "labelEn": "McCrae & Costa, the Big Five", "year": 1992 }]
   },
   {
     "id": "attachment",
@@ -99,7 +99,7 @@
     "exampleEn": "A child who cries when mom leaves yet is soothed on return is likely secure; one who avoids eye contact may be avoidant.",
     "related": ["freud", "humanistic", "personality"],
     "tags": ["发展", "关系"],
-    "sources": [{ "label": "Bowlby, J. 《依恋》", "year": 1969 }]
+    "sources": [{ "label": "Bowlby, J. 《依恋》", "labelEn": "Bowlby, J., Attachment", "year": 1969 }]
   },
   {
     "id": "attribution",
@@ -116,7 +116,7 @@
     "exampleEn": "When a colleague errs you think 'careless' (trait); when you err you blame 'changing requirements' (situation).",
     "related": ["self"],
     "tags": ["社会"],
-    "sources": [{ "label": "Heider, F. 《人际关系心理学》", "year": 1958 }]
+    "sources": [{ "label": "Heider, F. 《人际关系心理学》", "labelEn": "Heider, F., The Psychology of Interpersonal Relations", "year": 1958 }]
   },
   {
     "id": "self",
@@ -136,6 +136,7 @@
     "sources": [
       {
         "label": "Markus, H. & Kitayama, S. 文化自我",
+        "labelEn": "Markus & Kitayama, Culture and the Self",
         "year": 1991,
         "url": "https://doi.org/10.1037/0033-2909.98.2.224"
       }
@@ -207,7 +208,7 @@
     "exampleEn": "Someone calls themselves 'INTJ logician' to explain loving solitude and plans—useful for voicing preferences, but don't label people or filter jobs by it.",
     "related": ["personality", "big-five"],
     "tags": ["人格"],
-    "sources": [{ "label": "Pittenger (1993) MBTI 信效度批评", "year": 1993 }]
+    "sources": [{ "label": "Pittenger (1993) MBTI 信效度批评", "labelEn": "Pittenger (1993), MBTI reliability and validity critique", "year": 1993 }]
   },
   {
     "id": "attention",
@@ -224,7 +225,7 @@
     "exampleEn": "Texting while lecturing hurts both—attention switches rapidly rather than truly running in parallel.",
     "related": ["memory", "self-efficacy"],
     "tags": ["认知", "注意"],
-    "sources": [{ "label": "Kahneman (1973) 注意与努力", "year": 1973 }]
+    "sources": [{ "label": "Kahneman (1973) 注意与努力", "labelEn": "Kahneman (1973), Attention and Effort", "year": 1973 }]
   },
   {
     "id": "perception",
@@ -241,7 +242,7 @@
     "exampleEn": "The same scrawled handwriting is read as different words depending on context—perception follows meaning.",
     "related": ["attention", "schema", "mental-model"],
     "tags": ["认知", "知觉"],
-    "sources": [{ "label": "Goldstein《感知觉》", "year": 2018 }]
+    "sources": [{ "label": "Goldstein《感知觉》", "labelEn": "Goldstein, Sensation and Perception", "year": 2018 }]
   },
   {
     "id": "learning",
@@ -275,7 +276,7 @@
     "exampleEn": "A test score only roughly ranks one ability at one time—no basis for a lifelong 'smart/dumb' label.",
     "related": ["big-five", "iq-fixed"],
     "tags": ["差异", "智力", "测评"],
-    "sources": [{ "label": "Neisser 等《智力公认论》", "year": 1996 }]
+    "sources": [{ "label": "Neisser 等《智力公认论》", "labelEn": "Neisser et al., Intelligence: Knowns and Unknowns", "year": 1996 }]
   },
   {
     "id": "stress-coping",
@@ -292,7 +293,7 @@
     "exampleEn": "Reframing 'a talk = threat' into 'a talk = sharing' often lowers heart rate and nerves—appraisal drives response.",
     "related": ["emotion", "self-efficacy", "work-burnout"],
     "tags": ["健康", "情绪", "压力"],
-    "sources": [{ "label": "Lazarus《压力与应对》", "year": 1984 }]
+    "sources": [{ "label": "Lazarus《压力与应对》", "labelEn": "Lazarus, Stress and Coping", "year": 1984 }]
   },
   {
     "id": "moral-development",

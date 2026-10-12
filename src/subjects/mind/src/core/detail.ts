@@ -1,8 +1,22 @@
-import { t } from "./i18n";
+import { getLang, t } from "./i18n";
 import { esc } from "./dom";
-import type { DetailView } from "./types";
+import type { DetailView, RefSource } from "./types";
 
 // 说明：s.html 等由各模块拼装，凡插入数据字段一律经 esc()；来源 url 同样转义后作为 href。
+
+/**
+ * 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。
+ * 页脚 refs 与详情面板共用这一份，避免两处行为分叉。
+ */
+export function srcLabel(s: RefSource): string {
+  const en = getLang() === "en";
+  const label = en ? s.labelEn || s.label : s.label;
+  // label 已含年份（如 "Milgram (1963)"）时不再重复拼接
+  const hasYear = s.year != null && String(label).includes(`(${s.year})`);
+  const year =
+    s.year != null && !hasYear ? (en ? ` (${s.year})` : `（${s.year}）`) : "";
+  return `${esc(label)}${year}`;
+}
 
 export function renderDetail(
   view: DetailView,
@@ -40,12 +54,7 @@ export function renderDetail(
          <h4>${esc(t("ui.sources"))}</h4>
          <div class="sources">${view.sources
            .map((s) => {
-             // label 已含年份（如 "Milgram (1963)"）时不再重复拼接
-             const hasYear =
-               s.year != null && String(s.label).includes(`(${s.year})`);
-             const text = `${esc(s.label)}${
-               s.year && !hasYear ? " (" + esc(s.year) + ")" : ""
-             }`;
+             const text = srcLabel(s);
              return s.url
                ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${text}</a>`
                : text;

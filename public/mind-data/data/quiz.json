@@ -63,7 +63,7 @@
       }
     ],
     "related": ["we-only-use-10-percent", "left-right-brain"],
-    "sources": [{ "label": "神经科学共识", "year": 2008 }]
+    "sources": [{ "label": "神经科学共识", "labelEn": "Neuroscience consensus", "year": 2008 }]
   },
   {
     "id": "q-decision-1",
