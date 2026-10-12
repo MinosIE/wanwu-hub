@@ -47,6 +47,7 @@
 ## 3. 内容扩充
 
 - [ ] **physics/chem 种子内容深化**：`data.ts:7` 标注「示例性内容，持续扩充中」。physics 31 条 / chem 34 条，覆盖面偏浅，需加深度与广度。
+- [x] **econ 补「骗局与泡沫」模块与金融大事件**：新增 `bubbles.json`（16 条中英双语：郁金香、南海、庞氏、亨特兄弟、巴林、LTCM、互联网泡沫、安然、银广夏、麦道夫、LIBOR、PlusToken、Wirecard、LUNA、FTX 等）与新视图 `m-bubbles`（`template.ts` section + 导航按钮 + `s/build-econ-index.mjs` 登记 + i18n 双语键）；`events.json` 22→31（黑色星期一、黑色星期三/索罗斯做空英镑、俄罗斯违约、欧元区主权债务危机、闪电崩盘、2015 A 股异常波动、瑞郎脱钩、英国迷你预算、硅谷银行）。econ 模块 16→17、条目 207→232，overview 计数/KPI 与四份 GEO 文档已同步。
 - [ ] **econ 图表数据口径**：`i18n.json:92` 免责「示例性年度近似值，非实时数据」——补真实来源或明确标注。
 - [ ] **mind 在建模块**：`i18n.ts:187` `ui.comingSoon` = 「该模块正在建设中，敬请期待」——推进在建模块。
 - [ ] 各 `sources.json` / refs 来源补全与去重（已 10 个 FULL 文件含 `sources.json`）。
