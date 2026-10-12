@@ -1,0 +1,479 @@
+[
+  {
+    "id": "myth-socrates-ignorance",
+    "term": "「我知道我一无所知」",
+    "termEn": "\"I know that I know nothing\"",
+    "category": "古代哲学",
+    "categoryEn": "Ancient",
+    "level": 1,
+    "myth": "常被视为苏格拉底的名言与谦逊的宣言，仿佛他宣称自己毫无知识。",
+    "mythEn": "Cited as his own slogan of total ignorance and humility.",
+    "truth": "这句话出自后世对《申辩篇》的概括。文本里德尔菲神谕说无人比苏格拉底更智慧，他检验众人后发现：自己的优势仅在于「以为自己不知道的事其实并不知道」。",
+    "truthEn": "It is a later summary of the Apology. The oracle says no one is wiser; after testing politicians, poets and craftsmen Socrates finds his advantage only in not thinking he knows what he does not know.",
+    "detail": "差别很要紧：这不是知识总量的宣言，而是对「知识宣称」的审查程序——因此才有诘问（elenchus）作为方法。把它当作彻底的怀疑或自我贬低，恰好取消了苏格拉底式追问的动力。",
+    "detailEn": "The difference matters: it is not a claim about the quantity of knowledge but a procedure for auditing knowledge-claims—hence the elenchus as method. Reading it as radical doubt or self-abasement removes exactly the engine of Socratic questioning.",
+    "related": ["socrates", "plato", "skepticism", "knowledge", "tl-socrates-trial"],
+    "sources": [
+      {
+        "label": "柏拉图《申辩篇》21a–23b",
+        "labelEn": "Plato, Apology 21a–23b",
+        "year": -360
+      }
+    ]
+  },
+  {
+    "id": "myth-plato-forms-images",
+    "term": "理念＝脑中的概念或影像",
+    "termEn": "Forms as Mental Pictures",
+    "category": "古代哲学",
+    "categoryEn": "Ancient",
+    "level": 2,
+    "myth": "把「相／理念」理解为心里的图景或我们对某物的概念，于是「床的理念」就是我们对床的印象。",
+    "mythEn": "Treating Forms as pictures in the mind or our concept of a thing, so the Form of bed is our idea of bed.",
+    "truth": "在柏拉图那里理念是对象而非表象：独立、不变、可理智把握的范型，可感物分有之；理念间的关系构成一个客观秩序，与任何人如何想无关。",
+    "truthEn": "For Plato a Form is an object, not a representation: an independent, unchanging pattern intellection grasps, participated in by sensibles; relations among Forms make an objective order, indifferent to what anyone thinks.",
+    "detail": "误解的代价是让《理想国》的线喻与洞穴显得玄虚。按原义，它们是关于认识等级与对象层级的严格主张：从影像、信念到可知对象的理解。亚里士多德的「第三人之怪」批评也正是针对理念作为独立对象这一读法。",
+    "detailEn": "The cost of the misreading is that the Divided Line and the Cave look mystical. On the correct reading they state a strict hierarchy of modes of knowing and objects known, from images and belief to understanding of intelligibles. Aristotle's Third Man argument targets precisely Forms as independent objects.",
+    "related": ["platonism", "universals", "reality", "tl-plato-academy", "aristotle"],
+    "sources": [
+      {
+        "label": "柏拉图《理想国》VI–VII",
+        "labelEn": "Plato, Republic VI–VII",
+        "year": -370
+      }
+    ]
+  },
+  {
+    "id": "myth-republic-totalitarian",
+    "term": "《理想国》是极权蓝图",
+    "termEn": "The Republic as a Totalitarian Blueprint",
+    "category": "政治哲学",
+    "categoryEn": "Political Philosophy",
+    "level": 2,
+    "myth": "因哲人王、审查与共产共育，就把《理想国》等同于二十世纪极权主义的方案书。",
+    "mythEn": "Because of philosopher-kings, censorship and communal arrangements, the Republic is read as a charter of twentieth-century totalitarianism.",
+    "truth": "波普尔《开放社会及其敌人》提出这一著名指控，但它以今制古：文本的首要问题是「正义是什么、正义者是否幸福」，城邦是被放大的灵魂类比（城邦—灵魂同构）。",
+    "truthEn": "Popper's Open Society made the charge famous, but it anachronises: the dialogue's first question is what justice is and whether the just person is happy, and the city is an analogy of the enlarged soul.",
+    "detail": "批判仍应做，但对象不同：文本中的知识精英主义、对诗人地位的处置与世袭护卫官阶层确实值得追问；把它读成秘密警察之国则既低估了柏拉图的论证，也低估了极权主义本身的历史成因。",
+    "detailEn": "The critique is still due, but aimed differently: epistemic elitism, the treatment of poets and the hereditary guardian class merit hard questions; reading a police state into it underestimates both Plato's argument and the actual genealogy of totalitarianism.",
+    "related": ["plato", "republic", "justice", "political-philosophy"],
+    "sources": [
+      {
+        "label": "波普尔《开放社会及其敌人》第一卷",
+        "labelEn": "Popper, The Open Society and Its Enemies, vol. 1",
+        "year": 1945
+      },
+      {
+        "label": "《理想国》IV 444e–445a",
+        "labelEn": "Republic 444e–445a",
+        "year": -370
+      }
+    ]
+  },
+  {
+    "id": "myth-stoa-no-emotion",
+    "term": "斯多亚＝没有情绪",
+    "termEn": "Stoic Means Emotionless",
+    "category": "古代哲学",
+    "categoryEn": "Ancient",
+    "level": 1,
+    "myth": "「stoic」在英语里就是忍痛不动声色，于是斯多亚哲学被当作情感的压抑或切除。",
+    "mythEn": "'Stoic' in English means enduring pain without showing feeling, so Stoicism is taken for the suppression or removal of emotion.",
+    "truth": "斯多亚区分 pathos（由错误判断生成的破坏性激情）与 eupatheia（良好的情感反应：谨慎、喜悦、意愿）。目标是转化判断，不是关闭感受。",
+    "truthEn": "The Stoa distinguishes pathos (destructive passion born of mistaken judgment) from eupatheia (good affective responses: caution, joy, wish). The aim is to transform judgment, not to switch off feeling.",
+    "detail": "控制二分是操作核心：把评价性判断收回到可控制的范围内，从而不被无法掌控之事劫持。现代认知行为疗法（CBT）承其血脉，其疗效本身说明「不动情绪」的读法是错的——它处理的恰是判断与情绪的关系。",
+    "detailEn": "The dichotomy of control is the operative core: reclaim evaluative judgment into what is up to us, so as not to be hijacked by what is not. Modern CBT descends from this lineage, and its efficacy shows the emotionless reading is wrong—it deals precisely with the judgment–emotion relation.",
+    "related": ["stoicism", "ataraxia", "marcus", "eudaimonia"],
+    "sources": [
+      {
+        "label": "爱比克泰德《手册》第一章",
+        "labelEn": "Epictetus, Encheiridion, ch. 1",
+        "year": 125
+      },
+      { "label": "塞涅卡《论愤怒》", "labelEn": "Seneca, On Anger", "year": 41 }
+    ]
+  },
+  {
+    "id": "myth-epicurus-debauch",
+    "term": "伊壁鸠鲁＝享乐纵欲",
+    "termEn": "Epicurean Means Self-Indulgent",
+    "category": "古代哲学",
+    "categoryEn": "Ancient",
+    "level": 1,
+    "myth": "以「伊壁鸠鲁式」指饕餮与声色，把快乐主义读成越多越强烈的享乐越好。",
+    "mythEn": "'Epicurean' denotes gourmet indulgence, so hedonism is read as the more and the stronger the pleasure the better.",
+    "truth": "伊壁鸠鲁定义的快乐是「身体无痛苦、灵魂无纷扰」（ataraxia）；他主张必要而自然的欲望优先，无必要的欲望克制，静欲之乐胜于动欲之乐。",
+    "truthEn": "Epicurus defines pleasure as absence of bodily pain and disturbance of soul; necessary and natural desires come first, empty ones are curbed, and static pleasure beats kinetic pleasure.",
+    "detail": "他的原子论与死亡观服务于同一目的：灵魂由原子构成，会消散，故「死与我们无关」——消除对死后惩罚的恐惧。纵欲恰是其疗法要排除的病因，因为它强化而非解除焦虑。",
+    "detailEn": "His atomism and theory of death serve the same end: the soul is atomic and dissipates, so 'death is nothing to us'—removing fear of post-mortem punishment. Indulgence is precisely the symptom his therapy excludes, since it feeds rather than relieves anxiety.",
+    "related": ["ataraxia", "utility", "eudaimonia", "death"],
+    "sources": [
+      {
+        "label": "伊壁鸠鲁《致美诺寇书》",
+        "labelEn": "Epicurus, Letter to Menoeceus",
+        "year": -300
+      }
+    ]
+  },
+  {
+    "id": "myth-machiavelli-cynic",
+    "term": "马基雅维利教君主作恶",
+    "termEn": "Machiavelli Teaches Evil",
+    "category": "政治哲学",
+    "categoryEn": "Political Philosophy",
+    "level": 2,
+    "myth": "《君主论》被读成厚黑学手册，作者被当作机会主义的教师。",
+    "mythEn": "The Prince is read as a handbook of cynicism and its author as a tutor in opportunism.",
+    "truth": "两种读法都在文本中有据：一是训诫式的「实效如何达成」，一是讽刺式的「共和国如何被颠覆」。可确定的是《论李维》明确以自由与法治的共和为政体理想，且作者以受雇于美第奇而写《君主论》的处境为背景。",
+    "truthEn": "The text supports both an instructional and an ironic reading; what is secure is that the Discourses treat a free, law-governed republic as the best regime, and The Prince was written from a position in Medici employment.",
+    "detail": "真正的革命性不在道德劝诫的方向，而在方法：以事物的实效真理（verità effettuale）代替应然的想象，从而把政治学从伦理学中分离出来。这一点对卢梭、马克思与当代政治现实主义都是遗产。",
+    "detailEn": "The real novelty is not the moral verdict but the method: effectual truth of things instead of imagined oughts, separating politics from ethics. Rousseau, Marx and modern political realism all inherit this move.",
+    "related": ["political-philosophy", "justice", "xingshan-hobbes-compare", "tl-hobbes"],
+    "sources": [
+      {
+        "label": "马基雅维利《君主论》第十五章",
+        "labelEn": "Machiavelli, The Prince, ch. 15",
+        "year": 1532
+      },
+      {
+        "label": "《论李维》第一卷",
+        "labelEn": "Discourses on Livy, book 1",
+        "year": 1517
+      }
+    ]
+  },
+  {
+    "id": "myth-descartes-soul",
+    "term": "笛卡尔二元论证明了灵魂不朽",
+    "termEn": "Cartesian Dualism Proves Immortality",
+    "category": "近代哲学",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "myth": "以为心实体的区分即等价于宗教灵魂不死的证明。",
+    "mythEn": "The real distinction of mind from body is taken to be a proof of the soul's immortality.",
+    "truth": "《第一哲学沉思集》第六部分确说心灵是可不同于身体理解的完整实体，从而「使虔敬者安心」；但其哲学重心是我思的确证与心身交互的难题，而非不朽的演绎证明。",
+    "truthEn": "The Sixth Meditation does say mind is a complete thing understandable apart from body, which comforts the pious; but the philosophical weight lies on the cogito's certainty and the interaction problem, not on a deduction of immortality.",
+    "detail": "交互难题由伊丽莎白公主当面提出：非广延的心灵如何推动身体？笛卡尔以松果腺与「原始观念」作答，被普遍认为不充分。后世的心身同一论、副现象论、功能主义与随附性讨论，都是对这一问题的不同处置。",
+    "detailEn": "Princess Elisabeth pressed the interaction problem: how can an unextended mind move a body? Descartes' answers—the pineal gland and primitive notions—are widely judged insufficient. Identity theory, epiphenomenalism, functionalism and supervenience debates are later dispositions of the same problem.",
+    "related": ["descartes", "mind-body", "rationalism", "supervenience", "tl-descartes"],
+    "sources": [
+      {
+        "label": "笛卡尔《第一哲学沉思集》第六沉思及 objections",
+        "labelEn": "Descartes, Meditations VI and Objections",
+        "year": 1641
+      }
+    ]
+  },
+  {
+    "id": "myth-kant-never-lie",
+    "term": "康德说任何时候都不能撒谎",
+    "termEn": "Kant Forbids Lying Always",
+    "category": "近代哲学",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "myth": "以「追杀朋友者问他在不在家」为例，认为康德要求必须说真话，因而其伦理学不可适用。",
+    "mythEn": "The running example—an inquirer at the door hunting your friend—is taken to show Kant demands truth-telling at all costs, and so is unusable.",
+    "truth": "《论出于人道考虑而撒谎的权利》确坚持不许作出虚假陈述；但可普遍化检验并不取消其他义务（保护朋友的义务、对追害者的陈述方式），也不禁止不回答、保留性陈述或拒绝给出信息。",
+    "truthEn": "On a Supposed Right to Lie does insist that one must not make a false statement; yet universalisation does not cancel other duties (to protect one's friend, and about how one addresses an attacker), nor forbid silence, reserved assertion or refusal to inform.",
+    "detail": "更公允的批评不是「太硬」而是「结构问题」：当义务冲突时，义务论缺少排序程序；当代康德主义者（如赫尔曼、阿利斯）以「道德处境的形成」与准则的精细表述回应这一困难。",
+    "detailEn": "A fairer complaint is structural rather than harsh: when duties conflict, deontology lacks a ranking procedure. Contemporary Kantians (Hermann, Allis) answer with the shaping of moral context and finer-grained maxims.",
+    "related": ["kant", "categorical-imperative", "ethics", "good-evil", "trolley-problem"],
+    "sources": [
+      {
+        "label": "康德《论出于人道考虑而撒谎的权利》",
+        "labelEn": "Kant, On a Supposed Right to Lie from Philanthropy",
+        "year": 1797
+      },
+      {
+        "label": "《道德形而上学奠基》",
+        "labelEn": "Groundwork of the Metaphysics of Morals",
+        "year": 1785
+      }
+    ]
+  },
+  {
+    "id": "myth-utilism-selfish",
+    "term": "功利主义就是追求自己的快乐",
+    "termEn": "Utilitarianism Is Self-Seeking Pleasure",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 1,
+    "myth": "把「最大幸福」理解为每个行动者追逐自己的幸福，或把快乐主义与自私混为一谈。",
+    "mythEn": "'The greatest happiness' is read as each agent chasing his own pleasure, hedonism confused with selfishness.",
+    "truth": "边沁与密尔的公式是对所有人（含行动者自己）同等计量的效用总和或平均的最大化；他人的快乐与我的一样计入，故它既非利己主义，还常要求巨大的自我牺牲。",
+    "truthEn": "For Bentham and Mill the calculus weighs everyone's pleasure equally, the agent's included; maximising aggregate or average utility is not self-regard and often demands great personal sacrifice.",
+    "detail": "真实争议在别处：是否允许以牺牲少数成全多数（正义的约束）、效用可否跨人比较与加总、行为的期望效用与客观结果以何者为准。这些才是要求替代理论（规则功利主义、充分优先论）的动力。",
+    "detailEn": "The live disputes are elsewhere: sacrifice of the few for the many (justice constraints), interpersonally comparable utilities, and whether expected or actual consequences decide. These drive rule-utilitarianism, prioritarianism and their rivals.",
+    "related": [
+      "utilitarianism",
+      "utility",
+      "justice",
+      "experience-machine",
+      "trolley-problem",
+      "mill"
+    ],
+    "sources": [
+      {
+        "label": "边沁《导论》第四、五章",
+        "labelEn": "Bentham, Introduction, ch. 4–5",
+        "year": 1789
+      },
+      {
+        "label": "密尔《功利主义》第二章",
+        "labelEn": "Mill, Utilitarianism, ch. 2",
+        "year": 1863
+      }
+    ]
+  },
+  {
+    "id": "myth-nietzsche-nazi",
+    "term": "尼采是虚无主义者，也是纳粹先驱",
+    "termEn": "Nietzsche the Nihilist and Nazi Forerunner",
+    "category": "现代哲学",
+    "categoryEn": "Modern",
+    "level": 2,
+    "myth": "「上帝死了」被当作虚无主义的欢呼，「超人」被读成种族优越论。",
+    "mythEn": "'God is dead' is taken as a celebration of nihilism and the overman as a thesis of racial superiority.",
+    "truth": "尼采把虚无主义诊断为需要克服的疾病而非成就；《善恶的彼岸》《谱系学》明确鄙薄反犹运动与民族主义，且他与妹妹伊丽莎白·福尔斯特—尼采的分歧有案可查。",
+    "truthEn": "He diagnoses nihilism as a disease to be overcome, not an achievement; Beyond Good and Evil and the Genealogy speak with contempt for anti-Semitic movements and nationalism, and his quarrel with his sister Elisabeth Förster-Nietzsche is documented.",
+    "detail": "纳粹挪用主要经由妹妹掌管档案期间的选编与《权力意志》拼合，战后科尔利版批评本重构了遗稿次序与年代，此后的学界共识是：尼采是这一挪用的受害者之一，同时其贵族激进主义与对民主的蔑视仍需独立批判。",
+    "detailEn": "The Nazi appropriation ran chiefly through his sister's editorial selection and the assembled Will to Power; the post-war Colli-Montinari critical edition restored order and dating of the Nachlass. The consensus now is that he was among the appropriation's victims—while his radical aristocratism and contempt for democracy still require independent criticism.",
+    "related": [
+      "nietzsche",
+      "existentialism",
+      "good-evil",
+      "meaning",
+      "moral-realism",
+      "qiwu-perspectivism-compare"
+    ],
+    "sources": [
+      {
+        "label": "尼采《善恶的彼岸》第 205 节",
+        "labelEn": "Nietzsche, Beyond Good and Evil, §205",
+        "year": 1886
+      },
+      {
+        "label": "科尔利编《尼采全集》批评本",
+        "labelEn": "Colli-Montinari, Kritische Gesamtausgabe",
+        "year": 1967
+      }
+    ]
+  },
+  {
+    "id": "myth-sartre-anything-goes",
+    "term": "存在主义＝想干什么就干什么",
+    "termEn": "Existentialism Means Anything Goes",
+    "category": "现代哲学",
+    "categoryEn": "Modern",
+    "level": 1,
+    "myth": "由「人被判定为自由」推出没有标准、任何选择同等好，即所谓「怎么都行」。",
+    "mythEn": "From 'man is condemned to be free' it is inferred that there are no standards and every choice is equally good.",
+    "truth": "萨特的论证恰相反：选择无外部根据，故责任全归于我；「我在为自己选择全人类」，因而轻率与自欺（mauvaise foi）在理论上被诊断为失败的自由。",
+    "truthEn": "Sartre's argument is the reverse: with no external ground for choice, responsibility falls wholly on me—'in choosing for myself I choose for all humanity'—so frivolity and bad faith are diagnosed as failed freedom, not permitted ease.",
+    "detail": "处境（facticity）不消失：人总在具体限制中选，且「介入」要求对后果负责。真正可批评的是其道德认识论——若无独立的价值秩序，如何区分高低的选择？这一困难在《存在主义是一种人道主义》的答辩中已显露。",
+    "detailEn": "Facticity does not vanish: one always chooses under determinate limits, and commitment entails accountability for outcomes. The defensible target is his moral epistemics—without an independent order of value, how are choices to be ranked? The difficulty is already visible in the reply given in Existentialism Is a Humanism.",
+    "related": ["sartre", "existentialism", "free-will", "meaning", "tl-sartre"],
+    "sources": [
+      {
+        "label": "萨特《存在主义是一种人道主义》",
+        "labelEn": "Sartre, Existentialism Is a Humanism",
+        "year": 1946
+      },
+      {
+        "label": "《存在与虚无》自欺章",
+        "labelEn": "Being and Nothingness, on bad faith",
+        "year": 1943
+      }
+    ]
+  },
+  {
+    "id": "myth-laozi-obscurantism",
+    "term": "老子主张愚民",
+    "termEn": "Laozi Advocates Obscurantism",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "myth": "以「非以明民，将以愚之」「绝圣弃智，民利百倍」为据，认为道家主张使人民无知以便统治。",
+    "mythEn": "'Not to enlighten the people but to keep them simple' and 'abandon sagacity and discard cunning' are cited as advocacy of an uneducated populace.",
+    "truth": "被弃的「智」多指巧伪之知、算计之明，被责的「学」是逐物不反；河上公、王弼注均把「愚」解为质朴而非蒙昧。",
+    "truthEn": "The same text's target is usually craft and calculating cleverness rather than knowledge as such; Wang Bi and the Heshang Gong commentary read 'foolish' as simple and uncarved, not ignorant.",
+    "detail": "关键在区分两种知：分别、命名、操控之知与顺应、体察之知。批评者仍可正当指出其治术面向（「无为而治」中暗含君主的自我隐退策略），这与「使民不知」是两件事。",
+    "detailEn": "The distinction is between knowledge that sorts, names and manipulates and knowledge that attends and accedes. One may still legitimately criticise the statecraft vector—the ruler's self-effacing retreat—which is a different matter from keeping people ignorant.",
+    "related": ["laozi", "taoism", "wuwei", "dao-name", "legalism", "confucianism"],
+    "sources": [
+      {
+        "label": "《道德经》第六十五章、第十八章、王弼注",
+        "labelEn": "Daodejing ch. 65 and 18, with Wang Bi's commentary",
+        "year": 240
+      }
+    ]
+  },
+  {
+    "id": "myth-yangming-know-do",
+    "term": "知行合一＝知道就该做到",
+    "termEn": "Unity of Knowledge-and-Action Means 'Practice What You Preach'",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "myth": "把「知行合一」理解为对意志薄弱的道德劝诫：既然知道，就该去行。",
+    "mythEn": "The doctrine is read as a rebuke to weakness of will: since you know it, do it.",
+    "truth": "阳明立说的是本体论—认识论命题：知是行之始，行是知之成；「知而不行，只是未知」。见好色属知、好好色属行，只见那好色时已自好了，不是见了后又立心去好。",
+    "truthEn": "It is a claim about the being of knowing: knowledge is the beginning of action, action the completion of knowing; 'to know and not act shows one has not yet known. Seeing colour is knowing; loving it is acting—and the loving is already there in the seeing, not added afterwards.'",
+    "detail": "这一读法取消了它的锋利处：它不是要求补足行动，而是否认有一种可以完全脱离践履的「知」。对应的现代争论是 know-how 与 know-that 的关系、具身认知，以及「理解一项论证」与「会用它」之间的差距。",
+    "detailEn": "The popular reading blunts the edge: it does not demand supplementary action but denies that a knowledge wholly separable from practice exists. Modern cognates are the know-how/know-that relation, embodied cognition, and the gap between understanding an argument and being able to use it.",
+    "related": ["wangyangming", "liangzhi", "gewu", "knowledge", "tl-gehu", "aristotle"],
+    "sources": [
+      {
+        "label": "王阳明《传习录》徐爱录",
+        "labelEn": "Wang Yangming, Instructions for Practical Living, juan 1",
+        "year": 1518
+      }
+    ]
+  },
+  {
+    "id": "myth-mingjia-sophistry",
+    "term": "名家只是诡辩",
+    "termEn": "The School of Names as Mere Sophistry",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 3,
+    "myth": "「白马非马」「卵有毛」被当作无意义的语言游戏，故名家在思想史上可忽略。",
+    "mythEn": "'A white horse is not a horse' and 'an egg has feathers' are dismissed as wordplay, so the School of Names can be ignored.",
+    "truth": "《墨经》与公孙龙的讨论涉及类与成员、属性复合与同一、名的外延等真实逻辑问题；郭象、现代的分析式重读（如葛瑞汉）都指出其论证有可复原的前提结构。",
+    "truthEn": "The Mohist Canons and Gongsun Long raise live problems of class and membership, compound attributes and identity, and the extension of names; from Guo Xiang to A. C. Graham's analytical re-readings, their arguments have recoverable premise-structures.",
+    "detail": "它中断的原因更可能是制度与关切：战国末年的思想市场转向秩序与经世，名实分析未获得持续共同体的支撑。把它当作「不严肃」，等于以结果裁决论证。",
+    "detailEn": "Its interruption likely came from institutions and priorities—by the late Warring States the market of ideas turned to order and governance, and name-and-actual analysis never gained a sustaining community. Calling it unserious is judging the arguments by their fate.",
+    "related": [
+      "mingjia",
+      "mohism",
+      "logic",
+      "universals",
+      "dao-name",
+      "ming-universal-compare"
+    ],
+    "sources": [
+      {
+        "label": "公孙龙《白马论》《指物论》",
+        "labelEn": "Gongsun Long, White Horse and Pointing and Things",
+        "year": -250
+      },
+      {
+        "label": "葛瑞汉《后期墨家与辩者》",
+        "labelEn": "Graham, Later Mohist Logic, Ethics and Science",
+        "year": 1978
+      }
+    ]
+  },
+  {
+    "id": "fatalism-vs-determinism",
+    "term": "决定论＝宿命论，所以努力无意义",
+    "termEn": "Determinism Is Fatalism, So Effort Is Pointless",
+    "category": "推理误区",
+    "categoryEn": "Reasoning Errors",
+    "level": 1,
+    "myth": "既然一切已被因果链决定，我做什么都不改变结果，因此慎思是多余。",
+    "mythEn": "If everything is fixed by the causal chain, nothing I do changes the outcome, so deliberation is redundant.",
+    "truth": "这是把两种命题混同。决定论说给定过去与法则未来唯一；宿命论说某些事件无论如何都会发生。在决定论世界里，我的慎思恰恰是导致结果的因果环节之一（「俄狄浦斯错误」）。",
+    "truthEn": "Two claims are conflated. Determinism: given past plus laws, one future. Fatalism: some event happens whatever you do. In a deterministic world your deliberation is itself one of the causes of the outcome—the 'Oedipus error' is to ignore that.",
+    "detail": "责任与实践意义的真正争议发生在别处：如果我的行为同样由不是我选择的因子决定，可责性与应得如何安顿？相容论诉诸机制归属，不兼容论（硬决定论与自由意志论）各执一端——但没有人靠混淆决定论与宿命论赢得这一争论。",
+    "detailEn": "The real disputes about responsibility and meaning lie elsewhere: if my acts issue from factors I did not choose, how are accountability and desert to be settled? Compatibilists appeal to mechanisms being mine; hard determinists and libertarians split—nobody wins the argument by confusing determinism with fatalism.",
+    "related": [
+      "free-will",
+      "determinism-compatibilism",
+      "frankfurt-case",
+      "stoicism",
+      "newcomb-problem"
+    ],
+    "sources": [
+      {
+        "label": "范·因瓦根《形而上学》决定论章",
+        "labelEn": "van Inwagen, Metaphysics, on determinism",
+        "year": 1998
+      }
+    ]
+  },
+  {
+    "id": "myth-hume-no-causation",
+    "term": "休谟否认因果关系存在",
+    "termEn": "Hume Denies Causation Exists",
+    "category": "近代哲学",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "myth": "读休谟为「事物之间没有因果联系，一切只是幻觉」。",
+    "mythEn": "Hume is read as claiming nothing causes anything and all connection is illusion.",
+    "truth": "休谟否认的是我们感知到「必然联结」这一能力，以及把必然性理解为可先验推知的对象性质。他接受恒常汇合、先后与倾向性构成因果观念，并在科学与日常推理中照常使用因果。",
+    "truthEn": "What he denies is our apprehension of a necessary connexion, and necessity as a property inferable a priori. He accepts constant conjunction, priority and disposition as the content of the causal idea, and uses causation normally in science and life.",
+    "detail": "由此才有康德的先验回应的必要性：把因果性安置为知性范畴而非物之属性。当代刘易斯的可能世界分析、干预主义（伍德沃德）都延续同一问题域——因果是客观的还是没有的，从来不是问题的准确说法。",
+    "detailEn": "This is why Kant's transcendental reply was needed: causality as a category of understanding rather than a property of things. Lewis's possible-world analysis and interventionism (Woodward) continue the same terrain—'objective or illusory' was never the accurate statement of the question.",
+    "related": ["hume", "induction", "kant", "tl-hume", "epistemology"],
+    "sources": [
+      {
+        "label": "休谟《人性论》第一卷第三章",
+        "labelEn": "Hume, Treatise, book 1 part 3",
+        "year": 1739
+      },
+      {
+        "label": "《人类理解研究》第七、八节",
+        "labelEn": "Enquiry Concerning Human Understanding, §7–8",
+        "year": 1748
+      }
+    ]
+  },
+  {
+    "id": "myth-wittgenstein-anything",
+    "term": "「意义即用法」＝怎么说都行",
+    "termEn": "\"Meaning Is Use\" Means Anything Goes",
+    "category": "现代哲学",
+    "categoryEn": "Modern",
+    "level": 2,
+    "myth": "既然没有私人语言、只有语言游戏，于是意义由共同体任意决定，任何说法都可在自己的游戏里成立。",
+    "mythEn": "With no private language and only language-games, meaning is held to be arbitrarily fixed by communities, so any claim can be made true inside its own game.",
+    "truth": "「用法」不是投票，而是在具体实践中的训练、失败与纠正；规则遵循一节（§201 及后续）恰恰论证：若一切用法都可被解释为符合规则，则规则不复存在，故必须由共同的判断方式与生活方式来支撑。",
+    "truthEn": "Use is not voting but training, failure and correction in practice; the rule-following remarks (§201 onward) argue that if any course of action could be interpreted as obeying a rule, no rule would exist—hence the appeal to shared ways of judging and forms of life.",
+    "detail": "被误读放过的正是其严格性：意义的公共可核查性、对「私人感觉名词」的否定、以及把哲学问题看作语言休假时产生的困惑。以「怎么都行」收尾，等于取消了他真正的工作。",
+    "detailEn": "The misreading misses exactly the rigour: public checkability of meaning, rejection of a private language of sensations, and the treatment of philosophical problems as puzzlement arising when language goes on holiday. Concluding 'anything goes' cancels the work itself.",
+    "related": [
+      "wittgenstein",
+      "philosophy-of-language",
+      "analytic",
+      "tl-wittgenstein-tlp",
+      "other-minds"
+    ],
+    "sources": [
+      {
+        "label": "维特根斯坦《哲学研究》§43、§201",
+        "labelEn": "Wittgenstein, Philosophical Investigations §43 and §201",
+        "year": 1953
+      }
+    ]
+  },
+  {
+    "id": "myth-philosophy-opinion",
+    "term": "哲学只是各抒己见",
+    "termEn": "Philosophy Is Just Opinions",
+    "category": "推理误区",
+    "categoryEn": "Reasoning Errors",
+    "level": 1,
+    "myth": "因为哲学问题没有实验室，所以任何立场同样好，争论只是口味之争。",
+    "mythEn": "Because philosophy has no laboratories, every position is equally good and disputes are matters of taste.",
+    "truth": "哲学有自己的论证纪律：给出前提、检验一致性、构造反例、承受反驳。盖梯尔用三页论文击穿两千年的定义；这种以论证改变共识的机制并非无标准。",
+    "truthEn": "Philosophy has its own argumentative discipline: state premises, test consistency, build counterexamples, take rebuttals. Gettier overturned a two-millennium definition in three pages—consensus moved by argument, which is not the same as having no standards.",
+    "detail": "与科学的区别在于问题层级（概念、规范、预设）与方法工具（思想实验、逻辑分析、反思平衡），不在于有无理由。判定一个立场的常见标准：是否自我反驳、是否解释了对手的直觉、是否可被反例击穿、是否有可操作的后续。",
+    "detailEn": "The difference from science is one of question-level (concepts, norms, presuppositions) and tools (thought experiments, logical analysis, reflective equilibrium), not the presence or absence of reasons. Usual tests of a position: does it self-refute, does it explain the opponent's intuitions, can a counterexample pierce it, does it yield workable follow-ups.",
+    "related": [
+      "knowledge",
+      "logic",
+      "validity",
+      "gettier-case",
+      "tl-frege",
+      "philosophy-of-science"
+    ],
+    "sources": [
+      {
+        "label": "《哲学研究》对「无标准」的讨论",
+        "labelEn": "Philosophical Investigations, on standards",
+        "year": 1953
+      }
+    ]
+  }
+]

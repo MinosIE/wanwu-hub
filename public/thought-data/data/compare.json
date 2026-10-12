@@ -1,0 +1,323 @@
+[
+  {
+    "id": "ming-universal-compare",
+    "title": "名实之辩与共相之争",
+    "titleEn": "Name-and-Actual vs Universals",
+    "icon": "🏷️",
+    "category": "语言与意义",
+    "categoryEn": "Language & Meaning",
+    "level": 3,
+    "order": 1,
+    "lead": "同名一样问题：普遍的词对应什么？中国思想把它挂在政治秩序上，希腊思想把它挂在本体论上。",
+    "leadEn": "One problem, two registrations: what does a general term correspond to? Chinese thought filed it under order, Greek thought under being.",
+    "west": "从巴门尼德到亚里士多德，「一」与「多」、「共相」是否独立实在成为形而上学核心；中世纪唯实论与唯名论延续同一战场，现代以自然类与抽象对象重开。",
+    "westEn": "From Parmenides to Aristotle, the one-over-many and the reality of universals sit at the centre of metaphysics; medieval realism and nominalism continue it, and it reopens today as natural kinds and abstract objects.",
+    "east": "孔子「正名」先把名实对应作为政治与伦理条件：名不正则言不顺，事不成。名家（公孙龙「白马非马」、惠施历物十事）推进到逻辑与概念分析，但未获得形而上学的最终地位。",
+    "eastEn": "Confucius' rectification of names first makes name-thing correspondence a political and ethical condition: if names are not correct, speech is not in order and affairs fail. The School of Names (Gongsun Long's 'a white horse is not a horse', Hui Shi's ten theses) presses into logic and concept-analysis, yet never gains final metaphysical status.",
+    "bridge": "名家若继续发展，是否会走向独立的本体论？学界分歧于此。可确定的是：同样的语词—世界张力，一处被处理为「如何治」，一处被处理为「什么在」。",
+    "bridgeEn": "Would the School of Names, allowed to grow, have produced an autonomous ontology? Scholars divide. What is certain is that the same word-world tension was handled as a problem of ordering, there, and of being, here.",
+    "related": [
+      "mingjia",
+      "universals",
+      "confucianism",
+      "platonism",
+      "dao-name",
+      "philosophy-of-language"
+    ],
+    "sources": [
+      { "label": "《论语·子路》", "labelEn": "Analects, Zilu", "year": -400 },
+      {
+        "label": "亚里士多德《形而上学》Z 卷",
+        "labelEn": "Aristotle, Metaphysics Z",
+        "year": -330
+      }
+    ]
+  },
+  {
+    "id": "dao-logos-compare",
+    "title": "道与逻各斯",
+    "titleEn": "Dao and Logos",
+    "icon": "🌊",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 3,
+    "order": 2,
+    "lead": "两者都是万物的根据与法则，却对「能否被说清」给出相反的判断。",
+    "leadEn": "Both name the ground and law of all things—and give opposite verdicts on whether that can be said clearly.",
+    "west": "逻各斯自赫拉克利特起即指普遍的理性秩序，可循逻辑与定义陈述；斯多亚把它延展为世界理性，基督教《约翰福音》以「太初有道（logos）」承接，翻译选择本身即一次哲学判断。",
+    "westEn": "From Heraclitus, logos is a universal rational order statable through logic and definition; the Stoics extend it to world-reason, and the Gospel's 'in the beginning was the Word' inherits it—the translation choice is itself a philosophical verdict.",
+    "east": "「道可道，非常道」：作为根源的道对既定命名抵抗；它更像生成与通行的方式，而非可列举的法则集合。故修养路径是「减损」与顺应，不是定义与推演。",
+    "eastEn": "'The dao that can be spoken is not the constant dao': as source, the dao resists settled naming; it resembles a way things issue and go rather than a listable set of laws. Cultivation is therefore decrease and attunement, not definition and deduction.",
+    "bridge": "差异落在语言能否穷尽实在：逻各斯传统偏向「能」，道传统偏向「有剩余」。这一分歧塑造了各自的论证风格——一边重定义与反驳，一边重譬喻与点拨。",
+    "bridgeEn": "The difference lies in whether language can exhaust reality: the logos tradition leans yes, the dao tradition leans 'there is a remainder'. It shaped argumentative style—one side prizes definition and refutation, the other analogy and pointer.",
+    "related": ["laozi", "taoism", "stoicism", "dao-name", "metaphysics", "tl-thales"],
+    "sources": [
+      {
+        "label": "《道德经》第一章、第四十一章",
+        "labelEn": "Daodejing, ch. 1 and 41",
+        "year": -400
+      },
+      {
+        "label": "赫拉克利特残篇 DK22 B1",
+        "labelEn": "Heraclitus, DK 22 B1",
+        "year": -500
+      }
+    ]
+  },
+  {
+    "id": "ren-justice-compare",
+    "title": "仁义与正义、效用",
+    "titleEn": "Ren and Yi vs Justice and Utility",
+    "icon": "🤝",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 2,
+    "order": 3,
+    "lead": "面对同一批冲突：如何分配、对谁负责。一端从关系出发，一端从原则出发。",
+    "leadEn": "Same conflicts, different anchors: how to allocate, to whom one answers. One side starts from relations, the other from principles.",
+    "west": "西方规范伦理以可普遍化的原则为第一：康德的义务、密尔的效用、罗尔斯的正义原则，都要求对「任意的人」成立，特殊关系须被原则解释。",
+    "westEn": "Western normative ethics takes universalisable principles as first: Kant's duty, Mill's utility, Rawls's principles of justice all must hold for persons qua persons, with special relations explained by the principle.",
+    "east": "儒家以「仁」为总德、以「义」为处事的宜：爱有差等，从亲亲出发推扩（老吾老以及人之老）。伦理单元是角色中的具体人，故修身先于立法。",
+    "eastEn": "Confucianism makes benevolence (ren) the sum of virtue and rightness (yi) the fitting response; love has gradations, extended from one's own kin to other people's. The unit is the person-in-relationship, so self-cultivation precedes legislation.",
+    "bridge": "墨家「兼爱」恰是儒家的内部反题——近乎无差等的爱，与功利精神高度相似，却在战国后被中断。当代德性伦理与关怀伦理的兴起，使「关系优先」重新获得哲学地位。",
+    "bridgeEn": "Mohist impartial concern is Confucianism's internal antithesis—near-undifferentiated love, akin in spirit to utilitarianism, yet cut off after the Warring States. The rise of virtue ethics and ethics of care has restored the philosophical standing of relations-first thinking.",
+    "related": [
+      "confucianism",
+      "mohism",
+      "utilitarianism",
+      "kantian",
+      "justice",
+      "ethics",
+      "good-evil"
+    ],
+    "sources": [
+      {
+        "label": "《孟子·梁惠王上》",
+        "labelEn": "Mencius, King Hui of Liang I",
+        "year": -300
+      },
+      {
+        "label": "罗尔斯《正义论》§5",
+        "labelEn": "Rawls, A Theory of Justice, §5",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "li-natural-law-compare",
+    "title": "天理与自然法",
+    "titleEn": "Tianli and Natural Law",
+    "icon": "🧭",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 3,
+    "order": 4,
+    "lead": "两种「道德秩序内嵌于宇宙」的学说，一个凭修养体认，一个凭理性发现。",
+    "leadEn": "Two doctrines that moral order is built into the cosmos: one realised by cultivation, one discovered by reason.",
+    "west": "从斯多亚到阿奎那，自然法是理性对永恒法的分有，可通过本性目的推知并用于裁判人定法；近代由格劳秀斯世俗化，成为人权论的祖本。",
+    "westEn": "From the Stoa to Aquinas, natural law is a rational participation in eternal law, knowable from natural purposes and used to judge positive law; Grotius secularised it, making it the ancestor of rights doctrine.",
+    "east": "宋明儒的「天理」既是物之则也是人之则：性即理、心即理两条进路的分歧正在于此理何从而得。人欲之私遮蔽它，故工夫论（格物、主敬、致良知）是认识论也是伦理学。",
+    "eastEn": "For Neo-Confucians, tianli is at once the norm of things and of persons; the split between 'nature is principle' and 'mind is principle' turns on how this norm is attained. Private desire veils it, so theories of effort—investigating things, reverence, extending innate knowing—are epistemology and ethics at once.",
+    "bridge": "共同点是反对价值纯主观；差异在于来源与通道：自然法依赖立法者式的理性结构与法权语汇，天理依赖修养中的体认与「分殊」的情境拿捏。",
+    "bridgeEn": "They share a rejection of purely subjective value, and differ in source and access route: natural law leans on a legislator-shaped rational structure and legal vocabulary, tianli on realisation in cultivation and the weighing of concrete distinctions.",
+    "related": ["zhu-xi", "aquinas", "stoicism", "li-ritual", "moral-realism", "kant"],
+    "sources": [
+      { "label": "朱熹《仁说》", "labelEn": "Zhu Xi, On Benevolence", "year": 1167 },
+      {
+        "label": "阿奎那《神学大全》第一集下集 Q94",
+        "labelEn": "Aquinas, Summa Theologiae I-II, Q.94",
+        "year": 1270
+      }
+    ]
+  },
+  {
+    "id": "wuwei-vs-liberty",
+    "title": "无为与消极自由",
+    "titleEn": "Wuwei and Negative Liberty",
+    "icon": "🕊️",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 2,
+    "order": 5,
+    "lead": "都把「不被强行摆布」视为核心善，却一个指向治术与心境，一个指向权利边界。",
+    "leadEn": "Both treat not being forced as the central good—one toward statecraft and states of mind, the other toward the boundary of rights.",
+    "west": "消极自由（伯林、贡斯特）问「他人干涉的最小领域在哪里」，答案是制度性的：以权利与限权划出不可侵犯的空间，并可被国家积极保障。",
+    "westEn": "Negative liberty (Berlin, Constant) asks where the minimal area of non-interference by others lies; the answer is institutional—rights and limited government mark an inviolable space the state itself may guarantee.",
+    "east": "无为在治国侧是「治大国若烹小鲜」「我无为而民自化」，在修身侧是不以造作之力扭折事态；它不依赖权利概念，而依赖对「为」之时机与力度的敏感。",
+    "eastEn": "In governance wuwei is 'ruling a great state as one cooks a small fish' and 'I do nothing and the people transform themselves'; in cultivation it is not straining events out of shape. It needs no rights concept, only sensitivity to the timing and pressure of acting.",
+    "bridge": "批评者指出老子一说暗含操控之术（被术数化的解读）；自由主义一侧则担忧「无人干涉」并不保证「有能力作为」，此正是积极自由与能力路径（森）补上的部分。",
+    "bridgeEn": "Critics read a hidden statecraft of manipulation into Laozi; on the liberal side the worry is that non-interference does not secure capacity to act—exactly what positive liberty and the capability approach (Sen) were meant to supply.",
+    "related": ["wuwei", "taoism", "two-liberties", "mill", "justice"],
+    "sources": [
+      {
+        "label": "《道德经》第六十章、五十七章",
+        "labelEn": "Daodejing, ch. 60 and 57",
+        "year": -400
+      },
+      {
+        "label": "伯林《两种自由概念》",
+        "labelEn": "Berlin, Two Concepts of Liberty",
+        "year": 1958
+      }
+    ]
+  },
+  {
+    "id": "zhengming-speech-act",
+    "title": "正名与言语行为",
+    "titleEn": "Rectifying Names and Speech Acts",
+    "icon": "🗣️",
+    "category": "语言与意义",
+    "categoryEn": "Language & Meaning",
+    "level": 2,
+    "order": 6,
+    "lead": "语言不只是描述世界，还在安置身份与义务——两处抵达同一洞见，问题意识却不同。",
+    "leadEn": "Language not only describes but installs identities and obligations—two traditions reach the same insight with different questions in view.",
+    "west": "奥斯汀与塞尔：以言行事。「我宣布」「我承诺」不报告事实而改变处境，其效力取决于程序、身份与适切条件；制度被理解为言语行为的稳定沉积。",
+    "westEn": "Austin and Searle: in doing things with words, 'I pronounce' and 'I promise' do not report but alter a situation, their force resting on procedure, status and felicity conditions; institutions are read as sedimented speech acts.",
+    "east": "孔子正名以名分规范行为：君君臣臣父父子子——名既是称谓也是职分，违名即失职，故语言的错乱被诊为秩序的错乱。荀子《正名》进一步讨论约定俗成的制名理由。",
+    "eastEn": "Confucian rectification makes a name a station with duties: ruler, minister, father, son each is what the name obliges; to breach the name is to fail the post, so disorder in language diagnoses disorder in order. Xunzi's Positive Names adds that naming is by convention and for coordination.",
+    "bridge": "同一机制（名以立责），两种关切：一个问「意义如何由使用决定」，一个问「秩序如何由名分维系」。合读可同时补齐二者的盲区——语言的社会建构性与制度的规范压力。",
+    "bridgeEn": "One mechanism (names install obligations), two concerns: how meaning is determined by use, and how order is held by station. Reading them together repairs a blind spot in each—the social construction of language, and the normative pressure of institutions.",
+    "related": ["speech-act", "confucianism", "philosophy-of-language", "mingjia"],
+    "sources": [
+      {
+        "label": "《论语·颜渊》《荀子·正名》",
+        "labelEn": "Analects, Yan Yuan; Xunzi, Zhengming",
+        "year": -250
+      },
+      {
+        "label": "奥斯汀《如何以言行事》第二讲",
+        "labelEn": "Austin, How to Do Things with Words, lect. 2",
+        "year": 1962
+      }
+    ]
+  },
+  {
+    "id": "xingshan-hobbes-compare",
+    "title": "性恶起伪与自然状态",
+    "titleEn": "Xunzi's Bad Nature and Hobbes's State of Nature",
+    "icon": "🧱",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 2,
+    "order": 7,
+    "lead": "从「人不由本性给出秩序」出发，一个通向师礼与教化，一个通向主权与契约。",
+    "leadEn": "Starting from the thought that order is not given by nature, one road leads to teacher and ritual, the other to sovereign and contract.",
+    "west": "霍布斯：自然状态中人人对万物的权利导致战争，理性自保驱使人们让渡权利给绝对主权者；秩序是人为装置，其正当性来自恐惧的解除。",
+    "westEn": "Hobbes: a right to all things in the state of nature yields war; rational self-preservation drives transfer of right to an absolute sovereign. Order is an artefact justified by the removal of fear.",
+    "east": "荀子：性恶（顺情欲则争），故「化性起伪」——礼义与师法作为后天的人为（伪）被圣人所制作，用来分配物质与确立分位；秩序同样人造，但落点在教化与礼的养成而非授权的瞬间。",
+    "eastEn": "Xunzi: nature is bad—following desire yields contention—so nature must be transformed by conscious activity (wei). Ritual and rightness, made by the sages, allocate goods and fix stations; order is likewise human-made, but the emphasis falls on formation through ritual and teaching, not on a moment of authorisation.",
+    "bridge": "关键分歧在「谁制作」与「如何维持」：霍布斯依靠同一主权的强制与承诺的逻辑；荀子依靠经典的学习、师友环境与长期工夫——更接近现代的制度化社会化理论而非契约论。",
+    "bridgeEn": "The divergence is who makes order and how it is sustained: Hobbes leans on a single sovereign's force and the logic of promise; Xunzi on study of classics, teacher-and-friend environment and long effort—closer to modern theories of institutionalised socialisation than to contract.",
+    "related": ["legalism", "justice", "tl-hobbes", "tl-mengzi-xunzi", "good-evil"],
+    "sources": [
+      {
+        "label": "《荀子·性恶》《礼论》",
+        "labelEn": "Xunzi, Xing'e and Lilun",
+        "year": -230
+      },
+      {
+        "label": "霍布斯《利维坦》第十三、十七章",
+        "labelEn": "Hobbes, Leviathan, ch. 13 and 17",
+        "year": 1651
+      }
+    ]
+  },
+  {
+    "id": "qiwu-perspectivism-compare",
+    "title": "齐物与视角主义",
+    "titleEn": "Equalizing Things and Perspectivism",
+    "icon": "👁️",
+    "category": "知识与方法",
+    "categoryEn": "Knowledge & Method",
+    "level": 3,
+    "order": 8,
+    "lead": "都否认有无位置的「上帝之眼」，却一个导向安然，一个导向价值的重估。",
+    "leadEn": "Both deny a view from nowhere; one issues in equanimity, the other in revaluation of values.",
+    "west": "尼采：没有事实只有解释，认识是机体需要支配的解释；视角的多元并不取消高下，而以是否增强生命力量来裁判，故须重估一切价值。",
+    "westEn": "Nietzsche: there are no facts, only interpretations; knowing is interpretation driven by an organism's need to master. A plurality of perspectives does not erase rank, which is judged by enhancement of power—hence the revaluation of all values.",
+    "east": "庄子：是非出于「成心」，儒墨各是其所非，辩无胜；以道观之则物无非是，故处理方式是「因是」「寓诸无竟」，让对峙的立场各自安顿。",
+    "eastEn": "Zhuangzi: right and wrong spring from a fixed mind; Confucians and Mohists each affirm what the other denies, and debate has no winner. Seen from the dao nothing is not so, so the response is to let each side be and rest in the boundless—quieting the standoff rather than ranking it.",
+    "bridge": "两者都拒绝把相对主义当作结论，但方向相反：庄子消解的是裁判的必要，尼采争夺的是裁判的资格。前者是心境的改造，后者是价值的战斗。",
+    "bridgeEn": "Neither accepts relativism as a conclusion, yet in opposite directions: Zhuangzi dissolves the need for a judge, Nietzsche fights over who is entitled to judge. One reformulates temperament, the other wages a war of value.",
+    "related": ["zhuangzi", "nietzsche", "qiwu", "knowledge"],
+    "sources": [
+      { "label": "《庄子·齐物论》", "labelEn": "Zhuangzi, Qiwulun", "year": -300 },
+      {
+        "label": "尼采《善恶的彼岸》前言、残篇 1886–87",
+        "labelEn": "Nietzsche, Beyond Good and Evil, preface; Nachlass 1886–87",
+        "year": 1886
+      }
+    ]
+  },
+  {
+    "id": "bundle-self-compare",
+    "title": "诸蕴无我与知觉束",
+    "titleEn": "Aggregates and the Bundle of Perceptions",
+    "icon": "🧵",
+    "category": "自我与心灵",
+    "categoryEn": "Self & Mind",
+    "level": 3,
+    "order": 9,
+    "lead": "两个文明在「我」的位置上都只找到过程，却一个用作解脱、一个用作怀疑的界限。",
+    "leadEn": "Both traditions find only process where a self should be—one draws liberation from it, the other a limit to scepticism.",
+    "west": "休谟：向内窥探只抓到某一度量或某种情绪，从未抓到「自我」，故人是知觉的束；但他随即承认，这种同一个人的信念不可消除，只能承认它是想象与习惯的产物。",
+    "westEn": "Hume: looking inward he catches only this or that perception, never himself, so a person is a bundle; yet he concedes the belief in personal identity cannot be removed—only exposed as the work of imagination and habit.",
+    "east": "佛教：五蕴（色受想行识）无常、苦、非我；「我」是于相续上假立之名。分析与解脱在此连成一气——执着有常我为苦之根源，观无我即离执。",
+    "eastEn": "Buddhism: the five aggregates are impermanent, unsatisfactory and not-self; 'I' is a designation laid over a continuum. Analysis and soteriology are one—grasping at an enduring self is the root of suffering, and seeing non-self releases it.",
+    "bridge": "同一去中心化结论，两种实践后果：休谟止步于说明信念如何形成，佛氏据此建立整套禅修与伦理。帕菲特的「这不是一个事实」处在二者之间，说明理论洞见与实践转化之间仍有待解释的差距。",
+    "bridgeEn": "One decentring conclusion, two practical upshots: Hume stops at explaining how the belief arises, the Buddhist builds meditation and ethics on it. Parfit's 'this is not a further fact' sits between the two, marking still-unexplained distance from insight to practice.",
+    "related": [
+      "hume",
+      "buddhism",
+      "self",
+      "sunyata",
+      "tl-buddha",
+      "parfit-fission",
+      "theseus-ship"
+    ],
+    "sources": [
+      {
+        "label": "休谟《人性论》第一卷第四篇",
+        "labelEn": "Hume, Treatise, book 1 part 4",
+        "year": 1739
+      },
+      {
+        "label": "《杂阿含经》无我相经",
+        "labelEn": "Saṃyukta Āgama, Anattalakkhaṇa Sutta",
+        "year": -400
+      }
+    ]
+  },
+  {
+    "id": "zhongyong-vs-mean",
+    "title": "中庸与亚里士多德的中道",
+    "titleEn": "Zhongyong and the Aristotelian Mean",
+    "icon": "⚖️",
+    "category": "知识与方法",
+    "categoryEn": "Knowledge & Method",
+    "level": 2,
+    "order": 10,
+    "lead": "都把德性放在过度与不足之间，但对「如何知道中在哪」给出不同的答案。",
+    "leadEn": "Both place virtue between excess and deficiency, and differ on how one knows where the mean is.",
+    "west": "亚里士多德：德性是两个恶之间相对于我们的中道，由实践智慧（phronesis）在具体情形中判定；中道不是算术平均，勇气介于鲁莽与怯懦之间。",
+    "westEn": "Aristotle: virtue is the mean between two vices, relative to us, determined as the practically wise person would determine it—not an arithmetic average; courage lies between rashness and cowardice.",
+    "east": "《中庸》：喜怒哀乐之未发谓之中，发而皆中节谓之和；「中」含本体（未发之中）与工夫（时中）两层，须以慎独与涵养在事上校准。",
+    "eastEn": "The Doctrine of the Mean: equilibrium before the rise of feeling is zhong; feeling rising in due measure is harmony. Zhong carries both an ontological layer (unaroused centrality) and a task-layer (timely centrality), calibrated through vigilance over the unseen and nourishment in affairs.",
+    "bridge": "结构惊人的相似，重心却不同：希腊侧把中道交给有判断力的行动者，儒侧把中道接上宇宙论（致中和，天地位焉，万物育焉）。因此一边通向德性伦理学，一边通向修养论与秩序论的一体化表述。",
+    "bridgeEn": "The structures are strikingly alike, the centres of gravity not: Greece hands the mean to a judging agent, Confucianism reconnects it to cosmology—reach equilibrium and harmony and heaven and earth keep their places. Hence one side issues in virtue ethics, the other in a unified account of cultivation and order.",
+    "related": ["aristotle", "confucianism", "eudaimonia", "zhongyong", "ethics", "kongzi"],
+    "sources": [
+      {
+        "label": "《中庸》第一章",
+        "labelEn": "Doctrine of the Mean, ch. 1",
+        "year": -300
+      },
+      {
+        "label": "亚里士多德《尼各马可伦理学》第二卷",
+        "labelEn": "Aristotle, Nicomachean Ethics, book 2",
+        "year": -340
+      }
+    ]
+  }
+]

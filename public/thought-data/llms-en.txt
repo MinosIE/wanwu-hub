@@ -2,8 +2,15 @@
 
 > Eastern and Western schools, core questions and classics — how we come to know the world through inquiry.
 
+184 entries across 10 categories, all as structured JSON.
+
 ## Data endpoints
+- [Branches & mechanisms](https://minosie.github.io/wanwu-hub/thought-data/data/branches.json)
 - [Classics](https://minosie.github.io/wanwu-hub/thought-data/data/classics.json)
+- [East-West comparisons](https://minosie.github.io/wanwu-hub/thought-data/data/compare.json)
+- [Thought experiments](https://minosie.github.io/wanwu-hub/thought-data/data/experiments.json)
+- [Glossary](https://minosie.github.io/wanwu-hub/thought-data/data/glossary.json)
+- [Common misreadings](https://minosie.github.io/wanwu-hub/thought-data/data/myths.json)
 - [Overview & counts](https://minosie.github.io/wanwu-hub/thought-data/data/overview.json)
 - [Core questions](https://minosie.github.io/wanwu-hub/thought-data/data/questions.json)
 - [Related index](https://minosie.github.io/wanwu-hub/thought-data/data/related.json)
@@ -11,5 +18,6 @@
 - [Search index](https://minosie.github.io/wanwu-hub/thought-data/data/search.json)
 - [References](https://minosie.github.io/wanwu-hub/thought-data/data/sources.json)
 - [Thinkers](https://minosie.github.io/wanwu-hub/thought-data/data/thinkers.json)
+- [Timeline](https://minosie.github.io/wanwu-hub/thought-data/data/timeline.json)
 - [Page](https://minosie.github.io/wanwu-hub/subject/thought/)
 - [Chinese index](https://minosie.github.io/wanwu-hub/thought-data/llms.txt)

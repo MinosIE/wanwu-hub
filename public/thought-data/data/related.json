@@ -607,5 +607,684 @@
       "n": "现象学与诠释学",
       "nEn": "Phenomenology and Hermeneutics"
     }
+  ],
+  "syllogism": [
+    {
+      "m": "m-glossary",
+      "n": "三段论",
+      "nEn": "Syllogism"
+    }
+  ],
+  "validity": [
+    {
+      "m": "m-glossary",
+      "n": "有效性与真",
+      "nEn": "Validity vs Truth"
+    }
+  ],
+  "possible-worlds": [
+    {
+      "m": "m-glossary",
+      "n": "可能世界",
+      "nEn": "Possible Worlds"
+    }
+  ],
+  "a-priori": [
+    {
+      "m": "m-glossary",
+      "n": "先验与后验",
+      "nEn": "A Priori / A Posteriori"
+    }
+  ],
+  "tabula-rasa": [
+    {
+      "m": "m-glossary",
+      "n": "白板说",
+      "nEn": "Tabula Rasa"
+    }
+  ],
+  "epoché": [
+    {
+      "m": "m-glossary",
+      "n": "悬搁与还原",
+      "nEn": "Epoché / Reduction"
+    }
+  ],
+  "thing-in-itself": [
+    {
+      "m": "m-glossary",
+      "n": "物自体",
+      "nEn": "Thing in Itself"
+    }
+  ],
+  "determinism-compatibilism": [
+    {
+      "m": "m-glossary",
+      "n": "决定论与相容论",
+      "nEn": "Determinism & Compatibilism"
+    }
+  ],
+  "substance": [
+    {
+      "m": "m-glossary",
+      "n": "实体",
+      "nEn": "Substance"
+    }
+  ],
+  "supervenience": [
+    {
+      "m": "m-glossary",
+      "n": "随附性",
+      "nEn": "Supervenience"
+    }
+  ],
+  "qualia": [
+    {
+      "m": "m-glossary",
+      "n": "感受质",
+      "nEn": "Qualia"
+    }
+  ],
+  "intentionality": [
+    {
+      "m": "m-glossary",
+      "n": "意向性",
+      "nEn": "Intentionality"
+    }
+  ],
+  "categorical-imperative": [
+    {
+      "m": "m-glossary",
+      "n": "绝对命令",
+      "nEn": "Categorical Imperative"
+    }
+  ],
+  "eudaimonia": [
+    {
+      "m": "m-glossary",
+      "n": "幸福（繁盛）",
+      "nEn": "Eudaimonia"
+    }
+  ],
+  "ataraxia": [
+    {
+      "m": "m-glossary",
+      "n": "宁静",
+      "nEn": "Ataraxia"
+    }
+  ],
+  "utility": [
+    {
+      "m": "m-glossary",
+      "n": "效用",
+      "nEn": "Utility"
+    }
+  ],
+  "veil-of-ignorance": [
+    {
+      "m": "m-glossary",
+      "n": "无知之幕",
+      "nEn": "Veil of Ignorance"
+    }
+  ],
+  "two-liberties": [
+    {
+      "m": "m-glossary",
+      "n": "消极自由与积极自由",
+      "nEn": "Negative & Positive Liberty"
+    }
+  ],
+  "falsifiability": [
+    {
+      "m": "m-glossary",
+      "n": "可证伪性",
+      "nEn": "Falsifiability"
+    }
+  ],
+  "paradigm": [
+    {
+      "m": "m-glossary",
+      "n": "范式与科学革命",
+      "nEn": "Paradigm & Revolution"
+    }
+  ],
+  "rigid-designator": [
+    {
+      "m": "m-glossary",
+      "n": "严格指示词",
+      "nEn": "Rigid Designator"
+    }
+  ],
+  "speech-act": [
+    {
+      "m": "m-glossary",
+      "n": "言语行为",
+      "nEn": "Speech Act"
+    }
+  ],
+  "liangzhi": [
+    {
+      "m": "m-glossary",
+      "n": "良知与致良知",
+      "nEn": "Liangzhi (Innate Knowing)"
+    }
+  ],
+  "gewu": [
+    {
+      "m": "m-glossary",
+      "n": "格物致知",
+      "nEn": "Investigating Things"
+    }
+  ],
+  "li-ritual": [
+    {
+      "m": "m-glossary",
+      "n": "理与礼",
+      "nEn": "Li (Principle) and Li (Ritual)"
+    }
+  ],
+  "wuwei": [
+    {
+      "m": "m-glossary",
+      "n": "无为",
+      "nEn": "Wuwei (Non-Action)"
+    }
+  ],
+  "dao-name": [
+    {
+      "m": "m-glossary",
+      "n": "道与名",
+      "nEn": "Dao and Ming (Naming)"
+    }
+  ],
+  "qiwu": [
+    {
+      "m": "m-glossary",
+      "n": "齐物与是非之辩",
+      "nEn": "Qiwu (Equalizing Things)"
+    }
+  ],
+  "zhongyong": [
+    {
+      "m": "m-glossary",
+      "n": "中庸",
+      "nEn": "Zhongyong (Centrality and Pliability)"
+    }
+  ],
+  "sunyata": [
+    {
+      "m": "m-glossary",
+      "n": "空性与无自性",
+      "nEn": "Śūnyatā"
+    }
+  ],
+  "tl-thales": [
+    {
+      "m": "m-timeline",
+      "n": "泰勒斯：以水为本原",
+      "nEn": "Thales: Water as First Principle"
+    }
+  ],
+  "tl-laozi": [
+    {
+      "m": "m-timeline",
+      "n": "《道德经》成书",
+      "nEn": "The Daodejing Takes Shape"
+    }
+  ],
+  "tl-confucius": [
+    {
+      "m": "m-timeline",
+      "n": "孔子与弟子的问答",
+      "nEn": "Confucius and His Disciples"
+    }
+  ],
+  "tl-buddha": [
+    {
+      "m": "m-timeline",
+      "n": "佛陀说无我",
+      "nEn": "The Buddha on Non-Self"
+    }
+  ],
+  "tl-socrates-trial": [
+    {
+      "m": "m-timeline",
+      "n": "苏格拉底受审与饮鸩",
+      "nEn": "Socrates on Trial"
+    }
+  ],
+  "tl-plato-academy": [
+    {
+      "m": "m-timeline",
+      "n": "柏拉图创立学园",
+      "nEn": "Plato Founds the Academy"
+    }
+  ],
+  "tl-aristotle-lyceum": [
+    {
+      "m": "m-timeline",
+      "n": "亚里士多德与吕克昂",
+      "nEn": "Aristotle and the Lyceum"
+    }
+  ],
+  "tl-zhuangzi": [
+    {
+      "m": "m-timeline",
+      "n": "《庄子》：齐物与梦蝶",
+      "nEn": "Zhuangzi: Equalizing Things, the Butterfly Dream"
+    }
+  ],
+  "tl-mengzi-xunzi": [
+    {
+      "m": "m-timeline",
+      "n": "孟子与荀子：性善与性恶",
+      "nEn": "Mencius and Xunzi: Good and Bad Human Nature"
+    }
+  ],
+  "tl-augustine": [
+    {
+      "m": "m-timeline",
+      "n": "奥古斯丁《忏悔录》",
+      "nEn": "Augustine's Confessions"
+    }
+  ],
+  "tl-gehu": [
+    {
+      "m": "m-timeline",
+      "n": "鹅湖之会：朱陆之争",
+      "nEn": "Goose Lake Debate: Zhu Xi vs Lu Jiuyuan"
+    }
+  ],
+  "tl-descartes": [
+    {
+      "m": "m-timeline",
+      "n": "笛卡尔：我思故我在",
+      "nEn": "Descartes: I Think, Therefore I Am"
+    }
+  ],
+  "tl-hobbes": [
+    {
+      "m": "m-timeline",
+      "n": "霍布斯《利维坦》",
+      "nEn": "Hobbes's Leviathan"
+    }
+  ],
+  "tl-hume": [
+    {
+      "m": "m-timeline",
+      "n": "休谟《人性论》",
+      "nEn": "Hume's Treatise"
+    }
+  ],
+  "tl-kant": [
+    {
+      "m": "m-timeline",
+      "n": "康德《纯粹理性批判》",
+      "nEn": "Kant's Critique of Pure Reason"
+    }
+  ],
+  "tl-hegel": [
+    {
+      "m": "m-timeline",
+      "n": "黑格尔《精神现象学》",
+      "nEn": "Hegel's Phenomenology of Spirit"
+    }
+  ],
+  "tl-marx": [
+    {
+      "m": "m-timeline",
+      "n": "马克思《关于费尔巴哈的提纲》",
+      "nEn": "Marx's Theses on Feuerbach"
+    }
+  ],
+  "tl-frege": [
+    {
+      "m": "m-timeline",
+      "n": "弗雷格《概念文字》",
+      "nEn": "Frege's Begriffsschrift"
+    }
+  ],
+  "tl-nietzsche": [
+    {
+      "m": "m-timeline",
+      "n": "尼采：重估一切价值",
+      "nEn": "Nietzsche: Revaluation of All Values"
+    }
+  ],
+  "tl-husserl": [
+    {
+      "m": "m-timeline",
+      "n": "胡塞尔《逻辑研究》",
+      "nEn": "Husserl's Logical Investigations"
+    }
+  ],
+  "tl-wittgenstein-tlp": [
+    {
+      "m": "m-timeline",
+      "n": "维特根斯坦《逻辑哲学论》",
+      "nEn": "Wittgenstein's Tractatus"
+    }
+  ],
+  "tl-heidegger": [
+    {
+      "m": "m-timeline",
+      "n": "海德格尔《存在与时间》",
+      "nEn": "Heidegger's Being and Time"
+    }
+  ],
+  "tl-sartre": [
+    {
+      "m": "m-timeline",
+      "n": "萨特《存在与虚无》",
+      "nEn": "Sartre's Being and Nothingness"
+    }
+  ],
+  "tl-rawls": [
+    {
+      "m": "m-timeline",
+      "n": "罗尔斯《正义论》",
+      "nEn": "Rawls's A Theory of Justice"
+    }
+  ],
+  "tl-kripke": [
+    {
+      "m": "m-timeline",
+      "n": "克里普克《命名与必然性》",
+      "nEn": "Kripke's Naming and Necessity"
+    }
+  ],
+  "gettier-case": [
+    {
+      "m": "m-experiments",
+      "n": "盖梯尔案例：碰巧对的真信念",
+      "nEn": "Gettier: Justified True Belief, Right by Luck"
+    }
+  ],
+  "brain-in-vat": [
+    {
+      "m": "m-experiments",
+      "n": "缸中之脑",
+      "nEn": "The Brain in a Vat"
+    }
+  ],
+  "butterfly-dream": [
+    {
+      "m": "m-experiments",
+      "n": "庄周梦蝶",
+      "nEn": "Zhuangzi's Butterfly Dream"
+    }
+  ],
+  "theseus-ship": [
+    {
+      "m": "m-experiments",
+      "n": "忒修斯之船",
+      "nEn": "The Ship of Theseus"
+    }
+  ],
+  "parfit-fission": [
+    {
+      "m": "m-experiments",
+      "n": "分裂传送器（Parfit 的分裂）",
+      "nEn": "Fission and Transporter (Parfit)"
+    }
+  ],
+  "chinese-room": [
+    {
+      "m": "m-experiments",
+      "n": "中文房间",
+      "nEn": "The Chinese Room"
+    }
+  ],
+  "marys-room": [
+    {
+      "m": "m-experiments",
+      "n": "玛丽的房间",
+      "nEn": "Mary's Room"
+    }
+  ],
+  "philosophical-zombie": [
+    {
+      "m": "m-experiments",
+      "n": "哲学僵尸",
+      "nEn": "The Philosophical Zombie"
+    }
+  ],
+  "twin-earth": [
+    {
+      "m": "m-experiments",
+      "n": "孪生地球",
+      "nEn": "Twin Earth"
+    }
+  ],
+  "trolley-problem": [
+    {
+      "m": "m-experiments",
+      "n": "电车难题",
+      "nEn": "The Trolley Problem"
+    }
+  ],
+  "experience-machine": [
+    {
+      "m": "m-experiments",
+      "n": "经验机器",
+      "nEn": "The Experience Machine"
+    }
+  ],
+  "newcomb-problem": [
+    {
+      "m": "m-experiments",
+      "n": "纽康姆悖论",
+      "nEn": "Newcomb's Problem"
+    }
+  ],
+  "frankfurt-case": [
+    {
+      "m": "m-experiments",
+      "n": "法兰克福案例",
+      "nEn": "Frankfurt Cases"
+    }
+  ],
+  "original-position": [
+    {
+      "m": "m-experiments",
+      "n": "原初状态（选择程序的实验）",
+      "nEn": "The Original Position"
+    }
+  ],
+  "ming-universal-compare": [
+    {
+      "m": "m-compare",
+      "n": "名实之辩与共相之争",
+      "nEn": "Name-and-Actual vs Universals"
+    }
+  ],
+  "dao-logos-compare": [
+    {
+      "m": "m-compare",
+      "n": "道与逻各斯",
+      "nEn": "Dao and Logos"
+    }
+  ],
+  "ren-justice-compare": [
+    {
+      "m": "m-compare",
+      "n": "仁义与正义、效用",
+      "nEn": "Ren and Yi vs Justice and Utility"
+    }
+  ],
+  "li-natural-law-compare": [
+    {
+      "m": "m-compare",
+      "n": "天理与自然法",
+      "nEn": "Tianli and Natural Law"
+    }
+  ],
+  "wuwei-vs-liberty": [
+    {
+      "m": "m-compare",
+      "n": "无为与消极自由",
+      "nEn": "Wuwei and Negative Liberty"
+    }
+  ],
+  "zhengming-speech-act": [
+    {
+      "m": "m-compare",
+      "n": "正名与言语行为",
+      "nEn": "Rectifying Names and Speech Acts"
+    }
+  ],
+  "xingshan-hobbes-compare": [
+    {
+      "m": "m-compare",
+      "n": "性恶起伪与自然状态",
+      "nEn": "Xunzi's Bad Nature and Hobbes's State of Nature"
+    }
+  ],
+  "qiwu-perspectivism-compare": [
+    {
+      "m": "m-compare",
+      "n": "齐物与视角主义",
+      "nEn": "Equalizing Things and Perspectivism"
+    }
+  ],
+  "bundle-self-compare": [
+    {
+      "m": "m-compare",
+      "n": "诸蕴无我与知觉束",
+      "nEn": "Aggregates and the Bundle of Perceptions"
+    }
+  ],
+  "zhongyong-vs-mean": [
+    {
+      "m": "m-compare",
+      "n": "中庸与亚里士多德的中道",
+      "nEn": "Zhongyong and the Aristotelian Mean"
+    }
+  ],
+  "myth-socrates-ignorance": [
+    {
+      "m": "m-myths",
+      "n": "「我知道我一无所知」",
+      "nEn": "\"I know that I know nothing\""
+    }
+  ],
+  "myth-plato-forms-images": [
+    {
+      "m": "m-myths",
+      "n": "理念＝脑中的概念或影像",
+      "nEn": "Forms as Mental Pictures"
+    }
+  ],
+  "myth-republic-totalitarian": [
+    {
+      "m": "m-myths",
+      "n": "《理想国》是极权蓝图",
+      "nEn": "The Republic as a Totalitarian Blueprint"
+    }
+  ],
+  "myth-stoa-no-emotion": [
+    {
+      "m": "m-myths",
+      "n": "斯多亚＝没有情绪",
+      "nEn": "Stoic Means Emotionless"
+    }
+  ],
+  "myth-epicurus-debauch": [
+    {
+      "m": "m-myths",
+      "n": "伊壁鸠鲁＝享乐纵欲",
+      "nEn": "Epicurean Means Self-Indulgent"
+    }
+  ],
+  "myth-machiavelli-cynic": [
+    {
+      "m": "m-myths",
+      "n": "马基雅维利教君主作恶",
+      "nEn": "Machiavelli Teaches Evil"
+    }
+  ],
+  "myth-descartes-soul": [
+    {
+      "m": "m-myths",
+      "n": "笛卡尔二元论证明了灵魂不朽",
+      "nEn": "Cartesian Dualism Proves Immortality"
+    }
+  ],
+  "myth-kant-never-lie": [
+    {
+      "m": "m-myths",
+      "n": "康德说任何时候都不能撒谎",
+      "nEn": "Kant Forbids Lying Always"
+    }
+  ],
+  "myth-utilism-selfish": [
+    {
+      "m": "m-myths",
+      "n": "功利主义就是追求自己的快乐",
+      "nEn": "Utilitarianism Is Self-Seeking Pleasure"
+    }
+  ],
+  "myth-nietzsche-nazi": [
+    {
+      "m": "m-myths",
+      "n": "尼采是虚无主义者，也是纳粹先驱",
+      "nEn": "Nietzsche the Nihilist and Nazi Forerunner"
+    }
+  ],
+  "myth-sartre-anything-goes": [
+    {
+      "m": "m-myths",
+      "n": "存在主义＝想干什么就干什么",
+      "nEn": "Existentialism Means Anything Goes"
+    }
+  ],
+  "myth-laozi-obscurantism": [
+    {
+      "m": "m-myths",
+      "n": "老子主张愚民",
+      "nEn": "Laozi Advocates Obscurantism"
+    }
+  ],
+  "myth-yangming-know-do": [
+    {
+      "m": "m-myths",
+      "n": "知行合一＝知道就该做到",
+      "nEn": "Unity of Knowledge-and-Action Means 'Practice What You Preach'"
+    }
+  ],
+  "myth-mingjia-sophistry": [
+    {
+      "m": "m-myths",
+      "n": "名家只是诡辩",
+      "nEn": "The School of Names as Mere Sophistry"
+    }
+  ],
+  "fatalism-vs-determinism": [
+    {
+      "m": "m-myths",
+      "n": "决定论＝宿命论，所以努力无意义",
+      "nEn": "Determinism Is Fatalism, So Effort Is Pointless"
+    }
+  ],
+  "myth-hume-no-causation": [
+    {
+      "m": "m-myths",
+      "n": "休谟否认因果关系存在",
+      "nEn": "Hume Denies Causation Exists"
+    }
+  ],
+  "myth-wittgenstein-anything": [
+    {
+      "m": "m-myths",
+      "n": "「意义即用法」＝怎么说都行",
+      "nEn": "\"Meaning Is Use\" Means Anything Goes"
+    }
+  ],
+  "myth-philosophy-opinion": [
+    {
+      "m": "m-myths",
+      "n": "哲学只是各抒己见",
+      "nEn": "Philosophy Is Just Opinions"
+    }
   ]
 }

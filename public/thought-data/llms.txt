@@ -2,8 +2,15 @@
 
 > 串起东西方哲学流派、核心命题与经典著作，在追问与思辨中理解我们如何认识世界。
 
+共 184 条 / 10 类，全部为结构化 JSON。
+
 ## 数据入口
+- [分支 / 机制](https://minosie.github.io/wanwu-hub/thought-data/data/branches.json)
 - [经典著作](https://minosie.github.io/wanwu-hub/thought-data/data/classics.json)
+- [中西对照](https://minosie.github.io/wanwu-hub/thought-data/data/compare.json)
+- [思想实验](https://minosie.github.io/wanwu-hub/thought-data/data/experiments.json)
+- [术语表](https://minosie.github.io/wanwu-hub/thought-data/data/glossary.json)
+- [常见误区](https://minosie.github.io/wanwu-hub/thought-data/data/myths.json)
 - [概览与计数](https://minosie.github.io/wanwu-hub/thought-data/data/overview.json)
 - [核心问题](https://minosie.github.io/wanwu-hub/thought-data/data/questions.json)
 - [相关条目索引](https://minosie.github.io/wanwu-hub/thought-data/data/related.json)
@@ -11,4 +18,5 @@
 - [搜索索引](https://minosie.github.io/wanwu-hub/thought-data/data/search.json)
 - [参考资料](https://minosie.github.io/wanwu-hub/thought-data/data/sources.json)
 - [思想家](https://minosie.github.io/wanwu-hub/thought-data/data/thinkers.json)
+- [时间线](https://minosie.github.io/wanwu-hub/thought-data/data/timeline.json)
 - [页面](https://minosie.github.io/wanwu-hub/subject/thought/)

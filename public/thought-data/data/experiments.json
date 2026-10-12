@@ -1,0 +1,679 @@
+[
+  {
+    "id": "gettier-case",
+    "title": "盖梯尔案例：碰巧对的真信念",
+    "titleEn": "Gettier: Justified True Belief, Right by Luck",
+    "icon": "🎲",
+    "category": "知识与怀疑",
+    "categoryEn": "Knowledge & Doubt",
+    "level": 2,
+    "order": 1,
+    "lead": "你有理由相信、命题也恰好为真——但真是运气使然。这还算「知道」吗？",
+    "leadEn": "You are justified, the proposition is true—yet only by luck. Is that knowledge?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "史密斯有充分证据相信「老板的车是福特」，据此推出「有人有一辆福特」。而老板的车其实不是福特，但同事琼斯恰好有一辆福特——结论为真。",
+        "vEn": "Smith has good evidence that his boss owns a Ford, so he infers 'someone in the office owns a Ford'. The boss's car is not a Ford, but Jones happens to own one—the conclusion is true."
+      },
+      {
+        "k": "冲击",
+        "kEn": "The shock",
+        "v": "知识＝确证的真信念这条两千年的分析被一个反例击穿：确证、真、信念俱备，却没人会说自己「知道」。",
+        "vEn": "A two-millennium analysis—knowledge as justified true belief—falls to one counterexample: justification, truth and belief are all present, yet nobody would claim to know."
+      },
+      {
+        "k": "主要回应",
+        "kEn": "Main replies",
+        "v": "增加「无缺陷论证」条件、因果论（信念须由事实引起）、可靠论（由可靠过程产生）、德性认识论（出于智识德性）。",
+        "vEn": "Add a no-false-lemmas condition; causal theories (belief caused by the fact); reliabilism (produced by a reliable process); virtue epistemology (from intellectual competence)."
+      },
+      {
+        "k": "遗留问题",
+        "kEn": "What remains",
+        "v": "「认知运气」似乎不可完全消除；有些学者因此放弃给知识下定义，转而研究知识的实践功能。",
+        "vEn": "Epistemic luck seems impossible to purge entirely; some therefore abandon the definitional project and study knowledge's practical role instead."
+      }
+    ],
+    "related": ["knowledge", "epistemology", "a-priori", "tl-hume"],
+    "sources": [
+      {
+        "label": "盖梯尔《被确证的真信念是知识吗》",
+        "labelEn": "Gettier, Is Justified True Belief Knowledge?",
+        "year": 1963
+      }
+    ]
+  },
+  {
+    "id": "brain-in-vat",
+    "title": "缸中之脑",
+    "titleEn": "The Brain in a Vat",
+    "icon": "🫧",
+    "category": "知识与怀疑",
+    "categoryEn": "Knowledge & Doubt",
+    "level": 2,
+    "order": 2,
+    "lead": "若你的经验全由机器输入，你能凭内在证据判断自己不是缸中之脑吗？",
+    "leadEn": "If all your experience were machine-fed, could internal evidence show you are not a brain in a vat?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "邪恶科学家维持离体大脑并输入与真实世界无法区分的信号；「我有手」在这两种情形下体验相同。",
+        "vEn": "An evil scientist keeps a detached brain fed with signals indistinguishable from a real world; 'I have hands' feels the same either way."
+      },
+      {
+        "k": "传统解读",
+        "kEn": "Standard reading",
+        "v": "它是笛卡尔恶魔与庄子梦蝶的当代版本，把怀疑从感官扩展到整个外部世界的存在。",
+        "vEn": "It is Descartes' demon and Zhuangzi's dream in modern dress, extending doubt from the senses to the existence of an external world."
+      },
+      {
+        "k": "普特南的反转",
+        "kEn": "Putnam's turn",
+        "v": "用因果指称论论证「我是缸中之脑」这一句子若为真即不可被真地说出——语义外在论对怀疑论的釜底抽薪（其效力争议至今）。",
+        "vEn": "With causal reference theory he argues the sentence 'I am a brain in a vat' cannot be truly uttered if true—semantic externalist sabotage of scepticism, still disputed."
+      },
+      {
+        "k": "实践意义",
+        "kEn": "Why it matters",
+        "v": "把「确证是否需要世界-independent 的立足点」摆上台面，是知识论与科学方法论的共同暗题。",
+        "vEn": "It forces the question whether justification needs a footing independent of the world—the shared hidden problem of epistemology and philosophy of science."
+      }
+    ],
+    "related": ["reality", "knowledge", "descartes", "butterfly-dream", "tl-descartes"],
+    "sources": [
+      {
+        "label": "普特南《理性、真理与历史》第一章",
+        "labelEn": "Putnam, Reason, Truth and History, ch. 1",
+        "year": 1981
+      }
+    ]
+  },
+  {
+    "id": "butterfly-dream",
+    "title": "庄周梦蝶",
+    "titleEn": "Zhuangzi's Butterfly Dream",
+    "icon": "🦋",
+    "category": "知识与怀疑",
+    "categoryEn": "Knowledge & Doubt",
+    "level": 1,
+    "order": 3,
+    "lead": "不知周之梦为胡蝶与，胡蝶之梦为周与——提问的重心不在真假，而在「谁在判」。",
+    "leadEn": "Unknown whether Zhuang Zhou dreamed he was a butterfly, or the butterfly dreams he is Zhou—the stress falls not on truth but on who is judging.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "庄周梦为蝴蝶，栩栩然自适；醒来则「周与蝴蝶则必有分矣」，此之谓物化。",
+        "vEn": "Zhou dreams he is a butterfly, entirely at ease; waking, there must be a division between the two—this is called the transformation of things."
+      },
+      {
+        "k": "与西方对照",
+        "kEn": "Western parallel",
+        "v": "笛卡尔用恶魔怀疑以求第一确定；庄子不给「确定的我」这个出口，把怀疑写成一种安顿。",
+        "vEn": "Descartes doubts by a demon to reach first certainty; Zhuangzi refuses the exit of a certain 'I' and writes doubt as a kind of ease."
+      },
+      {
+        "k": "哲学功能",
+        "kEn": "Philosophical work",
+        "v": "瓦解「判准自证」的幻觉：任何验证都已在某一立场之内，故《齐物论》转向「两行」而非裁判。",
+        "vEn": "It undermines the dream of self-validating criteria—every test already sits within some stance, so the Qiwulun turns to letting both courses run rather than adjudicating."
+      },
+      {
+        "k": "后世回响",
+        "kEn": "Later echoes",
+        "v": "与不可判别经验等价物（underdetermination）、梦境认识论、乃至身份与叙事自我的当代讨论同族。",
+        "vEn": "Kin to underdetermination, the epistemology of dreams, and current debates on identity and the narrative self."
+      }
+    ],
+    "related": ["zhuangzi", "qiwu", "self", "reality", "brain-in-vat"],
+    "sources": [
+      {
+        "label": "《庄子·齐物论》末章",
+        "labelEn": "Zhuangzi, Qiwulun, closing passage",
+        "year": -300
+      }
+    ]
+  },
+  {
+    "id": "theseus-ship",
+    "title": "忒修斯之船",
+    "titleEn": "The Ship of Theseus",
+    "icon": "🛶",
+    "category": "自我与同一",
+    "categoryEn": "Identity & Persistence",
+    "level": 1,
+    "order": 4,
+    "lead": "木板逐根更换后仍是同一艘船？那么用旧木板重组的那艘呢？",
+    "leadEn": "Is the ship still the same after every plank is replaced? And what of the one rebuilt from the old planks?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "雅典人保留忒修斯的船，逐根换新木料；霍布斯追加：若集齐旧料另组一船，谁才是「那艘」？",
+        "vEn": "The Athenians keep the ship, replacing planks one by one; Hobbes adds: if the old timber is reassembled into a second ship, which is 'the' one?"
+      },
+      {
+        "k": "候选标准",
+        "kEn": "Candidate criteria",
+        "v": "物质连续性、形式或结构连续性、功能与历史链条、四维主义（各时间部分是不同整体）。",
+        "vEn": "Material continuity, formal or structural continuity, functional-historical chain, four-dimensionalism (temporal parts as different wholes)."
+      },
+      {
+        "k": "为何难解",
+        "kEn": "Why it bites",
+        "v": "同一性关系要求传递且唯一，而「逐渐更换」与「另组一物」各自看似成立，两者不能同时为真。",
+        "vEn": "Identity must be transitive and one-one, yet gradual replacement and reassembly each look correct, and both cannot be."
+      },
+      {
+        "k": "人的版本",
+        "kEn": "The human version",
+        "v": "细胞代谢、记忆中断、人格分裂（Parfit 的分裂案例）把船的问题变成「我是否还是我」的问题。",
+        "vEn": "Cellular metabolism, gaps in memory and fission cases (Parfit) turn the ship question into whether I am still I."
+      }
+    ],
+    "related": ["self", "parfit-fission", "substance", "bundle-self-compare", "tl-hume"],
+    "sources": [
+      {
+        "label": "普鲁塔克《忒修斯传》",
+        "labelEn": "Plutarch, Life of Theseus",
+        "year": 100
+      },
+      {
+        "label": "洛克《人类理解论》同一段",
+        "labelEn": "Locke, Essay, 'Identity and Diversity'",
+        "year": 1689
+      }
+    ]
+  },
+  {
+    "id": "parfit-fission",
+    "title": "分裂传送器（Parfit 的分裂）",
+    "titleEn": "Fission and Transporter (Parfit)",
+    "icon": "🪞",
+    "category": "自我与同一",
+    "categoryEn": "Identity & Persistence",
+    "level": 3,
+    "order": 5,
+    "lead": "如果把一个人的心理状态完整复制到两个人身上，「谁是我」这个问题还有事实答案吗？",
+    "leadEn": "If one person's psychology is copied onto two, is there still a fact about which one is me?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "分裂实验：大脑半球分别植入两个身体，两者都醒来、都自称原主，且各自与原来心理连续。",
+        "vEn": "Fission: each hemisphere is transplanted into a different body; both wake, both claim to be the original, each psychologically continuous with him."
+      },
+      {
+        "k": "帕菲特的结论",
+        "kEn": "Parfit's verdict",
+        "v": "同一性是一一对应关系，故二者至多一个是原主；但心理连续性与连接度（Relation R）两者皆备——而「这才重要」。",
+        "vEn": "Identity is one-one, so at most one is him; yet both enjoy psychological continuity and connectedness (Relation R)—and that is what matters."
+      },
+      {
+        "k": "代价",
+        "kEn": "The cost",
+        "v": "自我并非额外的「第三种实体」；对「我的未来」的特殊关切被解释为关系结构，而不是同一性事实。",
+        "vEn": "There is no further separate entity that is the self; special concern for my future is read as a relational structure, not an identity fact."
+      },
+      {
+        "k": "争议",
+        "kEn": "Dispute",
+        "v": "批评者认为取消自我使道德责任与承诺失去主体；支持者看到对佛教无我与休谟束理论的现代印证。",
+        "vEn": "Critics say dissolving the self leaves responsibility and promise without a subject; supporters see a modern confirmation of non-self and Hume's bundle."
+      }
+    ],
+    "related": ["self", "theseus-ship", "bundle-self-compare", "sunyata", "tl-buddha"],
+    "sources": [
+      {
+        "label": "帕菲特《理与人》第十、十二部分",
+        "labelEn": "Parfit, Reasons and Persons, parts 10 and 12",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "id": "chinese-room",
+    "title": "中文房间",
+    "titleEn": "The Chinese Room",
+    "icon": "🈶",
+    "category": "心灵与意识",
+    "categoryEn": "Mind & Consciousness",
+    "level": 2,
+    "order": 6,
+    "lead": "只会按规则搬运符号的人，能让屋里「懂中文」吗？强人工智能的质疑由此而来。",
+    "leadEn": "Can a man who merely shuffles symbols by rule make the room understand Chinese? The case against strong AI.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "不懂中文的人在房内据规则册处理中文符号，外面的中文者得到完美答案。",
+        "vEn": "A speaker of no Chinese inside a room processes Chinese symbols per a rulebook, giving fluent answers to outsiders."
+      },
+      {
+        "k": "论证要旨",
+        "kEn": "The argument",
+        "v": "语法（句法操作）不足以产生语义（理解）；因此纯计算的程序本身不构成心智。",
+        "vEn": "Syntax alone is not sufficient for semantics; hence a purely computational program does not by itself constitute a mind."
+      },
+      {
+        "k": "系统回应",
+        "kEn": "The systems reply",
+        "v": "理解或许属于整个系统而非房中人——塞尔否认此点，争论聚焦在「何处安放理解」。",
+        "vEn": "Perhaps the whole system understands, not the man inside—Searle denies it, and the dispute centres on where understanding may be located."
+      },
+      {
+        "k": "当代处境",
+        "kEn": "Today",
+        "v": "在大模型时代被反复引用：行为流畅是否等于理解，成为经验可测而非纯概念的问题（可解释性、基准与语言测试）。",
+        "vEn": "Repeatedly cited in the era of large models: whether behavioural fluency equals understanding has become an empirically testable question (interpretability, benchmarks, linguistic probes)."
+      }
+    ],
+    "related": [
+      "philosophy-of-mind",
+      "mind-body",
+      "qualia",
+      "intentionality",
+      "twin-earth"
+    ],
+    "sources": [
+      {
+        "label": "塞尔《心灵、大脑与科学》",
+        "labelEn": "Searle, Minds, Brains, and Science",
+        "year": 1980
+      }
+    ]
+  },
+  {
+    "id": "marys-room",
+    "title": "玛丽的房间",
+    "titleEn": "Mary's Room",
+    "icon": "🔴",
+    "category": "心灵与意识",
+    "categoryEn": "Mind & Consciousness",
+    "level": 2,
+    "order": 7,
+    "lead": "黑白房间里学尽红色所有物理知识的科学家，第一次走出房间看见红色时，学到了新东西吗？",
+    "leadEn": "The scientist who learned every physical fact about red inside a black-and-white room—does she learn something new on seeing red?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "杰克逊的设想：玛丽拥有全部物理信息但从未有颜色经验。",
+        "vEn": "Jackson's setup: Mary knows every physical fact about colour yet has never had a colour experience."
+      },
+      {
+        "k": "直觉推理",
+        "kEn": "The intuition",
+        "v": "若她出房时说出「原来红色是这样」，则存在物理描述未穷尽的事实——论证物理主义不完整。",
+        "vEn": "If on leaving she says 'so this is what red is like', then facts exceed physical description—and physicalism is incomplete."
+      },
+      {
+        "k": "主要反驳",
+        "kEn": "Main replies",
+        "v": "能力假说（她获得的是 know-how 而非新命题知识）、代表主义（经验内容由表征状态说明）、现象判断的错觉论。",
+        "vEn": "The ability hypothesis (she gains know-how, not new propositional knowledge), representationalism, and illusory accounts of phenomenal judgement."
+      },
+      {
+        "k": "问题实质",
+        "kEn": "The stake",
+        "v": "「解释间隙」究竟在世界上还是在概念上——这是感受质与难问题争论的真正战场。",
+        "vEn": "Whether the explanatory gap lies in the world or in our concepts—that is the real battleground of qualia and the hard problem."
+      }
+    ],
+    "related": ["qualia", "mind-body", "philosophical-zombie", "epistemology"],
+    "sources": [
+      {
+        "label": "杰克逊《感受质》",
+        "labelEn": "Jackson, Epiphenomenal Qualia",
+        "year": 1982
+      }
+    ]
+  },
+  {
+    "id": "philosophical-zombie",
+    "title": "哲学僵尸",
+    "titleEn": "The Philosophical Zombie",
+    "icon": "🧟",
+    "category": "心灵与意识",
+    "categoryEn": "Mind & Consciousness",
+    "level": 3,
+    "order": 8,
+    "lead": "物理上与你不差分毫、却没有任何「像什么」的体验——这样的存在可设想吗？",
+    "leadEn": "Physically indistinguishable from you yet with nothing it is like to be it—is such a being conceivable?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "查尔莫斯的僵尸：行为、语言、神经活动全都一致，唯缺现象意识。",
+        "vEn": "Chalmers' zombie: behaviour, speech and neural activity identical, phenomenal consciousness absent."
+      },
+      {
+        "k": "论证形式",
+        "kEn": "The argument",
+        "v": "可设想 → 逻辑可能 → 物理事实不蕴含意识事实 → 物理主义为假（意识是附加事实）。",
+        "vEn": "Conceivability → logical possibility → physical facts do not entail phenomenal facts → physicalism is false."
+      },
+      {
+        "k": "关键分歧",
+        "kEn": "Where they part",
+        "v": "物理主义者否认这种可设想性真正支持形而上可能（类型错位、二次信念论）；异象论者干脆否认僵尸概念前后一致。",
+        "vEn": "Physicalists deny that conceivability evidences metaphysical possibility (misdescription, higher-order views); illusionists deny the concept is coherent at all."
+      },
+      {
+        "k": "为何重要",
+        "kEn": "Why it matters",
+        "v": "它把「难问题」精确定义为解释的缺口，使关于意识的科学议程必须回答：解释到什么程度算完成。",
+        "vEn": "It pins the hard problem as an explanatory gap, forcing consciousness science to say what would count as a completed explanation."
+      }
+    ],
+    "related": ["qualia", "marys-room", "mind-body", "philosophy-of-mind"],
+    "sources": [
+      {
+        "label": "查尔莫斯《有意识的心灵》",
+        "labelEn": "Chalmers, The Conscious Mind",
+        "year": 1996
+      }
+    ]
+  },
+  {
+    "id": "twin-earth",
+    "title": "孪生地球",
+    "titleEn": "Twin Earth",
+    "icon": "🌍",
+    "category": "心灵与意识",
+    "categoryEn": "Mind & Consciousness",
+    "level": 3,
+    "order": 9,
+    "lead": "另一个地球上看起来是水、化学式却是 XYZ 的液体——两地人说「水」时，想法相同吗？",
+    "leadEn": "On Twin Earth a liquid looks like water but is XYZ. When both say 'water', do they think the same thought?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "普特南设想一颗行星，其「水」的微观结构为 XYZ，与 H₂O 在一切可感性质上相同。",
+        "vEn": "Putnam imagines a planet whose 'water' has microstructure XYZ, indistinguishable sensorily from H₂O."
+      },
+      {
+        "k": "结论",
+        "kEn": "Conclusion",
+        "v": "两地的「水」指称不同自然类，故含义不全在头脑之中——「语义外在论」。",
+        "vEn": "Their 'water' refers to different natural kinds, so meaning is not wholly in the head—semantic externalism."
+      },
+      {
+        "k": "扩展",
+        "kEn": "Extensions",
+        "v": "孪生双胞胎的区分、严格指示词与自然种类术语的先天偶然论，共同重塑语言哲学与心灵哲学。",
+        "vEn": "Twin distinctions, rigid designators and the contingent-a-priori status of natural-kind terms reshaped philosophy of language and mind."
+      },
+      {
+        "k": "反驳与代价",
+        "kEn": "Cost",
+        "v": "若含义依赖环境，自我知识与「一阶权威」须被重新解释；内在论者以双重内容（窄内容/宽内容）折中。",
+        "vEn": "If meaning depends on environment, self-knowledge and first-person authority must be re-described; internalists compromise with narrow and wide content."
+      }
+    ],
+    "related": [
+      "philosophy-of-language",
+      "rigid-designator",
+      "supervenience",
+      "intentionality"
+    ],
+    "sources": [
+      {
+        "label": "普特南《意义的意义》",
+        "labelEn": "Putnam, The Meaning of 'Meaning'",
+        "year": 1975
+      }
+    ]
+  },
+  {
+    "id": "trolley-problem",
+    "title": "电车难题",
+    "titleEn": "The Trolley Problem",
+    "icon": "🚋",
+    "category": "伦理与价值",
+    "categoryEn": "Ethics & Value",
+    "level": 1,
+    "order": 10,
+    "lead": "拉杆救五杀一，还是不动手任五死？差别在结果，还是在你的作为？",
+    "leadEn": "Pull the switch to save five and kill one, or refrain and let five die—does the difference lie in outcomes or in your doing?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "失控电车将轧死五人；岔道只有一人。变体「天桥」：推下一人可阻车。多数人对二者判断不同。",
+        "vEn": "A runaway tram will kill five; the siding holds one. Variant: push a man off a footbridge to stop it. Most people judge the two cases differently."
+      },
+      {
+        "k": "理论对垒",
+        "kEn": "Theories at odds",
+        "v": "后果主义看总效用；义务论看不可侵犯性与手段—目的；双重效果论与「doing/allowing」区分承担中间立场。",
+        "vEn": "Consequentialism counts aggregate welfare; deontology looks at inviolability and treating persons as means; double effect and the doing/allowing distinction stake out middle ground."
+      },
+      {
+        "k": "心理学证据",
+        "kEn": "Psychological evidence",
+        "v": "神经影像与损伤研究显示，个人化伤害触发情绪—社会认知系统，非个人化情形更多依赖代价—收益计算（Greene 的双过程模型）。",
+        "vEn": "Imaging and lesion work suggest personal harm engages emotional and social-cognitive systems while impersonal cases lean on cost-benefit computation (Greene's dual-process model)."
+      },
+      {
+        "k": "工程语境",
+        "kEn": "Engineering context",
+        "v": "自动系统的路径选择使难题从思想实验变为政策问题；批评者指出以「拉杆」建模会遮蔽责任分配与制度设计。",
+        "vEn": "Automated systems turn the thought experiment into policy; critics argue that switch-style framing obscures liability and institutional design."
+      }
+    ],
+    "related": [
+      "ethics",
+      "utilitarianism",
+      "categorical-imperative",
+      "newcomb-problem",
+      "experience-machine"
+    ],
+    "sources": [
+      {
+        "label": "富特《道德中的道德困境》",
+        "labelEn": "Foot, The Problem of Abortion and the Doctrine of Double Effect",
+        "year": 1967
+      },
+      {
+        "label": "汤姆森《电车问题》",
+        "labelEn": "Thomson, The Trolley Problem",
+        "year": 1985
+      }
+    ]
+  },
+  {
+    "id": "experience-machine",
+    "title": "经验机器",
+    "titleEn": "The Experience Machine",
+    "icon": "🎢",
+    "category": "伦理与价值",
+    "categoryEn": "Ethics & Value",
+    "level": 2,
+    "order": 11,
+    "lead": "机器能给你一切你想要的体验，且你不知自己在机器中——你会接入吗？若不愿，快乐就不是唯一的好。",
+    "leadEn": "A machine can give every experience you want, and you would not know you were plugged in. Would you plug in? If not, pleasure is not the only good.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "诺齐克的机器可定制终身体验，接入后不能中途反悔了解真相。",
+        "vEn": "Nozick's machine offers a lifetime of custom experience; once plugged in you cannot later learn the truth."
+      },
+      {
+        "k": "论证意图",
+        "kEn": "Target",
+        "v": "反驳快乐主义的福利论：我们也在乎「真的在做」「成为某种人」「与实在接触」。",
+        "vEn": "Against hedonistic welfare theory: we also care about actually doing something, being a certain kind of person, and contact with reality."
+      },
+      {
+        "k": "经验反证",
+        "kEn": "Empirical pushback",
+        "v": "后续研究（包括 De Neys 等的「虚拟享乐主义」实验）显示相当比例受试愿意接入，且久后直觉减弱——直觉是否可靠证据被重新讨论。",
+        "vEn": "Later studies (including 'wireheading experiments') find many willing to plug in, with the effect growing over time—reopening whether intuitions are trustworthy evidence."
+      },
+      {
+        "k": "相关领域",
+        "kEn": "Adjacent fields",
+        "v": "意义理论、体验机器在娱乐与社交平台上的现实版本（沉浸、算法推荐）都构成同一追问的当代形态。",
+        "vEn": "Theories of meaning, and real-world analogues in immersive media and recommendation algorithms, are contemporary forms of the same question."
+      }
+    ],
+    "related": ["utility", "eudaimonia", "meaning", "brain-in-vat"],
+    "sources": [
+      {
+        "label": "诺齐克《哲学解释》",
+        "labelEn": "Nozick, Philosophical Explanations",
+        "year": 1981
+      }
+    ]
+  },
+  {
+    "id": "newcomb-problem",
+    "title": "纽康姆悖论",
+    "titleEn": "Newcomb's Problem",
+    "icon": "📦",
+    "category": "伦理与价值",
+    "categoryEn": "Ethics & Value",
+    "level": 3,
+    "order": 12,
+    "lead": "两个盒子与一位几乎全对的预言者：两个都拿，还是只拿不透明的那个？两种推理原则给出相反答案。",
+    "leadEn": "Two boxes and a near-perfect predictor: take both, or only the opaque one? Two decision principles answer oppositely.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "透明盒内有 1000 元；不透明盒由预言者依对你选择的预测放入一百万或空。预言者准确率极高。",
+        "vEn": "The transparent box holds 1,000; the predictor placed a million in the opaque box, or nothing, according to its prediction of your choice, and is highly accurate."
+      },
+      {
+        "k": "两难",
+        "kEn": "The dilemma",
+        "v": "占优原则说两个都拿（无论预言者放什么，多一个盒子总不坏）；期望效用计算说只拿不透明盒（拿一个者几乎总得百万）。",
+        "vEn": "Dominance says take both—whatever was placed, an extra box cannot hurt. Expected-utility reasoning on the correlation says take only the opaque one."
+      },
+      {
+        "k": "原则冲突",
+        "kEn": "Clashing principles",
+        "v": "因果决策论与证据决策论之争；也牵动自由意志（预言与选择能否共存）与理性自我的时间结构。",
+        "vEn": "Causal versus evidential decision theory; it also touches free will (can prediction and choice coexist) and the temporal structure of the rational self."
+      },
+      {
+        "k": "现状",
+        "kEn": "Where it stands",
+        "v": "在包含 AI 与算法预测的决策场景中被重新引用；一箱派与两箱派至今未分出胜负。",
+        "vEn": "Re-cited where AI and algorithmic prediction shape decisions; one-boxers and two-boxers remain at an impasse."
+      }
+    ],
+    "related": ["free-will", "utility", "determinism-compatibilism", "frankfurt-case"],
+    "sources": [
+      {
+        "label": "诺齐克《纽康姆问题》",
+        "labelEn": "Nozick, Newcomb's Problem and Two Principles of Choice",
+        "year": 1969
+      }
+    ]
+  },
+  {
+    "id": "frankfurt-case",
+    "title": "法兰克福案例",
+    "titleEn": "Frankfurt Cases",
+    "icon": "🕹️",
+    "category": "自由与责任",
+    "categoryEn": "Freedom & Responsibility",
+    "level": 3,
+    "order": 13,
+    "lead": "黑手党随时会替你按下按钮——但你按了自己的。你没得选，可你仍应负责吗？",
+    "leadEn": "A mafia would have forced your hand had you hesitated—but you chose it yourself. With no alternative available, are you still responsible?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "琼斯决定捐款；布莱克监控其神经，若琼斯不起此意便强行让他起意。实际中布莱克从未介入。",
+        "vEn": "Jones decides to donate; Black monitors his neurology and would force the decision had Jones wavered. As it happens, Black never intervenes."
+      },
+      {
+        "k": "论证目标",
+        "kEn": "Target",
+        "v": "反驳「他可能别作选择」原则（PAP）：此处无其他可能性，琼斯却看似仍应负责。",
+        "vEn": "Against the Principle of Alternate Possibilities: Jones could not have done otherwise, yet seems responsible."
+      },
+      {
+        "k": "主要回应",
+        "kEn": "Replies",
+        "v": "微光论者（flicker）否认案例中缺少其他可能性（仅缺其可及性）；兼容论者与不兼容论者各取所需；「追踪序列」变体继续争论。",
+        "vEn": "Flicker defenders deny the absence of alternatives (only their accessibility is missing); compatibilists and incompatibilists each claim the case; tracking-sequence variants keep the argument alive."
+      },
+      {
+        "k": "实践延伸",
+        "kEn": "Practical reach",
+        "v": "对胁迫、成瘾、算法助推与自动系统的责任归属性讨论提供共同模板——关键在「机制是否属于你」而非「是否有后门」。",
+        "vEn": "It supplies a shared template for coercion, addiction, nudging and automated systems—what matters is whether the mechanism is yours, not whether a back door exists."
+      }
+    ],
+    "related": ["free-will", "determinism-compatibilism", "stoicism", "kant"],
+    "sources": [
+      {
+        "label": "法兰克福《替代可能性原则》",
+        "labelEn": "Frankfurt, Alternate Possibilities and Moral Responsibility",
+        "year": 1969
+      }
+    ]
+  },
+  {
+    "id": "original-position",
+    "title": "原初状态（选择程序的实验）",
+    "titleEn": "The Original Position",
+    "icon": "⚖️",
+    "category": "政治与正义",
+    "categoryEn": "Politics & Justice",
+    "level": 2,
+    "order": 14,
+    "lead": "把立约者剥去一切特殊信息，让他们为自己立法——他们会选什么原则？",
+    "leadEn": "Strip contractors of all particular information and let them legislate for themselves—which principles would they choose?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "参与者不知自己的阶级、天赋、种族、性别、善观念与世代，只知社会、经济与心理的一般事实。",
+        "vEn": "Parties know no facts about their class, talents, race, sex, conception of the good or generation—only general social, economic and psychological facts."
+      },
+      {
+        "k": "推论",
+        "kEn": "The derivation",
+        "v": "罗尔斯认为在极大风险厌恶下，理性者会选平等基本自由与差别原则，而非平均效用——因为后者可能牺牲最不利者。",
+        "vEn": "With strong risk-aversion, rational parties pick equal basic liberties and the difference principle rather than average utility, which could sacrifice the least advantaged."
+      },
+      {
+        "k": "主要批评",
+        "kEn": "Criticisms",
+        "v": "哈桑伊指出无知之幕下应取「期望」而非「最小最大」；社群主义质疑「无负荷的自我」；女性主义与全球正义问：幕布为何止于国界与家庭。",
+        "vEn": "Harsanyi urges expected rather than maximin choice under the veil; communitarians reject the unencumbered self; feminists and global theorists ask why the veil stops at borders and the household."
+      },
+      {
+        "k": "方法贡献",
+        "kEn": "Methodological gain",
+        "v": "正义被表述为「选择程序的公平」：不问何谓正确分配，而问何种程序设计能生成可辩护的结果（反思平衡的一部分）。",
+        "vEn": "Justice becomes fairness of procedure: not what counts as a right distribution, but which procedure yields defensible outcomes—part of reflective equilibrium."
+      }
+    ],
+    "related": [
+      "justice",
+      "veil-of-ignorance",
+      "theory-of-justice",
+      "two-liberties",
+      "tl-rawls"
+    ],
+    "sources": [
+      {
+        "label": "罗尔斯《正义论》§24–§30",
+        "labelEn": "Rawls, A Theory of Justice, §24–§30",
+        "year": 1971
+      }
+    ]
+  }
+]

@@ -1,0 +1,567 @@
+[
+  {
+    "id": "tl-thales",
+    "term": "泰勒斯：以水为本原",
+    "termEn": "Thales: Water as First Principle",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 1,
+    "year": -585,
+    "oneLiner": "第一次不用神话、只用自然本身解释万物的生成，被视为希腊哲学的开端。",
+    "oneLinerEn": "The first to explain generation from nature itself rather than myth—customarily the opening line of Greek philosophy.",
+    "detail": "关键不在「水」这个答案，而在提问方式的转换：假定现象背后有统一的、可理性把握的本原（archē）。此后哲学成为对回答的批判性继承，而不是对神谕的复述。",
+    "detailEn": "What matters is not the answer 'water' but the change of question: assume an unified, rationally graspable origin (archē) behind phenomena. Philosophy then becomes critical inheritance of answers, not retelling of oracles.",
+    "related": ["metaphysics", "platonism", "tl-plato-academy", "reality"],
+    "sources": [
+      {
+        "label": "亚里士多德《形而上学》A 卷",
+        "labelEn": "Aristotle, Metaphysics A",
+        "year": -330
+      }
+    ]
+  },
+  {
+    "id": "tl-laozi",
+    "term": "《道德经》成书",
+    "termEn": "The Daodejing Takes Shape",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 1,
+    "year": -500,
+    "oneLiner": "把「道」立为不可尽名的根源，治国与修身皆以「无为」为要。",
+    "oneLinerEn": "Sets up the dao as a source that cannot be fully named, making non-forcing central to both politics and self-cultivation.",
+    "detail": "五千言以反诘与悖论式表达（正言若反）拆解概念的对立固化；它对语言限度的警觉，与西方否定神学、维特根斯坦的沉默形成跨时空呼应。",
+    "detailEn": "Its five thousand characters undo hardened opposites by paradox (affirmation spoken as negation); its alertness to the limits of language echoes Western apophatic theology and Wittgenstein's silence.",
+    "related": ["taoism", "laozi", "dao-name", "wuwei", "tl-zhuangzi"],
+    "sources": [
+      {
+        "label": "郭店楚简《老子》甲乙丙组",
+        "labelEn": "Guodian slips, Laozi A/B/C",
+        "year": -300
+      }
+    ]
+  },
+  {
+    "id": "tl-confucius",
+    "term": "孔子与弟子的问答",
+    "termEn": "Confucius and His Disciples",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 1,
+    "year": -480,
+    "oneLiner": "把伦理问题从「何为至善」转向「如何成人」，以仁与礼为轴心。",
+    "oneLinerEn": "Turns ethics from 'what is the good' toward 'how one becomes a person', with benevolence and ritual as its axle.",
+    "detail": "弟子提问、孔子因材施教的回答方式，使文本保留的是活的操作智慧而非命题体系；此后两千年儒学的所有争论（性善、格物、良知）都是对这一方式的再解释。",
+    "detailEn": "Because disciples ask and Confucius answers to each temperament, the text preserves living practical wisdom rather than a system of propositions; every later Confucian quarrel—nature of goodness, investigating things, innate knowing—is a re-reading of this manner.",
+    "related": ["confucianism", "kongzi", "lunyu", "ren-justice-compare", "zhongyong"],
+    "sources": [{ "label": "《论语》", "labelEn": "Analects", "year": -400 }]
+  },
+  {
+    "id": "tl-buddha",
+    "term": "佛陀说无我",
+    "termEn": "The Buddha on Non-Self",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 2,
+    "year": -450,
+    "oneLiner": "在「我」的位置上找到的只是五蕴的生灭相续，故说无我、说缘起。",
+    "oneLinerEn": "Where a self is sought one finds only the rising and passing of five aggregates—hence non-self and dependent origination.",
+    "detail": "无我不是虚无，而是对「独立不变主体」的取消；痛苦因此被重新描述为一种执着结构的失败。休谟的束理论与龙树的空性在二十余世纪后彼此映照。",
+    "detailEn": "Non-self is not nihilism but the removal of an unchanging independent subject; suffering is redescribed as the failure of a structure of clinging. Hume's bundle theory and Nāgārjuna's emptiness mirror each other two millennia later.",
+    "related": ["buddhism", "self", "bundle-self-compare", "sunyata", "death"],
+    "sources": [
+      {
+        "label": "《杂阿含经》无我相经",
+        "labelEn": "Saṃyukta Āgama, Anattalakkhaṇa Sutta",
+        "year": -400
+      }
+    ]
+  },
+  {
+    "id": "tl-socrates-trial",
+    "term": "苏格拉底受审与饮鸩",
+    "termEn": "Socrates on Trial",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 1,
+    "year": -399,
+    "oneLiner": "以对话追问定义的哲学家被城邦处死，他选择服从法律而不逃亡。",
+    "oneLinerEn": "The philosopher who interrogated definitions is executed by his city; he obeys the law rather than flee.",
+    "detail": "这一事件把「知识与无知」「个人与城邦」「服从与良心」的张力永久制度化，成为政治哲学的原型场景；柏拉图的全部著作可视为对它的回应与申辩。",
+    "detailEn": "The event permanently institutionalises the tensions between knowledge and ignorance, individual and city, obedience and conscience, becoming the founding scene of political philosophy; Plato's whole corpus answers it.",
+    "related": ["socrates", "justice", "plato", "republic", "tl-plato-academy"],
+    "sources": [{ "label": "柏拉图《申辩篇》", "labelEn": "Plato, Apology", "year": -360 }]
+  },
+  {
+    "id": "tl-plato-academy",
+    "term": "柏拉图创立学园",
+    "termEn": "Plato Founds the Academy",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 2,
+    "year": -380,
+    "oneLiner": "把「可感与可知」分开，理念论成为西方形而上学的母语。",
+    "oneLinerEn": "Separating the sensible from the intelligible, the theory of Forms becomes the native tongue of Western metaphysics.",
+    "detail": "学园延续九百年，第一次把哲学变成有课程、有辩论规程、有学科分工 institutions。此后「共相是否实在」这一中世纪最大争论，其问题已是柏拉图书房里提出的。",
+    "detailEn": "The Academy lasted nine centuries and first made philosophy an institution with courses, rules of debate and division of labour. By the time medieval thinkers asked whether universals are real, the question had already been set in Plato's rooms.",
+    "related": [
+      "platonism",
+      "universals",
+      "reality",
+      "aristotelianism",
+      "tl-aristotle-lyceum"
+    ],
+    "sources": [{ "label": "柏拉图《理想国》", "labelEn": "Plato, Republic", "year": -370 }]
+  },
+  {
+    "id": "tl-aristotle-lyceum",
+    "term": "亚里士多德与吕克昂",
+    "termEn": "Aristotle and the Lyceum",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 2,
+    "year": -335,
+    "oneLiner": "为知识分科：逻辑、物理、伦理、政治、诗学各立边界与方法。",
+    "oneLinerEn": "He divides knowledge into disciplines—logic, physics, ethics, politics, poetics—each with its own bounds and method.",
+    "detail": "三段论第一次使「推理形式」本身成为可研究的对象；四因说与潜能—现实则为变化提供解释框架，其术语沿用两千年。",
+    "detailEn": "The syllogism made inferential form itself an object of study; the four causes and potentiality-actuality gave change an explanatory framework whose vocabulary lasted two millennia.",
+    "related": [
+      "aristotle",
+      "aristotelianism",
+      "logic",
+      "syllogism",
+      "substance",
+      "eudaimonia"
+    ],
+    "sources": [
+      {
+        "label": "亚里士多德《前分析篇》",
+        "labelEn": "Aristotle, Prior Analytics",
+        "year": -350
+      }
+    ]
+  },
+  {
+    "id": "tl-zhuangzi",
+    "term": "《庄子》：齐物与梦蝶",
+    "termEn": "Zhuangzi: Equalizing Things, the Butterfly Dream",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 2,
+    "year": -300,
+    "oneLiner": "以寓言与辩难瓦解是非的裁判幻觉，把自由理解为「无所待」。",
+    "oneLinerEn": "Fables and dialectic dissolve the illusion of an arbiter of right and wrong; freedom is understood as dependence on nothing.",
+    "detail": "「庄周梦蝶」不是怀疑论把戏，而是对「谁在判断」的追问；与笛卡尔的恶魔、缸中之脑构成同一问题族的三种回答。",
+    "detailEn": "The butterfly dream is no sceptical trick but a question about who is judging; together with Descartes' demon and the brain in a vat it forms three answers to one problem-family.",
+    "related": ["zhuangzi", "taoism", "qiwu", "brain-in-vat", "reality", "butterfly-dream"],
+    "sources": [
+      {
+        "label": "《庄子·齐物论·养生主》",
+        "labelEn": "Zhuangzi, Qiwulun and Yangshengzhu",
+        "year": -300
+      }
+    ]
+  },
+  {
+    "id": "tl-mengzi-xunzi",
+    "term": "孟子与荀子：性善与性恶",
+    "termEn": "Mencius and Xunzi: Good and Bad Human Nature",
+    "category": "轴心时代",
+    "categoryEn": "Axial Age",
+    "level": 2,
+    "year": -240,
+    "oneLiner": "儒学内部关于人性起点的分裂：一端从四端扩充，一端以礼义矫正。",
+    "oneLinerEn": "Confucianism's internal split over the starting point of human nature: one side expands the four sprouts, the other rectifies by ritual and rightness.",
+    "detail": "两说共享同一目标（成人成序），分歧在动力来源——内在萌芽抑或外在规范；此分歧决定了后世工夫论的整个地形，也是「性与习」「天赋与教养」之争的先声。",
+    "detailEn": "Both aim at the same end—cultivated persons and an ordered world—but locate the drive differently, in inner sprouts or outer norms. That difference maps later theories of moral effort and prefigures nature-versus-nurture.",
+    "related": ["mengzi", "confucianism", "good-evil", "moral-realism", "legalism"],
+    "sources": [
+      {
+        "label": "《孟子·告子上》《荀子·性恶》",
+        "labelEn": "Mencius Gaozi and Xunzi Xing'e",
+        "year": -230
+      }
+    ]
+  },
+  {
+    "id": "tl-augustine",
+    "term": "奥古斯丁《忏悔录》",
+    "termEn": "Augustine's Confessions",
+    "category": "古代晚期",
+    "categoryEn": "Late Antiquity",
+    "level": 2,
+    "year": 397,
+    "oneLiner": "把哲学追问转向内在：记忆、时间、意志的分裂在自传中被分析。",
+    "oneLinerEn": "Philosophy turns inward: memory, time and the divided will are analysed inside an autobiography.",
+    "detail": "「时间是什么？」的著名困难——过去已不在、将来尚未在、现在不可分——把时间问题从物理转交心灵；其对意志薄弱的描述，成为后世行动哲学与道德心理学的老问题。",
+    "detailEn": "The famous puzzle of time—the past is gone, the future not yet, the present indivisible—hands time from physics to mind; his account of weakness of will becomes the old problem of action theory and moral psychology.",
+    "related": ["god", "death", "free-will", "self", "aquinas"],
+    "sources": [
+      {
+        "label": "奥古斯丁《忏悔录》卷十一",
+        "labelEn": "Augustine, Confessions, book 11",
+        "year": 397
+      }
+    ]
+  },
+  {
+    "id": "tl-gehu",
+    "term": "鹅湖之会：朱陆之争",
+    "termEn": "Goose Lake Debate: Zhu Xi vs Lu Jiuyuan",
+    "category": "宋元明",
+    "categoryEn": "Song-Yuan-Ming",
+    "level": 3,
+    "year": 1175,
+    "oneLiner": "理学与心学公开交锋：为学是「格物穷理」还是「先立乎其大」。",
+    "oneLinerEn": "The Learning of Principle and the Learning of Mind meet in open debate: is learning to investigate things or first to establish the greater part?",
+    "detail": "朱熹主张即物穷理、渐进积累以达豁然贯通；陆九渊直指本心，嫌对方支离。阳明的致良知是心学的完成，而这场关于「入口」的争执至今仍在教育学与认识论里回响。",
+    "detailEn": "Zhu Xi investigates things and accumulates until interpenetration; Lu Jiuyuan points straight to the mind and calls the other disjointed. Wang Yangming completes the Learning of Mind, while the quarrel over the entry point still echoes in pedagogy and epistemology.",
+    "related": ["zhu-xi", "gewu", "liangzhi", "epistemology"],
+    "sources": [
+      {
+        "label": "《陆九渊集·年谱》鹅湖之会",
+        "labelEn": "Collected Works of Lu Jiuyuan, chronology on Goose Lake",
+        "year": 1175
+      }
+    ]
+  },
+  {
+    "id": "tl-descartes",
+    "term": "笛卡尔：我思故我在",
+    "termEn": "Descartes: I Think, Therefore I Am",
+    "category": "近代早期",
+    "categoryEn": "Early Modern",
+    "level": 1,
+    "year": 1637,
+    "oneLiner": "普遍怀疑之后剩下的第一确定：正在怀疑的这个「我」不可疑。",
+    "oneLinerEn": "After universal doubt one first certainty remains: the 'I' that doubts cannot be doubted.",
+    "detail": "确定性的标准被换成了清晰判明的主观明证，认识论自此成为第一哲学；而心身如何交互的难题，从伊丽莎白公主的追问起一直悬而未决。",
+    "detailEn": "The mark of certainty becomes the subject's clear and distinct evidence, making epistemology first philosophy; the puzzle of how mind and body interact has gone unanswered since Princess Elisabeth pressed him.",
+    "related": ["descartes", "rationalism", "knowledge", "mind-body", "brain-in-vat"],
+    "sources": [
+      {
+        "label": "笛卡尔《谈谈方法》第四部分",
+        "labelEn": "Descartes, Discourse on the Method, part 4",
+        "year": 1637
+      }
+    ]
+  },
+  {
+    "id": "tl-hobbes",
+    "term": "霍布斯《利维坦》",
+    "termEn": "Hobbes's Leviathan",
+    "category": "近代早期",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "year": 1651,
+    "oneLiner": "没有共同权力的状态是「一切人对一切人的战争」，秩序须被人为制造。",
+    "oneLinerEn": "Without a common power the state is a war of all against all; order must be artificially made.",
+    "detail": "以机械论的人性论与契约推论取代神权与天然等级，政治哲学获得现代形式；荀子「性恶—化性起伪—礼义」与之构成跨文化的同型论证。",
+    "detailEn": "Mechanistic human nature plus contract replaces divine right and natural rank, giving political philosophy its modern shape; Xunzi's bad nature, transformation and ritual form a cross-cultural isomorphism.",
+    "related": ["justice", "political-philosophy", "xingshan-hobbes-compare", "legalism"],
+    "sources": [
+      {
+        "label": "霍布斯《利维坦》第十三章",
+        "labelEn": "Hobbes, Leviathan, ch. 13",
+        "year": 1651
+      }
+    ]
+  },
+  {
+    "id": "tl-hume",
+    "term": "休谟《人性论》",
+    "termEn": "Hume's Treatise",
+    "category": "近代早期",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "year": 1739,
+    "oneLiner": "因果、自我、归纳都被追问其经验来源，答案均是习惯性联想。",
+    "oneLinerEn": "Causation, self and induction are each asked for their experiential source; the answer is habitual association.",
+    "detail": "「是」推不出「应当」成为伦理学的划界石；把自我解为知觉的束，则与佛教无我、与现代还原论遥相呼应。康德承认是休谟把他从独断的迷梦中唤醒。",
+    "detailEn": "'Is' does not yield 'ought', a boundary stone for ethics; the self as a bundle of perceptions echoes non-self and modern reductive views. Kant credited Hume with waking him from dogmatic slumber.",
+    "related": [
+      "hume",
+      "empiricism",
+      "induction",
+      "self",
+      "bundle-self-compare",
+      "moral-realism"
+    ],
+    "sources": [
+      {
+        "label": "休谟《人性论》第一、三卷",
+        "labelEn": "Hume, A Treatise of Human Nature, books 1 and 3",
+        "year": 1739
+      }
+    ]
+  },
+  {
+    "id": "tl-kant",
+    "term": "康德《纯粹理性批判》",
+    "termEn": "Kant's Critique of Pure Reason",
+    "category": "启蒙",
+    "categoryEn": "Enlightenment",
+    "level": 3,
+    "year": 1781,
+    "oneLiner": "不是心灵符合对象，而是对象符合心灵的先天形式——哥白尼式倒转。",
+    "oneLinerEn": "Not mind conforming to objects but objects conforming to mind's a priori forms—the Copernican turn.",
+    "detail": "为知识划界同时为道德留位：现象界受自然法则，本体界可思自由。二律背反显示理性越界时必然自相冲突，这一诊断影响了此后关于极限的全部讨论。",
+    "detailEn": "It bounds knowledge and reserves a place for morality: appearance under law, noumenon where freedom is thinkable. The antinomies show reason necessarily colliding when it oversteps—a diagnosis felt in every later debate about limits.",
+    "related": [
+      "kant",
+      "kantian",
+      "a-priori",
+      "thing-in-itself",
+      "free-will",
+      "categorical-imperative"
+    ],
+    "sources": [
+      {
+        "label": "康德《纯粹理性批判》序言与二律背反篇",
+        "labelEn": "Kant, Critique of Pure Reason, preface and Antinomies",
+        "year": 1781
+      }
+    ]
+  },
+  {
+    "id": "tl-hegel",
+    "term": "黑格尔《精神现象学》",
+    "termEn": "Hegel's Phenomenology of Spirit",
+    "category": "启蒙",
+    "categoryEn": "Enlightenment",
+    "level": 3,
+    "year": 1807,
+    "oneLiner": "意识经历诸形态而逐步认识自身，主人与奴隶的辩证法是其中最著名的环节。",
+    "oneLinerEn": "Consciousness passes through shapes and comes to know itself; the master-slave dialectic is its most famous moment.",
+    "detail": "真理被理解为过程与整体而非孤立命题；「扬弃」同时否定、保存与抬升。承认（Anerkennung）问题由此进入伦理与政治哲学，至今左右身份与尊严的讨论。",
+    "detailEn": "Truth is process and whole rather than isolated proposition; sublation simultaneously negates, preserves and lifts. Recognition thereby enters ethics and politics, still shaping debates on identity and dignity.",
+    "related": ["marx", "philosophy-of-history", "other-minds"],
+    "sources": [
+      {
+        "label": "黑格尔《精神现象学》第四章",
+        "labelEn": "Hegel, Phenomenology of Spirit, ch. 4",
+        "year": 1807
+      }
+    ]
+  },
+  {
+    "id": "tl-marx",
+    "term": "马克思《关于费尔巴哈的提纲》",
+    "termEn": "Marx's Theses on Feuerbach",
+    "category": "19 世纪",
+    "categoryEn": "19th Century",
+    "level": 2,
+    "year": 1845,
+    "oneLiner": "「哲学家们只是解释世界，问题在于改变世界。」",
+    "oneLinerEn": "\"The philosophers have only interpreted the world; the point is to change it.\"",
+    "detail": "把观念归源于物质实践与社会关系，真理问题从静观转向实践检验；这一动摇了「理论中立」的表述，也为后世知识社会学与意识形态批判定调。",
+    "detailEn": "Ideas are traced to material practice and social relations, so truth moves from contemplation to practical test; this unsettled claims of theoretical neutrality and set the key for later sociology of knowledge and ideology critique.",
+    "related": ["marx", "marxism", "justice", "philosophy-of-history", "pragmatism"],
+    "sources": [
+      {
+        "label": "马克思《关于费尔巴哈的提纲》第十一条",
+        "labelEn": "Marx, Theses on Feuerbach, thesis 11",
+        "year": 1845
+      }
+    ]
+  },
+  {
+    "id": "tl-frege",
+    "term": "弗雷格《概念文字》",
+    "termEn": "Frege's Begriffsschrift",
+    "category": "19 世纪",
+    "categoryEn": "19th Century",
+    "level": 3,
+    "year": 1879,
+    "oneLiner": "量词与约束变元使现代逻辑成形，哲学第一次拥有自己的形式语言。",
+    "oneLinerEn": "Quantifiers and bound variables create modern logic; philosophy gains its own formal language.",
+    "detail": "含义与指称的区分（晨星与昏星）解决了同一陈述如何提供新信息的问题；罗素悖论随后击穿其基础计划，反而催生类型论与公理化集合论。",
+    "detailEn": "The sense/reference split (Morning Star, Evening Star) explains how identity statements inform; Russell's paradox then breached his foundational programme—and thereby produced type theory and axiomatised set theory.",
+    "related": [
+      "logic",
+      "analytic",
+      "validity",
+      "rigid-designator",
+      "philosophy-of-language"
+    ],
+    "sources": [
+      {
+        "label": "弗雷格《概念文字》",
+        "labelEn": "Frege, Begriffsschrift",
+        "year": 1879
+      }
+    ]
+  },
+  {
+    "id": "tl-nietzsche",
+    "term": "尼采：重估一切价值",
+    "termEn": "Nietzsche: Revaluation of All Values",
+    "category": "19 世纪",
+    "categoryEn": "19th Century",
+    "level": 2,
+    "year": 1886,
+    "oneLiner": "宣告超越性根据的退潮之后，追问人还能凭什么评价与创造。",
+    "oneLinerEn": "After the retreat of transcendent grounds, he asks what remains to evaluate and create by.",
+    "detail": "对道德的历史谱系学追问「谁在何时以何种利益称某物为恶」；虚无主义被诊断为未完成的事件，而非可欢呼或可恐惧的结论。",
+    "detailEn": "A genealogy asks who, when and with what interest called something evil; nihilism is diagnosed as an unfinished event rather than a conclusion to cheer or fear.",
+    "related": [
+      "nietzsche",
+      "good-evil",
+      "meaning",
+      "existentialism",
+      "moral-realism",
+      "qiwu-perspectivism-compare"
+    ],
+    "sources": [
+      {
+        "label": "尼采《善恶的彼岸》",
+        "labelEn": "Nietzsche, Beyond Good and Evil",
+        "year": 1886
+      }
+    ]
+  },
+  {
+    "id": "tl-husserl",
+    "term": "胡塞尔《逻辑研究》",
+    "termEn": "Husserl's Logical Investigations",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 3,
+    "year": 1900,
+    "oneLiner": "反对心理主义：逻辑规律不是思维的经验习性，而是有效含义的理想法则。",
+    "oneLinerEn": "Logical laws are not factual habits of thought but ideal laws of valid meaning.",
+    "detail": "意向性分析成为现象学的方法起点，「回到事情本身」要求描述而非构造；海德格尔的存在论转化、萨特的自由理论皆由此出。",
+    "detailEn": "The analysis of intentionality starts the method; 'to the things themselves' demands description, not construction. Heidegger's existential turn and Sartre's theory of freedom both issue from here.",
+    "related": ["phenomenology", "intentionality", "epoché", "heidegger", "logic"],
+    "sources": [
+      {
+        "label": "胡塞尔《逻辑研究》第一卷",
+        "labelEn": "Husserl, Logical Investigations, vol. 1",
+        "year": 1900
+      }
+    ]
+  },
+  {
+    "id": "tl-wittgenstein-tlp",
+    "term": "维特根斯坦《逻辑哲学论》",
+    "termEn": "Wittgenstein's Tractatus",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 3,
+    "year": 1921,
+    "oneLiner": "语言的界限即世界的界限；凡不可说者，应当保持沉默。",
+    "oneLinerEn": "The limits of language are the limits of the world; whereof one cannot speak, one must be silent.",
+    "detail": "图像论把命题与事态的同构作为意义条件，把伦理、美学与「神秘之物」置于可说之外；后期其自己以语言游戏拆毁了这一静止架构。",
+    "detailEn": "The picture theory makes isomorphism of proposition and state of affairs the condition of sense, placing ethics, aesthetics and the 'mystical' outside what can be said—until the later Wittgenstein dismantled that stilled frame with language-games.",
+    "related": ["wittgenstein", "philosophy-of-language", "analytic", "beauty"],
+    "sources": [
+      {
+        "label": "维特根斯坦《逻辑哲学论》7",
+        "labelEn": "Wittgenstein, Tractatus 7",
+        "year": 1921
+      }
+    ]
+  },
+  {
+    "id": "tl-heidegger",
+    "term": "海德格尔《存在与时间》",
+    "termEn": "Heidegger's Being and Time",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 3,
+    "year": 1927,
+    "oneLiner": "重提被遗忘的存在之问：分析那个发问的存在者——此在。",
+    "oneLinerEn": "Reopens the forgotten question of being by analysing the being who asks it—Dasein.",
+    "detail": "在世存在、操心、向死而生、常人（das Man）取代了主体—客体的认识图景；理解不再是方法而是此在的存在方式，诠释学由此成为哲学本身。",
+    "detailEn": "Being-in-the-world, care, being-toward-death and the They displace the subject-object picture; understanding is not a method but Dasein's way to be, and hermeneutics becomes philosophy itself.",
+    "related": ["heidegger", "phenomenology", "death", "meaning", "self"],
+    "sources": [
+      {
+        "label": "海德格尔《存在与时间》导论",
+        "labelEn": "Heidegger, Being and Time, introduction",
+        "year": 1927
+      }
+    ]
+  },
+  {
+    "id": "tl-sartre",
+    "term": "萨特《存在与虚无》",
+    "termEn": "Sartre's Being and Nothingness",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 2,
+    "year": 1943,
+    "oneLiner": "存在先于本质：没有预先的人性蓝本，人由其选择把自己做成什么。",
+    "oneLinerEn": "Existence precedes essence: with no pre-given blueprint, a person is what choice makes of them.",
+    "detail": "因为无依据，选择附带全部责任与焦虑；「自欺」即逃避这一自由。他人的注视把「我」固定为对象，主奴辩证在二十世纪以浴室与咖啡馆的场景重演。",
+    "detailEn": "Without a ground, choice carries total responsibility and anguish; bad faith is flight from that freedom. The Other's gaze fixes me as object, re-staging the master-slave dialectic in bathrooms and cafés.",
+    "related": ["sartre", "existentialism", "free-will", "other-minds", "meaning"],
+    "sources": [
+      {
+        "label": "萨特《存在与虚无》",
+        "labelEn": "Sartre, Being and Nothingness",
+        "year": 1943
+      },
+      {
+        "label": "萨特《存在主义是一种人道主义》",
+        "labelEn": "Sartre, Existentialism Is a Humanism",
+        "year": 1946
+      }
+    ]
+  },
+  {
+    "id": "tl-rawls",
+    "term": "罗尔斯《正义论》",
+    "termEn": "Rawls's A Theory of Justice",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 2,
+    "year": 1971,
+    "oneLiner": "以原初状态与无知之幕重建契约传统，向功利主义提出制度级替代。",
+    "oneLinerEn": "Rebuilds the contract tradition via the original position and veil of ignorance, offering an institutional alternative to utilitarianism.",
+    "detail": "差别原则允许不平等仅在其改善最不利者处境时正当；诺齐克从权利侧、社群主义从「无负荷的自我」侧各自发难，政治哲学因此重新成为主战场。",
+    "detailEn": "The difference principle permits inequality only where it improves the least advantaged; Nozick attacked from rights, communitarians from the 'unencumbered self'—and political philosophy became a main battlefield again.",
+    "related": [
+      "justice",
+      "veil-of-ignorance",
+      "original-position",
+      "utilitarianism",
+      "political-philosophy",
+      "theory-of-justice"
+    ],
+    "sources": [
+      {
+        "label": "罗尔斯《正义论》§11、§13",
+        "labelEn": "Rawls, A Theory of Justice, §11 and §13",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "tl-kripke",
+    "term": "克里普克《命名与必然性》",
+    "termEn": "Kripke's Naming and Necessity",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 3,
+    "year": 1980,
+    "oneLiner": "后天必然与先天偶然的发现，重启了形而上学与语言的先天计划。",
+    "oneLinerEn": "The discovery of the necessary a posteriori and the contingent a priori reopened metaphysics and the a priori programme in language.",
+    "detail": "严格指示词与因果历史链条取代描述论；「水必然是 H₂O」说明同一性可被经验发现而具必然性。分析／综合的边界从此被广泛质疑。",
+    "detailEn": "Rigid designators and causal-historical chains replace descriptivism; 'water is necessarily H₂O' shows identity can be empirically discovered yet necessary. The analytic/synthetic boundary has been widely doubted since.",
+    "related": [
+      "possible-worlds",
+      "rigid-designator",
+      "analytic",
+      "philosophy-of-language",
+      "a-priori"
+    ],
+    "sources": [
+      {
+        "label": "克里普克《命名与必然性》",
+        "labelEn": "Kripke, Naming and Necessity",
+        "year": 1980
+      }
+    ]
+  }
+]

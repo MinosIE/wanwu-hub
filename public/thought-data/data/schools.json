@@ -80,7 +80,7 @@
     "strengthsEn": ["Clear, implementable institutions", "Effective at state-building"],
     "criticisms": ["纯任刑罚，忽视教化", "权力无制约则走向暴政"],
     "criticismsEn": ["Neglects moral education", "Unchecked power turns tyrannical"],
-    "related": ["confucianism", "mohism", "hanfei"],
+    "related": ["confucianism", "mohism", "tl-hobbes", "xingshan-hobbes-compare"],
     "sources": [{ "label": "《韩非子》" }]
   },
   {
@@ -101,7 +101,7 @@
     "strengthsEn": ["Profound analysis of suffering and attachment", "A practicable path"],
     "criticisms": ["「无我」「空」易被误读为虚无", "与世俗政治伦理衔接较弱"],
     "criticismsEn": ["Emptiness easily misread as nihilism", "Weak link to political ethics"],
-    "related": ["taoism", "nagajuna"],
+    "related": ["taoism", "sunyata", "bundle-self-compare"],
     "sources": [{ "label": "《中论》", "year": 150 }]
   },
   {
@@ -164,7 +164,7 @@
     "strengthsEn": ["Builds real resilience", "Immediately applicable"],
     "criticisms": ["对 injustices 倾向忍耐而非改变", "情感被压抑殆尽"],
     "criticismsEn": ["Tends to endure rather than reform", "Flirts with emotional suppression"],
-    "related": ["epicureanism", "marcus"],
+    "related": ["ataraxia", "marcus", "fatalism-vs-determinism"],
     "sources": [{ "label": "《沉思录》", "year": 180 }]
   },
   {

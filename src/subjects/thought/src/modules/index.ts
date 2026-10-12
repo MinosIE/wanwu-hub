@@ -54,6 +54,46 @@ export const MODULES: ModuleDef[] = [
     priority: 1,
     load: () => import("./thinkers"),
   },
+  {
+    id: "m-glossary",
+    key: "glossary",
+    icon: "📖",
+    file: "glossary.json",
+    priority: 1,
+    load: () => import("./glossary"),
+  },
+  {
+    id: "m-timeline",
+    key: "timeline",
+    icon: "🕰️",
+    file: "timeline.json",
+    priority: 1,
+    load: () => import("./timeline"),
+  },
+  {
+    id: "m-experiments",
+    key: "experiments",
+    icon: "🧪",
+    file: "experiments.json",
+    priority: 2,
+    load: () => import("./experiments"),
+  },
+  {
+    id: "m-compare",
+    key: "compare",
+    icon: "🌉",
+    file: "compare.json",
+    priority: 2,
+    load: () => import("./compare"),
+  },
+  {
+    id: "m-myths",
+    key: "myths",
+    icon: "🧯",
+    file: "myths.json",
+    priority: 2,
+    load: () => import("./myths"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

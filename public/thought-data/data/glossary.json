@@ -1,0 +1,590 @@
+[
+  {
+    "id": "syllogism",
+    "term": "三段论",
+    "termEn": "Syllogism",
+    "category": "逻辑学",
+    "categoryEn": "Logic",
+    "level": 1,
+    "def": "由两个前提必然推出结论的演绎形式：大前提含谓项，小前提含主项，中项在两前提中起桥梁作用而不进入结论。",
+    "defEn": "A deductive form in which a conclusion follows necessarily from two premises: the major premise contains the predicate, the minor the subject, and the middle term links them without appearing in the conclusion.",
+    "plain": "「所有人都会死；苏格拉底是人；所以苏格拉底会死。」只要前提真、形式对，结论就不可能为假。",
+    "plainEn": "\"All humans are mortal; Socrates is human; so Socrates is mortal.\" If the premises are true and the form valid, the conclusion cannot be false.",
+    "related": ["logic", "validity", "aristotle"],
+    "sources": [
+      {
+        "label": "亚里士多德《前分析篇》",
+        "labelEn": "Aristotle, Prior Analytics",
+        "year": -350
+      }
+    ]
+  },
+  {
+    "id": "validity",
+    "term": "有效性与真",
+    "termEn": "Validity vs Truth",
+    "category": "逻辑学",
+    "categoryEn": "Logic",
+    "level": 2,
+    "def": "有效性是前提与结论之间的形式关系：不可能前提真而结论假。真是命题的属性。二者不同层面，可组合出「有效但前提假」的论证。",
+    "defEn": "Validity is a formal relation between premises and conclusion: it is impossible for the premises to be true and the conclusion false. Truth belongs to propositions. The two differ in level, so an argument can be valid yet have false premises.",
+    "plain": "论证「好不好的标准是形式是否保真，而不是听起来是否有道理」。",
+    "plainEn": "A good argument preserves truth by its form, not by how plausible it sounds.",
+    "related": ["logic", "syllogism", "gettier-case"],
+    "sources": [
+      {
+        "label": "弗雷格《概念文字》",
+        "labelEn": "Frege, Begriffsschrift",
+        "year": 1879
+      }
+    ]
+  },
+  {
+    "id": "possible-worlds",
+    "term": "可能世界",
+    "termEn": "Possible Worlds",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 3,
+    "def": "处理模态语义的技术工具：「必然」即在所有可能世界中为真，「可能」即在某个可能世界中为真。世界是完备的状态描述，而非遥远星系。",
+    "defEn": "A device for modal semantics: 'necessary' means true in every possible world, 'possible' means true in some world. Worlds are complete ways things could be, not distant galaxies.",
+    "plain": "把「本可以怎样」拆成「在某个可行的剧本里怎样」，让必然与偶然可被精确定义。",
+    "plainEn": "It turns 'it could have been otherwise' into 'in some admissible script it is so', letting necessity and chance be defined exactly.",
+    "related": ["metaphysics", "reality", "rigid-designator"],
+    "sources": [
+      {
+        "label": "克里普克《命名与必然性》",
+        "labelEn": "Kripke, Naming and Necessity",
+        "year": 1980
+      }
+    ]
+  },
+  {
+    "id": "a-priori",
+    "term": "先验与后验",
+    "termEn": "A Priori / A Posteriori",
+    "category": "认识论",
+    "categoryEn": "Epistemology",
+    "level": 2,
+    "def": "按证成途径划分：不依赖经验即可证成的为先天，须依赖观察的为后天。与「分析/综合」的按意义划分不同，二者可错位。",
+    "defEn": "A divide by justification: known independently of experience is a priori; known through observation is a posteriori. It differs from the analytic/synthetic split by meaning, and the two can come apart.",
+    "plain": "「单身汉是未婚的」既先验又分析；康德认为「7+5=12」与因果原理是先天综合判断。",
+    "plainEn": "\"Bachelors are unmarried\" is both a priori and analytic; Kant took '7+5=12' and causality to be synthetic a priori.",
+    "related": ["epistemology", "knowledge", "kant", "hume"],
+    "sources": [
+      {
+        "label": "康德《纯粹理性批判》",
+        "labelEn": "Kant, Critique of Pure Reason",
+        "year": 1781
+      }
+    ]
+  },
+  {
+    "id": "tabula-rasa",
+    "term": "白板说",
+    "termEn": "Tabula Rasa",
+    "category": "认识论",
+    "categoryEn": "Epistemology",
+    "level": 1,
+    "def": "心灵最初如空板，一切观念来自经验：感觉提供简单观念，反省对其加工组合。用于反对天赋观念论。",
+    "defEn": "The mind begins as an empty slate; all ideas come from experience—sensation supplies simple ideas, reflection works them up. Aimed against innate ideas.",
+    "plain": "「没有天生的原则，只有后来写进去的内容。」",
+    "plainEn": "\"No inborn principles, only what experience later writes in.\"",
+    "related": ["empiricism", "rationalism", "descartes", "locke", "knowledge"],
+    "sources": [
+      {
+        "label": "洛克《人类理解论》",
+        "labelEn": "Locke, An Essay Concerning Human Understanding",
+        "year": 1689
+      }
+    ]
+  },
+  {
+    "id": "epoché",
+    "term": "悬搁与还原",
+    "termEn": "Epoché / Reduction",
+    "category": "现象学",
+    "categoryEn": "Phenomenology",
+    "level": 3,
+    "def": "对世界是否存在「加括号」不作判断，转向描述现象如何向我显现；再经由本质还原，把握意识结构的不变要素。",
+    "defEn": "The natural attitude is 'bracketed'—no judgment on whether the world exists—and attention turns to how things appear; eidetic reduction then grasps invariant structures of consciousness.",
+    "plain": "不是怀疑世界，而是先搁置「它是否真实」，专心得知「它如何被给予我」。",
+    "plainEn": "Not doubting the world but setting 'is it real?' aside in order to see exactly how it is given to me.",
+    "related": ["phenomenology", "intentionality", "mind-body"],
+    "sources": [{ "label": "胡塞尔《观念 I》", "labelEn": "Husserl, Ideas I", "year": 1913 }]
+  },
+  {
+    "id": "thing-in-itself",
+    "term": "物自体",
+    "termEn": "Thing in Itself",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 3,
+    "def": "认识受感性形式与范畴限制，我们所知者皆为显象；「物自身」指未被认识条件加工的对象，可思而不可知。",
+    "defEn": "Cognition is bounded by forms of sensibility and categories, so what we know are appearances; the noumenon is the object apart from those conditions—thinkable but unknowable.",
+    "plain": "它划出认识的边界，也为自由、道德留出不可被理论消化的位置。",
+    "plainEn": "It marks the limit of knowledge and reserves room for freedom and morality beyond theoretical grasp.",
+    "related": ["kant", "epistemology", "reality", "platonism"],
+    "sources": [
+      {
+        "label": "康德《纯粹理性批判》",
+        "labelEn": "Kant, Critique of Pure Reason",
+        "year": 1781
+      }
+    ]
+  },
+  {
+    "id": "determinism-compatibilism",
+    "term": "决定论与相容论",
+    "termEn": "Determinism & Compatibilism",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 2,
+    "def": "决定论主张给定过去与法则，未来唯一。相容论认为这与自由意志可并存——关键在行为是否出于自身的欲求与理性反思，而非是否本可不同。",
+    "defEn": "Determinism: given the past and the laws, only one future. Compatibilists hold this is consistent with free will—what matters is acting from one's own desires and reflective endorsement, not bare ability to do otherwise.",
+    "plain": "「无法避开」与「被人推着走」不是一回事。",
+    "plainEn": "\"Could not have avoided it\" is not the same as \"was pushed into it.\"",
+    "related": ["free-will", "fatalism-vs-determinism", "frankfurt-case", "stoicism"],
+    "sources": [
+      {
+        "label": "休谟《人性论》第二卷",
+        "labelEn": "Hume, A Treatise of Human Nature, Book 2",
+        "year": 1739
+      }
+    ]
+  },
+  {
+    "id": "substance",
+    "term": "实体",
+    "termEn": "Substance",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 3,
+    "def": "不依存于他物而独立存在者，属性的承载者。亚里士多德以个体为第一实体；斯宾诺莎只承认一个实体（神或自然）；洛克则承认「我不知道它是什么」的支撑。",
+    "defEn": "That which exists independently and bears properties. Aristotle took individuals to be primary substances; Spinoza admitted only one substance (God or Nature); Locke confessed we do not know what this support is.",
+    "plain": "追问「苹果红了、凉了、甜了——那个『红凉甜』共同挂靠的东西是什么？」",
+    "plainEn": "It asks: the apple is red, cool, sweet—what do these properties all hang on?",
+    "related": ["aristotelianism", "metaphysics", "spinoza", "reality"],
+    "sources": [
+      {
+        "label": "亚里士多德《范畴篇》",
+        "labelEn": "Aristotle, Categories",
+        "year": -350
+      }
+    ]
+  },
+  {
+    "id": "supervenience",
+    "term": "随附性",
+    "termEn": "Supervenience",
+    "category": "心灵哲学",
+    "categoryEn": "Philosophy of Mind",
+    "level": 3,
+    "def": "高层属性随附于低层：不可能在物理层面完全相同而心理层面有所差异。它描述依赖关系，本身并未说明如何依赖。",
+    "defEn": "Higher-level properties supervene on lower ones: no mental difference without a physical difference. This describes dependence without explaining how it works.",
+    "plain": "「复制一份完全相同的大脑，就必须复制完全相同的心。」",
+    "plainEn": "\"Duplicate the brain exactly and you must duplicate the mind exactly.\"",
+    "related": ["mind-body", "philosophy-of-mind", "qualia", "twin-earth"],
+    "sources": [
+      {
+        "label": "戴维森《心灵、身体与物》",
+        "labelEn": "Davidson, Mental Events",
+        "year": 1970
+      }
+    ]
+  },
+  {
+    "id": "qualia",
+    "term": "感受质",
+    "termEn": "Qualia",
+    "category": "心灵哲学",
+    "categoryEn": "Philosophy of Mind",
+    "level": 2,
+    "def": "经验的现象质感——「像什么」的那一面：红的样子、苦的味道。是否可被物理描述穷尽，是当代心物之争的核心。",
+    "defEn": "The felt quality of experience—what it is like: the look of red, the taste of bitter. Whether physical description can exhaust them is the crux of the mind-body debate.",
+    "plain": "别人知道你看到红色的波长，却不知道你看到红色是什么感觉。",
+    "plainEn": "Others know the wavelength you see; they do not know what seeing red is like for you.",
+    "related": ["mind-body", "marys-room", "philosophical-zombie"],
+    "sources": [
+      {
+        "label": "内格尔《成为蝙蝠是什么感觉》",
+        "labelEn": "Nagel, What Is It Like to Be a Bat?",
+        "year": 1974
+      }
+    ]
+  },
+  {
+    "id": "intentionality",
+    "term": "意向性",
+    "termEn": "Intentionality",
+    "category": "心灵哲学",
+    "categoryEn": "Philosophy of Mind",
+    "level": 3,
+    "def": "心理状态总是「关于」某物的指向性：我相信下雨、我希望假期、我害怕狗。布伦塔诺以此作为心智的标志。",
+    "defEn": "Mental states are inherently 'about' something: I believe it is raining, hope for a holiday, fear the dog. Brentano took this directedness to mark the mental.",
+    "plain": "念头自带箭头，指向对象——哪怕对象不存在（我害怕的龙并不存在）。",
+    "plainEn": "Thoughts carry arrows aimed at objects—even nonexistent ones (the dragon I fear need not exist).",
+    "related": ["philosophy-of-mind", "phenomenology", "epoché"],
+    "sources": [
+      {
+        "label": "布伦塔诺《从经验观点出发的心理学》",
+        "labelEn": "Brentano, Psychology from an Empirical Standpoint",
+        "year": 1874
+      }
+    ]
+  },
+  {
+    "id": "categorical-imperative",
+    "term": "绝对命令",
+    "termEn": "Categorical Imperative",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 2,
+    "def": "无条件的道德律令，其公式包括：可普遍化（只按你同时愿意它成为普遍法则的准则行动）与人是目的（永远不只把人当作手段）。",
+    "defEn": "An unconditional moral law, formulated as universalizability (act only on maxims you could will as universal law) and humanity as an end (never treat persons merely as means).",
+    "plain": "检验方法：设想你的做法成为人人必行的规矩，看它是否自我拆台。",
+    "plainEn": "The test: imagine your rule made universal law and see whether it collapses.",
+    "related": ["kant", "ethics", "good-evil", "moral-realism", "groundwork"],
+    "sources": [
+      {
+        "label": "康德《道德形而上学奠基》",
+        "labelEn": "Kant, Groundwork of the Metaphysics of Morals",
+        "year": 1785
+      }
+    ]
+  },
+  {
+    "id": "eudaimonia",
+    "term": "幸福（繁盛）",
+    "termEn": "Eudaimonia",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 1,
+    "def": "不是情绪愉悦，而是「活得好」的整体评价：合乎德性的现实活动，贯穿完整一生。古典德性伦理的终极目的。",
+    "defEn": "Not a feeling but an overall evaluation of living well: activity in accordance with virtue over a complete life. The final end of classical virtue ethics.",
+    "plain": "「一辈子过得怎么样」的答案，而不是「此刻开不开心」的报告。",
+    "plainEn": "An answer to 'how did the life go', not a report on 'am I pleased right now'.",
+    "related": ["aristotle", "nicomachean", "ethics", "stoicism"],
+    "sources": [
+      {
+        "label": "亚里士多德《尼各马可伦理学》",
+        "labelEn": "Aristotle, Nicomachean Ethics",
+        "year": -340
+      }
+    ]
+  },
+  {
+    "id": "ataraxia",
+    "term": "宁静",
+    "termEn": "Ataraxia",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 2,
+    "def": "不受扰动的心灵状态。伊壁鸠鲁以消除对神与死的恐惧达成；斯多亚以区分可控与不可控达成；怀疑论者以悬搁判断达成。",
+    "defEn": "Untroubledness of mind. Epicurus sought it by removing fear of gods and death; the Stoics by distinguishing what is and is not up to us; sceptics by suspending judgment.",
+    "plain": "三种相反的方法通向同一体检指标：不被无法掌控之事牵着走。",
+    "plainEn": "Three different routes, one same check-up: not being dragged around by what you cannot control.",
+    "related": ["stoicism", "ethics", "eudaimonia"],
+    "sources": [
+      {
+        "label": "爱比克泰德《手册》",
+        "labelEn": "Epictetus, Encheiridion",
+        "year": 125
+      }
+    ]
+  },
+  {
+    "id": "utility",
+    "term": "效用",
+    "termEn": "Utility",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 1,
+    "def": "行为带来福祉的度量。边沁以强度、持久、范围等要素计算「最大多数人的最大幸福」；密尔引入快乐的质的高下。",
+    "defEn": "A measure of welfare produced by an act. Bentham quantified it by intensity, duration, extent and more, aiming at the greatest happiness of the greatest number; Mill introduced quality of pleasures.",
+    "plain": "把道德判断变成一道可比较后果的算术题——争议正在「可通约」这一假设。",
+    "plainEn": "It turns moral judgment into arithmetic over consequences—the dispute lies in assuming commensurability.",
+    "related": ["utilitarianism", "mill", "ethics", "experience-machine", "justice"],
+    "sources": [
+      {
+        "label": "边沁《道德与立法原理导论》",
+        "labelEn": "Bentham, An Introduction to the Principles of Morals and Legislation",
+        "year": 1789
+      }
+    ]
+  },
+  {
+    "id": "veil-of-ignorance",
+    "term": "无知之幕",
+    "termEn": "Veil of Ignorance",
+    "category": "政治哲学",
+    "categoryEn": "Political Philosophy",
+    "level": 2,
+    "def": "在设计制度时屏蔽自己的阶级、天赋、信仰与性别处境，从而迫使选择对最不利者亦能接受的规则。",
+    "defEn": "Behind a veil that hides one's class, talents, faith and gender, parties must choose rules acceptable even to the least advantaged.",
+    "plain": "「不知道自己会抽到哪张牌」时定下的规则，才敢说公正。",
+    "plainEn": "Rules made without knowing which card you will draw are the ones you can call fair.",
+    "related": [
+      "justice",
+      "theory-of-justice",
+      "original-position",
+      "political-philosophy"
+    ],
+    "sources": [
+      {
+        "label": "罗尔斯《正义论》",
+        "labelEn": "Rawls, A Theory of Justice",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "two-liberties",
+    "term": "消极自由与积极自由",
+    "termEn": "Negative & Positive Liberty",
+    "category": "政治哲学",
+    "categoryEn": "Political Philosophy",
+    "level": 2,
+    "def": "消极自由是「无人干涉」的空间；积极自由是「我能主宰」的能力。贡斯特与伯林指出，后者易被「真实的自我」名义强行推行。",
+    "defEn": "Negative liberty is freedom from interference; positive liberty is capacity for self-mastery. Constant and Berlin warned the latter is easily imposed in the name of one's 'real self'.",
+    "plain": "「没人拦我」与「我有条件去做」是两件事，也可能被政治地利用。",
+    "plainEn": "\"Nobody stops me\" and \"I am able to do it\" differ—and the second is politically exploitable.",
+    "related": ["justice", "political-philosophy", "mill", "wuwei-vs-liberty"],
+    "sources": [
+      {
+        "label": "伯林《两种自由概念》",
+        "labelEn": "Berlin, Two Concepts of Liberty",
+        "year": 1958
+      }
+    ]
+  },
+  {
+    "id": "falsifiability",
+    "term": "可证伪性",
+    "termEn": "Falsifiability",
+    "category": "科学哲学",
+    "categoryEn": "Philosophy of Science",
+    "level": 2,
+    "def": "波普尔划定的分界标准：科学理论必须禁止某些观察出现，因而原则上可被经验反驳。确证不算数，可否证才算数。",
+    "defEn": "Popper's demarcation criterion: a scientific theory must forbid certain observations and so be refutable in principle. Confirmation counts for little; falsifiability counts.",
+    "plain": "「什么都能解释」的理论其实什么都没解释。",
+    "plainEn": "A theory that can explain anything has explained nothing.",
+    "related": ["philosophy-of-science", "induction", "hume", "paradigm"],
+    "sources": [
+      {
+        "label": "波普尔《科学发现的逻辑》",
+        "labelEn": "Popper, The Logic of Scientific Discovery",
+        "year": 1934
+      }
+    ]
+  },
+  {
+    "id": "paradigm",
+    "term": "范式与科学革命",
+    "termEn": "Paradigm & Revolution",
+    "category": "科学哲学",
+    "categoryEn": "Philosophy of Science",
+    "level": 2,
+    "def": "共同体共享的模型、标准与世界观。常规科学在范式内解题；反常累积引发危机，再经革命转向不可通约的新范式。",
+    "defEn": "A community's shared models, standards and worldview. Normal science solves puzzles inside it; accumulating anomalies trigger crisis and a revolution to an incommensurable new paradigm.",
+    "plain": "科学并非匀速进步，而是换眼镜——换完之后看见的世界不同。",
+    "plainEn": "Science advances not smoothly but by changing lenses—afterwards the world looks different.",
+    "related": ["philosophy-of-science", "falsifiability", "reality"],
+    "sources": [
+      {
+        "label": "库恩《科学革命的结构》",
+        "labelEn": "Kuhn, The Structure of Scientific Revolutions",
+        "year": 1962
+      }
+    ]
+  },
+  {
+    "id": "rigid-designator",
+    "term": "严格指示词",
+    "termEn": "Rigid Designator",
+    "category": "语言哲学",
+    "categoryEn": "Philosophy of Language",
+    "level": 3,
+    "def": "在所有可能世界中都指称同一对象的名字。因此「晨星是昏星」是后天发现的同一句，而非同义反复——反驳了描述论的命名观。",
+    "defEn": "A name that refers to the same object in every possible world. Hence 'Hesperus is Phosphorus' is a discovered identity, not a tautology—against the descriptivist theory of names.",
+    "plain": "名字直接钩住对象，而不靠一串描述来转接。",
+    "plainEn": "A name hooks the object directly, not via a relay of descriptions.",
+    "related": ["philosophy-of-language", "possible-worlds", "wittgenstein", "twin-earth"],
+    "sources": [
+      {
+        "label": "克里普克《命名与必然性》",
+        "labelEn": "Kripke, Naming and Necessity",
+        "year": 1980
+      }
+    ]
+  },
+  {
+    "id": "speech-act",
+    "term": "言语行为",
+    "termEn": "Speech Act",
+    "category": "语言哲学",
+    "categoryEn": "Philosophy of Language",
+    "level": 2,
+    "def": "说话即在做事：陈述、承诺、命令各有以言行事之力与以言取效之果，且依赖程序与语境条件是否适切。",
+    "defEn": "To speak is to act: asserting, promising, ordering each carry illocutionary force and perlocutionary effect, and depend on felicity conditions in procedure and context.",
+    "plain": "「我保证」不是描述一个心理状态，而是当场立下一件事。",
+    "plainEn": "\"I promise\" does not describe a feeling; it performs a commitment on the spot.",
+    "related": ["philosophy-of-language", "zhengming-speech-act"],
+    "sources": [
+      {
+        "label": "奥斯汀《如何以言行事》",
+        "labelEn": "Austin, How to Do Things with Words",
+        "year": 1962
+      }
+    ]
+  },
+  {
+    "id": "liangzhi",
+    "term": "良知与致良知",
+    "termEn": "Liangzhi (Innate Knowing)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "def": "心学主张道德判断能力本自具足，不假外求；「致」是把此知如实推扩到具体事务上，故知与行本为一功。",
+    "defEn": "The School of Mind holds moral discernment to be self-sufficient, not sought outside; 'extending' it applies that knowing faithfully to affairs, so knowing and acting are one work.",
+    "plain": "不是「知道就该做到」，而是真知处即是行——未到行者只是未知。",
+    "plainEn": "Not 'if you know, do it', but that genuine knowing is already acting; failure shows the knowing was never there.",
+    "related": ["wangyangming", "confucianism", "chuanxilu", "good-evil", "moral-realism"],
+    "sources": [
+      {
+        "label": "王阳明《传习录》",
+        "labelEn": "Wang Yangming, Instructions for Practical Living",
+        "year": 1518
+      }
+    ]
+  },
+  {
+    "id": "gewu",
+    "term": "格物致知",
+    "termEn": "Investigating Things",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "def": "《大学》八条目之一。朱熹解为即物穷理，逐事累积以通贯；阳明解为正心之事，于念头上去私欲存天理——同一句话引出理学与心学两条路径。",
+    "defEn": "A step in the Great Learning. Zhu Xi read it as investigating each thing until principle interpenetrates; Wang Yangming as rectifying one's affairs of mind, removing desire on the level of thought—one phrase, two roads: Learning of Principle and Learning of Mind.",
+    "plain": "知识的入口在外部事物还是在意念的动机？宋明儒争了几百年。",
+    "plainEn": "Does learning enter through external things or through the motive of one's thought? Neo-Confucians argued this for centuries.",
+    "related": ["zhu-xi", "wangyangming", "epistemology", "li-ritual"],
+    "sources": [
+      {
+        "label": "朱熹《大学章句》",
+        "labelEn": "Zhu Xi, Annotations on the Great Learning",
+        "year": 1190
+      }
+    ]
+  },
+  {
+    "id": "li-ritual",
+    "term": "理与礼",
+    "termEn": "Li (Principle) and Li (Ritual)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 3,
+    "def": "「理」是宋明儒的形上根据：事物所以然之则与所当然之则合一；「礼」是其人间节文，规范秩序由外而内塑造人格。",
+    "defEn": "'Principle' (li) is the Neo-Confucian ground: what a thing must be and what one ought to do coincide. 'Ritual' (li) is its human articulation, ordering conduct and shaping character from outside in.",
+    "plain": "一个词同时是宇宙论与伦理学：规矩既是天地的纹理，也是人伦的分寸。",
+    "plainEn": "One word is both cosmology and ethics: the pattern is the weave of the world and the measure of human relations.",
+    "related": ["zhu-xi", "confucianism", "xuanxue", "li-natural-law-compare", "legalism"],
+    "sources": [
+      {
+        "label": "程颢、程颐《二程遗书》",
+        "labelEn": "Cheng Yi & Cheng Hao, Collected Writings of the Two Chengs",
+        "year": 1100
+      }
+    ]
+  },
+  {
+    "id": "wuwei",
+    "term": "无为",
+    "termEn": "Wuwei (Non-Action)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 1,
+    "def": "不强为、不妄为：顺应事态自身的纹理而成事。治国的无为是减少干预以自化，修身的无为是去除造作的用力。",
+    "defEn": "Not forcing, not forcing outcomes: acting along the grain of the situation. In governance it means less interference so people self-organise; in cultivation, the absence of strained effort.",
+    "plain": "不是躺平，而是「使不上劲的地方别硬使」。",
+    "plainEn": "Not lying flat, but not pushing where pushing does not belong.",
+    "related": ["taoism", "laozi", "zhuangzi", "wuwei-vs-liberty", "dao-name"],
+    "sources": [{ "label": "《道德经》", "labelEn": "Daodejing", "year": -400 }]
+  },
+  {
+    "id": "dao-name",
+    "term": "道与名",
+    "termEn": "Dao and Ming (Naming)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "def": "「道可道，非常道；名可名，非常名」：可言说、可定名的只是有限的截取，作为根源的道超出既定概念。名家与儒家则从另一侧追问名与实的对应。",
+    "defEn": "'The dao that can be spoken is not the constant dao; names that can be named are not constant names.' What can be said and fixed is a finite cut; the generative dao exceeds settled concepts. Meanwhile the School of Names and the Confucians ask, from the other side, about name-thing correspondence.",
+    "plain": "一边提醒语言有其上限，一边坚持语言要负责对齐现实。",
+    "plainEn": "One side warns that language has a ceiling; the other insists language must answer to reality.",
+    "related": [
+      "laozi",
+      "daodejing",
+      "mingjia",
+      "ming-universal-compare",
+      "dao-logos-compare"
+    ],
+    "sources": [
+      { "label": "《道德经》第一章", "labelEn": "Daodejing, ch. 1", "year": -400 },
+      {
+        "label": "公孙龙《白马论》",
+        "labelEn": "Gongsun Long, On the White Horse",
+        "year": -250
+      }
+    ]
+  },
+  {
+    "id": "qiwu",
+    "term": "齐物与是非之辩",
+    "termEn": "Qiwu (Equalizing Things)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 3,
+    "def": "庄子指出是非判定皆立于「成心」——各执一端的是非无终极裁判（「三以是实非」的辩者困境），故以「道枢」「两行」化解而非取胜。",
+    "defEn": "Zhuangzi argues disputes rest on a fixed mind (chengxin): partizan right-and-wrong has no final arbiter (the regress in the Mohist dialectic chapter), so one resolves rather than wins, via the 'hinge of dao' and 'letting both run'.",
+    "plain": "不是「什么都对」，而是看清评判本身所处的位置。",
+    "plainEn": "Not 'anything goes', but seeing where the judging itself stands.",
+    "related": ["zhuangzi", "taoism", "mohism", "knowledge", "qiwu-perspectivism-compare"],
+    "sources": [{ "label": "《庄子·齐物论》", "labelEn": "Zhuangzi, Qiwulun", "year": -300 }]
+  },
+  {
+    "id": "zhongyong",
+    "term": "中庸",
+    "termEn": "Zhongyong (Centrality and Pliability)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "def": "非折中平均，而是「时中」：在具体情境中作出无过无不及的恰切回应，需持续校正，故曰「君子而时中」。",
+    "defEn": "Not averaging but 'timely centrality': responding in each situation without excess or deficiency, requiring constant correction—the exemplary person hits the mean at the right time.",
+    "plain": "不是找中间值，而是在当下拿捏恰当的分寸。",
+    "plainEn": "Not a midpoint on a scale, but the right measure here and now.",
+    "related": ["confucianism", "kongzi", "aristotle", "eudaimonia", "zhongyong-vs-mean"],
+    "sources": [{ "label": "《中庸》", "labelEn": "Doctrine of the Mean", "year": -300 }]
+  },
+  {
+    "id": "sunyata",
+    "term": "空性与无自性",
+    "termEn": "Śūnyatā",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 3,
+    "def": "龙树中观：诸法缘起，故无独立自性；「空」本身亦空，不落「有」「无」两边，是对本体论承诺的系统撤除。",
+    "defEn": "Nāgārjuna's Madhyamaka: things arise dependently and so lack intrinsic nature; emptiness is itself empty, avoiding both existence and non-existence—a systematic withdrawal of ontological commitments.",
+    "plain": "不是「什么都没有」，而是「没有一样东西能独自成立」。",
+    "plainEn": "Not 'nothing exists', but 'nothing exists on its own'.",
+    "related": ["buddhism", "metaphysics", "reality", "bundle-self-compare", "death"],
+    "sources": [
+      {
+        "label": "龙树《中论》",
+        "labelEn": "Nāgārjuna, Mūlamadhyamakakārikā",
+        "year": 150
+      }
+    ]
+  }
+]

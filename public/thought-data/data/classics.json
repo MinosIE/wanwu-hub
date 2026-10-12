@@ -284,7 +284,7 @@
     ],
     "influence": "重启规范政治哲学，成为现代福利与宪政讨论的基准框架。",
     "influenceEn": "Revived normative political philosophy and became the benchmark for welfare and constitutional debate.",
-    "related": ["justice", "utilitarianism", "rawls", "kantian"],
+    "related": ["justice", "utilitarianism", "tl-rawls", "kantian"],
     "sources": [{ "label": "《正义论》", "year": 1971 }]
   },
   {

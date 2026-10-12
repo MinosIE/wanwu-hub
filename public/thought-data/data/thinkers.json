@@ -749,7 +749,7 @@
         "qEn": "Life has a limit; knowledge has none."
       }
     ],
-    "related": ["taoism", "laozi", "xuanxue", "zhuangzi-book", "mingjia"],
+    "related": ["taoism", "laozi", "xuanxue", "qiwu", "mingjia", "butterfly-dream"],
     "sources": [{ "label": "《庄子》" }]
   },
   {
@@ -797,7 +797,7 @@
         "qEn": "The people are weightiest; the state comes next; the ruler is lightest."
       }
     ],
-    "related": ["confucianism", "kongzi", "lunyu", "xunzi", "mengzi-book"],
+    "related": ["confucianism", "kongzi", "lunyu", "good-evil", "tl-mengzi-xunzi"],
     "sources": [{ "label": "《孟子》" }]
   },
   {
