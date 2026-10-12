@@ -1,4 +1,4 @@
-// econ 派生数据重建：由 16 个模块 JSON 生成 search.json（搜索索引）+ related.json（跨模块相关条目索引）。
+// econ 派生数据重建：由 17 个模块 JSON 生成 search.json（搜索索引）+ related.json（跨模块相关条目索引）。
 // 输出格式与消费端约定完全一致：
 //   search.json 条目：{ m, id, t, n, x, nEn, xEn }（t = "search.t.<type>"；x/xEn 为多字段空格拼接的摘要）
 //   related.json：{ <id>: [ { m, n, nEn }, ... ] }（同一 id 可跨模块，按模块顺序入桶）
@@ -135,6 +135,22 @@ const MODULES = [
       P.s("what", "whatEn"),
       P.s("why", "whyEn"),
       P.s("impact", "impactEn"),
+    ],
+  },
+  {
+    file: "bubbles",
+    m: "m-bubbles",
+    t: "bubble",
+    name: NAME.title,
+    parts: [
+      P.s("yearLabel", "yearLabelEn"),
+      P.s("category", "categoryEn"),
+      P.s("lead", "leadEn"),
+      P.s("story", "storyEn"),
+      P.obj("trick", "k", "v", "kEn", "vEn"),
+      P.arr("signal", "signalEn"),
+      P.s("cost", "costEn"),
+      P.s("lesson", "lessonEn"),
     ],
   },
   {

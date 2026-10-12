@@ -1,12 +1,12 @@
 # Economics of Everything
 
-> A bilingual, ad-free educational site explaining economics in plain language: core concepts, glossary, macro, micro, money and finance, thinkers, schools of thought, economic history, behavioral economics, game theory, trade, everyday economics, charts, myths, a quiz and cross-country comparisons. All data are structured JSON with paired English fields (`*En`). Nothing here is investment advice.
+> A bilingual, ad-free educational site explaining economics in plain language: core concepts, glossary, macro, micro, money and finance, thinkers, schools of thought, economic history, notorious scams and bubbles, behavioral economics, game theory, trade, everyday economics, charts, myths, a quiz and cross-country comparisons. All data are structured JSON with paired English fields (`*En`). Nothing here is investment advice.
 
 ## Data endpoints
 - [Overview and counts](https://minosie.github.io/wanwu-hub/econ-data/data/overview.json): entry counts and home-page KPIs
 - [Core concepts](https://minosie.github.io/wanwu-hub/econ-data/data/concepts.json) | [Glossary](https://minosie.github.io/wanwu-hub/econ-data/data/glossary.json)
 - [Macroeconomics](https://minosie.github.io/wanwu-hub/econ-data/data/macro.json) | [Microeconomics](https://minosie.github.io/wanwu-hub/econ-data/data/micro.json) | [Money & finance](https://minosie.github.io/wanwu-hub/econ-data/data/money.json)
-- [Thinkers](https://minosie.github.io/wanwu-hub/econ-data/data/thinkers.json) | [Schools of thought](https://minosie.github.io/wanwu-hub/econ-data/data/schools.json) | [Economic History](https://minosie.github.io/wanwu-hub/econ-data/data/events.json)
+- [Thinkers](https://minosie.github.io/wanwu-hub/econ-data/data/thinkers.json) | [Schools of thought](https://minosie.github.io/wanwu-hub/econ-data/data/schools.json) | [Economic History](https://minosie.github.io/wanwu-hub/econ-data/data/events.json) | [Scams & Bubbles](https://minosie.github.io/wanwu-hub/econ-data/data/bubbles.json)
 - [Behavioral economics](https://minosie.github.io/wanwu-hub/econ-data/data/behavioral.json) | [Game theory](https://minosie.github.io/wanwu-hub/econ-data/data/gametheory.json) | [Trade](https://minosie.github.io/wanwu-hub/econ-data/data/trade.json)
 - [Everyday economics](https://minosie.github.io/wanwu-hub/econ-data/data/everyday.json) | [Charts](https://minosie.github.io/wanwu-hub/econ-data/data/charts.json)
 - [Myths](https://minosie.github.io/wanwu-hub/econ-data/data/myths.json) | [Quiz](https://minosie.github.io/wanwu-hub/econ-data/data/quiz.json) | [Compare](https://minosie.github.io/wanwu-hub/econ-data/data/compare.json)
@@ -23,6 +23,7 @@
 - Thinkers
 - Schools of Thought
 - Economic History
+- Scams & Bubbles
 - Behavioral Economics
 - Game Theory
 - Trade & Globalization
@@ -72,22 +73,54 @@
 
 ## Economic History at a glance
 - **1602 — Founding of the Dutch East India Company** (Netherlands): The first multinational joint-stock company to issue publicly tradable shares was founded.
+- **c. 1760–1840 — The Industrial Revolution** (Britain): Steam engines, mechanized textiles and iron shifted production from workshops to factories, and output per person first escaped long-run stagnation.
 - **1776 — The Wealth of Nations Is Published** (United Kingdom): Adam Smith set out division of labour, market mechanisms and free trade, founding economics as a discipline.
 - **1825 — The First Modern Economic Crisis** (United Kingdom): Speculative investment and credit expansion collapsed abruptly, banks failed and unemployment and bankruptcies rose together.
 - **1870s — The Classical Gold Standard Takes Shape** (Europe and North America): Major economies pegged their currencies to gold, creating a de facto fixed-rate system.
 - **1929 — The Great Depression** (United States → global): After the crash, credit contracted and banks failed in chains; global output and prices fell deeply and unemployment soared.
+- **1933–1939 — The New Deal** (United States): Amid the Depression, the federal government expanded through public works, financial repair, social security and regulation, testing demand-management fiscal policy.
 - **1936 — The General Theory Is Published** (United Kingdom): Keynes argued insufficient aggregate demand causes persistent unemployment, and macroeconomics was born.
 - **1944 — The Bretton Woods System Is Established** (New Hampshire, USA): A fixed-rate system pegged the dollar to gold and other currencies to the dollar, with the IMF and World Bank created.
 - **1971 — The Nixon Shock: the Dollar Leaves Gold** (United States): The United States suspended dollar convertibility into gold, destroying the fixed-rate basis of Bretton Woods.
 - **1973 — The First Oil Shock** (Middle East → global): An oil embargo and a multi-fold price rise hit industrial economies with inflation and stagnation at once.
 - **1979–1982 — The Volcker Disinflation** (United States): The Federal Reserve raised policy rates towards 20%, accepting a deep two-year recession to break inflation.
+- **c. 1979–1990 — The Neoliberal Turn** (UK & US): Thatcher and Reagan pushed privatization, deregulation, tax cuts and inflation control; the state retreated as the market advanced.
 - **1985 — The Plaza Accord** (New York, USA): Five countries jointly intervened in currency markets, driving a sharp depreciation of the dollar against the yen and mark.
+- **1987 — Black Monday** (United States / global): On 19 October 1987 the Dow Jones fell 22.6 percent in a single session, its largest one-day percentage drop since the First World War, as markets worldwide collapsed together and Hong Kong suspended trading for a week.
+- **1989–1991 — Japan's Bubble Burst** (Japan): Equities and land ballooned after the Plaza Accord, then burst in 1989–1991, plunging Japan into a 'lost decade' of low growth and deflation.
+- **1992 — Black Wednesday: Soros Breaks the Bank of England** (United Kingdom / Europe): On 16 September 1992 sterling was forced out of the Exchange Rate Mechanism and devalued sharply. The Bank of England raised rates twice in one day and spent billions defending the parity and still lost, while Soros's Quantum Fund made roughly USD 1 billion and earned the label 'the man who broke the Bank of England'.
 - **1997 — The Asian Financial Crisis** (Southeast Asia → East Asia): Currencies and asset prices collapsed, short-term foreign debt could not be rolled over and countries sought international rescue.
+- **1998 — The Russian Default and Ruble Crisis** (Russia): On 17 August 1998 Russia widened the ruble's trading band, suspended payment on part of its domestic short-term government paper (GKO) and restructured external debt. The de facto default triggered a global flight to quality: risk premia blew out, equities fell worldwide and leveraged hedge funds were pierced.
+- **1999 (notes 2002) — The Launch of the Euro** (European Union): Several states launched economic and monetary union on one currency, erasing exchange-rate risk but handing monetary policy to a single ECB.
 - **2008 — The Global Financial Crisis** (United States → global): Subprime defaults crashed mortgage securities, major institutions failed or were rescued, and global credit markets froze.
+- **2010-2012 — The Eurozone Sovereign Debt Crisis** (Eurozone): From 2010 Greece, Ireland and Portugal requested external bailouts while Spanish and Italian bond yields were pushed to unsustainable levels; Greece went through three official programmes and a 2012 debt restructuring, and in July 2012 ECB President Draghi steadied expectations with his pledge to do 'whatever it takes' within the mandate.
+- **2010 — The Flash Crash** (United States): On the afternoon of 6 May 2010 US equities plunged over roughly thirty-six minutes, the S&P 500 fell nearly nine percent at the trough, blue chips such as Procter & Gamble traded momentarily near one dollar, and most of the move then reversed; a single large algorithmic sell order was identified as the trigger.
+- **2015 — The SNB Drops the Euro Floor** (Switzerland): On 15 January 2015 the Swiss National Bank abruptly scrapped the EUR/CHF 1.20 floor it had defended since September 2011 and cut its excess-reserve rate to minus 0.75 percent. The franc surged more than twenty percent intraday, inflicting heavy losses on the global currency market and on leveraged retail clients.
 - **2020 — The Pandemic Shock and Unprecedented Easing** (Global): Supply and demand halted together, and governments launched unprecedented fiscal transfers and asset purchases.
 - **2022–2024 — The Global Inflation Surge and Rapid Hiking** (Global): Inflation hit multi-decade highs in many countries and major central banks hiked at historic speed, pressuring valuations and housing.
+- **2022 — Britain's Mini-Budget Bond Storm** (United Kingdom): On 23 September 2022 the government announced a large package of unfunded tax cuts that had not been assessed by the Office for Budget Responsibility. Long-dated gilt yields spiked, sterling hit a record low, pension schemes using liability-driven investing were forced to sell gilts, the Bank of England launched emergency purchases, the flagship measures were reversed within days, and the Prime Minister left office two months later.
+- **2023 — The Collapse of Silicon Valley Bank** (United States): On 10 March 2023 Silicon Valley Bank was seized by California regulators, then the second-largest bank failure in US history. Depositors had withdrawn about USD 42 billion in forty-eight hours; the bank held long-duration Treasuries and mortgage-backed securities sitting on unrealised losses after rapid rate hikes, without a stable core deposit base or interest-rate hedges.
 - **1978 — China Launches Reform and Opening Up** (China): Beginning with household responsibility, special economic zones and gradually relaxing controls on prices, trade and foreign investment, China shifted from a centrally planned economy toward the market.
 - **2001 — China Joins the World Trade Organization** (China): After fifteen years of negotiations, China acceded to the WTO, committing to steep tariff cuts and reduced non-tariff barriers.
+- **2015 — China Stock Market Turbulence** (China): After the Shanghai Composite peaked at 5178 on 12 June 2015 it fell about thirty percent in three weeks, with repeated sessions in which a thousand stocks hit the down limit. The crackdown on off-exchange margin lending triggered forced liquidation; the state then cut stamp duty, paused new listings and mobilised broker funds to stabilise the market.
+
+## Scams & bubbles at a glance
+- **1637 — Tulip Mania** (Speculative bubble, level 1): A single bulb was priced like an Amsterdam canal house — the first asset bubble on full historical record.
+- **1720 — The South Sea Bubble** (Speculative bubble, level 1): A company that swapped government debt for equity lifted its share price eightfold in six months — and turned Newton's portfolio into a lesson.
+- **1889 — The Panama Canal Scandal** (State-scale fraud, level 2): The canal was never finished, but the fraud was: the savings of hundreds of thousands of French households and the liquidation of a star company.
+- **1920 — The Original Ponzi Scheme** (Ponzi and pyramid schemes, level 1): Paying older investors with newer money: Charles Ponzi gave an old trick his own name.
+- **1980 — The Hunt Brothers Silver Squeeze** (Market manipulation, level 2): The limit experiment of buying an entire commodity: silver quintupled in six months and halved in a day.
+- **1995 — The Fall of Barings Bank** (Control failure and leverage, level 2): A 233-year-old bank that held the Queen's account was brought down by one of its own traders and a hidden ledger.
+- **1998 — The Collapse of Long-Term Capital Management** (Control failure and leverage, level 3): The 'smart money' fronted by two Nobel laureates nearly took the global banking system down in the week its model did not foresee.
+- **1995-2000 — The Dot-com Bubble** (Speculative bubble, level 1): Eyeballs replaced the income statement: a collective advance drawdown on the internet's future.
+- **2001 — The Enron Scandal** (Accounting fraud, level 2): Book expected future profits today and move the losses off balance sheet: the self-confirming loop of 'America's most innovative company'.
+- **2001 — The Yinguangxia Fraud** (Accounting fraud, level 1): 'The most profitable exporter' built its share price on forged customs forms and contracts — and produced some of the first investor lawsuits in the A-share market.
+- **2008 — The Madoff Ponzi Scheme** (Ponzi and pyramid schemes, level 1): Sixty-five billion dollars of book assets turned out to be a difference in a ledger.
+- **2012 — The LIBOR Rigging Scandal** (Market manipulation, level 2): The benchmark behind trillions of dollars of contracts turned out to be a daily quote that a handful of banks chose to submit.
+- **2019 — The PlusToken Ponzi Scheme** (Ponzi and pyramid schemes, level 1): A 'wallet tool' repackaged as mining arbitrage, using multi-tier rebates to reproduce Ponzi's acceleration curve.
+- **2020 — The Wirecard Collapse** (Accounting fraud, level 2): A payments firm in Germany's blue-chip index reported EUR 1.9 billion of cash that simply did not exist.
+- **2022 — The Terra/LUNA Collapse** (Speculative bubble, level 2): Stabilising one token with another: once redemptions began, the peg mechanism itself became the engine of the fall.
+- **2022 — FTX and the Missing Customer Funds** (Ponzi and pyramid schemes, level 1): Exchange, proprietary trading firm, house token and philanthropic narrative in one system — with USD 8 billion of customer money used to bet.
 
 ## Usage and reuse
 

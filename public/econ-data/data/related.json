@@ -891,6 +891,13 @@
       "nEn": "Founding of the Dutch East India Company"
     }
   ],
+  "industrial-revolution": [
+    {
+      "m": "m-events",
+      "n": "工业革命",
+      "nEn": "The Industrial Revolution"
+    }
+  ],
   "wealth-of-nations": [
     {
       "m": "m-events",
@@ -917,6 +924,13 @@
       "m": "m-events",
       "n": "大萧条",
       "nEn": "The Great Depression"
+    }
+  ],
+  "new-deal-1933": [
+    {
+      "m": "m-events",
+      "n": "罗斯福新政",
+      "nEn": "The New Deal"
     }
   ],
   "general-theory": [
@@ -947,11 +961,25 @@
       "nEn": "The First Oil Shock"
     }
   ],
+  "reform-opening-1978": [
+    {
+      "m": "m-events",
+      "n": "中国改革开放启动",
+      "nEn": "China Launches Reform and Opening Up"
+    }
+  ],
   "volcker-shock": [
     {
       "m": "m-events",
       "n": "沃尔克紧缩",
       "nEn": "The Volcker Disinflation"
+    }
+  ],
+  "neoliberal-turn-1980": [
+    {
+      "m": "m-events",
+      "n": "新自由主义转向",
+      "nEn": "The Neoliberal Turn"
     }
   ],
   "plaza-accord": [
@@ -961,6 +989,27 @@
       "nEn": "The Plaza Accord"
     }
   ],
+  "black-monday-1987": [
+    {
+      "m": "m-events",
+      "n": "黑色星期一",
+      "nEn": "Black Monday"
+    }
+  ],
+  "japan-bubble-1991": [
+    {
+      "m": "m-events",
+      "n": "日本泡沫破裂",
+      "nEn": "Japan's Bubble Burst"
+    }
+  ],
+  "black-wednesday-1992": [
+    {
+      "m": "m-events",
+      "n": "黑色星期三：索罗斯做空英镑",
+      "nEn": "Black Wednesday: Soros Breaks the Bank of England"
+    }
+  ],
   "asian-crisis": [
     {
       "m": "m-events",
@@ -968,11 +1017,60 @@
       "nEn": "The Asian Financial Crisis"
     }
   ],
+  "russia-default-1998": [
+    {
+      "m": "m-events",
+      "n": "俄罗斯债务违约与卢布危机",
+      "nEn": "The Russian Default and Ruble Crisis"
+    }
+  ],
+  "euro-1999": [
+    {
+      "m": "m-events",
+      "n": "欧元启动",
+      "nEn": "The Launch of the Euro"
+    }
+  ],
+  "china-wto-2001": [
+    {
+      "m": "m-events",
+      "n": "中国加入世界贸易组织",
+      "nEn": "China Joins the World Trade Organization"
+    }
+  ],
   "gfc-2008": [
     {
       "m": "m-events",
       "n": "全球金融危机",
       "nEn": "The Global Financial Crisis"
+    }
+  ],
+  "euro-debt-crisis-2010": [
+    {
+      "m": "m-events",
+      "n": "欧元区主权债务危机",
+      "nEn": "The Eurozone Sovereign Debt Crisis"
+    }
+  ],
+  "flash-crash-2010": [
+    {
+      "m": "m-events",
+      "n": "闪电崩盘",
+      "nEn": "The Flash Crash"
+    }
+  ],
+  "china-stock-volatility-2015": [
+    {
+      "m": "m-events",
+      "n": "2015 年中国股市异常波动",
+      "nEn": "The 2015 China Stock Market Turbulence"
+    }
+  ],
+  "snb-depeg-2015": [
+    {
+      "m": "m-events",
+      "n": "瑞士央行放弃欧元汇率下限",
+      "nEn": "The SNB Drops the Euro Floor"
     }
   ],
   "covid-shock": [
@@ -989,53 +1087,130 @@
       "nEn": "The Global Inflation Surge and Rapid Hiking"
     }
   ],
-  "reform-opening-1978": [
+  "uk-mini-budget-2022": [
     {
       "m": "m-events",
-      "n": "中国改革开放启动",
-      "nEn": "China Launches Reform and Opening Up"
+      "n": "英国「迷你预算」与国债风暴",
+      "nEn": "Britain's Mini-Budget Bond Storm"
     }
   ],
-  "china-wto-2001": [
+  "svb-collapse-2023": [
     {
       "m": "m-events",
-      "n": "中国加入世界贸易组织",
-      "nEn": "China Joins the World Trade Organization"
+      "n": "硅谷银行倒闭",
+      "nEn": "The Collapse of Silicon Valley Bank"
     }
   ],
-  "industrial-revolution": [
+  "tulip-mania": [
     {
-      "m": "m-events",
-      "n": "工业革命",
-      "nEn": "The Industrial Revolution"
+      "m": "m-bubbles",
+      "n": "郁金香泡沫",
+      "nEn": "Tulip Mania"
     }
   ],
-  "new-deal-1933": [
+  "south-sea": [
     {
-      "m": "m-events",
-      "n": "罗斯福新政",
-      "nEn": "The New Deal"
+      "m": "m-bubbles",
+      "n": "南海泡沫",
+      "nEn": "The South Sea Bubble"
     }
   ],
-  "neoliberal-turn-1980": [
+  "panama-canal-1889": [
     {
-      "m": "m-events",
-      "n": "新自由主义转向",
-      "nEn": "The Neoliberal Turn"
+      "m": "m-bubbles",
+      "n": "巴拿马运河公司丑闻",
+      "nEn": "The Panama Canal Scandal"
     }
   ],
-  "japan-bubble-1991": [
+  "ponzi-1920": [
     {
-      "m": "m-events",
-      "n": "日本泡沫破裂",
-      "nEn": "Japan's Bubble Burst"
+      "m": "m-bubbles",
+      "n": "庞氏骗局原型",
+      "nEn": "The Original Ponzi Scheme"
     }
   ],
-  "euro-1999": [
+  "silver-squeeze-1980": [
     {
-      "m": "m-events",
-      "n": "欧元启动",
-      "nEn": "The Launch of the Euro"
+      "m": "m-bubbles",
+      "n": "亨特兄弟白银操纵案",
+      "nEn": "The Hunt Brothers Silver Squeeze"
+    }
+  ],
+  "barings-1995": [
+    {
+      "m": "m-bubbles",
+      "n": "巴林银行倒闭",
+      "nEn": "The Fall of Barings Bank"
+    }
+  ],
+  "ltcm-1998": [
+    {
+      "m": "m-bubbles",
+      "n": "长期资本管理公司崩盘",
+      "nEn": "The Collapse of Long-Term Capital Management"
+    }
+  ],
+  "dot-com-2000": [
+    {
+      "m": "m-bubbles",
+      "n": "互联网泡沫",
+      "nEn": "The Dot-com Bubble"
+    }
+  ],
+  "enron-2001": [
+    {
+      "m": "m-bubbles",
+      "n": "安然财务造假案",
+      "nEn": "The Enron Scandal"
+    }
+  ],
+  "yinguangxia-2001": [
+    {
+      "m": "m-bubbles",
+      "n": "银广夏财务造假案",
+      "nEn": "The Yinguangxia Fraud"
+    }
+  ],
+  "madoff-2008": [
+    {
+      "m": "m-bubbles",
+      "n": "麦道夫庞氏骗局",
+      "nEn": "The Madoff Ponzi Scheme"
+    }
+  ],
+  "libor-2012": [
+    {
+      "m": "m-bubbles",
+      "n": "LIBOR 利率操纵丑闻",
+      "nEn": "The LIBOR Rigging Scandal"
+    }
+  ],
+  "plustoken-2019": [
+    {
+      "m": "m-bubbles",
+      "n": "PlusToken 传销式资金盘",
+      "nEn": "The PlusToken Ponzi Scheme"
+    }
+  ],
+  "wirecard-2020": [
+    {
+      "m": "m-bubbles",
+      "n": "沃思兰德假账案",
+      "nEn": "The Wirecard Collapse"
+    }
+  ],
+  "terra-luna-2022": [
+    {
+      "m": "m-bubbles",
+      "n": "Terra/LUNA 算法稳定币崩盘",
+      "nEn": "The Terra/LUNA Collapse"
+    }
+  ],
+  "ftx-2022": [
+    {
+      "m": "m-bubbles",
+      "n": "FTX 与客户资金挪用",
+      "nEn": "FTX and the Missing Customer Funds"
     }
   ],
   "prospect-theory": [

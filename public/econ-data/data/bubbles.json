@@ -1,0 +1,1200 @@
+[
+  {
+    "id": "tulip-mania",
+    "y": 1637,
+    "yearLabel": "1637",
+    "yearLabelEn": "1637",
+    "title": "郁金香泡沫",
+    "titleEn": "Tulip Mania",
+    "category": "投机泡沫",
+    "categoryEn": "Speculative bubble",
+    "level": 1,
+    "icon": "🌷",
+    "lead": "一颗球茎的标价抵得上阿姆斯特丹一栋运河房 —— 史上第一个被完整记录的资产泡沫。",
+    "leadEn": "A single bulb was priced like an Amsterdam canal house — the first asset bubble on full historical record.",
+    "story": "郁金香约 16 世纪从奥斯曼帝国传入荷兰，带条纹的稀有品种（实为病毒所致）成了身份象征。1634 年起交易从花本身转向「未来交割的合同」，酒馆里连夜拍卖，价格两年内翻了数十倍，史称「风交易」——钱只在纸上换手，球茎从未出土。1637 年 2 月哈勒姆一场拍卖流拍，信用两周内崩塌，成交价跌到峰值的百分之几。",
+    "storyEn": "Tulips reached the Netherlands from the Ottoman Empire in the 16th century; striped bulbs (actually a virus) became status symbols. From 1634 trading shifted from flowers to forward contracts, with nightly tavern auctions lifting prices dozens of times over two years — the 'wind trade', where paper changed hands but bulbs stayed in the ground. When a Haarlem auction found no bidder in February 1637, confidence collapsed within a fortnight and prices fell to a few percent of the peak.",
+    "trick": [
+      {
+        "k": "稀缺是被叙述出来的",
+        "kEn": "Scarcity was narrated, not real",
+        "v": "「稀有品种」无法稳定繁殖，供给故事完全靠话术维持。",
+        "vEn": "The 'rare strains' could not be propagated reliably; supply was pure story."
+      },
+      {
+        "k": "期货把杠杆前置",
+        "kEn": "Futures front-loaded leverage",
+        "v": "球茎还没挖出来就已转手数次，买家押的是「下家会接」。",
+        "vEn": "Bulbs changed hands several times before being dug up; buyers bet on a greater fool."
+      },
+      {
+        "k": "身份焦虑参与定价",
+        "kEn": "Status anxiety set the price",
+        "v": "许多买主不懂花，只是不能错过被谈论的资格。",
+        "vEn": "Many buyers knew nothing about flowers but could not afford to be left out of the conversation."
+      }
+    ],
+    "signal": [
+      "交易对象从资产变成合同本身，几乎没人关心交割",
+      "涨价的唯一理由是「它一直在涨」",
+      "开始有人用「这次不一样」来解释估值"
+    ],
+    "signalEn": [
+      "Trading shifts from the asset to the contract, with little interest in delivery",
+      "The only reason prices rise is that they have been rising",
+      "'This time is different' appears as a valuation argument"
+    ],
+    "cost": "价格从峰值回落到个位数百分比。值得注意的是：现代研究（Goldgar, 2007）显示当时荷兰法庭允许买方支付少量违约金解约，全国经济与银行体系并未崩溃，「全民倾家荡产」更多是后世小册子的放大。真正被记住的是价格曲线本身。",
+    "costEn": "Prices collapsed to a fraction of the peak. Modern scholarship (Goldgar, 2007) shows Dutch courts let buyers exit for a small penalty and that neither the national economy nor the banks were wrecked — the 'ruined nation' story was largely later pamphleteering. What survived was the price curve.",
+    "lesson": "泡沫的伤害不在价格回落，而在人们把回落之前借来的钱当成了本金。",
+    "lessonEn": "The damage of a bubble is not the fall in price but the habit of treating borrowed money, spent before the fall, as principal.",
+    "related": [
+      "bubbles-crises",
+      "herding-effect",
+      "overconfidence",
+      "prospect-theory"
+    ],
+    "sources": [
+      {
+        "label": "查尔斯·麦凯《大癫狂：非同寻常的大众幻想与群众性癫狂》",
+        "labelEn": "Charles Mackay, Extraordinary Popular Delusions and the Madness of Crowds",
+        "year": 1841
+      },
+      {
+        "label": "Anne Goldgar《Tulipmania: Money, Honor and Knowledge in the Dutch Golden Age》",
+        "labelEn": "Anne Goldgar, Tulipmania: Money, Honor and Knowledge in the Dutch Golden Age",
+        "year": 2007
+      }
+    ]
+  },
+  {
+    "id": "south-sea",
+    "y": 1720,
+    "yearLabel": "1720",
+    "yearLabelEn": "1720",
+    "title": "南海泡沫",
+    "titleEn": "The South Sea Bubble",
+    "category": "投机泡沫",
+    "categoryEn": "Speculative bubble",
+    "level": 1,
+    "icon": "⚓",
+    "lead": "一家靠承接国债换股份的公司，半年内把股价推高八倍，也把牛顿的流动资产变成了教训。",
+    "leadEn": "A company that swapped government debt for equity lifted its share price eightfold in six months — and turned Newton's portfolio into a lesson.",
+    "story": "南海公司 1711 年成立，1720 年向议会提案以自家股票置换英国国债，换取对西班牙属美洲贸易的垄断权（实际船队极少、贸易额可忽略）。公司以贷款给买家购自家股票、并暗示未来巨额分红，股价从 1 月约 128 英镑涨到 6 月的千镑以上。同年 4 月《泡沫法案》限制竞争性股份发行，反而把投机集中到南海一家。8 月起抛售潮开始，年底跌回 100 多英镑，议员与宫廷收受干股的丑闻随之曝光。",
+    "storyEn": "Founded in 1711, the South Sea Company proposed in 1720 to convert British government debt into its own shares in exchange for a monopoly on trade with Spanish America — trade that barely existed. It lent money to buyers of its own stock and hinted at vast dividends; the price rose from about £128 in January to over £1,000 by June. The Bubble Act of April 1720, meant to block rival issues, instead concentrated speculation on the company alone. Selling began in August, shares fell back below £150 by year-end, and the scandal of shares distributed to ministers and courtiers broke open.",
+    "trick": [
+      {
+        "k": "用特许叙事给无法验证的现金流定价",
+        "kEn": "Pricing unverifiable cash flows with a charter",
+        "v": "垄断权是真的，垄断下的利润是空的。",
+        "vEn": "The monopoly was real; the profit under it was not."
+      },
+      {
+        "k": "自融资买盘",
+        "kEn": "Self-financed demand",
+        "v": "公司放贷给客户买自家股票，成交量由自己制造。",
+        "vEn": "The company lent clients money to buy its own shares, manufacturing its own volume."
+      },
+      {
+        "k": "以股代息",
+        "kEn": "Scrip instead of cash dividends",
+        "v": "分红用新股支付，账面「高收益」不需要现金支撑。",
+        "vEn": "Payouts in new stock made 'high yields' possible without cash."
+      },
+      {
+        "k": "立法寻租",
+        "kEn": "Legislative capture",
+        "v": "用干股换取议会的沉默与《泡沫法案》的通过。",
+        "vEn": "Free shares bought parliamentary silence and the Bubble Act."
+      }
+    ],
+    "signal": [
+      "主营收入体量与市值完全不成比例",
+      "立法在为某家公司的垄断让路",
+      "最不该追高的人（包括顶尖科学家）也在追高"
+    ],
+    "signalEn": [
+      "Market value bears no relation to operating revenue",
+      "Legislation is being rewritten to protect one company's monopoly",
+      "Even the people who should know better — including leading scientists — are chasing"
+    ],
+    "cost": "股价从峰值跌去约九成，公司被拆解变卖资产偿债，多名董事逃亡或入狱，财政与宫廷信用受损。据记载牛顿在泡沫早期获利离场、随后追高再亏约两万英镑，留下「我能计算天体的运行，却算不出人性的疯狂」。英国此后一个世纪对股份公司高度警惕，直到 1825 年才放开设立，同时催生了最早的账簿审计与信息披露要求。",
+    "costEn": "Shares lost roughly ninety percent; the company was dismantled and its assets sold to pay creditors, with directors jailed or fled, and public credit damaged. Newton reportedly took an early profit, re-entered near the top, and lost some £20,000, leaving the line about being able to compute the motion of heavenly bodies but not the madness of the people. Britain stayed suspicious of joint-stock companies until 1825, and the scandal produced the earliest demands for audited books and disclosure.",
+    "lesson": "当制度红利被用来替无法验证的现金流定价，监管套利本身就是最大的风险敞口。",
+    "lessonEn": "When a regulatory favour is used to price cash flows nobody can verify, the regulatory arbitrage is itself the largest exposure.",
+    "related": [
+      "bubbles-crises",
+      "market-structure",
+      "information-asymmetry",
+      "herding-effect"
+    ],
+    "sources": [
+      {
+        "label": "Larry Neal《The South Sea Bubble: A Case of Predatory Trading?》",
+        "labelEn": "Larry Neal, The South Sea Bubble: A Case of Predatory Trading?",
+        "year": 1999
+      },
+      {
+        "label": "Paul Daoud《The South Sea Bubble: Money, Politics, and Corruption in Augustan London》",
+        "labelEn": "Paul Daoud, The South Sea Bubble: Money, Politics, and Corruption in Augustan London",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "panama-canal-1889",
+    "y": 1889,
+    "yearLabel": "1889",
+    "yearLabelEn": "1889",
+    "title": "巴拿马运河公司丑闻",
+    "titleEn": "The Panama Canal Scandal",
+    "category": "国家级骗局",
+    "categoryEn": "State-scale fraud",
+    "level": 2,
+    "icon": "🚢",
+    "lead": "运河没修通，先修出了一场金融骗局：数十万法国人的积蓄与一家明星公司的清算。",
+    "leadEn": "The canal was never finished, but the fraud was: the savings of hundreds of thousands of French households and the liquidation of a star company.",
+    "story": "苏伊士运河的缔造者雷赛布带着巨大声望于 1881 年启动巴拿马运河公司，低估了热带疾病、降雨与工程难度。八年过去只完成计划的一小部分，资金却已耗尽。公司为续命向小额储户发行「彩票债」（中签可赎回远高于面值），同时大规模行贿议员、官员与报纸以拖延清算。1888 年停止付息，1889 年 3 月法院裁定清算，1892-1893 年审判定罪，雷赛布被判有罪后因健康获免。运河最终由美国 1904 年接手，1914 年通航。",
+    "storyEn": "Ferdinand de Lesseps, hero of Suez, launched the Panama company in 1881 on immense prestige, underestimating disease, rain and engineering. Eight years later little was built and the cash was gone. To stay alive the company sold lottery bonds to small savers — redeemable at premiums if they won draws — while bribing deputies, officials and newspapers to delay liquidation. Interest stopped in 1888, a court ordered liquidation in March 1889, and trials in 1892-93 convicted de Lesseps, who was excused on health grounds. The United States took over in 1904; the canal opened in 1914.",
+    "trick": [
+      {
+        "k": "声誉充当抵押品",
+        "kEn": "Reputation as collateral",
+        "v": "「苏伊士的成功」被用来替一份没有验证的工程量表背书。",
+        "vEn": "Suez's success endorsed an unverified bill of engineering works."
+      },
+      {
+        "k": "债股不分的彩票债",
+        "kEn": "Debt dressed as a lottery",
+        "v": "面向小额储户用「中奖」话术包装高风险债权。",
+        "vEn": "High-risk paper sold to small savers with 'winning' language."
+      },
+      {
+        "k": "收编批评者",
+        "kEn": "Co-opting the critics",
+        "v": "行贿记者把质疑变成宣传，投资者看不到负面信号。",
+        "vEn": "Bribed press turned doubt into publicity."
+      },
+      {
+        "k": "以再融资掩盖断裂",
+        "kEn": "Refinancing over digging",
+        "v": "新募集的钱用于付息与公关，而不是挖土。",
+        "vEn": "New money paid interest and PR, not excavation."
+      }
+    ],
+    "signal": [
+      "工程进度永远「再融一轮就能收尾」",
+      "募集资金的实际用途是偿债与宣传",
+      "所有批评者在同一时间安静下来"
+    ],
+    "signalEn": [
+      "Progress is always one more raise away from completion",
+      "New capital services old debt and buys publicity",
+      "Every critic falls silent at the same moment"
+    ],
+    "cost": "约十万小额认购者受损，清算后债券只按极低比例兑付；案件拖垮了当时的法国政界，「巴拿马化」（panamiser）进入法语，意为金融欺诈。它同时证明：技术可行的项目，在错误的资本结构与错误的时间表下依然是灾难。",
+    "costEn": "Around 100,000 small subscribers were hurt, with bonds repaid at a fraction of face. The scandal rocked French politics and gave French the verb 'panamiser', meaning to defraud. It also showed that a technically feasible project can still be a disaster under the wrong capital structure and the wrong schedule.",
+    "lesson": "越是「必然成功」的叙事，越要追问谁为延期和超支承担现金责任。",
+    "lessonEn": "The more a story is certain to succeed, the more you should ask who bears the cash cost of delay and overrun.",
+    "related": [
+      "bubbles-crises",
+      "public-goods",
+      "information-asymmetry",
+      "market-structure"
+    ],
+    "sources": [
+      {
+        "label": "David McCullough《The Path Between the Seas》",
+        "labelEn": "David McCullough, The Path Between the Seas",
+        "year": 1977
+      },
+      {
+        "label": "法国巴拿马运河公司审判档案（1892-1893）",
+        "labelEn": "French court archives of the Panama trials, 1892-1893",
+        "year": 1893
+      }
+    ]
+  },
+  {
+    "id": "ponzi-1920",
+    "y": 1920,
+    "yearLabel": "1920",
+    "yearLabelEn": "1920",
+    "title": "庞氏骗局原型",
+    "titleEn": "The Original Ponzi Scheme",
+    "category": "庞氏与资金盘",
+    "categoryEn": "Ponzi and pyramid schemes",
+    "level": 1,
+    "icon": "📮",
+    "lead": "用后手的钱付前手的利息 —— 查尔斯·庞兹给一种老骗术留下了自己的名字。",
+    "leadEn": "Paying older investors with newer money: Charles Ponzi gave an old trick his own name.",
+    "story": "意大利移民庞兹 1920 年在波士顿设立「证券交易公司」，宣称倒卖国际邮政回复券（各国价差套利）可在 90 天内赚 50%，而银行一年只给 4%。数月内约一万五千人投入 1500 万美元。事实上他几乎没有购买票券——要支撑这个规模需要成吨的邮券——回报全部来自新入金。1920 年 7 月《波士顿邮报》质疑流通票券数量，挤兑随即开始，8 月公司倒闭。",
+    "storyEn": "In 1920 the Italian immigrant Charles Ponzi set up the Securities Exchange Company in Boston, promising 50 percent in ninety days by arbitraging international postal reply coupons, against roughly 4 percent a year at the bank. Within months some 15,000 people had put in $15 million. Almost no coupons were ever bought — the scheme's scale would have required tons of them — and all returns came from new deposits. When the Boston Post questioned the number of coupons in circulation in July 1920, runs began and the firm failed that August.",
+    "trick": [
+      {
+        "k": "机制可信、细节保密",
+        "kEn": "Plausible mechanism, secret details",
+        "v": "套利逻辑听起来简单可验证，但从不给外部复现的机会。",
+        "vEn": "The arbitrage sounds simple and checkable, yet is never allowed to be checked."
+      },
+      {
+        "k": "早期准时兑付",
+        "kEn": "Paying the first investors on time",
+        "v": "前几笔利息照付，口碑成为最有效的募资渠道。",
+        "vEn": "Early punctual payouts make word of mouth the fundraising engine."
+      },
+      {
+        "k": "锚定银行利率",
+        "kEn": "Anchoring on the deposit rate",
+        "v": "「比存款高一点但很稳」正好落在最易被接受的风险区间。",
+        "vEn": "'A little above the bank, and very safe' sits in the most acceptable risk band."
+      },
+      {
+        "k": "增长必须加速",
+        "kEn": "Growth must accelerate",
+        "v": "以新还旧的数学结构要求入金指数级扩张。",
+        "vEn": "Paying old money with new requires inflows to compound."
+      }
+    ],
+    "signal": [
+      "收益固定且高，却与市场波动完全无关",
+      "策略无法被外部人复现或核算",
+      "没有独立托管与审计，或审计机构小到没有追责能力",
+      "提现需要「等一等」，而追加投资随时欢迎"
+    ],
+    "signalEn": [
+      "Returns are high, fixed and uncorrelated with any market",
+      "The strategy cannot be replicated or reconciled from outside",
+      "No independent custody or audit, or an auditor too small to matter",
+      "Withdrawals need patience while deposits are always welcome"
+    ],
+    "cost": "按当时币值损失约 2000 万美元，多数投资人只拿回两三成。庞兹 1920 年被捕、1922 年入狱，晚年穷困潦倒。此案直接推动马萨诸塞州立法监管信托与证券发行，是后来美国 1933 年证券法体系的地方前身之一。",
+    "costEn": "Losses of roughly $20 million in period dollars, with most investors recovering only twenty to thirty percent. Ponzi was convicted in 1920 and imprisoned in 1922, dying in poverty. The case pushed Massachusetts to regulate trusts and securities issues, one of the local antecedents of the US 1933 securities regime.",
+    "lesson": "识别庞氏骗局只需一个问题：如果没有新钱进来，收益从哪里来？",
+    "lessonEn": "One question identifies a Ponzi scheme: if no new money arrived, where would the returns come from?",
+    "related": [
+      "bubbles-crises",
+      "interest-rate",
+      "information-asymmetry",
+      "hyperbolic-discounting",
+      "money-creation"
+    ],
+    "sources": [
+      {
+        "label": "Howard Gold《The Secret of Ponzi and His Millionaire Investors》",
+        "labelEn": "Howard Gold, The Secret of Ponzi and His Millionaire Investors",
+        "year": 1987
+      },
+      {
+        "label": "美国联邦调查局（FBI）庞氏骗局特征说明",
+        "labelEn": "FBI guidance on the hallmarks of Ponzi schemes",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "silver-squeeze-1980",
+    "y": 1980,
+    "yearLabel": "1980",
+    "yearLabelEn": "1980",
+    "title": "亨特兄弟白银操纵案",
+    "titleEn": "The Hunt Brothers Silver Squeeze",
+    "category": "市场操纵",
+    "categoryEn": "Market manipulation",
+    "level": 2,
+    "icon": "🥈",
+    "lead": "试图买下整个商品的极限实验：白银半年涨五倍，然后在一天之内腰斩。",
+    "leadEn": "The limit experiment of buying an entire commodity: silver quintupled in six months and halved in a day.",
+    "story": "得州石油富豪亨特兄弟自 1973 年起持续买入白银实物与期货，理由是担忧美元与通胀。到 1979 年底他们及其关联方持有约两亿盎司，占可流通库存的极大比例，银价从约 6 美元涨至 1980 年 1 月 17 日的 49.45 美元。交易所与监管随即出手：多次提高保证金、限制新开仓、修改交割规则，同时沃尔克紧缩令资金成本陡增。3 月 27 日「白银星期四」，银价单日下跌近一半，兄弟的经纪商连环违约。",
+    "storyEn": "From 1973 the Texas oil billionaires Nelson Bunker and William Herbert Hunt bought silver bullion and futures on fears about the dollar and inflation. By late 1979 they and their associates held some 200 million ounces, a dominant share of freely circulating stock, and the price rose from about $6 to $49.45 on 17 January 1980. Exchanges and regulators then moved: margin requirements were raised repeatedly, new positions limited and delivery rules changed, while Volcker's tightening made carry ruinous. On 27 March, 'Silver Thursday', the price fell by nearly half in a session and their brokers failed in sequence.",
+    "trick": [
+      {
+        "k": "控制现货以扭曲期货定价",
+        "kEn": "Cornering the physical to bend the futures",
+        "v": "囤走可交割库存，让空头无法履约，价格被迫按买方逻辑走。",
+        "vEn": "Holding deliverable stock made short delivery impossible, so price followed the corner's logic."
+      },
+      {
+        "k": "杠杆把流动性变成锁仓",
+        "kEn": "Leverage turned liquidity into a lock-in",
+        "v": "保证金借贷放大头寸，一旦提保就没有退路。",
+        "vEn": "Margin borrowing amplified the position until a margin call left no exit."
+      },
+      {
+        "k": "宏观叙事吸引跟风盘",
+        "kEn": "Macro story as bait",
+        "v": "「对冲美元」的说法让追高者以为自己在做配置而非接盘。",
+        "vEn": "'Hedge the dollar' let latecomers believe they were allocating, not catching a falling knife."
+      },
+      {
+        "k": "赌规则不会为自己改变",
+        "kEn": "Betting the rules would not move",
+        "v": "把「交易所不会干预」当成市场事实来定价。",
+        "vEn": "Treating 'the exchange will not intervene' as a market fact."
+      }
+    ],
+    "signal": [
+      "价格与产业真实需求脱钩，而库存向极少数主体集中",
+      "交易所开始针对单一持仓修改规则与保证金",
+      "融资成本上升速度快于浮盈"
+    ],
+    "signalEn": [
+      "Price decouples from industrial demand while inventory concentrates in one hand",
+      "The exchange rewrites rules and margins aimed at a single position",
+      "Financing cost rises faster than the mark-to-market gain"
+    ],
+    "cost": "兄弟财富从约 60 亿美元缩水到不足 10 亿美元，1988 年与美国商品期货交易委员会（CFTC）达成合计逾 10 亿美元的和解与赔偿，此后长期破产程序。美国与英国随后立法与修订规则，限制单一主体持仓规模并强化跨市场监控，「逼仓」从此有了明确的量化工具箱。",
+    "costEn": "The brothers' fortune shrank from roughly $6 billion to under $1 billion; in 1988 they settled with the CFTC for over $1 billion and entered long bankruptcy proceedings. The US and UK then tightened position limits and cross-market surveillance, and the cornering playbook acquired an explicit regulatory counter-toolkit.",
+    "lesson": "操纵的边界不是价格能推多高，而是规则愿意为你改变到什么程度。",
+    "lessonEn": "The limit of a squeeze is not how high price can go but how far the rules will be changed against you.",
+    "related": [
+      "bubbles-crises",
+      "market-structure",
+      "interest-rate",
+      "volcker-shock"
+    ],
+    "sources": [
+      {
+        "label": "美国商品期货交易委员会（CFTC）白银案裁决",
+        "labelEn": "CFTC findings on the silver market case",
+        "year": 1988
+      },
+      {
+        "label": "J. Point O'Hales《The Rise and Fall of the House of Hunt》",
+        "labelEn": "J. Point O'Hales, The Rise and Fall of the House of Hunt",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "id": "barings-1995",
+    "y": 1995,
+    "yearLabel": "1995",
+    "yearLabelEn": "1995",
+    "title": "巴林银行倒闭",
+    "titleEn": "The Fall of Barings Bank",
+    "category": "风控与杠杆",
+    "categoryEn": "Control failure and leverage",
+    "level": 2,
+    "icon": "🏦",
+    "lead": "一家为英国王室开户、存续 233 年的老牌银行，被本行交易员的一个隐藏账户拖到破产。",
+    "leadEn": "A 233-year-old bank that held the Queen's account was brought down by one of its own traders and a hidden ledger.",
+    "story": "尼克·里森在新加坡分行同时负责交易与结算后台，岗位不分离让他可以自行改写成交记录。他把亏损转入一个本应启用的临时清算账户（88888），对外报告为盈利，并以「日经指数套利」名义持续向总部索取保证金。真实头寸是大量卖出日经 225 期货的跨式期权，赌指数不会大幅波动——日常稳定小赢，尾部风险巨大。1995 年 1 月 17 日神户大地震后日经暴跌，账面亏损滚到 8.27 亿英镑，超过银行全部资本金。2 月 26 日英格兰银行安排以 1 英镑的价格把巴林卖给 ING。",
+    "storyEn": "Nick Leeson ran derivatives trading and the settlement back office at Barings' Singapore branch at the same time, an incompatible split of duties that let him rewrite his own trade records. Losses were parked in a dormant clearing account (88888) and reported to London as profit, while he kept drawing margin under the label of Nikkei arbitrage. The real position was the sale of large straddles on Nikkei 225 futures: steady small gains that monetised tail risk. After the Kobe earthquake on 17 January 1995 the index slumped and the hidden loss reached GBP 827 million, more than the bank's entire capital. On 26 February the Bank of England arranged a sale to ING for one pound.",
+    "trick": [
+      {
+        "k": "下注与记账是同一个人",
+        "kEn": "The bettor kept the books",
+        "v": "岗位不分离使亏损可以被无限期隐藏，审计看不到原始凭证。",
+        "vEn": "Incompatible duties let losses stay hidden; audit never saw the primary records."
+      },
+      {
+        "k": "用「待清算」吸收浮亏",
+        "kEn": "A 'pending' account as a sinkhole",
+        "v": "临时账户变成黑洞，每日盈亏由操作者自定义。",
+        "vEn": "A temporary clearing number absorbed losses while daily profit and loss was self-declared."
+      },
+      {
+        "k": "卖尾部换日常小赢",
+        "kEn": "Selling the tail for small income",
+        "v": "卖出跨式的收益分布是高频小赚、低频巨亏，前期报表必然好看。",
+        "vEn": "Short straddles pay often and blow up rarely, so early statements look excellent by construction."
+      },
+      {
+        "k": "以历史盈利豁免追问",
+        "kEn": "Profit history instead of questions",
+        "v": "总部把「他一直赚钱」当成风控结论，而不是待验证的假设。",
+        "vEn": "Head office treated 'he always makes money' as a risk conclusion rather than a hypothesis."
+      }
+    ],
+    "signal": [
+      "明星交易员同时掌握交易与结算权限",
+      "收益来源像卖期权的「稳定小赢」，几乎不亏也说不清赚在哪",
+      "保证金申请不断上升而头寸说明始终含糊",
+      "对账差异长期以「在途」挂账"
+    ],
+    "signalEn": [
+      "A star trader holds both trading and settlement rights",
+      "Returns look like option-selling: consistently small, with no clear source",
+      "Margin calls keep rising while position explanations stay vague",
+      "Reconciliation breaks are parked as 'in transit' for months"
+    ],
+    "cost": "亏损约 14 亿美元，银行 233 年历史终止，约 1200 个客户与慈善信托账户（包括英国王室的账户）转移，600 余名员工失业。案件把「操作风险」推上监管台面：银行随后强制前后台分离、设置独立风控与逐日盯市，衍生品集中清算的呼声也自此升高。",
+    "costEn": "About USD 1.4 billion lost, 233 years of history ended, some 1,200 client and charitable accounts (including the Queen's) transferred and hundreds of staff made redundant. The case put operational risk on the regulatory map: segregation of front and back office, independent risk control and daily mark-to-market became standard, and demands for central clearing of derivatives gained momentum.",
+    "lesson": "让同一个人既下注又记账，等于把风控交给被风控的对象；权限设计比承诺与业绩更值得审查。",
+    "lessonEn": "Letting one person both bet and keep the books hands risk control to the person it should control; permissions are more worth auditing than promises and results.",
+    "related": [
+      "bubbles-crises",
+      "market-structure",
+      "information-asymmetry",
+      "asian-crisis"
+    ],
+    "sources": [
+      {
+        "label": "英格兰银行关于巴林银行倒闭的报告（1995）",
+        "labelEn": "Bank of England report on the collapse of Barings Bank, 1995",
+        "year": 1995
+      },
+      {
+        "label": "尼克·里森《我是怎样搞垮巴林银行的》",
+        "labelEn": "Nick Leeson, Rogue Trader",
+        "year": 1996
+      }
+    ]
+  },
+  {
+    "id": "ltcm-1998",
+    "y": 1998,
+    "yearLabel": "1998",
+    "yearLabelEn": "1998",
+    "title": "长期资本管理公司崩盘",
+    "titleEn": "The Collapse of Long-Term Capital Management",
+    "category": "风控与杠杆",
+    "categoryEn": "Control failure and leverage",
+    "level": 3,
+    "icon": "📐",
+    "lead": "两位诺贝尔奖得主坐镇的「聪明钱」，在模型算不到的那个星期差点拖垮全球银行体系。",
+    "leadEn": "The 'smart money' fronted by two Nobel laureates nearly took the global banking system down in the week its model did not foresee.",
+    "story": "LTCM 于 1994 年由所罗门兄弟的明星交易员梅韦瑟创立，核心团队包括 1997 年获诺贝尔经济学奖的斯科尔斯与默顿。策略是「收敛交易」：买入流动性好的当期国债、做空流动性差的旧券，赚取历史上极稳定的微小价差，并用极高杠杆放大。1997 年基金回报约 40%，40 余亿美元资本支撑着数千亿美元名义头寸。1998 年 8 月 17 日俄罗斯宣布本币债务违约并贬值卢布，全球资金涌向最安全的资产，「价差必然收敛」的历史假设当场失效，基金两个月内亏损约 46%。9 月 23 日，在纽约联储召集下十余家银行注资 36 亿美元接管持仓，避免了连环违约。",
+    "storyEn": "LTCM was founded in 1994 by Salomon Brothers star trader John Meriwether, with a team including 1997 Nobel laureates Myron Scholes and Robert Merton. Its strategy was convergence trading: buy the liquid on-the-run Treasury, sell the illiquid older issue, capture a historically tiny and stable spread, and magnify it with extreme leverage. The fund returned about 40 percent in 1997, running hundreds of billions in notional on roughly USD 4 billion of capital. On 17 August 1998 Russia defaulted on its ruble debt and devalued; capital fled to the safest assets and the assumption that spreads must converge failed outright, with the fund losing about 46 percent in two months. On 23 September, convened by the Federal Reserve Bank of New York, a dozen banks injected USD 3.6 billion of equity to take over the book and avert cascading defaults.",
+    "trick": [
+      {
+        "k": "用历史波动率替代尾部风险",
+        "kEn": "Substituting historical volatility for tail risk",
+        "v": "模型假设价差近似正态、相关稳定，把从未出现的极端当成不会出现的极端。",
+        "vEn": "Assuming near-normal spreads and stable correlations treated the never-seen as the never-to-be-seen."
+      },
+      {
+        "k": "杠杆把小概率变成必然",
+        "kEn": "Leverage turns the improbable into the inevitable",
+        "v": "二三十倍杠杆下，一次四倍标准差的波动就足以清零资本。",
+        "vEn": "At twenty or thirty times capital, one four-sigma move wipes you out."
+      },
+      {
+        "k": "拥挤的同向头寸",
+        "kEn": "Crowded one-way positions",
+        "v": "许多机构做同一笔「无风险」交易，退出时没有对手方。",
+        "vEn": "Everyone held the same 'riskless' trade, so there was no counterparty on exit."
+      },
+      {
+        "k": "以智力信誉为风控背书",
+        "kEn": "Intellectual prestige as a control",
+        "v": "诺奖与名家之名替代了独立压力测试。",
+        "vEn": "Nobel names replaced independent stress testing."
+      }
+    ],
+    "signal": [
+      "名义敞口与资本金的比例远超同业",
+      "收益依赖「历史上从未亏过」的价差，而非可解释的现金流",
+      "危机时相关性趋向于 1：所有对冲同时失效"
+    ],
+    "signalEn": [
+      "Notional exposure far above peers relative to capital",
+      "Returns rest on a spread that 'has never lost', not on explainable cash flow",
+      "In stress, correlations go to one: every hedge fails at once"
+    ],
+    "cost": "基金在 1998 年 9 月至 1999 年间被逐步清盘，投资人损失约 40 亿美元。事件把「太大而不能倒」带进影子金融，推动了场外衍生品保证金、集中清算与系统性风险监管的讨论；也留下经典教训：低波动不等于低风险，而均值回归所需的时间可能长过你的偿付能力。",
+    "costEn": "The fund was unwound between September 1998 and 1999, costing investors about USD 4 billion. The episode carried 'too big to fail' into the shadow financial system and accelerated work on margin for OTC derivatives, central clearing and systemic-risk supervision. It also left the classic lesson: low volatility is not low risk, and mean reversion can take longer than you can stay solvent.",
+    "related": [
+      "bubbles-crises",
+      "interest-rate",
+      "asian-crisis",
+      "gfc-2008",
+      "fx-regimes"
+    ],
+    "lesson": "模型的边界就是它的假设；当收益率的唯一来源是「从没亏过」，你赚的其实是尚未支付的尾部保险费。",
+    "lessonEn": "A model ends where its assumptions do. When the only source of return is 'it has never lost', you are collecting premia on a tail you have not yet paid.",
+    "sources": [
+      {
+        "label": "美国总统工作市场工作组《对冲基金、杠杆与长期资本管理公司的教训》（1999）",
+        "labelEn": "President's Working Group on Financial Markets, Hedge Funds, Leverage and the Lessons of LTCM, 1999",
+        "year": 1999
+      },
+      {
+        "label": "罗杰·洛温斯坦《当聪明反被聪明误》",
+        "labelEn": "Roger Lowenstein, When Genius Failed",
+        "year": 2000
+      }
+    ]
+  },
+  {
+    "id": "dot-com-2000",
+    "y": 2000,
+    "yearLabel": "1995-2000",
+    "yearLabelEn": "1995-2000",
+    "title": "互联网泡沫",
+    "titleEn": "The Dot-com Bubble",
+    "category": "投机泡沫",
+    "categoryEn": "Speculative bubble",
+    "level": 1,
+    "icon": "💻",
+    "lead": "用「眼球数量」替代利润表：一次把互联网的未来提前折现的集体透支。",
+    "leadEn": "Eyeballs replaced the income statement: a collective advance drawdown on the internet's future.",
+    "story": "1995 年浏览器与商用上网普及，公司只要在名字后加「.com」就能获得高定价，风险投资以「烧钱换规模、规模换垄断」为纲。纳斯达克综合指数从 1995 年约 1000 点涨到 2000 年 3 月 10 日的 5048 点，许多公司没有收入、只有「点击量」。1997 年亚洲金融危机后全球流动性收紧，2000 年 3 月起跌势展开，到 2002 年 10 月指数累计跌去约八成，同期大量公司清算，2001 年安然与世通丑闻又击穿了「报表可信」这条底线。",
+    "storyEn": "Consumer browsing took off after 1995; adding '.com' to a name commanded a premium, and venture capital underwrote 'burn cash for scale, scale for monopoly'. The Nasdaq Composite rose from about 1,000 in 1995 to 5,048 on 10 March 2000, while many listed firms had clicks rather than revenue. Tightening liquidity after the 1997 Asian crisis fed the turn: from March 2000 the index fell, by October 2002 about eighty percent below its peak, hundreds of firms were wound up, and the Enron and WorldCom scandals of 2001-02 destroyed the assumption that the accounts were trustworthy.",
+    "trick": [
+      {
+        "k": "以「新范式」废除旧估值",
+        "kEn": "'New paradigm' as a licence to ignore valuation",
+        "v": "市盈率被说成工业时代遗物，代之以「眼球」「GMV」「市销率」。",
+        "vEn": "P/E ratios dismissed as industrial-era relics in favour of eyeballs, GMV and price-to-sales."
+      },
+      {
+        "k": "循环确认收入",
+        "kEn": "Circular revenue",
+        "v": "互联网公司互为广告主与供应商，彼此制造营收。",
+        "vEn": "Dot-com firms advertised on and bought from each other, manufacturing sales."
+      },
+      {
+        "k": "IPO 定价依赖散户情绪",
+        "kEn": "IPO pricing driven by retail euphoria",
+        "v": "承销商既分配额度又持有头寸，激励是抬高首日涨幅。",
+        "vEn": "Underwriters allocated allotments while holding positions, rewarded for first-day pops."
+      },
+      {
+        "k": "把资本开支写成增长故事",
+        "kEn": "Capex narrated as a moat",
+        "v": "带宽与服务器投入被叙述为「护城河」而非成本。",
+        "vEn": "Spending on bandwidth and servers was framed as defence, not cost."
+      }
+    ],
+    "signal": [
+      "估值指标与现金创造能力彻底脱钩",
+      "最优秀的人不再做产品，而做路演",
+      "「传统分析已经失效」成为主流话术"
+    ],
+    "signalEn": [
+      "Valuation metrics decouple entirely from cash generation",
+      "The best people stop building products and start doing roadshows",
+      "'Traditional analysis no longer applies' becomes the consensus line"
+    ],
+    "cost": "纳斯达克自峰值最大回撤约 78%，数万亿美元市值蒸发，大量公司清零，2000-2002 年美股连续三年负收益。但泡沫并非全无用：铺下的光纤、数据中心与支付物流基础设施在随后十年被以极低价格使用，亚马逊、eBay 等活下来的公司确实兑现了部分叙事。",
+    "costEn": "Nasdaq fell about 78 percent from its peak, trillions in market value disappeared, many firms went to zero, and US equities produced three straight negative years. The bubble was not merely waste: the fibre, data centres and payment and logistics infrastructure it built were used cheaply for the next decade, and survivors such as Amazon and eBay delivered much of the story.",
+    "lesson": "方向正确不等于价格正确 —— 好技术与坏投资完全可以同时成立。",
+    "lessonEn": "Being right about the direction is not being right about the price: good technology and bad investment can coexist.",
+    "related": [
+      "bubbles-crises",
+      "economic-growth",
+      "herding-effect",
+      "overconfidence",
+      "gfc-2008"
+    ],
+    "sources": [
+      {
+        "label": "美联储与纳斯达克公开历史数据（1995-2002）",
+        "labelEn": "Public historical data from the Federal Reserve and Nasdaq, 1995-2002",
+        "year": 2002
+      },
+      {
+        "label": "Jean-Paul Rodrigue《The Economics of the Dot-com Bubble》",
+        "labelEn": "Jean-Paul Rodrigue, The Economics of the Dot-com Bubble",
+        "year": 2001
+      }
+    ]
+  },
+  {
+    "id": "enron-2001",
+    "y": 2001,
+    "yearLabel": "2001",
+    "yearLabelEn": "2001",
+    "title": "安然财务造假案",
+    "titleEn": "The Enron Scandal",
+    "category": "财务造假",
+    "categoryEn": "Accounting fraud",
+    "level": 2,
+    "icon": "⚡",
+    "lead": "把未来的预期收益当期入账，再用表外公司把亏损搬走：一家「最具创新力公司」的自证循环。",
+    "leadEn": "Book expected future profits today and move the losses off balance sheet: the self-confirming loop of 'America's most innovative company'.",
+    "story": "安然从天然气管道商转型为能源交易与轻资产平台，1992 年起采用盯市会计，允许把长期合同的估计未来利润在签约当期一次性确认。估计由内部模型给出，事后几乎无人复核；偏差则通过一系列特殊目的实体（LJM、Chewco、Raptor 等）转移，债务与亏损留在表外。2000 年加州电力危机中，安然交易员留下用「Ricochet」「Megawatt Burn-off」等手法人为制造稀缺的通信记录。2001 年 10 月公司披露 6 亿美元股东权益减记，11 月《休斯敦纪事报》持续追问关联交易，12 月 2 日申请破产。",
+    "storyEn": "Enron turned from a gas pipeline business into an energy-trading, asset-light platform. From 1992 it used mark-to-market accounting, letting estimated future profits on long contracts be recognised in the quarter of signing. The estimates came from internal models that almost nobody re-checked, and shortfalls were pushed into special-purpose entities (LJM, Chewco, Raptors), leaving debt and losses off balance sheet. During the 2000 California electricity crisis, Enron traders left records of engineering scarcity under names such as 'Ricochet' and 'Megawatt Burn-off'. In October 2001 the company wrote down USD 600 million of equity, in November the Houston Chronicle kept pressing on related-party deals, and on 2 December it filed for bankruptcy.",
+    "trick": [
+      {
+        "k": "盯市会计把预期变成收入",
+        "kEn": "Mark-to-market turned expectations into revenue",
+        "v": "合同一签就确认多年利润，报表先于现金，假设无人复核。",
+        "vEn": "Years of profit booked on signing, ahead of cash, on unaudited assumptions."
+      },
+      {
+        "k": "表外实体承接亏损",
+        "kEn": "Off-balance-sheet parking of losses",
+        "v": "用合伙结构隐藏负债与减值，利润留在表内。",
+        "vEn": "Partnerships absorbed impairments and debt while profits stayed on the books."
+      },
+      {
+        "k": "审计与咨询同属一家",
+        "kEn": "One firm for audit and consulting",
+        "v": "安达信同时收取高额咨询费，独立性被利益覆盖。",
+        "vEn": "Andersen's consulting fees overwhelmed its independence."
+      },
+      {
+        "k": "评级与叙事互相支撑",
+        "kEn": "Ratings and narrative propping each other up",
+        "v": "「创新公司」的声誉让质疑者显得不懂业务。",
+        "vEn": "The 'innovator' reputation made scepticism look like ignorance."
+      }
+    ],
+    "signal": [
+      "利润持续高于经营现金流，两者长期背离",
+      "大量关联交易与结构复杂的表外实体，披露语焉不详",
+      "高管频繁减持而对外强调信心",
+      "审计师同时是最大的咨询供应商"
+    ],
+    "signalEn": [
+      "Reported profit persistently exceeds operating cash flow",
+      "A thicket of related-party and off-balance-sheet vehicles with thin disclosure",
+      "Executives sell shares while telling the market to be confident",
+      "The auditor is also the biggest consulting supplier"
+    ],
+    "cost": "安然股东权益蒸发约 740 亿美元，两万余名员工失业，部分人的退休账户因持有公司股票而一并受损；安达信解体，五大会计师事务所变成四大。美国 2002 年通过《萨班斯-奥克斯利法案》：要求行政长官亲自签署财报、管理层评估内部控制（第 404 条）、限制审计与咨询同体，并强化举报人保护。",
+    "costEn": "Some USD 74 billion of shareholder value vanished, more than 20,000 people lost jobs, and employees whose retirement accounts held Enron stock were hit twice. Arthur Andersen collapsed and the Big Five became the Big Four. The Sarbanes-Oxley Act of 2002 required personal certification of accounts by executives, management assessment of internal controls (Section 404), limits on combining audit with consulting, and stronger whistleblower protection.",
+    "lesson": "当会计政策允许把未来折现到今天，就必须有人为未来的假设负责；否则造假不需要伪造现金，只需要修改模型。",
+    "lessonEn": "If accounting lets you discount the future into today, someone must own the assumptions; otherwise fraud needs no forged cash, only a changed model.",
+    "related": [
+      "information-asymmetry",
+      "market-structure",
+      "bubbles-crises",
+      "dot-com-2000",
+      "gfc-2008"
+    ],
+    "sources": [
+      {
+        "label": "安然破产案法院调查（2002-2003）",
+        "labelEn": "Court-ordered investigation of the Enron bankruptcy, 2002-2003",
+        "year": 2003
+      },
+      {
+        "label": "美国《萨班斯-奥克斯利法案》（2002）",
+        "labelEn": "Sarbanes-Oxley Act of 2002",
+        "year": 2002
+      }
+    ]
+  },
+  {
+    "id": "yinguangxia-2001",
+    "y": 2001,
+    "yearLabel": "2001",
+    "yearLabelEn": "2001",
+    "title": "银广夏财务造假案",
+    "titleEn": "The Yinguangxia Fraud",
+    "category": "财务造假",
+    "categoryEn": "Accounting fraud",
+    "level": 1,
+    "icon": "🧪",
+    "lead": "「最会赚钱的出口公司」靠伪造报关单与出口合同撑起股价，也撑出了 A 股早期的投资者维权诉讼。",
+    "leadEn": "'The most profitable exporter' built its share price on forged customs forms and contracts — and produced some of the first investor lawsuits in the A-share market.",
+    "story": "银广夏 1990 年代借壳一家宁夏葡萄酒厂上市，2000 年前后主打「超临界二氧化碳萃取」产品出口，宣称毛利极高、订单来自德国等欧洲客户。1999 至 2000 年公司通过伪造报关单与销售合同虚增利润合计约 7.45 亿元，2000 年每股收益被报为 0.51 元，股价一年之内上涨数倍，被部分机构称为「中国绩优股典范」。2001 年 8 月《财经》杂志发表调查报道，指出其客户所在地、银行收汇与报关数量互相对不上；9 月公司承认造假，股价随即连续十余个跌停，从 30 元以上跌到 6 元附近。",
+    "storyEn": "Yinguangxia, listed in the 1990s through a Ningxia wine plant, became famous around 2000 for 'supercritical CO2 extraction' products sold abroad, with claimed European customers and extraordinary margins. Across 1999-2000 it inflated profits by some 745 million yuan using forged customs declarations and sales contracts, reported 0.51 yuan of earnings per share for 2000, and multiplied its share price, earning praise as a model blue chip. In August 2001 Caijing magazine published an investigation showing that customer locations, bank receipts and customs volumes did not reconcile; in September the company admitted the forgery, and the stock fell limit-down for more than ten straight sessions, from above 30 yuan to around 6.",
+    "trick": [
+      {
+        "k": "「高科技 + 出口」双重光环",
+        "kEn": "A 'high tech plus exports' double halo",
+        "v": "萃取工艺与海外订单都难以被境内投资者现场核验。",
+        "vEn": "Neither the process nor the overseas orders could be checked on site by domestic investors."
+      },
+      {
+        "k": "在最难交叉验证的环节造假",
+        "kEn": "Fraud in the least verifiable link",
+        "v": "报关单、收汇凭证与销售合同互为印证，形成闭环假象。",
+        "vEn": "Customs forms, bank receipts and contracts cross-confirmed each other in a closed loop."
+      },
+      {
+        "k": "借机构背书替代尽调",
+        "kEn": "Borrowing institutional endorsement",
+        "v": "券商推荐与基金持仓成为「可信」的证据。",
+        "vEn": "Broker recommendations and fund holdings stood in for due diligence."
+      },
+      {
+        "k": "高送转制造成长幻觉",
+        "kEn": "Bonus issues as a growth illusion",
+        "v": "股本扩张同时提供流动性与「业绩增长」的视觉效果。",
+        "vEn": "Share splits supplied liquidity and the visual effect of growth."
+      }
+    ],
+    "signal": [
+      "出口毛利率远高于同行且无法解释成本结构",
+      "收汇、报关、产能三者数据对不上",
+      "公司拒绝投资者与媒体实地走访关键工厂",
+      "业绩增长主要靠股本扩张与「故事」而非现金流"
+    ],
+    "signalEn": [
+      "Export margins far above peers with no explanation of the cost structure",
+      "Receipts, customs data and capacity fail to reconcile",
+      "Visits to the key plant are refused",
+      "Growth rests on share issuance and story rather than cash flow"
+    ],
+    "cost": "市值蒸发逾百亿元，十余万股东受损，公司被处以罚款、多名高管获刑。案件成为中国资本市场制度演进的触发点：2001 年证监会推动上市公司建立独立董事制度，2003 年最高人民法院受理证券民事赔偿案件，投资者索赔从此有了司法通道；同期基金重仓股的风险管理也开始被强调。",
+    "costEn": "More than ten billion yuan of market value disappeared, over a hundred thousand shareholders were hurt, the company was fined and executives jailed. It became a trigger for institutional reform in China's capital market: the 2001 guidance requiring listed companies to appoint independent directors, and the 2003 Supreme Court decision to hear civil compensation claims, which opened a judicial channel for investor recovery.",
+    "lesson": "第三方数据（报关、收汇、税务、水电）与报表的交叉验证，比任何单一机构的推荐都更接近真相。",
+    "lessonEn": "Cross-checking statements against third-party data — customs, bank receipts, tax, utilities — gets closer to the truth than any single institution's endorsement.",
+    "related": [
+      "information-asymmetry",
+      "market-structure",
+      "bubbles-crises",
+      "gdp"
+    ],
+    "sources": [
+      {
+        "label": "《财经》杂志《银广夏陷阱》（2001）",
+        "labelEn": "Caijing, 'The Yinguangxia Trap' (2001)",
+        "year": 2001
+      },
+      {
+        "label": "中国证监会对银广夏的行政处罚决定（2002）",
+        "labelEn": "CSRC administrative penalty decision on Yinguangxia, 2002",
+        "year": 2002
+      }
+    ]
+  },
+  {
+    "id": "madoff-2008",
+    "y": 2008,
+    "yearLabel": "2008",
+    "yearLabelEn": "2008",
+    "title": "麦道夫庞氏骗局",
+    "titleEn": "The Madoff Ponzi Scheme",
+    "category": "庞氏与资金盘",
+    "categoryEn": "Ponzi and pyramid schemes",
+    "level": 1,
+    "icon": "🎰",
+    "lead": "账面 650 亿美元的资产，最后只是一个记账账户里的差额。",
+    "leadEn": "Sixty-five billion dollars of book assets turned out to be a difference in a ledger.",
+    "story": "麦道夫曾任纳斯达克交易所主席，是华尔街的信誉符号。其资管基金以「拆分-执行做市」策略为名，几十年来在牛熊中给出几乎相同的正收益（年化约一成）。实际多数客户资金只是躺在其经纪清算业务的账户里，回报由新入金伪造，交易记录事后编造。2008 年金融危机引发历史级赎回，资金流入不再足以覆盖，他在 12 月向儿子坦白并自首，2009 年认罪，被判 150 年，2021 年死于狱中。",
+    "storyEn": "Madoff had chaired the Nasdaq exchange and was a byword for credibility. His fund ran a claimed 'split-strike conversion' strategy that delivered almost the same positive return, around ten percent, through every bull and bear market for decades. In practice most client money simply sat in his own broker-dealer accounts; returns were manufactured from new inflows and the trading records were back-built. When the 2008 crisis triggered historic redemption requests that inflows could no longer cover, he confessed to his sons and turned himself in that December, pleaded guilty in 2009, drew 150 years and died in custody in 2021.",
+    "trick": [
+      {
+        "k": "以身份替代可验证性",
+        "kEn": "Substituting reputation for verifiability",
+        "v": "「麦道夫」这个名字就是尽调结论，没人再查底层持仓。",
+        "vEn": "The name was the due diligence; nobody checked the positions."
+      },
+      {
+        "k": "稳定得不合理",
+        "kEn": "Implausible smoothness",
+        "v": "回撤几乎为零的收益曲线在统计上比亏损更可疑。",
+        "vEn": "A return curve with no drawdown is statistically more suspicious than a loss."
+      },
+      {
+        "k": "制造稀缺",
+        "kEn": "Engineered scarcity",
+        "v": "只接受被推荐的客户，退出被描述为损失特权。",
+        "vEn": "Only referred clients were accepted, so exiting felt like losing privilege."
+      },
+      {
+        "k": "自我托管",
+        "kEn": "Self-custody",
+        "v": "交易、托管、审计与经纪清算都在同一集团内部闭环。",
+        "vEn": "Trading, custody, audit and clearing closed the loop inside one group."
+      }
+    ],
+    "signal": [
+      "收益与市场涨跌无关且几乎不回撤",
+      "审计所规模与受托资产完全不匹配",
+      "拒绝提供持仓明细，理由是策略保密",
+      "托管方与关联方是同一家机构"
+    ],
+    "signalEn": [
+      "Returns uncorrelated with markets and almost never negative",
+      "An auditor whose size bears no relation to assets under custody",
+      "Position-level detail refused on grounds of secrecy",
+      "Custodian and manager related to each other"
+    ],
+    "cost": "破产申请中账面客户资产约 647 亿美元，实际本金损失约 170-200 亿美元，数十家大学捐赠基金、慈善机构与养老基金被清零，追偿程序持续十余年。案件暴露监管惰性，直接推动 2010 年《多德-弗兰克法案》强化举报人激励与资管登记制度。",
+    "costEn": "The bankruptcy filing listed about $64.7 billion in nominal client assets, with real principal losses nearer $17-20 billion; endowments, charities and pension funds were wiped out and clawbacks ran for more than a decade. The regulatory torpor it exposed fed the 2010 Dodd-Frank reforms to whistleblower incentives and adviser registration.",
+    "lesson": "越是不需要解释的收益，越要追问它凭什么存在；「可信的人」不能替代「可核的账」。",
+    "lessonEn": "The less a return needs explaining, the harder you should ask why it exists: a credible person is not a verifiable ledger.",
+    "related": [
+      "bubbles-crises",
+      "information-asymmetry",
+      "market-structure",
+      "gfc-2008",
+      "shadow-banking"
+    ],
+    "sources": [
+      {
+        "label": "美国证券交易委员会（SEC）麦道夫案调查报告",
+        "labelEn": "SEC investigation report on the Madoff affair",
+        "year": 2009
+      },
+      {
+        "label": "Irving Picard 破产托管人诉讼档案",
+        "labelEn": "Bankruptcy trustee Irving Picard litigation records",
+        "year": 2011
+      }
+    ]
+  },
+  {
+    "id": "libor-2012",
+    "y": 2012,
+    "yearLabel": "2012",
+    "yearLabelEn": "2012",
+    "title": "LIBOR 利率操纵丑闻",
+    "titleEn": "The LIBOR Rigging Scandal",
+    "category": "市场操纵",
+    "categoryEn": "Market manipulation",
+    "level": 2,
+    "icon": "🔢",
+    "lead": "全球数百万亿美元合约盯住的那个「基准利率」，原来是由几家银行每天报数报出来的。",
+    "leadEn": "The benchmark behind trillions of dollars of contracts turned out to be a daily quote that a handful of banks chose to submit.",
+    "story": "LIBOR（伦敦银行同业拆借利率）由几家大型银行向英国银行家协会估算报送「我若无担保借入资金需付多少利率」，取修正平均后发布，被广泛用于浮动利率贷款、债券、利率互换与房贷。由于报价既是主观估算、又能影响交易台头寸的盈亏，巴克莱等银行的衍生品交易员长期要求报价员上调或下调数字，部分请求还以玩笑口吻留下聊天证据。2008 年金融危机后，媒体与监管注意到危机期间各家银行刻意压低报价以显得「不那么缺钱」。2012 年 7 月巴克莱被英美合计罚款约 4.5 亿美元并承认不当行为，随后瑞银、苏格兰皇家银行、花旗、德银、汇丰、摩根大通等相继被罚，全球罚款总额以百亿美元计，相关刑事案件陆续起诉。",
+    "storyEn": "LIBOR was compiled from estimates that a panel of large banks submitted to the British Bankers' Association, answering 'at what rate could you borrow unsecured funds today', with a trimmed mean published daily. It underpinned floating-rate loans, bonds, swaps and household mortgages. Because the number was a self-report and also moved the trading desk's mark-to-market, derivatives traders at several banks repeatedly asked submitters to nudge it up or down, sometimes in chat logs that read as jokes. After 2008, journalists and regulators noticed banks had low-balled their quotes during the crisis to look less strained. In July 2012 Barclays admitted misconduct and paid roughly USD 450 million across US and UK penalties; UBS, RBS, Citigroup, Deutsche Bank, HSBC and JPMorgan followed, aggregate fines reached the tens of billions of dollars, and criminal cases proceeded.",
+    "trick": [
+      {
+        "k": "自报数据当基准",
+        "kEn": "A self-reported benchmark",
+        "v": "报价既是估算又无交易凭证支撑，天然可被操纵。",
+        "vEn": "Quotes were estimates without trade evidence, so they were manipulable by design."
+      },
+      {
+        "k": "报价人同时是利益方",
+        "kEn": "The submitter was also a stakeholder",
+        "v": "同一集团里，交易台的盈亏与报价岗的提交由内部沟通串联。",
+        "vEn": "Inside the same bank, trading desks and the submissions desk were one conversation away."
+      },
+      {
+        "k": "危机期的声誉激励",
+        "kEn": "Reputation incentives in a crisis",
+        "v": "报高一点等于承认自己缺钱，于是集体往下修饰。",
+        "vEn": "Quoting higher looked like funding stress, so everyone shaded downwards."
+      },
+      {
+        "k": "责任链过长",
+        "kEn": "Diffused accountability",
+        "v": "行业协会、报价行与监管之间没有清晰的问责主体。",
+        "vEn": "Between the industry association, panel banks and supervisors, nobody owned the number."
+      }
+    ],
+    "signal": [
+      "基准来自参与者自报而非真实成交",
+      "报价与市场资金成本的偏离在危机期集中出现",
+      "该基准直接决定报价行自身头寸盈亏"
+    ],
+    "signalEn": [
+      "A benchmark built from participants' own submissions rather than executed trades",
+      "Deviations from actual funding cost cluster in stress periods",
+      "The benchmark directly marks the submitters' own positions"
+    ],
+    "cost": "全球罚款与和解金额合计逾百亿美元，无数房贷、企业贷款与衍生品合约需要重新定价或索赔。更深的后果是制度性替代：英国沃顿评审推动基准监管立法，各国逐步淘汰 LIBOR，美元 LIBOR 于 2023 年 6 月底停止发布，市场转向 SOFR 等有真实交易支撑的担保隔夜利率。它同时提醒：任何「由少数机构报数」的公共品，都会面临被内部化的诱惑。",
+    "costEn": "Fines and settlements exceeded ten billion dollars worldwide, and countless mortgages, corporate loans and derivatives had to be repriced or litigated. The deeper consequence was replacement: the Wheatley review brought benchmarks under regulation, LIBOR was phased out, dollar LIBOR ceased at the end of June 2023, and markets moved to secured overnight rates such as SOFR that rest on actual trades. The lesson generalises: any public good produced by a few insiders reporting numbers will attract the temptation to internalise it.",
+    "related": [
+      "interest-rate",
+      "information-asymmetry",
+      "market-structure",
+      "gfc-2008",
+      "central-bank-tools"
+    ],
+    "sources": [
+      {
+        "label": "英国《沃顿利率基准审查报告》（2012）",
+        "labelEn": "Martin Wheatley, Review of LIBOR, 2012",
+        "year": 2012
+      },
+      {
+        "label": "美国商品期货交易委员会与司法部对巴克莱的处理文件（2012）",
+        "labelEn": "CFTC and DOJ resolution documents on Barclays, 2012",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "plustoken-2019",
+    "y": 2019,
+    "yearLabel": "2019",
+    "yearLabelEn": "2019",
+    "title": "PlusToken 传销式资金盘",
+    "titleEn": "The PlusToken Ponzi Scheme",
+    "category": "庞氏与资金盘",
+    "categoryEn": "Ponzi and pyramid schemes",
+    "level": 1,
+    "icon": "📱",
+    "lead": "把「钱包工具」包装成挖矿套利，用多级返佣在中文世界里复制了庞氏的加速曲线。",
+    "leadEn": "A 'wallet tool' repackaged as mining arbitrage, using multi-tier rebates to reproduce Ponzi's acceleration curve.",
+    "story": "PlusToken 2018 年前后上线，对外宣称其「多重签名钱包」能通过跨交易所搬砖套利自动获利，用户存入比特币、以太币等即可获得静态收益，并设置多层级动态奖励：拉人头的上线可从下线的入金中按比例提成。中文社群内以「社区共建」话术快速裂变，注册账户以百万计，吸纳主流虚拟币逾百万枚。2019 年 6 月提现开始拥堵，骨干成员在境外被捕并引渡回中国，2020 年江苏法院以组织、领导传销活动等罪名对主要成员定罪，涉案金额以百亿元人民币计。",
+    "storyEn": "Launched around 2018, PlusToken marketed a 'multi-signature wallet' said to earn automatically by arbitraging across exchanges: deposit bitcoin, ether and other coins for a static yield, plus dynamic rewards in which uplines took a percentage of downlines' deposits. Spread through Chinese-language communities with 'community building' language, it registered millions of accounts and took in more than a million units of major crypto assets. Withdrawals began to jam in June 2019, key operators were arrested abroad and extradited to China, and in 2020 a court in Jiangsu convicted them of organising and leading a pyramid scheme, with amounts measured in tens of billions of yuan.",
+    "trick": [
+      {
+        "k": "把技术名词当护城河",
+        "kEn": "Jargon as a moat",
+        "v": "「多重签名」「量化搬砖」听起来可验证，实际无人能核验收益来源。",
+        "vEn": "'Multi-signature' and 'quant arbitrage' sound checkable yet nobody could verify the yield."
+      },
+      {
+        "k": "静态收益 + 动态返佣",
+        "kEn": "Static yield plus dynamic referral fees",
+        "v": "前者吸引储户，后者把储户变成募资者，扩散成本被转嫁给下线。",
+        "vEn": "The first attracts depositors, the second turns depositors into recruiters and shifts acquisition cost downline."
+      },
+      {
+        "k": "以虚拟币入金规避资金监管",
+        "kEn": "Deposits in crypto to bypass fund monitoring",
+        "v": "资产不进入银行账户体系，提现节奏完全由平台控制。",
+        "vEn": "Value never entered bank accounts, so the platform alone controlled withdrawal pace."
+      },
+      {
+        "k": "线下宣讲与社群造神",
+        "kEn": "Roadshows and community mythology",
+        "v": "「已有人财务自由」的故事替代了任何财务披露。",
+        "vEn": "Stories of members who became rich replaced any financial disclosure."
+      }
+    ],
+    "signal": [
+      "收益来自「拉新」而非可核算的价差",
+      "层级返佣比例明显高于任何真实业务的获客预算",
+      "提现需要排队、而充值随时到账",
+      "运营主体与服务器在境外，无金融牌照"
+    ],
+    "signalEn": [
+      "Returns come from recruitment rather than a reconcilable spread",
+      "Tier commissions far exceed any real business's customer-acquisition budget",
+      "Withdraws queue while deposits are instant",
+      "The operator and its servers sit offshore with no financial licence"
+    ],
+    "cost": "大量参与者血本无归，且因参与多层返佣结构，部分下线同时是受害者与募资者，法律定性复杂。此案成为中国监管明确将此类「虚拟币挖矿资金盘」认定为传销、并推动跨境追赃的标志性案件，也直接加速了境内对虚拟货币交易与代客挖矿的清理。",
+    "costEn": "Many participants lost everything, and because the tier structure blurred roles, some downlines were both victims and recruiters — which complicated legal characterisation. The case became the marker by which Chinese regulators classified such crypto 'mining schemes' as pyramid selling, prompted cross-border asset recovery and accelerated the crackdown on domestic crypto trading and hosted mining.",
+    "related": [
+      "bubbles-crises",
+      "ponzi-1920",
+      "madoff-2008",
+      "herding-effect",
+      "digital-currency",
+      "hyperbolic-discounting"
+    ],
+    "sources": [
+      {
+        "label": "江苏省盐城市中级人民法院 PlusToken 案一审宣判通报（2020）",
+        "labelEn": "Yancheng Intermediate People's Court first-instance judgment release on PlusToken, 2020",
+        "year": 2020
+      },
+      {
+        "label": "Chainalysis 加密货币犯罪与洗钱报告",
+        "labelEn": "Chainalysis, Crypto Crime Report",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "wirecard-2020",
+    "y": 2020,
+    "yearLabel": "2020",
+    "yearLabelEn": "2020",
+    "title": "沃思兰德假账案",
+    "titleEn": "The Wirecard Collapse",
+    "category": "财务造假",
+    "categoryEn": "Accounting fraud",
+    "level": 2,
+    "icon": "💳",
+    "lead": "一家进入德国蓝筹指数的支付公司，账上 19 亿欧元的「银行存款」根本不存在。",
+    "leadEn": "A payments firm in Germany's blue-chip index reported EUR 1.9 billion of cash that simply did not exist.",
+    "story": "沃思兰德总部位于慕尼黑，为跨境电商提供收单与支付技术服务，长期以「轻资产 + 高增长 + 亚洲第三方收单业务」讲故事的。2005 年起即有做空者与媒体质疑其会计处理，2019 年 2 月《金融时报》记者丹·麦克拉姆发表系列调查，指其新加坡办公室通过虚增收入伪造利润。公司反手以「损害声誉」为由起诉媒体，德国联邦金融监管局（BaFin）甚至一度禁止做空该股、并考虑起诉《金融时报》。2020 年 4 月，被聘为特别审计的安永表示无法确认存放于菲律宾两家银行的约 19 亿欧元信托现金；6 月 18 日公司申请破产，首席执行官方 Braun 被捕，运营主管 Marsalek 出逃并被通缉。",
+    "storyEn": "Headquartered in Munich, Wirecard provided acquiring and payment technology for cross-border e-commerce and grew by telling a story of asset-light, high-growth Asian third-party acceptance. Auditors and short sellers had questioned its accounting since 2005; in February 2019 Financial Times reporter Dan McCrum published a series alleging that Singapore offices fabricated profits by inflating revenue. The company sued the paper for reputational damage, and Germany's Federal Financial Supervisory Authority (BaFin) briefly banned short sales of the stock and contemplated action against the FT. In April 2020 EY, engaged for a special audit, said it could not verify about EUR 1.9 billion of trustee cash held at two banks in the Philippines. On 18 June 2020 Wirecard filed for insolvency; CEO Markus Braun was arrested and COO Jan Marsalek fled and became a wanted man.",
+    "trick": [
+      {
+        "k": "把收入外包给「不可审计的第三方」",
+        "kEn": "Revenue parked with unauditable third parties",
+        "v": "以第三方收单伙伴名义确认收入，凭证在境外、无法穿透。",
+        "vEn": "Income booked through 'acceptance partners' whose records sat offshore and could not be pierced."
+      },
+      {
+        "k": "用诉讼对付质疑者",
+        "kEn": "Litigation against sceptics",
+        "v": "把做空报告与调查报道变成法律问题，反而给自己镀上可信度。",
+        "vEn": "Suing short-sellers and reporters perversely added to the firm's aura of credibility."
+      },
+      {
+        "k": "指数与牌照的光环",
+        "kEn": "Index membership as a halo",
+        "v": "入选 DAX、持有支付牌照成为「已被审过」的暗示。",
+        "vEn": "DAX inclusion and a payments licence hinted that someone had already checked."
+      },
+      {
+        "k": "审计长期不换",
+        "kEn": "An auditor for life",
+        "v": "同一家所连续多年出具无保留意见，独立性随年限衰减。",
+        "vEn": "Years of unqualified opinions from the same firm eroded independence."
+      }
+    ],
+    "signal": [
+      "现金余额存放在难以核验的境外信托安排中",
+      "增长主要来自无法穿透的第三方合作收入",
+      "公司把主要精力用于起诉批评者而非回答具体问题",
+      "审计师连续服务年限极长且无更换压力"
+    ],
+    "signalEn": [
+      "Cash sits in offshore trustee arrangements that cannot be verified",
+      "Growth comes from opaque third-party partner revenue",
+      "The company spends more energy suing critics than answering specifics",
+      "The auditor has served for an unusually long stretch"
+    ],
+    "cost": "约 19 亿欧元资产被证实不存在，债权人申报债权逾 40 亿欧元，股价从 2018 年高点跌去 99% 以上，约三千名员工失业，审计与监管公信力重创：德国审计行业被迫强化轮换与质量控制，BaFin 局长去职，欧洲层面推动成立更强的反洗钱与审计监督架构。它也成为「监管把批评当敌人」的经典反面教材。",
+    "costEn": "Some EUR 1.9 billion of assets proved fictional, creditors filed claims above EUR 4 billion, the share fell more than 99 percent from its 2018 high, and about 3,000 people lost jobs. Public trust in audit and supervision took the deeper hit: Germany tightened audit rotation and quality control, BaFin's president lost her post, and the EU advanced stronger anti-money-laundering and audit oversight structures. It remains the textbook case of a regulator treating criticism as the enemy.",
+    "related": [
+      "information-asymmetry",
+      "market-structure",
+      "payments-systems",
+      "enron-2001",
+      "shadow-banking"
+    ],
+    "sources": [
+      {
+        "label": "《金融时报》沃思兰德调查系列（2019-2020）",
+        "labelEn": "Financial Times Wirecard investigation series, 2019-2020",
+        "year": 2020
+      },
+      {
+        "label": "德国联邦议院沃思兰德委员会最终报告（2021）",
+        "labelEn": "German Bundestag Wirecard committee final report, 2021",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "terra-luna-2022",
+    "y": 2022,
+    "yearLabel": "2022",
+    "yearLabelEn": "2022",
+    "title": "Terra/LUNA 算法稳定币崩盘",
+    "titleEn": "The Terra/LUNA Collapse",
+    "category": "投机泡沫",
+    "categoryEn": "Speculative bubble",
+    "level": 2,
+    "icon": "🪙",
+    "lead": "用另一个代币来「稳定」一个代币：当赎回开始，稳定机制本身成了下跌的发动机。",
+    "leadEn": "Stabilising one token with another: once redemptions began, the peg mechanism itself became the engine of the fall.",
+    "story": "Terra 的稳定币 UST 不与美元现金一一挂钩，而是与姐妹代币 LUNA 构成套利对：UST 高于 1 美元时铸新 UST 换 LUNA，低于 1 美元时烧 UST 换等值 LUNA，理论上把价格钉住。为创造需求，其生态中的 Anchor 协议对 UST 存款给出约 19%-20% 的年化收益，利差由外部借款与储备补贴维持。2022 年 4 月起大额存单持有者开始退出，5 月一笔集中的 UST 抛压打破锚定，套利机制反向运转：为兑付而大量铸造的 LUNA 供给爆炸式增加，币价从 100 多美元跌到不足一美分，UST 脱锚至几十美分，两周内相关资产市值蒸发约 400 亿美元，并连带引发多家对冲基金清算与借贷平台停摆。",
+    "storyEn": "Terra's stablecoin UST was not backed one-for-one by dollar cash but paired with its sister token LUNA: mint new UST against LUNA when UST traded above a dollar, burn UST for a dollar's worth of LUNA when below, and arbitrage would hold the peg. To manufacture demand, the ecosystem's Anchor protocol paid roughly 19-20 percent annualised on UST deposits, with the spread funded by borrowing and reserves. Large holders began exiting in April 2022; in May a concentrated sale broke the peg and the arbitrage ran in reverse. LUNA supply exploded as it was minted to honour redemptions, its price fell from over a hundred dollars to well below a cent, UST depegged to tens of cents, and some USD 40 billion of related value evaporated within a fortnight, forcing hedge funds to unwind and lending platforms to halt.",
+    "trick": [
+      {
+        "k": "以机制替代储备",
+        "kEn": "Mechanism instead of reserves",
+        "v": "「稳定」来自可自我强化的套利循环，而不是可兑付的资产。",
+        "vEn": "'Stability' came from a self-reinforcing arbitrage loop, not redeemable assets."
+      },
+      {
+        "k": "补贴出来的高收益",
+        "kEn": "A subsidy dressed as yield",
+        "v": "20% 年化不是生产率，而是借来的钱在买规模。",
+        "vEn": "Twenty percent annualised was not productivity; borrowed money was buying scale."
+      },
+      {
+        "k": "集中度伪装成分散",
+        "kEn": "Concentration hidden behind distribution",
+        "v": "少数巨鲸存户掌握锚定的生死，却没有退出约束。",
+        "vEn": "A handful of whale depositors decided whether the peg lived, with no lock-up discipline."
+      },
+      {
+        "k": "治理代币与品牌同源",
+        "kEn": "Shared lineage with a volatile token",
+        "v": "稳定币的信用与另一枚高波动代币绑定，风险无法隔离。",
+        "vEn": "The stablecoin's credibility was welded to a high-volatility asset, so risk could not be ring-fenced."
+      }
+    ],
+    "signal": [
+      "稳定币收益显著高于无风险利率且长期不衰减",
+      "储备资产结构披露粗糙、集中度高",
+      "维持锚定依赖持续净流入，一旦减速即反转",
+      "生态内借贷、交易所与发行方互持代币，形成循环敞口"
+    ],
+    "signalEn": [
+      "Stablecoin yields far above the risk-free rate, sustained without decay",
+      "Thin disclosure of reserve composition and heavy concentration",
+      "The peg depends on continuous inflows and reverses when they slow",
+      "Lenders, exchanges and the issuer hold each other's tokens in circular exposure"
+    ],
+    "cost": "UST 与 LUNA 持有者的损失约 400-600 亿美元，事件引发多家加密借贷平台与对冲基金连锁倒闭，并直接推动美国与欧盟加速稳定币与加密资产监管立法（如欧盟 MiCA 落地）。主要创始人 2023 年在黑山被捕，随后被引渡并在美国面临欺诈指控。它给所有「以机制替代储备」的设计上了昂贵的一课。",
+    "costEn": "Between USD 40 and 60 billion was lost by UST and LUNA holders, crypto lenders and hedge funds failed in a chain, and the collapse accelerated stablecoin and crypto regulation in the United States and the European Union (where MiCA was finalised). The lead founder was arrested in Montenegro in 2023, extradited and later faced fraud charges in the United States. It was an expensive lesson for every design that substitutes mechanism for reserves.",
+    "related": [
+      "digital-currency",
+      "bubbles-crises",
+      "fx-regimes",
+      "deposit-insurance",
+      "shadow-banking"
+    ],
+    "sources": [
+      {
+        "label": "美联储与欧洲央行关于算法稳定币的稳定性评估（2022）",
+        "labelEn": "Federal Reserve and ECB assessments of algorithmic stablecoins, 2022",
+        "year": 2022
+      },
+      {
+        "label": "欧盟《加密资产市场法规》（MiCA, 2023）",
+        "labelEn": "EU Markets in Crypto-Assets Regulation (MiCA), 2023",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "ftx-2022",
+    "y": 2022,
+    "yearLabel": "2022",
+    "yearLabelEn": "2022",
+    "title": "FTX 与客户资金挪用",
+    "titleEn": "FTX and the Missing Customer Funds",
+    "category": "庞氏与资金盘",
+    "categoryEn": "Ponzi and pyramid schemes",
+    "level": 1,
+    "icon": "🏝️",
+    "lead": "交易所、自营公司、平台代币与慈善叙事同属一个体系，账上 80 亿美元的客户资金被拿去下注。",
+    "leadEn": "Exchange, proprietary trading firm, house token and philanthropic narrative in one system — with USD 8 billion of customer money used to bet.",
+    "story": "FTX 由班克斯曼-弗里德（SBF）2019 年创立，以低费率、机构服务与「有效利他主义」形象吸引资金，并发行平台代币 FTT。其关联自营公司阿拉米达研究（Alameda Research）大量持有 FTT 与 FTX 股权，形成自我循环的资产。2022 年 11 月 2 日《华盛顿邮报》获得并披露阿拉米达的资产负债表，显示其资产端高度依赖非流动的 FTT 与代币化股权，市场随即要求以币安等对手方平盘。挤兑在四十八小时内失控：11 月 8 日币安宣布放弃收购协议，FTX 冻结提现，11 月 11 日在特拉华州申请破产，创始人辞职。审计与清算文件显示约 80 亿美元客户资产被挪用，FTT 价格跌去九成以上。",
+    "storyEn": "FTX, founded in 2019 by Sam Bankman-Fried, attracted capital with low fees, institutional services and an 'effective altruism' image, and issued its own token, FTT. Its affiliated trading firm Alameda Research held large amounts of FTT and FTX equity, creating a self-referential asset base. On 2 November 2022 the Washington Post published Alameda's balance sheet, showing assets heavily weighted to illiquid FTT and tokenised equity, and counterparties began unwinding. The run became uncontrollable within forty-eight hours: Binance pulled its rescue deal on 8 November, FTX froze withdrawals, and on 11 November it filed for bankruptcy in Delaware as the founder resigned. Court and audit filings showed roughly USD 8 billion of customer assets had been diverted, and FTT lost more than ninety percent of its value.",
+    "trick": [
+      {
+        "k": "发行方、交易场所与做市商同一控制人",
+        "kEn": "Issuer, exchange and market maker under one control",
+        "v": "自己发行资产、自己给自己定价、自己提供流动性，三重身份互相印证。",
+        "vEn": "The same hands minted the asset, priced it and supplied its liquidity, each validating the others."
+      },
+      {
+        "k": "客户资金与自营资金混用",
+        "kEn": "Customer money commingled with the prop book",
+        "v": "本应隔离的托管账户被用于关联交易与政治捐赠、地产购置。",
+        "vEn": "Custody that should have been ring-fenced funded related-party trades, donations and real estate."
+      },
+      {
+        "k": "以公益叙事替代治理",
+        "kEn": "Philanthropic narrative instead of governance",
+        "v": "「拯救世界」的形象让投资人跳过最基本的账目核验。",
+        "vEn": "A 'save the world' image let investors skip the most basic reconciliation."
+      },
+      {
+        "k": "内部无审计与风控",
+        "kEn": "No internal audit or risk function",
+        "v": "破产后曝出公司没有财务部门长、以即时通讯工具记账。",
+        "vEn": "Bankruptcy revealed no head of finance and books kept in chat messages."
+      }
+    ],
+    "signal": [
+      "平台自有代币在其关联公司资产中占比极高",
+      "缺乏审计意见或审计方与平台关系过近",
+      "提现依赖其他主体的「救援」而非自身流动性",
+      "公司治理高度个人化，无独立风控与合规负责人"
+    ],
+    "signalEn": [
+      "The house token dominates the affiliate's balance sheet",
+      "No audit opinion, or an auditor too close to the platform",
+      "Withdrawals depend on a rescue from another party rather than own liquidity",
+      "Governance is personal: no independent risk or compliance leadership"
+    ],
+    "cost": "逾百万名债权人受偿悬置，全球加密市值在事件后一个月内蒸发数千亿美元，多家借贷平台随之清算；创始人与数名高管被起诉定罪，2023 年 11 月被判有期徒刑二十五年。案件引发对「客户资产隔离与证明」的行业改革（储备金证明、托管分离），也暴露了慈善叙事与政治献金在金融监管中的空白。",
+    "costEn": "More than a million creditors entered a long recovery process, global crypto market capitalisation shed hundreds of billions within a month, several lending platforms failed in sequence, and the founder and senior executives were convicted, with a twenty-five-year sentence in November 2023. The case forced industry reform on customer-asset segregation and proof (proof-of-reserves, custody separation) and exposed how philanthropic reputation and political donations could substitute for supervision.",
+    "related": [
+      "digital-currency",
+      "bubbles-crises",
+      "madoff-2008",
+      "information-asymmetry",
+      "deposit-insurance",
+      "market-structure"
+    ],
+    "sources": [
+      {
+        "label": "FTX 破产案法庭文件与顾问报告（2022-2023）",
+        "labelEn": "FTX bankruptcy filings and adviser reports, 2022-2023",
+        "year": 2023
+      },
+      {
+        "label": "美国国会众议院金融服务委员会 FTX 听证记录（2022）",
+        "labelEn": "US House Financial Services Committee hearing on FTX, 2022",
+        "year": 2022
+      }
+    ]
+  }
+]

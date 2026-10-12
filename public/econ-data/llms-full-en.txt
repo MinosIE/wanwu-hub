@@ -510,6 +510,11 @@ Source: https://minosie.github.io/wanwu-hub/subject/econ/
 - Why：Long-distance trade was risky and capital-hungry beyond partnership capacity, so limited liability and share transfer emerged.
 - Impact：It spawned the Amsterdam stock exchange and modern capital markets, planting the seeds of corporate governance, audit and disclosure.
 
+### c. 1760–1840　The Industrial Revolution（Britain）
+- What happened：Steam engines, mechanized textiles and iron shifted production from workshops to factories, and output per person first escaped long-run stagnation.
+- Why：Property rights and patents, coal and capital, an agricultural surplus freeing labor, and the marriage of science and craft let the breakthrough start in Britain.
+- Impact：It laid the base for modern growth and urbanization and reset global power, while enclosure, child labor and pollution spurred later labor and environmental institutions.
+
 ### 1776　The Wealth of Nations Is Published（United Kingdom）
 - What happened：Adam Smith set out division of labour, market mechanisms and free trade, founding economics as a discipline.
 - Why：On the eve of industrialisation, mercantilist controls prevailed and a new framework for the sources of wealth was needed.
@@ -529,6 +534,11 @@ Source: https://minosie.github.io/wanwu-hub/subject/econ/
 - What happened：After the crash, credit contracted and banks failed in chains; global output and prices fell deeply and unemployment soared.
 - Why：Monetary tightening, the gold standard, bank runs and protectionism reinforced each other, and policy errors amplified the shock.
 - Impact：It produced the Keynesian revolution, deposit insurance, securities regulation and Bretton Woods, reshaping macro policy for eighty years.
+
+### 1933–1939　The New Deal（United States）
+- What happened：Amid the Depression, the federal government expanded through public works, financial repair, social security and regulation, testing demand-management fiscal policy.
+- Why：Self-correction failed amid mass unemployment and deflation; Keynesian spending-to-fill-demand ideas and political pressure drove intervention.
+- Impact：It built deposit insurance, securities regulation and social security—prototypes of the modern welfare state—though its real pull on growth remains debated.
 
 ### 1936　The General Theory Is Published（United Kingdom）
 - What happened：Keynes argued insufficient aggregate demand causes persistent unemployment, and macroeconomics was born.
@@ -555,20 +565,65 @@ Source: https://minosie.github.io/wanwu-hub/subject/econ/
 - Why：Inflation expectations had become entrenched, so only decisively severe tightening could rebuild credibility.
 - Impact：Expectations were anchored, establishing a forty-year consensus on central bank independence and inflation targeting.
 
+### c. 1979–1990　The Neoliberal Turn（UK & US）
+- What happened：Thatcher and Reagan pushed privatization, deregulation, tax cuts and inflation control; the state retreated as the market advanced.
+- Why：Stagflation exposed the limits of the Keynesian consensus; monetarism and supply-side economics rose while union decline opened a political window.
+- Impact：It lifted efficiency and returns and tamed inflation but deepened inequality and financial instability, still shaping global policy debate.
+
 ### 1985　The Plaza Accord（New York, USA）
 - What happened：Five countries jointly intervened in currency markets, driving a sharp depreciation of the dollar against the yen and mark.
 - Why：With a widening US trade deficit and rising protectionism, exchange-rate adjustment was preferred to tariffs.
 - Impact：The yen's rapid appreciation shaped Japanese industry and asset prices, making it a classic case in exchange-rate coordination and bubbles.
+
+### 1987　Black Monday（United States / global）
+- What happened：On 19 October 1987 the Dow Jones fell 22.6 percent in a single session, its largest one-day percentage drop since the First World War, as markets worldwide collapsed together and Hong Kong suspended trading for a week.
+- Why：Mechanical strategies such as portfolio insurance sold as prices fell, creating a self-reinforcing loop, while large US fiscal and trade deficits, rising rates, a weakening dollar and fraying consensus after the Plaza Accord turned valuation and mechanism against each other at the same moment.
+- Impact：It produced circuit breakers at both stock and index level, clearing and margin reform, and the explicit promise of central-bank liquidity — the Federal Reserve issued a supportive statement the next day. Every subsequent technical selloff has been managed against the 1987 template.
+
+### 1989–1991　Japan's Bubble Burst（Japan）
+- What happened：Equities and land ballooned after the Plaza Accord, then burst in 1989–1991, plunging Japan into a 'lost decade' of low growth and deflation.
+- Why：Easy money and credit inflated assets; over-leveraged firms and banks and maturity mismatch meant a balance-sheet slump suppressed spending after the crash.
+- Impact：It became the textbook case of a balance-sheet recession and prolonged deflation, warning on bubbles and slow policy, shaping later crisis response.
+
+### 1992　Black Wednesday: Soros Breaks the Bank of England（United Kingdom / Europe）
+- What happened：On 16 September 1992 sterling was forced out of the Exchange Rate Mechanism and devalued sharply. The Bank of England raised rates twice in one day and spent billions defending the parity and still lost, while Soros's Quantum Fund made roughly USD 1 billion and earned the label 'the man who broke the Bank of England'.
+- Why：After German reunification the Bundesbank kept rates high to contain inflation, and EC members had to follow to hold their parities, while Britain sat in recession with mass unemployment: surrendering domestic rates to an external peg was politically untenable. Where a fixed parity contradicts fundamentals, speculators find a verifiable mispricing.
+- Impact：Sterling fell about thirty percent against the mark, and Britain entered the 1990s expansion with lower rates and easier money; the lira left the mechanism and the franc was realigned, deepening French suspicion of a German-centred system. Two conclusions endured: intervention cannot beat fundamentals, and a single currency without fiscal and crisis-capacity design is fragile — lessons that shaped the euro area's convergence criteria and its later crisis architecture.
 
 ### 1997　The Asian Financial Crisis（Southeast Asia → East Asia）
 - What happened：Currencies and asset prices collapsed, short-term foreign debt could not be rolled over and countries sought international rescue.
 - Why：Pegged rates, large short-term foreign borrowing and local-currency assets created currency and maturity mismatch that unravelled on outflows.
 - Impact：Many Asian economies moved to floating rates and reserve accumulation, and IMF conditionality came under intense debate and reform.
 
+### 1998　The Russian Default and Ruble Crisis（Russia）
+- What happened：On 17 August 1998 Russia widened the ruble's trading band, suspended payment on part of its domestic short-term government paper (GKO) and restructured external debt. The de facto default triggered a global flight to quality: risk premia blew out, equities fell worldwide and leveraged hedge funds were pierced.
+- Why：The Asian crisis and collapsing oil prices hit Russia's exports and inflows together, while the pyramid of ultra-short bills rolled at triple-digit rates after 1995 depended entirely on confidence; a fiscal deficit and failed tax administration broke the rollover in the summer of 1998.
+- Impact：Russia's banking system and household savings were devastated, and recovery came only through devaluation and rising oil. For the world it became the textbook case of sovereign risk, hot-money flight and crowded correlated trades, prompting the supervised wind-down of Long-Term Capital Management and the debate on leverage and central clearing.
+
+### 1999 (notes 2002)　The Launch of the Euro（European Union）
+- What happened：Several states launched economic and monetary union on one currency, erasing exchange-rate risk but handing monetary policy to a single ECB.
+- Why：A common currency was meant to deepen integration, cut transaction costs and offset the dollar—a project both political and economic.
+- Impact：Trade and finance integrated more deeply, but unified money over divided treasuries and asymmetric shocks sowed the seeds of the euro-area crisis.
+
 ### 2008　The Global Financial Crisis（United States → global）
 - What happened：Subprime defaults crashed mortgage securities, major institutions failed or were rescued, and global credit markets froze.
 - Why：High leverage, complex securitisation, maturity mismatch and regulatory blind spots amplified local mortgage risk into systemic risk.
 - Impact：It produced macroprudential regulation, stress testing and Basel III, and opened a decade-long era of low rates and quantitative easing.
+
+### 2010-2012　The Eurozone Sovereign Debt Crisis（Eurozone）
+- What happened：From 2010 Greece, Ireland and Portugal requested external bailouts while Spanish and Italian bond yields were pushed to unsustainable levels; Greece went through three official programmes and a 2012 debt restructuring, and in July 2012 ECB President Draghi steadied expectations with his pledge to do 'whatever it takes' within the mandate.
+- Why：The currency union equalised interest rates without unifying fiscal policy or banking supervision: after entry, southern members enjoyed sharply lower funding costs and accumulated public and private debt and external imbalances; the global crisis converted private bank debt into public debt, and the design flaw — no lender of last resort for member-state sovereigns — was exposed under panic.
+- Impact：The euro area built the EFSF and then the ESM, announced Outright Monetary Transactions, and moved towards banking union with single supervision and resolution; southern economies suffered deep recessions and persistently high youth unemployment, and the argument over austerity and common debt continues. 'An incomplete monetary union' became the premise of every subsequent euro-area reform.
+
+### 2010　The Flash Crash（United States）
+- What happened：On the afternoon of 6 May 2010 US equities plunged over roughly thirty-six minutes, the S&P 500 fell nearly nine percent at the trough, blue chips such as Procter & Gamble traded momentarily near one dollar, and most of the move then reversed; a single large algorithmic sell order was identified as the trigger.
+- Why：Order-book depth depended on high-frequency firms that withdrew under their own risk rules once volatility spiked, so liquidity evaporated in minutes; arbitrage and stop-loss linkages across cash and futures amplified an ordinary macro trade into a stampede.
+- Impact：US and UK regulators introduced limit-up/limit-down bands, clearer market-wide circuit breakers and broken-trade rules, brought high-frequency trading under registration and risk requirements, and pushed for a consolidated tape. Every subsequent burst of intraday volatility — 2015, 2018, 2024 — has been assessed against this case.
+
+### 2015　The SNB Drops the Euro Floor（Switzerland）
+- What happened：On 15 January 2015 the Swiss National Bank abruptly scrapped the EUR/CHF 1.20 floor it had defended since September 2011 and cut its excess-reserve rate to minus 0.75 percent. The franc surged more than twenty percent intraday, inflicting heavy losses on the global currency market and on leveraged retail clients.
+- Why：To resist deflationary pressure from safe-haven inflows the SNB had bought euros on an almost unlimited scale for three years; as expectations of ECB quantitative easing built, the intervention required to hold the floor had become incompatible with the size of its balance sheet and with political tolerance.
+- Impact：It became the textbook case of a central-bank promise that can be withdrawn at any moment: market-makers and retail brokers faced client claims for negative balances, stop-loss slippage produced class actions and supervisory reviews, and retail forex leverage was cut across the industry. Its wider warning to any economy anchored to a fixed rate is that the anchor is only as credible as the cost of defending it.
 
 ### 2020　The Pandemic Shock and Unprecedented Easing（Global）
 - What happened：Supply and demand halted together, and governments launched unprecedented fiscal transfers and asset purchases.
@@ -580,6 +635,16 @@ Source: https://minosie.github.io/wanwu-hub/subject/econ/
 - Why：Supply shocks, shifted demand composition and tight labour markets spread inflation from individual categories into core measures.
 - Impact：It re-confirmed the importance of credibility and expectation management and returned stagflation risk to policy debate.
 
+### 2022　Britain's Mini-Budget Bond Storm（United Kingdom）
+- What happened：On 23 September 2022 the government announced a large package of unfunded tax cuts that had not been assessed by the Office for Budget Responsibility. Long-dated gilt yields spiked, sterling hit a record low, pension schemes using liability-driven investing were forced to sell gilts, the Bank of England launched emergency purchases, the flagship measures were reversed within days, and the Prime Minister left office two months later.
+- Why：Expansionary fiscal policy at a moment of near-double-digit inflation and rising rates made markets reprice the UK's inflation path, sovereign credibility and central-bank independence at once; meanwhile LDI structures held long gilts on leverage to hedge pension liabilities, so higher yields triggered margin calls, and the resulting forced selling pushed yields further — turning a fiscal decision into financial stability risk.
+- Impact：It produced registration, stress testing and liquidity buffers for pension LDI, clarified the boundary of the central bank's role as occasional market maker of last resort in gilts, and established the general lesson that fiscal credibility is itself a component of the interest rate.
+
+### 2023　The Collapse of Silicon Valley Bank（United States）
+- What happened：On 10 March 2023 Silicon Valley Bank was seized by California regulators, then the second-largest bank failure in US history. Depositors had withdrawn about USD 42 billion in forty-eight hours; the bank held long-duration Treasuries and mortgage-backed securities sitting on unrealised losses after rapid rate hikes, without a stable core deposit base or interest-rate hedges.
+- Why：Deposit inflows from tech firms in 2020-2021 were placed in longer-dated, lower-yielding 'safe' assets. Aggressive 2022 rate hikes did two things at once: unrealised losses grew on the asset side while startups drew down cash on the liability side. Duration mismatch became visible exactly as funding and confidence tightened, and social media raised the speed of the run by orders of magnitude.
+- Impact：The Federal Reserve created the Bank Term Funding Program, lending for up to a year against collateral at par; Signature Bank and First Republic followed, and Congress debated the 2018 easing of thresholds, the share of uninsured deposits and stress testing. Banks worldwide revisited disclosure of rate risk in hold-to-maturity books, and 'social media runs' became a standing supervisory topic.
+
 ### 1978　China Launches Reform and Opening Up（China）
 - What happened：Beginning with household responsibility, special economic zones and gradually relaxing controls on prices, trade and foreign investment, China shifted from a centrally planned economy toward the market.
 - Why：Shortages and inefficiency under planning became unsustainable, so market incentives and opening up were needed to unleash productivity.
@@ -589,6 +654,188 @@ Source: https://minosie.github.io/wanwu-hub/subject/econ/
 - What happened：After fifteen years of negotiations, China acceded to the WTO, committing to steep tariff cuts and reduced non-tariff barriers.
 - Why：Joining the multilateral system was seen as using external rules to push domestic reform while securing stable export markets.
 - Impact：Exports and manufacturing capacity expanded rapidly and China became deeply embedded in global supply chains; it also sparked debate on industry shocks, trade friction and external dependence.
+
+### 2015　China Stock Market Turbulence（China）
+- What happened：After the Shanghai Composite peaked at 5178 on 12 June 2015 it fell about thirty percent in three weeks, with repeated sessions in which a thousand stocks hit the down limit. The crackdown on off-exchange margin lending triggered forced liquidation; the state then cut stamp duty, paused new listings and mobilised broker funds to stabilise the market.
+- Why：The rally was driven by leverage — exchange margin and structured off-exchange financing — plus loose liquidity rather than earnings. When regulators required the leverage to be unwound, forced selling and falling prices caused each other, and price limits with T+1 settlement turned individual risk into a collective stampede when liquidity dried up.
+- Impact：It tightened supervision of off-exchange leverage and index futures; a circuit-breaker scheme launched in early 2016 was suspended within days, becoming a case study in trying to legislate away volatility. It also left an enduring argument about the limits of direct state market support, moral hazard and the cost of policy exit.
+
+## Scams & Bubbles
+
+### 1637　Tulip Mania（Speculative bubble）
+- Summary：A single bulb was priced like an Amsterdam canal house — the first asset bubble on full historical record.
+- How it unfolded：Tulips reached the Netherlands from the Ottoman Empire in the 16th century; striped bulbs (actually a virus) became status symbols. From 1634 trading shifted from flowers to forward contracts, with nightly tavern auctions lifting prices dozens of times over two years — the 'wind trade', where paper changed hands but bulbs stayed in the ground. When a Haarlem auction found no bidder in February 1637, confidence collapsed within a fortnight and prices fell to a few percent of the peak.
+- Scarcity was narrated, not real：The 'rare strains' could not be propagated reliably; supply was pure story.
+- Futures front-loaded leverage：Bulbs changed hands several times before being dug up; buyers bet on a greater fool.
+- Status anxiety set the price：Many buyers knew nothing about flowers but could not afford to be left out of the conversation.
+- Warning signs at the time：Trading shifts from the asset to the contract, with little interest in delivery；The only reason prices rise is that they have been rising；'This time is different' appears as a valuation argument
+- What it cost：Prices collapsed to a fraction of the peak. Modern scholarship (Goldgar, 2007) shows Dutch courts let buyers exit for a small penalty and that neither the national economy nor the banks were wrecked — the 'ruined nation' story was largely later pamphleteering. What survived was the price curve.
+- The lesson：The damage of a bubble is not the fall in price but the habit of treating borrowed money, spent before the fall, as principal.
+
+### 1720　The South Sea Bubble（Speculative bubble）
+- Summary：A company that swapped government debt for equity lifted its share price eightfold in six months — and turned Newton's portfolio into a lesson.
+- How it unfolded：Founded in 1711, the South Sea Company proposed in 1720 to convert British government debt into its own shares in exchange for a monopoly on trade with Spanish America — trade that barely existed. It lent money to buyers of its own stock and hinted at vast dividends; the price rose from about £128 in January to over £1,000 by June. The Bubble Act of April 1720, meant to block rival issues, instead concentrated speculation on the company alone. Selling began in August, shares fell back below £150 by year-end, and the scandal of shares distributed to ministers and courtiers broke open.
+- Pricing unverifiable cash flows with a charter：The monopoly was real; the profit under it was not.
+- Self-financed demand：The company lent clients money to buy its own shares, manufacturing its own volume.
+- Scrip instead of cash dividends：Payouts in new stock made 'high yields' possible without cash.
+- Legislative capture：Free shares bought parliamentary silence and the Bubble Act.
+- Warning signs at the time：Market value bears no relation to operating revenue；Legislation is being rewritten to protect one company's monopoly；Even the people who should know better — including leading scientists — are chasing
+- What it cost：Shares lost roughly ninety percent; the company was dismantled and its assets sold to pay creditors, with directors jailed or fled, and public credit damaged. Newton reportedly took an early profit, re-entered near the top, and lost some £20,000, leaving the line about being able to compute the motion of heavenly bodies but not the madness of the people. Britain stayed suspicious of joint-stock companies until 1825, and the scandal produced the earliest demands for audited books and disclosure.
+- The lesson：When a regulatory favour is used to price cash flows nobody can verify, the regulatory arbitrage is itself the largest exposure.
+
+### 1889　The Panama Canal Scandal（State-scale fraud）
+- Summary：The canal was never finished, but the fraud was: the savings of hundreds of thousands of French households and the liquidation of a star company.
+- How it unfolded：Ferdinand de Lesseps, hero of Suez, launched the Panama company in 1881 on immense prestige, underestimating disease, rain and engineering. Eight years later little was built and the cash was gone. To stay alive the company sold lottery bonds to small savers — redeemable at premiums if they won draws — while bribing deputies, officials and newspapers to delay liquidation. Interest stopped in 1888, a court ordered liquidation in March 1889, and trials in 1892-93 convicted de Lesseps, who was excused on health grounds. The United States took over in 1904; the canal opened in 1914.
+- Reputation as collateral：Suez's success endorsed an unverified bill of engineering works.
+- Debt dressed as a lottery：High-risk paper sold to small savers with 'winning' language.
+- Co-opting the critics：Bribed press turned doubt into publicity.
+- Refinancing over digging：New money paid interest and PR, not excavation.
+- Warning signs at the time：Progress is always one more raise away from completion；New capital services old debt and buys publicity；Every critic falls silent at the same moment
+- What it cost：Around 100,000 small subscribers were hurt, with bonds repaid at a fraction of face. The scandal rocked French politics and gave French the verb 'panamiser', meaning to defraud. It also showed that a technically feasible project can still be a disaster under the wrong capital structure and the wrong schedule.
+- The lesson：The more a story is certain to succeed, the more you should ask who bears the cash cost of delay and overrun.
+
+### 1920　The Original Ponzi Scheme（Ponzi and pyramid schemes）
+- Summary：Paying older investors with newer money: Charles Ponzi gave an old trick his own name.
+- How it unfolded：In 1920 the Italian immigrant Charles Ponzi set up the Securities Exchange Company in Boston, promising 50 percent in ninety days by arbitraging international postal reply coupons, against roughly 4 percent a year at the bank. Within months some 15,000 people had put in $15 million. Almost no coupons were ever bought — the scheme's scale would have required tons of them — and all returns came from new deposits. When the Boston Post questioned the number of coupons in circulation in July 1920, runs began and the firm failed that August.
+- Plausible mechanism, secret details：The arbitrage sounds simple and checkable, yet is never allowed to be checked.
+- Paying the first investors on time：Early punctual payouts make word of mouth the fundraising engine.
+- Anchoring on the deposit rate：'A little above the bank, and very safe' sits in the most acceptable risk band.
+- Growth must accelerate：Paying old money with new requires inflows to compound.
+- Warning signs at the time：Returns are high, fixed and uncorrelated with any market；The strategy cannot be replicated or reconciled from outside；No independent custody or audit, or an auditor too small to matter；Withdrawals need patience while deposits are always welcome
+- What it cost：Losses of roughly $20 million in period dollars, with most investors recovering only twenty to thirty percent. Ponzi was convicted in 1920 and imprisoned in 1922, dying in poverty. The case pushed Massachusetts to regulate trusts and securities issues, one of the local antecedents of the US 1933 securities regime.
+- The lesson：One question identifies a Ponzi scheme: if no new money arrived, where would the returns come from?
+
+### 1980　The Hunt Brothers Silver Squeeze（Market manipulation）
+- Summary：The limit experiment of buying an entire commodity: silver quintupled in six months and halved in a day.
+- How it unfolded：From 1973 the Texas oil billionaires Nelson Bunker and William Herbert Hunt bought silver bullion and futures on fears about the dollar and inflation. By late 1979 they and their associates held some 200 million ounces, a dominant share of freely circulating stock, and the price rose from about $6 to $49.45 on 17 January 1980. Exchanges and regulators then moved: margin requirements were raised repeatedly, new positions limited and delivery rules changed, while Volcker's tightening made carry ruinous. On 27 March, 'Silver Thursday', the price fell by nearly half in a session and their brokers failed in sequence.
+- Cornering the physical to bend the futures：Holding deliverable stock made short delivery impossible, so price followed the corner's logic.
+- Leverage turned liquidity into a lock-in：Margin borrowing amplified the position until a margin call left no exit.
+- Macro story as bait：'Hedge the dollar' let latecomers believe they were allocating, not catching a falling knife.
+- Betting the rules would not move：Treating 'the exchange will not intervene' as a market fact.
+- Warning signs at the time：Price decouples from industrial demand while inventory concentrates in one hand；The exchange rewrites rules and margins aimed at a single position；Financing cost rises faster than the mark-to-market gain
+- What it cost：The brothers' fortune shrank from roughly $6 billion to under $1 billion; in 1988 they settled with the CFTC for over $1 billion and entered long bankruptcy proceedings. The US and UK then tightened position limits and cross-market surveillance, and the cornering playbook acquired an explicit regulatory counter-toolkit.
+- The lesson：The limit of a squeeze is not how high price can go but how far the rules will be changed against you.
+
+### 1995　The Fall of Barings Bank（Control failure and leverage）
+- Summary：A 233-year-old bank that held the Queen's account was brought down by one of its own traders and a hidden ledger.
+- How it unfolded：Nick Leeson ran derivatives trading and the settlement back office at Barings' Singapore branch at the same time, an incompatible split of duties that let him rewrite his own trade records. Losses were parked in a dormant clearing account (88888) and reported to London as profit, while he kept drawing margin under the label of Nikkei arbitrage. The real position was the sale of large straddles on Nikkei 225 futures: steady small gains that monetised tail risk. After the Kobe earthquake on 17 January 1995 the index slumped and the hidden loss reached GBP 827 million, more than the bank's entire capital. On 26 February the Bank of England arranged a sale to ING for one pound.
+- The bettor kept the books：Incompatible duties let losses stay hidden; audit never saw the primary records.
+- A 'pending' account as a sinkhole：A temporary clearing number absorbed losses while daily profit and loss was self-declared.
+- Selling the tail for small income：Short straddles pay often and blow up rarely, so early statements look excellent by construction.
+- Profit history instead of questions：Head office treated 'he always makes money' as a risk conclusion rather than a hypothesis.
+- Warning signs at the time：A star trader holds both trading and settlement rights；Returns look like option-selling: consistently small, with no clear source；Margin calls keep rising while position explanations stay vague；Reconciliation breaks are parked as 'in transit' for months
+- What it cost：About USD 1.4 billion lost, 233 years of history ended, some 1,200 client and charitable accounts (including the Queen's) transferred and hundreds of staff made redundant. The case put operational risk on the regulatory map: segregation of front and back office, independent risk control and daily mark-to-market became standard, and demands for central clearing of derivatives gained momentum.
+- The lesson：Letting one person both bet and keep the books hands risk control to the person it should control; permissions are more worth auditing than promises and results.
+
+### 1998　The Collapse of Long-Term Capital Management（Control failure and leverage）
+- Summary：The 'smart money' fronted by two Nobel laureates nearly took the global banking system down in the week its model did not foresee.
+- How it unfolded：LTCM was founded in 1994 by Salomon Brothers star trader John Meriwether, with a team including 1997 Nobel laureates Myron Scholes and Robert Merton. Its strategy was convergence trading: buy the liquid on-the-run Treasury, sell the illiquid older issue, capture a historically tiny and stable spread, and magnify it with extreme leverage. The fund returned about 40 percent in 1997, running hundreds of billions in notional on roughly USD 4 billion of capital. On 17 August 1998 Russia defaulted on its ruble debt and devalued; capital fled to the safest assets and the assumption that spreads must converge failed outright, with the fund losing about 46 percent in two months. On 23 September, convened by the Federal Reserve Bank of New York, a dozen banks injected USD 3.6 billion of equity to take over the book and avert cascading defaults.
+- Substituting historical volatility for tail risk：Assuming near-normal spreads and stable correlations treated the never-seen as the never-to-be-seen.
+- Leverage turns the improbable into the inevitable：At twenty or thirty times capital, one four-sigma move wipes you out.
+- Crowded one-way positions：Everyone held the same 'riskless' trade, so there was no counterparty on exit.
+- Intellectual prestige as a control：Nobel names replaced independent stress testing.
+- Warning signs at the time：Notional exposure far above peers relative to capital；Returns rest on a spread that 'has never lost', not on explainable cash flow；In stress, correlations go to one: every hedge fails at once
+- What it cost：The fund was unwound between September 1998 and 1999, costing investors about USD 4 billion. The episode carried 'too big to fail' into the shadow financial system and accelerated work on margin for OTC derivatives, central clearing and systemic-risk supervision. It also left the classic lesson: low volatility is not low risk, and mean reversion can take longer than you can stay solvent.
+- The lesson：A model ends where its assumptions do. When the only source of return is 'it has never lost', you are collecting premia on a tail you have not yet paid.
+
+### 1995-2000　The Dot-com Bubble（Speculative bubble）
+- Summary：Eyeballs replaced the income statement: a collective advance drawdown on the internet's future.
+- How it unfolded：Consumer browsing took off after 1995; adding '.com' to a name commanded a premium, and venture capital underwrote 'burn cash for scale, scale for monopoly'. The Nasdaq Composite rose from about 1,000 in 1995 to 5,048 on 10 March 2000, while many listed firms had clicks rather than revenue. Tightening liquidity after the 1997 Asian crisis fed the turn: from March 2000 the index fell, by October 2002 about eighty percent below its peak, hundreds of firms were wound up, and the Enron and WorldCom scandals of 2001-02 destroyed the assumption that the accounts were trustworthy.
+- 'New paradigm' as a licence to ignore valuation：P/E ratios dismissed as industrial-era relics in favour of eyeballs, GMV and price-to-sales.
+- Circular revenue：Dot-com firms advertised on and bought from each other, manufacturing sales.
+- IPO pricing driven by retail euphoria：Underwriters allocated allotments while holding positions, rewarded for first-day pops.
+- Capex narrated as a moat：Spending on bandwidth and servers was framed as defence, not cost.
+- Warning signs at the time：Valuation metrics decouple entirely from cash generation；The best people stop building products and start doing roadshows；'Traditional analysis no longer applies' becomes the consensus line
+- What it cost：Nasdaq fell about 78 percent from its peak, trillions in market value disappeared, many firms went to zero, and US equities produced three straight negative years. The bubble was not merely waste: the fibre, data centres and payment and logistics infrastructure it built were used cheaply for the next decade, and survivors such as Amazon and eBay delivered much of the story.
+- The lesson：Being right about the direction is not being right about the price: good technology and bad investment can coexist.
+
+### 2001　The Enron Scandal（Accounting fraud）
+- Summary：Book expected future profits today and move the losses off balance sheet: the self-confirming loop of 'America's most innovative company'.
+- How it unfolded：Enron turned from a gas pipeline business into an energy-trading, asset-light platform. From 1992 it used mark-to-market accounting, letting estimated future profits on long contracts be recognised in the quarter of signing. The estimates came from internal models that almost nobody re-checked, and shortfalls were pushed into special-purpose entities (LJM, Chewco, Raptors), leaving debt and losses off balance sheet. During the 2000 California electricity crisis, Enron traders left records of engineering scarcity under names such as 'Ricochet' and 'Megawatt Burn-off'. In October 2001 the company wrote down USD 600 million of equity, in November the Houston Chronicle kept pressing on related-party deals, and on 2 December it filed for bankruptcy.
+- Mark-to-market turned expectations into revenue：Years of profit booked on signing, ahead of cash, on unaudited assumptions.
+- Off-balance-sheet parking of losses：Partnerships absorbed impairments and debt while profits stayed on the books.
+- One firm for audit and consulting：Andersen's consulting fees overwhelmed its independence.
+- Ratings and narrative propping each other up：The 'innovator' reputation made scepticism look like ignorance.
+- Warning signs at the time：Reported profit persistently exceeds operating cash flow；A thicket of related-party and off-balance-sheet vehicles with thin disclosure；Executives sell shares while telling the market to be confident；The auditor is also the biggest consulting supplier
+- What it cost：Some USD 74 billion of shareholder value vanished, more than 20,000 people lost jobs, and employees whose retirement accounts held Enron stock were hit twice. Arthur Andersen collapsed and the Big Five became the Big Four. The Sarbanes-Oxley Act of 2002 required personal certification of accounts by executives, management assessment of internal controls (Section 404), limits on combining audit with consulting, and stronger whistleblower protection.
+- The lesson：If accounting lets you discount the future into today, someone must own the assumptions; otherwise fraud needs no forged cash, only a changed model.
+
+### 2001　The Yinguangxia Fraud（Accounting fraud）
+- Summary：'The most profitable exporter' built its share price on forged customs forms and contracts — and produced some of the first investor lawsuits in the A-share market.
+- How it unfolded：Yinguangxia, listed in the 1990s through a Ningxia wine plant, became famous around 2000 for 'supercritical CO2 extraction' products sold abroad, with claimed European customers and extraordinary margins. Across 1999-2000 it inflated profits by some 745 million yuan using forged customs declarations and sales contracts, reported 0.51 yuan of earnings per share for 2000, and multiplied its share price, earning praise as a model blue chip. In August 2001 Caijing magazine published an investigation showing that customer locations, bank receipts and customs volumes did not reconcile; in September the company admitted the forgery, and the stock fell limit-down for more than ten straight sessions, from above 30 yuan to around 6.
+- A 'high tech plus exports' double halo：Neither the process nor the overseas orders could be checked on site by domestic investors.
+- Fraud in the least verifiable link：Customs forms, bank receipts and contracts cross-confirmed each other in a closed loop.
+- Borrowing institutional endorsement：Broker recommendations and fund holdings stood in for due diligence.
+- Bonus issues as a growth illusion：Share splits supplied liquidity and the visual effect of growth.
+- Warning signs at the time：Export margins far above peers with no explanation of the cost structure；Receipts, customs data and capacity fail to reconcile；Visits to the key plant are refused；Growth rests on share issuance and story rather than cash flow
+- What it cost：More than ten billion yuan of market value disappeared, over a hundred thousand shareholders were hurt, the company was fined and executives jailed. It became a trigger for institutional reform in China's capital market: the 2001 guidance requiring listed companies to appoint independent directors, and the 2003 Supreme Court decision to hear civil compensation claims, which opened a judicial channel for investor recovery.
+- The lesson：Cross-checking statements against third-party data — customs, bank receipts, tax, utilities — gets closer to the truth than any single institution's endorsement.
+
+### 2008　The Madoff Ponzi Scheme（Ponzi and pyramid schemes）
+- Summary：Sixty-five billion dollars of book assets turned out to be a difference in a ledger.
+- How it unfolded：Madoff had chaired the Nasdaq exchange and was a byword for credibility. His fund ran a claimed 'split-strike conversion' strategy that delivered almost the same positive return, around ten percent, through every bull and bear market for decades. In practice most client money simply sat in his own broker-dealer accounts; returns were manufactured from new inflows and the trading records were back-built. When the 2008 crisis triggered historic redemption requests that inflows could no longer cover, he confessed to his sons and turned himself in that December, pleaded guilty in 2009, drew 150 years and died in custody in 2021.
+- Substituting reputation for verifiability：The name was the due diligence; nobody checked the positions.
+- Implausible smoothness：A return curve with no drawdown is statistically more suspicious than a loss.
+- Engineered scarcity：Only referred clients were accepted, so exiting felt like losing privilege.
+- Self-custody：Trading, custody, audit and clearing closed the loop inside one group.
+- Warning signs at the time：Returns uncorrelated with markets and almost never negative；An auditor whose size bears no relation to assets under custody；Position-level detail refused on grounds of secrecy；Custodian and manager related to each other
+- What it cost：The bankruptcy filing listed about $64.7 billion in nominal client assets, with real principal losses nearer $17-20 billion; endowments, charities and pension funds were wiped out and clawbacks ran for more than a decade. The regulatory torpor it exposed fed the 2010 Dodd-Frank reforms to whistleblower incentives and adviser registration.
+- The lesson：The less a return needs explaining, the harder you should ask why it exists: a credible person is not a verifiable ledger.
+
+### 2012　The LIBOR Rigging Scandal（Market manipulation）
+- Summary：The benchmark behind trillions of dollars of contracts turned out to be a daily quote that a handful of banks chose to submit.
+- How it unfolded：LIBOR was compiled from estimates that a panel of large banks submitted to the British Bankers' Association, answering 'at what rate could you borrow unsecured funds today', with a trimmed mean published daily. It underpinned floating-rate loans, bonds, swaps and household mortgages. Because the number was a self-report and also moved the trading desk's mark-to-market, derivatives traders at several banks repeatedly asked submitters to nudge it up or down, sometimes in chat logs that read as jokes. After 2008, journalists and regulators noticed banks had low-balled their quotes during the crisis to look less strained. In July 2012 Barclays admitted misconduct and paid roughly USD 450 million across US and UK penalties; UBS, RBS, Citigroup, Deutsche Bank, HSBC and JPMorgan followed, aggregate fines reached the tens of billions of dollars, and criminal cases proceeded.
+- A self-reported benchmark：Quotes were estimates without trade evidence, so they were manipulable by design.
+- The submitter was also a stakeholder：Inside the same bank, trading desks and the submissions desk were one conversation away.
+- Reputation incentives in a crisis：Quoting higher looked like funding stress, so everyone shaded downwards.
+- Diffused accountability：Between the industry association, panel banks and supervisors, nobody owned the number.
+- Warning signs at the time：A benchmark built from participants' own submissions rather than executed trades；Deviations from actual funding cost cluster in stress periods；The benchmark directly marks the submitters' own positions
+- What it cost：Fines and settlements exceeded ten billion dollars worldwide, and countless mortgages, corporate loans and derivatives had to be repriced or litigated. The deeper consequence was replacement: the Wheatley review brought benchmarks under regulation, LIBOR was phased out, dollar LIBOR ceased at the end of June 2023, and markets moved to secured overnight rates such as SOFR that rest on actual trades. The lesson generalises: any public good produced by a few insiders reporting numbers will attract the temptation to internalise it.
+- The lesson：undefined
+
+### 2019　The PlusToken Ponzi Scheme（Ponzi and pyramid schemes）
+- Summary：A 'wallet tool' repackaged as mining arbitrage, using multi-tier rebates to reproduce Ponzi's acceleration curve.
+- How it unfolded：Launched around 2018, PlusToken marketed a 'multi-signature wallet' said to earn automatically by arbitraging across exchanges: deposit bitcoin, ether and other coins for a static yield, plus dynamic rewards in which uplines took a percentage of downlines' deposits. Spread through Chinese-language communities with 'community building' language, it registered millions of accounts and took in more than a million units of major crypto assets. Withdrawals began to jam in June 2019, key operators were arrested abroad and extradited to China, and in 2020 a court in Jiangsu convicted them of organising and leading a pyramid scheme, with amounts measured in tens of billions of yuan.
+- Jargon as a moat：'Multi-signature' and 'quant arbitrage' sound checkable yet nobody could verify the yield.
+- Static yield plus dynamic referral fees：The first attracts depositors, the second turns depositors into recruiters and shifts acquisition cost downline.
+- Deposits in crypto to bypass fund monitoring：Value never entered bank accounts, so the platform alone controlled withdrawal pace.
+- Roadshows and community mythology：Stories of members who became rich replaced any financial disclosure.
+- Warning signs at the time：Returns come from recruitment rather than a reconcilable spread；Tier commissions far exceed any real business's customer-acquisition budget；Withdraws queue while deposits are instant；The operator and its servers sit offshore with no financial licence
+- What it cost：Many participants lost everything, and because the tier structure blurred roles, some downlines were both victims and recruiters — which complicated legal characterisation. The case became the marker by which Chinese regulators classified such crypto 'mining schemes' as pyramid selling, prompted cross-border asset recovery and accelerated the crackdown on domestic crypto trading and hosted mining.
+- The lesson：undefined
+
+### 2020　The Wirecard Collapse（Accounting fraud）
+- Summary：A payments firm in Germany's blue-chip index reported EUR 1.9 billion of cash that simply did not exist.
+- How it unfolded：Headquartered in Munich, Wirecard provided acquiring and payment technology for cross-border e-commerce and grew by telling a story of asset-light, high-growth Asian third-party acceptance. Auditors and short sellers had questioned its accounting since 2005; in February 2019 Financial Times reporter Dan McCrum published a series alleging that Singapore offices fabricated profits by inflating revenue. The company sued the paper for reputational damage, and Germany's Federal Financial Supervisory Authority (BaFin) briefly banned short sales of the stock and contemplated action against the FT. In April 2020 EY, engaged for a special audit, said it could not verify about EUR 1.9 billion of trustee cash held at two banks in the Philippines. On 18 June 2020 Wirecard filed for insolvency; CEO Markus Braun was arrested and COO Jan Marsalek fled and became a wanted man.
+- Revenue parked with unauditable third parties：Income booked through 'acceptance partners' whose records sat offshore and could not be pierced.
+- Litigation against sceptics：Suing short-sellers and reporters perversely added to the firm's aura of credibility.
+- Index membership as a halo：DAX inclusion and a payments licence hinted that someone had already checked.
+- An auditor for life：Years of unqualified opinions from the same firm eroded independence.
+- Warning signs at the time：Cash sits in offshore trustee arrangements that cannot be verified；Growth comes from opaque third-party partner revenue；The company spends more energy suing critics than answering specifics；The auditor has served for an unusually long stretch
+- What it cost：Some EUR 1.9 billion of assets proved fictional, creditors filed claims above EUR 4 billion, the share fell more than 99 percent from its 2018 high, and about 3,000 people lost jobs. Public trust in audit and supervision took the deeper hit: Germany tightened audit rotation and quality control, BaFin's president lost her post, and the EU advanced stronger anti-money-laundering and audit oversight structures. It remains the textbook case of a regulator treating criticism as the enemy.
+- The lesson：undefined
+
+### 2022　The Terra/LUNA Collapse（Speculative bubble）
+- Summary：Stabilising one token with another: once redemptions began, the peg mechanism itself became the engine of the fall.
+- How it unfolded：Terra's stablecoin UST was not backed one-for-one by dollar cash but paired with its sister token LUNA: mint new UST against LUNA when UST traded above a dollar, burn UST for a dollar's worth of LUNA when below, and arbitrage would hold the peg. To manufacture demand, the ecosystem's Anchor protocol paid roughly 19-20 percent annualised on UST deposits, with the spread funded by borrowing and reserves. Large holders began exiting in April 2022; in May a concentrated sale broke the peg and the arbitrage ran in reverse. LUNA supply exploded as it was minted to honour redemptions, its price fell from over a hundred dollars to well below a cent, UST depegged to tens of cents, and some USD 40 billion of related value evaporated within a fortnight, forcing hedge funds to unwind and lending platforms to halt.
+- Mechanism instead of reserves：'Stability' came from a self-reinforcing arbitrage loop, not redeemable assets.
+- A subsidy dressed as yield：Twenty percent annualised was not productivity; borrowed money was buying scale.
+- Concentration hidden behind distribution：A handful of whale depositors decided whether the peg lived, with no lock-up discipline.
+- Shared lineage with a volatile token：The stablecoin's credibility was welded to a high-volatility asset, so risk could not be ring-fenced.
+- Warning signs at the time：Stablecoin yields far above the risk-free rate, sustained without decay；Thin disclosure of reserve composition and heavy concentration；The peg depends on continuous inflows and reverses when they slow；Lenders, exchanges and the issuer hold each other's tokens in circular exposure
+- What it cost：Between USD 40 and 60 billion was lost by UST and LUNA holders, crypto lenders and hedge funds failed in a chain, and the collapse accelerated stablecoin and crypto regulation in the United States and the European Union (where MiCA was finalised). The lead founder was arrested in Montenegro in 2023, extradited and later faced fraud charges in the United States. It was an expensive lesson for every design that substitutes mechanism for reserves.
+- The lesson：undefined
+
+### 2022　FTX and the Missing Customer Funds（Ponzi and pyramid schemes）
+- Summary：Exchange, proprietary trading firm, house token and philanthropic narrative in one system — with USD 8 billion of customer money used to bet.
+- How it unfolded：FTX, founded in 2019 by Sam Bankman-Fried, attracted capital with low fees, institutional services and an 'effective altruism' image, and issued its own token, FTT. Its affiliated trading firm Alameda Research held large amounts of FTT and FTX equity, creating a self-referential asset base. On 2 November 2022 the Washington Post published Alameda's balance sheet, showing assets heavily weighted to illiquid FTT and tokenised equity, and counterparties began unwinding. The run became uncontrollable within forty-eight hours: Binance pulled its rescue deal on 8 November, FTX froze withdrawals, and on 11 November it filed for bankruptcy in Delaware as the founder resigned. Court and audit filings showed roughly USD 8 billion of customer assets had been diverted, and FTT lost more than ninety percent of its value.
+- Issuer, exchange and market maker under one control：The same hands minted the asset, priced it and supplied its liquidity, each validating the others.
+- Customer money commingled with the prop book：Custody that should have been ring-fenced funded related-party trades, donations and real estate.
+- Philanthropic narrative instead of governance：A 'save the world' image let investors skip the most basic reconciliation.
+- No internal audit or risk function：Bankruptcy revealed no head of finance and books kept in chat messages.
+- Warning signs at the time：The house token dominates the affiliate's balance sheet；No audit opinion, or an auditor too close to the platform；Withdrawals depend on a rescue from another party rather than own liquidity；Governance is personal: no independent risk or compliance leadership
+- What it cost：More than a million creditors entered a long recovery process, global crypto market capitalisation shed hundreds of billions within a month, several lending platforms failed in sequence, and the founder and senior executives were convicted, with a twenty-five-year sentence in November 2023. The case forced industry reform on customer-asset segregation and proof (proof-of-reserves, custody separation) and exposed how philanthropic reputation and political donations could substitute for supervision.
+- The lesson：undefined
 
 ## Behavioral Economics
 
