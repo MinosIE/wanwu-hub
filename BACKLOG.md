@@ -32,7 +32,7 @@
 - [x] **hero 副标语 `.hero-tag`（原 `heroSub`）**：其他学科 hero 只有一行导语，这行小字副标语是 physics/chem 独有的，已删除；`SubjectConfig.heroSub` 字段、physics/chem `data.ts` 里的取值、`scripts/export-data.mjs` 导出的 `heroSub`/`heroSubEn` 与 `subjectKit.css` 样式一并清理（overview.json 需重跑 `npm run data:export`）。
 - [x] **模块标题行 `.sm-head`**：与其他学科的 `.mod-head` 功能重叠但长相不同（左对齐 + 右侧计数徽章），已改用共享 `.mod-head`（居中标题），subjectKit.css 里的 `.sm-head`/`.sm-count` 自定义规则与 `setCount()` 全部删除。
 - [x] **详情面板难度文案**：徽标与 eyebrow 由 `L1/L2/L3` 改为中文等级词（入门/进阶/拓展），与 thought 等学科用词一致。
-- [ ] **`level` 数据覆盖面**：physics 130 条中 94 条有难度，chem 232 条仅 3 个模块（概念/结构/趋势）共 26 条有难度，其余模块无筛选条。补齐需给 chem 各模块补 `level`（不造伪数据）。
+- [x] **`level` 数据覆盖面**：已补齐。physics 130/130、chem 非周期表 114/114 条均有难度（周期表 118 条按 `kind: "periodic"` 不参与难度筛选，`subjectKit` 的 `hasLevels()` 已排除）。难度按中国课标进入时点人工判定（1 入门 / 2 进阶 / 3 拓展），非机械填充。浏览器实测：chem 15 个模块中 14 个、physics 16 个模块全部出现难度筛选条。
 - [ ] **KPI / 详情 / footer 视觉对齐**：physics/chem 的 `sub-detail` / 简单 footer 与 FULL 风格统一。
 - [ ] **首页学科计数口径对齐**：顶栏/首页统计数字（学科数）需同步对齐，避免口径矛盾。
 
@@ -46,7 +46,7 @@
 
 ## 3. 内容扩充
 
-- [ ] **physics/chem 种子内容深化**：`data.ts:7` 标注「示例性内容，持续扩充中」。physics 31 条 / chem 34 条，覆盖面偏浅，需加深度与广度。
+- [ ] **physics/chem 种子内容深化**：（本条原记的「`data.ts:7` 标注『示例性内容，持续扩充中』」与「physics 31 条 / chem 34 条」均已失真：全仓无该标注（只有 econ 的「示例性年度近似值」），实际为 physics 130 条 / chem 232 条，其中 118 条是完整周期表。当前双语字段无缺失、难度字段已全覆盖；仍偏浅的是**每模块条目的广度**（physics 最少的 methods / fluids / relativity / waves / tech 各 4-5 条，chem 的 energy / electrochem 各 5 条），以及 physics 16 个模块、chem 15 个模块尚未覆盖力、热以外的专题（如近代物理实验、化学与工程、环境化学）。
 - [x] **econ 补「骗局与泡沫」模块与金融大事件**：新增 `bubbles.json`（16 条中英双语：郁金香、南海、庞氏、亨特兄弟、巴林、LTCM、互联网泡沫、安然、银广夏、麦道夫、LIBOR、PlusToken、Wirecard、LUNA、FTX 等）与新视图 `m-bubbles`（`template.ts` section + 导航按钮 + `s/build-econ-index.mjs` 登记 + i18n 双语键）；`events.json` 22→31（黑色星期一、黑色星期三/索罗斯做空英镑、俄罗斯违约、欧元区主权债务危机、闪电崩盘、2015 A 股异常波动、瑞郎脱钩、英国迷你预算、硅谷银行）。econ 模块 16→17、条目 207→232，overview 计数/KPI 与四份 GEO 文档已同步。
 - [ ] **econ 图表数据口径**：`i18n.json:92` 免责「示例性年度近似值，非实时数据」——补真实来源或明确标注。
 - [ ] **mind 在建模块**：`i18n.ts:187` `ui.comingSoon` = 「该模块正在建设中，敬请期待」——推进在建模块。

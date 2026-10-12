@@ -4,6 +4,7 @@
     "icon": "➕",
     "term": "化合反应",
     "termEn": "Synthesis",
+    "level": 1,
     "oneLiner": "多种物质生成一种新物质（A + B → AB）。",
     "oneLinerEn": "Several substances form one product (A + B → AB)."
   },
@@ -12,6 +13,7 @@
     "icon": "➖",
     "term": "分解反应",
     "termEn": "Decomposition",
+    "level": 1,
     "oneLiner": "一种物质分解成多种物质（AB → A + B）。",
     "oneLinerEn": "One substance breaks into several (AB → A + B)."
   },
@@ -20,6 +22,7 @@
     "icon": "🔁",
     "term": "置换反应",
     "termEn": "Single Replacement",
+    "level": 1,
     "oneLiner": "活泼金属把较不活泼金属从其盐中置换出来。",
     "oneLinerEn": "A more active metal displaces a less active one from its salt."
   },
@@ -28,6 +31,7 @@
     "icon": "🔄",
     "term": "复分解反应",
     "termEn": "Double Replacement",
+    "level": 2,
     "oneLiner": "两种化合物交换组分，常生成沉淀、气体或水。",
     "oneLinerEn": "Two compounds exchange parts, often yielding precipitate, gas or water."
   },
@@ -36,6 +40,7 @@
     "icon": "🔥",
     "term": "燃烧",
     "termEn": "Combustion",
+    "level": 1,
     "oneLiner": "物质与氧气的剧烈氧化，发光放热。",
     "oneLinerEn": "Vigorous oxidation with oxygen, releasing light and heat."
   },
@@ -44,6 +49,7 @@
     "icon": "🧪",
     "term": "中和反应",
     "termEn": "Neutralization",
+    "level": 1,
     "oneLiner": "酸与碱反应生成盐和水，pH 趋近 7。",
     "oneLinerEn": "Acid and base form salt and water, pH trending to 7."
   }

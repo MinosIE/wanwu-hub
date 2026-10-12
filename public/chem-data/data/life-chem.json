@@ -54,6 +54,7 @@
     "icon": "🧂",
     "term": "侯氏制碱法",
     "termEn": "Hou's Process",
+    "level": 2,
     "oneLiner": "向饱和氨盐水中通 CO₂，析出碳酸氢钠再锻烧得纯碱。",
     "oneLinerEn": "Pass CO₂ into ammoniated brine; precipitated NaHCO₃ is calcined to soda ash.",
     "eq": [
@@ -109,6 +110,7 @@
     "icon": "🧼",
     "term": "皂化反应（制肥皂）",
     "termEn": "Saponification",
+    "level": 2,
     "oneLiner": "油脂在氢氧化钠溶液中水解，生成高级脂肪酸钠和甘油。",
     "oneLinerEn": "Fats hydrolyze in NaOH solution into soap (fatty sodium salts) and glycerol.",
     "eq": {
@@ -153,6 +155,7 @@
     "icon": "⚗️",
     "term": "工业合成氨",
     "termEn": "Ammonia Synthesis",
+    "level": 3,
     "oneLiner": "氮气与氢气在高温高压、催化剂下可逆化合生成氨。",
     "oneLinerEn": "N₂ and H₂ combine reversibly under high pressure, heat and catalyst.",
     "eq": {
@@ -214,6 +217,7 @@
     "icon": "🔌",
     "term": "氯碱工业（电解食盐水）",
     "termEn": "Chlor-Alkali",
+    "level": 2,
     "oneLiner": "电解饱和食盐水制取烧碱、氢气和氯气。",
     "oneLinerEn": "Electrolysis of brine yields caustic soda, H₂ and Cl₂.",
     "eq": {
@@ -290,6 +294,7 @@
     "icon": "🪣",
     "term": "漂白粉的制取与失效",
     "termEn": "Bleaching Powder",
+    "level": 2,
     "oneLiner": "氯气与石灰乳制漂白粉，失效是因与空气中 CO₂ 反应生成 HClO。",
     "oneLinerEn": "Cl₂ with lime makes bleaching powder; it spoils by reacting with CO₂ to give HClO.",
     "eq": [
@@ -340,6 +345,7 @@
     "icon": "🏗️",
     "term": "高炉练铁",
     "termEn": "Blast-Furnace Iron",
+    "level": 1,
     "oneLiner": "一氧化碳在高温下把氧化铁还原为铁。",
     "oneLinerEn": "CO reduces iron oxide to iron at high temperature.",
     "eq": {
@@ -392,6 +398,7 @@
     "icon": "🚄",
     "term": "铝热反应",
     "termEn": "Thermite Reaction",
+    "level": 2,
     "oneLiner": "铝与氧化铁高温反应，置换出铁并放出大量热。",
     "oneLinerEn": "Aluminum reduces iron oxide, yielding molten iron with intense heat.",
     "eq": {
@@ -452,6 +459,7 @@
     "icon": "🍶",
     "term": "酯化反应",
     "termEn": "Esterification",
+    "level": 2,
     "oneLiner": "乙酸与乙醇在浓硫酸催化下生成有香味的乙酸乙酯。",
     "oneLinerEn": "Acetic acid and ethanol form fragrant ethyl acetate, catalyzed by conc. H₂SO₄.",
     "eq": {
@@ -513,6 +521,7 @@
     "icon": "🌡️",
     "term": "乙醇的催化氧化",
     "termEn": "Catalytic Oxidation of Ethanol",
+    "level": 2,
     "oneLiner": "乙醇在铜催化并加热下被氧化为乙醛。",
     "oneLinerEn": "Ethanol is oxidized to acetaldehyde over copper with heating.",
     "eq": {
@@ -565,6 +574,7 @@
     "icon": "🌿",
     "term": "光合作用",
     "termEn": "Photosynthesis",
+    "level": 1,
     "oneLiner": "绿色植物在光照与叶绿体下把 CO₂ 和水合成葡萄糖并放氧。",
     "oneLinerEn": "Plants build glucose from CO₂ and water using light in chloroplasts, releasing O₂.",
     "eq": {
@@ -617,6 +627,7 @@
     "icon": "🍞",
     "term": "酒精发酵",
     "termEn": "Alcoholic Fermentation",
+    "level": 1,
     "oneLiner": "葡萄糖在酒化酶作用下分解为乙醇和二氧化碳。",
     "oneLinerEn": "Glucose breaks into ethanol and CO₂ under the action of zymase.",
     "eq": {
@@ -685,6 +696,7 @@
     "icon": "💊",
     "term": "胃酸中和（胃药）",
     "termEn": "Stomach-Acid Neutralization",
+    "level": 1,
     "oneLiner": "氢氧化铝（或碳酸氢钠）中和过多的胃酸。",
     "oneLinerEn": "Aluminum hydroxide (or NaHCO₃) neutralizes excess stomach acid.",
     "eq": [

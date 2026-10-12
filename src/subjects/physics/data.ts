@@ -1612,6 +1612,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "c",
           icon: "💡",
           term: { zh: "光速", en: "Speed of Light" },
+          level: 1,
           value: { zh: "≈ 3.00×10⁸ m/s", en: "≈ 3.00×10⁸ m/s" },
           oneLiner: {
             zh: "真空中的光速，相对论与电磁学的基石。",
@@ -1622,6 +1623,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "h",
           icon: "➿",
           term: { zh: "普朗克常数", en: "Planck Constant" },
+          level: 3,
           value: { zh: "6.626×10⁻³⁴ J·s", en: "6.626×10⁻³⁴ J·s" },
           oneLiner: {
             zh: "量子化的尺度，E=hν。",
@@ -1632,6 +1634,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "G",
           icon: "🪐",
           term: { zh: "引力常数", en: "Gravitational Constant" },
+          level: 2,
           value: { zh: "6.674×10⁻¹¹ N·m²/kg²", en: "6.674×10⁻¹¹ N·m²/kg²" },
           oneLiner: {
             zh: "万有引力定律中的比例系数。",
@@ -1642,6 +1645,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "e",
           icon: "⚡",
           term: { zh: "元电荷", en: "Elementary Charge" },
+          level: 1,
           value: { zh: "1.602×10⁻¹⁹ C", en: "1.602×10⁻¹⁹ C" },
           oneLiner: {
             zh: "质子所带电量（电子电荷绝对值）。",
@@ -1652,6 +1656,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "k",
           icon: "🌡️",
           term: { zh: "玻尔兹曼常数", en: "Boltzmann Constant" },
+          level: 2,
           value: { zh: "1.38×10⁻²³ J/K", en: "1.38×10⁻²³ J/K" },
           oneLiner: {
             zh: "连接温度与微观平均动能。",
@@ -1662,6 +1667,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "Na",
           icon: "🧮",
           term: { zh: "阿伏伽德罗常数", en: "Avogadro's Number" },
+          level: 1,
           value: { zh: "6.022×10²³ mol⁻¹", en: "6.022×10²³ mol⁻¹" },
           oneLiner: {
             zh: "1 摩尔物质含基本单元的个数。",
@@ -1672,6 +1678,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "eps0",
           icon: "🕸️",
           term: { zh: "真空介电常数", en: "Vacuum Permittivity" },
+          level: 2,
           value: { zh: "8.854×10⁻¹² F/m", en: "8.854×10⁻¹² F/m" },
           oneLiner: {
             zh: "库仑定律中的比例系数 ε₀。",
@@ -1682,6 +1689,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "me",
           icon: "🔘",
           term: { zh: "电子质量", en: "Electron Mass" },
+          level: 2,
           value: { zh: "9.109×10⁻³¹ kg", en: "9.109×10⁻³¹ kg" },
           oneLiner: {
             zh: "基本粒子中最轻的稳定带电粒子质量。",
@@ -1700,6 +1708,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "double-slit",
           icon: "🌗",
           term: { zh: "杨氏双缝实验", en: "Young's Double-Slit" },
+          level: 2,
           oneLiner: {
             zh: "光过双缝形成干涉条纹，证明光的波动性。",
             en: "Light through two slits makes interference fringes, proving waves.",
@@ -1709,6 +1718,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "michelson-morley",
           icon: "📏",
           term: { zh: "迈克尔逊-莫雷实验", en: "Michelson–Morley" },
+          level: 3,
           oneLiner: {
             zh: "探测「以太风」得零结果，为相对论扫清障碍。",
             en: "Sought the aether wind but found none, clearing the way for relativity.",
@@ -1718,6 +1728,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "millikan",
           icon: "💧",
           term: { zh: "密立根油滴实验", en: "Millikan Oil-Drop" },
+          level: 3,
           oneLiner: {
             zh: "悬浮带电油滴测出元电荷，证实电荷量子化。",
             en: "Measured the elementary charge, confirming quantization.",
@@ -1727,6 +1738,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "rutherford",
           icon: "⚛️",
           term: { zh: "卢瑟福金箔实验", en: "Rutherford Gold-Foil" },
+          level: 2,
           oneLiner: {
             zh: "α 粒子大角度散射，提出原子核式模型。",
             en: "Large-angle α scattering led to the nuclear model.",
@@ -1736,6 +1748,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "cavendish",
           icon: "⚖️",
           term: { zh: "卡文迪许扭秤", en: "Cavendish Experiment" },
+          level: 2,
           oneLiner: {
             zh: "首次测出引力常数 G，并估算地球质量。",
             en: "First measured G and estimated Earth's mass.",
@@ -1745,6 +1758,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "photoelectric",
           icon: "🔆",
           term: { zh: "光电效应实验", en: "Photoelectric Effect" },
+          level: 2,
           oneLiner: {
             zh: "光照射金属打出电子，爱因斯坦用量子解释，佐证光子说。",
             en: "Light ejects electrons; Einstein's quantum explanation supported photons.",
@@ -1754,6 +1768,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "galileo-incline",
           icon: "📐",
           term: { zh: "伽利略斜面实验", en: "Galileo's Inclined Plane" },
+          level: 1,
           oneLiner: {
             zh: "用斜面「冲淡重力」研究匀加速运动，奠定实验物理。",
             en: "Diluted gravity with ramps to study uniform acceleration, founding experimental physics.",
@@ -1763,6 +1778,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "hertz",
           icon: "📡",
           term: { zh: "赫兹电磁波实验", en: "Hertz EM-Wave" },
+          level: 2,
           oneLiner: {
             zh: "用振荡电路发射并接收电磁波，证实麦克斯韦预言。",
             en: "Generated and detected EM waves, confirming Maxwell.",
@@ -1780,6 +1796,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "newton",
           icon: "🍎",
           term: { zh: "艾萨克·牛顿", en: "Isaac Newton" },
+          level: 2,
           oneLiner: {
             zh: "经典力学与微积分奠基人，《原理》建立三定律与万有引力。",
             en: "Founder of classical mechanics and calculus; Principia set the three laws and gravitation.",
@@ -1789,6 +1806,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "einstein",
           icon: "🧠",
           term: { zh: "阿尔伯特·爱因斯坦", en: "Albert Einstein" },
+          level: 3,
           oneLiner: {
             zh: "狭义与广义相对论、光电效应，重塑时空与引力观。",
             en: "Special & general relativity and the photoelectric effect reshaped space, time and gravity.",
@@ -1798,6 +1816,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "maxwell",
           icon: "🧲",
           term: { zh: "詹姆斯·麦克斯韦", en: "James Clerk Maxwell" },
+          level: 3,
           oneLiner: {
             zh: "统一电、磁、光，提出麦克斯韦方程组。",
             en: "Unified electricity, magnetism and light via Maxwell's equations.",
@@ -1807,6 +1826,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "bohr",
           icon: "🪐",
           term: { zh: "尼尔斯·玻尔", en: "Niels Bohr" },
+          level: 2,
           oneLiner: {
             zh: "原子量子化模型与哥本哈根诠释。",
             en: "Quantized atomic model and the Copenhagen interpretation.",
@@ -1816,6 +1836,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "curie",
           icon: "☢️",
           term: { zh: "玛丽·居里", en: "Marie Curie" },
+          level: 1,
           oneLiner: {
             zh: "放射性研究先驱，首位两获诺贝尔奖的科学家。",
             en: "Pioneer of radioactivity; first person to win two Nobel Prizes.",
@@ -1825,6 +1846,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "galileo",
           icon: "🔭",
           term: { zh: "伽利略·伽利雷", en: "Galileo Galilei" },
+          level: 1,
           oneLiner: {
             zh: "近代实验物理与天文观测奠基人，惯性概念先驱。",
             en: "Founder of modern experimental physics and observational astronomy; pioneer of inertia.",
@@ -1834,6 +1856,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "faraday",
           icon: "🌀",
           term: { zh: "迈克尔·法拉第", en: "Michael Faraday" },
+          level: 2,
           oneLiner: {
             zh: "发现电磁感应，奠定电力工业基础。",
             en: "Discovered electromagnetic induction, foundation of the electrical industry.",
@@ -1843,6 +1866,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "kepler",
           icon: "🪐",
           term: { zh: "约翰内斯·开普勒", en: "Johannes Kepler" },
+          level: 1,
           oneLiner: {
             zh: "提出行星运动三定律，揭示天体运行规律。",
             en: "Formulated the three laws of planetary motion.",
@@ -1852,6 +1876,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "planck",
           icon: "➿",
           term: { zh: "马克斯·普朗克", en: "Max Planck" },
+          level: 2,
           oneLiner: {
             zh: "提出能量量子化，开创量子理论。",
             en: "Proposed energy quantization, launching quantum theory.",
@@ -1861,6 +1886,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "hertz",
           icon: "📡",
           term: { zh: "海因里希·赫兹", en: "Heinrich Hertz" },
+          level: 2,
           oneLiner: {
             zh: "首次实验证实电磁波存在。",
             en: "First experimentally confirmed electromagnetic waves.",
@@ -1878,6 +1904,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "entropy",
           icon: "🔀",
           term: { zh: "熵", en: "Entropy" },
+          level: 3,
           oneLiner: {
             zh: "系统无序程度的度量，也是热力学第二定律的核心。",
             en: "A measure of disorder and the heart of the second law.",
@@ -1887,6 +1914,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "photon",
           icon: "✨",
           term: { zh: "光子", en: "Photon" },
+          level: 2,
           oneLiner: {
             zh: "光的量子，静质量为零的电磁场能量包。",
             en: "The quantum of light, a massless packet of EM energy.",
@@ -1896,6 +1924,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "field",
           icon: "🕸️",
           term: { zh: "场", en: "Field" },
+          level: 2,
           oneLiner: {
             zh: "空间中每点赋予一个物理量的分布，如引力场、电磁场。",
             en: "An assignment of a physical quantity to every point in space.",
@@ -1905,6 +1934,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "plasma",
           icon: "⚡",
           term: { zh: "等离子体", en: "Plasma" },
+          level: 2,
           oneLiner: {
             zh: "电离气体，由自由电子与离子组成，物质的第四态。",
             en: "Ionized gas of free electrons and ions — the fourth state of matter.",
@@ -1914,6 +1944,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "wavelength",
           icon: "🌊",
           term: { zh: "波长", en: "Wavelength" },
+          level: 1,
           oneLiner: {
             zh: "波在一个周期内传播的距离，符号 λ。",
             en: "Distance a wave travels in one period, symbol λ.",
@@ -1923,6 +1954,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "frequency",
           icon: "🔁",
           term: { zh: "频率", en: "Frequency" },
+          level: 1,
           oneLiner: {
             zh: "单位时间内振动的次数，单位赫兹 Hz。",
             en: "Oscillations per unit time, in hertz (Hz).",
@@ -1932,6 +1964,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "vector",
           icon: "➡️",
           term: { zh: "矢量", en: "Vector" },
+          level: 1,
           oneLiner: {
             zh: "既有大小又有方向的物理量，如位移、力、速度。",
             en: "A quantity with magnitude and direction, e.g. displacement, force, velocity.",
@@ -1941,6 +1974,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "inertial-frame",
           icon: "🛰️",
           term: { zh: "惯性系", en: "Inertial Frame" },
+          level: 2,
           oneLiner: {
             zh: "不受外力、保持静止或匀速直线运动的参考系。",
             en: "A frame at rest or in uniform motion, free of net force.",
@@ -1950,6 +1984,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "quantum",
           icon: "📊",
           term: { zh: "量子", en: "Quantum" },
+          level: 2,
           oneLiner: {
             zh: "物理量不可再分的最小单元；微观世界离散化的体现。",
             en: "The smallest indivisible unit of a quantity; discreteness in the micro-world.",
@@ -1959,6 +1994,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "duality",
           icon: "🌗",
           term: { zh: "波粒二象性", en: "Wave-Particle Duality" },
+          level: 3,
           oneLiner: {
             zh: "微观粒子既表现波动性也表现粒子性。",
             en: "Microscopic particles exhibit both wave and particle behavior.",

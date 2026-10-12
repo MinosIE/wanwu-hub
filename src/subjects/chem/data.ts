@@ -918,6 +918,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "synthesis",
           icon: "➕",
           term: { zh: "化合反应", en: "Synthesis" },
+          level: 1,
           oneLiner: {
             zh: "多种物质生成一种新物质（A + B → AB）。",
             en: "Several substances form one product (A + B → AB).",
@@ -927,6 +928,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "decomposition",
           icon: "➖",
           term: { zh: "分解反应", en: "Decomposition" },
+          level: 1,
           oneLiner: {
             zh: "一种物质分解成多种物质（AB → A + B）。",
             en: "One substance breaks into several (AB → A + B).",
@@ -936,6 +938,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "single",
           icon: "🔁",
           term: { zh: "置换反应", en: "Single Replacement" },
+          level: 1,
           oneLiner: {
             zh: "活泼金属把较不活泼金属从其盐中置换出来。",
             en: "A more active metal displaces a less active one from its salt.",
@@ -945,6 +948,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "double",
           icon: "🔄",
           term: { zh: "复分解反应", en: "Double Replacement" },
+          level: 2,
           oneLiner: {
             zh: "两种化合物交换组分，常生成沉淀、气体或水。",
             en: "Two compounds exchange parts, often yielding precipitate, gas or water.",
@@ -954,6 +958,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "combustion",
           icon: "🔥",
           term: { zh: "燃烧", en: "Combustion" },
+          level: 1,
           oneLiner: {
             zh: "物质与氧气的剧烈氧化，发光放热。",
             en: "Vigorous oxidation with oxygen, releasing light and heat.",
@@ -963,6 +968,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "neutralization",
           icon: "🧪",
           term: { zh: "中和反应", en: "Neutralization" },
+          level: 1,
           oneLiner: {
             zh: "酸与碱反应生成盐和水，pH 趋近 7。",
             en: "Acid and base form salt and water, pH trending to 7.",
@@ -1021,6 +1027,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🧪",
           term: { zh: "过氧化氢分解制氧气", en: "Oxygen from H₂O₂" },
+          level: 1,
           oneLiner: {
             zh: "双氧水加二氧化锰催化，常温分解放出氧气。",
             en: "Hydrogen peroxide decomposes at room temperature over MnO₂ catalyst.",
@@ -1084,6 +1091,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🟣",
           term: { zh: "高锰酸钾受热分解", en: "KMnO₄ Decomposition" },
+          level: 1,
           oneLiner: {
             zh: "高锰酸钾加热分解，放出氧气。",
             en: "Potassium permanganate decomposes on heating, releasing O₂.",
@@ -1141,6 +1149,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🟡",
           term: { zh: "氯酸钾受热分解", en: "KClO₃ Decomposition" },
+          level: 1,
           oneLiner: {
             zh: "氯酸钾在二氧化锰催化并加热下分解放氧。",
             en: "Potassium chlorate decomposes with MnO₂ and heat to give O₂.",
@@ -1203,6 +1212,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🪨",
           term: { zh: "大理石与盐酸制二氧化碳", en: "CO₂ from Carbonate" },
+          level: 1,
           oneLiner: {
             zh: "大理石（碳酸钙）与稀盐酸反应制二氧化碳。",
             en: "Marble (calcium carbonate) reacts with dilute HCl to give CO₂.",
@@ -1253,6 +1263,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "⚡",
           term: { zh: "电解水", en: "Electrolysis of Water" },
+          level: 1,
           oneLiner: {
             zh: "水电解生成氢气和氧气。",
             en: "Water electrolyses into hydrogen and oxygen.",
@@ -1316,6 +1327,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🔵",
           term: { zh: "铁置换硫酸铜（湿法炼铜）", en: "Fe Displaces Cu" },
+          level: 1,
           oneLiner: {
             zh: "铁把铜从硫酸铜溶液中置换出来。",
             en: "Iron displaces copper from copper(II) sulfate solution.",
@@ -1366,6 +1378,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🔩",
           term: { zh: "活泼金属与稀硫酸", en: "Metal + Acid" },
+          level: 1,
           oneLiner: {
             zh: "锌与稀硫酸反应放出氢气。",
             en: "Zinc reacts with dilute sulfuric acid to release H₂.",
@@ -1422,6 +1435,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🔥",
           term: { zh: "甲烷燃烧", en: "Methane Combustion" },
+          level: 1,
           oneLiner: {
             zh: "甲烷在氧气中完全燃烧。",
             en: "Methane burns completely in oxygen.",
@@ -1467,6 +1481,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "💧",
           term: { zh: "氢气燃烧", en: "Hydrogen Combustion" },
+          level: 1,
           oneLiner: {
             zh: "氢气燃烧生成水。",
             en: "Hydrogen burns to form water.",
@@ -1523,6 +1538,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🧫",
           term: { zh: "盐酸中和氢氧化钠", en: "HCl Neutralizes NaOH" },
+          level: 1,
           oneLiner: {
             zh: "盐酸与氢氧化钠中和生成盐和水。",
             en: "Hydrochloric acid is neutralized by sodium hydroxide.",
@@ -1576,6 +1592,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🫧",
           term: { zh: "碳酸钠与盐酸", en: "Na₂CO₃ + HCl" },
+          level: 2,
           oneLiner: {
             zh: "碳酸钠与盐酸反应放出二氧化碳。",
             en: "Sodium carbonate reacts with HCl, releasing CO₂.",
@@ -1620,6 +1637,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🧱",
           term: { zh: "生石灰遇水", en: "CaO + Water" },
+          level: 1,
           oneLiner: {
             zh: "生石灰与水化合生成熟石灰。",
             en: "Quicklime combines with water to form slaked lime.",
@@ -1673,6 +1691,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "二氧化碳使石灰水变浑浊",
             en: "CO₂ Turns Limewater Cloudy",
           },
+          level: 1,
           oneLiner: {
             zh: "二氧化碳通入澄清石灰水生成白色沉淀。",
             en: "Carbon dioxide turns limewater cloudy with a white precipitate.",
@@ -1729,6 +1748,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🟥",
           term: { zh: "铁生锈（吸氧腐蚀）", en: "Iron Rusting" },
+          level: 1,
           oneLiner: {
             zh: "铁在潮湿空气中发生吸氧腐蚀生锈。",
             en: "Iron corrodes in moist air (oxygen absorption).",
@@ -1782,6 +1802,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🧂",
           term: { zh: "氯化钡检验硫酸根", en: "Test Sulfate with BaCl₂" },
+          level: 2,
           oneLiner: {
             zh: "氯化钡与硫酸生成白色硫酸钡沉淀。",
             en: "Barium chloride gives a white BaSO₄ precipitate with sulfuric acid.",
@@ -1832,6 +1853,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🫧",
           term: { zh: "碳酸氢钠受热分解", en: "NaHCO₃ Decomposition" },
+          level: 2,
           oneLiner: {
             zh: "碳酸氢钠受热分解放出二氧化碳。",
             en: "Sodium bicarbonate decomposes on heating, releasing CO₂.",
@@ -1915,6 +1937,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🧂",
           term: { zh: "侯氏制碱法", en: "Hou's Process" },
+          level: 2,
           oneLiner: {
             zh: "向饱和氨盐水中通 CO₂，析出碳酸氢钠再锻烧得纯碱。",
             en: "Pass CO₂ into ammoniated brine; precipitated NaHCO₃ is calcined to soda ash.",
@@ -1975,6 +1998,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🧼",
           term: { zh: "皂化反应（制肥皂）", en: "Saponification" },
+          level: 2,
           oneLiner: {
             zh: "油脂在氢氧化钠溶液中水解，生成高级脂肪酸钠和甘油。",
             en: "Fats hydrolyze in NaOH solution into soap (fatty sodium salts) and glycerol.",
@@ -2020,6 +2044,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "⚗️",
           term: { zh: "工业合成氨", en: "Ammonia Synthesis" },
+          level: 3,
           oneLiner: {
             zh: "氮气与氢气在高温高压、催化剂下可逆化合生成氨。",
             en: "N₂ and H₂ combine reversibly under high pressure, heat and catalyst.",
@@ -2084,6 +2109,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🔌",
           term: { zh: "氯碱工业（电解食盐水）", en: "Chlor-Alkali" },
+          level: 2,
           oneLiner: {
             zh: "电解饱和食盐水制取烧碱、氢气和氯气。",
             en: "Electrolysis of brine yields caustic soda, H₂ and Cl₂.",
@@ -2168,6 +2194,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🪣",
           term: { zh: "漂白粉的制取与失效", en: "Bleaching Powder" },
+          level: 2,
           oneLiner: {
             zh: "氯气与石灰乳制漂白粉，失效是因与空气中 CO₂ 反应生成 HClO。",
             en: "Cl₂ with lime makes bleaching powder; it spoils by reacting with CO₂ to give HClO.",
@@ -2218,6 +2245,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🏗️",
           term: { zh: "高炉练铁", en: "Blast-Furnace Iron" },
+          level: 1,
           oneLiner: {
             zh: "一氧化碳在高温下把氧化铁还原为铁。",
             en: "CO reduces iron oxide to iron at high temperature.",
@@ -2269,6 +2297,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🚄",
           term: { zh: "铝热反应", en: "Thermite Reaction" },
+          level: 2,
           oneLiner: {
             zh: "铝与氧化铁高温反应，置换出铁并放出大量热。",
             en: "Aluminum reduces iron oxide, yielding molten iron with intense heat.",
@@ -2332,6 +2361,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🍶",
           term: { zh: "酯化反应", en: "Esterification" },
+          level: 2,
           oneLiner: {
             zh: "乙酸与乙醇在浓硫酸催化下生成有香味的乙酸乙酯。",
             en: "Acetic acid and ethanol form fragrant ethyl acetate, catalyzed by conc. H₂SO₄.",
@@ -2387,6 +2417,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🌡️",
           term: { zh: "乙醇的催化氧化", en: "Catalytic Oxidation of Ethanol" },
+          level: 2,
           oneLiner: {
             zh: "乙醇在铜催化并加热下被氧化为乙醛。",
             en: "Ethanol is oxidized to acetaldehyde over copper with heating.",
@@ -2444,6 +2475,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🌿",
           term: { zh: "光合作用", en: "Photosynthesis" },
+          level: 1,
           oneLiner: {
             zh: "绿色植物在光照与叶绿体下把 CO₂ 和水合成葡萄糖并放氧。",
             en: "Plants build glucose from CO₂ and water using light in chloroplasts, releasing O₂.",
@@ -2495,6 +2527,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "🍞",
           term: { zh: "酒精发酵", en: "Alcoholic Fermentation" },
+          level: 1,
           oneLiner: {
             zh: "葡萄糖在酒化酶作用下分解为乙醇和二氧化碳。",
             en: "Glucose breaks into ethanol and CO₂ under the action of zymase.",
@@ -2567,6 +2600,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
           icon: "💊",
           term: { zh: "胃酸中和（胃药）", en: "Stomach-Acid Neutralization" },
+          level: 1,
           oneLiner: {
             zh: "氢氧化铝（或碳酸氢钠）中和过多的胃酸。",
             en: "Aluminum hydroxide (or NaHCO₃) neutralizes excess stomach acid.",
@@ -2593,6 +2627,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "ionic-bond",
           icon: "🧲",
           term: { zh: "离子键", en: "Ionic Bond" },
+          level: 1,
           oneLiner: {
             zh: "阴、阳离子通过静电作用结合，常见于活泼金属与活泼非金属。",
             en: "Electrostatic attraction between ions; typical of active metals with active nonmetals.",
@@ -2607,6 +2642,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "covalent-bond",
           icon: "🤝",
           term: { zh: "共价键", en: "Covalent Bond" },
+          level: 1,
           oneLiner: {
             zh: "原子间共用电子对形成的化学键，分极性与非极性。",
             en: "Shared electron pairs between atoms; polar or nonpolar.",
@@ -2621,6 +2657,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "metallic-bond",
           icon: "",
           term: { zh: "金属键", en: "Metallic Bond" },
+          level: 2,
           oneLiner: {
             zh: "金属阳离子与自由电子间的强烈作用，赋予金属导电、导热与延展性。",
             en: "Cations in a sea of delocalized electrons; gives conductivity, malleability and luster.",
@@ -2634,6 +2671,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "分子间作用力与氢键",
             en: "Intermolecular Forces & Hydrogen Bonding",
           },
+          level: 2,
           oneLiner: {
             zh: "分子间的弱作用（范德华力）与较强的氢键，决定熔沸点与溶解性。",
             en: "Weak van der Waals forces and stronger hydrogen bonds govern boiling points and solubility.",
@@ -2648,6 +2686,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "crystal-types",
           icon: "💎",
           term: { zh: "晶体类型", en: "Crystal Types" },
+          level: 3,
           oneLiner: {
             zh: "离子晶体、分子晶体、原子晶体与金属晶体，性质差异悬殊。",
             en: "Ionic, molecular, covalent-network and metallic crystals differ greatly in properties.",
@@ -2662,6 +2701,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "valence",
           icon: "🔢",
           term: { zh: "化合价", en: "Valence" },
+          level: 1,
           oneLiner: {
             zh: "元素在化合物中的结合能力，正负化合价代数和为零。",
             en: "Combining power of an element; the sum of oxidation numbers in a neutral compound is zero.",
@@ -2680,6 +2720,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-functional",
           icon: "🏷️",
           term: { zh: "官能团", en: "Functional Groups" },
+          level: 1,
           oneLiner: {
             zh: "决定有机物化学特性的原子或原子团，如羟基、醛基、羧基。",
             en: "Atom groups that dictate organic reactivity: hydroxyl, aldehyde, carboxyl, etc.",
@@ -2694,6 +2735,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-isomerism",
           icon: "🔀",
           term: { zh: "同分异构体", en: "Isomers" },
+          level: 2,
           oneLiner: {
             zh: "分子式相同、结构不同，性质因而各异的化合物。",
             en: "Same molecular formula, different structure, hence different properties.",
@@ -2708,6 +2750,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-substitution",
           icon: "🔁",
           term: { zh: "取代反应", en: "Substitution" },
+          level: 2,
           oneLiner: {
             zh: "有机物分子里的原子被其他原子替换，如甲烷氯代。",
             en: "An atom is replaced by another, e.g. chlorination of methane.",
@@ -2761,6 +2804,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-addition",
           icon: "➕",
           term: { zh: "加成反应", en: "Addition" },
+          level: 2,
           oneLiner: {
             zh: "不饱和键断开，两端加上其他原子，如乙烯使溴水褪色。",
             en: "Atoms add across a double bond; e.g. ethene decolorizes bromine water.",
@@ -2804,6 +2848,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-elimination",
           icon: "💨",
           term: { zh: "消去反应", en: "Elimination" },
+          level: 3,
           oneLiner: {
             zh: "脱去小分子生成不饱和键，如乙醇脱水制乙烯。",
             en: "Lose a small molecule to form a double bond; e.g. ethanol to ethene.",
@@ -2857,6 +2902,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-polymerization",
           icon: "🔗",
           term: { zh: "聚合反应", en: "Polymerization" },
+          level: 2,
           oneLiner: {
             zh: "许多小分子（单体）加成结合成高分子，如聚乙烯。",
             en: "Many monomers join into a polymer, e.g. polyethylene.",
@@ -2901,6 +2947,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-sugar",
           icon: "🍬",
           term: { zh: "糖类", en: "Carbohydrates" },
+          level: 1,
           oneLiner: {
             zh: "多羟基醛或酮，分单糖、二糖、多糖，是主要能源物质。",
             en: "Polyhydroxy aldehydes/ketones; mono-, di- and polysaccharides, the main energy source.",
@@ -2915,6 +2962,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "org-protein",
           icon: "🥚",
           term: { zh: "蛋白质与氨基酸", en: "Proteins & Amino Acids" },
+          level: 1,
           oneLiner: {
             zh: "由氨基酸缩合而成的高分子，是生命活动的承担者。",
             en: "Polymers of amino acids; the workhorses of life.",
@@ -2937,6 +2985,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "mole",
           icon: "🔢",
           term: { zh: "物质的量与摩尔", en: "Mole & Avogadro's Number" },
+          level: 1,
           oneLiner: {
             zh: "连接微观粒子与宏观质量的桥梁，1 mol 含约 6.02×10²³ 个粒子。",
             en: "Bridges particles and mass; 1 mol holds about 6.02×10²³ entities.",
@@ -2951,6 +3000,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "molarity",
           icon: "💧",
           term: { zh: "物质的量浓度", en: "Molarity" },
+          level: 2,
           oneLiner: {
             zh: "单位体积溶液里所含溶质的物质的量，单位 mol/L。",
             en: "Moles of solute per litre of solution, in mol/L.",
@@ -2965,6 +3015,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "dilution",
           icon: "🫗",
           term: { zh: "溶液稀释", en: "Dilution" },
+          level: 2,
           oneLiner: {
             zh: "加水稀释前后溶质的量不变，据此计算浓度。",
             en: "Solute amount stays constant when diluting; the basis of c₁V₁ = c₂V₂.",
@@ -2979,6 +3030,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "solubility",
           icon: "🧂",
           term: { zh: "溶解度与饱和溶液", en: "Solubility & Saturation" },
+          level: 2,
           oneLiner: {
             zh: "一定温度下某固体在 100 g 溶剂里达到饱和所溶解的质量。",
             en: "Grams of solute that saturate 100 g of solvent at a given temperature.",
@@ -2993,6 +3045,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "electrolyte",
           icon: "⚡",
           term: { zh: "电解质与非电解质", en: "Electrolytes" },
+          level: 2,
           oneLiner: {
             zh: "在水溶液或熔融态能导电的化合物为电解质，反之非电解质。",
             en: "Compounds conducting in solution or melt are electrolytes; others are non-electrolytes.",
@@ -3035,6 +3088,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "ph",
           icon: "🎯",
           term: { zh: "pH 与酸碱度", en: "pH & Acidity" },
+          level: 2,
           oneLiner: {
             zh: "衡量溶液酸碱性强弱的标度，pH = −lg c(H⁺)。",
             en: "Scale of acidity; pH = −log c(H⁺).",
@@ -3057,6 +3111,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "exo-endo",
           icon: "🌡️",
           term: { zh: "放热与吸热反应", en: "Exothermic & Endothermic" },
+          level: 1,
           oneLiner: {
             zh: "反应伴随能量变化：放出热量为放热，吸收热量为吸热。",
             en: "Reactions release (exothermic) or absorb (endothermic) heat.",
@@ -3071,6 +3126,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "enthalpy",
           icon: "📉",
           term: { zh: "反应热与焓变", en: "Enthalpy Change" },
+          level: 2,
           oneLiner: {
             zh: "恒压下的反应热称焓变 ΔH，放热为负、吸热为正。",
             en: "Heat at constant pressure, ΔH: negative for exothermic, positive for endothermic.",
@@ -3085,6 +3141,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "combustion-heat",
           icon: "🔥",
           term: { zh: "燃烧热", en: "Heat of Combustion" },
+          level: 2,
           oneLiner: {
             zh: "1 mol 可燃物完全燃烧生成稳定氧化物时放出的热量。",
             en: "Heat released when 1 mol of a substance burns fully to stable oxides.",
@@ -3099,6 +3156,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "neutralization-heat",
           icon: "🤝",
           term: { zh: "中和热", en: "Heat of Neutralization" },
+          level: 2,
           oneLiner: {
             zh: "稀强酸碱中和生成 1 mol 水时放出的热量，约 57.3 kJ/mol。",
             en: "Heat released forming 1 mol water from dilute strong acid and base, about 57.3 kJ/mol.",
@@ -3113,6 +3171,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "hess-law",
           icon: "🧮",
           term: { zh: "盖斯定律", en: "Hess's Law" },
+          level: 3,
           oneLiner: {
             zh: "反应热只与始态终态有关、与路径无关，可由已知反应叠加求得。",
             en: "ΔH depends only on initial and final states, so target reactions can be built from known ones.",
@@ -3135,6 +3194,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "rate",
           icon: "⏱️",
           term: { zh: "化学反应速率", en: "Reaction Rate" },
+          level: 1,
           oneLiner: {
             zh: "单位时间内浓度的变化，衡量反应快慢。",
             en: "Change of concentration per unit time; measures speed.",
@@ -3149,6 +3209,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "rate-factors",
           icon: "🎛️",
           term: { zh: "影响速率的因素", en: "Factors Affecting Rate" },
+          level: 2,
           oneLiner: {
             zh: "浓度、压强、温度、催化剂都能改变反应速率。",
             en: "Concentration, pressure, temperature and catalysts all change rate.",
@@ -3163,6 +3224,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "equilibrium",
           icon: "⚖️",
           term: { zh: "化学平衡状态", en: "Chemical Equilibrium" },
+          level: 2,
           oneLiner: {
             zh: "正逆反应速率相等、各组分浓度保持不变的可逆状态。",
             en: "Forward and reverse rates equal; concentrations stay constant in a reversible reaction.",
@@ -3221,6 +3283,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "le-chatelier",
           icon: "↔️",
           term: { zh: "勒夏特列原理", en: "Le Chatelier's Principle" },
+          level: 3,
           oneLiner: {
             zh: "改变影响平衡的条件，平衡向减弱这种改变的方向移动。",
             en: "When a stress is applied, equilibrium shifts to counteract it.",
@@ -3235,6 +3298,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "ionization-eq",
           icon: "🔬",
           term: { zh: "弱电解质的电离平衡", en: "Ionization Equilibrium" },
+          level: 3,
           oneLiner: {
             zh: "弱酸弱碱部分电离，存在电离平衡，用电离度与 Ka 描述。",
             en: "Weak acids/bases partially ionize; described by degree of ionization and Ka.",
@@ -3280,6 +3344,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "hydrolysis",
           icon: "🌊",
           term: { zh: "盐类水解", en: "Salt Hydrolysis" },
+          level: 3,
           oneLiner: {
             zh: "盐的离子结合水电离的 H⁺ 或 OH⁻，使溶液显酸性或碱性。",
             en: "Salt ions take H⁺ or OH⁻ from water, making the solution acidic or basic.",
@@ -3302,6 +3367,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "galvanic",
           icon: "🔋",
           term: { zh: "原电池", en: "Galvanic Cell" },
+          level: 2,
           oneLiner: {
             zh: "把化学能转化为电能的装置，负极氧化、正极还原。",
             en: "Converts chemical energy to electricity; anode oxidizes, cathode reduces.",
@@ -3359,6 +3425,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "electrolytic",
           icon: "⚡",
           term: { zh: "电解池", en: "Electrolytic Cell" },
+          level: 2,
           oneLiner: {
             zh: "借助外加电流把电能转化为化学能的装置。",
             en: "Uses external current to turn electricity into chemical change.",
@@ -3405,6 +3472,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "corrosion",
           icon: "🦠",
           term: { zh: "金属的腐蚀与防护", en: "Metal Corrosion & Protection" },
+          level: 1,
           oneLiner: {
             zh: "金属被氧化而损耗，主要防止方法是隔绝或电化学保护。",
             en: "Metals oxidize away; prevented by barrier or electrochemical protection.",
@@ -3419,6 +3487,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "electroplating",
           icon: "🪙",
           term: { zh: "电镀与电解精炼", en: "Electroplating & Refining" },
+          level: 3,
           oneLiner: {
             zh: "利用电解在表面镀上金属，或提纯粗金属。",
             en: "Uses electrolysis to coat surfaces or purify crude metals.",
@@ -3433,6 +3502,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "faraday",
           icon: "🧲",
           term: { zh: "法拉第电解定律", en: "Faraday's Laws" },
+          level: 3,
           oneLiner: {
             zh: "电极上析出物质的量与通过的电量成正比。",
             en: "Mass deposited at an electrode is proportional to charge passed.",
@@ -3455,6 +3525,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "mendeleev",
           icon: "📐",
           term: { zh: "德米特里·门捷列夫", en: "Dmitri Mendeleev" },
+          level: 1,
           oneLiner: {
             zh: "编制第一张元素周期表，并预言了若干未知元素。",
             en: "Built the first periodic table and predicted unknown elements.",
@@ -3464,6 +3535,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "lavoisier",
           icon: "⚖️",
           term: { zh: "安托万·拉瓦锡", en: "Antoine Lavoisier" },
+          level: 1,
           oneLiner: {
             zh: "现代化学之父，确立质量守恒与氧化学说。",
             en: "Father of modern chemistry; conservation of mass and oxygen theory.",
@@ -3473,6 +3545,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "dalton",
           icon: "⚛️",
           term: { zh: "约翰·道尔顿", en: "John Dalton" },
+          level: 1,
           oneLiner: {
             zh: "提出原子论，认为物质由不可再分的原子构成。",
             en: "Proposed atomic theory: matter is made of indivisible atoms.",
@@ -3482,6 +3555,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "boyle",
           icon: "🫧",
           term: { zh: "罗伯特·玻意耳", en: "Robert Boyle" },
+          level: 1,
           oneLiner: {
             zh: "玻意耳定律（pV = 常量）奠定气体研究基础。",
             en: "Boyle's law (pV = const) founded the study of gases.",
@@ -3491,6 +3565,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "curie",
           icon: "☢️",
           term: { zh: "玛丽·居里", en: "Marie Curie" },
+          level: 1,
           oneLiner: {
             zh: "发现钋与镭，放射性研究的先驱。",
             en: "Discovered polonium and radium; pioneer of radioactivity.",
@@ -3500,6 +3575,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "pauling",
           icon: "🔗",
           term: { zh: "莱纳斯·鲍林", en: "Linus Pauling" },
+          level: 3,
           oneLiner: {
             zh: "化学键本质与电负性研究的巨擘，两获诺贝尔奖。",
             en: "Giant of chemical bonding and electronegativity; two-time Nobel laureate.",
@@ -3509,6 +3585,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "avogadro",
           icon: "🧮",
           term: { zh: "阿莫迪欧·阿伏伽德罗", en: "Amedeo Avogadro" },
+          level: 2,
           oneLiner: {
             zh: "提出同温同压下等体积气体含等量分子（阿伏伽德罗定律）。",
             en: "Equal gas volumes hold equal molecule counts at same T and P.",
@@ -3518,6 +3595,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "lechatelier",
           icon: "⚖️",
           term: { zh: "亨利·勒夏特列", en: "Henry Le Chatelier" },
+          level: 2,
           oneLiner: {
             zh: "提出平衡移动原理，指导化工生产条件优化。",
             en: "Stated the equilibrium-shift principle guiding chemical industry.",
@@ -3535,6 +3613,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "mole",
           icon: "🧮",
           term: { zh: "摩尔", en: "Mole" },
+          level: 1,
           oneLiner: {
             zh: "物质的量单位，1 摩尔含阿伏伽德罗常数个基本单元。",
             en: "Unit of amount of substance; one mole holds Avogadro's number of entities.",
@@ -3544,6 +3623,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "catalyst",
           icon: "⚡",
           term: { zh: "催化剂", en: "Catalyst" },
+          level: 1,
           oneLiner: {
             zh: "改变反应速率却不在反应中消耗的物种。",
             en: "A species that changes rate without being consumed.",
@@ -3553,6 +3633,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "ph",
           icon: "🧫",
           term: { zh: "pH", en: "pH" },
+          level: 1,
           oneLiner: {
             zh: "氢离子浓度的负对数，衡量溶液酸碱强弱。",
             en: "Negative log of hydrogen ion concentration; measures acidity.",
@@ -3562,6 +3643,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "isotope",
           icon: "♒",
           term: { zh: "同位素", en: "Isotope" },
+          level: 2,
           oneLiner: {
             zh: "质子数相同、中子数不同的同种元素变体。",
             en: "Variants of an element with same protons, different neutrons.",
@@ -3571,6 +3653,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "electrolyte",
           icon: "🔌",
           term: { zh: "电解质", en: "Electrolyte" },
+          level: 2,
           oneLiner: {
             zh: "溶于水或熔融后能导电的化合物。",
             en: "A compound that conducts electricity when dissolved or molten.",
@@ -3580,6 +3663,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "valence",
           icon: "🔢",
           term: { zh: "化合价", en: "Valence" },
+          level: 1,
           oneLiner: {
             zh: "元素原子形成化学键时表现的结合能力，常用数值表示。",
             en: "An atom's combining capacity, expressed as a number.",
@@ -3589,6 +3673,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "allotrope",
           icon: "💎",
           term: { zh: "同素异形体", en: "Allotrope" },
+          level: 2,
           oneLiner: {
             zh: "同种元素组成的不同单质，如金刚石与石墨。",
             en: "Different forms of the same element, e.g. diamond and graphite.",
@@ -3598,6 +3683,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "solubility",
           icon: "💧",
           term: { zh: "溶解度", en: "Solubility" },
+          level: 2,
           oneLiner: {
             zh: "一定温度、压强下某物质在溶剂中达到饱和时的浓度。",
             en: "Concentration at saturation under given T and P.",
@@ -3607,6 +3693,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "activation",
           icon: "🚀",
           term: { zh: "活化能", en: "Activation Energy" },
+          level: 3,
           oneLiner: {
             zh: "反应物变为活化络合物所需的最低能量壁垒。",
             en: "The energy barrier reactants must cross to react.",
@@ -3616,6 +3703,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           id: "oxidation-state",
           icon: "🔋",
           term: { zh: "氧化数", en: "Oxidation State" },
+          level: 2,
           oneLiner: {
             zh: "人为规定的原子表观电荷数，用于判断氧化还原。",
             en: "An assigned apparent charge used to track redox.",

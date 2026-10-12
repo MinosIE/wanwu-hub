@@ -4,6 +4,7 @@
     "icon": "🍎",
     "term": "艾萨克·牛顿",
     "termEn": "Isaac Newton",
+    "level": 2,
     "oneLiner": "经典力学与微积分奠基人，《原理》建立三定律与万有引力。",
     "oneLinerEn": "Founder of classical mechanics and calculus; Principia set the three laws and gravitation."
   },
@@ -12,6 +13,7 @@
     "icon": "🧠",
     "term": "阿尔伯特·爱因斯坦",
     "termEn": "Albert Einstein",
+    "level": 3,
     "oneLiner": "狭义与广义相对论、光电效应，重塑时空与引力观。",
     "oneLinerEn": "Special & general relativity and the photoelectric effect reshaped space, time and gravity."
   },
@@ -20,6 +22,7 @@
     "icon": "🧲",
     "term": "詹姆斯·麦克斯韦",
     "termEn": "James Clerk Maxwell",
+    "level": 3,
     "oneLiner": "统一电、磁、光，提出麦克斯韦方程组。",
     "oneLinerEn": "Unified electricity, magnetism and light via Maxwell's equations."
   },
@@ -28,6 +31,7 @@
     "icon": "🪐",
     "term": "尼尔斯·玻尔",
     "termEn": "Niels Bohr",
+    "level": 2,
     "oneLiner": "原子量子化模型与哥本哈根诠释。",
     "oneLinerEn": "Quantized atomic model and the Copenhagen interpretation."
   },
@@ -36,6 +40,7 @@
     "icon": "☢️",
     "term": "玛丽·居里",
     "termEn": "Marie Curie",
+    "level": 1,
     "oneLiner": "放射性研究先驱，首位两获诺贝尔奖的科学家。",
     "oneLinerEn": "Pioneer of radioactivity; first person to win two Nobel Prizes."
   },
@@ -44,6 +49,7 @@
     "icon": "🔭",
     "term": "伽利略·伽利雷",
     "termEn": "Galileo Galilei",
+    "level": 1,
     "oneLiner": "近代实验物理与天文观测奠基人，惯性概念先驱。",
     "oneLinerEn": "Founder of modern experimental physics and observational astronomy; pioneer of inertia."
   },
@@ -52,6 +58,7 @@
     "icon": "🌀",
     "term": "迈克尔·法拉第",
     "termEn": "Michael Faraday",
+    "level": 2,
     "oneLiner": "发现电磁感应，奠定电力工业基础。",
     "oneLinerEn": "Discovered electromagnetic induction, foundation of the electrical industry."
   },
@@ -60,6 +67,7 @@
     "icon": "🪐",
     "term": "约翰内斯·开普勒",
     "termEn": "Johannes Kepler",
+    "level": 1,
     "oneLiner": "提出行星运动三定律，揭示天体运行规律。",
     "oneLinerEn": "Formulated the three laws of planetary motion."
   },
@@ -68,6 +76,7 @@
     "icon": "➿",
     "term": "马克斯·普朗克",
     "termEn": "Max Planck",
+    "level": 2,
     "oneLiner": "提出能量量子化，开创量子理论。",
     "oneLinerEn": "Proposed energy quantization, launching quantum theory."
   },
@@ -76,6 +85,7 @@
     "icon": "📡",
     "term": "海因里希·赫兹",
     "termEn": "Heinrich Hertz",
+    "level": 2,
     "oneLiner": "首次实验证实电磁波存在。",
     "oneLinerEn": "First experimentally confirmed electromagnetic waves."
   }

@@ -173,7 +173,8 @@ for (const subject of subjects) {
     for (const it of data) {
       if (!it || typeof it !== "object") continue;
       for (const key of ["sources", "refs"]) {
-        if (Array.isArray(it[key])) srcPools.push([f, it.id ?? "(无 id)", key, it[key]]);
+        if (Array.isArray(it[key]))
+          srcPools.push([f, it.id ?? "(无 id)", key, it[key]]);
       }
     }
   }
@@ -182,7 +183,8 @@ for (const subject of subjects) {
     try {
       const j = JSON.parse(fs.readFileSync(sourcesFile, "utf8"));
       const arr = Array.isArray(j) ? j : (j.items ?? []);
-      if (Array.isArray(arr)) srcPools.push(["sources.json", "<file>", "root", arr]);
+      if (Array.isArray(arr))
+        srcPools.push(["sources.json", "<file>", "root", arr]);
     } catch {
       /* 解析失败由 check:json 负责报错，这里不重复计错 */
     }
