@@ -39,6 +39,9 @@ const PAIRED_KEYS = [
   "subtitle",
 ];
 
+/** 来源条目的双语字段：英文界面的「来源」标题、类型徽标全靠它们，缺失即回退中文。 */
+const SRC_KEYS = ["label", "type"];
+
 /**
  * 允许同一 id 跨模块重名：econ 的 `relatedChips()` 契约是「优先当前模块，其次取首个可用模块」，
  * related.json 也把这类 id 存成多候选数组（如 gdp → m-concepts + m-glossary），
@@ -159,6 +162,41 @@ for (const subject of subjects) {
             }
           });
         }
+      }
+    }
+  }
+
+  // 3b) 来源条目双语成对：sources / refs 数组与 sources.json 里的 label / type
+  //     含中文时必须给出对应 *En（PAIRED_KEYS 只扫顶层条目，触不到这层嵌套）。
+  const srcPools = [];
+  for (const [f, data] of parsed) {
+    for (const it of data) {
+      if (!it || typeof it !== "object") continue;
+      for (const key of ["sources", "refs"]) {
+        if (Array.isArray(it[key])) srcPools.push([f, it.id ?? "(无 id)", key, it[key]]);
+      }
+    }
+  }
+  const sourcesFile = path.join(dir, "sources.json");
+  if (fs.existsSync(sourcesFile)) {
+    try {
+      const j = JSON.parse(fs.readFileSync(sourcesFile, "utf8"));
+      const arr = Array.isArray(j) ? j : (j.items ?? []);
+      if (Array.isArray(arr)) srcPools.push(["sources.json", "<file>", "root", arr]);
+    } catch {
+      /* 解析失败由 check:json 负责报错，这里不重复计错 */
+    }
+  }
+  for (const [f, id, key, arr] of srcPools) {
+    for (const o of arr) {
+      if (!o || typeof o !== "object") continue;
+      for (const k of SRC_KEYS) {
+        if (typeof o[k] !== "string" || !cjk.test(o[k])) continue;
+        if (String(o[`${k}En`] ?? "").trim()) continue;
+        console.error(
+          `[${subject}] 来源缺英文副本：${f} → ${id} 的 ${key}[].${k}「${o[k]}」无 ${k}En`,
+        );
+        errors++;
       }
     }
   }
