@@ -23,13 +23,14 @@
 
 ## 1. 跨学科一致性（本轮已收尾）
 
-本轮已完成：physics/chem hero 中英文后缀、mind refs 布局对齐、**subjectKit 难度筛选 chip + `heroSub` 激活**、**学科 hero 内的语言/主题按钮移除（顶栏为唯一切换入口），仅中华王朝保留并桥接到主应用状态（`src/core/viewControls.ts`）**、physics/chem 机器可读 JSON 导出与 `links:check`/`data:check` 入门禁。
+本轮已完成：physics/chem hero 中英文后缀、mind refs 布局对齐、**subjectKit 难度筛选 chip**、**学科 hero 内的语言/主题按钮移除（顶栏为唯一切换入口），仅中华王朝保留并桥接到主应用状态（`src/core/viewControls.ts`）**、**physics/chem 去掉其他学科没有的 hero 副标语 `.hero-tag` 与自定义模块标题行 `.sm-head`（含右侧计数），改用共享 `.mod-head`**、physics/chem 机器可读 JSON 导出与 `links:check`/`data:check` 入门禁。
 
 - [x] **physics/chem 搜索框**：`subjectKit` 已带 `#search` + 跨模块结果区（`.sub-results`）。
-- [x] **physics/chem 过滤器**：模块内新增「难度」chip（入门/进阶/拓展，复用共享 `.filters/.chip`），仅当该模块有 `level` 数据时渲染；计数行统一为「共 N 条 / N entries」。
+- [x] **physics/chem 过滤器**：模块内新增「难度」chip（入门/进阶/拓展，复用共享 `.filters/.chip`），仅当该模块有 `level` 数据时渲染（原「共 N 条」计数行已随 `.sm-head` 一并移除）。
 - [x] **physics/chem refs / 来源区**：`SubjectConfig.refs` 已渲染（physics 4 条，KPI 同步）。
 - [x] **视图内主题 / 语言切换按钮**：与顶栏重复，已从 thought / earth / life / mind / econ 的 hero 模板与 subjectKit（physics / chem）里移除，并同步摘掉各学科 `main.ts` 里对 `#langBtn` 的强依赖（`need()` 会抛错）与共享层 `.icon-btn` 死样式。**例外：中华王朝保留**（深色渐变上的玻璃胶囊是它的招牌样式），其点击由 `src/core/viewControls.ts` 在捕获阶段接管、改走 core `setLang` / `toggleTheme`，因此与顶栏同源；`dynasty.css` 里原有的 `display:none` 已删除。
-- [x] **`heroSub` 死配置**：现渲染为 hero 副标语 `.hero-tag`（如「万物之理」），英文为 “The Order of All Things”。
+- [x] **hero 副标语 `.hero-tag`（原 `heroSub`）**：其他学科 hero 只有一行导语，这行小字副标语是 physics/chem 独有的，已删除；`SubjectConfig.heroSub` 字段、physics/chem `data.ts` 里的取值、`scripts/export-data.mjs` 导出的 `heroSub`/`heroSubEn` 与 `subjectKit.css` 样式一并清理（overview.json 需重跑 `npm run data:export`）。
+- [x] **模块标题行 `.sm-head`**：与其他学科的 `.mod-head` 功能重叠但长相不同（左对齐 + 右侧计数徽章），已改用共享 `.mod-head`（居中标题），subjectKit.css 里的 `.sm-head`/`.sm-count` 自定义规则与 `setCount()` 全部删除。
 - [x] **详情面板难度文案**：徽标与 eyebrow 由 `L1/L2/L3` 改为中文等级词（入门/进阶/拓展），与 thought 等学科用词一致。
 - [ ] **`level` 数据覆盖面**：physics 130 条中 94 条有难度，chem 232 条仅 3 个模块（概念/结构/趋势）共 26 条有难度，其余模块无筛选条。补齐需给 chem 各模块补 `level`（不造伪数据）。
 - [ ] **KPI / 详情 / footer 视觉对齐**：physics/chem 的 `sub-detail` / 简单 footer 与 FULL 风格统一。

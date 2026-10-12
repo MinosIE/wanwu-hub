@@ -120,8 +120,6 @@ for (const key of subjects) {
     generatedFrom: SOURCES[key].file,
     heroTitle: data.heroTitle?.zh ?? "",
     heroTitleEn: data.heroTitle?.en ?? "",
-    heroSub: data.heroSub?.zh ?? "",
-    heroSubEn: data.heroSub?.en ?? "",
     intro: data.intro?.zh ?? "",
     introEn: data.intro?.en ?? "",
     total: Object.values(counts).reduce((n, v) => n + v, 0),

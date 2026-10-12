@@ -47,8 +47,7 @@ CI：`.github/workflows/ci.yml` 在 PR / push 到 main 时跑 `verify` + `build`
 ```ts
 export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
   heroTitle: { zh: "万物物理", en: "Physics of Everything" }, // 中文模式渲染「中文 · English」
-  heroSub: { zh: "万物之理", en: "The Order of All Things" }, // 当前未渲染（保留字段，见 BACKLOG）
-  intro: { zh: "…", en: "…" },
+  intro: { zh: "…", en: "…" }, // hero 内唯一一段导语
   modules: [
     {
       key: "concepts",

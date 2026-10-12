@@ -1,6 +1,7 @@
 /* 轻量学科视图（physics / chem 等）共享样式。
-   结构 / 视觉统一复用共享 UI 层 src/core/ui/ui.css（作用于 .subject-root）。
-   本文件仅保留学科专属样式：模块标题 .sm-head、卡片数值 .card-val、
+   结构 / 视觉统一复用共享 UI 层 src/core/ui/ui.css（作用于 .subject-root），
+   模块标题直接用共享 .mod-head，不再自带 .sm-head 与右侧计数。
+   本文件仅保留学科专属样式：卡片数值 .card-val、
    跨模块搜索结果 .sub-results 与详情弹层 .sd-*；
    并通过「规范 token 别名桥」把学科本地令牌（--accent/--teal/--card/--muted…）
    映射到共享层所需的规范词表（--brand/--surface/--text-mute…）。 */
@@ -36,31 +37,7 @@
   --ok-bg: color-mix(in srgb, #3a9d6b 16%, transparent);
 }
 
-/* 模块标题（对齐共享 .mod-head 的视觉） */
-.subject-root .sm-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-bottom: 16px;
-}
-.subject-root .sm-head h2 {
-  font-size: 22px;
-  font-weight: 800;
-  color: var(--text-strong);
-}
-.subject-root .sm-count {
-  color: var(--text-mute);
-  font-size: 0.85rem;
-}
-
-/* hero 副标语 / 导语（共享层只给了 .hero > p 的基线） */
-.subject-root .hero-tag {
-  margin: 2px 0 0;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 4px;
-  color: rgba(255, 255, 255, 0.72);
-}
+/* hero 导语（共享层只给了 .hero > p 的基线） */
 .subject-root .hero-sub {
   max-width: 640px;
   margin: 10px 0 0;

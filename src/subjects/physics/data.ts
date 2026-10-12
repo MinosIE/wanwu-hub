@@ -2,7 +2,6 @@ import type { SubjectConfig } from "../subjectKit";
 
 export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
   heroTitle: { zh: "万物物理", en: "Physics of Everything" },
-  heroSub: { zh: "万物之理", en: "The Order of All Things" },
   intro: {
     zh: "从运动、声、光、热、电磁到天体与相对论，按高中物理脉络系统梳理核心概念、常数、实验与物理学家。",
     en: "Motion, sound, light, heat, electromagnetism, astronomy and relativity — core concepts, constants, experiments and physicists organized along the high-school physics map.",

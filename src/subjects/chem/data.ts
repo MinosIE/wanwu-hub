@@ -388,7 +388,6 @@ const periodicItems: SubjectItem[] = RAW.map(elToItem);
 
 export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
   heroTitle: { zh: "万物化学", en: "Chemistry of Everything" },
-  heroSub: { zh: "物质之变", en: "The Transformations of Matter" },
   intro: {
     zh: "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
     en: "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",

@@ -65,12 +65,12 @@
 
 - 自带 `template.ts`（HTML 骨架，含 `data-i18n` 文案键）、`main.ts` / `index.ts`（渲染 + 交互）、`styles/{base,components,tokens}.css`。
 - 内容数据在 `public/<key>-data/data/*.json`（如 `overview.json`、`sources.json`）。
-- 通常含：搜索框、模块筛选、refs / 来源区、详情面板、视图内主题·语言切换。
+- 通常含：搜索框、模块筛选、refs / 来源区、详情面板（语言与主题由顶栏统一切换，仅中华王朝在 hero 另留按钮）。
 
 ### LIGHTWEIGHT 学科（physics / chem）
 
-- `index.ts` 调用 `createSubject(cfg)`（`src/subjects/subjectKit.ts`），`cfg` 来自 `data.ts`（`SubjectConfig`：`heroTitle / heroSub / intro / modules / refs`）。
-- 通用渲染器已提供：hero（标题含「中文 · English」）、KPI、模块导航、卡片网格、详情弹层、搜索框、来源区、footer。
+- `index.ts` 调用 `createSubject(cfg)`（`src/subjects/subjectKit.ts`），`cfg` 来自 `data.ts`（`SubjectConfig`：`heroTitle / intro / modules / refs`）。
+- 通用渲染器已提供：hero（标题含「中文 · English」+ 一段导语）、KPI、模块导航、模块标题（直接用共享 `.mod-head`，居中标题，不带计数）、卡片网格、详情弹层、搜索框、来源区、footer。
 - 新增 / 调整 physics/chem **优先改 `data.ts`**，无需动模板；需要新交互能力时再扩展 `subjectKit.ts`。
 
 ## 5. 修改约束（重要）

@@ -31,14 +31,12 @@ const levelLabel = (level?: number): string => {
 const TXT = {
   all: { zh: "全部", en: "All" },
   level: { zh: "难度", en: "Level" },
-  count: { zh: "共 {n} 条", en: "{n} entries" },
   empty: {
     zh: "该难度暂无条目，换个筛选试试",
     en: "Nothing at this level yet",
   },
   noResult: { zh: "未找到匹配项", en: "No matches" },
 };
-const fill = (tpl: LStr, n: number): string => L(tpl).replace("{n}", String(n));
 
 export interface PeriodicCell {
   /** 网格行（周期；镧系=9，锕系=10） */
@@ -124,7 +122,6 @@ export interface SubjectConfig {
   rootClass: string;
   accent: string;
   heroTitle: LStr;
-  heroSub: LStr;
   intro?: LStr;
   modules: SubjectModule[];
   /** 可选来源区（教材 / 著作 / 机构 / 科普…） */
@@ -375,7 +372,6 @@ export function createSubject(cfg: SubjectConfig) {
       <div class="wrap">
         <section class="hero">
           <h1>${esc(heroTitleText(cfg.heroTitle))}</h1>
-          ${cfg.heroSub ? `<p class="hero-tag">${esc(L(cfg.heroSub))}</p>` : ""}
           ${cfg.intro ? `<p class="hero-sub">${esc(L(cfg.intro))}</p>` : ""}
           <div class="kpis" id="kpis">${kpisInner(cfg)}</div>
         </section>
@@ -394,7 +390,7 @@ export function createSubject(cfg: SubjectConfig) {
           .map(
             (m, i) =>
               `<section class="module${i === 0 ? " active" : ""}" id="sm-${m.key}">
-                <header class="sm-head"><h2>${esc(L(m.title))}</h2><span class="sm-count"></span></header>
+                <header class="mod-head"><h2>${esc(L(m.title))}</h2></header>
                 ${hasLevels(m) ? `<div class="filters sm-filters" role="group" aria-label="${esc(L(TXT.level))}"></div>` : ""}
                 <div class="card-grid${m.kind === "periodic" ? " pt-grid" : ""}"></div>
               </section>`,
@@ -419,11 +415,6 @@ export function createSubject(cfg: SubjectConfig) {
       root.querySelector<HTMLElement>(`#sm-${m.key}`);
     const gridOf = (m: SubjectModule): HTMLElement | null =>
       sectionOf(m)?.querySelector<HTMLElement>(".card-grid") ?? null;
-    const setCount = (m: SubjectModule, n: number): void => {
-      const el = sectionOf(m)?.querySelector<HTMLElement>(".sm-count");
-      if (el) el.textContent = fill(TXT.count, n);
-    };
-
     /** 难度筛选条：chip 复用共享层样式；切换只重渲染本模块网格。 */
     const renderFilterBar = (m: SubjectModule): void => {
       const host = sectionOf(m)?.querySelector<HTMLElement>(".sm-filters");
@@ -459,7 +450,6 @@ export function createSubject(cfg: SubjectConfig) {
             if ((e as KeyboardEvent).key === "Enter") open();
           });
         });
-        setCount(m, m.items.length);
         return;
       }
       const level = levelState.get(m.key) ?? 0;
@@ -477,7 +467,6 @@ export function createSubject(cfg: SubjectConfig) {
         });
       });
       renderFilterBar(m);
-      setCount(m, items.length);
     };
 
     const closeDetail = () => {
@@ -595,15 +584,13 @@ export function createSubject(cfg: SubjectConfig) {
       if (h1) h1.textContent = heroTitleText(cfg.heroTitle);
       const intro = root.querySelector<HTMLElement>(".hero-sub");
       if (intro && cfg.intro) intro.textContent = L(cfg.intro);
-      const tag = root.querySelector<HTMLElement>(".hero-tag");
-      if (tag && cfg.heroSub) tag.textContent = L(cfg.heroSub);
       const kpisEl = root.querySelector<HTMLElement>("#kpis");
       if (kpisEl) kpisEl.innerHTML = kpisInner(cfg);
       root
         .querySelectorAll<HTMLElement>(".mod .sm-label")
         .forEach((b, i) => (b.textContent = L(cfg.modules[i].title)));
       root
-        .querySelectorAll<HTMLElement>(".sm-head h2")
+        .querySelectorAll<HTMLElement>(".mod-head h2")
         .forEach((h, i) => (h.textContent = L(cfg.modules[i].title)));
       cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
       const ml = root.querySelector<HTMLAnchorElement>("#heroMailLink");
