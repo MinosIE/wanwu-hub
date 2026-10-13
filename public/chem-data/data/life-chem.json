@@ -30,7 +30,7 @@
         "f": "NaHCO₃↓",
         "name": "碳酸氢钠",
         "nameEn": "Sodium bicarbonate",
-        "note": "因溶解度较小而析出，是锻烧得纯碱的中间体。",
+        "note": "因溶解度较小而析出，是煅烧得纯碱的中间体。",
         "noteEn": "Precipitates as the least soluble; the intermediate calcined to soda ash.",
         "role": "r"
       },
@@ -55,7 +55,7 @@
     "term": "侯氏制碱法",
     "termEn": "Hou's Process",
     "level": 2,
-    "oneLiner": "向饱和氨盐水中通 CO₂，析出碳酸氢钠再锻烧得纯碱。",
+    "oneLiner": "向饱和氨盐水中通 CO₂，析出碳酸氢钠再煅烧得纯碱。",
     "oneLinerEn": "Pass CO₂ into ammoniated brine; precipitated NaHCO₃ is calcined to soda ash.",
     "eq": [
       { "lhs": "NaCl + NH₃ + CO₂ + H₂O", "rhs": "NaHCO₃↓ + NH₄Cl" },

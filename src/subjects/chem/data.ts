@@ -1911,7 +1911,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
               f: "NaHCO₃↓",
               name: { zh: "碳酸氢钠", en: "Sodium bicarbonate" },
               note: {
-                zh: "因溶解度较小而析出，是锻烧得纯碱的中间体。",
+                zh: "因溶解度较小而析出，是煅烧得纯碱的中间体。",
                 en: "Precipitates as the least soluble; the intermediate calcined to soda ash.",
               },
               role: "r",
@@ -1939,7 +1939,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "侯氏制碱法", en: "Hou's Process" },
           level: 2,
           oneLiner: {
-            zh: "向饱和氨盐水中通 CO₂，析出碳酸氢钠再锻烧得纯碱。",
+            zh: "向饱和氨盐水中通 CO₂，析出碳酸氢钠再煅烧得纯碱。",
             en: "Pass CO₂ into ammoniated brine; precipitated NaHCO₃ is calcined to soda ash.",
           },
           eq: [
@@ -3232,6 +3232,903 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           ],
         },
         {
+          id: "ind-bromine",
+          subs: [
+            {
+              f: "Cl₂",
+              name: { zh: "氯气（氧化剂）", en: "Chlorine (the oxidizer)" },
+              note: { zh: "活泼性 Br₂ < Cl₂，所以氯能把溴置换出来。", en: "Chlorine is the stronger oxidizer, so it displaces bromine." },
+              role: "l",
+            },
+            {
+              f: "Br⁻",
+              name: { zh: "溴离子（苦卤中）", en: "Bromide (in bittern)" },
+              note: { zh: "海水中约 65 mg/L，晒盐母液被浓缩一个量级以上。", en: "About 65 mg/L in seawater, over ten times richer in the salt-pan mother liquor." },
+              role: "l",
+            },
+            {
+              f: "Br₂",
+              name: { zh: "溴单质", en: "Bromine" },
+              note: { zh: "唯一常温下为液态的非金属单质，易挥发、强腐蚀。", en: "The only liquid nonmetal at room temperature; volatile and corrosive." },
+              role: "r",
+            },
+            {
+              f: "Cl⁻",
+              name: { zh: "氯离子", en: "Chloride" },
+              note: { zh: "氯气被还原后的产物，留在卤水中。", en: "What chlorine becomes; stays in the liquor." },
+              role: "r",
+            },
+            {
+              f: "SO₂",
+              name: { zh: "二氧化硫（吸收剂）", en: "Sulfur dioxide (absorbent)" },
+              note: { zh: "把吹出的 Br₂ 还原成 HBr 溶于水，实现富集。", en: "Reduces the blown-out Br₂ to soluble HBr, concentrating it." },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "吸收塔的溶剂，也参与反应。", en: "The absorbing medium and a reactant." },
+              role: "l",
+            },
+            {
+              f: "HBr",
+              name: { zh: "氢溴酸", en: "Hydrobromic acid" },
+              note: { zh: "富集后的中间形态，再氯化即得高纯溴。", en: "The concentrated intermediate; re-chlorination yields pure bromine." },
+              role: "r",
+            },
+            {
+              f: "H₂SO₄",
+              name: { zh: "硫酸", en: "Sulfuric acid" },
+              note: { zh: "SO₂ 被溴氧化的产物。", en: "What SO₂ is oxidized to during absorption." },
+              role: "r",
+            },
+            {
+              f: "HCl",
+              name: { zh: "盐酸", en: "Hydrochloric acid" },
+              note: { zh: "再氯化时的副产酸，可回用于酸化。", en: "By-product acid, reusable for acidifying the feed." },
+              role: "r",
+            },
+          ],
+          icon: "🌊",
+          term: { zh: "海水提溴（空气吹出法）", en: "Extracting Bromine from Seawater" },
+          level: 2,
+          oneLiner: {
+            zh: "氯气氧化苦卤中的溴离子，热空气吹出溴，SO₂ 吸收富集后再氯化。",
+            en: "Chlorinate bromide in bittern, blow the bromine out with air, absorb it in SO₂ to concentrate, then chlorinate again.",
+          },
+          eq: [
+            {
+              lhs: "Cl₂ + 2Br⁻",
+              cond: { zh: "酸化后通氯", en: "acidified, then chlorinated" },
+              rhs: "2Cl⁻ + Br₂",
+            },
+            {
+              lhs: "Br₂ + SO₂ + 2H₂O",
+              cond: { zh: "吸收塔", en: "absorption tower" },
+              rhs: "2HBr + H₂SO₄",
+            },
+            {
+              lhs: "Cl₂ + 2HBr",
+              cond: { zh: "再氯化", en: "re-chlorination" },
+              rhs: "2HCl + Br₂",
+            },
+          ],
+          detail: {
+            zh: "海水中溴只有约 65 mg/L，直接提取不划算；工业上取晒盐后的苦卤，先酸化再通氯把 Br⁻ 氧化成 Br₂，用热空气或水蒸气把 Br₂ 吹出，以 SO₂ 水溶液吸收转成 HBr 富集，最后再氯化得到商品溴。整套“氧化—吹出—吸收—再氧化”的本质是反复浓缩。溴主要用于阻燃剂、感光材料 AgBr、医药与农药，也用作油田完井液 CaBr₂。",
+            en: "Seawater holds only about 65 mg/L of bromine — too dilute to work on directly. Industry takes the bittern left after solar salt: acidify, chlorinate the Br⁻ to Br₂, strip the bromine out with hot air or steam, absorb it in aqueous SO₂ to concentrate it as HBr, then chlorinate once more to sellable bromine. The whole oxidize–blow-out–absorb–re-oxidize loop is repeated concentration. Bromine goes mainly into flame retardants, photographic AgBr, pharmaceuticals and pesticides, plus calcium bromide completion fluids in oil wells.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "海水资源", en: "Marine Resources" },
+            { zh: "非金属", en: "Nonmetals" },
+          ],
+          figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="20" font-size="12" fill="currentColor">海水提溴三步 Three steps of bromine extraction</text>
+  <g stroke="currentColor" stroke-opacity="0.45" fill="none">
+    <rect x="6" y="44" width="96" height="56" rx="6"/><rect x="132" y="44" width="96" height="56" rx="6"/><rect x="258" y="44" width="96" height="56" rx="6"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle" font-size="10.5">
+    <text x="54" y="64">① 氯化</text><text x="180" y="64">② 吹出</text><text x="306" y="64">③ 吸收·再氯化</text>
+  </g>
+  <g fill="currentColor" fill-opacity="0.6" text-anchor="middle" font-size="8">
+    <text x="54" y="78">chlorinate</text><text x="180" y="78">air blow-out</text><text x="306" y="78">absorb &amp; recover</text>
+  </g>
+  <g fill="#d4a017" text-anchor="middle" font-size="9">
+    <text x="54" y="94">苦卤 + Cl₂</text><text x="180" y="94">Br₂ 随空气逸出</text><text x="306" y="94">SO₂ → HBr</text>
+  </g>
+  <g fill="#d4a017">
+    <polygon points="104,68 128,72 104,76"/><polygon points="230,68 254,72 230,76"/>
+  </g>
+  <text x="6" y="126" font-size="9.5" fill="currentColor" fill-opacity="0.7">海水 65 mg/L → 苦卤富集 → 商品溴 Seawater 65 mg/L, concentrated in bittern</text>
+  <text x="6" y="152" font-size="10" fill="#e5484d">⚠ Br₂ 强腐蚀易挥发 · Cl₂ 有毒：密闭操作并吸收尾气</text>
+  <text x="6" y="166" font-size="9.5" fill="#e5484d" fill-opacity="0.75">Volatile, corrosive bromine and toxic chlorine: closed handling, scrub the vent</text>
+</svg>`,
+        },
+        {
+          id: "ind-magnesium",
+          subs: [
+            {
+              f: "CaCO₃",
+              name: { zh: "石灰石（或贝壳）", en: "Limestone (or shells)" },
+              note: { zh: "煅烧后提供沉淀剂，海边贝壳就是现成原料。", en: "Calcined to give the precipitant; seashells serve as the feedstock." },
+              role: "l",
+            },
+            {
+              f: "CaO",
+              name: { zh: "生石灰", en: "Quicklime" },
+              note: { zh: "消化成石灰乳后使用。", en: "Slaked to milk of lime before dosing." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "煅烧石灰石的副产气。", en: "Off-gas from calcining the limestone." },
+              role: "r",
+            },
+            {
+              f: "MgCl₂",
+              name: { zh: "氯化镁（苦卤中）", en: "Magnesium chloride (in bittern)" },
+              note: { zh: "海水蒸发浓缩后的镁存留形态，海水中镁约 1.3 g/L。", en: "How the magnesium sits once seawater is concentrated; about 1.3 g/L in the sea." },
+              role: "l",
+            },
+            {
+              f: "Ca(OH)₂",
+              name: { zh: "石灰乳", en: "Milk of lime" },
+              note: { zh: "廉价碱，把镁沉淀下来而不引入新杂质。", en: "A cheap base that drops the magnesium without new impurities." },
+              role: "l",
+            },
+            {
+              f: "Mg(OH)₂↓",
+              name: { zh: "氢氧化镁沉淀", en: "Magnesium hydroxide precipitate" },
+              note: { zh: "溶解度极小，是富集镁的关键一步。", en: "Barely soluble — the concentration step." },
+              role: "r",
+            },
+            {
+              f: "CaCl₂",
+              name: { zh: "氯化钙", en: "Calcium chloride" },
+              note: { zh: "滤液成分，可作融雪剂与干燥剂。", en: "Stays in the filtrate; useful as de-icer and desiccant." },
+              role: "r",
+            },
+            {
+              f: "HCl",
+              name: { zh: "盐酸", en: "Hydrochloric acid" },
+              note: { zh: "把沉淀重新溶解为氯化镁。", en: "Redissolves the precipitate as the chloride." },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "中和产物；脱水环节必须在 HCl 气氛中抑制水解。", en: "Neutralization product; drying must run in HCl to stop hydrolysis." },
+              role: "r",
+            },
+            {
+              f: "Mg",
+              name: { zh: "金属镁", en: "Magnesium metal" },
+              note: { zh: "轻合金与烟花照明弹的原料，燃烧发耀眼白光。", en: "For light alloys and flares; burns with a dazzling white flame." },
+              role: "r",
+            },
+            {
+              f: "Cl₂↑",
+              name: { zh: "氯气（副产）", en: "Chlorine (by-product)" },
+              note: { zh: "电解副产，回收后用于制盐酸循环使用。", en: "Recovered from the cell and burned back into the HCl loop." },
+              role: "r",
+            },
+          ],
+          icon: "🛩️",
+          term: { zh: "海水提镁（沉淀—酸化—电解）", en: "Extracting Magnesium from Seawater" },
+          level: 2,
+          oneLiner: {
+            zh: "石灰乳把苦卤中的镁沉淀为 Mg(OH)₂，盐酸溶解后电解熔融氯化镁。",
+            en: "Precipitate magnesium as hydroxide with milk of lime, redissolve in HCl, then electrolyze the molten chloride.",
+          },
+          eq: [
+            {
+              lhs: "CaCO₃",
+              cond: { zh: "高温 煅烧", en: "calcination" },
+              rhs: "CaO + CO₂↑",
+            },
+            {
+              lhs: "MgCl₂ + Ca(OH)₂",
+              cond: { zh: "沉淀", en: "precipitation" },
+              rhs: "Mg(OH)₂↓ + CaCl₂",
+            },
+            {
+              lhs: "Mg(OH)₂ + 2HCl",
+              cond: { zh: "溶解", en: "dissolution" },
+              rhs: "MgCl₂ + 2H₂O",
+            },
+            {
+              lhs: "MgCl₂",
+              cond: { zh: "通电·熔融", en: "electrolysis, molten" },
+              rhs: "Mg + Cl₂↑",
+            },
+          ],
+          detail: {
+            zh: "镁是海水中第二多的金属离子，约 1.3 g/L。工艺先煅烧石灰石或贝壳得到 CaO，消化成石灰乳加入苦卤，生成溶解度极小的 Mg(OH)₂；过滤后用盐酸溶解、蒸发结晶，再在 HCl 气氛中脱水得到无水氯化镁，最后电解熔融盐制得金属镁。注意：直接加热 MgCl₂·6H₂O 会因水解而得到 MgO，拿不到无水盐。镁合金轻而强度高，用于航空与汽车；MgO 是优质耐火材料。",
+            en: "Magnesium is the second most abundant metal ion in seawater, about 1.3 g/L. The route calcines limestone or shells to CaO, slakes it into milk of lime and drops nearly insoluble Mg(OH)₂ from the bittern; the solid is redissolved in hydrochloric acid, evaporated, then dried in an HCl atmosphere to give anhydrous MgCl₂, which is electrolyzed as a melt. The catch: heating MgCl₂·6H₂O outright just hydrolyses it to MgO. Magnesium alloys are light and strong for aircraft and cars, and MgO is a top-grade refractory.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "海水资源", en: "Marine Resources" },
+            { zh: "金属", en: "Metals" },
+          ],
+        },
+        {
+          id: "ind-petroleum",
+          subs: [
+            {
+              f: "C₁₆H₃₄",
+              name: { zh: "十六烷（重油代表物）", en: "Hexadecane (heavy-oil stand-in)" },
+              note: { zh: "沸点高、不能直接当汽油用的长链烷烃。", en: "A long-chain alkane too high-boiling to go straight into petrol." },
+              role: "l",
+            },
+            {
+              f: "C₈H₁₈",
+              name: { zh: "辛烷（汽油组分）", en: "Octane (gasoline range)" },
+              note: { zh: "裂化的目标产物；其异构体异辛烷定辛烷值为 100。", en: "The target of cracking; its isomer is set at octane number 100." },
+              role: "r",
+            },
+            {
+              f: "C₈H₁₆",
+              name: { zh: "辛烯", en: "Octene" },
+              note: { zh: "裂化同时生成的烯烃，含它越多裂化汽油越易氧化变质。", en: "The alkene co-product; more of it makes cracked gasoline age faster." },
+              role: "r",
+            },
+            {
+              f: "C₂H₆",
+              name: { zh: "乙烷", en: "Ethane" },
+              note: { zh: "天然气与炼厂气的主要成分，裂解最便宜的原料。", en: "From natural gas and refinery gas — the cheapest cracker feed." },
+              role: "l",
+            },
+            {
+              f: "C₂H₄",
+              name: { zh: "乙烯", en: "Ethylene" },
+              note: { zh: "产量常被视为衡量石油化工发展水平的标志。", en: "Its output is a standing yardstick of a country's petrochemical industry." },
+              role: "r",
+            },
+            {
+              f: "H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: { zh: "裂解副产，也大量用于炼油加氢。", en: "A cracker by-product, and a major refinery consumable." },
+              role: "r",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气（空气）", en: "Oxygen (air)" },
+              note: { zh: "燃烧必需；供不足则生成有毒的 CO。", en: "Needed to burn; short supply yields toxic CO." },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "完全燃烧的产物，交通排放的主要碳源。", en: "Product of complete combustion and the main transport-related carbon output." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水（蒸气）", en: "Water (vapor)" },
+              note: { zh: "氢的去处，以水蒸气形式随烟气排出。", en: "Where the hydrogen ends up, leaving with the flue gas as vapor." },
+              role: "r",
+            },
+          ],
+          icon: "🛢️",
+          term: { zh: "石油的分馏、裂化与裂解", en: "Fractional Distillation, Cracking and Pyrolysis" },
+          level: 2,
+          oneLiner: {
+            zh: "分馏按沸点切割是物理变化，裂化与裂解把长链烃断开才是化学变化。",
+            en: "Fractionation sorts by boiling point — a physical change; cracking and pyrolysis break long chains, a chemical one.",
+          },
+          eq: [
+            {
+              lhs: "C₁₆H₃₄",
+              cond: { zh: "催化剂·加热加压", en: "catalyst, heat and pressure" },
+              rhs: "C₈H₁₈ + C₈H₁₆",
+            },
+            {
+              lhs: "C₂H₆",
+              cond: { zh: "裂解 700~800 ℃", en: "pyrolysis, 700–800 °C" },
+              rhs: "C₂H₄ + H₂",
+            },
+            {
+              lhs: "2C₈H₁₈ + 25O₂",
+              cond: { zh: "点燃", en: "ignition" },
+              rhs: "16CO₂ + 18H₂O",
+            },
+          ],
+          detail: {
+            zh: "石油是烷烃、环烷烃与芳香烃的混合物，分馏塔按沸点区间切出汽油、煤油、柴油与重油——分子本身没变，所以是物理变化。重油太多而汽油不够时就要裂化，把长链断短以提高汽油产率；再升温到 700 ℃ 以上就是裂解，目的是拿乙烯、丙烯这些化工原料。汽油标号指的是辛烷值：异辛烷抗爆好定为 100，正庚烷易爆震定为 0。",
+            en: "Crude oil is a mixture of alkanes, cycloalkanes and aromatics; a fractionating column cuts it by boiling range into gasoline, kerosene, diesel and residue — the molecules are untouched, so this is a physical change. When the heavy end runs long and the gasoline end short, cracking breaks long chains short to lift gasoline yield; push the temperature past 700 °C and it is pyrolysis, aimed at ethylene and propylene as chemical feedstocks. Gasoline grades quote the octane number: isooctane, which resists knock, is set at 100 and heptane, which knocks badly, at 0.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "能源", en: "Energy" },
+            { zh: "有机", en: "Organic" },
+          ],
+        },
+        {
+          id: "ind-coal",
+          subs: [
+            {
+              f: "C",
+              name: { zh: "碳（焦炭/煤）", en: "Carbon (coke/coal)" },
+              note: { zh: "干馏后的残焦是气化的原料。", en: "The coke left by carbonization feeds the gasifier." },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水蒸气", en: "Steam" },
+              note: { zh: "与炽热焦炭反应，把氢送进合成气。", en: "Meets the red-hot coke and carries the hydrogen in." },
+              role: "l",
+            },
+            {
+              f: "CO",
+              name: { zh: "一氧化碳", en: "Carbon monoxide" },
+              note: { zh: "合成气的一半；有毒，泄漏会致命。", en: "Half of syngas; toxic, so leaks are lethal." },
+              role: "r",
+            },
+            {
+              f: "H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: { zh: "合成气的另一半，后续加氢反应的还原剂。", en: "The other half, and the reductant for everything downstream." },
+              role: "r",
+            },
+            {
+              f: "CH₃OH",
+              name: { zh: "甲醇", en: "Methanol" },
+              note: { zh: "间接液化的产品，也可制烯烃与甲醛。", en: "An indirect-liquefaction product, and a feed to olefins and formaldehyde." },
+              role: "r",
+            },
+            {
+              f: "CH₄",
+              name: { zh: "甲烷（合成天然气）", en: "Methane (substitute natural gas)" },
+              note: { zh: "甲烷化的产物，即煤制天然气。", en: "The methanation product — coal-to-gas." },
+              role: "r",
+            },
+          ],
+          icon: "⛏️",
+          term: { zh: "煤的干馏、气化与液化", en: "Coal Carbonization, Gasification and Liquefaction" },
+          level: 2,
+          oneLiner: {
+            zh: "隔绝空气高温干馏得焦炭与煤焦油，再气化成一氧化碳和氢气，合成甲醇或甲烷。",
+            en: "Heat coal without air for coke and tar, gasify the carbon to CO and H₂, then build methanol or methane.",
+          },
+          eq: [
+            {
+              lhs: "C + H₂O",
+              cond: { zh: "高温 炽热焦炭", en: "red-hot coke" },
+              rhs: "CO + H₂",
+            },
+            {
+              lhs: "CO + 2H₂",
+              cond: { zh: "催化剂·加压", en: "catalyst, pressurized" },
+              rhs: "CH₃OH",
+            },
+            {
+              lhs: "CO + 3H₂",
+              cond: { zh: "催化剂 甲烷化", en: "methanation catalyst" },
+              rhs: "CH₄ + H₂O",
+            },
+          ],
+          detail: {
+            zh: "干馏是隔绝空气加强热使煤分解，得到焦炭（冶金还原剂）、煤焦油（化工原料）、粗氨水与焦炉气（H₂、CH₄、CO、C₂H₄）——分子种类变了，与石油分馏的物理变化相对。气化把煤转成 CO 与 H₂ 的合成气，是整个煤化工的枢纽：合成气再制甲醇，或甲烷化制合成天然气。液化分直接液化（高温高压加氢）与间接液化（先气化再费托合成）。中国富煤、贫油、少气，煤制油与煤制气承担着一部分能源安全的考量。",
+            en: "Carbonization heats coal without air until it decomposes, giving coke for smelting, coal tar for chemicals, weak aqueous ammonia, and coke-oven gas (H₂, CH₄, CO, C₂H₄) — the molecules themselves change, which is the point of contrast with physical fractionation of oil. Gasification converts coal to CO + H₂ syngas, the pivot of the whole industry: that syngas is then made into methanol or methanated to substitute natural gas. Liquefaction comes direct (hydrogen under heat and pressure) or indirect (gasify first, then Fischer–Tropsch). China's coal-rich, oil-poor, gas-lean balance is why coal-to-liquids and coal-to-gas carry an energy-security role here.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "能源", en: "Energy" },
+            { zh: "煤化工", en: "Coal Chemistry" },
+          ],
+        },
+        {
+          id: "ind-silicate",
+          subs: [
+            {
+              f: "Na₂CO₃",
+              name: { zh: "纯碱（苏打）", en: "Soda ash" },
+              note: { zh: "引入 Na₂O，作用是降低熔化温度。", en: "Supplies Na₂O and lowers the melting temperature." },
+              role: "l",
+            },
+            {
+              f: "SiO₂",
+              name: { zh: "石英砂（二氧化硅）", en: "Silica (quartz sand)" },
+              note: { zh: "玻璃网络的主体，也是陶瓷坯体的骨料。", en: "The glass network former and the grit of the body." },
+              role: "l",
+            },
+            {
+              f: "Na₂SiO₃",
+              name: { zh: "硅酸钠", en: "Sodium silicate" },
+              note: { zh: "水玻璃的主成分，可溶、作胶粘剂。", en: "The soluble 'water glass', used as a binder." },
+              role: "r",
+            },
+            {
+              f: "CaCO₃",
+              name: { zh: "石灰石", en: "Limestone" },
+              note: { zh: "玻璃里引入 CaO 提高耐水性；也是水泥的主要原料。", en: "Supplies CaO for water resistance, and is the chief cement raw material." },
+              role: "l",
+            },
+            {
+              f: "CaSiO₃",
+              name: { zh: "硅酸钙", en: "Calcium silicate" },
+              note: { zh: "玻璃与水泥中都存在的骨架成分。", en: "A structural constituent of both glass and cement." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "碳酸盐分解带出的气体，需在窑气中排出。", en: "Gas driven off the carbonates and vented from the kiln." },
+              role: "r",
+            },
+            {
+              f: "Al₂Si₂O₅(OH)₄",
+              name: { zh: "高岭土（黏土主要成分）", en: "Kaolinite (chief clay mineral)" },
+              note: { zh: "陶瓷坯体的原料，带结构水。", en: "The clay behind pottery; it carries structural water." },
+              role: "l",
+            },
+            {
+              f: "Al₂O₃",
+              name: { zh: "氧化铝", en: "Alumina" },
+              note: { zh: "烧结后留在瓷体里，决定耐火与硬度。", en: "Stays in the fired body, giving refractoriness and hardness." },
+              role: "r",
+            },
+            {
+              f: "H₂O↑",
+              name: { zh: "结构水（蒸气）", en: "Structural water (vapor)" },
+              note: { zh: "必须缓慢升温排出，否则坯体开裂。", en: "Must be driven off slowly or the ware cracks." },
+              role: "r",
+            },
+          ],
+          icon: "🏺",
+          term: { zh: "玻璃、水泥与陶瓷", en: "Glass, Cement and Ceramics" },
+          level: 1,
+          oneLiner: {
+            zh: "纯碱、石灰石与石英砂高温成玻璃，石灰石加黏土煅烧成水泥，黏土烧结成陶瓷。",
+            en: "Soda, limestone and silica make glass; limestone with clay makes cement; fired clay makes ceramics.",
+          },
+          eq: [
+            {
+              lhs: "Na₂CO₃ + SiO₂",
+              cond: { zh: "高温 玻璃窑", en: "glass furnace, high heat" },
+              rhs: "Na₂SiO₃ + CO₂↑",
+            },
+            {
+              lhs: "CaCO₃ + SiO₂",
+              cond: { zh: "高温", en: "high heat" },
+              rhs: "CaSiO₃ + CO₂↑",
+            },
+            {
+              lhs: "Al₂Si₂O₅(OH)₄",
+              cond: { zh: "烧结 脱水", en: "firing, dehydration" },
+              rhs: "Al₂O₃ + 2SiO₂ + 2H₂O↑",
+            },
+          ],
+          detail: {
+            zh: "这三样统称硅酸盐工业。普通玻璃用纯碱、石灰石与石英砂，高温下生成 Na₂SiO₃ 与 CaSiO₃，冷却后得到组成近似写作 Na₂O·CaO·6SiO₂ 的混合物；玻璃是非晶体，没有固定熔点，只有一段逐渐软化的温度区间。水泥用石灰石与黏土磨细煅烧，是水硬性胶凝材料——遇水反应硬化，所以受潮即废。陶瓷以黏土成型烧结，烧结时高岭土失去结构水。",
+            en: "These three make up the silicate industry. Ordinary glass takes soda ash, limestone and quartz sand; at furnace heat they form Na₂SiO₃ and CaSiO₃, and the cooled product is a mixture written roughly as Na₂O·CaO·6SiO₂. Glass is amorphous — no fixed melting point, only a softening range. Cement is ground limestone and clay, calcined together; it sets hydraulically, reacting with water, so damp storage ruins it. Ceramics are shaped from clay and fired, the kaolinite giving up its structural water as it goes.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "材料", en: "Materials" },
+            { zh: "硅酸盐", en: "Silicates" },
+          ],
+        },
+      ],
+    },
+    /* ===================== 化学与环境 ===================== */
+    {
+      key: "chem-env",
+      icon: "🌿",
+      title: { zh: "化学与环境", en: "Chemistry & Environment" },
+      items: [
+        {
+          id: "env-acid-rain",
+          subs: [
+            {
+              f: "S",
+              name: { zh: "硫（煤与石油中的硫分）", en: "Sulfur (the fraction in coal and oil)" },
+              note: { zh: "动力煤含硫可达百分之几，燃烧先进入烟气。", en: "Steam coal can carry several percent sulfur, which leaves in the flue gas." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气（空气）", en: "Oxygen (air)" },
+              note: { zh: "燃烧与后续氧化都靠它。", en: "Drives both the burning and the later oxidation." },
+              role: "l",
+            },
+            {
+              f: "SO₂",
+              name: { zh: "二氧化硫", en: "Sulfur dioxide" },
+              note: { zh: "直接刺激呼吸道，也是酸雨的起始物。", en: "Irritates airways and starts the acid-rain chain." },
+              role: "r",
+            },
+            {
+              f: "SO₃",
+              name: { zh: "三氧化硫", en: "Sulfur trioxide" },
+              note: { zh: "在大气中由 SO₂ 缓慢氧化而来，飘尘起催化作用。", en: "Formed slowly from SO₂ in air, catalyzed on dust particles." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水（云霦、雨水）", en: "Water (cloud and rain)" },
+              note: { zh: "SO₃ 极易与之结合。", en: "SO₃ combines with it eagerly." },
+              role: "l",
+            },
+            {
+              f: "H₂SO₄",
+              name: { zh: "硫酸", en: "Sulfuric acid" },
+              note: { zh: "硫酸型酸雨的主体，中国以它为主。", en: "The heart of sulfate-type acid rain, dominant in China." },
+              role: "r",
+            },
+            {
+              f: "CaCO₃",
+              name: { zh: "石灰石（脱硫浆液）", en: "Limestone (slurries)" },
+              note: { zh: "磨成浆液喷入吸收塔，来自主产石膏的钙源。", en: "Ground to slurry in the absorber; the calcium for by-product gypsum." },
+              role: "l",
+            },
+            {
+              f: "CaSO₄",
+              name: { zh: "硫酸钙（石膏）", en: "Calcium sulfate (gypsum)" },
+              note: { zh: "脱硫副产物，回用作水泥缓凝剂与建材。", en: "The by-product, sold on as a cement retarder and board material." },
+              role: "r",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "碳酸盐分解带出，不增加脱硫的碳成本则不计。", en: "Released by the carbonate; a small carbon cost of the route." },
+              role: "r",
+            },
+          ],
+          icon: "🌧️",
+          term: { zh: "酸雨与石灰石-石膏法脱硫", en: "Acid Rain and Limestone Desulfurization" },
+          level: 2,
+          oneLiner: {
+            zh: "煤中硫烧成 SO₂，在大气里氧化成硫酸随雨落下；用石灰石浆液在塔里把它固定成石膏。",
+            en: "Coal sulfur burns to SO₂, oxidizes in air to sulfuric acid and falls as rain; limestone slurry fixes it as gypsum inside the absorber.",
+          },
+          eq: [
+            {
+              lhs: "S + O₂",
+              cond: { zh: "燃烧", en: "combustion" },
+              rhs: "SO₂",
+            },
+            {
+              lhs: "2SO₂ + O₂",
+              cond: { zh: "大气中缓慢·飘尘催化", en: "slow in air, dust-catalyzed" },
+              rhs: "2SO₃",
+            },
+            {
+              lhs: "SO₃ + H₂O",
+              cond: { zh: "云滴中", en: "in cloud droplets" },
+              rhs: "H₂SO₄",
+            },
+            {
+              lhs: "2CaCO₃ + 2SO₂ + O₂",
+              cond: { zh: "湿法脱硫总结果", en: "wet FGD, overall" },
+              rhs: "2CaSO₄ + 2CO₂",
+            },
+          ],
+          detail: {
+            zh: "正常雨水溶了 CO₂，pH 本底约 5.6，所以酸雨的定义是 pH 低于 5.6 的降水。燃煤与石油中的硫分先烧成 SO₂，在大气中被缓慢氧化成 SO₃ 并与水结合成硫酸，硝酸型则来自 NOx；中国以硫酸型为主。危害包括湖泊酸化、土壤养分淋失、森林退化，以及腐蚀石灰石与大理石建筑——CaCO₃ 遇酸生成可溶盐被雨水冲走，外表的“石壳”就是这样脱落的。治理主战场是烟气脱硫：把石灰石浆液喷入吸收塔与 SO₂ 反应，再鼓风氧化成石膏，效率可达九成以上，石膏回用作水泥缓凝剂。",
+            en: "Clean rain already holds dissolved CO₂ and sits near pH 5.6, so 'acid rain' means anything below that. Sulfur in coal and oil burns to SO₂, which oxidizes slowly in air to SO₃ and hydrates to sulfuric acid; the nitric type comes from NOx, and sulfate-type deposition has dominated China. Damage runs to acidified lakes, leached soils, dying forest, and stone: acid converts CaCO₃ into soluble salts that rain washes away, which is why building surfaces slough off. The main control is flue-gas desulfurization — limestone slurry sprayed into an absorber reacts with the SO₂, is blown with air to gypsum, and removes better than ninety percent of the sulfur, with the gypsum sold on to cement plants.",
+          },
+          tags: [
+            { zh: "环境", en: "Environment" },
+            { zh: "大气", en: "Atmosphere" },
+            { zh: "治理", en: "Abatement" },
+          ],
+          figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="20" font-size="12" fill="currentColor">硫酸型酸雨与脱硫 Sulfate acid rain and scrubbing</text>
+  <g stroke="currentColor" stroke-opacity="0.45" fill="none">
+    <rect x="6" y="44" width="96" height="56" rx="6"/><rect x="132" y="44" width="96" height="56" rx="6"/><rect x="258" y="44" width="96" height="56" rx="6"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle" font-size="10.5">
+    <text x="54" y="64">① 燃烧成 SO₂</text><text x="180" y="64">② 氧化成 SO₃</text><text x="306" y="64">③ 成酸沉降</text>
+  </g>
+  <g fill="currentColor" fill-opacity="0.6" text-anchor="middle" font-size="8">
+    <text x="54" y="78">burn to SO₂</text><text x="180" y="78">dust-catalyzed</text><text x="306" y="78">acid deposition</text>
+  </g>
+  <g fill="#d4a017" text-anchor="middle" font-size="9">
+    <text x="54" y="94">煤中硫分</text><text x="180" y="94">飘尘表面</text><text x="306" y="94">H₂SO₄ · pH&lt;5.6</text>
+  </g>
+  <g fill="#d4a017">
+    <polygon points="104,68 128,72 104,76"/><polygon points="230,68 254,72 230,76"/>
+  </g>
+  <text x="6" y="124" font-size="9.5" fill="currentColor" fill-opacity="0.7">脱硫塔：石灰石浆液 + 鼓风氧化 → 石膏回用作水泥缓凝剂</text>
+  <text x="6" y="136" font-size="8.5" fill="currentColor" fill-opacity="0.6">Scrubber: limestone slurry plus air blows, the gypsum sold on to cement plants</text>
+  <text x="6" y="156" font-size="10" fill="#e5484d">⚠ 酸雨腐蚀大理石与石灰石建筑：CaCO₃ 遇酸生成可溶盐被冲走</text>
+  <text x="6" y="170" font-size="9.5" fill="#e5484d" fill-opacity="0.75">Acid turns stone into soluble salts that rain simply washes away</text>
+</svg>`,
+        },
+        {
+          id: "env-catalyst",
+          subs: [
+            {
+              f: "CO",
+              name: { zh: "一氧化碳", en: "Carbon monoxide" },
+              note: { zh: "混合气过浓、燃烧不充分的产物，与血红蛋白结合力强。", en: "From rich, incomplete combustion; binds hemoglobin tightly." },
+              role: "l",
+            },
+            {
+              f: "NO",
+              name: { zh: "一氧化氮", en: "Nitric oxide" },
+              note: { zh: "气缸高温下氮气被固定而来，排入空气后继续氧化成 NO₂。", en: "Nitrogen fixed at cylinder heat; it oxidizes on to NO₂ in air." },
+              role: "l",
+            },
+            {
+              f: "NO₂",
+              name: { zh: "二氧化氮", en: "Nitrogen dioxide" },
+              note: { zh: "红棕色、刺激性，也是光化学烟雾的引发物。", en: "Red-brown and pungent; also the trigger of photochemical smog." },
+              role: "l",
+            },
+            {
+              f: "C₃H₆",
+              name: { zh: "丙烯（未燃烃代表）", en: "Propene (hydrocarbon stand-in)" },
+              note: { zh: "代表未烧完的燃油与润滑油成分。", en: "Stands for unburned fuel and oil carry-over." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气（过量空气）", en: "Oxygen (excess air)" },
+              note: { zh: "氧化 CO 与烃的氧化剂，含量由空燃比决定。", en: "The oxidizer for CO and HC, set by the air-fuel ratio." },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "氧化的终点：无毒但它是温室气体。", en: "The oxidation end point: harmless, yet a greenhouse gas." },
+              role: "r",
+            },
+            {
+              f: "N₂",
+              name: { zh: "氮气", en: "Nitrogen" },
+              note: { zh: "NOx 被还原后的安全归宿。", en: "Where NOx ends up once reduced." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水（蒸气）", en: "Water (vapor)" },
+              note: { zh: "烃氧化的另一产物。", en: "The other product of burning hydrocarbons." },
+              role: "r",
+            },
+          ],
+          icon: "🚗",
+          term: { zh: "汽车尾气的三元催化", en: "The Three-Way Catalytic Converter" },
+          level: 2,
+          oneLiner: {
+            zh: "铂铑把 CO 与 NOx 分别氧化、还原成 CO₂ 与 N₂，前提是空燃比守在理论值附近。",
+            en: "Platinum and rhodium oxidize CO and reduce NOx to CO₂ and N₂ — but only if the air-fuel ratio holds near stoichiometry.",
+          },
+          eq: [
+            {
+              lhs: "2CO + 2NO",
+              cond: { zh: "铂·铑 催化剂", en: "Pt-Rh catalyst" },
+              rhs: "2CO₂ + N₂",
+            },
+            {
+              lhs: "2NO₂ + 4CO",
+              cond: { zh: "铑 还原", en: "rhodium, reduction" },
+              rhs: "N₂ + 4CO₂",
+            },
+            {
+              lhs: "2C₃H₆ + 9O₂",
+              cond: { zh: "钯 氧化", en: "palladium, oxidation" },
+              rhs: "6CO₂ + 6H₂O",
+            },
+          ],
+          detail: {
+            zh: "汽油机尾气有三类污染物：缺氧燃烧生成的 CO、没烧完的碳氢化合物 HC，以及气缸高温下把氮气固定下来的 NOx。三效催化剂用铂、钯把 CO 与 HC 氧化，用铑把 NOx 还原成 N₂，而三件事同时做好的窗口很窄——空燃比必须守在理论值（汽油约 14.7:1，即 λ≈1）附近，所以必须用氧传感器闭环控制。铅会使催化剂中毒，因此上了三元催化就必须用无铅汽油；冷启动时催化剂未达起燃温度（约 200~300 ℃），此时净化效率最低，也是排放考核要测冷启动工况的原因。",
+            en: "A petrol engine emits three problems: CO from oxygen-starved burning, unburned hydrocarbons, and NOx fixed from intake nitrogen at cylinder heat. The three-way catalyst oxidizes CO and HC over platinum and palladium and reduces NOx to N₂ over rhodium — but the window where all three work at once is narrow, so the air-fuel ratio must be held at stoichiometry (about 14.7:1 for petrol, λ≈1) under closed-loop control from an oxygen sensor. Lead poisons the catalyst, which is why three-way cats demanded unleaded fuel; and until the brick reaches its light-off temperature, roughly 200–300 °C, purification barely works — the reason test cycles include a cold start.",
+          },
+          tags: [
+            { zh: "环境", en: "Environment" },
+            { zh: "大气", en: "Atmosphere" },
+            { zh: "催化", en: "Catalysis" },
+          ],
+        },
+        {
+          id: "env-eutrophication",
+          subs: [
+            {
+              f: "Fe³⁺",
+              name: { zh: "铁盐（氯化铁）", en: "Iron salt (ferric chloride)" },
+              note: { zh: "化学除磷的药剂，铝盐与石灰也可。", en: "The dosed reagent; salts of aluminum or lime work too." },
+              role: "l",
+            },
+            {
+              f: "PO₄³⁻",
+              name: { zh: "磷酸根", en: "Phosphate" },
+              note: { zh: "淡水富营养化通常由磷限量，来自洗涤剂与化肥。", en: "In fresh water phosphorus is usually the limiting nutrient, from detergents and fertilizer." },
+              role: "l",
+            },
+            {
+              f: "FePO₄↓",
+              name: { zh: "磷酸铁沉淀", en: "Iron phosphate precipitate" },
+              note: { zh: "把磷固定进污泥，随剩余污泥排出系统。", en: "Locks the phosphorus into sludge that leaves the plant." },
+              role: "r",
+            },
+            {
+              f: "NH₄⁺",
+              name: { zh: "铵根（氨氮）", en: "Ammonium (ammonia nitrogen)" },
+              note: { zh: "尿液、化肥与养殖尾水的主要氮形态，本身对鱼有毒。", en: "The main nitrogen form in waste; itself toxic to fish." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "溶解氧", en: "Dissolved oxygen" },
+              note: { zh: "硝化菌需要好氧；藻类夜间与死亡分解时把它耗光。", en: "Nitriers need it; algae and decaying biomass consume it overnight." },
+              role: "l",
+            },
+            {
+              f: "NO₃⁻",
+              name: { zh: "硝酸根", en: "Nitrate" },
+              note: { zh: "硝化产物，易随水迁移、不易沉淀。", en: "The nitrification product: mobile and hard to precipitate." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "两个生物过程的共同产物或介质。", en: "Product and medium of both biological steps." },
+              role: "r",
+            },
+            {
+              f: "H⁺",
+              name: { zh: "氢离子（硝化产酸）", en: "Protons (acid from nitration)" },
+              note: { zh: "硝化耗碱度，碱度不足时 pH 下降会抑制菌。", en: "Nitrification eats up alkalinity; a pH crash stalls the bacteria." },
+              role: "r",
+            },
+            {
+              f: "CH₃OH",
+              name: { zh: "甲醇（外碳源）", en: "Methanol (external carbon)" },
+              note: { zh: "进水碳源不足时投加，作反硝化的电子供体。", en: "Dosed when the inflow is carbon-poor; it feeds the denitrifiers." },
+              role: "l",
+            },
+            {
+              f: "N₂↑",
+              name: { zh: "氮气", en: "Nitrogen gas" },
+              note: { zh: "脱氮的终点：氮从水里回到空气。", en: "The goal — nitrogen leaves the water for the air." },
+              role: "r",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "甲醇被氧化后的产物。", en: "What the methanol ends up as." },
+              role: "r",
+            },
+            {
+              f: "OH⁻",
+              name: { zh: "氢氧根（反硝化产碱）", en: "Hydroxide (alkalinity back)" },
+              note: { zh: "反硝化回收约一半碱度，两段搭配才能自衡。", en: "Denitrification returns about half the alkalinity; the two stages balance." },
+              role: "r",
+            },
+          ],
+          icon: "🦠",
+          term: { zh: "水体富营养化与脱氮除磷", en: "Eutrophication, Nitrogen and Phosphorus Removal" },
+          level: 3,
+          oneLiner: {
+            zh: "铁盐把磷沉淀进污泥，先好氧硝化、再缺氧反硝化把硝态氮还原成氮气跑掉。",
+            en: "Precipitate phosphorus with iron salt; then nitrate aerobically and denitrify anoxically so the nitrogen escapes as gas.",
+          },
+          eq: [
+            {
+              lhs: "Fe³⁺ + PO₄³⁻",
+              cond: { zh: "投加铁盐", en: "iron salt dosing" },
+              rhs: "FePO₄↓",
+            },
+            {
+              lhs: "NH₄⁺ + 2O₂",
+              cond: { zh: "好氧·硝化菌", en: "aerobic, nitriers" },
+              rhs: "NO₃⁻ + H₂O + 2H⁺",
+            },
+            {
+              lhs: "5CH₃OH + 6NO₃⁻",
+              cond: { zh: "缺氧·反硝化菌", en: "anoxic, denitrifiers" },
+              rhs: "3N₂↑ + 5CO₂ + 7H₂O + 6OH⁻",
+            },
+          ],
+          detail: {
+            zh: "氮磷本是养分，过量进水体就让藻类疯长。淡水通常由磷限量、海域多由氮限量。藻类白天产氧，夜间与死亡分解时却大量耗氧，溶解氧骤致鱼群窒息、底泥厌氧释磷并发臭：湖泊上叫水华，海里叫赤潮。工程上两条线并进：化学除磷用铁盐、铝盐或石灰把磷酸根沉淀掉；生物脱氮先好氧硝化把铵氮变成硝态氮，再在缺氧池里投碳源让反硝化菌把 NO₃⁻ 还原成 N₂——氮就此从水里“跑”进空气。源头一侧则是限磷洗涤剂（三聚磷酸钠已受限）、化肥流失管控与养殖尾水处理。",
+            en: "Nitrogen and phosphorus are nutrients until they arrive in excess, and then algae bloom. Fresh water is usually phosphorus-limited, coastal water often nitrogen-limited. Algae make oxygen by day but consume it at night and as they decay, so dissolved oxygen crashes, fish suffocate, bottom sediment releases its phosphorus anaerobically and the water smells; on a lake it is a bloom, at sea a red tide. Treatment runs on two tracks: chemical removal precipitates phosphate with iron or aluminum salts, or with lime; biological removal nitrifies ammonium to nitrate under aeration, then denitrifies it to N₂ in an anoxic tank fed with carbon — the nitrogen leaves the water for the air. Upstream, the levers are low-phosphorus detergents (sodium tripolyphosphate is now restricted), fertilizer runoff control and cleanup of aquaculture effluent.",
+          },
+          tags: [
+            { zh: "环境", en: "Environment" },
+            { zh: "水", en: "Water" },
+            { zh: "营养盐", en: "Nutrients" },
+          ],
+        },
+        {
+          id: "env-drinking-water",
+          subs: [
+            {
+              f: "Al³⁺",
+              name: { zh: "铝离子（明矾溶出）", en: "Aluminum ion (from alum)" },
+              note: { zh: "明矾 KAl(SO₄)₂·12H₂O 溶于水解离出来。", en: "Released when alum dissolves." },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "既是溶剂也是反应物。", en: "Solvent and reactant at once." },
+              role: "l",
+            },
+            {
+              f: "Al(OH)₃",
+              name: { zh: "氢氧化铝胶体", en: "Aluminum hydroxide floc" },
+              note: { zh: "不是沉淀而是胶体，靠表面积吸附悬浮物。", en: "A colloid, not a precipitate; its surface sweeps up suspended matter." },
+              role: "r",
+            },
+            {
+              f: "H⁺",
+              name: { zh: "氢离子", en: "Protons" },
+              note: { zh: "水解产酸，原水碱度低时 pH 会下降。", en: "Hydrolysis acidifies; low-alkalinity raw water will drop in pH." },
+              role: "r",
+            },
+            {
+              f: "Cl₂",
+              name: { zh: "氯气（液氯）", en: "Chlorine (liquid dosed)" },
+              note: { zh: "经典消毒剂，便宜且能持续抑菌。", en: "The classic disinfectant: cheap and long-lasting." },
+              role: "l",
+            },
+            {
+              f: "HCl",
+              name: { zh: "盐酸", en: "Hydrochloric acid" },
+              note: { zh: "氯气溶于水的另一半产物，量极微。", en: "The other half of chlorine in water, present in traces." },
+              role: "r",
+            },
+            {
+              f: "HClO",
+              name: { zh: "次氯酸", en: "Hypochlorous acid" },
+              note: { zh: "不带电荷、易穿透细胞壁，真正起杀菌作用的形态。", en: "Uncharged, so it crosses cell walls — this is the actual killer." },
+              role: "r",
+            },
+            {
+              f: "O₃",
+              name: { zh: "臭氧", en: "Ozone" },
+              note: { zh: "氧化能力更强且无副产氯，但水中存不住。", en: "A stronger oxidizer with no chlorinated by-products, but it will not persist." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "臭氧分解后的唯一残留。", en: "All that ozone leaves behind." },
+              role: "r",
+            },
+          ],
+          icon: "🚰",
+          term: { zh: "饮用水的净化与消毒", en: "Purifying and Disinfecting Drinking Water" },
+          level: 2,
+          oneLiner: {
+            zh: "明矾水解生成胶体吸附杂质，氯或臭氧用强氧化杀死病原微生物。",
+            en: "Alum hydrolyzes to a scavenging colloid; chlorine or ozone kill pathogens by oxidation.",
+          },
+          eq: [
+            {
+              lhs: "Al³⁺ + 3H₂O",
+              rel: "equilibrium",
+              cond: { zh: "水解·生成胶体", en: "hydrolysis, floc forms" },
+              rhs: "Al(OH)₃ + 3H⁺",
+            },
+            {
+              lhs: "Cl₂ + H₂O",
+              rel: "equilibrium",
+              cond: { zh: "液氯消毒", en: "chlorination" },
+              rhs: "HCl + HClO",
+            },
+            {
+              lhs: "2O₃",
+              cond: { zh: "分解后无残留", en: "leaves no residue" },
+              rhs: "3O₂",
+            },
+          ],
+          detail: {
+            zh: "常规水厂的五步是絮凝、沉淀、过滤、吸附、消毒。明矾溶出 Al³⁺，水解生成的 Al(OH)₃ 是胶体，把悬浮颗粒与部分色度裹挟沉降。消毒靠强氧化：液氯溶于水生成的 HClO 不带电荷、易穿透细胞壁，杀菌可靠且能在管网里留下余氯持续抑菌；但氯与原水里的有机物会生成三卤甲烷等消毒副产物，因此不少水厂改用 ClO₂ 或臭氧——臭氧氧化能力更强、分解后只剩氧气，缺点是没有持续抑菌能力，往往需在后段补少量氯。家用活性炭主要吸附异味与有机物，去不掉重金属离子。",
+            en: "A conventional plant runs five steps: coagulation, sedimentation, filtration, adsorption, disinfection. Alum releases Al³⁺, whose hydrolysis product Al(OH)₃ is a colloid that sweeps suspended particles and color out of suspension. Disinfection is oxidation: chlorine dissolved in water gives HClO, uncharged so it penetrates cell walls, reliable and — usefully — leaving a chlorine residual that keeps the pipework clean. But chlorine plus natural organic matter makes chlorinated by-products such as trihalomethanes, so many plants dose chlorine dioxide or ozone instead; ozone oxidizes harder and decays to oxygen alone, but leaves nothing behind, so a small chlorine top-up is still needed. Household activated carbon mainly takes out taste and organics; it does not remove heavy-metal ions.",
+          },
+          tags: [
+            { zh: "环境", en: "Environment" },
+            { zh: "水", en: "Water" },
+            { zh: "日常", en: "Everyday" },
+          ],
+        },
+        {
           id: "env-chrome-water",
           subs: [
             {
@@ -3310,6 +4207,195 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             { zh: "环境", en: "Environment" },
             { zh: "氧化还原", en: "Redox" },
             { zh: "废水处理", en: "Water Treatment" },
+          ],
+        },
+        {
+          id: "env-solid-waste",
+          subs: [
+            {
+              f: "CaCO₃",
+              name: { zh: "石灰石粉（炉内喷钙）", en: "Limestone powder (in-furnace injection)" },
+              note: { zh: "价格低廉，分解后的 CaO 同时吸硫吸氯。", en: "Cheap; the CaO it gives up takes up sulfur and chlorine alike." },
+              role: "l",
+            },
+            {
+              f: "HCl",
+              name: { zh: "氯化氢（烟气中的酸）", en: "Hydrogen chloride (acid gas)" },
+              note: { zh: "来自 PVC 等含氯垃圾，是焚烧最主要的酸性气体。", en: "From PVC and other chlorinated waste; the chief acid in municipal incineration." },
+              role: "l",
+            },
+            {
+              f: "CaCl₂",
+              name: { zh: "氯化钙", en: "Calcium chloride" },
+              note: { zh: "脱酸生成的中性盐，随飞灰处理。", en: "The neutral salt formed; handled with the fly ash." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "中和反应的产物。", en: "Product of the neutralization." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "碳酸盐分解带出的气体。", en: "Released when the carbonate decomposes." },
+              role: "r",
+            },
+            {
+              f: "Ca(OH)₂",
+              name: { zh: "熟石灰（半干法）", en: "Slaked lime (semidry process)" },
+              note: { zh: "喷成细雾，一边吸水一边中和酸性气体。", en: "Atomized so it dries the gas while neutralizing it." },
+              role: "l",
+            },
+            {
+              f: "CuO",
+              name: { zh: "氧化铜（含铜废料）", en: "Copper oxide (copper-bearing scrap)" },
+              note: { zh: "废铜与电镀污泥灼烧后的形态。", en: "What scrap copper and plating sludge leave behind after roasting." },
+              role: "l",
+            },
+            {
+              f: "H₂SO₄",
+              name: { zh: "稀硫酸（浸出剂）", en: "Dilute sulfuric acid (leachant)" },
+              note: { zh: "把铜转入溶液，以便后续电积。", en: "Moves copper into solution for electrowinning." },
+              role: "l",
+            },
+            {
+              f: "CuSO₄",
+              name: { zh: "硫酸铜溶液", en: "Copper sulfate solution" },
+              note: { zh: "电解得阴极铜；与湿法炼铜同源。", en: "Electrolyzed to cathode copper — the same chemistry as heap leaching." },
+              role: "r",
+            },
+          ],
+          icon: "🗑️",
+          term: { zh: "垃圾焚烧与金属回收", en: "Waste Incineration and Metal Recovery" },
+          level: 2,
+          oneLiner: {
+            zh: "850 ℃ 以上停留 2 秒分解二噁英，石灰吸收 HCl 与 SO₂，飞灰按危险废物处理。",
+            en: "Hold the flame above 850 °C for two seconds to crack dioxins, scrub the acid gases with lime, and treat fly ash as hazardous waste.",
+          },
+          eq: [
+            {
+              lhs: "CaCO₃ + 2HCl",
+              cond: { zh: "炉内喷钙", en: "in-furnace dosing" },
+              rhs: "CaCl₂ + H₂O + CO₂↑",
+            },
+            {
+              lhs: "2HCl + Ca(OH)₂",
+              cond: { zh: "半干法脱酸", en: "semidry scrubbing" },
+              rhs: "CaCl₂ + 2H₂O",
+            },
+            {
+              lhs: "CuO + H₂SO₄",
+              cond: { zh: "酸溶回收", en: "acid leaching" },
+              rhs: "CuSO₄ + H₂O",
+            },
+          ],
+          detail: {
+            zh: "焚烧是减量最彻底的末端手段，但要管住两件事。一是二噁英：炉温需保持在 850 ℃ 以上、烟气停留不少于 2 秒才能把已生成的分解掉；而烟气降温时又在 250~400 ℃ 区间“从头合成”，所以出口必须急冷、快速穿过这段温度。二是酸性气体与飞灰：HCl 与 SO₂ 用石灰石喷射或半干法石灰浆吸收，飞灰富集重金属与二噁英，属危险废物，须螯合稳定化后进安全填埋场；炉渣则多用作路基材料。回收侧的账很清楚：再生铝的能耗只有原铝的约 5%，所以分类回收的价值首先在于能源与矿产，而不是“变废为金”——那一步只在电子废弃物上才成立，且必须集中处理。",
+            en: "Incineration is the most thorough way to shrink a waste stream, provided two things are controlled. First, dioxins: the combustion chamber must stay above 850 °C with the gas resident at least two seconds to destroy what has formed, yet as the flue gas cools it re-synthesizes dioxins de novo between 250 and 400 °C, so the outlet is quench-cooled straight through that window. Second, acid gas and fly ash: HCl and SO₂ are taken up by injected limestone or a semidry lime slurry, while the fly ash concentrates heavy metals and dioxins, is classified hazardous, and must be chelate-stabilized before it can go to a secure landfill; the bottom ash, by contrast, is largely usable as road base. The recovery arithmetic is blunt: recycled aluminum costs about five percent of the energy of primary metal, so the value of sorting is energy and ore first, not turning trash into gold — that last trick only pays on electronic waste, and only in centralized hands.",
+          },
+          tags: [
+            { zh: "环境", en: "Environment" },
+            { zh: "固废", en: "Solid Waste" },
+            { zh: "循环", en: "Recycling" },
+          ],
+        },
+        {
+          id: "env-ccus",
+          subs: [
+            {
+              f: "Na₂CO₃",
+              name: { zh: "纯碱溶液（吸收剂）", en: "Soda ash solution (the absorbent)" },
+              note: { zh: "碳酸钠循环法用廉价天然碱代替有机胺，没有胺降解问题。", en: "The soda cycle uses cheap trona instead of an amine, so nothing degrades." },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳（烟气中的）", en: "Carbon dioxide (in the flue gas)" },
+              note: { zh: "燃煤烟气里只占 12~15%，要先被富集才谈得上利用。", en: "Only 12–15% of coal flue gas, so it must be concentrated before it can be used." },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "参与吸收，也是转化反应的副产物。", en: "Joins the absorption and comes back out of the conversion." },
+              role: "l",
+            },
+            {
+              f: "NaHCO₃",
+              name: { zh: "碳酸氢钠（负载产物）", en: "Sodium bicarbonate (the loaded product)" },
+              note: { zh: "CO₂ 被“装”进溶液的形式，受热即可倒出来。", en: "How the CO₂ is carried in solution — heat releases it again." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "高纯二氧化碳（再生气）", en: "Concentrated carbon dioxide (regenerated)" },
+              note: { zh: "解吸后近乎纯净，可直接封存或作碳源。", en: "Nearly pure after desorption, ready for storage or as a feedstock." },
+              role: "r",
+            },
+            {
+              f: "H₂",
+              name: { zh: "氢气（还原剂）", en: "Hydrogen (the reductant)" },
+              note: { zh: "必须来自电解水的绿电，否则整条路线是亏碳的。", en: "Must come from water electrolysis on surplus power, or the carbon balance goes negative." },
+              role: "l",
+            },
+            {
+              f: "CH₃OH",
+              name: { zh: "甲醇", en: "Methanol" },
+              note: { zh: "常温液体，可直接进现有燃料与化工体系。", en: "A liquid at ambient conditions, so it slots into existing fuel and chemical chains." },
+              role: "r",
+            },
+            {
+              f: "NH₃",
+              name: { zh: "氨", en: "Ammonia" },
+              note: { zh: "与 CO₂ 合成尿素，是目前最大宗的固定用途。", en: "Combined with CO₂ into urea, still the largest single use." },
+              role: "l",
+            },
+            {
+              f: "CO(NH₂)₂",
+              name: { zh: "尿素", en: "Urea" },
+              note: { zh: "每生产 1 t 尿素约消耗 0.73 t CO₂。", en: "About 0.73 t of CO₂ per tonne of urea." },
+              role: "r",
+            },
+          ],
+          icon: "🌍",
+          term: { zh: "二氧化碳的捕集与资源化", en: "Capturing and Reusing Carbon Dioxide" },
+          level: 3,
+          oneLiner: {
+            zh: "纯碱溶液把 CO₂ 变成碳酸氢钠，受热再放回一股近纯气；剩下的问题是给它找一个值得的去处。",
+            en: "Soda ash solution loads CO₂ as bicarbonate and gives it back near-pure on heating; the hard part is finding somewhere worth putting it.",
+          },
+          eq: [
+            {
+              lhs: "Na₂CO₃ + CO₂ + H₂O",
+              cond: { zh: "约 60 ℃ 吸收", en: "absorption, about 60 °C" },
+              rhs: "2NaHCO₃",
+            },
+            {
+              lhs: "2NaHCO₃",
+              cond: { zh: "加热再生", en: "thermal regeneration" },
+              rhs: "Na₂CO₃ + CO₂↑ + H₂O",
+            },
+            {
+              lhs: "CO₂ + 3H₂",
+              cond: { zh: "CuO-ZnO-Al₂O₃ 催化，约 250 ℃、5~10 MPa", en: "CuO-ZnO-Al₂O₃ catalyst, about 250 °C, 5–10 MPa" },
+              rhs: "CH₃OH + H₂O",
+            },
+            {
+              lhs: "2NH₃ + CO₂",
+              cond: { zh: "高压", en: "high pressure" },
+              rhs: "CO(NH₂)₂ + H₂O",
+            },
+          ],
+          detail: {
+            zh: "捕集分三步账。第一是分离：烟气中 CO₂ 只有 12~15%，浓度低、压力大，所以任何捕集都要付出可观的能量与成本。主流是 30% 单乙醇胺溶液在约 60 ℃ 化学吸收、约 120 ℃ 解吸，缺点是胺会降解、能耗偏高；碳酸钠循环法用天然碱作吸收剂，低温吸收成碳酸氢钠、加热又放回近纯 CO₂，代价是设备体积与碱耗。第二是封存或转化：近纯 CO₂ 可以注入油田驱油、矿化成碳酸盐，或深部咸水层封存。第三是利用：加氢制甲醇、与氨合成尿素、与甲烷干重整制合成气。前两条早已工业化，第三条里“绿氢 + 捕集 CO₂ 制甲醇”最被看好，国内已有千吨级示范装置——但整条路线的碳账完全取决于氢气是否来自可再生能源电力，否则制氢排出的 CO₂ 比固定掉的还多。",
+            en: "Keep the accounting in three parts. First, separation: flue gas carries only 12–15% CO₂ at low partial pressure, so capture always costs real energy and money. The mainstream route is 30% monoethanolamine, absorbing near 60 °C and releasing near 120 °C, limited by amine degradation and reboiler duty; the soda cycle uses trona instead, loading CO₂ into bicarbonate at mild temperature and cracking it back out as a near-pure stream, paying instead in vessel size and alkali loss. Second, storage: the concentrated gas can be injected into depleted oil reservoirs for enhanced recovery, mineralized as carbonates, or locked in deep saline aquifers. Third, use: hydrogenation to methanol, synthesis with ammonia to urea, dry reforming with methane to syngas. The first two are long industrialized; of the third, green hydrogen plus captured CO₂ to methanol looks strongest, and demonstration plants at thousand-tonne scale already run in China — but the whole carbon ledger hinges on whether that hydrogen came from renewable power, since otherwise the hydrogen production emits more CO₂ than the process fixes.",
+          },
+          tags: [
+            { zh: "碳捕集", en: "Carbon Capture" },
+            { zh: "资源化", en: "Utilization" },
+            { zh: "环境", en: "Environment" },
           ],
         },
       ],

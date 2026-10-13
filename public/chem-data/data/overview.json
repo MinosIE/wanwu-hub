@@ -5,7 +5,7 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 239,
+  "total": 250,
   "counts": {
     "concepts": 11,
     "structure": 7,
@@ -14,7 +14,8 @@
     "reactions": 6,
     "equations": 16,
     "life-chem": 13,
-    "chem-industry": 6,
+    "chem-industry": 10,
+    "chem-env": 7,
     "bonding": 6,
     "organic": 8,
     "solutions": 6,
@@ -87,7 +88,15 @@
       "title": "化学与工程",
       "titleEn": "Chemical Engineering",
       "kind": "cards",
-      "count": 6
+      "count": 10
+    },
+    {
+      "key": "chem-env",
+      "icon": "🌿",
+      "title": "化学与环境",
+      "titleEn": "Chemistry & Environment",
+      "kind": "cards",
+      "count": 7
     },
     {
       "key": "bonding",
@@ -162,7 +171,8 @@
     { "key": "reactions", "icon": "🔥", "value": 6 },
     { "key": "equations", "icon": "📝", "value": 16 },
     { "key": "life-chem", "icon": "🏭", "value": 13 },
-    { "key": "chem-industry", "icon": "⚙️", "value": 6 },
+    { "key": "chem-industry", "icon": "⚙️", "value": 10 },
+    { "key": "chem-env", "icon": "🌿", "value": 7 },
     { "key": "bonding", "icon": "🔗", "value": 6 },
     { "key": "organic", "icon": "🧬", "value": 8 },
     { "key": "solutions", "icon": "🧪", "value": 6 },
