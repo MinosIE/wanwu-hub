@@ -56,6 +56,7 @@
 
 ## 4. 工程化（中优先）
 
+- [x] **代码风格统一**：引入 `.prettierrc.json`（printWidth 80 / 双引号 / 尾逗号，唯一例外 `src/subjects/mind/**` 单引号）+ `.prettierignore`（屏蔽 `public/` 数据与 GEO 资产、physics/chem `data.ts`、`*.md`、`.github`）+ `prettier` 入 devDependencies 与 `format` / `format:check` 脚本，并把 `format:check` 接进 `verify`。选型不是拍脑袋：逐目录数过字符串字面量（仅 mind 单引号占优）与三档 printWidth 的全量 churn（pw80+mind 例外：114 文件）。已做一次性全量格式化（116 文件 / +3145 −1913，纯排版），`verify` + `build:ssg` 均 0 且**生成产物零漂移**，16 个视图（8 学科 × 2 语言）浏览器实测无报错。
 - [ ] **补测试**：当前零测试（`devDependencies` 无 vitest/jest，无 `*.test.*`）。建议 vitest 冒烟测试：构建产物、关键渲染、i18n 切换、路由分发。
 - [x] **类型检查 / 数据校验进 CI**：新增 `npm run verify`（typecheck + check:json + dynasty 校验）与 `.github/workflows/ci.yml`（PR/push 跑 verify + build）。
 - [x] **单一真相源 / 去重**：`src/core/subjects.json`（四脚本共享）、`src/core/dataKit.ts`（data.ts 工厂）、`s/build-index.mjs`（合并三份 index-builder）、GEO 域名统一为 minosie。
