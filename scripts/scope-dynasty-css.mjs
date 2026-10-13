@@ -14,7 +14,8 @@ const out = postcss([
       const s = selector.trim();
       if (s === ":root") return ".dynasty-root";
       if (s === "body") return ".dynasty-root";
-      if (s === ':root[data-theme="dark"]') return '.dynasty-root[data-theme="dark"]';
+      if (s === ':root[data-theme="dark"]')
+        return '.dynasty-root[data-theme="dark"]';
       return prefixed;
     },
   }),

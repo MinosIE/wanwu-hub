@@ -246,7 +246,10 @@ for (const subject of subjects) {
       actual[f.replace(/\.json$/, "")] = data.length;
     // 数据文件用 kebab（human-geo.json），而 earth 等学科的 overview / i18n 键沿用
     // camel（humanGeo）：同义看待，避免因命名风格误报。
-    const canon = (k) => String(k ?? "").replace(/-/g, "").toLowerCase();
+    const canon = (k) =>
+      String(k ?? "")
+        .replace(/-/g, "")
+        .toLowerCase();
     // 早期移植的学科（mind）overview 是另一套结构：kpis[].file/titleKey/count，没有 counts。
     // 缺 counts 时整套分类计数校验都不适用，硬跑只会刷一屏误导性的「缺少分类」。
     const hasCounts = ov.counts && typeof ov.counts === "object";

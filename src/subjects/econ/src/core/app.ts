@@ -16,6 +16,6 @@ export function provideApp(next: AppApi): void {
 }
 
 export function app(): AppApi {
-  if (!api) throw new Error('[econ] AppApi 尚未初始化');
+  if (!api) throw new Error("[econ] AppApi 尚未初始化");
   return api;
 }

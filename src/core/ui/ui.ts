@@ -5,7 +5,7 @@
  * 本模块不直接依赖任何具体学科的字典（满足 SOLID 的依赖倒置）。
  */
 
-import { esc, clickable } from './dom';
+import { esc, clickable } from "./dom";
 
 /* ---------- 结构类型（仅声明所需形状，避免耦合各学科 types） ---------- */
 export interface SourceRef {
@@ -34,20 +34,16 @@ type LFn = <T = string>(o: LObj | undefined | null, key: string) => T;
 
 let _t: TFn = (k) => k;
 let _L: LFn = (() => undefined) as LFn;
-let _getLang: () => 'zh' | 'en' = () => 'zh';
+let _getLang: () => "zh" | "en" = () => "zh";
 
 /** 由各学科在 boot 时注入自身 i18n（依赖倒置：本模块只依赖抽象）。 */
-export function setI18n(
-  t: TFn,
-  L: LFn,
-  getLang?: () => 'zh' | 'en',
-): void {
+export function setI18n(t: TFn, L: LFn, getLang?: () => "zh" | "en"): void {
   _t = t;
   _L = L;
   if (getLang) _getLang = getLang;
 }
 /** 当前语言（注入后的当前学科状态）。 */
-export function getLang(): 'zh' | 'en' {
+export function getLang(): "zh" | "en" {
   return _getLang();
 }
 /** 取界面文案（注入后的当前学科字典）。 */
@@ -63,7 +59,7 @@ export function L<T = string>(o: LObj | undefined | null, key: string): T {
 
 /** 难度徽标：1 入门 / 2 进阶 / 3 拓展。 */
 export function lvlBadge(level?: number): string {
-  if (!level) return '';
+  if (!level) return "";
   return `<span class="lvl lvl-${level}">${esc(t(`ui.lvl${level}`))}</span>`;
 }
 
@@ -74,12 +70,14 @@ export function sourcesOf(item: LObj): SourceRef[] {
 }
 
 /** 从数据里归纳「分类」筛选项（保持出现顺序，去重）。 */
-export function collectCategories(items: LObj[]): { value: string; label: string }[] {
+export function collectCategories(
+  items: LObj[],
+): { value: string; label: string }[] {
   const seen = new Map<string, string>();
   for (const it of items) {
-    const value = String(it.category ?? '');
+    const value = String(it.category ?? "");
     if (!value) continue;
-    if (!seen.has(value)) seen.set(value, L(it, 'category'));
+    if (!seen.has(value)) seen.set(value, L(it, "category"));
   }
   return [...seen.entries()].map(([value, label]) => ({ value, label }));
 }
@@ -103,33 +101,33 @@ export function renderFilters(
   const parts: string[] = [];
   if (opts.categories?.length) {
     parts.push(
-      `<span class="fl-label">${esc(t('ui.all'))}</span>`,
-      `<button type="button" class="chip${state.cat === '' ? ' on' : ''}" data-cat="">${esc(t('ui.all'))}</button>`,
+      `<span class="fl-label">${esc(t("ui.all"))}</span>`,
+      `<button type="button" class="chip${state.cat === "" ? " on" : ""}" data-cat="">${esc(t("ui.all"))}</button>`,
       ...opts.categories.map(
         (c) =>
-          `<button type="button" class="chip${state.cat === c.value ? ' on' : ''}" data-cat="${esc(c.value)}">${esc(c.label)}</button>`,
+          `<button type="button" class="chip${state.cat === c.value ? " on" : ""}" data-cat="${esc(c.value)}">${esc(c.label)}</button>`,
       ),
     );
   }
   if (opts.levels) {
     parts.push(
-      `<span class="fl-sep" aria-hidden="true"></span><span class="fl-label">${esc(t('ui.level'))}</span>`,
-      `<button type="button" class="chip${state.level === 0 ? ' on' : ''}" data-lvl="0">${esc(t('ui.all'))}</button>`,
+      `<span class="fl-sep" aria-hidden="true"></span><span class="fl-label">${esc(t("ui.level"))}</span>`,
+      `<button type="button" class="chip${state.level === 0 ? " on" : ""}" data-lvl="0">${esc(t("ui.all"))}</button>`,
       ...[1, 2, 3].map(
         (lv) =>
-          `<button type="button" class="chip${state.level === lv ? ' on' : ''}" data-lvl="${lv}">${esc(t(`ui.lvl${lv}`))}</button>`,
+          `<button type="button" class="chip${state.level === lv ? " on" : ""}" data-lvl="${lv}">${esc(t(`ui.lvl${lv}`))}</button>`,
       ),
     );
   }
-  host.innerHTML = parts.join('');
-  host.querySelectorAll<HTMLElement>('[data-cat]').forEach((node) => {
-    node.addEventListener('click', () => {
-      state.cat = node.dataset.cat ?? '';
+  host.innerHTML = parts.join("");
+  host.querySelectorAll<HTMLElement>("[data-cat]").forEach((node) => {
+    node.addEventListener("click", () => {
+      state.cat = node.dataset.cat ?? "";
       onChange();
     });
   });
-  host.querySelectorAll<HTMLElement>('[data-lvl]').forEach((node) => {
-    node.addEventListener('click', () => {
+  host.querySelectorAll<HTMLElement>("[data-lvl]").forEach((node) => {
+    node.addEventListener("click", () => {
       state.level = Number(node.dataset.lvl ?? 0);
       onChange();
     });
@@ -137,7 +135,7 @@ export function renderFilters(
 }
 
 export function matchFilters(item: LObj, state: FilterState): boolean {
-  if (state.cat && String(item.category ?? '') !== state.cat) return false;
+  if (state.cat && String(item.category ?? "") !== state.cat) return false;
   if (state.level && Number(item.level ?? 0) !== state.level) return false;
   return true;
 }
@@ -148,21 +146,21 @@ export function renderList<T extends LObj>(
   items: T[],
   build: (item: T) => string,
   onPick: (item: T) => void,
-  cardClass = 'card',
+  cardClass = "card",
 ): void {
-  host.innerHTML = items.map((it) => build(it)).join('');
-  host.querySelectorAll<HTMLElement>('.js-item').forEach((node) => {
+  host.innerHTML = items.map((it) => build(it)).join("");
+  host.querySelectorAll<HTMLElement>(".js-item").forEach((node) => {
     const key = node.dataset.key;
     const item = items.find((it) => String(it.id) === key);
     if (item) clickable(node, () => onPick(item));
   });
-  host.classList.toggle('is-empty', items.length === 0);
+  host.classList.toggle("is-empty", items.length === 0);
   void cardClass;
 }
 
 /** 计数行。 */
 export function countText(host: HTMLElement, n: number): void {
-  host.textContent = t('ui.count', { n });
+  host.textContent = t("ui.count", { n });
   host.hidden = false;
 }
 

@@ -95,7 +95,7 @@
   padding-left: 26px;
 }
 .econ-root .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 8px;
   top: 10px;
@@ -565,7 +565,9 @@
 .econ-root .detail-src {
   opacity: 0;
   transform: translateY(10px);
-  transition: opacity 0.38s ease, transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+  transition:
+    opacity 0.38s ease,
+    transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .econ-root .detail-root.open .detail-head {
   opacity: 1;
@@ -692,7 +694,7 @@
   color: var(--text);
 }
 .econ-root .dsec-list li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 9px;

@@ -1,9 +1,9 @@
-import { fetchData } from '../core/data';
-import { esc, need } from '../core/dom';
-import { L, t } from '../core/i18n';
-import type { LObj } from '../core/types';
-import { escapeInline } from './shared';
-import type { ModuleInstance } from './types';
+import { fetchData } from "../core/data";
+import { esc, need } from "../core/dom";
+import { L, t } from "../core/i18n";
+import type { LObj } from "../core/types";
+import { escapeInline } from "./shared";
+import type { ModuleInstance } from "./types";
 
 export interface Question extends LObj {
   id: string;
@@ -16,7 +16,7 @@ export interface Question extends LObj {
   explain?: string;
 }
 
-const BEST_KEY = 'econ.quiz.best';
+const BEST_KEY = "econ.quiz.best";
 
 let questions: Question[] = [];
 let idx = 0;
@@ -74,21 +74,24 @@ function draw(): void {
   if (!host) return;
   const total = questions.length;
   const best = readBest();
-  const bestLine = best === null ? '' : `<span class="quiz-best">${esc(t('quiz.bestScore', { s: best, n: total }))}</span>`;
+  const bestLine =
+    best === null
+      ? ""
+      : `<span class="quiz-best">${esc(t("quiz.bestScore", { s: best, n: total }))}</span>`;
 
   if (done) {
     const pct = total ? Math.round((score / total) * 100) : 0;
     host.innerHTML = `<div class="quiz-card">
-      <p class="quiz-eyebrow">${esc(t('quiz.done'))}</p>
-      <p class="quiz-score">${esc(t('quiz.score', { s: score, n: total }))}</p>
+      <p class="quiz-eyebrow">${esc(t("quiz.done"))}</p>
+      <p class="quiz-score">${esc(t("quiz.score", { s: score, n: total }))}</p>
       <div class="quiz-bar"><span style="width:${pct}%"></span></div>
       <div class="quiz-acts">${bestLine}
-        <button type="button" class="btn primary" id="quizRestart">${esc(t('quiz.restart'))}</button>
-        <button type="button" class="btn ghost" id="quizClear">${esc(t('quiz.clear'))}</button>
+        <button type="button" class="btn primary" id="quizRestart">${esc(t("quiz.restart"))}</button>
+        <button type="button" class="btn ghost" id="quizClear">${esc(t("quiz.clear"))}</button>
       </div>
     </div>`;
-    host.querySelector('#quizRestart')?.addEventListener('click', start);
-    host.querySelector('#quizClear')?.addEventListener('click', () => {
+    host.querySelector("#quizRestart")?.addEventListener("click", start);
+    host.querySelector("#quizClear")?.addEventListener("click", () => {
       try {
         localStorage.removeItem(BEST_KEY);
       } catch {
@@ -105,51 +108,51 @@ function draw(): void {
 
   host.innerHTML = `<div class="quiz-card">
     <header class="quiz-head">
-      <span class="quiz-progress">${esc(t('quiz.progress', { i: idx + 1, n: total }))}</span>
-      <span class="tag">${esc(L(q, 'category'))}</span>
+      <span class="quiz-progress">${esc(t("quiz.progress", { i: idx + 1, n: total }))}</span>
+      <span class="tag">${esc(L(q, "category"))}</span>
       ${bestLine}
     </header>
-    <h3 class="quiz-q">${escapeInline(L(q, 'q'))}</h3>
+    <h3 class="quiz-q">${escapeInline(L(q, "q"))}</h3>
     <div class="quiz-opts">
       ${opts
         .map((o, i) => {
-          const cls = ['quiz-opt'];
+          const cls = ["quiz-opt"];
           if (picked >= 0) {
-            if (i === correct) cls.push('ok');
-            else if (i === picked) cls.push('no');
+            if (i === correct) cls.push("ok");
+            else if (i === picked) cls.push("no");
           }
-          return `<button type="button" class="${cls.join(' ')}" data-i="${i}" ${picked >= 0 ? 'disabled' : ''}>
+          return `<button type="button" class="${cls.join(" ")}" data-i="${i}" ${picked >= 0 ? "disabled" : ""}>
             <span class="quiz-key">${String.fromCharCode(65 + i)}</span>
-            <span class="quiz-text">${escapeInline(L(o as LObj, 'k'))}</span>
+            <span class="quiz-text">${escapeInline(L(o as LObj, "k"))}</span>
           </button>`;
         })
-        .join('')}
+        .join("")}
     </div>
     ${
       picked >= 0
-        ? `<div class="quiz-explain ${picked === correct ? 'ok' : 'no'}">
-            <b>${esc(picked === correct ? t('quiz.correct') : t('quiz.wrong'))}</b>
-            <p>${escapeInline(L(q, 'explain') ?? '')}</p>
+        ? `<div class="quiz-explain ${picked === correct ? "ok" : "no"}">
+            <b>${esc(picked === correct ? t("quiz.correct") : t("quiz.wrong"))}</b>
+            <p>${escapeInline(L(q, "explain") ?? "")}</p>
           </div>
           <div class="quiz-acts">
             <button type="button" class="btn primary" id="quizNext">
-              ${esc(idx + 1 >= total ? t('quiz.finish') : t('quiz.next'))}
+              ${esc(idx + 1 >= total ? t("quiz.finish") : t("quiz.next"))}
             </button>
           </div>`
-        : `<p class="quiz-tip">${esc(t('quiz.tipStart'))}</p>`
+        : `<p class="quiz-tip">${esc(t("quiz.tipStart"))}</p>`
     }
   </div>`;
 
-  host.querySelectorAll<HTMLElement>('.quiz-opt').forEach((node) => {
-    node.addEventListener('click', () => answer(Number(node.dataset.i)));
+  host.querySelectorAll<HTMLElement>(".quiz-opt").forEach((node) => {
+    node.addEventListener("click", () => answer(Number(node.dataset.i)));
   });
-  host.querySelector('#quizNext')?.addEventListener('click', next);
+  host.querySelector("#quizNext")?.addEventListener("click", next);
 }
 
 export default async function render(): Promise<ModuleInstance> {
-  host = need('#quizBox');
+  host = need("#quizBox");
   if (!questions.length) {
-    questions = await fetchData<Question[]>('quiz.json');
+    questions = await fetchData<Question[]>("quiz.json");
     idx = 0;
     score = 0;
     picked = -1;

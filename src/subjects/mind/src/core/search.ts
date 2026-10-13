@@ -1,6 +1,6 @@
-import { allItems } from "./related";
-import { t, L } from "./i18n";
-import { esc } from "./dom";
+import { allItems } from './related';
+import { t, L } from './i18n';
+import { esc } from './dom';
 
 interface Hit {
   id: string;
@@ -10,37 +10,37 @@ interface Hit {
 }
 
 export function initSearch(openDetailById: (id: string) => void): void {
-  const input = document.getElementById("search") as HTMLInputElement | null;
-  const box = document.getElementById("searchResults");
+  const input = document.getElementById('search') as HTMLInputElement | null;
+  const box = document.getElementById('searchResults');
   if (!input || !box) return;
 
   let hits: Hit[] = [];
   let activeIdx = -1;
 
   const titleOf = (item: any): string =>
-    String(L(item, "name") ?? L(item, "term") ?? item.id ?? "");
+    String(L(item, 'name') ?? L(item, 'term') ?? item.id ?? '');
 
   const closeBox = (): void => {
     box.hidden = true;
     activeIdx = -1;
-    input.setAttribute("aria-expanded", "false");
+    input.setAttribute('aria-expanded', 'false');
   };
   const showBox = (): void => {
     box.hidden = false;
-    input.setAttribute("aria-expanded", "true");
+    input.setAttribute('aria-expanded', 'true');
   };
   const setActive = (i: number): void => {
     if (!hits.length) return;
     activeIdx = (i + hits.length) % hits.length;
     box
-      .querySelectorAll<HTMLElement>(".sr-item")
-      .forEach((b, j) => b.classList.toggle("on", j === activeIdx));
+      .querySelectorAll<HTMLElement>('.sr-item')
+      .forEach((b, j) => b.classList.toggle('on', j === activeIdx));
   };
   const openHit = (i: number): void => {
     const h = hits[i];
     if (!h) return;
     closeBox();
-    input.value = "";
+    input.value = '';
     openDetailById(h.id);
   };
 
@@ -49,23 +49,23 @@ export function initSearch(openDetailById: (id: string) => void): void {
     activeIdx = -1;
     if (!q) {
       closeBox();
-      box.innerHTML = "";
+      box.innerHTML = '';
       return;
     }
     hits = [];
     allItems().forEach((entry, id) => {
       const title = titleOf(entry.item);
       const sub = String(
-        L(entry.item, "oneLiner") ?? L(entry.item, "plain") ?? "",
+        L(entry.item, 'oneLiner') ?? L(entry.item, 'plain') ?? '',
       );
-      const hay = (title + " " + sub + " " + id).toLowerCase();
+      const hay = (title + ' ' + sub + ' ' + id).toLowerCase();
       if (hay.includes(q)) {
         hits.push({ id, title, sub, typeLabel: t(entry.typeLabelKey) });
       }
     });
     if (!hits.length) {
       showBox();
-      box.innerHTML = `<div class="sr-empty">${esc(t("searchEmpty"))}</div>`;
+      box.innerHTML = `<div class="sr-empty">${esc(t('searchEmpty'))}</div>`;
       return;
     }
     showBox();
@@ -78,34 +78,34 @@ export function initSearch(openDetailById: (id: string) => void): void {
             h.sub,
           )}</span></div>`,
       )
-      .join("");
+      .join('');
     box
-      .querySelectorAll<HTMLElement>(".sr-item")
+      .querySelectorAll<HTMLElement>('.sr-item')
       .forEach((b) =>
-        b.addEventListener("click", () => openHit(Number(b.dataset.i))),
+        b.addEventListener('click', () => openHit(Number(b.dataset.i))),
       );
   };
 
-  input.addEventListener("input", render);
-  input.addEventListener("blur", () => setTimeout(() => closeBox(), 150));
-  input.addEventListener("keydown", (e: KeyboardEvent) => {
+  input.addEventListener('input', render);
+  input.addEventListener('blur', () => setTimeout(() => closeBox(), 150));
+  input.addEventListener('keydown', (e: KeyboardEvent) => {
     if (box.hidden || !hits.length) return;
-    if (e.key === "ArrowDown") {
+    if (e.key === 'ArrowDown') {
       e.preventDefault();
       setActive(activeIdx + 1);
-    } else if (e.key === "ArrowUp") {
+    } else if (e.key === 'ArrowUp') {
       e.preventDefault();
       setActive(activeIdx - 1);
-    } else if (e.key === "Enter") {
+    } else if (e.key === 'Enter') {
       e.preventDefault();
       openHit(activeIdx >= 0 ? activeIdx : 0);
-    } else if (e.key === "Escape") {
+    } else if (e.key === 'Escape') {
       closeBox();
     }
   });
 
-  box.setAttribute("role", "listbox");
+  box.setAttribute('role', 'listbox');
   const placeholder =
-    input.getAttribute("placeholder") || t("searchPlaceholder");
-  input.setAttribute("placeholder", placeholder);
+    input.getAttribute('placeholder') || t('searchPlaceholder');
+  input.setAttribute('placeholder', placeholder);
 }

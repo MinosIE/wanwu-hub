@@ -25,7 +25,10 @@ export const quiz: ListModule = {
       title: L(it, 'term'),
       sub: L(it, 'termEn'),
       sections: [
-        { labelKey: 'ui.options', html: `<ul class="quiz-opts">${optionsHtml}</ul>` },
+        {
+          labelKey: 'ui.options',
+          html: `<ul class="quiz-opts">${optionsHtml}</ul>`,
+        },
         { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
       ],
       relatedIds: it.related || [],

@@ -1,8 +1,14 @@
-import { openDetail } from '../core/detail';
-import { L, t } from '../core/i18n';
-import type { DetailPayload, LObj } from '../core/types';
-import { compact, escapeInline, mountGrid, relatedButtons, textSection } from './shared';
-import type { ModuleInstance } from './types';
+import { openDetail } from "../core/detail";
+import { L, t } from "../core/i18n";
+import type { DetailPayload, LObj } from "../core/types";
+import {
+  compact,
+  escapeInline,
+  mountGrid,
+  relatedButtons,
+  textSection,
+} from "./shared";
+import type { ModuleInstance } from "./types";
 
 export interface Term extends LObj {
   id: string;
@@ -16,32 +22,41 @@ export interface Term extends LObj {
 }
 
 function label(item: Term): string {
-  const abbr = item.abbr ? ` · ${item.abbr}` : '';
-  return `${L(item, 'term')}${abbr}`;
+  const abbr = item.abbr ? ` · ${item.abbr}` : "";
+  return `${L(item, "term")}${abbr}`;
 }
 
 function card(item: Term): string {
   return `<article class="gloss js-item" data-key="${item.id}">
     <header class="gloss-h">
-      <span class="gloss-t">${escapeInline(L(item, 'term'))}</span>
-      ${item.abbr ? `<span class="gloss-abbr">${escapeInline(item.abbr)}</span>` : ''}
-      <span class="gloss-en">${escapeInline(L(item, 'termEn'))}</span>
-      ${item.category ? `<span class="tag">${escapeInline(L(item, 'category'))}</span>` : ''}
+      <span class="gloss-t">${escapeInline(L(item, "term"))}</span>
+      ${item.abbr ? `<span class="gloss-abbr">${escapeInline(item.abbr)}</span>` : ""}
+      <span class="gloss-en">${escapeInline(L(item, "termEn"))}</span>
+      ${item.category ? `<span class="tag">${escapeInline(L(item, "category"))}</span>` : ""}
     </header>
-    <p class="gloss-plain">${escapeInline(L(item, 'plain'))}</p>
+    <p class="gloss-plain">${escapeInline(L(item, "plain"))}</p>
   </article>`;
 }
 
 export default async function render(): Promise<ModuleInstance> {
   const grid = await mountGrid<Term>({
-    file: 'glossary.json',
-    hostSel: '#glossaryList',
-    filterSel: '#glossaryFilters',
-    countSel: '#glossaryCount',
-    querySel: '#glossaryQuery',
+    file: "glossary.json",
+    hostSel: "#glossaryList",
+    filterSel: "#glossaryFilters",
+    countSel: "#glossaryCount",
+    querySel: "#glossaryQuery",
     match: (it, q) =>
-      [it.term, it.termEn, it.abbr, it.def, it.defEn, it.plain, it.plainEn, it.category]
-        .join(' ')
+      [
+        it.term,
+        it.termEn,
+        it.abbr,
+        it.def,
+        it.defEn,
+        it.plain,
+        it.plainEn,
+        it.category,
+      ]
+        .join(" ")
         .toLowerCase()
         .includes(q.toLowerCase()),
     card,
@@ -50,15 +65,15 @@ export default async function render(): Promise<ModuleInstance> {
 
   function detail(item: Term): DetailPayload {
     return {
-      eyebrow: t('nav.glossary'),
+      eyebrow: t("nav.glossary"),
       title: label(item),
-      subtitle: L<string>(item, 'termEn'),
-      tags: item.category ? [L<string>(item, 'category')] : [],
+      subtitle: L<string>(item, "termEn"),
+      tags: item.category ? [L<string>(item, "category")] : [],
       sections: compact([
-        textSection('📐', t('ui.def'), L<string>(item, 'def') ?? ''),
-        textSection('💬', t('ui.plain'), L<string>(item, 'plain') ?? ''),
+        textSection("📐", t("ui.def"), L<string>(item, "def") ?? ""),
+        textSection("💬", t("ui.plain"), L<string>(item, "plain") ?? ""),
       ]),
-      related: relatedButtons(item.related, 'm-glossary'),
+      related: relatedButtons(item.related, "m-glossary"),
     };
   }
 

@@ -27,9 +27,7 @@ for (const file of files) {
         return prefixed;
       },
     }),
-  ])
-    .process(css, { from: undefined })
-    .css;
+  ]).process(css, { from: undefined }).css;
   fs.writeFileSync(file, out);
   console.log("scoped ->", file);
 }

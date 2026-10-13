@@ -1,3 +1,9 @@
-import { makeTopicModule } from './topic';
+import { makeTopicModule } from "./topic";
 
-export default makeTopicModule('micro.json', '#microGrid', '#microFilters', 'nav.micro', 'm-micro');
+export default makeTopicModule(
+  "micro.json",
+  "#microGrid",
+  "#microFilters",
+  "nav.micro",
+  "m-micro",
+);

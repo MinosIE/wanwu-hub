@@ -9,7 +9,10 @@ interface RegEntry {
 const byId = new Map<string, RegEntry>();
 const moduleType = new Map<string, string>();
 
-export function registerModuleType(moduleId: string, typeLabelKey: string): void {
+export function registerModuleType(
+  moduleId: string,
+  typeLabelKey: string,
+): void {
   moduleType.set(moduleId, typeLabelKey);
 }
 

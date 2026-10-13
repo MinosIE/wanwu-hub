@@ -1,3 +1,9 @@
-import { makeTopicModule } from './topic';
+import { makeTopicModule } from "./topic";
 
-export default makeTopicModule('money.json', '#moneyGrid', '#moneyFilters', 'nav.money', 'm-money');
+export default makeTopicModule(
+  "money.json",
+  "#moneyGrid",
+  "#moneyFilters",
+  "nav.money",
+  "m-money",
+);

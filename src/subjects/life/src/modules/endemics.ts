@@ -1,6 +1,6 @@
-import { openDetail } from '../core/detail';
-import { L, t } from '../core/i18n';
-import type { DetailPayload, LObj, SourceRef } from '../core/types';
+import { openDetail } from "../core/detail";
+import { L, t } from "../core/i18n";
+import type { DetailPayload, LObj, SourceRef } from "../core/types";
 import {
   compact,
   escapeInline,
@@ -9,8 +9,8 @@ import {
   pointList,
   relatedButtons,
   textSection,
-} from './shared';
-import type { ModuleInstance } from './types';
+} from "./shared";
+import type { ModuleInstance } from "./types";
 
 export interface Species extends LObj {
   id: string;
@@ -33,21 +33,21 @@ export interface Species extends LObj {
 function card(item: Species): string {
   return `<article class="card js-item" data-key="${item.id}">
     <header class="card-h">
-      <span class="card-t">${escapeInline(L(item, 'name'))}</span>
+      <span class="card-t">${escapeInline(L(item, "name"))}</span>
     </header>
-    <p class="card-sub">${escapeInline(L<string>(item, 'taxon'))}</p>
-    <p class="card-lead">${escapeInline(L(item, 'oneLiner'))}</p>
+    <p class="card-sub">${escapeInline(L<string>(item, "taxon"))}</p>
+    <p class="card-lead">${escapeInline(L(item, "oneLiner"))}</p>
     <footer class="card-f">
-      <span class="tag">${escapeInline(L(item, 'status'))}</span>
-      <span class="card-go">${t('ui.enter')}</span>
+      <span class="tag">${escapeInline(L(item, "status"))}</span>
+      <span class="card-go">${t("ui.enter")}</span>
     </footer>
   </article>`;
 }
 
 export default async function render(): Promise<ModuleInstance> {
   const grid = await mountGrid<Species>({
-    file: 'endemics.json',
-    hostSel: '#endemicsGrid',
+    file: "endemics.json",
+    hostSel: "#endemicsGrid",
     sortBy: (a, b) => Number(a.order ?? 0) - Number(b.order ?? 0),
     match: (it, q) =>
       [
@@ -66,7 +66,7 @@ export default async function render(): Promise<ModuleInstance> {
         ...(it.traits ?? []).flatMap((p) => [p.k, p.kEn, p.v, p.vEn]),
         ...(it.notes ?? []).flatMap((p) => [p.k, p.kEn, p.v, p.vEn]),
       ]
-        .join(' ')
+        .join(" ")
         .toLowerCase()
         .includes(q.toLowerCase()),
     card,
@@ -75,17 +75,21 @@ export default async function render(): Promise<ModuleInstance> {
 
   function detail(item: Species): DetailPayload {
     return {
-      eyebrow: t('nav.endemics'),
-      title: L<string>(item, 'name'),
-      subtitle: [L<string>(item, 'taxon'), L<string>(item, 'region')].filter(Boolean).join(' · '),
-      tags: [L<string>(item, 'status'), L<string>(item, 'region')].filter(Boolean),
+      eyebrow: t("nav.endemics"),
+      title: L<string>(item, "name"),
+      subtitle: [L<string>(item, "taxon"), L<string>(item, "region")]
+        .filter(Boolean)
+        .join(" · "),
+      tags: [L<string>(item, "status"), L<string>(item, "region")].filter(
+        Boolean,
+      ),
       sections: compact([
-        textSection('🎯', t('ui.oneLiner'), L<string>(item, 'oneLiner') ?? ''),
-        textSection('🧭', t('ui.detail'), L<string>(item, 'bio') ?? ''),
-        listSection('🔑', t('ui.traits'), pointList(item, 'traits')),
-        listSection('🌿', t('ui.significance'), pointList(item, 'notes')),
+        textSection("🎯", t("ui.oneLiner"), L<string>(item, "oneLiner") ?? ""),
+        textSection("🧭", t("ui.detail"), L<string>(item, "bio") ?? ""),
+        listSection("🔑", t("ui.traits"), pointList(item, "traits")),
+        listSection("🌿", t("ui.significance"), pointList(item, "notes")),
       ]),
-      related: relatedButtons(item.related, 'm-endemics'),
+      related: relatedButtons(item.related, "m-endemics"),
       sources: Array.isArray(item.sources) ? item.sources : [],
     };
   }

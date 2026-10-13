@@ -1,5 +1,5 @@
-import wordbook from './i18n.json';
-import type { LObj, Lang } from './types';
+import wordbook from "./i18n.json";
+import type { LObj, Lang } from "./types";
 
 /**
  * 界面词表：内容在 i18n.json（zh / en 两套键）。
@@ -10,7 +10,7 @@ const en: typeof zh = wordbook.en;
 
 export const I18N: Record<Lang, typeof zh> = { zh, en };
 
-let lang: Lang = 'zh';
+let lang: Lang = "zh";
 const listeners: ((l: Lang) => void)[] = [];
 
 /** 在 wanwu 主应用内嵌时，econ 的静态文案只应作用在它自己的根节点下，
@@ -22,13 +22,15 @@ export function setI18nRoot(r: ParentNode): void {
 
 function detectLang(): Lang {
   try {
-    const q = new URLSearchParams(location.search).get('lang');
-    if (q) return q === 'en' ? 'en' : 'zh';
-    const stored = localStorage.getItem('lang');
-    if (stored) return stored === 'en' ? 'en' : 'zh';
-    return (navigator.language || 'zh').toLowerCase().startsWith('en') ? 'en' : 'zh';
+    const q = new URLSearchParams(location.search).get("lang");
+    if (q) return q === "en" ? "en" : "zh";
+    const stored = localStorage.getItem("lang");
+    if (stored) return stored === "en" ? "en" : "zh";
+    return (navigator.language || "zh").toLowerCase().startsWith("en")
+      ? "en"
+      : "zh";
   } catch {
-    return 'zh';
+    return "zh";
   }
 }
 
@@ -49,12 +51,12 @@ export function setLang(next: Lang): void {
   if (next === lang) return;
   lang = next;
   try {
-    localStorage.setItem('lang', lang);
+    localStorage.setItem("lang", lang);
   } catch {
     /* 隐私模式下忽略 */
   }
-  document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
-  document.documentElement.setAttribute('data-lang', lang);
+  document.documentElement.lang = lang === "en" ? "en" : "zh-CN";
+  document.documentElement.setAttribute("data-lang", lang);
   applyStaticLang();
   listeners.forEach((cb) => cb(lang));
 }
@@ -65,7 +67,8 @@ export function t(key: string, vars?: Record<string, string | number>): string {
   const base = zh as Record<string, string>;
   let s = dict[key] ?? base[key] ?? key;
   if (vars) {
-    for (const [k, v] of Object.entries(vars)) s = s.replace(new RegExp(`\\{${k}\\}`, 'g'), String(v));
+    for (const [k, v] of Object.entries(vars))
+      s = s.replace(new RegExp(`\\{${k}\\}`, "g"), String(v));
   }
   return s;
 }
@@ -73,23 +76,23 @@ export function t(key: string, vars?: Record<string, string | number>): string {
 /** 取数据字段：en 模式优先 `key+'En'`，缺失回退中文原字段。 */
 export function L<T = string>(o: LObj | undefined | null, key: string): T {
   if (!o) return undefined as unknown as T;
-  if (lang === 'en') {
-    const v = o[key + 'En'];
-    if (v !== undefined && v !== null && v !== '') return v as T;
+  if (lang === "en") {
+    const v = o[key + "En"];
+    if (v !== undefined && v !== null && v !== "") return v as T;
   }
   return o[key] as T;
 }
 
 /** 把 `data-i18n` / `data-i18n-attr` 节点按当前语言重写（仅限 econ 根内）。 */
 export function applyStaticLang(): void {
-  i18nRoot.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
+  i18nRoot.querySelectorAll<HTMLElement>("[data-i18n]").forEach((el) => {
     const key = el.dataset.i18n;
     if (key) el.textContent = t(key);
   });
-  i18nRoot.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((el) => {
-    const spec = el.dataset.i18nAttr || '';
-    spec.split(',').forEach((pair) => {
-      const [attr, key] = pair.split(':').map((s) => s.trim());
+  i18nRoot.querySelectorAll<HTMLElement>("[data-i18n-attr]").forEach((el) => {
+    const spec = el.dataset.i18nAttr || "";
+    spec.split(",").forEach((pair) => {
+      const [attr, key] = pair.split(":").map((s) => s.trim());
       if (attr && key) el.setAttribute(attr, t(key));
     });
   });

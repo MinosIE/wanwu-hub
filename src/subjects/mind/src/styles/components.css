@@ -20,11 +20,15 @@
   z-index: 1;
 }
 .mind-root .hero::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: -25%;
   z-index: 0;
-  background: radial-gradient(42% 55% at 50% 28%, rgba(255, 255, 255, 0.16), transparent 70%);
+  background: radial-gradient(
+    42% 55% at 50% 28%,
+    rgba(255, 255, 255, 0.16),
+    transparent 70%
+  );
   animation: heroBreath 10s ease-in-out infinite;
   pointer-events: none;
 }
@@ -542,7 +546,7 @@
   padding-left: 22px;
 }
 .mind-root .timeline::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 5px;
   top: 2px;
@@ -572,7 +576,7 @@
   border-color: var(--accent);
 }
 .mind-root .tl-item::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -23px;
   top: 16px;

@@ -39,7 +39,9 @@ function stroopMount(el: HTMLElement): void {
     if (done) return;
     const wordKey = keys[Math.floor(Math.random() * keys.length)];
     let inkKey = keys[Math.floor(Math.random() * keys.length)];
-    if (Math.random() < 0.7) while (inkKey === wordKey) inkKey = keys[Math.floor(Math.random() * keys.length)];
+    if (Math.random() < 0.7)
+      while (inkKey === wordKey)
+        inkKey = keys[Math.floor(Math.random() * keys.length)];
     start = performance.now();
     el.innerHTML = `
       <p class="demo-play">${bi({ zh: `第 ${trial + 1}/${TOTAL} 题：点击「墨色」对应的按钮`, en: `Trial ${trial + 1}/${TOTAL}: click the INK color` })}</p>
@@ -65,7 +67,14 @@ function stroopMount(el: HTMLElement): void {
       <p class="demo-note">${bi({ zh: '当「字义」与「墨色」冲突时你变慢、更易错——这就是斯特鲁普效应：自动读词抢占了为颜色命名所需的注意力。', en: 'When word and ink clash you slow down and err more — the Stroop effect: automatic reading hijacks the attention needed to name the color.' })}</p>
       <button class="demo-btn" id="stroopAgain">${bi({ zh: '再来一次', en: 'Try again' })}</button>`;
     const again = document.getElementById('stroopAgain');
-    if (again) again.addEventListener('click', () => { trial = 0; correct = 0; times = []; done = false; paint(); });
+    if (again)
+      again.addEventListener('click', () => {
+        trial = 0;
+        correct = 0;
+        times = [];
+        done = false;
+        paint();
+      });
   };
 
   paint();
@@ -115,17 +124,25 @@ function digitMount(el: HTMLElement): void {
   let level = 3;
   let best = 0;
 
-  const startGame = (): void => { level = 3; best = 0; nextRound(); };
+  const startGame = (): void => {
+    level = 3;
+    best = 0;
+    nextRound();
+  };
 
   const nextRound = (): void => {
-    const seq = Array.from({ length: level }, () => Math.floor(Math.random() * 10));
+    const seq = Array.from({ length: level }, () =>
+      Math.floor(Math.random() * 10),
+    );
     el.innerHTML = `<p class="demo-play">${bi({ zh: `记住这 ${level} 位数字：`, en: `Remember these ${level} digits:` })}</p><div class="span-display" id="spanDisp"></div>`;
     const disp = document.getElementById('spanDisp');
     if (!disp) return;
     let i = 0;
     const tick = (): void => {
-      if (i < seq.length) { disp.textContent = String(seq[i++]); setTimeout(tick, 800); }
-      else setTimeout(ask, 500);
+      if (i < seq.length) {
+        disp.textContent = String(seq[i++]);
+        setTimeout(tick, 800);
+      } else setTimeout(ask, 500);
     };
     const ask = (): void => {
       el.innerHTML = `
@@ -190,7 +207,16 @@ function anchorMount(el: HTMLElement): void {
 
 /* ---------- 5. 序列位置效应 ---------- */
 function serialPositionMount(el: HTMLElement): void {
-  const SHOWN = ['帽子', '苹果', '河流', '钢琴', '月亮', '书本', '火车', '星星'];
+  const SHOWN = [
+    '帽子',
+    '苹果',
+    '河流',
+    '钢琴',
+    '月亮',
+    '书本',
+    '火车',
+    '星星',
+  ];
   const NEW = ['眼镜', '钥匙', '气球', '时钟'];
   const pool = [...SHOWN, ...NEW].sort(() => Math.random() - 0.5);
 
@@ -200,8 +226,10 @@ function serialPositionMount(el: HTMLElement): void {
     if (!disp) return;
     let i = 0;
     const tick = (): void => {
-      if (i < SHOWN.length) { disp.textContent = SHOWN[i++]; setTimeout(tick, 900); }
-      else setTimeout(ask, 600);
+      if (i < SHOWN.length) {
+        disp.textContent = SHOWN[i++];
+        setTimeout(tick, 900);
+      } else setTimeout(ask, 600);
     };
     tick();
   };
@@ -215,8 +243,13 @@ function serialPositionMount(el: HTMLElement): void {
     const sel = new Set<string>();
     el.querySelectorAll<HTMLElement>('.sp-word').forEach((b) =>
       b.addEventListener('click', () => {
-        if (sel.has(b.dataset.w!)) { sel.delete(b.dataset.w!); b.classList.remove('on'); }
-        else { sel.add(b.dataset.w!); b.classList.add('on'); }
+        if (sel.has(b.dataset.w!)) {
+          sel.delete(b.dataset.w!);
+          b.classList.remove('on');
+        } else {
+          sel.add(b.dataset.w!);
+          b.classList.add('on');
+        }
       }),
     );
     const go = document.createElement('button');
@@ -233,7 +266,10 @@ function serialPositionMount(el: HTMLElement): void {
         <div class="sp-curve">${recalled.map((r) => `<span class="sp-col${r.hit ? ' on' : ''}"><i style="height:${r.hit ? 100 : 14}%"></i><b>${r.idx + 1}</b></span>`).join('')}</div>
         <p class="demo-note">${bi({ zh: '位置 1–2（首因）与 7–8（近因）通常记得最好——序列位置效应：开头进入长时记忆，结尾还在短时记忆。', en: 'Positions 1–2 (primacy) and 7–8 (recency) are usually best recalled — the serial-position effect: beginnings enter long-term memory, endings stay in short-term.' })}</p>
         <button class="demo-btn" id="spAgain">${bi({ zh: '再来一次', en: 'Try again' })}</button>`;
-      document.getElementById('spAgain')?.addEventListener('click', () => { el.innerHTML = ''; showSeq(); });
+      document.getElementById('spAgain')?.addEventListener('click', () => {
+        el.innerHTML = '';
+        showSeq();
+      });
     });
     el.appendChild(go);
   };
@@ -267,7 +303,11 @@ function framingMount(el: HTMLElement): void {
     el.innerHTML = `
       <p class="demo-note">${bi({ zh: `你的选择：问题一选 ${ans[0]}，问题二选 ${ans[1]}。两题期望结果完全相同（都是救活 200 人），但说法一换，你的偏好${switched ? '就反转了' : '保持一致'}——这正是框架效应。`, en: `Your picks: Q1 ${ans[0]}, Q2 ${ans[1]}. Both have the same expected outcome (save 200), yet a wording swap ${switched ? 'flipped your preference' : 'kept it stable'} — the framing effect.` })}</p>
       <button class="demo-btn" id="frAgain">${bi({ zh: '重做', en: 'Redo' })}</button>`;
-    document.getElementById('frAgain')?.addEventListener('click', () => { ans[0] = null; ans[1] = null; q(0); });
+    document.getElementById('frAgain')?.addEventListener('click', () => {
+      ans[0] = null;
+      ans[1] = null;
+      q(0);
+    });
   };
   q(0);
 }
@@ -306,14 +346,16 @@ function attentionMount(el: HTMLElement): void {
     if (!disp) return;
     let i = 0;
     const tick = (): void => {
-      if (i < SEQ.length) { disp.textContent = SEQ[i++]; setTimeout(tick, 650); }
-      else ask();
+      if (i < SEQ.length) {
+        disp.textContent = SEQ[i++];
+        setTimeout(tick, 650);
+      } else ask();
     };
     tick();
   };
   const ask = (): void => {
     el.innerHTML = `
-      <p class="demo-play">${bi({ zh: '字母 A 出现了几次？流里是否出现过「非字母」？', en: 'How many A\'s? Did any non-letter appear in the stream?' })}</p>
+      <p class="demo-play">${bi({ zh: '字母 A 出现了几次？流里是否出现过「非字母」？', en: "How many A's? Did any non-letter appear in the stream?" })}</p>
       <div class="stroop-opts">
         <button class="demo-btn" data-a="2">${bi({ zh: 'A 出现 2 次', en: 'A appeared twice' })}</button>
         <button class="demo-btn" data-a="wrong">${bi({ zh: 'A 出现其他次数', en: 'A other count' })}</button>
@@ -334,14 +376,79 @@ function attentionMount(el: HTMLElement): void {
 }
 
 const demos: Demo[] = [
-  { icon: '🎨', title: { zh: '斯特鲁普效应', en: 'Stroop Effect' }, desc: { zh: '字义与颜色冲突时，你的大脑会「卡住」。', en: 'When word and color clash, the brain stalls.' }, mount: stroopMount },
-  { icon: '📐', title: { zh: '缪勒-莱尔错觉', en: 'Müller-Lyer Illusion' }, desc: { zh: '两条等长线段，为什么看起来一短一长？', en: 'Two equal lines that look unequal.' }, mount: mullerMount },
-  { icon: '🧮', title: { zh: '数字广度（短时记忆）', en: 'Digit Span (Working Memory)' }, desc: { zh: '测测你的听觉/视觉短时记忆容量。', en: 'Test your short-term memory capacity.' }, mount: digitMount, noGate: true },
-  { icon: '⚓', title: { zh: '锚定效应', en: 'Anchoring' }, desc: { zh: '一个随机数字，如何悄悄改写你的估计。', en: 'How a random number quietly skews your estimate.' }, mount: anchorMount },
-  { icon: '📈', title: { zh: '序列位置效应', en: 'Serial-Position Effect' }, desc: { zh: '为什么开头和结尾的事最好记？', en: 'Why do first and last items stick best?' }, mount: serialPositionMount },
-  { icon: '🔀', title: { zh: '框架效应', en: 'Framing Effect' }, desc: { zh: '同一件事，换个说法你就改主意。', en: 'Same facts, different wording, different choice.' }, mount: framingMount },
-  { icon: '🩺', title: { zh: '基础概率忽视', en: 'Base-Rate Neglect' }, desc: { zh: '阳性≠患病：贝叶斯视角的陷阱。', en: 'Positive ≠ sick: a Bayesian trap.' }, mount: baseRateMount },
-  { icon: '👀', title: { zh: '选择性注意', en: 'Selective Attention' }, desc: { zh: '只顾数 A，你漏掉了什么？', en: 'Count the A\'s — what did you miss?' }, mount: attentionMount },
+  {
+    icon: '🎨',
+    title: { zh: '斯特鲁普效应', en: 'Stroop Effect' },
+    desc: {
+      zh: '字义与颜色冲突时，你的大脑会「卡住」。',
+      en: 'When word and color clash, the brain stalls.',
+    },
+    mount: stroopMount,
+  },
+  {
+    icon: '📐',
+    title: { zh: '缪勒-莱尔错觉', en: 'Müller-Lyer Illusion' },
+    desc: {
+      zh: '两条等长线段，为什么看起来一短一长？',
+      en: 'Two equal lines that look unequal.',
+    },
+    mount: mullerMount,
+  },
+  {
+    icon: '🧮',
+    title: { zh: '数字广度（短时记忆）', en: 'Digit Span (Working Memory)' },
+    desc: {
+      zh: '测测你的听觉/视觉短时记忆容量。',
+      en: 'Test your short-term memory capacity.',
+    },
+    mount: digitMount,
+    noGate: true,
+  },
+  {
+    icon: '⚓',
+    title: { zh: '锚定效应', en: 'Anchoring' },
+    desc: {
+      zh: '一个随机数字，如何悄悄改写你的估计。',
+      en: 'How a random number quietly skews your estimate.',
+    },
+    mount: anchorMount,
+  },
+  {
+    icon: '📈',
+    title: { zh: '序列位置效应', en: 'Serial-Position Effect' },
+    desc: {
+      zh: '为什么开头和结尾的事最好记？',
+      en: 'Why do first and last items stick best?',
+    },
+    mount: serialPositionMount,
+  },
+  {
+    icon: '🔀',
+    title: { zh: '框架效应', en: 'Framing Effect' },
+    desc: {
+      zh: '同一件事，换个说法你就改主意。',
+      en: 'Same facts, different wording, different choice.',
+    },
+    mount: framingMount,
+  },
+  {
+    icon: '🩺',
+    title: { zh: '基础概率忽视', en: 'Base-Rate Neglect' },
+    desc: {
+      zh: '阳性≠患病：贝叶斯视角的陷阱。',
+      en: 'Positive ≠ sick: a Bayesian trap.',
+    },
+    mount: baseRateMount,
+  },
+  {
+    icon: '👀',
+    title: { zh: '选择性注意', en: 'Selective Attention' },
+    desc: {
+      zh: '只顾数 A，你漏掉了什么？',
+      en: "Count the A's — what did you miss?",
+    },
+    mount: attentionMount,
+  },
 ];
 
 export function mountDemos(): void {
@@ -361,12 +468,17 @@ export function mountDemos(): void {
     demos.forEach((d, i) => {
       const el = document.getElementById('demo-' + i);
       if (!el) return;
-      if (d.noGate) { d.mount(el); return; }
-      el.innerHTML = `<div class="demo-start-wrap"><button class="demo-btn" id="demoStart-${i}">${esc(t('demos.start'))}</button></div>`;
-      document.getElementById('demoStart-' + i)?.addEventListener('click', () => {
-        el.innerHTML = '';
+      if (d.noGate) {
         d.mount(el);
-      });
+        return;
+      }
+      el.innerHTML = `<div class="demo-start-wrap"><button class="demo-btn" id="demoStart-${i}">${esc(t('demos.start'))}</button></div>`;
+      document
+        .getElementById('demoStart-' + i)
+        ?.addEventListener('click', () => {
+          el.innerHTML = '';
+          d.mount(el);
+        });
     });
   };
   render();

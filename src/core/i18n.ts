@@ -47,9 +47,7 @@ const base: Record<Lang, Dict> = {
 const extra: Record<Lang, Dict> = { zh: {}, en: {} };
 
 function lookup(lang: Lang, key: string): string {
-  return (
-    extra[lang][key] ?? base[lang][key] ?? base.zh[key] ?? key
-  );
+  return extra[lang][key] ?? base[lang][key] ?? base.zh[key] ?? key;
 }
 
 /** 供各 subject 注册自己的界面词表（合并进全局字典）。 */

@@ -1,7 +1,7 @@
-import { openDetail } from '../core/detail';
-import { L, t } from '../core/i18n';
-import type { DetailPayload, LObj } from '../core/types';
-import { lvlBadge } from '../core/ui';
+import { openDetail } from "../core/detail";
+import { L, t } from "../core/i18n";
+import type { DetailPayload, LObj } from "../core/types";
+import { lvlBadge } from "../core/ui";
 import {
   compact,
   listSection,
@@ -12,8 +12,8 @@ import {
   tagsOf,
   textSection,
   topicCard,
-} from './shared';
-import type { ModuleInstance, ModuleRender } from './types';
+} from "./shared";
+import type { ModuleInstance, ModuleRender } from "./types";
 
 export interface Topic extends LObj {
   id: string;
@@ -43,7 +43,7 @@ export function makeTopicModule(
       filterSel,
       levels: true,
       sortBy: (a, b) =>
-        String(a.category ?? '').localeCompare(String(b.category ?? '')) ||
+        String(a.category ?? "").localeCompare(String(b.category ?? "")) ||
         Number(a.level ?? 1) - Number(b.level ?? 1),
       match: (it, q) =>
         [
@@ -54,7 +54,7 @@ export function makeTopicModule(
           it.category,
           ...(it.points ?? []).flatMap((p) => [p.k, p.kEn, p.v, p.vEn]),
         ]
-          .join(' ')
+          .join(" ")
           .toLowerCase()
           .includes(q.toLowerCase()),
       card: (it) => topicCard(it, lvlBadge(it.level)),
@@ -64,14 +64,14 @@ export function makeTopicModule(
     function detail(item: Topic): DetailPayload {
       return {
         eyebrow: t(eyebrowKey),
-        title: L<string>(item, 'title'),
-        subtitle: L<string>(item, 'titleEn'),
+        title: L<string>(item, "title"),
+        subtitle: L<string>(item, "titleEn"),
         level: item.level,
         tags: tagsOf(item),
         sections: compact([
-          textSection('🎯', t('ui.oneLiner'), L<string>(item, 'lead') ?? ''),
-          listSection('🔑', t('ui.points'), pointList(item)),
-          listSection('⚠️', t('ui.watch'), pairList(item, 'watch')),
+          textSection("🎯", t("ui.oneLiner"), L<string>(item, "lead") ?? ""),
+          listSection("🔑", t("ui.points"), pointList(item)),
+          listSection("⚠️", t("ui.watch"), pairList(item, "watch")),
         ]),
         related: relatedButtons(item.related, moduleId),
         sources: Array.isArray(item.sources) ? item.sources : [],

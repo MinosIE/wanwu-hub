@@ -1,6 +1,6 @@
 /** 全站共享的轻量类型定义（内容以 JSON 为准，这里只描述渲染所需的最小契约）。 */
 
-export type Lang = 'zh' | 'en';
+export type Lang = "zh" | "en";
 
 /** 带 `*En` 双语副本的任意内容对象（英文缺失时渲染层回退中文）。 */
 export type LObj = Record<string, unknown>;
@@ -56,5 +56,5 @@ export interface SearchEntry {
 }
 
 export interface ThemeMode {
-  current: 'light' | 'dark';
+  current: "light" | "dark";
 }

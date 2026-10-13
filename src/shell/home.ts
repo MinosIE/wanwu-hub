@@ -15,11 +15,6 @@ export function renderHome(view: HTMLElement): void {
       ? `<a class="btn stretched-link" href="#/subject/${p.key}">进入浏览 →</a>`
       : `<a class="btn disabled" href="#">敬请期待</a>`;
 
-
-
-
-
-
     const head = `
       <div class="emoji">${p.emoji}</div>
       <div class="card-titles">
@@ -57,8 +52,7 @@ export function renderHome(view: HTMLElement): void {
     const overlay = document.createElement("a");
     overlay.href = href;
     overlay.className = "card-overlay";
-    overlay.style.cssText =
-      "position:absolute;inset:0;z-index:1;";
+    overlay.style.cssText = "position:absolute;inset:0;z-index:1;";
     overlay.setAttribute("aria-hidden", "true");
     c.style.position = "relative";
     c.appendChild(overlay);

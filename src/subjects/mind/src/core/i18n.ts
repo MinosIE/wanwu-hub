@@ -36,7 +36,8 @@ const zh = {
 
   homeLead: '从核心概念、名词词典，到心理学家、流派与实验 —— 选一个板块开始',
   refsTitle: '主要参考资料与数据来源',
-  refsSub: '本站内容为通识性整理，关键结论均标注来源与年份；不构成任何专业心理或医疗建议。',
+  refsSub:
+    '本站内容为通识性整理，关键结论均标注来源与年份；不构成任何专业心理或医疗建议。',
 
   'entry.concepts.t': '核心概念',
   'entry.concepts.d': '心智、意识、记忆、情绪、动机、人格、归因与依恋',
@@ -61,22 +62,27 @@ const zh = {
   'entry.compare.t': '中西对比',
   'entry.compare.d': '自我建构、情绪表达、育儿的跨文化差异',
   'entry.demos.t': '互动小实验',
-  'entry.demos.d': 'Stroop、视错觉、记忆广度、锚定、序列位置、框架效应——亲手玩出心理学',
+  'entry.demos.d':
+    'Stroop、视错觉、记忆广度、锚定、序列位置、框架效应——亲手玩出心理学',
   'entry.bigfive.t': '大五自测',
   'entry.bigfive.d': '10 题 Likert 自评，生成你的人格剖面（非诊断）',
   'entry.selfrating.t': '心理自评',
-  'entry.selfrating.d': '压力、睡眠、拖延、正念——4 个迷你量表，生成你的近期快照',
+  'entry.selfrating.d':
+    '压力、睡眠、拖延、正念——4 个迷你量表，生成你的近期快照',
 
   'concepts.title': '核心概念',
   'concepts.sub':
     '心理学的地基：心智、意识、记忆、情绪、动机、人格、归因与依恋。按分类与难度筛选，点击卡片看详解。',
   'glossary.title': '名词词典',
-  'glossary.sub': '新闻与书里天天出现却说不清的词：定义 + 大白话 + 英文对照 + 相关概念。',
+  'glossary.sub':
+    '新闻与书里天天出现却说不清的词：定义 + 大白话 + 英文对照 + 相关概念。',
   'glossary.searchPlaceholder': '在词典内搜索：如「条件反射」「图式」「依恋」',
   'psychologists.title': '心理学家',
-  'psychologists.sub': '弗洛伊德、皮亚杰、斯金纳、班杜拉、卡尼曼、马斯洛……他们各自回答了什么。',
+  'psychologists.sub':
+    '弗洛伊德、皮亚杰、斯金纳、班杜拉、卡尼曼、马斯洛……他们各自回答了什么。',
   'schools.title': '心理学流派',
-  'schools.sub': '同一颗心智，不同的解释处方：精神分析、行为主义、认知、人本、进化、神经、积极。',
+  'schools.sub':
+    '同一颗心智，不同的解释处方：精神分析、行为主义、认知、人本、进化、神经、积极。',
   'biases.title': '认知偏差',
   'experiments.title': '著名实验',
   'timeline.title': '发展时间轴',
@@ -85,21 +91,29 @@ const zh = {
   'quiz.title': '小测验',
   'compare.title': '中西对比',
 
-  'biases.sub': '总在不知不觉里替我们做决定：确认偏误、锚定、可得性、损失厌恶、从众……点开看「为什么」和「怎么躲」。',
-  'experiments.sub': '心理学史上的关键现场：假设、过程、结论，以及那些绕不开的伦理争议。',
-  'timeline.sub': '从冯特 1879 到 AI 时代，一条线看心理学怎么长成今天这样。点击节点看详情。',
-  'everyday.sub': '拖延、决策疲劳、亲密关系、职场倦怠、育儿与睡眠——把心理学用在每天的生活里。',
-  'myths.sub': '「左脑人/右脑人」「血型性格」「只用 10% 大脑」……用证据把这些流行说法拆开。',
+  'biases.sub':
+    '总在不知不觉里替我们做决定：确认偏误、锚定、可得性、损失厌恶、从众……点开看「为什么」和「怎么躲」。',
+  'experiments.sub':
+    '心理学史上的关键现场：假设、过程、结论，以及那些绕不开的伦理争议。',
+  'timeline.sub':
+    '从冯特 1879 到 AI 时代，一条线看心理学怎么长成今天这样。点击节点看详情。',
+  'everyday.sub':
+    '拖延、决策疲劳、亲密关系、职场倦怠、育儿与睡眠——把心理学用在每天的生活里。',
+  'myths.sub':
+    '「左脑人/右脑人」「血型性格」「只用 10% 大脑」……用证据把这些流行说法拆开。',
   'quiz.sub': '6 道选择题自测：先想答案，再点开看解析。正确答案就在详情里。',
   'compare.sub': '自我、情绪、育儿、从众、求助——同一件事，东西方常常不同解。',
 
   'demos.title': '互动小实验',
-  'demos.sub': '经济学和历史讲事实，心理学能让你「亲手感受」：每个实验先点「开始」，再上手玩。',
+  'demos.sub':
+    '经济学和历史讲事实，心理学能让你「亲手感受」：每个实验先点「开始」，再上手玩。',
   'demos.start': '开始',
   'bigfive.title': '大五人格自测',
-  'bigfive.sub': '10 道自评题，生成你的大五（OCEAN）剖面。仅供自我觉察，非专业诊断。',
+  'bigfive.sub':
+    '10 道自评题，生成你的大五（OCEAN）剖面。仅供自我觉察，非专业诊断。',
   'selfrating.title': '心理自评',
-  'selfrating.sub': '4 个迷你量表（压力/睡眠/拖延/正念），各 3 题 Likert 自评。仅供自我觉察，非专业诊断。',
+  'selfrating.sub':
+    '4 个迷你量表（压力/睡眠/拖延/正念），各 3 题 Likert 自评。仅供自我觉察，非专业诊断。',
 
   'bf.intro': '凭第一感觉作答，没有对错。每题按符合程度选 1–5。',
   'bf.anchorLow': '非常不符合',
@@ -111,7 +125,8 @@ const zh = {
   'bf.levelHigh': '偏高',
   'bf.levelMid': '居中',
   'bf.levelLow': '偏低',
-  'bf.disclaimer': '本自测为简化版，仅用于自我觉察与趣味，不构成任何专业心理评估或诊断。人格是相对倾向，不是定论。',
+  'bf.disclaimer':
+    '本自测为简化版，仅用于自我觉察与趣味，不构成任何专业心理评估或诊断。人格是相对倾向，不是定论。',
   'bf.tip': '高分低分都只是倾向；大五描述差异，不评好坏。',
   'sr.intro': '凭最近的状态作答，没有对错。每题按符合程度选 1–5。',
   'sr.anchorLow': '非常不符合',
@@ -123,10 +138,13 @@ const zh = {
   'sr.levelHigh': '偏高',
   'sr.levelMid': '居中',
   'sr.levelLow': '偏低',
-  'sr.disclaimer': '本自评是简化版，仅用于自我觉察与趣味，不构成任何专业心理评估、诊断或治疗建议。分数高低都不是定论。',
-  'sr.tip': '所有维度都只是近期倾向的快照，会随状态变化；若长期困扰，建议寻求专业帮助。',
+  'sr.disclaimer':
+    '本自评是简化版，仅用于自我觉察与趣味，不构成任何专业心理评估、诊断或治疗建议。分数高低都不是定论。',
+  'sr.tip':
+    '所有维度都只是近期倾向的快照，会随状态变化；若长期困扰，建议寻求专业帮助。',
 
-  searchPlaceholder: '搜索：概念 / 术语 / 心理学家 / 实验 / 流派，如「确认偏误」「卡尼曼」「斯坦福监狱」',
+  searchPlaceholder:
+    '搜索：概念 / 术语 / 心理学家 / 实验 / 流派，如「确认偏误」「卡尼曼」「斯坦福监狱」',
   searchEmpty: '没有找到匹配内容，换个更短的关键词试试。',
   searchHint: '输入关键词开始搜索。',
   'search.t.concept': '概念',
@@ -202,7 +220,8 @@ const en: typeof zh = {
   heroTitle: 'Mind of Everything',
   heroSub:
     'Understand the human mind with psychology — from cognitive biases and famous experiments to schools of thought and key thinkers. Neutral, structured, bilingual and free of ads.',
-  heroIssue: 'Found a problem or have a suggestion? Open an issue or send an email:',
+  heroIssue:
+    'Found a problem or have a suggestion? Open an issue or send an email:',
   heroMail: '✉️ Email us',
   'mail.subject': '[Mind of Everything] Feedback / Suggestion',
   'mail.body':
@@ -228,39 +247,53 @@ const en: typeof zh = {
   'nav.bigfive': 'Big Five',
   'nav.selfrating': 'Self-Check',
 
-  homeLead: 'From core concepts and glossary to thinkers, schools and experiments — pick a section to start.',
+  homeLead:
+    'From core concepts and glossary to thinkers, schools and experiments — pick a section to start.',
   refsTitle: 'References and data sources',
   refsSub:
     'This site is an educational summary. Key claims are labelled with source and year. Nothing here is professional psychological or medical advice.',
 
   'entry.concepts.t': 'Core Concepts',
-  'entry.concepts.d': 'Mind, consciousness, memory, emotion, motivation, personality, attribution, attachment.',
+  'entry.concepts.d':
+    'Mind, consciousness, memory, emotion, motivation, personality, attribution, attachment.',
   'entry.glossary.t': 'Glossary',
-  'entry.glossary.d': 'Definitions, plain-language readings and English for bias/defense/conditioning terms.',
+  'entry.glossary.d':
+    'Definitions, plain-language readings and English for bias/defense/conditioning terms.',
   'entry.psychologists.t': 'Thinkers',
-  'entry.psychologists.d': 'From Freud to Kahneman — what question each of them set out to answer.',
+  'entry.psychologists.d':
+    'From Freud to Kahneman — what question each of them set out to answer.',
   'entry.schools.t': 'Schools',
-  'entry.schools.d': 'Psychoanalysis, behaviorism, cognitive, humanistic, evolutionary, neuropsych, positive.',
+  'entry.schools.d':
+    'Psychoanalysis, behaviorism, cognitive, humanistic, evolutionary, neuropsych, positive.',
   'entry.biases.t': 'Cognitive Biases',
-  'entry.biases.d': 'Confirmation, anchoring, availability, loss aversion, conformity.',
+  'entry.biases.d':
+    'Confirmation, anchoring, availability, loss aversion, conformity.',
   'entry.experiments.t': 'Famous Experiments',
-  'entry.experiments.d': 'Stanford prison, Milgram, marshmallow, Little Albert.',
+  'entry.experiments.d':
+    'Stanford prison, Milgram, marshmallow, Little Albert.',
   'entry.timeline.t': 'Timeline',
-  'entry.timeline.d': 'From Wundt in 1879 to today — key turning points in psychology.',
+  'entry.timeline.d':
+    'From Wundt in 1879 to today — key turning points in psychology.',
   'entry.everyday.t': 'Everyday Psychology',
-  'entry.everyday.d': 'Procrastination, decisions, relationships, work, parenting, social media.',
+  'entry.everyday.d':
+    'Procrastination, decisions, relationships, work, parenting, social media.',
   'entry.myths.t': 'Myths Busted',
-  'entry.myths.d': 'Left-brain/right-brain, blood-type personality and other debunked claims.',
+  'entry.myths.d':
+    'Left-brain/right-brain, blood-type personality and other debunked claims.',
   'entry.quiz.t': 'Quiz',
-  'entry.quiz.d': 'Multiple-choice self-check with explanations, scored locally.',
+  'entry.quiz.d':
+    'Multiple-choice self-check with explanations, scored locally.',
   'entry.compare.t': 'Compare',
   'entry.compare.d': 'Cross-cultural differences in self, emotion, parenting.',
   'entry.demos.t': 'Interactive Demos',
-  'entry.demos.d': 'Stroop, illusions, memory span, anchoring, serial position, framing — feel psychology first-hand.',
+  'entry.demos.d':
+    'Stroop, illusions, memory span, anchoring, serial position, framing — feel psychology first-hand.',
   'entry.bigfive.t': 'Big Five Test',
-  'entry.bigfive.d': 'A 10-item Likert self-check that draws your personality profile (not diagnostic).',
+  'entry.bigfive.d':
+    'A 10-item Likert self-check that draws your personality profile (not diagnostic).',
   'entry.selfrating.t': 'Self-Check',
-  'entry.selfrating.d': 'Stress, sleep, procrastination, mindfulness — 4 mini scales, your recent snapshot',
+  'entry.selfrating.d':
+    'Stress, sleep, procrastination, mindfulness — 4 mini scales, your recent snapshot',
 
   'concepts.title': 'Core Concepts',
   'concepts.sub':
@@ -268,7 +301,8 @@ const en: typeof zh = {
   'glossary.title': 'Glossary',
   'glossary.sub':
     'Words that appear in the news but are rarely explained: definition, plain-language reading, English term and related concepts.',
-  'glossary.searchPlaceholder': 'Search the glossary: e.g. "conditioning", "schema", "attachment"',
+  'glossary.searchPlaceholder':
+    'Search the glossary: e.g. "conditioning", "schema", "attachment"',
   'psychologists.title': 'Thinkers',
   'psychologists.sub':
     'Freud, Piaget, Skinner, Bandura, Kahneman, Maslow — and the question each of them set out to answer.',
@@ -283,23 +317,34 @@ const en: typeof zh = {
   'quiz.title': 'Quiz',
   'compare.title': 'Compare',
 
-  'biases.sub': 'The biases that decide for us unnoticed: confirmation, anchoring, availability, loss aversion, conformity… Tap for "why" and "how to dodge".',
-  'experiments.sub': 'Key scenes in psychology: hypothesis, procedure, finding—and the ethics debates they sparked.',
-  'timeline.sub': 'From Wundt in 1879 to the AI era—see how psychology grew. Tap a node for details.',
-  'everyday.sub': 'Procrastination, decision fatigue, relationships, burnout, parenting and sleep—psychology for everyday life.',
-  'myths.sub': 'Left-brain/right-brain, blood-type personality, "10% of the brain"… taken apart with evidence.',
-  'quiz.sub': '6 multiple-choice questions: guess first, then open for the explanation. The answer is in the detail.',
-  'compare.sub': 'Self, emotion, parenting, conformity, help-seeking—the same thing, often solved differently East and West.',
+  'biases.sub':
+    'The biases that decide for us unnoticed: confirmation, anchoring, availability, loss aversion, conformity… Tap for "why" and "how to dodge".',
+  'experiments.sub':
+    'Key scenes in psychology: hypothesis, procedure, finding—and the ethics debates they sparked.',
+  'timeline.sub':
+    'From Wundt in 1879 to the AI era—see how psychology grew. Tap a node for details.',
+  'everyday.sub':
+    'Procrastination, decision fatigue, relationships, burnout, parenting and sleep—psychology for everyday life.',
+  'myths.sub':
+    'Left-brain/right-brain, blood-type personality, "10% of the brain"… taken apart with evidence.',
+  'quiz.sub':
+    '6 multiple-choice questions: guess first, then open for the explanation. The answer is in the detail.',
+  'compare.sub':
+    'Self, emotion, parenting, conformity, help-seeking—the same thing, often solved differently East and West.',
 
   'demos.title': 'Interactive Demos',
-  'demos.sub': 'Economics and history state facts; psychology lets you feel it — hit Start on any demo, then play.',
+  'demos.sub':
+    'Economics and history state facts; psychology lets you feel it — hit Start on any demo, then play.',
   'demos.start': 'Start',
   'bigfive.title': 'Big Five Self-Test',
-  'bigfive.sub': '10 items, then your Big Five (OCEAN) profile. For self-insight only, not a diagnosis.',
+  'bigfive.sub':
+    '10 items, then your Big Five (OCEAN) profile. For self-insight only, not a diagnosis.',
   'selfrating.title': 'Self-Check',
-  'selfrating.sub': '4 mini scales (stress/sleep/procrastination/mindfulness), 3 Likert items each. For self-insight, not a diagnosis.',
+  'selfrating.sub':
+    '4 mini scales (stress/sleep/procrastination/mindfulness), 3 Likert items each. For self-insight, not a diagnosis.',
 
-  'bf.intro': 'Answer on instinct — there are no right or wrong replies. Rate each from 1 to 5.',
+  'bf.intro':
+    'Answer on instinct — there are no right or wrong replies. Rate each from 1 to 5.',
   'bf.anchorLow': 'Strongly disagree',
   'bf.anchorHigh': 'Strongly agree',
   'bf.submit': 'Draw my profile',
@@ -309,9 +354,12 @@ const en: typeof zh = {
   'bf.levelHigh': 'High',
   'bf.levelMid': 'Mid',
   'bf.levelLow': 'Low',
-  'bf.disclaimer': 'This is a simplified self-test for insight and fun only. It is not professional psychological assessment or diagnosis. Personality is a tendency, not a verdict.',
-  'bf.tip': 'High or low are just tendencies; the Big Five describes differences, not good or bad.',
-  'sr.intro': 'Answer by how you’ve felt lately — no right or wrong. Rate each 1–5.',
+  'bf.disclaimer':
+    'This is a simplified self-test for insight and fun only. It is not professional psychological assessment or diagnosis. Personality is a tendency, not a verdict.',
+  'bf.tip':
+    'High or low are just tendencies; the Big Five describes differences, not good or bad.',
+  'sr.intro':
+    'Answer by how you’ve felt lately — no right or wrong. Rate each 1–5.',
   'sr.anchorLow': 'Strongly disagree',
   'sr.anchorHigh': 'Strongly agree',
   'sr.submit': 'Draw my self-check',
@@ -321,10 +369,13 @@ const en: typeof zh = {
   'sr.levelHigh': 'High',
   'sr.levelMid': 'Mid',
   'sr.levelLow': 'Low',
-  'sr.disclaimer': 'This is a simplified self-check for insight and fun only. It is not professional assessment, diagnosis or treatment advice. Scores are not verdicts.',
-  'sr.tip': 'Every dimension is just a snapshot of recent tendency and shifts with state; if troubled long-term, seek professional help.',
+  'sr.disclaimer':
+    'This is a simplified self-check for insight and fun only. It is not professional assessment, diagnosis or treatment advice. Scores are not verdicts.',
+  'sr.tip':
+    'Every dimension is just a snapshot of recent tendency and shifts with state; if troubled long-term, seek professional help.',
 
-  searchPlaceholder: 'Search concepts, terms, thinkers, experiments, schools — e.g. "confirmation bias", "Kahneman"',
+  searchPlaceholder:
+    'Search concepts, terms, thinkers, experiments, schools — e.g. "confirmation bias", "Kahneman"',
   searchEmpty: 'Nothing matched. Try a shorter keyword.',
   searchHint: 'Type a keyword to search.',
   'search.t.concept': 'Concept',
@@ -384,8 +435,10 @@ const en: typeof zh = {
   'ui.options': 'Options',
   'ui.comingSoon': 'This module is under construction. Stay tuned.',
 
-  'foot.tip': 'An educational summary, neutral in tone. Nothing here is professional psychological or medical advice.',
-  'foot.feedback': 'Found a problem or have a suggestion? File a GitHub issue or email us',
+  'foot.tip':
+    'An educational summary, neutral in tone. Nothing here is professional psychological or medical advice.',
+  'foot.feedback':
+    'Found a problem or have a suggestion? File a GitHub issue or email us',
   'foot.sister': 'Sister project',
   'foot.data': 'Structured data',
   'foot.llms': 'LLM full text',
@@ -409,7 +462,9 @@ function detectLang(): Lang {
     if (q) return q === 'en' ? 'en' : 'zh';
     const stored = localStorage.getItem('lang');
     if (stored) return stored === 'en' ? 'en' : 'zh';
-    return (navigator.language || 'zh').toLowerCase().startsWith('en') ? 'en' : 'zh';
+    return (navigator.language || 'zh').toLowerCase().startsWith('en')
+      ? 'en'
+      : 'zh';
   } catch {
     return 'zh';
   }
@@ -447,7 +502,8 @@ export function t(key: string, vars?: Record<string, string | number>): string {
   const base = zh as Record<string, string>;
   let s = dict[key] ?? base[key] ?? key;
   if (vars) {
-    for (const [k, v] of Object.entries(vars)) s = s.replace(new RegExp(`\\{${k}\\}`, 'g'), String(v));
+    for (const [k, v] of Object.entries(vars))
+      s = s.replace(new RegExp(`\\{${k}\\}`, 'g'), String(v));
   }
   return s;
 }
@@ -479,7 +535,8 @@ export function initLangSwitch(): void {
   const btn = document.getElementById('langBtn');
   const label = document.getElementById('langLabel');
   if (label) label.textContent = t('langLabel');
-  if (btn) btn.addEventListener('click', () => setLang(lang === 'en' ? 'zh' : 'en'));
+  if (btn)
+    btn.addEventListener('click', () => setLang(lang === 'en' ? 'zh' : 'en'));
 }
 
 // 嵌入（iframe）模式下，与宿主 wanwu 顶栏同步语言（共享 localStorage）

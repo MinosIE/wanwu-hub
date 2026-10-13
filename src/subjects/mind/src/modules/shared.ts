@@ -42,7 +42,13 @@ export function openDetailGlobal(id: string): void {
     })
     .filter((r) => r.title);
   renderDetail(
-    { title: md.title, sub: md.sub, sections: md.sections, related, sources: md.sources },
+    {
+      title: md.title,
+      sub: md.sub,
+      sections: md.sections,
+      related,
+      sources: md.sources,
+    },
     openDetailGlobal,
   );
 }
@@ -113,7 +119,9 @@ export function mountList(m: ListModule): void {
           .join('') || `<p class="count">${esc(t('searchEmpty'))}</p>`;
       host
         .querySelectorAll<HTMLElement>('.gloss-item')
-        .forEach((b) => b.addEventListener('click', () => openDetailGlobal(b.dataset.id!)));
+        .forEach((b) =>
+          b.addEventListener('click', () => openDetailGlobal(b.dataset.id!)),
+        );
     } else if (mode === 'timeline') {
       const sorted = [...items].sort((a, b) =>
         String(a.year || '').localeCompare(String(b.year || '')),
@@ -134,13 +142,17 @@ export function mountList(m: ListModule): void {
           .join('') || `<p class="count">${esc(t('searchEmpty'))}</p>`;
       host
         .querySelectorAll<HTMLElement>('.tl-item')
-        .forEach((b) => b.addEventListener('click', () => openDetailGlobal(b.dataset.id!)));
+        .forEach((b) =>
+          b.addEventListener('click', () => openDetailGlobal(b.dataset.id!)),
+        );
     } else {
       host.innerHTML =
         items
           .map((it) => {
             const cv = m.card(it, L);
-            const lvl = cv.level ? `<span class="chip accent">${esc(cv.level)}</span>` : '';
+            const lvl = cv.level
+              ? `<span class="chip accent">${esc(cv.level)}</span>`
+              : '';
             const tags = (cv.tags || [])
               .filter(Boolean)
               .map((x) => `<span class="chip">${esc(x)}</span>`)
@@ -155,7 +167,9 @@ export function mountList(m: ListModule): void {
           .join('') || `<p class="count">${esc(t('searchEmpty'))}</p>`;
       host
         .querySelectorAll<HTMLElement>('.card')
-        .forEach((b) => b.addEventListener('click', () => openDetailGlobal(b.dataset.id!)));
+        .forEach((b) =>
+          b.addEventListener('click', () => openDetailGlobal(b.dataset.id!)),
+        );
     }
   };
 
@@ -164,11 +178,16 @@ export function mountList(m: ListModule): void {
     filterHost.innerHTML = m.filters
       .map((f) => {
         const opts = Array.from(
-          new Set(data.map((it) => String(L(it, f.field) ?? it[f.field] ?? '')).filter(Boolean)),
+          new Set(
+            data
+              .map((it) => String(L(it, f.field) ?? it[f.field] ?? ''))
+              .filter(Boolean),
+          ),
         );
         return [t('ui.all'), ...opts]
           .map((o) => {
-            const act = (activeFilters[f.field] || t('ui.all')) === o ? ' active' : '';
+            const act =
+              (activeFilters[f.field] || t('ui.all')) === o ? ' active' : '';
             return `<button class="filter${act}" data-f="${esc(f.field)}" data-v="${esc(o)}">${esc(
               o,
             )}</button>`;
@@ -197,11 +216,14 @@ export function mountList(m: ListModule): void {
     });
 
   if (m.inlineSearch) {
-    const inp = document.getElementById(m.inlineSearch) as HTMLInputElement | null;
-    if (inp) inp.addEventListener('input', () => {
-      query = inp.value;
-      render();
-    });
+    const inp = document.getElementById(
+      m.inlineSearch,
+    ) as HTMLInputElement | null;
+    if (inp)
+      inp.addEventListener('input', () => {
+        query = inp.value;
+        render();
+      });
   }
 
   onLangChange(() => {

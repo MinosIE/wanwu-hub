@@ -1,3 +1,9 @@
-import { makeTopicModule } from './topic';
+import { makeTopicModule } from "./topic";
 
-export default makeTopicModule('macro.json', '#macroGrid', '#macroFilters', 'nav.macro', 'm-macro');
+export default makeTopicModule(
+  "macro.json",
+  "#macroGrid",
+  "#macroFilters",
+  "nav.macro",
+  "m-macro",
+);

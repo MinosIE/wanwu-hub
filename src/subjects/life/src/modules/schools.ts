@@ -1,7 +1,7 @@
-import { openDetail } from '../core/detail';
-import { L, t } from '../core/i18n';
-import type { DetailPayload, LObj } from '../core/types';
-import { lvlBadge } from '../core/ui';
+import { openDetail } from "../core/detail";
+import { L, t } from "../core/i18n";
+import type { DetailPayload, LObj } from "../core/types";
+import { lvlBadge } from "../core/ui";
 import {
   compact,
   escapeInline,
@@ -10,8 +10,8 @@ import {
   pairList,
   relatedButtons,
   textSection,
-} from './shared';
-import type { ModuleInstance } from './types';
+} from "./shared";
+import type { ModuleInstance } from "./types";
 
 export interface School extends LObj {
   id: string;
@@ -30,27 +30,35 @@ export interface School extends LObj {
 function card(item: School): string {
   return `<article class="card js-item" data-key="${item.id}">
     <header class="card-h">
-      <span class="card-t">${escapeInline(L(item, 'name'))}</span>
+      <span class="card-t">${escapeInline(L(item, "name"))}</span>
       ${lvlBadge(item.level)}
     </header>
-    <p class="card-sub">${escapeInline(L<string>(item, 'span') ?? '')}</p>
-    <p class="card-lead">${escapeInline(L(item, 'core'))}</p>
+    <p class="card-sub">${escapeInline(L<string>(item, "span") ?? "")}</p>
+    <p class="card-lead">${escapeInline(L(item, "core"))}</p>
     <footer class="card-f">
-      <span class="tag">${escapeInline(pairList(item, 'founders').slice(0, 3).join(' / '))}</span>
-      <span class="card-go">${t('ui.enter')}</span>
+      <span class="tag">${escapeInline(pairList(item, "founders").slice(0, 3).join(" / "))}</span>
+      <span class="card-go">${t("ui.enter")}</span>
     </footer>
   </article>`;
 }
 
 export default async function render(): Promise<ModuleInstance> {
   const grid = await mountGrid<School>({
-    file: 'schools.json',
-    hostSel: '#schoolsGrid',
+    file: "schools.json",
+    hostSel: "#schoolsGrid",
     levels: true,
     sortBy: (a, b) => Number(a.order ?? 0) - Number(b.order ?? 0),
     match: (it, q) =>
-      [it.name, it.nameEn, it.span, it.core, it.coreEn, ...pairList(it, 'founders'), ...pairList(it, 'keyIdeas')]
-        .join(' ')
+      [
+        it.name,
+        it.nameEn,
+        it.span,
+        it.core,
+        it.coreEn,
+        ...pairList(it, "founders"),
+        ...pairList(it, "keyIdeas"),
+      ]
+        .join(" ")
         .toLowerCase()
         .includes(q.toLowerCase()),
     card,
@@ -59,18 +67,18 @@ export default async function render(): Promise<ModuleInstance> {
 
   function detail(item: School): DetailPayload {
     return {
-      eyebrow: t('nav.schools'),
-      title: L<string>(item, 'name'),
-      subtitle: L<string>(item, 'span') ?? '',
+      eyebrow: t("nav.schools"),
+      title: L<string>(item, "name"),
+      subtitle: L<string>(item, "span") ?? "",
       level: item.level,
       sections: compact([
-        textSection('🎯', t('ui.core'), L<string>(item, 'core') ?? ''),
-        listSection('👤', t('ui.founders'), pairList(item, 'founders')),
-        listSection('🔑', t('ui.keyIdeas'), pairList(item, 'keyIdeas')),
-        listSection('✅', t('ui.strengths'), pairList(item, 'strengths')),
-        listSection('❌', t('ui.criticisms'), pairList(item, 'criticisms')),
+        textSection("🎯", t("ui.core"), L<string>(item, "core") ?? ""),
+        listSection("👤", t("ui.founders"), pairList(item, "founders")),
+        listSection("🔑", t("ui.keyIdeas"), pairList(item, "keyIdeas")),
+        listSection("✅", t("ui.strengths"), pairList(item, "strengths")),
+        listSection("❌", t("ui.criticisms"), pairList(item, "criticisms")),
       ]),
-      related: relatedButtons(item.related, 'm-schools'),
+      related: relatedButtons(item.related, "m-schools"),
       sources: Array.isArray(item.sources) ? item.sources : [],
     };
   }

@@ -1,6 +1,6 @@
-import { app } from './app';
-import { fetchData } from './data';
-import { getLang } from './i18n';
+import { app } from "./app";
+import { fetchData } from "./data";
+import { getLang } from "./i18n";
 
 interface RelatedTarget {
   m: string;
@@ -14,7 +14,7 @@ let table: Record<string, RelatedTarget[]> | null = null;
 export async function preloadRelated(): Promise<void> {
   if (table) return;
   try {
-    table = await fetchData<Record<string, RelatedTarget[]>>('related.json');
+    table = await fetchData<Record<string, RelatedTarget[]>>("related.json");
   } catch {
     table = {};
   }
@@ -39,7 +39,7 @@ export function relatedChips(
     const hit = bucket.find((b) => b.m === currentModule) ?? bucket[0];
     seen.add(id);
     out.push({
-      label: getLang() === 'en' ? hit.nEn || hit.n : hit.n,
+      label: getLang() === "en" ? hit.nEn || hit.n : hit.n,
       onClick: () => app().openTarget(hit.m, id),
     });
   }

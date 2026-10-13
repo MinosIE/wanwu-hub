@@ -7,7 +7,7 @@
  */
 
 const cache = new Map<string, unknown>();
-let base = '';
+let base = "";
 
 export function setDataBase(b: string): void {
   base = b;
@@ -16,7 +16,7 @@ export function setDataBase(b: string): void {
 export async function fetchData<T>(file: string): Promise<T> {
   const key = `${base}|${file}`;
   if (cache.has(key)) return cache.get(key) as T;
-  const res = await fetch(base + file, { credentials: 'same-origin' });
+  const res = await fetch(base + file, { credentials: "same-origin" });
   if (!res.ok) throw new Error(`加载 ${base}${file} 失败：HTTP ${res.status}`);
   const json = (await res.json()) as T;
   cache.set(key, json);

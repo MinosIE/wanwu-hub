@@ -1,4 +1,4 @@
-import type { DetailPayload } from '../core/types';
+import type { DetailPayload } from "../core/types";
 
 export interface ModuleCtx {
   root: HTMLElement;
@@ -10,4 +10,6 @@ export interface ModuleInstance {
   openById?: (id: string) => boolean;
 }
 
-export type ModuleRender = (ctx: ModuleCtx) => Promise<ModuleInstance | void> | ModuleInstance | void;
+export type ModuleRender = (
+  ctx: ModuleCtx,
+) => Promise<ModuleInstance | void> | ModuleInstance | void;

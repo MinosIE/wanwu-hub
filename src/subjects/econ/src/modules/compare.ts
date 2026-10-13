@@ -1,10 +1,10 @@
-import { fetchData } from '../core/data';
-import { openDetail } from '../core/detail';
-import { clickable, need } from '../core/dom';
-import { L, t } from '../core/i18n';
-import type { LObj } from '../core/types';
-import { escapeInline } from './shared';
-import type { ModuleInstance } from './types';
+import { fetchData } from "../core/data";
+import { openDetail } from "../core/detail";
+import { clickable, need } from "../core/dom";
+import { L, t } from "../core/i18n";
+import type { LObj } from "../core/types";
+import { escapeInline } from "./shared";
+import type { ModuleInstance } from "./types";
 
 export interface CompareCase {
   who?: string;
@@ -26,47 +26,55 @@ function casesHtml(item: CompareItem): string {
   return (item.cases ?? [])
     .map(
       (c) => `<div class="cmp-case">
-        <p class="cmp-who">${escapeInline(L(c as LObj, 'who'))}</p>
-        <p class="cmp-how">${escapeInline(L(c as LObj, 'how'))}</p>
+        <p class="cmp-who">${escapeInline(L(c as LObj, "who"))}</p>
+        <p class="cmp-how">${escapeInline(L(c as LObj, "how"))}</p>
       </div>`,
     )
-    .join('');
+    .join("");
 }
 
 export default async function render(): Promise<ModuleInstance> {
-  const host = need('#compareList');
-  const items = await fetchData<CompareItem[]>('compare.json');
+  const host = need("#compareList");
+  const items = await fetchData<CompareItem[]>("compare.json");
   const byId = new Map(items.map((it) => [String(it.id), it]));
 
   host.innerHTML = items
     .map(
       (it) => `<article class="cmp js-item" data-key="${it.id}">
-        <h3 class="cmp-q">${escapeInline(L(it, 'question'))}</h3>
+        <h3 class="cmp-q">${escapeInline(L(it, "question"))}</h3>
         <div class="cmp-cases">${casesHtml(it)}</div>
         <footer class="card-f">
-          <span class="tag">${escapeInline(t('ui.compareNote'))}</span>
-          <span class="card-go">${t('ui.enter')}</span>
+          <span class="tag">${escapeInline(t("ui.compareNote"))}</span>
+          <span class="card-go">${t("ui.enter")}</span>
         </footer>
       </article>`,
     )
-    .join('');
+    .join("");
 
   function detail(item: CompareItem): void {
     openDetail({
-      eyebrow: t('nav.compare'),
-      title: L<string>(item, 'question'),
-      subtitle: L<string>(item, 'questionEn'),
+      eyebrow: t("nav.compare"),
+      title: L<string>(item, "question"),
+      subtitle: L<string>(item, "questionEn"),
       level: item.level,
       sections: [
-        { icon: '⚖️', title: t('ui.compareNote'), html: `<div class="cmp-cases">${casesHtml(item)}</div>` },
-        { icon: '🎯', title: t('ui.takeaway'), html: `<p>${escapeInline(L(item, 'takeaway') ?? '')}</p>` },
-      ].filter((s) => s.html && !s.html.endsWith('></div>')),
+        {
+          icon: "⚖️",
+          title: t("ui.compareNote"),
+          html: `<div class="cmp-cases">${casesHtml(item)}</div>`,
+        },
+        {
+          icon: "🎯",
+          title: t("ui.takeaway"),
+          html: `<p>${escapeInline(L(item, "takeaway") ?? "")}</p>`,
+        },
+      ].filter((s) => s.html && !s.html.endsWith("></div>")),
       sources: Array.isArray(item.sources) ? item.sources : [],
     });
   }
 
-  host.querySelectorAll<HTMLElement>('.js-item').forEach((node) => {
-    const item = byId.get(node.dataset.key ?? '');
+  host.querySelectorAll<HTMLElement>(".js-item").forEach((node) => {
+    const item = byId.get(node.dataset.key ?? "");
     if (item) clickable(node, () => detail(item));
   });
 

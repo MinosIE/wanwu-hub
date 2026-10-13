@@ -33,7 +33,9 @@ while (i < html.length) {
 const wrapHtml = html.slice(si, end + 6);
 
 // ---- 提取主脚本（含 const I18N 的那个 <script>）----
-const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(
+  (m) => m[1],
+);
 const main = scripts.find((s) => s.includes("const I18N"));
 if (!main) throw new Error("main script not found");
 

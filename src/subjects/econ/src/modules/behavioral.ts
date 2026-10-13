@@ -1,7 +1,7 @@
-import { openDetail } from '../core/detail';
-import { L, t } from '../core/i18n';
-import type { DetailPayload, LObj } from '../core/types';
-import { lvlBadge } from '../core/ui';
+import { openDetail } from "../core/detail";
+import { L, t } from "../core/i18n";
+import type { DetailPayload, LObj } from "../core/types";
+import { lvlBadge } from "../core/ui";
 import {
   compact,
   escapeInline,
@@ -9,8 +9,8 @@ import {
   relatedButtons,
   tagsOf,
   textSection,
-} from './shared';
-import type { ModuleInstance } from './types';
+} from "./shared";
+import type { ModuleInstance } from "./types";
 
 export interface Bias extends LObj {
   id: string;
@@ -28,27 +28,36 @@ export interface Bias extends LObj {
 function card(item: Bias): string {
   return `<article class="card js-item" data-key="${item.id}">
     <header class="card-h">
-      <span class="card-t">${escapeInline(L(item, 'name'))}</span>
+      <span class="card-t">${escapeInline(L(item, "name"))}</span>
       ${lvlBadge(item.level)}
     </header>
-    <p class="card-lead">${escapeInline(L(item, 'oneLiner'))}</p>
+    <p class="card-lead">${escapeInline(L(item, "oneLiner"))}</p>
     <footer class="card-f">
-      ${item.category ? `<span class="tag">${escapeInline(L(item, 'category'))}</span>` : ''}
-      <span class="card-go">${t('ui.enter')}</span>
+      ${item.category ? `<span class="tag">${escapeInline(L(item, "category"))}</span>` : ""}
+      <span class="card-go">${t("ui.enter")}</span>
     </footer>
   </article>`;
 }
 
 export default async function render(): Promise<ModuleInstance> {
   const grid = await mountGrid<Bias>({
-    file: 'behavioral.json',
-    hostSel: '#behavioralGrid',
-    filterSel: '#behavioralFilters',
+    file: "behavioral.json",
+    hostSel: "#behavioralGrid",
+    filterSel: "#behavioralFilters",
     levels: true,
     sortBy: (a, b) => Number(a.level ?? 1) - Number(b.level ?? 1),
     match: (it, q) =>
-      [it.name, it.nameEn, it.oneLiner, it.oneLinerEn, it.detail, it.detailEn, it.experiment, it.everyday]
-        .join(' ')
+      [
+        it.name,
+        it.nameEn,
+        it.oneLiner,
+        it.oneLinerEn,
+        it.detail,
+        it.detailEn,
+        it.experiment,
+        it.everyday,
+      ]
+        .join(" ")
         .toLowerCase()
         .includes(q.toLowerCase()),
     card,
@@ -57,18 +66,22 @@ export default async function render(): Promise<ModuleInstance> {
 
   function detail(item: Bias): DetailPayload {
     return {
-      eyebrow: t('nav.behavioral'),
-      title: L<string>(item, 'name'),
-      subtitle: L<string>(item, 'nameEn'),
+      eyebrow: t("nav.behavioral"),
+      title: L<string>(item, "name"),
+      subtitle: L<string>(item, "nameEn"),
       level: item.level,
       tags: tagsOf(item),
       sections: compact([
-        textSection('🎯', t('ui.oneLiner'), L<string>(item, 'oneLiner') ?? ''),
-        textSection('📘', t('ui.detail'), L<string>(item, 'detail') ?? ''),
-        textSection('🧪', t('ui.experiment'), L<string>(item, 'experiment') ?? ''),
-        textSection('🧺', t('ui.everyday'), L<string>(item, 'everyday') ?? ''),
+        textSection("🎯", t("ui.oneLiner"), L<string>(item, "oneLiner") ?? ""),
+        textSection("📘", t("ui.detail"), L<string>(item, "detail") ?? ""),
+        textSection(
+          "🧪",
+          t("ui.experiment"),
+          L<string>(item, "experiment") ?? "",
+        ),
+        textSection("🧺", t("ui.everyday"), L<string>(item, "everyday") ?? ""),
       ]),
-      related: relatedButtons(item.related, 'm-behavioral'),
+      related: relatedButtons(item.related, "m-behavioral"),
       sources: Array.isArray(item.sources) ? item.sources : [],
     };
   }
