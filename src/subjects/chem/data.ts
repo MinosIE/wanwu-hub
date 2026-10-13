@@ -2314,6 +2314,159 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           tags: [{ zh: "工业", en: "Industry" }],
         },
         {
+          id: "eq-ewaste-gold",
+          subs: [
+            {
+              f: "Au",
+              name: {
+                zh: "金（镀金引脚、金手指、触点）",
+                en: "Gold (plated pins, edge fingers, contacts)",
+              },
+              note: {
+                zh: "空气中不氧化、也不溶于弱酸，只溶于强氧化—配位体系。",
+                en: "Neither tarnishes in air nor dissolves in weak acids; needs an oxidizing complexing medium.",
+              },
+              role: "l",
+            },
+            {
+              f: "HNO₃",
+              name: { zh: "浓硝酸", en: "Concentrated nitric acid" },
+              note: {
+                zh: "氧化剂，把 Au 氧化为 Au(III)。",
+                en: "The oxidizer, raising Au to Au(III).",
+              },
+              role: "l",
+            },
+            {
+              f: "HCl",
+              name: { zh: "浓盐酸", en: "Concentrated hydrochloric acid" },
+              note: {
+                zh: "提供 Cl⁻ 配体，稳定 [AuCl₄]⁻，使溶解得以持续。",
+                en: "Supplies Cl⁻ ligands that stabilize [AuCl₄]⁻, driving dissolution on.",
+              },
+              role: "l",
+            },
+            {
+              f: "HAuCl₄",
+              name: { zh: "氯金酸", en: "Chloroauric acid" },
+              note: {
+                zh: "金进入溶液的形态，橙黄色，蒸干会分解。",
+                en: "Dissolved gold, orange-yellow; decomposes on evaporation to dryness.",
+              },
+              role: "r",
+            },
+            {
+              f: "NO↑",
+              name: { zh: "一氧化氮", en: "Nitric oxide" },
+              note: {
+                zh: "遇空气即变红棕色 NO₂，须在通风橱内尾气吸收。",
+                en: "Turns red-brown NO₂ in air; scrub it in a fume hood.",
+              },
+              role: "r",
+            },
+            {
+              f: "Na₂S₂O₅",
+              name: { zh: "焦亚硫酸钠", en: "Sodium metabisulfite" },
+              note: {
+                zh: "还原剂，S(+4) 被氧化为 S(+6)，把金沉回单质。",
+                en: "Reducer; S(+4) to S(+6) drops gold back to the metal.",
+              },
+              role: "l",
+            },
+            {
+              f: "Au↓",
+              name: {
+                zh: "金粉（棕色沉淀）",
+                en: "Gold powder (brown precipitate)",
+              },
+              note: {
+                zh: "沉出的粗金，须再熔炼或电解提纯才能得高纯金。",
+                en: "Crude precipitate; smelting or electrolytic refining follows.",
+              },
+              role: "r",
+            },
+            {
+              f: "Na₂B₄O₇",
+              name: {
+                zh: "硼砂（助熔剂）",
+                en: "Borax (flux)",
+              },
+              note: {
+                zh: "熔炼时造渣，带走铜、铁等残余杂质。",
+                en: "Forms a slag in the melt, carrying off residual copper and iron.",
+              },
+              role: "c",
+            },
+          ],
+          icon: "♻️",
+          term: {
+            zh: "电子废弃物提金（城市矿山）",
+            en: "Gold Recovery from E-Waste",
+          },
+          level: 3,
+          oneLiner: {
+            zh: "富集镀金引脚与触点，用王水或氰化物溶出金，再还原沉出金粉、熔炼成锭。",
+            en: "Concentrate gold-plated pins and contacts, dissolve the Au in aqua regia or cyanide, precipitate it and smelt a button.",
+          },
+          eq: [
+            {
+              lhs: "Au + HNO₃ + 4HCl",
+              cond: { zh: "王水 V(HCl):V(HNO₃)=3:1", en: "aqua regia 3:1" },
+              rhs: "HAuCl₄ + NO↑ + 2H₂O",
+            },
+            {
+              lhs: "4Au + 8NaCN + O₂ + 2H₂O",
+              cond: { zh: "氰化浸出·碱性（剧毒）", en: "cyanide leach, alkaline" },
+              rhs: "4Na[Au(CN)₂] + 4NaOH",
+            },
+            {
+              lhs: "4HAuCl₄ + 3Na₂S₂O₅ + 9H₂O",
+              cond: { zh: "还原沉淀", en: "reduction" },
+              rhs: "4Au↓ + 16HCl + 3Na₂SO₄ + 3H₂SO₄",
+            },
+            {
+              lhs: "2HAuCl₄ + 3Cu",
+              cond: { zh: "置换（简易法）", en: "cementation" },
+              rhs: "2Au + 3CuCl₂ + 2HCl",
+            },
+          ],
+          detail: {
+            zh: "流程四步：拆解分选（取下 CPU 引脚、内存金手指、继电器触点，破碎后以磁选和涡电流富集）→ 浸出（把单质金转成可溶配合物）→ 还原沉淀（得棕色金粉）→ 酸洗烘干，配硼砂助熔在 1100 ℃ 以上熔炼铸锭；电解精炼可再提纯至 99.99%。品位上，一吨废旧电路板约含 80–300 g 金，天然金矿常只有 1–5 g/t，故称「城市矿山」。但金只是微米级镀层，且多为铜、银、钯综合回收的副产品，家庭「土法炼金」既危险又不划算：王水放出 NO₂ 与 Cl₂，氰化物微量即可致命，酸性废液会长期污染土壤与地下水，正规工厂须做尾气吸收与废液中和。",
+            en: "Four steps: sorting (pull gold-plated CPU pins, memory edge fingers and relay contacts, crush, then concentrate magnetically and by eddy current) → leaching (convert metallic Au into a soluble complex) → reduction (brown gold powder precipitates) → acid-wash, dry and smelt above 1100 °C with borax flux to cast a button; electrolytic refining lifts purity to 99.99%. By grade a tonne of scrap circuit boards holds some 80–300 g of gold against 1–5 g/t in natural ore — hence 'urban mine'. Yet the gold is only a micrometre-scale plating and usually a by-product of recovering copper, silver and palladium, so backyard refining is both hazardous and uneconomic: aqua regia releases NO₂ and Cl₂, cyanide is lethal in traces, and acidic effluent poisons soil and groundwater for decades. Licensed plants scrub the off-gas and neutralize the liquor.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "回收", en: "Recycling" },
+            { zh: "氧化还原", en: "Redox" },
+          ],
+          figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="20" font-size="12" fill="currentColor">电子废弃物提金四步 Four steps of gold recovery</text>
+  <g stroke="currentColor" stroke-opacity="0.45" fill="none">
+    <rect x="6" y="50" width="76" height="62" rx="6"/><rect x="94" y="50" width="76" height="62" rx="6"/>
+    <rect x="182" y="50" width="76" height="62" rx="6"/><rect x="270" y="50" width="76" height="62" rx="6"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle" font-size="10.5">
+    <text x="44" y="70">① 拆解分选</text><text x="132" y="70">② 浸出</text>
+    <text x="220" y="70">③ 还原沉淀</text><text x="308" y="70">④ 熔炼铸锭</text>
+  </g>
+  <g fill="currentColor" fill-opacity="0.6" text-anchor="middle" font-size="8">
+    <text x="44" y="84">sort &amp; crush</text><text x="132" y="84">leach</text>
+    <text x="220" y="84">precipitate</text><text x="308" y="84">smelt &amp; cast</text>
+  </g>
+  <g fill="#d4a017" text-anchor="middle" font-size="8.5">
+    <text x="44" y="101">磁选·涡电流</text><text x="132" y="101">王水 / NaCN</text>
+    <text x="220" y="101">Na₂S₂O₅ / Cu</text><text x="308" y="101">硼砂 &gt;1100 ℃</text>
+  </g>
+  <g fill="#d4a017">
+    <polygon points="84,76 93,81 84,86"/><polygon points="172,76 181,81 172,86"/><polygon points="260,76 269,81 260,86"/>
+  </g>
+  <text x="6" y="136" font-size="10" fill="#d4a017">● 品位：电路板 80–300 g Au/t，金矿石仅 1–5 g/t</text>
+  <text x="6" y="152" font-size="9.5" fill="currentColor" fill-opacity="0.7">Grade: boards 80–300 g Au per tonne vs ore 1–5 g/t</text>
+  <text x="6" y="176" font-size="10" fill="#e5484d">⚠ NO₂ / Cl₂ 剧毒 · CN⁻ 微量致命 · 废液须中和</text>
+  <text x="6" y="190" font-size="9.5" fill="#e5484d" fill-opacity="0.75">Toxic gases and cyanide; effluent must be treated</text>
+</svg>`,
+        },
+        {
           id: "eq-ester",
           subs: [
             {

@@ -5,7 +5,7 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 232,
+  "total": 233,
   "counts": {
     "concepts": 11,
     "structure": 7,
@@ -13,7 +13,7 @@
     "trends": 8,
     "reactions": 6,
     "equations": 16,
-    "life-chem": 12,
+    "life-chem": 13,
     "bonding": 6,
     "organic": 8,
     "solutions": 6,
@@ -78,7 +78,7 @@
       "title": "化学与生产生活",
       "titleEn": "Chemistry in Industry & Life",
       "kind": "cards",
-      "count": 12
+      "count": 13
     },
     {
       "key": "bonding",
@@ -152,7 +152,7 @@
     { "key": "trends", "icon": "📊", "value": 8 },
     { "key": "reactions", "icon": "🔥", "value": 6 },
     { "key": "equations", "icon": "📝", "value": 16 },
-    { "key": "life-chem", "icon": "🏭", "value": 12 },
+    { "key": "life-chem", "icon": "🏭", "value": 13 },
     { "key": "bonding", "icon": "🔗", "value": 6 },
     { "key": "organic", "icon": "🧬", "value": 8 },
     { "key": "solutions", "icon": "🧪", "value": 6 },
