@@ -5,7 +5,7 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 250,
+  "total": 264,
   "counts": {
     "concepts": 11,
     "structure": 7,
@@ -13,6 +13,7 @@
     "trends": 8,
     "reactions": 6,
     "equations": 16,
+    "quickref": 7,
     "life-chem": 13,
     "chem-industry": 10,
     "chem-env": 7,
@@ -22,7 +23,7 @@
     "energy": 5,
     "kinetics": 6,
     "electrochem": 5,
-    "chemists": 8,
+    "chemists": 15,
     "glossary": 10
   },
   "modules": [
@@ -73,6 +74,14 @@
       "titleEn": "Common Lab Equations",
       "kind": "cards",
       "count": 16
+    },
+    {
+      "key": "quickref",
+      "icon": "📋",
+      "title": "速查表",
+      "titleEn": "Quick Reference",
+      "kind": "cards",
+      "count": 7
     },
     {
       "key": "life-chem",
@@ -152,7 +161,7 @@
       "title": "化学家",
       "titleEn": "Chemists",
       "kind": "cards",
-      "count": 8
+      "count": 15
     },
     {
       "key": "glossary",
@@ -170,6 +179,7 @@
     { "key": "trends", "icon": "📊", "value": 8 },
     { "key": "reactions", "icon": "🔥", "value": 6 },
     { "key": "equations", "icon": "📝", "value": 16 },
+    { "key": "quickref", "icon": "📋", "value": 7 },
     { "key": "life-chem", "icon": "🏭", "value": 13 },
     { "key": "chem-industry", "icon": "⚙️", "value": 10 },
     { "key": "chem-env", "icon": "🌿", "value": 7 },
@@ -179,7 +189,7 @@
     { "key": "energy", "icon": "🔥", "value": 5 },
     { "key": "kinetics", "icon": "⚖️", "value": 6 },
     { "key": "electrochem", "icon": "🔋", "value": 5 },
-    { "key": "chemists", "icon": "🧑‍🔬", "value": 8 },
+    { "key": "chemists", "icon": "🧑‍🔬", "value": 15 },
     { "key": "glossary", "icon": "📖", "value": 10 }
   ]
 }

@@ -6,7 +6,9 @@
     "termEn": "Dmitri Mendeleev",
     "level": 1,
     "oneLiner": "编制第一张元素周期表，并预言了若干未知元素。",
-    "oneLinerEn": "Built the first periodic table and predicted unknown elements."
+    "oneLinerEn": "Built the first periodic table and predicted unknown elements.",
+    "detail": "1869 年按相对原子质量与性质把已知元素排成一张表，留下空位并预言「类铝」「类硅」「类硼」的性质；镓、锗、钪陆续填上这些格子，是这张表最硬的说服力。他与德国人迈尔几乎同时得到周期体系，优先权长期有争议。真正持久的不是那张表的样式，而是「性质随核电荷递增而重复出现」这条排序逻辑。",
+    "detailEn": "He arranged the known elements by atomic weight and similarity in 1869, left gaps, and forecast the properties of 'eka-aluminium', 'eka-silicon' and 'eka-boron'; gallium, germanium and scandium filled them, which is the strongest evidence that the table was right. He got there almost simultaneously with Germany's Meyer, and the priority fight outlived both. What endured is not the layout but the logic: properties recur as charge rises."
   },
   {
     "id": "lavoisier",
@@ -15,7 +17,9 @@
     "termEn": "Antoine Lavoisier",
     "level": 1,
     "oneLiner": "现代化学之父，确立质量守恒与氧化学说。",
-    "oneLinerEn": "Father of modern chemistry; conservation of mass and oxygen theory."
+    "oneLinerEn": "Father of modern chemistry; conservation of mass and oxygen theory.",
+    "detail": "在密闭容器里精确称量反应前后，把「燃素」从化学里请了出去，证明燃烧是物质与氧结合。1789 年的《化学纲要》给出第一张元素表和一套新命名法，硫酸、氧化物这类名字由此而来；那张表里仍列着「热」与「光」，也把硅、铝当作尚未分解的复合体。他兼任包税官，1794 年死于法国大革命，拉格朗日事后说：砍下这个头颅只要一瞬，一百年也长不出第二个。",
+    "detailEn": "Weighing reactants and products in sealed vessels, he removed phlogiston from chemistry and showed burning as combination with oxygen. His 1789 textbook carried the first element table and the naming system still used for sulfates and oxides — though it listed heat and light among the elements and treated silica and alumina as unsplit compounds. He also farmed taxes for the crown and was guillotined in 1794; Lagrange: a moment sufficed to cut that head off, and a century will not grow another."
   },
   {
     "id": "dalton",
@@ -24,7 +28,9 @@
     "termEn": "John Dalton",
     "level": 1,
     "oneLiner": "提出原子论，认为物质由不可再分的原子构成。",
-    "oneLinerEn": "Proposed atomic theory: matter is made of indivisible atoms."
+    "oneLinerEn": "Proposed atomic theory: matter is made of indivisible atoms.",
+    "detail": "他把原子拉进定量化学：以氢为 1 推出相对原子质量，用「最简比」猜化学式（因此把水写成 HO、氨写成 NH），并给出混合气体的分压定律。他坚信原子不可再分、同种元素的原子一般重，这两条后来分别被同位素与核物理推翻。他拒绝阿伏伽德罗的分子假说，原子量与分子量于是纠缠了半个世纪。",
+    "detailEn": "He made atoms quantitative: taking hydrogen as 1 he tabulated relative atomic weights, guessed formulae by the simplest ratio (so water became HO and ammonia NH) and stated the law of partial pressures. He held atoms indivisible and of equal weight within an element — both later broken, by isotopes and by nuclear physics. Rejecting Avogadro's molecule, he left atomic and molecular weights tangled for fifty years."
   },
   {
     "id": "boyle",
@@ -33,7 +39,9 @@
     "termEn": "Robert Boyle",
     "level": 1,
     "oneLiner": "玻意耳定律（pV = 常量）奠定气体研究基础。",
-    "oneLinerEn": "Boyle's law (pV = const) founded the study of gases."
+    "oneLinerEn": "Boyle's law (pV = const) founded the study of gases.",
+    "detail": "用自制的抽气泵做「空气弹」实验，1662 年得出温度不变时气体压强与体积成反比，器械与操作多由胡克动手完成。《怀疑的化学家》（1661）既反对四元素也反对三要素，主张化学的任务是把具体物体拆成成分并逐一定量——他给元素下了个操作性定义：元素是不能再分解为更简单身体的物质。",
+    "detailEn": "With a pump of his own building he ran air-gun experiments and in 1662 reported that at fixed temperature a gas trades pressure against volume; Hooke made and worked much of the apparatus. The Sceptical Chymist of 1661 refused both the four elements and the three principles, assigning chemistry the task of resolving bodies into ingredients and measuring each. His working definition: an element is what cannot be broken into a simpler body."
   },
   {
     "id": "curie",
@@ -42,7 +50,9 @@
     "termEn": "Marie Curie",
     "level": 1,
     "oneLiner": "发现钋与镭，放射性研究的先驱。",
-    "oneLinerEn": "Discovered polonium and radium; pioneer of radioactivity."
+    "oneLinerEn": "Discovered polonium and radium; pioneer of radioactivity.",
+    "detail": "「放射性」这个词由她造出。她与皮埃尔·居里从成吨沥青铀矿渣里煮炼、分级结晶，1898 年先析出钋（以波兰命名）再得镭，并测出镭的原子量。1903 年的物理学奖与皮埃尔、贝克勒尔共享，1911 年的化学奖因分离纯镭归她一人。一战时她组织流动 X 光车上前线；1934 年死于再生障碍性贫血，笔记本至今带放射性，查阅者要穿防护服并签同意书。",
+    "detailEn": "She coined the word 'radioactivity'. With Pierre she boiled down tonnage of pitchblende residue and crystallised it in fractions, isolating polonium in 1898 (named for her Poland) and then radium, and fixing radium's atomic weight. The 1903 physics prize was shared with Pierre and Becquerel; the 1911 chemistry prize was hers alone for the isolated metal. She ran mobile X-ray units to the front in the First War and died of aplastic anaemia in 1934 — her notebooks stay radioactive and are still handled in protective clothing behind signed waivers."
   },
   {
     "id": "pauling",
@@ -51,7 +61,9 @@
     "termEn": "Linus Pauling",
     "level": 3,
     "oneLiner": "化学键本质与电负性研究的巨擘，两获诺贝尔奖。",
-    "oneLinerEn": "Giant of chemical bonding and electronegativity; two-time Nobel laureate."
+    "oneLinerEn": "Giant of chemical bonding and electronegativity; two-time Nobel laureate.",
+    "detail": "把量子力学接进化学键：杂化轨道、电负性标度与「共振」都出自他 1931 年起的系列工作，《化学键的本质》至今是这门学科的语言。1951 年他与科里提出蛋白质主链的 α 螺旋与 β 折叠，同一时期给出的 DNA 三螺旋模型却是错的。1954 年获化学奖，1962 年因推动部分禁核试条约再得和平奖。晚年投入大剂量维生素 C 防治感冒与癌症，证据薄弱，这是他名声上最实的一处伤口。",
+    "detailEn": "He brought quantum mechanics into the bond: hybridisation, the electronegativity scale and 'resonance' all come from work begun in 1931, and The Nature of the Chemical Bond still sets the vocabulary. With Corey he proposed the α-helix and β-sheet of protein backbones in 1951 — and, in the same stretch, a wrong triple-helix model of DNA. Chemistry prize 1954, peace prize 1962 for his push behind the test-ban treaty. His late campaign for megadose vitamin C against colds and cancer rested on thin evidence and is the plainest wound on his reputation."
   },
   {
     "id": "avogadro",
@@ -60,7 +72,9 @@
     "termEn": "Amedeo Avogadro",
     "level": 2,
     "oneLiner": "提出同温同压下等体积气体含等量分子（阿伏伽德罗定律）。",
-    "oneLinerEn": "Equal gas volumes hold equal molecule counts at same T and P."
+    "oneLinerEn": "Equal gas volumes hold equal molecule counts at same T and P.",
+    "detail": "1811 年提出：气体单质常以双原子分子存在（H₂、O₂、Cl₂），同温同压下等体积的气体含同样多的分子。这条假说能把盖-吕萨克测出的体积比直接换算成化学式，却被道尔顿与贝采利乌斯拒斥；他此后几乎再无新论，1856 年在冷清中去世，被长期忽略。真正的承认是 1860 年以后，而「阿伏伽德罗常数」这个叫法出现在他身后。",
+    "detailEn": "In 1811 he proposed that the elemental gases are diatomic (H₂, O₂, Cl₂) and that equal volumes of gas at the same temperature and pressure hold equal numbers of molecules. The hypothesis converted Gay-Lussac's measured volume ratios straight into formulae, and Dalton and Berzelius rejected it; he published little after, and died quietly in 1856, long overlooked. Recognition came only after 1860, and the name 'Avogadro's number' for the constant postdated him."
   },
   {
     "id": "lechatelier",
@@ -69,6 +83,85 @@
     "termEn": "Henry Le Chatelier",
     "level": 2,
     "oneLiner": "提出平衡移动原理，指导化工生产条件优化。",
-    "oneLinerEn": "Stated the equilibrium-shift principle guiding chemical industry."
+    "oneLinerEn": "Stated the equilibrium-shift principle guiding chemical industry.",
+    "detail": "1888 年总结出移位规则：改变条件时，平衡向削弱这一改变的方向移动（前一年德国人布朗已独立发表同一原理，故也常并称勒夏特列-布朗原理）。他出身矿业世家，把工业现场当实验室：改进本生灯与安全煤气灯、发明光学高温计、建立测定钢中碳的定碳法，也是最早解释水泥硬化机理的人之一。",
+    "detailEn": "In 1888 he stated the shift rule: a system at equilibrium answers a change by partly undoing it (the German Braun had published the same the year before, hence Le Chatelier–Braun). From a mining family, he treated the works as his laboratory — improving the Bunsen burner and the miners' safety lamp, inventing an optical pyrometer and the carbon-in-steel determination, and among the first to explain how cement hardens."
+  },
+  {
+    "id": "scheele",
+    "icon": "🧪",
+    "term": "卡尔·威廉·舍勒",
+    "termEn": "Carl Wilhelm Scheele",
+    "level": 1,
+    "oneLiner": "药房学徒出身的实验天才，独立发现氧与氯，还分离出一批有机酸。",
+    "oneLinerEn": "A pharmacy apprentice who found oxygen and chlorine independently and isolated a generation of organic acids.",
+    "detail": "1770 年代他在乌普萨拉与林雪平的药房里，用简陋器具把空气拆开研究：约 1772 年制得氧气并称它「火的空气」，只因出版晚于普利斯特里而丢了优先权。氯（1774 年由盐酸与软锰矿作用得到）、锰、钡，以及草酸、乳酸、柠檬酸、尿酸都出自他的手，他还发明了含砷的颜料「舍勒绿」。他习惯用看、闻、尝来鉴定试剂，四十余岁即病逝；后人检测其遗骸发现汞含量异常高，普遍推测长期的重金属暴露加速了他的死亡。",
+    "detailEn": "Through the 1770s, in pharmacies at Uppsala and Linköping, he took air apart with rudimentary glassware: oxygen by about 1772, which he called 'fire air', a claim lost to Priestley only because he published later. Chlorine (1774, from muriatic acid on manganese ore), manganese, barium, and oxalic, lactic, citric and uric acids all came from his bench, along with the arsenical pigment 'Scheele's green'. He identified reagents by looking, sniffing and tasting, and was dead in his forties; later assay of his remains found startlingly high mercury, and long heavy-metal exposure is the usual explanation."
+  },
+  {
+    "id": "priestley",
+    "icon": "🌱",
+    "term": "约瑟夫·普利斯特里",
+    "termEn": "Joseph Priestley",
+    "level": 1,
+    "oneLiner": "用凸透镜聚热分解氧化汞，收集到能让蜡烛烧得更旺的气体，独立发现氧气。",
+    "oneLinerEn": "Lenses focused on mercury calx gave him a gas that made candles burn brighter: oxygen, found independently.",
+    "detail": "1774 年他用大凸透镜把日光聚到氧化汞上，收集起这种能让蜡烛爆燃、小鼠活得更久的「脱燃素空气」。更早几年他已把薄荷枝与点着的蜡烛扣在同一只钟罩里，看到植物能修补被蜡烛和老鼠弄坏的气体——空气被光合修复这件事第一次露出头角。他在解释上始终站在燃素一边，于是发现归他、理论归拉瓦锡。他还把二氧化碳压进水里做出汽水；他是神学家与一位论者，因公开支持美国与法国革命而在 1794 年远走宾夕法尼亚。",
+    "detailEn": "In 1774 a burning lens over mercury calx gave him a gas that flashed candles into brighter flame and kept mice lively: 'dephlogisticated air'. Years earlier he had shut a mint sprig and a lit candle under the same bell jar and watched the plant repair air that candle and beast had spoiled — the first sight of photosynthesis restoring the atmosphere. He stayed a phlogistonian to the end, so the discovery is his and the theory is Lavoisier's. He also forced CO₂ into water and invented soda water; a Unitarian theologian, his open support for the American and French revolutions drove him to Pennsylvania in 1794."
+  },
+  {
+    "id": "davy",
+    "icon": "⚡",
+    "term": "汉弗里·戴维",
+    "termEn": "Humphry Davy",
+    "level": 2,
+    "oneLiner": "用大电池电解熔盐，一年之内分离出钾与钠，把电解变成发现元素的手段。",
+    "oneLinerEn": "Electrolysing molten salts with a giant battery, he isolated potassium and sodium within a year and made electrolysis a way to find elements.",
+    "detail": "1807 年他用那台巨型伏打电堆电解熔融的苛性钾与苛性钠，取得在水面闪燃的金属钾与钠；钙、锶、钡、镁随后相继分离，他又证明氯是一种元素而非含氧的酸——这一点上拉瓦锡判断错了。他记录过一氧化二氮能消除疼痛并建议用于手术，真正把它推上临床的是后来的牙科医生；他也证明金刚石在纯氧中能烧成二氧化碳，并发明了煤矿用的安全灯。他把装订学徒出身的法拉第提为自己的实验助手——这一步比他任何一个发现都更改变了化学。",
+    "detailEn": "In 1807 a giant battery drove current through molten caustic potash and caustic soda, yielding potassium and sodium that flashed on water; calcium, strontium, barium and magnesium followed, and he showed chlorine to be an element rather than an oxygen-bearing acid, on which Lavoisier had been wrong. He noted that nitrous oxide could take away pain and suggested it for surgery — dentists were the ones who made that real — proved that diamond burns to CO₂ in pure oxygen, and invented the miners' safety lamp. He also hired Faraday, a bookbinder's apprentice, as his laboratory assistant: one decision that did more for chemistry than any of his discoveries."
+  },
+  {
+    "id": "berzelius",
+    "icon": "🏷️",
+    "term": "永斯·贝采利乌斯",
+    "termEn": "Jöns Berzelius",
+    "level": 2,
+    "oneLiner": "定下今天仍在用的元素符号写法，把「催化」「同分异构」「蛋白质」这些词请进化学。",
+    "oneLinerEn": "Set the element symbols we still write, and brought catalysis, isomerism and protein into the language.",
+    "detail": "1811 年他主张用拉丁名字的首字母加次字母做符号（O、H、Cu、Fe），数字前缀表示原子个数，取代此前各行其是的炼金式记号；这套写法沿用至今。他测定了四十余种元素的原子量，编出第一张可用的原子量表，发现铈（1803）、硒（1817）与钍（1828），并首次制得较纯的硅、锆和钽。「催化」（1835）、「同分异构」（1830）与「蛋白质」（1838）这些名字都出自他手。他的整套思路建立在「化合物由正负两半相吸」的二元电化理论上，因此难以接受有机化学的新发展，晚年与维勒、李比希等人公开争执。",
+    "detailEn": "In 1811 he argued for symbols taken from Latin names — O, H, Cu, Fe — with numerals for counts, replacing the private alchemical shorthand, and the notation has survived him. He measured the atomic weights of some forty-five elements and drew the first usable table, discovered cerium (1803), selenium (1817) and thorium (1828), and prepared silicon, zirconium and tantalum in near-pure form. 'Catalysis' (1835), 'isomerism' (1830) and 'protein' (1838) are his coins. Everything sat on his dualistic electrochemical theory, in which a compound is two halves held by opposite electricity, and that frame made the new organic chemistry hard for him to accept; the quarrels with Wöhler and Liebig turned public in his old age."
+  },
+  {
+    "id": "arrhenius",
+    "icon": "🌡️",
+    "term": "斯凡特·阿伦尼乌斯",
+    "termEn": "Svante Arrhenius",
+    "level": 3,
+    "oneLiner": "说盐溶于水自己就分成离子，又给出速率随温度变化的指数关系。",
+    "oneLinerEn": "Salts split into ions on dissolving, and rates climb with temperature by his exponential law.",
+    "detail": "1884 年他的博士论文提出电解质在水中自发解离成离子、并不需要通电，评分被压到能授予学位的下限；这套说法要到范托夫与科尔劳施用依数性和电导数据支持之后才翻了案，1903 年为他换来诺贝尔化学奖。1889 年他解释为什么升温对速率的提升远大于碰撞次数增加所能解释的，给出 k = A·e^(−Ea/RT) 与活化能，这条指数关系至今是化工选择温度的依据。1896 年他第一次定量算出大气二氧化碳翻倍会带来地表增温（他的估计在 5 ℃ 上下），是温室效应研究的起点——他自己还以为这对北方农业是好事。",
+    "detailEn": "His 1884 dissertation held that electrolytes split into ions on their own when dissolved, no current required, and was graded at the lowest mark that still passed; the idea reversed only after van 't Hoff and Kohlrausch backed it with colligative data and conductivity, and it brought him the 1903 chemistry prize. In 1889 he explained why heating speeds a reaction far more than the extra collisions alone would, giving k = A·e^(−Ea/RT) and the activation energy — still the reason industry picks the temperatures it does. And in 1896 he made the first quantitative estimate of how much a doubling of atmospheric CO₂ would warm the surface, around five degrees, founding climate physics while believing it would rather help northern farms."
+  },
+  {
+    "id": "vanthoff",
+    "icon": "🔺",
+    "term": "雅各布斯·范托夫",
+    "termEn": "Jacobus van 't Hoff",
+    "level": 3,
+    "oneLiner": "把碳的四个键摆成正四面体，一举解释了互为镜像却不同的两种分子。",
+    "oneLinerEn": "He set carbon's four bonds at the corners of a tetrahedron and explained mirror-image molecules at a stroke.",
+    "detail": "1874 年，二十二岁的他自费印出几页小册子，主张碳的四个价键指向正四面体的四个顶角：若一个碳连着四个不同基团，两种排列互为镜像而无法重合，旋光性的差别就有了结构解释——立体化学由此成立；法国人勒贝尔同年独立提出同一想法。同样的空间与数学思路被他搬到溶液与速率上：解释电解质依数性的范托夫因子、与气体方程同形的渗透压式 πV = nRT，以及速率随温度上升的经验关系。1901 年他领取首届诺贝尔化学奖。这套主张起初反响冷淡，他陆续以法文、英文重述，几年内被实验陆续证实；晚年研究海水蒸发析盐的顺序与植物营养。",
+    "detailEn": "In 1874, aged twenty-two, he self-published a handful of pamphlet pages arguing that carbon's four bonds point to the corners of a tetrahedron: with four different groups on one carbon the two arrangements are mirror images that cannot be superposed, which gave optical activity its structural explanation and founded stereochemistry; Le Bel reached the same idea that year. He carried the same spatial mathematics into solutions and rates — the factor bearing his name for electrolyte colligative action, the osmotic law πV = nRT matching the gas equation, and an empirical rule for how rates climb with temperature. The first chemistry Nobel, in 1901, was his. The idea landed cold; he restated it in French and then English, and within a few years experiments came in on its side. Late on he worked out the order in which sea salt crystallises as brine evaporates, and plant nutrition."
+  },
+  {
+    "id": "hou-debang",
+    "icon": "🧂",
+    "term": "侯德榜",
+    "termEn": "Hou Debang",
+    "level": 2,
+    "oneLiner": "把索尔维制碱法的封锁写成书公开，又用联合制碱法让氯化铵变成氮肥。",
+    "oneLinerEn": "He broke the Solvay blockade by publishing it, then turned ammonium chloride into fertiliser with his combined process.",
+    "detail": "纯碱工艺当年被索尔维公司严密技术封锁，只许看不许问。他在永利查清碳酸化塔结疤堵塞的原因（碳酸氢钠在器壁析出），1926 年做出「红三角」牌纯碱。1933 年他用英文写成《制碱》在美国出版，把原料、设备与工艺要点摊开给全世界，封锁自此失效。抗战时工厂西迁重庆，到 1943 年他首创联合制碱：把合成氨与制碱联在同一套系统里，向母液加食盐低温析出氯化铵作氮肥，二氧化碳与食盐水循环使用，食盐的利用率由索尔维法的不足八成提到九成以上，也不再有大量氯化钙废液堆山。1955 年他当选中国科学院首批学部委员。",
+    "detailEn": "The Solvay process was blockaded: plants could be visited, nothing could be asked. At the Yongli works he traced the fouling of the carbonating towers to sodium bicarbonate crusting on the walls, and in 1926 his 'Red Triangle' soda ash went to market. In 1933 he published Manufacture of Soda in the United States, laying the raw materials, plant and process open to the world, after which the blockade meant nothing. War drove the works inland to Chongqing, and by 1943 he had created the combined process: ammonia synthesis and soda manufacture in one system, salt added to the mother liquor to crystallise ammonium chloride as nitrogen fertiliser, carbon dioxide and brine recycled. Salt utilisation rose from under four-fifths to better than nine-tenths, and the heaps of waste calcium chloride disappeared. In 1955 he was elected among the first academicians of the Chinese Academy of Sciences."
   }
 ]

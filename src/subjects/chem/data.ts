@@ -1871,6 +1871,566 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
+    /* ===================== 速查表 ===================== */
+    {
+      key: "quickref",
+      icon: "📋",
+      title: { zh: "速查表", en: "Quick Reference" },
+      items: [
+        {
+          id: "qr-common-names",
+          icon: "🏷️",
+          term: { zh: "常见物质的俗名与主要成分", en: "Common Names and What They Really Are" },
+          level: 1,
+          oneLiner: {
+            zh: "纯碱不是碱、干冰不是冰、水银不是银：常用俗名与它们的真实成分对照。",
+            en: "Soda ash is no base, dry ice is no ice, quicksilver is no silver: the common names beside what they actually are.",
+          },
+          detail: {
+            zh: "俗名有三个坑。一是分类错位：纯碱 Na₂CO₃、小苏打 NaHCO₃、胆矾 CuSO₄·5H₂O 都是盐，水溶液却有的显碱性，因而被叫成「碱」；二是混合物与纯净物不分：王水是浓盐酸与浓硝酸按体积 3∶1 现配，碱石灰是 NaOH 与 CaO 的混合物，漂白粉的有效成分只是 Ca(ClO)₂，天然气、沼气、坑气都以 CH₄ 为主但不是纯甲烷；三是水合数字被丢掉：写 CuSO₄ 是无色粉末，蓝色晶体是 CuSO₄·5H₂O（胆矾）。另外「主要成分」这个词要谨慎：石灰石与大理石以 CaCO₃ 为主，但含 MgCO₃、SiO₂ 等杂质；石英、水晶、玛瑙与沙子的主要成分都是 SiO₂，区别在晶体颗粒与杂质而不是成分。",
+            en: "Three traps hide in these names. First, the class is wrong: Na₂CO₃, NaHCO₃ and CuSO₄·5H₂O are all salts, and the first two are called 'alkali' only because their solutions are basic. Second, mixtures are named as if pure: aqua regia is HCl and HNO₃ in a 3-to-1 volume ratio mixed at the bench, soda lime is NaOH with CaO, bleaching powder works through just its Ca(ClO)₂, and natural, marsh and firedamp are mostly CH₄ but not pure methane. Third, the water of crystallisation gets dropped: anhydrous CuSO₄ is a pale powder, the blue crystals are CuSO₄·5H₂O. And 'mainly' matters — limestone and marble are mostly CaCO₃ with MgCO₃ and SiO₂ along, while quartz, rock crystal, agate and sand are all SiO₂ and differ in crystal size and impurity, not in substance.",
+          },
+          tags: [
+            { zh: "俗名", en: "Trivial Names" },
+            { zh: "速查", en: "Quick Reference" },
+            { zh: "基础", en: "Basics" },
+          ],
+          figure: `<svg viewBox="0 0 360 224" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="14" font-size="11" fill="currentColor">俗名与成分 Common names and real formulas</text>
+  <line x1="178" y1="22" x2="178" y2="186" stroke="currentColor" stroke-opacity="0.2"/>
+  <g font-size="8.5" fill="currentColor">
+    <text x="6" y="36">生石灰 <tspan fill="#d4a017">CaO</tspan></text>
+    <text x="6" y="52">熟石灰 <tspan fill="#d4a017">Ca(OH)₂</tspan></text>
+    <text x="6" y="68">石灰石 <tspan fill="#d4a017">CaCO₃</tspan></text>
+    <text x="6" y="84">纯碱 <tspan fill="#d4a017">Na₂CO₃</tspan></text>
+    <text x="6" y="100">小苏打 <tspan fill="#d4a017">NaHCO₃</tspan></text>
+    <text x="6" y="116">大苏打 <tspan fill="#d4a017">Na₂S₂O₃</tspan></text>
+    <text x="6" y="132">烧碱 <tspan fill="#d4a017">NaOH</tspan></text>
+    <text x="6" y="148">碱石灰 <tspan fill="#d4a017">NaOH + CaO</tspan></text>
+    <text x="6" y="164">水玻璃 <tspan fill="#d4a017">Na₂SiO₃</tspan></text>
+    <text x="6" y="180">王水 <tspan fill="#d4a017">HCl + HNO₃</tspan></text>
+    <text x="188" y="36">干冰 <tspan fill="#d4a017">CO₂</tspan></text>
+    <text x="188" y="52">水银 <tspan fill="#d4a017">Hg</tspan></text>
+    <text x="188" y="68">双氧水 <tspan fill="#d4a017">H₂O₂</tspan></text>
+    <text x="188" y="84">福尔马林 <tspan fill="#d4a017">HCHO</tspan></text>
+    <text x="188" y="100">沼气 <tspan fill="#d4a017">CH₄</tspan></text>
+    <text x="188" y="116">水煤气 <tspan fill="#d4a017">CO + H₂</tspan></text>
+    <text x="188" y="132">胆矾 <tspan fill="#d4a017">CuSO₄·5H₂O</tspan></text>
+    <text x="188" y="148">绿矾 <tspan fill="#d4a017">FeSO₄·7H₂O</tspan></text>
+    <text x="188" y="164">石膏 <tspan fill="#d4a017">CaSO₄·2H₂O</tspan></text>
+    <text x="188" y="180">明矾 <tspan fill="#d4a017">KAl(SO₄)₂·12H₂O</tspan></text>
+  </g>
+  <text x="6" y="198" font-size="8" fill="currentColor" fill-opacity="0.6">Workshop and trade names, matched to what analysis actually finds</text>
+  <text x="6" y="212" font-size="9" fill="#e5484d">⚠ 纯碱、小苏打、胆矾都是盐；水玻璃是溶液不是玻璃</text>
+  <text x="6" y="222" font-size="7.5" fill="#e5484d" fill-opacity="0.85">Soda ash, bicarbonate and blue vitriol are salts; water glass is a solution</text>
+</svg>`,
+        },
+        {
+          id: "qr-colors",
+          icon: "🎨",
+          term: { zh: "常见物质与溶液的颜色", en: "Colours of Common Substances and Solutions" },
+          level: 1,
+          oneLiner: {
+            zh: "固体看亚铁红褐、铜蓝，溶液看铜蓝铁黄、高锰酸紫红：颜色是最快的判断线索。",
+            en: "Solids: rust-brown iron(III), blue copper; solutions: blue Cu²⁺, yellow Fe³⁺, purple permanganate — colour is the fastest clue.",
+          },
+          detail: {
+            zh: "颜色只能当线索不能当结论。同一物质颗粒大小不同颜色就变：块状金是黄色但金粉是黑色，AgCl 白色沉淀见光逐渐转灰紫。溶液的颜色来自水合离子，浓度很浅时几乎看不出，所以「无色的 FeCl₃ 溶液」可能只是太稀。三价铁的水合离子属黄到棕黄，二价铁浅绿，高锰酸根紫红，这三样在实验报告里最容易互认错。气体的两条：Cl₂ 黄绿色、NO₂ 红棕色，其余常见气体无色。沉淀的记忆口诀：白色 CaCO₃、BaSO₄、AgCl、Mg(OH)₂；蓝色 Cu(OH)₂；红褐色 Fe(OH)₃；黄色 AgI、Ag₃PO₄。",
+            en: "Colour is a clue, never a verdict. The same substance changes hue with particle size: gold is yellow in lump and black as powder, and white AgCl drifts to grey-violet in light. Solution colour comes from hydrated ions and simply vanishes when dilute, so a 'colourless FeCl₃' may only be a weak one. The three most confused in lab reports are the yellow-brown of iron(III), the pale green of iron(II) and the purple-red of permanganate. Two gases carry colour — chlorine's yellow-green and nitrogen dioxide's red-brown — and the rest are clear. For precipitates: white CaCO₃, BaSO₄, AgCl, Mg(OH)₂; blue Cu(OH)₂; rust-brown Fe(OH)₃; yellow AgI and Ag₃PO₄.",
+          },
+          tags: [
+            { zh: "颜色", en: "Colour" },
+            { zh: "速查", en: "Quick Reference" },
+            { zh: "实验", en: "Lab" },
+          ],
+          figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="12" font-size="11" fill="currentColor">颜色速查 Colour cues</text>
+  <text x="6" y="28" font-size="8" fill="currentColor" fill-opacity="0.7">固体与沉淀 Solids and precipitates</text>
+  <g stroke="currentColor" stroke-opacity="0.35">
+    <rect x="6" y="33" width="12" height="12" fill="#b87333"/><rect x="96" y="33" width="12" height="12" fill="#262626"/><rect x="186" y="33" width="12" height="12" fill="#9b4a20"/><rect x="276" y="33" width="12" height="12" fill="#1a1a1a"/>
+    <rect x="6" y="49" width="12" height="12" fill="#333333"/><rect x="96" y="49" width="12" height="12" fill="#e6d64a"/><rect x="186" y="49" width="12" height="12" fill="#f2e9a0"/><rect x="276" y="49" width="12" height="12" fill="#3b1f45"/>
+    <rect x="6" y="65" width="12" height="12" fill="#2a6fdb"/><rect x="96" y="65" width="12" height="12" fill="#a2452a"/><rect x="186" y="65" width="12" height="12" fill="#4fa3dd"/><rect x="276" y="65" width="12" height="12" fill="#f4f4f4"/>
+  </g>
+  <g font-size="8" fill="currentColor">
+    <text x="22" y="42">Cu 紫红</text><text x="112" y="42">CuO 黑</text><text x="202" y="42">Fe₂O₃ 红棕</text><text x="292" y="42">Fe₃O₄ 黑</text>
+    <text x="22" y="58">MnO₂ 黑</text><text x="112" y="58">S 淡黄</text><text x="202" y="58">Na₂O₂ 淡黄</text><text x="292" y="58">KMnO₄ 紫黑</text>
+    <text x="22" y="74">胆矾 蓝</text><text x="112" y="74">Fe(OH)₃ 红褐</text><text x="202" y="74">Cu(OH)₂ 蓝</text><text x="292" y="74">AgCl 白</text>
+  </g>
+  <text x="6" y="91" font-size="8" fill="currentColor" fill-opacity="0.7">溶液（水合离子） Solutions, hydrated ions</text>
+  <g stroke="currentColor" stroke-opacity="0.35">
+    <rect x="6" y="96" width="12" height="12" fill="#2f7fe0"/><rect x="96" y="96" width="12" height="12" fill="#c08a2e"/><rect x="186" y="96" width="12" height="12" fill="#9fd0ae"/><rect x="276" y="96" width="12" height="12" fill="#8b2f8f"/>
+    <rect x="6" y="112" width="12" height="12" fill="#d9762a"/><rect x="96" y="112" width="12" height="12" fill="#e8c33a"/><rect x="186" y="112" width="12" height="12" fill="#7a5a3c"/><rect x="276" y="112" width="12" height="12" fill="#cf9a4f"/>
+  </g>
+  <g font-size="8" fill="currentColor">
+    <text x="22" y="105">Cu²⁺ 蓝</text><text x="112" y="105">Fe³⁺ 黄棕</text><text x="202" y="105">Fe²⁺ 浅绿</text><text x="292" y="105">MnO₄⁻ 紫红</text>
+    <text x="22" y="121">Cr₂O₇²⁻ 橙</text><text x="112" y="121">CrO₄²⁻ 黄</text><text x="202" y="121">碘水 棕</text><text x="292" y="121">溴水 橙黄</text>
+  </g>
+  <text x="6" y="137" font-size="8" fill="currentColor" fill-opacity="0.7">气体 Gases</text>
+  <g stroke="currentColor" stroke-opacity="0.35">
+    <rect x="6" y="142" width="12" height="12" fill="#b3c95b"/><rect x="96" y="142" width="12" height="12" fill="#b04f26"/>
+  </g>
+  <g font-size="8" fill="currentColor">
+    <text x="22" y="151">Cl₂ 黄绿</text><text x="112" y="151">NO₂ 红棕</text><text x="186" y="151" fill-opacity="0.6">其余常见气体无色</text>
+  </g>
+  <text x="6" y="168" font-size="7.5" fill="currentColor" fill-opacity="0.6">Particle size and dilution move colour as much as identity does</text>
+  <text x="6" y="181" font-size="9" fill="#e5484d">⚠ AgCl 白色见光转灰紫；很稀的 Fe³⁺ 几乎看不出颜色</text>
+  <text x="6" y="194" font-size="7.5" fill="#e5484d" fill-opacity="0.85">White AgCl greys in light; a dilute iron(III) looks clear</text>
+</svg>`,
+        },
+        {
+          id: "qr-solubility",
+          icon: "🧂",
+          term: { zh: "酸碱盐的溶解性规律", en: "Solubility Rules for Acids, Bases and Salts" },
+          level: 2,
+          oneLiner: {
+            zh: "钾钠铵硝皆可溶，盐酸盐不溶银，硫酸盐不溶钡，碳酸盐只溶钾钠铵。",
+            en: "All potassium, sodium, ammonium and nitrate salts dissolve; silver chloride does not; barium sulfate does not; carbonates answer only to K, Na and NH₄.",
+          },
+          detail: {
+            zh: "口诀只是地图，分界数字才有用：习惯上以 20 ℃ 时在 100 g 水里溶解的质量分级——大于 10 g 易溶，1 到 10 g 可溶，0.01 到 1 g 微溶，小于 0.01 g 难溶。所以上面的「不溶」从来不是真正不溶：BaSO₄ 在 20 ℃ 仍有约每升两毫克的溶解量，刚好落入难溶区。三个常见陷阱：微溶物 Ca(OH)₂ 做澄清石灰水时是溶的、写石灰乳时是悬浊；Ag₂SO₄、CaSO₄ 属微溶，浓度大时一样会浑；MgCO₃ 微溶、Mg(OH)₂ 难溶，所以软化硬水时镁必须先转成氢氧化物才能除净。口诀之外还得记特例：盐酸盐里 Hg₂Cl₂ 也不溶；Fe³⁺、Al³⁺ 根本没有正经的碳酸盐，一遇水就双水解。",
+            en: "The rhyme is a map; the numbers are the territory. Custom grades solubility at 20 °C in 100 g of water: over 10 g very soluble, 1 to 10 g soluble, 0.01 to 1 g slight, below 0.01 g poor. So 'insoluble' is never truly so — BaSO₄ still dissolves about two milligrams per litre at 20 °C and just lands in the poor class. Three traps: Ca(OH)₂ is dissolved in clear limewater but a suspension as milk of lime, and which one you mean changes the answer; Ag₂SO₄ and CaSO₄ are merely slight yet turn a flask cloudy when concentrated; MgCO₃ is slight while Mg(OH)₂ is poor, so water softening must convert magnesium to the hydroxide before it is genuinely gone. Past the rhyme, remember the exceptions: Hg₂Cl₂ is also insoluble among chlorides, and iron(III) and aluminium have no real carbonate at all — in water they hydrolyse instead.",
+          },
+          tags: [
+            { zh: "溶解性", en: "Solubility" },
+            { zh: "速查", en: "Quick Reference" },
+            { zh: "离子反应", en: "Ionic Reactions" },
+          ],
+          figure: `<svg viewBox="0 0 360 208" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="14" font-size="11" fill="currentColor">溶解性口诀与分界 Solubility rhyme and its cut-offs (20 °C)</text>
+  <g font-size="8.5" fill="currentColor">
+    <text x="6" y="36">钾、钠、铵、硝酸盐</text><text x="150" y="36" fill="#d4a017">全部可溶</text>
+    <text x="6" y="45" font-size="6.5" fill-opacity="0.6">K, Na, ammonium and all nitrates: no exception</text>
+    <text x="6" y="58">盐酸盐（氯化物）</text><text x="150" y="58" fill="#d4a017">AgCl 不溶，Hg₂Cl₂ 也不溶</text>
+    <text x="6" y="67" font-size="6.5" fill-opacity="0.6">chlorides: AgCl down, and Hg₂Cl₂ too</text>
+    <text x="6" y="80">硫酸盐</text><text x="150" y="80" fill="#d4a017">BaSO₄ 不溶；Ca、Sr、Ag 微溶</text>
+    <text x="6" y="89" font-size="6.5" fill-opacity="0.6">sulfates: BaSO₄ down; Ca, Sr, Ag slight</text>
+    <text x="6" y="102">碳酸盐</text><text x="150" y="102" fill="#d4a017">只溶钾、钠、铵；MgCO₃ 微溶</text>
+    <text x="6" y="111" font-size="6.5" fill-opacity="0.6">carbonates: only K, Na, NH₄; MgCO₃ slight</text>
+    <text x="6" y="124">碱（氢氧化物）</text><text x="150" y="124" fill="#d4a017">溶 K、Na、Ba；Ca(OH)₂ 微溶</text>
+    <text x="6" y="133" font-size="6.5" fill-opacity="0.6">bases: K, Na, Ba soluble; Ca(OH)₂ slight</text>
+    <text x="6" y="146">磷酸盐、硅酸盐</text><text x="150" y="146" fill="#d4a017">除钾钠铵外多不溶</text>
+    <text x="6" y="155" font-size="6.5" fill-opacity="0.6">phosphates and silicates: down but for K, Na, NH₄</text>
+  </g>
+  <line x1="6" y1="162" x2="354" y2="162" stroke="currentColor" stroke-opacity="0.2"/>
+  <text x="6" y="175" font-size="8" fill="currentColor">分级：大于 10 g 易溶，1~10 g 可溶，0.01~1 g 微溶，小于 0.01 g 难溶</text>
+  <text x="6" y="184" font-size="6.5" fill="currentColor" fill-opacity="0.6">Graded by grams per 100 g water: very soluble, soluble, slight, poor</text>
+  <text x="6" y="197" font-size="8.5" fill="#e5484d">⚠ 没有绝对不溶：BaSO₄ 仍溶约 2 mg/L，“不溶”只意味着写↓</text>
+  <text x="6" y="206" font-size="6.5" fill="#e5484d" fill-opacity="0.85">Nothing is truly insoluble; the arrow only marks a precipitate</text>
+</svg>`,
+        },
+        {
+          id: "qr-flame",
+          icon: "🔥",
+          term: { zh: "焰色反应与元素鉴定", en: "Flame Colours as an Element Test" },
+          level: 2,
+          oneLiner: {
+            zh: "钠黄、钾紫、铜绿、钡黄绿：金属离子把火焰染成自己的颜色，烟花也是同一回事。",
+            en: "Sodium yellow, potassium violet, copper green, barium yellow-green: ions tint the flame, and fireworks use the same trick.",
+          },
+          detail: {
+            zh: "焰色反应发光来自电子受热跃迁后回落时放出的光，不生成新物质，中学把它归作物理变化；它检验的是元素本身，所以 NaCl、Na₂SO₄、NaOH 焰色一样黄。操作叫「烧—蘸—烧」：先蘸稀盐酸在氧化焰上烧到火焰无色，再蘸样品灼烧，每换一个样重新处理一次；没有铂丝时用无锈铁丝代替。两个易错点：观察钾的焰色必须透过蓝色钴玻璃，因为那怕微量钠的黄光会把钾的紫色完全盖住；洗铂丝用盐酸而不用硫酸，因为硫酸盐难挥发。钠的黄光灵敏度极高，汗渍、自来水、玻璃里都有，所以上手前先把丝烧干净，否则看到的全是黄。烟花的五种颜色就是五种金属盐：锶盐红、钡盐黄绿、钠盐黄、铜盐蓝绿、镁铝粉白亮。",
+            en: "The light comes from electrons raised by the heat and falling back, dropping photons on the way down; no new substance forms, which is why schools file it as a physical change. What is tested is the element itself, so NaCl, Na₂SO₄ and NaOH all burn the same yellow. The drill is 'burn, dip, burn': wet the wire with dilute hydrochloric acid, hold it in the oxidising flame until nothing shows, dip it into the sample, and repeat the whole clean between samples, substituting a rust-free iron wire if platinum is out of reach. Two classic slips: potassium's violet must be viewed through blue cobalt glass, because trace sodium yellow drowns it completely, and the wire is cleaned in hydrochloric not sulfuric acid since sulfate salts refuse to volatilise. Sodium yellow is sensitive to a fault — sweat, tap water and glass all carry it — so burn the wire clean first or every sample will look yellow. Fireworks are just five salts: strontium red, barium yellow-green, sodium yellow, copper blue-green, and magnesium or aluminium powder for white.",
+          },
+          tags: [
+            { zh: "焰色", en: "Flame Test" },
+            { zh: "鉴定", en: "Identification" },
+            { zh: "元素", en: "Elements" },
+          ],
+          figure: `<svg viewBox="0 0 360 150" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="14" font-size="11" fill="currentColor">焰色反应 Flame colours by element</text>
+  <g stroke="currentColor" stroke-opacity="0.3">
+    <rect x="6" y="24" width="44" height="18" fill="#ffd400"/><rect x="56" y="24" width="44" height="18" fill="#a855f7"/><rect x="106" y="24" width="44" height="18" fill="#e0447a"/><rect x="156" y="24" width="44" height="18" fill="#d1502c"/><rect x="206" y="24" width="44" height="18" fill="#ef2d56"/><rect x="256" y="24" width="44" height="18" fill="#b7d44a"/><rect x="306" y="24" width="44" height="18" fill="#2fa14a"/>
+  </g>
+  <g font-size="8" fill="currentColor" text-anchor="middle">
+    <text x="28" y="52">钠 Na 黄</text><text x="78" y="52">钾 K 紫</text><text x="128" y="52">锂 Li 紫红</text><text x="178" y="52">钙 Ca 砖红</text><text x="228" y="52">锶 Sr 洋红</text><text x="278" y="52">钡 Ba 黄绿</text><text x="328" y="52">铜 Cu 绿</text>
+  </g>
+  <text x="6" y="68" font-size="6.5" fill="currentColor" fill-opacity="0.6">Yellow, violet, crimson, brick, scarlet, yellow-green, green — the order above, left to right</text>
+  <text x="6" y="86" font-size="8.5" fill="currentColor">步骤「烧—蘸—烧」：铂丝蘸稀盐酸灼烧至无色，再蘸样灼烧</text>
+  <text x="6" y="96" font-size="6.5" fill="currentColor" fill-opacity="0.6">Dip in dilute HCl, burn clean, dip the sample; repeat between samples</text>
+  <text x="6" y="116" font-size="8.5" fill="#d4a017">观察钾要透过蓝色钴玻璃，滤掉微量钠的黄光</text>
+  <text x="6" y="126" font-size="6.5" fill="#d4a017" fill-opacity="0.85">Read potassium through blue cobalt glass; sodium yellow would swallow it</text>
+  <text x="6" y="142" font-size="8.5" fill="#e5484d">⚠ 焰色是元素的性质，不是某一种化合物的性质</text>
+  <text x="6" y="149" font-size="6.5" fill="#e5484d" fill-opacity="0.85">It identifies the element, not one particular compound of it</text>
+</svg>`,
+        },
+        {
+          id: "qr-ion-tests",
+          subs: [
+            {
+              f: "Ag⁺",
+              name: { zh: "银离子（来自 AgNO₃ 溶液）", en: "Silver ion (from silver nitrate)" },
+              note: { zh: "一碰上 Cl⁻ 就沉淀，但要先酸化，不让 CO₃²⁻ 假阳性。", en: "Drops at once with chloride, but acidify first so carbonate cannot fake the result." },
+              role: "l",
+            },
+            {
+              f: "Cl⁻",
+              name: { zh: "氯离子", en: "Chloride ion" },
+              note: { zh: "盐酸与氯化物里都有；氯水氧化亚铁之后留下的也是它。", en: "In hydrochloric acid and the chlorides; also what chlorine water leaves after oxidising iron(II)." },
+              role: "l",
+            },
+            {
+              f: "Ba²⁺",
+              name: { zh: "钡离子（来自 BaCl₂ 溶液）", en: "Barium ion (from barium chloride)" },
+              note: { zh: "检验 SO₄²⁻ 用它，酸先下是为了不让碳酸根、亚硫酸根一起浑浊。", en: "The reagent for sulfate; the acid goes in first so carbonate and sulfite cannot cloud it too." },
+              role: "l",
+            },
+            {
+              f: "SO₄²⁻",
+              name: { zh: "硫酸根离子", en: "Sulfate ion" },
+              note: { zh: "BaSO₄ 不溶于水也不溶于酸，这是它与 CaCO₃ 的分界。", en: "BaSO₄ is insoluble in water and in acid, which is where it parts company with CaCO₃." },
+              role: "l",
+            },
+            {
+              f: "CO₃²⁻",
+              name: { zh: "碳酸根离子", en: "Carbonate ion" },
+              note: { zh: "遇酸即放 CO₂，但只能说明「碳酸根或碳酸氢根」，两者还要分开。", en: "Acid drives off CO₂, but that only says carbonate or hydrogen carbonate; separating them needs another step." },
+              role: "l",
+            },
+            {
+              f: "H⁺",
+              name: { zh: "氢离子（稀盐酸提供）", en: "Hydrogen ion (from dilute hydrochloric acid)" },
+              note: { zh: "写离子方程式时 HCl 拆成 H⁺ 与 Cl⁻，水与沉淀不拆。", en: "In ionic equations HCl is written apart as H⁺ and Cl⁻; water and precipitates stay whole." },
+              role: "l",
+            },
+            {
+              f: "NH₄⁺",
+              name: { zh: "铵根离子", en: "Ammonium ion" },
+              note: { zh: "常见阳离子里唯一含氮的，遇碱放氨，氮肥与铵盐都靠它鉴定。", en: "The one nitrogen-bearing common cation: base frees its ammonia, which is how ammonium salts are recognised." },
+              role: "l",
+            },
+            {
+              f: "OH⁻",
+              name: { zh: "氢氧根（浓 NaOH）", en: "Hydroxide (concentrated sodium hydroxide)" },
+              note: { zh: "要浓、要热，氨才能大量逸出；稀冷时几乎闻不到。", en: "Strong and hot, or the ammonia stays in solution and nothing shows." },
+              role: "l",
+            },
+            {
+              f: "Fe³⁺",
+              name: { zh: "铁离子（三价）", en: "Iron(III)" },
+              note: { zh: "与 SCN⁻ 生成血红色配合物；也是亚铁被氯水氧化后的产物。", en: "Blood-red with thiocyanate, and what chlorine water turns iron(II) into." },
+              role: "l",
+            },
+            {
+              f: "SCN⁻",
+              name: { zh: "硫氰酸根（KSCN 溶液）", en: "Thiocyanate (KSCN solution)" },
+              note: { zh: "极灵敏，痕量 Fe³⁺ 也显色；先不显色本身就能说明没有三价铁。", en: "Sensitive to traces; a failure to colour is itself evidence that no iron(III) is there." },
+              role: "l",
+            },
+            {
+              f: "Fe²⁺",
+              name: { zh: "亚铁离子（二价）", en: "Iron(II)" },
+              note: { zh: "浅绿，加 KSCN 不变红；被氯水或双氧水氧化后才红，两步连着做才能证明原液含亚铁。", en: "Pale green and silent with thiocyanate; it reddens only after chlorine or peroxide has oxidised it, and only the pair of steps proves iron(II)." },
+              role: "l",
+            },
+            {
+              f: "Cl₂",
+              name: { zh: "氯气（氯水）", en: "Chlorine (chlorine water)" },
+              note: { zh: "充当氧化剂，把 Fe²⁺ 拉到 Fe³⁺，自身还原成 Cl⁻。", en: "The oxidant: lifts iron(II) up to iron(III) and comes down to chloride." },
+              role: "l",
+            },
+            {
+              f: "AgCl",
+              name: { zh: "氯化银（白色凝乳状沉淀）", en: "Silver chloride (white curdy precipitate)" },
+              note: { zh: "不溶于稀硝酸，见光逐渐变灰紫。", en: "Undissolved by dilute nitric acid; drifts grey-violet in light as it decomposes." },
+              role: "r",
+            },
+            {
+              f: "BaSO₄",
+              name: { zh: "硫酸钡（白色沉淀）", en: "Barium sulfate (white precipitate)" },
+              note: { zh: "不溶于酸；医疗上服下的「钡餐」用的就是它。", en: "Inert to acid; the same compound is swallowed as a barium meal." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "在离子方程式里写成分子，不拆。", en: "Written as a molecule in ionic equations, never split." },
+              role: "r",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳（气体）", en: "Carbon dioxide (gas)" },
+              note: { zh: "接着通入澄清石灰水让它变浑，才算把碳酸根坐实。", en: "Passed on into limewater to cloud it, which is what closes the carbonate case." },
+              role: "r",
+            },
+            {
+              f: "NH₃",
+              name: { zh: "氨气", en: "Ammonia" },
+              note: { zh: "中学里常见的碱性气体，使湿润的红色石蕊试纸变蓝。", en: "The alkaline gas of the school lab: it blues moist red litmus." },
+              role: "r",
+            },
+            {
+              f: "Fe(SCN)₃",
+              name: { zh: "硫氰化铁（血红色）", en: "Iron(III) thiocyanate (blood red)" },
+              note: { zh: "可逆反应的产物，加 NaOH 或铁粉都能把红色弄回去。", en: "Product of an equilibrium; either hydroxide or iron filings can pull the red back out." },
+              role: "r",
+            },
+            {
+              f: "HNO₃",
+              name: { zh: "稀硝酸（酸化用）", en: "Dilute nitric acid (for acidifying)" },
+              note: { zh: "排除 CO₃²⁻、PO₄³⁻ 干扰：它们的银盐溶于酸，AgCl 不溶。", en: "Clears carbonate and phosphate interference: their silver salts dissolve in acid, AgCl does not." },
+              role: "c",
+            },
+            {
+              f: "BaCl₂",
+              name: { zh: "氯化钡溶液", en: "Barium chloride solution" },
+              note: { zh: "提供 Ba²⁺；带进来的 Cl⁻ 不参与反应。", en: "Supplies the barium; the chloride riding along is a spectator." },
+              role: "c",
+            },
+          ],
+          icon: "🔍",
+          term: { zh: "常见离子的检验", en: "Testing for the Common Ions" },
+          level: 3,
+          oneLiner: {
+            zh: "Cl⁻ 看银、SO₄²⁻ 看钡、CO₃²⁻ 放气、NH₄⁺ 变氨、Fe³⁺ 遇 SCN⁻ 血红。",
+            en: "Chloride meets silver, sulfate meets barium, carbonate gives off gas, ammonium gives off ammonia, iron(III) turns blood-red with thiocyanate.",
+          },
+          eq: [
+            {
+              lhs: "Ag⁺ + Cl⁻",
+              cond: { zh: "滴加 AgNO₃ 与稀硝酸", en: "silver nitrate plus dilute nitric" },
+              rhs: "AgCl↓",
+            },
+            {
+              lhs: "Ba²⁺ + SO₄²⁻",
+              cond: { zh: "先稀盐酸酸化，再加 BaCl₂", en: "acidify with HCl, then barium chloride" },
+              rhs: "BaSO₄↓",
+            },
+            {
+              lhs: "CO₃²⁻ + 2H⁺",
+              cond: { zh: "稀盐酸，气体通入石灰水", en: "dilute HCl; gas through limewater" },
+              rhs: "H₂O + CO₂↑",
+            },
+            {
+              lhs: "NH₄⁺ + OH⁻",
+              cond: { zh: "浓 NaOH，加热 △", en: "concentrated NaOH, heat Δ" },
+              rhs: "NH₃↑ + H₂O",
+            },
+            {
+              lhs: "Fe³⁺ + 3SCN⁻",
+              cond: { zh: "KSCN 溶液，血红色", en: "KSCN solution, blood red" },
+              rhs: "Fe(SCN)₃",
+              rel: "equilibrium",
+            },
+            {
+              lhs: "2Fe²⁺ + Cl₂",
+              cond: { zh: "先加 KSCN 不显色，再加氯水", en: "no colour with KSCN, then chlorine water" },
+              rhs: "2Fe³⁺ + 2Cl⁻",
+            },
+          ],
+          detail: {
+            zh: "检验的三条规矩。第一，取样分装，绝不往原试剂瓶里直接倒试剂，免得整瓶药品被污染。第二，先酸化再加沉淀剂，而且酸化用的酸要选对：检 SO₄²⁻ 用盐酸而不是硝酸，因为硝酸会把 SO₃²⁻ 氧化成 SO₄²⁻，凭空造出一堆白色沉淀；检 Cl⁻ 却必须用硝酸，因为碳酸银、磷酸银都溶于酸而 AgCl 不溶。第三，现象与结论分开写：“产生不溶于稀硝酸的白色沉淀”是现象，“溶液里有 SO₄²⁻”才是结论。还要记住顺序：证明 Fe²⁺ 必须先加 KSCN 不显色、再加氯水才变红，一上来就加氯水就分不清原液里到底是二价还是三价；NH₄⁺ 只有浓碱并加热才逸得出氨，常温稀碱几乎闻不到味道。",
+            en: "Three rules of the test. First, take a sample: never pour reagent into the stock bottle, or the whole supply is spoiled. Second, acidify before precipitating, and pick the right acid — hydrochloric for sulfate, never nitric, because nitric oxidises sulfite to sulfate and manufactures a white precipitate out of nothing; but nitric for chloride, since carbonate and phosphate of silver dissolve in acid while AgCl does not. Third, keep observation and conclusion apart: 'a white precipitate insoluble in dilute nitric acid' is what you saw, 'sulfate is present' is what you claim. Order matters too: proving iron(II) means thiocyanate first with no colour, then chlorine water and the red; pour in the chlorine first and you can no longer tell which iron was in the tube. And ammonium only speaks with strong, hot alkali — cold dilute base gives off nothing worth smelling.",
+          },
+          tags: [
+            { zh: "离子检验", en: "Ion Tests" },
+            { zh: "实验", en: "Lab" },
+            { zh: "速查", en: "Quick Reference" },
+          ],
+        },
+        {
+          id: "qr-gas-tests",
+          subs: [
+            {
+              f: "Ca(OH)₂",
+              name: { zh: "氢氧化钙（澄清石灰水）", en: "Calcium hydroxide (clear limewater)" },
+              note: { zh: "检验 CO₂ 的指定试剂，变浑就算中。", en: "The designated reagent for CO₂; cloudiness settles the case." },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "它是碳酸盐遇酸放出的气体，也是让石灰水变浑的那一种。", en: "The gas acids drive off carbonates, and the one that clouds limewater." },
+              role: "l",
+            },
+            {
+              f: "NH₃",
+              name: { zh: "氨气", en: "Ammonia" },
+              note: { zh: "常见的碱性气体，使湿润红色石蕊试纸变蓝。", en: "The usual alkaline gas: it blues moist red litmus." },
+              role: "l",
+            },
+            {
+              f: "HCl",
+              name: { zh: "氯化氢（浓盐酸发白雾）", en: "Hydrogen chloride (the fume off concentrated hydrochloric acid)" },
+              note: { zh: "与 NH₃ 相遇立刻生成固体小颗粒，看起来就是白烟。", en: "Meets ammonia and makes solid particles at once — what the eye reads as white smoke." },
+              role: "l",
+            },
+            {
+              f: "Cl₂",
+              name: { zh: "氯气（黄绿色）", en: "Chlorine (yellow-green)" },
+              note: { zh: "氧化剂，能把 I⁻ 从 KI 里拉出来；尾气要用 NaOH 吸收。", en: "An oxidant that pulls iodide out of KI; the off-gas must be taken up by soda lye." },
+              role: "l",
+            },
+            {
+              f: "KI",
+              name: { zh: "碘化钾（淀粉-KI 试纸上）", en: "Potassium iodide (on the starch paper)" },
+              note: { zh: "被氧化出的 I₂ 与淀粉一起变蓝，试纸才需要湿润。", en: "The iodine it releases turns starch blue — which is why the paper must be damp." },
+              role: "l",
+            },
+            {
+              f: "CuSO₄",
+              name: { zh: "无水硫酸铜（白色粉末）", en: "Anhydrous copper sulfate (white powder)" },
+              note: { zh: "专用于验水：一见水就变蓝，但不能用来干燥气体。", en: "The water detector: blue at first sight of it, though not fit for drying gases." },
+              role: "l",
+            },
+            {
+              f: "H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: { zh: "点燃前必须验纯，混有空气时会爆鸣甚至炸裂容器。", en: "Must be proved pure before lighting; mixed with air it pops and can burst the vessel." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "本身不燃，但能让带火星的木条重新烧起来。", en: "It does not burn; it relights a glowing splint instead." },
+              role: "l",
+            },
+            {
+              f: "CaCO₃",
+              name: { zh: "碳酸钙（白色沉淀）", en: "Calcium carbonate (white precipitate)" },
+              note: { zh: "石灰水变浑的正是它；再通过量 CO₂ 会转成可溶的碳酸氢钙重新变清。", en: "What clouds the limewater; pass more CO₂ and it converts to soluble calcium hydrogen carbonate, clearing again." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "既是石灰水反应的产物，也是氢气燃烧的产物。", en: "Product of both the limewater reaction and of burning hydrogen." },
+              role: "r",
+            },
+            {
+              f: "NH₄Cl",
+              name: { zh: "氯化铵（白烟）", en: "Ammonium chloride (the white smoke)" },
+              note: { zh: "固体小颗粒悬浮就是烟，不是雾；雾是液滴。", en: "Suspended solid is smoke; suspended droplets are fog — the two are not the same word." },
+              role: "r",
+            },
+            {
+              f: "KCl",
+              name: { zh: "氯化钾", en: "Potassium chloride" },
+              note: { zh: "留在试纸上的可溶盐，看不出也不算现象。", en: "A soluble salt left in the paper, seen and counted as nothing." },
+              role: "r",
+            },
+            {
+              f: "I₂",
+              name: { zh: "碘（单质）", en: "Iodine" },
+              note: { zh: "与淀粉包合物显蓝色，这就是湿润淀粉-KI 试纸的原理。", en: "Blue with the starch inclusion — the whole working of the moist starch-iodide paper." },
+              role: "r",
+            },
+            {
+              f: "CuSO₄·5H₂O",
+              name: { zh: "五水硫酸铜（蓝色晶体）", en: "Copper sulfate pentahydrate (blue crystals)" },
+              note: { zh: "胆矾；反过来加热到 200 ℃ 上下又变回白色。", en: "Blue vitriol; heat it near 200 °C and it goes white again." },
+              role: "r",
+            },
+          ],
+          icon: "🫙",
+          term: { zh: "常见气体的检验与验满", en: "Testing Gases and Proving a Jar Is Full" },
+          level: 2,
+          oneLiner: {
+            zh: "检验伸进瓶里，验满只在瓶口：氧复燃、CO₂ 浑石灰水、氨使石蕊变蓝。",
+            en: "The test goes into the jar, the fullness check stays at the mouth: oxygen relights, CO₂ clouds limewater, ammonia blues litmus.",
+          },
+          eq: [
+            {
+              lhs: "Ca(OH)₂ + CO₂",
+              cond: { zh: "通入澄清石灰水", en: "bubbled through limewater" },
+              rhs: "CaCO₃↓ + H₂O",
+            },
+            {
+              lhs: "NH₃ + HCl",
+              cond: { zh: "两瓶口相对，白烟", en: "jars mouth to mouth, white fume" },
+              rhs: "NH₄Cl",
+            },
+            {
+              lhs: "Cl₂ + 2KI",
+              cond: { zh: "湿润淀粉-KI 试纸", en: "moist starch-iodide paper" },
+              rhs: "2KCl + I₂",
+            },
+            {
+              lhs: "CuSO₄ + 5H₂O",
+              cond: { zh: "白色粉末变蓝", en: "white powder turns blue" },
+              rhs: "CuSO₄·5H₂O",
+            },
+            {
+              lhs: "2H₂ + O₂",
+              cond: { zh: "点燃，淡蓝色火焰", en: "ignited, pale blue flame" },
+              rhs: "2H₂O",
+            },
+          ],
+          detail: {
+            zh: "先把两个说法分开：检验是认气体本身，试剂要伸入瓶中；验满是证它已经集满，试纸或木条只能放在瓶口，伸进去就不算验满。逐条口径：O₂ 用带火星的木条伸入，复燃即为氧气，验满时在瓶口放一燃着木条、烧得更旺即满；CO₂ 通入澄清石灰水变浑，验满用燃着木条在瓶口火焰熄灭——但能使火焰熄灭的气体不止 CO₂，所以熄灭只说明它不支持燃烧，不能当作鉴定。NH₃ 是常见的碱性气体，使湿润的红色石蕊试纸变蓝；验满把蘸过浓盐酸的玻璃棒靠近瓶口，冒白烟即满。Cl₂ 使湿润的淀粉-KI 试纸变蓝并有刺激性，必须在通风橱里做、尾气通入 NaOH 溶液。SO₂ 使品红溶液浅色、加热后颜色又回来，这正是它与 CO₂ 的分界：CO₂ 不能让品红褪色。H₂ 点燃前必须验纯：用拇指堵住集满气体的试管口，移近火焰松开，听到尖锐爆鸣说明还混有空气，直到只留一声沉闷的“噗”才算净。",
+            en: "Separate the two ideas first: identification asks what gas is there and dips the reagent inside the jar; proving the jar full only touches the mouth, and anything thrust in no longer proves fullness. Oxygen relights a glowing splint inside, and a burning splint held at the mouth burns brighter once the jar is full. Carbon dioxide clouds limewater, and a flame dies at the mouth when the jar is filled — but plenty of gases kill a flame, so going out only says 'does not support burning', never 'is CO₂'. Ammonia is the common alkaline gas and blues moist red litmus; a glass rod wetted with concentrated hydrochloric acid near the mouth shows white fume when the jar is full. Chlorine blues moist starch-iodide paper and stings, so it is worked in a fume hood with the off-gas led into soda lye. Sulfur dioxide fades fuchsin and the colour returns on warming, which is exactly where it parts from carbon dioxide — CO₂ cannot bleach fuchsin at all. Hydrogen must be proved pure before lighting: thumb over the mouth of a filled tube, bring it to the flame and release — a sharp bark means air is still mixed in, and only a soft 'puff' means it is clean.",
+          },
+          tags: [
+            { zh: "气体检验", en: "Gas Tests" },
+            { zh: "实验", en: "Lab" },
+            { zh: "速查", en: "Quick Reference" },
+          ],
+        },
+        {
+          id: "qr-lab-safety",
+          subs: [
+            {
+              f: "Hg",
+              name: { zh: "汞（水银）", en: "Mercury" },
+              note: { zh: "常温下唯一的液态金属，洒落后滚成小珠、难收集，蒸气有毒。", en: "The only liquid metal at room temperature: it rolls into beads hard to gather, and its vapour is toxic." },
+              role: "l",
+            },
+            {
+              f: "S",
+              name: { zh: "硫粉", en: "Sulfur powder" },
+              note: { zh: "常温下就能与汞缓慢结合，把易挥发的汞固定下来。", en: "Combines with mercury slowly at room temperature, pinning down what would otherwise evaporate." },
+              role: "l",
+            },
+            {
+              f: "HgS",
+              name: { zh: "硫化汞（固体）", en: "Mercury(II) sulfide (solid)" },
+              note: { zh: "不再挥发，可以安全扫起、密闭上交；天然矿物即辰砂。", en: "No longer volatile, so it can be swept up, sealed and handed in; the natural mineral is cinnabar." },
+              role: "r",
+            },
+          ],
+          icon: "🧯",
+          term: { zh: "实验基本操作与事故处理", en: "Bench Technique and First Moves After an Accident" },
+          level: 1,
+          oneLiner: {
+            zh: "酸入水、管不对人、pH 试纸不预先润湿；水银洒了不是用扫把，而是撒硫粉。",
+            en: "Acid into water, tube mouth away from people, no wetting pH paper first; spilled mercury gets sulfur dust, not a broom.",
+          },
+          eq: [
+            {
+              lhs: "Hg + S",
+              cond: { zh: "洒落的汞，撒硫粉盖住", en: "spilled mercury, dusted with sulfur" },
+              rhs: "HgS",
+            },
+          ],
+          detail: {
+            zh: "取用：固体「一斜二送三直立」，免得药品沾在管口；液体瓶塞倒放、标签向手心、瓶口挨着试管口倒。闻气味时用手轻轻扇动使少量气体飘入鼻孔，绝不能把鼻子凑到瓶口。加热：试管里液体不超过容积的三分之一，管口不对人，先均匀预热再固定；加热固体时管口略向下，免得冷凝水倒流炸裂试管。计量：托盘天平左物右码，腐蚀性药品放在玻璃器皿里称；量筒只读体积，不能加热、不作反应容器、也不在里面溶解东西。分离：过滤记「一贴二低三靠」，蒸发结晶到大量晶体析出就停火、用余热蒸干。稀释：浓硫酸只能沿器壁缓缓注入水里并不断搅拌，反过来会因局部沸腾把酸液溅到身上。试纸：pH 试纸不能预先润湿（润湿等于把待测液稀释），而石蕊试纸、淀粉-KI 试纸必须用蒸馏水润湿。气密性：先把导管口插进水里再用手捂住容器，管口连续冒气泡、松手后水柱回升才算不漏。善后：钠、钾等活泼金属残渣用乙醇慢慢处理，不丢入废液缸；含银、钡、重金属的废液要回收，不随意倒掉。",
+            en: "Handling: for solids, tilt, deliver upright, straighten, so nothing sticks at the mouth; for liquids, stopper upside-down on the bench, label to the palm, mouth to mouth. Waft the gas toward your nose with a hand — never put your nose at the bottle. Heating: no more than a third of the tube with liquid, mouth pointed at nobody, warm the whole tube before fixing one spot; when heating a solid the mouth tips slightly down so condensate cannot run back and crack the tube. Weighing: substance left, weights right, corrosives always in glass rather than on the pan; a measuring cylinder reads volume only — it is not heated, not a reaction vessel, not a beaker for dissolving. Separation: filter by 'one paste, two lows, three rests', and stop an evaporation while plenty of crystals still form, letting residual heat dry it. Dilution: concentrated sulfuric acid goes down the wall into water with stirring, never the other way, since the local boil throws acid. Paper: pH paper must stay dry, because wetting it dilutes the sample, while litmus and starch-iodide paper must be wetted first. Leaks: stand the delivery tube in water and warm the flask in your hands — a steady line of bubbles, and water climbing back when you let go, is what tight looks like. Cleanup: sodium and potassium scraps are destroyed with ethanol, never dropped in the waste jar, and silver, barium and heavy-metal wastes are collected rather than poured out.",
+          },
+          tags: [
+            { zh: "基本操作", en: "Technique" },
+            { zh: "安全", en: "Safety" },
+            { zh: "速查", en: "Quick Reference" },
+          ],
+          figure: `<svg viewBox="0 0 360 170" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="14" font-size="11" fill="currentColor">意外事故的第一处理 First moves after an accident</text>
+  <g font-size="8.5" fill="currentColor">
+    <text x="6" y="34">浓酸溅到皮肤：大量水冲洗，再涂 3%~5% NaHCO₃ 溶液</text>
+    <text x="6" y="43" font-size="6.5" fill-opacity="0.6">Acid on skin: flood with water, then dilute sodium hydrogen carbonate</text>
+    <text x="6" y="56">浓碱溅到皮肤：大量水冲洗，再涂硼酸溶液</text>
+    <text x="6" y="65" font-size="6.5" fill-opacity="0.6">Alkali on skin: water first, then boric acid</text>
+    <text x="6" y="78">酸或碱溅入眼睛：立即用大量水冲洗，切莫滴酸碱中和，随后就医</text>
+    <text x="6" y="87" font-size="6.5" fill-opacity="0.6">In the eye: water only, never a neutralising drop, then a doctor</text>
+    <text x="6" y="100">酒精灯倾倒着火：用湿布或沙土盖灭，不要用水浇</text>
+    <text x="6" y="109" font-size="6.5" fill-opacity="0.6">Spilled burning alcohol: smother with wet cloth or sand, do not pour water</text>
+    <text x="6" y="122">汞洒落：开窗通风，撒硫粉盖住（Hg + S = HgS），收集残珠</text>
+    <text x="6" y="131" font-size="6.5" fill-opacity="0.6">Spilled mercury: air the room, dust with sulfur, gather the beads</text>
+  </g>
+  <text x="6" y="148" font-size="8.5" fill="#e5484d">⚠ 先冲水再报告；伤处不做“酸碱中和”，因为中和本身还放热</text>
+  <text x="6" y="158" font-size="6.5" fill="#e5484d" fill-opacity="0.85">Flush first, report after; neutralising on the wound adds its own heat</text>
+  <text x="6" y="168" font-size="6.5" fill="currentColor" fill-opacity="0.55">Every line above is a dilution and a removal, not a counter-reaction</text>
+</svg>`,
+        },
+      ],
+    },
     /* ===================== 化学与生产生活 ===================== */
     {
       key: "life-chem",
@@ -5313,6 +5873,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "编制第一张元素周期表，并预言了若干未知元素。",
             en: "Built the first periodic table and predicted unknown elements.",
           },
+          detail: {
+            zh: "1869 年按相对原子质量与性质把已知元素排成一张表，留下空位并预言「类铝」「类硅」「类硼」的性质；镓、锗、钪陆续填上这些格子，是这张表最硬的说服力。他与德国人迈尔几乎同时得到周期体系，优先权长期有争议。真正持久的不是那张表的样式，而是「性质随核电荷递增而重复出现」这条排序逻辑。",
+            en: "He arranged the known elements by atomic weight and similarity in 1869, left gaps, and forecast the properties of 'eka-aluminium', 'eka-silicon' and 'eka-boron'; gallium, germanium and scandium filled them, which is the strongest evidence that the table was right. He got there almost simultaneously with Germany's Meyer, and the priority fight outlived both. What endured is not the layout but the logic: properties recur as charge rises.",
+          },
         },
         {
           id: "lavoisier",
@@ -5322,6 +5886,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "现代化学之父，确立质量守恒与氧化学说。",
             en: "Father of modern chemistry; conservation of mass and oxygen theory.",
+          },
+          detail: {
+            zh: "在密闭容器里精确称量反应前后，把「燃素」从化学里请了出去，证明燃烧是物质与氧结合。1789 年的《化学纲要》给出第一张元素表和一套新命名法，硫酸、氧化物这类名字由此而来；那张表里仍列着「热」与「光」，也把硅、铝当作尚未分解的复合体。他兼任包税官，1794 年死于法国大革命，拉格朗日事后说：砍下这个头颅只要一瞬，一百年也长不出第二个。",
+            en: "Weighing reactants and products in sealed vessels, he removed phlogiston from chemistry and showed burning as combination with oxygen. His 1789 textbook carried the first element table and the naming system still used for sulfates and oxides — though it listed heat and light among the elements and treated silica and alumina as unsplit compounds. He also farmed taxes for the crown and was guillotined in 1794; Lagrange: a moment sufficed to cut that head off, and a century will not grow another.",
           },
         },
         {
@@ -5333,6 +5901,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "提出原子论，认为物质由不可再分的原子构成。",
             en: "Proposed atomic theory: matter is made of indivisible atoms.",
           },
+          detail: {
+            zh: "他把原子拉进定量化学：以氢为 1 推出相对原子质量，用「最简比」猜化学式（因此把水写成 HO、氨写成 NH），并给出混合气体的分压定律。他坚信原子不可再分、同种元素的原子一般重，这两条后来分别被同位素与核物理推翻。他拒绝阿伏伽德罗的分子假说，原子量与分子量于是纠缠了半个世纪。",
+            en: "He made atoms quantitative: taking hydrogen as 1 he tabulated relative atomic weights, guessed formulae by the simplest ratio (so water became HO and ammonia NH) and stated the law of partial pressures. He held atoms indivisible and of equal weight within an element — both later broken, by isotopes and by nuclear physics. Rejecting Avogadro's molecule, he left atomic and molecular weights tangled for fifty years.",
+          },
         },
         {
           id: "boyle",
@@ -5342,6 +5914,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "玻意耳定律（pV = 常量）奠定气体研究基础。",
             en: "Boyle's law (pV = const) founded the study of gases.",
+          },
+          detail: {
+            zh: "用自制的抽气泵做「空气弹」实验，1662 年得出温度不变时气体压强与体积成反比，器械与操作多由胡克动手完成。《怀疑的化学家》（1661）既反对四元素也反对三要素，主张化学的任务是把具体物体拆成成分并逐一定量——他给元素下了个操作性定义：元素是不能再分解为更简单身体的物质。",
+            en: "With a pump of his own building he ran air-gun experiments and in 1662 reported that at fixed temperature a gas trades pressure against volume; Hooke made and worked much of the apparatus. The Sceptical Chymist of 1661 refused both the four elements and the three principles, assigning chemistry the task of resolving bodies into ingredients and measuring each. His working definition: an element is what cannot be broken into a simpler body.",
           },
         },
         {
@@ -5353,6 +5929,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "发现钋与镭，放射性研究的先驱。",
             en: "Discovered polonium and radium; pioneer of radioactivity.",
           },
+          detail: {
+            zh: "「放射性」这个词由她造出。她与皮埃尔·居里从成吨沥青铀矿渣里煮炼、分级结晶，1898 年先析出钋（以波兰命名）再得镭，并测出镭的原子量。1903 年的物理学奖与皮埃尔、贝克勒尔共享，1911 年的化学奖因分离纯镭归她一人。一战时她组织流动 X 光车上前线；1934 年死于再生障碍性贫血，笔记本至今带放射性，查阅者要穿防护服并签同意书。",
+            en: "She coined the word 'radioactivity'. With Pierre she boiled down tonnage of pitchblende residue and crystallised it in fractions, isolating polonium in 1898 (named for her Poland) and then radium, and fixing radium's atomic weight. The 1903 physics prize was shared with Pierre and Becquerel; the 1911 chemistry prize was hers alone for the isolated metal. She ran mobile X-ray units to the front in the First War and died of aplastic anaemia in 1934 — her notebooks stay radioactive and are still handled in protective clothing behind signed waivers.",
+          },
         },
         {
           id: "pauling",
@@ -5362,6 +5942,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "化学键本质与电负性研究的巨擘，两获诺贝尔奖。",
             en: "Giant of chemical bonding and electronegativity; two-time Nobel laureate.",
+          },
+          detail: {
+            zh: "把量子力学接进化学键：杂化轨道、电负性标度与「共振」都出自他 1931 年起的系列工作，《化学键的本质》至今是这门学科的语言。1951 年他与科里提出蛋白质主链的 α 螺旋与 β 折叠，同一时期给出的 DNA 三螺旋模型却是错的。1954 年获化学奖，1962 年因推动部分禁核试条约再得和平奖。晚年投入大剂量维生素 C 防治感冒与癌症，证据薄弱，这是他名声上最实的一处伤口。",
+            en: "He brought quantum mechanics into the bond: hybridisation, the electronegativity scale and 'resonance' all come from work begun in 1931, and The Nature of the Chemical Bond still sets the vocabulary. With Corey he proposed the α-helix and β-sheet of protein backbones in 1951 — and, in the same stretch, a wrong triple-helix model of DNA. Chemistry prize 1954, peace prize 1962 for his push behind the test-ban treaty. His late campaign for megadose vitamin C against colds and cancer rested on thin evidence and is the plainest wound on his reputation.",
           },
         },
         {
@@ -5373,6 +5957,10 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "提出同温同压下等体积气体含等量分子（阿伏伽德罗定律）。",
             en: "Equal gas volumes hold equal molecule counts at same T and P.",
           },
+          detail: {
+            zh: "1811 年提出：气体单质常以双原子分子存在（H₂、O₂、Cl₂），同温同压下等体积的气体含同样多的分子。这条假说能把盖-吕萨克测出的体积比直接换算成化学式，却被道尔顿与贝采利乌斯拒斥；他此后几乎再无新论，1856 年在冷清中去世，被长期忽略。真正的承认是 1860 年以后，而「阿伏伽德罗常数」这个叫法出现在他身后。",
+            en: "In 1811 he proposed that the elemental gases are diatomic (H₂, O₂, Cl₂) and that equal volumes of gas at the same temperature and pressure hold equal numbers of molecules. The hypothesis converted Gay-Lussac's measured volume ratios straight into formulae, and Dalton and Berzelius rejected it; he published little after, and died quietly in 1856, long overlooked. Recognition came only after 1860, and the name 'Avogadro's number' for the constant postdated him.",
+          },
         },
         {
           id: "lechatelier",
@@ -5382,6 +5970,108 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "提出平衡移动原理，指导化工生产条件优化。",
             en: "Stated the equilibrium-shift principle guiding chemical industry.",
+          },
+          detail: {
+            zh: "1888 年总结出移位规则：改变条件时，平衡向削弱这一改变的方向移动（前一年德国人布朗已独立发表同一原理，故也常并称勒夏特列-布朗原理）。他出身矿业世家，把工业现场当实验室：改进本生灯与安全煤气灯、发明光学高温计、建立测定钢中碳的定碳法，也是最早解释水泥硬化机理的人之一。",
+            en: "In 1888 he stated the shift rule: a system at equilibrium answers a change by partly undoing it (the German Braun had published the same the year before, hence Le Chatelier–Braun). From a mining family, he treated the works as his laboratory — improving the Bunsen burner and the miners' safety lamp, inventing an optical pyrometer and the carbon-in-steel determination, and among the first to explain how cement hardens.",
+          },
+        },
+        {
+          id: "scheele",
+          icon: "🧪",
+          term: { zh: "卡尔·威廉·舍勒", en: "Carl Wilhelm Scheele" },
+          level: 1,
+          oneLiner: {
+            zh: "药房学徒出身的实验天才，独立发现氧与氯，还分离出一批有机酸。",
+            en: "A pharmacy apprentice who found oxygen and chlorine independently and isolated a generation of organic acids.",
+          },
+          detail: {
+            zh: "1770 年代他在乌普萨拉与林雪平的药房里，用简陋器具把空气拆开研究：约 1772 年制得氧气并称它「火的空气」，只因出版晚于普利斯特里而丢了优先权。氯（1774 年由盐酸与软锰矿作用得到）、锰、钡，以及草酸、乳酸、柠檬酸、尿酸都出自他的手，他还发明了含砷的颜料「舍勒绿」。他习惯用看、闻、尝来鉴定试剂，四十余岁即病逝；后人检测其遗骸发现汞含量异常高，普遍推测长期的重金属暴露加速了他的死亡。",
+            en: "Through the 1770s, in pharmacies at Uppsala and Linköping, he took air apart with rudimentary glassware: oxygen by about 1772, which he called 'fire air', a claim lost to Priestley only because he published later. Chlorine (1774, from muriatic acid on manganese ore), manganese, barium, and oxalic, lactic, citric and uric acids all came from his bench, along with the arsenical pigment 'Scheele's green'. He identified reagents by looking, sniffing and tasting, and was dead in his forties; later assay of his remains found startlingly high mercury, and long heavy-metal exposure is the usual explanation.",
+          },
+        },
+        {
+          id: "priestley",
+          icon: "🌱",
+          term: { zh: "约瑟夫·普利斯特里", en: "Joseph Priestley" },
+          level: 1,
+          oneLiner: {
+            zh: "用凸透镜聚热分解氧化汞，收集到能让蜡烛烧得更旺的气体，独立发现氧气。",
+            en: "Lenses focused on mercury calx gave him a gas that made candles burn brighter: oxygen, found independently.",
+          },
+          detail: {
+            zh: "1774 年他用大凸透镜把日光聚到氧化汞上，收集起这种能让蜡烛爆燃、小鼠活得更久的「脱燃素空气」。更早几年他已把薄荷枝与点着的蜡烛扣在同一只钟罩里，看到植物能修补被蜡烛和老鼠弄坏的气体——空气被光合修复这件事第一次露出头角。他在解释上始终站在燃素一边，于是发现归他、理论归拉瓦锡。他还把二氧化碳压进水里做出汽水；他是神学家与一位论者，因公开支持美国与法国革命而在 1794 年远走宾夕法尼亚。",
+            en: "In 1774 a burning lens over mercury calx gave him a gas that flashed candles into brighter flame and kept mice lively: 'dephlogisticated air'. Years earlier he had shut a mint sprig and a lit candle under the same bell jar and watched the plant repair air that candle and beast had spoiled — the first sight of photosynthesis restoring the atmosphere. He stayed a phlogistonian to the end, so the discovery is his and the theory is Lavoisier's. He also forced CO₂ into water and invented soda water; a Unitarian theologian, his open support for the American and French revolutions drove him to Pennsylvania in 1794.",
+          },
+        },
+        {
+          id: "davy",
+          icon: "⚡",
+          term: { zh: "汉弗里·戴维", en: "Humphry Davy" },
+          level: 2,
+          oneLiner: {
+            zh: "用大电池电解熔盐，一年之内分离出钾与钠，把电解变成发现元素的手段。",
+            en: "Electrolysing molten salts with a giant battery, he isolated potassium and sodium within a year and made electrolysis a way to find elements.",
+          },
+          detail: {
+            zh: "1807 年他用那台巨型伏打电堆电解熔融的苛性钾与苛性钠，取得在水面闪燃的金属钾与钠；钙、锶、钡、镁随后相继分离，他又证明氯是一种元素而非含氧的酸——这一点上拉瓦锡判断错了。他记录过一氧化二氮能消除疼痛并建议用于手术，真正把它推上临床的是后来的牙科医生；他也证明金刚石在纯氧中能烧成二氧化碳，并发明了煤矿用的安全灯。他把装订学徒出身的法拉第提为自己的实验助手——这一步比他任何一个发现都更改变了化学。",
+            en: "In 1807 a giant battery drove current through molten caustic potash and caustic soda, yielding potassium and sodium that flashed on water; calcium, strontium, barium and magnesium followed, and he showed chlorine to be an element rather than an oxygen-bearing acid, on which Lavoisier had been wrong. He noted that nitrous oxide could take away pain and suggested it for surgery — dentists were the ones who made that real — proved that diamond burns to CO₂ in pure oxygen, and invented the miners' safety lamp. He also hired Faraday, a bookbinder's apprentice, as his laboratory assistant: one decision that did more for chemistry than any of his discoveries.",
+          },
+        },
+        {
+          id: "berzelius",
+          icon: "🏷️",
+          term: { zh: "永斯·贝采利乌斯", en: "Jöns Berzelius" },
+          level: 2,
+          oneLiner: {
+            zh: "定下今天仍在用的元素符号写法，把「催化」「同分异构」「蛋白质」这些词请进化学。",
+            en: "Set the element symbols we still write, and brought catalysis, isomerism and protein into the language.",
+          },
+          detail: {
+            zh: "1811 年他主张用拉丁名字的首字母加次字母做符号（O、H、Cu、Fe），数字前缀表示原子个数，取代此前各行其是的炼金式记号；这套写法沿用至今。他测定了四十余种元素的原子量，编出第一张可用的原子量表，发现铈（1803）、硒（1817）与钍（1828），并首次制得较纯的硅、锆和钽。「催化」（1835）、「同分异构」（1830）与「蛋白质」（1838）这些名字都出自他手。他的整套思路建立在「化合物由正负两半相吸」的二元电化理论上，因此难以接受有机化学的新发展，晚年与维勒、李比希等人公开争执。",
+            en: "In 1811 he argued for symbols taken from Latin names — O, H, Cu, Fe — with numerals for counts, replacing the private alchemical shorthand, and the notation has survived him. He measured the atomic weights of some forty-five elements and drew the first usable table, discovered cerium (1803), selenium (1817) and thorium (1828), and prepared silicon, zirconium and tantalum in near-pure form. 'Catalysis' (1835), 'isomerism' (1830) and 'protein' (1838) are his coins. Everything sat on his dualistic electrochemical theory, in which a compound is two halves held by opposite electricity, and that frame made the new organic chemistry hard for him to accept; the quarrels with Wöhler and Liebig turned public in his old age.",
+          },
+        },
+        {
+          id: "arrhenius",
+          icon: "🌡️",
+          term: { zh: "斯凡特·阿伦尼乌斯", en: "Svante Arrhenius" },
+          level: 3,
+          oneLiner: {
+            zh: "说盐溶于水自己就分成离子，又给出速率随温度变化的指数关系。",
+            en: "Salts split into ions on dissolving, and rates climb with temperature by his exponential law.",
+          },
+          detail: {
+            zh: "1884 年他的博士论文提出电解质在水中自发解离成离子、并不需要通电，评分被压到能授予学位的下限；这套说法要到范托夫与科尔劳施用依数性和电导数据支持之后才翻了案，1903 年为他换来诺贝尔化学奖。1889 年他解释为什么升温对速率的提升远大于碰撞次数增加所能解释的，给出 k = A·e^(−Ea/RT) 与活化能，这条指数关系至今是化工选择温度的依据。1896 年他第一次定量算出大气二氧化碳翻倍会带来地表增温（他的估计在 5 ℃ 上下），是温室效应研究的起点——他自己还以为这对北方农业是好事。",
+            en: "His 1884 dissertation held that electrolytes split into ions on their own when dissolved, no current required, and was graded at the lowest mark that still passed; the idea reversed only after van 't Hoff and Kohlrausch backed it with colligative data and conductivity, and it brought him the 1903 chemistry prize. In 1889 he explained why heating speeds a reaction far more than the extra collisions alone would, giving k = A·e^(−Ea/RT) and the activation energy — still the reason industry picks the temperatures it does. And in 1896 he made the first quantitative estimate of how much a doubling of atmospheric CO₂ would warm the surface, around five degrees, founding climate physics while believing it would rather help northern farms.",
+          },
+        },
+        {
+          id: "vanthoff",
+          icon: "🔺",
+          term: { zh: "雅各布斯·范托夫", en: "Jacobus van 't Hoff" },
+          level: 3,
+          oneLiner: {
+            zh: "把碳的四个键摆成正四面体，一举解释了互为镜像却不同的两种分子。",
+            en: "He set carbon's four bonds at the corners of a tetrahedron and explained mirror-image molecules at a stroke.",
+          },
+          detail: {
+            zh: "1874 年，二十二岁的他自费印出几页小册子，主张碳的四个价键指向正四面体的四个顶角：若一个碳连着四个不同基团，两种排列互为镜像而无法重合，旋光性的差别就有了结构解释——立体化学由此成立；法国人勒贝尔同年独立提出同一想法。同样的空间与数学思路被他搬到溶液与速率上：解释电解质依数性的范托夫因子、与气体方程同形的渗透压式 πV = nRT，以及速率随温度上升的经验关系。1901 年他领取首届诺贝尔化学奖。这套主张起初反响冷淡，他陆续以法文、英文重述，几年内被实验陆续证实；晚年研究海水蒸发析盐的顺序与植物营养。",
+            en: "In 1874, aged twenty-two, he self-published a handful of pamphlet pages arguing that carbon's four bonds point to the corners of a tetrahedron: with four different groups on one carbon the two arrangements are mirror images that cannot be superposed, which gave optical activity its structural explanation and founded stereochemistry; Le Bel reached the same idea that year. He carried the same spatial mathematics into solutions and rates — the factor bearing his name for electrolyte colligative action, the osmotic law πV = nRT matching the gas equation, and an empirical rule for how rates climb with temperature. The first chemistry Nobel, in 1901, was his. The idea landed cold; he restated it in French and then English, and within a few years experiments came in on its side. Late on he worked out the order in which sea salt crystallises as brine evaporates, and plant nutrition.",
+          },
+        },
+        {
+          id: "hou-debang",
+          icon: "🧂",
+          term: { zh: "侯德榜", en: "Hou Debang" },
+          level: 2,
+          oneLiner: {
+            zh: "把索尔维制碱法的封锁写成书公开，又用联合制碱法让氯化铵变成氮肥。",
+            en: "He broke the Solvay blockade by publishing it, then turned ammonium chloride into fertiliser with his combined process.",
+          },
+          detail: {
+            zh: "纯碱工艺当年被索尔维公司严密技术封锁，只许看不许问。他在永利查清碳酸化塔结疤堵塞的原因（碳酸氢钠在器壁析出），1926 年做出「红三角」牌纯碱。1933 年他用英文写成《制碱》在美国出版，把原料、设备与工艺要点摊开给全世界，封锁自此失效。抗战时工厂西迁重庆，到 1943 年他首创联合制碱：把合成氨与制碱联在同一套系统里，向母液加食盐低温析出氯化铵作氮肥，二氧化碳与食盐水循环使用，食盐的利用率由索尔维法的不足八成提到九成以上，也不再有大量氯化钙废液堆山。1955 年他当选中国科学院首批学部委员。",
+            en: "The Solvay process was blockaded: plants could be visited, nothing could be asked. At the Yongli works he traced the fouling of the carbonating towers to sodium bicarbonate crusting on the walls, and in 1926 his 'Red Triangle' soda ash went to market. In 1933 he published Manufacture of Soda in the United States, laying the raw materials, plant and process open to the world, after which the blockade meant nothing. War drove the works inland to Chongqing, and by 1943 he had created the combined process: ammonia synthesis and soda manufacture in one system, salt added to the mother liquor to crystallise ammonium chloride as nitrogen fertiliser, carbon dioxide and brine recycled. Salt utilisation rose from under four-fifths to better than nine-tenths, and the heaps of waste calcium chloride disappeared. In 1955 he was elected among the first academicians of the Chinese Academy of Sciences.",
           },
         },
       ],

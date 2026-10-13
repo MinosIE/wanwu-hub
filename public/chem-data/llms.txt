@@ -2,7 +2,7 @@
 
 > 从元素、化学反应到材料与化学家，理解物质如何组合、分解与转化。
 
-共 250 条 / 17 类，全部为结构化 JSON。
+共 264 条 / 18 类，全部为结构化 JSON。
 
 ## 数据入口
 - [物质构成与化学键](https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json)
@@ -19,6 +19,7 @@
 - [有机化学](https://minosie.github.io/wanwu-hub/chem-data/data/organic.json)
 - [概览与计数](https://minosie.github.io/wanwu-hub/chem-data/data/overview.json)
 - [元素周期表](https://minosie.github.io/wanwu-hub/chem-data/data/periodic-table-full.json)
+- [速查表](https://minosie.github.io/wanwu-hub/chem-data/data/quickref.json)
 - [反应类型](https://minosie.github.io/wanwu-hub/chem-data/data/reactions.json)
 - [溶液与化学计算](https://minosie.github.io/wanwu-hub/chem-data/data/solutions.json)
 - [参考资料](https://minosie.github.io/wanwu-hub/chem-data/data/sources.json)

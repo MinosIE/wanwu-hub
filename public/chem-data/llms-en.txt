@@ -2,7 +2,7 @@
 
 > Elements, reactions, materials and chemists — how matter combines, breaks apart and transforms.
 
-250 entries across 17 categories, all as structured JSON.
+264 entries across 18 categories, all as structured JSON.
 
 ## Data endpoints
 - [Structure & Chemical Bonds](https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json)
@@ -19,6 +19,7 @@
 - [Organic Chemistry](https://minosie.github.io/wanwu-hub/chem-data/data/organic.json)
 - [Overview & counts](https://minosie.github.io/wanwu-hub/chem-data/data/overview.json)
 - [Periodic Table](https://minosie.github.io/wanwu-hub/chem-data/data/periodic-table-full.json)
+- [Quick Reference](https://minosie.github.io/wanwu-hub/chem-data/data/quickref.json)
 - [Reaction Types](https://minosie.github.io/wanwu-hub/chem-data/data/reactions.json)
 - [Solutions & Calculations](https://minosie.github.io/wanwu-hub/chem-data/data/solutions.json)
 - [References](https://minosie.github.io/wanwu-hub/chem-data/data/sources.json)
