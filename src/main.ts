@@ -1,5 +1,5 @@
-import { initLang, onLangChange, getLang } from "./core/i18n";
-import { initTheme, onThemeChange } from "./core/theme";
+import { initLang, onLangChange } from "./core/i18n";
+import { initTheme } from "./core/theme";
 import { parse, onRoute } from "./core/router";
 import { renderLayout } from "./core/layout";
 import { PROJECTS } from "./core/projects";

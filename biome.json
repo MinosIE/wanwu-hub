@@ -57,6 +57,19 @@
           "quoteStyle": "single"
         }
       }
+    },
+    {
+      "includes": ["src/subjects/**/*.css"],
+      "linter": {
+        "rules": {
+          "complexity": {
+            "noImportantStyles": "off"
+          },
+          "style": {
+            "noDescendingSpecificity": "off"
+          }
+        }
+      }
     }
   ]
 }

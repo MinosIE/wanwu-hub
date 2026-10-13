@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { L, t } from '../core/i18n';
+import { t } from '../core/i18n';
 import { esc } from '../core/dom';
 
 export const quiz: ListModule = {

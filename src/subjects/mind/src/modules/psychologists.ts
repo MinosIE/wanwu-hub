@@ -1,5 +1,4 @@
 import type { ListModule } from '../core/types';
-import { L } from '../core/i18n';
 import { esc } from '../core/dom';
 
 function listHtml(arr: unknown): string {

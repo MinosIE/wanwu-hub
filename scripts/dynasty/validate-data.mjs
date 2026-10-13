@@ -33,7 +33,7 @@ for (const f of files) {
   const closedGroups = new Set();
   for (const e of d.emperors) {
     const y = startYear(e.rg);
-    if (isNaN(y)) {
+    if (Number.isNaN(y)) {
       console.log(`[无法解析] ${d.name} ${e.n} rg=${e.rg}`);
       continue;
     }

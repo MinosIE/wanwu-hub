@@ -196,7 +196,7 @@ function anchorMount(el: HTMLElement): void {
       const v = parseInt(inp.value, 10);
       const res = document.getElementById('ancRes');
       if (!res) return;
-      res.innerHTML = `<p class="demo-note">${bi({ zh: `你的估算：${isNaN(v) ? '—' : v}%。刚才的锚是 ${a}；研究显示高锚会拉高、低锚会拉低估计——这就是锚定效应。真实比例约 ${real}%。`, en: `Your estimate: ${isNaN(v) ? '—' : v}%. The anchor was ${a}; studies show high anchors pull estimates up, low anchors down — the anchoring effect. The real share is ~${real}%.` })}</p>
+      res.innerHTML = `<p class="demo-note">${bi({ zh: `你的估算：${Number.isNaN(v) ? '—' : v}%。刚才的锚是 ${a}；研究显示高锚会拉高、低锚会拉低估计——这就是锚定效应。真实比例约 ${real}%。`, en: `Your estimate: ${Number.isNaN(v) ? '—' : v}%. The anchor was ${a}; studies show high anchors pull estimates up, low anchors down — the anchoring effect. The real share is ~${real}%.` })}</p>
         <button class="demo-btn" id="ancAgain">${bi({ zh: '换个锚再试', en: 'Try another anchor' })}</button>`;
       const again = document.getElementById('ancAgain');
       if (again) again.addEventListener('click', paint);

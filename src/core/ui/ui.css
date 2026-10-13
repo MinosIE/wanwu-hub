@@ -800,7 +800,10 @@
     scroll-behavior: auto;
   }
   .subject-root * {
+    /* 用户开启「减弱动效」时须压过学科内所有 transition/animation，此处 !important 是刻意的 */
+    /* biome-ignore lint/complexity/noImportantStyles: prefers-reduced-motion 的全局兜底 */
     animation-duration: 0.001ms !important;
+    /* biome-ignore lint/complexity/noImportantStyles: prefers-reduced-motion 的全局兜底 */
     transition-duration: 0.001ms !important;
   }
 }

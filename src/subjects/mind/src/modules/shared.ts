@@ -1,7 +1,7 @@
 import type { ListModule, LObj } from '../core/types';
 import { loadJson } from '../core/data';
 import { registerItem, registerModuleType, getItem } from '../core/related';
-import { getLang, t, L, onLangChange } from '../core/i18n';
+import { t, L, onLangChange } from '../core/i18n';
 import { esc } from '../core/dom';
 import { renderDetail } from '../core/detail';
 import { moduleById } from './index';
