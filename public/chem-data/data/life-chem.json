@@ -343,7 +343,7 @@
       }
     ],
     "icon": "🏗️",
-    "term": "高炉练铁",
+    "term": "高炉炼铁",
     "termEn": "Blast-Furnace Iron",
     "level": 1,
     "oneLiner": "一氧化碳在高温下把氧化铁还原为铁。",
@@ -354,7 +354,7 @@
       "condEn": "high temp",
       "rhs": "2Fe + 3CO₂"
     },
-    "detail": "高炉中以 CO 作还原剂练铁，是现代钢铁工业的核心反应。",
+    "detail": "高炉中以 CO 作还原剂炼铁，是现代钢铁工业的核心反应。",
     "detailEn": "CO serves as the reducing agent — the heart of modern ironmaking.",
     "tags": ["工业"],
     "tagsEn": ["Industry"]

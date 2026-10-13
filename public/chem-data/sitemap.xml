@@ -4,6 +4,7 @@
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/chem-industry.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/chemists.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/concepts.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/electrochem.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>

@@ -32,7 +32,7 @@
 - [x] **hero 副标语 `.hero-tag`（原 `heroSub`）**：其他学科 hero 只有一行导语，这行小字副标语是 physics/chem 独有的，已删除；`SubjectConfig.heroSub` 字段、physics/chem `data.ts` 里的取值、`scripts/export-data.mjs` 导出的 `heroSub`/`heroSubEn` 与 `subjectKit.css` 样式一并清理（overview.json 需重跑 `npm run data:export`）。
 - [x] **模块标题行 `.sm-head`**：与其他学科的 `.mod-head` 功能重叠但长相不同（左对齐 + 右侧计数徽章），已改用共享 `.mod-head`（居中标题），subjectKit.css 里的 `.sm-head`/`.sm-count` 自定义规则与 `setCount()` 全部删除。
 - [x] **详情面板难度文案**：徽标与 eyebrow 由 `L1/L2/L3` 改为中文等级词（入门/进阶/拓展），与 thought 等学科用词一致。
-- [x] **`level` 数据覆盖面**：已补齐。physics 130/130、chem 非周期表 114/114 条均有难度（周期表 118 条按 `kind: "periodic"` 不参与难度筛选，`subjectKit` 的 `hasLevels()` 已排除）。难度按中国课标进入时点人工判定（1 入门 / 2 进阶 / 3 拓展），非机械填充。浏览器实测：chem 15 个模块中 14 个、physics 16 个模块全部出现难度筛选条。
+- [x] **`level` 数据覆盖面**：已补齐。physics 130/130、chem 非周期表 121/121 条均有难度（周期表 118 条按 `kind: "periodic"` 不参与难度筛选，`subjectKit` 的 `hasLevels()` 已排除）。难度按中国课标进入时点人工判定（1 入门 / 2 进阶 / 3 拓展），非机械填充。浏览器实测：chem 16 个模块中 15 个、physics 16 个模块全部出现难度筛选条。
 - [ ] **KPI / 详情 / footer 视觉对齐**：physics/chem 的 `sub-detail` / 简单 footer 与 FULL 风格统一。
 - [ ] **首页学科计数口径对齐**：顶栏/首页统计数字（学科数）需同步对齐，避免口径矛盾。
 
@@ -46,7 +46,8 @@
 
 ## 3. 内容扩充
 
-- [ ] **physics/chem 种子内容深化**：（本条原记的「`data.ts:7` 标注『示例性内容，持续扩充中』」与「physics 31 条 / chem 34 条」均已失真：全仓无该标注（只有 econ 的「示例性年度近似值」），实际为 physics 130 条 / chem 233 条，其中 118 条是完整周期表。当前双语字段无缺失、难度字段已全覆盖；仍偏浅的是**每模块条目的广度**（physics 最少的 methods / fluids / relativity / waves / tech 各 4-5 条，chem 的 energy / electrochem 各 5 条），以及 physics 16 个模块、chem 15 个模块尚未覆盖力、热以外的专题（如近代物理实验、化学与工程、环境化学）。
+- [ ] **physics/chem 种子内容深化**：（本条原记的「`data.ts:7` 标注『示例性内容，持续扩充中』」与「physics 31 条 / chem 34 条」均已失真：全仓无该标注（只有 econ 的「示例性年度近似值」），实际为 physics 130 条 / chem 239 条，其中 118 条是完整周期表。当前双语字段无缺失、难度字段已全覆盖；仍偏浅的是**每模块条目的广度**（physics 最少的 methods / fluids / relativity / waves / tech 各 4-5 条，chem 的 energy / electrochem 各 5 条），以及 chem 16 个模块虽已新增「化学与工程」，但**环境化学只有 1 条**（海水提溴、石油与煤化工、玻璃/水泥/陶瓷、电池回收仍全缺），physics 16 个模块仍缺近代物理实验一类专题。
+- [x] **chem 新增「化学与工程」模块 `chem-industry`**（⚙️，6 条 / 19 个方程式 / 42 项 `subs` / 2 张内联 SVG）：粗硅提纯与半导体级硅（三步串联 + HCl 循环）、接触法制硫酸（三塔，含 `SO₂ ⇌ SO₃` 可逆与「为何不直接加水吸收」）、氨氧化法制硝酸（Pt-Rh 网催化 + NO 循环）、冰晶石熔盐电解炼铝（含阳极被消耗的总结果）、铜的电解精炼与阳极泥（三式均 `rel: "equal"`，与 `electrochem` 口径一致）、含铬废水的还原沉淀处理（先酸化还原、再加石灰沉淀）。方程式逐条过配平/电荷守恒脚本核验；难度按课标时点判为 2/3 混合（与既有氯碱 2、合成氨 3 对齐，非机械填 3）。chem 15→16 模块、233→239 条，`data:export` / `gen:geo` / `gen:sitemap` 已同步，浏览器实测中英 × 明暗 41 项断言全过、0 报错。
 - [x] **chem 补「电子废弃物提金」工艺流程**：`life-chem` 新增 `eq-ewaste-gold`（难度 3）——四步流程（拆解分选 → 浸出 → 还原沉淀 → 熔炼铸锭）配 4 条方程式（王水溶金、氰化浸出、焦亚硫酸钠还原、铜置换）、8 项 `subs` 逐物种释义、一张内联 SVG 流程图（`currentColor` 文本 + 金色试剂标注，暗夜下已实测可读），品位与安全口径写到条目里（电路板 80–300 g Au/t vs 矿石 1–5 g/t；NO₂/Cl₂ 与 CN⁻ 危害、废液须处理、金多为铜银钯综合回收的副产品）。chem 232→233 条，`data:export` / `gen:geo` 已同步，双语与来源门禁 0 错 0 警。
 - [x] **econ 补「骗局与泡沫」模块与金融大事件**：新增 `bubbles.json`（16 条中英双语：郁金香、南海、庞氏、亨特兄弟、巴林、LTCM、互联网泡沫、安然、银广夏、麦道夫、LIBOR、PlusToken、Wirecard、LUNA、FTX 等）与新视图 `m-bubbles`（`template.ts` section + 导航按钮 + `s/build-econ-index.mjs` 登记 + i18n 双语键）；`events.json` 22→31（黑色星期一、黑色星期三/索罗斯做空英镑、俄罗斯违约、欧元区主权债务危机、闪电崩盘、2015 A 股异常波动、瑞郎脱钩、英国迷你预算、硅谷银行）。econ 模块 16→17、条目 207→232，overview 计数/KPI 与四份 GEO 文档已同步。
 - [x] **econ 图表数据口径**：先摸底发现数据层早已说清（每张图标题带「（示意）」、`note`/`noteEn` 逐图免责、`sources` 标「近似整理」，`charts.ts` 已渲染，`llms-full.txt` 也带）；真正缺的是两件事，已修：① 口径标到 **SVG 本体**（`svg.chart .c-mark`，文案新增 `ui.chartMark`：「示意 · 非实测数据」/ “Schematic · not measured”），卡片被截图外传时口径不会随之丢失；② `charts.ts` 原本自己拼接 `src.label`，**英文界面漏中文**，改为复用 `core/detail.ts` 导出的 `srcLabel()`（单一真相源，年份括号随语言）。实测 7/7 张图双语均正常。**不换为真实数值序列**：本仓无法核验数据源，把近似值改扮成可引用统计比口径不清更糟。

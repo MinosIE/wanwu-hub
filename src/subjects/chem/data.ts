@@ -2244,7 +2244,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           icon: "🏗️",
-          term: { zh: "高炉练铁", en: "Blast-Furnace Iron" },
+          term: { zh: "高炉炼铁", en: "Blast-Furnace Iron" },
           level: 1,
           oneLiner: {
             zh: "一氧化碳在高温下把氧化铁还原为铁。",
@@ -2256,7 +2256,7 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             rhs: "2Fe + 3CO₂",
           },
           detail: {
-            zh: "高炉中以 CO 作还原剂练铁，是现代钢铁工业的核心反应。",
+            zh: "高炉中以 CO 作还原剂炼铁，是现代钢铁工业的核心反应。",
             en: "CO serves as the reducing agent — the heart of modern ironmaking.",
           },
           tags: [{ zh: "工业", en: "Industry" }],
@@ -2767,6 +2767,550 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Stomach acid is HCl; Al(OH)₃ antacids relieve pain by neutralization. Baking soda also works but releases gas.",
           },
           tags: [{ zh: "生活", en: "Life" }],
+        },
+      ],
+    },
+    /* ===================== 化学与工程 ===================== */
+    {
+      key: "chem-industry",
+      icon: "⚙️",
+      title: { zh: "化学与工程", en: "Chemical Engineering" },
+      items: [
+        {
+          id: "ind-si",
+          subs: [
+            {
+              f: "SiO₂",
+              name: { zh: "二氧化硅（石英砂）", en: "Silicon dioxide (quartz sand)" },
+              note: { zh: "原料，来源是沙子与石英。", en: "The feedstock, from sand and quartz." },
+              role: "l",
+            },
+            {
+              f: "C",
+              name: { zh: "焦炭", en: "Coke" },
+              note: { zh: "还原剂，自己被氧化成 CO。", en: "Reducer; itself oxidized to CO." },
+              role: "l",
+            },
+            {
+              f: "Si",
+              name: { zh: "硅（粗硅 → 高纯硅）", en: "Silicon (metallurgical → solar grade)" },
+              note: {
+                zh: "第一步只得 98~99% 粗硅，第三步才沉积出高纯硅。",
+                en: "Step one gives only 98–99% crude; step three deposits pure Si.",
+              },
+              role: "r",
+            },
+            {
+              f: "CO↑",
+              name: { zh: "一氧化碳", en: "Carbon monoxide" },
+              note: { zh: "电弧炉尾气，可燃、有毒。", en: "Toxic, flammable off-gas of the furnace." },
+              role: "r",
+            },
+            {
+              f: "HCl",
+              name: { zh: "氯化氢", en: "Hydrogen chloride" },
+              note: { zh: "第二步消耗、第三步再生，可循环利用。", en: "Used in step two, regenerated in step three; recycled." },
+              role: "l",
+            },
+            {
+              f: "SiHCl₃",
+              name: { zh: "三氯氢硅", en: "Trichlorosilane" },
+              note: { zh: "液态中间体，蒸馏即可除去硼、磷等杂质。", en: "Liquid intermediate; distillation strips boron and phosphorus." },
+              role: "r",
+            },
+            {
+              f: "H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: { zh: "还原剂，把硅从 SiHCl₃ 里重新放出来。", en: "Reducer that frees silicon again from SiHCl₃." },
+              role: "l",
+            },
+          ],
+          icon: "🖥️",
+          term: { zh: "粗硅提纯与半导体级硅", en: "Purifying Silicon for Chips" },
+          level: 3,
+          oneLiner: {
+            zh: "石英砂用焦炭还原得粗硅，转成三氯氢硅蒸馏后再氢还原，区熔得 9N 高纯硅。",
+            en: "Coke reduces quartz to crude Si; convert it to SiHCl₃, distill, reduce with H₂, then zone-refine to 9N.",
+          },
+          eq: [
+            {
+              lhs: "SiO₂ + 2C",
+              cond: { zh: "电弧炉 高温", en: "arc furnace" },
+              rhs: "Si + 2CO↑",
+            },
+            {
+              lhs: "Si + 3HCl",
+              cond: { zh: "250~300 ℃·铜催化", en: "250–300 °C, Cu catalyst" },
+              rhs: "SiHCl₃ + H₂",
+            },
+            {
+              lhs: "SiHCl₃ + H₂",
+              cond: { zh: "1100 ℃ 化学气相沉积", en: "1100 °C vapor deposition" },
+              rhs: "Si + 3HCl",
+            },
+          ],
+          detail: {
+            zh: "三步提纯：石英砂与焦炭在电弧炉约 2000 ℃ 还原得冶金级粗硅；粗硅与 HCl 在铜催化下生成液态的三氯氢硅，蒸馏除去硼、磷等杂质；再用氢气在高温下还原，硅沉积在硅芯上，经区熔或直拉法制成单晶硅锭，纯度可达 99.9999999%（9N）。芯片用硅要求极高，因为痕量的硼、磷就会显著改变导电性——这也是废旧芯片值得回收提金的前提。",
+            en: "Three steps: quartz sand plus coke in an arc furnace near 2000 °C gives metallurgical-grade silicon; it reacts with HCl over a copper catalyst to form liquid trichlorosilane, which is distilled to strip boron and phosphorus; hydrogen then reduces it back to silicon deposited on seeds, and zone refining or the Czochralski pull yields an ingot up to 99.9999999% (9N). Chip-grade silicon must be that pure because traces of boron or phosphorus already shift conductivity — which is exactly why scrap chips are worth reprocessing.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "材料", en: "Materials" },
+            { zh: "半导体", en: "Semiconductor" },
+          ],
+          figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="20" font-size="12" fill="currentColor">硅提纯三步 Three steps of silicon purification</text>
+  <g stroke="currentColor" stroke-opacity="0.45" fill="none">
+    <rect x="6" y="44" width="96" height="56" rx="6"/><rect x="132" y="44" width="96" height="56" rx="6"/><rect x="258" y="44" width="96" height="56" rx="6"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle" font-size="10.5">
+    <text x="54" y="64">① 电弧炉还原</text><text x="180" y="64">② 氯化·蒸馏</text><text x="306" y="64">③ 氢还原沉积</text>
+  </g>
+  <g fill="currentColor" fill-opacity="0.6" text-anchor="middle" font-size="8">
+    <text x="54" y="78">arc furnace</text><text x="180" y="78">chlorinate &amp; distill</text><text x="306" y="78">reduce with H₂</text>
+  </g>
+  <g fill="#d4a017" text-anchor="middle" font-size="9">
+    <text x="54" y="94">石英砂 → 粗硅</text><text x="180" y="94">→ SiHCl₃</text><text x="306" y="94">→ 高纯硅 9N</text>
+  </g>
+  <g fill="#d4a017">
+    <polygon points="104,68 128,72 104,76"/><polygon points="230,68 254,72 230,76"/>
+  </g>
+  <path d="M306 100 V128 H54 V104" fill="none" stroke="currentColor" stroke-opacity="0.4" stroke-dasharray="4 3"/>
+  <polygon points="50,110 58,110 54,102" fill="currentColor" fill-opacity="0.5"/>
+  <text x="180" y="142" text-anchor="middle" font-size="9" fill="currentColor" fill-opacity="0.7">HCl 循环回收 HCl recovered</text>
+  <text x="6" y="168" font-size="10" fill="#d4a017">● 痕量硼、磷就会改变导电性，芯片硅需 9N</text>
+  <text x="6" y="182" font-size="8.5" fill="#d4a017" fill-opacity="0.7">Trace boron or phosphorus alone flips conductivity; chip-grade silicon needs 9N</text>
+</svg>`,
+        },
+        {
+          id: "ind-h2so4",
+          subs: [
+            {
+              f: "4FeS₂",
+              name: { zh: "硫铁矿（黄铁矿）", en: "Pyrite" },
+              note: { zh: "廉价硫源，在沸腾炉中焙烧。", en: "Cheap sulfur source, roasted in a fluidized bed." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气（空气）", en: "Oxygen (air)" },
+              note: { zh: "两步都要用空气提供。", en: "Supplied as air in two of the steps." },
+              role: "l",
+            },
+            {
+              f: "Fe₂O₃",
+              name: { zh: "氧化铁（炉渣）", en: "Iron(III) oxide (slag)" },
+              note: { zh: "炉渣可返作炼铁原料或制水泥。", en: "Slag goes back to ironmaking or cement." },
+              role: "r",
+            },
+            {
+              f: "SO₂",
+              name: { zh: "二氧化硫", en: "Sulfur dioxide" },
+              note: { zh: "中间产物，也是酸雨主因，尾气须回收。", en: "Intermediate; also the acid-rain gas, so off-gas is scrubbed." },
+              role: "r",
+            },
+            {
+              f: "SO₃",
+              name: { zh: "三氧化硫", en: "Sulfur trioxide" },
+              note: { zh: "催化氧化的产物，不能直接用水吸收。", en: "From catalytic oxidation; must not be absorbed by water directly." },
+              role: "r",
+            },
+            {
+              f: "V₂O₅",
+              name: { zh: "五氧化二钒（催化剂）", en: "Vanadium(V) oxide (catalyst)" },
+              note: { zh: "加快平衡到达，不改变平衡位置。", en: "Speeds up reaching equilibrium; shifts nothing." },
+              role: "c",
+            },
+            {
+              f: "H₂S₂O₇",
+              name: { zh: "发烟硫酸", en: "Oleum" },
+              note: { zh: "SO₃ 溶于 98.3% 浓硫酸的产物。", en: "SO₃ dissolved in 98.3% sulfuric acid." },
+              role: "r",
+            },
+            {
+              f: "H₂SO₄",
+              name: { zh: "硫酸", en: "Sulfuric acid" },
+              note: { zh: "既是吸收剂又是最终产品，稀释后出厂。", en: "Both absorbent and final product, diluted before shipping." },
+              role: "r",
+            },
+          ],
+          icon: "⚗️",
+          term: { zh: "接触法制硫酸", en: "Contact Process for Sulfuric Acid" },
+          level: 3,
+          oneLiner: {
+            zh: "焙烧得 SO₂，V₂O₅ 催化氧化成 SO₃，再用 98.3% 浓硫酸吸收后稀释。",
+            en: "Roast to SO₂, oxidize over V₂O₅ to SO₃, absorb in 98.3% acid, then dilute.",
+          },
+          eq: [
+            {
+              lhs: "4FeS₂ + 11O₂",
+              cond: { zh: "沸腾炉 焙烧", en: "fluidized-bed roasting" },
+              rhs: "2Fe₂O₃ + 8SO₂↑",
+            },
+            {
+              lhs: "2SO₂ + O₂",
+              cond: { zh: "V₂O₅·450 ℃（可逆放热）", en: "V₂O₅, 450 °C (reversible, exothermic)" },
+              rhs: "2SO₃",
+              rel: "equilibrium",
+            },
+            {
+              lhs: "SO₃ + H₂SO₄",
+              cond: { zh: "吸收塔 98.3% 酸", en: "absorbed in 98.3% acid" },
+              rhs: "H₂S₂O₇",
+            },
+            {
+              lhs: "H₂S₂O₇ + H₂O",
+              rhs: "2H₂SO₄",
+            },
+          ],
+          detail: {
+            zh: "三步：焙烧、催化氧化、吸收。SO₂ 氧化为 SO₃ 时气体分子数减小且放热，理论上低温加压有利，但低温下 V₂O₅ 活性不足，所以取 400~500 ℃、常压这个折中点。SO₃ 不直接溶于水，否则形成雾状硫酸难以沉降且腐蚀设备，工业用 98.3% 浓硫酸吸收。硫酸的产量长期被当作工业化的指标：化肥、石油精炼、冶金、蓄电池、洗涤剂全部依赖它。尾气中的 SO₂ 用氨法吸收制取硫酸铵，既省原料又防酸雨。",
+            en: "Three stages: roasting, catalytic oxidation, absorption. Oxidizing SO₂ shrinks gas volume and gives off heat, so low temperature and high pressure favour it in theory — but V₂O₅ is inactive when cold, so plants compromise at 400–500 °C and near ambient pressure. SO₃ is never absorbed in water directly, which would make a mist of sulfuric acid that will not settle and eats the equipment; 98.3% acid does the absorbing. Sulfuric acid output has long been read as a proxy for industrialization: fertilizer, refining, metallurgy, batteries and detergents all depend on it. Off-gas SO₂ is scrubbed with ammonia to give ammonium sulfate, saving feedstock and preventing acid rain.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "化工流程", en: "Process" },
+            { zh: "平衡", en: "Equilibrium" },
+          ],
+          figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <text x="6" y="20" font-size="12" fill="currentColor">接触法制硫酸 Three towers of the contact process</text>
+  <g stroke="currentColor" stroke-opacity="0.45" fill="none">
+    <rect x="6" y="44" width="96" height="56" rx="6"/><rect x="132" y="44" width="96" height="56" rx="6"/><rect x="258" y="44" width="96" height="56" rx="6"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle" font-size="10.5">
+    <text x="54" y="64">① 沸腾炉</text><text x="180" y="64">② 接触室</text><text x="306" y="64">③ 吸收塔</text>
+  </g>
+  <g fill="currentColor" fill-opacity="0.6" text-anchor="middle" font-size="8">
+    <text x="54" y="78">roasting</text><text x="180" y="78">catalytic bed</text><text x="306" y="78">absorption</text>
+  </g>
+  <g fill="#d4a017" text-anchor="middle" font-size="9">
+    <text x="54" y="94">黄铁矿 → SO₂</text><text x="180" y="94">V₂O₅ 450 ℃ → SO₃</text><text x="306" y="94">98.3% 酸吸收</text>
+  </g>
+  <g fill="#d4a017">
+    <polygon points="104,68 128,72 104,76"/><polygon points="230,68 254,72 230,76"/>
+  </g>
+  <text x="6" y="124" font-size="9.5" fill="currentColor" fill-opacity="0.7">炉渣 Fe₂O₃ → 返作炼铁原料　尾气 SO₂ → 氨法吸收</text>
+  <text x="6" y="136" font-size="8.5" fill="currentColor" fill-opacity="0.6">Slag Fe₂O₃ goes back to the blast furnace; tail-gas SO₂ is scrubbed with ammonia</text>
+  <text x="6" y="156" font-size="10" fill="#d4a017">● 不直接加水吸收：会形成难沉降的酸雾</text>
+  <text x="6" y="168" font-size="9.5" fill="#d4a017" fill-opacity="0.7">No direct water absorption — it makes an un-settleable acid mist</text>
+</svg>`,
+        },
+        {
+          id: "ind-hno3",
+          subs: [
+            {
+              f: "NH₃",
+              name: { zh: "氨", en: "Ammonia" },
+              note: { zh: "由合成氨装置直接供料，两大工艺链相接。", en: "Fed straight from the ammonia plant; two process chains meet." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气（过量空气）", en: "Oxygen (excess air)" },
+              note: { zh: "氧化剂，吸收塔还要再通一次。", en: "Oxidizer; passed in again in the absorber." },
+              role: "l",
+            },
+            {
+              f: "Pt-Rh",
+              name: { zh: "铂铑合金网（催化剂）", en: "Platinum-rhodium gauze (catalyst)" },
+              note: { zh: "极贵且易中砷、铅中毒，需净制原料气。", en: "Costly and easily poisoned by arsenic or lead; gas must be cleaned." },
+              role: "c",
+            },
+            {
+              f: "NO",
+              name: { zh: "一氧化氮", en: "Nitric oxide" },
+              note: { zh: "无色，出装置即变红棕；水中吸收时又会逸出循环。", en: "Colourless, browns on escape; recirculates from the water absorption." },
+              role: "r",
+            },
+            {
+              f: "NO₂",
+              name: { zh: "二氧化氮", en: "Nitrogen dioxide" },
+              note: { zh: "红棕色有毒气体，被水与氧吸收成酸。", en: "Red-brown toxic gas, absorbed by water and oxygen into acid." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "吸收塔的液相，也是副产蒸汽的来源。", en: "The absorber's liquid phase; also raises steam from the heat." },
+              role: "l",
+            },
+            {
+              f: "HNO₃",
+              name: { zh: "硝酸", en: "Nitric acid" },
+              note: { zh: "产品，约 50~68%，可再浓缩。", en: "Product, about 50–68%; can be concentrated further." },
+              role: "r",
+            },
+          ],
+          icon: "💥",
+          term: { zh: "氨氧化法制硝酸", en: "Ostwald Process for Nitric Acid" },
+          level: 3,
+          oneLiner: {
+            zh: "氨在铂铑网上催化氧化成 NO，再氧化为 NO₂，在过量空气下用水吸收成硝酸。",
+            en: "Ammonia burns to NO over Pt-Rh gauze, oxidizes to NO₂, and is absorbed with excess air into nitric acid.",
+          },
+          eq: [
+            {
+              lhs: "4NH₃ + 5O₂",
+              cond: { zh: "Pt-Rh 网·800 ℃", en: "Pt-Rh gauze, 800 °C" },
+              rhs: "4NO + 6H₂O",
+            },
+            {
+              lhs: "2NO + O₂",
+              cond: { zh: "冷却后自动进行", en: "spontaneous on cooling" },
+              rhs: "2NO₂",
+            },
+            {
+              lhs: "3NO₂ + H₂O",
+              cond: { zh: "吸收塔", en: "absorber" },
+              rhs: "2HNO₃ + NO",
+            },
+            {
+              lhs: "4NO₂ + O₂ + 2H₂O",
+              cond: { zh: "过量空气下总结果", en: "overall with excess air" },
+              rhs: "4HNO₃",
+            },
+          ],
+          detail: {
+            zh: "奥斯特瓦尔德法。氨氧化在约 800 ℃ 的铂铑网上瞬时完成且放热，反应热可维持自身温度，但必须防止砷、铅使催化剂中毒。NO 遇空气即变红棕色 NO₂；用水吸收时每 3 个 NO₂ 只有 2 个成酸、另 1 个回到 NO，所以工业上在吸收塔里大量通空气把 NO 反复氧化吸收，总结果相当于第四式。主要用途是硝酸铵与硝基化肥、炸药，以及尼龙的中间体己二酸；浓硝酸还用于金属钝化与蚀刻。尾气中的 NOx 用碱液或催化还原除去。",
+            en: "The Ostwald process. Ammonia oxidation runs instantaneously on Pt-Rh gauze at about 800 °C and gives off enough heat to sustain itself, but arsenic and lead must be kept out or the catalyst dies. NO browns to NO₂ in air; water absorption turns only 2 of every 3 NO₂ into acid and sends 1 back to NO, so plants flood the absorber with air to re-oxidize and re-absorb it, which is what the fourth line summarizes. Uses: ammonium nitrate and nitrogen fertilizer, explosives, adipic acid for nylon; concentrated acid also passivates and etches metals. Tail-gas NOx is removed with alkali or catalytic reduction.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "化工流程", en: "Process" },
+            { zh: "氮", en: "Nitrogen" },
+          ],
+        },
+        {
+          id: "ind-al",
+          subs: [
+            {
+              f: "Al₂O₃",
+              name: { zh: "氧化铝（自铝土矿提纯）", en: "Alumina (refined from bauxite)" },
+              note: { zh: "原料，需先用氢氧化钠溶出重结晶（拜耳法）。", en: "Feedstock, first dissolved in NaOH and recrystallized (Bayer process)." },
+              role: "l",
+            },
+            {
+              f: "Na₃AlF₆",
+              name: { zh: "冰晶石（熔剂）", en: "Cryolite (solvent)" },
+              note: { zh: "把电解温度从 2050 ℃ 降到约 960 ℃。", en: "Drops the operating temperature from 2050 °C to about 960 °C." },
+              role: "c",
+            },
+            {
+              f: "C",
+              name: { zh: "碳素阳极", en: "Carbon anode" },
+              note: { zh: "参与反应被消耗，需定期更换。", en: "Consumed by the oxygen it meets; replaced regularly." },
+              role: "l",
+            },
+            {
+              f: "Al",
+              name: { zh: "铝液", en: "Molten aluminum" },
+              note: { zh: "密度大于电解质，沉在槽底定期抽出。", en: "Denser than the bath, so it pools at the bottom and is tapped." },
+              role: "r",
+            },
+            {
+              f: "O₂↑",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "阳极产物，随即与碳块反应。", en: "Anode product, which attacks the carbon immediately." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "阳极消耗的真实产物，也是碳排放主项。", en: "The real anode output, and the plant's main emission." },
+              role: "r",
+            },
+          ],
+          icon: "🛩️",
+          term: { zh: "冰晶石熔盐电解炼铝", en: "Hall–Héroult Smelting of Aluminum" },
+          level: 2,
+          oneLiner: {
+            zh: "氧化铝溶进熔融冰晶石，在 960 ℃ 电解即可得铝，远低于直接熔化所需的 2050 ℃。",
+            en: "Alumina dissolved in molten cryolite electrolyzes at 960 °C — far below its 2050 °C melting point.",
+          },
+          eq: [
+            {
+              lhs: "2Al₂O₃",
+              cond: { zh: "通电·冰晶石熔盐 960 ℃", en: "electrolysis in cryolite, 960 °C" },
+              rhs: "4Al + 3O₂↑",
+            },
+            {
+              lhs: "C + O₂",
+              cond: { zh: "阳极高温", en: "hot anode" },
+              rhs: "CO₂↑",
+            },
+            {
+              lhs: "2Al₂O₃ + 3C",
+              cond: { zh: "总结果（阳极被消耗）", en: "overall, anode consumed" },
+              rhs: "4Al + 3CO₂↑",
+            },
+          ],
+          detail: {
+            zh: "氧化铝熔点高达 2050 ℃，直接熔化电解既耗能又损毁内衬；溶入冰晶石 Na₃AlF₆ 后在 950~980 ℃ 就能通电分解，这是 Hall–Héroult 法的核心。阳极产生的氧会把碳块烧成 CO₂，所以阳极要不断补充，电耗与阳极材料占了成本大头——而回收一吨再生铝只需原铝约 5% 的能量。上游的拜耳法用浓 NaOH 溶出铝土矿中的 Al₂O₃，杂质作为红色赤泥排出，堆存是铝工业的主要环境负担。",
+            en: "Alumina melts at 2050 °C, too hot to electrolyze directly without wrecking the lining; dissolved in cryolite (Na₃AlF₆) it breaks down at 950–980 °C, which is the core of the Hall–Héroult process. The oxygen liberated burns the carbon anode to CO₂, so anodes are eaten away and must be replaced — power and anodes dominate the cost, which is why recycling a tonne of aluminum takes only about 5% of the energy of primary metal. Upstream, the Bayer process leaches the ore with concentrated NaOH and discards the impurities as red mud, the industry's main waste burden.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "电化学", en: "Electrochemistry" },
+            { zh: "金属", en: "Metals" },
+          ],
+        },
+        {
+          id: "ind-cu-refine",
+          subs: [
+            {
+              f: "Cu",
+              name: { zh: "粗铜（作阳极）", en: "Blister copper (the anode)" },
+              note: { zh: "火法炼出的约 99%，含 Fe、Zn、Ni、Au、Ag 等杂质。", en: "About 99% from smelting, holding Fe, Zn, Ni, Au and Ag." },
+              role: "l",
+            },
+            {
+              f: "Cu²⁺",
+              name: { zh: "铜离子（电解液）", en: "Copper(II) ions (electrolyte)" },
+              note: { zh: "阳极溶入、阴极析出，溶液浓度基本不变。", en: "Enters at the anode, leaves at the cathode; strength stays steady." },
+              role: "r",
+            },
+            {
+              f: "e⁻",
+              name: { zh: "电子（外电路）", en: "Electrons (external circuit)" },
+              note: { zh: "阳极失电子溶解，阴极得电子析出。", en: "Given up as the anode dissolves, taken up as copper plates out." },
+              role: "c",
+            },
+            {
+              f: "Cu",
+              name: { zh: "电解铜（阴极析出，99.95%+）", en: "Cathode copper (electrolytic, 99.95%+)" },
+              note: { zh: "纯度达 99.95% 以上，导电用铜必须到这个级别。", en: "99.95%+; conducting copper has to reach this grade." },
+              role: "r",
+            },
+            {
+              f: "Zn²⁺",
+              name: { zh: "锌离子（进入溶液）", en: "Zinc ions (stay in solution)" },
+              note: { zh: "比铜活泼的杂质同溶但不析出，靠电位控制。", en: "More active impurities dissolve but will not plate out at this potential." },
+              role: "r",
+            },
+            {
+              f: "Au·Ag·Pt",
+              name: { zh: "阳极泥（金、银与铂族）", en: "Anode slime (gold, silver, PGMs)" },
+              note: { zh: "比铜惰性的金属不溶解，脱落沉入槽底。", en: "Metals less active than copper never dissolve; they drop to the cell bottom." },
+              role: "r",
+            },
+          ],
+          icon: "🔌",
+          term: { zh: "铜的电解精炼与阳极泥", en: "Electrorefining Copper and the Anode Slime" },
+          level: 2,
+          oneLiner: {
+            zh: "粗铜作阳极溶解、纯铜在阴极析出，不溶的金银铂族沉入槽底成为阳极泥。",
+            en: "The anode dissolves and pure copper plates out; insoluble Au, Ag and PGMs fall as anode slime.",
+          },
+          eq: [
+            {
+              lhs: "Cu − 2e⁻",
+              cond: { zh: "阳极（粗铜溶解）", en: "anode, dissolving" },
+              rhs: "Cu²⁺",
+              rel: "equal",
+            },
+            {
+              lhs: "Cu²⁺ + 2e⁻",
+              cond: { zh: "阴极（纯铜析出）", en: "cathode, plating" },
+              rhs: "Cu",
+              rel: "equal",
+            },
+            {
+              lhs: "Zn − 2e⁻",
+              cond: { zh: "活泼杂质同溶不析", en: "active impurities co-dissolve" },
+              rhs: "Zn²⁺",
+              rel: "equal",
+            },
+          ],
+          detail: {
+            zh: "火法炼出的铜约 99%，而导电用铜要求 99.95% 以上，靠电解精炼完成：粗铜作阳极、纯铜片作阴极、硫酸酸化的 CuSO₄ 溶液作电解液。通电后阳极上的铜溶解，在阴极按电位控制重新析出，比铜活泼的 Fe、Zn、Ni 虽一同进入溶液却不达析出电位，留在液里；比铜惰性的金、银和铂族金属根本不能溶解，只能从阳极脱落沉底，这就是阳极泥。它是冶炼厂提炼金银与铂族元素的主要原料，也是重要副产品收入。与电子废弃物提金相比，阳极泥里的金是火法富集的“顺带”产物，品位高且无需王水。",
+            en: "Smelted copper is about 99% pure, but conducting copper needs 99.95%+, so it is electrorefined: blister copper as anode, a pure-copper sheet as cathode, acidified CuSO₄ solution as electrolyte. Copper dissolves off the anode and plates back under potential control; more active Fe, Zn and Ni enter the solution but never reach their deposition potential and stay there, while gold, silver and the platinum group cannot dissolve at all — they simply fall from the anode as slime. That slime is the chief feedstock for refining precious metals and a major by-product credit for the smelter. Unlike e-waste gold recovery, the gold in anode slime has already been concentrated by fire, at high grade and with no aqua regia involved.",
+          },
+          tags: [
+            { zh: "工业", en: "Industry" },
+            { zh: "电化学", en: "Electrochemistry" },
+            { zh: "金属回收", en: "Recycling" },
+          ],
+        },
+        {
+          id: "env-chrome-water",
+          subs: [
+            {
+              f: "Cr₂O₇²⁻",
+              name: { zh: "重铬酸根（六价铬）", en: "Dichromate (chromium VI)" },
+              note: { zh: "电镀、制革、颜料废水里的形态，氧化性强、致癌。", en: "Form found in plating, tanning and pigment effluent; strong oxidizer, carcinogenic." },
+              role: "l",
+            },
+            {
+              f: "SO₃²⁻",
+              name: { zh: "亚硫酸钠（还原剂）", en: "Sulfite (reducer)" },
+              note: { zh: "酸性条件下把 Cr(VI) 还原为 Cr(III)，也可用硫酸亚铁。", en: "Reduces Cr(VI) in acid; ferrous sulfate works as well." },
+              role: "l",
+            },
+            {
+              f: "H⁺",
+              name: { zh: "氢离子（调 pH≈2~3）", en: "Protons (pH 2–3)" },
+              note: { zh: "酸性是还原反应的前提，常用硫酸调。", en: "Acidity is required for the reduction; dosed with sulfuric acid." },
+              role: "l",
+            },
+            {
+              f: "Cr³⁺",
+              name: { zh: "铬离子（三价）", en: "Chromium(III)" },
+              note: { zh: "毒性远低于六价，且能形成难溶氢氧化物。", en: "Far less toxic and readily precipitated as the hydroxide." },
+              role: "r",
+            },
+            {
+              f: "SO₄²⁻",
+              name: { zh: "硫酸根", en: "Sulfate" },
+              note: { zh: "亚硫酸根被氧化的产物，留在水中。", en: "What the sulfite becomes; remains dissolved." },
+              role: "r",
+            },
+            {
+              f: "OH⁻",
+              name: { zh: "氢氧根（加石灰）", en: "Hydroxide (lime dosing)" },
+              note: { zh: "调至 pH 8~9 使铬完全沉淀。", en: "Raised to pH 8–9 to finish the precipitation." },
+              role: "l",
+            },
+            {
+              f: "Cr(OH)₃↓",
+              name: { zh: "氢氧化铬沉淀", en: "Chromium(III) hydroxide sludge" },
+              note: { zh: "压滤除去，滤饼属危险废物。", en: "Filter-pressed out; the cake is hazardous waste." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "还原反应的产物，也作稀释介质。", en: "Product of the reduction and the carrier of the whole process." },
+              role: "r",
+            },
+          ],
+          icon: "🚱",
+          term: { zh: "含铬废水的还原沉淀处理", en: "Treating Chromate Wastewater" },
+          level: 3,
+          oneLiner: {
+            zh: "酸性下用亚硫酸钠把六价铬还原为三价，再加石灰沉淀成 Cr(OH)₃ 滤除。",
+            en: "Reduce Cr(VI) to Cr(III) with sulfite in acid, then precipitate Cr(OH)₃ with lime and filter it out.",
+          },
+          eq: [
+            {
+              lhs: "Cr₂O₇²⁻ + 3SO₃²⁻ + 8H⁺",
+              cond: { zh: "先调 pH≈2~3", en: "acidified to pH 2–3" },
+              rhs: "2Cr³⁺ + 3SO₄²⁻ + 4H₂O",
+            },
+            {
+              lhs: "Cr³⁺ + 3OH⁻",
+              cond: { zh: "再加石灰调 pH≈8~9", en: "then lime to pH 8–9" },
+              rhs: "Cr(OH)₃↓",
+            },
+          ],
+          detail: {
+            zh: "六价铬以 Cr₂O₇²⁻（酸性）或 CrO₄²⁻（碱性）存在，氧化性强、易穿透生物膜，是明确的致癌物；而三价铬溶解度低、毒性小得多。所以处理思路是“先还原、后沉淀”：酸性下投加亚硫酸钠或硫酸亚铁把 Cr(VI) 还原为 Cr³⁺，再加石灰调至弱碱性生成 Cr(OH)₃ 沉淀，压滤分离。滤饼属危险废物，不能随意填埋；清水需复检达标后排放。另一条路线是离子交换吸附或电解法回收，把铬回用于镀液，既省原料又减泥量。",
+            en: "Chromium(VI) exists as Cr₂O₇²⁻ in acid and CrO₄²⁻ in alkali: a strong oxidizer that crosses cell membranes readily and a confirmed carcinogen, whereas Cr(III) is far less toxic and barely soluble. Hence the two-stage logic — reduce first, then precipitate: dose sulfite or ferrous sulfate in acid to bring Cr(VI) down to Cr³⁺, then add lime to make the solution mildly alkaline so Cr(OH)₃ falls out and can be filter-pressed. The cake is hazardous waste and cannot simply be landfilled; the clarified water is re-tested before discharge. The alternative route recovers chromium by ion exchange or electrolysis and returns it to the plating bath, saving both chemical and sludge.",
+          },
+          tags: [
+            { zh: "环境", en: "Environment" },
+            { zh: "氧化还原", en: "Redox" },
+            { zh: "废水处理", en: "Water Treatment" },
+          ],
         },
       ],
     },
