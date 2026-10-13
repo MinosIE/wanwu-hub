@@ -87,7 +87,10 @@ const SETS = {
 const ROLE_TAG = { 文臣: "政治家", 武将: "军事家" };
 const byName = {};
 for (const tag in SETS)
-  for (const n of SETS[tag]) (byName[n] = byName[n] || []).push(tag);
+  for (const n of SETS[tag]) {
+    byName[n] ||= [];
+    byName[n].push(tag);
+  }
 
 const out = [];
 for (const o of overview) {

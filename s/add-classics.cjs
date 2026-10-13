@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("node:fs");
 const f = "public/thought-data/data/classics.json";
 const a = JSON.parse(fs.readFileSync(f, "utf8"));
 function add(o) {

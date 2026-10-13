@@ -100,7 +100,8 @@ for (const h of humanGeo)
   });
 const related = {};
 const add = (id, m, n, nEn) => {
-  (related[id] ??= []).push({ m, n, nEn });
+  related[id] ??= [];
+  related[id].push({ m, n, nEn });
 };
 for (const s of schools) add(s.id, "m-schools", s.name, s.nameEn);
 for (const q of questions) add(q.id, "m-questions", q.name, q.nameEn);

@@ -11,7 +11,7 @@ export function renderHome(view: HTMLElement): void {
     const tags = (lang === "en" ? p.tagsEn : p.tagsZh)
       .map((x) => `<span class="chip">${x}</span>`)
       .join("");
-    let action = p.integrated
+    const action = p.integrated
       ? `<a class="btn stretched-link" href="#/subject/${p.key}">进入浏览 →</a>`
       : `<a class="btn disabled" href="#">敬请期待</a>`;
 

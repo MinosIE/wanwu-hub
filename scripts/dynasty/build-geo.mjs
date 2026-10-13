@@ -3,7 +3,7 @@
 // 用法：node scripts/dynasty/build-geo.mjs
 import fs from "node:fs";
 import path from "node:path";
-import { DATA, PUBLIC, GEO, SITE } from "./paths.mjs";
+import { DATA, GEO, SITE } from "./paths.mjs";
 
 const overview = JSON.parse(
   fs.readFileSync(path.join(DATA, "overview.json"), "utf8"),

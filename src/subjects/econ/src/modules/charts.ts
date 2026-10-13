@@ -28,7 +28,7 @@ const PAD = { l: 46, r: 16, t: 18, b: 34 };
 function niceTicks(min: number, max: number, count = 4): number[] {
   if (min === max) return [min];
   const step = (max - min) / count;
-  const mag = Math.pow(10, Math.floor(Math.log10(Math.abs(step) || 1)));
+  const mag = 10 ** Math.floor(Math.log10(Math.abs(step) || 1));
   const norm = step / mag;
   const nice = norm <= 1 ? 1 : norm <= 2 ? 2 : norm <= 5 ? 5 : 10;
   const s = nice * mag;

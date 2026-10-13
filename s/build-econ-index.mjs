@@ -267,7 +267,8 @@ for (const mod of MODULES) {
       nEn,
       xEn: tokens(it, mod.parts, "en").join(" "),
     });
-    (related[it.id] ??= []).push({ m: mod.m, n, nEn });
+    related[it.id] ??= [];
+    related[it.id].push({ m: mod.m, n, nEn });
   }
 }
 

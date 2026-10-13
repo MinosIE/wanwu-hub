@@ -1,5 +1,6 @@
 export type Route =
-  { name: "home" } | { name: "subject"; key: string; sub?: string };
+  | { name: "home" }
+  | { name: "subject"; key: string; sub?: string };
 
 export function parse(): Route {
   const raw = location.hash.replace(/^#\/?/, "");

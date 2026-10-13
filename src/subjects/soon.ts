@@ -1,5 +1,5 @@
 import { getLang, onLangChange } from "../core/i18n";
-import { PROJECTS } from "../core/projects";
+import type { PROJECTS } from "../core/projects";
 
 export function mount(view: HTMLElement, p?: (typeof PROJECTS)[number]): void {
   const render = () => {
