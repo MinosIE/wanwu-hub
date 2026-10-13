@@ -70,5 +70,17 @@
     "level": 3,
     "related": ["robots-take-all-jobs", "gdp-equals-wellbeing"],
     "sources": [{ "label": "卡德、克鲁格《最低工资与就业》", "labelEn": "Card & Krueger, Minimum Wages and Employment", "year": 1994 }]
+  },
+  {
+    "id": "mango-parable",
+    "myth": "「芒果骗局」这类故事说明：价格全是操纵者编出来的，只要看穿套路，就轮不到自己接盘。",
+    "mythEn": "Parables like the 'mango scam' show that prices are invented by a manipulator — spot the trick and you will never be the one left holding.",
+    "truth": "故事里每一步都真：凭空造需求、每天涨一块养出「还会涨」的预期、再把手里的货和别人的债权分别打包套现。它简化的是三点。撑价是要不断贴钱的成本，亨特兄弟买白银买到交不出保证金，交易所一改规则价格当场崩，结局并不由操纵者决定。后期入场者多半不是被骗，而是明知是资金盘仍赌有人接盘——凯恩斯说的「猜别人怎么猜」，是投机的失败而非无知。而风险能一路转手，前提是审计、披露与核查同时失灵：银广夏不是被故事打败的，是报关单、收汇、产能三个数字互相对不上打败的。",
+    "truthEn": "Every move in the story is real: demand conjured from nothing, a one-yuan-a-day climb that trains people to expect more, then cashing out first the goods and then the debts. Three things get flattened. Propping a price costs money continuously: the Hunt brothers bought silver until they could not meet margin, and the price collapsed the moment the exchange changed the rules, so the ending was never the manipulator's to decide. Late entrants are usually not fooled; knowing it is a money game, they bet that someone else will arrive — Keynes's guessing-what-others-guess, a failure of speculation rather than of ignorance. And risk travels only where audit, disclosure and verification fail together: Yinguangxia was undone not by its story but by customs forms, bank receipts and capacity figures that refused to reconcile.",
+    "why": "因为它把制度问题压缩成了一出道德剧：一个聪明的坏人、一群贪婪的村民、五次反转，每段十秒就能听懂。真实版本要解释的是保证金规则、审计程序与信息披露为什么同时不动，既没有坏人，也没有爽点。",
+    "whyEn": "Because it compresses an institutional failure into a morality play: one clever villain, a village of greedy fools, five reversals, each legible in ten seconds. The honest version has to explain why margin rules, audit procedures and disclosure all failed to move at once — a story with no villain and no payoff.",
+    "level": 2,
+    "related": ["ponzi-1920", "yinguangxia-2001"],
+    "sources": [{ "label": "金德尔伯格、阿尔伯《疯狂、恐慌与崩溃：金融危机史》", "labelEn": "Kindleberger & Aliber, Manias, Panics, and Crashes: A History of Financial Crises", "year": 2011 }, { "label": "凯恩斯《就业、利息和货币通论》第 12 章（选美竞赛）", "labelEn": "Keynes, The General Theory, chapter 12 (the beauty contest)", "year": 1936 }, { "label": "阿克洛夫、席勒《钓愚：操纵与欺骗的经济学》", "labelEn": "Akerlof & Shiller, Phishing for Phools: The Economics of Manipulation and Deception", "year": 2015 }]
   }
 ]
