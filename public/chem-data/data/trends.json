@@ -59,6 +59,8 @@
     "level": 2,
     "oneLiner": "同周期减小、同主族增大；稀有气体因计量方式通常单独较大。",
     "oneLinerEn": "Shrinks across a period, grows down a group; noble-gas values differ by convention.",
+    "detail": "原子半径不是实测的硬边，而是把相邻原子核间距取一半推出来的，所以比较时必须守住同一套口径。规律只有两句：同周期从左到右逐渐减小，同主族从上到下逐渐增大。前者是因为电子都填进同一层、屏蔽几乎不增，而核电荷一步步加大，外层被拉得更紧；后者是因为每往下就多出整整一个电子层，层数的作用压过了核电荷的增加。两个常考的比较：一、比微粒半径先看电子层数，层多则大；层数相同再看核电荷，核大则小（O²⁻、F⁻、Na⁺、Mg²⁺、Al³⁺ 都是 2、8 结构，只差质子数，所以依次缩小）。二、同种元素的原子与离子，阳离子一定小于原子（少了一层），阴离子一定大于原子（层没变而电子间斥力变大），所以 Na⁺ 小于 Na、Cl⁻ 大于 Cl。稀有气体要单独说明：它的半径是范德华半径，与相邻元素的金属或共价半径不是同一口径，因此画在同一张折线图上常常突然变大，中学阶段一般不参与比较。",
+    "detailEn": "An atomic radius is not a measured hard edge: it comes from halving the distance between neighbouring nuclei, so every comparison has to stay inside one convention. The rule is two sentences — radii shrink across a period and grow down a group. In the first case the electrons go into the same shell and screening barely rises while the nuclear charge does, so the outer electrons are pulled tighter; in the second a whole new shell is added, and shell count beats nuclear charge. Two comparisons are examined every year. Particles with different shell counts are ranked by shells first, and where the shell structure is identical the larger nuclear charge wins — O²⁻, F⁻, Na⁺, Mg²⁺, Al³⁺ are all 2,8 and shrink in that order. For one element the cation is always smaller than the atom (a shell gone) while the anion is larger (same shell, more electron repulsion), so Na⁺ is under Na and Cl⁻ over Cl. Note the convention clash for noble gases: their figure is a van der Waals radius, not a metallic or covalent one, which is why they jump at the end of a plot and why the school course leaves them out of the ranking.",
     "tags": ["周期表"],
     "tagsEn": ["Periodic"]
   },

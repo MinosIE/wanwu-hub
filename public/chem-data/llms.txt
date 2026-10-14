@@ -2,7 +2,7 @@
 
 > 从元素、化学反应到材料与化学家，理解物质如何组合、分解与转化。
 
-共 275 条 / 19 类，全部为结构化 JSON。
+共 277 条 / 19 类，全部为结构化 JSON。
 
 ## 数据入口
 - [物质构成与化学键](https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json)

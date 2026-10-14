@@ -27,12 +27,14 @@
   },
   {
     "id": "metallic-bond",
-    "icon": "",
+    "icon": "🔩",
     "term": "金属键",
     "termEn": "Metallic Bond",
     "level": 2,
     "oneLiner": "金属阳离子与自由电子间的强烈作用，赋予金属导电、导热与延展性。",
     "oneLinerEn": "Cations in a sea of delocalized electrons; gives conductivity, malleability and luster.",
+    "detail": "金属键没有方向性也没有饱和性：金属阳离子排成阵列，价电子脱离各自的原子，变成在整个晶体里自由移动的「电子海」，靠这份共有电子把阳离子们黏在一起。正因为键不挑方向，金属受外力时原子层可以相对滑动而键不断开，这就是延展性——砸成薄片、拉成细丝都靠它；而金刚石这类共价晶体受力时键被强行掰向错误的方向，直接碎裂，所以硬而脆。导电与导热都由那群自由电子负责：加电场就定向移动，受热就加速并把能量传给相邻离子，所以金属的导电性随温度升高而下降（晶格振动加剧、阻碍电子），这与半导体正好相反。自由电子还能吸收并随即放出可见光，于是金属有金属光泽。键的强弱主要看两件事：能给出几个价电子、离子半径多大。碱金属只有一个价电子而半径又大，所以钠能用小刀切开、汞在常温就是液体；过渡金属价电子多、半径小，键强熔点高，钨能撑到 3400 ℃ 以上而用作灯丝。合金通常比纯金属硬，因为掺进来的异种原子大小不一，打乱了本来可以整齐滑移的层（钢比铁硬、青铜比纯铜硬都是这个原因）。",
+    "detailEn": "A metallic bond has neither direction nor saturation: the cations sit in a lattice while the valence electrons leave their parent atoms and drift through the whole crystal, and this shared sea of electrons is what holds the cations together. Because the bond does not care which way it points, a hammered metal lets its layers slide past one another without breaking anything — that is malleability and ductility — whereas a covalent solid such as diamond has its bonds wrenched into the wrong geometry and simply shatters, hard but brittle. The same free electrons carry current and heat, so a metal conducts better when cold: warming sets the lattice vibrating and scatters the electrons, the opposite of what happens in a semiconductor. Absorb light and re-emit it and you have the metallic lustre. Strength turns on two things, how many electrons are contributed and how small the ion is. Alkali metals give one electron from a large radius, so sodium is cut with a knife and mercury is liquid at room temperature, while transition metals give more from a smaller radius, hence tungsten above 3400 °C and its life as a lamp filament. Alloys are usually harder than the pure metal because atoms of an unequal size disturb the orderly sliding of the layers — steel over iron, bronze over copper.",
     "tags": ["化学键"],
     "tagsEn": ["Bonding"]
   },
@@ -70,6 +72,8 @@
     "level": 1,
     "oneLiner": "元素在化合物中的结合能力，正负化合价代数和为零。",
     "oneLinerEn": "Combining power of an element; the sum of oxidation numbers in a neutral compound is zero.",
+    "detail": "化合价是原子的结合能力，本质是成键时电子偏移的数目：离子化合物里等于得失电子数（NaCl 中钠 +1、氯 −1），共价化合物里等于共用电子对的数目与它的偏向（H₂O 中氢 +1、氧 −2）。用起来只有三条硬规矩和一张常查表。规矩一：单质里元素的化合价为 0，因为不存在电子偏向谁的问题。规矩二：化合物里正负化合价的代数和为 0，这是求未知价态的万能钥匙——知道钾 +1、氧 −2，就能从 KMnO₄ 推出 Mn 为 +7、从 K₂MnO₄ 推出 +6、从 MnO₂ 推出 +4。规矩三：同种元素在不同物质里可以取不同价，甚至在同一物质里同时取两种价（Fe₃O₄ 里铁是 +2 与 +3 混合，平均 +8/3），所以「铁有可变化合价」必须落实到具体物质上说。初中要求背下的常见价态口诀是：一价氢氯钾钠银，二价氧钙钡镁锌，三铝四硅五价磷，二三铁、二四碳，二四六硫都齐全，铜汞二价最常见，单质为零。化合价还直接决定两件事：写化学式时的交叉法，以及氧化还原的判断——化合价升高就是失电子、被氧化、作还原剂，降低则相反，这个口径与「氧化还原反应」一条完全一致，不要与「化合反应」混为一谈。",
+    "detailEn": "Valence is an atom's combining capacity, and underneath it is simply the number of electrons that shift when a bond forms: in an ionic compound it equals the electrons lost or gained (sodium +1, chlorine −1 in NaCl), in a covalent one the count of shared pairs and which way they lean (hydrogen +1, oxygen −2 in water). Three hard rules carry the whole topic. Rule one: an element in its free state is zero, since nothing is leaning anywhere. Rule two: the algebraic sum in a neutral compound is zero, the master key for any unknown — knowing potassium +1 and oxygen −2, manganese comes out +7 in KMnO₄, +6 in K₂MnO₄ and +4 in MnO₂. Rule three: one element may take several valences, and within a single substance even two at once (Fe₃O₄ holds both +2 and +3, averaging 8/3), so variable valence is always stated substance by substance. The chant learned at thirteen runs: hydrogen, chlorine, potassium, sodium and silver one; oxygen, calcium, barium, magnesium and zinc two; aluminium three, silicon four, phosphorus five; iron two and three, carbon two and four; sulphur two, four and six; copper and mercury most often two; free elements zero. Beyond that, valence dictates how a formula is crossed out and, in the redox chapter, who was oxidised: a rise means electrons lost, the substance oxidised and acting as the reducing agent, and the reverse for a fall — the same wording kept throughout the redox entry, and never to be confused with a synthesis reaction.",
     "tags": ["化学用语"],
     "tagsEn": ["Notation"]
   }

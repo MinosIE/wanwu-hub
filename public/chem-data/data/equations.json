@@ -153,6 +153,8 @@
       "condEn": "MnO₂, Δ",
       "rhs": "2KCl + 3O₂↑"
     },
+    "detail": "这是初中实验室制氧气的第三种药品路线，也是「催化剂」概念最标准的载体。操作上与高锰酸钾法几乎一样：试管口略向下倾斜防冷凝水倒流，导管刚伸入试管内一点即可，用排水法收集。差别在药品本身：氯酸钾单独加热到约 356 ℃ 熔化之后才缓慢放氧，混入二氧化锰并磨匀后在两三百度就明显反应，所以二氧化锰写在箭头上方作条件，不进方程式的配平。它在这里确确实实是催化剂：反应前后质量和化学性质都不变，结束后加足水溶解、过滤、洗涤、干燥就能把它回收（氯化钾溶于水而二氧化锰不溶），这是「催化剂质量不变」最直接的验证。三个高频易错处：一、不能拿高锰酸钾代替二氧化锰——高锰酸钾自己分解也会放氧，但它的产物里多出锰酸钾与二氧化锰，真正起催化作用的是后生成的二氧化锰；二、氯酸钾是强氧化剂，混入炭粉、硫或纸屑后研磨、受热都可能猛燃甚至爆炸，只能与二氧化锰配伍；三、常见错写是把方程式不配平就交，或者把催化剂当生成物写到右边。工业上氯酸钾用于火柴头与烟火，学生实验只用极少量，多余的药品不得倒回原瓶（见「药品的存放与容器选择」）。",
+    "detailEn": "This is the third of the school oxygen preparations and the standard carrier of the catalyst idea. The handling is the permanganate recipe unchanged: mouth tilted slightly down so condensate cannot run back, delivery tube barely inside the tube, collection over water. The difference is in the drug. Potassium chlorate melts near 356 °C and only then gives oxygen slowly, while ground with manganese dioxide it runs briskly a couple of hundred degrees earlier, so the dioxide is written above the arrow as a condition and never balanced into the equation. And it truly is a catalyst here: unchanged in mass and in chemistry, it is recovered by dissolving the residue in water, filtering, washing and drying the solid — potassium chloride goes into solution, the dioxide does not — the plainest possible proof that a catalyst comes out intact. Three standing traps: potassium permanganate is no substitute for the dioxide, since it decomposes itself into three products and merely supplies the dioxide that does the catalysis afterwards; chlorate is a strong oxidiser and ground or warmed with charcoal, sulfur or paper it can flare or detonate, so it is mixed with nothing else; and the common miswrites are an unbalanced equation or the catalyst parked on the product side. Industry puts chlorate into match heads and pyrotechnics, the bench uses a spatula-tip, and what is left over never goes back into the bottle (see storing reagents and choosing the container).",
     "tags": ["制气"],
     "tagsEn": ["Gas"]
   },
@@ -441,6 +443,8 @@
     "oneLiner": "氢气燃烧生成水。",
     "oneLinerEn": "Hydrogen burns to form water.",
     "eq": { "lhs": "2H₂ + O₂", "cond": "点燃", "condEn": "ignite", "rhs": "2H₂O" },
+    "detail": "氢气燃烧是初中唯一要求亲手验证「产物只有水」的燃烧实验：在导管口点燃纯净的氢气，火焰呈淡蓝色（透过玻璃导管看时常带一点黄，要看清淡蓝可用干燥的玻璃片挡一下），火焰上方罩一个干而冷的烧杯，内壁立刻凝出水雾，说明产物只有水；用手摸烧杯外壁发烫，说明它放热。这条反应有三个用处。一、它是检验氢气最直观的方法，也是「水由氢和氧组成」的合成证据——与电解水正好互为逆过程，两条一起构成水的组成的完整论证。二、每摩尔氢气燃烧约放 286 kJ，按质量算热值高达约 143 MJ/kg，接近同质量汽油的三倍，而且产物只有水不排碳，所以它被当作燃料看待；难点全在储运，因为氢气密度最小，必须高压或液化才能装得下。三、它是「点燃前必须验纯」这条安全规矩的来源：氢气在空气里的体积分数约从 4% 到 75% 都属于爆炸极限，这一段内遇火都会爆炸，所以收集后先用小试管试爆——只听见一声闷响「噗」才算纯净，尖利的爆鸣说明还混着空气、必须重新收集。爆炸极限与「燃烧与灭火」里「有限空间内的剧烈燃烧就是爆炸」口径一致，而氢气还原氧化铜「先通氢、后点灯」的顺序也是同一个理由（见「置换反应」）。",
+    "detailEn": "Burning hydrogen is the one combustion the junior course must verify by its product: light the pure gas at the jet, hold a dry cold beaker over the flame and mist forms on the wall at once, while the outside of the beaker turns warm. Three uses follow. It is the plainest test for hydrogen and the synthesis half of the argument that water is made of hydrogen and oxygen, electrolysis being the exact reverse — the two together settle the composition of water. It gives some 286 kJ per mole, roughly 143 MJ per kilogram, close to three times petrol, and its only product is water, so it is counted as a carbon-free fuel; the whole difficulty lies in carrying so light a gas about, which takes pressure or liquefaction. And it is why hydrogen must be proved pure before lighting: mixtures from about 4% to 75% by volume in air all explode on a flame, so a small tube is tested first — a soft 'pop' means pure, a sharp shriek means air is still in it and the collection must be repeated. That band is the explosive limit, kept to the same wording as the combustion and fire-control entry, and it is the same reason the copper-oxide reduction passes gas before the lamp is lit (see displacement).",
     "tags": ["燃烧"],
     "tagsEn": ["Combustion"]
   },
@@ -648,7 +652,7 @@
         "role": "l"
       },
       {
-        "f": "xH₂O",
+        "f": "2xH₂O",
         "name": "水（潮湿环境）",
         "nameEn": "Water (moist conditions)",
         "note": "形成电解质膜，促成电化学腐蚀。",
@@ -670,7 +674,7 @@
     "level": 1,
     "oneLiner": "铁在潮湿空气中发生吸氧腐蚀生锈。",
     "oneLinerEn": "Iron corrodes in moist air (oxygen absorption).",
-    "eq": { "lhs": "4Fe + 3O₂ + xH₂O", "rhs": "2Fe₂O₃·xH₂O" },
+    "eq": { "lhs": "4Fe + 3O₂ + 2xH₂O", "rhs": "2Fe₂O₃·xH₂O" },
     "detail": "潮湿空气中铁发生电化学腐蚀，生成疏松的红棕色铁锈。",
     "detailEn": "In moist air iron undergoes electrochemical corrosion into flaky rust.",
     "tags": ["腐蚀"],
