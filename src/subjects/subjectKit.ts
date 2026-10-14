@@ -329,20 +329,22 @@ function periodicHTML(m: SubjectModule): string {
   const cells = m.items
     .map((it) => {
       const p = it.pt!;
-      return `<button class="pt-cell cat-${p.cat} js-pt" style="grid-row:${p.row};grid-column:${p.col}" data-key="${esc(it.id)}" aria-label="${esc(L(it.term))}">
+      return `<button class="pt-cell cat-${p.cat} js-pt" style="grid-row:${p.row};grid-column:${p.col}" data-key="${esc(it.id)}" data-cat="${esc(p.cat)}" aria-label="${esc(L(it.term))}">
         <span class="pt-z">${p.z}</span>
         <span class="pt-sym">${esc(p.symbol)}</span>
         <span class="pt-name">${esc(it.term.zh)}</span>
       </button>`;
     })
     .join("");
+  // 57–71 / 89–103 占位格做成可点击按钮：点击高亮并滚动定位到下方对应那一行镧系/锕系元素。
   const markers = `
-    <div class="pt-cell pt-marker" style="grid-row:6;grid-column:3">57–71</div>
-    <div class="pt-cell pt-marker" style="grid-row:7;grid-column:3">89–103</div>
+    <button type="button" class="pt-cell pt-marker js-pt-marker" style="grid-row:6;grid-column:3" data-cat="lanthanide" aria-pressed="false" aria-label="${esc(L({ zh: "镧系 57–71", en: "Lanthanides 57–71" }))}">57–71</button>
+    <button type="button" class="pt-cell pt-marker js-pt-marker" style="grid-row:7;grid-column:3" data-cat="actinide" aria-pressed="false" aria-label="${esc(L({ zh: "锕系 89–103", en: "Actinides 89–103" }))}">89–103</button>
     <div class="pt-spacer" style="grid-row:8;grid-column:1/-1"></div>`;
+  // 图例居中；每项可点击，点击高亮对应分类的元素（再点取消）。
   const legend = `<div class="pt-legend" style="grid-row:11;grid-column:1/-1">${PT_CATS.map(
     (c) =>
-      `<span class="pt-leg"><i class="pt-swatch cat-${c.key}"></i>${esc(L({ zh: c.zh, en: c.en }))}</span>`,
+      `<button type="button" class="pt-leg js-pt-leg" data-cat="${esc(c.key)}" aria-pressed="false"><i class="pt-swatch cat-${c.key}"></i>${esc(L({ zh: c.zh, en: c.en }))}</button>`,
   ).join("")}</div>`;
   return cells + markers + legend;
 }
@@ -440,6 +442,61 @@ export function createSubject(cfg: SubjectConfig) {
       });
     };
 
+    /** 周期表图例 / 57–71 / 89–103 占位格的点击高亮：按分类聚焦元素，其余淡出；再次点击取消。 */
+    const bindPeriodicInteractions = (grid: HTMLElement): void => {
+      const cells = Array.from(
+        grid.querySelectorAll<HTMLElement>(".js-pt[data-cat]"),
+      );
+      const legs = Array.from(grid.querySelectorAll<HTMLElement>(".js-pt-leg"));
+      const markers = Array.from(
+        grid.querySelectorAll<HTMLElement>(".js-pt-marker"),
+      );
+      let activeCat = "";
+      const clearHi = () => {
+        grid.classList.remove("pt-filtering");
+        cells.forEach((c) => c.classList.remove("pt-match"));
+        [...legs, ...markers].forEach((l) => {
+          l.classList.remove("pt-on");
+          l.setAttribute("aria-pressed", "false");
+        });
+        activeCat = "";
+      };
+      const toggle = (cat: string, scroll: boolean) => {
+        if (activeCat === cat) {
+          clearHi();
+          return;
+        }
+        clearHi();
+        activeCat = cat;
+        grid.classList.add("pt-filtering");
+        cells.forEach((c) => {
+          if (c.dataset.cat === cat) c.classList.add("pt-match");
+        });
+        const trigs = [...legs, ...markers].filter(
+          (l) => l.dataset.cat === cat,
+        );
+        trigs.forEach((t) => {
+          t.classList.add("pt-on");
+          t.setAttribute("aria-pressed", "true");
+        });
+        if (scroll) {
+          cells
+            .find((c) => c.dataset.cat === cat)
+            ?.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+              inline: "center",
+            });
+        }
+      };
+      legs.forEach((l) =>
+        l.addEventListener("click", () => toggle(l.dataset.cat!, false)),
+      );
+      markers.forEach((mk) =>
+        mk.addEventListener("click", () => toggle(mk.dataset.cat!, true)),
+      );
+    };
+
     const renderModule = (m: SubjectModule, grid: HTMLElement) => {
       if (m.kind === "periodic") {
         grid.innerHTML = periodicHTML(m);
@@ -450,6 +507,7 @@ export function createSubject(cfg: SubjectConfig) {
             if ((e as KeyboardEvent).key === "Enter") open();
           });
         });
+        bindPeriodicInteractions(grid);
         return;
       }
       const level = levelState.get(m.key) ?? 0;

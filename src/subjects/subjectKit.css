@@ -626,8 +626,9 @@
 .subject-root .pt-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 14px;
+  gap: 8px 10px;
   align-items: center;
+  justify-content: center;
   padding: 10px 2px 0;
   font-size: 0.8rem;
   color: var(--text-soft);
@@ -636,12 +637,53 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 3px 9px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.subject-root .pt-leg:hover {
+  background: var(--surface);
+  border-color: var(--border);
+}
+.subject-root .pt-leg.pt-on {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--text);
 }
 .subject-root .pt-swatch {
   width: 13px;
   height: 13px;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.15);
+}
+/* 57–71 / 89–103 占位格改为可点击：指针 + 悬浮反馈 */
+.subject-root .js-pt-marker {
+  cursor: pointer;
+}
+.subject-root .js-pt-marker:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+.subject-root .js-pt-marker.pt-on {
+  border-color: var(--accent);
+  border-style: solid;
+  color: var(--text);
+}
+/* 分类高亮：聚焦命中元素，其余淡出 */
+.subject-root .pt-grid.pt-filtering .js-pt:not(.pt-match) {
+  opacity: 0.28;
+  filter: grayscale(0.4);
+}
+.subject-root .pt-cell.pt-match {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 24%, transparent);
+  z-index: 1;
 }
 
 /* 周期表分类配色（浅色底 + 深色字，保证可读性） */
