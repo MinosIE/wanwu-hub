@@ -59,7 +59,7 @@ npm install
 npm run dev          # 开发服务器（Vite）
 npm run build        # 生产构建到 dist/
 npm run preview      # 预览构建产物
-npm run verify       # 类型检查 + JSON 校验 + 链接/双语/索引覆盖门禁 + physics/chem 导出防漂移 + dynasty 校验
+npm run verify       # 类型检查 + JSON 校验 + 链接/双语/索引覆盖门禁 + physics/chem 导出防漂移 + dynasty/chem 数据校验
 npm run build:ssg    # gen:geo + gen:sitemap + vite build + puppeteer 预渲染（静态 HTML，利于 SEO/首屏）
 ```
 
@@ -71,6 +71,7 @@ npm run build:ssg    # gen:geo + gen:sitemap + vite build + puppeteer 预渲染�
 - `npm run data:export` / `data:check`：把 physics/chem 的 `data.ts` 导出为 `public/<x>-data/data/*.json` 机器可读数据（`--check` 作为防漂移门禁）。
 - `npm run fmt:json`：统一数据 JSON 排版（与导出器共用 `scripts/jsonStyle.mjs`）。
 - dynasty 另有专用数据构建脚本：`npm run dynasty:validate` / `dynasty:rebuild` 等。
+- chem 有三道专用闸：`npm run chem:validate`（方程式原子+电荷守恒、双语字段结构、`subs` role、SVG viewBox 越界、`detail` 禁 markdown，已在 `verify` 链里）、`npm run chem:stats`（打印内容实测账：条目数、无 `detail`、`detail` 长短、方程式/`subs`/SVG 计数）、`npm run chem:smoke [模块名…]`（浏览器冒烟，中英 × 明暗逐条点开，自行起停 preview，需本机 Chrome 故不进 `verify`）。改 `src/subjects/chem/data.ts` 后前两个必跑。
 
 ## GEO 与抓取资产
 

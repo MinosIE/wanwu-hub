@@ -312,6 +312,14 @@ const SUSPECT = [
   "Chemistry in Daily Life",
 ];
 
+/* 巡检前先抹掉合法写法：勒夏特列一类句子会把「向」与「分子数」连成「向分」，
+   而历史错字是把「水分、成分」敲成「向分」，两者只能靠后接的字区分。 */
+const LEGIT = ["向分子数"];
+const scanSuspect = (text, tag) => {
+  const s = LEGIT.reduce((acc, w) => acc.split(w).join(""), text);
+  for (const w of SUSPECT) ok(!s.includes(w), `${tag} 巡检命中可疑串「${w}」`);
+};
+
 /* ---------- 导出 JSON 是扁平结构：tags/tagsEn 平行数组，zh===en 时省略 termEn ---------- */
 const ROLES = new Set(["l", "r", "c"]);
 const keyOf = (s) =>
@@ -413,8 +421,7 @@ for (const key of list) {
         `${tag} detailEn 偏短(${(it.detailEn || "").length})`,
       );
       const text = `${it.detail}${it.detailEn}`;
-      for (const w of SUSPECT)
-        ok(!text.includes(w), `${tag} 巡检命中可疑串「${w}」`);
+      scanSuspect(text, tag);
       // detail 无论有没有 figure 都走 esc() 进单个 <p>，markdown 标记会原样显示
       ok(
         !/\*\*|`/.test(text),
@@ -431,11 +438,7 @@ for (const key of list) {
         `${tag} sub ${s.f} 英文含中文`,
       );
       ok(!!s.name && !!s.note, `${tag} sub ${s.f} 缺 name/note`);
-      for (const w of SUSPECT)
-        ok(
-          !`${s.note}${s.noteEn}`.includes(w),
-          `${tag} sub ${s.f} 巡检命中可疑串「${w}」`,
-        );
+      scanSuspect(`${s.note}${s.noteEn}`, `${tag} sub ${s.f}`);
     }
     const eqs = Array.isArray(it.eq) ? it.eq : it.eq ? [it.eq] : [];
     for (const e of eqs) {
