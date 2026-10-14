@@ -7703,8 +7703,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Built the first periodic table and predicted unknown elements.",
           },
           detail: {
-            zh: "1869 年按相对原子质量与性质把已知元素排成一张表，留下空位并预言「类铝」「类硅」「类硼」的性质；镓、锗、钪陆续填上这些格子，是这张表最硬的说服力。他与德国人迈尔几乎同时得到周期体系，优先权长期有争议。真正持久的不是那张表的样式，而是「性质随核电荷递增而重复出现」这条排序逻辑。",
-            en: "He arranged the known elements by atomic weight and similarity in 1869, left gaps, and forecast the properties of 'eka-aluminium', 'eka-silicon' and 'eka-boron'; gallium, germanium and scandium filled them, which is the strongest evidence that the table was right. He got there almost simultaneously with Germany's Meyer, and the priority fight outlived both. What endured is not the layout but the logic: properties recur as charge rises.",
+            zh: "1869 年按相对原子质量与性质把已知元素排成一张表，留下空位并预言「类铝」「类硅」「类硼」的性质；镓、锗、钪陆续填上这些格子，是这张表最硬的说服力。轮到钴与镍、碲与碘时，按质量该调换次序，他咬定是原子量测错了、坚持按性质排位，后来改用核电荷排序证明他没错。他与德国人迈尔几乎同时得到周期体系，优先权长期有争议。真正持久的不是那张表的样式，而是「元素周期律」这条排序逻辑：性质随核电荷递增而重复出现。",
+            en: "He arranged the known elements by atomic weight and similarity in 1869, left gaps, and forecast the properties of 'eka-aluminium', 'eka-silicon' and 'eka-boron'; gallium, germanium and scandium filled them, the strongest proof the table was right. Where cobalt and nickel, or tellurium and iodine, would have forced a swap by weight, he insisted the measured masses were wrong and kept the chemical order; reordering by nuclear charge later vindicated him. He reached the system almost simultaneously with Germany's Meyer, and the priority fight outlived both. What endured is not the layout but the periodic law: properties recur as nuclear charge rises (see Periodic Law).",
           },
         },
         {
@@ -7717,8 +7717,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Father of modern chemistry; conservation of mass and oxygen theory.",
           },
           detail: {
-            zh: "在密闭容器里精确称量反应前后，把「燃素」从化学里请了出去，证明燃烧是物质与氧结合。1789 年的《化学纲要》给出第一张元素表和一套新命名法，硫酸、氧化物这类名字由此而来；那张表里仍列着「热」与「光」，也把硅、铝当作尚未分解的复合体。他兼任包税官，1794 年死于法国大革命，拉格朗日事后说：砍下这个头颅只要一瞬，一百年也长不出第二个。",
-            en: "Weighing reactants and products in sealed vessels, he removed phlogiston from chemistry and showed burning as combination with oxygen. His 1789 textbook carried the first element table and the naming system still used for sulfates and oxides — though it listed heat and light among the elements and treated silica and alumina as unsplit compounds. He also farmed taxes for the crown and was guillotined in 1794; Lagrange: a moment sufficed to cut that head off, and a century will not grow another.",
+            zh: "在密闭容器里精确称量反应前后，把「燃素」从化学里请了出去，证明燃烧是物质与氧结合。1789 年的《化学纲要》给出第一张元素表和一套新命名法，硫酸、氧化物这类名字由此而来；那张表里仍列着「热」与「光」，也把硅、铝当作尚未分解的复合体。1785 年他把金刚石放进纯氧里烧，生成的气体同样能让石灰水变浑，头一回说明金刚石与木炭原是同一元素的不同形态。他兼任包税官，1794 年死于法国大革命，拉格朗日事后说：砍下这个头颅只要一瞬，一百年也长不出第二个。",
+            en: "Weighing reactants and products in sealed vessels, he removed phlogiston from chemistry and showed burning as combination with oxygen. His 1789 textbook carried the first element table and the naming system still used for sulfates and oxides — though it listed heat and light among the elements and treated silica and alumina as unsplit compounds. In 1785 he burned a diamond in pure oxygen and the gas it gave clouded limewater just as charcoal's did, the first clear sign that diamond and charcoal are two forms of one element. He also farmed taxes for the crown and was guillotined in 1794; Lagrange: a moment sufficed to cut that head off, and a century will not grow another.",
           },
         },
         {
@@ -7731,8 +7731,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Proposed atomic theory: matter is made of indivisible atoms.",
           },
           detail: {
-            zh: "他把原子拉进定量化学：以氢为 1 推出相对原子质量，用「最简比」猜化学式（因此把水写成 HO、氨写成 NH），并给出混合气体的分压定律。他坚信原子不可再分、同种元素的原子一般重，这两条后来分别被同位素与核物理推翻。他拒绝阿伏伽德罗的分子假说，原子量与分子量于是纠缠了半个世纪。",
-            en: "He made atoms quantitative: taking hydrogen as 1 he tabulated relative atomic weights, guessed formulae by the simplest ratio (so water became HO and ammonia NH) and stated the law of partial pressures. He held atoms indivisible and of equal weight within an element — both later broken, by isotopes and by nuclear physics. Rejecting Avogadro's molecule, he left atomic and molecular weights tangled for fifty years.",
+            zh: "他把原子拉进定量化学：以氢为 1 推出相对原子质量，用「最简比」猜化学式（因此把水写成 HO、氨写成 NH），并给出混合气体的分压定律。他坚信原子不可再分、同种元素的原子一般重，这两条后来分别被「同位素」与核物理推翻。他拒绝阿伏伽德罗的分子假说，原子量与分子量于是纠缠了半个世纪，直到 1860 年卡尔斯鲁厄会议上康尼查罗重新区分原子与分子才算理清。他最早用科学笔触记录了红绿色盲，这种视觉缺陷后来就以他的名字命名。",
+            en: "He made atoms quantitative: taking hydrogen as 1 he tabulated relative atomic weights, guessed formulae by the simplest ratio (so water became HO and ammonia NH) and stated the law of partial pressures. He held atoms indivisible and equal in weight within an element — both later broken, by isotopes (see Isotope) and by nuclear physics. Rejecting Avogadro's molecule, he left atomic and molecular weights tangled for fifty years, until Cannizzaro re-separated atom from molecule at the 1860 Karlsruhe congress. He also gave the first scientific account of red-green colour blindness, a defect later named after him.",
           },
         },
         {
@@ -7745,8 +7745,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Boyle's law (pV = const) founded the study of gases.",
           },
           detail: {
-            zh: "用自制的抽气泵做「空气弹」实验，1662 年得出温度不变时气体压强与体积成反比，器械与操作多由胡克动手完成。《怀疑的化学家》（1661）既反对四元素也反对三要素，主张化学的任务是把具体物体拆成成分并逐一定量——他给元素下了个操作性定义：元素是不能再分解为更简单身体的物质。",
-            en: "With a pump of his own building he ran air-gun experiments and in 1662 reported that at fixed temperature a gas trades pressure against volume; Hooke made and worked much of the apparatus. The Sceptical Chymist of 1661 refused both the four elements and the three principles, assigning chemistry the task of resolving bodies into ingredients and measuring each. His working definition: an element is what cannot be broken into a simpler body.",
+            zh: "用自制的抽气泵做「空气弹」实验，1662 年得出温度不变时气体压强与体积成反比，器械与操作多由胡克动手完成。同一台抽气机还证明：声音要靠空气传播，把燃着的蜡烛或小白鼠关进真空，火焰会熄、小鼠会窒息，这为「燃烧与灭火」里燃烧离不开空气的一面提供了早期证据。《怀疑的化学家》（1661）既反对四元素也反对三要素，主张化学的任务是把具体物体拆成成分并逐一定量——他给元素下了个操作性定义：元素是不能再分解为更简单身体的物质。",
+            en: "With a pump of his own making he ran air-gun experiments and in 1662 reported that at fixed temperature a gas trades pressure against volume; Hooke built and worked much of the apparatus. The same vacuum showed that sound needs air, and that a lit candle or a small mouse shuts down in it — early evidence that fire depends on air (see Combustion and Firefighting). The Sceptical Chymist of 1661 refused both the four elements and the three principles, assigning chemistry the task of resolving bodies into ingredients and measuring each. His working definition: an element is what cannot be broken into a simpler body.",
           },
         },
         {
@@ -7759,8 +7759,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Discovered polonium and radium; pioneer of radioactivity.",
           },
           detail: {
-            zh: "「放射性」这个词由她造出。她与皮埃尔·居里从成吨沥青铀矿渣里煮炼、分级结晶，1898 年先析出钋（以波兰命名）再得镭，并测出镭的原子量。1903 年的物理学奖与皮埃尔、贝克勒尔共享，1911 年的化学奖因分离纯镭归她一人。一战时她组织流动 X 光车上前线；1934 年死于再生障碍性贫血，笔记本至今带放射性，查阅者要穿防护服并签同意书。",
-            en: "She coined the word 'radioactivity'. With Pierre she boiled down tonnage of pitchblende residue and crystallised it in fractions, isolating polonium in 1898 (named for her Poland) and then radium, and fixing radium's atomic weight. The 1903 physics prize was shared with Pierre and Becquerel; the 1911 chemistry prize was hers alone for the isolated metal. She ran mobile X-ray units to the front in the First War and died of aplastic anaemia in 1934 — her notebooks stay radioactive and are still handled in protective clothing behind signed waivers.",
+            zh: "「放射性」这个词由她造出。她与皮埃尔·居里从成吨沥青铀矿渣里煮炼、分级结晶，1898 年先析出钋（以波兰命名）再得镭，并测出镭的原子量。1903 年的物理学奖起初只提名皮埃尔与贝克勒尔，经友人提醒才补上她的名字；1911 年的化学奖因分离纯镭归她一人，她也因此成为唯一在物理、化学两个不同学科各获一次诺奖的人。一战时她组织流动 X 光车上前线；1934 年死于再生障碍性贫血，笔记本至今带放射性，查阅者要穿防护服并签同意书。",
+            en: "She coined the word 'radioactivity'. With Pierre she boiled down tonnage of pitchblende residue and crystallised it in fractions, isolating polonium in 1898 (named for her Poland) and then radium, and fixing radium's atomic weight. The 1903 physics prize first named only Pierre and Becquerel and was amended to add her only after a friend's protest; the 1911 chemistry prize was hers alone for the isolated metal, and she remains the only laureate honoured twice in two different sciences. She ran mobile X-ray units to the front in the First War and died of aplastic anaemia in 1934 — her notebooks stay radioactive and are still handled in protective clothing behind signed waivers.",
           },
         },
         {
@@ -7773,8 +7773,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Giant of chemical bonding and electronegativity; two-time Nobel laureate.",
           },
           detail: {
-            zh: "把量子力学接进化学键：杂化轨道、电负性标度与「共振」都出自他 1931 年起的系列工作，《化学键的本质》至今是这门学科的语言。1951 年他与科里提出蛋白质主链的 α 螺旋与 β 折叠，同一时期给出的 DNA 三螺旋模型却是错的。1954 年获化学奖，1962 年因推动部分禁核试条约再得和平奖。晚年投入大剂量维生素 C 防治感冒与癌症，证据薄弱，这是他名声上最实的一处伤口。",
-            en: "He brought quantum mechanics into the bond: hybridisation, the electronegativity scale and 'resonance' all come from work begun in 1931, and The Nature of the Chemical Bond still sets the vocabulary. With Corey he proposed the α-helix and β-sheet of protein backbones in 1951 — and, in the same stretch, a wrong triple-helix model of DNA. Chemistry prize 1954, peace prize 1962 for his push behind the test-ban treaty. His late campaign for megadose vitamin C against colds and cancer rested on thin evidence and is the plainest wound on his reputation.",
+            zh: "把量子力学接进化学键：杂化轨道、电负性标度与「共振」都出自他 1931 年起的系列工作，《化学键的本质》至今是这门学科的语言。他给出的电负性差至今仍用来粗判键型——两原子电负性相差大，电子几乎被拉过去成离子键；相差居中，就是「电负性与电离能」里那种极性共价。1951 年他与科里提出蛋白质主链的 α 螺旋与 β 折叠，同一时期给出的 DNA 三螺旋模型却是错的。1954 年获化学奖，1962 年因推动部分禁核试条约再得和平奖。晚年投入大剂量维生素 C 防治感冒与癌症，证据薄弱，这是他名声上最实的一处伤口。",
+            en: "He brought quantum mechanics into the bond: hybridisation, the electronegativity scale and 'resonance' all come from work begun in 1931, and The Nature of the Chemical Bond still sets the vocabulary. His electronegativity difference still sorts bond types roughly by eye — a large gap pulls electrons across into an ionic bond, a middling one leaves the polar covalent bond of electronegativity and ionization (see Electronegativity & Ionization). With Corey he proposed the α-helix and β-sheet of protein backbones in 1951 — and, in the same stretch, a wrong triple-helix model of DNA. Chemistry prize 1954, peace prize 1962 for his push behind the test-ban treaty. His late campaign for megadose vitamin C against colds and cancer rested on thin evidence and is the plainest wound on his reputation.",
           },
         },
         {
@@ -7787,8 +7787,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Equal gas volumes hold equal molecule counts at same T and P.",
           },
           detail: {
-            zh: "1811 年提出：气体单质常以双原子分子存在（H₂、O₂、Cl₂），同温同压下等体积的气体含同样多的分子。这条假说能把盖-吕萨克测出的体积比直接换算成化学式，却被道尔顿与贝采利乌斯拒斥；他此后几乎再无新论，1856 年在冷清中去世，被长期忽略。真正的承认是 1860 年以后，而「阿伏伽德罗常数」这个叫法出现在他身后。",
-            en: "In 1811 he proposed that the elemental gases are diatomic (H₂, O₂, Cl₂) and that equal volumes of gas at the same temperature and pressure hold equal numbers of molecules. The hypothesis converted Gay-Lussac's measured volume ratios straight into formulae, and Dalton and Berzelius rejected it; he published little after, and died quietly in 1856, long overlooked. Recognition came only after 1860, and the name 'Avogadro's number' for the constant postdated him.",
+            zh: "1811 年提出：气体单质常以双原子分子存在（H₂、O₂、Cl₂），同温同压下等体积的气体含同样多的分子。这条假说能把盖-吕萨克测出的体积比直接换算成化学式，却被道尔顿与贝采利乌斯拒斥；他此后几乎再无新论，1856 年在冷清中去世，被长期忽略。真正的承认是 1860 年以后，而「阿伏伽德罗常数」这个叫法出现在他身后：1 摩尔任何物质都含约 6.02×10²³ 个微粒，这条定律至今仍是把气体体积换算成物质的量的桥梁，也正是「摩尔」这一单位的地基。",
+            en: "In 1811 he proposed that the elemental gases are diatomic (H₂, O₂, Cl₂) and that equal volumes of gas at the same temperature and pressure hold equal numbers of molecules. The hypothesis converted Gay-Lussac's measured volume ratios straight into formulae, and Dalton and Berzelius rejected it; he published little after, and died quietly in 1856, long overlooked. Recognition came only after 1860, and the name 'Avogadro's number' postdated him: one mole of any substance holds about 6.02×10²³ particles, the law still bridges a measured gas volume to an amount of substance, and this is the very footing of the mole (see Mole).",
           },
         },
         {
@@ -7801,8 +7801,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Stated the equilibrium-shift principle guiding chemical industry.",
           },
           detail: {
-            zh: "1888 年总结出移位规则：改变条件时，平衡向削弱这一改变的方向移动（前一年德国人布朗已独立发表同一原理，故也常并称勒夏特列-布朗原理）。他出身矿业世家，把工业现场当实验室：改进本生灯与安全煤气灯、发明光学高温计、建立测定钢中碳的定碳法，也是最早解释水泥硬化机理的人之一。",
-            en: "In 1888 he stated the shift rule: a system at equilibrium answers a change by partly undoing it (the German Braun had published the same the year before, hence Le Chatelier–Braun). From a mining family, he treated the works as his laboratory — improving the Bunsen burner and the miners' safety lamp, inventing an optical pyrometer and the carbon-in-steel determination, and among the first to explain how cement hardens.",
+            zh: "1888 年总结出移位规则：改变条件时，平衡向削弱这一改变的方向移动（前一年德国人布朗已独立发表同一原理，故也常并称勒夏特列-布朗原理）。工业合成氨便顺着这条走：加压、选一个折中的高温，再把氨从体系里冷凝移走，逼「化学平衡状态」一路朝生成氨的方向挪；判断电离、溶解等平衡的走向，用的也是同一条思路。他出身矿业世家，把工业现场当实验室：改进本生灯与安全煤气灯、发明光学高温计、建立测定钢中碳的定碳法，也是最早解释水泥硬化机理的人之一。",
+            en: "In 1888 he stated the shift rule: a system at equilibrium answers a change by partly undoing it (the German Braun had published the same the year before, hence Le Chatelier–Braun). Industrial ammonia synthesis follows it — high pressure, a compromise temperature, and condensing the ammonia out to drag the chemical equilibrium toward more product (see Chemical Equilibrium); the same reasoning serves ionization and solubility shifts. From a mining family, he treated the works as his laboratory, improving the Bunsen burner and the miners' safety lamp, inventing an optical pyrometer and the carbon-in-steel determination, and among the first to explain how cement hardens.",
           },
         },
         {
@@ -7815,8 +7815,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "A pharmacy apprentice who found oxygen and chlorine independently and isolated a generation of organic acids.",
           },
           detail: {
-            zh: "1770 年代他在乌普萨拉与林雪平的药房里，用简陋器具把空气拆开研究：约 1772 年制得氧气并称它「火的空气」，只因出版晚于普利斯特里而丢了优先权。氯（1774 年由盐酸与软锰矿作用得到）、锰、钡，以及草酸、乳酸、柠檬酸、尿酸都出自他的手，他还发明了含砷的颜料「舍勒绿」。他习惯用看、闻、尝来鉴定试剂，四十余岁即病逝；后人检测其遗骸发现汞含量异常高，普遍推测长期的重金属暴露加速了他的死亡。",
-            en: "Through the 1770s, in pharmacies at Uppsala and Linköping, he took air apart with rudimentary glassware: oxygen by about 1772, which he called 'fire air', a claim lost to Priestley only because he published later. Chlorine (1774, from muriatic acid on manganese ore), manganese, barium, and oxalic, lactic, citric and uric acids all came from his bench, along with the arsenical pigment 'Scheele's green'. He identified reagents by looking, sniffing and tasting, and was dead in his forties; later assay of his remains found startlingly high mercury, and long heavy-metal exposure is the usual explanation.",
+            zh: "1770 年代他在乌普萨拉与林雪平的药房里，用简陋器具把空气拆开研究：约 1772 年制得氧气并称它「火的空气」，只因出版晚于普利斯特里而丢了优先权——那能让带火星的木条复燃的气体正是氧气。氯（1774 年由盐酸与软锰矿作用得到）、锰、钡，以及草酸、乳酸、柠檬酸、尿酸都出自他的手，他还发明了含砷的颜料「舍勒绿」。他习惯用看、闻、尝来鉴定试剂，四十余岁即病逝；后人检测其遗骸发现汞含量异常高，普遍推测长期的重金属暴露加速了他的死亡。",
+            en: "Through the 1770s, in pharmacies at Uppsala and Linköping, he took air apart with rudimentary glassware: oxygen by about 1772, which he called 'fire air', a claim lost to Priestley only because he published later — though it was the very gas that rekindles a glowing splint. Chlorine (1774, from muriatic acid on manganese ore), manganese, barium, and oxalic, lactic, citric and uric acids all came from his bench, along with the arsenical pigment 'Scheele's green'. He identified reagents by looking, sniffing and tasting, and was dead in his forties; later assay of his remains found startlingly high mercury, and long heavy-metal exposure is the usual explanation.",
           },
         },
         {
@@ -7829,8 +7829,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Lenses focused on mercury calx gave him a gas that made candles burn brighter: oxygen, found independently.",
           },
           detail: {
-            zh: "1774 年他用大凸透镜把日光聚到氧化汞上，收集起这种能让蜡烛爆燃、小鼠活得更久的「脱燃素空气」。更早几年他已把薄荷枝与点着的蜡烛扣在同一只钟罩里，看到植物能修补被蜡烛和老鼠弄坏的气体——空气被光合修复这件事第一次露出头角。他在解释上始终站在燃素一边，于是发现归他、理论归拉瓦锡。他还把二氧化碳压进水里做出汽水；他是神学家与一位论者，因公开支持美国与法国革命而在 1794 年远走宾夕法尼亚。",
-            en: "In 1774 a burning lens over mercury calx gave him a gas that flashed candles into brighter flame and kept mice lively: 'dephlogisticated air'. Years earlier he had shut a mint sprig and a lit candle under the same bell jar and watched the plant repair air that candle and beast had spoiled — the first sight of photosynthesis restoring the atmosphere. He stayed a phlogistonian to the end, so the discovery is his and the theory is Lavoisier's. He also forced CO₂ into water and invented soda water; a Unitarian theologian, his open support for the American and French revolutions drove him to Pennsylvania in 1794.",
+            zh: "1774 年他用大凸透镜把日光聚到氧化汞上，收集起这种能让蜡烛爆燃、小鼠活得更久的「脱燃素空气」，其实它就是氧气，命名与解释的功劳归了拉瓦锡。更早几年他已把薄荷枝与点着的蜡烛扣在同一只钟罩里，看到植物能修补被蜡烛和老鼠弄坏的气体——「光合作用」能更新空气这件事第一次露出头角。他还把二氧化碳压进水里做出汽水，也注意到印度橡胶能擦去铅笔字、因而被视作橡皮擦的推广者；他是神学家与一位论者，因公开支持美国与法国革命而在 1794 年远走宾夕法尼亚。",
+            en: "In 1774 a burning lens over mercury calx gave him a gas that flashed candles into brighter flame and kept mice lively: 'dephlogisticated air' — in truth oxygen, whose correct name and theory went to Lavoisier. Years earlier he had shut a mint sprig and a lit candle under the same bell jar and watched the plant repair air that candle and beast had spoiled, the first sight of photosynthesis (see Photosynthesis) renewing the atmosphere. He also forced CO₂ into water to make soda water, and is credited with popularizing the rubber eraser after noticing India rubber rubbed out pencil marks; a Unitarian theologian, his open support for the American and French revolutions drove him to Pennsylvania in 1794.",
           },
         },
         {
