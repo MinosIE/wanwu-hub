@@ -1,0 +1,854 @@
+[
+  {
+    "id": "mn-sodium",
+    "subs": [
+      {
+        "f": "Na",
+        "name": "钠（银白色轻金属）",
+        "nameEn": "Sodium (silvery light metal)",
+        "note": "密度比水小、硬度小可用刀切，必须泡在煤油里隔绝空气与水。",
+        "noteEn": "Less dense than water, soft enough to cut; stored under paraffin.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "提供反应掉的氢，同时是放热使钠熔成小球的原因。",
+        "noteEn": "Supplies the hydrogen taken up, and the heat that melts the bead.",
+        "role": "l"
+      },
+      {
+        "f": "NaOH",
+        "name": "氢氧化钠（烧碱）",
+        "nameEn": "Sodium hydroxide (caustic soda)",
+        "note": "使酚酞变红的碱性物质，俗名火碱、苛性钠。",
+        "noteEn": "The alkali that turns phenolphthalein red; lye, caustic soda.",
+        "role": "r"
+      },
+      {
+        "f": "H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "气体推动小球游动并嘶嘶作响，点燃有尖锐爆鸣声。",
+        "noteEn": "The gas that propels the bead; it detonates sharply when lit.",
+        "role": "r"
+      },
+      {
+        "f": "Na₂O₂",
+        "name": "过氧化钠（淡黄色）",
+        "nameEn": "Sodium peroxide (pale yellow)",
+        "note": "氧以过氧根 O₂²⁻ 形式存在，与 CO₂、H₂O 都能放出氧气，用作供氧剂。",
+        "noteEn": "Holds oxygen as O₂²⁻; gives O₂ with both CO₂ and water, hence an oxygen source.",
+        "role": "l"
+      },
+      {
+        "f": "CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "被过氧化钠吸收并换成氧气，密闭供氧就靠这一进一出。",
+        "noteEn": "Absorbed and traded for oxygen — the whole point of a sealed oxygen source.",
+        "role": "l"
+      },
+      {
+        "f": "Na₂CO₃",
+        "name": "碳酸钠（纯碱、苏打）",
+        "nameEn": "Sodium carbonate (soda ash, washing soda)",
+        "note": "属于盐而不是碱，俗名却叫纯碱；去油污靠的是水解显碱性。",
+        "noteEn": "A salt, not a base, yet named for its alkalinity; it degreases by hydrolysing basic.",
+        "role": "r"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "供氧与潜水艇再生空气的有效产物。",
+        "noteEn": "The usable output for breathing apparatus and submarines.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧂",
+    "term": "钠及其化合物",
+    "termEn": "Sodium and Its Compounds",
+    "level": 1,
+    "oneLiner": "钠浮水面熔成小球四处游动；过氧化钠能吸收二氧化碳放出氧气。",
+    "oneLinerEn": "Sodium skims, melts and darts on water; sodium peroxide trades CO₂ for O₂.",
+    "eq": [
+      {
+        "lhs": "2Na + 2H₂O",
+        "cond": "常温，滴入酚酞",
+        "condEn": "room temperature, with phenolphthalein",
+        "rhs": "2NaOH + H₂↑",
+        "rel": "equal"
+      },
+      {
+        "lhs": "2Na₂O₂ + 2CO₂",
+        "cond": "常温即可，密闭供氧",
+        "condEn": "proceeds cold; sealed oxygen supply",
+        "rhs": "2Na₂CO₃ + O₂",
+        "rel": "equal"
+      }
+    ],
+    "detail": "钠的性质可以用课堂上的五个字记住：浮、熔、游、响、红——密度比水小所以浮，反应放热且钠熔点低（约 98 ℃）所以熔成小球，气体推动它游动并发出嘶嘶声，滴有酚酞的水最后变红。切开的银白截面很快变暗，是因为常温下 4Na + O₂ = 2Na₂O；若加热则先熔后燃、生成淡黄色的 Na₂O₂，同一个金属因温度不同而给出两种产物。Na₂O₂ 里氧是 −1 价，它既是供氧剂又是氧化剂，能吸收 CO₂ 放 O₂，所以用在呼吸面具与潜艇里；注意它不属于碱性氧化物（碱性氧化物与酸只生成盐和水）。碳酸钠与碳酸氢钠的区分是必考项：同温下溶解度 Na₂CO₃ 大于 NaHCO₃，受热只有 NaHCO₃ 分解出 CO₂，加同浓度盐酸时 NaHCO₃ 立即冒泡而 Na₂CO₃ 先生成 NaHCO₃ 再放气（所以逐滴加入时谁先冒泡能反推组成），加 CaCl₂ 溶液只有 Na₂CO₃ 出白色沉淀。两者都能与酸反应，所以胃药里用 NaHCO₃ 中和胃酸，但胃溃疡患者禁用——产生的气体有穿孔风险。",
+    "detailEn": "Five words carry sodium's classroom demo: it floats, melts, darts, hisses, and reddens the phenolphthalein — floats because it is lighter than water, melts because the heat of reaction exceeds its 98 °C melting point, darts and hisses as hydrogen pushes it. A freshly cut face dulls at once because 4Na + O₂ = 2Na₂O at room temperature, while heated sodium melts, then burns to pale-yellow Na₂O₂: one metal, two products, decided by temperature. In the peroxide oxygen sits at −1, so it is both an oxygen donor and an oxidiser, taking in CO₂ and giving back O₂ — which is why it serves in breathing masks and submarines; note it is not a basic oxide, since basic oxides yield only salt and water with acid. Telling soda ash from bicarbonate is a standing exam item: at the same temperature carbonate dissolves more, only bicarbonate releases CO₂ on heating, and with acid of the same concentration bicarbonate fizzes immediately while carbonate must first become bicarbonate, so which one bubbles first under dropwise acid reveals the mixture; added calcium chloride precipitates only the carbonate. Both neutralise stomach acid, which is why sodium bicarbonate appears in antacids — and why it is forbidden when an ulcer is present, since the gas it frees risks a perforation.",
+    "tags": ["金属", "元素化合物"],
+    "tagsEn": ["Metal", "Main-Group"]
+  },
+  {
+    "id": "mn-aluminum",
+    "subs": [
+      {
+        "f": "Al",
+        "name": "铝",
+        "nameEn": "Aluminium",
+        "note": "活泼却耐腐蚀，靠的是表面那层致密的氧化铝薄膜。",
+        "noteEn": "Active yet durable, thanks to a tight film of its oxide.",
+        "role": "l"
+      },
+      {
+        "f": "HCl",
+        "name": "盐酸",
+        "nameEn": "Hydrochloric acid",
+        "note": "氧化膜先被酸溶掉，之后铝与酸持续反应。",
+        "noteEn": "The film dissolves first, then the metal keeps going.",
+        "role": "l"
+      },
+      {
+        "f": "AlCl₃",
+        "name": "氯化铝",
+        "nameEn": "Aluminium chloride",
+        "note": "酸性条件下的产物，遇到过量氨水会沉淀出氢氧化铝。",
+        "noteEn": "Its acidic-side product; excess ammonia throws down the hydroxide.",
+        "role": "r"
+      },
+      {
+        "f": "NaOH",
+        "name": "氢氧化钠（强碱）",
+        "nameEn": "Sodium hydroxide (strong base)",
+        "note": "铝能与强碱溶液反应，这是它区别于铁、铜的显著性质。",
+        "noteEn": "Aluminium reacts with strong base, the property that sets it off from iron and copper.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "参与反应并提供氢氧根中的氢。",
+        "noteEn": "Takes part, supplying the hydrogen of the hydroxide.",
+        "role": "l"
+      },
+      {
+        "f": "NaAlO₂",
+        "name": "偏铝酸钠",
+        "nameEn": "Sodium aluminate",
+        "note": "碱性溶液中的存在形式，通入 CO₂ 就析出氢氧化铝。",
+        "noteEn": "How aluminium lives in alkali; passing CO₂ precipitates the hydroxide.",
+        "role": "r"
+      },
+      {
+        "f": "H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "两条路径都放出氢气，所以铝锅不宜久存碱水或盐水。",
+        "noteEn": "Both routes free hydrogen — hence no long storage of alkali or brine in aluminium.",
+        "role": "r"
+      }
+    ],
+    "icon": "🥫",
+    "term": "铝及其化合物",
+    "termEn": "Aluminium and Its Compounds",
+    "level": 2,
+    "oneLiner": "铝既溶于盐酸又溶于氢氧化钠，氢氧化铝是典型的两性氢氧化物。",
+    "oneLinerEn": "Aluminium dissolves in both acid and strong base; its hydroxide is the classic amphoteric one.",
+    "eq": [
+      {
+        "lhs": "2Al + 6HCl",
+        "cond": "常温，先溶掉氧化膜",
+        "condEn": "room temperature, film first",
+        "rhs": "2AlCl₃ + 3H₂↑",
+        "rel": "equal"
+      },
+      {
+        "lhs": "2Al + 2NaOH + 2H₂O",
+        "cond": "强碱溶液",
+        "condEn": "strong base",
+        "rhs": "2NaAlO₂ + 3H₂↑",
+        "rel": "equal"
+      }
+    ],
+    "detail": "铝在地壳里是含量最高的金属元素，但人类直到 19 世纪电解法问世才用得起它——因为太活泼，碳还原不动它。它活泼却耐腐蚀，靠的是表面一层致密氧化铝薄膜；一旦这层膜被汞盐破坏（铝汞齐）或被碱溶掉，铝就能持续与水反应长出白色毛状物。真正的分界性质是两性：铝、Al₂O₃、Al(OH)₃ 三者都能既与酸又与强碱反应，所以鉴别 AlCl₃ 与 MgCl₂ 用过量 NaOH——前者先沉淀后溶解，后者沉淀不消。同一条性质也带来一个经典顺序题：往 AlCl₃ 溶液里逐滴加 NaOH，沉淀先增到最大再部分溶解；反过来往 NaOH 里滴 AlCl₃，开始几乎不见沉淀（生成的 Al(OH)₃ 立刻被过量碱溶走），后来才出现不消的沉淀——两种顺序现象不同，所以只用互滴就能鉴别而不需要别的试剂。实验室制 Al(OH)₃ 不用强碱而用氨水，因为 Al(OH)₃ 不溶于弱碱、不会过量溶解。Al₂O₃ 熔点很高，是耐火材料与刚玉（红宝石、蓝宝石的主体就是含微量铬或铁、钛的刚玉）的来源；电解炼铝用冰晶石（Na₃AlF₆）作熔剂把熔化温度从 2050 ℃ 降到约 960 ℃，这仍是耗电大户，所以废铝回收比炼原铝省九成以上能量。",
+    "detailEn": "Aluminium is the most abundant metal in the crust, yet humanity only put it to use after electrolysis arrived in the 19th century — it is too active for carbon to reduce. It resists corrosion despite that activity because of a tight oxide skin; destroy the skin with a mercury salt or with alkali and the metal will keep reacting with water, growing white hairs. Its defining trait is amphoterism: the metal, its oxide and its hydroxide all react with both acid and strong base, which is how aluminium chloride is told from magnesium chloride — excess sodium hydroxide dissolves the former's precipitate and leaves the latter's. The same trait drives a classic order question: drip sodium hydroxide into aluminium chloride and the precipitate grows, then partly redissolves; drip the other way and little appears at first, since any hydroxide formed is instantly taken back by the excess alkali, and only later does a permanent precipitate show. The two orders look different, so mutual dropwise addition alone distinguishes them without another reagent. A laboratory makes aluminium hydroxide with ammonia rather than strong base precisely because it will not dissolve in a weak base. Aluminium oxide's very high melting point makes it a refractory and the body of corundum — ruby and sapphire are corundum with traces of chromium or iron and titanium — and smelting uses cryolite to bring the working temperature down from about 2050 °C to roughly 960 °C, still power-hungry enough that recycling aluminium saves over ninety percent of the energy of primary metal.",
+    "tags": ["金属", "两性"],
+    "tagsEn": ["Metal", "Amphoteric"]
+  },
+  {
+    "id": "mn-iron",
+    "subs": [
+      {
+        "f": "Fe",
+        "name": "铁（0 价）",
+        "nameEn": "Iron (valence 0)",
+        "note": "三角的起点，既可被氧化成 Fe²⁺ 也能直接到 Fe³⁺。",
+        "noteEn": "The triangle's origin: oxidisable to iron(II) or straight to iron(III).",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水蒸气",
+        "nameEn": "Steam",
+        "note": "必须是蒸气，铁与液态水常温下几乎不反应。",
+        "noteEn": "Steam specifically — cold liquid water barely touches iron.",
+        "role": "l"
+      },
+      {
+        "f": "Fe₃O₄",
+        "name": "四氧化三铁（磁性氧化铁）",
+        "nameEn": "Iron(II,III) oxide (magnetic)",
+        "note": "含 +2 与 +3 两种价态，铁丝在氧气中燃烧与高温水蒸气反应都得它。",
+        "noteEn": "Carries both valences; flame in oxygen and hot steam both end here.",
+        "role": "r"
+      },
+      {
+        "f": "H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "高温下铁把水里的氢置换出来。",
+        "noteEn": "Iron takes the hydrogen out of water at red heat.",
+        "role": "r"
+      },
+      {
+        "f": "Fe(OH)₂",
+        "name": "氢氧化亚铁（白色）",
+        "nameEn": "Iron(II) hydroxide (white)",
+        "note": "极怕氧气，制备时要把滴管插到液面下并隔绝空气。",
+        "noteEn": "Air-sensitive: the dropper must go below the surface and the dish must be covered.",
+        "role": "l"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "把白色迅速氧化，是灰绿色出现的唯一原因。",
+        "noteEn": "What turns white to grey-green so quickly.",
+        "role": "l"
+      },
+      {
+        "f": "Fe(OH)₃",
+        "name": "氢氧化铁（红褐色）",
+        "nameEn": "Iron(III) hydroxide (rust-brown)",
+        "note": "铁锈与铁红的主体，失水得 Fe₂O₃。",
+        "noteEn": "The body of rust and of iron-red pigment; loses water to give Fe₂O₃.",
+        "role": "r"
+      }
+    ],
+    "icon": "🩸",
+    "term": "铁及其化合物的「铁三角」",
+    "termEn": "Iron and Its Triangle",
+    "level": 2,
+    "oneLiner": "Fe、Fe²⁺、Fe³⁺ 靠氧化剂与还原剂互相转化，KSCN 只认 Fe³⁺。",
+    "oneLinerEn": "Iron, iron(II) and iron(III) convert by oxidation and reduction; thiocyanate answers only to iron(III).",
+    "eq": [
+      {
+        "lhs": "3Fe + 4H₂O",
+        "cond": "高温（水蒸气）",
+        "condEn": "red heat (steam)",
+        "rhs": "Fe₃O₄ + 4H₂",
+        "rel": "equal"
+      },
+      {
+        "lhs": "4Fe(OH)₂ + O₂ + 2H₂O",
+        "cond": "常温，白色迅速变质",
+        "condEn": "air, the white turns at once",
+        "rhs": "4Fe(OH)₃",
+        "rel": "equal"
+      }
+    ],
+    "figure": "<svg viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">铁三角：谁把谁变成谁 Iron's triangle of valences</text>\n  <g font-size=\"9\" fill=\"currentColor\">\n    <text x=\"150\" y=\"40\">Fe（0）</text>\n    <text x=\"52\" y=\"112\">Fe²⁺</text>\n    <text x=\"258\" y=\"112\">Fe³⁺</text>\n  </g>\n  <g stroke=\"currentColor\" stroke-opacity=\"0.45\" fill=\"none\">\n    <path d=\"M138 52 L78 96\"/><path d=\"M186 52 L246 96\"/><path d=\"M96 110 L236 110\"/>\n  </g>\n  <g font-size=\"7.5\" fill=\"#d4a017\">\n    <text x=\"30\" y=\"66\">氧化剂</text>\n    <text x=\"264\" y=\"66\">强氧化剂</text>\n    <text x=\"150\" y=\"128\">Fe³⁺ → Fe²⁺ 用 Fe、Cu、I⁻</text>\n  </g>\n  <g font-size=\"6.5\" fill=\"currentColor\" fill-opacity=\"0.6\">\n    <text x=\"24\" y=\"75\">mild: H⁺, Cu²⁺, S, I₂</text>\n    <text x=\"258\" y=\"75\">strong: Cl₂, HNO₃, H₂O₂</text>\n    <text x=\"150\" y=\"137\">and back with a reducer</text>\n  </g>\n  <text x=\"6\" y=\"146\" font-size=\"8.5\" fill=\"#e5484d\">⚠ 铁与硫、与碘只到 Fe²⁺；氯气才能把它推到 Fe³⁺</text>\n</svg>",
+    "detail": "铁的三种价态构成一个三角：Fe 到 Fe²⁺ 用弱一点的氧化剂（稀酸、Cu²⁺、硫、碘），Fe 或 Fe²⁺ 到 Fe³⁺ 必须靠强氧化剂（Cl₂、硝酸、H₂O₂、酸性高锰酸钾），Fe³⁺ 回到 Fe²⁺ 用 Fe、Cu 或 I⁻。这条规律里最容易被忽略的是氧化剂的强度决定价态：铁与硫共热只得 FeS、与碘只生成 FeI₂，而氯气能把铁直接推到 FeCl₃，所以「变价金属 + 非金属」的产物要先问非金属的氧化能力。Fe²⁺ 的检验是一套连招：先加 KSCN 不显色，再加氯水立刻变血红，说明原液里是 Fe²⁺ 而不是 Fe³⁺；反过来 Fe³⁺ 一加 KSCN 就红。Fe(OH)₂ 的制备必须与氧气抢时间：滴管插到液面以下、液面盖一层植物油或苯，白色沉淀仍会迅速变灰绿再变红褐，那灰绿色是中间产物而不是杂质。补血剂里的铁是 Fe²⁺，所以同服维生素 C（抗氧化剂）能防止它被氧化，而敞放过的药片失效也是同一道理。Fe³⁺ 溶液遇苯酚显紫色，是实验室里另一条灵敏反应；印刷制版与蚀刻铜板的氯化铁溶液靠的则是 Fe³⁺ 能把 Cu 氧化成 Cu²⁺。",
+    "detailEn": "Iron's three valences form a triangle: to iron(II) with a milder oxidiser (dilute acid, copper ion, sulfur, iodine), to iron(III) only with a strong one (chlorine, nitric acid, peroxide, acid permanganate), and back down to iron(II) with iron, copper or iodide. The point students miss is that the oxidiser sets the valence: heated with sulfur iron gives only FeS, with iodine only FeI₂, while chlorine drives it to FeCl₃ — so ask what the nonmetal can do before writing the product. Testing for iron(II) is a combination: thiocyanate first shows nothing, then a drop of chlorine water turns it blood-red, proving the solution held iron(II) rather than iron(III); genuine iron(III) reddens on the first touch. Making iron(II) hydroxide is a race with oxygen — dropper below the surface, a lid of oil or benzene, and the white still slides through grey-green to rust-brown, that grey-green being an intermediate rather than an impurity. Iron supplements carry iron(II), which is why vitamin C is taken with them: it sacrifices itself to oxidation, and a bottle left open fails for the same reason. Iron(III) with phenol gives violet, another sensitive laboratory reaction, and ferric chloride etches copper plates because it can pull copper into solution.",
+    "tags": ["金属", "变价"],
+    "tagsEn": ["Metal", "Variable Valence"]
+  },
+  {
+    "id": "mn-chlorine",
+    "subs": [
+      {
+        "f": "Cl₂",
+        "name": "氯气（黄绿色、有毒）",
+        "nameEn": "Chlorine (yellow-green, toxic)",
+        "note": "闻的方法仍是手扇引气；泄漏可用肥皂水或稀碱喷洒吸收。",
+        "noteEn": "Waft, never lean in; a spill can be knocked down with dilute alkali.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "氯气能溶于水（1:2），并与水发生可逆反应。",
+        "noteEn": "Chlorine dissolves about 1:2 and reacts reversibly with it.",
+        "role": "l"
+      },
+      {
+        "f": "HCl",
+        "name": "盐酸（氢氯酸）",
+        "nameEn": "Hydrochloric acid",
+        "note": "氯水中酸性主要来自它，但真正漂白的是 HClO。",
+        "noteEn": "Most of chlorine water's acidity, though the bleaching is hypochlorous.",
+        "role": "r"
+      },
+      {
+        "f": "HClO",
+        "name": "次氯酸（漂白与消毒的主体）",
+        "nameEn": "Hypochlorous acid (the bleaching agent)",
+        "note": "弱酸但强氧化，见光分解为盐酸与氧气，所以氯水要放棕色瓶。",
+        "noteEn": "A weak acid but a strong oxidiser; light splits it, hence the amber bottle.",
+        "role": "r"
+      },
+      {
+        "f": "NaOH",
+        "name": "氢氧化钠（吸收液）",
+        "nameEn": "Sodium hydroxide (the scrub)",
+        "note": "实验室多余的氯气靠浓氢氧化钠吸收，不能用敞口的水。",
+        "noteEn": "Waste chlorine is scrubbed with concentrated alkali, never an open dish of water.",
+        "role": "l"
+      },
+      {
+        "f": "NaCl",
+        "name": "氯化钠",
+        "nameEn": "Sodium chloride",
+        "note": "歧化反应的还原产物。",
+        "noteEn": "The reduced half of the disproportionation.",
+        "role": "r"
+      },
+      {
+        "f": "NaClO",
+        "name": "次氯酸钠（漂白液有效成分）",
+        "nameEn": "Sodium hypochlorite (the active bleach)",
+        "note": "「84 消毒液」的主体；与洁厕灵（含盐酸）混合会放出氯气。",
+        "noteEn": "The household bleach — and never mix it with acid toilet cleaners, or chlorine gas follows.",
+        "role": "r"
+      }
+    ],
+    "icon": "🟢",
+    "term": "氯及其化合物",
+    "termEn": "Chlorine and Its Compounds",
+    "level": 2,
+    "oneLiner": "氯气与水、与碱都发生歧化；真正能漂白的是次氯酸而不是氯气。",
+    "oneLinerEn": "Chlorine disproportionates in water and in alkali; the bleach is hypochlorous acid, not the gas.",
+    "eq": [
+      { "lhs": "Cl₂ + H₂O", "rhs": "HCl + HClO", "rel": "equilibrium" },
+      {
+        "lhs": "Cl₂ + 2NaOH",
+        "cond": "常温，吸收尾气",
+        "condEn": "cold; the waste scrub",
+        "rhs": "NaCl + NaClO + H₂O",
+        "rel": "equal"
+      }
+    ],
+    "detail": "干燥的氯气不能使有色布条褪色，湿润的能——因为褪色靠的是 Cl₂ 与水生成的 HClO，这条对比实验是「氯气能漂白」这个说法的纠正。氯水的成分要拆成三层：分子有 Cl₂、H₂O、HClO，离子有 H⁺、Cl⁻、ClO⁻（还有水电离的 OH⁻），所以它同时有酸性、氧化性与漂白性，久置就变成稀盐酸（HClO 见光分解放出 O₂）。漂白粉与漂白精的有效成分是 Ca(ClO)₂，它靠空气中的 CO₂ 与水把 HClO 慢慢放出来起作用，也因此失效（制取与失效的完整过程见「化学与生活」里的漂白粉一条）。次氯酸盐的三条工程约束：与酸接触会放出氯气（所以含氯消毒液不能与洁厕灵同用）、受热与光照分解（所以要阴凉避光保存）、浓度越高对皮肤与织物的伤害越大（所以使用前必须按说明稀释）。干燥氯气可以储存在钢瓶里，因为常温下干氯与铁不反应，但一旦含水就剧烈腐蚀——这条同样是「先干燥再反应」的工程例子。",
+    "detailEn": "Dry chlorine will not fade a coloured cloth; damp chlorine will — because the fading belongs to HClO made with water, and that contrast experiment is the correction to the phrase «chlorine bleaches». Read chlorine water in layers: molecules Cl₂, H₂O and HClO, ions H⁺, Cl⁻ and ClO⁻ (plus a little hydroxide from water), so it is at once acidic, oxidising and bleaching — and standing in the light it ends as dilute hydrochloric acid once the hypochlorous acid gives up oxygen. The active ingredient of bleaching powder is calcium hypochlorite, which works by letting air and moisture release HClO slowly, and fails by the same route (the full preparation and spoilage is under bleach in Chemistry in Daily Life). Three engineering constraints on hypochlorites: contact with acid frees chlorine gas, so chlorinated disinfectants never meet acid toilet cleaner; heat and light decompose them, so they keep cool and dark; and strength damages both skin and fabric, so dilution to label ratio comes before use. Dry chlorine can be kept in a steel cylinder because it does not attack iron when dry, and corrodes it furiously once damp — one more case of drying before reacting.",
+    "tags": ["非金属", "歧化"],
+    "tagsEn": ["Nonmetal", "Disproportionation"]
+  },
+  {
+    "id": "mn-sulfur",
+    "subs": [
+      {
+        "f": "Fe",
+        "name": "铁",
+        "nameEn": "Iron",
+        "note": "与硫共热只被氧化到 +2，因为硫的氧化性比氯弱。",
+        "noteEn": "Oxidised only to +2 by sulfur, which is a milder oxidiser than chlorine.",
+        "role": "l"
+      },
+      {
+        "f": "S",
+        "name": "硫（硫黄）",
+        "nameEn": "Sulfur (brimstone)",
+        "note": "既是铁与共热的反应物，也是二氧化硫与硫化氢归中的产物。",
+        "noteEn": "Reactant with hot iron, and the product when sulfur dioxide meets hydrogen sulfide.",
+        "role": "l"
+      },
+      {
+        "f": "FeS",
+        "name": "硫化亚铁（黑）",
+        "nameEn": "Iron(II) sulfide (black)",
+        "note": "不是 Fe₂S₃；它能溶于酸放出臭鸡蛋气的 H₂S。",
+        "noteEn": "Not iron(III) sulfide; it dissolves in acid, releasing the rotten-egg odour of H₂S.",
+        "role": "r"
+      },
+      {
+        "f": "SO₂",
+        "name": "二氧化硫",
+        "nameEn": "Sulfur dioxide",
+        "note": "无色、刺激性、密度比空气大、易溶于水（约 1:40）。",
+        "noteEn": "Colourless and pungent, denser than air, very soluble, about 1:40.",
+        "role": "l"
+      },
+      {
+        "f": "H₂S",
+        "name": "硫化氢",
+        "nameEn": "Hydrogen sulfide",
+        "note": "硫为 −2 价、只有还原性，与 SO₂ 相遇双双变回 0 价。",
+        "noteEn": "Sulfur at −2, reducing only; meet SO₂ and both fall back to zero.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "归中反应的另一个产物。",
+        "noteEn": "The other product of the comproportionation.",
+        "role": "r"
+      }
+    ],
+    "icon": "🟡",
+    "term": "硫及其化合物",
+    "termEn": "Sulfur and Its Compounds",
+    "level": 2,
+    "oneLiner": "SO₂ 使高锰酸钾褪色是还原性、使品红褪色才是漂白；浓硫酸常温下让铁铝钝化。",
+    "oneLinerEn": "SO₂ decolourising permanganate is reduction, not bleaching; cold concentrated sulfuric acid passivates iron and aluminium.",
+    "eq": [
+      {
+        "lhs": "Fe + S",
+        "cond": "共热，只到 +2 价",
+        "condEn": "heated together; +2 only",
+        "rhs": "FeS",
+        "rel": "equal"
+      },
+      {
+        "lhs": "SO₂ + 2H₂S",
+        "cond": "常温，归中到 0 价",
+        "condEn": "comproportionation to valence zero",
+        "rhs": "3S↓ + 2H₂O",
+        "rel": "equal"
+      }
+    ],
+    "detail": "硫是淡黄色晶体，不溶于水、微溶于酒精、易溶于二硫化碳，所以洗试管壁上的硫要用二硫化碳或热氢氧化钠溶液而不是水。它与变价金属反应只能把金属氧化到低价：与铁得 FeS、与铜得 Cu₂S，而氯气能把铁推到 FeCl₃——「同一种金属 + 不同非金属」的价态对比就记在这一条上。二氧化硫有三条主线：① 酸性氧化物，与水生成亚硫酸、能使石灰水变浑浊，现象与二氧化碳相同，所以区分两者要用品红溶液而不是石灰水；② 还原性，能被氧气（需催化剂）、氯水、高锰酸钾、Fe³⁺ 氧化，它使酸性高锰酸钾褪色靠的是还原性而不是漂白；③ 漂白性，与有色物质化合生成不稳定的无色物质，加热后颜色恢复——这与氯气那种把色素氧化掉的永久漂白是两种机理，把两组现象并排比较就是判断漂白机理的标准方法。浓硫酸有三性：吸水性（作干燥剂，但不能干燥氨气这类碱性气体，也不能干燥 H₂S、HBr、HI 这类还原性气体）、脱水性（把有机物里的氢氧按水的比例夺走，蔗糖炭化实验就是它）、强氧化性（热的浓硫酸能氧化铜与碳，自身被还原为 SO₂）。常温下浓硫酸与浓硝酸会让铁、铝表面钝化生成致密氧化膜，所以能用铝罐或铁罐储运浓硫酸——钝化不是不反应，而是被一层膜挡住，加热后反应会重新加速。硫酸型酸雨的路径有两条：SO₂ 先被氧化为 SO₃ 再与水结合，或 SO₂ 溶在雨水中直接氧化成硫酸；减少的出路是燃料脱硫与排烟脱硫（见「化学与环境」的石灰石-石膏法）。SO₄²⁻ 的检验规矩（先加稀盐酸酸化、再加 BaCl₂）见速查表的离子检验一条。",
+    "detailEn": "Sulfur is a pale-yellow crystal, insoluble in water, sparingly in alcohol, freely in carbon disulfide — so sulfur on a tube wall comes off with the disulfide or with hot alkali, never with water. With a variable-valence metal it reaches only the low state: iron gives FeS and copper Cu₂S, while chlorine drives iron to FeCl₃, and that contrast between nonmetals on one metal is the lesson to keep. Sulfur dioxide has three threads: an acidic oxide that forms sulfurous acid with water and clouds lime water just as CO₂ does, which is why the two are told apart with fuchsin rather than lime water; a reducer, taken by oxygen under catalysis, by chlorine water, by permanganate and by iron(III) — its fading of acid permanganate is reduction, not bleaching; and a bleach, adding on to colour to form an unstable colourless compound that gives the colour back on warming, a different mechanism from chlorine's oxidative destruction, and setting the two demonstrations side by side is the standard test of which one is at work. Concentrated sulfuric acid carries three properties: it absorbs water (so it dries gases, though not alkaline ones like ammonia nor reducing ones like H₂S, HBr, HI); it dehydrates (stripping hydrogen and oxygen from organics in water's ratio, which is the black sponge of the sugar experiment); and hot acid oxidises, attacking copper and carbon and retreating as SO₂. At room temperature the concentrated acid and concentrated nitric acid passivate iron and aluminium under a tight oxide film, which is why road tankers can carry them in aluminium or steel — passivation is not refusal but a barrier, and heating restarts the reaction. Sulfuric acid rain arrives by two routes: SO₂ oxidised to SO₃ and then taken up by water, or SO₂ dissolved in the drop and oxidised there; the fixes are fuel desulfurisation and flue-gas scrubbing, laid out under the limestone-gypsum process in Chemistry and Environment. The rule for testing sulfate — acidify with dilute hydrochloric acid first, then barium chloride — is in the ion tests of the quick reference.",
+    "tags": ["非金属", "酸雨"],
+    "tagsEn": ["Nonmetal", "Acid Rain"]
+  },
+  {
+    "id": "mn-nitrogen",
+    "subs": [
+      {
+        "f": "NO",
+        "name": "一氧化氮（无色）",
+        "nameEn": "Nitric oxide (colourless)",
+        "note": "不溶于水、有毒，遇空气立刻变红棕，所以只能排水法收集。",
+        "noteEn": "Insoluble and toxic, reddening in air at once — collect over water only.",
+        "role": "l"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "常温下就能把 NO 氧化，不需要催化剂。",
+        "noteEn": "Oxidises NO unaided, at room temperature.",
+        "role": "l"
+      },
+      {
+        "f": "NO₂",
+        "name": "二氧化氮（红棕、有毒）",
+        "nameEn": "Nitrogen dioxide (red-brown, toxic)",
+        "note": "它既是 NO 氧化的产物，又是与水反应制硝酸的原料。",
+        "noteEn": "Product of oxidising NO, and the feed that water turns into nitric acid.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "与 NO₂ 反应时，三分之一的氮又回到 NO。",
+        "noteEn": "With NO₂ it sends a third of the nitrogen back as NO.",
+        "role": "l"
+      },
+      {
+        "f": "HNO₃",
+        "name": "硝酸",
+        "nameEn": "Nitric acid",
+        "note": "三大强酸之一，不论浓稀都有强氧化性。",
+        "noteEn": "One of the three strong acids; oxidising whether concentrated or dilute.",
+        "role": "r"
+      }
+    ],
+    "icon": "💨",
+    "term": "氮及其化合物",
+    "termEn": "Nitrogen and Its Compounds",
+    "level": 2,
+    "oneLiner": "N≡N 难断所以氮气惰性；NO 只能排水收集，NO₂ 与水反应自己回到 NO。",
+    "oneLinerEn": "Nitrogen is idle because the triple bond resists breaking; NO is gathered over water, NO₂ gives back NO to water.",
+    "eq": [
+      {
+        "lhs": "2NO + O₂",
+        "cond": "常温即行，红棕色出现",
+        "condEn": "instant in air; the red-brown appears",
+        "rhs": "2NO₂",
+        "rel": "equal"
+      },
+      {
+        "lhs": "3NO₂ + H₂O",
+        "cond": "工业制硝酸的关键一步",
+        "condEn": "the step that makes nitric acid",
+        "rhs": "2HNO₃ + NO",
+        "rel": "equal"
+      }
+    ],
+    "detail": "氮气占空气约 78%，之所以不活泼是 N≡N 的键能高达约 946 kJ/mol（与「键能与反应热」呼应），打断它需要高温、放电或催化剂，工业合成氨与自然界闪电固氮都在这三个门槛上。氮的氧化物只先记两个：NO 无色、不溶于水、有毒，与空气接触立刻变成红棕的 NO₂，这也是收集 NO 只能用排水法的原因；NO₂ 易与水反应生成硝酸与 NO，工业上就靠这一循环把氮氧化物推成硝酸（完整流程见「化学与工程」的氨氧化法制硝酸一条）。氨是无色有刺激性气味、极易溶于水（常温常压约 1:700）的气体，所以喷泉实验能成；它是中学阶段唯一的常见碱性气体，湿润的红色石蕊试纸遇它变蓝，遇 HCl 蒸气立刻生成白烟（NH₃ + HCl = NH₄Cl）。铵盐都易溶于水、受热易分解：NH₄Cl 受热赫然“消失”、在冷处又结回白色固体，现象看着像升华，其实先分解后化合（速查表里也强调过这一点）；NH₄⁺ 的检验是加浓 NaOH 并加热，用湿润的红色石蕊试纸靠近管口检验产生的气体。硝酸不论浓稀都有强氧化性，与金属反应一般不放氢气而是放出氮的氧化物：浓硝酸得 NO₂、稀硝酸得 NO，常温下浓硝酸让铁、铝钝化。王水（浓盐酸与浓硝酸按体积 3:1 混合）能溶金与铂，靠的是强氧化与配位共同作用。NO、NO₂ 与碳氢化合物一起构成光化学烟雾，也是硝酸型酸雨与水体富营养化的来源之一。",
+    "detailEn": "Nitrogen fills about 78% of air and sits idle because the triple bond costs some 946 kJ/mol to break (see bond energy and reaction heat): only high temperature, an electric arc or a catalyst gets through it, and industrial ammonia synthesis and natural lightning fixation both stand on those thresholds. Two oxides suffice at first: NO is colourless, insoluble, toxic and reddens in air to NO₂, which is exactly why it can only be gathered over water; NO₂ reacts readily with water to nitric acid and NO, and industry runs that loop to make the acid (the full chain is under ammonia oxidation in Chemistry and Industry). Ammonia is colourless, stinging and enormously soluble (about 1:700 at room temperature and pressure), which is what lets a fountain work; it is the one common alkaline gas of the course, blueing wet red litmus and smoking up at once against hydrogen chloride vapour. All ammonium salts dissolve readily and break down on heating: ammonium chloride apparently vanishes and re-forms white in a cold spot, an imitation of sublimation that is really decomposition then recombination (the quick reference flags this too); the test for ammonium is concentrated sodium hydroxide plus warmth, with wet red litmus at the mouth of the tube. Nitric acid oxidises whether strong or weak, and with metals it gives nitrogen oxides rather than hydrogen — NO₂ from the concentrated acid, NO from the dilute — while cold concentrated acid passivates iron and aluminium. Aqua regia, three parts hydrochloric to one of nitric, dissolves gold and platinum by oxidation and complexation together. NO and NO₂ with hydrocarbons make photochemical smog, and they are also a source of nitric-type acid rain and of nutrient enrichment in water.",
+    "tags": ["非金属", "氮循环"],
+    "tagsEn": ["Nonmetal", "Nitrogen Cycle"]
+  },
+  {
+    "id": "mn-carbon",
+    "subs": [
+      {
+        "f": "C",
+        "name": "碳（金刚石、石墨、C₆₀ 的单质）",
+        "nameEn": "Carbon (diamond, graphite, C₆₀)",
+        "note": "常温不活泼，高温既能燃烧也能夺氧，是本条的主线。",
+        "noteEn": "Idle when cold, both combustible and reducing when hot — the thread of this entry.",
+        "role": "l"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "充足得 CO₂、不足得 CO，同一堆碳给出两种产物。",
+        "noteEn": "Plentiful it gives CO₂, scarce it gives CO — one pile of carbon, two products.",
+        "role": "l"
+      },
+      {
+        "f": "CuO",
+        "name": "氧化铜（黑）",
+        "nameEn": "Copper(II) oxide (black)",
+        "note": "被碳或 CO 夺走氧后变回红色的铜，是还原性的演示。",
+        "noteEn": "Gives its oxygen to carbon or CO and turns red as metal — the reduction demo.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水（蒸气）",
+        "nameEn": "Water (steam)",
+        "note": "与赤热的碳生成水煤气，也参与碳酸与石灰水的反应。",
+        "noteEn": "Makes water gas with red-hot carbon, and appears in carbonic acid and lime water.",
+        "role": "l"
+      },
+      {
+        "f": "Ca(OH)₂",
+        "name": "氢氧化钙（石灰水的溶质）",
+        "nameEn": "Calcium hydroxide (in lime water)",
+        "note": "只用于检验而不是吸收 CO₂，因为它微溶、量太少。",
+        "noteEn": "Used to test for CO₂, not to trap it — it barely dissolves, so there is too little.",
+        "role": "l"
+      },
+      {
+        "f": "CO₂",
+        "name": "二氧化碳",
+        "nameEn": "Carbon dioxide",
+        "note": "不燃烧也不支持燃烧、密度比空气大；遇石灰水就生成沉淀，也能被赤热碳夺回氧。",
+        "noteEn": "Neither burns nor supports burning, heavier than air; it precipitates lime water and is itself reduced by hot carbon.",
+        "role": "r"
+      },
+      {
+        "f": "CO",
+        "name": "一氧化碳",
+        "nameEn": "Carbon monoxide",
+        "note": "只比 CO₂ 少一个氧：可燃、可还原、剧毒、难溶于水。",
+        "noteEn": "One oxygen short of CO₂: flammable, reducing, deadly toxic, insoluble.",
+        "role": "r"
+      },
+      {
+        "f": "Cu",
+        "name": "铜（红色）",
+        "nameEn": "Copper (red)",
+        "note": "黑色粉末变红就是它，是碳与 CO 还原性的共同证据。",
+        "noteEn": "The black powder reddens because of it — the shared proof of carbon's and CO's reduction.",
+        "role": "r"
+      },
+      {
+        "f": "H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "水煤气的一半，与 CO 一起都是可燃气体。",
+        "noteEn": "Half of water gas; with CO it makes the mixture burnable.",
+        "role": "r"
+      },
+      {
+        "f": "H₂CO₃",
+        "name": "碳酸",
+        "nameEn": "Carbonic acid",
+        "note": "使石蕊变红、使汽水刺口，受热就分解回水和 CO₂。",
+        "noteEn": "Reddens litmus and pricks the tongue of soda; warm it and it goes back to water and CO₂.",
+        "role": "r"
+      },
+      {
+        "f": "CaCO₃",
+        "name": "碳酸钙（石灰石、大理石、贝壳）",
+        "nameEn": "Calcium carbonate (limestone, marble, shell)",
+        "note": "石灰水里的白色沉淀，也是实验室制 CO₂ 的原料与建筑材料。",
+        "noteEn": "The white in cloudy lime water, the feedstock for laboratory CO₂, and a building stone.",
+        "role": "r"
+      },
+      {
+        "f": "CaO",
+        "name": "氧化钙（生石灰）",
+        "nameEn": "Calcium oxide (quicklime)",
+        "note": "碳酸钙高温分解的产物，遇水放出大量热变成熟石灰。",
+        "noteEn": "What hot limestone leaves; it frees much heat with water and becomes slaked lime.",
+        "role": "r"
+      },
+      {
+        "f": "Ca(HCO₃)₂",
+        "name": "碳酸氢钙（可溶）",
+        "nameEn": "Calcium hydrogencarbonate (soluble)",
+        "note": "浑浊又变清的原因，也是钟乳石与暂时硬水的载体。",
+        "noteEn": "Why cloudiness clears again — and what stalactites and temporary hardness ride on.",
+        "role": "r"
+      }
+    ],
+    "icon": "⚫",
+    "term": "碳及其化合物",
+    "termEn": "Carbon and Its Compounds",
+    "level": 1,
+    "oneLiner": "只差一个氧的 CO 与 CO₂ 性质相反；碳的三种单质差别全在结构。",
+    "oneLinerEn": "CO and CO₂ differ by one atom of oxygen and behave oppositely; carbon's three forms differ only in structure.",
+    "eq": [
+      {
+        "lhs": "C + O₂",
+        "cond": "点燃，氧气充足",
+        "condEn": "ignited, air plentiful",
+        "rhs": "CO₂",
+        "rel": "equal"
+      },
+      {
+        "lhs": "2C + O₂",
+        "cond": "点燃，氧气不足",
+        "condEn": "ignited, air short",
+        "rhs": "2CO",
+        "rel": "equal"
+      },
+      {
+        "lhs": "C + 2CuO",
+        "cond": "高温，黑色粉末变红",
+        "condEn": "high heat; the black turns red",
+        "rhs": "2Cu + CO₂↑",
+        "rel": "equal"
+      },
+      {
+        "lhs": "C + CO₂",
+        "cond": "高温，吸热",
+        "condEn": "high heat, endothermic",
+        "rhs": "2CO",
+        "rel": "equal"
+      },
+      {
+        "lhs": "C + H₂O",
+        "cond": "高温，制水煤气",
+        "condEn": "high heat; water gas",
+        "rhs": "CO + H₂",
+        "rel": "equal"
+      },
+      {
+        "lhs": "2CO + O₂",
+        "cond": "点燃，蓝色火焰",
+        "condEn": "ignited, blue flame",
+        "rhs": "2CO₂",
+        "rel": "equal"
+      },
+      {
+        "lhs": "CO + CuO",
+        "cond": "加热，尾气须点燃或收集",
+        "condEn": "heated; burn or trap the tail gas",
+        "rhs": "Cu + CO₂",
+        "rel": "equal"
+      },
+      { "lhs": "CO₂ + H₂O", "rhs": "H₂CO₃", "rel": "equilibrium" },
+      {
+        "lhs": "CO₂ + Ca(OH)₂",
+        "cond": "检验 CO₂ 的方法",
+        "condEn": "the test for CO₂",
+        "rhs": "CaCO₃↓ + H₂O",
+        "rel": "equal"
+      },
+      {
+        "lhs": "CaCO₃",
+        "cond": "高温（煅烧石灰石）",
+        "condEn": "strong heat (lime kiln)",
+        "rhs": "CaO + CO₂↑",
+        "rel": "equal"
+      },
+      {
+        "lhs": "CaCO₃ + H₂O + CO₂",
+        "cond": "CO₂ 过量，沉淀溶解",
+        "condEn": "excess CO₂; the solid redissolves",
+        "rhs": "Ca(HCO₃)₂",
+        "rel": "equilibrium"
+      }
+    ],
+    "figure": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">CO 与 CO₂：差一个氧，处处相反</text>\n  <line x1=\"6\" y1=\"20\" x2=\"354\" y2=\"20\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/>\n  <line x1=\"196\" y1=\"24\" x2=\"196\" y2=\"146\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n  <text x=\"62\" y=\"32\" font-size=\"9\" fill=\"#d4a017\">CO₂</text>\n  <text x=\"206\" y=\"32\" font-size=\"9\" fill=\"#e5484d\">CO</text>\n  <g font-size=\"8\" fill=\"currentColor\" fill-opacity=\"0.7\">\n    <text x=\"6\" y=\"48\">溶解性</text>\n    <text x=\"6\" y=\"64\">可燃性</text>\n    <text x=\"6\" y=\"80\">还原性</text>\n    <text x=\"6\" y=\"96\">与石灰水</text>\n    <text x=\"6\" y=\"112\">与石蕊</text>\n    <text x=\"6\" y=\"128\">收集方法</text>\n    <text x=\"6\" y=\"144\">尾气处理</text>\n  </g>\n  <g font-size=\"8\" fill=\"currentColor\">\n    <text x=\"62\" y=\"48\">能溶，约 1:1</text>\n    <text x=\"62\" y=\"64\">不燃烧，也不支持燃烧</text>\n    <text x=\"62\" y=\"80\">无，只与赤热碳反应</text>\n    <text x=\"62\" y=\"96\">变浑浊 — 这就是检验</text>\n    <text x=\"62\" y=\"112\">变红（生成碳酸）</text>\n    <text x=\"62\" y=\"128\">向上排空气法</text>\n    <text x=\"62\" y=\"144\">可直接排空</text>\n    <text x=\"206\" y=\"48\">难溶，所以能排水法</text>\n    <text x=\"206\" y=\"64\">可燃，蓝色火焰</text>\n    <text x=\"206\" y=\"80\">还原 CuO 与 Fe₂O₃</text>\n    <text x=\"206\" y=\"96\">不反应</text>\n    <text x=\"206\" y=\"112\">不变色</text>\n    <text x=\"206\" y=\"128\">只能排水法</text>\n    <text x=\"206\" y=\"144\">必须点燃或收集</text>\n  </g>\n  <text x=\"62\" y=\"156\" font-size=\"6.5\" fill=\"currentColor\" fill-opacity=\"0.6\">soluble, supports nothing</text>\n  <text x=\"206\" y=\"156\" font-size=\"6.5\" fill=\"currentColor\" fill-opacity=\"0.6\">insoluble, burns, poisons</text>\n  <text x=\"6\" y=\"172\" font-size=\"8.5\" fill=\"#e5484d\">⚠ CO 无色无味，泄漏时人察觉不到；中毒先开窗并把人移到通风处</text>\n  <text x=\"6\" y=\"184\" font-size=\"6.5\" fill=\"currentColor\" fill-opacity=\"0.6\">Carbon monoxide gives no warning — ventilate first, never switch on a light to look</text>\n</svg>",
+    "detail": "碳是生命的骨架元素，也是中学化学里最完整的一条「单质—氧化物—酸—盐」线索。单质有三种同素异形体：金刚石里每个碳与四个碳相连、构成空间网状，所以是自然界最硬的物质且不导电，用来做钻头与切割刀具；石墨由六元碳环铺成平面层，层间作用弱、层内有可移动的电子，所以又滑又导电，做铅笔芯、电极和高温润滑剂；C₆₀ 则是 60 个碳构成的足球状分子。三者的化学性质几乎相同（燃烧都只生成 CO₂），物理性质却差这么多，「结构决定性质」这一句在这里最直观。石墨在高温高压与催化剂下能变成金刚石，这是化学变化；转化吸热，也说明石墨能量更低、更稳定。木炭、活性炭、焦炭与炭黑被叫作无定形碳，实质是石墨的微小晶粒，吸附力来自疏松多孔——防毒面具与制糖脱色靠的是吸附而非反应，以物理变化为主。常温下碳很不活泼，用墨（碳黑）写的字画能存千年，木头电线杆埋入地下的那段先烧成炭也是借这层碳防腐；一到高温就活泼：氧气充足得 CO₂、不足得 CO，还能从金属氧化物里夺氧（与 CuO 共热时黑色粉末变红、生成的气体使澄清石灰水变浑浊），工业上让赤热的碳与水蒸气反应得到的 CO 与 H₂ 混合气就叫水煤气。CO 与 CO₂ 只差一个氧，性质却处处相反：CO 无色无味、难溶于水（所以只能排水法收集）、能燃烧（蓝色火焰）、能还原 CuO 与 Fe₂O₃（高炉里真正还原铁矿石的是 CO），毒在它与血红蛋白的结合能力远高于氧气，而它没有气味，泄漏时人察觉不到——冬天燃煤、在车库里长时间怠速开暖风都可能引起煤气中毒，发现后先开窗并把人移到通风处，不要开灯或点火查看。CO₂ 一般既不燃烧也不支持燃烧、密度比空气大，倾倒时阶梯蜡烛从下面那支先灭；它溶于水生成碳酸使紫色石蕊变红，汽水的刺激口感就来自这一步；它使澄清石灰水变浑浊，这是 CO₂ 的检验方法，而要除掉 CO₂ 应改用氢氧化钠溶液，因为后者溶解得多、吸收能力强得多。继续通 CO₂ 还会出现第二步：不溶的 CaCO₃ 变成可溶的 Ca(HCO₃)₂，浑浊又转清，溶洞与钟乳石的形成、烧水壶里暂时硬水的沉淀都在这一步可逆上循环。碳酸盐里最常用的是 CaCO₃（石灰石、大理石、白垩以及蛋壳贝壳的主体），高温煅烧得生石灰与 CO₂，也是实验室制 CO₂ 的原料；实验室选药品有三条规矩：不用稀硫酸（生成的 CaSO₄ 微溶，盖住大理石表面让反应自行停止），不用浓盐酸（挥发出的 HCl 混进气体，干扰石灰水检验），不用 Na₂CO₃ 粉末（反应太快，来不及收集）。干冰升华吸热，用于冷藏运输、人工降雨与舞台烟雾；CO₂ 灭火器使用时要握木柄或橡胶套，避免喷出时的低温冻伤手指。含碳物质燃烧放出的 CO₂ 与光合作用吸收的 CO₂ 本是一个循环，化石燃料等于把远古储存下来的碳在短时间内释放出来，所以减排与捕集是出路（见「化学与环境」的二氧化碳捕集与资源化一条）。",
+    "detailEn": "Carbon is the skeleton of living matter and the most complete single thread in the school course: element, oxides, acid, salt. Three allotropes open it: in diamond every carbon bonds to four others in a space-filling network, which makes it the hardest natural thing and an insulator, good for drill bits and cutting; graphite is sheets of six-membered carbon rings, weakly held together and full of mobile electrons inside the sheet, so it is both slippery and conductive — pencil leads, electrodes, high-temperature grease; C₆₀ is a football of sixty carbons. All three behave the same chemically (each burns to CO₂ alone) and differ hugely in body, which is the cleanest illustration that structure decides properties. Graphite can be turned into diamond under heat, pressure and a catalyst — a chemical change, and an endothermic one, so graphite sits lower in energy and is the more stable form. Charcoal, activated carbon, coke and lamp black are called amorphous but are really micro-crystals of graphite, and their adsorbing power comes from a porous skeleton: gas masks and the decolourising of sugar adsorb rather than react, mostly a physical change. Cold carbon is idle — ink is lamp black, which is why a thousand-year-old scroll has not faded, and the buried end of a wooden pole is charred on purpose to keep rot off it. Hot carbon is greedy: it gives CO₂ in plenty of air and CO in short supply, and it strips oxygen from metal oxides (heated with copper oxide the black powder turns red and the gas clouds lime water), while red-hot carbon and steam give the CO-and-hydrogen mixture known as water gas. CO and CO₂ differ by a single oxygen yet contradict each other everywhere: CO is colourless, odourless, insoluble (so it can only be gathered over water), burns with a blue flame and reduces copper oxide and iron oxide — in a blast furnace it is CO, not carbon, that does most of the iron-making — and it poisons because hemoglobin holds it far more tightly than oxygen, with no smell to warn of a leak. Winter stoves and a car idling in a closed garage are the usual settings; if poisoning is suspected, open the windows and move the person to fresh air, and never switch on a light or test for a flame. Carbon dioxide neither burns nor supports burning and is heavier than air, so in the tiered-candle pour the lower flame goes out first; it dissolves to carbonic acid and reddens litmus, which is the prick in a soft drink; it clouds lime water, and that is the test for it — but to remove it use sodium hydroxide solution instead, which dissolves far more and so absorbs far better. Pass more CO₂ and a second step follows: insoluble calcium carbonate becomes soluble calcium hydrogencarbonate and the cloud clears again, the same reversible line that builds caves and stalactites and lays the temporary hardness in a kettle. The commonest carbonate is calcium carbonate — limestone, marble, chalk, eggshell and the raw material for laboratory CO₂ — which gives quicklime and CO₂ when burned, and three rules govern how it is used in the flask: no dilute sulfuric acid, because the sparingly soluble calcium sulfate coats the stone and stops the reaction; no concentrated hydrochloric acid, because its vapour rides along into the gas and disturbs the lime-water test; and no sodium carbonate powder, because it goes off too fast to collect. Dry ice subliming takes heat with it, hence cold chains, rain seeding and stage fog, and a CO₂ extinguisher is held by its wooden or rubber grip so the freezing jet does not bite the hand. Burning carbon and photosynthesis once balanced each other; fossil fuel spends in a century what the ground saved over ages, which is why cutting and capturing are the way out — see carbon capture in Chemistry and Environment.",
+    "tags": ["非金属", "碳循环"],
+    "tagsEn": ["Nonmetal", "Carbon Cycle"]
+  },
+  {
+    "id": "mn-activity",
+    "subs": [
+      {
+        "f": "Zn",
+        "name": "锌",
+        "nameEn": "Zinc",
+        "note": "与稀硫酸反应速度适中，是实验室制氢气的首选。",
+        "noteEn": "Reacts at a workable pace with dilute sulfuric acid — the laboratory choice for hydrogen.",
+        "role": "l"
+      },
+      {
+        "f": "H₂SO₄",
+        "name": "稀硫酸",
+        "nameEn": "Dilute sulfuric acid",
+        "note": "只有一般的稀酸才能被置换出氢，浓硫酸与硝酸另有走法。",
+        "noteEn": "Only ordinary dilute acid gives hydrogen this way; the concentrated and the nitric follow other paths.",
+        "role": "l"
+      },
+      {
+        "f": "ZnSO₄",
+        "name": "硫酸锌",
+        "nameEn": "Zinc sulfate",
+        "note": "留在溶液里的产物，蒸干可得白色晶体。",
+        "noteEn": "Stays in solution; evaporated it gives colourless crystals.",
+        "role": "r"
+      },
+      {
+        "f": "H₂",
+        "name": "氢气",
+        "nameEn": "Hydrogen",
+        "note": "点燃前要验纯，发生装置与制二氧化碳同一类。",
+        "noteEn": "Test for purity before lighting; the generator is the same type as for CO₂.",
+        "role": "r"
+      },
+      {
+        "f": "Fe",
+        "name": "铁",
+        "nameEn": "Iron",
+        "note": "与酸、与盐溶液反应都只到 +2 价，溶液变浅绿。",
+        "noteEn": "With acids and salts it stops at +2, tinting the solution pale green.",
+        "role": "l"
+      },
+      {
+        "f": "CuSO₄",
+        "name": "硫酸铜（胆矾的溶液）",
+        "nameEn": "Copper sulfate (blue vitriol solution)",
+        "note": "蓝色的来源；湿法炼铜就靠铁把它的铜置换出来。",
+        "noteEn": "Where the blue comes from; iron displaces its copper out of solution — the ancient wet smelting.",
+        "role": "l"
+      },
+      {
+        "f": "FeSO₄",
+        "name": "硫酸亚铁",
+        "nameEn": "Iron(II) sulfate",
+        "note": "是亚铁盐而不是铁盐；补铁剂用的就是这一类价态。",
+        "noteEn": "An iron(II) salt, not an iron(III) one — the valence supplements use.",
+        "role": "r"
+      },
+      {
+        "f": "Cu",
+        "name": "铜（红色）",
+        "nameEn": "Copper (red)",
+        "note": "既是铁置换的产物，又能去置换更后面的银。",
+        "noteEn": "Both what iron displaces and what displaces the still nobler silver.",
+        "role": "l"
+      },
+      {
+        "f": "AgNO₃",
+        "name": "硝酸银（可溶）",
+        "nameEn": "Silver nitrate (soluble)",
+        "note": "盐必须可溶才能发生置换；氯化银不溶，就不与铜反应。",
+        "noteEn": "Only a soluble salt works; copper does nothing to insoluble silver chloride.",
+        "role": "l"
+      },
+      {
+        "f": "Cu(NO₃)₂",
+        "name": "硝酸铜（蓝）",
+        "nameEn": "Copper(II) nitrate (blue)",
+        "note": "铜上挂银时溶液转蓝，是这条反应的现象证据。",
+        "noteEn": "As silver plates out the solution turns blue — the visible evidence.",
+        "role": "r"
+      },
+      {
+        "f": "Ag",
+        "name": "银（树状结晶）",
+        "nameEn": "Silver (dendritic crystals)",
+        "note": "排在很后面，所以银在自然界能以游离态存在。",
+        "noteEn": "Low in the series, which is why native silver exists at all.",
+        "role": "r"
+      },
+      {
+        "f": "Na",
+        "name": "钠（极活泼）",
+        "nameEn": "Sodium (very active)",
+        "note": "排在水之前，所以先与水反应，换不出盐里的金属。",
+        "noteEn": "Sits ahead of water, so it reacts with the water first and never frees the metal.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "盐溶液里的水比盐先找到钠，所以烧杯里只得氢氧化物。",
+        "noteEn": "In solution water reaches sodium before the salt does, so only the hydroxide appears.",
+        "role": "l"
+      },
+      {
+        "f": "NaOH",
+        "name": "氢氧化钠",
+        "nameEn": "Sodium hydroxide",
+        "note": "生成后立刻与 CuSO₄ 结合成蓝色沉淀，看不到铜。",
+        "noteEn": "It meets the copper salt at once as a blue precipitate, never as copper metal.",
+        "role": "r"
+      }
+    ],
+    "icon": "🪙",
+    "term": "金属活动性顺序",
+    "termEn": "The Reactivity Series of Metals",
+    "level": 1,
+    "oneLiner": "钾钙钠镁铝……铜汞银铂金：前面的能把后面的置换出来，但钾钙钠会先与水反应。",
+    "oneLinerEn": "Potassium, calcium, sodium, magnesium, aluminium ... copper, mercury, silver, gold: the front displaces the back, except that the first three go for water first.",
+    "eq": [
+      {
+        "lhs": "Zn + H₂SO₄",
+        "cond": "常温，实验室制氢气",
+        "condEn": "room temperature; laboratory hydrogen",
+        "rhs": "ZnSO₄ + H₂↑",
+        "rel": "equal"
+      },
+      {
+        "lhs": "Fe + CuSO₄",
+        "cond": "湿法炼铜，铁片上挂红",
+        "condEn": "wet copper-making; the blade reddens",
+        "rhs": "FeSO₄ + Cu",
+        "rel": "equal"
+      },
+      {
+        "lhs": "Cu + 2AgNO₃",
+        "cond": "铜丝入银盐，长银树",
+        "condEn": "copper in silver nitrate; a silver tree grows",
+        "rhs": "Cu(NO₃)₂ + 2Ag",
+        "rel": "equal"
+      },
+      {
+        "lhs": "2Na + 2H₂O",
+        "cond": "先与水反应，换不出铜",
+        "condEn": "water first; no copper is freed",
+        "rhs": "2NaOH + H₂↑",
+        "rel": "equal"
+      }
+    ],
+    "figure": "<svg viewBox=\"0 0 360 152\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">金属活动性顺序 The reactivity series</text>\n  <g font-size=\"8\" fill=\"currentColor\">\n    <text x=\"8\" y=\"36\">K</text><text x=\"29\" y=\"36\">Ca</text><text x=\"50\" y=\"36\">Na</text>\n    <text x=\"71\" y=\"36\">Mg</text><text x=\"92\" y=\"36\">Al</text><text x=\"113\" y=\"36\">Zn</text>\n    <text x=\"134\" y=\"36\">Fe</text><text x=\"155\" y=\"36\">Sn</text><text x=\"176\" y=\"36\">Pb</text>\n    <text x=\"194\" y=\"36\" fill=\"#d4a017\">(H)</text><text x=\"218\" y=\"36\">Cu</text>\n    <text x=\"239\" y=\"36\">Hg</text><text x=\"260\" y=\"36\">Ag</text><text x=\"281\" y=\"36\">Pt</text>\n    <text x=\"302\" y=\"36\">Au</text>\n  </g>\n  <line x1=\"8\" y1=\"42\" x2=\"312\" y2=\"42\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/>\n  <text x=\"120\" y=\"52\" font-size=\"7\" fill=\"currentColor\" fill-opacity=\"0.6\">activity falls  活动性减弱  ></text>\n  <g stroke=\"#d4a017\" stroke-opacity=\"0.7\">\n    <line x1=\"8\" y1=\"60\" x2=\"100\" y2=\"60\"/><line x1=\"113\" y1=\"60\" x2=\"186\" y2=\"60\"/><line x1=\"218\" y1=\"60\" x2=\"312\" y2=\"60\"/>\n  </g>\n  <g font-size=\"7\" fill=\"#d4a017\">\n    <text x=\"8\" y=\"70\">与酸极快</text>\n    <text x=\"113\" y=\"70\">能置换稀酸的氢</text>\n    <text x=\"218\" y=\"70\">与稀酸不放氢</text>\n  </g>\n  <g font-size=\"7.5\" fill=\"currentColor\">\n    <text x=\"6\" y=\"88\">① 前面 + 稀盐酸 / 稀硫酸 → 盐 + H₂↑</text>\n    <text x=\"6\" y=\"102\">② 前换后：前面的金属把后面的从它的盐溶液里置换出来（盐须可溶）</text>\n    <text x=\"6\" y=\"116\">③ 验证三种金属的两条套路：两金夹一盐 / 两盐夹一金</text>\n  </g>\n  <text x=\"6\" y=\"130\" font-size=\"8\" fill=\"#e5484d\">⚠ 钾、钙、钠太活泼，进盐溶液先与水反应，换不出金属</text>\n  <text x=\"6\" y=\"142\" font-size=\"6.5\" fill=\"#e5484d\" fill-opacity=\"0.85\">Potassium, calcium and sodium eat the water first; and the order is measured, not counted in electrons</text>\n</svg>",
+    "detail": "背下来的是口诀「钾钙钠镁铝，锌铁锡铅（氢），铜汞银铂金」，但它是实验测出的顺序，本质是金属在水溶液里失去电子变成阳离子的倾向由强到弱。它能回答三类问题。第一类是金属与酸：排在氢前面的能置换稀盐酸与稀硫酸里的氢，而且位置越前反应越快，镁最快、锌适中、铁较慢，铜与银则不冒泡；但两条例外必须记：浓硫酸与硝酸有强氧化性，跟金属反应不放氢气而是放出二氧化硫或氮的氧化物（浓硫酸与浓硝酸在常温下还会让铁铝钝化），所以「活泼金属 + 酸 → 氢气」只适用于稀的非氧化性酸。第二类是金属与盐溶液：排在前面的金属把排在后面的从它的溶液里置换出来，前提是盐必须可溶，所以铜不能与氯化银固体反应；铁在这类反应里只到 +2 价，铁片入硫酸铜溶液后表面挂上一层红色铜、溶液由蓝变浅绿，这就是早至西汉记载的「曾青得铁则化为铜」，北宋已用胆矾溶液大规模炼铜，今日湿法冶金的思路仍同此理。最大的坑在钾、钙、钠：它们活泼到先与水反应，所以钠块扔进硫酸铜溶液只会浮、熔、游、响，得到氢氧化钠与氢气，接着氢氧化钠与硫酸铜生成蓝色氢氧化铜沉淀，根本得不到铜——「先水后盐」是这类题的固定答案。第三类是验证三种金属的顺序，套路有两种：「两金夹一盐」取中间那种金属的溶液，把两端金属分别放进去（验证锌、铁、铜就用硫酸亚铁溶液加锌片与铜片，锌能置换、铜不能）；「两盐夹一金」取中间那种金属的单质，分别放进两端金属的溶液里（铁放进硫酸锌溶液不反应，放进硫酸铜溶液则能置换出铜）。这个顺序还解释了几件事：金以游离态存在于自然界，因为几乎没东西能氧化它；波尔多液（硫酸铜与石灰乳）不能用铁桶盛，因为铁会把其中的铜置换出来并弄坏铁桶；原电池里一般较活泼的一极作负极（具体判定见「电化学」的原电池一条，并注意镁-铝-氢氧化钠这类特例）。最后两个易错点：活动性强弱与失去电子的数目无关，铝失 3 个电子仍排在镁后面；金属是薄片还是粉末影响的是反应快慢（表面积），而不是能否反应，不能拿来比活动性。高温下碳与一氧化碳也能把后面的金属从它们的氧化物里还原出来（见「碳及其化合物」与高炉炼铁一条），那属于另一套判据，不要与水溶液里的置换混在一起。",
+    "detailEn": "The chant is potassium, calcium, sodium, magnesium, aluminium, zinc, iron, tin, lead, (hydrogen), copper, mercury, silver, platinum, gold — but the series is measured, not invented: it ranks how willingly each metal gives up electrons to become an ion in water. It answers three kinds of questions. First, metal with acid: anything above hydrogen releases hydrogen from dilute hydrochloric and dilute sulfuric acid, and the further up, the faster — magnesium fastest, zinc workable, iron slow, while copper and silver stay quiet. Two exceptions must travel with the rule: concentrated sulfuric and nitric acid are strong oxidisers, so they give sulfur dioxide or nitrogen oxides rather than hydrogen (and cold concentrated sulfuric acid passivates iron and aluminium), which means 'active metal plus acid yields hydrogen' holds only for dilute, non-oxidising acids. Second, metal with a salt solution: a front metal displaces a back one, provided the salt is dissolved — copper does nothing to solid silver chloride — and iron lands at +2, so a blade in copper sulfate grows a red coating while the blue fades to pale green. That is the 'blue vitriol met by iron turns to copper' recorded as early as the Western Han, scaled up in the Song from leaching baths, and the same idea behind modern hydrometallurgy. The biggest trap is potassium, calcium and sodium: they are so eager that they attack the water first, so a lump of sodium in copper sulfate solution floats, melts, darts and hisses and leaves sodium hydroxide and hydrogen, which then throws down blue copper hydroxide — never copper. 'Water before salt' is the fixed answer to that family of questions. Third, proving the order among three metals, done two ways: two metals bracket one salt (take the middle metal's solution and dip the outer two in it — to sort zinc, iron and copper use iron(II) sulfate with a strip of each, zinc reacts and copper does not), or two salts bracket one metal (take the middle metal and dip it into the outer two's solutions). The series also explains several loose facts: gold is found native because almost nothing can oxidise it; the Bordeaux mixture of copper sulfate and lime cannot be kept in an iron bucket, since iron takes the copper out of it and ruins the bucket in the process; and in a cell the more active electrode is usually the negative one — see the galvanic cell entry for the details and for exceptions such as magnesium-aluminium in strong base. Two final confusions: the number of electrons given up does not set the rank, since aluminium, though it sheds three, sits below magnesium; and foil versus powder changes only how fast a reaction runs (surface area), never whether it can run, so rate is not a measure of position. Hot carbon and carbon monoxide can also pull the nobler metals out of their oxides — that belongs to a different table, covered under carbon and the blast furnace, and should not be confused with displacement in solution.",
+    "tags": ["金属", "置换反应"],
+    "tagsEn": ["Metal", "Displacement"]
+  }
+]

@@ -5,7 +5,7 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 267,
+  "total": 275,
   "counts": {
     "concepts": 11,
     "structure": 7,
@@ -13,6 +13,7 @@
     "trends": 8,
     "reactions": 6,
     "equations": 16,
+    "metals-nonmetals": 8,
     "quickref": 10,
     "life-chem": 13,
     "chem-industry": 10,
@@ -74,6 +75,14 @@
       "titleEn": "Common Lab Equations",
       "kind": "cards",
       "count": 16
+    },
+    {
+      "key": "metals-nonmetals",
+      "icon": "🧲",
+      "title": "常见金属与非金属",
+      "titleEn": "Metals & Nonmetals",
+      "kind": "cards",
+      "count": 8
     },
     {
       "key": "quickref",
@@ -179,6 +188,7 @@
     { "key": "trends", "icon": "📊", "value": 8 },
     { "key": "reactions", "icon": "🔥", "value": 6 },
     { "key": "equations", "icon": "📝", "value": 16 },
+    { "key": "metals-nonmetals", "icon": "🧲", "value": 8 },
     { "key": "quickref", "icon": "📋", "value": 10 },
     { "key": "life-chem", "icon": "🏭", "value": 13 },
     { "key": "chem-industry", "icon": "⚙️", "value": 10 },
