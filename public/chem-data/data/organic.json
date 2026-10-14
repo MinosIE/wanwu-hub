@@ -7,8 +7,8 @@
     "level": 1,
     "oneLiner": "决定有机物化学特性的原子或原子团，如羟基、醛基、羧基。",
     "oneLinerEn": "Atom groups that dictate organic reactivity: hydroxyl, aldehyde, carboxyl, etc.",
-    "detail": "—OH（醇/酚）、—CHO（醛）、—COOH（酸）、—COO—（酯）、C=C（烯）；官能团决定类别与主要反应。",
-    "detailEn": "—OH, —CHO, —COOH, —COO—, C=C; the group defines the class and its key reactions.",
+    "detail": "官能团是决定有机物化学特性的原子或原子团，同系物因官能团相同而性质相似，所以认官能团几乎等于给有机物分类。常见者有羟基 —OH（醇，与苯酚上的酚羟基性质不同）、醛基 —CHO（能被银氨溶液氧化而显银镜）、羧基 —COOH（显酸性）、酯基 —COO—（能水解）、碳碳双键 C=C（能加成）、氨基 —NH₂。同一分子可含多种官能团，性质便由它们共同决定，如葡萄糖既有多羟基又有醛基。判类别先找官能团：见 C=C 想加成、见 —COOH 想成盐、见 —CHO 想氧化。官能团与「同分异构体」「取代反应」「加成反应」一起构成有机化学的主线。",
+    "detailEn": "Functional groups are the atoms or atom groups that set how an organic compound reacts, so finding them is much the same as classifying the molecule — homologues behave alike because they share a group. Watch the common ones: hydroxyl —OH (alcohols, though a phenolic —OH differs), aldehyde —CHO (gives a silver mirror with Tollens reagent), carboxyl —COOH (acidic), ester —COO— (hydrolysable), the carbon-carbon double bond C=C (adds reagents) and amino —NH₂. A single molecule may carry several groups and its chemistry is then the sum of all of them; glucose, for example, has many hydroxyls plus one aldehyde. To classify, first locate the group: a C=C points to addition, a —COOH to salt formation, a —CHO to oxidation. Alongside isomerism (see Isomers), substitution (see Substitution) and addition (see Addition), the functional group is a main thread of organic chemistry.",
     "tags": ["有机"],
     "tagsEn": ["Organic"]
   },
@@ -20,8 +20,8 @@
     "level": 2,
     "oneLiner": "分子式相同、结构不同，性质因而各异的化合物。",
     "oneLinerEn": "Same molecular formula, different structure, hence different properties.",
-    "detail": "如正丁烷与异丁烷（碳链异构）、乙醇与二甲醚（官能团位置/类型异构）。",
-    "detailEn": "E.g. n-butane vs isobutane, ethanol vs dimethyl ether.",
+    "detail": "同分异构体指分子式相同而结构不同的化合物，原子连接顺序或空间排布一旦不同，就变成性质各异的另一种物质。常见三类：碳链异构，如正丁烷直链、异丁烷带支链；位置异构，如 1-丙醇与 2-丙醇羟基位置不同；官能团异构，如乙醇 CH₃CH₂OH 与二甲醚 CH₃OCH₃ 同是 C₂H₆O 却一类是醇一类是醚，葡萄糖与果糖也同属 C₆H₁₂O₆。碳数越多异构体越繁，丁烷 2 种、戊烷 3 种、己烷 5 种，到 C₄H₁₀O 已有 7 种。写结构先排碳骨架再挪官能团，才能不重不漏；它与「官能团」互为表里，正是同分异构现象让有限的元素拼出千万种有机物。",
+    "detailEn": "Isomers share a molecular formula but differ in structure, so a change in how atoms are linked or arranged turns one substance into another with its own properties. Three usual kinds: chain isomerism, straight n-butane versus branched isobutane; position isomerism, 1-propanol versus 2-propanol where the hydroxyl sits elsewhere; and functional-group isomerism, ethanol CH₃CH₂OH and dimethyl ether CH₃OCH₃ both being C₂H₆O yet one an alcohol and one an ether, as glucose and fructose are both C₆H₁₂O₆. The more carbons, the more isomers: butane has 2, pentane 3, hexane 5, and C₄H₁₀O already 7. To enumerate without double counting, lay out the carbon skeleton first, then move the group. Isomerism pairs with the functional group (see Functional Groups) and is exactly why a handful of elements build millions of organic molecules.",
     "tags": ["有机"],
     "tagsEn": ["Organic"]
   },
@@ -33,6 +33,8 @@
     "level": 2,
     "oneLiner": "有机物分子里的原子被其他原子替换，如甲烷氯代。",
     "oneLinerEn": "An atom is replaced by another, e.g. chlorination of methane.",
+    "detail": "取代反应是有机物分子里某个原子或原子团被别的原子或原子团替换掉，特点是有出有进——去掉一个又换上另一个。典型是甲烷与氯气在光照下，C–H 上的氢逐个被氯替换，得到 CH₃Cl、CH₂Cl₂、CHCl₃、CCl₄ 与 HCl 的混合物，这是一步接一步连锁进行的自由基反应。中学常见的取代还有：苯的硝化（苯环上的氢被硝基替换）、酯化反应（酸脱羟基、醇脱氢，属取代）、酯与卤代烃的水解、以及油脂的皂化。凡看到某原子被换走、同时掉下小分子，多属取代。它与只加不上、双键变单键的「加成反应」恰好相反，两者与「消去反应」「官能团」共同搭起有机反应类型的骨架。",
+    "detailEn": "A substitution reaction swaps one atom or group in an organic molecule for another, its hallmark being give-and-take — something leaves and something else takes its place. The classic case is methane with chlorine under light, where the C–H hydrogens are replaced one after another, yielding a mixture of CH₃Cl, CH₂Cl₂, CHCl₃, CCl₄ and HCl through a stepwise radical chain. Other substitutions seen in school are nitration of benzene (a ring hydrogen swapped for a nitro group), esterification (the acid loses hydroxyl and the alcohol loses hydrogen, a substitution), hydrolysis of esters and haloalkanes, and saponification of fats. Whenever an atom is swapped out while a small molecule drops off, suspect substitution. It is the opposite of addition, which only adds across a double bond (see Addition), and together with elimination (see Elimination) and the functional group (see Functional Groups) it frames the main organic reaction types.",
     "eq": {
       "lhs": "CH₄ + Cl₂",
       "cond": "光照",
@@ -84,6 +86,8 @@
     "level": 2,
     "oneLiner": "不饱和键断开，两端加上其他原子，如乙烯使溴水褪色。",
     "oneLinerEn": "Atoms add across a double bond; e.g. ethene decolorizes bromine water.",
+    "detail": "加成反应是有机物里的不饱和键（C=C、C≡C 等）断开其中一个，两端的原子各加上新的原子或原子团，结果是只进不出、由不饱和变饱和。乙烯通入溴水，Br—Br 断开加到两个碳上生成 1,2-二溴乙烷，橙黄的溴水因此褪色，这是鉴别乙烯（或烯烃）与甲烷的常用方法；乙烯也能使酸性高锰酸钾褪色，但那是氧化而非加成。氢气加成把植物油变成人造奶油、把苯加氢成环己烷，水加成得乙醇、氯化氢加成得氯乙烷。能发生加成是因为含不饱和键，故它常与「取代反应」对照记忆——一个加而不掉、一个换而有出，二者都围绕「官能团」的不饱和程度展开。",
+    "detailEn": "An addition reaction opens one link of an unsaturated bond such as C=C or C≡C and attaches a new atom to each end, so the molecule only gains and never loses, turning unsaturated into saturated. Bubble ethene through bromine water and the Br—Br splits across the two carbons to give 1,2-dibromoethane, so the orange-brown color vanishes — the standard way to tell an alkene from methane. Ethene also bleaches acidified potassium permanganate, but that is oxidation, not addition. Adding hydrogen hardens vegetable oil into margarine and reduces benzene to cyclohexane; adding steam gives ethanol and adding HCl gives chloroethane. Addition happens only where an unsaturated bond exists, so it is set against substitution — one adds without dropping anything, the other swaps with something leaving (see Substitution), both circling the degree of unsaturation fixed by the functional group (see Functional Groups).",
     "eq": { "lhs": "CH₂=CH₂ + Br₂", "rhs": "CH₂BrCH₂Br" },
     "subs": [
       {
@@ -122,6 +126,8 @@
     "level": 3,
     "oneLiner": "脱去小分子生成不饱和键，如乙醇脱水制乙烯。",
     "oneLinerEn": "Lose a small molecule to form a double bond; e.g. ethanol to ethene.",
+    "detail": "消去反应与加成方向相反，它从有机物分子里脱去一个小分子（如 H₂O、HX），在相邻两个碳之间新生出不饱和键。典型是乙醇与浓硫酸共热到 170 ℃，分子内脱去一分子水生成乙烯；温度是这里的岔路口，140 ℃ 时两分子乙醇转而脱水成乙醚，那已是取代而非消去。发生消去有结构门槛：连着羟基或卤素的碳，其邻位碳上必须还留有氢（所谓 β-H），否则消不掉，故叔卤代烃最易消去、甲醇这类无邻位碳的不能消去。实验室制乙烯要迅速升至 170 ℃ 并加碎瓷片防暴沸。它与「加成反应」一进一出恰成对，又与「取代反应」同样受条件与结构支配。",
+    "detailEn": "Elimination runs opposite to addition: a molecule loses a small fragment such as water or HX and a fresh unsaturated bond forms between two neighboring carbons. The textbook case is ethanol heated with concentrated sulfuric acid to 170 °C, shedding one water molecule within the same molecule to give ethene. Temperature is the fork in the road — at 140 °C two ethanol molecules instead dehydrate to ether, which is substitution, not elimination. Elimination has a structural gate: the carbon next to the one carrying the —OH or halogen must still hold a hydrogen (a β-H), or nothing can be eliminated, so tertiary haloalkanes eliminate most readily while methanol, having no neighboring carbon, cannot. In the lab, heat quickly to 170 °C and add porcelain chips against bumping. It pairs as the in-and-out mirror of addition (see Addition), and like substitution (see Substitution) it obeys both conditions and structure.",
     "eq": {
       "lhs": "C₂H₅OH",
       "cond": "浓硫酸 · 170℃",
@@ -173,6 +179,8 @@
     "level": 2,
     "oneLiner": "许多小分子（单体）加成结合成高分子，如聚乙烯。",
     "oneLinerEn": "Many monomers join into a polymer, e.g. polyethylene.",
+    "detail": "聚合反应把许多小分子（单体）连成大分子（高分子），分两类。加聚是含双键的单体打开不饱和键彼此首尾相接、不脱任何小分子，如 n 个乙烯 CH₂=CH₂ 聚成聚乙烯 [—CH₂—CH₂—]ₙ，聚丙烯、聚氯乙烯同理；缩聚则是单体带着两种官能团相互结合、每接一次便脱去一个小分子（水等），如苯酚与甲醛缩成酚醛树脂、二元酸与二元醇缩成涤纶、氨基酸缩聚成蛋白质。写聚合式要标清单体、链节与聚合度 n，并留意高分子里 n 不固定，故聚乙烯等是混合物而非纯净物。加聚本质是反复的「加成反应」，缩聚则伴随取代与「消去反应」式的脱水，判断单体上有无合适「官能团」是能否聚合的关键。",
+    "detailEn": "Polymerization links many small molecules (monomers) into giant ones (polymers), in two flavors. Addition polymerization opens the double bonds of unsaturated monomers and joins them head to tail without dropping anything: n units of ethene CH₂=CH₂ link into polyethylene [—CH₂—CH₂—]ₙ, as do polypropylene and polyvinyl chloride. Condensation polymerization joins monomers that each carry two functional groups, losing a small molecule such as water at every link — phenol with formaldehyde to phenolic resin, a diacid with a diol to polyester, amino acids to protein. When writing a polymer formula mark the monomer, the repeat unit and the degree of polymerization n, and note that n is not fixed, so polyethylene and the like are mixtures rather than pure substances. Addition polymerization is repeated addition (see Addition) at heart, while condensation polymerization couples substitution with an elimination-like loss of water (see Elimination), and whether a monomer bears the right functional group (see Functional Groups) decides if it can polymerize.",
     "eq": {
       "lhs": "nCH₂=CH₂",
       "cond": "催化剂",
@@ -216,8 +224,8 @@
     "level": 1,
     "oneLiner": "多羟基醛或酮，分单糖、二糖、多糖，是主要能源物质。",
     "oneLinerEn": "Polyhydroxy aldehydes/ketones; mono-, di- and polysaccharides, the main energy source.",
-    "detail": "葡萄糖（单糖）能发生银镜反应；淀粉、纤维素为多糖，遇碘淀粉变蓝。",
-    "detailEn": "Glucose gives the silver-mirror test; starch and cellulose are polysaccharides; starch turns blue with iodine.",
+    "detail": "糖类是多羟基的醛或酮，以及能水解成它们的物质，是细胞主要的能源。按能否水解分三层：单糖不能水解，如葡萄糖 C₆H₁₂O₆、果糖；二糖一分子水解给两分子单糖，如蔗糖得葡萄糖加果糖、麦芽糖得两分子葡萄糖；多糖一分子水解给许多葡萄糖，如淀粉与纤维素 (C₆H₁₀O₅)ₙ。葡萄糖含醛基，能发生银镜反应、也能把新制氢氧化铜还原成砖红的氧化亚铜，故称还原糖，蔗糖却无醛基不显此反应。淀粉遇碘变蓝，常用来检验淀粉或碘；纤维素人体因缺乏相应酶不能消化，却是促进肠蠕动的重要膳食成分。要破两个迷思：糖不一定甜（淀粉无味），甜的不一定是糖（木糖醇、糖精）。它们的性质差别正来自「官能团」与结构，与「蛋白质与氨基酸」同属基本营养物质。",
+    "detailEn": "Carbohydrates are polyhydroxy aldehydes or ketones and the substances that hydrolyze into them, serving as the cell's main fuel. Sort them by whether they hydrolyze. Monosaccharides cannot, such as glucose C₆H₁₂O₆ and fructose. Disaccharides split into two monosaccharides — sucrose into glucose plus fructose, maltose into two glucose. Polysaccharides yield many glucose units — starch and cellulose, both written (C₆H₁₀O₅)ₙ. Because glucose carries an aldehyde group it gives the silver-mirror test and reduces fresh copper hydroxide to brick-red copper oxide, so it is a reducing sugar, whereas sucrose has no aldehyde and does neither. Starch turns blue with iodine, a classic test for either. Humans cannot digest cellulose, lacking the enzyme, yet it is valuable roughage that drives intestinal movement. Break two myths: a sugar need not taste sweet (starch is bland) and something sweet need not be a sugar (xylitol, saccharin). Their differences come from the functional group and structure (see Functional Groups), and alongside proteins they are basic nutrients.",
     "tags": ["生命物质"],
     "tagsEn": ["Biomolecule"]
   },
@@ -229,8 +237,8 @@
     "level": 1,
     "oneLiner": "由氨基酸缩合而成的高分子，是生命活动的承担者。",
     "oneLinerEn": "Polymers of amino acids; the workhorses of life.",
-    "detail": "含肽键，遇浓硝酸变黄（显色）；高温、重金属、强酸碱使其变性。",
-    "detailEn": "Contain peptide bonds; turn yellow with conc. nitric acid; denatured by heat, heavy metals, strong acid/base.",
+    "detail": "蛋白质是由氨基酸缩合而成的高分子化合物，是生命活动的承担者。氨基酸同一分子上带着碱性的氨基 —NH₂ 与酸性的羧基 —COOH，两者脱水缩合形成肽键 —CO—NH—，许多氨基酸连成长链并盘曲成特定空间结构，才成为有活性的蛋白质。蛋白质有几件标志性质：变性，受加热、重金属盐、强酸强碱、酒精等作用结构破坏而失去活性，且不可逆，这正是高温灭菌、误食重金属喝牛奶或鸡蛋解毒、酒精消毒的原理；显色，遇浓硝酸变黄（含苯环的蛋白质），可作检验；灼烧有烧焦羽毛的气味，用来区别真羊毛与化纤；盐析，加浓的轻金属盐溶液析出、可逆，用于分离提纯。酶本身就是蛋白质，兼具高效性与专一性。它由「聚合反应」里的缩聚形成，性质差异仍系于「官能团」，与「糖类」同属人体必需营养素。",
+    "detailEn": "Proteins are polymers built from amino acids and are the machines that carry out the work of life. Each amino acid bears a basic amino group —NH₂ and an acidic carboxyl —COOH on the same molecule; they condense, losing water, into a peptide bond —CO—NH—, and many residues form a long chain that folds into a specific shape before the protein becomes active. Proteins show several signature behaviors. Denaturation — heat, heavy-metal salts, strong acid or base and alcohol wreck the structure and the protein loses activity irreversibly, which is why autoclaving sterilizes, why milk or egg white is drunk after heavy-metal poisoning, and why alcohol disinfects. Color — a yellowing with concentrated nitric acid for proteins bearing aromatic rings, used as a test. Burning — a scorched-feather smell that tells real wool from synthetic fiber. Salting-out — a reversible precipitation with concentrated light-metal salt solutions, used to separate them. Enzymes are proteins, both highly efficient and highly specific. Proteins arise by condensation polymerization (see Polymerization), their differences still trace to the functional group (see Functional Groups), and alongside carbohydrates (see Carbohydrates) they are essential nutrients.",
     "tags": ["生命物质"],
     "tagsEn": ["Biomolecule"]
   }
