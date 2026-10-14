@@ -6,7 +6,9 @@
     "termEn": "Young's Double-Slit",
     "level": 2,
     "oneLiner": "光过双缝形成干涉条纹，证明光的波动性。",
-    "oneLinerEn": "Light through two slits makes interference fringes, proving waves."
+    "oneLinerEn": "Light through two slits makes interference fringes, proving waves.",
+    "detail": "1801 年托马斯·杨让光先过一条窄缝、再落到紧邻的两条窄缝上，屏幕上出现明暗相间的条纹。两条缝相当于两个相干光源：波峰与波峰相遇处变亮、波峰与波谷相遇处变暗，这就是干涉。条纹间距与光的波长成正比，用单色光反推可测出波长。这一结果为光的波动说提供了决定性证据，压过了当时占主流的牛顿微粒说。更奇妙的是，即便把光弱到一次只发射一个光子、让它在屏上逐点累积，时间一长干涉条纹依然浮现——单个光子仿佛同时穿过了两条缝与自己干涉，于是杨氏双缝成了量子力学「波粒二象性」最经典的演示。",
+    "detailEn": "In 1801 Thomas Young let light pass first through one narrow slit and then through two closely spaced slits, producing alternating bright and dark fringes on a screen. The two slits act as coherent sources: crest meeting crest gives a bright band, crest meeting trough a dark one - interference. The fringe spacing scales with the wavelength, so monochromatic light can be used to measure it. The result was decisive evidence for the wave theory of light, against the then-dominant Newtonian particle view. Strangest of all, even when the light is dimmed to emit one photon at a time so that dots build up slowly on the screen, the interference pattern still emerges - each photon seemingly passes both slits and interferes with itself, which is why the double slit became the signature demonstration of wave-particle duality in quantum mechanics."
   },
   {
     "id": "michelson-morley",
@@ -15,7 +17,9 @@
     "termEn": "Michelson–Morley",
     "level": 3,
     "oneLiner": "探测「以太风」得零结果，为相对论扫清障碍。",
-    "oneLinerEn": "Sought the aether wind but found none, clearing the way for relativity."
+    "oneLinerEn": "Sought the aether wind but found none, clearing the way for relativity.",
+    "detail": "19 世纪物理学家假设光波需要一种充满宇宙的介质「以太」，地球在其间穿行应产生「以太风」。1887 年迈克尔逊与莫雷用干涉仪把一束光分成互相垂直的两路、反射回来再合拢：若真有以太风，顺风和逆风两路的光程会不同，转动仪器时干涉条纹应当移动。可是不管何时、朝哪个方向重复，条纹几乎纹丝不动——「零结果」。这个被称为「历史上最著名的失败实验」，直接否定了静止的以太，动摇了绝对时空的观念，为 1905 年爱因斯坦狭义相对论把光速不变当作基本假设扫清了道路。",
+    "detailEn": "Nineteenth-century physicists assumed light waves needed a medium filling the universe, the 'aether', through which Earth moved as an 'aether wind'. In 1887 Michelson and Morley used an interferometer to split a beam into two perpendicular arms, reflect them back and recombine: with a real aether wind the two paths would gain a light-time difference, so rotating the instrument should shift the interference fringes. Yet no matter when or in which direction they repeated it, the fringes barely moved - a 'null result'. Called the most famous failed experiment in history, it ruled out a stationary aether, shook the idea of absolute space and time, and cleared the road for Einstein to take the constancy of light speed as a postulate of special relativity in 1905."
   },
   {
     "id": "millikan",
@@ -24,7 +28,9 @@
     "termEn": "Millikan Oil-Drop",
     "level": 3,
     "oneLiner": "悬浮带电油滴测出元电荷，证实电荷量子化。",
-    "oneLinerEn": "Measured the elementary charge, confirming quantization."
+    "oneLinerEn": "Measured the elementary charge, confirming quantization.",
+    "detail": "1909 至 1913 年密立根让极小的带电油滴在两块水平平行极板间下落。不加电场时油滴受重力与空气阻力（斯托克斯定律）很快达收尾速度；加上电场则可把油滴悬停或令其匀速升降。由力的平衡算出每颗油滴所带的电量，他惊讶地发现所有读数都是同一个最小值的整数倍。这个最小值就是元电荷，e 约为 1.60×10⁻¹⁹ 库仑，第一次以干净直接的方式证明电荷不是连续的，而是一份一份量子化的，并测准了基本电荷的数值。",
+    "detailEn": "Between 1909 and 1913 Millikan watched tiny charged oil droplets fall between two horizontal parallel plates. With no field a droplet feels gravity and air drag (Stokes' law) and quickly reaches a terminal speed; with a field it can be held still or made to rise at a steady rate. From the force balance he computed the charge on each droplet and found, strikingly, that every reading was a whole-number multiple of one smallest value. That value is the elementary charge, e about 1.60x10^-19 coulomb - the first clean, direct proof that charge is not continuous but quantized in packets, and a precise measurement of the basic unit."
   },
   {
     "id": "rutherford",
@@ -33,7 +39,9 @@
     "termEn": "Rutherford Gold-Foil",
     "level": 2,
     "oneLiner": "α 粒子大角度散射，提出原子核式模型。",
-    "oneLinerEn": "Large-angle α scattering led to the nuclear model."
+    "oneLinerEn": "Large-angle α scattering led to the nuclear model.",
+    "detail": "1909 年盖革与马斯登在卢瑟福指导下用 α 粒子轰击极薄的金箔，靠四周的荧光屏观测散射。按当时汤姆孙的「葡萄干布丁」模型，正电荷均匀铺满整颗原子，α 粒子应当几乎一路直穿、只极小角度偏折。结果却令人震惊：绝大多数确实径直穿过，说明原子内部非常空旷；但有极少数被大角度弹开，甚至超过 90° 原路返回。卢瑟福说这「就像用十五英寸炮弹轰一张纸巾，炮弹却被弹了回来」。1911 年他据此提出核式模型：原子的几乎全部质量和全部正电荷集中在一个直径仅约原子万分之一的小核里，电子在核外广阔空间运动——原子行星模型由此诞生。",
+    "detailEn": "In 1909 Geiger and Marsden, under Rutherford, bombarded a very thin gold foil with alpha particles and watched the scattering on a ring of fluorescent screens. On Thomson's then-current 'plum pudding' model, where positive charge is smeared through the atom, an alpha particle should pass almost straight through with only tiny deflections. The result was astonishing: most indeed went through, showing the atom is mostly empty, but a very few were hurled through large angles, some past 90 degrees, straight back. Rutherford said it was 'as if you fired a fifteen-inch shell at a piece of tissue paper and it came back and hit you'. In 1911 he proposed the nuclear model: nearly all the mass and all the positive charge sit in a nucleus about ten-thousandths the size of the atom, with electrons in the vast space around it - the birth of the planetary atom."
   },
   {
     "id": "cavendish",
@@ -42,7 +50,9 @@
     "termEn": "Cavendish Experiment",
     "level": 2,
     "oneLiner": "首次测出引力常数 G，并估算地球质量。",
-    "oneLinerEn": "First measured G and estimated Earth's mass."
+    "oneLinerEn": "First measured G and estimated Earth's mass.",
+    "detail": "1797 至 1798 年卡文迪许设计了一台极灵敏的扭秤：一根水平杆两端各固定一个小铅球，用一根石英丝悬挂，杆旁放两个可移动的大铅球。大球与小球间的万有引力十分微弱，只把杆扭动一点点，他靠悬丝上小镜把光点反射到刻度尺上，把这一微小转角放大读出，从而测出引力的大小。由此他算出地球的平均密度约为水的 5.5 倍，相当于「称出了地球」；后人再从他的数据换算出万有引力常数 G 约 6.67×10⁻¹¹ 牛·平方米每千克平方。这种用扭秤放大微小力的思想后来被库仑测量静电力直接继承。",
+    "detailEn": "In 1797-1798 Cavendish built a strikingly sensitive torsion balance: a horizontal rod carrying a small lead ball at each end hung from a quartz fibre, with two large movable lead balls set beside it. The gravitational pull between the large and small balls is feeble and twists the rod only a fraction of a degree, but a small mirror on the fibre reflected a light spot onto a scale, magnifying that angle so it could be read, giving the strength of gravity. From this he found Earth's mean density about 5.5 times that of water - in effect 'weighing the Earth' - and later scientists converted his data into the gravitational constant G, about 6.67x10^-11 newton metre-squared per kilogram squared. The idea of amplifying a tiny force with a torsion balance was inherited directly by Coulomb in his measurement of the electrostatic force."
   },
   {
     "id": "photoelectric",
@@ -51,7 +61,9 @@
     "termEn": "Photoelectric Effect",
     "level": 2,
     "oneLiner": "光照射金属打出电子，爱因斯坦用量子解释，佐证光子说。",
-    "oneLinerEn": "Light ejects electrons; Einstein's quantum explanation supported photons."
+    "oneLinerEn": "Light ejects electrons; Einstein's quantum explanation supported photons.",
+    "detail": "光照到金属表面会打出一层电子，称作光电子，最早由赫兹注意到。用经典波动说无法解释几条事实：能否打出电子只看光的频率有没有超过某个「截止频率」，与光的强弱无关；一旦超过阈值发射几乎瞬时发生；增大光强只会增多电子数目，而增大频率才会抬高每个电子的最大动能。1905 年爱因斯坦用光量子（光子）一举解释：光的能量按一份一份传播，每份 E = hν，一个光子把全部能量交给一个电子，扣除把电子挣脱金属所需的逸出功，剩下的就是最大动能。这不仅坐实了光的粒子性，也让爱因斯坦因此获得 1921 年诺贝尔物理学奖。",
+    "detailEn": "Light falling on a metal knocks out a shower of electrons, called photoelectrons, a fact first noted by Hertz. Classical wave theory could not explain what experiments showed: whether electrons come off at all depends only on whether the light's frequency clears a certain 'threshold frequency', not on its intensity; once past threshold emission is nearly instant; more intensity only sends out more electrons, while higher frequency raises each electron's maximum kinetic energy. In 1905 Einstein explained it at a stroke with light quanta (photons): light energy travels in packets, each E = h*nu, a single photon hands its whole energy to one electron, and what is left after paying the work needed to escape the metal - the work function - becomes the maximum kinetic energy. This confirmed the particle side of light and earned Einstein the 1921 Nobel Prize in Physics."
   },
   {
     "id": "galileo-incline",
@@ -60,7 +72,9 @@
     "termEn": "Galileo's Inclined Plane",
     "level": 1,
     "oneLiner": "用斜面「冲淡重力」研究匀加速运动，奠定实验物理。",
-    "oneLinerEn": "Diluted gravity with ramps to study uniform acceleration, founding experimental physics."
+    "oneLinerEn": "Diluted gravity with ramps to study uniform acceleration, founding experimental physics.",
+    "detail": "自由落体下落太快，当时根本无从计时。伽利略于是让铜球沿阻力很小的斜面滚下，用「冲淡重力」的办法把运动放慢、便于测量；他用水钟计量时间，测出球滚过的路程与所用时间的平方成正比（s 正比于 t²），也就是说速度在均匀增加，是匀加速运动。他还发现同一倾角下加速度与球的重轻无关，并把倾角一路推到竖直，外推出自由落体服从同样规律。由斜面与另一组理想实验，他萌生了「若无阻力物体将永远运动下去」的惯性思想。把可控实验与几何推理结合，这正是近代科学方法的开端。",
+    "detailEn": "Free fall is too fast to time with the tools of the day, so Galileo let a bronze ball roll down a low-friction inclined plane, 'diluting gravity' to slow the motion and make it measurable. With a water clock he found the distance rolled grew as the square of the time (s proportional to t-squared), meaning speed increased evenly - uniform acceleration. He also showed that at a given slope the acceleration does not depend on the ball's weight, and by pushing the slope all the way to vertical he extrapolated that free fall obeys the same law. From the ramps and a companion thought experiment came his idea of inertia: without resistance a body keeps moving. Marrying controlled experiment to geometric reasoning is where the modern scientific method begins."
   },
   {
     "id": "hertz",
@@ -69,6 +83,8 @@
     "termEn": "Hertz EM-Wave",
     "level": 2,
     "oneLiner": "用振荡电路发射并接收电磁波，证实麦克斯韦预言。",
-    "oneLinerEn": "Generated and detected EM waves, confirming Maxwell."
+    "oneLinerEn": "Generated and detected EM waves, confirming Maxwell.",
+    "detail": "1860 年代麦克斯韦从他的方程组预言：变化的电场与磁场会彼此激发、以波的形式沿空间传播，速度恰等于光速，因此光本身就是电磁波。这只是一个数学预言，直到 1887 至 1888 年赫兹用实验把它坐实：他用感应线圈驱动一对带小间隙的铜环作发射器，在几米外放一个开口环作接收器，间隙间蹦出微小火花——电磁波真的被发射并被收到了。赫兹又测出它的波长与频率算得速度约等于光速，并演示了电磁波的反射、折射、偏振与驻波，全面证明它是一种横波、与光同类。这一实验开启了无线电通信的时代，尽管赫兹本人当时认为它「毫无用处」。",
+    "detailEn": "In the 1860s Maxwell's equations predicted that changing electric and magnetic fields should sustain each other and travel through space as a wave moving at exactly the speed of light, so light itself is an electromagnetic wave. This was pure mathematics until Hertz made it experimental in 1887-1888: he drove a pair of copper loops with a small gap using an induction coil as a transmitter, and set an open loop several metres away as a receiver - a faint spark leapt the gap, so electromagnetic waves really were sent and caught. Hertz then measured their wavelength and frequency to get a speed close to that of light, and showed their reflection, refraction, polarisation and standing waves, proving in full that they are transverse waves of the same kind as light. The experiment opened the age of radio communication, though Hertz himself judged it 'of no use whatsoever'."
   }
 ]
