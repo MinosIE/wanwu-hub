@@ -194,5 +194,436 @@
     "related": ["motivation", "self-efficacy", "attention"],
     "tags": ["积极", "情绪", "动机"],
     "sources": [{ "label": "Csikszentmihalyi (1990)", "year": 1990 }]
+  },
+  {
+    "id": "extinction",
+    "term": "消退",
+    "termEn": "Extinction",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "def": "条件反射建立之后，若不再给予强化或刺激配对，反应会逐渐减弱直至消失的过程。",
+    "defEn": "The gradual weakening and disappearance of a learned response once reinforcement or stimulus pairing stops.",
+    "plain": "铃声反复响却再也不给食物，狗慢慢就不流口水了——这条联结「消退」了。",
+    "plainEn": "Ring the bell again and again with no food, and the dog slowly stops salivating—the link has faded out.",
+    "related": [
+      "conditioning",
+      "reinforcement",
+      "pavlov",
+      "skinner"
+    ],
+    "tags": [
+      "学习",
+      "行为"
+    ],
+    "sources": [
+      {
+        "label": "巴甫洛夫《条件反射》",
+        "labelEn": "I. Pavlov, Conditioned Reflexes",
+        "year": 1927
+      }
+    ]
+  },
+  {
+    "id": "punishment",
+    "term": "惩罚",
+    "termEn": "Punishment",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "def": "在行为之后呈现一个厌恶刺激、或撤走一个愉快刺激，使该行为再次发生的概率降低。",
+    "defEn": "Presenting an aversive stimulus, or removing a pleasant one, after a behavior so that it becomes less likely to recur.",
+    "plain": "考砸被骂、迟到扣钱，都是想让那个行为少来；但惩罚常常只教「不许」，很少教「该怎么做」。",
+    "plainEn": "A scolding or a fine aims to cut a behavior short—but punishment mostly teaches 'don't', rarely 'do this instead'.",
+    "related": [
+      "reinforcement",
+      "skinner",
+      "conditioning"
+    ],
+    "tags": [
+      "学习",
+      "行为"
+    ],
+    "sources": [
+      {
+        "label": "斯金纳《操作性条件反射》",
+        "labelEn": "B. F. Skinner, The Behavior of Organisms",
+        "year": 1938
+      }
+    ]
+  },
+  {
+    "id": "observational-learning",
+    "term": "观察学习",
+    "termEn": "Observational Learning",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "def": "通过观看榜样的行为及其后果来习得新行为，不必亲自尝试与强化（班杜拉）。",
+    "defEn": "Learning a new behavior by watching a model and the consequences they receive, without doing it or being reinforced oneself (Bandura).",
+    "plain": "看过「波波娃」被拳打脚踢的录像，孩子也会照着去打——没亲身试错就学会了。",
+    "plainEn": "Children who watched a film of the Bobo Doll being struck went on to hit it too—learning without a single trial of their own.",
+    "related": [
+      "bandura",
+      "bandura-bobo",
+      "behaviorism",
+      "reinforcement"
+    ],
+    "tags": [
+      "学习",
+      "社会"
+    ],
+    "sources": [
+      {
+        "label": "班杜拉《社会学习理论》",
+        "labelEn": "A. Bandura, Social Learning Theory",
+        "year": 1977
+      }
+    ]
+  },
+  {
+    "id": "assimilation-accommodation",
+    "term": "同化与顺应",
+    "termEn": "Assimilation & Accommodation",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "皮亚杰提出的两种适应方式：把新经验纳入已有图式是同化，改造图式去匹配新经验是顺应。",
+    "defEn": "Piaget's two ways of adapting—fitting new experience into an existing schema (assimilation), or revising the schema to fit the new experience (accommodation).",
+    "plain": "孩子把一切四条腿的都叫「狗狗」，是同化；慢慢学会分清猫与狗、改了心里的分类，就是顺应。",
+    "plainEn": "A child calling every four-legged thing 'doggy' is assimilating; telling cat from dog and revising the inner category is accommodating.",
+    "related": [
+      "schema",
+      "piaget",
+      "learning"
+    ],
+    "tags": [
+      "发展",
+      "认知"
+    ],
+    "sources": [
+      {
+        "label": "皮亚杰《发生认识论》",
+        "labelEn": "J. Piaget, Genetic Epistemology",
+        "year": 1970
+      }
+    ]
+  },
+  {
+    "id": "object-permanence",
+    "term": "客体永久性",
+    "termEn": "Object Permanence",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "懂得物体即使看不见、听不着也依然存在——皮亚杰感知运动阶段的关键成就。",
+    "defEn": "Knowing that an object still exists even when unseen or unheard—a key achievement of Piaget's sensorimotor stage.",
+    "plain": "把玩具藏到毯子下，小婴儿仿佛它「消失了」；能去掀开毯子寻找，就说明有了客体永久性。",
+    "plainEn": "Hide a toy under a blanket and a young infant acts as if it vanished; lifting the blanket to search shows object permanence.",
+    "related": [
+      "schema",
+      "piaget",
+      "memory"
+    ],
+    "tags": [
+      "发展",
+      "认知"
+    ],
+    "sources": [
+      {
+        "label": "皮亚杰《儿童的智力起源》",
+        "labelEn": "J. Piaget, The Origins of Intelligence in Children",
+        "year": 1936
+      }
+    ]
+  },
+  {
+    "id": "conservation",
+    "term": "守恒",
+    "termEn": "Conservation",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "懂得物体的量不因其外形或排列改变而改变（水倒进细高杯仍一样多）——具体运算阶段的标志。",
+    "defEn": "Understanding that quantity stays the same though appearance changes (water poured into a tall glass is still the same amount)—a concrete-operational milestone.",
+    "plain": "同样多的糖，散开摆的看起来「更多」；孩子不再被表象骗、知道其实一样多，就是懂了守恒。",
+    "plainEn": "Spread-out candies look like 'more', but a child no longer fooled—who knows it's the same count—has grasped conservation.",
+    "related": [
+      "piaget",
+      "schema",
+      "cognitivism"
+    ],
+    "tags": [
+      "发展",
+      "认知"
+    ],
+    "sources": [
+      {
+        "label": "皮亚杰《儿童的概念形成》",
+        "labelEn": "J. Piaget & B. Inhelder, The Psychology of the Child",
+        "year": 1966
+      }
+    ]
+  },
+  {
+    "id": "serial-position",
+    "term": "系列位置效应",
+    "termEn": "Serial Position Effect",
+    "category": "记忆",
+    "categoryEn": "Memory",
+    "def": "记忆一列项目时，开头（首因效应）与结尾（近因效应）的部分记得最好，中间最差。",
+    "defEn": "When learning a list, the first items (primacy) and the last items (recency) are remembered best, while the middle fares worst.",
+    "plain": "记名字、背单词，最先和最后那几个最牢、中间一串最容易忘——列表的「两头」占了便宜。",
+    "plainEn": "With names or words, the first few and the last few stick while the middle blurs—the two ends of the list get the bonus.",
+    "related": [
+      "memory",
+      "chunking",
+      "forgetting-curve",
+      "working-memory"
+    ],
+    "tags": [
+      "记忆"
+    ],
+    "sources": [
+      {
+        "label": "默多克《系列项目的保持》",
+        "labelEn": "B. B. Murdock, The Retention of Individual List Items",
+        "year": 1962
+      }
+    ]
+  },
+  {
+    "id": "declarative-procedural-memory",
+    "term": "陈述性与程序性记忆",
+    "termEn": "Declarative & Procedural Memory",
+    "category": "记忆",
+    "categoryEn": "Memory",
+    "def": "两类长时记忆：能说出「是什么」的事实与事件（陈述性），与会用、却难以言说的技能（程序性）。",
+    "defEn": "Two kinds of long-term memory: what you can state—facts and events (declarative)—and skills you can use but hardly put into words (procedural).",
+    "plain": "记得「法国首都是巴黎」是陈述性；骑车、游泳身体「会」却说不清动作细节，是程序性。",
+    "plainEn": "Knowing Paris is the capital of France is declarative; riding a bike your body 'knows' though you can't spell out the moves—that's procedural.",
+    "related": [
+      "memory",
+      "chunking",
+      "working-memory",
+      "neuroplasticity"
+    ],
+    "tags": [
+      "记忆"
+    ],
+    "sources": [
+      {
+        "label": "斯奎尔《记忆与脑》",
+        "labelEn": "L. Squire, Memory and Brain",
+        "year": 1987
+      }
+    ]
+  },
+  {
+    "id": "hierarchy-of-needs",
+    "term": "需要层次",
+    "termEn": "Hierarchy of Needs",
+    "category": "动机",
+    "categoryEn": "Motivation",
+    "def": "马斯洛把人的需要排成阶梯：生理、安全、归属与爱、尊重，直至自我实现，低层较满足后高层才凸显。",
+    "defEn": "Maslow's ladder of needs—physiological, safety, belonging and love, esteem, up to self-actualization—each rising as the levels below are met.",
+    "plain": "饿着肚子、安全都成问题时，人先顾眼前温饱，谈不上「实现理想」；需要大体有先后。",
+    "plainEn": "Hungry and unsafe, you chase food and shelter first, not ideals—needs come in a rough order.",
+    "related": [
+      "maslow",
+      "motivation",
+      "self-actualization"
+    ],
+    "tags": [
+      "动机",
+      "人本"
+    ],
+    "sources": [
+      {
+        "label": "马斯洛《人类动机理论》",
+        "labelEn": "A. Maslow, A Theory of Human Motivation",
+        "year": 1943
+      }
+    ]
+  },
+  {
+    "id": "self-actualization",
+    "term": "自我实现",
+    "termEn": "Self-Actualization",
+    "category": "人本",
+    "categoryEn": "Humanistic",
+    "def": "马斯洛与罗杰斯所说的一种趋向：充分发挥自身潜能、成为「你本可以成为的那个人」。",
+    "defEn": "The tendency Maslow and Rogers pointed to—realizing your potential and becoming the person you are capable of being.",
+    "plain": "不必成名成家，而是把手里的天赋认真用出来——画家尽情画、老师真心教，都算自我实现。",
+    "plainEn": "Not fame but living your gifts fully—the painter painting, the teacher teaching wholeheartedly—that is self-actualization.",
+    "related": [
+      "maslow",
+      "carl-rogers",
+      "humanistic",
+      "flow"
+    ],
+    "tags": [
+      "人本",
+      "动机"
+    ],
+    "sources": [
+      {
+        "label": "马斯洛《动机与人格》",
+        "labelEn": "A. Maslow, Motivation and Personality",
+        "year": 1954
+      }
+    ]
+  },
+  {
+    "id": "id-ego-superego",
+    "term": "本我、自我与超我",
+    "termEn": "Id, Ego & Superego",
+    "category": "精神分析",
+    "categoryEn": "Psychoanalytic",
+    "def": "弗洛伊德的人格结构模型：本我求欲望即时满足，超我是道德与理想的内化，自我在二者与现实之间协调。",
+    "defEn": "Freud's structural model—the id seeks instant wish-fulfillment, the superego is internalized morality and ideals, and the ego negotiates between them and reality.",
+    "plain": "心里三种声音——「我就要」「不该这样」「那折中一下」——大体对应本我、超我与自我。",
+    "plainEn": "The three inner voices—'I want it now', 'you shouldn't', 'let's compromise'—roughly map onto id, superego and ego.",
+    "related": [
+      "freud",
+      "defense-mechanism",
+      "psychoanalysis"
+    ],
+    "tags": [
+      "精神分析"
+    ],
+    "sources": [
+      {
+        "label": "弗洛伊德《自我与本我》",
+        "labelEn": "S. Freud, The Ego and the Id",
+        "year": 1923
+      }
+    ]
+  },
+  {
+    "id": "correlation-vs-causation",
+    "term": "相关不等于因果",
+    "termEn": "Correlation Is Not Causation",
+    "category": "方法",
+    "categoryEn": "Methods",
+    "def": "两件事一起变化（相关）并不等于其中一件引起了另一件（因果）——可能有第三变量或反向因果。",
+    "defEn": "Two things co-varying (correlation) is not one causing the other (causation)—a third variable or a reversed direction may explain it.",
+    "plain": "冰淇淋卖得多时溺水也多，不是冰淇淋害人，而是「夏天、下水人多」这第三因素在起作用。",
+    "plainEn": "Drownings rise with ice-cream sales—not from the cream but a hidden third factor: summer, and more people swimming.",
+    "related": [
+      "confirmation-bias",
+      "hindsight-bias",
+      "double-blind"
+    ],
+    "tags": [
+      "方法"
+    ],
+    "sources": [
+      {
+        "label": "赫夫《统计陷阱》",
+        "labelEn": "D. Huff, How to Lie with Statistics",
+        "year": 1954
+      }
+    ]
+  },
+  {
+    "id": "double-blind",
+    "term": "双盲实验",
+    "termEn": "Double-Blind Experiment",
+    "category": "方法",
+    "categoryEn": "Methods",
+    "def": "被试与主试都不知道谁在实验组、谁在对照组，用以排除期望与偏向对结果的污染。",
+    "defEn": "Neither participant nor experimenter knows who is in the test group and who in the control group, guarding results against expectation and bias.",
+    "plain": "连发药的研究员都不晓得这一瓶是真药还是安慰剂，才不会无意中把差别「暗示」出来。",
+    "plainEn": "Even the researcher handing out pills doesn't know real from placebo, so no clue can leak out to tilt the result.",
+    "related": [
+      "placebo-effect",
+      "correlation-vs-causation",
+      "conditioning"
+    ],
+    "tags": [
+      "方法"
+    ],
+    "sources": [
+      {
+        "label": "蒙哥马利《实验设计与分析》",
+        "labelEn": "D. Montgomery, Design and Analysis of Experiments",
+        "year": 1991
+      }
+    ]
+  },
+  {
+    "id": "placebo-effect",
+    "term": "安慰剂效应",
+    "termEn": "Placebo Effect",
+    "category": "方法",
+    "categoryEn": "Methods",
+    "def": "给予不含有效成分的处理，仅因当事人相信有效而出现真实改善的现象，凸显预期与情境对身心的作用。",
+    "defEn": "Real improvement from an inert treatment simply because one believes in it—showing the power of expectation and context over mind and body.",
+    "plain": "吃下「据说很神」的糖丸，疼痛竟真减轻了些——这份「相信」本身就在起作用。",
+    "plainEn": "A sugar pill 'said to be potent' eases pain a little—the believing itself is doing part of the work.",
+    "related": [
+      "double-blind",
+      "correlation-vs-causation",
+      "priming"
+    ],
+    "tags": [
+      "方法",
+      "健康"
+    ],
+    "sources": [
+      {
+        "label": "比彻《强大的安慰剂》",
+        "labelEn": "H. Beecher, The Powerful Placebo",
+        "year": 1955
+      }
+    ]
+  },
+  {
+    "id": "neurotransmitter",
+    "term": "神经递质",
+    "termEn": "Neurotransmitter",
+    "category": "生物",
+    "categoryEn": "Biological",
+    "def": "神经元之间传递信号的化学物质，在突触间隙释放、结合受体，影响情绪、注意与行动。",
+    "defEn": "The chemicals that carry signals between neurons, released across a synapse onto receptors, shaping mood, attention and action.",
+    "plain": "多巴胺、血清素这些「信使分子」在神经之间递话，许多药物正是去调节它们。",
+    "plainEn": "Dopamine and serotonin are messenger molecules passing notes between neurons—many drugs work by tuning them.",
+    "related": [
+      "neuroplasticity",
+      "emotion",
+      "consciousness"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "sources": [
+      {
+        "label": "坎德尔《神经科学原理》",
+        "labelEn": "E. Kandel, Principles of Neural Science",
+        "year": 2000
+      }
+    ]
+  },
+  {
+    "id": "circadian-rhythm",
+    "term": "昼夜节律",
+    "termEn": "Circadian Rhythm",
+    "category": "生物",
+    "categoryEn": "Biological",
+    "def": "约以 24 小时为周期的体内生物钟，调节睡眠—觉醒、体温与激素，并被光照校准。",
+    "defEn": "The roughly 24-hour internal clock governing sleep and wakefulness, body temperature and hormones, reset by light.",
+    "plain": "熬夜倒不过时差、半夜自然犯困，都是这只「生物钟」在走；清晨的阳光能帮它对准表。",
+    "plainEn": "Jet lag and midnight drowsiness are the body clock at work; morning light helps set it straight.",
+    "related": [
+      "sleep-memory",
+      "consciousness",
+      "neuroplasticity"
+    ],
+    "tags": [
+      "生物",
+      "睡眠"
+    ],
+    "sources": [
+      {
+        "label": "里希特《生物钟》",
+        "labelEn": "C. Richter, Biological Clocks in Medicine and Psychiatry",
+        "year": 1976
+      }
+    ]
   }
 ]
