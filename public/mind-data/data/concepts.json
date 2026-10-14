@@ -401,5 +401,221 @@
         "year": 1934
       }
     ]
+  },
+  {
+    "id": "group-polarization",
+    "term": "群体极化",
+    "termEn": "Group Polarization",
+    "category": "社会",
+    "categoryEn": "Social",
+    "level": 2,
+    "oneLiner": "一群本来就有某种倾向的人讨论之后，观点常常朝更极端的方向移动，而不是折中。",
+    "oneLinerEn": "After discussing together, a group that already shares a lean tends to shift toward a more extreme position, not a moderate one.",
+    "detail": "群体极化指：原本立场相近的人经过群体讨论，整体往往比讨论前更加激进或更加保守，而非趋于中庸。它有两股推力。其一是信息影响——讨论中你会听到更多支持既有倾向的理由，等于被反复加固。其二是规范影响——人希望在群体里显得比平均值更「到位」，于是争相把立场推向更极端的一端。1969 年莫斯科维奇与扎瓦洛尼的「学生评价戈培尔与戴高乐」实验首次清晰记录了这一现象。今天，兴趣同质、彼此隔离的网络社群把它成倍放大：评论区、粉丝圈、回音室里，温和的声音被淹没，观点一路走向对立。它和阿希的从众不同——从众是向群体规范靠拢，极化是整体越过原来的平均点向前冲；也和群体思维相邻，却更强调方向上的「更极端」而非「一致同意」。",
+    "detailEn": "Group polarization is the tendency for like-minded people, after deliberating together, to end up more extreme in their initial direction than before, rather than moderate. Two forces drive it. The first is informational influence: discussion hands you more arguments that support the lean you already hold, reinforcing it. The second is normative influence: people want to come off as more committed than the group average, so they push their stance further out. Moscovici and Zavalloni first documented it cleanly in 1969 in studies of how student groups evaluated de Gaulle and Hitler. Today, homogeneous and mutually sealed online communities multiply the effect—comment sections, fan circles and echo chambers drown the moderate voice and drag views toward opposition. It differs from Aschian conformity, which pulls people toward the group norm, whereas polarization carries the whole past the original mean; and though akin to groupthink, it stresses a shift toward the extreme rather than toward unanimity.",
+    "example": "一个本就略倾向冒险的小组，讨论一圈后常做出比每个成员初始想法更大胆（或更保守）的决定——讨论没有让它们中和，而是把它们推向一端。",
+    "exampleEn": "A group already leaning toward risk will, after a round of discussion, often settle on a choice bolder (or more cautious) than any member started with—debate did not balance them out, it pushed them to one end.",
+    "related": [
+      "asch-conformity",
+      "deindividuation",
+      "bandwagon",
+      "bystander-effect"
+    ],
+    "tags": [
+      "社会",
+      "群体"
+    ],
+    "sources": [
+      {
+        "label": "Moscovici & Zavalloni, 群体极化研究",
+        "labelEn": "S. Moscovici & M. Zavalloni, Group Polarization",
+        "year": 1969
+      }
+    ]
+  },
+  {
+    "id": "deindividuation",
+    "term": "去个体化",
+    "termEn": "Deindividuation",
+    "category": "社会",
+    "categoryEn": "Social",
+    "level": 2,
+    "oneLiner": "当人匿名、融进群体时，自我觉察与责任感会下降，行为更容易冲破平日里的自我约束。",
+    "oneLinerEn": "When anonymous and merged into a group, people's self-awareness and sense of accountability drop, and acts break past everyday restraints.",
+    "detail": "去个体化描述这样一种状态：在匿名、身份被群体淹没、责任被摊薄的情境里，人对「自己是个什么样的人、别人会怎么看」的觉察下降，于是更少受内在标准约束，更容易顺着当下的情绪与群体氛围行事。这个词由费斯廷格等人在 1952 年提出，津巴多在 1969 年把它系统化，并联系到他在斯坦福监狱实验里观察到的去个人化。网络是它的温床——蒙面的账号、人肉的人群、匿名的跟帖，让平时克制的人也可能说出单独时绝不会说的话。要强调的是，去个体化并不等于「人性本恶终于暴露」，而更多是情境削弱了自我监控：一旦身份重新可见、责任重新落到具体的人身上，许多越界行为就会收敛。它和旁观者效应共享「责任分散」这一环，也和群体极化互相助长。",
+    "detailEn": "Deindividuation names a state in which, under anonymity, a drowned-out group identity and diffused responsibility, a person's awareness of 'what kind of self I am and how I will be judged' falls away, so inner standards bind less and behavior follows the heat of the moment and the crowd. The term was proposed by Festinger and colleagues in 1952 and systematized by Zimbardo in 1969, linked to the depersonalization he observed in the Stanford prison experiment. The internet is fertile ground for it—masked accounts, faceless mobs and anonymous posts can draw from a normally restrained person words they would never say alone. Crucially, deindividuation is not 'wicked human nature finally exposed' so much as the situation loosening self-monitoring: once identity becomes visible again and responsibility lands on a particular individual, much of the boundary-crossing subsides. It shares the 'diffusion of responsibility' link with the bystander effect and feeds back and forth with group polarization.",
+    "example": "同一句攻击性的话，实名发出去多半会犹豫；在蒙着脸、法不责众的群体里，却有人脱口而出——变化的不是人品，而是自我觉察被情境暂时卸下了。",
+    "exampleEn": "The same hostile line gives most people pause if posted under their real name; inside a masked, 'no one is held to blame' crowd some blurt it out—what changed is not character but a self-awareness the situation had temporarily unstrapped.",
+    "related": [
+      "stanford-prison",
+      "group-polarization",
+      "bystander-effect",
+      "social-media-mood"
+    ],
+    "tags": [
+      "社会",
+      "群体"
+    ],
+    "sources": [
+      {
+        "label": "Zimbardo, 去个体化研究",
+        "labelEn": "P. G. Zimbardo, The Human Deindividuation Studies",
+        "year": 1969
+      }
+    ]
+  },
+  {
+    "id": "social-loafing",
+    "term": "社会懈怠",
+    "termEn": "Social Loafing",
+    "category": "社会",
+    "categoryEn": "Social",
+    "level": 2,
+    "oneLiner": "一起干活而个人贡献不被单独衡量时，人往往比单打独斗时更不出力。",
+    "oneLinerEn": "Working together with no one measuring your individual input, people usually put in less effort than when working alone.",
+    "detail": "社会懈怠指在群体任务中，个人付出的努力常常低于他单独完成同一任务时的水平。拉塔内等人 1979 年的「集体拉绳」实验是经典证据：随着一起拉绳的人数增加，每个人实际出的力递减——明明大家合力在拉，机器却测得每人贡献在缩水。原因主要有三：贡献被淹没在集体成果里、无人能分辨你出多少；责任被分散，「总有别人会顶上」；以及动机随规模下降。它能被缓解：让每个人的产出可识别、可归因，任务本身足够有吸引力和意义，小组规模控制在成员彼此都在意的范围。有意思的是，在群体认同很强、成员彼此重视时，懈怠反而会减轻——人不愿拖累自己在乎的同伴。它和旁观者效应同源于责任分散，又与社会促进构成一组对照：一个讲人多的省力，一个讲在场的影响。",
+    "detailEn": "Social loafing is the drop in a person's effort on a group task below what they give doing the same task alone. Latané and colleagues' 1979 'rope pulling' study is the classic evidence: as more people pulled together, each person's actual force declined—though all pulled as one, the machine showed per-head contribution shrinking. Three causes stand out: one's input is lost inside the collective output and no one can tell how much you gave; responsibility diffuses, 'someone else will cover it'; and motivation sags as the group grows. It can be countered: make each person's output identifiable and attributable, keep the task attractive and meaningful, and hold the group small enough that members matter to one another. Strikingly, loafing eases when group identity is strong and members value each other—people dislike letting down teammates they care about. It shares a root in diffused responsibility with the bystander effect and forms a foil to social facilitation: one is about slackening in a crowd, the other about the effect of being watched.",
+    "example": "小组作业里那位悄悄「搭便车」、指望别人交活的同学，正是社会懈怠的日常版本——只要没人单独看他的部分，出力就会缩水。",
+    "exampleEn": "The classmate who quietly free-rides on a group assignment, counting on others to deliver, is social loafing in daily form—so long as no one looks at his part alone, the effort contracts.",
+    "related": [
+      "bystander-effect",
+      "social-facilitation",
+      "group-polarization"
+    ],
+    "tags": [
+      "社会",
+      "群体"
+    ],
+    "sources": [
+      {
+        "label": "Latané, 群体中的社会懈怠",
+        "labelEn": "B. Latané et al., Social Loafing: The Research and the Theory",
+        "year": 1979
+      }
+    ]
+  },
+  {
+    "id": "social-facilitation",
+    "term": "社会促进",
+    "termEn": "Social Facilitation",
+    "category": "社会",
+    "categoryEn": "Social",
+    "level": 2,
+    "oneLiner": "他人在场会抬高熟练、简单任务的表现，却拖累那些需要专注、还不生熟的新任务。",
+    "oneLinerEn": "The presence of others lifts performance on well-learned, simple tasks but hampers new ones that still demand full concentration.",
+    "detail": "社会促进指仅仅是别人在场（旁观或一起做事），就会改变个体的表现。特里普利特 1898 年最早注意到：自行车手有人同场竞技时，比独自计时骑得更快。扎永茨 1965 年给出解释：他人在场会提高生理唤醒，而唤醒会放大人的「优势反应」——也就是最习惯、最可能做出的那个反应。于是分岔出现：对已经练熟、近乎自动的任务，优势反应就是正确反应，有人看着反而更来劲；对还很生疏、要靠有意识协调的新任务，优势反应往往是错的，被盯着就更容易出错、卡壳。这解释了老手登台更稳、新手上台失常的现象。它的反面是「社会抑制」。要留意和观众性质有关：当他人只是被动旁观、且你担心被评价时，紧张也可能压倒促进；这与考试焦虑里「唤醒先升后毁」的倒 U 形关系一脉相承。",
+    "detailEn": "Social facilitation is the change in an individual's performance brought about by the mere presence of others (watching, or working alongside). Triplett first noted it in 1898: cyclists paced faster racing against others than alone against the clock. Zajonc offered the account in 1965: the presence of others raises physiological arousal, and arousal amplifies one's 'dominant response'—the most habitual, most likely reaction. Hence the fork: on a task already drilled to near-autonomy, the dominant response is the right one, so being watched helps; on a new task still requiring conscious coordination, the dominant response is often wrong, so an audience makes errors and stalls likelier. This is why veterans steady up on stage while novices choke. Its flip side is social inhibition. Note the audience matters too: when others merely watch passively and you fear their judgment, nerves can overwhelm the lift—kin to the inverted-U in test anxiety, where arousal first helps, then ruins.",
+    "example": "练了千百遍的曲子，台下有人反而弹得更带劲；刚学的新动作被教练盯着做，却更容易变形——同一份在场，方向却相反。",
+    "exampleEn": "A piece drilled a thousand times comes off more vividly with a listener present; a move just learned warps more under a coach's gaze—the same presence, opposite directions.",
+    "related": [
+      "social-loafing",
+      "exam-anxiety",
+      "deindividuation"
+    ],
+    "tags": [
+      "社会",
+      "表现"
+    ],
+    "sources": [
+      {
+        "label": "Zajonc, 社会促进",
+        "labelEn": "R. B. Zajonc, Social Facilitation",
+        "year": 1965
+      }
+    ]
+  },
+  {
+    "id": "anxiety-disorders",
+    "term": "焦虑与焦虑障碍",
+    "termEn": "Anxiety & Anxiety Disorders",
+    "category": "健康心理",
+    "categoryEn": "Health & Clinical",
+    "level": 2,
+    "oneLiner": "适度的焦虑是身体正常的警报；只有当它过强、过久、妨碍生活时，才可能属于可治疗的焦虑障碍。",
+    "oneLinerEn": "Healthy anxiety is the body's normal alarm; only when it turns too strong, too lasting and life-gouging may it be a treatable anxiety disorder.",
+    "detail": "先分清两件事：焦虑是一种人人都会有的正常情绪，是对「还没发生、却可能不好的事」的警觉。适度的焦虑其实有用——考试前的一点紧张能让人集中、调动状态（这与社会促进、倒 U 形的唤醒规律相连）。但当日志力级别的警报被错误地、过度地拉响：焦虑强烈、持续、难以控制，并明显损害学习、社交或睡眠，就可能进入了「焦虑障碍」的范畴，包括广泛性焦虑、惊恐障碍、社交焦虑、特定恐惧等。它是青少年中最常见的困扰之一，也常常被误解为「想太多」「太玻璃心」。事实恰恰相反：焦虑障碍是有生理与心理基础的、并且是循证治疗有效的健康问题——认知行为疗法（贝克的思路）等已被反复验证。科普的要点是：不要给自己或他人草率贴标签，也不要硬扛；当它开始挤占生活，找一位可信任的大人或专业人士聊一聊，是明智而非软弱。",
+    "detailEn": "Separate two things first: anxiety is a normal emotion everyone has, an alert to something not yet happened but possibly bad. Modest anxiety is useful—a touch of tension before an exam sharpens and mobilizes you (linked to social facilitation and the inverted-U of arousal). But when the alarm sounds wrongly and at full volume—when anxiety is intense, persistent, hard to control and clearly harms schoolwork, friendships or sleep—you may have crossed into an 'anxiety disorder', which covers generalized anxiety, panic disorder, social anxiety and specific phobias among others. It is among the most common struggles of adolescents, and among the most misunderstood—brushed off as 'overthinking' or 'being too fragile'. The truth is the opposite: anxiety disorders have real bodily and psychological bases and are treatable with evidence-backed care, cognitive-behavioral therapy (Beck's line of work) being repeatedly validated. The point of this primer is: don't rashly label yourself or another, and don't just tough it out; when it begins to crowd out your life, talking to a trusted adult or a professional is wise, not weak.",
+    "example": "大考前睡不好、心跳快是常见且通常一时的；但若长期怕到不敢进教室、回避同学、反复身体不适却查无原因，就值得当作健康问题、去找心理老师或医生谈谈。",
+    "exampleEn": "Poor sleep and a racing heart before a big exam are common and usually short-lived; but a months-long dread that keeps you out of class, away from classmates, with body aches no exam can explain, deserves care as a health matter—see a school counselor or doctor.",
+    "related": [
+      "stress-coping",
+      "exam-anxiety",
+      "aaron-beck",
+      "learned-helplessness"
+    ],
+    "tags": [
+      "健康",
+      "情绪"
+    ],
+    "sources": [
+      {
+        "label": "Barlow, D. 焦虑与其障碍",
+        "labelEn": "D. H. Barlow, Anxiety and Its Disorders",
+        "year": 2001
+      }
+    ]
+  },
+  {
+    "id": "depression-mood",
+    "term": "抑郁与心境障碍",
+    "termEn": "Depression & Mood Disorders",
+    "category": "健康心理",
+    "categoryEn": "Health & Clinical",
+    "level": 2,
+    "oneLiner": "一时的低落是生活的常态；只有持续较久、兴趣塌陷并影响功能时，才可能是需要专业帮助的抑郁。",
+    "oneLinerEn": "Temporary low mood is part of life; only when it lasts, flattens interest and impairs function may it be a depression needing professional care.",
+    "detail": "悲伤、提不起劲、不想说话——每个人都有，多半会随着事情过去而缓解，这是正常情绪波动，不等于抑郁。需要留意的是一条「时间 + 程度 + 功能」的线：若情绪低落或对生活失去兴趣持续较长时间（常被提及的一个参考是两周以上），并伴随睡眠、食欲、精力、注意力的改变，明显拖累了学习与交往，就可能进入了「抑郁发作」的范畴，属心境障碍的一类。关键在于把它讲清楚以免两个极端：一方面，它绝不是「性格软弱」「想不开」「懒」，而是大脑状态与生活处境共同作用下的常见健康问题，是可以治疗的——心理治疗（如针对负性自动思维的工作）与必要时的精神科评估都有循证依据。另一方面，也不必把每一次心情不好都病理化。给青少年的最重要一句是：如果出现这样的情况，请告诉你信任的大人、并寻求专业帮助，越早越好；尤其当脑海里闪过伤害自己的念头，那不是要靠一个人硬扛的事，应立刻联系身边的成年人或专业求助渠道。",
+    "detailEn": "Sadness, no energy, not wanting to talk—everyone has these, and they usually lift as matters pass; that is normal emotional flux, not depression. What to watch is a line of 'time plus depth plus function': if low mood or a loss of interest in life lasts an extended stretch (two weeks or more is the reference often cited), together with shifts in sleep, appetite, energy or concentration, and it visibly drags down school and relationships, you may have entered a 'depressive episode', a kind of mood disorder. The key is to say it plainly so as to dodge two extremes. On one hand it is by no means 'weak character', 'can't see through things' or 'laziness', but a common health problem arising from the interplay of brain state and life circumstance, and it is treatable—psychotherapy (work on negative automatic thoughts, for instance) and, where needed, psychiatric assessment both rest on evidence. On the other, there is no need to pathologize every down day. The single most important line for a young reader is this: if this is happening to you, tell an adult you trust and seek professional help, the sooner the better; and especially if thoughts of harming yourself flicker through, that is not something to white-knuckle alone—reach out at once to a grown-up nearby or a professional channel.",
+    "example": "连续几周对原本热爱的球赛、朋友、游戏都提不起劲、总觉疲惫、觉得自己没价值，这就该被认真对待、当作健康问题去求助；而偶尔一天心情糟，则属于正常起伏。",
+    "exampleEn": "For weeks feeling nothing toward a beloved match, friends or games, always tired, feeling worthless—this deserves to be taken seriously as a health matter and helped; a single bad day, by contrast, is ordinary flux.",
+    "related": [
+      "learned-helplessness",
+      "martin-seligman",
+      "emotion",
+      "stress-coping"
+    ],
+    "tags": [
+      "健康",
+      "情绪"
+    ],
+    "sources": [
+      {
+        "label": "Beck, A. 抑郁症：成因与治疗",
+        "labelEn": "A. T. Beck, Depression: Causes and Treatment",
+        "year": 1972
+      }
+    ]
+  },
+  {
+    "id": "therapy-helping",
+    "term": "心理治疗与求助",
+    "termEn": "Psychotherapy & Help-Seeking",
+    "category": "健康心理",
+    "categoryEn": "Health & Clinical",
+    "level": 2,
+    "oneLiner": "心理治疗是与受过训练的人一道梳理困扰、学会应对的途径；主动求助是力量的表现，而非软弱。",
+    "oneLinerEn": "Psychotherapy is a way of working through distress and learning coping with a trained other; asking for help shows strength, not weakness.",
+    "detail": "很多人对「看心理的」还留着「是不是有精神病」「丢不丢人」的成见，这恰恰挡住了最需要帮助时的门。事实上，心理治疗是与受过系统训练的人，在一段安全、专业的关系里，去理解并处理情绪、关系与行为上的困扰；它面对的不只是「重病」，更多是成长的坎、压力的坑、情绪的结。流派很多，各有各的思路：认知行为疗法（贝克一系）帮你识别并调整折磨你的负性想法与行为；人本主义（罗杰斯一系）提供一种真诚、共情、不评判的关系，让改变在安全中自然发生；精神动力/心理分析（弗洛伊德源流）则探索潜意识与早年经验的影子。是否有效，高度依赖循证的方法与真正专业的资质。求助的对象可以是学校的心理老师、正规咨询师、医院的精神科医生。越早开口，问题越不容易拖大。遇到危机——比如伤害自己或他人的念头——不应独自硬扛，而要立刻联系可信任的成年人或专业求助渠道。把「求助」重新理解为「为自己负责」，本身就是一种成熟。",
+    "detailEn": "Many still carry the prejudice that 'seeing someone for the mind' means 'are you mentally ill' or 'isn't that shameful'—a notion that shuts the very door one needs in crisis. In truth, psychotherapy is working with a systematically trained person, inside a safe and professional relationship, to understand and tend to emotional, relational and behavioral struggles; it serves not only serious illness but most often the hurdles of growing, the pits of stress, the knots of feeling. Many schools each have their logic: cognitive-behavioral therapy (the Beck lineage) helps you spot and readjust the negative thoughts and behaviors that torment you; humanistic therapy (the Rogers lineage) offers a genuine, empathic, non-judging relationship in which change can unfold safely; psychodynamic/psychoanalytic work (from the Freud source) explores the shadows of the unconscious and early experience. How well it works leans heavily on an evidence-based method and real professional credentials. Who to turn to can be a school psychologist, a properly qualified counselor, or a psychiatrist at a hospital. The sooner you speak, the less a problem can balloon. In a crisis—say, thoughts of harming yourself or others—do not tough it out alone but reach out at once to a trusted adult or a professional channel. Reframing 'asking for help' as 'taking responsibility for yourself' is itself a form of maturity.",
+    "example": "长期焦虑或情绪低落时，约学校心理老师聊一次，不是「小题大做」，而是给自己找一个专业的支点——就像腿受伤去看骨科一样自然。",
+    "exampleEn": "When anxiety or low mood drags on, booking one session with a school counselor is no 'making a fuss over nothing' but propping yourself up with a professional fulcrum—as natural as seeing an orthopedist for a hurt leg.",
+    "related": [
+      "carl-rogers",
+      "aaron-beck",
+      "freud",
+      "mental-health-stigma",
+      "stress-coping"
+    ],
+    "tags": [
+      "健康",
+      "临床"
+    ],
+    "sources": [
+      {
+        "label": "Corey, G. 心理咨询与治疗的理论及实践",
+        "labelEn": "G. Corey, Theory and Practice of Counseling and Psychotherapy",
+        "year": 2001
+      }
+    ]
   }
 ]
