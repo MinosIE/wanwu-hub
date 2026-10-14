@@ -5231,8 +5231,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           detail: {
-            zh: "三步提纯：石英砂与焦炭在电弧炉约 2000 ℃ 还原得冶金级粗硅；粗硅与 HCl 在铜催化下生成液态的三氯氢硅，蒸馏除去硼、磷等杂质；再用氢气在高温下还原，硅沉积在硅芯上，经区熔或直拉法制成单晶硅锭，纯度可达 99.9999999%（9N）。芯片用硅要求极高，因为痕量的硼、磷就会显著改变导电性——这也是废旧芯片值得回收提金的前提。",
-            en: "Three steps: quartz sand plus coke in an arc furnace near 2000 °C gives metallurgical-grade silicon; it reacts with HCl over a copper catalyst to form liquid trichlorosilane, which is distilled to strip boron and phosphorus; hydrogen then reduces it back to silicon deposited on seeds, and zone refining or the Czochralski pull yields an ingot up to 99.9999999% (9N). Chip-grade silicon must be that pure because traces of boron or phosphorus already shift conductivity — which is exactly why scrap chips are worth reprocessing.",
+            zh: "三步提纯：石英砂与焦炭在电弧炉约 2000 ℃ 还原得冶金级粗硅；粗硅与 HCl 在铜催化下生成液态的三氯氢硅，蒸馏除去硼、磷等杂质；再用氢气在高温下还原，硅沉积在硅芯上，经区熔或直拉法制成单晶硅锭，纯度可达 99.9999999%（9N）。芯片用硅要求极高，因为痕量的硼、磷就会显著改变导电性——这也是废旧芯片值得回收提金的前提。首步其实是碳从二氧化硅中夺氧的还原——SiO₂ + 2C 在高温下生成 Si 与 CO↑，硅的氧化数由 +4 降到 0，是典型的「氧化还原反应」。",
+            en: "Three steps: quartz sand plus coke in an arc furnace near 2000 °C gives metallurgical-grade silicon; it reacts with HCl over a copper catalyst to form liquid trichlorosilane, which is distilled to strip boron and phosphorus; hydrogen then reduces it back to silicon deposited on seeds, and zone refining or the Czochralski pull yields an ingot up to 99.9999999% (9N). Chip-grade silicon must be that pure because traces of boron or phosphorus already shift conductivity — which is exactly why scrap chips are worth reprocessing. The first step is really carbon stripping oxygen from silica: SiO₂ + 2C gives Si + CO↑ at furnace heat, with silicon dropping from +4 to 0 — a textbook redox (see Redox).",
           },
           tags: [
             { zh: "工业", en: "Industry" },
@@ -5695,8 +5695,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           detail: {
-            zh: "海水中溴只有约 65 mg/L，直接提取不划算；工业上取晒盐后的苦卤，先酸化再通氯把 Br⁻ 氧化成 Br₂，用热空气或水蒸气把 Br₂ 吹出，以 SO₂ 水溶液吸收转成 HBr 富集，最后再氯化得到商品溴。整套“氧化—吹出—吸收—再氧化”的本质是反复浓缩。溴主要用于阻燃剂、感光材料 AgBr、医药与农药，也用作油田完井液 CaBr₂。",
-            en: "Seawater holds only about 65 mg/L of bromine — too dilute to work on directly. Industry takes the bittern left after solar salt: acidify, chlorinate the Br⁻ to Br₂, strip the bromine out with hot air or steam, absorb it in aqueous SO₂ to concentrate it as HBr, then chlorinate once more to sellable bromine. The whole oxidize–blow-out–absorb–re-oxidize loop is repeated concentration. Bromine goes mainly into flame retardants, photographic AgBr, pharmaceuticals and pesticides, plus calcium bromide completion fluids in oil wells.",
+            zh: "海水中溴只有约 65 mg/L，直接提取不划算；工业上取晒盐后的苦卤，先酸化再通氯把 Br⁻ 氧化成 Br₂，用热空气或水蒸气把 Br₂ 吹出，以 SO₂ 水溶液吸收转成 HBr 富集，最后再氯化得到商品溴。整套氧化—吹出—吸收—再氧化的本质是反复浓缩。溴主要用于阻燃剂、感光材料 AgBr、医药与农药，也用作油田完井液 CaBr₂。氯能把溴从其盐里置换出来（Cl₂ + 2Br⁻ 生成 2Cl⁻ + Br₂），靠的是氯的氧化性强于溴，正落在「氧化还原反应」的强弱判据里。",
+            en: "Seawater holds only about 65 mg/L of bromine — too dilute to work on directly. Industry takes the bittern left after solar salt: acidify, chlorinate the Br⁻ to Br₂, strip the bromine out with hot air or steam, absorb it in aqueous SO₂ to concentrate it as HBr, then chlorinate once more to sellable bromine. The whole oxidize–blow-out–absorb–re-oxidize loop is repeated concentration. Bromine goes mainly into flame retardants, photographic AgBr, pharmaceuticals and pesticides, plus calcium bromide completion fluids in oil wells. Chlorine displaces bromine from its salts (Cl₂ + 2Br⁻ gives 2Cl⁻ + Br₂) because chlorine is the stronger oxidizer, the very strength ranking behind redox (see Redox).",
           },
           tags: [
             { zh: "工业", en: "Industry" },
@@ -5825,8 +5825,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           detail: {
-            zh: "镁是海水中第二多的金属离子，约 1.3 g/L。工艺先煅烧石灰石或贝壳得到 CaO，消化成石灰乳加入苦卤，生成溶解度极小的 Mg(OH)₂；过滤后用盐酸溶解、蒸发结晶，再在 HCl 气氛中脱水得到无水氯化镁，最后电解熔融盐制得金属镁。注意：直接加热 MgCl₂·6H₂O 会因水解而得到 MgO，拿不到无水盐。镁合金轻而强度高，用于航空与汽车；MgO 是优质耐火材料。",
-            en: "Magnesium is the second most abundant metal ion in seawater, about 1.3 g/L. The route calcines limestone or shells to CaO, slakes it into milk of lime and drops nearly insoluble Mg(OH)₂ from the bittern; the solid is redissolved in hydrochloric acid, evaporated, then dried in an HCl atmosphere to give anhydrous MgCl₂, which is electrolyzed as a melt. The catch: heating MgCl₂·6H₂O outright just hydrolyses it to MgO. Magnesium alloys are light and strong for aircraft and cars, and MgO is a top-grade refractory.",
+            zh: "镁是海水中第二多的金属离子，约 1.3 g/L。工艺先煅烧石灰石或贝壳得到 CaO，消化成石灰乳加入苦卤，生成溶解度极小的 Mg(OH)₂；过滤后用盐酸溶解、蒸发结晶，再在 HCl 气氛中脱水得到无水氯化镁，最后电解熔融盐制得金属镁。注意：直接加热 MgCl₂·6H₂O 会因水解而得到 MgO，拿不到无水盐。镁合金轻而强度高，用于航空与汽车；MgO 是优质耐火材料。镁很活泼，只能靠电解熔融 MgCl₂ 冶炼、无法从水溶液里电积出来，这与钠、铝同走电解熔盐一路（见「金属活动性顺序」）。",
+            en: "Magnesium is the second most abundant metal ion in seawater, about 1.3 g/L. The route calcines limestone or shells to CaO, slakes it into milk of lime and drops nearly insoluble Mg(OH)₂ from the bittern; the solid is redissolved in hydrochloric acid, evaporated, then dried in an HCl atmosphere to give anhydrous MgCl₂, which is electrolyzed as a melt. The catch: heating MgCl₂·6H₂O outright just hydrolyses it to MgO. Magnesium alloys are light and strong for aircraft and cars, and MgO is a top-grade refractory. Magnesium is reactive enough that it must be won by electrolysing molten MgCl₂ and cannot be plated from solution, the same molten-salt route as sodium and aluminium (see The Reactivity Series of Metals).",
           },
           tags: [
             { zh: "工业", en: "Industry" },
@@ -5917,8 +5917,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           detail: {
-            zh: "石油是烷烃、环烷烃与芳香烃的混合物，分馏塔按沸点区间切出汽油、煤油、柴油与重油——分子本身没变，所以是物理变化。重油太多而汽油不够时就要裂化，把长链断短以提高汽油产率；再升温到 700 ℃ 以上就是裂解，目的是拿乙烯、丙烯这些化工原料。汽油标号指的是辛烷值：异辛烷抗爆好定为 100，正庚烷易爆震定为 0。",
-            en: "Crude oil is a mixture of alkanes, cycloalkanes and aromatics; a fractionating column cuts it by boiling range into gasoline, kerosene, diesel and residue — the molecules are untouched, so this is a physical change. When the heavy end runs long and the gasoline end short, cracking breaks long chains short to lift gasoline yield; push the temperature past 700 °C and it is pyrolysis, aimed at ethylene and propylene as chemical feedstocks. Gasoline grades quote the octane number: isooctane, which resists knock, is set at 100 and heptane, which knocks badly, at 0.",
+            zh: "石油是烷烃、环烷烃与芳香烃的混合物，分馏塔按沸点区间切出汽油、煤油、柴油与重油——分子本身没变，所以是物理变化。重油太多而汽油不够时就要裂化，把长链断短以提高汽油产率；再升温到 700 ℃ 以上就是裂解，目的是拿乙烯、丙烯这些化工原料。汽油标号指的是辛烷值：异辛烷抗爆好定为 100，正庚烷易爆震定为 0。各馏分本身仍是沸点相近的混合物；乙烯的产量常被当作一个国家石油化工发展水平的标志，它也是「有机化学基础」里聚合与众多衍生物的起点。",
+            en: "Crude oil is a mixture of alkanes, cycloalkanes and aromatics; a fractionating column cuts it by boiling range into gasoline, kerosene, diesel and residue — the molecules are untouched, so this is a physical change. When the heavy end runs long and the gasoline end short, cracking breaks long chains short to lift gasoline yield; push the temperature past 700 °C and it is pyrolysis, aimed at ethylene and propylene as chemical feedstocks. Gasoline grades quote the octane number: isooctane, which resists knock, is set at 100 and heptane, which knocks badly, at 0. Each fraction is itself a mixture of nearby boiling points; ethylene output is often taken as a barometer of a country's petrochemical industry, and it is the starting point of polymerization and many derivatives in organic chemistry (see Organic Basics).",
           },
           tags: [
             { zh: "工业", en: "Industry" },
@@ -5991,8 +5991,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           detail: {
-            zh: "干馏是隔绝空气加强热使煤分解，得到焦炭（冶金还原剂）、煤焦油（化工原料）、粗氨水与焦炉气（H₂、CH₄、CO、C₂H₄）——分子种类变了，与石油分馏的物理变化相对。气化把煤转成 CO 与 H₂ 的合成气，是整个煤化工的枢纽：合成气再制甲醇，或甲烷化制合成天然气。液化分直接液化（高温高压加氢）与间接液化（先气化再费托合成）。中国富煤、贫油、少气，煤制油与煤制气承担着一部分能源安全的考量。",
-            en: "Carbonization heats coal without air until it decomposes, giving coke for smelting, coal tar for chemicals, weak aqueous ammonia, and coke-oven gas (H₂, CH₄, CO, C₂H₄) — the molecules themselves change, which is the point of contrast with physical fractionation of oil. Gasification converts coal to CO + H₂ syngas, the pivot of the whole industry: that syngas is then made into methanol or methanated to substitute natural gas. Liquefaction comes direct (hydrogen under heat and pressure) or indirect (gasify first, then Fischer–Tropsch). China's coal-rich, oil-poor, gas-lean balance is why coal-to-liquids and coal-to-gas carry an energy-security role here.",
+            zh: "干馏是隔绝空气加强热使煤分解，得到焦炭（冶金还原剂）、煤焦油（化工原料）、粗氨水与焦炉气（H₂、CH₄、CO、C₂H₄）——分子种类变了，与石油分馏的物理变化相对。气化把煤转成 CO 与 H₂ 的合成气，是整个煤化工的枢纽：合成气再制甲醇，或甲烷化制合成天然气。液化分直接液化（高温高压加氢）与间接液化（先气化再费托合成）。中国富煤、贫油、少气，煤制油与煤制气承担着一部分能源安全的考量。煤焦油经分馏可得苯、甲苯、二甲苯与酚、萘等芳香族原料，焦炉气里的 H₂ 与 CH₄ 则可作燃料或合成氨的原料气（见「工业合成氨」）。",
+            en: "Carbonization heats coal without air until it decomposes, giving coke for smelting, coal tar for chemicals, weak aqueous ammonia, and coke-oven gas (H₂, CH₄, CO, C₂H₄) — the molecules themselves change, which is the point of contrast with physical fractionation of oil. Gasification converts coal to CO + H₂ syngas, the pivot of the whole industry: that syngas is then made into methanol or methanated to substitute natural gas. Liquefaction comes direct (hydrogen under heat and pressure) or indirect (gasify first, then Fischer–Tropsch). China's coal-rich, oil-poor, gas-lean balance is why coal-to-liquids and coal-to-gas carry an energy-security role here. Work-up of coal tar yields aromatic feedstocks such as benzene, toluene and phenol, while the H₂ and CH₄ in coke-oven gas serve as fuel or as synthesis gas for ammonia (see Ammonia Synthesis).",
           },
           tags: [
             { zh: "工业", en: "Industry" },
@@ -6083,8 +6083,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             },
           ],
           detail: {
-            zh: "这三样统称硅酸盐工业。普通玻璃用纯碱、石灰石与石英砂，高温下生成 Na₂SiO₃ 与 CaSiO₃，冷却后得到组成近似写作 Na₂O·CaO·6SiO₂ 的混合物；玻璃是非晶体，没有固定熔点，只有一段逐渐软化的温度区间。水泥用石灰石与黏土磨细煅烧，是水硬性胶凝材料——遇水反应硬化，所以受潮即废。陶瓷以黏土成型烧结，烧结时高岭土失去结构水。",
-            en: "These three make up the silicate industry. Ordinary glass takes soda ash, limestone and quartz sand; at furnace heat they form Na₂SiO₃ and CaSiO₃, and the cooled product is a mixture written roughly as Na₂O·CaO·6SiO₂. Glass is amorphous — no fixed melting point, only a softening range. Cement is ground limestone and clay, calcined together; it sets hydraulically, reacting with water, so damp storage ruins it. Ceramics are shaped from clay and fired, the kaolinite giving up its structural water as it goes.",
+            zh: "这三样统称硅酸盐工业。普通玻璃用纯碱、石灰石与石英砂，高温下生成 Na₂SiO₃ 与 CaSiO₃，冷却后得到组成近似写作 Na₂O·CaO·6SiO₂ 的混合物；玻璃是非晶体，没有固定熔点，只有一段逐渐软化的温度区间。水泥用石灰石与黏土磨细煅烧，是水硬性胶凝材料——遇水反应硬化，所以受潮即废。陶瓷以黏土成型烧结，烧结时高岭土失去结构水。玻璃不在「晶体类型」的任何一格，正因非晶体而只有软化区间；把普通玻璃加热到近软化后骤冷即得钢化玻璃，表面形成的压让它更耐冲击、碎裂时也不生锐角。",
+            en: "These three make up the silicate industry. Ordinary glass takes soda ash, limestone and quartz sand; at furnace heat they form Na₂SiO₃ and CaSiO₃, and the cooled product is a mixture written roughly as Na₂O·CaO·6SiO₂. Glass is amorphous — no fixed melting point, only a softening range. Cement is ground limestone and clay, calcined together; it sets hydraulically, reacting with water, so damp storage ruins it. Ceramics are shaped from clay and fired, the kaolinite giving up its structural water as it goes. Glass fits none of the crystal types, and being amorphous it has only a softening range; chilling glass heated near that point gives toughened glass, whose surface compression makes it far more impact-resistant and free of sharp shards (see Crystal Types).",
           },
           tags: [
             { zh: "工业", en: "Industry" },
