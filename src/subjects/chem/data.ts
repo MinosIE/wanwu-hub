@@ -582,8 +582,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "An atom = a central nucleus (protons + neutrons) ringed by electrons in shells.",
           },
           detail: {
-            zh: "质子带正电、电子带负电、中子不带电；中性原子中质子数 = 原子序数 = 核外电子数，质量数 = 质子数 + 中子数。",
-            en: "Protons are +, electrons −, neutrons 0; in a neutral atom protons = atomic number = electrons, and mass number = protons + neutrons.",
+            zh: "质子带正电、电子带负电、中子不带电；中性原子里质子数 = 原子序数 = 核外电子数，质量数 = 质子数 + 中子数。决定元素种类的是质子数——质子数一变就不再是原来那种元素；中子数只决定同位素，质子同而中子不同（如 ¹²C 与 ¹⁴C）互称「同位素」。电子质量只有质子的约 1/1836，原子的质量几乎全集中在核里；原子半径约 10⁻¹⁰ m、核只有约 10⁻¹⁵ m，所以原子内部绝大部分是空的。化学变化只重新排布核外电子、从不触碰原子核。",
+            en: "Protons are positive, electrons negative and neutrons neutral; in a neutral atom protons = atomic number = electrons, and mass number = protons + neutrons. The proton count fixes which element an atom is — change it and the atom becomes a different element — while neutrons only set the isotope, same protons but different neutrons, so ¹²C and ¹⁴C are isotopes (see Isotope). An electron weighs about 1/1836 of a proton, so almost all the mass sits in the nucleus; the atom is about 10⁻¹⁰ m across but its nucleus only about 10⁻¹⁵ m, leaving an atom mostly empty space. Ordinary chemistry only redistributes the extranuclear electrons and never touches the nucleus.",
           },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
@@ -612,8 +612,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Electrons fill shells by energy, each holding at most 2n², with no more than 8 in the outermost shell.",
           },
           detail: {
-            zh: "前 20 号元素常按 2·8·8 规律排布；最外层电子数决定元素的化学性质与化合价。",
-            en: "Elements 1–20 roughly follow 2·8·8; the outermost count sets chemical behavior and valence.",
+            zh: "电子按能量由低到高一层层填充，2n² 给出每层上限（第一层 2、第二层 8、第三层理论 18），但作为最外层不得超过 8、次外层不得超过 18；初中级只要求前 20 号按 2·8·8 排。最外层电子数直接决定化学性质与常见化合价：Na 最外 1 个易失所以 +1、Cl 最外 7 个易记得 −1、最高可到 +7。8 电子（第一层为最外则是 2，如 He）是稳定结构，稀有气体正因排满了才惰性，其余原子得失或共用电子都是在往这个稳定壳层凑——这正是「元素周期律」把最外层电子数与位置对应起来的底气。",
+            en: "Electrons fill shells from low to high energy; the 2n² rule caps each shell (2, 8, 18 …), but an outermost shell never exceeds 8 and the one beneath it 18, and this level only needs the first 20 elements arranged 2·8·8. The outermost count fixes chemical behaviour and common valence: Na has one so it tends to lose it and shows +1, Cl has seven so it gains one (−1) and can reach +7. A full shell of eight (or two when the first shell is the only one, as in He) is the stable set — the noble gases are inert precisely because theirs are full, and every other atom gains, loses or shares electrons to reach that shell, which is why the periodic law can line elements up by their outer count (see Periodic Law).",
           },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
@@ -640,8 +640,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "A metal transfers electrons to a nonmetal; the resulting ions attract electrostatically.",
           },
           detail: {
-            zh: "如 NaCl：Na 失 1 电子成 Na⁺，Cl 得 1 电子成 Cl⁻；离子键无方向性，熔沸点高、固态不导电、熔融或溶于水导电。",
-            en: "In NaCl, Na loses one electron (Na⁺) and Cl gains it (Cl⁻); ionic solids have high melting points and conduct when molten or dissolved.",
+            zh: "如 NaCl：Na 失 1 个电子成 Na⁺，Cl 得这 1 个成 Cl⁻，阴阳离子靠静电吸引结合，成键时因电荷互吸而放热（这部分能量叫晶格能）。判据常用电负性差——一般差到 1.7 上下及以上就以离子键为主。离子键既无方向又无饱和，所以 NaCl 里每个 Na⁺ 被 6 个 Cl⁻ 包围、堆成一整块晶体，而不是一个个孤立的「NaCl 分子」。固态时离子被钉死不能自由移动故不导电，只有熔融或溶于水、离子解离出来才导电。强碱、多数盐与活泼金属氧化物是典型的离子化合物，它们正是「化学键」三大类型里的离子型。",
+            en: "In NaCl sodium gives up one electron to become Na⁺ and chlorine takes it to become Cl⁻; the opposite charges attract electrostatically, and bonding releases heat, since that lattice energy is given off. A rule of thumb is the electronegativity gap — near 1.7 or more the bond is mostly ionic. Ionic bonds have neither direction nor saturation, so in NaCl each Na⁺ is ringed by six Cl⁻ and the solid grows as one lattice rather than discrete NaCl molecules. Locked ions cannot move, so the solid does not conduct; only when molten or dissolved, when the ions break free, does it carry current. Strong bases, most salts and the oxides of active metals are typical ionic compounds — the ionic member of the three kinds of chemical bond (see Chemical Bonds).",
           },
           tags: [{ zh: "成键", en: "Bonding" }],
           figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
@@ -668,8 +668,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Atoms share electron pairs; common between nonmetals.",
           },
           detail: {
-            zh: "如 H₂、H₂O、CO₂；共用一对为单键、两对为双键、三对为三键；分极性键（H–Cl）与非极性键（H–H）。",
-            en: "E.g. H₂, H₂O, CO₂; one/two/three shared pairs give single/double/triple bonds; polar (H–Cl) vs nonpolar (H–H).",
+            zh: "两原子各出一个电子配对共用，双方都因把这一对算进自己而趋向 8 电子稳定，如 H₂、H₂O、CO₂。共用一对是单键、两对双键、三对三键；键能越大越稳、键长越短一般越强。共用电子对不偏向谁是非极性键（H–H、Cl–Cl），偏向一方是极性键（H–Cl、H–O），偏移程度看电负性差，也就是「电负性与电离能」里那条差值。但有一个极性键不等于就是极性分子——还要看构型，CO₂ 有两个极性 C=O 键却因直线对称而整体非极性。多数非金属单质、共价化合物，以及含氧酸与碱里原子团的内部，靠的都是共价键。",
+            en: "Each atom supplies one electron to a shared pair and both count that pair toward a stable eight, as in H₂, H₂O and CO₂. One shared pair is a single bond, two a double, three a triple; a larger bond energy means a more stable, usually shorter and stronger bond. A pair that sits evenly is a nonpolar bond (H–H, Cl–Cl); one pulled to a side is polar (H–Cl, H–O), the shift set by the electronegativity gap (see Electronegativity & Ionization). But one polar bond does not make a polar molecule — shape decides, which is why CO₂, with two polar C=O bonds, is nonpolar overall. Most nonmetal elementary substances, covalent compounds and the atom-groups inside oxyacids and bases are held by covalent bonds.",
           },
           tags: [{ zh: "成键", en: "Bonding" }],
           figure: `<svg viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
@@ -692,8 +692,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Valence electron pairs repel, so molecules adopt the arrangement of least repulsion.",
           },
           detail: {
-            zh: "CO₂ 直线形（180°）、H₂O 为 V 形（约 105°）、CH₄ 为正四面体（109.5°）、NH₃ 为三角锥形。构型影响分子极性与性质。",
-            en: "CO₂ is linear (180°), H₂O bent (~105°), CH₄ tetrahedral (109.5°), NH₃ trigonal pyramidal; shape drives polarity and properties.",
+            zh: "数中心原子价层的电子对数定形：2 对成直线（CO₂，180°）、3 对成平面三角（BF₃，120°）、4 对成正四面体（CH₄，109.5°）。电子对含孤对时键角被压小——孤对对成键对的斥力大于成键对之间的斥力，所以 NH₃ 有一对孤对、得三角锥形、键角压到约 107°，H₂O 有两对孤对、得 V 形（角形）、键角约 105°。键角还会随中心原子与配原子的电负性、半径微调。构型再决定分子有没有极性：对称的 CO₂ 非极性、不对称的 H₂O 才是极性分子。数电子对时成键对与孤对都要算，它们都来自「共价键」里共用或待共用的那对电子。",
+            en: "Count the electron pairs around the central atom to fix the shape: 2 pairs give a line (CO₂, 180°), 3 a trigonal plane (BF₃, 120°), 4 a tetrahedron (CH₄, 109.5°). Lone pairs squeeze the angle, because a lone pair repels bonding pairs harder than bonding pairs repel each other — so NH₃, with one lone pair, is a trigonal pyramid near 107°, and H₂O, with two, is bent near 105°. The angle also shifts a little with the electronegativity and size of the atoms. Shape then sets polarity: symmetric CO₂ is nonpolar while bent H₂O is polar. When you count pairs, bonding and lone pairs both count, since both come from the shared electrons of a covalent bond (see Covalent Bond).",
           },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
@@ -735,8 +735,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Weak forces act between molecules; H bonded to F/O/N forms hydrogen bonds.",
           },
           detail: {
-            zh: "范德华力普遍存在；氢键比范德华力强，使水、HF、NH₃ 沸点反常偏高，也维系 DNA 双螺旋与蛋白质结构。",
-            en: "Van der Waals forces are universal; stronger H-bonds raise the boiling points of water, HF and NH₃ and hold DNA and protein structures.",
+            zh: "范德华力普遍存在于一切分子之间，随相对分子质量增大、接触面积增大而增强（同系物沸点递增，支链多则因接触面小而沸点偏低）。氢键是一种特殊的分子间作用：H 已被 F、O、N 拽得近乎带正电，又去吸另一分子里 F/O/N 的孤对，比范德华强、却仍比化学键弱约一个量级，所以氢键不是化学键。它能解释水的沸点远高于 H₂S、冰因氢键撑成疏松晶体而浮于水面、HF 与氨极易溶于水，以及 DNA 双链靠碱基间氢键配对（A–T 两对、G–C 三对）。要分清尺度：分子间作用力与氢键作用在分子之间，「共价键」作用在分子之内，两者强弱差约一个量级。",
+            en: "Van der Waals forces act between all molecules and grow with molar mass and contact area (boiling points climb down a homologous series, while branching lowers them by shrinking the contact face). A hydrogen bond is a special case: an H already pulled nearly positive by F, O or N is drawn to a lone pair on another molecule's F/O/N — stronger than van der Waals yet still about an order of magnitude weaker than a real bond, and not itself a covalent bond (see Covalent Bond). It explains why water boils far above H₂S, why ice floats because H-bonds hold an open lattice, why HF and ammonia dissolve so readily, and how the two DNA strands pair, A–T with two and G–C with three hydrogen bonds. Keep the scale straight: intermolecular forces and hydrogen bonds act between molecules while covalent bonds act within one, and the two differ by roughly an order of magnitude.",
           },
           tags: [{ zh: "结构", en: "Structure" }],
           figure: `<svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
@@ -769,8 +769,8 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Particles ordered into crystals, grouped by what holds them together.",
           },
           detail: {
-            zh: "离子晶体（NaCl）由离子键结合、熔沸点较高；原子晶体（金刚石、SiO₂）共价键成网、极硬极高熔；分子晶体（干冰、冰）靠分子间作用力、熔沸点低；金属晶体由金属键结合、导电导热延展好。",
-            en: "Ionic (NaCl, via ionic bonds), covalent-network (diamond, SiO₂, very hard and refractory), molecular (dry ice, ice, low melting) and metallic (metal bonding, conductive and malleable).",
+            zh: "四类晶体按「微粒 + 作用力」定名：离子晶体（NaCl）由阴、阳离子经离子键结合，熔沸点较高、硬而脆；原子晶体（也叫共价晶体，如金刚石、SiO₂、晶体硅）以共价键连成空间网，熔点极高、是自然界最硬的；分子晶体（干冰、冰、碘）靠分子间作用力堆叠，熔沸点低、易升华；金属晶体由金属键结合，导电导热又有延展。熔点大体是原子晶体 > 离子晶体 > 分子晶体，但同类内部还得比键强与晶格能：C–C 比 Si–Si 强所以金刚石熔点高于晶体硅，MgO 因 Mg²⁺、O²⁻ 电荷高又半径小、晶格能大，熔点反超 NaCl。四类之别归根到底是「化学键」三种键与分子间作用力的分工。",
+            en: "Name a crystal by its particles and the force binding them: ionic crystals (NaCl) join cations and anions through ionic bonds, with fairly high melting points but a hard, brittle habit; covalent-network crystals (diamond, SiO₂, crystalline silicon) link atoms into a giant covalent lattice, extremely refractory and the hardest in nature; molecular crystals (dry ice, ice, iodine) stack by intermolecular forces, so they melt low and often sublime; metallic crystals use metal bonds and conduct heat and electricity while staying malleable. Melting points run roughly network over ionic over molecular, but within a type bond strength and lattice energy decide: C–C beats Si–Si so diamond out-melts silicon, and MgO out-melts NaCl because its 2+ and 2− charges are higher and its ions smaller, giving a larger lattice energy. The four kinds differ, in the end, by how the three chemical bonds and the intermolecular forces divide the work (see Chemical Bonds).",
           },
           tags: [{ zh: "结构", en: "Structure" }],
         },
