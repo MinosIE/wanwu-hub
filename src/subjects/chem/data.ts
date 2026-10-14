@@ -7287,6 +7287,218 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "溶液", en: "Solution" }],
         },
+        {
+          id: "stoich",
+          icon: "🧮",
+          term: { zh: "根据化学方程式的计算", en: "Calculation from Equations" },
+          level: 2,
+          oneLiner: {
+            zh: "以方程式中各物质的系数比为桥梁，由已知量求未知量。",
+            en: "Use the coefficient ratio as the bridge from known to unknown.",
+          },
+          detail: {
+            zh: "根据化学方程式的计算，核心是方程式系数之比等于各物质的物质的量之比，再借「物质的量与摩尔」把 mol 换成可称量的质量、可量取的气体体积或溶液的「物质的量浓度」。规范解法是设未知量、写出配平好的方程式、标出相关物质的相对分子质量与已知量、列比例求解、简明作答。关键陷阱是代入的必须是纯净物的量：含杂质的粗品要先乘纯度、气体体积若非标准状况不能直接除以 22.4、若有反应物过量还得先做过量计算找出真正用完的那种。以 2H₂ + O₂ = 2H₂O 为例，系数 2:1:2 即物质的量之比，也即 4 g 氢气恰好与 32 g 氧气生成 36 g 水，质量在这里同时满足质量守恒。它与守恒法、差量法、关系式法共同构成中学化学计算的四把主要算盘。",
+            en: "Calculation from a chemical equation rests on one idea: the coefficients give the mole ratio, and the mole (see Mole & Avogadro's Number) turns that into weighable mass, measurable gas volume or solution concentration (see Molarity). The tidy method is to let the unknown, write a balanced equation, mark the relative masses and known quantities under the relevant substances, set the proportion and solve. The traps are that only pure-substance amounts go in: a crude sample must first be multiplied by its purity, a gas volume counts as 22.4 L/mol only at STP, and an excess mixture must be settled by limiting-reagent logic first. Take 2H2 + O2 = 2H2O: the 2:1:2 is the mole ratio, so 4 g of hydrogen meets exactly 32 g of oxygen to give 36 g of water, and mass is conserved throughout. It joins conservation, difference and relationship methods as the four main tools of school calculation.",
+          },
+          eq: {
+            lhs: "2H₂ + O₂",
+            cond: { zh: "点燃", en: "ignite" },
+            rhs: "2H₂O",
+            rel: "equal",
+          },
+          subs: [
+            {
+              f: "H₂",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: { zh: "系数 2，2 mol 约 4 g。", en: "Coefficient 2; 2 mol about 4 g." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "系数 1，1 mol 为 32 g。", en: "Coefficient 1; 1 mol is 32 g." },
+              role: "l",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "系数 2，2 mol 为 36 g。", en: "Coefficient 2; 2 mol is 36 g." },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "conservation",
+          icon: "⚖️",
+          term: { zh: "守恒法", en: "Conservation Method" },
+          level: 3,
+          oneLiner: {
+            zh: "抓住反应前后某量不变——质量、元素、电子或电荷，绕开中间步骤求解。",
+            en: "Track what never changes — mass, element, electrons or charge — and skip the middle.",
+          },
+          detail: {
+            zh: "守恒法是化学计算里最省路数的一类：抓住变化前后始终不变的那个量列等式，就能跳过繁琐的中间过程。四种守恒最常用。质量守恒——参加反应各物总质量等于生成物总质量，所以密闭容器反应前后总质量不变、差出的质量就是跑掉的气体或沉淀；元素守恒——某种元素的原子反应前后总数不变，多步转化也能一路追到底；电子守恒——「氧化还原反应」里失电子总数等于得电子总数，是算氧化剂、还原剂用量的利器；电荷守恒——溶液里阳离子所带正电荷总数等于阴离子的，用于求未知离子浓度。守恒法把过程压缩成一张收支表，往往一步到位，与需按系数比例的根据化学方程式的计算互为补充。",
+            en: "The conservation method is the shortest road in calculation: pin down the quantity that never changes, write one equation and skip the messy middle. Four conservations rule. Mass — the reactants total equals the products total, so in a sealed vessel the mass is fixed and any missing mass is the gas or precipitate that escaped. Element — the atoms of an element are conserved across every step, so you can trace one straight from start to finish. Electron — in a redox reaction electrons lost equal electrons gained (see Redox), the sharpest tool for oxidant and reductant amounts. Charge — in solution total positive charge equals total negative charge, used to find an unknown ion concentration. Conservation compresses a whole process into a balance sheet, often solved in one line, complementing the coefficient-ratio route.",
+          },
+          eq: {
+            lhs: "CH₄ + 2O₂",
+            cond: { zh: "点燃", en: "ignite" },
+            rhs: "CO₂ + 2H₂O",
+          },
+          subs: [
+            {
+              f: "CH₄",
+              name: { zh: "甲烷", en: "Methane" },
+              note: { zh: "1 mol 16 g，含 1 个碳 4 个氢。", en: "1 mol is 16 g; one C, four H." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "系数 2，共 64 g。", en: "Coefficient 2; 64 g in all." },
+              role: "l",
+            },
+            {
+              f: "CO₂",
+              name: { zh: "二氧化碳", en: "Carbon dioxide" },
+              note: { zh: "碳全部转入，44 g。", en: "All the carbon lands here, 44 g." },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: { zh: "氢全部转入，2 mol 共 36 g。", en: "All the hydrogen lands here, 36 g." },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "difference",
+          icon: "📉",
+          term: { zh: "差量法", en: "Difference Method" },
+          level: 3,
+          oneLiner: {
+            zh: "利用反应前后质量或体积的差与系数差成正比来求解。",
+            en: "Use the before-after gap, proportional to the coefficient gap, to solve.",
+          },
+          detail: {
+            zh: "差量法抓的是反应前后某个量的变化差：固体增了多少、气体少了多少、溶液轻了多少，这个差与方程式里对应物质的系数差成正比，据此可绕过不易测的初态或终态直接算出参加反应的量。典型是固体受热分解放气——如 CaCO₃ 分解成 CaO 与 CO₂↑，留下的固体每减少 44 份质量就对应分解了 100 份 CaCO₃，减少的量正是跑掉的 CO₂；有气体参与也可用体积差，点燃合成气后总体积的缩减就对应反应掉的比例。用差量法的前提是认清差从何来：跑掉的气体、析出的沉淀、置换时进出固体的质量差都是差量来源，把它与系数差对齐才能列对比例。它与根据化学方程式的计算同源，只是把基准从某物质的量换成那个差值。",
+            en: "The difference method works on the change itself: how much a solid gains or loses, how much gas shrinks — that gap is proportional to the difference in coefficients, so you can find the reacting amount without ever measuring the awkward start or end. The classic case is a solid that gives off gas on heating: CaCO3 breaks into CaO and CO2, and every 44 parts of mass the residue loses corresponds to 100 parts of CaCO3 decomposed, the loss being exactly the escaped CO2; gas reactions allow a volume difference too. The prerequisite is knowing where the difference comes from — escaping gas, precipitate dropping out, or the mass swap when one metal displaces another — then aligning it with the coefficient gap. It shares a root with calculation from equations, only the anchor moves from a substance's amount to the difference.",
+          },
+          eq: {
+            lhs: "CaCO₃",
+            cond: { zh: "高温", en: "high temp" },
+            rhs: "CaO + CO₂↑",
+          },
+          subs: [
+            {
+              f: "CaCO₃",
+              name: { zh: "碳酸钙", en: "Calcium carbonate" },
+              note: { zh: "固体 100 g 分解。", en: "100 g of solid decomposes." },
+              role: "l",
+            },
+            {
+              f: "CaO",
+              name: { zh: "氧化钙", en: "Calcium oxide" },
+              note: { zh: "残留固体 56 g。", en: "Residue solid, 56 g." },
+              role: "r",
+            },
+            {
+              f: "CO₂↑",
+              name: { zh: "二氧化碳（气体）", en: "Carbon dioxide (gas)" },
+              note: { zh: "逸出致固体减重 44 g。", en: "Escapes, so solid loses 44 g." },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "limiting",
+          icon: "⛓️",
+          term: { zh: "过量计算", en: "Limiting Reagent" },
+          level: 3,
+          oneLiner: {
+            zh: "反应物有多有少时，先判谁先用完，产物量由不足的那种决定。",
+            en: "With unequal reactants, find which runs out first; it sets the yield.",
+          },
+          detail: {
+            zh: "把不按配平比例投料的几种反应物放在一起反应，必有一种先耗尽、另一种有剩余，这就是限量反应物与过量问题；计算生成物的量必须以先用完、量不足的那个为准，用过量者会算出根本不存在的产量。判断谁不足不能只看质量谁小，要比较换算成同一种单位后的比值：把各反应物除以其方程式系数，商最小的就是先用完的限量物质。例如 Zn + 2HCl 中若给 1 mol Zn 与 1 mol HCl，HCl 的比值 1/2 小于 Zn 的 1/1，故盐酸先用完、由 HCl 决定放出多少 H₂，剩余的锌不算数。金属与酸反应还要叠加「金属活动性顺序」判断到底能不能反应。核心口诀是：先定限量、再以限量为基准计算，切勿拿过量者的数去乘。",
+            en: "When reactants are not mixed in the exact equation ratio, one runs out first while the other is left over — the limiting-reagent problem, and products must be computed from whichever is exhausted, never from the surplus one, which would predict yield that cannot exist. Deciding which limits is not a matter of smaller mass but of the smaller ratio: divide each reactant by its coefficient and the smallest quotient marks the limiting species. In Zn + 2HCl, give 1 mol Zn and 1 mol HCl, and since HCl's ratio 1/2 falls below Zn's 1/1 the acid is used up first and sets the hydrogen formed, leftover zinc counting for nothing; metal-plus-acid also needs the reactivity series to say whether they react at all (see The Reactivity Series of Metals). Fix the limit first, then compute from it; never multiply up the excess figure.",
+          },
+          eq: {
+            lhs: "Zn + 2HCl",
+            rhs: "ZnCl₂ + H₂↑",
+          },
+          subs: [
+            {
+              f: "Zn",
+              name: { zh: "锌", en: "Zinc" },
+              note: { zh: "1 mol 65 g，系数 1。", en: "1 mol is 65 g; coefficient 1." },
+              role: "l",
+            },
+            {
+              f: "HCl",
+              name: { zh: "盐酸", en: "Hydrochloric acid" },
+              note: { zh: "系数 2，常先被耗尽。", en: "Coefficient 2; often spent first." },
+              role: "l",
+            },
+            {
+              f: "ZnCl₂",
+              name: { zh: "氯化锌", en: "Zinc chloride" },
+              note: { zh: "产物之一。", en: "One product." },
+              role: "r",
+            },
+            {
+              f: "H₂↑",
+              name: { zh: "氢气", en: "Hydrogen" },
+              note: { zh: "产量由限量者决定。", en: "Yield set by the limiting one." },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
+        {
+          id: "relationship",
+          icon: "🔗",
+          term: { zh: "关系式法", en: "Relationship Method" },
+          level: 3,
+          oneLiner: {
+            zh: "把多步反应串成起始物与终产物间的计量关系式，一步算到底。",
+            en: "Chain multi-step reactions into one start-to-end ratio and solve at once.",
+          },
+          detail: {
+            zh: "工业生产常连着好几步，逐步算费时且易在中间量上出错；关系式法的办法是抓住贯穿全程不变的元素或电子，把首尾物质直接写成一个计量关系式，一步到位。如接触法制硫酸，硫先烧成 SO₂、再氧化成 SO₃、最后被浓硫酸吸收成 H₂SO₄，硫原子全程守恒，于是得关系式 S ～ SO₂ ～ SO₃ ～ H₂SO₄，简作 S ～ H₂SO₄，只要知道硫的量就能直接算出可得的硫酸，中间三步不必分别列式。同理氨氧化法制硝酸有 N ～ NO ～ NO₂ ～ HNO₃，即 N ～ HNO₃（见「工业合成氨」里讨论的氨催化氧化一路）。用关系式法的前提是找出那条守恒主线：多数靠某原子守恒，个别多步氧化还原则靠电子守恒把首尾氧化数一对即得；它比守恒法更进一步之处在于跳过了所有中间步骤。",
+            en: "Industry often runs several linked steps, and solving them one by one is slow and error-prone in the intermediates; the relationship method finds the element or electrons that thread the whole line and writes start and end substance as a single ratio, done at once. In making sulfuric acid, sulfur is burned to SO2, oxidized to SO3, then absorbed into H2SO4; the sulfur atom is conserved throughout, giving S ~ SO2 ~ SO3 ~ H2SO4, simply S ~ H2SO4, so from the sulfur you know the acid directly with no separate equations. Likewise catalytic oxidation of ammonia on to nitric acid gives N ~ NO ~ NO2 ~ HNO3, that is N ~ HNO3, the same catalytic ammonia-oxidation chain (see Ammonia Synthesis). The prerequisite is spotting the conserved backbone, usually one atom, or across several redox steps the electrons pairing first and last oxidation states; it goes past plain conservation by leaping over every intermediate.",
+          },
+          eq: {
+            lhs: "2SO₂ + O₂",
+            rhs: "2SO₃",
+            rel: "equilibrium",
+          },
+          subs: [
+            {
+              f: "SO₂",
+              name: { zh: "二氧化硫", en: "Sulfur dioxide" },
+              note: { zh: "硫的第一步氧化产物。", en: "First oxidation product of S." },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: { zh: "系数 1，催化氧化加入。", en: "Coefficient 1, added in catalytic oxidation." },
+              role: "l",
+            },
+            {
+              f: "SO₃",
+              name: { zh: "三氧化硫", en: "Sulfur trioxide" },
+              note: { zh: "硫全部转入，再制硫酸。", en: "All sulfur lands here, then to acid." },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "计算", en: "Calculation" }],
+        },
       ],
     },
     /* ===================== 化学反应与能量 ===================== */
