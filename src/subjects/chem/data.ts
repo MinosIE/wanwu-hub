@@ -7161,6 +7161,137 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "生命物质", en: "Biomolecule" }],
         },
+        {
+          id: "org-hydrocarbon",
+          icon: "🛢️",
+          term: { zh: "烃类家族（烷、烯、炔与苯）", en: "Hydrocarbon Families" },
+          level: 2,
+          oneLiner: {
+            zh: "只含碳氢的有机物四大类：饱和的烷烃、含双键的烯烃、含三键的炔烃与芳香的苯。",
+            en: "The four carbon-hydrogen families: saturated alkanes, double-bond alkenes, triple-bond alkynes and aromatic benzene.",
+          },
+          detail: {
+            zh: "烃是只由碳和氢组成的有机物，按碳骨架与是否饱和分成四大类，性质主要由这条分界决定。烷烃（甲烷、乙烷）碳碳之间全是单键、已达饱和，通式 CₙH₂ₙ₊₂，化学上较不活泼，特征反应是在光照下发生取代（见「取代反应」），燃烧时火焰淡蓝而几乎无烟。烯烃（乙烯）含一个碳碳双键 C=C、通式 CₙH₂ₙ，双键里较活泼的那一半一断就能加成（见「加成反应」），所以既能使溴水褪色、也能被酸性高锰酸钾氧化，是鉴别与除杂的抓手；乙烯产量常被看作石油化工水平的标尺。炔烃（乙炔）含碳碳三键，乙炔氧炔焰温度极高，用于切割金属。芳香烃以苯为代表，苯环结构特殊——既非单键也非双键，六个碳共用一圈离域电子，故苯较稳定，通常不能使溴水或酸性高锰酸钾褪色，却能发生取代（如硝化）。同系物结构相似、组成相差若干个 CH₂（见「同分异构体」），碳数递增则熔沸点渐升。四大烃燃烧都生成二氧化碳和水，含碳量越高火焰越亮、烟越浓，这正是甲烷、乙烯、乙炔火焰明暗不同的根源。",
+            en: "Hydrocarbons contain only carbon and hydrogen and split into four families by skeleton and saturation, which largely fixes how they behave. Alkanes (methane, ethane) carry only single carbon-carbon bonds and are saturated, formula CnH2n+2; relatively unreactive, their signature reaction is substitution under light (see Substitution), and they burn with a pale, near-smokeless blue flame. Alkenes (ethene) hold one carbon-carbon double bond C=C, formula CnH2n, and the weaker half of that bond opens to add reagents (see Addition), so they decolourise bromine water and are oxidised by acidified permanganate — the handle for identifying and purging them, and ethene output is read as a barometer of a country's petrochemical industry. Alkynes (ethyne) carry a triple bond, and the ethyne-oxygen blowpipe burns hot enough to cut metals. Aromatics are led by benzene, whose ring is unusual - neither single nor double bonds but six carbons sharing a ring of delocalised electrons - so benzene is fairly stable, does not normally fade bromine water or acidified permanganate, yet undergoes substitution such as nitration. Homologues share structure and differ by CH2 units (see Isomers), and rising carbon number lifts melting and boiling points. All four burn to carbon dioxide and water, and the higher the carbon fraction the brighter and smokier the flame - the reason methane, ethene and ethyne show visibly different flames.",
+          },
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "org-alcohol-phenol",
+          icon: "🍶",
+          term: { zh: "醇与酚", en: "Alcohols & Phenols" },
+          level: 2,
+          oneLiner: {
+            zh: "同是羟基 —OH，连在脂肪烃基上是醇、连在苯环上却是性质迥异的酚。",
+            en: "Both carry hydroxyl -OH, but on an alkyl chain it is an alcohol and on a benzene ring a very different phenol.",
+          },
+          detail: {
+            zh: "醇与酚都带羟基 —OH，区别只在羟基连在谁身上：连在链状脂肪烃基上是醇，连在苯环上是酚，同一个官能团因「邻居」不同而性质大异（见「官能团」）。乙醇是最常见的醇，俗称酒精，与水以任意比互溶，可作燃料与溶剂，医用消毒约 75%。它有两类重要反应：一是氧化，在铜或银催化并加热时被空气氧化为乙醛（即下方方程式），完全燃烧则氧化成二氧化碳和水；二是消去，浓硫酸加热到约 170 ℃ 时脱去一分子水生成乙烯（见「消去反应」）。甲醇有毒，误饮可致盲。酚以苯酚为代表，有弱酸性、能与氢氧化钠反应却一般不与碳酸钠放出二氧化碳，遇氯化铁溶液显紫色，这是检验酚的灵敏反应，久置空气中慢慢泛粉红。甘油即丙三醇，是多羟基醇，吸水保润用于护肤。羟基还能与羧基缩合成酯（见「酯化反应与酯」）。",
+            en: "Alcohols and phenols both bear a hydroxyl -OH, and differ only in what that group hangs on: on a chain carbon it is an alcohol, on a benzene ring a phenol, so one and the same group (see Functional Groups) behaves apart by its neighbours. Ethanol, familiar as the alcohol in drinks, mixes with water in any ratio, serves as fuel and solvent, and is used near 75 % as a disinfectant. It shows two key reactions. Oxidation - over a copper or silver catalyst and heated it is taken by air to ethanal (the equation below), while burning oxidises it fully to carbon dioxide and water. Elimination - with concentrated sulfuric acid at about 170 °C it loses a molecule of water to give ethene (see Elimination). Methanol is toxic and can blind if swallowed. Phenol is weakly acidic, reacts with sodium hydroxide yet generally gives no carbon dioxide from sodium carbonate, and turns violet with iron(III) chloride, a sensitive test for it, slowly flushing pink in air. Glycerol is a tri-hydroxyl alcohol that holds moisture and is used in skincare. A hydroxyl can also condense with a carboxyl to form an ester (see Esterification & Esters).",
+          },
+          eq: {
+            lhs: "2CH₃CH₂OH + O₂",
+            cond: { zh: "铜或银催化 · 加热 △", en: "Cu/Ag catalyst, Δ" },
+            rhs: "2CH₃CHO + 2H₂O",
+          },
+          subs: [
+            {
+              f: "CH₃CH₂OH",
+              name: { zh: "乙醇", en: "Ethanol" },
+              note: {
+                zh: "羟基连在链状碳上，属醇；被氧化。",
+                en: "Hydroxyl on a chain carbon, an alcohol; is oxidised.",
+              },
+              role: "l",
+            },
+            {
+              f: "O₂",
+              name: { zh: "氧气", en: "Oxygen" },
+              note: {
+                zh: "空气中的氧化剂。",
+                en: "The oxidising agent from air.",
+              },
+              role: "l",
+            },
+            {
+              f: "CH₃CHO",
+              name: { zh: "乙醛", en: "Ethanal" },
+              note: {
+                zh: "氧化产物，含醛基 —CHO。",
+                en: "Oxidation product; carries the aldehyde group -CHO.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "脱去的氢与氧结合成水。",
+                en: "The removed hydrogen leaves as water.",
+              },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "有机", en: "Organic" }],
+        },
+        {
+          id: "org-esterification",
+          icon: "🧴",
+          term: { zh: "酯化反应与酯", en: "Esterification & Esters" },
+          level: 2,
+          oneLiner: {
+            zh: "酸脱羟基、醇脱氢，缩合生成带香味的酯，是可逆的取代反应。",
+            en: "The acid sheds hydroxyl and the alcohol a hydrogen to condense into a fragrant ester - a reversible substitution.",
+          },
+          detail: {
+            zh: "酯化反应是羧酸与醇在浓硫酸催化、加热的条件下脱去一分子水、生成酯和水的反应，规律是「酸脱羟基、醇脱氢」：酸去掉 —OH、醇去掉羟基上的 H 结合成水，余下两部分接成酯基 —COO—，所以酯化属于取代反应（见「取代反应」）。最典型的是乙酸与乙醇生成有果香味的乙酸乙酯；反应可逆，浓硫酸既催化又吸水以提高产率，收集时用饱和碳酸钠溶液吸收，除去挥发的酸与醇并降低酯的溶解度。酯类多有芳香气味，广泛用于香精与溶剂。油脂是高级脂肪酸与甘油形成的酯，在碱性条件下水解生成肥皂和甘油，即皂化反应。酯在酸或碱中都能水解，恰好是酯化的逆过程。它与「官能团」中的酯基、与醇的羟基（见「醇与酚」）环环相扣。",
+            en: "Esterification is the reaction of a carboxylic acid with an alcohol, catalysed by concentrated sulfuric acid and heated, to give an ester and a molecule of water. The rule is 'acid loses hydroxyl, alcohol loses hydrogen': the acid drops its -OH and the alcohol its O-H to form water, and the two leftovers join through the ester group -COO-, which is why esterification counts as substitution (see Substitution). The classic case is acetic acid with ethanol forming fragrant ethyl ethanoate; the reaction is reversible, the concentrated acid both catalyses and absorbs water to lift the yield, and the product is collected over saturated sodium carbonate that mops up escaping acid and alcohol while lowering the ester's solubility. Esters often smell pleasant and are widely used in flavourings and solvents. Fats and oils are esters of long-chain fatty acids with glycerol, and under base they hydrolyse into soap and glycerol - saponification. Esters hydrolyse under either acid or base, the exact reverse of their making. They link the ester group among the functional groups (see Functional Groups) to the hydroxyl of alcohols (see Alcohols & Phenols).",
+          },
+          eq: {
+            lhs: "CH₃COOH + C₂H₅OH",
+            cond: { zh: "浓硫酸 · 加热 △（可逆）", en: "conc. H2SO4, Δ (reversible)" },
+            rhs: "CH₃COOC₂H₅ + H₂O",
+          },
+          subs: [
+            {
+              f: "CH₃COOH",
+              name: { zh: "乙酸", en: "Acetic acid" },
+              note: {
+                zh: "提供羧基，脱去羟基 —OH。",
+                en: "Supplies the carboxyl and loses hydroxyl -OH.",
+              },
+              role: "l",
+            },
+            {
+              f: "C₂H₅OH",
+              name: { zh: "乙醇", en: "Ethanol" },
+              note: {
+                zh: "提供羟基氢，脱去氢。",
+                en: "Supplies the hydroxyl hydrogen and loses it.",
+              },
+              role: "l",
+            },
+            {
+              f: "CH₃COOC₂H₅",
+              name: { zh: "乙酸乙酯", en: "Ethyl ethanoate" },
+              note: {
+                zh: "有果香味的酯，难溶于饱和碳酸钠溶液。",
+                en: "A fragrant ester, poorly soluble in saturated sodium carbonate.",
+              },
+              role: "r",
+            },
+            {
+              f: "H₂O",
+              name: { zh: "水", en: "Water" },
+              note: {
+                zh: "酸的羟基与醇的氢结合生成。",
+                en: "From the acid's hydroxyl plus the alcohol's hydrogen.",
+              },
+              role: "r",
+            },
+          ],
+          tags: [{ zh: "有机反应", en: "Reaction" }],
+        },
       ],
     },
     /* ===================== 溶液与化学计算 ===================== */

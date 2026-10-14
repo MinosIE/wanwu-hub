@@ -5,7 +5,7 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 282,
+  "total": 285,
   "counts": {
     "concepts": 11,
     "structure": 7,
@@ -19,7 +19,7 @@
     "chem-industry": 10,
     "chem-env": 7,
     "bonding": 6,
-    "organic": 8,
+    "organic": 11,
     "solutions": 11,
     "energy": 5,
     "kinetics": 6,
@@ -130,7 +130,7 @@
       "title": "有机化学",
       "titleEn": "Organic Chemistry",
       "kind": "cards",
-      "count": 8
+      "count": 11
     },
     {
       "key": "solutions",
@@ -194,7 +194,7 @@
     { "key": "chem-industry", "icon": "⚙️", "value": 10 },
     { "key": "chem-env", "icon": "🌿", "value": 7 },
     { "key": "bonding", "icon": "🔗", "value": 6 },
-    { "key": "organic", "icon": "🧬", "value": 8 },
+    { "key": "organic", "icon": "🧬", "value": 11 },
     { "key": "solutions", "icon": "🧪", "value": 11 },
     { "key": "energy", "icon": "🔥", "value": 5 },
     { "key": "kinetics", "icon": "⚖️", "value": 6 },
