@@ -2,7 +2,7 @@
 
 > Elements, reactions, materials and chemists — how matter combines, breaks apart and transforms.
 
-264 entries across 18 categories, all as structured JSON.
+267 entries across 18 categories, all as structured JSON.
 
 ## Data endpoints
 - [Structure & Chemical Bonds](https://minosie.github.io/wanwu-hub/chem-data/data/bonding.json)

@@ -483,5 +483,149 @@
     "tags": ["基本操作", "安全", "速查"],
     "tagsEn": ["Technique", "Safety", "Quick Reference"],
     "figure": "<svg viewBox=\"0 0 360 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">意外事故的第一处理 First moves after an accident</text>\n  <g font-size=\"8.5\" fill=\"currentColor\">\n    <text x=\"6\" y=\"34\">浓酸溅到皮肤：大量水冲洗，再涂 3%~5% NaHCO₃ 溶液</text>\n    <text x=\"6\" y=\"43\" font-size=\"6.5\" fill-opacity=\"0.6\">Acid on skin: flood with water, then dilute sodium hydrogen carbonate</text>\n    <text x=\"6\" y=\"56\">浓碱溅到皮肤：大量水冲洗，再涂硼酸溶液</text>\n    <text x=\"6\" y=\"65\" font-size=\"6.5\" fill-opacity=\"0.6\">Alkali on skin: water first, then boric acid</text>\n    <text x=\"6\" y=\"78\">酸或碱溅入眼睛：立即用大量水冲洗，切莫滴酸碱中和，随后就医</text>\n    <text x=\"6\" y=\"87\" font-size=\"6.5\" fill-opacity=\"0.6\">In the eye: water only, never a neutralising drop, then a doctor</text>\n    <text x=\"6\" y=\"100\">酒精灯倾倒着火：用湿布或沙土盖灭，不要用水浇</text>\n    <text x=\"6\" y=\"109\" font-size=\"6.5\" fill-opacity=\"0.6\">Spilled burning alcohol: smother with wet cloth or sand, do not pour water</text>\n    <text x=\"6\" y=\"122\">汞洒落：开窗通风，撒硫粉盖住（Hg + S = HgS），收集残珠</text>\n    <text x=\"6\" y=\"131\" font-size=\"6.5\" fill-opacity=\"0.6\">Spilled mercury: air the room, dust with sulfur, gather the beads</text>\n  </g>\n  <text x=\"6\" y=\"148\" font-size=\"8.5\" fill=\"#e5484d\">⚠ 先冲水再报告；伤处不做“酸碱中和”，因为中和本身还放热</text>\n  <text x=\"6\" y=\"158\" font-size=\"6.5\" fill=\"#e5484d\" fill-opacity=\"0.85\">Flush first, report after; neutralising on the wound adds its own heat</text>\n  <text x=\"6\" y=\"168\" font-size=\"6.5\" fill=\"currentColor\" fill-opacity=\"0.55\">Every line above is a dilution and a removal, not a counter-reaction</text>\n</svg>"
+  },
+  {
+    "id": "qr-instruments",
+    "icon": "⚗️",
+    "term": "常用仪器的精度与加热口径",
+    "termEn": "Glassware: Precision and What May Be Heated",
+    "level": 1,
+    "oneLiner": "量筒读到 0.1 mL、滴定管读到 0.01 mL；量器一律不加热、不作反应容器。",
+    "oneLinerEn": "A cylinder reads to 0.1 mL, a burette to 0.01; measuring glassware is never heated and never a reaction vessel.",
+    "detail": "认仪器先认三件事：能量到多小、能不能加热、能不能当反应容器。量器类是后两条禁令的共同答案：量筒、容量瓶、酸式与碱式滴定管、漏斗一律不能加热，也不作反应容器、不在里面溶解或稀释——受热会让刻度失准，受热不均还会裂。精度口径要背准：托盘天平读到 0.1 g，量筒读到 0.1 mL（用 10 mL 量筒量 9.5 mL 可以，写 9.50 mL 就不行），滴定管读到 0.01 mL（所以滴定终点记作 22.60 mL 而不是 22.6 mL），容量瓶只有一条标线，只能配它标定的那种体积。读数时视线与凹液面最低处水平：俯视使量筒读数偏大、实际量到的偏少，仰视恰好相反。磨口与塞子也有讲究：碱液会把玻璃里的二氧化硅慢慢变成有黏性的硅酸钠，把磨口塞粘死，所以盛碱液用橡胶塞而不是玻璃塞。温度计的位置随用途改：测液体温度插进液面以下、不碰底也不碰壁，蒸馏时水银球要跟支管口齐平，因为那时要读的是蒸气的温度。pH 试纸不能预先润湿（润湿等于把待测液稀释），石蕊试纸与淀粉-KI 试纸却必须润湿——差别在于前者测浓度、后者测气体能不能与它反应。人教版新教材已把「石棉网」改叫「陶土网」，两者作用一样：让玻璃仪器受热均匀。",
+    "detailEn": "Every piece of glassware answers three questions: how finely it measures, whether it can be heated, and whether it can serve as a reaction vessel. The measuring class settles the last two together — cylinders, volumetric flasks, burettes and funnels take no heat, host no reaction, and dissolve nothing in place, since warmth moves the very volume their graduations were calibrated for and uneven heating cracks the glass. Know the precisions by heart: a tray balance to 0.1 g, a cylinder to 0.1 mL (a 10 mL cylinder can deliver 9.5 mL but never 9.50), a burette to 0.01 mL (which is why an endpoint is recorded as 22.60 mL, not 22.6), and a volumetric flask carries a single mark for the one volume it was made for. Read at eye level against the bottom of the meniscus: looking down over-reads a cylinder and leaves you short, looking up does the reverse. Ground glass and stoppers follow chemistry too — alkali slowly turns the silica in the joint into sticky sodium silicate, welding stopper to neck, so alkaline solutions get rubber rather than glass. Where the thermometer goes depends on the job: into the liquid but clear of base and wall when you measure the liquid, level with the side arm in distillation, because there you want the vapour's temperature. pH paper must stay dry, since wetting it dilutes the sample, while litmus and starch-iodide paper must be wetted — the first measures a concentration, the second asks whether a gas reacts with it. Newer Chinese textbooks say clay-centred wire gauze where older ones said asbestos; the purpose, even heating, is unchanged.",
+    "tags": ["仪器", "精度", "速查"],
+    "tagsEn": ["Glassware", "Precision", "Quick Reference"],
+    "figure": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">仪器精度与加热口径 Precision and heating rules</text>\n  <line x1=\"178\" y1=\"22\" x2=\"178\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n  <g font-size=\"8.5\" fill=\"currentColor\">\n    <text x=\"6\" y=\"36\">量筒 <tspan fill=\"#d4a017\">读到 0.1 mL</tspan></text>\n    <text x=\"6\" y=\"54\">容量瓶 <tspan fill=\"#d4a017\">只有一条标线</tspan></text>\n    <text x=\"6\" y=\"72\">滴定管 <tspan fill=\"#d4a017\">读到 0.01 mL</tspan></text>\n    <text x=\"6\" y=\"90\">托盘天平 <tspan fill=\"#d4a017\">读到 0.1 g</tspan></text>\n    <text x=\"6\" y=\"108\">温度计 <tspan fill=\"#d4a017\">位置随用途变</tspan></text>\n    <text x=\"6\" y=\"126\">pH 试纸 <tspan fill=\"#d4a017\">不得预先润湿</tspan></text>\n    <text x=\"188\" y=\"36\">试管 <tspan fill=\"#d4a017\">可直接加热</tspan></text>\n    <text x=\"188\" y=\"54\">蒸发皿 <tspan fill=\"#d4a017\">直接加热</tspan></text>\n    <text x=\"188\" y=\"72\">坩埚 <tspan fill=\"#d4a017\">强热，配泥三角</tspan></text>\n    <text x=\"188\" y=\"90\">烧杯、烧瓶 <tspan fill=\"#d4a017\">垫陶土网</tspan></text>\n    <text x=\"188\" y=\"108\">锥形瓶 <tspan fill=\"#d4a017\">垫网，滴定可摇</tspan></text>\n    <text x=\"188\" y=\"126\">集气瓶 <tspan fill=\"#d4a017\">不加热</tspan></text>\n  </g>\n  <line x1=\"6\" y1=\"142\" x2=\"354\" y2=\"142\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n  <text x=\"6\" y=\"156\" font-size=\"7\" fill=\"currentColor\" fill-opacity=\"0.6\">Graduations assume cold glass: heat moves the volume a piece actually holds</text>\n  <text x=\"6\" y=\"170\" font-size=\"9\" fill=\"#e5484d\">⚠ 量筒、容量瓶、滴定管、漏斗都不加热，也不作反应容器</text>\n  <text x=\"6\" y=\"182\" font-size=\"7\" fill=\"#e5484d\" fill-opacity=\"0.85\">Cylinders, measuring flasks, burettes and funnels: never heated, never reaction vessels</text>\n</svg>"
+  },
+  {
+    "id": "qr-separations",
+    "icon": "🫧",
+    "term": "分离与提纯的方法及仪器配套",
+    "termEn": "Separation and Purification: Method Matched to Apparatus",
+    "level": 2,
+    "oneLiner": "不溶靠过滤、可溶靠蒸发、沸点差靠蒸馏、溶解度差靠萃取——先看靠什么分开。",
+    "oneLinerEn": "Insoluble goes by filtering, dissolved by evaporating, a boiling gap by distillation, a solubility gap by extraction — first ask what holds them apart.",
+    "detail": "分离提纯的选法只看一件事：混合物靠什么性质分得开。不溶固体对液体用过滤，记「一贴二低三靠」：滤纸紧贴漏斗内壁，滤纸边缘低于漏斗口、液面低于滤纸边缘，烧杯紧靠玻璃棒、玻璃棒下端靠在三层滤纸一侧、漏斗尖嘴靠接收烧杯内壁；玻璃棒在这里是引流，不是搅拌。洗沉淀的办法是往漏斗里加蒸馏水至浸没沉淀，等水自然流下再重复两三次。可溶固体从溶液里取出用蒸发结晶：蒸发皿直接加热，玻璃棒搅动防局部过热造成液滴飞溅，出现大量晶体就停火、用余热蒸干。但带结晶水的、受热会分解或会水解的一律不能蒸干，要改蒸发浓缩、降温结晶：NaHCO₃ 受热就放 CO₂，FeCl₃ 溶液蒸到最后只会得到氧化铁而得不到无水氯化铁。互溶的液体看沸点差用蒸馏：加碎瓷片防暴沸，忘了加必须等液体冷下来再补，温度计水银球跟支管口齐平（读的是蒸气温度），冷却水下口进上口出，让冷凝管始终充水且与水蒸气逆流换热，先通水后加热。溶质在两相里溶解度差得远用萃取分液，萃取剂三条要求：与原溶剂互不相溶、溶质在其中溶解度大、与溶质不反应；四氯化碳从碘水里萃取碘，下层紫红色从下口放出，上层水层从上口倒出，分液漏斗用前要检漏、振荡时要倒转过来适时旋开活塞放气。气体除杂走洗气瓶，长管进短管出，让气体鼓泡通过洗涤液；干燥管则是大孔进小孔出。还有两处易混：淀粉胶体里混了小分子离子，靠半透膜渗析除去，碘里混了沙用升华——但氯化铵看起来会「升华」其实是受热分解成氨与氯化氢、在冷处又化合回来，所以不能用升华法把它和碘分开。",
+    "detailEn": "One question decides the method: what property holds the mixture apart. Insoluble solid from liquid goes through a filter, remembered as 'one paste, two lows, three rests' — paper wetted flat to the funnel wall, paper below the rim and liquid below the paper edge, beaker to the rod, rod to the three-ply side, nozzle to the receiving wall; the rod guides the liquid here and does not stir. A precipitate is washed by filling the funnel with distilled water until the solid is covered, letting it drain, and repeating two or three times. A dissolved solid comes back by evaporation: the dish goes straight on the flame, the rod keeps things moving so nothing boils locally and spits, and the heat goes off while plenty of crystals are still forming, residual heat doing the drying. Anything carrying water of crystallisation, decomposing on heating or hydrolysing must not be dried out — sodium hydrogen carbonate gives up CO₂, and an iron(III) chloride solution evaporated to dryness leaves iron oxide, never anhydrous iron(III) chloride. Miscible liquids separate on boiling point in a distillation: anti-bumping chips, and if you forgot them, add them only once the liquid is cold; the thermometer bulb level with the side arm, because it reads vapour; cooling water in at the lower port and out at the upper so the jacket stays full and works counter-current, water on before the flame. Where the solute prefers one of two immiscible phases, extract and separate: the extractant must not mix with the original solvent, must dissolve the solute far better, and must not react with it — carbon tetrachloride pulls iodine out of water, and the violet lower layer is run off through the tap while the upper aqueous layer is poured off the top; the separatory funnel is leak-checked first and vented at the neck during shaking. Gas impurities wash out through a bubbler, in the long tube and out the short, while a drying tube takes the wide end first. Two last confusions: ions are dialysed away from starch colloid through a semi-permeable membrane, and iodine is sublimed from sand — but ammonium chloride only imitates sublimation, splitting into ammonia and hydrogen chloride and recombining in a cold spot, which is why sublimation cannot part it from iodine.",
+    "tags": ["分离提纯", "实验", "速查"],
+    "tagsEn": ["Separation", "Lab", "Quick Reference"],
+    "figure": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">分离方法怎么选 Which separation, and why</text>\n  <g font-size=\"8.5\" fill=\"currentColor\">\n    <text x=\"6\" y=\"34\">过滤·不溶固体与液体</text><text x=\"150\" y=\"34\" fill=\"#d4a017\">一贴二低三靠，玻璃棒引流</text>\n    <text x=\"6\" y=\"43\" font-size=\"6.5\" fill-opacity=\"0.6\">filter: an insoluble solid out of a liquid</text>\n    <text x=\"6\" y=\"58\">蒸发结晶·可溶固体</text><text x=\"150\" y=\"58\" fill=\"#d4a017\">大量晶体析出即停火</text>\n    <text x=\"6\" y=\"67\" font-size=\"6.5\" fill-opacity=\"0.6\">evaporate: stop early, let residual heat finish</text>\n    <text x=\"6\" y=\"82\">降温结晶·带水、易分解</text><text x=\"150\" y=\"82\" fill=\"#d4a017\">浓缩后冷却析出</text>\n    <text x=\"6\" y=\"91\" font-size=\"6.5\" fill-opacity=\"0.6\">cool a concentrate instead, for hydrates</text>\n    <text x=\"6\" y=\"106\">蒸馏·互溶液体</text><text x=\"150\" y=\"106\" fill=\"#d4a017\">沸石、球齐支管口、水下进上出</text>\n    <text x=\"6\" y=\"115\" font-size=\"6.5\" fill-opacity=\"0.6\">distil: chips, bulb at the side arm, water against the vapour</text>\n    <text x=\"6\" y=\"130\">萃取分液·溶解度差</text><text x=\"150\" y=\"130\" fill=\"#d4a017\">下层下口出，上层上口倒</text>\n    <text x=\"6\" y=\"139\" font-size=\"6.5\" fill-opacity=\"0.6\">extract: lower layer out the tap, upper off the top</text>\n    <text x=\"6\" y=\"154\">洗气·气体除杂</text><text x=\"150\" y=\"154\" fill=\"#d4a017\">长管进、短管出</text>\n    <text x=\"6\" y=\"163\" font-size=\"6.5\" fill-opacity=\"0.6\">wash a gas in the long tube, out the short</text>\n  </g>\n  <line x1=\"6\" y1=\"172\" x2=\"354\" y2=\"172\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n  <text x=\"6\" y=\"185\" font-size=\"8\" fill=\"currentColor\">胶体除离子靠渗析（半透膜），碘混沙靠升华</text>\n  <text x=\"6\" y=\"194\" font-size=\"6.5\" fill=\"currentColor\" fill-opacity=\"0.6\">Dialysis for ions in a colloid; sublimation for iodine mixed with sand</text>\n  <text x=\"6\" y=\"207\" font-size=\"8.5\" fill=\"#e5484d\">⚠ NH₄Cl 看着像升华，其实是先分解后化合，不能用它分离碘</text>\n  <text x=\"6\" y=\"214\" font-size=\"6.5\" fill=\"#e5484d\" fill-opacity=\"0.85\">Ammonium chloride decomposes and recombines — it only imitates sublimation</text>\n</svg>"
+  },
+  {
+    "id": "qr-storage",
+    "subs": [
+      {
+        "f": "SiO₂",
+        "name": "二氧化硅（玻璃的主体）",
+        "nameEn": "Silicon dioxide (the body of glass)",
+        "note": "磨口塞、试剂瓶、量器都靠它，但它能被碱和氢氟酸侵蚀。",
+        "noteEn": "Stoppers, bottles and glassware are built on it, yet alkali and hydrofluoric acid both attack it.",
+        "role": "l"
+      },
+      {
+        "f": "NaOH",
+        "name": "氢氧化钠（碱液）",
+        "nameEn": "Sodium hydroxide (alkaline solution)",
+        "note": "长期接触磨口就会把塞子粘住，所以碱液瓶配橡胶塞。",
+        "noteEn": "Long contact with a ground joint welds it shut, hence the rubber stopper on alkali bottles.",
+        "role": "l"
+      },
+      {
+        "f": "Na₂SiO₃",
+        "name": "硅酸钠（有黏性）",
+        "nameEn": "Sodium silicate (sticky)",
+        "note": "就是它把玻璃塞与瓶口粘成一体，也是水玻璃的主要成分。",
+        "noteEn": "This is what cements stopper to neck, and the main ingredient of water glass.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "两个侵蚀反应的共同产物。",
+        "noteEn": "A product of both attack reactions.",
+        "role": "r"
+      },
+      {
+        "f": "HF",
+        "name": "氢氟酸（不能碰玻璃）",
+        "nameEn": "Hydrofluoric acid (glass cannot hold it)",
+        "note": "能直接咬玻璃，只能装在塑料瓶里；刻玻璃字用的就是它。",
+        "noteEn": "It eats glass outright, so it lives in plastic; it is also what etches glass.",
+        "role": "l"
+      },
+      {
+        "f": "SiF₄",
+        "name": "四氟化硅（气体）",
+        "nameEn": "Silicon tetrafluoride (gas)",
+        "note": "玻璃被氢氟酸腐蚀后的硅去向。",
+        "noteEn": "Where the silicon goes when hydrofluoric acid works on glass.",
+        "role": "r"
+      },
+      {
+        "f": "AgNO₃",
+        "name": "硝酸银（见光分解）",
+        "nameEn": "Silver nitrate (light-sensitive)",
+        "note": "棕色瓶里的常客，瓶壁内侧那层灰黑就是分解出的银。",
+        "noteEn": "A regular of the amber shelf; the grey film inside such bottles is the silver it shed.",
+        "role": "l"
+      },
+      {
+        "f": "Ag",
+        "name": "银（单质，黑灰色）",
+        "nameEn": "Silver (metal, grey-black)",
+        "note": "分解产物，附在瓶壁上使旧瓶发黑。",
+        "noteEn": "Its decomposition product, which darkens an old bottle from inside.",
+        "role": "r"
+      },
+      {
+        "f": "NO₂",
+        "name": "二氧化氮",
+        "nameEn": "Nitrogen dioxide",
+        "note": "浓硝酸、硝酸银分解都有它；红棕色、有毒。",
+        "noteEn": "Fumed from nitric acid and from silver nitrate alike; red-brown and toxic.",
+        "role": "r"
+      },
+      {
+        "f": "O₂",
+        "name": "氧气",
+        "nameEn": "Oxygen",
+        "note": "硝酸盐分解放出的气体，也是氧化剂自身被还原的证据。",
+        "noteEn": "The gas a nitrate gives up, and the mark that the oxidiser reduced itself.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧴",
+    "term": "药品的存放与容器选择",
+    "termEn": "Storing Reagents and Choosing the Container",
+    "level": 2,
+    "oneLiner": "怕空气的泡煤油、怕水的密封、怕光的进棕色瓶、怕玻璃的换塑料瓶。",
+    "oneLinerEn": "What fears air keeps in paraffin, what fears water stays sealed, what fears light takes the amber bottle, what fears glass moves to plastic.",
+    "eq": [
+      {
+        "lhs": "SiO₂ + 2NaOH",
+        "cond": "磨口处玻璃被碱缓慢侵蚀",
+        "condEn": "the ground joint under alkali",
+        "rhs": "Na₂SiO₃ + H₂O"
+      },
+      {
+        "lhs": "SiO₂ + 4HF",
+        "cond": "氢氟酸腐蚀玻璃",
+        "condEn": "hydrofluoric acid on glass",
+        "rhs": "SiF₄↑ + 2H₂O"
+      },
+      {
+        "lhs": "2AgNO₃",
+        "cond": "光照，所以要棕色瓶",
+        "condEn": "light — hence the amber bottle",
+        "rhs": "2Ag + 2NO₂↑ + O₂↑"
+      }
+    ],
+    "detail": "药品怎么存，只看它跟什么反应：跟空气反应的隔空气，跟水反应的隔水，见光分解的躲光，跟玻璃反应的换塑料。钠、钾泡在煤油里（它密度比煤油大，沉在下面刚好隔绝空气和水），白磷浸在冷水中（着火点只有约 40 ℃，而它不与水反应），液溴上面加一层水封——溴密度大、只能微溶于水，那层水能压住挥发。见光分解的三类必放棕色瓶：硝酸银、浓硝酸、氯水；硝酸银分解会析出单质银，所以旧瓶内壁常带一层灰黑。磨口塞看酸碱性：碱液（NaOH、Na₂CO₃）会缓慢侵蚀玻璃磨口、生成有黏性的硅酸钠，把塞子和瓶口粘成一体，所以碱液瓶用橡胶塞，装碱液的滴定管也必须用碱式（橡胶管里嵌玻璃珠）而不能用带玻璃磨口活塞的酸式；氢氟酸更彻底，它直接和二氧化硅反应，只能装塑料瓶。亚铁盐溶液里放一枚铁钉，把已经氧化出来的 Fe³⁺ 又还原回去，能顶住一阵子。无水硫酸铜、氯化钙这类干燥剂和易潮解的药品放干燥器。存放还要看相容：氧化剂（高锰酸钾、硝酸盐）不能与有机物、还原剂同橱，酸与碱分开，钠钾远离水与酸。",
+    "detailEn": "Storage asks one question: what does this reagent react with. What fears air is cut off from it, what fears water from that, what fears light from the light, what fears glass gets a different bottle. Sodium and potassium sit under paraffin — denser than the oil, they sink and are sealed from both air and moisture; white phosphorus lies under cold water, since it ignites near 40 °C but does not react with water; bromine keeps a water seal on top, being heavy and only slightly soluble, so the layer above it damps the fuming. Three light-sensitive regulars demand amber glass — silver nitrate, concentrated nitric acid, chlorine water — and since silver nitrate breaks down to the metal, an old bottle greys from the inside. Stoppers follow acid-base chemistry: alkali (sodium hydroxide, sodium carbonate) slowly eats the ground joint into sticky sodium silicate and welds stopper to neck, so alkaline solutions get rubber, and a burette for them uses the bead-and-tube pattern rather than a glass tap; hydrofluoric acid is more thorough still, reacting with the silica itself, and can only live in plastic. An iron nail in an iron(II) salt solution reduces back the iron(III) that has already formed and buys time. Desiccants and deliquescent solids — anhydrous copper sulfate, calcium chloride — keep to a desiccator. Compatibility decides the shelf as well: oxidisers such as permanganate and the nitrates are not stored with organics or reducers, acids apart from bases, sodium and potassium far from both water and acid.",
+    "tags": ["药品存放", "安全", "速查"],
+    "tagsEn": ["Storage", "Safety", "Quick Reference"],
+    "figure": "<svg viewBox=\"0 0 360 152\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n  <text x=\"6\" y=\"14\" font-size=\"11\" fill=\"currentColor\">谁怕什么，就隔掉什么 Kept from whatever it reacts with</text>\n  <line x1=\"178\" y1=\"22\" x2=\"178\" y2=\"110\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n  <g font-size=\"8.5\" fill=\"currentColor\">\n    <text x=\"6\" y=\"36\">钠、钾 <tspan fill=\"#d4a017\">煤油中</tspan></text>\n    <text x=\"6\" y=\"54\">白磷 <tspan fill=\"#d4a017\">冷水里</tspan></text>\n    <text x=\"6\" y=\"72\">液溴 <tspan fill=\"#d4a017\">上面水封</tspan></text>\n    <text x=\"6\" y=\"90\">Na₂O₂、CaC₂ <tspan fill=\"#d4a017\">严格密封</tspan></text>\n    <text x=\"6\" y=\"108\">无水 CuSO₄ <tspan fill=\"#d4a017\">干燥器</tspan></text>\n    <text x=\"188\" y=\"36\">NaOH、Na₂CO₃ 液 <tspan fill=\"#d4a017\">橡胶塞</tspan></text>\n    <text x=\"188\" y=\"54\">氢氟酸 <tspan fill=\"#d4a017\">塑料瓶</tspan></text>\n    <text x=\"188\" y=\"72\">AgNO₃、浓 HNO₃ <tspan fill=\"#d4a017\">棕色瓶</tspan></text>\n    <text x=\"188\" y=\"90\">FeSO₄ 溶液 <tspan fill=\"#d4a017\">加一枚铁钉</tspan></text>\n    <text x=\"188\" y=\"108\">KMnO₄ <tspan fill=\"#d4a017\">与有机物分柜</tspan></text>\n  </g>\n  <text x=\"6\" y=\"124\" font-size=\"7\" fill=\"currentColor\" fill-opacity=\"0.6\">Left: what air or water would spoil. Right: what the container itself would spoil</text>\n  <text x=\"6\" y=\"137\" font-size=\"8.5\" fill=\"#e5484d\">⚠ 碱液会粘死磨口玻璃塞；氢氟酸没有玻璃容得下</text>\n  <text x=\"6\" y=\"148\" font-size=\"6.5\" fill=\"#e5484d\" fill-opacity=\"0.85\">Alkali welds a glass stopper shut; no glass vessel holds hydrofluoric acid</text>\n</svg>"
   }
 ]
