@@ -293,5 +293,241 @@
     "related": ["maslow", "aaron-beck", "kahneman"],
     "tags": ["积极心理", "临床"],
     "sources": [{ "label": "Seligman, M. 《活出最乐观的自己》", "labelEn": "Seligman, M., Learned Optimism", "year": 1990 }]
+  },
+  {
+    "id": "ebbinghaus",
+    "name": "赫尔曼·艾宾浩斯",
+    "nameEn": "Hermann Ebbinghaus",
+    "era": "1850–1909",
+    "field": "记忆与学习",
+    "fieldEn": "Memory & Learning",
+    "oneLiner": "用无意义音节拿自己做实验，最早把「遗忘」画成一条先快后慢的曲线。",
+    "oneLinerEn": "Measured forgetting on himself with nonsense syllables, drawing the first 'forgetting curve'.",
+    "detail": "艾宾浩斯把自己当被试，背诵由辅音-元音-辅音拼成、毫无意义的音节（如 WID、ZOF），再用「重新学到能背诵所节省的时间」来衡量记忆保持。他发现遗忘在学习之后立刻开始、先快后慢，于是画出著名的遗忘曲线，并据此论证书要间隔地复习才划算。他是第一个用严格实验与数学方法研究记忆这类高级心理过程的人，打破了「高级心理无法实验」的成见；不过他用的是人为的无意义材料，结论能否推广到有意义的学习，后世仍有争论。",
+    "detailEn": "Ebbinghaus used himself as the subject, memorizing meaningless consonant-vowel-consonant syllables (like WID, ZOF) and gauging retention by the time saved on relearning to criterion. He found forgetting begins at once and falls off fast then slowly, drawing the famous forgetting curve and arguing for spaced review. He was the first to study a higher process like memory by strict experiment and mathematics, breaking the taboo that such faculties defied experiment; his material was artificial, though, and how far it generalizes to meaningful learning is still debated.",
+    "keyIdeas": [
+      "遗忘曲线",
+      "节省法（重学）",
+      "无意义音节",
+      "间隔复习"
+    ],
+    "keyIdeasEn": [
+      "Forgetting curve",
+      "Savings / relearning method",
+      "Nonsense syllables",
+      "Spaced review"
+    ],
+    "works": [
+      "《关于记忆》"
+    ],
+    "worksEn": [
+      "Über das Gedächtnis (On Memory, 1885)"
+    ],
+    "related": [
+      "memory",
+      "learning",
+      "spacing-retrieval",
+      "forgetting-curve"
+    ],
+    "tags": [
+      "记忆",
+      "学习"
+    ],
+    "sources": [
+      {
+        "label": "艾宾浩斯《关于记忆》",
+        "labelEn": "Hermann Ebbinghaus, Über das Gedächtnis",
+        "year": 1885
+      }
+    ]
+  },
+  {
+    "id": "wundt",
+    "name": "威廉·冯特",
+    "nameEn": "Wilhelm Wundt",
+    "era": "1832–1920",
+    "field": "实验心理学",
+    "fieldEn": "Experimental psychology",
+    "oneLiner": "1879 年在莱比锡建起第一个心理学实验室，被普遍看作科学心理学诞生的标志。",
+    "oneLinerEn": "Founded the first psychology laboratory at Leipzig in 1879, the usual marker of scientific psychology's birth.",
+    "detail": "冯特主张用受控实验研究直接经验，试着把意识过程分析成感觉、意象与情感等元素，方法上把仪器实验与经过训练的自我报告（内部知觉）结合。他在莱比锡的实验室与期刊培养出了第一批职业心理学家，让心理学从哲学与生理学中独立出来；他不愿把联想、语言这类高级过程交给实验室，转而在「民族心理学」里长期研究它们。其元素式的纲领后来被命名为构造主义，也正因如此招来了机能主义与行为主义的反驳。",
+    "detailEn": "Wundt held that immediate experience should be studied by controlled experiment, trying to analyze conscious processes into elements such as sensations, images and feelings, and pairing apparatus work with trained self-report (internal perception). His Leipzig laboratory and journal produced the first generation of professional psychologists and separated psychology from philosophy and physiology; unwilling to hand higher processes like association and language to the lab, he studied them instead in a long project on folk psychology (Völkerpsychologie). His elementist program was later named structuralism, and was on just that point met by functionalism and behaviorism.",
+    "keyIdeas": [
+      "实验心理学",
+      "意识的元素分析",
+      "内部知觉",
+      "民族心理学"
+    ],
+    "keyIdeasEn": [
+      "Experimental psychology",
+      "Elemental analysis of consciousness",
+      "Internal perception",
+      "Folk psychology (Völkerpsychologie)"
+    ],
+    "works": [
+      "《生理心理学原理》",
+      "《哲学研究》"
+    ],
+    "worksEn": [
+      "Principles of Physiological Psychology",
+      "Philosophische Studien"
+    ],
+    "related": [
+      "structuralism",
+      "wundt-1879",
+      "james",
+      "functionalism"
+    ],
+    "tags": [
+      "奠基",
+      "实验"
+    ],
+    "sources": [
+      {
+        "label": "Wundt, Principles of Physiological Psychology",
+        "year": 1874
+      }
+    ]
+  },
+  {
+    "id": "james",
+    "name": "威廉·詹姆斯",
+    "nameEn": "William James",
+    "era": "1842–1910",
+    "field": "机能主义",
+    "fieldEn": "Functionalism",
+    "oneLiner": "把意识说成一条「意识流」，又提出情绪是对身体变化的知觉，被誉为美国心理学之父。",
+    "oneLinerEn": "Called consciousness a 'stream' and held emotion to be the perception of bodily change; father of American psychology.",
+    "detail": "詹姆斯在《心理学原理》（1890）里反对把意识切成一块块静止的元素，主张它是一条连续流动的思想之流。他提出情绪的詹姆斯-兰格理论：我们并非先看见熊、先感到怕、才拔腿就跑，而是先察觉身体的心跳、退缩等变化，再把它们读作「怕」。他强调心理活动的功能与适应价值，为机能主义开了路；又把「自我」拆成「主我（I）」这个知的主体与「客我（me）」这个被知的对象，并细究习惯、注意与宗教经验。身为医生与哲学家，他晚年走向实用主义。",
+    "detailEn": "In The Principles of Psychology (1890) James rejected chopping consciousness into static elements, calling it a continuous stream of thought. His James-Lange theory of emotion holds that we do not see the bear, feel fear, then run; rather we perceive the bodily changes—heart pounding, flinching—and read them as fear. Stressing the function and adaptive value of mental life, he opened the way to functionalism, and split the self into the knowing 'I' and the known 'me', while analyzing habit, attention and religious experience. Physician and philosopher, he turned in later years to pragmatism.",
+    "keyIdeas": [
+      "意识流",
+      "詹姆斯-兰格情绪理论",
+      "主我与客我",
+      "习惯"
+    ],
+    "keyIdeasEn": [
+      "Stream of consciousness",
+      "James-Lange theory of emotion",
+      "The 'I' and the 'me'",
+      "Habit"
+    ],
+    "works": [
+      "《心理学原理》",
+      "《实用主义》"
+    ],
+    "worksEn": [
+      "The Principles of Psychology",
+      "Pragmatism"
+    ],
+    "related": [
+      "functionalism",
+      "emotion",
+      "self"
+    ],
+    "tags": [
+      "奠基",
+      "机能主义"
+    ],
+    "sources": [
+      {
+        "label": "William James, The Principles of Psychology",
+        "year": 1890
+      }
+    ]
+  },
+  {
+    "id": "erikson",
+    "name": "埃里克·埃里克森",
+    "nameEn": "Erik Erikson",
+    "era": "1902–1994",
+    "field": "发展与自我心理学",
+    "fieldEn": "Developmental & ego psychology",
+    "oneLiner": "把人格发展延伸到整个一生，提出心理社会八阶段与「同一性危机」一词。",
+    "oneLinerEn": "Extended development across the whole life with eight psychosocial stages, and coined 'identity crisis'.",
+    "detail": "埃里克森把弗洛伊德以性驱力为轴的阶段，改写成贯穿一生的「心理社会」八阶段，每一阶段都绕着一对核心冲突展开（如信任对不怀疑、自主对羞怯），到老年是完善对绝望。他尤其看重青春期的「自我同一性 vs 角色混乱」——人要回答「我是谁、要往哪里去」，答不出便陷入同一性危机，这个词正是他提出的。他强调自我不只是夹在欲望与现实之间的调停者，而有主动整合与成长的力量，由此把人格理论从童年一路扩展到毕生发展。",
+    "detailEn": "Erikson recast Freud's psychosexual stages into eight psychosocial stages spanning the whole life, each organized around a core conflict (trust versus mistrust, autonomy versus shame, and on to integrity versus despair in old age). He gave most weight to adolescence's 'identity versus role confusion', where one must answer 'who am I, and where am I going', failing which one falls into an identity crisis—a phrase he coined. Treating the ego not as a mere mediator between drive and reality but as an active integrative and growing force, he extended personality theory from childhood across the lifespan.",
+    "keyIdeas": [
+      "心理社会八阶段",
+      "自我同一性",
+      "同一性危机",
+      "毕生发展"
+    ],
+    "keyIdeasEn": [
+      "Eight psychosocial stages",
+      "Ego identity",
+      "Identity crisis",
+      "Lifespan development"
+    ],
+    "works": [
+      "《童年与社会》",
+      "《身份：青年与危机》"
+    ],
+    "worksEn": [
+      "Childhood and Society",
+      "Identity: Youth and Crisis"
+    ],
+    "related": [
+      "self",
+      "identity",
+      "freud",
+      "moral-development"
+    ],
+    "tags": [
+      "发展",
+      "精神分析"
+    ],
+    "sources": [
+      {
+        "label": "Erik Erikson, Childhood and Society",
+        "year": 1950
+      }
+    ]
+  },
+  {
+    "id": "kohlberg",
+    "name": "劳伦斯·科尔伯格",
+    "nameEn": "Lawrence Kohlberg",
+    "era": "1927–1987",
+    "field": "道德发展",
+    "fieldEn": "Moral development",
+    "oneLiner": "用「道德两难故事」把道德推理分成三水平六阶段，看重理由胜过看重选择。",
+    "oneLinerEn": "Sorted moral reasoning into three levels and six stages with dilemma stories, scoring the reason over the choice.",
+    "detail": "科尔伯格沿用皮亚杰的发展框架，讲「海因茨该不该偷药救妻」这类两难故事，按人给出的理由而非结论本身，把道德推理从低到高分为三水平六阶段：前习俗水平（逃避惩罚、图个互惠）、习俗水平（做个好人、维护秩序与法律）、后习俗水平（社会契约、普遍伦理原则）。他关心的是推理结构如何随年龄与经验一步步发展。批评也同样尖锐：吉利根认为它过度推崇抽象的「正义」而轻视「关怀」，且早期样本几乎全是男性；研究还发现，人所「讲」出的高阶段推理，与他实际怎么做常常对不上。",
+    "detailEn": "Following Piaget's developmental frame, Kohlberg told dilemmas such as 'should Heinz steal the drug to save his wife' and, scoring the reasons people gave rather than the choice itself, sorted moral reasoning into three levels and six stages: preconventional (punishment, reciprocity), conventional (being a good person, upholding order and law), and postconventional (social contract, universal ethical principles). His focus was how the structure of reasoning develops with age and experience. The criticism is equally sharp: Carol Gilligan held that it over-rewarded abstract 'justice' at the expense of 'care' and drew on almost wholly male samples, and studies show that the high-stage reasoning people voice often fails to match what they actually do.",
+    "keyIdeas": [
+      "三水平六阶段",
+      "道德两难法",
+      "后习俗推理",
+      "正义伦理"
+    ],
+    "keyIdeasEn": [
+      "Three levels six stages",
+      "Moral-dilemma method",
+      "Postconventional reasoning",
+      "Ethics of justice"
+    ],
+    "works": [
+      "《道德发展的哲学》",
+      "《道德发展心理学》"
+    ],
+    "worksEn": [
+      "The Philosophy of Moral Development",
+      "The Psychology of Moral Development"
+    ],
+    "related": [
+      "moral-development",
+      "piaget"
+    ],
+    "tags": [
+      "发展",
+      "道德"
+    ],
+    "sources": [
+      {
+        "label": "Lawrence Kohlberg, The Psychology of Moral Development",
+        "year": 1984
+      }
+    ]
   }
 ]

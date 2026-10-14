@@ -244,5 +244,56 @@
     "categoryEn": "Social",
     "related": ["halo-effect", "bandwagon", "priming"],
     "sources": [{ "label": "Zajonc (1968)", "year": 1968 }]
+  },
+  {
+    "id": "thorndike-cat",
+    "term": "桑代克的饿猫（迷箱）",
+    "termEn": "Thorndike's Puzzle Box (Hunger Cat)",
+    "year": 1898,
+    "oneLiner": "饿猫在迷箱里乱撞，偶然触开机关注食，反复几次后无效动作越来越少、越开越快。",
+    "oneLinerEn": "A hungry cat thrashed in a puzzle box, hit the latch by chance to reach food, and shed wasted acts over trials.",
+    "detail": "桑代克把饥饿的猫关进迷箱，箱外摆着食物。猫起初胡乱抓咬冲撞，直到偶然碰到开关，门开、逃出、吃到食物。一次次重复中，随机的错误动作逐渐减少，逃脱越来越快——学习不是「一下子领悟整个情境的关系」，而是刺激与反应之间的联结被结果挑选、巩固下来。由此他提出「效果律」（带来满足的联结被加强、引起烦恼的联结被削弱），以及「练习律」和「准备律」。这套试误说为后来的行为主义、尤其是斯金纳的操作性条件反射铺了路。",
+    "detailEn": "Thorndike shut a hungry cat in a puzzle box with food outside. At first it clawed and thrashed at random until, by chance, it hit the latch, the door sprang, and it escaped to the food. Over trials the wasted movements thinned and escape grew faster—learning was not a sudden grasp of the whole situation but the selection and stamping-in of stimulus-response links by their consequences. From it he stated the law of effect (links followed by satisfaction are strengthened, those followed by annoyance weakened), with the laws of exercise and readiness. This trial-and-error account paved the way for behaviorism and, above all, Skinner's operant conditioning.",
+    "ethics": "涉及动物（饥饿并被限制的猫），按今天的标准会被严格限制；当时对实验动物的福利规范相当宽松。",
+    "ethicsEn": "Involved an animal (a hungry, confined cat) that today would be tightly restricted; welfare norms for laboratory animals were rather lax at the time.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "skinner-box",
+      "pavlov-dog",
+      "conditioning",
+      "reinforcement"
+    ],
+    "sources": [
+      {
+        "label": "Thorndike, Animal Intelligence",
+        "year": 1911
+      }
+    ]
+  },
+  {
+    "id": "bystander-intervention",
+    "term": "旁观者干预实验（癫痫求助）",
+    "termEn": "Bystander Intervention (Seizure Study)",
+    "year": 1968,
+    "oneLiner": "对讲机里有人「癫痫发作」，被告知在场的旁人越多，个人出手相救的越少、也越慢。",
+    "oneLinerEn": "Hearing a 'seizure' over the intercom, subjects helped less often and more slowly the more bystanders they thought were present.",
+    "detail": "达利和拉塔内受当时轰动社会的求助案启发，安排被试通过对讲机听到一名「其他参与者」疑似癫痫发作的求救，只操纵被试以为同时也听到的人数（独自一人、另有两人、另有多人）。结果很清楚：以为在场者越少，个体越快报告紧急情况、越多的人出手；以为在场者越多，反应越迟缓，很多人根本不动。他们把这一现象归于「责任分散」（人人都以为别人会管）与「多元无知」（见别人都镇定不动，自己也判断这事并不紧急）。它成为社会心理学最经典的发现之一，也带出了大量关于紧急情境的后续研究。",
+    "detailEn": "Inspired by widely reported cases of a victim whom no one helped, Darley and Latané had subjects hear over an intercom a fellow participant apparently suffering an epileptic seizure, varying only how many others the subject believed were also listening (alone, one other, several). The result was clear: the fewer bystanders thought present, the faster and the more often a subject reported the emergency; the more present, the slower the response, with many not acting at all. They explained it through diffusion of responsibility (each assumes someone else will step in) and pluralistic ignorance (everyone else staying calm reads as 'this is not an emergency'). It became a cornerstone finding in social psychology and spawned much follow-up work.",
+    "ethics": "有意制造强烈的紧急感与见死不救的内疚，属伦理敏感实验；此后这类研究须经伦理审查，并事后充分说明与疏导。",
+    "ethicsEn": "Deliberately induced a strong sense of emergency and the guilt of not helping—ethically sensitive work; such studies now require review plus full debriefing and aftercare.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": [
+      "asch-conformity",
+      "milgram",
+      "bystander-effect"
+    ],
+    "sources": [
+      {
+        "label": "Darley & Latané, Journal of Personality and Social Psychology",
+        "year": 1968
+      }
+    ]
   }
 ]

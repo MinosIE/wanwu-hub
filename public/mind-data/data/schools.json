@@ -172,5 +172,109 @@
     "related": ["wundt-1879"],
     "tags": ["基础", "早期"],
     "sources": [{ "label": "Titchener, E. 《心理学教科书》", "labelEn": "Titchener, E., An Outline of Psychology", "year": 1908 }]
+  },
+  {
+    "id": "gestalt",
+    "name": "格式塔心理学",
+    "nameEn": "Gestalt Psychology",
+    "era": "20世纪初–中叶",
+    "eraEn": "Early–mid 20th century",
+    "oneLiner": "主张「整体先于并且大于部分之和」，知觉天生把杂乱的刺激组织成有结构的完形。",
+    "oneLinerEn": "Holds the whole precedes and exceeds the sum of parts, the mind organizing raw stimulus into structured wholes.",
+    "core": "知觉不是感觉元素的拼装，而是先按「简洁有力、趋向完形」的原则整体地组织起来；研究应从现象的整层出发，而不是拆成孤立元素。",
+    "coreEn": "Perception is not an assembly of sensation-elements but is organized first as wholes by principles favoring the simple and good figure; inquiry should start from the phenomenal whole, not isolated elements.",
+    "founders": [
+      "马克斯·韦特海默",
+      "沃尔夫冈·苛勒",
+      "库尔特·考夫卡"
+    ],
+    "foundersEn": [
+      "Max Wertheimer",
+      "Wolfgang Köhler",
+      "Kurt Koffka"
+    ],
+    "keyIdeas": [
+      "整体先于部分",
+      "知觉组织法则",
+      "图与底",
+      "顿悟学习"
+    ],
+    "keyIdeasEn": [
+      "The whole precedes the parts",
+      "Laws of perceptual organization",
+      "Figure and ground",
+      "Insight learning"
+    ],
+    "strengths": "有力地纠正了元素主义的机械拆分，奠定了现代知觉心理学的研究纲领，并提出「顿悟」与生产性思维的学习观。",
+    "strengthsEn": "A powerful corrective to elementism, it founded the modern research program on perception and gave an account of insight and productive thinking in learning.",
+    "criticisms": "早期多是对组织现象的精妙描述，机制与法则的确切表述不足，「好图形」有时近乎同义反复，需后来的计算与神经理论来补足。",
+    "criticismsEn": "Early work was largely elegant description of organizational phenomena with thin mechanism; the 'good figure' verged on the tautological and needed later computational and neural accounts.",
+    "related": [
+      "perception",
+      "structuralism",
+      "learning"
+    ],
+    "tags": [
+      "知觉",
+      "整体论"
+    ],
+    "sources": [
+      {
+        "label": "Koffka, Principles of Gestalt Psychology",
+        "year": 1935
+      }
+    ]
+  },
+  {
+    "id": "functionalism",
+    "name": "机能主义",
+    "nameEn": "Functionalism",
+    "era": "19世纪末–20世纪初",
+    "eraEn": "Late 19th–early 20th century",
+    "oneLiner": "关注意识与行为「有什么用、如何帮有机体适应环境」，而不只是由什么元素构成。",
+    "oneLinerEn": "Asks what mind and behavior are FOR and how they fit the organism to its environment, not merely what they are made of.",
+    "core": "心理过程是有机体适应环境的工具，应从功能与作用去研究意识与行为，而不是静态地拆解其结构。",
+    "coreEn": "Mental processes are tools by which an organism adapts to its environment; consciousness and behavior are to be studied by their function and use rather than parsed into static structure.",
+    "founders": [
+      "威廉·詹姆斯",
+      "约翰·杜威",
+      "詹姆斯·罗兰·安吉尔"
+    ],
+    "foundersEn": [
+      "William James",
+      "John Dewey",
+      "James Rowland Angell"
+    ],
+    "keyIdeas": [
+      "适应与功能",
+      "意识流",
+      "反对元素主义",
+      "应用心理学的开端"
+    ],
+    "keyIdeasEn": [
+      "Adaptation and function",
+      "Stream of consciousness",
+      "Anti-elementalism",
+      "Beginnings of applied psychology"
+    ],
+    "strengths": "把达尔文的进化观引入心理学，把研究对象扩展到动物、儿童、个体差异，以及教育与工业等应用领域。",
+    "strengthsEn": "Carried Darwin's evolutionary view into psychology, widening research to animals, children, individual differences, and the applied domains of education and industry.",
+    "criticisms": "更像一个宽泛的研究纲领而非严密体系，边界模糊；随着行为主义兴起与研究取向的转变，它逐渐被吸收、淡化。",
+    "criticismsEn": "More a broad research program than a tight system, with fuzzy boundaries; it faded and was absorbed as behaviorism and new approaches took hold.",
+    "related": [
+      "james",
+      "structuralism",
+      "behaviorism"
+    ],
+    "tags": [
+      "适应",
+      "应用"
+    ],
+    "sources": [
+      {
+        "label": "John Dewey, The Reflex Arc Concept in Psychology",
+        "year": 1896
+      }
+    ]
   }
 ]

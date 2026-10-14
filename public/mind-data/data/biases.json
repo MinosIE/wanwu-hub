@@ -154,5 +154,50 @@
     "categoryEn": "Judgment & decision making",
     "related": ["loss-aversion", "sunk-cost", "anchoring"],
     "sources": [{ "label": "Kahneman et al. (1990)", "year": 1990 }]
+  },
+  {
+    "id": "survivorship-bias",
+    "term": "幸存者偏差",
+    "termEn": "Survivorship Bias",
+    "oneLiner": "只看得见「通过筛选活下来」的例子，却据此归纳，忽略了被淘汰而没出现的沉默者。",
+    "oneLinerEn": "Seeing only the examples that survived a filter and generalizing from them, while the culled and absent stay silent.",
+    "detail": "幸存者偏差指我们观察的样本被一道筛选偷偷截断：只有「过关者」进了视野，失败者不留痕迹，于是把过关者的特征当成了成功的原因。二战时统计学家瓦尔德的洞见是范例——返航轰炸机的机翼机身满是弹孔、油箱与座舱却基本完好，他说该加固的恰不是有孔的地方，而是那些没孔仍能回来的部位，因为真正致命、一中的就回不来的位置在别处。「辍学的亿万富翁」「老办法也没见谁出事」这类说法都栽在这个坑：你没看到被同一选择淘汰掉的绝大多数。避免的办法是主动追问一句「失败与没回来的样本，都到哪里去了」。",
+    "detailEn": "Survivorship bias is when the sample we observe has been silently truncated by a filter: only the survivors enter view and the failed leave no trace, so we mistake a survivor's traits for the cause of success. The statistician Abraham Wald's wartime insight is the model—returning bombers riddled in the wings and fuselage but largely intact around the tanks and cockpit—and his point was to armor not where the holes were but where the returning planes were NOT hit, since hits elsewhere were fatal and those planes never came back. Claims like 'the dropout billionaire' or 'the old way never hurt anyone' fall into just this trap: you never see the vast majority culled by the same choice. The fix is to ask, deliberately, where the failed and non-returning cases went.",
+    "category": "决策与推理",
+    "categoryEn": "Decision & reasoning",
+    "related": [
+      "availability",
+      "confirmation-bias",
+      "hindsight-bias"
+    ],
+    "sources": [
+      {
+        "label": "《思考，快与慢》",
+        "labelEn": "Thinking, Fast and Slow",
+        "year": 2011
+      }
+    ]
+  },
+  {
+    "id": "bystander-effect",
+    "term": "旁观者效应",
+    "termEn": "Bystander Effect",
+    "oneLiner": "紧急事件里在场的人越多，任何一个人真正出手相助的可能性反而越低。",
+    "oneLinerEn": "The more bystanders to an emergency, the lower the chance that any one of them will actually step in.",
+    "detail": "当有人倒下、起火或遇险，周围的人越多，单个见证人出手的概率常常越低、反应也越慢。起作用的主要有两个机制：一是责任分散，每个人都觉得「总会有人报警」，于是没人觉得自己非动不可；二是对情境的定义，大家互相观望，见别人都镇定，便以为这事没那么严重（即多元无知）。它并不是「人心冷漠」的道德判决，而是情境压力下的可预测结果。破解的办法，是把「大家」变成一个具体的「某个人」：指名道姓地求助——「那位穿红外套的朋友，请拨急救电话」——责任一旦落到某个具体的人身上，就很难再被摊薄。",
+    "detailEn": "When someone collapses, a fire starts or a person is in danger, the more witnesses there are, the lower the odds that any single one will help and the slower the response. Two mechanisms bear most of the weight: diffusion of responsibility, where each person figures 'someone will call', so no one feels obliged to move; and defining the situation, everyone watching everyone else and reading others' calm as proof that it cannot be serious (pluralistic ignorance). This is not a verdict that people are cold but a predictable product of situational pressure. The fix is to turn 'everyone' into 'one particular someone': point and ask—'you in the red coat, please call an ambulance'—once responsibility is pinned on a specific individual it is hard to spread away.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": [
+      "bystander-intervention",
+      "bandwagon",
+      "fundamental-attribution-error"
+    ],
+    "sources": [
+      {
+        "label": "Latané & Darley, The Unresponsive Bystander",
+        "year": 1970
+      }
+    ]
   }
 ]

@@ -311,5 +311,95 @@
     "related": ["attribution", "social-media-mood"],
     "tags": ["发展", "社会", "道德"],
     "sources": [{ "label": "Kohlberg (1981) / Haidt (2012)", "year": 2012 }]
+  },
+  {
+    "id": "forgetting-curve",
+    "term": "遗忘曲线与间隔复习",
+    "termEn": "Forgetting Curve & Spacing",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "level": 2,
+    "oneLiner": "学完之后遗忘先快后慢，把复习拉开到几天里，比临时猛背记得牢得多。",
+    "oneLinerEn": "Forgetting falls fast then slow after learning; spreading review across days beats cramming for lasting memory.",
+    "detail": "艾宾浩斯最早测出：刚记住的内容在一两天内掉得最凶，之后趋于平缓——这就是遗忘曲线。由它可以推出两件最可操作的事。其一是「间隔效应」：同样的总复习时间，拆成当天、次日、几天后、一周后分几次来用，记得远比一次连着长背扎实。其二是「提取练习」胜过反复「重读」：合上书本、从记忆里把内容拉回来，这个动作本身才真正加固记忆，而一遍遍重读往往给人「我熟了」的错觉。它与日常分类里的「间隔与提取练习」条目配套，是学习科学里最容易落地的一条。",
+    "detailEn": "Ebbinghaus first measured that what you have just learned drops off steeply within a day or two and then levels out—the forgetting curve. From it follow two highly practical consequences. First, the spacing effect: the same total review time, split across the same day, the next day, a few days on and a week later, holds far more than a single long cram. Second, retrieval practice beats rereading: closing the book and pulling the content back out of memory is what actually strengthens it, while re-reading repeatedly tends to give the false feel of 'I know this'. It pairs with the everyday entry on spacing and retrieval, and is the most down-to-earth finding in the science of learning.",
+    "example": "背 100 个单词，与其考前一晚连背三小时，不如当晚先过一遍、次日默写、第四天再默、一周后再回顾，每次时间更短，却记得更牢。",
+    "exampleEn": "For 100 words, rather than cramming three hours the night before a test, run them once that night, write them from memory the next day, again on day four, and revisit a week later—each session shorter, yet far stickier.",
+    "related": [
+      "memory",
+      "spacing-retrieval",
+      "learning"
+    ],
+    "tags": [
+      "学习",
+      "记忆"
+    ],
+    "sources": [
+      {
+        "label": "艾宾浩斯《关于记忆》",
+        "labelEn": "Hermann Ebbinghaus, Über das Gedächtnis",
+        "year": 1885
+      }
+    ]
+  },
+  {
+    "id": "identity",
+    "term": "自我同一性",
+    "termEn": "Identity (Ego Identity)",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "oneLiner": "关于「我是谁、我信什么、我要成为谁」的一种连贯而稳定的自我感。",
+    "oneLinerEn": "A coherent, settled sense of who you are—what you value and who you are becoming.",
+    "detail": "「同一性」指一个人把自己的角色、信念、目标与过往经历，整合成「还是同一个人」的那种稳定感，是埃里克森发展理论的核心概念。青春期的课题正是探索并确立它，若确立不了便陷入「角色混乱」。后来的研究者把它细化成由「探索」与「承诺」两个维度组合出的几种状态：经过探索又有所承诺（同一性达成）、没探索就照搬他人的安排（早闭）、一直纠结定不下来（扩散）、仍在探索尚未落定（延缓）。同一性能否稳定，与青少年时期的抉择、投入，乃至情绪健康都密切相关。",
+    "detailEn": "'Identity' is the settled sense of being one and the same person across the roles, beliefs, goals and past one carries—the central concept in Erikson's developmental theory, whose adolescent task is to explore and establish it, failing which one falls into 'role confusion'. Later researchers refined it into statuses built from two dimensions, exploration and commitment: achieved (explored, then committed), foreclosed (committed without exploring, by adopting others' plan), diffuse (never settled), and moratorium (still searching, undecided). How stable identity becomes bears strongly on an adolescent's choices, engagement and even emotional health.",
+    "example": "一个学生从「爸妈要我学医」转向「我弄清了自己更想做设计，并愿意为这个选择负责」，正是同一性从混乱走向确立的过程。",
+    "exampleEn": "A student moving from 'my parents want me to study medicine' to 'I've explored this and truly want design, and I'll own the choice' is living out identity coming together out of confusion.",
+    "related": [
+      "self",
+      "erikson",
+      "moral-development"
+    ],
+    "tags": [
+      "发展",
+      "自我"
+    ],
+    "sources": [
+      {
+        "label": "埃里克森《身份：青年与危机》",
+        "labelEn": "Erik Erikson, Identity: Youth and Crisis",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "id": "zpd",
+    "term": "最近发展区",
+    "termEn": "Zone of Proximal Development",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "oneLiner": "孩子「自己能做的」与「有人搭把手就能做的」之间那段区间，正是教学该瞄准的地方。",
+    "oneLinerEn": "The gap between what a child can do alone and what they can do with help is exactly where teaching should aim.",
+    "detail": "维果茨基区分两种水平：孩子此刻能独立完成任务的「实际发展水平」，与在成人或能力更强的伙伴引导下能够达到的「潜在水平」，两者之间的落差就是「最近发展区（ZPD）」。好的教学不该一味迁就孩子已经会的，而应落在这个区间里，用「脚手架」——示范、提问、一步步的提示——先扶住，再随着能力被内化而一层层撤除。它把「先发展、后学习」的常识倒转过来：恰当的教学能够牵引、带动发展。从辅导作业到结对学习、从游戏关卡到自适应系统，背后走的都是这条思路。",
+    "detailEn": "Vygotsky split two levels: the 'actual development level' of what a child can finish unaided right now, and the 'potential level' reachable under the guidance of an adult or a stronger peer—the gap between them is the zone of proximal development (ZPD). Good teaching should not simply cater to what is already mastered but land inside this zone, using 'scaffolding'—demonstration, questioning, graduated hints—to hold the learner up, then peel the support back layer by layer as skill turns inward. It inverts the common sense that development must precede learning: apt teaching pulls development along. From homework tutoring and paired study to game levels and adaptive systems, this same idea runs underneath.",
+    "example": "教孩子下棋：先陪着走、提醒「这一步会不会被吃」，等他能自己看清局面时再一点点放手——这段「帮一下就懂、不管就不会」的区间就是最近发展区。",
+    "exampleEn": "Teaching a child chess: play alongside, ask 'will this piece get taken?', then let go little by little as they read the board themselves—that stretch of 'gets it with a nudge, not yet without' is the zone of proximal development.",
+    "related": [
+      "vygotsky",
+      "learning",
+      "self-efficacy"
+    ],
+    "tags": [
+      "发展",
+      "学习"
+    ],
+    "sources": [
+      {
+        "label": "维果茨基《思维与语言》",
+        "labelEn": "Lev Vygotsky, Thought and Language",
+        "year": 1934
+      }
+    ]
   }
 ]
