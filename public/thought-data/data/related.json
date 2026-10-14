@@ -531,6 +531,34 @@
       "nEn": "Albert Camus"
     }
   ],
+  "epicurus": [
+    {
+      "m": "m-thinkers",
+      "n": "伊壁鸠鲁",
+      "nEn": "Epicurus"
+    }
+  ],
+  "hobbes": [
+    {
+      "m": "m-thinkers",
+      "n": "托马斯·霍布斯",
+      "nEn": "Thomas Hobbes"
+    }
+  ],
+  "rousseau": [
+    {
+      "m": "m-thinkers",
+      "n": "让-雅克·卢梭",
+      "nEn": "Jean-Jacques Rousseau"
+    }
+  ],
+  "hegel": [
+    {
+      "m": "m-thinkers",
+      "n": "黑格尔",
+      "nEn": "G. W. F. Hegel"
+    }
+  ],
   "metaphysics": [
     {
       "m": "m-branches",

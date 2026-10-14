@@ -1261,5 +1261,213 @@
     ],
     "related": ["existentialism", "meaning", "death"],
     "sources": [{ "label": "《西西弗神话》", "labelEn": "The Myth of Sisyphus" }]
+  },
+  {
+    "id": "epicurus",
+    "name": "伊壁鸠鲁",
+    "nameEn": "Epicurus",
+    "life": "前341—前270",
+    "lifeEn": "341–270 BC",
+    "country": "古希腊",
+    "countryEn": "Ancient Greece",
+    "school": "伊壁鸠鲁学派",
+    "schoolEn": "Epicureanism",
+    "level": 2,
+    "order": 26,
+    "tags": ["快乐", "宁静"],
+    "tagsEn": ["Pleasure", "Tranquility"],
+    "oneLiner": "真正的快乐不是纵情声色，而是身体无痛、心灵宁静与真挚友谊。",
+    "oneLinerEn": "True pleasure is not indulgence but a body free of pain, a tranquil mind and real friendship.",
+    "bio": "古希腊哲学家，在雅典的「花园」中与弟子共同生活、讲学。他把快乐确立为生活的目的，却将快乐理解为痛苦的缺席与心灵的安宁，主张节制欲望、研习自然、免除对神与死的恐惧。",
+    "bioEn": "Ancient Greek philosopher who lived and taught with his followers in the Athenian 'Garden'. He made pleasure the aim of life yet defined it as the absence of pain and disturbance, urging moderated desires, the study of nature, and freedom from fear of the gods and of death.",
+    "ideas": [
+      {
+        "k": "心灵的宁静",
+        "kEn": "Ataraxia",
+        "v": "快乐即无痛与不扰，非感官的放纵。",
+        "vEn": "Pleasure is freedom from pain and disturbance, not sensual excess."
+      },
+      {
+        "k": "欲望三分",
+        "kEn": "Three kinds of desire",
+        "v": "自然又必要的易满足，虚名的欲望无穷。",
+        "vEn": "Natural and necessary desires are easily filled; empty ones are endless."
+      },
+      {
+        "k": "死亡不足惧",
+        "kEn": "Death is nothing to us",
+        "v": "我们在时死未至，死至时我已不在。",
+        "vEn": "Where I am, death is not; where death is, I am not."
+      }
+    ],
+    "works": [
+      { "title": "主训篇", "titleEn": "Principal Doctrines", "year": -300 },
+      { "title": "致墨诺刻俄斯书", "titleEn": "Letter to Menoeceus", "year": -300 }
+    ],
+    "quotes": [
+      {
+        "q": "不要破坏我们所拥有的，而是渴望我们所没有的，如此便不快乐。",
+        "qEn": "Nothing is enough for the man to whom enough is too little."
+      }
+    ],
+    "related": ["ethics", "ataraxia", "stoicism", "aristotle", "utilitarianism"],
+    "sources": [{ "label": "《主训篇》", "labelEn": "Principal Doctrines", "year": -300 }]
+  },
+  {
+    "id": "hobbes",
+    "name": "托马斯·霍布斯",
+    "nameEn": "Thomas Hobbes",
+    "life": "1588—1679",
+    "lifeEn": "1588–1679",
+    "country": "英国",
+    "countryEn": "England",
+    "school": "社会契约论",
+    "schoolEn": "Social Contract Theory",
+    "level": 2,
+    "order": 27,
+    "tags": ["性恶", "主权"],
+    "tagsEn": ["State of Nature", "Sovereignty"],
+    "oneLiner": "没有公共权力时人对人如狼，人们让渡权利给主权者以换取秩序与安全。",
+    "oneLinerEn": "Without a common power people are wolves to one another; we hand rights to a sovereign to buy order and safety.",
+    "bio": "英国哲学家，著《利维坦》。他设想没有共同权力的「自然状态」是人人自危的战争，生活因而孤独、贫困而短寿；人们为求自保订立契约，把权力交给一个强大的主权者。他是近代政治哲学与社会契约论的奠基者之一。",
+    "bioEn": "English philosopher, author of Leviathan. He imagined a 'state of nature' without a common power as a war of all against all that made life solitary, poor and short; to survive, people covenant to surrender their power to a strong sovereign. He is a founder of modern political philosophy and contract theory.",
+    "ideas": [
+      {
+        "k": "自然状态",
+        "kEn": "State of nature",
+        "v": "无权威时人对人是狼，人人自危。",
+        "vEn": "Without authority, every person is a wolf to every other."
+      },
+      {
+        "k": "社会契约",
+        "kEn": "Social contract",
+        "v": "各方让渡权利，服从共同主权以求和平。",
+        "vEn": "Each surrenders rights to a common sovereign in exchange for peace."
+      },
+      {
+        "k": "利维坦",
+        "kEn": "Leviathan",
+        "v": "主权者如人造的巨人，以威权维系秩序。",
+        "vEn": "The sovereign is an artificial giant whose awe keeps order."
+      }
+    ],
+    "works": [
+      { "title": "利维坦", "titleEn": "Leviathan", "year": 1651 },
+      { "title": "论公民", "titleEn": "De Cive", "year": 1642 }
+    ],
+    "quotes": [
+      {
+        "q": "人的生活孤独、贫困、卑污、残忍而短寿。",
+        "qEn": "The life of man is solitary, poor, nasty, brutish, and short."
+      }
+    ],
+    "related": ["political-philosophy", "locke", "rousseau", "justice", "aristotle"],
+    "sources": [{ "label": "《利维坦》", "labelEn": "Leviathan", "year": 1651 }]
+  },
+  {
+    "id": "rousseau",
+    "name": "让-雅克·卢梭",
+    "nameEn": "Jean-Jacques Rousseau",
+    "life": "1712—1778",
+    "lifeEn": "1712–1778",
+    "country": "日内瓦 · 法国",
+    "countryEn": "Geneva · France",
+    "school": "启蒙思想",
+    "schoolEn": "Enlightenment",
+    "level": 2,
+    "order": 28,
+    "tags": ["自由", "公意"],
+    "tagsEn": ["Liberty", "General Will"],
+    "oneLiner": "人生而自由却无往不在枷锁之中；主权在民，法律应出自公意。",
+    "oneLinerEn": "Man is born free yet everywhere in chains; sovereignty rests with the people and law should flow from the general will.",
+    "bio": "生于日内瓦的法国思想家，著《社会契约论》《爱弥儿》《忏悔录》。他批判私有制与文明使人堕落，主张人本善良而被社会败坏；以「公意」立国、主权在民，并倡导顺应天性的自然教育，深刻影响了法国大革命、现代民主与教育思想。",
+    "bioEn": "Geneva-born French thinker behind The Social Contract, Emile and the Confessions. He critiqued property and civilization as corrupting, held that people are naturally good but spoiled by society, founded the state on the 'general will' with popular sovereignty, and urged education that follows nature — shaping the French Revolution, modern democracy and educational thought.",
+    "ideas": [
+      {
+        "k": "公意",
+        "kEn": "General will",
+        "v": "主权在人民共同的意志，而非私利之和。",
+        "vEn": "Sovereignty lies in the common will of the people, not the sum of private interests."
+      },
+      {
+        "k": "人生而自由",
+        "kEn": "Born free",
+        "v": "自由是人的天性，枷锁来自不合理的制度。",
+        "vEn": "Liberty is our nature; the chains come from unjust institutions."
+      },
+      {
+        "k": "自然教育",
+        "kEn": "Natural education",
+        "v": "顺应儿童天性，多体验、少灌输。",
+        "vEn": "Follow the child's nature; give experience, not cramming."
+      }
+    ],
+    "works": [
+      { "title": "社会契约论", "titleEn": "The Social Contract", "year": 1762 },
+      { "title": "爱弥儿", "titleEn": "Emile", "year": 1762 }
+    ],
+    "quotes": [
+      {
+        "q": "人生而自由，却无往不在枷锁之中。",
+        "qEn": "Man is born free, and everywhere he is in chains."
+      }
+    ],
+    "related": ["political-philosophy", "hobbes", "locke", "kant", "two-liberties"],
+    "sources": [{ "label": "《社会契约论》", "labelEn": "The Social Contract", "year": 1762 }]
+  },
+  {
+    "id": "hegel",
+    "name": "黑格尔",
+    "nameEn": "G. W. F. Hegel",
+    "life": "1770—1831",
+    "lifeEn": "1770–1831",
+    "country": "德国",
+    "countryEn": "Germany",
+    "school": "德国唯心论",
+    "schoolEn": "German Idealism",
+    "level": 3,
+    "order": 29,
+    "tags": ["辩证法", "精神"],
+    "tagsEn": ["Dialectics", "Spirit"],
+    "oneLiner": "现实与历史在矛盾与否定中层层上扬，精神逐步认识到自身而达于自由。",
+    "oneLinerEn": "Reality and history rise through contradiction and negation as Spirit comes to know itself and so attains freedom.",
+    "bio": "德国哲学家，德国唯心论的集大成者。他以「辩证法」理解现实与历史：任何确定的观念都内含自身的矛盾，经由否定而被扬弃、上升到更高的统一。其《精神现象学》《法哲学原理》《历史哲学讲演录》深刻影响了马克思、存在主义与整个近代思想。",
+    "bioEn": "German philosopher and culmination of German Idealism. He read reality and history dialectically: every determinate idea carries its own contradiction and, through negation, is sublated into a higher unity. His Phenomenology of Spirit, Philosophy of Right and Lectures on the Philosophy of History deeply shaped Marx, existentialism and much of modern thought.",
+    "ideas": [
+      {
+        "k": "辩证法",
+        "kEn": "Dialectic",
+        "v": "肯定内含否定，经否定之否定而达更高统一。",
+        "vEn": "Each position holds its own negation and, through it, rises to a higher unity."
+      },
+      {
+        "k": "扬弃",
+        "kEn": "Sublation",
+        "v": "既被取消又被保存，在更高层面被保留。",
+        "vEn": "At once cancelled and preserved, kept on a higher level."
+      },
+      {
+        "k": "理性的狡计",
+        "kEn": "Cunning of reason",
+        "v": "历史借个人的激情来实现其自身的进程。",
+        "vEn": "History works out its own course through the passions of individuals."
+      }
+    ],
+    "works": [
+      { "title": "精神现象学", "titleEn": "Phenomenology of Spirit", "year": 1807 },
+      {
+        "title": "法哲学原理",
+        "titleEn": "Elements of the Philosophy of Right",
+        "year": 1820
+      }
+    ],
+    "quotes": [
+      {
+        "q": "凡是合乎理性的都是现实的，凡是现实的都是合乎理性的。",
+        "qEn": "What is rational is actual, and what is actual is rational."
+      }
+    ],
+    "related": ["philosophy-of-history", "marx", "marxism", "kant", "aristotle"],
+    "sources": [{ "label": "《精神现象学》", "labelEn": "Phenomenology of Spirit", "year": 1807 }]
   }
 ]

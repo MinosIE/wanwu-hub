@@ -99,7 +99,7 @@
 **目标：4 类 → 10+。** 现 10 类 / 184 条 ✅
 
 - [x] 学派（补 `schools`→20+，含中国先秦诸子、宋明理学、近现代）（现 20）
-- [x] 哲学家（补 `thinkers`→25+）（现 25，新增阿奎那/斯宾诺莎/朱熹/杜威/加缪）
+- [x] 哲学家（补 `thinkers`→25+）（现 29，新增阿奎那/斯宾诺莎/朱熹/杜威/加缪；第十五批补霍布斯/黑格尔/卢梭/伊壁鸠鲁）
 - [~] 经典著作（补 `classics`→20+）（现 16，新增道德形而上学奠基/伦理学/哲学研究/存在与虚无）
 - [x] 核心问题（补 `questions`→15+）（现 15，新增美/他心/共相/归纳/道德实在论）
 - [x] 分支：形而上学/认识论/伦理学/逻辑学/美学/政治哲学/心灵/科学/语言/历史/现象学（11 条，独立视图🧩）
@@ -108,6 +108,7 @@
 - [x] 思想实验 `experiments.json`（新，14 条：洞穴/缸中之脑/电车/中文房间/无知之幕…）
 - [x] 中西哲学对比 `compare.json`（新，10 组：名实/知行/正义与义…）
 - [x] 常见误区 `myths.json`（新，14 条：「哲学无用」「存在主义是虚无主义」…）
+- [x] **thought 精修第一批（第十五批）：为已在时间线/对比/误区中被引用、却无本人传记的大哲学家补 thinkers +4 条**（新增 4 条、不动现有 25 条）——霍布斯（1588—1679，自然状态是一切人对一切人的战争、以契约把权力让渡给主权者，`tl-hobbes`/`xingshan-hobbes-compare` 早有引用）、黑格尔（1770—1831，辩证法与扬弃、精神在历史中走向自由，`tl-hegel` 被引用）、伊壁鸠鲁（前341—前270，快乐即身体无痛与心灵宁静、死亡不足惧，`myth-epicurus-debauch` 正澄清其「纵欲」误区）三位此前只在他处出现却无本人条目，属内部一致性缺口；顺势补卢梭（1712—1778，公意与主权在民、「人生而自由却无往不在枷锁之中」），完善社会契约脉络（霍布斯—洛克—卢梭）。thought 与 mind 不同：除 `thinkers.json` 外另有派生 `search.json`/`related.json`（由 `index:build` 生成）与 overview 的 `counts`+`kpis` 两处计数，故 append-only 写回后须 `npm run index:build -- thought` 重建派生文件（search 184→188、related 同步）+ 定点改 overview.thinkers 25→29。新条目 `related` 全部跨模块解析（含本批互引 hobbes↔rousseau）、`*En` 纯 ASCII 无汉字、含中文 source label 均配 `labelEn`。实测：`thinkers.json` git diff deletions=0、thought 184→188 条、`check:json` 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`
 
 ### 3.4 万物化学 chem（subjectKit，🟠）
 

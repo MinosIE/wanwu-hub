@@ -5,7 +5,7 @@
     "questions": 15,
     "branches": 11,
     "classics": 16,
-    "thinkers": 25,
+    "thinkers": 29,
     "glossary": 30,
     "timeline": 25,
     "experiments": 14,
@@ -14,7 +14,7 @@
   },
   "kpis": [
     { "key": "schools", "icon": "🏛️", "value": 20 },
-    { "key": "thinkers", "icon": "👤", "value": 25 },
+    { "key": "thinkers", "icon": "👤", "value": 29 },
     { "key": "classics", "icon": "📜", "value": 16 },
     { "key": "questions", "icon": "❓", "value": 15 }
   ]
