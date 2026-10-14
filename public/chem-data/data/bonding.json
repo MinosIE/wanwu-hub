@@ -7,8 +7,8 @@
     "level": 1,
     "oneLiner": "阴、阳离子通过静电作用结合，常见于活泼金属与活泼非金属。",
     "oneLinerEn": "Electrostatic attraction between ions; typical of active metals with active nonmetals.",
-    "detail": "如 NaCl：钠失去电子成 Na⁺、氯得到电子成 Cl⁻；离子化合物熔沸点较高、固态不导电、熔融或溶于水导电。",
-    "detailEn": "E.g. NaCl: Na loses an electron, Cl gains one. Ionic solids have high melting points and conduct when molten or dissolved.",
+    "detail": "阴、阳离子靠静电作用结合成离子键，这种作用既有吸引也有排斥，最终达到平衡；它一般形成于活泼金属与活泼非金属之间。如 NaCl 中钠失去一个电子成 Na⁺、氯得到一个电子成 Cl⁻，两者都达到 8 电子稳定结构。离子键没有方向性也没有饱和性，一个 Na⁺ 周围可同时吸引六个 Cl⁻，所以 NaCl 是立方的离子晶体而不是一个个 NaCl 分子，化学式只表示离子的个数比。据此可判性质：熔沸点较高、硬而脆，固态时离子被钉住不能移动故不导电，熔融或溶于水时电离出自由离子才导电。它与靠共用电子的「共价键」正好相对，二者同属「化学键」，而电负性差越大越倾向生成离子键（见「电负性与电离能」）。",
+    "detailEn": "Ions are held by electrostatic action that balances attraction and repulsion, typically between a reactive metal and a reactive nonmetal: in NaCl sodium loses one electron to Na⁺ and chlorine gains one to Cl⁻, both reaching a stable eight. The ionic bond has neither direction nor saturation, so one Na⁺ grips six Cl⁻ at once, which is why NaCl is a cubic crystal rather than separate molecules and the formula only gives the ion ratio. Hence the properties — high melting point, hard but brittle, non-conductive as a solid because the ions are locked, yet conductive when molten or dissolved once free ions appear. It is the give-and-take counterpart of the shared-electron covalent bond (see Covalent Bond), both being chemical bonds (see Chemical Bonds), and a larger electronegativity gap favors ionic character (see Electronegativity & Ionization).",
     "tags": ["化学键"],
     "tagsEn": ["Bonding"]
   },
@@ -20,8 +20,8 @@
     "level": 1,
     "oneLiner": "原子间共用电子对形成的化学键，分极性与非极性。",
     "oneLinerEn": "Shared electron pairs between atoms; polar or nonpolar.",
-    "detail": "非金属之间常见。相同原子间为非极性（H₂、Cl₂），不同原子间为极性（HCl、H₂O）；可用电子式与结构式表示。",
-    "detailEn": "Common among nonmetals: nonpolar between like atoms (H₂), polar between unlike atoms (HCl). Shown by electron and structural formulas.",
+    "detail": "原子间通过共用电子对形成的化学键叫共价键，多见于非金属原子之间。按共用电子对有没有偏向，分两类：同种原子间电子对不偏移，为非极性键（H₂、Cl₂、N₂）；不同原子间电子对偏向电负性大的一方，为极性键（HCl、H₂O）。共用一对叫单键、两对叫双键（O=O）、三对叫三键（N≡N），键长依次缩短、键能依次增大。分子整体有没有极性还得看空间构型：CO₂ 虽含极性键却因直线对称而抵消、是非极性分子。电子式用点标出共用与孤对电子，结构式用一根短线代表一对共用电子。共价键有方向性和饱和性，与无方向的「离子键」互补，二者统称「化学键」，成键类型由电负性差决定（见「电负性与电离能」）。",
+    "detailEn": "A covalent bond is a shared electron pair between atoms, most often nonmetals. If the pair sits evenly the bond is nonpolar (H₂, Cl₂, N₂); if it leans toward the more electronegative atom the bond is polar (HCl, H₂O). One shared pair is a single bond, two a double (O=O) and three a triple (N≡N), with shortening length and rising bond energy. Whether the whole molecule is polar is a separate question of shape: CO₂ has polar bonds yet is a nonpolar molecule because its linearity cancels them. Dot formulas mark shared and lone pairs, structural formulas draw each pair as one line. Covalent bonds are directional and saturated, complementing directionless ionic bonds (see Ionic Bond); together these are chemical bonds (see Chemical Bonds), and the electronegativity gap decides which forms (see Electronegativity & Ionization).",
     "tags": ["化学键"],
     "tagsEn": ["Bonding"]
   },
@@ -46,8 +46,8 @@
     "level": 2,
     "oneLiner": "分子间的弱作用（范德华力）与较强的氢键，决定熔沸点与溶解性。",
     "oneLinerEn": "Weak van der Waals forces and stronger hydrogen bonds govern boiling points and solubility.",
-    "detail": "氢键使水的沸点异常高、冰密度小于水；DNA 双链也靠氢键配对。",
-    "detailEn": "Hydrogen bonding raises water's boiling point, makes ice float, and pairs the DNA double helix.",
+    "detail": "分子之间存在比化学键弱得多的作用：广泛存在的范德华力，以及特殊的氢键。范德华力随相对分子质量增大、分子接触面积增大而增强，所以卤素单质从 F₂、Cl₂ 的气态到 Br₂ 液态、I₂ 固态，熔沸点一路升高；它不是化学键，破坏它只改变物质状态而不改变分子本身。氢键则是含 N、O、F 的分子里，氢与电负性大原子之间的较强吸引，比范德华力强却仍远弱于「共价键」。氢键解释了几件反常：水的沸点远高于同族的 H₂S、冰因氢键把分子排成疏松结构而密度比水小、所以浮在水面、DNA 双链靠碱基间 A–T 与 G–C 的氢键配对。它们与把原子拧在一起的「化学键」分属不同层级的作用，也正是这些弱作用决定了「晶体类型」里分子晶体的低熔沸点（见「晶体类型」）。",
+    "detailEn": "Between molecules act forces far weaker than bonds: the universal van der Waals force and the special hydrogen bond. Van der Waals grows with molecular mass and contact area, so the halogens climb from gaseous F₂ and Cl₂ to liquid Br₂ and solid I₂ with steadily rising melting and boiling points; it is not a chemical bond, and breaking it changes only the state, not the molecule. A hydrogen bond is the stronger pull, in molecules holding N, O or F, between a hydrogen and an electronegative atom — sturdier than van der Waals yet far weaker than a covalent bond (see Covalent Bond). Hydrogen bonding explains several anomalies: water boils far above H₂S below it, ice floats because hydrogen bonds hold it in an open lattice less dense than liquid water, and the DNA helix pairs A–T and G–C through it. These sit at a different level from the chemical bonds that weld atoms together (see Chemical Bonds), and such weak forces are exactly what give molecular crystals their low melting points (see Crystal Types).",
     "tags": ["分子间"],
     "tagsEn": ["Intermolecular"]
   },
@@ -59,8 +59,8 @@
     "level": 3,
     "oneLiner": "离子晶体、分子晶体、原子晶体与金属晶体，性质差异悬殊。",
     "oneLinerEn": "Ionic, molecular, covalent-network and metallic crystals differ greatly in properties.",
-    "detail": "金刚石（原子晶体）极硬、干冰（分子晶体）易升华、食盐（离子晶体）质脆能溶于水电解质。",
-    "detailEn": "Diamond (network) is very hard, dry ice (molecular) sublimes, salt (ionic) is brittle and its solution conducts.",
+    "detail": "按构成微粒与微粒间作用力，晶体分四类。离子晶体由阴、阳离子经离子键堆成（NaCl、CaO），熔沸点较高、硬而脆，固态不导电而熔融或溶解导电；分子晶体由分子经分子间作用力（有时还有氢键）排列（干冰、冰、碘），熔沸点低、多数易升华、不导电；原子晶体（共价晶体）由原子经共价键向空间延伸成骨架（金刚石、晶体硅、SiO₂），是四类里最硬、熔点最高的；金属晶体由金属阳离子与自由电子经「金属键」结合，导电导热、有延展性。比较熔点大体是原子晶体高于离子晶体高于分子晶体，同类之内再比键强与晶格能，如金刚石硬于晶体硅、MgO 熔点高于 NaCl。晶体类型与化学键类型相互对应，判类型先问微粒、再问作用力（见「离子键」「共价键」）。",
+    "detailEn": "Sorted by their building particles and the forces between them, crystals fall into four kinds. Ionic crystals stack cations and anions by ionic bonds (NaCl, CaO): fairly high melting, hard but brittle, non-conductive solid that conducts when molten or dissolved. Molecular crystals pack molecules held by intermolecular forces and sometimes hydrogen bonds (dry ice, ice, iodine): low melting, many sublime, non-conductive. Network covalent crystals extend atoms through covalent bonds into a giant framework (diamond, crystal silicon, SiO₂), the hardest and highest-melting of the four. Metallic crystals bind cations and a sea of free electrons by metallic bonds, so they conduct heat and electricity and can be drawn out (see Metallic Bond). Melting points run roughly network above ionic above molecular, and within a kind you compare bond strength and lattice energy, so diamond beats silicon and MgO beats NaCl. The crystal type maps onto the bond type — first ask what the particles are, then what holds them (see Ionic Bond and Covalent Bond).",
     "tags": ["物质结构"],
     "tagsEn": ["Structure"]
   },
