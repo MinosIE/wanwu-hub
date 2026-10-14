@@ -7,8 +7,8 @@
     "level": 1,
     "oneLiner": "连接微观粒子与宏观质量的桥梁，1 mol 含约 6.02×10²³ 个粒子。",
     "oneLinerEn": "Bridges particles and mass; 1 mol holds about 6.02×10²³ entities.",
-    "detail": "n = m/M = N/Nₐ = V/Vm（气体标况 22.4 L/mol）；是化学计算的核心枢纽。",
-    "detailEn": "n = m/M = N/Nₐ = V/Vm (22.4 L/mol for gases at STP); the hub of stoichiometry.",
+    "detail": "物质的量是把微观粒子数与宏观质量、体积连起来的桥梁，单位摩尔（mol），符号 n。1 mol 任何指定粒子的数目都等于阿伏伽德罗常数 Nₐ 约 6.02×10²³，它把一个数不到也摸不着的「个数」换成可以称量的量。四条换算都绕着 n 转：n = m/M（质量除以摩尔质量）、n = N/Nₐ（粒子数除以常数）、标准状况下气体用 n = V 除以 22.4 L/mol、溶液里 n = cV。用摩尔必须讲清是哪种微粒，说「1 mol 氧」是含糊的，要写明 1 mol O 原子还是 1 mol O₂ 分子；摩尔质量以 g/mol 为单位时数值上正好等于相对原子或分子质量，这是「摩尔」在计算里最好用的一处巧合。",
+    "detailEn": "Amount of substance bridges the uncountable micro world and the weighable macro one; its unit is the mole (mol) and its symbol n. One mole of any specified particles holds Avogadro's number NA, about 6.02×10²³, turning a count you can never reach into a mass you can. Four conversions run through n: n = m/M, n = N/NA, for gases at STP n = V over 22.4 L/mol, and in solution n = cV. You must name the entity — saying one mole of oxygen is ambiguous, so write O atoms or O₂ molecules. Numeric in grams per mole it equals relative formula mass, which is what makes the mole so handy in calculation (see Mole).",
     "tags": ["计算"],
     "tagsEn": ["Calculation"]
   },
@@ -20,8 +20,8 @@
     "level": 2,
     "oneLiner": "单位体积溶液里所含溶质的物质的量，单位 mol/L。",
     "oneLinerEn": "Moles of solute per litre of solution, in mol/L.",
-    "detail": "c = n/V；配制一定物质的量浓度溶液需用容量瓶、定容到刻度线。",
-    "detailEn": "c = n/V; prepared in a volumetric flask, made up to the mark.",
+    "detail": "物质的量浓度 c 指单位体积溶液里所含溶质的物质的量，单位 mol/L。关键在 V 是溶液体积而不是溶剂体积：把 58.5 g NaCl 溶进 1 L 水，得到的并不是 1 mol/L。配制一定浓度溶液的标准步骤是算、称量、溶解、移液、洗涤、定容、摇匀——溶解后冷却，用玻璃棒引流转入容量瓶，再洗涤烧杯和玻璃棒两三次一并注入，加水到离刻度线 1–2 cm 处改用胶头滴管，让凹液面最低点与刻度线相切。定容时俯视会让体积偏小、浓度偏高，仰视则偏低；容量瓶只能用来配制、不能久存或受热、也不能长时间盛碱液。需要 480 mL 溶液时要选 500 mL 容量瓶、按 0.5 L 计算（见「摩尔」）。",
+    "detailEn": "Molarity c is moles of solute per liter of solution, unit mol/L. The catch is that V is the solution volume, not the solvent, so dissolving 58.5 g of NaCl in 1 L of water does not give 1 mol/L. The make-up runs weigh, dissolve, cool, transfer with a glass rod, rinse the beaker two or three times into the flask, fill to 1–2 cm below the mark, then finish with a dropper until the meniscus bottom just touches the line. Reading from above shrinks the volume and makes it too strong; from below too weak. A volumetric flask only prepares — it stores nothing, takes no heat and no long-held alkali. Need 480 mL and you must pick a 500 mL flask and work from 0.5 L (see Mole).",
     "tags": ["计算"],
     "tagsEn": ["Calculation"]
   },
@@ -33,8 +33,8 @@
     "level": 2,
     "oneLiner": "加水稀释前后溶质的量不变，据此计算浓度。",
     "oneLinerEn": "Solute amount stays constant when diluting; the basis of c₁V₁ = c₂V₂.",
-    "detail": "稀释定律 c₁V₁ = c₂V₂；配制稀溶液时按此量取浓溶液与水的体积。",
-    "detailEn": "Dilution law c₁V₁ = c₂V₂; measure the concentrated solution and water accordingly.",
+    "detail": "稀释只加水，溶质的物质的量守恒，于是稀释定律 c₁V₁ = c₂V₂ 成立，用它算该量取多少浓溶液、再加水定容到多少体积：配 100 mL 0.1 mol/L 稀硫酸，就取 1 mol/L 母液 10 mL 加水稀释。浓硫酸稀释必须把酸沿器壁缓缓注入水里并不断搅拌，切不可反过来——水密度小浮在上面，溶解时放的大量热会让酸液飞溅伤人。质量分数 w 与物质的量浓度之间靠密度 ρ 换算：c = 1000ρw/M（w 取小数）。同一溶质密度越大，等质量混合与等体积混合所得浓度并不相同；对氨水、酒精这类密度小于水的溶液，混合后浓度的偏向还会反过来，判断时要盯住密度方向（见「物质的量浓度」）。",
+    "detailEn": "Dilution only adds water, so the moles of solute are conserved and the dilution law c₁V₁ = c₂V₂ holds; use it to find how much stock to measure and to what volume to top up. To make 100 mL of 0.1 mol/L dilute sulfuric acid you take 10 mL of 1 mol/L stock and add water. Concentrated sulfuric acid must be poured slowly down the wall into water with stirring, never the reverse, because water sits on top and the heat of mixing sprays acid. Linking mass fraction w to molarity needs density: c = 1000ρw/M with w as a decimal. Equal-mass and equal-volume mixing give different concentrations, and the bias flips for light solutions like ammonia or alcohol that float below water's density, so always track the density direction (see Molarity).",
     "tags": ["计算"],
     "tagsEn": ["Calculation"]
   },
@@ -46,8 +46,8 @@
     "level": 2,
     "oneLiner": "一定温度下某固体在 100 g 溶剂里达到饱和所溶解的质量。",
     "oneLinerEn": "Grams of solute that saturate 100 g of solvent at a given temperature.",
-    "detail": "溶解度曲线随温度变化：多数固体升高、气体与少数物质（如熟石灰）降低；可分离提纯（蒸发结晶、降温结晶）。",
-    "detailEn": "Solubility curves: most solids rise with temperature, gases and a few (e.g. slaked lime) fall; used for separation by evaporation or cooling crystallization.",
+    "detail": "固体溶解度指一定温度下某物质在 100 g 溶剂里达到饱和时所溶解的克数，随温度画成溶解度曲线：多数固体如 KNO₃ 随温度升高明显增大，少数如 NaCl 变化平缓，极少数如熟石灰 Ca(OH)₂ 反而随温度升高而减小；气体则随温度升高、随压强减小而逸出，所以把水烧开时锅底先冒气泡。曲线上每一点都对应饱和溶液，线下是不饱和，线上方的点则正在析出晶体。分离提纯据此选路：溶解度受温度影响大的用降温（冷却）结晶，受温度影响小的如食盐用蒸发结晶，除掉 KNO₃ 中混的少量 NaCl 就走冷却结晶。还要注意饱和与不饱和、浓与稀是两套坐标——饱和溶液不一定浓，稀溶液也不一定不饱和（见「物质的量浓度」）。",
+    "detailEn": "A solid's solubility is the grams that dissolve in 100 g of solvent to reach saturation at a given temperature, drawn as a curve: most solids such as KNO₃ rise steeply with heat, a few like NaCl barely move, and rare ones such as slaked lime Ca(OH)₂ actually fall; gases leave as temperature rises and pressure drops, which is why bubbles form at the bottom before water boils. Every point on the curve is saturated, below it unsaturated, and a point above is shedding crystals. Purification follows the shape: salts that rise steeply are recovered by cooling crystallization, flat ones like table salt by evaporation, and cooling crystallization is how a little NaCl is stripped from KNO₃. Note that saturated-versus-unsaturated and concentrated-versus-dilute are two separate pairs — a saturated solution need not be concentrated, and a dilute one need not be unsaturated (see Molarity).",
     "tags": ["溶液"],
     "tagsEn": ["Solution"]
   },
@@ -59,8 +59,8 @@
     "level": 2,
     "oneLiner": "在水溶液或熔融态能导电的化合物为电解质，反之非电解质。",
     "oneLinerEn": "Compounds conducting in solution or melt are electrolytes; others are non-electrolytes.",
-    "detail": "强电解质（强酸、强碱、大部分盐）完全电离，弱电解质（弱酸弱碱）部分电离；电离方程式用 = 或 ⇌ 表示。",
-    "detailEn": "Strong electrolytes ionize fully (shown with =), weak ones partially (⇌).",
+    "detail": "电解质是在水溶液里或熔融状态下能导电的化合物，导电靠的是它自身电离出自由移动的离子；非电解质在这两种情况下都以分子存在、不导电。判断要点是必须由化合物本身电离：SO₃、CO₂、NH₃ 溶于水能导电，但导电的离子是它们与水反应生成的，它们本身仍属非电解质；单质与混合物既不算电解质也不算非电解质。强电解质（强酸、强碱和绝大多数盐）在水中完全电离，电离方程式用等号；弱电解质（弱酸如醋酸、弱碱如氨水、以及水）只部分电离，存在「弱电解质的电离平衡」，用可逆号。能导电不等于就是电解质——铜、石墨导电却是单质，NaCl 固体不导电因为离子不能自由移动，熔融或溶解后才行；而电离既然是可逆过程，也同样受「化学平衡」移动规律的支配。",
+    "detailEn": "An electrolyte is a compound that conducts in aqueous solution or as a melt because it ionizes into free-moving ions; a non-electrolyte stays as molecules in both states. The test is whether the compound itself ionizes: SO₃, CO₂ and NH₃ conduct in water only because they first react with it, so they remain non-electrolytes, while elements and mixtures are neither. Strong electrolytes — strong acids, strong bases and most salts — ionize completely and are written with an equals sign; weak ones — acetic acid, ammonia water, water itself — ionize only partly and sit in an ionization equilibrium, written with a reversible arrow (see Ionization Equilibrium). Conducting does not make something an electrolyte: copper and graphite conduct yet are elements, and solid NaCl does not conduct because its ions cannot move, only melting or dissolving frees them; and since ionization is reversible it obeys chemical equilibrium like any other (see Chemical Equilibrium).",
     "eq": { "lhs": "NaCl", "rhs": "Na⁺ + Cl⁻", "rel": "equal" },
     "subs": [
       {
@@ -99,8 +99,8 @@
     "level": 2,
     "oneLiner": "衡量溶液酸碱性强弱的标度，pH = −lg c(H⁺)。",
     "oneLinerEn": "Scale of acidity; pH = −log c(H⁺).",
-    "detail": "常温 pH<7 酸性、=7 中性、>7 碱性；pH 每差 1，氢离子浓度差 10 倍。可用指示剂或 pH 计测定。",
-    "detailEn": "At 25℃: pH<7 acidic, =7 neutral, >7 basic; each unit is a tenfold change in [H⁺]. Measured by indicators or a pH meter.",
+    "detail": "pH 是把氢离子浓度取负对数得到的标度，pH = −lg c(H⁺)，它把跨十几个数量级的酸碱强弱压进 0 到 14 这一把尺里。常温 25 ℃ 下水的离子积 Kw = 1×10⁻¹⁴，中性时 c(H⁺) = c(OH⁻) = 1×10⁻⁷、pH 恰为 7；pH 小于 7 为酸性、大于 7 为碱性，每差 1 个单位氢离子浓度就差 10 倍。要提醒的是中性不等于 pH 一定等于 7——温度升高 Kw 变大，100 ℃ 时中性 pH 约 6.1 却仍是中性。测 pH 时把待测液用玻璃棒蘸取点在试纸上、不能把试纸伸进试剂或先把试纸润湿，读整数用广泛 pH 试纸、要精确值用 pH 计；粗判酸碱性可借「酸碱指示剂与 pH」里石蕊、酚酞的变色。强酸每稀释 10 倍 pH 升 1，但酸再怎么稀释也越不过中性那条线，这背后是水的电离平衡（见「弱电解质的电离平衡」）。",
+    "detailEn": "pH folds a hydrogen-ion concentration spanning many orders of magnitude onto one ruler by taking its negative logarithm, pH = minus log of c(H⁺). At 25 °C water's ion product Kw is 1×10⁻¹⁴, so a neutral solution has H⁺ and OH⁻ each at 1×10⁻⁷ and a pH of exactly 7; below 7 is acidic, above is basic, and each unit is a tenfold change. But neutral does not always mean pH 7 — heat swells Kw, so at 100 °C neutrality sits near pH 6.1 yet stays neutral. To measure, dab the sample onto paper with a glass rod rather than dipping the strip or pre-wetting it; use broad-range paper for whole numbers and a meter for precision, and litmus or phenolphthalein for a rough acid-base call (see Indicators and pH). Diluting a strong acid tenfold lifts its pH by one, yet no dilution can push an acid past the neutral line, held back by water's own ionization equilibrium (see Ionization Equilibrium).",
     "tags": ["溶液"],
     "tagsEn": ["Solution"]
   }
