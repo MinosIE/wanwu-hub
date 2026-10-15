@@ -310,18 +310,106 @@ function kpisInner(cfg: SubjectConfig): string {
 }
 
 /** 周期表分类（键与 .cat-* 颜色类、与数据 cat 字段一一对应）。 */
-const PT_CATS: { key: string; zh: string; en: string }[] = [
-  { key: "alkali", zh: "碱金属", en: "Alkali" },
-  { key: "alkaline", zh: "碱土金属", en: "Alkaline earth" },
-  { key: "transition", zh: "过渡金属", en: "Transition" },
-  { key: "post", zh: "主族金属", en: "Post-transition" },
-  { key: "metalloid", zh: "类金属", en: "Metalloid" },
-  { key: "nonmetal", zh: "非金属", en: "Nonmetal" },
-  { key: "halogen", zh: "卤素", en: "Halogen" },
-  { key: "noble", zh: "稀有气体", en: "Noble gas" },
-  { key: "lanthanide", zh: "镧系", en: "Lanthanide" },
-  { key: "actinide", zh: "锕系", en: "Actinide" },
-  { key: "unknown", zh: "人工合成", en: "Synthetic" },
+const PT_CATS: { key: string; zh: string; en: string; desc: LStr }[] = [
+  {
+    key: "alkali",
+    zh: "碱金属",
+    en: "Alkali",
+    desc: {
+      zh: "最外层只有 1 个电子：质地柔软、密度小，遇水剧烈反应放出氢气并生成碱，是最活泼的金属族，也是强还原剂。",
+      en: "One outer electron: soft, low-density metals that react violently with water to release hydrogen and form alkalis — the most reactive metal group, and strong reducing agents.",
+    },
+  },
+  {
+    key: "alkaline",
+    zh: "碱土金属",
+    en: "Alkaline earth",
+    desc: {
+      zh: "最外层有 2 个电子：银白色金属，活泼性仅次于碱金属，燃烧时常发出特征焰色，是骨骼、合金与烟火的重要元素。",
+      en: "Two outer electrons: silvery metals slightly less reactive than alkali metals, often giving characteristic flame colours when burned — key in bones, alloys and fireworks.",
+    },
+  },
+  {
+    key: "transition",
+    zh: "过渡金属",
+    en: "Transition",
+    desc: {
+      zh: "d 亚层未填满：化合价多变、化合物常有颜色，硬度高、熔点高、导电导热好，是结构材料与催化剂的主力（如铁、铜、铂）。",
+      en: "Partially filled d-subshells: variable valence and coloured compounds, hard, high-melting and good conductors — the workhorses of structural materials and catalysts (iron, copper, platinum).",
+    },
+  },
+  {
+    key: "post",
+    zh: "主族金属",
+    en: "Post-transition",
+    desc: {
+      zh: "紧邻金属与非金属分界线的右侧：质地偏软、熔点较低，导电导热良好，常见如铝、锡、铅，多用于轻合金与焊料。",
+      en: "Just right of the metal–metalloid line: relatively soft and low-melting yet good conductors — e.g. aluminium, tin and lead, widely used in light alloys and solder.",
+    },
+  },
+  {
+    key: "metalloid",
+    zh: "类金属",
+    en: "Metalloid",
+    desc: {
+      zh: "性质介于金属与非金属之间：导电性可被精确调控，是半导体与芯片的核心材料（如硅、锗）。",
+      en: "Properties between metals and nonmetals: their tunable conductivity makes them the core of semiconductors and chips (silicon, germanium).",
+    },
+  },
+  {
+    key: "nonmetal",
+    zh: "非金属",
+    en: "Nonmetal",
+    desc: {
+      zh: "容易获得电子：多为气体或脆性固体，导热导电差，却是有机物与生命元素的主体（如碳、氢、氧、氮）。",
+      en: "Tend to gain electrons: mostly gases or brittle, poor-conducting solids, yet the backbone of organic matter and life (carbon, hydrogen, oxygen, nitrogen).",
+    },
+  },
+  {
+    key: "halogen",
+    zh: "卤素",
+    en: "Halogen",
+    desc: {
+      zh: "最外层有 7 个电子：氧化性强，与金属化合即成盐，活泼性自上而下递减（氟最烈），广泛用于消毒、制冷剂与材料。",
+      en: "Seven outer electrons: strongly oxidising, they form salts with metals; reactivity falls down the group (fluorine the fiercest) — used in disinfectants, refrigerants and materials.",
+    },
+  },
+  {
+    key: "noble",
+    zh: "稀有气体",
+    en: "Noble gas",
+    desc: {
+      zh: "最外层电子满壳：极难发生化学反应，通电时发出特征光，用作保护气、霓虹灯与低温冷却（如氦、氖、氩）。",
+      en: "Full outer shells: almost inert, they glow with characteristic colours under electricity — used as shielding gases, neon lights and cryogenic coolants (helium, neon, argon).",
+    },
+  },
+  {
+    key: "lanthanide",
+    zh: "镧系",
+    en: "Lanthanide",
+    desc: {
+      zh: "4f 电子逐层填充：彼此性质极为相近，统称稀土元素，是强磁体、发光荧光与催化材料的关键（如钕、铕）。",
+      en: "Filling 4f subshells: chemically very similar, collectively the rare earths — vital to strong magnets, phosphors and catalysts (neodymium, europium).",
+    },
+  },
+  {
+    key: "actinide",
+    zh: "锕系",
+    en: "Actinide",
+    desc: {
+      zh: "5f 电子逐层填充：全部具有放射性，钍、铀、钚是核能与核反应堆的核心燃料。",
+      en: "Filling 5f subshells: all radioactive; thorium, uranium and plutonium are the core fuels of nuclear energy and reactors.",
+    },
+  },
+  {
+    key: "unknown",
+    zh: "人工合成",
+    en: "Synthetic",
+    desc: {
+      zh: "经核反应人工合成：原子序数极高、极不稳定、半衰期以毫秒计，目前仅用于基础科学研究。",
+      en: "Made artificially in nuclear reactions: extremely high atomic numbers, highly unstable with half-lives in milliseconds — used only in fundamental research so far.",
+    },
+  },
 ];
 
 /** 渲染完整周期表（2D 网格 + 图例）。镧系/锕系放在下方独立两行。 */
@@ -346,7 +434,8 @@ function periodicHTML(m: SubjectModule): string {
     (c) =>
       `<button type="button" class="pt-leg js-pt-leg" data-cat="${esc(c.key)}" aria-pressed="false"><i class="pt-swatch cat-${c.key}"></i>${esc(L({ zh: c.zh, en: c.en }))}</button>`,
   ).join("")}</div>`;
-  return cells + markers + legend;
+  const hint = `<p class="pt-hint" id="ptHint" style="grid-row:12;grid-column:1/-1" hidden></p>`;
+  return cells + markers + legend + hint;
 }
 
 function refsInner(refs: SubjectRef[]): string {
@@ -451,6 +540,7 @@ export function createSubject(cfg: SubjectConfig) {
       const markers = Array.from(
         grid.querySelectorAll<HTMLElement>(".js-pt-marker"),
       );
+      const hint = grid.querySelector<HTMLElement>("#ptHint");
       let activeCat = "";
       const clearHi = () => {
         grid.classList.remove("pt-filtering");
@@ -459,6 +549,10 @@ export function createSubject(cfg: SubjectConfig) {
           l.classList.remove("pt-on");
           l.setAttribute("aria-pressed", "false");
         });
+        if (hint) {
+          hint.hidden = true;
+          hint.textContent = "";
+        }
         activeCat = "";
       };
       const toggle = (cat: string, scroll: boolean) => {
@@ -479,6 +573,13 @@ export function createSubject(cfg: SubjectConfig) {
           t.classList.add("pt-on");
           t.setAttribute("aria-pressed", "true");
         });
+        if (hint) {
+          const c = PT_CATS.find((x) => x.key === cat);
+          hint.textContent = c
+            ? `${L({ zh: c.zh, en: c.en })}｜${L(c.desc)}`
+            : "";
+          hint.hidden = !c;
+        }
         if (scroll) {
           cells
             .find((c) => c.dataset.cat === cat)

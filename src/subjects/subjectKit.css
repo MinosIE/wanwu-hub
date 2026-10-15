@@ -680,10 +680,17 @@
   filter: grayscale(0.4);
 }
 .subject-root .pt-cell.pt-match {
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 24%, transparent);
+  box-shadow: inset 0 0 0 2px var(--accent);
+  border-color: var(--accent);
   z-index: 1;
+}
+.subject-root .pt-hint {
+  margin: 10px auto 0;
+  max-width: 62ch;
+  text-align: center;
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--text-soft);
 }
 
 /* 周期表分类配色（浅色底 + 深色字，保证可读性） */
