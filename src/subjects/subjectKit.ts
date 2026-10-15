@@ -634,16 +634,25 @@ export function createSubject(cfg: SubjectConfig) {
       renderFilterBar(m);
     };
 
+    let sdTimer = 0;
     const closeDetail = () => {
       const d = root.querySelector<HTMLElement>("#subDetail")!;
-      d.hidden = true;
-      d.innerHTML = "";
+      if (d.hidden) return;
+      d.classList.remove("open");
       document.body.classList.remove("sd-open");
+      // 等滑出过渡（0.3s）结束后再真正隐藏并清空。
+      window.clearTimeout(sdTimer);
+      sdTimer = window.setTimeout(() => {
+        d.hidden = true;
+        d.innerHTML = "";
+      }, 320);
     };
     const openDetail = (m: SubjectModule, id: string) => {
       const item = m.items.find((x) => x.id === id);
       if (!item) return;
       const d = root.querySelector<HTMLElement>("#subDetail")!;
+      window.clearTimeout(sdTimer);
+      d.classList.remove("open");
       d.innerHTML = `<div class="sd-backdrop"></div><div class="sd-panel" role="dialog" aria-modal="true">
         <div class="sd-head">
           <button class="sd-close" type="button" aria-label="关闭">×</button>
@@ -666,6 +675,10 @@ export function createSubject(cfg: SubjectConfig) {
       </div>`;
       d.hidden = false;
       document.body.classList.add("sd-open");
+      // 下一帧再加 .open，确保初始 translateX(102%) 已提交，从而触发滑入过渡。
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => d.classList.add("open")),
+      );
       d.querySelector(".sd-close")!.addEventListener("click", closeDetail);
       d.querySelector(".sd-backdrop")!.addEventListener("click", closeDetail);
       // 重放：移除 .eq-anim 后强制回流再添加，重启 CSS 动画序列。
