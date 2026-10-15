@@ -1,5 +1,6 @@
 import "./subjectKit.css";
 import { getLang, onLangChange } from "../core/i18n";
+import { mountNavDropdown } from "./_shared/mobileNav";
 
 export type LStr = { zh: string; en: string };
 
@@ -477,12 +478,7 @@ export function createSubject(cfg: SubjectConfig) {
               `<button class="mod${i === 0 ? " active" : ""}" data-go="${m.key}"><span class="sm-ic" aria-hidden="true">${m.icon}</span><span class="sm-label">${esc(L(m.title))}</span></button>`,
           )
           .join("")}</nav>
-        <select class="modnav-select" aria-label="${esc(L({ zh: "模块导航", en: "Module navigation" }))}">${cfg.modules
-          .map(
-            (m, i) =>
-              `<option value="${esc(m.key)}"${i === 0 ? " selected" : ""}>${esc(L(m.title))}</option>`,
-          )
-          .join("")}</select>
+        <div class="mnav-mount"></div>
         <div class="modules">${cfg.modules
           .map(
             (m, i) =>
@@ -695,7 +691,6 @@ export function createSubject(cfg: SubjectConfig) {
 
     cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
 
-    const selectEl = root.querySelector<HTMLSelectElement>(".modnav-select");
     /** 切换当前模块：同步按钮态与下拉选中项，并滚到模块内容（而非无用的 hero 顶部）。 */
     const selectModule = (k: string): void => {
       root
@@ -704,15 +699,28 @@ export function createSubject(cfg: SubjectConfig) {
       root
         .querySelectorAll<HTMLElement>(".module")
         .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
-      if (selectEl && selectEl.value !== k) selectEl.value = k;
+      navHandle?.setValue(k);
       root
         .querySelector<HTMLElement>(".module.active")
         ?.scrollIntoView({ behavior: "smooth", block: "start" });
     };
+    const navHost = root.querySelector<HTMLElement>(".mnav-mount");
+    const navHandle = navHost
+      ? mountNavDropdown(navHost, {
+          items: cfg.modules.map((m) => ({
+            value: m.key,
+            label: L(m.title),
+            icon: m.icon,
+          })),
+          value: cfg.modules[0]?.key,
+          label: L({ zh: "模块导航", en: "Module navigation" }),
+          onSelect: selectModule,
+        })
+      : null;
+    const mnavEl = navHandle?.el ?? null;
     root.querySelectorAll<HTMLElement>(".mod").forEach((btn) => {
       btn.addEventListener("click", () => selectModule(btn.dataset.go!));
     });
-    selectEl?.addEventListener("change", () => selectModule(selectEl.value));
 
     // 搜索：跨模块过滤卡片，命中项汇总到结果区
     const allItems = cfg.modules.flatMap((m) =>
@@ -728,7 +736,7 @@ export function createSubject(cfg: SubjectConfig) {
       if (!q) {
         resultsEl.hidden = true;
         navEl.style.display = "";
-        if (selectEl) selectEl.style.display = "";
+        if (mnavEl) mnavEl.style.display = "";
         modulesEl.style.display = "";
         cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
         return;
@@ -745,7 +753,7 @@ export function createSubject(cfg: SubjectConfig) {
         return hay.includes(q);
       });
       navEl.style.display = "none";
-      if (selectEl) selectEl.style.display = "none";
+      if (mnavEl) mnavEl.style.display = "none";
       modulesEl.style.display = "none";
       resultsEl.hidden = false;
       resultsEl.innerHTML = matches.length
@@ -781,9 +789,13 @@ export function createSubject(cfg: SubjectConfig) {
       root
         .querySelectorAll<HTMLElement>(".mod .sm-label")
         .forEach((b, i) => (b.textContent = L(cfg.modules[i].title)));
-      root
-        .querySelectorAll<HTMLElement>(".modnav-select option")
-        .forEach((o, i) => (o.textContent = L(cfg.modules[i].title)));
+      navHandle?.setItems(
+        cfg.modules.map((m) => ({
+          value: m.key,
+          label: L(m.title),
+          icon: m.icon,
+        })),
+      );
       root
         .querySelectorAll<HTMLElement>(".mod-head h2")
         .forEach((h, i) => (h.textContent = L(cfg.modules[i].title)));
@@ -814,7 +826,7 @@ export function createSubject(cfg: SubjectConfig) {
         root
           .querySelectorAll<HTMLElement>(".module")
           .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
-        if (selectEl) selectEl.value = k;
+        navHandle?.setValue(k);
         if (id) openDetail(m, id);
       }
     }
