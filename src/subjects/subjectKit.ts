@@ -501,7 +501,7 @@ export function createSubject(cfg: SubjectConfig) {
         </footer>
       </div>
       <button class="to-top" id="toTop" type="button" aria-label="返回顶部">↑</button>
-      <div class="sub-detail" id="subDetail" hidden></div>
+      <div class="detail-root" id="subDetail" hidden></div>
     </div>`;
 
     const root = view.querySelector<HTMLElement>(`.${cfg.rootClass}`)!;
@@ -643,7 +643,7 @@ export function createSubject(cfg: SubjectConfig) {
       const d = root.querySelector<HTMLElement>("#subDetail")!;
       if (d.hidden) return;
       d.classList.remove("open");
-      document.body.classList.remove("sd-open");
+      document.body.classList.remove("no-scroll");
       // 等滑出过渡（0.3s）结束后再真正隐藏并清空。
       window.clearTimeout(sdTimer);
       sdTimer = window.setTimeout(() => {
@@ -657,34 +657,92 @@ export function createSubject(cfg: SubjectConfig) {
       const d = root.querySelector<HTMLElement>("#subDetail")!;
       window.clearTimeout(sdTimer);
       d.classList.remove("open");
-      d.innerHTML = `<div class="sd-backdrop"></div><div class="sd-panel" role="dialog" aria-modal="true">
-        <div class="sd-head">
-          <button class="sd-close" type="button" aria-label="关闭">×</button>
-          <div class="sd-eyebrow">${esc(L(m.title))}${item.level != null ? ` · ${esc(levelLabel(item.level))}` : ""}</div>
-          <div class="sd-title-row">
-            <h2 class="sd-title">${esc(L(item.term))}</h2>
-            ${replayBtn(item.eq)}
-          </div>
-        </div>
-        <div class="sd-body">
-          ${item.value ? `<div class="sd-value">${esc(L(item.value))}</div>` : ""}
-          <div class="sd-lead">${esc(L(item.oneLiner))}</div>
-          ${eqHTML(item.eq, true)}
-          ${subsHTML(item.subs)}
-          ${figureHTML(item.figure)}
-          ${item.detail ? `<p class="sd-sec"><b>📘</b><span>${esc(L(item.detail))}</span></p>` : ""}
-          ${item.example ? `<p class="sd-sec"><b>🧪</b><span>${esc(L(item.example))}</span></p>` : ""}
-          ${item.tags && item.tags.length ? `<div class="sd-tags">${item.tags.map((t) => `<span class="tag">${esc(L(t))}</span>`).join("")}</div>` : ""}
-        </div>
-      </div>`;
+      // 内容统一为 earth 式 dsec 分节：每个字段 → 带图标小标题的一节；
+      // eq / subs / figure 等化学专用块作为该节的 body 原样嵌入。
+      const sections: { ic: string; title: LStr; html: string }[] = [];
+      if (item.oneLiner)
+        sections.push({
+          ic: "💡",
+          title: { zh: "一句话", en: "In a word" },
+          html: `<p>${esc(L(item.oneLiner))}</p>`,
+        });
+      if (item.value)
+        sections.push({
+          ic: "🔢",
+          title: { zh: "数值", en: "Value" },
+          html: `<p class="d-mono">${esc(L(item.value))}</p>`,
+        });
+      if (item.eq)
+        sections.push({
+          ic: "⚗️",
+          title: { zh: "反应方程", en: "Equation" },
+          html: eqHTML(item.eq, true),
+        });
+      if (item.subs && item.subs.length)
+        sections.push({
+          ic: "🧩",
+          title: { zh: "逐项释义", en: "Breakdown" },
+          html: subsHTML(item.subs),
+        });
+      if (item.figure)
+        sections.push({
+          ic: "🖼️",
+          title: { zh: "示意图", en: "Diagram" },
+          html: figureHTML(item.figure),
+        });
+      if (item.detail)
+        sections.push({
+          ic: "📘",
+          title: { zh: "详解", en: "Details" },
+          html: `<p>${esc(L(item.detail))}</p>`,
+        });
+      if (item.example)
+        sections.push({
+          ic: "🧪",
+          title: { zh: "例子", en: "Example" },
+          html: `<p>${esc(L(item.example))}</p>`,
+        });
+      const body = sections
+        .map(
+          (s) =>
+            `<section class="dsec"><h4 class="dsec-h"><span class="dsec-ic" aria-hidden="true">${s.ic}</span><span class="dsec-t">${esc(
+              L(s.title),
+            )}</span></h4><div class="dsec-body">${s.html}</div></section>`,
+        )
+        .join("");
+      const eyebrow = `${esc(L(m.title))}${
+        item.level != null ? ` · ${esc(levelLabel(item.level))}` : ""
+      }`;
+      const tags =
+        item.tags && item.tags.length
+          ? `<div class="detail-tags">${item.tags
+              .map((t) => `<span class="tag">${esc(L(t))}</span>`)
+              .join("")}</div>`
+          : "";
+      d.innerHTML = `<div class="detail-backdrop" data-close="1"></div>
+        <aside class="detail-panel" role="dialog" aria-modal="true" aria-label="${esc(
+          L(item.term),
+        )}">
+          <header class="detail-head">
+            <button class="detail-close" type="button" data-close="1" aria-label="关闭">✕</button>
+            <p class="detail-eyebrow">${eyebrow}</p>
+            <div class="detail-title-row">
+              <h3 class="detail-title">${esc(L(item.term))}</h3>
+              ${replayBtn(item.eq)}
+            </div>
+            ${tags}
+          </header>
+          <div class="detail-body">${body}</div>
+        </aside>`;
       d.hidden = false;
-      document.body.classList.add("sd-open");
+      document.body.classList.add("no-scroll");
       // 下一帧再加 .open，确保初始 translateX(102%) 已提交，从而触发滑入过渡。
       requestAnimationFrame(() =>
         requestAnimationFrame(() => d.classList.add("open")),
       );
-      d.querySelector(".sd-close")!.addEventListener("click", closeDetail);
-      d.querySelector(".sd-backdrop")!.addEventListener("click", closeDetail);
+      d.querySelectorAll<HTMLElement>("[data-close]").forEach((n) =>
+        n.addEventListener("click", closeDetail),
+      );
       // 重放：移除 .eq-anim 后强制回流再添加，重启 CSS 动画序列。
       d.querySelectorAll<HTMLElement>(".eq-replay").forEach((btn) => {
         btn.addEventListener("click", () => {

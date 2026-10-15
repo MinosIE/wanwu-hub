@@ -32,54 +32,71 @@ export function renderDetail(
   window.clearTimeout(closeTimer);
   root.classList.remove('open');
 
+  // 分节图标：按 labelKey 映射一枚 emoji（缺失回退 📌），与 earth 的 dsec 图标风格对齐。
+  const ICON: Record<string, string> = {
+    'ui.oneLiner': '💡',
+    'ui.def': '📖',
+    'ui.detail': '📘',
+    'ui.example': '🧪',
+    'ui.ideas': '💭',
+    'ui.keyIdeas': '💭',
+    'ui.founders': '👤',
+    'ui.field': '🎯',
+    'ui.era': '🕰️',
+    'ui.works': '📚',
+    'ui.criticisms': '⚖️',
+    'ui.strengths': '✅',
+    'ui.ethics': '🧭',
+    'ui.category': '⭐',
+    'ui.core': '⭐',
+    'ui.options': '🔘',
+    'ui.plain': '✨',
+    'ui.east': '🌏',
+    'ui.west': '🌍',
+  };
   const sections = view.sections
     .map(
-      (s) => `
-      <div class="detail-section">
-        <h4>${esc(t(s.labelKey))}</h4>
-        <div class="body">${s.html}</div>
-      </div>`,
+      (s) =>
+        `<section class="dsec"><h4 class="dsec-h"><span class="dsec-ic" aria-hidden="true">${
+          ICON[s.labelKey] ?? '📌'
+        }</span><span class="dsec-t">${esc(t(s.labelKey))}</span></h4><div class="dsec-body">${s.html}</div></section>`,
     )
     .join('');
 
   const related =
     view.related && view.related.length
-      ? `<div class="detail-section">
-         <h4>${esc(t('ui.related'))}</h4>
-         <div class="related-list">${view.related
-           .map(
-             (r) =>
-               `<button class="related-link" data-rel="${esc(r.id)}">${esc(r.title)}</button>`,
-           )
-           .join('')}</div>
-       </div>`
+      ? `<div class="detail-rel"><b>${esc(t('ui.related'))}</b><div class="rel-chips">${view.related
+          .map(
+            (r) =>
+              `<button type="button" class="chip" data-rel="${esc(r.id)}">${esc(r.title)}</button>`,
+          )
+          .join('')}</div></div>`
       : '';
 
   const sources =
     view.sources && view.sources.length
-      ? `<div class="detail-section">
-         <h4>${esc(t('ui.sources'))}</h4>
-         <div class="sources">${view.sources
-           .map((s) => {
-             const text = srcLabel(s);
-             return s.url
-               ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${text}</a>`
-               : text;
-           })
-           .join('；')}</div>
-       </div>`
+      ? `<div class="detail-src"><b>${esc(t('ui.sources'))}</b><ul>${view.sources
+          .map((s) => {
+            const text = srcLabel(s);
+            return s.url
+              ? `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${text}</a></li>`
+              : `<li>${text}</li>`;
+          })
+          .join('')}</ul></div>`
       : '';
 
   root.innerHTML = `
     <div class="detail-backdrop" data-close="1"></div>
-    <div class="detail-panel" role="dialog" aria-modal="true">
-      <div class="detail-head">
-        <h2>${esc(view.title)}</h2>
-        <button class="detail-close" id="detailClose" aria-label="${esc(t('ui.close'))}">✕</button>
-      </div>
-      ${view.sub ? `<p class="detail-sub">${esc(view.sub)}</p>` : ''}
-      ${sections}${related}${sources}
-    </div>`;
+    <aside class="detail-panel" role="dialog" aria-modal="true" aria-label="${esc(view.title)}">
+      <header class="detail-head">
+        <button class="detail-close" id="detailClose" type="button" aria-label="${esc(t('ui.close'))}">✕</button>
+        <h3 class="detail-title">${esc(view.title)}</h3>
+        ${view.sub ? `<p class="detail-sub">${esc(view.sub)}</p>` : ''}
+      </header>
+      <div class="detail-body">${sections}</div>
+      ${related}
+      ${sources}
+    </aside>`;
   root.hidden = false;
   document.body.style.overflow = 'hidden';
   requestAnimationFrame(() => root.classList.add('open'));
@@ -137,7 +154,7 @@ export function renderDetail(
   document.addEventListener('keydown', onKey);
   closeBtn?.focus();
 
-  root.querySelectorAll<HTMLElement>('.related-link').forEach((b) =>
+  root.querySelectorAll<HTMLElement>('.rel-chips .chip').forEach((b) =>
     b.addEventListener('click', () => {
       const id = b.dataset.rel;
       if (id) onRelated(id);
