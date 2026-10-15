@@ -1,52 +1,7 @@
-/* ===== Hero ===== */
-.mind-root .hero {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  text-align: center;
-  margin-inline: -20px;
-  min-height: 34vh;
-  padding: 46px 20px 42px;
-  border-radius: 0;
-  background: var(--hero);
-  color: #fff;
-  overflow: hidden;
-}
-.mind-root .hero > *:not(.icon-btn) {
-  position: relative;
-  z-index: 1;
-}
-.mind-root .hero::before {
-  content: "";
-  position: absolute;
-  inset: -25%;
-  z-index: 0;
-  background: radial-gradient(
-    42% 55% at 50% 28%,
-    rgba(255, 255, 255, 0.16),
-    transparent 70%
-  );
-  animation: heroBreath 10s ease-in-out infinite;
-  pointer-events: none;
-}
-.mind-root .hero h1 {
-  font-size: clamp(1.5rem, 3.8vw, 2.2rem);
-  font-weight: 700;
-  margin: 0 auto 10px;
-  background: linear-gradient(100deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-.mind-root .hero p {
-  color: rgba(255, 255, 255, 0.88);
-  margin: 0 auto;
-  padding: 0 16px;
-  font-size: 1rem;
-}
+/* ===== Hero =====
+   hero 版式（布局 / 间距 / 标题 / 副标题 / 光晕）统一由共享 ui.css
+   （.subject-root .hero 及 h1 / > p / ::before）驱动；mind-root 同时带 subject-root，
+   故此处不再覆写，与 econ / earth / life / thought 等保持一致。 */
 .mind-root .hero-issue {
   font-size: 0.9rem;
   margin-top: 14px;
@@ -662,14 +617,6 @@
   }
   .mind-root .lang-btn {
     right: 78px;
-  }
-  .mind-root .hero {
-    /* 与共享 ui.css（.subject-root .hero 移动端）对齐：显式声明，
-       不依赖样式注入顺序（dev 里本文件常晚于 ui.css，会让 34vh 反胜） */
-    margin-inline: -14px;
-    min-height: 22vh;
-    padding: 30px 16px 26px;
-    gap: 10px;
   }
 }
 
