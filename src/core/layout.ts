@@ -20,7 +20,7 @@ export function renderLayout(app: HTMLElement): void {
         </div>
         <button class="theme-btn" id="themeBtn" aria-label="切换明暗主题">${getTheme() === "dark" ? "☀️" : "🌙"}</button>
         <div class="view-menu">
-          <button class="view-menu-btn" id="viewMenuBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="语言与主题">🌐<span class="vm-caret">▾</span></button>
+          <button class="view-menu-btn" id="viewMenuBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="语言与主题">☰<span class="vm-caret">▾</span></button>
           <div class="view-panel" hidden role="menu">
             <div class="vp-sec">
               <div class="vp-label" data-vp="lang">语言</div>
