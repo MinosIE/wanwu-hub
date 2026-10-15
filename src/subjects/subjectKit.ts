@@ -659,7 +659,12 @@ export function createSubject(cfg: SubjectConfig) {
       d.classList.remove("open");
       // 内容统一为 earth 式 dsec 分节：每个字段 → 带图标小标题的一节；
       // eq / subs / figure 等化学专用块作为该节的 body 原样嵌入。
-      const sections: { ic: string; title: LStr; html: string }[] = [];
+      const sections: {
+        ic: string;
+        title: LStr;
+        html: string;
+        headExtra?: string;
+      }[] = [];
       if (item.oneLiner)
         sections.push({
           ic: "💡",
@@ -677,6 +682,7 @@ export function createSubject(cfg: SubjectConfig) {
           ic: "⚗️",
           title: { zh: "反应方程", en: "Equation" },
           html: eqHTML(item.eq, true),
+          headExtra: replayBtn(item.eq),
         });
       if (item.subs && item.subs.length)
         sections.push({
@@ -707,7 +713,9 @@ export function createSubject(cfg: SubjectConfig) {
           (s) =>
             `<section class="dsec"><h4 class="dsec-h"><span class="dsec-ic" aria-hidden="true">${s.ic}</span><span class="dsec-t">${esc(
               L(s.title),
-            )}</span></h4><div class="dsec-body">${s.html}</div></section>`,
+            )}</span>${s.headExtra || ""}</h4><div class="dsec-body">${
+              s.html
+            }</div></section>`,
         )
         .join("");
       const eyebrow = `${esc(L(m.title))}${
@@ -726,10 +734,7 @@ export function createSubject(cfg: SubjectConfig) {
           <header class="detail-head">
             <button class="detail-close" type="button" data-close="1" aria-label="关闭">✕</button>
             <p class="detail-eyebrow">${eyebrow}</p>
-            <div class="detail-title-row">
-              <h3 class="detail-title">${esc(L(item.term))}</h3>
-              ${replayBtn(item.eq)}
-            </div>
+            <h3 class="detail-title">${esc(L(item.term))}</h3>
             ${tags}
           </header>
           <div class="detail-body">${body}</div>

@@ -256,14 +256,9 @@
 }
 
 /* ============ 反应动画（仅详情面板 .eq-anim；纯 transform/opacity）============ */
-.subject-root .detail-title-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: space-between;
-}
-.subject-root .detail-title-row .detail-title {
-  flex: 1 1 auto;
+/* 重放按钮与「反应方程」小标题同排，靠右对齐（dsec-h 已是 flex + gap） */
+.subject-root .dsec-h .eq-replay {
+  margin-left: auto;
 }
 .subject-root .eq-anim .eq {
   justify-content: flex-start;
