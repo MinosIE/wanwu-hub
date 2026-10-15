@@ -273,11 +273,9 @@
   margin: 0 auto;
 }
 @media (max-width: 640px) {
+  /* 移动端隐藏 hero 内的 KPI 概览，与其它学科一致，并让 hero 随之收窄 */
   .dynasty-root .kpis {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 8px;
-    max-width: 100%;
-    margin-top: 0;
+    display: none;
   }
 }
 .dynasty-root .kpi {
@@ -1662,7 +1660,8 @@
 }
 @media (max-width: 640px) {
   .dynasty-root .hero {
-    padding: 40px 16px 20px;
+    min-height: 22vh;
+    padding: 34px 16px 30px;
     gap: 10px;
     border-radius: var(--r3);
   }
