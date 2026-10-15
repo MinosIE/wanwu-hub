@@ -1,5 +1,5 @@
 import { getLang, setLang, t, onLangChange } from "./i18n";
-import { toggleTheme, getTheme, onThemeChange } from "./theme";
+import { setTheme, toggleTheme, getTheme, onThemeChange } from "./theme";
 import { PROJECTS } from "./projects";
 
 /** 渲染统一外壳：顶栏（品牌 + 语言/主题切换 + 返回首页）+ 内容容器 #view。 */
@@ -19,6 +19,25 @@ export function renderLayout(app: HTMLElement): void {
           <button class="lang-btn" data-lang="en">EN</button>
         </div>
         <button class="theme-btn" id="themeBtn" aria-label="切换明暗主题">${getTheme() === "dark" ? "☀️" : "🌙"}</button>
+        <div class="view-menu">
+          <button class="view-menu-btn" id="viewMenuBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="语言与主题">🌐<span class="vm-caret">▾</span></button>
+          <div class="view-panel" hidden role="menu">
+            <div class="vp-sec">
+              <div class="vp-label" data-vp="lang">语言</div>
+              <div class="vp-opts">
+                <button class="vp-lang" data-lang="zh" type="button">中文</button>
+                <button class="vp-lang" data-lang="en" type="button">English</button>
+              </div>
+            </div>
+            <div class="vp-sec">
+              <div class="vp-label" data-vp="theme">主题</div>
+              <div class="vp-opts">
+                <button class="vp-theme" data-set-theme="light" type="button">☀️<span data-vp="light">浅色</span></button>
+                <button class="vp-theme" data-set-theme="dark" type="button">🌙<span data-vp="dark">深色</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main id="view"></main>
@@ -47,6 +66,65 @@ export function renderLayout(app: HTMLElement): void {
   document
     .querySelector<HTMLElement>("header #themeBtn")
     ?.addEventListener("click", () => toggleTheme());
+
+  // 移动端「语言 + 主题」图标菜单：桌面隐藏，≤640px 取代 lang-switch / theme-btn
+  const viewMenuBtn = app.querySelector<HTMLButtonElement>("#viewMenuBtn");
+  const viewPanel = app.querySelector<HTMLElement>(".view-panel");
+  const setViewOpen = (open: boolean) => {
+    if (!viewMenuBtn || !viewPanel) return;
+    viewMenuBtn.setAttribute("aria-expanded", String(open));
+    viewPanel.hidden = !open;
+  };
+  const syncView = () => {
+    const lang = getLang();
+    const theme = getTheme();
+    app
+      .querySelectorAll<HTMLButtonElement>(".vp-lang")
+      .forEach((b) => b.classList.toggle("active", b.dataset.lang === lang));
+    app
+      .querySelectorAll<HTMLButtonElement>(".vp-theme")
+      .forEach((b) =>
+        b.classList.toggle("active", b.dataset.setTheme === theme),
+      );
+  };
+  const i18nView = () => {
+    const en = getLang() === "en";
+    viewMenuBtn?.setAttribute(
+      "aria-label",
+      en ? "Language & theme" : "语言与主题",
+    );
+    const set = (key: string, zh: string, enText: string) => {
+      const el = app.querySelector<HTMLElement>(`[data-vp="${key}"]`);
+      if (el) el.textContent = en ? enText : zh;
+    };
+    set("lang", "语言", "Language");
+    set("theme", "主题", "Theme");
+    set("light", "浅色", "Light");
+    set("dark", "深色", "Dark");
+  };
+  viewMenuBtn?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setViewOpen(viewPanel ? viewPanel.hidden : true);
+  });
+  app.querySelectorAll<HTMLButtonElement>(".vp-lang").forEach((b) =>
+    b.addEventListener("click", () => {
+      setLang(b.dataset.lang === "en" ? "en" : "zh");
+      setViewOpen(false);
+    }),
+  );
+  app.querySelectorAll<HTMLButtonElement>(".vp-theme").forEach((b) =>
+    b.addEventListener("click", () => {
+      setTheme(b.dataset.setTheme === "dark" ? "dark" : "light");
+      setViewOpen(false);
+    }),
+  );
+  syncView();
+  i18nView();
+  onLangChange(() => {
+    syncView();
+    i18nView();
+  });
+  onThemeChange(syncView);
 
   syncLang();
   syncTheme();
@@ -109,9 +187,14 @@ export function renderLayout(app: HTMLElement): void {
   document.addEventListener("click", (e) => {
     if (!app.querySelector(".subjects-menu")?.contains(e.target as Node))
       setSubjectsOpen(false);
+    if (!app.querySelector(".view-menu")?.contains(e.target as Node))
+      setViewOpen(false);
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") setSubjectsOpen(false);
+    if (e.key === "Escape") {
+      setSubjectsOpen(false);
+      setViewOpen(false);
+    }
   });
   renderSubjects();
   onLangChange(renderSubjects);

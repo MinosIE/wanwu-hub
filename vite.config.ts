@@ -7,6 +7,10 @@ export default defineConfig({
   build: {
     target: "es2020",
     outDir: "dist",
+    // 关闭 CSS 代码分割：把所有学科样式（含懒加载分块的 tokens/覆盖）合并到入口的单一
+    // 样式表，随 index.html 首屏加载。避免从王朝切到其他学科时其专属 CSS 迟到造成
+    // 「先出结构再补样式」的闪烁（JS 仍按学科懒加载分块）。
+    cssCodeSplit: false,
     rollupOptions: {
       input: {
         main: "index.html",

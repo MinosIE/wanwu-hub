@@ -223,6 +223,97 @@
         box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
         padding: 8px;
       }
+      /* 移动端「语言 + 主题」图标菜单：桌面隐藏，≤640px 取代 lang-switch + theme-btn */
+      .view-menu {
+        display: none;
+        position: relative;
+      }
+      .view-menu-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        background: transparent;
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        color: var(--muted);
+        padding: 6px 12px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition:
+          border-color 0.2s,
+          color 0.2s;
+      }
+      .view-menu-btn:hover,
+      .view-menu-btn[aria-expanded="true"] {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .view-menu-btn .vm-caret {
+        font-size: 0.7rem;
+        transition: transform 0.2s;
+      }
+      .view-menu-btn[aria-expanded="true"] .vm-caret {
+        transform: rotate(180deg);
+      }
+      .view-panel {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        left: auto;
+        z-index: 100;
+        width: 224px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .view-panel[hidden] {
+        display: none;
+      }
+      .vp-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .vp-label {
+        font-size: 0.72rem;
+        color: var(--muted);
+        letter-spacing: 0.04em;
+        padding: 0 2px;
+      }
+      .vp-opts {
+        display: flex;
+        gap: 6px;
+      }
+      .vp-opts > button {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 8px 10px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: transparent;
+        color: var(--text);
+        font-family: inherit;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.15s;
+      }
+      .vp-opts > button:hover {
+        border-color: var(--accent);
+      }
+      .vp-opts > button.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+        font-weight: 600;
+      }
       .subject-item {
         display: flex;
         align-items: center;
@@ -731,13 +822,13 @@
         .subjects-panel {
           top: calc(100% + 6px);
         }
-        .toolbar .lang-btn {
-          padding: 5px 11px;
-        }
+        /* 移动端把语言 / 主题两枚控件收进图标菜单，腾出顶栏横向空间并消除重叠 */
+        .toolbar .lang-switch,
         .toolbar .theme-btn {
-          width: 34px;
-          height: 34px;
-          flex: 0 0 auto;
+          display: none;
+        }
+        .view-menu {
+          display: inline-flex;
         }
       }
       @keyframes riseIn {

@@ -404,6 +404,27 @@
   border-color: var(--brand);
   color: #fff;
 }
+/* 移动端：模块导航收成单行横向滚动，避免 8+ 个胶囊自动换行堆成三四行、占掉首屏高度 */
+@media (max-width: 640px) {
+  .dynasty-root .modnav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 6px;
+    padding: 10px 6px;
+  }
+  .dynasty-root .modnav::-webkit-scrollbar {
+    display: none;
+  }
+  .dynasty-root .modnav .mod {
+    flex: none;
+    padding: 7px 13px;
+    font-size: 12.5px;
+  }
+}
 .dynasty-root .module {
   display: none;
   scroll-margin-top: 72px;

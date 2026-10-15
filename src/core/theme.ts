@@ -26,8 +26,7 @@ export function getTheme(): Theme {
     : "light";
 }
 
-export function toggleTheme(): void {
-  const next: Theme = getTheme() === "dark" ? "light" : "dark";
+export function setTheme(next: Theme): void {
   document.documentElement.setAttribute("data-theme", next);
   try {
     localStorage.setItem("theme", next);
@@ -35,6 +34,10 @@ export function toggleTheme(): void {
     /* ignore */
   }
   listeners.forEach((cb) => cb(next));
+}
+
+export function toggleTheme(): void {
+  setTheme(getTheme() === "dark" ? "light" : "dark");
 }
 
 export function onThemeChange(cb: (t: Theme) => void): () => void {
