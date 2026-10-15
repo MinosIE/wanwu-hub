@@ -29,19 +29,40 @@ const SUBJECT_LOADERS: Record<string, () => Promise<{ mount: SubjectMount }>> =
 
 const app = document.getElementById("app")!;
 let currentCleanup: (() => void) | null = null;
+// 每次导航自增；await 之后若已被更新的导航取代则放弃本次，避免竞态下双挂载。
+let renderSeq = 0;
 
 async function renderView(): Promise<void> {
   const view = document.getElementById("view")!;
+  const seq = ++renderSeq;
+  const route = parse();
+  const key = route.name === "subject" ? route.key : "";
+  const sub = route.name === "subject" ? route.sub : undefined;
+  const loader =
+    route.name === "subject" ? SUBJECT_LOADERS[route.key] : undefined;
+
+  // 先异步取回目标学科模块，期间保留旧视图（含其作用域类）原样、仍带样式。
+  // 关键：王朝把作用域类直接加在 #view 自身（view.className="dynasty-root"），若像
+  // 以往那样在 await 之前就 view.className=""，则切往其他学科、下载其 chunk 的空档里，
+  // #view 里残留的王朝 HTML 会因失去 .dynasty-root 作用域而「裸奔」（以新学科主题渲染
+  // 无样式的旧结构）＝闪烁。故把「清理旧视图 + 复位 + 挂载新内容」整体延后到模块就绪后。
+  let mod: { mount: SubjectMount } | undefined;
+  if (loader) {
+    mod = await loader();
+    if (seq !== renderSeq) return; // 已被更新的导航取代，放弃本次
+  }
+
+  // 模块就绪后，同步完成「清理旧视图 + 复位容器 + 切换主题类 + 挂载新内容」，不留空帧。
   if (currentCleanup) {
     currentCleanup();
     currentCleanup = null;
   }
-  const route = parse();
   // 路由切换时复位滚动位置（hash SPA 不会触发原生滚动复位）
   // 用 instant 覆盖 html 上的 scroll-behavior:smooth，避免带着旧内容做平滑动画
   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  // 切换视图前，重置上个视图残留的容器状态，避免样式串屏（如 dynasty-root 污染首页）
+  // 重置上个视图残留的容器状态与内容，避免样式串屏（如 dynasty-root 污染首页）
   view.className = "";
+  view.innerHTML = "";
   view.removeAttribute("data-theme");
   Array.from(app.classList).forEach((c) => {
     if (c === "subject-mode" || c.startsWith("subject-"))
@@ -56,7 +77,6 @@ async function renderView(): Promise<void> {
     return;
   }
   app.classList.add("subject-mode");
-  const key = route.key;
   app.classList.toggle("subject-dynasty", key === "dynasty");
   app.classList.toggle("subject-econ", key === "econ");
   app.classList.toggle("subject-mind", key === "mind");
@@ -66,10 +86,8 @@ async function renderView(): Promise<void> {
   app.classList.toggle("subject-physics", key === "physics");
   app.classList.toggle("subject-chem", key === "chem");
   window.dispatchEvent(new CustomEvent("subject:change", { detail: { key } }));
-  const loader = SUBJECT_LOADERS[key];
-  if (loader) {
-    const mod = await loader();
-    currentCleanup = await mod.mount(view, route.sub);
+  if (mod) {
+    currentCleanup = await mod.mount(view, sub);
     return;
   }
   const p = PROJECTS.find((x) => x.key === key);
