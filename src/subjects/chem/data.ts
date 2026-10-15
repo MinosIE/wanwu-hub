@@ -566,6 +566,17 @@ export const chemData: Omit<SubjectConfig, "rootClass" | "accent"> = {
         },
       ],
     },
+    /* ===================== 分子空间结构 3D（试点·按需懒加载） ===================== */
+    {
+      key: "mol3d",
+      icon: "🧊",
+      title: { zh: "分子结构 3D", en: "Molecular 3D" },
+      items: [],
+      // 零依赖 Canvas 查看器：仅在渲染到本模块时才 dynamic-import，不拖累其余学科。
+      custom: (grid: HTMLElement) => {
+        import("./mol3d").then((m) => m.mount(grid));
+      },
+    },
     /* ===================== 物质结构（含示意图） ===================== */
     {
       key: "structure",

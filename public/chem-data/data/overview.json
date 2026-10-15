@@ -8,6 +8,7 @@
   "total": 285,
   "counts": {
     "concepts": 11,
+    "mol3d": 0,
     "structure": 7,
     "periodic-table-full": 118,
     "trends": 8,
@@ -35,6 +36,14 @@
       "titleEn": "Core Concepts",
       "kind": "cards",
       "count": 11
+    },
+    {
+      "key": "mol3d",
+      "icon": "🧊",
+      "title": "分子结构 3D",
+      "titleEn": "Molecular 3D",
+      "kind": "cards",
+      "count": 0
     },
     {
       "key": "structure",
@@ -183,6 +192,7 @@
   ],
   "kpis": [
     { "key": "concepts", "icon": "🧪", "value": 11 },
+    { "key": "mol3d", "icon": "🧊", "value": 0 },
     { "key": "structure", "icon": "🧱", "value": 7 },
     { "key": "periodic-table-full", "icon": "🧭", "value": 118 },
     { "key": "trends", "icon": "📊", "value": 8 },

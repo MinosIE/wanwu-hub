@@ -107,6 +107,10 @@ export interface SubjectModule {
   items: SubjectItem[];
   /** 渲染方式：cards（默认）或 periodic（完整周期表 2D 网格） */
   kind?: "cards" | "periodic";
+  /** 可选自定义渲染：给定本模块的 .card-grid 容器，由学科自行提供交互内容
+   * （如 chem 的 3D 分子查看器）。设置后 renderModule 调用它并跳过默认卡片；
+   *  该字段是函数，数据导出器会忽略（仅按 items/kind 等序列化）。 */
+  custom?: (grid: HTMLElement) => void;
 }
 
 /** 只要模块里有任何带难度的条目，就提供难度筛选条（与 FULL 学科一致）。 */
@@ -601,6 +605,10 @@ export function createSubject(cfg: SubjectConfig) {
     };
 
     const renderModule = (m: SubjectModule, grid: HTMLElement) => {
+      if (m.custom) {
+        m.custom(grid);
+        return;
+      }
       if (m.kind === "periodic") {
         grid.innerHTML = periodicHTML(m);
         grid.querySelectorAll<HTMLElement>(".js-pt").forEach((el) => {
