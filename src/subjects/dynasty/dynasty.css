@@ -63,8 +63,7 @@
   margin: 0;
   padding: 0;
 }
-/* 中华王朝保留 hero 内的语言 / 主题按钮（深色渐变上的玻璃胶囊），
-   点击已由 src/core/viewControls.ts 桥接到主应用状态，与顶栏同源。 */
+/* 语言 / 主题统一由主应用顶栏切换，hero 内不再放置切换按钮。 */
 .dynasty-root {
   font-family:
     -apple-system, "PingFang SC", "Microsoft YaHei", Helvetica, Arial,
@@ -85,60 +84,6 @@
   margin: 0 auto;
   padding: 24px;
 }
-.dynasty-root .theme-btn {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  z-index: 5;
-  width: auto;
-  height: 40px;
-  padding: 0 15px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  white-space: nowrap;
-  cursor: pointer;
-  backdrop-filter: blur(4px);
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: inherit;
-  transition: 0.2s;
-}
-.dynasty-root .theme-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-1px);
-}
-.dynasty-root .lang-btn {
-  position: absolute;
-  top: 18px;
-  left: 18px;
-  z-index: 5;
-  width: auto;
-  height: 40px;
-  padding: 0 14px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  white-space: nowrap;
-  cursor: pointer;
-  backdrop-filter: blur(4px);
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: inherit;
-  transition: 0.2s;
-}
-.dynasty-root .lang-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-1px);
-}
 /* hero — 与其他学科统一：单色 --hero 渐变 + 白色径向高光 + 角部光晕 */
 .dynasty-root .hero {
   position: relative;
@@ -155,8 +100,8 @@
   color: #fff;
   overflow: hidden;
 }
-/* 角落两枚按钮保持绝对定位，其余内容参与居中流式排布 */
-.dynasty-root .hero > *:not(.icon-btn):not(.theme-btn):not(.lang-btn) {
+/* hero 内容参与居中流式排布 */
+.dynasty-root .hero > *:not(.icon-btn) {
   position: relative;
   z-index: 1;
 }
@@ -1664,13 +1609,6 @@
     padding: 34px 16px 30px;
     gap: 10px;
     border-radius: var(--r3);
-  }
-  .dynasty-root .theme-btn,
-  .dynasty-root .lang-btn {
-    top: 10px;
-    height: 30px;
-    padding: 0 10px;
-    font-size: 12px;
   }
   .dynasty-root .hero h1 {
     font-size: 25px;
