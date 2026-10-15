@@ -242,12 +242,12 @@ const MAIL_LABEL: LStr = { zh: "✉️ 邮件反馈", en: "✉️ Email" };
 /** 生成预填主题/正文的 mailto 链接（与全站一致的反馈邮箱）。 */
 function mailHref(): string {
   const subject = encodeURIComponent(
-    L({ zh: "【万物通识·问题反馈】", en: "[Wanwu Tongsheng feedback]" }),
+    L({ zh: "【万物通识·问题反馈】", en: "[Everything Hub feedback]" }),
   );
   const body = encodeURIComponent(
     L({
       zh: "您好，我在浏览「万物通识」时发现以下问题 / 建议：\n\n",
-      en: "Hi, I found the following issue / suggestion while browsing Wanwu Tongsheng:\n\n",
+      en: "Hi, I found the following issue / suggestion while browsing Everything Hub:\n\n",
     }),
   );
   return `mailto:417913012@qq.com?subject=${subject}&body=${body}`;

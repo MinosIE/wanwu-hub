@@ -23,10 +23,10 @@ const base: Record<Lang, Dict> = {
     nav_subjects: "学科",
   },
   en: {
-    brand: "Wanwu Tongsheng",
+    brand: "Everything Hub",
     subtitle: "One hub to explore everything — the series portal",
     intro:
-      "Wanwu Tongsheng is a collection of open-source projects built around 'general education + visualization': from millennia of Chinese history to four disciplines — psychology, philosophy, geography, and biology. This hub gathers every sub-project's entry point in one place.",
+      "Everything Hub is a collection of open-source projects built around 'general education + visualization': from millennia of Chinese history to four disciplines — psychology, philosophy, geography, and biology. This hub gathers every sub-project's entry point in one place.",
     sec_all: "All Series",
     btn_site: "Visit Site ↗",
     btn_repo: "GitHub Repo ↗",

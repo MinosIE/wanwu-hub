@@ -664,7 +664,12 @@
     right: 78px;
   }
   .mind-root .hero {
-    padding-top: 38px;
+    /* 与共享 ui.css（.subject-root .hero 移动端）对齐：显式声明，
+       不依赖样式注入顺序（dev 里本文件常晚于 ui.css，会让 34vh 反胜） */
+    margin-inline: -14px;
+    min-height: 22vh;
+    padding: 30px 16px 26px;
+    gap: 10px;
   }
 }
 
