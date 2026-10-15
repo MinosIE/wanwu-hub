@@ -113,15 +113,32 @@
 }
 .subject-root .sd-panel {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: min(620px, 92vw);
   max-height: 84vh;
-  overflow: auto;
+  overflow: hidden;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 16px;
-  padding: 28px 26px 24px;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
   animation: subFade 0.3s var(--ease-out);
+}
+/* 头部固定不随正文滚动（等效吸顶），保证关闭按钮常驻 */
+.subject-root .sd-head {
+  position: relative;
+  flex: none;
+  padding: 22px 48px 12px 26px;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+/* 正文独立滚动（移动端惯性滚动） */
+.subject-root .sd-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px 26px 24px;
 }
 .subject-root .sd-close {
   position: absolute;
@@ -139,6 +156,43 @@
 .subject-root .sd-close:hover {
   color: var(--text);
   background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* 弹层打开时锁定页面滚动，避免背景穿透（仅轻量学科详情会加此类） */
+body.sd-open {
+  overflow: hidden;
+}
+
+/* 移动端模块下拉菜单：桌面隐藏，窄屏接管 .modnav */
+.subject-kit .modnav-select {
+  display: none;
+}
+@media (max-width: 560px) {
+  .subject-kit .kpis {
+    display: none;
+  }
+  .subject-kit .modnav {
+    display: none;
+  }
+  .subject-kit .modnav-select {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 13px 14px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    background: var(--bg);
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    box-shadow: 0 6px 14px -12px rgba(8, 47, 73, 0.5);
+  }
 }
 .subject-root .sd-eyebrow {
   color: var(--accent);

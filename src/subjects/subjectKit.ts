@@ -459,7 +459,7 @@ function refsInner(refs: SubjectRef[]): string {
 export function createSubject(cfg: SubjectConfig) {
   return async (view: HTMLElement, sub?: string): Promise<() => void> => {
     const hasRefs = !!(cfg.refs && cfg.refs.length);
-    view.innerHTML = `<div class="${cfg.rootClass} subject-root" style="--accent:${cfg.accent};--hero:linear-gradient(155deg, color-mix(in srgb, ${cfg.accent} 72%, #06121a), color-mix(in srgb, ${cfg.accent} 40%, #06121a))">
+    view.innerHTML = `<div class="${cfg.rootClass} subject-root subject-kit" style="--accent:${cfg.accent};--hero:linear-gradient(155deg, color-mix(in srgb, ${cfg.accent} 72%, #06121a), color-mix(in srgb, ${cfg.accent} 40%, #06121a))">
       <div class="wrap">
         <section class="hero">
           <h1>${esc(heroTitleText(cfg.heroTitle))}</h1>
@@ -477,6 +477,12 @@ export function createSubject(cfg: SubjectConfig) {
               `<button class="mod${i === 0 ? " active" : ""}" data-go="${m.key}"><span class="sm-ic" aria-hidden="true">${m.icon}</span><span class="sm-label">${esc(L(m.title))}</span></button>`,
           )
           .join("")}</nav>
+        <select class="modnav-select" aria-label="${esc(L({ zh: "模块导航", en: "Module navigation" }))}">${cfg.modules
+          .map(
+            (m, i) =>
+              `<option value="${esc(m.key)}"${i === 0 ? " selected" : ""}>${esc(L(m.title))}</option>`,
+          )
+          .join("")}</select>
         <div class="modules">${cfg.modules
           .map(
             (m, i) =>
@@ -632,28 +638,34 @@ export function createSubject(cfg: SubjectConfig) {
       const d = root.querySelector<HTMLElement>("#subDetail")!;
       d.hidden = true;
       d.innerHTML = "";
+      document.body.classList.remove("sd-open");
     };
     const openDetail = (m: SubjectModule, id: string) => {
       const item = m.items.find((x) => x.id === id);
       if (!item) return;
       const d = root.querySelector<HTMLElement>("#subDetail")!;
       d.innerHTML = `<div class="sd-backdrop"></div><div class="sd-panel" role="dialog" aria-modal="true">
-        <button class="sd-close" type="button" aria-label="关闭">×</button>
-        <div class="sd-eyebrow">${esc(L(m.title))}${item.level != null ? ` · ${esc(levelLabel(item.level))}` : ""}</div>
-        <div class="sd-title-row">
-          <h2 class="sd-title">${esc(L(item.term))}</h2>
-          ${replayBtn(item.eq)}
+        <div class="sd-head">
+          <button class="sd-close" type="button" aria-label="关闭">×</button>
+          <div class="sd-eyebrow">${esc(L(m.title))}${item.level != null ? ` · ${esc(levelLabel(item.level))}` : ""}</div>
+          <div class="sd-title-row">
+            <h2 class="sd-title">${esc(L(item.term))}</h2>
+            ${replayBtn(item.eq)}
+          </div>
         </div>
-        ${item.value ? `<div class="sd-value">${esc(L(item.value))}</div>` : ""}
-        <div class="sd-lead">${esc(L(item.oneLiner))}</div>
-        ${eqHTML(item.eq, true)}
-        ${subsHTML(item.subs)}
-        ${figureHTML(item.figure)}
-        ${item.detail ? `<p class="sd-sec"><b>📘</b><span>${esc(L(item.detail))}</span></p>` : ""}
-        ${item.example ? `<p class="sd-sec"><b>🧪</b><span>${esc(L(item.example))}</span></p>` : ""}
-        ${item.tags && item.tags.length ? `<div class="sd-tags">${item.tags.map((t) => `<span class="tag">${esc(L(t))}</span>`).join("")}</div>` : ""}
+        <div class="sd-body">
+          ${item.value ? `<div class="sd-value">${esc(L(item.value))}</div>` : ""}
+          <div class="sd-lead">${esc(L(item.oneLiner))}</div>
+          ${eqHTML(item.eq, true)}
+          ${subsHTML(item.subs)}
+          ${figureHTML(item.figure)}
+          ${item.detail ? `<p class="sd-sec"><b>📘</b><span>${esc(L(item.detail))}</span></p>` : ""}
+          ${item.example ? `<p class="sd-sec"><b>🧪</b><span>${esc(L(item.example))}</span></p>` : ""}
+          ${item.tags && item.tags.length ? `<div class="sd-tags">${item.tags.map((t) => `<span class="tag">${esc(L(t))}</span>`).join("")}</div>` : ""}
+        </div>
       </div>`;
       d.hidden = false;
+      document.body.classList.add("sd-open");
       d.querySelector(".sd-close")!.addEventListener("click", closeDetail);
       d.querySelector(".sd-backdrop")!.addEventListener("click", closeDetail);
       // 重放：移除 .eq-anim 后强制回流再添加，重启 CSS 动画序列。
@@ -670,18 +682,24 @@ export function createSubject(cfg: SubjectConfig) {
 
     cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
 
+    const selectEl = root.querySelector<HTMLSelectElement>(".modnav-select");
+    /** 切换当前模块：同步按钮态与下拉选中项，并滚到模块内容（而非无用的 hero 顶部）。 */
+    const selectModule = (k: string): void => {
+      root
+        .querySelectorAll<HTMLElement>(".mod")
+        .forEach((b) => b.classList.toggle("active", b.dataset.go === k));
+      root
+        .querySelectorAll<HTMLElement>(".module")
+        .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
+      if (selectEl && selectEl.value !== k) selectEl.value = k;
+      root
+        .querySelector<HTMLElement>(".module.active")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
     root.querySelectorAll<HTMLElement>(".mod").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const k = btn.dataset.go!;
-        root
-          .querySelectorAll(".mod")
-          .forEach((b) => b.classList.toggle("active", b === btn));
-        root
-          .querySelectorAll<HTMLElement>(".module")
-          .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
+      btn.addEventListener("click", () => selectModule(btn.dataset.go!));
     });
+    selectEl?.addEventListener("change", () => selectModule(selectEl.value));
 
     // 搜索：跨模块过滤卡片，命中项汇总到结果区
     const allItems = cfg.modules.flatMap((m) =>
@@ -697,6 +715,7 @@ export function createSubject(cfg: SubjectConfig) {
       if (!q) {
         resultsEl.hidden = true;
         navEl.style.display = "";
+        if (selectEl) selectEl.style.display = "";
         modulesEl.style.display = "";
         cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
         return;
@@ -713,6 +732,7 @@ export function createSubject(cfg: SubjectConfig) {
         return hay.includes(q);
       });
       navEl.style.display = "none";
+      if (selectEl) selectEl.style.display = "none";
       modulesEl.style.display = "none";
       resultsEl.hidden = false;
       resultsEl.innerHTML = matches.length
@@ -749,6 +769,9 @@ export function createSubject(cfg: SubjectConfig) {
         .querySelectorAll<HTMLElement>(".mod .sm-label")
         .forEach((b, i) => (b.textContent = L(cfg.modules[i].title)));
       root
+        .querySelectorAll<HTMLElement>(".modnav-select option")
+        .forEach((o, i) => (o.textContent = L(cfg.modules[i].title)));
+      root
         .querySelectorAll<HTMLElement>(".mod-head h2")
         .forEach((h, i) => (h.textContent = L(cfg.modules[i].title)));
       cfg.modules.forEach((m, i) => renderModule(m, grids[i]));
@@ -778,6 +801,7 @@ export function createSubject(cfg: SubjectConfig) {
         root
           .querySelectorAll<HTMLElement>(".module")
           .forEach((s) => s.classList.toggle("active", s.id === `sm-${k}`));
+        if (selectEl) selectEl.value = k;
         if (id) openDetail(m, id);
       }
     }
