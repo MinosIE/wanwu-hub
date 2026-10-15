@@ -1,5 +1,8 @@
 import { initLang, onLangChange } from "./core/i18n";
 import { initTheme } from "./core/theme";
+// 共享学科 UI 层提前随入口加载：各学科基础布局（hero/kpi/卡片/导航）不再随
+// 懒加载分块迟到，避免「从王朝切到其他学科」时先出现无样式再补样式的闪烁。
+import "./core/ui/ui.css";
 import { parse, onRoute } from "./core/router";
 import { renderLayout } from "./core/layout";
 import { PROJECTS } from "./core/projects";
