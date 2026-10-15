@@ -4,7 +4,9 @@ import { esc } from '../core/dom';
 function listHtml(arr: unknown): string {
   const items = Array.isArray(arr) ? arr.filter(Boolean) : [];
   if (!items.length) return '';
-  return `<ul>${items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  return `<ul class="dsec-list">${items
+    .map((x) => `<li>${esc(x)}</li>`)
+    .join('')}</ul>`;
 }
 
 export const psychologists: ListModule = {
