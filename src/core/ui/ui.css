@@ -819,8 +819,10 @@ body.no-scroll {
 .mnav {
   display: none;
 }
-/* .mnav 组件样式：与断点无关，仅在 .mnav 被下方媒体规则显示时生效 */
-.mnav-btn {
+/* .mnav 组件样式：与断点无关，仅在 .mnav 被下方媒体规则显示时生效。
+   所有子选择器均加 .mnav 前缀抬到 (0,2,0)，以压过各学科根节点的 .xxx-root *{padding:0;margin:0} 通用复位
+   （否则像 dynasty.css 在合并样式里靠后会重置掉下拉内边距，导致观感与其他学科不一致）。*/
+.mnav .mnav-btn {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -835,7 +837,7 @@ body.no-scroll {
   border: none;
   cursor: pointer;
 }
-.mnav-cur {
+.mnav .mnav-cur {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -845,11 +847,11 @@ body.no-scroll {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.mnav-ic {
+.mnav .mnav-ic {
   flex: none;
   font-size: 15px;
 }
-.mnav-caret {
+.mnav .mnav-caret {
   flex: none;
   width: 14px;
   height: 14px;
@@ -862,7 +864,7 @@ body.no-scroll {
 .mnav.open .mnav-caret {
   transform: rotate(180deg);
 }
-.mnav-panel {
+.mnav .mnav-panel {
   position: absolute;
   top: 100%;
   left: 0;
@@ -877,13 +879,13 @@ body.no-scroll {
   flex-direction: column;
   gap: 2px;
 }
-.mnav-panel[hidden] {
+.mnav .mnav-panel[hidden] {
   display: none;
 }
 .mnav.open .mnav-panel {
   animation: mnavIn 0.16s ease;
 }
-.mnav-opt {
+.mnav .mnav-opt {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -899,19 +901,19 @@ body.no-scroll {
   border-radius: 10px;
   cursor: pointer;
 }
-.mnav-opt:hover {
+.mnav .mnav-opt:hover {
   background: rgba(8, 47, 73, 0.06);
 }
-.mnav-opt.on {
+.mnav .mnav-opt.on {
   color: #fff;
   background: var(--brand);
 }
-.mnav-check {
+.mnav .mnav-check {
   margin-left: auto;
   opacity: 0;
   font-weight: 800;
 }
-.mnav-opt.on .mnav-check {
+.mnav .mnav-opt.on .mnav-check {
   opacity: 1;
 }
 @keyframes mnavIn {
