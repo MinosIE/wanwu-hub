@@ -79,8 +79,8 @@ export function openDetail(p: DetailPayload): void {
   root.innerHTML = `
     <div class="detail-backdrop" data-close="1"></div>
     <aside class="detail-panel" role="dialog" aria-modal="true" aria-label="${esc(p.title)}">
-      <button class="detail-close" type="button" data-close="1" aria-label="${esc(t("ui.close"))}">✕</button>
       <header class="detail-head">
+        <button class="detail-close" type="button" data-close="1" aria-label="${esc(t("ui.close"))}">✕</button>
         ${eyebrow ? `<p class="detail-eyebrow">${esc(eyebrow)}</p>` : ""}
         <h3 class="detail-title">${esc(p.title)}</h3>
         ${p.subtitle ? `<p class="detail-sub">${esc(p.subtitle)}</p>` : ""}

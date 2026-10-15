@@ -4,6 +4,7 @@ import { boot, activate, setHistoryUpdate } from "./src/main";
 import { setLang as econSetLang } from "./src/core/i18n";
 import { onLangChange as onMainLang } from "../../core/i18n";
 import { onThemeChange as onMainTheme, getTheme } from "../../core/theme";
+import { initMobileNav } from "../_shared/mobileNav";
 
 /**
  * 把原 econ.html 独立子应用挂载进主应用 #view，移除 iframe。
@@ -14,7 +15,7 @@ export async function mount(
   view: HTMLElement,
   sub?: string,
 ): Promise<() => void> {
-  view.innerHTML = `<div class="econ-root subject-root">${TEMPLATE}</div>`;
+  view.innerHTML = `<div class="econ-root subject-root subject-mnav">${TEMPLATE}</div>`;
   const root = view.querySelector<HTMLElement>(".econ-root");
   if (!root) return () => {};
 
@@ -24,6 +25,7 @@ export async function mount(
   // 内嵌时关闭历史写入，避免污染主路由 URL
   setHistoryUpdate(false);
   boot(root);
+  initMobileNav(root);
 
   // 主应用切换语言/主题时，驱动 econ 内部重新渲染
   const offLang = onMainLang((l) => econSetLang(l));

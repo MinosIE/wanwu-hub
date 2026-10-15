@@ -360,35 +360,47 @@
   z-index: 60;
   display: flex;
   justify-content: flex-end;
-  background: rgba(30, 20, 12, 0.45);
 }
 .mind-root .detail-root[hidden] {
   display: none;
 }
-.mind-root .detail-panel {
-  width: min(560px, 100%);
-  height: 100%;
-  overflow: auto;
-  background: var(--bg);
-  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.3);
-  padding: 22px 26px 60px;
-  animation: slide 0.25s ease;
+.mind-root .detail-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 20, 12, 0.45);
+  opacity: 0;
+  transition: opacity 0.3s;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
-@keyframes slide {
-  from {
-    transform: translateX(30px);
-    opacity: 0.4;
-  }
-  to {
-    transform: none;
-    opacity: 1;
-  }
+.mind-root .detail-root.open .detail-backdrop {
+  opacity: 1;
+}
+.mind-root .detail-panel {
+  position: relative;
+  width: min(560px, 94vw);
+  height: 100%;
+  overflow-y: auto;
+  background: var(--bg);
+  box-shadow: -12px 0 40px rgba(0, 0, 0, 0.3);
+  padding: 0 26px 60px;
+  transform: translateX(102%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mind-root .detail-root.open .detail-panel {
+  transform: none;
 }
 .mind-root .detail-head {
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
+  padding: 22px 0 14px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
 }
 .mind-root .detail-head h2 {
   margin: 0;

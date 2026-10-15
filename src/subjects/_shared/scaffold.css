@@ -31,7 +31,8 @@
     color 0.3s;
 }
 
-.subject-root body.no-scroll {
+/* 打开详情抽屉时锁定背景滚动：类加在 <body> 上，须是 body 级选择器（不能嵌在 .subject-root 下，否则永不匹配）。 */
+body.no-scroll {
   overflow: hidden;
 }
 
@@ -1394,7 +1395,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 26px 26px 34px;
+  padding: 0 26px 34px;
   background: var(--surface);
   box-shadow: -12px 0 40px rgba(4, 22, 31, 0.28);
   overflow-y: auto;
@@ -1457,11 +1458,14 @@
   border-color: var(--brand);
 }
 .subject-root .detail-head {
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  padding-right: 40px;
-  padding-bottom: 14px;
+  padding: 22px 40px 14px 0;
+  background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
 .subject-root .detail-eyebrow {

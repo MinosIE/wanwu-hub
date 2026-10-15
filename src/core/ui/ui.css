@@ -807,3 +807,38 @@
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ---------------- 移动端首屏：折叠模块导航为下拉（.subject-mnav 学科） ---------------- */
+/* 打开详情抽屉锁背景滚动：类加在 <body> 上，需 body 级选择器（放 ui.css 统一覆盖 thought/life/earth/econ）。 */
+body.no-scroll {
+  overflow: hidden;
+}
+.subject-mnav .modnav-select {
+  display: none;
+}
+@media (max-width: 560px) {
+  .subject-mnav .kpis {
+    display: none;
+  }
+  .subject-mnav .modnav {
+    display: none;
+  }
+  .subject-mnav .modnav-select {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 14px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-strong);
+    background: var(--bg);
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    box-shadow: 0 6px 14px -12px rgba(8, 47, 73, 0.5);
+  }
+}

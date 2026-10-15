@@ -4,6 +4,9 @@ import type { DetailView, RefSource } from './types';
 
 // 说明：s.html 等由各模块拼装，凡插入数据字段一律经 esc()；来源 url 同样转义后作为 href。
 
+// 关闭滑出动画的延时定时器（跨调用复用，避免重开时残留定时器把新面板隐藏）。
+let closeTimer = 0;
+
 /**
  * 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。
  * 页脚 refs 与详情面板共用这一份，避免两处行为分叉。
@@ -24,6 +27,10 @@ export function renderDetail(
 ): void {
   const root = document.getElementById('detailRoot');
   if (!root) return;
+
+  // 重开（如 related 跳转）时先取消待执行的关闭清理并回到初始滑出态。
+  window.clearTimeout(closeTimer);
+  root.classList.remove('open');
 
   const sections = view.sections
     .map(
@@ -64,6 +71,7 @@ export function renderDetail(
       : '';
 
   root.innerHTML = `
+    <div class="detail-backdrop" data-close="1"></div>
     <div class="detail-panel" role="dialog" aria-modal="true">
       <div class="detail-head">
         <h2>${esc(view.title)}</h2>
@@ -74,6 +82,7 @@ export function renderDetail(
     </div>`;
   root.hidden = false;
   document.body.style.overflow = 'hidden';
+  requestAnimationFrame(() => root.classList.add('open'));
 
   const panel = root.querySelector<HTMLElement>('.detail-panel')!;
   const closeBtn = panel.querySelector<HTMLElement>('#detailClose');
@@ -83,11 +92,16 @@ export function renderDetail(
       : null;
 
   const close = () => {
-    root.hidden = true;
-    root.innerHTML = '';
+    root.classList.remove('open');
     document.body.style.overflow = '';
     document.removeEventListener('keydown', onKey);
     lastFocused?.focus();
+    // 等滑出过渡（0.3s）结束后再隐藏并清空，避免动画被截断。
+    window.clearTimeout(closeTimer);
+    closeTimer = window.setTimeout(() => {
+      root.hidden = true;
+      root.innerHTML = '';
+    }, 320);
   };
   const onKey = (e: KeyboardEvent) => {
     if (e.key === 'Escape') {
@@ -114,6 +128,9 @@ export function renderDetail(
   };
 
   closeBtn?.addEventListener('click', close);
+  root
+    .querySelector<HTMLElement>('.detail-backdrop')
+    ?.addEventListener('click', close);
   root.addEventListener('click', (e) => {
     if (e.target === root) close();
   });

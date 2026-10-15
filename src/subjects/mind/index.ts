@@ -4,6 +4,7 @@ import { boot, activate, setHistoryUpdate } from './src/core/app';
 import { setLang as mindSetLang, setI18nRoot } from './src/core/i18n';
 import { onLangChange as onMainLang } from '../../core/i18n';
 import { onThemeChange as onMainTheme, getTheme } from '../../core/theme';
+import { initMobileNav } from '../_shared/mobileNav';
 
 /**
  * 把原 mind.html 独立子应用挂载进主应用 #view，移除 iframe。
@@ -14,7 +15,7 @@ export async function mount(
   view: HTMLElement,
   sub?: string,
 ): Promise<() => void> {
-  view.innerHTML = `<div class="mind-root subject-root">${TEMPLATE}</div>`;
+  view.innerHTML = `<div class="mind-root subject-root subject-mnav">${TEMPLATE}</div>`;
   const root = view.querySelector<HTMLElement>('.mind-root');
   if (!root) return () => {};
 
@@ -26,6 +27,7 @@ export async function mount(
   setHistoryUpdate(false);
 
   await boot(root);
+  initMobileNav(root);
 
   // 主应用切换语言/主题时，驱动 mind 内部重新渲染
   const offLang = onMainLang((l) => mindSetLang(l));
