@@ -1,5 +1,6 @@
 import { getLang, onLangChange } from "../../core/i18n";
 import { getTheme, onThemeChange } from "../../core/theme";
+import { initMobileNav } from "../_shared/mobileNav";
 import "./dynasty.css";
 import { TEMPLATE } from "./template";
 import { DYNASTY_SCRIPT } from "./logic";
@@ -99,6 +100,9 @@ export async function mount(view: HTMLElement): Promise<() => void> {
     DYNASTY_SCRIPT,
   );
   runner(doc, win, loc, localStorageStub);
+
+  // 移动端把会换行堆高的 .modnav 折叠成与其他学科一致的 .mnav 下拉（≤640px 显示）。
+  initMobileNav(view);
 
   const applyTheme = (t: string) => view.setAttribute("data-theme", t);
   applyTheme(getTheme());

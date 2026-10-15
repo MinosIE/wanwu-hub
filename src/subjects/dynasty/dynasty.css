@@ -409,25 +409,15 @@
   border-color: var(--brand);
   color: #fff;
 }
-/* 移动端：模块导航收成单行横向滚动，避免 8+ 个胶囊自动换行堆成三四行、占掉首屏高度 */
+/* 移动端：与其他学科一致，把会换行堆高的 pill 导航条折叠成 .mnav 下拉。
+   .mnav 组件外观与吸顶样式由共享 ui.css 提供（initMobileNav 在 index.ts 注入）；
+   本处只负责在 ≤640px 隐藏 .modnav、显示 .mnav，同文件靠后位置确保赢过基线。 */
 @media (max-width: 640px) {
   .dynasty-root .modnav {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    gap: 6px;
-    padding: 10px 6px;
-  }
-  .dynasty-root .modnav::-webkit-scrollbar {
     display: none;
   }
-  .dynasty-root .modnav .mod {
-    flex: none;
-    padding: 7px 13px;
-    font-size: 12.5px;
+  .dynasty-root .mnav {
+    display: block;
   }
 }
 .dynasty-root .module {

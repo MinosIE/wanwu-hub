@@ -3,11 +3,11 @@
  * 用自绘的按钮 + 弹出列表替代原生 <select>（原生样式与交互在不同系统上观感差）。
  *
  * 用法：
- * - FULL 学科：initMobileNav(root) 从现有 .modnav .mod 按钮派生选项，
+ * - FULL 学科与中华王朝：initMobileNav(root) 从现有 .modnav .mod 按钮派生选项，
  *   选择时点击对应 .mod，复用各学科既有切换逻辑（无需改 activate/setActive）。
  * - 轻量学科（subjectKit）：直接 mountNavDropdown(host, {...})，onSelect 调各自的 selectModule。
  *
- * 仅对被标记 .subject-mnav / .subject-kit 的学科根节点显示，不影响王朝（dynasty）。
+ * 显示断点由 ui.css 控制：.subject-mnav / .subject-kit 在 ≤560px、.dynasty-root 在 ≤640px 接管。
  */
 
 const escHtml = (s: string): string =>
