@@ -60,13 +60,13 @@ body.no-scroll {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  padding: 24px;
+  padding: 0 24px;
   width: 100%;
 }
 
 @media (max-width: 560px) {
   .subject-root .wrap {
-    padding: 14px;
+    padding: 0 14px;
     gap: 20px;
   }
 }

@@ -82,7 +82,12 @@
   flex-direction: column;
   gap: 28px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .dynasty-root .wrap {
+    padding: 0 14px;
+  }
 }
 /* hero — 与其他学科统一：单色 --hero 渐变 + 白色径向高光 + 角部光晕 */
 .dynasty-root .hero {
