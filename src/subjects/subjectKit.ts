@@ -11,11 +11,11 @@ export const L = (o?: LStr | string): string => {
   return getLang() === "en" ? o.en || o.zh : o.zh || o.en;
 };
 
-/** hero 标题：中文模式显示「中文 · English」，英文模式仅 English（与其它学科的 i18n 表现一致）。 */
+/** hero 标题：中文模式仅显示中文，英文模式显示 English（中文里不再夹英文副标题）。 */
 export const heroTitleText = (o?: LStr): string => {
   if (!o) return "";
   if (getLang() === "en") return o.en || o.zh;
-  return `${o.zh}${o.en ? ` · ${o.en}` : ""}`;
+  return o.zh;
 };
 
 /** 难度等级文案：与 thought / earth / life 等学科的 ui.lvl1..3 用词一致。 */
