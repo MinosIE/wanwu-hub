@@ -110,5 +110,85 @@
     "conceptLabelEn": "Tax Incidence",
     "related": ["price-of-ride-hailing", "education-signal", "second-hand-market"],
     "sources": [{ "label": "罗歇、梯若尔《双边市场平台竞争》", "labelEn": "Rochet & Tirole, Platform Competition in Two-Sided Markets", "year": 2003 }]
+  },
+  {
+    "id": "airline-seat-pricing",
+    "icon": "✈️",
+    "question": "同一趟航班，邻座为什么价格不同？",
+    "questionEn": "Same flight, why did the seat beside yours cost differently?",
+    "level": 2,
+    "econ": "航空票价是价格歧视：用时间、退改规则与舱位把不同支付意愿的人分开。",
+    "econEn": "Airfares are price discrimination: timing, refund rules and cabins sort travelers by willingness to pay.",
+    "detail": "商务客临近出发才订票、对价格不敏感，休闲客提前抢特价、对价格敏感。航司用提前购买要求、周六停留、退改手续费与舱位设置，让两组人自我区分，分别收取接近各自上限的价格，同时抬高平均载客率。这不是乱标价，而是对固定成本极高、边际成本极低又极易作废的商品（起飞即归零的座位）的精细运营。",
+    "detailEn": "Business travelers book late and are price-insensitive; leisure buyers grab early deals and are sensitive. Airlines use advance-purchase rules, Saturday-stay, change fees and fare classes to let the two groups self-sort, charging each near their ceiling while lifting average load. It is not chaos but careful pricing of a perishable good with huge fixed and tiny marginal cost: a seat is worthless once the plane leaves.",
+    "concept": "price-discrimination",
+    "conceptLabel": "价格歧视（按支付意愿分层定价）",
+    "conceptLabelEn": "Price Discrimination",
+    "related": [
+      "elasticity",
+      "demand-exceptions",
+      "consumer-choice"
+    ],
+    "sources": [
+      {
+        "label": "瓦里安《信息规则》；航空收益管理研究",
+        "labelEn": "Varian, Information Rules; airline revenue-management studies",
+        "year": 1995
+      }
+    ]
+  },
+  {
+    "id": "concert-ticket-scalping",
+    "icon": "🎫",
+    "question": "演唱会黄牛票为什么屡禁不止？",
+    "questionEn": "Why are concert touts never stamped out?",
+    "level": 2,
+    "econ": "官方把票定在均衡价之下，必然制造短缺，愿意多付的人便催生了二级市场。",
+    "econEn": "Priced below equilibrium, tickets guarantee a shortage, so a resale market of higher payers appears.",
+    "detail": "当红演出座位固定，若为普惠或管制把票价压得远低于市场清算价，想买的远多于票量，短缺就给了转售利润。黄牛承担排队、抢票与风险成本，把票导向支付意愿最高者。限价、实名与抽签能缓解却难消除，根源在于定价低于均衡。真正的争论是：该按效率放给高价者，还是按公平让普通粉丝有机会。",
+    "detailEn": "Seats for a hot show are fixed; if access or rules price them far below clearing, demand exceeds supply and resale profit follows. Touts bear queuing, grabbing and risk cost, steering tickets to the highest payers. Caps, real-name rules and lotteries ease but rarely erase it, since the root is below-equilibrium pricing. The real debate: allocate by efficiency to high payers, or by fairness give ordinary fans a chance.",
+    "concept": "surplus-shortage",
+    "conceptLabel": "过剩与短缺（限价造成的失衡）",
+    "conceptLabelEn": "Surplus and Shortage",
+    "related": [
+      "scarcity",
+      "equilibrium",
+      "surplus-shortage",
+      "demand-exceptions"
+    ],
+    "sources": [
+      {
+        "label": "价格管制的短缺分析；贝克尔论市场",
+        "labelEn": "Shortage analysis under price control; Becker on markets",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "gym-membership",
+    "icon": "🏋️",
+    "question": "健身房年卡，为什么办了却不去？",
+    "questionEn": "Why buy the annual gym pass and then not go?",
+    "level": 2,
+    "econ": "沉没成本与心理账户让人高估已付的价值，商家正靠会员的低使用率盈利。",
+    "econEn": "Sunk cost and mental accounting make people overvalue what they've paid; gyms profit from low usage.",
+    "detail": "办卡时人凭理想自我乐观规划，把年卡当成自我投资；一旦预付，费用沉没、按月均摊显得不去就亏，于是续卡。但真实使用随时间衰减，多数人不常去——这正是诱人的无限次月费模式能赚钱的原因。认清自己的偏差，可按次付费、设承诺机制或小步验证来对抗为幻想买单。",
+    "detailEn": "At purchase people plan through an optimistic ideal self and file the pass as self-investment; once paid, the fee sinks and per-month framing makes not-going a waste, so they renew. Real use fades—most rarely attend—which is why the alluring unlimited-monthly model earns. Know the bias: pay-per-visit, commitment devices and small tests counter paying for a fantasy.",
+    "concept": "sunk-cost",
+    "conceptLabel": "沉没成本（付了就舍不得）",
+    "conceptLabelEn": "Sunk Cost",
+    "related": [
+      "mental-accounting",
+      "hyperbolic-discounting",
+      "sunk-cost",
+      "overconfidence"
+    ],
+    "sources": [
+      {
+        "label": "戴拉维尼娅、马尔门迪尔《付费去健身》",
+        "labelEn": "DellaVigna & Malmendier, Paying to Go to the Gym",
+        "year": 2006
+      }
+    ]
   }
 ]

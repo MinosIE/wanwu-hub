@@ -905,6 +905,34 @@
       "nEn": "Paul Krugman"
     }
   ],
+  "ronald-coase": [
+    {
+      "m": "m-thinkers",
+      "n": "罗纳德·科斯",
+      "nEn": "Ronald Coase"
+    }
+  ],
+  "thorstein-veblen": [
+    {
+      "m": "m-thinkers",
+      "n": "托尔斯坦·凡勃伦",
+      "nEn": "Thorstein Veblen"
+    }
+  ],
+  "daniel-kahneman": [
+    {
+      "m": "m-thinkers",
+      "n": "丹尼尔·卡尼曼",
+      "nEn": "Daniel Kahneman"
+    }
+  ],
+  "richard-thaler": [
+    {
+      "m": "m-thinkers",
+      "n": "理查德·塞勒",
+      "nEn": "Richard Thaler"
+    }
+  ],
   "classical": [
     {
       "m": "m-schools",
@@ -945,6 +973,27 @@
       "m": "m-schools",
       "n": "制度与行为经济学",
       "nEn": "Institutional and Behavioral Economics"
+    }
+  ],
+  "mercantilism": [
+    {
+      "m": "m-schools",
+      "n": "重商主义",
+      "nEn": "Mercantilism"
+    }
+  ],
+  "chicago-school": [
+    {
+      "m": "m-schools",
+      "n": "芝加哥学派",
+      "nEn": "The Chicago School"
+    }
+  ],
+  "new-keynesian": [
+    {
+      "m": "m-schools",
+      "n": "新凯恩斯主义",
+      "nEn": "New Keynesian Economics"
     }
   ],
   "voc": [
@@ -1533,6 +1582,27 @@
       "m": "m-everyday",
       "n": "外卖越来越贵，是谁在定价？",
       "nEn": "Who is really setting the price as delivery gets pricier?"
+    }
+  ],
+  "airline-seat-pricing": [
+    {
+      "m": "m-everyday",
+      "n": "同一趟航班，邻座为什么价格不同？",
+      "nEn": "Same flight, why did the seat beside yours cost differently?"
+    }
+  ],
+  "concert-ticket-scalping": [
+    {
+      "m": "m-everyday",
+      "n": "演唱会黄牛票为什么屡禁不止？",
+      "nEn": "Why are concert touts never stamped out?"
+    }
+  ],
+  "gym-membership": [
+    {
+      "m": "m-everyday",
+      "n": "健身房年卡，为什么办了却不去？",
+      "nEn": "Why buy the annual gym pass and then not go?"
     }
   ],
   "global-growth": [

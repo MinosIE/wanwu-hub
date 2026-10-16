@@ -184,5 +184,180 @@
     "criticismsEn": ["Less unified than mainstream frameworks; the long-run effect and scalability of behavioural interventions remain contested."],
     "related": ["externality", "loss-aversion", "tragedy-of-the-commons"],
     "sources": [{ "label": "诺斯《制度、制度变迁与经济绩效》", "labelEn": "North, Institutions, Institutional Change and Economic Performance", "year": 1990 }]
+  },
+  {
+    "id": "mercantilism",
+    "order": 7,
+    "name": "重商主义",
+    "nameEn": "Mercantilism",
+    "span": "16–18 世纪",
+    "spanEn": "16th–18th century",
+    "level": 2,
+    "core": "把财富等同于金银，主张多出口、少进口并以国家力量积累顺差。",
+    "coreEn": "Equated wealth with bullion, urging more exports, fewer imports and state power to run surpluses.",
+    "founders": [
+      "托马斯·孟",
+      "让-巴蒂斯特·柯尔贝尔"
+    ],
+    "foundersEn": [
+      "Thomas Mun",
+      "Jean-Baptiste Colbert"
+    ],
+    "keyIdeas": [
+      "贸易被视作零和：一国顺差即他国逆差",
+      "以关税、补贴与垄断公司扶植出口",
+      "殖民与市场独占被当作富强之源"
+    ],
+    "keyIdeasEn": [
+      "Trade seen as zero-sum: one nation's surplus is another's deficit",
+      "Nurture exports via tariffs, subsidies and chartered companies",
+      "Colonies and monopoly markets treated as fonts of power"
+    ],
+    "strengths": [
+      "推动了早期国家财政、海军与制造业体系的建设。"
+    ],
+    "strengthsEn": [
+      "Built early systems of state finance, navies and manufacture."
+    ],
+    "criticisms": [
+      "斯密与李嘉图指出财富源于生产与自愿交换，顺差不等于富裕，零和观误导政策。"
+    ],
+    "criticismsEn": [
+      "Smith and Ricardo showed wealth comes from production and voluntary exchange; surplus is not riches and the zero-sum view misleads policy."
+    ],
+    "related": [
+      "absolute-advantage",
+      "comparative-advantage",
+      "gains-from-trade",
+      "trade-deficit-meaning"
+    ],
+    "sources": [
+      {
+        "label": "赫克歇尔《重商主义》",
+        "labelEn": "Heckscher, Mercantilism",
+        "year": 1935
+      }
+    ]
+  },
+  {
+    "id": "chicago-school",
+    "order": 8,
+    "name": "芝加哥学派",
+    "nameEn": "The Chicago School",
+    "span": "1930 年代至今",
+    "spanEn": "1930s–present",
+    "level": 3,
+    "core": "相信价格机制与理性人，强调货币、效率与自由市场，警惕政府干预。",
+    "coreEn": "Trusts prices and rational agents, stresses money, efficiency and free markets, and distrusts intervention.",
+    "founders": [
+      "弗兰克·奈特",
+      "米尔顿·弗里德曼",
+      "乔治·斯蒂格勒",
+      "加里·贝克尔"
+    ],
+    "foundersEn": [
+      "Frank Knight",
+      "Milton Friedman",
+      "George Stigler",
+      "Gary Becker"
+    ],
+    "keyIdeas": [
+      "通胀根本上是货币现象",
+      "永久收入假说重塑消费理论",
+      "用价格工具分析歧视、家庭与犯罪",
+      "有效市场假说：价格已反映信息"
+    ],
+    "keyIdeasEn": [
+      "Inflation is at root a monetary phenomenon",
+      "The permanent-income hypothesis recast consumption",
+      "Price theory applied to discrimination, family and crime",
+      "Efficient markets: prices already reflect information"
+    ],
+    "strengths": [
+      "把经济方法扩展到法律、劳动与家庭，实证严谨、政策影响深远。"
+    ],
+    "strengthsEn": [
+      "Extended economic method to law, labor and family with rigorous empirics and deep policy reach."
+    ],
+    "criticisms": [
+      "对市场与理性人过于乐观，低估信息不对称、金融危机与分配问题。"
+    ],
+    "criticismsEn": [
+      "Optimistic about markets and rational agents, under-weighting information asymmetry, crises and distribution."
+    ],
+    "related": [
+      "monetarism",
+      "quantity-theory",
+      "neoclassical",
+      "rational-agent"
+    ],
+    "sources": [
+      {
+        "label": "弗里德曼《资本主义与自由》；贝克尔《人类行为的经济分析》",
+        "labelEn": "Friedman, Capitalism and Freedom; Becker, Economic Analysis of Human Behavior",
+        "year": 1962
+      }
+    ]
+  },
+  {
+    "id": "new-keynesian",
+    "order": 9,
+    "name": "新凯恩斯主义",
+    "nameEn": "New Keynesian Economics",
+    "span": "1980 年代至今",
+    "spanEn": "1980s–present",
+    "level": 3,
+    "core": "为凯恩斯的需求管理补上微观基础：价格与工资有粘性，市场并不总是即时出清。",
+    "coreEn": "Gave Keynes's demand management micro-foundations: prices and wages are sticky and markets do not clear instantly.",
+    "founders": [
+      "格里高利·曼昆",
+      "奥利维耶·布兰查德",
+      "迈克尔·伍德福德",
+      "约瑟夫·斯蒂格利茨"
+    ],
+    "foundersEn": [
+      "Gregory Mankiw",
+      "Olivier Blanchard",
+      "Michael Woodford",
+      "Joseph Stiglitz"
+    ],
+    "keyIdeas": [
+      "菜单成本等小摩擦使名义价格调整缓慢",
+      "效率工资与长期合同造成工资粘性",
+      "即便理性预期下，政府仍能稳定经济",
+      "不完全竞争使需求冲击有真实效应"
+    ],
+    "keyIdeasEn": [
+      "Menu costs and small frictions slow nominal price changes",
+      "Efficiency wages and long contracts make wages sticky",
+      "Government can still stabilize even under rational expectations",
+      "Imperfect competition lets demand shocks have real effects"
+    ],
+    "strengths": [
+      "弥合凯恩斯与古典预期之争，成为现代央行模型的基准。"
+    ],
+    "strengthsEn": [
+      "Bridged Keynes and the classical expectations dispute; now the base of mainstream central-bank models."
+    ],
+    "criticisms": [
+      "微观基础的多样使政策结论依赖假设，对萧条式非线性反应解释力有限。"
+    ],
+    "criticismsEn": [
+      "Diverse micro-foundations make policy depend on assumptions, with limited traction on deep nonlinearities."
+    ],
+    "related": [
+      "keynesian",
+      "phillips-curve",
+      "expectations",
+      "ad-as",
+      "monetarism"
+    ],
+    "sources": [
+      {
+        "label": "曼昆主编《新凯恩斯主义经济学》",
+        "labelEn": "Mankiw (ed.), New Keynesian Economics",
+        "year": 1985
+      }
+    ]
   }
 ]

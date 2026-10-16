@@ -740,5 +740,238 @@
         "year": 1991
       }
     ]
+  },
+  {
+    "id": "ronald-coase",
+    "order": 13,
+    "name": "罗纳德·科斯",
+    "nameEn": "Ronald Coase",
+    "life": "1910–2013",
+    "lifeEn": "1910–2013",
+    "country": "英国",
+    "countryEn": "UK",
+    "school": "制度经济学 · 产权",
+    "schoolEn": "Institutional & property rights",
+    "level": 3,
+    "oneLiner": "提出交易成本与产权定理：市场配置资源从不是免费的，制度因此至关重要。",
+    "oneLinerEn": "Gave us transaction costs and the Coase theorem: markets never allocate for free, so institutions matter.",
+    "bio": "科斯以《企业的性质》追问企业为何存在——使用价格机制有成本，组织能省下它；又以《社会成本问题》说明只要产权清晰、交易成本低，双方谈判就能内部化外部性。他改变了人们看待污染、频谱与制度的方式，1991 年获诺贝尔经济学奖。",
+    "bioEn": "In 'The Nature of the Firm' Coase asked why firms exist: using the price mechanism costs something, and organizing saves it; in 'The Problem of Social Cost' he showed that with clear rights and low costs, bargaining internalizes externalities. He reshaped how pollution, spectrum and institutions are seen, winning the 1991 Nobel Prize.",
+    "ideas": [
+      {
+        "k": "交易成本",
+        "kEn": "Transaction costs",
+        "v": "企业、市场与法律的边界，取决于搜寻、谈判与履约一笔交易的代价。",
+        "vEn": "Where firms, markets and law stop is set by the search, bargaining and enforcement cost of a deal."
+      },
+      {
+        "k": "科斯定理",
+        "kEn": "The Coase theorem",
+        "v": "产权清晰且交易成本低时，权利归谁影响分配，却不影响效率。",
+        "vEn": "With clear rights and low costs, who holds the right affects distribution, not efficiency."
+      }
+    ],
+    "works": [
+      {
+        "title": "企业的性质",
+        "titleEn": "The Nature of the Firm",
+        "year": 1937
+      },
+      {
+        "title": "社会成本问题",
+        "titleEn": "The Problem of Social Cost",
+        "year": 1960
+      }
+    ],
+    "quotes": [
+      {
+        "q": "清晰界定的产权是市场交易的前提，而非结果。",
+        "qEn": "Clearly defined property rights are the precondition of exchange, not its result."
+      }
+    ],
+    "related": [
+      "market-failure",
+      "externality-policy",
+      "tragedy-of-the-commons",
+      "transaction-cost"
+    ],
+    "sources": [
+      {
+        "label": "科斯《企业的性质》《社会成本问题》",
+        "labelEn": "Coase, The Nature of the Firm; The Problem of Social Cost",
+        "year": 1960
+      }
+    ]
+  },
+  {
+    "id": "thorstein-veblen",
+    "order": 14,
+    "name": "托尔斯坦·凡勃伦",
+    "nameEn": "Thorstein Veblen",
+    "life": "1857–1929",
+    "lifeEn": "1857–1929",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "制度经济学 · 批判",
+    "schoolEn": "Institutional & critique",
+    "level": 2,
+    "oneLiner": "首创「炫耀性消费」与「有闲阶级」，用制度与心理视角剖析财富如何被用来展示地位。",
+    "oneLinerEn": "Originator of conspicuous consumption and the leisure class, reading how wealth is spent to display status.",
+    "bio": "凡勃伦是经济学的「局外人」，他批评主流把人说成理性算计的机器，转而研究习惯、制度与社会攀比。《有闲阶级论》指出人们借闲暇与挥霍来证明地位，「炫耀性消费」由此得名，为消费、广告与身份经济写下注解。",
+    "bioEn": "An outsider, Veblen faulted the mainstream for treating people as calculating machines and studied habits, institutions and emulation. 'The Theory of the Leisure Class' showed status proved through leisure and waste, naming conspicuous consumption—a lasting gloss on advertising and identity economics.",
+    "ideas": [
+      {
+        "k": "炫耀性消费",
+        "kEn": "Conspicuous consumption",
+        "v": "买贵的不只为使用，更为向他人展示支付能力与身份。",
+        "vEn": "Buying the expensive signals affordability and status, not just use."
+      },
+      {
+        "k": "凡勃伦效应",
+        "kEn": "The Veblen effect",
+        "v": "高价本身成为吸引力，某些商品越涨越有人买。",
+        "vEn": "The high price becomes the allure; some goods sell more as they rise."
+      }
+    ],
+    "works": [
+      {
+        "title": "有闲阶级论",
+        "titleEn": "The Theory of the Leisure Class",
+        "year": 1899
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我们消费，很大程度上是为了被人看见地消费。",
+        "qEn": "Much of what we consume, we consume to be seen consuming."
+      }
+    ],
+    "related": [
+      "demand-exceptions",
+      "rational-agent",
+      "herding-effect",
+      "status-quo-bias"
+    ],
+    "sources": [
+      {
+        "label": "凡勃伦《有闲阶级论》",
+        "labelEn": "Veblen, The Theory of the Leisure Class",
+        "year": 1899
+      }
+    ]
+  },
+  {
+    "id": "daniel-kahneman",
+    "order": 15,
+    "name": "丹尼尔·卡尼曼",
+    "nameEn": "Daniel Kahneman",
+    "life": "1934–2024",
+    "lifeEn": "1934–2024",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "行为经济学 · 决策",
+    "schoolEn": "Behavioral economics & decision",
+    "level": 2,
+    "oneLiner": "以心理学家身份问鼎诺贝尔经济学奖：用前景理论证明真实的人如何偏离理性决策。",
+    "oneLinerEn": "A psychologist who won the economics Nobel: prospect theory shows how real people depart from rational choice.",
+    "bio": "卡尼曼与特沃斯基提出前景理论，揭示人以参照点评估得失、对损失格外敏感，并被锚定、框架与可得性等系统偏差左右。他还区分「快思考」与「慢思考」、「体验自我」与「记忆自我」，把心理学正式引入经济学，深刻影响了政策与「助推」。",
+    "bioEn": "With Tversky, Kahneman's prospect theory showed people judge gains and losses against a reference point, weigh loss more heavily and fall to anchoring, framing and availability. He split fast and slow thinking, the experiencing and remembering self, formally bringing psychology into economics and shaping policy and nudging.",
+    "ideas": [
+      {
+        "k": "前景理论",
+        "kEn": "Prospect theory",
+        "v": "得失相对参照点被衡量，损失之痛超过等量所得之乐。",
+        "vEn": "Gains and losses are measured against a reference point; loss hurts more than an equal gain pleases."
+      },
+      {
+        "k": "快与慢思考",
+        "kEn": "Fast and slow thinking",
+        "v": "直觉系统高效却易错，审慎系统省力却常被搁置。",
+        "vEn": "The intuitive system is fast but error-prone; the deliberate one is lazy and often skipped."
+      }
+    ],
+    "works": [
+      {
+        "title": "思考，快与慢",
+        "titleEn": "Thinking, Fast and Slow",
+        "year": 2011
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我们更容易看清别人思维里的错，而非自己的。",
+        "qEn": "We more easily see errors in others' thinking than in our own."
+      }
+    ],
+    "related": [
+      "prospect-theory",
+      "peak-end-rule",
+      "anchoring-effect",
+      "loss-aversion-effect"
+    ],
+    "sources": [
+      {
+        "label": "卡尼曼、特沃斯基《前景理论》",
+        "labelEn": "Kahneman & Tversky, Prospect Theory",
+        "year": 1979
+      }
+    ]
+  },
+  {
+    "id": "richard-thaler",
+    "order": 16,
+    "name": "理查德·塞勒",
+    "nameEn": "Richard Thaler",
+    "life": "1945–",
+    "lifeEn": "1945–",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "行为经济学 · 助推",
+    "schoolEn": "Behavioral economics & nudge",
+    "level": 2,
+    "oneLiner": "把「经济人」换成「普通人」：用心理账户、有限自利与助推让经济学贴近真实选择。",
+    "oneLinerEn": "Replaced 'econ' with 'humans': mental accounting, bounded self-interest and nudges bring economics to real choices.",
+    "bio": "塞勒提出「心理账户」解释钱为何被分门别类、「公平」如何左右工资与定价，并倡导用「助推」在不剥夺自由的前提下改善默认选项。他的研究架起学术与政策间的桥，2017 年获诺贝尔经济学奖。",
+    "bioEn": "Thaler's mental accounting explains why money is boxed by category, and fairness how wages and prices move; he championed nudging that improves defaults without removing freedom. His work bridged research and policy, winning the 2017 Nobel Prize.",
+    "ideas": [
+      {
+        "k": "心理账户",
+        "kEn": "Mental accounting",
+        "v": "同样的钱因来源与用途不同，被分进不同心账、区别对待。",
+        "vEn": "The same money, by source and use, is filed into different mental ledgers and treated differently."
+      },
+      {
+        "k": "助推",
+        "kEn": "Nudge",
+        "v": "重设默认与呈现，顺应惰性而不强制，即可导向更好选择。",
+        "vEn": "Redesign defaults and framing to work with inertia and steer better choices without coercion."
+      }
+    ],
+    "works": [
+      {
+        "title": "助推",
+        "titleEn": "Nudge",
+        "year": 2008
+      }
+    ],
+    "quotes": [
+      {
+        "q": "让存钱成为默认，比劝人更努力储蓄更有效。",
+        "qEn": "Making saving the default beats urging people to save harder."
+      }
+    ],
+    "related": [
+      "mental-accounting",
+      "nudge",
+      "peak-end-rule",
+      "daniel-kahneman"
+    ],
+    "sources": [
+      {
+        "label": "塞勒《助推》《错误的行为》",
+        "labelEn": "Thaler, Nudge; Misbehaving",
+        "year": 2015
+      }
+    ]
   }
 ]
