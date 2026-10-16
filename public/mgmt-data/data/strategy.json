@@ -152,5 +152,19 @@
     "tags": ["增长"],
     "tagsEn": ["Growth"],
     "related": ["swot", "core-competence", "blue-ocean"]
+  },
+  {
+    "id": "aarrr",
+    "icon": "🏴‍☠️",
+    "term": "AARRR 漏斗模型",
+    "termEn": "The AARRR Funnel",
+    "level": 2,
+    "oneLiner": "获客、激活、留存、推荐、收入——用五步漏斗衡量增长是否健康。",
+    "oneLinerEn": "Acquisition, Activation, Retention, Referral, Revenue — a five-stage funnel for measuring whether growth is healthy.",
+    "detail": "戴夫·麦克卢尔为初创企业提出的“海盗指标”，把增长拆成用户生命周期五环，每一环都要有可量化的关键指标(如次日/30 日留存、K 因子、付费转化)。它的价值是逼你为每环设定北极星与阈值，快速定位漏得最狠的一环;留存常被视为“是否有人真正爱用”的照妖镜，前四环最终都要落到收入这一环。",
+    "detailEn": "Dave McClure's 'pirate metrics' for startups splits growth into five stages of the user lifecycle, each needing a quantifiable key metric (day-1/day-30 retention, K-factor, paid conversion). Its value is forcing a north-star and threshold per stage so you find the leakiest one fast; retention acts as the truth serum for whether anyone actually loves the product, and the first four rings must ultimately land on revenue.",
+    "tags": ["增长"],
+    "tagsEn": ["Growth"],
+    "related": ["ansoff-matrix", "business-model-canvas", "unit-economics"]
   }
 ]

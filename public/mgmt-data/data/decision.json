@@ -194,5 +194,33 @@
     "tags": ["决策"],
     "tagsEn": ["Decision"],
     "related": ["bounded-rationality", "decision-tree", "breakeven"]
+  },
+  {
+    "id": "scamper",
+    "icon": "🧪",
+    "term": "SCAMPER 创新思维",
+    "termEn": "SCAMPER",
+    "level": 2,
+    "oneLiner": "七个提问角度——替代、合并、调整、改造、挪用、消除、重排——把旧事物“逼”出新点子。",
+    "oneLinerEn": "Seven prompts — Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse — to coax new ideas from the old.",
+    "detail": "由克罗利在奥斯本《应用想象力》(1953) 基础上系统化的创意清单。它把模糊的“头脑风暴”拆成可逐项套用的操作:换个材料/人(替代)、把两样并一起(合并)、借鉴别处做法(调整)、放大或改变属性(改造)、找新用途(挪用)、砍掉多余(消除)、颠倒顺序或角色(重排)。适合个人卡壳时当“扳机”，也适合团队结构化地扫过一条产品线。",
+    "detailEn": "Systematised by Eberle from Osborn's Applied Imagination (1953), SCAMPER turns vague brainstorming into a checklist you run item by item: swap a material or person (Substitute), fuse two things (Combine), borrow from elsewhere (Adapt), magnify or alter an attribute (Modify), find a new use (Put to other uses), cut what is superfluous (Eliminate), reverse the order or roles (Reverse). It works as a personal trigger when stuck and as a structured sweep a team runs across a product line.",
+    "tags": ["创新"],
+    "tagsEn": ["Innovation"],
+    "related": ["brainstorming", "six-hats", "design-thinking"]
+  },
+  {
+    "id": "scqa",
+    "icon": "🗣️",
+    "term": "SCQA 结构化表达",
+    "termEn": "The SCQA Framework",
+    "level": 2,
+    "oneLiner": "情境—冲突—疑问—答案：用讲故事的四步，把结论有铺垫、有张力地递出去。",
+    "oneLinerEn": "Situation, Complication, Question, Answer — a four-step story arc that lands a conclusion with setup and tension.",
+    "detail": "芭芭拉·明托《金字塔原理》的核心开场法:先讲大家认同的背景(Situation),再点出打破它的变化或矛盾(Complication),由此逼出关键疑问(Question),最后给出你的答案/主张(Answer)。它让汇报、立项、写作一开始就抓住注意力,并天然引出“结论先行”。变体如开门见山(先 Answer)可按场合调整顺序。",
+    "detailEn": "The opening move of Barbara Minto's Pyramid Principle: state a background all agree with (Situation), name the change that upsets it (Complication), which raises the key question (Question), then give your answer or thesis (Answer). It grabs attention at the start of a report, pitch or piece of writing and naturally sets up 'answer first'. Variants — such as leading with the Answer — reorder the steps to suit the moment.",
+    "tags": ["沟通"],
+    "tagsEn": ["Communication"],
+    "related": ["rational-model", "six-hats", "okr"]
   }
 ]

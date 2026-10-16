@@ -180,5 +180,33 @@
     "tags": ["度量"],
     "tagsEn": ["Metrics"],
     "related": ["performance-review", "goal-setting", "learning-org"]
+  },
+  {
+    "id": "ria-reading",
+    "icon": "📖",
+    "term": "RIA 阅读法",
+    "termEn": "The RIA Reading Method",
+    "level": 2,
+    "oneLiner": "阅读—重述—拆为己用：把书里的知识变成“我自己的下一步行动”，而非止于读完。",
+    "oneLinerEn": "Read, Interpret, Appropriate — turn a book's idea into 'my own next action' rather than stopping at finishing it.",
+    "detail": "赵周在《这样读书就够了》中提出，面向成人“翻转式”学习:R 阅读原文片段、I 用自己的话重述、A 拆为己用(A1 联系过往经验、A2 规划具体可执行的下一步应用)。它针对“读了就忘、用不出来”的痛点，把读书从输入变成行动设计，常与拆书帮、便签法、学习型组织结合。",
+    "detailEn": "Set out by Zhao Zhou in 'Reading This Way Is Enough' for adult, flipped learning: R (read the original passage), I (interpretation — restate it in your own words), A (appropriation — A1 linking it to past experience, A2 planning a concrete next application). It targets the 'read it, forget it, never use it' problem, turning reading from input into action design, and pairs with book-club facilitation, the sticky-note method and the learning organisation.",
+    "tags": ["学习"],
+    "tagsEn": ["Learning"],
+    "related": ["learning-org", "kirkpatrick", "knowledge-worker"]
+  },
+  {
+    "id": "abc-emotion",
+    "icon": "🧠",
+    "term": "情绪 ABC 理论",
+    "termEn": "The ABC Model of Emotion",
+    "level": 2,
+    "oneLiner": "让你激动的不是事件本身，而是你对它的看法——A 触发、B 信念、C 结果。",
+    "oneLinerEn": "It is not events that upset you but your views of them — Activating event, Belief, Consequence.",
+    "detail": "源自阿尔伯特·埃利斯的理性情绪行为疗法:诱发事件(A)并不直接导致情绪与行为后果(C)，中间的信念与解释(B)才是关键;换成更现实、更灵活的信念，情绪随之改变。管理场景中它用于压力与情绪自我管理、非暴力沟通前的“转念”，以及教练式提问。需提醒:它本是心理学工具，用于职场时重在“觉察—辩驳—替换”不合理信念，而非否定真实情绪。",
+    "detailEn": "From Albert Ellis's rational emotive behaviour therapy: the activating event (A) does not directly cause the emotional and behavioural consequence (C); the intervening belief and interpretation (B) is decisive, and swapping it for a more realistic, flexible one changes how you feel. At work it serves stress and emotion self-management, 'reframing' before nonviolent communication, and coaching questions. A caveat: it is a psychology tool — applied on the job it is about noticing, disputing and replacing irrational beliefs, not denying real feelings.",
+    "tags": ["心态"],
+    "tagsEn": ["Mindset"],
+    "related": ["eq", "psych-safety", "grow-coaching"]
   }
 ]
