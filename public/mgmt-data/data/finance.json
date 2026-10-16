@@ -138,5 +138,47 @@
     "tags": ["度量"],
     "tagsEn": ["Metrics"],
     "related": ["okr", "mission-vision", "roi-roe"]
+  },
+  {
+    "id": "working-capital",
+    "icon": "💼",
+    "term": "营运资本管理",
+    "termEn": "Working-Capital Management",
+    "level": 2,
+    "oneLiner": "流动资产减流动负债——够不够付近期的账，同时别让现金躺着不生息。",
+    "oneLinerEn": "Current assets minus current liabilities — enough to pay near-term bills without letting cash sit idle.",
+    "detail": "营运资本管理的核心权衡是流动性与盈利性：现金、存货太多安全但拖累回报，太少则可能资金链断裂。现金转换周期(存货天数+应收天数−应付天数)把“钱被占用多久”量化，缩短它(快收慢付、优化库存)常能释放大量现金，比多赚一单更见效。",
+    "detailEn": "Working-capital management trades liquidity against profitability: too much cash and stock is safe but drags returns, too little risks a funding break. The cash-conversion cycle (days of inventory + days of receivables − days of payables) quantifies how long cash is tied up; shortening it — collect fast, pay slow, trim stock — often frees more cash than one extra sale earns.",
+    "tags": ["财务"],
+    "tagsEn": ["Finance"],
+    "related": ["cashflow", "ratio-analysis", "jit-eoq"]
+  },
+  {
+    "id": "dupont",
+    "icon": "🧮",
+    "term": "杜邦分析",
+    "termEn": "DuPont Analysis",
+    "level": 3,
+    "oneLiner": "把 ROE 拆成净利率×资产周转×权益乘数，看清回报到底靠赚钱、快转还是加杠杆。",
+    "oneLinerEn": "Decompose ROE into margin × asset turnover × leverage — see whether returns come from profit, speed or borrowed money.",
+    "detail": "杜邦体系(源自通用汽车)把股东回报一层层拆开：卖得贵不贵(净利率)、资产转得快不快(周转率)、用了多少别人的钱(权益乘数)。它把“ROE 20%”这个笼统数字变成可诊断的三条路径，也暴露风险：靠杠杆堆出来的高 ROE，遇到逆风最脆弱。是连接利润表与资产负债表的桥梁。",
+    "detailEn": "The DuPont system (from General Motors) breaks shareholder return layer by layer: pricing power (net margin), how fast assets turn (turnover), how much other people's money is used (the equity multiplier). It turns a bare 'ROE 20%' into three diagnosable paths and exposes risk — a high ROE built on leverage is the most fragile against a headwind. It is the bridge linking the income statement to the balance sheet.",
+    "tags": ["财务"],
+    "tagsEn": ["Finance"],
+    "related": ["roi-roe", "ratio-analysis", "income-statement"]
+  },
+  {
+    "id": "eva",
+    "icon": "💎",
+    "term": "经济增加值 (EVA)",
+    "termEn": "Economic Value Added",
+    "level": 3,
+    "oneLiner": "利润扣掉“占用的资本也要有回报”之后，剩下才是真正创造的价值。",
+    "oneLinerEn": "Profit less a charge for the capital employed — what remains is value actually created.",
+    "detail": "斯图尔特推广的 EVA = 税后经营利润 − 资本成本×占用资本。会计利润为正不等于创造价值：若回报低于资本的机会成本，账面在赚、经济在亏。EVA 逼管理者为占用的每一元资本负责，抑制盲目扩张与“为增长而增长”，常被用来设计更贴近价值的高管激励。",
+    "detailEn": "Popularised by Stewart, EVA = net operating profit after tax − (cost of capital × capital employed). Positive accounting profit is not the same as value created: if the return falls below capital's opportunity cost, the firm earns on the books while losing economically. EVA makes managers answerable for every dollar of capital tied up, curbing empire-building and 'growth for growth's sake', and is often used to tie executive pay closer to value.",
+    "tags": ["财务"],
+    "tagsEn": ["Finance"],
+    "related": ["roi-roe", "time-value", "balanced-scorecard"]
   }
 ]

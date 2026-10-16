@@ -152,5 +152,47 @@
     "tags": ["创新"],
     "tagsEn": ["Innovation"],
     "related": ["blue-ocean", "core-competence", "design-thinking"]
+  },
+  {
+    "id": "pre-mortem",
+    "icon": "🔮",
+    "term": "事前验尸",
+    "termEn": "The Pre-Mortem",
+    "level": 2,
+    "oneLiner": "决策拍板前，先假设“一年后它彻底失败了”，让团队倒推失败原因。",
+    "oneLinerEn": "Before committing, assume 'a year on this failed outright' and have the team write the post-mortem backwards.",
+    "detail": "加里·克莱因提出：在项目批准前召集团队，假设它已经惨败，各自独立写下“失败是怎么发生的”。它把“事后诸葛”变成“事前预警”，用心理许可挖出大家不敢说的顾虑，专门对抗群体思维与过度自信，是低成本高收益的决策“疫苗”。",
+    "detailEn": "Gary Klein's method: before a plan is signed off, gather the team, assume the project has already failed badly, and have each write independently 'how it happened'. It turns hindsight into foresight, grants psychological permission to voice doubts no one dared say, and targets groupthink and overconfidence — a low-cost, high-yield vaccine for decisions.",
+    "tags": ["决策"],
+    "tagsEn": ["Decision"],
+    "related": ["groupthink", "rational-model", "scenario-planning"]
+  },
+  {
+    "id": "nominal-group",
+    "icon": "✍️",
+    "term": "名义小组技术",
+    "termEn": "Nominal Group Technique",
+    "level": 2,
+    "oneLiner": "先各自独立书写想法、再轮流陈述、最后匿名投票——把“生成”与“从众”分开。",
+    "oneLinerEn": "Write ideas alone first, then round-robin, then vote anonymously — separating idea generation from conformity.",
+    "detail": "名义小组技术是为克服头脑风暴的社会懈怠与从众压力而设计的结构化流程：独立书写→逐一陈述(不批评)→澄清讨论→匿名排序投票。研究显示它通常比自由讨论产出更多、更均衡的点子，因为安静者不再被嗓门大者淹没，贡献与曝光被解耦。",
+    "detailEn": "The nominal group technique is a structured sequence built to beat brainstorming's social loafing and conformity: silent writing, round-robin recording without criticism, clarification, then anonymous ranking and vote. Studies find it usually yields more and more evenly shared ideas than free discussion, because the quiet are no longer drowned out and contribution is decoupled from volume.",
+    "tags": ["决策"],
+    "tagsEn": ["Decision"],
+    "related": ["brainstorming", "delphi", "groupthink"]
+  },
+  {
+    "id": "sunk-cost",
+    "icon": "⚓",
+    "term": "沉没成本谬误",
+    "termEn": "The Sunk-Cost Fallacy",
+    "level": 2,
+    "oneLiner": "已经花掉且收不回的钱不该影响下一步决策——但人偏偏为此死撑。",
+    "oneLinerEn": "Money already spent and unrecoverable should not sway the next move — yet people double down because of it.",
+    "detail": "理性决策只看未来的成本与收益，沉没成本既不可回收也不随选择改变，理应被忽略。但损失厌恶、承诺升级与自我辩护让人“来都来了”“都投这么多了”继续加注，酿成越陷越深。管理上，事前设好“止损线”与退出标准、把决策者与沉没成本制造者适度分离，是对抗它的制度设计。",
+    "detailEn": "Rational decisions weigh only future costs and benefits; a sunk cost is unrecoverable and unchanged by what you do next, so it should be ignored. But loss aversion, escalation of commitment and self-justification keep people 'in too deep to quit', pouring good money after bad. Managerially, pre-setting stop-loss and exit criteria, and separating the decision-maker from those who incurred the sunk cost, are the institutional fix.",
+    "tags": ["决策"],
+    "tagsEn": ["Decision"],
+    "related": ["bounded-rationality", "decision-tree", "breakeven"]
   }
 ]

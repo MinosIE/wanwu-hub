@@ -110,5 +110,47 @@
     "tags": ["优势"],
     "tagsEn": ["Advantage"],
     "related": ["porter-five-forces", "mission-vision"]
+  },
+  {
+    "id": "value-chain",
+    "icon": "🔗",
+    "term": "波特价值链",
+    "termEn": "Porter's Value Chain",
+    "level": 2,
+    "oneLiner": "把企业拆成从进料到售后的一串活动，看每一环是创造价值还是消耗成本。",
+    "oneLinerEn": "Break the firm into a chain of activities from inbound logistics to service, and see which link adds value or burns cost.",
+    "detail": "迈克尔·波特(1985)区分基本活动(内部后勤、生产、外部后勤、市场销售、服务)与支持活动(基础设施、人力资源、技术、采购)，竞争优势来自比对手更优地设计并执行这条链，或用“链接”把环节咬合成对手难以复制的系统。它把“成本”与“差异化”落到具体活动上。",
+    "detailEn": "Michael Porter (1985) split primary activities (inbound logistics, operations, outbound logistics, marketing, service) from support activities (infrastructure, HR, technology, procurement). Advantage comes from performing the chain better than rivals, or from linking activities into a system hard to copy. It grounds 'cost' and 'differentiation' in concrete activities.",
+    "tags": ["优势"],
+    "tagsEn": ["Advantage"],
+    "related": ["porter-generic", "core-competence", "process-mgmt"]
+  },
+  {
+    "id": "business-model-canvas",
+    "icon": "🖼️",
+    "term": "商业模式画布",
+    "termEn": "Business Model Canvas",
+    "level": 1,
+    "oneLiner": "用九宫格讲清一家企业如何创造价值、传递价值、获取价值。",
+    "oneLinerEn": "Nine blocks that state how a firm creates, delivers and captures value.",
+    "detail": "奥斯特瓦德提出：客户细分、价值主张、渠道、客户关系、收入来源(前台五格)，加上关键资源、关键活动、关键伙伴与成本结构(后台四格)。它把抽象的“商业模式”变成可讨论、可涂改的一页图，方便比较方案、发现断点(如为低端客户配了高接触渠道)。",
+    "detailEn": "Osterwalder's canvas: customer segments, value proposition, channels, customer relationships and revenue streams on the front; key resources, key activities, key partnerships and cost structure on the back. It turns an abstract 'business model' into one discussable, erasable page — handy for comparing options and spotting mismatches (a high-touch channel serving low-end customers).",
+    "tags": ["模式"],
+    "tagsEn": ["Model"],
+    "related": ["mission-vision", "value-chain", "blue-ocean"]
+  },
+  {
+    "id": "ansoff-matrix",
+    "icon": "🧭",
+    "term": "安索夫矩阵",
+    "termEn": "The Ansoff Matrix",
+    "level": 1,
+    "oneLiner": "增长有四条路：市场渗透、市场开发、产品开发、多元化——按新旧产品×新旧市场划分。",
+    "oneLinerEn": "Four ways to grow — penetrate, develop markets, develop products, or diversify — by pairing new/old products with new/old markets.",
+    "detail": "伊戈尔·安索夫(1957)用“产品×市场”两轴四象限给增长选项定位：市场渗透风险最低，产品开发、市场开发渐进，多元化风险最高。它不告诉你该选哪个，但逼你说清“增长到底从哪来”，并直观对应风险阶梯，常与 SWOT 的“机会”衔接。",
+    "detailEn": "Igor Ansoff (1957) placed growth options in a product-by-market grid: market penetration is the least risky, then product and market development, with diversification the riskiest. It does not pick for you but forces you to say where growth actually comes from, mapping neatly onto a risk ladder and feeding the 'opportunities' box of a SWOT.",
+    "tags": ["增长"],
+    "tagsEn": ["Growth"],
+    "related": ["swot", "core-competence", "blue-ocean"]
   }
 ]

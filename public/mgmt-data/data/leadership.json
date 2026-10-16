@@ -138,5 +138,47 @@
     "tags": ["激励"],
     "tagsEn": ["Motivation"],
     "related": ["okr", "drucker-mbo", "expectancy"]
+  },
+  {
+    "id": "path-goal",
+    "icon": "🛣️",
+    "term": "路径-目标理论",
+    "termEn": "Path-Goal Theory",
+    "level": 3,
+    "oneLiner": "领导的本职是扫清通往目标的障碍，风格要补下属所缺(指导、支持、参与、成就导向)。",
+    "oneLinerEn": "The leader's job is to clear the path to goals, choosing a style — directive, supportive, participative, achievement-oriented — that supplies what the subordinate lacks.",
+    "detail": "罗伯特·豪斯(1971)把弗鲁姆期望理论与领导行为结合：领导者在下属与目标之间搭桥，按其能力、任务结构与情境，补足缺失的一环——任务模糊就多指导，任务压抑就多支持。它把“哪种风格最好”改写成“此刻这位下属需要什么”，是情境路径的精细化版本。",
+    "detailEn": "Robert House (1971) fused Vroom's expectancy theory with leadership behaviour: the leader bridges subordinate and goal, and by the person's ability, task structure and setting supplies the missing link — more direction when the task is ambiguous, more support when it is stifling. It rewrites 'which style is best' as 'what this follower needs now', a fine-grained cousin of the situational path.",
+    "tags": ["领导"],
+    "tagsEn": ["Leadership"],
+    "related": ["situational-leadership", "expectancy", "fiedler-contingency"]
+  },
+  {
+    "id": "lmx",
+    "icon": "🤝",
+    "term": "领导-成员交换理论 (LMX)",
+    "termEn": "Leader-Member Exchange",
+    "level": 3,
+    "oneLiner": "领导者与每个下属各建一段关系，有人进“圈内”、有人留在“圈外”，质量决定资源与信任。",
+    "oneLinerEn": "A leader builds a separate relationship with each subordinate — an in-group and an out-group — whose quality drives trust, latitude and reward.",
+    "detail": "格雷恩与比尔(1975)指出领导不是对所有人一视同仁，而是与少数人发展高质量交换(互信、额外机会、影响力)，多数人维持低质量的契约式关系。圈内绩效、满意度、留任更高。它既解释“嫡系”现象，也提醒：偏私若与贡献无关，会侵蚀公平与心理安全。",
+    "detailEn": "Graen and Uhl-Bien (1975) showed leaders do not treat all alike but build high-quality exchanges (trust, extra opportunity, influence) with a few in-group members while most stay in a lower-quality contractual out-group. The in-group enjoys higher performance, satisfaction and retention. It explains the 'inner circle' and warns that favouritism untethered from contribution erodes equity and psychological safety.",
+    "tags": ["领导"],
+    "tagsEn": ["Leadership"],
+    "related": ["situational-leadership", "equity", "psych-safety"]
+  },
+  {
+    "id": "servant-leadership",
+    "icon": "🫖",
+    "term": "服务型领导",
+    "termEn": "Servant Leadership",
+    "level": 2,
+    "oneLiner": "领导首先是服务者——先满足下属成长与自主，权力自下而上地授予。",
+    "oneLinerEn": "The leader is first a server — putting subordinates' growth and autonomy first, so authority is granted from below.",
+    "detail": "罗伯特·格林利夫(1970)提出“仆人式领导”：领导者先问“团队需要什么”，通过倾听、共情、觉察、说服、管家责任与致力于他人成长来赋能，而非靠职位发号施令。它把变革型的“提升动机”再推进一步——把目的从组织绩效部分转向人的成长，成为后来谦逊领导、赋能管理的源头。",
+    "detailEn": "Robert Greenleaf (1970) proposed the servant leader, who 'starts with the natural feeling that one wants to serve' — empowering through listening, empathy, awareness, persuasion, stewardship and commitment to people's growth, rather than commanding from the chair. It pushes transformational 'elevating motive' a step further, shifting part of the purpose from organisational performance to human growth, and seeded today's humble and empowering leadership.",
+    "tags": ["领导"],
+    "tagsEn": ["Leadership"],
+    "related": ["transformational", "psych-safety", "bases-power"]
   }
 ]

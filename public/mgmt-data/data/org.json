@@ -96,5 +96,47 @@
     "tags": ["成长"],
     "tagsEn": ["Growth"],
     "related": ["tuckman-stages", "flattening", "kotter-8"]
+  },
+  {
+    "id": "mckinsey-7s",
+    "icon": "🧷",
+    "term": "麦肯锡 7S 模型",
+    "termEn": "The McKinsey 7S Model",
+    "level": 2,
+    "oneLiner": "战略、结构、制度是“硬件”，人员、风格、技能、共同价值观是“软件”，七者须互相咬合。",
+    "oneLinerEn": "Strategy, structure and systems are the 'hardware'; staff, style, skills and shared values the 'software' — all seven must interlock.",
+    "detail": "彼得斯与沃特曼(1980)基于对优秀企业的研究提出 7S：变革若只动战略结构而忽略文化、技能与共享价值观，往往落空。它把组织看作七个相互强化的要素，中间的“共同价值观”是黏合剂，是诊断“为何战略执行不下去”的清单。",
+    "detailEn": "Peters and Waterman (1980), from a study of excellent firms, offered the 7S: change that moves only strategy and structure while ignoring culture, skills and shared values tends to stall. It treats the organisation as seven mutually reinforcing elements, with shared values at the centre as the glue, and works as a checklist for 'why the strategy won't execute'.",
+    "tags": ["结构"],
+    "tagsEn": ["Structure"],
+    "related": ["org-structures", "org-culture", "systems-view"]
+  },
+  {
+    "id": "learning-org",
+    "icon": "🌱",
+    "term": "学习型组织（五项修炼）",
+    "termEn": "The Learning Organisation",
+    "level": 3,
+    "oneLiner": "圣吉主张组织靠五项修炼持续学习：系统思考、自我超越、心智模式、共同愿景、团队学习。",
+    "oneLinerEn": "Senge's five disciplines for a learning organisation: systems thinking, personal mastery, mental models, shared vision and team learning.",
+    "detail": "彼得·圣吉《第五项修炼》(1990) 认为真正致命的往往是“结构”，而人们的心智模式会自我防御。系统思考是整合其余四项的“第五项修炼”，帮助看清延迟、反馈与“饮鸩止渴”的政策阻力。它把霍桑以来对人的关注，升级为对整体学习能力的建设。",
+    "detailEn": "In The Fifth Discipline (1990) Peter Senge argued that what is truly fatal is often structure, and that people's mental models defend themselves. Systems thinking, the fifth discipline, integrates the other four to reveal delays, feedback and 'fixes that fail' archetypes. It upgrades the human focus since Hawthorne into building the whole organisation's capacity to learn.",
+    "tags": ["现代"],
+    "tagsEn": ["Modern"],
+    "related": ["systems-view", "psych-safety", "knowledge-worker"]
+  },
+  {
+    "id": "org-design-elements",
+    "icon": "🧩",
+    "term": "组织设计六要素",
+    "termEn": "Six Elements of Organisational Design",
+    "level": 2,
+    "oneLiner": "专门化、部门化、指挥链、管理幅度、集分权、正规化——六个旋钮决定结构长什么样。",
+    "oneLinerEn": "Specialisation, departmentalisation, chain of command, span of control, centralisation and formalisation — six dials that shape any structure.",
+    "detail": "把教科书的结构维度收拢成六个可调节的旋钮：工作切多细、如何归组、谁向谁报告、一人管几人、决策定在哪一层、规则写多死。没有“标准答案”，六者要一起服务于战略、技术、规模与环境(呼应权变)。它是把零散结构概念装回同一张地图的框架。",
+    "detailEn": "Gathering the textbook dimensions into six adjustable dials — how finely work is divided, how it is grouped, who reports to whom, how many per manager, where decisions sit and how rigid the rules — with no default answer: the six must together serve strategy, technology, size and environment (echoing contingency). It is a frame that puts scattered structure concepts back on one map.",
+    "tags": ["结构"],
+    "tagsEn": ["Structure"],
+    "related": ["org-structures", "span-control", "centralization", "contingency"]
   }
 ]

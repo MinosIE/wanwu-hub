@@ -124,5 +124,47 @@
     "tags": ["现代"],
     "tagsEn": ["Modern"],
     "related": ["drucker-mbo", "okr", "psych-safety"]
+  },
+  {
+    "id": "barnard-cooperation",
+    "icon": "🤲",
+    "term": "巴纳德：协作系统与权威接受论",
+    "termEn": "Barnard's Cooperative System",
+    "level": 3,
+    "oneLiner": "组织是“协作系统”，权威不在头衔，而在下属是否愿意接受指令。",
+    "oneLinerEn": "An organisation is a cooperative system; authority rests not in the title but in whether subordinates accept the order.",
+    "detail": "切斯特·巴纳德《经理人员的职能》(1938) 把组织看作愿为共同目标协作的人的系统，提出权威“接受论”——只有当下属理解、认为与个人利益相符且有能力执行时，命令才真正生效；管理者的三大职能是维持沟通、获取个人服务、界定目标。它是社会系统学派与后来“赋能”思想的先声。",
+    "detailEn": "In The Functions of the Executive (1938) Chester Barnard saw the organisation as a system of people willing to cooperate toward a common purpose, and proposed the acceptance theory of authority — a command binds only when the subordinate understands it, sees it as consistent with personal interest and can carry it out. The executive's three functions are sustaining communication, securing individual service and defining purpose. It prefigured the social-systems school and today's empowerment thinking.",
+    "tags": ["行为"],
+    "tagsEn": ["Behavioural"],
+    "related": ["weber-bureaucracy", "systems-view", "mcgregor-xy"]
+  },
+  {
+    "id": "mintzberg-roles",
+    "icon": "🎭",
+    "term": "明茨伯格：管理者十大角色",
+    "termEn": "Mintzberg's Ten Managerial Roles",
+    "level": 2,
+    "oneLiner": "管理者不只是“计划组织控制”，而是戴着人际、信息、决策三类十顶帽子。",
+    "oneLinerEn": "Managers do more than plan-organise-control; they wear ten roles in three families — interpersonal, informational, decisional.",
+    "detail": "明茨伯格通过观察真实管理者，发现其工作高度碎片化、偏好口头沟通，并归纳出十大角色：挂名首脑、领导者、联络者(人际)；信监者、传播者、发言人(信息)；企业家、混乱驾驭者、资源分配者、谈判者(决策)。它把“管理”从静态职能还原为动态的角色组合。",
+    "detailEn": "Observing real managers, Mintzberg found their work fragmented and oral-heavy, and distilled ten roles: figurehead, leader, liaison (interpersonal); monitor, disseminator, spokesperson (informational); entrepreneur, disturbance handler, resource allocator, negotiator (decisional). It restores management from static functions to a dynamic bundle of roles.",
+    "tags": ["现代"],
+    "tagsEn": ["Modern"],
+    "related": ["fayol-functions", "drucker-mbo", "mintzberg-parts"]
+  },
+  {
+    "id": "theory-z",
+    "icon": "🎌",
+    "term": "大内 Z 理论",
+    "termEn": "Ouchi's Theory Z",
+    "level": 3,
+    "oneLiner": "日式管理：长期雇佣、缓慢评审、整体关怀与共识决策，以安全换忠诚。",
+    "oneLinerEn": "The Japanese 'Theory Z': long tenure, gradual review, holistic concern and consensual decisions, trading security for loyalty.",
+    "detail": "威廉·大内《Z 理论》(1981) 比较美日企业，主张介于市场型(A)与官僚型(CI)之间的一种形态：稳定雇佣培养归属，集体决策换取执行共识，对员工及其生活整体负责。它呼应麦格雷戈对 X-Y 二分法的超越，也提醒制度需嵌入文化土壤——照搬到高流动、短周期环境常失灵。",
+    "detailEn": "In Theory Z (1981) William Ouchi compared American and Japanese firms and argued for a form between the market type (A) and the bureaucracy (Cl): stable employment to build belonging, consensual decision-making to buy shared commitment, and concern for the whole employee. It echoes McGregor's move beyond the X-Y split and warns that institutions must sit in cultural soil — transplanted into high-turnover, short-cycle settings it often misfires.",
+    "tags": ["文化"],
+    "tagsEn": ["Culture"],
+    "related": ["mcgregor-xy", "org-culture", "equity"]
   }
 ]

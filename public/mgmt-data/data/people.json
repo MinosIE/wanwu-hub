@@ -124,5 +124,61 @@
     "tags": ["变革"],
     "tagsEn": ["Change"],
     "related": ["kotter-8", "adkar", "org-culture"]
+  },
+  {
+    "id": "sdt",
+    "icon": "🌿",
+    "term": "自我决定理论 (SDT)",
+    "termEn": "Self-Determination Theory",
+    "level": 3,
+    "oneLiner": "自主、胜任、归属三种心理需求被满足，内在动机才真正燃烧。",
+    "oneLinerEn": "Meet the needs for autonomy, competence and relatedness, and intrinsic motivation truly catches fire.",
+    "detail": "德西与瑞安(1985)提出：人有自主(我选择)、胜任(我能行)、归属(我被接纳)三大先天需求，它们被满足时内在动机最强。关键发现是“过度辩护效应”：对本来有趣的活动发金钱奖励，反而把内在兴趣“挤出”。它解释了为什么控制式的胡萝卜大棒常杀鸡取卵，而授权、反馈与团队归属才是长效燃料。",
+    "detailEn": "Deci and Ryan (1985) held that people have three innate needs — autonomy (I choose), competence (I can) and relatedness (I belong) — and that intrinsic motivation is strongest when they are met. A key finding is the overjustification effect: paying people for an activity they already enjoy can crowd out intrinsic interest. It explains why controlling carrots-and-sticks often backfire while empowerment, feedback and belonging are the lasting fuel.",
+    "tags": ["激励"],
+    "tagsEn": ["Motivation"],
+    "related": ["herzberg-two-factor", "expectancy", "psych-safety"]
+  },
+  {
+    "id": "eq",
+    "icon": "🫂",
+    "term": "情商与领导 (EQ)",
+    "termEn": "Emotional Intelligence",
+    "level": 2,
+    "oneLiner": "察觉与管理自己和他人的情绪，往往是比智商更强的领导力预测项。",
+    "oneLinerEn": "Perceiving and managing your own and others' emotions is often a better predictor of leadership than IQ.",
+    "detail": "萨洛维与梅耶定义、戈尔曼(1995)推广的“情绪智力”：自我觉察、自我管理、社会觉察、关系管理。戈尔曼主张在领导岗位达到一定认知门槛后，情商才是区分卓越与平庸的关键。它广受欢迎，也被批评为概念泛化、易与人格重叠、测量效度存疑——当作可培养的技能有价值，当作万能指标则需谨慎。",
+    "detailEn": "Salovey and Mayer defined, and Goleman (1995) popularised, 'emotional intelligence': self-awareness, self-management, social awareness and relationship management. Goleman argued that once leaders clear a cognitive threshold, EQ distinguishes the outstanding from the merely adequate. Widely embraced, it is also criticised as conceptually over-broad, overlapping with personality and of contested measurement — valuable as a trainable skill, risky as a do-everything metric.",
+    "tags": ["领导"],
+    "tagsEn": ["Leadership"],
+    "related": ["transformational", "psych-safety", "conflict-modes"]
+  },
+  {
+    "id": "grow-coaching",
+    "icon": "🧭",
+    "term": "GROW 教练模型",
+    "termEn": "The GROW Coaching Model",
+    "level": 2,
+    "oneLiner": "目标—现状—选择—意愿：教练不直接给答案，而是用问题带人自己想通。",
+    "oneLinerEn": "Goal, Reality, Options, Will — the coach withholds answers and questions people into their own clarity.",
+    "detail": "亚历山大成形、惠特默推广的 GROW：先澄清要去的 Goal，再看清的 Reality，展开可选的 Options，最后确认行动的 Will。它把管理从“给指令”转向“提好问题”，配合心理安全，让下属自己找到方案并更愿执行。惠特默那句“绩效 = 潜能 − 干扰”是它的精神写照。",
+    "detailEn": "The GROW model, shaped by Alexander and popularised by Whitmore, moves through Goal (where you want to be), Reality (where you are), Options (what you could do) and Will (what you will do). It turns managing from giving orders into asking good questions and, with psychological safety, lets people find their own answers and own the follow-through. Whitmore's 'performance = potential − interference' captures its spirit.",
+    "tags": ["领导"],
+    "tagsEn": ["Leadership"],
+    "related": ["situational-leadership", "goal-setting", "psych-safety"]
+  },
+  {
+    "id": "kirkpatrick",
+    "icon": "🎓",
+    "term": "柯氏四级培训评估",
+    "termEn": "Kirkpatrick's Four Levels",
+    "level": 2,
+    "oneLiner": "培训有没有用分四层看：反应、学习、行为、结果——越往后越难量也越重要。",
+    "oneLinerEn": "Judge training on four levels — reaction, learning, behaviour, results — the deeper ones harder to measure and more telling.",
+    "detail": "唐纳德·柯克帕特里克(1959)的四级：学员喜不喜欢(反应)、学到没有(学习)、回去用不用(行为)、业务有没有改善(结果)。多数培训只量到前两级(现场评分表)，真正决定价值的是行为与结果，却最难归因。它提醒：培训评估要往深处走，否则“掌声雷动”与绩效毫无关系。",
+    "detailEn": "Donald Kirkpatrick's four levels (1959): did they like it (Reaction), did they learn (Learning), do they apply it back on the job (Behaviour), did the business improve (Results). Most training is measured only at the first two (smile sheets); what decides value — behaviour and results — is hardest to attribute. It urges evaluation to go deeper, lest applause have nothing to do with performance.",
+    "tags": ["度量"],
+    "tagsEn": ["Metrics"],
+    "related": ["performance-review", "goal-setting", "learning-org"]
   }
 ]
