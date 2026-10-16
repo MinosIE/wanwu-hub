@@ -236,5 +236,47 @@
     "tags": ["表达"],
     "tagsEn": ["Communication"],
     "related": ["scqa", "transformational", "mission-vision"]
+  },
+  {
+    "id": "competency-iceberg",
+    "icon": "🧊",
+    "term": "胜任力冰山模型",
+    "termEn": "The Competency Iceberg",
+    "level": 2,
+    "oneLiner": "决定优秀绩效的多在水面下：动机、特质、自我形象比可见的技能与知识更关键、也更难改。",
+    "oneLinerEn": "What drives top performance mostly lies below the surface — motives, traits and self-image matter more than visible skills and knowledge, and are harder to change.",
+    "detail": "源自麦克利兰对“卓越者 vs 常人”的研究，由斯宾塞夫妇建模成冰山：水面之上是易见的知识与技能(可培养、易验证)，水面之下是社会角色与自我概念、特质与动机(稳定、难训、却真正区分高下)。它提醒招聘与选拔应看“冰山下的潜力”而非只挑对口专业与证书，培养也要认清越往下越难靠培训改变。胜任力模型由此用于岗位画像、选人、评估与发展；常见方法是行为事件访谈(BEI)，用 STAR 追问具体事例来挖底层特质。",
+    "detailEn": "From McClelland's studies of outstanding versus average performers, modelled as an iceberg by the Spencers: above the waterline are visible knowledge and skills (trainable, testable); below sit social role and self-concept, traits and motives (stable, hard to teach, yet the true differentiators). It urges hiring to look at below-the-waterline potential rather than the matching major and certificates, and warns that the deeper you go the less training changes it. Competency models built on it serve job profiles, selection, assessment and development, commonly mined by behavioural event interview (BEI) that probes concrete episodes to reveal the underlying traits.",
+    "tags": ["人才"],
+    "tagsEn": ["Talent"],
+    "related": ["star", "performance-review", "kirkpatrick"]
+  },
+  {
+    "id": "nine-box",
+    "icon": "🪟",
+    "term": "人才九宫格",
+    "termEn": "The Nine-Box Grid",
+    "level": 2,
+    "oneLiner": "用“绩效”和“潜力”两轴把人分进九格：谁是顶梁柱、谁是待激活、谁该另谋位置，一目了然。",
+    "oneLinerEn": "Sort people into nine cells on Performance and Potential — who is a pillar, who to activate, who to move — at a glance.",
+    "detail": "九宫格长期被 GE 等用于人才盘点：纵轴是潜力(能否、愿否承担更大更复杂的事)，横轴是过往绩效。右上角“高潜高绩”是接班梯队与重点投资对象，右下角“高绩低潜”是可靠的当前专家、未必适合再升，左上是待验证的新星，双低则需辅导、调岗或退出。价值不在贴标签，而在引发一场“看潜力而非只看业绩”的继任与培养对话。务必警惕它的主观与近因偏差、以及被当作命运判决——潜力该用多种情境证据交叉印证，并定期重估。",
+    "detailEn": "Long used for talent calibration at GE and elsewhere, the grid plots Potential on one axis (can and will they carry something bigger and more complex) against past Performance on the other. The high-high corner is the successor pool to invest in; the high-performance, low-potential corner are dependable current experts who may not suit another step up; the unproven stars sit opposite; double-low need coaching, redeployment or exit. The value is not the label but the succession-and-development conversation it forces — judging potential, not just results. Beware its subjectivity and recency bias and treating cells as fate; cross-check potential with evidence from several situations and revisit regularly.",
+    "tags": ["人才"],
+    "tagsEn": ["Talent"],
+    "related": ["competency-iceberg", "performance-review", "peter-principle"]
+  },
+  {
+    "id": "job-characteristics",
+    "icon": "🛠️",
+    "term": "工作特征模型",
+    "termEn": "Job Characteristics Model",
+    "level": 3,
+    "oneLiner": "五把钥匙让工作自带动力：技能多样、任务完整、任务重要、自主、反馈。",
+    "oneLinerEn": "Five keys make a job motivating in itself — skill variety, task identity, task significance, autonomy and feedback.",
+    "detail": "哈克曼与奥尔德汉姆提出：工作的五个核心维度——用到的技能是否多样、能否从头做到尾看到整体(任务完整性)、对他人的生活是否真有影响(任务重要性)、有多少自主安排、能否及时得知干得好坏——通过三种心理体验(意义感、责任感、知晓结果)带来内在激励、高绩效与低离职，前提是员工成长需求强、也具备相应能力。它给了“工作再设计”的清单：与其只加工资，不如给整块任务、放手授权、建立反馈闭环；与自我决定理论(自主胜任归属)遥相呼应。",
+    "detailEn": "Hackman and Oldham held that five core job dimensions — the range of skills used, whether one completes a whole identifiable piece (task identity), whether it truly affects others' lives (task significance), how much discretion one has, and how soon one learns how well it went — work through three psychological states (experienced meaningfulness, responsibility and knowledge of results) to drive intrinsic motivation, high performance and low turnover, provided the worker has growth needs and the ability to match. It hands you a job-redesign checklist: rather than only pay more, give whole tasks, real autonomy and a feedback loop — echoing self-determination theory's autonomy, competence and relatedness.",
+    "tags": ["激励"],
+    "tagsEn": ["Motivation"],
+    "related": ["sdt", "goal-setting", "reinforcement-theory"]
   }
 ]

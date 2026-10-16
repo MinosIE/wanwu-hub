@@ -5,16 +5,16 @@
   "heroTitleEn": "Management of Everything",
   "intro": "从管理思想、战略、组织结构，到领导激励、决策、运营与财务——梳理让一群人把事做成的方法、框架与背后的取舍。",
   "introEn": "Management thought, strategy, structure, leadership, decision-making, operations and finance — the methods, frameworks and trade-offs behind getting things done with other people.",
-  "total": 111,
+  "total": 129,
   "counts": {
     "thought": 12,
-    "strategy": 12,
-    "org": 11,
-    "leadership": 14,
-    "decision": 17,
-    "ops": 14,
-    "finance": 14,
-    "people": 17
+    "strategy": 15,
+    "org": 14,
+    "leadership": 16,
+    "decision": 18,
+    "ops": 18,
+    "finance": 16,
+    "people": 20
   },
   "modules": [
     {
@@ -31,7 +31,7 @@
       "title": "战略与计划",
       "titleEn": "Strategy & Planning",
       "kind": "cards",
-      "count": 12
+      "count": 15
     },
     {
       "key": "org",
@@ -39,7 +39,7 @@
       "title": "组织与结构",
       "titleEn": "Structure & Organization",
       "kind": "cards",
-      "count": 11
+      "count": 14
     },
     {
       "key": "leadership",
@@ -47,7 +47,7 @@
       "title": "领导与激励",
       "titleEn": "Leadership & Motivation",
       "kind": "cards",
-      "count": 14
+      "count": 16
     },
     {
       "key": "decision",
@@ -55,7 +55,7 @@
       "title": "决策与创新",
       "titleEn": "Decision-Making & Innovation",
       "kind": "cards",
-      "count": 17
+      "count": 18
     },
     {
       "key": "ops",
@@ -63,7 +63,7 @@
       "title": "运营与质量",
       "titleEn": "Operations & Quality",
       "kind": "cards",
-      "count": 14
+      "count": 18
     },
     {
       "key": "finance",
@@ -71,7 +71,7 @@
       "title": "财务与度量",
       "titleEn": "Finance & Metrics",
       "kind": "cards",
-      "count": 14
+      "count": 16
     },
     {
       "key": "people",
@@ -79,17 +79,17 @@
       "title": "人与变革",
       "titleEn": "People & Change",
       "kind": "cards",
-      "count": 17
+      "count": 20
     }
   ],
   "kpis": [
     { "key": "thought", "icon": "🏛️", "value": 12 },
-    { "key": "strategy", "icon": "🎯", "value": 12 },
-    { "key": "org", "icon": "🏢", "value": 11 },
-    { "key": "leadership", "icon": "🧭", "value": 14 },
-    { "key": "decision", "icon": "⚖️", "value": 17 },
-    { "key": "ops", "icon": "⚙️", "value": 14 },
-    { "key": "finance", "icon": "📊", "value": 14 },
-    { "key": "people", "icon": "🤝", "value": 17 }
+    { "key": "strategy", "icon": "🎯", "value": 15 },
+    { "key": "org", "icon": "🏢", "value": 14 },
+    { "key": "leadership", "icon": "🧭", "value": 16 },
+    { "key": "decision", "icon": "⚖️", "value": 18 },
+    { "key": "ops", "icon": "⚙️", "value": 18 },
+    { "key": "finance", "icon": "📊", "value": 16 },
+    { "key": "people", "icon": "🤝", "value": 20 }
   ]
 }

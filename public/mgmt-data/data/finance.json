@@ -194,5 +194,33 @@
     "tags": ["度量"],
     "tagsEn": ["Metrics"],
     "related": ["balanced-scorecard", "okr", "performance-review"]
+  },
+  {
+    "id": "npv-irr",
+    "icon": "🧮",
+    "term": "净现值与内部回报率",
+    "termEn": "NPV & IRR",
+    "level": 3,
+    "oneLiner": "把未来的钱按贴现折算成今天值多少：NPV 为正才创造价值，IRR 是让它归零的回报率。",
+    "oneLinerEn": "Discount future money to today's value — a positive NPV creates value, and the IRR is the rate that drives it to zero.",
+    "detail": "因为“今天的一元比明年的一元值钱”(时间价值)，评估投资要把未来各期现金流按要求的回报率(资本成本)贴现回今天求和，再减去初始投入得到 NPV；NPV 大于零表示收益超过资金成本、值得做，反之毁价值。IRR 则是令 NPV 归零的那个内在回报率，越高越好、须高于资本成本。它比“多久回本”更讲道理，因为它顾到全部现金流与货币时间价值；但两者都依赖贴现率估计，对非常规现金流(正负交替)IRR 可能多个或失真，此时以 NPV 为准。",
+    "detailEn": "Because a dollar today beats a dollar next year (time value), appraising an investment discounts each future cash flow back to now at the required return (cost of capital), sums them and subtracts the outlay to get NPV; NPV over zero means returns beat the cost of money and it is worth doing, below zero it destroys value. The IRR is the rate that sets NPV to zero — the higher the better, and it must exceed the cost of capital. It beats 'payback period' by honouring all cash flows and the time value of money, but both lean on the discount-rate estimate, and for unconventional cash flows that flip sign the IRR can be multiple or misleading — there, trust NPV.",
+    "tags": ["估值"],
+    "tagsEn": ["Valuation"],
+    "related": ["time-value", "roi-roe", "eva"]
+  },
+  {
+    "id": "opportunity-cost",
+    "icon": "🔀",
+    "term": "机会成本",
+    "termEn": "Opportunity Cost",
+    "level": 1,
+    "oneLiner": "选了 A，成本就是被放弃的最好那个 B——真代价常在“你没做的另一件事”里。",
+    "oneLinerEn": "Choose A and the cost is the best B you forwent — the real price usually sits in the thing you did not do.",
+    "detail": "机会成本指为得到某选择而放弃的最佳替代方案的价值，它不进账本却决定取舍：自建团队的钱若投进主业更赚，那“更赚”才是自建的隐藏成本；老板亲自盯生产线的“工资”按他别处能创造的价值算，常高于雇人。它也提醒：已花的钱是沉没成本、不该左右未来，而“用满资源”不等于“用对资源”。在决策树、投资评估与资源配置里，把隐形的“次优选项”显式算进去，才不至于用“看起来没花钱”骗自己。",
+    "detailEn": "Opportunity cost is the value of the best alternative you give up to choose something; it never books as an expense yet it decides trade-offs — if cash spent building an in-house team would earn more in the core business, that 'more' is the hidden cost of building; the owner's time supervising a line is priced by the value they would create elsewhere, often above hiring someone. It also warns that money already spent is a sunk cost that should not sway the future, and that using every resource is not using resources well. In decision trees, investment appraisal and allocation, making the invisible runner-up explicit keeps you from fooling yourself that a choice costs nothing.",
+    "tags": ["取舍"],
+    "tagsEn": ["Trade-off"],
+    "related": ["sunk-cost", "decision-tree", "time-value"]
   }
 ]

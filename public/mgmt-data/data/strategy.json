@@ -166,5 +166,47 @@
     "tags": ["增长"],
     "tagsEn": ["Growth"],
     "related": ["ansoff-matrix", "business-model-canvas", "unit-economics"]
+  },
+  {
+    "id": "bcg-matrix",
+    "icon": "🐮",
+    "term": "波士顿矩阵（BCG）",
+    "termEn": "The BCG Growth-Share Matrix",
+    "level": 2,
+    "oneLiner": "把业务摆进“增长×份额”四格：明星、现金牛、问题、瘦狗，据此定投资与取舍。",
+    "oneLinerEn": "Plot each unit on growth x share — Star, Cash Cow, Question Mark or Dog — and let the box set where to invest or cut.",
+    "detail": "布鲁斯·亨德森(1970)为波士顿咨询所创：纵轴市场增长率(要不要输血)、横轴相对市场份额(有没有造血)。明星两头高，应加码；现金牛低增长高份额，挤现金去养别人；问题高增长低份额，是赌未来的选择题；瘦狗两头弱，通常剥离。它给多元化公司一张“资金从哪来到哪去”的简明地图；局限是“份额=优势”与“增长=吸引力”并非万能，故常与 GE 九格(改用行业吸引力/竞争力两轴)互补。",
+    "detailEn": "Bruce Henderson's 1970 matrix for BCG: vertical is market growth (whether to feed cash), horizontal is relative share (whether it generates cash). Stars are high on both — invest; Cash Cows are mature with high share — milk them to fund others; Question Marks grow fast with low share — a bet on the future; Dogs are weak on both — usually divest. It gives a diversified firm a simple map of where money comes from and goes; its limits — that share equals strength and growth equals attractiveness — are why it is often paired with the GE nine-box, which swaps the axes for industry attractiveness and competitive strength.",
+    "tags": ["组合"],
+    "tagsEn": ["Portfolio"],
+    "related": ["porter-generic", "core-competence", "ansoff-matrix"]
+  },
+  {
+    "id": "three-horizons",
+    "icon": "🌅",
+    "term": "企业增长三层面",
+    "termEn": "Three Horizons of Growth",
+    "level": 3,
+    "oneLiner": "同时经营三条时间线：守住核心、押注成长、孵化未来，别让今天的成功饿死明天的机会。",
+    "oneLinerEn": "Run three timelines at once — defend the core, build the growth, seed the future — so today's success does not starve tomorrow's.",
+    "detail": "麦肯锡(巴盖拉等,2004)提出增长的三个视角：第一层是现金核心业务，优化与防守；第二层是正在起量、需重点培育的新增长业务；第三层是不确定但可能改写格局的长期期权与实验。关键不是“三年计划”，而是让三条线各有独立的指标、节奏与负责人，防止资源被第一层全部吃掉，导致公司在主业见顶时后继无人。",
+    "detailEn": "McKinsey's Three Horizons (Bagarozzi and others, 2004): Horizon 1 is the cash core to optimise and defend, Horizon 2 the fast-rising growth bets to scale, and Horizon 3 the uncertain long-term options that could reshape the game. The point is not a three-year plan but giving each horizon its own metrics, cadence and owner, so the core does not devour all resources and leave the firm stranded when it plateaus.",
+    "tags": ["增长"],
+    "tagsEn": ["Growth"],
+    "related": ["aarrr", "ansoff-matrix", "disruptive-innovation"]
+  },
+  {
+    "id": "economies-of-scale",
+    "icon": "🏭",
+    "term": "规模经济",
+    "termEn": "Economies of Scale",
+    "level": 2,
+    "oneLiner": "产量越大、单位成本越低——固定成本被摊薄，是低价与壁垒的常见来源。",
+    "oneLinerEn": "The bigger the output, the lower the unit cost — fixed costs spread thin, a classic source of low price and entry barriers.",
+    "detail": "规模经济指随产量上升，单位成本因固定投入(设备、研发、模具、平台)被摊薄、采购与议价更划算而下降；这正是工厂、软件与平台的护城河之一，也解释了低价与“赢家通吃”。但有边界：大到一定规模会出现“规模不经济”——层级臃肿、沟通成本与官僚膨胀反噬。它与学习曲线/经验效应相关(越做越熟)，但要区分“大”与“灵活”，精益与模块化正是为了兼得两者。",
+    "detailEn": "Economies of scale are the fall in unit cost as output rises, because fixed inputs (plant, R&D, tooling, platform) are spread thinner and purchasing gains bargaining power — a moat for factories, software and platforms, and a driver of low prices and winner-takes-all. But there is a limit: past a size come diseconomies of scale — bloated layers, soaring communication cost and a bureaucratic backlash. It is kin to the learning and experience curve (better with repetition), yet 'big' must be weighed against 'nimble' — lean and modularity seek to have both.",
+    "tags": ["成本"],
+    "tagsEn": ["Cost"],
+    "related": ["value-chain", "porter-generic", "unit-economics"]
   }
 ]

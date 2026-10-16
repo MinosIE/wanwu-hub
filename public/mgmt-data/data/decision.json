@@ -236,5 +236,19 @@
     "tags": ["行动"],
     "tagsEn": ["Action"],
     "related": ["design-thinking", "root-cause", "pdca"]
+  },
+  {
+    "id": "first-principles",
+    "icon": "⚛️",
+    "term": "第一性原理思维",
+    "termEn": "First-Principles Thinking",
+    "level": 3,
+    "oneLiner": "别照搬现成做法，把它拆到不可再拆的基本事实，再从底层重新搭起解决方案。",
+    "oneLinerEn": "Do not copy the standing recipe — strip it to bedrock facts you cannot reduce further, then rebuild a solution from there.",
+    "detail": "源自亚里士多德、因马斯克推广而知名：面对问题不用“类比”(别人都这么做/现在就这样)，而追到物理与成本的最底层事实(比如电池只是几种材料的组合，按现货价算远没那么贵)，在不受历史惯例束缚的地基上重新推导。它是颠覆性创新的思维引擎，却也很耗脑力、并非事事都该从零推导；日常运营用启发式更快，关键抉择与“看似不可能”的难题才值得动用第一性原理。",
+    "detailEn": "Traced to Aristotle and popularised by Musk: instead of reasoning by analogy (everyone does it this way, that is how it has always been), dig to the bedrock physical and cost facts — a battery is just a handful of commodities, far cheaper bought raw than as quoted — and re-derive a solution on a footing unshackled by convention. It is an engine of disruptive innovation, but costly in thought and not for every task; heuristics run daily operations faster, while first principles earn their keep on pivotal choices and problems that look impossible.",
+    "tags": ["思维"],
+    "tagsEn": ["Thinking"],
+    "related": ["disruptive-innovation", "design-thinking", "scamper"]
   }
 ]

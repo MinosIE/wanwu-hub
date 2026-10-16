@@ -152,5 +152,47 @@
     "tags": ["团队"],
     "tagsEn": ["Team"],
     "related": ["tuckman-stages", "org-design-elements", "psych-safety"]
+  },
+  {
+    "id": "parkinson-law",
+    "icon": "⏳",
+    "term": "帕金森定律",
+    "termEn": "Parkinson's Law",
+    "level": 3,
+    "oneLiner": "工作会自动膨胀，直到占满你为它预留的全部时间——官僚机构还会自我繁殖。",
+    "oneLinerEn": "Work expands to fill the time available for it — and, Parkinson added, officials multiply regardless of the work.",
+    "detail": "1955 年帕金森讽刺官僚组织提出两条定律：一是“支出延展以匹配收入”，二是更著名的“工作延展以填满可用时间”——给足缓冲期，人们会拖延、把任务做胖。他还调侃管理者宁可多招两个下属互相制衡、也不愿被一个能干同僚威胁，于是“官员的人数与工作量无关”，组织在无事可做时仍在膨胀。它提醒用有意的截止、精简编制与产出导向来对抗自然膨胀。",
+    "detailEn": "Cynic Parkinson set out two laws in 1955: 'expenditure rises to meet income' and the famous 'work expands to fill the time available' — given a long runway, people procrastinate and pad the task. He also joked that a manager prefers to add two subordinate rivals rather than one competent equal, so 'officials make work for each other' and a bureaucracy swells even as the workload falls. It urges deliberate deadlines, lean staffing and an output focus to counter the natural bloat.",
+    "tags": ["官僚"],
+    "tagsEn": ["Bureaucracy"],
+    "related": ["weber-bureaucracy", "span-control", "greiner-growth"]
+  },
+  {
+    "id": "peter-principle",
+    "icon": "🪜",
+    "term": "彼得原理",
+    "termEn": "The Peter Principle",
+    "level": 2,
+    "oneLiner": "在层级里，每个人都被升到不胜任的台阶为止——优秀士兵未必是好将军。",
+    "oneLinerEn": "In a hierarchy everyone is promoted until they are incompetent — a great technician need not make a great manager.",
+    "detail": "劳伦斯·彼得(1969)观察：晋升通常奖励的是“在现岗位干得好”，而非“能胜任下一岗位”，于是人被一路提拔到再也干不动的那一级并停留下来，组织的活儿于是越来越多落在尚未到顶的人肩上。它点破“绩效≠潜力”的错位，出路是按“能否胜任下一级”来晋、用双通道(专业/管理)与调岗培训止损，而非把顶尖的人硬塞进他不胜任的领导位。",
+    "detailEn": "Laurence Peter (1969) noted that promotion usually rewards 'good in the current role' rather than 'capable in the next', so people are climbed to the level where they finally fail and then stall — leaving more and more of the real work to those not yet maxed out. It exposes the performance-versus-potential mismatch; the fix is to promote for the next level, offer dual (expert or manager) tracks, and recover via retraining or lateral moves rather than forcing a star into a role they cannot do.",
+    "tags": ["晋升"],
+    "tagsEn": ["Promotion"],
+    "related": ["performance-review", "goal-setting", "kpi"]
+  },
+  {
+    "id": "informal-org",
+    "icon": "🕸️",
+    "term": "非正式组织",
+    "termEn": "The Informal Organisation",
+    "level": 2,
+    "oneLiner": "正式架构图之外，人还会自发结成小圈子、潜规则与舆论——它既能补位也能拖垮组织。",
+    "oneLinerEn": "Beyond the org chart people form cliques, unwritten norms and gossip — which can either shore up or sink an organisation.",
+    "detail": "霍桑实验与巴纳德发现：企业不只有明文规定的“正式组织”，更有基于情感、利益与习惯自然形成的“非正式组织”——它有隐形规范(如“别干太快出风头”)、非正式领袖与信息八卦网，左右着士气与执行力。否认它、硬碰它常常失效；聪明的做法是承认其存在、借助非正式领袖传递意图、让潜规则与正式目标尽量对齐。它是理解“为什么制度落地会走样”的钥匙。",
+    "detailEn": "Hawthorne and Barnard found that a firm is not only the 'formal organisation' of written rules but also an 'informal organisation' grown from feeling, interest and habit — with hidden norms (do not out-pace your peers), unofficial leaders and a grapevine that shape morale and execution. Denying or bulldozing it usually backfires; the wise move is to acknowledge it, route intent through informal leaders and align the unwritten rules with stated goals. It is the key to why formal policy so often lands distorted.",
+    "tags": ["文化"],
+    "tagsEn": ["Culture"],
+    "related": ["hawthorne", "barnard-cooperation", "org-culture"]
   }
 ]

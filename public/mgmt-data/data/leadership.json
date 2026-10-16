@@ -194,5 +194,33 @@
     "tags": ["执行"],
     "tagsEn": ["Execution"],
     "related": ["situational-leadership", "path-goal", "expectancy"]
+  },
+  {
+    "id": "reinforcement-theory",
+    "icon": "🔄",
+    "term": "强化理论",
+    "termEn": "Reinforcement Theory",
+    "level": 2,
+    "oneLiner": "行为由后果决定：被奖励的会重复、被惩罚或忽视的会消退——别谈态度，改后果。",
+    "oneLinerEn": "Behaviour is shaped by its consequences — what is rewarded recurs, what is punished or ignored fades; change the consequences, not the attitude.",
+    "detail": "斯金纳的操作性条件反射被搬到管理：员工的重复行为主要由“之后发生了什么”决定，正强化(及时、具体的表扬与回报)增加行为，负强化(撤掉不快的刺激)也增加行为，惩罚压制行为，消退(不再回应)让其自然减少。它强调即时、明确、可预期，且“抓好的”比“抓错的”更有效；与只讲内在动机的自我决定理论互补——外在胡萝卜对简单可量化的行为立竿见影，对复杂、需要创造与真诚的工作则要慎用，否则易被刷指标、伤内在动机。",
+    "detailEn": "Skinner's operant conditioning brought into management: repeat behaviour is driven mainly by 'what happened next' — positive reinforcement (timely, specific praise and reward) increases it, negative reinforcement (removing something unpleasant) also increases it, punishment suppresses it, and extinction (withdrawing response) lets it fade. It stresses immediacy, clarity and predictability and that 'catching people doing well' beats 'catching them doing wrong'; it complements self-determination theory, which leans on intrinsic motive — external carrots work fast on simple, measurable behaviour but must be used sparingly on complex, creative, heartfelt work, lest they game the metric and crowd out intrinsic drive.",
+    "tags": ["激励"],
+    "tagsEn": ["Motivation"],
+    "related": ["sdt", "expectancy", "goal-setting"]
+  },
+  {
+    "id": "leadership-pipeline",
+    "icon": "🧗",
+    "term": "领导梯队（六次转型）",
+    "termEn": "The Leadership Pipeline",
+    "level": 3,
+    "oneLiner": "从管理自我到管理他人、再管管理者、管职能、管事业部、管集团——每上一级都要换一套工作与心法。",
+    "oneLinerEn": "From managing self to others, then managers, a function, a division, the enterprise — each rung demands new work and a new mindset, not just a bigger title.",
+    "detail": "拉姆·查兰等提出，领导力的成长是六次“转型”而非单纯升职：管理自我、管理他人(放下亲手做、改通过别人拿结果)、管理管理者(不再亲自带一线、去选带管理者)、管理职能(跳出单一部门做跨职能权衡)、管理业务(兼顾短期与长期、面向外部利益相关者)、管理全集团(定战略与文化、面向资本市场)。它解释了很多“提拔即失败”：岗位变了，人却仍用上一层的活法干，于是各层级都退回做各自旧工作，组织空转。真正的晋升要求工作理念、时间与技能的三重转变。",
+    "detailEn": "Charan and colleagues cast leadership growth as six transitions rather than mere promotions — managing self, managing others (letting go of hands-on work to get results through people), managing managers (leading leaders instead of the front line), managing a function (cross-functional trade-offs beyond one silo), managing a business (balancing short and long term and outside stakeholders) and managing the enterprise (setting strategy and culture for the markets). It explains many 'promoted-to-failure' cases: the seat changes but the person still works one rung down, so every level does its predecessor's job and the organisation spins idle. Real advancement needs a threefold shift in work values, time application and skills.",
+    "tags": ["成长"],
+    "tagsEn": ["Development"],
+    "related": ["peter-principle", "mgmt-4c", "performance-review"]
   }
 ]
