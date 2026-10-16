@@ -180,5 +180,19 @@
     "tags": ["财务"],
     "tagsEn": ["Finance"],
     "related": ["roi-roe", "time-value", "balanced-scorecard"]
+  },
+  {
+    "id": "kpi",
+    "icon": "📈",
+    "term": "关键绩效指标 (KPI)",
+    "termEn": "Key Performance Indicators",
+    "level": 1,
+    "oneLiner": "用少数几个能真正反映成效的量化指标，把“干得好不好”变成看得见、可追踪。",
+    "oneLinerEn": "A few quantified indicators that truly reflect performance, turning 'are we doing well' into something visible and trackable.",
+    "detail": "KPI 把战略与目标翻译成可衡量的关键数字，用于监控进展、发现问题、驱动改进。好的 KPI 遵循 SMART、紧扣“关键”而非堆指标——什么都能量往往意味着什么都不重要；它还要警惕古德哈特定律“一旦指标成为目标，它就不再是好指标”，否则团队会刷数字而偏离真实价值。它与 OKR 互补：OKR 定方向与野心、激发对齐，KPI 盯常态运营与达标；也呼应平衡计分卡——后者提醒别只看财务一维。",
+    "detailEn": "A KPI translates strategy and goals into measurable key numbers used to monitor progress, surface problems and drive improvement. Good KPIs are SMART and stay 'key' rather than a pile of metrics — if you measure everything, it often means nothing matters; they must also guard against Goodhart's law, 'when a measure becomes a target it ceases to be a good measure', lest teams game the number and drift from real value. KPIs complement OKRs — OKRs set direction and ambition and spark alignment, KPIs watch steady-state performance and attainment — and echo the balanced scorecard, which warns against tracking the financial dimension alone.",
+    "tags": ["度量"],
+    "tagsEn": ["Metrics"],
+    "related": ["balanced-scorecard", "okr", "performance-review"]
   }
 ]

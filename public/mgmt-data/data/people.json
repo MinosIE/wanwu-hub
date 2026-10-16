@@ -208,5 +208,33 @@
     "tags": ["心态"],
     "tagsEn": ["Mindset"],
     "related": ["eq", "psych-safety", "grow-coaching"]
+  },
+  {
+    "id": "star",
+    "icon": "🗣️",
+    "term": "STAR 法则（情境·任务·行动·结果）",
+    "termEn": "The STAR Method",
+    "level": 1,
+    "oneLiner": "讲一段经历分四步：什么情境、接了什么任务、采取了什么行动、结果如何。",
+    "oneLinerEn": "Tell an experience in four beats — the Situation, the Task you owned, the Action you took and the Result.",
+    "detail": "STAR 源于行为面试法，是结构化陈述与述职的通用骨架：先交代背景情境(Situation)，说清要完成的任务或目标(Task)，重点描述自己实际采取的行动(Action)，最后用可衡量的结果(Result)收束。它强迫讲述者少谈空泛态度、多讲具体行为与成效，既能帮应聘者把故事讲清楚，也用于复盘、汇报与写作；常见变体在结果后再补一环反思。",
+    "detailEn": "STAR comes from behavioural interviewing and is a general skeleton for structured storytelling and reporting: set the background Situation (S), state the Task or goal you owned (T), focus on the concrete Action you took (A), and close with a measurable Result (R). It pushes the speaker away from vague attitudes toward specific behaviour and outcome — useful for candidates telling their story and for reviews, reports and writing; a common variant adds a reflection beat after the result.",
+    "tags": ["表达"],
+    "tagsEn": ["Communication"],
+    "related": ["performance-review", "scqa", "grow-coaching"]
+  },
+  {
+    "id": "story-telling",
+    "icon": "🎬",
+    "term": "STORY 叙事框架",
+    "termEn": "The STORY Framework",
+    "level": 2,
+    "oneLiner": "把观点讲成打动人的故事：搭结构、沿时间、亮观点、摆现实、落向往。",
+    "oneLinerEn": "Turn a point into a story that moves people — Structure, Time-line, Opinion, Reality, then a Yearning to end on.",
+    "detail": "STORY 是一种把信息组织成叙事的表达框架：S 先搭好结构（开头即抛钩子），T 按时间线交代来龙去脉，O 亮出你的主张与观点，R 呈现支撑观点的现实与细节，Y 以一个唤起向往、指向行动的愿景收尾。它与 SCQA 互补——SCQA 重在把问题讲清、适合商务陈述，STORY 重在用情节与情绪打动人、适合激励、路演与品牌叙事；落点 Y（唤起渴望）正是它区别于纯逻辑表达的关键。",
+    "detailEn": "STORY organises information as narrative: S builds the structure (open with a hook), T lays out the sequence along time, O states your position and opinion, R shows the reality and detail that back it, and Y closes with a yearning that moves the audience to act. It complements SCQA — SCQA clarifies a problem for business reporting, while STORY persuades through plot and feeling for motivation, pitching and brand narrative; the closing Y (stirring a desire) is what sets it apart from purely logical expression.",
+    "tags": ["表达"],
+    "tagsEn": ["Communication"],
+    "related": ["scqa", "transformational", "mission-vision"]
   }
 ]

@@ -222,5 +222,19 @@
     "tags": ["沟通"],
     "tagsEn": ["Communication"],
     "related": ["rational-model", "six-hats", "okr"]
+  },
+  {
+    "id": "poa-action",
+    "icon": "🚀",
+    "term": "POA 行动力（问题·目标·行动）",
+    "termEn": "The POA Action Model",
+    "level": 2,
+    "oneLiner": "别停在抱怨问题：看清 Problem、锁定真正想要的 Object，再设计出能落地的 Action。",
+    "oneLinerEn": "Don't stall on the Problem — pin down the Object you truly want, then design an actionable Action.",
+    "detail": "POA 把“解决一个问题”拆成三叶草：对现状的困惑或障碍是 Problem，你真正想去到、想达成的方向是 Object（目标/意图），为逼近它而做的具体下一步是 Action。精髓在于“目标是召唤行动的”——同一问题下，目标不同，行动就截然不同；许多人困在问题里，是因为只盯着 P 而没有清晰的 O，于是有情绪没行动。它常用于行动学习、复盘与个人效能，与“以终为始”“设计思维”一脉相通。",
+    "detailEn": "POA splits 'solving a problem' into a three-leaf clover: the puzzle or obstacle in the present is the Problem, the direction you truly want to move toward is the Object, and the concrete next step taken to approach it is the Action. Its core insight is that 'the object calls forth the action' — under the same problem, a different object yields a wholly different action; many stay stuck because they fixate on the P without a clear O, ending with feeling but no move. It is used in action learning, retrospectives and personal effectiveness, and rhymes with 'begin with the end in mind' and design thinking.",
+    "tags": ["行动"],
+    "tagsEn": ["Action"],
+    "related": ["design-thinking", "root-cause", "pdca"]
   }
 ]

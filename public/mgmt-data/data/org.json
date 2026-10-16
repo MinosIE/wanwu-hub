@@ -138,5 +138,19 @@
     "tags": ["结构"],
     "tagsEn": ["Structure"],
     "related": ["org-structures", "span-control", "centralization", "contingency"]
+  },
+  {
+    "id": "belbin-roles",
+    "icon": "🎭",
+    "term": "贝尔宾团队角色",
+    "termEn": "Belbin Team Roles",
+    "level": 2,
+    "oneLiner": "高效团队不靠凑明星，而靠角色互补：把思考、协作、行动三类的八种角色各就各位。",
+    "oneLinerEn": "A strong team is not a pile of stars but complementary roles — the eight varieties of thinking, social and action each filled.",
+    "detail": "梅雷迪思·贝尔宾通过团队观察提出：一个人的贡献不只看专业与职位，更看他天然承担的“团队角色”。经典八种归为三类——思考型（智多星出创意、监督评估者冷静审度）、人际型（协调者定方向用好人、资源探索者对外找机会、团队工作者维系关系润滑）、行动型（推进者加压破障、实干家把想法落成计划、完善者盯细节保交付）。要点不是给每人贴标签，而是让角色配置互补：全是点子王就没人收尾，全是执行机器则缺乏方向。后又补入第九种“专家”。",
+    "detailEn": "Meredith Belbin, from observing teams, argued that a person's contribution lies not just in expertise or title but in the team role they naturally take. The classic eight fall into three clusters — thinking (the Plant generates ideas, the Monitor-Evaluator judges coolly), social (the Co-ordinator sets direction and uses people well, the Resource Investigator scouts opportunity outside, the Teamworker smooths relationships) and action (the Shaper pushes through obstacles, the Implementer turns ideas into plans, the Completer-Finisher guards detail and delivery). The point is not to label everyone but to balance the mix so roles complement: a team of idea-machines never finishes, a team of doers lacks direction. A ninth, the Specialist, was added later.",
+    "tags": ["团队"],
+    "tagsEn": ["Team"],
+    "related": ["tuckman-stages", "org-design-elements", "psych-safety"]
   }
 ]
