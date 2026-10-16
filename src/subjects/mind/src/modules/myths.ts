@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { dtext } from '../core/dom';
 
 export const myths: ListModule = {
   id: 'myths',
@@ -17,8 +17,8 @@ export const myths: ListModule = {
     title: L(it, 'term'),
     sub: L(it, 'termEn'),
     sections: [
-      { labelKey: 'ui.oneLiner', html: `<p>${esc(L(it, 'oneLiner'))}</p>` },
-      { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
+      { labelKey: 'ui.oneLiner', html: dtext(L(it, 'oneLiner')) },
+      { labelKey: 'ui.detail', html: dtext(L(it, 'detail')) },
     ],
     relatedIds: it.related || [],
     sources: it.sources || [],

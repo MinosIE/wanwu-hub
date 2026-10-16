@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { dtext } from '../core/dom';
 
 export const concepts: ListModule = {
   id: 'concepts',
@@ -18,9 +18,9 @@ export const concepts: ListModule = {
     title: L(it, 'term'),
     sub: L(it, 'termEn'),
     sections: [
-      { labelKey: 'ui.oneLiner', html: `<p>${esc(L(it, 'oneLiner'))}</p>` },
-      { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
-      { labelKey: 'ui.example', html: `<p>${esc(L(it, 'example'))}</p>` },
+      { labelKey: 'ui.oneLiner', html: dtext(L(it, 'oneLiner')) },
+      { labelKey: 'ui.detail', html: dtext(L(it, 'detail')) },
+      { labelKey: 'ui.example', html: dtext(L(it, 'example')) },
     ],
     relatedIds: it.related || [],
     sources: it.sources || [],

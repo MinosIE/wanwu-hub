@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { dtext } from '../core/dom';
 
 export const glossary: ListModule = {
   id: 'glossary',
@@ -20,8 +20,8 @@ export const glossary: ListModule = {
     title: L(it, 'term'),
     sub: L(it, 'termEn'),
     sections: [
-      { labelKey: 'ui.def', html: `<p>${esc(L(it, 'def'))}</p>` },
-      { labelKey: 'ui.plain', html: `<p>${esc(L(it, 'plain'))}</p>` },
+      { labelKey: 'ui.def', html: dtext(L(it, 'def')) },
+      { labelKey: 'ui.plain', html: dtext(L(it, 'plain')) },
     ],
     relatedIds: it.related || [],
     sources: it.sources || [],

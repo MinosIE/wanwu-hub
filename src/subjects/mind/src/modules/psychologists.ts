@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { esc, dtext } from '../core/dom';
 
 function listHtml(arr: unknown): string {
   const items = Array.isArray(arr) ? arr.filter(Boolean) : [];
@@ -25,8 +25,8 @@ export const psychologists: ListModule = {
     title: L(it, 'name'),
     sub: L(it, 'field'),
     sections: [
-      { labelKey: 'ui.oneLiner', html: `<p>${esc(L(it, 'oneLiner'))}</p>` },
-      { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
+      { labelKey: 'ui.oneLiner', html: dtext(L(it, 'oneLiner')) },
+      { labelKey: 'ui.detail', html: dtext(L(it, 'detail')) },
       { labelKey: 'ui.ideas', html: listHtml(L(it, 'keyIdeas')) },
       { labelKey: 'ui.works', html: listHtml(L(it, 'works')) },
     ],

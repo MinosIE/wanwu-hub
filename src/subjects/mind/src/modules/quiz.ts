@@ -1,6 +1,6 @@
 import type { ListModule } from '../core/types';
 import { t } from '../core/i18n';
-import { esc } from '../core/dom';
+import { esc, dtext } from '../core/dom';
 
 export const quiz: ListModule = {
   id: 'quiz',
@@ -29,7 +29,7 @@ export const quiz: ListModule = {
           labelKey: 'ui.options',
           html: `<ul class="quiz-opts">${optionsHtml}</ul>`,
         },
-        { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
+        { labelKey: 'ui.detail', html: dtext(L(it, 'detail')) },
       ],
       relatedIds: it.related || [],
       sources: it.sources || [],

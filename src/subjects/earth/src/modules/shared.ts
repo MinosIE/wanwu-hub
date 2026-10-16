@@ -1,3 +1,4 @@
+import { proseHTML } from "../../../../core/ui/text";
 import { fetchData } from "../core/data";
 import { clickable, need } from "../core/dom";
 import { L, t } from "../core/i18n";
@@ -17,7 +18,7 @@ export function textSection(
   body: string,
 ): DetailSection | null {
   const clean = (body ?? "").trim();
-  return clean ? { icon, title, html: `<p>${escapeInline(clean)}</p>` } : null;
+  return clean ? { icon, title, html: proseHTML(clean, escapeInline) } : null;
 }
 
 export function listSection(

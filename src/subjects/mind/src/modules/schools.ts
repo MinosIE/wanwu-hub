@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { esc, dtext } from '../core/dom';
 
 function listHtml(arr: unknown): string {
   const items = Array.isArray(arr) ? arr.filter(Boolean) : [];
@@ -25,11 +25,11 @@ export const schools: ListModule = {
     title: L(it, 'name'),
     sub: L(it, 'era'),
     sections: [
-      { labelKey: 'ui.core', html: `<p>${esc(L(it, 'core'))}</p>` },
+      { labelKey: 'ui.core', html: dtext(L(it, 'core')) },
       { labelKey: 'ui.founders', html: listHtml(L(it, 'founders')) },
       { labelKey: 'ui.keyIdeas', html: listHtml(L(it, 'keyIdeas')) },
-      { labelKey: 'ui.strengths', html: `<p>${esc(L(it, 'strengths'))}</p>` },
-      { labelKey: 'ui.criticisms', html: `<p>${esc(L(it, 'criticisms'))}</p>` },
+      { labelKey: 'ui.strengths', html: dtext(L(it, 'strengths')) },
+      { labelKey: 'ui.criticisms', html: dtext(L(it, 'criticisms')) },
     ],
     relatedIds: it.related || [],
     sources: it.sources || [],

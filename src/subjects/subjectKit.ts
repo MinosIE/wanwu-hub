@@ -1,5 +1,6 @@
 import "./subjectKit.css";
 import { getLang, onLangChange } from "../core/i18n";
+import { proseHTML } from "../core/ui/text";
 import { mountNavDropdown } from "./_shared/mobileNav";
 
 export type LStr = { zh: string; en: string };
@@ -138,37 +139,6 @@ function esc(s: string): string {
     /[&<>"]/g,
     (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!,
   );
-}
-
-/** 把一整段详解文案按句切分为要点：中文按 。！？ 切（对小数/缩写无歧义，安全）；
- *  英文按「句末标点 + 空白 + 大写」切，并先遮蔽 e.g./i.e. 等缩写，避免把 "e.g. NaCl"
- *  误切、也不误切 0.5 这类小数（其后无空白）。 */
-function splitProse(s: string): string[] {
-  const t = s.trim();
-  if (!t) return [];
-  if (/[。！？]/.test(t)) {
-    return t
-      .split(/(?<=[。！？])\s*/)
-      .map((x) => x.trim())
-      .filter(Boolean);
-  }
-  const PH = "\u0001";
-  const masked = t
-    .replace(/e\.g\./gi, `e${PH}g${PH}`)
-    .replace(/i\.e\./gi, `i${PH}e${PH}`);
-  return masked
-    .split(/(?<=[.!?])\s+(?=[A-Z"'(])/)
-    .map((x) => x.split(PH).join(".").trim())
-    .filter(Boolean);
-}
-
-/** 详解渲染：单句仍以 <p> 呈现，两句以上用既有 .dsec-list 项目符号，缓解整面文字墙。 */
-function proseHTML(text: string): string {
-  const parts = splitProse(text);
-  if (parts.length <= 1) return `<p>${esc(text)}</p>`;
-  return `<ul class="dsec-list">${parts
-    .map((p) => `<li>${esc(p)}</li>`)
-    .join("")}</ul>`;
 }
 
 /** 示意图：作为受信静态 SVG 原样输出（不转义）；无内容则返回空串。
@@ -731,13 +701,13 @@ export function createSubject(cfg: SubjectConfig) {
         sections.push({
           ic: "📘",
           title: { zh: "详解", en: "Details" },
-          html: proseHTML(L(item.detail)),
+          html: proseHTML(L(item.detail), esc),
         });
       if (item.example)
         sections.push({
           ic: "🧪",
           title: { zh: "例子", en: "Example" },
-          html: `<p>${esc(L(item.example))}</p>`,
+          html: proseHTML(L(item.example), esc),
         });
       const body = sections
         .map(

@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { dtext } from '../core/dom';
 
 export const experiments: ListModule = {
   id: 'experiments',
@@ -17,9 +17,9 @@ export const experiments: ListModule = {
     title: L(it, 'term'),
     sub: [it.year, L(it, 'termEn')].filter(Boolean).join(' · '),
     sections: [
-      { labelKey: 'ui.oneLiner', html: `<p>${esc(L(it, 'oneLiner'))}</p>` },
-      { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
-      { labelKey: 'ui.ethics', html: `<p>${esc(L(it, 'ethics'))}</p>` },
+      { labelKey: 'ui.oneLiner', html: dtext(L(it, 'oneLiner')) },
+      { labelKey: 'ui.detail', html: dtext(L(it, 'detail')) },
+      { labelKey: 'ui.ethics', html: dtext(L(it, 'ethics')) },
     ],
     relatedIds: it.related || [],
     sources: it.sources || [],

@@ -1,5 +1,5 @@
 import type { ListModule } from '../core/types';
-import { esc } from '../core/dom';
+import { dtext } from '../core/dom';
 
 export const compare: ListModule = {
   id: 'compare',
@@ -17,10 +17,10 @@ export const compare: ListModule = {
     title: L(it, 'term'),
     sub: L(it, 'termEn'),
     sections: [
-      { labelKey: 'ui.oneLiner', html: `<p>${esc(L(it, 'oneLiner'))}</p>` },
-      { labelKey: 'ui.west', html: `<p>${esc(L(it, 'west'))}</p>` },
-      { labelKey: 'ui.east', html: `<p>${esc(L(it, 'east'))}</p>` },
-      { labelKey: 'ui.detail', html: `<p>${esc(L(it, 'detail'))}</p>` },
+      { labelKey: 'ui.oneLiner', html: dtext(L(it, 'oneLiner')) },
+      { labelKey: 'ui.west', html: dtext(L(it, 'west')) },
+      { labelKey: 'ui.east', html: dtext(L(it, 'east')) },
+      { labelKey: 'ui.detail', html: dtext(L(it, 'detail')) },
     ],
     relatedIds: it.related || [],
     sources: it.sources || [],
