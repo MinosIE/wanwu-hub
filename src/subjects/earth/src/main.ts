@@ -1,308 +1,34 @@
 import "./styles/index.css";
 
-import { provideApp } from "./core/app";
+import { createSubjectApp } from "../../../core/subject/appKit";
 import { fetchData } from "./core/data";
 import { initDetail, openDetail } from "./core/detail";
 import { esc, need } from "./core/dom";
-import {
-  applyStaticLang,
-  getLang,
-  initLang,
-  L,
-  onLangChange,
-  setI18nRoot,
-  t,
-} from "./core/i18n";
+import * as i18n from "./core/i18n";
 import { preloadRelated } from "./core/related";
 import { initSearch } from "./core/search";
 import { initTheme } from "./core/theme";
-import type { LObj, OverviewFile, SearchEntry } from "./core/types";
-import { MODULES, moduleByKey, type ModuleDef } from "./modules";
-import type { ModuleInstance } from "./modules/types";
+import { MODULES, moduleByKey } from "./modules";
 
-const BASE = import.meta.env.BASE_URL;
-// 邮箱分段存放：避免 HTML/源码里出现可直接采集的完整地址（index.html 静态默认 href="#"）。
-const MAIL_USER = "417913012";
-const MAIL_DOMAIN = "qq.com";
-const instances = new Map<string, ModuleInstance>();
-const pending = new Map<string, Promise<void>>();
-let current = "m-home";
-/** 内嵌进主应用时关闭历史写入，避免污染主路由 URL。 */
-let updateHistory = true;
-export function setHistoryUpdate(v: boolean): void {
-  updateHistory = v;
-}
+const { boot, activate, setHistoryUpdate } = createSubjectApp({
+  logTag: "[earth]",
+  modules: MODULES,
+  moduleByKey,
+  i18n,
+  fetchData,
+  esc,
+  need,
+  initDetail,
+  openDetail,
+  initSearch,
+  initTheme,
+  preloadRelated,
+  mail: { user: "417913012", domain: "qq.com" },
+});
 
-/** 按当前语言生成预填主题/正文的 mailto 链接，唤起默认邮箱客户端。 */
-function mailtoHref(): string {
-  const subject = encodeURIComponent(t("mail.subject"));
-  const body = encodeURIComponent(t("mail.body"));
-  return `mailto:${MAIL_USER}@${MAIL_DOMAIN}?subject=${subject}&body=${body}`;
-}
+export { boot, activate, setHistoryUpdate };
 
-/** 把预填邮件链接应用到 hero 节点，语言切换时同步刷新。 */
-function updateMailLinks(): void {
-  const href = mailtoHref();
-  document.querySelectorAll<HTMLAnchorElement>("#heroMailLink").forEach((a) => {
-    a.href = href;
-  });
-}
-
-/* ---------------- 模块切换 / 加载提示 ---------------- */
-
-const loadingEl = document.createElement("div");
-loadingEl.id = "loading";
-loadingEl.className = "loading-overlay";
-loadingEl.hidden = true;
-loadingEl.innerHTML =
-  '<span class="spinner" aria-hidden="true"></span><span class="loading-text"></span>';
-
-function showLoading(def: ModuleDef): void {
-  const label = loadingEl.querySelector<HTMLElement>(".loading-text");
-  if (label) label.textContent = t("ui.loading");
-  const root = document.getElementById(def.id);
-  if (root) root.appendChild(loadingEl);
-  loadingEl.hidden = false;
-}
-function hideLoading(): void {
-  loadingEl.hidden = true;
-  loadingEl.remove();
-}
-
-function setActive(id: string, entryId?: string): void {
-  current = id;
-  document.querySelectorAll<HTMLElement>("#modNav .mod").forEach((btn) => {
-    btn.classList.toggle("active", btn.dataset.go === id);
-  });
-  document.querySelectorAll<HTMLElement>(".module").forEach((sec) => {
-    sec.classList.toggle("active", sec.id === id);
-  });
-  const def = MODULES.find((m) => m.id === id);
-  // 条目级深链：#concepts/opportunity-cost；模块级：#concepts
-  const hash = def ? `#${entryId ? `${def.key}/${entryId}` : def.key}` : "";
-  if (updateHistory) {
-    history.replaceState(null, "", hash || location.pathname + location.search);
-  }
-}
-
-function flash(key: string): void {
-  const node = document.querySelector<HTMLElement>(
-    `#${current} [data-key="${key}"]`,
-  );
-  if (!node) return;
-  node.scrollIntoView({ block: "center", behavior: "smooth" });
-  node.classList.add("flash");
-  window.setTimeout(() => node.classList.remove("flash"), 1600);
-}
-
-async function ensureModule(def: ModuleDef): Promise<void> {
-  if (!pending.has(def.id)) {
-    pending.set(
-      def.id,
-      (async () => {
-        const root = document.getElementById(def.id);
-        if (!root) return;
-        try {
-          const mod = await def.load();
-          const inst = await mod.default({ root, openDetail });
-          if (inst) instances.set(def.id, inst);
-        } catch (err) {
-          console.error("[earth] 模块渲染失败:", def.id, err);
-          root.innerHTML = `<p class="empty">${esc(t("ui.loadFail"))}</p>`;
-        }
-      })(),
-    );
-  }
-  await pending.get(def.id);
-}
-
-export async function activate(
-  id: string,
-  openKey?: string,
-  scroll = false,
-): Promise<void> {
-  setActive(id, openKey);
-  const def = MODULES.find((m) => m.id === id);
-  if (!def) return;
-  if (!instances.has(def.id)) showLoading(def);
-  await ensureModule(def);
-  hideLoading();
-  if (openKey) {
-    const inst = instances.get(id);
-    if (!inst?.openById?.(openKey)) flash(openKey);
-  }
-  if (scroll) window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-/* ---------------- 首页 / KPI / 页脚 ---------------- */
-
-function renderHome(): void {
-  const host = need("#homeGrid");
-  host.innerHTML = MODULES.map(
-    (m) => `<button class="entry" type="button" data-go="${m.id}">
-      <span class="entry-ic" aria-hidden="true">${m.icon}</span>
-      <span class="entry-t">${esc(t(`entry.${m.key}.t`))}</span>
-      <span class="entry-d">${esc(t(`entry.${m.key}.d`))}</span>
-      <span class="entry-go">${esc(t("ui.enter"))}</span>
-    </button>`,
-  ).join("");
-  host.querySelectorAll<HTMLElement>("[data-go]").forEach((btn) => {
-    btn.addEventListener(
-      "click",
-      () => void activate(btn.dataset.go ?? "m-home", undefined, true),
-    );
-  });
-}
-
-async function renderKpis(): Promise<void> {
-  const host = need("#kpis");
-  try {
-    const ov = await fetchData<OverviewFile>("overview.json");
-    host.innerHTML = ov.kpis
-      .map(
-        (k) => `<div class="kpi">
-          <span class="kpi-ic" aria-hidden="true">${esc(k.icon)}</span>
-          <span class="kpi-body"><b class="kpi-v">${esc(k.value)}</b><span class="kpi-l">${esc(t(`kpi.${k.key}`))}</span></span>
-        </div>`,
-      )
-      .join("");
-  } catch {
-    host.innerHTML = "";
-  }
-}
-
-async function renderRefs(): Promise<void> {
-  const box = need("#refsBox");
-  const list = need("#refList");
-  try {
-    const items = await fetchData<LObj[]>("sources.json");
-    if (!items.length) {
-      box.hidden = true;
-      return;
-    }
-    const en = getLang() === "en";
-    const [yOpen, yClose] = en ? [" (", ")"] : ["（", "）"];
-    list.innerHTML = items
-      .map((s) => {
-        // 英文界面优先 *En 字段（缺失回退中文），年份括号随语言
-        const label = `${esc(L<string>(s, "label"))}${s.year ? `${yOpen}${esc(s.year)}${yClose}` : ""}`;
-        const text = s.url
-          ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
-          : label;
-        return `<li>${text}<span class="ref-type">${esc(L<string>(s, "type"))}</span></li>`;
-      })
-      .join("");
-    box.hidden = false;
-  } catch {
-    box.hidden = true;
-  }
-}
-
-function renderFooter(): void {
-  const foot = need("#foot");
-  foot.innerHTML = `
-    <p class="foot-feedback">${esc(t("foot.feedback"))}：<a href="https://github.com/MinosIE/wanwu-hub/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> · <a id="heroMailLink" href="#">${esc(t("heroMail"))}</a></p>
-    <p>${esc(t("foot.tip"))}</p>
-    <p>${esc(t("foot.copy"))}</p>`;
-}
-
-/* ---------------- 深链 / 顶栏 ---------------- */
-
-function bindTop(): void {
-  const top = need("#toTop");
-  const onScroll = () => top.classList.toggle("show", window.scrollY > 420);
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-  top.addEventListener("click", () =>
-    window.scrollTo({ top: 0, behavior: "smooth" }),
-  );
-}
-
-function bindNav(): void {
-  document.querySelectorAll<HTMLElement>("#modNav .mod").forEach((btn) => {
-    btn.addEventListener(
-      "click",
-      () => void activate(btn.dataset.go ?? "m-home", undefined, true),
-    );
-  });
-}
-
-function deepLink(): void {
-  const raw = decodeURIComponent(location.hash.replace(/^#/, ""));
-  if (!raw) return;
-  // 支持 #concepts 与 #concepts/opportunity-cost 两种形态（与 setActive 写入的 hash 格式对称）
-  const [key, id] = raw.split("/");
-  const def = moduleByKey(key);
-  if (def) void activate(def.id, id || undefined);
-}
-
-/* ---------------- 启动 ---------------- */
-
-export function boot(root: ParentNode = document): void {
-  // 每次挂载都重新初始化：清空上一轮模块缓存，避免复用到已被销毁的旧 DOM
-  instances.clear();
-  pending.clear();
-  current = "m-home";
-  if (window.self !== window.top) document.body.classList.add("embedded");
-
-  setI18nRoot(root);
-  initLang();
-  applyStaticLang();
-  initTheme(root);
-  initDetail();
-  void preloadRelated();
-
-  renderHome();
-  void renderKpis();
-  void renderRefs();
-  renderFooter();
-  updateMailLinks();
-  bindNav();
-  bindTop();
-
-  initSearch((entry: SearchEntry) => {
-    void activate(entry.m, entry.id, true);
-  });
-
-  provideApp({
-    switchModule: (id: string) => setActive(id),
-    openTarget: (moduleId: string, key: string) =>
-      void activate(moduleId, key, true),
-    currentModule: () => current,
-  });
-
-  deepLink();
-
-  onLangChange(() => {
-    renderHome();
-    renderFooter();
-    void renderKpis();
-    void renderRefs();
-    updateMailLinks();
-    if (current !== "m-home") {
-      const def = MODULES.find((m) => m.id === current);
-      pending.delete(current);
-      instances.delete(current);
-      if (def) void ensureModule(def);
-    }
-  });
-
-  // hero 内不再放语言/主题按钮：切换统一由主应用顶栏提供（src/core/layout.ts）。
-
-  // 标题 / 描述 / 语言属性随语言切换
-  onLangChange(() => {
-    document.title = t("docTitle");
-    document
-      .querySelector('meta[name="description"]')
-      ?.setAttribute("content", t("docDesc"));
-  });
-  document.title = t("docTitle");
-  document
-    .querySelector('meta[name="description"]')
-    ?.setAttribute("content", t("docDesc"));
-}
-
-// 仅在独立运行（econ.html）时自动启动；被主应用内嵌时由 index.ts 显式 boot(root)。
+// 仅在独立运行时自动启动；被主应用内嵌时由 index.ts 显式 boot(root)。
 if (!document.getElementById("app")) {
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", () => boot());
