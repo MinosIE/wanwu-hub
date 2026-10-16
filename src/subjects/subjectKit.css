@@ -11,9 +11,10 @@
 
 /* 规范 token 别名桥：对接共享 UI 层
    共享层依赖规范词表；subjectKit 使用本地令牌（--accent/--card/--muted…），
-   此处以本地令牌派生规范变量，避免共享层因缺少变量而样式失效。 */
-.physics-root,
-.chem-root {
+   此处以本地令牌派生规范变量，避免共享层因缺少变量而样式失效。
+   选择器用 createSubject 恒定注入的 .subject-kit（physics/chem/mgmt 等所有
+   轻量学科根节点都带此类），新增学科无需再改这里。 */
+.subject-kit {
   --brand: var(--accent);
   --brand-d: var(--accent);
   --brand-50: color-mix(in srgb, var(--accent) 18%, transparent);
@@ -46,19 +47,17 @@
   color: rgba(255, 255, 255, 0.82);
 }
 
-/* 难度徽标三档分级：共享层的 brand/gold 在学科内同色，这里做一层递退区分 */
-.physics-root .lvl-1,
-.chem-root .lvl-1 {
+/* 难度徽标三档分级：共享层的 brand/gold 在学科内同色，这里做一层递退区分
+   （同样挂在 .subject-kit 上，覆盖所有轻量学科） */
+.subject-kit .lvl-1 {
   background: var(--brand-50);
   color: var(--brand);
 }
-.physics-root .lvl-2,
-.chem-root .lvl-2 {
+.subject-kit .lvl-2 {
   background: color-mix(in srgb, var(--brand) 10%, transparent);
   color: var(--text-soft);
 }
-.physics-root .lvl-3,
-.chem-root .lvl-3 {
+.subject-kit .lvl-3 {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-mute);
