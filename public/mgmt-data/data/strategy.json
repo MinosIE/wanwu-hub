@@ -208,5 +208,61 @@
     "tags": ["成本"],
     "tagsEn": ["Cost"],
     "related": ["value-chain", "porter-generic", "unit-economics"]
+  },
+  {
+    "id": "network-effects",
+    "icon": "🔗",
+    "term": "网络效应",
+    "termEn": "Network Effects",
+    "level": 2,
+    "oneLiner": "用的人越多、产品对每个人都越值钱——电话、平台与社交网络的增长引擎。",
+    "oneLinerEn": "The more people use it, the more valuable it becomes to each user — the growth engine of phones, platforms and social networks.",
+    "detail": "梅特卡夫定律说网络的价值约与节点数的平方成正比。当新增用户让老用户更受益(如通讯录、市场买卖双方、操作系统的软件生态),就会形成正反馈:越大越好用、越好用越大,常导向“赢家通吃”与高进入壁垒。但要警惕负面网络效应(拥堵、垃圾信息)与“冷启动”难题——先想办法跨过最小临界规模。它常与规模经济、锁定效应相伴,是平台战略的核心。",
+    "detailEn": "Metcalfe's law holds that a network's value grows roughly with the square of its nodes. When each new user makes the product better for existing ones — contacts, two-sided markets, an operating system's app ecosystem — a positive loop forms: bigger is better and better attracts bigger, often yielding winner-takes-all and high entry barriers. Watch for negative network effects (congestion, spam) and the cold-start problem: you must first cross a minimum critical mass. It travels with economies of scale and lock-in, and sits at the heart of platform strategy.",
+    "tags": ["平台"],
+    "tagsEn": ["Platform"],
+    "related": ["economies-of-scale", "blue-ocean", "disruptive-innovation"]
+  },
+  {
+    "id": "flywheel",
+    "icon": "🌀",
+    "term": "飞轮效应",
+    "termEn": "The Flywheel Effect",
+    "level": 2,
+    "oneLiner": "增长不是单次猛推,而是让一环推动下一环,飞轮越转越沉、越转越快。",
+    "oneLinerEn": "Growth is not one big push but each step driving the next — a flywheel that gains momentum turn after turn.",
+    "detail": "吉姆·柯林斯在《从优秀到卓越》借飞轮比喻:卓越公司不靠某个“奇迹时刻”,而是把一连串成果沿同一方向持续累积,像重轮一下下推动,起初费力、一旦转起来便势不可挡。亚马逊的经典飞轮是“更低价格→更多顾客→更多卖家→更优规模与体验→再降价”。它提醒:别频繁换方向空转,要找到并死磕那台能自我强化的飞轮。",
+    "detailEn": "In Good to Great, Collins uses the flywheel: great companies achieve no single 'miracle moment' but compound a sequence of results in one direction, pushing a heavy wheel blow after blow — hard at first, unstoppable once spinning. Amazon's classic loop is lower prices, more customers, more sellers, better scale and experience, then still lower prices. It warns against thrashing between directions: find the one self-reinforcing flywheel and stay on it.",
+    "tags": ["增长"],
+    "tagsEn": ["Growth"],
+    "related": ["network-effects", "economies-of-scale", "three-horizons"]
+  },
+  {
+    "id": "strategy-map",
+    "icon": "📐",
+    "term": "战略地图",
+    "termEn": "The Strategy Map",
+    "level": 3,
+    "oneLiner": "把抽象战略画成一张因果图:学习成长支撑流程,流程创造客户,客户换来财务。",
+    "oneLinerEn": "Draw the abstract strategy as one cause-and-effect map: learning fuels processes, processes create customer value, customers deliver financial results.",
+    "detail": "卡普兰与诺顿在平衡计分卡之后提出战略地图:用财务、客户、内部流程、学习与成长四个层面,把“价值如何被创造”串成一条自上而下的因果链,让每个部门看到自己的活动如何汇成最终成果。它解决的是“人人认同战略、却说不清自己那一环如何贡献”的执行难题。与平衡计分卡(指标)配套:地图讲逻辑,记分卡给度量。",
+    "detailEn": "Kaplan and Norton added the strategy map after the balanced scorecard: across the financial, customer, internal-process and learning-and-growth perspectives it strings how value is created into one top-down causal chain, so every unit sees how its activity feeds the outcome. It answers the stalemate of everyone agreeing with the strategy yet unable to say how their link contributes. It pairs with the scorecard — the map tells the logic, the card supplies the measures.",
+    "tags": ["战略"],
+    "tagsEn": ["Strategy"],
+    "related": ["balanced-scorecard", "core-competence", "okr"]
+  },
+  {
+    "id": "long-tail",
+    "icon": "📉",
+    "term": "长尾理论",
+    "termEn": "The Long Tail",
+    "level": 2,
+    "oneLiner": "互联网让无数小众销量的总和,能抵得上甚至超过少数爆款——别只盯着头部。",
+    "oneLinerEn": "Online, the sum of countless niche sellers can rival or beat a few blockbusters — do not chase only the hits.",
+    "detail": "克里斯·安德森(2004)指出:当仓储、分发与搜索的成本趋近于零,货架不再稀缺,那些单量很小、却种类海量的“冷门”商品加起来,能形成与头部热门相抗衡的巨大市场(亚马逊、Netflix、Spotify 靠此)。它依赖三力:普及生产工具、降低分发摩擦、智能筛选推荐。但长尾并非取代头部——需求曲线仍偏斜,爆款依旧存在,策略是“头部引流、尾部获利”兼得。",
+    "detailEn": "Anderson (2004) argued that when storage, distribution and search fall near zero cost, shelf space stops being scarce, and the vast set of tiny-selling uncommons adds up to a market rivaling the hits (Amazon, Netflix and Spotify ride this). It rests on three forces: proliferate production tools, cut distribution friction, and filter and recommend smartly. But the tail does not replace the head — demand stays skewed and blockbusters endure; the play is to funnel traffic from the head and profit from the tail.",
+    "tags": ["市场"],
+    "tagsEn": ["Markets"],
+    "related": ["blue-ocean", "network-effects", "business-model-canvas"]
   }
 ]

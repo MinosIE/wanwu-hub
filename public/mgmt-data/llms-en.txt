@@ -2,7 +2,7 @@
 
 > Management thought, strategy, organization, leadership, decision-making, operations and finance — the frameworks that help groups of people get things done.
 
-129 entries across 8 categories, all as structured JSON.
+157 entries across 8 categories, all as structured JSON.
 
 ## Data endpoints
 - [Decision-Making & Innovation](https://minosie.github.io/wanwu-hub/mgmt-data/data/decision.json)

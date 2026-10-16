@@ -222,5 +222,47 @@
     "tags": ["取舍"],
     "tagsEn": ["Trade-off"],
     "related": ["sunk-cost", "decision-tree", "time-value"]
+  },
+  {
+    "id": "depreciation",
+    "icon": "📆",
+    "term": "折旧",
+    "termEn": "Depreciation",
+    "level": 2,
+    "oneLiner": "机器会旧、软件会过时:把一笔大额资产,按使用年限逐年摊进成本。",
+    "oneLinerEn": "Machines wear and software ages — spread a big asset's cost over its useful years rather than all at once.",
+    "detail": "折旧是把固定资产(厂房、设备、车辆)的购置成本,按其预计使用年限与残值,用系统方法(直线法、加速折旧法等)分摊到各期费用,体现“资产在使用中损耗、其价值随服务流出”。它影响账面利润(折旧是费用但不付现)、税基,也提醒管理者:设备的“成本”不只在买入那天。与之并列的有无形资产的“摊销”。理解折旧才能读懂利润表与现金流为何不同。",
+    "detailEn": "Depreciation spreads the purchase cost of a fixed asset (a plant, machine, vehicle) over its expected useful life and residual value by a systematic method — straight-line, accelerated and so on — to reflect that the asset wears out and its value flows out as service. It shapes reported profit (a non-cash expense), the tax base, and the manager's view that an asset's cost is not only the day it is bought. The kin concept for intangibles is amortisation. Only by grasping depreciation do you see why the income statement and cash flow differ.",
+    "tags": ["财务"],
+    "tagsEn": ["Finance"],
+    "related": ["income-statement", "three-statements", "time-value"]
+  },
+  {
+    "id": "zero-based-budgeting",
+    "icon": "0️⃣",
+    "term": "零基预算",
+    "termEn": "Zero-Based Budgeting",
+    "level": 3,
+    "oneLiner": "每期预算从“零”谈起:不默认去年给了多少,每笔钱都要重新证明必要性。",
+    "oneLinerEn": "Start each budget at zero — no carry-over of last year's amount; every dollar must re-justify itself.",
+    "detail": "传统预算常在上期基础上加减,易把历史浪费与低效固化(“去年有,所以今年也该有”)。彼得·派尔提出的零基预算要求:每期假设一切归零,各方案从零论证所需资源与优先次序,按成本效益重新分配。它擅长挤掉沉疴、把资源转向更值的事,却耗时耗力、对稳定运营略显“重”,故现实中多用于费用整顿或阶段性“预算归零”审视,而非年年全套执行。",
+    "detailEn": "Conventional budgeting adds and subtracts on last year's base, which ossifies past waste (we had it before, so we should again). Pyhrr's zero-based budgeting instead resets to zero each period and requires every program to argue afresh the resources it needs and its priority, allocating by cost-benefit. It is strong at wringing out legacy bloat and shifting resources to what matters more, yet costly and heavy for steady operations — so in practice it is used for expense clean-ups or periodic reset scrutiny rather than full re-runs every year.",
+    "tags": ["预算"],
+    "tagsEn": ["Budgeting"],
+    "related": ["income-statement", "breakeven", "kpi"]
+  },
+  {
+    "id": "cost-behavior",
+    "icon": "🪙",
+    "term": "固定成本与变动成本",
+    "termEn": "Fixed & Variable Costs",
+    "level": 1,
+    "oneLiner": "分清“不开张也要付”(固定)与“随量才变”(变动)——它是盈亏平衡与定价的地基。",
+    "oneLinerEn": "Tell apart what you pay even at zero sales (fixed) from what moves with volume (variable) — the base of breakeven and pricing.",
+    "detail": "把成本按性态分成两类:固定成本(租金、月薪、设备折旧)在一定产能内不随产量变;变动成本(原料、计件、运费)随产量正比增减。这个切分带来几个关键判断:经营杠杆(固定占比越高,销量波动被放大到利润上越猛)、单位经济(每多卖一件贡献多少“边际”),以及盈亏平衡点=固定成本÷单件边际贡献。定价、扩产、外包等决策都先问“钱花在固定还是变动上”——固定投入大则风险高但规模回报大。",
+    "detailEn": "Splitting costs by behaviour: fixed costs (rent, salaries, equipment depreciation) stay put within a capacity range; variable costs (materials, piece-pay, freight) rise in proportion to volume. The cut yields key judgements — operating leverage (the higher the fixed share, the more a sales swing is amplified into profit), unit economics (the contribution each extra sale adds) and the breakeven point, fixed cost divided by contribution per unit. Pricing, scaling and outsourcing all start from whether this money is fixed or variable — heavy fixed spend means higher risk but greater reward at scale.",
+    "tags": ["成本"],
+    "tagsEn": ["Cost"],
+    "related": ["breakeven", "economies-of-scale", "unit-economics"]
   }
 ]
