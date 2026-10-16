@@ -1,7 +1,14 @@
+import { beginProgress, endProgress } from '../../../../core/progress';
+
 export const BASE = import.meta.env.BASE_URL;
 
 export async function loadJson<T = any>(file: string): Promise<T> {
-  const res = await fetch(BASE + 'mind-data/data/' + file);
-  if (!res.ok) throw new Error('load ' + file + ' -> ' + res.status);
-  return (await res.json()) as T;
+  beginProgress();
+  try {
+    const res = await fetch(BASE + 'mind-data/data/' + file);
+    if (!res.ok) throw new Error('load ' + file + ' -> ' + res.status);
+    return (await res.json()) as T;
+  } finally {
+    endProgress();
+  }
 }

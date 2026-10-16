@@ -4,6 +4,7 @@ import { initTheme } from "./core/theme";
 // 懒加载分块迟到，避免「从王朝切到其他学科」时先出现无样式再补样式的闪烁。
 import "./core/ui/ui.css";
 import { parse, onRoute } from "./core/router";
+import { beginProgress, endProgress } from "./core/progress";
 import { renderLayout } from "./core/layout";
 import { PROJECTS } from "./core/projects";
 import { renderHome } from "./shell/home";
@@ -33,6 +34,15 @@ let currentCleanup: (() => void) | null = null;
 let renderSeq = 0;
 
 async function renderView(): Promise<void> {
+  beginProgress();
+  try {
+    await renderViewInner();
+  } finally {
+    endProgress();
+  }
+}
+
+async function renderViewInner(): Promise<void> {
   const view = document.getElementById("view")!;
   const seq = ++renderSeq;
   const route = parse();

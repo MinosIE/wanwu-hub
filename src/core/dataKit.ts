@@ -2,7 +2,11 @@
  * 学科数据加载层工厂：统一走 Vite 的 BASE_URL，带内存缓存，失败降级为 reject。
  * 各 FULL 学科用 `createDataLoader('<subject>-data/data')` 派生自己的加载器，
  * 避免 earth / life / thought / econ 各自复制同一份 21 行逻辑。
+ *
+ * 命中缓存时同步返回（不显示进度条）；真正走网络时驱动全局顶部进度条。
  */
+import { beginProgress, endProgress } from "./progress";
+
 export interface DataLoader {
   dataUrl(file: string): string;
   fetchData<T>(file: string): Promise<T>;
@@ -18,11 +22,17 @@ export function createDataLoader(baseDir: string): DataLoader {
 
   async function fetchData<T>(file: string): Promise<T> {
     if (cache.has(file)) return cache.get(file) as T;
-    const res = await fetch(dataUrl(file), { credentials: "same-origin" });
-    if (!res.ok) throw new Error(`加载 data/${file} 失败：HTTP ${res.status}`);
-    const json = (await res.json()) as T;
-    cache.set(file, json);
-    return json;
+    beginProgress();
+    try {
+      const res = await fetch(dataUrl(file), { credentials: "same-origin" });
+      if (!res.ok)
+        throw new Error(`加载 data/${file} 失败：HTTP ${res.status}`);
+      const json = (await res.json()) as T;
+      cache.set(file, json);
+      return json;
+    } finally {
+      endProgress();
+    }
   }
 
   /** 已缓存则同步返回，避免二次渲染时的请求抖动。 */

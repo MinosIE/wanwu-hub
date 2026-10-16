@@ -95,6 +95,52 @@
         padding: 24px 20px 0;
       }
 
+      /* 全局异步加载进度条：盖在顶栏之上，非遮挡、不接管布局；
+         由 src/core/progress.ts 引用计数驱动，仅在有实际等待时淡入 */
+      .route-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        z-index: 9999;
+        pointer-events: none;
+        overflow: hidden;
+        opacity: 0;
+        transition:
+          opacity 0.26s ease,
+          transform 0.26s ease;
+        transform: translateY(-100%);
+      }
+      .route-progress.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .route-progress::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -40%;
+        width: 40%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--teal),
+          var(--accent),
+          transparent
+        );
+        animation: routeProgressSlide 1.1s ease-in-out infinite;
+      }
+      @keyframes routeProgressSlide {
+        0% {
+          left: -40%;
+        }
+        100% {
+          left: 100%;
+        }
+      }
+
       .topbar {
         position: sticky;
         top: 0;
@@ -898,6 +944,13 @@
         }
         .to-top-home {
           transition-duration: 0.01ms !important;
+        }
+        .route-progress::before {
+          animation: none;
+          left: 0;
+          width: 100%;
+          opacity: 0.75;
+          background: linear-gradient(90deg, var(--teal), var(--accent));
         }
       }
     </style>
