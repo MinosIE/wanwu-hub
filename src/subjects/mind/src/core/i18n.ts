@@ -57,7 +57,8 @@ const zh = {
   'entry.everyday.t': '生活中的心理学',
   'entry.everyday.d': '拖延、决策、亲密关系、职场、育儿、社交媒体',
   'entry.mindbend.t': '颠覆世界观',
-  'entry.mindbend.d': '一接触就重塑你对心智、自我与现实直觉的心理学发现',
+  'entry.mindbend.d':
+    '一旦了解就再回不去：那些重塑心智、自我与现实直觉的心理学发现',
   'entry.myths.t': '常见误区',
   'entry.myths.d': '「左脑人/右脑人」「血型性格」等辟谣',
   'entry.quiz.t': '小测验',
@@ -287,7 +288,7 @@ const en: typeof zh = {
     'Procrastination, decisions, relationships, work, parenting, social media.',
   'entry.mindbend.t': 'Worldview Shakers',
   'entry.mindbend.d':
-    'Findings that reshape your intuitions about mind, self and reality the moment you learn them.',
+    'Discoveries you cannot un-know—findings that quietly rewire mind, self and the feel of reality.',
   'entry.myths.t': 'Myths Busted',
   'entry.myths.d':
     'Left-brain/right-brain, blood-type personality and other debunked claims.',
