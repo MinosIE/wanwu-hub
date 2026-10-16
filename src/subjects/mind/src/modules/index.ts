@@ -5,6 +5,7 @@ import { psychologists } from './psychologists';
 import { schools } from './schools';
 import { biases } from './biases';
 import { experiments } from './experiments';
+import { mindbend } from './mindbend';
 import { everyday } from './everyday';
 import { myths } from './myths';
 import { compare } from './compare';
@@ -18,6 +19,7 @@ export const listModules: ListModule[] = [
   schools,
   biases,
   experiments,
+  mindbend,
   everyday,
   myths,
   compare,

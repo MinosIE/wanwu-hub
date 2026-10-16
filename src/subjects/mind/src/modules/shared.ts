@@ -13,6 +13,7 @@ const TYPE_LABEL: Record<string, string> = {
   schools: 'search.t.school',
   biases: 'search.t.bias',
   experiments: 'search.t.experiment',
+  mindbend: 'search.t.mindbend',
   timeline: 'search.t.event',
   everyday: 'search.t.everyday',
   myths: 'search.t.myth',

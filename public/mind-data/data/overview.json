@@ -59,6 +59,12 @@
       "descKey": "entry.experiments.d"
     },
     {
+      "id": "mindbend",
+      "icon": "🤯",
+      "titleKey": "entry.mindbend.t",
+      "descKey": "entry.mindbend.d"
+    },
+    {
       "id": "timeline",
       "icon": "🗓️",
       "titleKey": "entry.timeline.t",
