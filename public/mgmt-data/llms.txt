@@ -1,0 +1,18 @@
+# 万物管理学
+
+> 从管理思想、战略、组织结构到领导激励、决策、运营与财务，梳理让一群人把事做成的方法与框架。
+
+共 74 条 / 8 类，全部为结构化 JSON。
+
+## 数据入口
+- [决策与创新](https://minosie.github.io/wanwu-hub/mgmt-data/data/decision.json)
+- [财务与度量](https://minosie.github.io/wanwu-hub/mgmt-data/data/finance.json)
+- [领导与激励](https://minosie.github.io/wanwu-hub/mgmt-data/data/leadership.json)
+- [运营与质量](https://minosie.github.io/wanwu-hub/mgmt-data/data/ops.json)
+- [组织与结构](https://minosie.github.io/wanwu-hub/mgmt-data/data/org.json)
+- [概览与计数](https://minosie.github.io/wanwu-hub/mgmt-data/data/overview.json)
+- [人与变革](https://minosie.github.io/wanwu-hub/mgmt-data/data/people.json)
+- [参考资料](https://minosie.github.io/wanwu-hub/mgmt-data/data/sources.json)
+- [战略与计划](https://minosie.github.io/wanwu-hub/mgmt-data/data/strategy.json)
+- [管理思想](https://minosie.github.io/wanwu-hub/mgmt-data/data/thought.json)
+- [页面](https://minosie.github.io/wanwu-hub/subject/mgmt/)

@@ -24,7 +24,7 @@ const DATA_BACKED = new Set(
 
 // 由本脚本负责生成 llms 的学科：scaffold 三科 + 轻量两科（physics/chem 的数据由 export-data 导出）
 // （dynasty 自有 build-geo；econ / mind 为人工精修）
-const SCAFFOLD = ["thought", "earth", "life", "physics", "chem"];
+const SCAFFOLD = ["thought", "earth", "life", "physics", "chem", "mgmt"];
 // 标语直接复用 subjects.json 的 descZh/descEn，避免再维护一份文案
 const TAG = Object.fromEntries(
   SCAFFOLD.map((key) => {

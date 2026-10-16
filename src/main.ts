@@ -26,6 +26,7 @@ const SUBJECT_LOADERS: Record<string, () => Promise<{ mount: SubjectMount }>> =
     life: () => import("./subjects/life"),
     physics: () => import("./subjects/physics"),
     chem: () => import("./subjects/chem"),
+    mgmt: () => import("./subjects/mgmt"),
   };
 
 const app = document.getElementById("app")!;
@@ -95,6 +96,7 @@ async function renderViewInner(): Promise<void> {
   app.classList.toggle("subject-life", key === "life");
   app.classList.toggle("subject-physics", key === "physics");
   app.classList.toggle("subject-chem", key === "chem");
+  app.classList.toggle("subject-mgmt", key === "mgmt");
   window.dispatchEvent(new CustomEvent("subject:change", { detail: { key } }));
   if (mod) {
     currentCleanup = await mod.mount(view, sub);

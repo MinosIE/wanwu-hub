@@ -1,0 +1,63 @@
+[
+  {
+    "label": "《科学管理原理》",
+    "labelEn": "The Principles of Scientific Management",
+    "type": "经典",
+    "typeEn": "Classic"
+  },
+  {
+    "label": "《管理的实践》",
+    "labelEn": "The Practice of Management",
+    "type": "经典",
+    "typeEn": "Classic"
+  },
+  {
+    "label": "《卓有成效的管理者》",
+    "labelEn": "The Effective Executive",
+    "type": "经典",
+    "typeEn": "Classic"
+  },
+  {
+    "label": "《竞争战略》",
+    "labelEn": "Competitive Strategy",
+    "type": "战略",
+    "typeEn": "Strategy"
+  },
+  {
+    "label": "《改变世界的机器》",
+    "labelEn": "The Machine That Changed the World",
+    "type": "运营",
+    "typeEn": "Operations"
+  },
+  {
+    "label": "《精益思想》",
+    "labelEn": "Lean Thinking",
+    "type": "运营",
+    "typeEn": "Operations"
+  },
+  { "label": "《目标》", "labelEn": "The Goal", "type": "小说", "typeEn": "Novel" },
+  {
+    "label": "《创新者的窘境》",
+    "labelEn": "The Innovator's Dilemma",
+    "type": "创新",
+    "typeEn": "Innovation"
+  },
+  {
+    "label": "《第五项修炼》",
+    "labelEn": "The Fifth Discipline",
+    "type": "组织",
+    "typeEn": "Organization"
+  },
+  {
+    "label": "《组织文化与领导力》",
+    "labelEn": "Organizational Culture and Leadership",
+    "type": "组织",
+    "typeEn": "Organization"
+  },
+  {
+    "label": "《衡量关键之事》",
+    "labelEn": "Measure What Matters",
+    "type": "目标",
+    "typeEn": "Goals"
+  }
+]

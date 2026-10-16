@@ -9,6 +9,7 @@
   <url><loc>https://minosie.github.io/wanwu-hub/subject/life/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/subject/physics/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/subject/chem/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/subject/mgmt/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -30,6 +31,9 @@
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/robots.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/llms-full-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/llms-full.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -53,6 +57,7 @@
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/kinetics.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/life-chem.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/metals-nonmetals.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/mol3d.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/organic.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/chem-data/data/periodic-table-full.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
@@ -143,12 +148,23 @@
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/search.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/sources.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/life-data/data/thinkers.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/decision.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/finance.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/leadership.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/ops.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/org.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/people.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/sources.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/strategy.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/thought.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/biases.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/compare.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/concepts.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/everyday.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/experiments.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/glossary.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/mindbend.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/myths.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/overview.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://minosie.github.io/wanwu-hub/mind-data/data/psychologists.json</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>

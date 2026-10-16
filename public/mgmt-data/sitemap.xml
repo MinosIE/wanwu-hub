@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://minosie.github.io/wanwu-hub/subject/mgmt/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/llms.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/llms-en.txt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/decision.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/finance.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/leadership.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/ops.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/org.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/overview.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/people.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/sources.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/strategy.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://minosie.github.io/wanwu-hub/mgmt-data/data/thought.json</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>

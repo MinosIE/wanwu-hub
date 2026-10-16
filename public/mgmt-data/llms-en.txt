@@ -1,0 +1,19 @@
+# Management of Everything
+
+> Management thought, strategy, organization, leadership, decision-making, operations and finance — the frameworks that help groups of people get things done.
+
+74 entries across 8 categories, all as structured JSON.
+
+## Data endpoints
+- [Decision-Making & Innovation](https://minosie.github.io/wanwu-hub/mgmt-data/data/decision.json)
+- [Finance & Metrics](https://minosie.github.io/wanwu-hub/mgmt-data/data/finance.json)
+- [Leadership & Motivation](https://minosie.github.io/wanwu-hub/mgmt-data/data/leadership.json)
+- [Operations & Quality](https://minosie.github.io/wanwu-hub/mgmt-data/data/ops.json)
+- [Structure & Organization](https://minosie.github.io/wanwu-hub/mgmt-data/data/org.json)
+- [Overview & counts](https://minosie.github.io/wanwu-hub/mgmt-data/data/overview.json)
+- [People & Change](https://minosie.github.io/wanwu-hub/mgmt-data/data/people.json)
+- [References](https://minosie.github.io/wanwu-hub/mgmt-data/data/sources.json)
+- [Strategy & Planning](https://minosie.github.io/wanwu-hub/mgmt-data/data/strategy.json)
+- [Schools of Thought](https://minosie.github.io/wanwu-hub/mgmt-data/data/thought.json)
+- [Page](https://minosie.github.io/wanwu-hub/subject/mgmt/)
+- [Chinese index](https://minosie.github.io/wanwu-hub/mgmt-data/llms.txt)

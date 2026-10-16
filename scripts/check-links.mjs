@@ -47,10 +47,10 @@ const SRC_KEYS = ["label", "type"];
  * related.json 也把这类 id 存成多候选数组（如 gdp → m-concepts + m-glossary），
  * 因此重名是设计而非缺陷；同文件内的重名仍由派生索引与 builder 兜住。
  */
-const DUP_EXEMPT = new Set(["physics", "chem", "econ"]);
+const DUP_EXEMPT = new Set(["physics", "chem", "econ", "mgmt"]);
 const subjects = args.length
   ? args
-  : ["earth", "life", "thought", "physics", "chem", "econ", "mind"];
+  : ["earth", "life", "thought", "physics", "chem", "econ", "mind", "mgmt"];
 let errors = 0;
 let warnings = 0;
 
@@ -286,7 +286,7 @@ for (const subject of subjects) {
     // physics/chem 的 overview.json 是 data:export 的机器可读产物，hero KPI 由
     // subjectKit 的 kpisInner() 现算 3 项，不读这份 kpis，故不受首屏约束。
     const MAX_KPIS = 4;
-    const KIT_EXPORTED = new Set(["physics", "chem"]);
+    const KIT_EXPORTED = new Set(["physics", "chem", "mgmt"]);
     if (!KIT_EXPORTED.has(subject) && (ov.kpis ?? []).length > MAX_KPIS) {
       console.warn(
         `[${subject}] overview.kpis 有 ${ov.kpis.length} 项，约定首屏最多 ${MAX_KPIS} 项（移动端会占满首屏）`,

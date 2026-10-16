@@ -12,6 +12,7 @@
       "!!dist",
       "!!src/subjects/physics/data.ts",
       "!!src/subjects/chem/data.ts",
+      "!!src/subjects/mgmt/data.ts",
       "!!**/*.html"
     ]
   },

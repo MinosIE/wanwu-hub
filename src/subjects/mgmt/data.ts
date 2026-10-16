@@ -1,0 +1,1272 @@
+import type { SubjectConfig } from "../subjectKit";
+
+export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
+  heroTitle: { zh: "万物管理学", en: "Management of Everything" },
+  intro: {
+    zh: "从管理思想、战略、组织结构，到领导激励、决策、运营与财务——梳理让一群人把事做成的方法、框架与背后的取舍。",
+    en: "Management thought, strategy, structure, leadership, decision-making, operations and finance — the methods, frameworks and trade-offs behind getting things done with other people.",
+  },
+  modules: [
+    /* ===================== 管理思想 ===================== */
+    {
+      key: "thought",
+      icon: "🏛️",
+      title: { zh: "管理思想", en: "Schools of Thought" },
+      items: [
+        {
+          id: "taylor-scientific",
+          icon: "⏱️",
+          term: { zh: "科学管理", en: "Scientific Management" },
+          level: 2,
+          oneLiner: {
+            zh: "用时间与动作研究，把“活儿该怎么干”从老师傅的经验变成可测量、可复制的标准。",
+            en: "Study time and motion to turn 'how the job should be done' from craft lore into a measured, repeatable standard.",
+          },
+          detail: {
+            zh: "弗雷德里克·泰勒在《科学管理原理》(1911) 里主张：用科学方法替代“凭经验瞎猜”，先分解动作、测算最优做法与时间，再据此挑选培训工人、实行差别计件工资，并把计划与执行分开。它是管理第一次成为可研究的对象；也招致“把人当机器”的长期批评。",
+            en: "In The Principles of Scientific Management (1911) Frederick Taylor argued for replacing rule-of-thumb with measured 'best way', then selecting and training workers to it, paying by output, and separating planning from doing. It made management a researchable object for the first time — and drew the 'treating people as machines' critique that still follows it.",
+          },
+          tags: [{ zh: "古典", en: "Classical" }],
+          related: ["fayol-functions", "lean-thought"],
+        },
+        {
+          id: "fayol-functions",
+          icon: "🧭",
+          term: { zh: "法约尔：管理五职能与十四条原则", en: "Fayol's Functions & 14 Principles" },
+          level: 2,
+          oneLiner: {
+            zh: "第一位回答“管理者到底在做什么”的人：计划、组织、指挥、协调、控制。",
+            en: "First to answer what a manager actually does: to plan, organise, command, coordinate and control.",
+          },
+          detail: {
+            zh: "亨利·法约尔 (1916) 从整体组织出发，提出管理的五大职能，以及分工、权责对等、纪律、统一指挥、统一方向、个人利益服从整体、合理报酬、集权、等级链、秩序、公平、人员稳定、首创精神与团队团结等十四条原则。相较关注车间效率的泰勒，他关注的是“管理是一般可教的能力”。",
+            en: "Writing in 1916, Henri Fayol took the whole organisation as his unit, naming five functions and fourteen principles — division of work, authority and responsibility, discipline, unity of command and of direction, subordination of self to general interest, fair remuneration, centralisation, scalar chain, order, equity, stability, initiative and esprit de corps. Where Taylor looked at the shop floor, Fayol argued management is a general, teachable skill.",
+          },
+          tags: [{ zh: "古典", en: "Classical" }],
+          related: ["taylor-scientific", "weber-bureaucracy"],
+        },
+        {
+          id: "weber-bureaucracy",
+          icon: "🗄️",
+          term: { zh: "韦伯的理性官僚制", en: "Weber's Bureaucracy" },
+          level: 2,
+          oneLiner: {
+            zh: "靠规则、层级、凭技术选才与非人格化管理，换来可预期与公平——代价是可能僵化。",
+            en: "Rules, hierarchy, merit selection and impersonal authority buy predictability and fairness — at the price of rigidity.",
+          },
+          detail: {
+            zh: "马克斯·韦伯描述的“理想型”组织：清晰分工、成文规则、层级节制、公私分开、依技术而非关系任人，管理不带个人好恶。它的力量在于稳定与一视同仁，弱点在于当规则本身成为目的(“目标置换”)、以及对例外反应迟钝。",
+            en: "Max Weber's 'ideal type' of organisation: clear roles, codified rules, a hierarchy, separation of office and person, appointment by competence, and decisions without favouritism. Its strength is stability and equal treatment; its weakness is that rules can become their own purpose and the machine slows for exceptions.",
+          },
+          tags: [{ zh: "古典", en: "Classical" }],
+          related: ["mech-vs-organic", "fayol-functions"],
+        },
+        {
+          id: "hawthorne",
+          icon: "💡",
+          term: { zh: "霍桑实验：被关注本身会改变表现", en: "The Hawthorne Effect" },
+          level: 2,
+          oneLiner: {
+            zh: "无论把灯调亮还是调暗，产量都上升——真正起作用的往往是“有人在看着我”。",
+            en: "Output rose whether the lights were brightened or dimmed — what mattered was often that someone was paying attention.",
+          },
+          detail: {
+            zh: "1924-1932 年西方电气霍桑工厂的一系列研究(照明实验、访谈、接线板观察组)发现：物理条件之外，被关注、群体规范与社会关系强烈影响绩效。埃尔顿·梅奥据此强调非正式组织与人的社会需求，开创了“人际关系学派”与后来的组织行为学。",
+            en: "Studies at the Hawthorne plant (1924-32) — illumination, interviews and a relay-assembly test room — found that beyond physical conditions, being watched, group norms and social relations drove performance. Elton Mayo read this as evidence for the informal organisation and social needs, launching the human-relations school and, downstream, organisational behaviour.",
+          },
+          tags: [{ zh: "行为", en: "Behavioural" }],
+          related: ["maslow-needs", "psych-safety"],
+        },
+        {
+          id: "drucker-mbo",
+          icon: "🎯",
+          term: { zh: "德鲁克与目标管理 (MBO)", en: "Drucker & Management by Objectives" },
+          level: 2,
+          oneLiner: {
+            zh: "用上下共同设定、可衡量的目标来引导与自我控制，而不是靠事无巨细的命令。",
+            en: "Steer and self-control by jointly set, measurable objectives — not by micromanaged orders.",
+          },
+          detail: {
+            zh: "彼得·德鲁克在《管理的实践》(1954) 提出目标管理：以成果而非顺从来评价，让员工参与设定清晰目标并据此自我控制。它把管理从“管人管事”转向“管目标与反馈”，是今天 OKR 的思想源头之一；德鲁克也因此被称作“现代管理学之父”。",
+            en: "In The Practice of Management (1954) Peter Drucker proposed Management by Objectives: judge by results not compliance, involve people in setting clear goals, then let them self-control against them. It shifted management from 'minding people and tasks' to 'minding objectives and feedback' — a direct ancestor of OKRs. Drucker is often called the father of modern management.",
+          },
+          tags: [{ zh: "现代", en: "Modern" }],
+          related: ["okr", "knowledge-worker", "goal-setting"],
+        },
+        {
+          id: "systems-view",
+          icon: "🔗",
+          term: { zh: "系统观点：局部最优未必全局最优", en: "The Systems View" },
+          level: 3,
+          oneLiner: {
+            zh: "把组织看作输入—转化—输出—反馈的开放系统，各子系统彼此依存。",
+            en: "See the organisation as an open system of input-throughput-output-feedback whose parts depend on each other.",
+          },
+          detail: {
+            zh: "系统思维提醒管理者：一个部门的“效率”，常常只是把成本或延误搬到了隔壁。真正要盯的是端到端的流动与反馈回路，而非孤立的局部指标。这也是后来流程管理、约束理论与“第二象限思维”的共性前提。",
+            en: "The systems view warns that one department's 'efficiency' is often just cost or delay moved to its neighbour. What deserves attention is end-to-end flow and its feedback loops, not isolated local metrics — the shared premise behind process management, theory of constraints and whole-system thinking.",
+          },
+          tags: [{ zh: "现代", en: "Modern" }],
+          related: ["theory-constraints", "contingency"],
+        },
+        {
+          id: "contingency",
+          icon: "🔀",
+          term: { zh: "权变理论：没有最好，只有最合适", en: "Contingency Theory" },
+          level: 3,
+          oneLiner: {
+            zh: "有效的结构与管理方式取决于环境、技术、规模等情境变量。",
+            en: "The effective structure and style depend on context — environment, technology, size.",
+          },
+          detail: {
+            zh: "劳伦斯与洛尔施、伍德沃德、菲德勒等的研究汇成一个结论：稳定环境更适合机械式、集权、规范化的组织；动荡与创新环境更适合有机式、分权、灵活的组织。盲目照搬他人的“最佳实践”，往往输在没有匹配自己的情境。",
+            en: "Research by Lawrence & Lorsch, Woodward, Fiedler and others converged on one point: stable environments favour mechanistic, centralised, formalised structures; turbulent, innovative ones favour organic, decentralised, flexible ones. Copying someone else's 'best practice' fails when it never fit your own situation.",
+          },
+          tags: [{ zh: "现代", en: "Modern" }],
+          related: ["mech-vs-organic", "fiedler-contingency"],
+        },
+        {
+          id: "lean-thought",
+          icon: "🚗",
+          term: { zh: "精益思想：消除浪费", en: "Lean Thinking" },
+          level: 2,
+          oneLiner: {
+            zh: "源自丰田生产方式：定义价值、让价值流动、由客户拉动、尽善尽美地消除一切不创造价值的浪费。",
+            en: "From the Toyota system: define value, make it flow, let the customer pull it, and relentlessly remove waste.",
+          },
+          detail: {
+            zh: "《改变世界的机器》(1990) 与《精益思想》(1996) 把丰田做法提炼为五项原则：从客户视角定义价值、识别并打通价值流、让价值连续流动、以下游拉动上游、追求尽善尽美。落点是消除“muda(浪费)”——过度生产、等待、搬运、缺陷等都不创造价值。",
+            en: "The Machine That Changed the World (1990) and Lean Thinking (1996) distilled the Toyota Production System into five principles: define value from the customer's view, map the value stream, make it flow, let downstream pull upstream, and pursue perfection. The aim is to remove muda — overproduction, waiting, transport, defects and more add no value.",
+          },
+          tags: [{ zh: "运营", en: "Operations" }],
+          related: ["lean-production", "theory-constraints", "taylor-scientific"],
+        },
+        {
+          id: "knowledge-worker",
+          icon: "🧠",
+          term: { zh: "知识工作者与自我管理", en: "The Knowledge Worker" },
+          level: 3,
+          oneLiner: {
+            zh: "当资产装在头脑里，靠监工管不住，只能靠目标、自主与持续学习。",
+            en: "When the asset lives in people's heads, you cannot supervise it — only aim it, free it and keep it learning.",
+          },
+          detail: {
+            zh: "德鲁克提出“知识工作者”：他们的生产资料是专业知识，产出难以被旁观者直接衡量，因此需要清晰的目标、相当的自主和不断成长的環境。他说“在知识社会里，每个人都要成为自己的管理者”，预示了今天的远程协作、敏捷团队与个人 OKR。",
+            en: "Drucker coined the 'knowledge worker': someone whose means of production is expertise, whose output is hard to observe directly, and who therefore needs clear objectives, real autonomy and continuous learning. His claim that in a knowledge society everyone must manage themselves anticipated remote work, agile teams and personal OKRs.",
+          },
+          tags: [{ zh: "现代", en: "Modern" }],
+          related: ["drucker-mbo", "okr", "psych-safety"],
+        },
+      ],
+    },
+    /* ===================== 战略与计划 ===================== */
+    {
+      key: "strategy",
+      icon: "🎯",
+      title: { zh: "战略与计划", en: "Strategy & Planning" },
+      items: [
+        {
+          id: "mission-vision",
+          icon: "🧭",
+          term: { zh: "使命、愿景与价值观", en: "Mission, Vision & Values" },
+          level: 1,
+          oneLiner: {
+            zh: "使命答“我们为谁创造什么价值”，愿景绘“我们想成为的未来”，价值观定“我们坚守的原则”。",
+            en: "Mission says what value we create for whom; vision paints the future we want; values fix the principles we keep.",
+          },
+          detail: {
+            zh: "这三者是全组织决策的上位判据：当战略取舍、资源分配两难时，能回到“是否符合使命、是否朝愿景靠近、有没有违反价值观”来判断。空泛口号没人信，好的使命愿景具体到能被拿来否决一个赚钱的机会。",
+            en: "These three are the master criteria above every decision: when strategy or resource allocation gets contentious, you return to 'does it serve the mission, move toward the vision, honour our values'. Slogans ring hollow; a good mission and vision are concrete enough to veto a profitable opportunity.",
+          },
+          tags: [{ zh: "方向", en: "Direction" }],
+          related: ["swot", "blue-ocean"],
+        },
+        {
+          id: "swot",
+          icon: "🧩",
+          term: { zh: "SWOT 分析", en: "SWOT Analysis" },
+          level: 1,
+          oneLiner: {
+            zh: "把局面摊成四格：优势与劣势(内部)、机会与威胁(外部)。",
+            en: "Lay the situation out in four boxes: strengths and weaknesses (inside), opportunities and threats (outside).",
+          },
+          detail: {
+            zh: "SWOT 便宜、直观、门槛低，是战略讨论的好起点。常见毛病是列完就停、四格平铺不分主次，或者把模糊感觉写成“优势”。真正有用的是进一步组合成行动：如何用优势抓机会、如何补短避威，并从中排出优先级。",
+            en: "SWOT is cheap, intuitive and an easy entry point to strategic talk. Its failure mode is stopping at four undifferentiated boxes, or dressing vague feelings as 'strengths'. The value is in the combinations — matching strength to opportunity, fixing weakness against threat — and then prioritising.",
+          },
+          tags: [{ zh: "分析", en: "Analysis" }],
+          related: ["pestel", "porter-five-forces"],
+        },
+        {
+          id: "porter-five-forces",
+          icon: "✋",
+          term: { zh: "波特五力", en: "Porter's Five Forces" },
+          level: 2,
+          oneLiner: {
+            zh: "判断一个行业赚不赚钱：现有竞争、潜在进入、替代品、供应商议价力、买方议价力。",
+            en: "Judge an industry's profit potential by five forces: rivalry, new entrants, substitutes, supplier power, buyer power.",
+          },
+          detail: {
+            zh: "迈克尔·波特 (1979) 把“竞争”从对对手的盯梢，升级为对整个行业结构的理解。五股力量越强，行业回报越被瓜分侵蚀。战略的意义因此是：选一个结构有利的位置，或用行动改变这些力量本身(如提高转换成本、构筑壁垒)。",
+            en: "Michael Porter (1979) widened 'competition' from watching rivals to understanding industry structure. The stronger the five forces, the more profit gets competed away. Strategy then means occupying a structurally favourable position — or changing the forces themselves, say by raising switching costs or building barriers.",
+          },
+          tags: [{ zh: "行业", en: "Industry" }],
+          related: ["porter-generic", "swot"],
+        },
+        {
+          id: "porter-generic",
+          icon: "🛰️",
+          term: { zh: "三大通用战略", en: "Porter's Generic Strategies" },
+          level: 2,
+          oneLiner: {
+            zh: "要么更便宜(成本领先)，要么更特别(差异化)，要么更聚焦；卡在中间最难活。",
+            en: "Lead on cost, differentiate, or focus — being stuck in the middle is the hardest way to survive.",
+          },
+          detail: {
+            zh: "波特认为企业必须在三种连贯定位中选择其一：在全行业以更低成本取胜、以独特性获得溢价、或收缩到某个细分战场。最怕“夹在中间”：既没有成本优势，也没有鲜明的差异化，容易被两头挤压。取舍(Trade-off)是战略的灵魂——决定不做什么，和做什么同样重要。",
+            en: "Porter held that a firm must pursue one coherent position: win on cost across the industry, command a premium through uniqueness, or narrow to a segment. The fatal spot is 'stuck in the middle' — neither low-cost nor distinctive, squeezed from both sides. Trade-offs are the soul of strategy: deciding what not to matters as much as what to.",
+          },
+          tags: [{ zh: "定位", en: "Positioning" }],
+          related: ["porter-five-forces", "blue-ocean"],
+        },
+        {
+          id: "pestel",
+          icon: "🌐",
+          term: { zh: "PESTEL 宏观扫描", en: "PESTEL Scan" },
+          level: 1,
+          oneLiner: {
+            zh: "从政治、经济、社会、技术、环境、法律六个方向，看组织外部的长期大势。",
+            en: "Watch six external currents shaping the long game: Political, Economic, Social, Technological, Environmental, Legal.",
+          },
+          detail: {
+            zh: "PESTEL 是识别机会与威胁来源的清单，常与 SWOT 的外部两格配合。它的价值不在填满六格，而在追问“这条趋势对我们意味着什么、我们会因此改变什么”，把宏观信号翻译成具体决策。",
+            en: "PESTEL is a checklist for where opportunities and threats arise, often feeding the two external boxes of a SWOT. Its worth is not in filling six cells but in the follow-up: 'so what does this trend mean for us, and what will we change', turning macro signals into concrete decisions.",
+          },
+          tags: [{ zh: "环境", en: "Environment" }],
+          related: ["swot", "scenario-planning"],
+        },
+        {
+          id: "okr",
+          icon: "📈",
+          term: { zh: "OKR：目标与关键结果", en: "OKRs" },
+          level: 2,
+          oneLiner: {
+            zh: "用鼓舞人心的目标(O)加两三个可量化、有时限的关键结果(KR)，让全组织朝同一方向聚焦。",
+            en: "An inspiring Objective plus two or three measurable, time-bound Key Results keep the whole organisation pointed one way.",
+          },
+          detail: {
+            zh: "由安迪·格鲁夫在英特尔成形、约翰·杜尔在《Measure What Matters》推广。要义：少而聚焦、上下对齐又高度透明、敢于设定“野心目标”(拿到约七成即算优秀)，把它与绩效考核适度脱钩以鼓励冒险。若 KR 全是“照常运营”，就退化成了任务清单。",
+            en: "Shaped by Andy Grove at Intel and popularised by John Doerr in Measure What Matters. The essentials: few and focused, aligned yet highly visible, bold enough that hitting ~70% counts as good, and kept partly separate from pay reviews so people will reach. If every KR is 'business as usual', it has decayed into a to-do list.",
+          },
+          tags: [{ zh: "目标", en: "Goals" }],
+          related: ["drucker-mbo", "knowledge-worker", "goal-setting"],
+        },
+        {
+          id: "blue-ocean",
+          icon: "🌊",
+          term: { zh: "蓝海战略", en: "Blue Ocean Strategy" },
+          level: 3,
+          oneLiner: {
+            zh: "不去血腥的红海硬拼，而是用“价值创新”开创让竞争无关的新市场空间。",
+            en: "Rather than battle in a bloody red ocean, use value innovation to open a market space that makes competition irrelevant.",
+          },
+          detail: {
+            zh: "钱·金与勒内·莫博涅 (2005) 提出“四步动作框架”：哪些被行业视为理所当然的要素可以剔除或减少、哪些应当提升或创造，从而同时压低成本的曲线、抬高价值的曲线。关键不是技术颠覆，而是重新定义问题与买家。",
+            en: "W. Chan Kim and Renée Mauborgne (2005) offer the four-actions framework: which taken-for-granted factors to eliminate or reduce, and which to raise or create — lowering the cost curve while lifting the value curve at once. The point is not technological disruption but redefining the problem and the buyer.",
+          },
+          tags: [{ zh: "创新", en: "Innovation" }],
+          related: ["porter-generic", "disruptive-innovation", "design-thinking"],
+        },
+        {
+          id: "core-competence",
+          icon: "🌳",
+          term: { zh: "核心竞争力", en: "Core Competence" },
+          level: 3,
+          oneLiner: {
+            zh: "真正的护城河是能横跨多种产品、难以模仿、为客户带来显著价值的“能力根”。",
+            en: "The real moat is a root capability that spans products, is hard to imitate and delivers customer value.",
+          },
+          detail: {
+            zh: "普拉哈拉德与哈默尔 (1990) 用“树”作比喻：终端产品是叶子，核心竞争力是树根。多元化应围绕核心能力生长(本田的发动机能力延伸到摩托、汽车、发电机)，而不是追着一个热概念乱铺摊子。判断一条能力够不够“核心”：可延展、难模仿、客户可感知价值。",
+            en: "Prahalad and Hamel (1990) used the tree: end products are the leaves, core competences the roots. Diversification should grow out of a competence that spans markets (Honda's engines reach motorcycles, cars, generators) rather than chasing whichever concept is hot. Test a competence for extension across products, difficulty of imitation, and value to customers.",
+          },
+          tags: [{ zh: "优势", en: "Advantage" }],
+          related: ["porter-five-forces", "mission-vision"],
+        },
+      ],
+    },
+    /* ===================== 组织与结构 ===================== */
+    {
+      key: "org",
+      icon: "🏢",
+      title: { zh: "组织与结构", en: "Structure & Organization" },
+      items: [
+        {
+          id: "org-structures",
+          icon: "🗺️",
+          term: { zh: "常见组织结构形态", en: "Common Organizational Structures" },
+          level: 1,
+          oneLiner: {
+            zh: "职能制、事业部制、矩阵制——每一种都在效率、贴近市场与协作之间做取舍。",
+            en: "Functional, divisional, matrix — each trades efficiency, market proximity and coordination differently.",
+          },
+          detail: {
+            zh: "职能制按专业聚人(市场、研发、生产)，效率高、利于深钻，但部门墙厚、跨部门慢。事业部制按产品/地区切成近乎独立的小公司，贴近市场、权责清楚，但资源重复。矩阵制让一个人同时归属职能与项目，灵活、能共享专家，但双线指挥、易生政治。没有最好的结构，只有服务于战略的结构(“结构追随战略”——钱德勒)。",
+            en: "Functional structures group by specialty (marketing, R&D, production): efficient and deep, but with tall silos and slow cross-team work. Divisional structures cut the firm into near-independent units by product or region: close to the market and clearly accountable, but duplicative. Matrix structures have people answer to both a function and a project: flexible and expert-sharing, but with two-boss tension and politics. There is no best structure — only one that serves the strategy ('structure follows strategy', Chandler).",
+          },
+          tags: [{ zh: "结构", en: "Structure" }],
+          related: ["span-control", "centralization", "mintzberg-parts"],
+        },
+        {
+          id: "span-control",
+          icon: "📏",
+          term: { zh: "管理幅度", en: "Span of Control" },
+          level: 2,
+          oneLiner: {
+            zh: "一个管理者能有效直接带几个人，直接决定组织是“又高又窄”还是“又扁又宽”。",
+            en: "How many reports one manager can lead well decides whether the org is tall and narrow or flat and wide.",
+          },
+          detail: {
+            zh: "幅度窄，层级就多，控制严密但信息链条长、易失真、成本高；幅度宽，组织扁平、授权多，但每个管理者负担重、晋升台阶少。合适的幅度取决于任务复杂度、下属成熟度、协同多少与信息系统强弱——从来没有“人人都是 7 个”这种万能数字。",
+            en: "A narrow span means many layers: tight control, but long, lossy, costly information chains. A wide span flattens the org and forces delegation, but loads each manager and thins promotion rungs. The right span turns on task complexity, staff maturity, how much coordination is needed and the strength of your systems — there is no magic 'seven reports for everyone'.",
+          },
+          tags: [{ zh: "结构", en: "Structure" }],
+          related: ["flattening", "centralization", "org-structures"],
+        },
+        {
+          id: "centralization",
+          icon: "🎚️",
+          term: { zh: "集权与分权", en: "Centralisation vs Decentralisation" },
+          level: 2,
+          oneLiner: {
+            zh: "把决策权攥在顶层，还是尽量下放给离问题最近的人。",
+            en: "Hold decisions at the top, or push them down to whoever is nearest the problem.",
+          },
+          detail: {
+            zh: "集权利于标准统一、资源调配与危机中的快速一致；分权利于响应速度、激励一线，也能利用分散在组织里的局部知识(哈耶克的洞见)。现代管理的大趋势是在守住底线(价值观、财务纪律)的前提下，把决策尽量“下沉”，让听得见炮声的人做决定。",
+            en: "Centralisation helps standardisation, resource mobilisation and fast unity in crisis. Decentralisation helps speed, frontline motivation and the use of local knowledge scattered through the organisation (Hayek's insight). The modern drift is to decentralise as far as the guardrails — values, financial discipline — allow, letting those who hear the guns decide.",
+          },
+          tags: [{ zh: "权责", en: "Authority" }],
+          related: ["span-control", "org-structures", "mech-vs-organic"],
+        },
+        {
+          id: "mintzberg-parts",
+          icon: "🧱",
+          term: { zh: "明茨伯格的组织五部分", en: "Mintzberg's Five Parts" },
+          level: 3,
+          oneLiner: {
+            zh: "战略高层、中层、运营核心、技术顾问与支持人员，靠不同的“协调机制”黏合。",
+            en: "Strategic apex, middle line, operating core, technostructure and support staff — glued by different coordinating mechanisms.",
+          },
+          detail: {
+            zh: "亨利·明茨伯格把组织拆成五个基本部位，并指出真正把它“粘”在一起的是协调方式：从最随意的相互调和，到直接监督，再到标准化(工作流程、产出、技能，乃至规范)。组织形态的演变，本质是主导的协调机制随规模与环境而切换。",
+            en: "Henry Mintzberg split the organisation into five basic parts and argued what actually binds them is the coordinating mechanism: from casual mutual adjustment, through direct supervision, to standardisation — of work processes, outputs, skills and even norms. Configurations shift as the dominant mechanism changes with size and environment.",
+          },
+          tags: [{ zh: "结构", en: "Structure" }],
+          related: ["org-structures", "mech-vs-organic"],
+        },
+        {
+          id: "flattening",
+          icon: "📉",
+          term: { zh: "扁平化与层级", en: "Flattening & Hierarchy" },
+          level: 2,
+          oneLiner: {
+            zh: "层级带来控制，也带来官僚、迟缓与信息失真。",
+            en: "Layers buy control but cost bureaucracy, slowness and distorted information.",
+          },
+          detail: {
+            zh: "减层级、扩幅度，是为了缩短链条、加快决策、更贴近一线。但扁平不是“越平越好”：管理者可能被过多下属压垮，晋升通道变窄，协调难度上升。真正的目的不是数字游戏，而是让信息与决策更顺，同时保住必要的眼线与责任。",
+            en: "Cutting layers and widening spans aim to shorten chains, speed decisions and get closer to the front line. But flat is not 'flatter is always better': managers can be swamped, promotion rungs thin, coordination hardens. The goal is not the number but smoother information and decisions while keeping the necessary lines of sight and accountability.",
+          },
+          tags: [{ zh: "结构", en: "Structure" }],
+          related: ["span-control", "centralization"],
+        },
+        {
+          id: "mech-vs-organic",
+          icon: "⚙️",
+          term: { zh: "机械式与有机式组织", en: "Mechanistic vs Organic" },
+          level: 3,
+          oneLiner: {
+            zh: "稳定环境偏爱规则严明的“机器”，动荡环境需要灵活应变的“生命体”。",
+            en: "Stable settings reward the rule-bound machine; turbulent ones need the flexible organism.",
+          },
+          detail: {
+            zh: "伯恩斯与斯托克 (1961) 提出两极：机械式组织高度专门化、层级分明、沟通自上而下、按规章办事；有机式组织任务随情境重新定义、强调横向与协商沟通、权力分散。它是权变理论最常用的语言，也解释了为什么初创公司和大企业的“活法”如此不同。",
+            en: "Burns and Stalker (1961) described two poles. Mechanistic organisations are highly specialised, hierarchical, top-down and rule-governed. Organic ones redefine tasks as contexts change, lean on lateral and negotiated communication, and disperse authority. It is contingency theory's favourite vocabulary, and explains why a start-up and a giant 'live' so differently.",
+          },
+          tags: [{ zh: "结构", en: "Structure" }],
+          related: ["contingency", "centralization", "weber-bureaucracy"],
+        },
+        {
+          id: "greiner-growth",
+          icon: "🪜",
+          term: { zh: "Greiner 组织成长阶段", en: "Greiner's Growth Phases" },
+          level: 3,
+          oneLiner: {
+            zh: "创业→指挥→授权→协调→合作：每种成功都孕育一种特定的危机。",
+            en: "Creativity, direction, delegation, coordination, collaboration — each success breeds its own crisis.",
+          },
+          detail: {
+            zh: "拉里·格雷纳 (1972) 认为组织按“平静成长期 + 剧变危机期”交替长大：靠创业活力起家，会遇到领导危机;靠集权指挥解决，又会遇到自主权危机;下放授权缓解了它，再遇到控制危机;靠协调制度重来一轮，又生出“成长耗尽”。启示是：到点必须换舞步，而非把上一阶段的办法加倍。",
+            en: "Larry Greiner (1972) argued organisations grow through alternating calm growth and turbulent crises. Born in entrepreneurial creativity, it meets a leadership crisis; solved by centralised direction, it meets an autonomy crisis; eased by delegation, a control crisis; rebuilt on coordination, it hits 'growth for the sake of it'. The lesson: at each crisis you must change the dance step, not double down on the old move.",
+          },
+          tags: [{ zh: "成长", en: "Growth" }],
+          related: ["tuckman-stages", "flattening", "kotter-8"],
+        },
+      ],
+    },
+    /* ===================== 领导与激励 ===================== */
+    {
+      key: "leadership",
+      icon: "🧭",
+      title: { zh: "领导与激励", en: "Leadership & Motivation" },
+      items: [
+        {
+          id: "lewin-styles",
+          icon: "👥",
+          term: { zh: "领导的三种风格", en: "Three Leadership Styles" },
+          level: 1,
+          oneLiner: {
+            zh: "专制、民主与放任——勒温用实验让孩子体验：民主组质量更高，专制组更快却更脆。",
+            en: "Autocratic, democratic, laissez-faire — Lewin's experiments with children: democracy gave quality, autocracy speed but fragility.",
+          },
+          detail: {
+            zh: "库尔特·勒温 (1939) 把成年人带到后台，让同一批孩子分别由三种风格的“领导”带领做手工。专制组效率高但敌意与依赖强，领导一走就乱;民主组更有创造力与满意度，能自我维持;放任组最散漫、产出最低。风格没有绝对对错，但它确实塑造着群体的气氛与韧性。",
+            en: "Kurt Lewin (1939) had adults lead the same children's arts group under three styles from behind a curtain. Autocratic clusters were productive but hostile and dependent — they fell apart when the leader left. Democratic ones showed more creativity and satisfaction and sustained themselves. Laissez-faire was the least productive. No style is universally right, but each shapes the group's climate and resilience.",
+          },
+          tags: [{ zh: "领导", en: "Leadership" }],
+          related: ["situational-leadership", "transformational"],
+        },
+        {
+          id: "situational-leadership",
+          icon: "🔄",
+          term: { zh: "情境领导", en: "Situational Leadership" },
+          level: 2,
+          oneLiner: {
+            zh: "对新手多给指令，对专家多给授权——风格要随下属的能力与意愿切换。",
+            en: "Direct the novice, delegate to the expert — shift style with the follower's competence and commitment.",
+          },
+          detail: {
+            zh: "赫塞与布兰查德主张，有效的领导没有固定套路，只有四种模式沿“指令—教练—支持—授权”的光谱移动，随下属对特定任务的“成熟度”(能力 + 意愿)而选。同一位员工在不同任务上、在不同阶段，可能需要完全不同的对待。它直觉好用，但也因难以严格验证而受过学理批评。",
+            en: "Hersey and Blanchard held there is no single right style, only four modes along a telling—selling—participating—delegating spectrum, chosen by the follower's readiness (competence plus commitment) for the specific task. The same person may need different handling across tasks and over time. Intuitively useful, it has been criticised as hard to validate rigorously.",
+          },
+          tags: [{ zh: "领导", en: "Leadership" }],
+          related: ["lewin-styles", "fiedler-contingency"],
+        },
+        {
+          id: "fiedler-contingency",
+          icon: "🧮",
+          term: { zh: "费德勒权变模型", en: "Fiedler's Contingency Model" },
+          level: 3,
+          oneLiner: {
+            zh: "领导效能 = 领导风格 × 情境控制力的匹配度。",
+            en: "Leadership effectiveness is the match between a leader's style and the control the situation offers.",
+          },
+          detail: {
+            zh: "菲德勒用“最难共事同事(LPC)”量表衡量领导者是任务导向还是关系导向，再用上下级关系、任务结构、职位权力三项判断情境控制力。结论带有挑战性：任务导向者在极端有利或极端不利的处境表现更好，关系导向者在中间处境更好。而且他认为风格相对稳定，与其试图“改造人”，不如“把合适的人放到合适的岗位，或把情境改造成匹配领导”。",
+            en: "Fiedler gauged whether a leader is task- or relationship-oriented with the 'Least Preferred Coworker' scale, then judged situational control from leader-member relations, task structure and position power. The conclusion was provocative: task leaders do best in situations either very favourable or very unfavourable, relationship leaders in the middle. And since he saw style as fairly fixed, he argued for matching the person to the situation — or reshaping the situation — rather than trying to rewire the person.",
+          },
+          tags: [{ zh: "领导", en: "Leadership" }],
+          related: ["contingency", "situational-leadership", "transformational"],
+        },
+        {
+          id: "transformational",
+          icon: "🔥",
+          term: { zh: "变革型与交易型领导", en: "Transformational vs Transactional" },
+          level: 2,
+          oneLiner: {
+            zh: "交易型用奖惩交换绩效，变革型靠愿景、激发与关怀提升动机层次。",
+            en: "Transactional leaders trade rewards for performance; transformational ones raise motive through vision, stimulation and care.",
+          },
+          detail: {
+            zh: "伯恩斯奠基、巴斯发展：交易型领导明确“做到就给、做不到就罚”，在稳定任务中有效;变革型领导通过理想化的榜样、鼓舞人心的愿景、智力激发(鼓励质疑)与个性化关怀(因材施教)，把追随者从“为了报酬”推向“为了意义”。大量研究显示变革型与更高的绩效、承诺和满意度相关——但它需要真诚，否则易滑向作秀。",
+            en: "Burns laid the groundwork, Bass developed it. Transactional leadership spells out 'deliver and be rewarded, fall short and be corrected' and works well on stable tasks. Transformational leadership uses idealised example, an inspiring vision, intellectual stimulation and individualised consideration to move followers from reward to meaning. Much research links it to higher performance, commitment and satisfaction — but it demands sincerity or it slides into theatre.",
+          },
+          tags: [{ zh: "领导", en: "Leadership" }],
+          related: ["lewin-styles", "fiedler-contingency"],
+        },
+        {
+          id: "maslow-needs",
+          icon: "🪜",
+          term: { zh: "马斯洛需求层次", en: "Maslow's Hierarchy of Needs" },
+          level: 1,
+          oneLiner: {
+            zh: "生理、安全、归属、尊重、自我实现——未满足的低层需求主导行为。",
+            en: "Physiological, safety, belonging, esteem, self-actualisation: the lowest unsatisfied need drives behaviour.",
+          },
+          detail: {
+            zh: "亚伯拉罕·马斯洛 (1943) 把人的需求画成阶梯，主张低层相对满足后才向上追求。它对管理的启示很直接:饿着肚子或担心被裁的人，很难被“自我实现”的口号打动。它也常被批评:证据基础薄弱、分层过于刚性、带有西方个人主义色彩——把它当作提醒而非精确模型更稳妥。",
+            en: "Abraham Maslow (1943) stacked human needs, holding that we pursue higher ones only once lower ones are relatively met. The managerial punch is blunt: people who are hungry or fearing the axe are not moved by appeals to self-actualisation. It is criticised for a thin evidence base, too-rigid tiers and a Western individualist slant — best used as a prompt, not a precise model.",
+          },
+          tags: [{ zh: "激励", en: "Motivation" }],
+          related: ["herzberg-two-factor", "mcgregor-xy", "hawthorne"],
+        },
+        {
+          id: "herzberg-two-factor",
+          icon: "⚖️",
+          term: { zh: "赫茨伯格双因素", en: "Herzberg's Two Factors" },
+          level: 2,
+          oneLiner: {
+            zh: "保健因素消除不满，激励因素带来满意——“满意”的反面不是“不满意”。",
+            en: "Hygiene removes dissatisfaction; motivators create satisfaction — the opposite of satisfaction is not dissatisfaction.",
+          },
+          detail: {
+            zh: "赫茨伯格访谈会计师与工程师后发现:薪资、政策、监督、条件等“保健因素”不足会让人不满，但把它们做好也只是“不再不满”，并不会真正点燃动力;真正带来满意与投入的是成就、认可、责任、成长与工作本身这些“激励因素”。这解释了为什么单纯加薪买不来长期敬业——它是止痛药，不是维生素。",
+            en: "Interviewing accountants and engineers, Herzberg found that hygiene factors — pay, policy, supervision, conditions — when lacking breed dissatisfaction, but perfected only yield 'not dissatisfied', never true drive. Satisfaction and engagement come from motivators: achievement, recognition, the work itself, responsibility and growth. Hence a pay raise alone won't buy lasting engagement — it is a painkiller, not a vitamin.",
+          },
+          tags: [{ zh: "激励", en: "Motivation" }],
+          related: ["maslow-needs", "equity", "goal-setting"],
+        },
+        {
+          id: "mcgregor-xy",
+          icon: "🔯",
+          term: { zh: "麦格雷戈 X-Y 理论", en: "McGregor's Theory X & Y" },
+          level: 2,
+          oneLiner: {
+            zh: "你假设人惰性逃避(X)还是自主负责(Y)，制度与控制风格会被这个假设自我实现。",
+            en: "Assume people shirk (X) or own their work (Y), and your systems make that assumption come true.",
+          },
+          detail: {
+            zh: "道格拉斯·麦格雷戈 (1960) 指出:持 X 假设的管理者会搭严密的监控、惩罚与集权，恰恰把人逼得消极;持 Y 假设者会给自主、参与与成长，往往激发出责任感。它是“假设会自我实现”的经典表述。后续更谨慎的 Z 理论(威廉·大内)与情境观点提醒:人不是非 X 即 Y，管理方式要看任务、文化与个人。",
+            en: "Douglas McGregor (1960) argued that managers who assume Theory X build tight surveillance, punishment and centralisation — which duly makes people passive; those who assume Theory Y grant autonomy, participation and growth, and often draw out ownership. It is a classic statement that assumptions self-fulfil. Later, more careful views — Theory Z (Ouchi) and contingency — remind us people are not simply X or Y and style must fit task, culture and person.",
+          },
+          tags: [{ zh: "激励", en: "Motivation" }],
+          related: ["maslow-needs", "expectancy", "psych-safety"],
+        },
+        {
+          id: "expectancy",
+          icon: "🎲",
+          term: { zh: "弗鲁姆期望理论", en: "Vroom's Expectancy Theory" },
+          level: 3,
+          oneLiner: {
+            zh: "动力 = 努力能达绩效 × 绩效能得报酬 × 报酬对我有价值；任一为零，激励归零。",
+            en: "Motivation = expectancy × instrumentality × valence; if any term is zero, motivation collapses.",
+          },
+          detail: {
+            zh: "维克托·弗鲁姆 (1964) 把激励拆成三个心理判断:我相信努力能换来好绩效吗(期望)?好绩效真会换来承诺的回报吗(工具性)?那回报是我想要的吗(效价)?这条链条把“为什么画大饼没用”讲得极清楚——只要员工不信、或奖励自己压根不在乎，激励力就乘成了零。管理者的抓手，就是逐环把这三问坐实。",
+            en: "Victor Vroom (1964) decomposed motivation into three beliefs: will effort yield performance (expectancy), will performance yield the promised reward (instrumentality), and is that reward something I value (valence)? It states crisply why empty promises fail — if staff disbelieve any link, or do not want the prize, the product is zero. The manager's job is to make each link real.",
+          },
+          tags: [{ zh: "激励", en: "Motivation" }],
+          related: ["equity", "goal-setting", "herzberg-two-factor"],
+        },
+        {
+          id: "equity",
+          icon: "🤝",
+          term: { zh: "亚当斯公平理论", en: "Adams' Equity Theory" },
+          level: 2,
+          oneLiner: {
+            zh: "人会把自己的“得/付出”和参照对象比；一旦觉得亏待，就想办法把它扳平。",
+            en: "People compare their outcomes-to-inputs with a referent; feel shortchanged and they act to restore balance.",
+          },
+          detail: {
+            zh: "斯塔西·亚当斯认为公平是主观感知:你算出自己的“产出 ÷ 投入”，再与同事或同行比较，若感到被亏待，就会设法恢复平衡——少干活、要求加薪、在心里换一个参照对象，或者干脆离开。它对管理的启示是:绝对数额常常不如“相对公平感”重要;因此薪酬透明与程序公正(怎么决定的、可不可申诉)格外关键。",
+            en: "J. Stacy Adams held that equity is a perception: you compute your outcomes over inputs, compare it with a colleague or market referent, and — feeling under-rewarded — act to restore balance: slack off, demand more, quietly switch referents, or leave. The lesson for managers is that relative fairness often matters more than absolute pay, so pay transparency and procedural justice (how a decision was made and can it be appealed) are crucial.",
+          },
+          tags: [{ zh: "激励", en: "Motivation" }],
+          related: ["herzberg-two-factor", "expectancy", "performance-review"],
+        },
+        {
+          id: "goal-setting",
+          icon: "🎯",
+          term: { zh: "洛克目标设置理论", en: "Locke's Goal-Setting Theory" },
+          level: 2,
+          oneLiner: {
+            zh: "具体而有挑战性、并配反馈的目标，比“尽力就好”更能提升绩效。",
+            en: "Specific, challenging goals with feedback beat 'do your best' at driving performance.",
+          },
+          detail: {
+            zh: "埃德温·洛克(与莱瑟姆)经过大量研究确立:目标通过四条途径起作用——引导注意、调动努力、延长坚持、激发策略探索。前提是员工接受了目标(承诺)、并有能力与反馈支撑。它也有阴暗面:为达成一个醒目数字而牺牲质量、走捷径甚至造假——所以目标要成组(兼顾质量与长期)，并把过程诚信与心理安全感一起设计进去。",
+            en: "Edwin Locke (with Latham), across hundreds of studies, established that specific, challenging goals raise performance by directing attention, mobilising effort, sustaining persistence and sparking strategy — provided the person accepts the goal and has the ability and feedback to pursue it. It has a dark side: a lone salient number invites cut corners, quality damage or outright gaming. Hence goals should come in balanced sets, with process integrity and psychological safety designed alongside.",
+          },
+          tags: [{ zh: "激励", en: "Motivation" }],
+          related: ["okr", "drucker-mbo", "expectancy"],
+        },
+      ],
+    },
+    /* ===================== 决策与创新 ===================== */
+    {
+      key: "decision",
+      icon: "⚖️",
+      title: { zh: "决策与创新", en: "Decision-Making & Innovation" },
+      items: [
+        {
+          id: "bounded-rationality",
+          icon: "🧠",
+          term: { zh: "有限理性与满意化", en: "Bounded Rationality & Satisficing" },
+          level: 3,
+          oneLiner: {
+            zh: "人不是全知的“理性经济人”，只在信息、时间与认知约束下找“够好”的方案。",
+            en: "People are not omniscient optimisers; under limits on information, time and mind they seek a 'good enough' option.",
+          },
+          detail: {
+            zh: "赫伯特·西蒙(1955)主张：真正的决策者无法穷尽所有选项与后果，于是用“满意化”(satisficing)替代“最优化”——设定可接受的门槛，选第一个达标的方案。由此引出启发式、框架效应与“助推”：既然理性有限，设计更好的选择架构比苛责个人更管用。",
+            en: "Herbert Simon (1955) argued that real decision-makers cannot enumerate every option and consequence, so they 'satisfice' — set an acceptable threshold and take the first option that clears it. This leads to heuristics, framing effects and 'nudging': since reason is bounded, designing better choice architectures beats blaming individuals.",
+          },
+          tags: [{ zh: "决策", en: "Decision" }],
+          related: ["rational-model", "groupthink", "six-hats"],
+        },
+        {
+          id: "rational-model",
+          icon: "🪜",
+          term: { zh: "理性决策模型", en: "The Rational Decision Model" },
+          level: 1,
+          oneLiner: {
+            zh: "界定问题、列明标准、权衡选项、估算结果、择优执行——教科书式的理想流程。",
+            en: "Define the problem, list criteria, weigh options, estimate outcomes, choose and act — the textbook ideal sequence.",
+          },
+          detail: {
+            zh: "它假设目标清晰、信息完备、选项互斥且可排序，最终选出期望值最高者。作为训练框架很有价值：把直觉摊开成可讨论的步骤，逼出隐含的标准与权重。但请结合有限理性看它——现实里信息不全、时间紧迫、标准会随讨论漂移，盲目追求“最优”常常误事。",
+            en: "It assumes clear goals, complete information, mutually exclusive and rankable options, and picking the highest expected value. As a training frame it is valuable — it lays intuition open as discussable steps and forces hidden criteria into the open. Read it alongside bounded rationality: real settings have partial information, ticking clocks and drifting standards, so chasing 'the optimum' often misfires.",
+          },
+          tags: [{ zh: "决策", en: "Decision" }],
+          related: ["bounded-rationality", "decision-tree", "swot"],
+        },
+        {
+          id: "decision-tree",
+          icon: "🌳",
+          term: { zh: "决策树与期望值", en: "Decision Trees & Expected Value" },
+          level: 2,
+          oneLiner: {
+            zh: "把选择画成分支：每个方案的概率乘收益相加，比较期望值，再想想风险谁扛得起。",
+            en: "Draw the choice as branches: weight each outcome by probability, compare expected values, then ask who can bear the risk.",
+          },
+          detail: {
+            zh: "决策树把不确定拆成“决策节点—机会节点—结果”，用期望货币价值(EMV)横向比较方案，也能倒推最优路径(逆向归纳)。它逼你显式列出概率与收益，让假设可被质疑。局限在于：概率常常是估的、期望值忽略了效用与破产风险，因此要和风险偏好、敏感性分析一起看。",
+            en: "A decision tree splits uncertainty into decision nodes, chance nodes and outcomes, ranks options by expected monetary value and solves backwards. It forces you to state probabilities and payoffs so assumptions can be challenged. Its limits: probabilities are often guesses and expected value ignores utility and ruin risk — read it alongside risk appetite and sensitivity checks.",
+          },
+          tags: [{ zh: "决策", en: "Decision" }],
+          related: ["rational-model", "breakeven", "roi-roe"],
+        },
+        {
+          id: "brainstorming",
+          icon: "💨",
+          term: { zh: "头脑风暴", en: "Brainstorming" },
+          level: 1,
+          oneLiner: {
+            zh: "先求数量、暂缓评判、鼓励搭便车——把发散与收敛严格分成两段。",
+            en: "Aim for quantity, defer judgment, build on others — keep divergence and convergence in separate phases.",
+          },
+          detail: {
+            zh: "亚历克斯·奥斯本(1953)的四原则:不评判、欢迎天马行空、追求数量、组合改进。核心是延迟批评，以免自我审查扼杀早期点子。研究也提醒:名义小组、先独立书写再讨论，往往比围坐闲聊产出更多更好的点子——最大的敌人是评价焦虑与社会懈怠。",
+            en: "Alex Osborn's four rules (1953): no criticism, welcome wild ideas, go for volume, combine and improve. The heart is deferring judgment so self-censorship does not kill early seeds. Research adds that nominal groups — writing alone before discussing — often beat free-flowing table talk; the enemies are evaluation anxiety and social loafing.",
+          },
+          tags: [{ zh: "创新", en: "Innovation" }],
+          related: ["six-hats", "delphi", "design-thinking"],
+        },
+        {
+          id: "delphi",
+          icon: "📮",
+          term: { zh: "德尔菲法", en: "The Delphi Method" },
+          level: 2,
+          oneLiner: {
+            zh: "多轮匿名问卷、汇总反馈再收敛，让专家判断避开从众与嗓门大的意见。",
+            en: "Rounds of anonymous questionnaires with fed-back aggregates, so expert judgment escapes conformity and the loudest voice.",
+          },
+          detail: {
+            zh: "源于兰德公司冷战时期的预测研究:邀请一组专家匿名作答,组织者隐去姓名汇总统计与理由后再发一轮,反复直到意见收敛或稳定。优点是去中心、去权威、可远程;代价是耗时,且“收敛”未必等于“正确”。",
+            en: "Born in Cold-War-era RAND forecasting: a panel answers anonymously, the facilitator aggregates the statistics and reasons without names and sends another round, repeating until views converge or stabilise. It decentralises and de-authorises and works remotely, at the cost of time — and convergence is not the same as correctness.",
+          },
+          tags: [{ zh: "预测", en: "Forecast" }],
+          related: ["scenario-planning", "bounded-rationality"],
+        },
+        {
+          id: "six-hats",
+          icon: "🎩",
+          term: { zh: "六顶思考帽", en: "Six Thinking Hats" },
+          level: 2,
+          oneLiner: {
+            zh: "给思考分色轮值:白(事实)、红(感受)、黑(风险)、黄(价值)、绿(创意)、蓝(流程)。",
+            en: "Rotate thinking by colour: white facts, red feelings, black caution, yellow benefit, green creativity, blue process.",
+          },
+          detail: {
+            zh: "爱德华·德·波诺的方法，让一桌人同一时刻只戴一顶帽子，把常混在一起、彼此打架的视角按时段分开。它最大的用处是会议纪律:想发散就统一发散、想挑刺就集中挑刺，减少“有人天马行空、有人当场泼冷水”的内耗。",
+            en: "Edward de Bono's method has a table wear one hat at a time, separating the perspectives that usually argue with each other into slots. Its real value is meeting discipline: diverge together, critique together, cutting the drain of one person daydreaming while another pours cold water on the spot.",
+          },
+          tags: [{ zh: "创新", en: "Innovation" }],
+          related: ["brainstorming", "bounded-rationality", "groupthink"],
+        },
+        {
+          id: "root-cause",
+          icon: "🐟",
+          term: { zh: "根本原因分析:5Why 与鱼骨图", en: "Root-Cause Analysis: 5 Whys & Fishbone" },
+          level: 2,
+          oneLiner: {
+            zh: "别急着救火，连问五个为什么、按类别梳理因果，找到能一次堵住复发的根子。",
+            en: "Don't just fight the fire — ask why five times, map causes by category, and strike the root that stops recurrence.",
+          },
+          detail: {
+            zh: "5Why 由丰田发展:对问题连续追问“为什么”，直到落到可改善的系统性原因而非个人失误。石川馨的鱼骨图(因果图)把人、机、料、法、环等作为骨架,把众多可能原因归类张贴,便于团队看清结构。二者共同的信条是:多数反复出现的故障,根子在流程而非某一次的粗心。",
+            en: "Toyota's 5 Whys keeps asking 'why' until it lands on an improvable systemic cause rather than one person's slip. Ishikawa's fishbone (cause-and-effect) diagram hangs people, machines, materials, methods and environment as ribs so a team can cluster possible causes. The shared creed: recurring failures usually root in the process, not a single careless moment.",
+          },
+          tags: [{ zh: "质量", en: "Quality" }],
+          related: ["pdca", "tqm", "theory-constraints"],
+        },
+        {
+          id: "groupthink",
+          icon: "🐑",
+          term: { zh: "群体思维", en: "Groupthink" },
+          level: 3,
+          oneLiner: {
+            zh: "内聚、封闭、强领导的群体为求和谐自我审查，做出个体独处时不会同意的蠢决定。",
+            en: "Cohesive, sealed groups with a strong leader self-censor for harmony and reach decisions no member would back alone.",
+          },
+          detail: {
+            zh: "欧文·贾尼斯用来解释猪湾等决策灾难:一致性强压异见、集体合理化警告、“有异议就是不忠”的压力，让群体高估自身道德与能力、低估风险。解药是流程性的:设“魔鬼代言人”、领导末位表态、分组独立评估、欢迎外部专家唱反调。",
+            en: "Irving Janis used it to explain fiascos like the Bay of Pigs: pressure for unanimity suppresses dissent, the group rationalises warnings and treats disagreement as disloyalty, overrating its own morality and capability while underrating risk. The antidotes are procedural: appoint a devil's advocate, have the leader speak last, split into independent teams, and invite outsiders to challenge.",
+          },
+          tags: [{ zh: "决策", en: "Decision" }],
+          related: ["bounded-rationality", "psych-safety", "six-hats"],
+        },
+        {
+          id: "scenario-planning",
+          icon: "🔮",
+          term: { zh: "情景规划", en: "Scenario Planning" },
+          level: 3,
+          oneLiner: {
+            zh: "不预测唯一未来，而是推演几种 plausible 的情景，提前想好各自该怎么应对。",
+            en: "Rather than forecast one future, work up several plausible scenarios and pre-rehearse how to meet each.",
+          },
+          detail: {
+            zh: " Shell 在 1970 年代因石油危机前备好多种情景而出名。做法是抓住两三个高度不确定又影响巨大的变量,交叉出几个截然不同的世界,再问“若此情景发生,我们的哪个假设先崩、该保留哪些现在就无悔的选择”。它练的不是押注,而是韧性与早醒。",
+            en: "Shell became famous for having multiple scenarios ready before the 1970s oil shock. The method takes two or three highly uncertain, high-impact variables, crosses them into very different worlds, then asks: if this one unfolds, which assumption breaks first, and which no-regret moves should we make now. It trains resilience and early waking, not betting.",
+          },
+          tags: [{ zh: "战略", en: "Strategy" }],
+          related: ["pestel", "delphi", "contingency"],
+        },
+        {
+          id: "design-thinking",
+          icon: "🎨",
+          term: { zh: "设计思维", en: "Design Thinking" },
+          level: 2,
+          oneLiner: {
+            zh: "共情—定义—构思—原型—测试:以真实用户为原点，快速做出来再迭代。",
+            en: "Empathise, define, ideate, prototype, test: start from real users, build fast and iterate.",
+          },
+          detail: {
+            zh: "源自斯坦福 d.school 与 IDEO 的五步法，强调从对人的共情出发(而非从技术或报表出发)重新定义问题，用低保真原型把假设尽早摆到用户面前试错。它与“可行性、存续性、合意性”三者的交集对齐，常与精益创业“开发—测量—认知”的循环互补。",
+            en: "The five steps from Stanford's d.school and IDEO begin in empathy for people (not in technology or spreadsheets), reframe the problem, and use low-fidelity prototypes to test assumptions against users early. It maps to the overlap of desirability, feasibility and viability, and pairs well with the lean build-measure-learn loop.",
+          },
+          tags: [{ zh: "创新", en: "Innovation" }],
+          related: ["brainstorming", "blue-ocean", "disruptive-innovation"],
+        },
+        {
+          id: "disruptive-innovation",
+          icon: "⚡",
+          term: { zh: "颠覆式创新", en: "Disruptive Innovation" },
+          level: 3,
+          oneLiner: {
+            zh: "起初更便宜、更粗糙的边缘玩家，从低端或新市场切入，最终掀翻在位的巨头。",
+            en: "An initially cheaper, cruder upstart enters from the low end or a new market and eventually topples the incumbents.",
+          },
+          detail: {
+            zh: "克莱顿·克里斯坦森(1997)区分“延续式创新”(在既有指标上越做越好，巨头擅长)与“颠覆式”(先在主流看不上眼的低端或全新场景立足，性能随后追上)。巨头并非愚蠢，而是被“跟随最好客户”的理性经济逻辑锁死。对管理者的难题:如何为小而亏的新业务设独立核算与保护，别让它被主流 KPI 扼杀。",
+            en: "Clayton Christensen (1997) separates sustaining innovation (getting better on the metrics incumbents already own) from disruptive innovation, which takes root where mainstream players look down on — the low end or a fresh use case — before its performance catches up. Incumbents fail not from folly but from the rational economics of serving their best customers. The managerial puzzle: ring-fence the small, loss-making new unit so mainstream KPIs do not strangle it.",
+          },
+          tags: [{ zh: "创新", en: "Innovation" }],
+          related: ["blue-ocean", "core-competence", "design-thinking"],
+        },
+      ],
+    },
+    /* ===================== 运营与质量 ===================== */
+    {
+      key: "ops",
+      icon: "⚙️",
+      title: { zh: "运营与质量", en: "Operations & Quality" },
+      items: [
+        {
+          id: "process-mgmt",
+          icon: "🔁",
+          term: { zh: "流程管理与再造", en: "Process Management & Reengineering" },
+          level: 2,
+          oneLiner: {
+            zh: "按端到端的“流程”而非部门职能来设计工作；再造则是推倒重来而非修修补补。",
+            en: "Design work around end-to-end processes rather than functions; reengineering means tearing it up, not tidying it.",
+          },
+          detail: {
+            zh: " Hammer 与钱皮(1993)主张对流程做根本再思考、彻底重设计，以在成本、质量、速度上取得飞跃，但高失败率也让“再造”名声复杂。更稳健的日常做法是流程管理:显式描绘价值流、度量周期与缺陷、持续小幅改进。两者共同的盲点常是“人”——流程改了、考核与权责没跟着改，就会反弹。",
+            en: "Hammer and Champy (1993) urged fundamental rethinking and radical redesign of processes for leaps in cost, quality and speed — but high failure rates made 'reengineering' a mixed legacy. The steadier daily practice is process management: map the flow, measure cycle time and defects, improve in small steps. The shared blind spot is people — change the process but not the metrics and accountability, and it rebounds.",
+          },
+          tags: [{ zh: "运营", en: "Operations" }],
+          related: ["lean-production", "pdca", "systems-view"],
+        },
+        {
+          id: "pdca",
+          icon: "🔃",
+          term: { zh: "PDCA 循环", en: "The PDCA Cycle" },
+          level: 1,
+          oneLiner: {
+            zh: "计划—执行—检查—处置，把改进变成不断转圈的小步实验。",
+            en: "Plan-Do-Check-Act: turn improvement into small experiments that keep cycling.",
+          },
+          detail: {
+            zh: "由休哈特提出、戴明在日本推广(故又称戴明环)。先假设成因与对策，小范围试行，用数据检查效果，有效则标准化、无效则回到计划再转一圈。它的精神是“用数据代替拍脑袋、用小步迭代代替大规划”，是精益、六西格玛、持续改进的共同底层节律。",
+            en: "Propounded by Shewhart and popularised in Japan by Deming (hence the Deming wheel). Hypothesise a cause and countermeasure, run it small, check the effect with data, standardise what works, otherwise return to plan and spin again. Its spirit — data over guesswork, iteration over grand plans — is the shared beat under lean, Six Sigma and kaizen.",
+          },
+          tags: [{ zh: "质量", en: "Quality" }],
+          related: ["tqm", "six-sigma", "root-cause"],
+        },
+        {
+          id: "tqm",
+          icon: "🏅",
+          term: { zh: "全面质量管理", en: "Total Quality Management" },
+          level: 2,
+          oneLiner: {
+            zh: "质量是全员、全过程的责任：以客户为中心、持续改进、用统计说话。",
+            en: "Quality is everyone's job across the whole process: customer-focused, continually improved, argued with statistics.",
+          },
+          detail: {
+            zh: "戴明、朱兰、费根堡姆把战后日本制造推向世界之巅的哲学:预防优于检验、管理层的责任大于一线、85% 的质量问题源于系统而非工人。它催生了 ISO 9000 与各类质量奖。落地失败常因把它当运动式口号——缺少长期投入与真正的授权时，全员质量就变成全员填表。",
+            en: "Deming, Juran and Feigenbaum carried post-war Japanese manufacturing to the top: prevention over inspection, management bearing more responsibility than the floor, and most defects rooted in the system, not the worker. It begat ISO 9000 and the quality awards. Failed roll-outs treat it as a campaign — without lasting investment and real delegation, 'total quality' decays into 'total form-filling'.",
+          },
+          tags: [{ zh: "质量", en: "Quality" }],
+          related: ["pdca", "six-sigma", "root-cause"],
+        },
+        {
+          id: "six-sigma",
+          icon: "📉",
+          term: { zh: "六西格玛", en: "Six Sigma" },
+          level: 3,
+          oneLiner: {
+            zh: "用 DMAIC 把缺陷压到百万分之三点四级别——靠数据与流程变异，而非灵光一现。",
+            en: "Use DMAIC to drive defects toward 3.4 per million — through data and variation, not flashes of insight.",
+          },
+          detail: {
+            zh: "摩托罗拉成形、通用电气发扬。DMAIC:界定问题、测量现状、分析根因、改进流程、控制成果，每个环节都要求统计证据，并以“绿带/黑带”培养骨干。它擅长在有稳定数据、重复发生的流程上削减变异；相对地，对高度模糊、以创意为主的工作就水土不服。",
+            en: "Forged at Motorola, scaled at GE. DMAIC — Define, Measure, Analyse, Improve, Control — demands statistical evidence at every step and builds a cadre of green and black belts. It excels at cutting variation in data-rich, repeating processes and struggles with vague, creative work.",
+          },
+          tags: [{ zh: "质量", en: "Quality" }],
+          related: ["tqm", "pdca", "root-cause"],
+        },
+        {
+          id: "lean-production",
+          icon: "🚚",
+          term: { zh: "精益生产:七种浪费", en: "Lean Production: Seven Wastes" },
+          level: 2,
+          oneLiner: {
+            zh: "大野耐一列出七类不创造客户价值的浪费，逐一识别并消除。",
+            en: "Ohno named seven wastes that add no customer value; spot and remove each.",
+          },
+          detail: {
+            zh: "丰田生产方式的两大支柱是“准时化(JIT)”与“自働化”(带人字旁的自动化，异常即停)。大野耐一归纳的七种浪费:过度生产(常被视为万恶之源)、等待、搬运、过度加工、库存、动作、缺陷返工。精益把“消除浪费、持续改善(kaizen)”当作日常纪律，后来溢出到软件、医疗、服务，成为“精益创业”的母体。",
+            en: "The Toyota Production System rests on two pillars — just-in-time and jidoka (automation with a human touch: stop when something is wrong). Taiichi Ohno listed seven wastes: overproduction (the root of much else), waiting, transport, over-processing, inventory, motion and defects. Lean turns removing waste and kaizen into daily discipline, later spilling into software, healthcare and services as the parent of the lean startup.",
+          },
+          tags: [{ zh: "运营", en: "Operations" }],
+          related: ["lean-thought", "theory-constraints", "jit-eoq"],
+        },
+        {
+          id: "theory-constraints",
+          icon: "🫒",
+          term: { zh: "约束理论:盯住瓶颈", en: "Theory of Constraints: Mind the Bottleneck" },
+          level: 3,
+          oneLiner: {
+            zh: "系统的产出由最慢的那一环决定——优化非瓶颈，多半是自我安慰。",
+            en: "Output is set by the slowest link; optimising a non-bottleneck is largely self-soothing.",
+          },
+          detail: {
+            zh: "高德拉特在《目标》(1984) 里用五步聚焦法:识别系统约束、让一切服从约束、挖尽约束的产能、给约束扩容、然后回到第一步(约束会转移)。它用“有效产出、库存、运营费”三个指标取代局部效率，提醒管理者:链条的强度只看最弱一环，全局改善要从瓶颈下手。",
+            en: "Goldratt's The Goal (1984) gives the five focusing steps: identify the constraint, subordinate everything to it, exploit its capacity, elevate it, then repeat as the constraint moves. It measures progress through throughput, inventory and operating expense rather than local efficiency, reminding managers that a chain is only as strong as its weakest link.",
+          },
+          tags: [{ zh: "运营", en: "Operations" }],
+          related: ["systems-view", "lean-production", "critical-path"],
+        },
+        {
+          id: "jit-eoq",
+          icon: "📦",
+          term: { zh: "准时制与库存管理", en: "JIT & Inventory Management" },
+          level: 2,
+          oneLiner: {
+            zh: "在需要的时间、按需要的量送到——用 EOQ 与看板把库存与缺货在两端之间权衡。",
+            en: "Deliver what is needed when it is needed — trade stock against shortages with EOQ and kanban.",
+          },
+          detail: {
+            zh: "库存既缓冲不确定性也占用资金、掩盖问题(“水位降下,礁石露出”)。经济订货量(EOQ)在订货成本与持有成本间求平衡点;安全库存应对需求与交期的波动;看板则用“下游拉动上游”的信号取代提前生产。JIT 把这套推向极致,但也让系统更脆——一次断供就能停线,需要与供应商深度协同。",
+            en: "Inventory buffers uncertainty yet ties up cash and hides problems ('when the water drops, the rocks appear'). EOQ balances ordering against holding cost, safety stock absorbs swings in demand and lead time, and kanban replaces forecast-push with downstream pulling upstream. JIT takes this to the limit but makes the system more brittle — one missed delivery stops the line — demanding close supplier partnership.",
+          },
+          tags: [{ zh: "运营", en: "Operations" }],
+          related: ["lean-production", "cashflow", "kanban"],
+        },
+        {
+          id: "gantt",
+          icon: "📊",
+          term: { zh: "甘特图", en: "The Gantt Chart" },
+          level: 1,
+          oneLiner: {
+            zh: "用横条把任务排在时间轴上,一眼看清谁在何时做、进度落在哪里。",
+            en: "Lay tasks as bars on a timeline — who does what when, and how far along.",
+          },
+          detail: {
+            zh: "亨利·甘特在一战前后把这种进度图推广开来。它直观、易沟通,至今仍是项目计划的通用语言。局限是:只画时间不画依赖,复杂项目里“改一条、崩一片”的连锁它表达不出,常需与关键路径、里程碑和燃尽图配合;过度精细的甘特也会沦为“计划剧场”。",
+            en: "Henry Gantt popularised the view around the First World War. It is intuitive and communicative and remains the common tongue of project plans. Its limit: it draws time, not dependency, so the knock-on of changing one task in a complex web is invisible — pair it with critical path, milestones and burn-down charts, and beware the over-detailed chart that becomes theatre.",
+          },
+          tags: [{ zh: "项目", en: "Project" }],
+          related: ["critical-path", "kanban"],
+        },
+        {
+          id: "critical-path",
+          icon: "🛤️",
+          term: { zh: "关键路径法 (CPM)", en: "Critical Path Method" },
+          level: 3,
+          oneLiner: {
+            zh: "项目最短工期由最长的依赖任务链决定——这条链上的任务没有缓冲。",
+            en: "The shortest possible duration equals the longest dependent chain; tasks on it have no slack.",
+          },
+          detail: {
+            zh: "把任务按前后依赖连成网络,算出最早/最晚开工时间,总时差为零的那条就是关键路径。它告诉你:盯住关键路径、把资源从富余任务挪去补它,才能缩短工期;而非“哪条看着忙帮哪条”。结合 PERT 还能用乐观/最可能/悲观三点估计不确定性。",
+            en: "Link tasks into a dependency network, compute earliest and latest starts, and the zero-float chain is the critical path. It tells you to shorten duration by watching that path and pulling resources from slack tasks to it — not to help whichever task looks busiest. With PERT, three-point estimates add uncertainty.",
+          },
+          tags: [{ zh: "项目", en: "Project" }],
+          related: ["gantt", "theory-constraints"],
+        },
+        {
+          id: "kanban",
+          icon: "🗂️",
+          term: { zh: "看板与在制品限制", en: "Kanban & WIP Limits" },
+          level: 2,
+          oneLiner: {
+            zh: "把工作量可视化、限制在制品、只在有容量时才拉动——少并行、快流动。",
+            en: "Visualise the work, cap work in progress, pull only when there is capacity — less multitasking, faster flow.",
+          },
+          detail: {
+            zh: "看板源于丰田的补货卡片,经软件领域发展为“列—卡—限额”的方法:用“待办/进行中/已完成”列暴露拥堵,用在制品(WIP)上限迫使团队把手上的事做完再开工新的。核心洞见是:瓶颈时缩短队列、限制并行,比提高每个环节的利用率更能提升整体流动。",
+            en: "Kanban grew from Toyota's replenishment cards into a columns-cards-limits method in software: 'To Do / Doing / Done' exposes where work jams, and work-in-progress limits force finishing before starting. The insight is that shortening queues and capping multitasking lifts flow more than pushing each step's utilisation higher.",
+          },
+          tags: [{ zh: "运营", en: "Operations" }],
+          related: ["jit-eoq", "lean-production", "gantt"],
+        },
+      ],
+    },
+    /* ===================== 财务与度量 ===================== */
+    {
+      key: "finance",
+      icon: "📊",
+      title: { zh: "财务与度量", en: "Finance & Metrics" },
+      items: [
+        {
+          id: "three-statements",
+          icon: "📑",
+          term: { zh: "三大财务报表", en: "The Three Financial Statements" },
+          level: 1,
+          oneLiner: {
+            zh: "资产负债表拍“快照”、利润表记“一段成绩”、现金流量表看“真金白银的进出”。",
+            en: "The balance sheet is a snapshot, the income statement a season's score, the cash-flow statement the actual money in and out.",
+          },
+          detail: {
+            zh: "三者互相勾稽:利润按权责发生制计,不等于现金;企业可能账面盈利却因收不到钱而资金链断裂。读一家公司要把三张表连起来:赚不赚钱看利润表,家底与负债看资产负债表,钱从哪来、到哪去看现金流量表。",
+            en: "The three tie together: accrual profit is not cash, and a firm can look profitable yet break its funding because it cannot collect. Read them as a set — profitability from the income statement, resources and debts from the balance sheet, and where money came from and went from the cash-flow statement.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["balance-sheet", "income-statement", "cashflow"],
+        },
+        {
+          id: "balance-sheet",
+          icon: "⚖️",
+          term: { zh: "资产负债表", en: "The Balance Sheet" },
+          level: 2,
+          oneLiner: {
+            zh: "资产 = 负债 + 所有者权益——某一时点“有什么”必然等于“谁出的钱”。",
+            en: "Assets = liabilities + equity — at a point in time, what you have must equal who funded it.",
+          },
+          detail: {
+            zh: "一边的资产是资金的去向(现金、存货、设备),另一边是资金的来源(欠人的与股东自己的)。它像定格照片,回答偿债能力与资本结构;但历史成本计价、无形资产难以量化,使它并不等于“真实价值”。",
+            en: "Assets are where the money went (cash, stock, equipment); the other side is where it came from — to creditors and to owners. A still photo answering solvency and capital-structure questions — yet historical cost and hard-to-value intangibles mean it is not 'true worth'.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["three-statements", "ratio-analysis"],
+        },
+        {
+          id: "income-statement",
+          icon: "📈",
+          term: { zh: "利润表", en: "The Income Statement" },
+          level: 2,
+          oneLiner: {
+            zh: "收入−成本−费用=利润,记录一段时间的经营成绩;但“利润”按权责发生制算,不等于收到现金。",
+            en: "Revenue minus cost and expenses equals profit over a period — but accrual 'profit' is not cash collected.",
+          },
+          detail: {
+            zh: "从营收一路减到毛利、营业利润、净利润,能看出钱花在哪、哪层利润被吃掉。关键是权责发生制:确认收入与费用的时点带来操纵空间(提前确认、递延费用)。所以利润表要和现金流量表对照着读。",
+            en: "Stepping from revenue down to gross, operating and net profit shows where money goes and which layer is eaten. Accrual timing — when revenue and expense are recognised — leaves room to game it (pulling revenue forward, deferring cost), so read it against the cash-flow statement.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["three-statements", "cashflow", "breakeven"],
+        },
+        {
+          id: "cashflow",
+          icon: "💧",
+          term: { zh: "现金流量", en: "Cash Flow" },
+          level: 1,
+          oneLiner: {
+            zh: "“现金为王”:利润是观点,现金是事实;经营、投资、筹资三条现金流讲清钱真正怎么转。",
+            en: "'Cash is king': profit is an opinion, cash a fact — operating, investing and financing flows show how money really moves.",
+          },
+          detail: {
+            zh: "很多倒闭的企业账上有利润,却因现金枯竭而死。经营现金流衡量主业造血,投资现金流反映扩张或收缩,筹资现金流显示借新还旧或分红回购。三者的正负组合,比单一净利润更能揭示健康度。",
+            en: "Many firms that failed were profitable on paper yet ran out of cash. Operating flow gauges the core business's self-funding, investing flow shows expansion or shrinkage, financing flow reveals borrowing, repaying, dividends and buybacks. Their signs together tell more about health than net profit alone.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["three-statements", "income-statement", "unit-economics"],
+        },
+        {
+          id: "breakeven",
+          icon: "🎯",
+          term: { zh: "盈亏平衡分析", en: "Break-Even Analysis" },
+          level: 1,
+          oneLiner: {
+            zh: "固定成本 ÷ 单位边际贡献 = 保本销量;越过它,每一单才开始赚钱。",
+            en: "Fixed cost divided by unit contribution gives the break-even volume; past it, each sale starts earning.",
+          },
+          detail: {
+            zh: "把成本拆成固定与变动,算出卖多少才能不亏,并评估降价、提量、控成本各自如何改变盈亏线。它简单有力,是定价与投产决策的入门工具;前提是能清晰划分固变动、且单价与成本在区间内相对稳定。",
+            en: "Split cost into fixed and variable, compute the sales needed to lose nothing, and see how cutting price, lifting volume or trimming cost each shift the line. Simple but powerful for pricing and go/no-go calls — provided fixed and variable split cleanly and price and cost hold across the range.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["unit-economics", "theory-constraints", "decision-tree"],
+        },
+        {
+          id: "ratio-analysis",
+          icon: "🧮",
+          term: { zh: "财务比率", en: "Financial Ratios" },
+          level: 2,
+          oneLiner: {
+            zh: "流动比率看偿债、负债率看杠杆、周转率看效率、毛利率看定价权。",
+            en: "Current ratio for solvency, leverage for debt, turnover for efficiency, margin for pricing power.",
+          },
+          detail: {
+            zh: "比率把绝对数标准化,便于跨期、跨公司比较;但单个比率意义有限,要横向(同业)、纵向(历年)、并拆开杜邦分解看驱动。滥用还会被“粉饰”——季末突击回款、把费用资本化,都能短期美化比率。",
+            en: "Ratios normalise raw numbers for comparison across time and peers, yet no single one means much alone — read them against industry, history and a DuPont decomposition of drivers. They can also be dressed up: quarter-end collections and capitalising expense flatter them briefly.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["balance-sheet", "roi-roe"],
+        },
+        {
+          id: "roi-roe",
+          icon: "💹",
+          term: { zh: "投资回报:ROI 与 ROE", en: "Return: ROI & ROE" },
+          level: 2,
+          oneLiner: {
+            zh: "回报率把收益除以投入,让不同规模、不同项目能用同一把尺子比较。",
+            en: "Return over input lets projects and firms of different size be measured on one ruler.",
+          },
+          detail: {
+            zh: "ROI = 净收益/投入,通用但口径易被操纵(时间、包含哪些成本);ROE = 净利/股东权益,衡量为股东赚钱的效率,杜邦把它拆成净利率×周转率×杠杆,一眼看出回报来自薄利、快转还是加杠杆。比较时务必对齐时间与定义。",
+            en: "ROI is net gain over investment — universal but easy to game through the window chosen and which costs are counted; ROE is net profit over equity, and DuPont splits it into margin × turnover × leverage, exposing whether returns come from thin margins, fast turns or borrowed money. Always align the period and definitions when comparing.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["ratio-analysis", "decision-tree", "balanced-scorecard"],
+        },
+        {
+          id: "unit-economics",
+          icon: "🧾",
+          term: { zh: "单位经济:LTV 与 CAC", en: "Unit Economics: LTV & CAC" },
+          level: 3,
+          oneLiner: {
+            zh: "先算清“服务一个客户赚不赚”:客户终身价值要显著大于获客成本。",
+            en: "Before scaling, check one customer pays: lifetime value should clearly exceed the cost to acquire it.",
+          },
+          detail: {
+            zh: "互联网与订阅生意常亏损换增长,单位经济把“增长是否健康”量化:LTV(一个客户一生贡献的毛利)对 CAC(获取他的成本),健康线常取 LTV/CAC ≥ 3,并看多少回本周期。毛利、留存、复购任何一个变差,都会让规模越大亏越多。",
+            en: "Consumer and subscription businesses often buy growth with losses; unit economics quantifies whether that growth is healthy — lifetime value (gross profit a customer yields over time) against customer-acquisition cost, a common rule of LTV/CAC at least 3 plus a payback period. Any slip in margin, retention or repeat purchase turns scale into a bigger hole.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["breakeven", "cashflow"],
+        },
+        {
+          id: "time-value",
+          icon: "⏳",
+          term: { zh: "货币时间价值", en: "Time Value of Money" },
+          level: 3,
+          oneLiner: {
+            zh: "今天的一块钱比明天的一块钱值钱——折现把不同时点的现金流放到同一天比较。",
+            en: "A dollar today beats a dollar tomorrow — discounting brings cash flows at different times onto one date to compare.",
+          },
+          detail: {
+            zh: "因为钱可投资、有通胀与风险,未来金额要按贴现率折算成现值。净现值(NPV)把项目全部现金流折到今天再减投入,NPV > 0 才创造价值;内含报酬率(IRR)是令 NPV = 0 的贴现率。它是估值、资本预算与长期决策的地基。",
+            en: "Because money earns and faces inflation and risk, future sums are discounted to present value. Net present value folds a project's whole cash stream to today minus the outlay — positive NPV creates value — and IRR is the rate that makes NPV zero. It is the ground under valuation, capital budgeting and long-horizon choices.",
+          },
+          tags: [{ zh: "财务", en: "Finance" }],
+          related: ["roi-roe", "decision-tree"],
+        },
+        {
+          id: "balanced-scorecard",
+          icon: "🎛️",
+          term: { zh: "平衡计分卡", en: "Balanced Scorecard" },
+          level: 3,
+          oneLiner: {
+            zh: "别只盯财务——从财务、客户、内部流程、学习成长四个视角平衡地度量与驱动战略。",
+            en: "Look beyond finance — measure and steer strategy across four views: financial, customer, internal process, learning and growth.",
+          },
+          detail: {
+            zh: "卡普兰与诺顿(1992)提出:滞后、易被操纵的财务数字之外,还要有驱动未来绩效的领先指标(客户满意、流程质量、员工能力),并用“战略地图”把它们与财务结果串成因果链。它把口号般的战略翻译成可衡量的目标与行动。",
+            en: "Kaplan and Norton (1992) argued that lagging, gameable financial numbers need leading indicators of future performance — customer satisfaction, process quality, staff capability — linked by a strategy map into a causal chain to financial results. It translates strategy-in-slogans into measured objectives and actions.",
+          },
+          tags: [{ zh: "度量", en: "Metrics" }],
+          related: ["okr", "mission-vision", "roi-roe"],
+        },
+      ],
+    },
+    /* ===================== 人与变革 ===================== */
+    {
+      key: "people",
+      icon: "🤝",
+      title: { zh: "人与变革", en: "People & Change" },
+      items: [
+        {
+          id: "tuckman-stages",
+          icon: "🚸",
+          term: { zh: "团队发展四阶段", en: "Tuckman's Stages" },
+          level: 1,
+          oneLiner: {
+            zh: "组建—震荡—规范—执行:新团队几乎都要先经历摩擦,才谈得上高效。",
+            en: "Forming, storming, norming, performing — new teams mostly pass through friction before they flow.",
+          },
+          detail: {
+            zh: "布鲁斯·塔克曼(1965)描述团队:组建期礼貌试探,震荡期因角色与分歧而冲突,规范期建立默契与规则,执行期才能真正协同发力(后来又加“解散期”)。启示是把早期冲突看作正常必经,而非团队失败的信号;领导者在各阶段要换支持方式。",
+            en: "Bruce Tuckman (1965): forming is polite probing, storming clashes over roles and views, norming builds shared rules, performing finally delivers (adjourning was added later). Treat early conflict as a normal stage, not failure, and change how you support the team at each one.",
+          },
+          tags: [{ zh: "团队", en: "Team" }],
+          related: ["psych-safety", "greiner-growth", "conflict-modes"],
+        },
+        {
+          id: "psych-safety",
+          icon: "🛡️",
+          term: { zh: "心理安全感", en: "Psychological Safety" },
+          level: 2,
+          oneLiner: {
+            zh: "敢说话、敢认错、敢提不同意见而不怕被羞辱——高效团队的第一预测指标。",
+            en: "Speaking up, admitting error, dissenting without fear of humiliation — the top predictor of effective teams.",
+          },
+          detail: {
+            zh: "艾米·埃德蒙森研究发现:最好的团队不是没有错误,而是敢于把错误摆上桌讨论,因此学习更快。心理安全不等于降低标准或一团和气,而是“相互尊重 + 直言不讳”。它也是谷歌“亚里士多德计划”对高效团队影响最大的因素。",
+            en: "Amy Edmondson found the best teams are not error-free but bold enough to put errors on the table, so they learn faster. Psychological safety is not lowered standards or false harmony but mutual respect plus candour — and it topped Google's Project Aristotle as the strongest factor in effective teams.",
+          },
+          tags: [{ zh: "团队", en: "Team" }],
+          related: ["groupthink", "tuckman-stages", "hawthorne"],
+        },
+        {
+          id: "org-culture",
+          icon: "🧿",
+          term: { zh: "组织文化三层次", en: "Three Levels of Culture" },
+          level: 3,
+          oneLiner: {
+            zh: "看得见的器物、信奉的价值观、潜意识的基本假设——文化由表及里三层。",
+            en: "Artefacts you see, espoused values you claim, and taken-for-granted assumptions — culture in three depths.",
+          },
+          detail: {
+            zh: "埃德加·沙因把组织文化分:最外层是能观察的器物(布局、仪式、口号),中间是公开宣称的价值观,最深是未被言明、被视为理所当然的基本假设。真正的文化在最深层,这也解释了为何墙上的标语改不动行为——变革要触及那些没说出口的假设。",
+            en: "Edgar Schein split it into artefacts you can observe, espoused values, and the deepest unspoken, taken-for-granted assumptions. Real culture lives at the bottom — which is why wall slogans fail to change behaviour: to shift culture you must reach the assumptions no one says aloud.",
+          },
+          tags: [{ zh: "文化", en: "Culture" }],
+          related: ["kotter-8", "lewin-change", "mission-vision"],
+        },
+        {
+          id: "kotter-8",
+          icon: "🚀",
+          term: { zh: "科特变革八步", en: "Kotter's Eight Steps" },
+          level: 2,
+          oneLiner: {
+            zh: "从制造紧迫感到巩固成果:变革失败常败在第一步“够不够急”和跳过中段沟通。",
+            en: "From seeding urgency to anchoring gains — change usually fails on step one and on skipping the middle.",
+          },
+          detail: {
+            zh: "约翰·科特(1996)八步:营造紧迫感、组建领导联盟、构建愿景、沟通变革、授权行动、创造短期胜利、乘胜推进、把新做法融入文化。他强调多数失败源于自满与沟通不足,而非计划错误;八步是顺序逻辑,跳步会让变革停在表面。",
+            en: "John Kotter's eight steps (1996): urgency, a guiding coalition, a vision, communication, empowerment, short-term wins, consolidation and anchoring in culture. He held most failures come from complacency and under-communication, not bad plans — and the steps are sequential; skipping leaves change skin-deep.",
+          },
+          tags: [{ zh: "变革", en: "Change" }],
+          related: ["lewin-change", "adkar", "org-culture"],
+        },
+        {
+          id: "adkar",
+          icon: "🔤",
+          term: { zh: "变革 ADKAR 模型", en: "The ADKAR Model" },
+          level: 2,
+          oneLiner: {
+            zh: "组织变革最终发生在每个人身上:认知—渴望—知识—能力—巩固。",
+            en: "Organisational change happens one person at a time: Awareness, Desire, Knowledge, Ability, Reinforcement.",
+          },
+          detail: {
+            zh: "普罗赛提出:变革卡住,往往能定位到 A-D-K-A-R 某一环——员工不知道为何要变、不想变、不会变、做不到或没人强化维持。它把宏大的“推行变革”拆成可诊断的个人旅程,便于对症下药,而不是一刀切地发通知、办培训。",
+            en: "Prosci's model says a stalled change can be traced to one letter — people unaware why, unwilling, lacking knowledge, unable, or unreinforced. It breaks a grand roll-out into a diagnosable individual journey you can treat point by point rather than one broadcast and one training.",
+          },
+          tags: [{ zh: "变革", en: "Change" }],
+          related: ["kotter-8", "lewin-change"],
+        },
+        {
+          id: "conflict-modes",
+          icon: "🕊️",
+          term: { zh: "冲突处理五模式", en: "Thomas-Kilmann Modes" },
+          level: 2,
+          oneLiner: {
+            zh: "按“坚持自己 / 顾及对方”两维,人有竞争、协作、妥协、回避、迁就五种反应。",
+            en: "On the axes of assertiveness and cooperativeness sit five responses: competing, collaborating, compromising, avoiding, accommodating.",
+          },
+          detail: {
+            zh: "托马斯与基尔曼用关心自己与关心他人两轴画出五种风格,没有一种永远最好:紧迫重大议题可能要竞争,双赢且关系重要时该协作,临时分歧用妥协,琐碎或情绪上头时回避或迁就各有其用。认清自己惯用的那一把,再按情境换。",
+            en: "Thomas and Kilmann map five styles on two axes — concern for self and for others. None is always best: compete when the issue is vital and time short, collaborate for genuine win-win, compromise on temporary splits, avoid or accommodate for trivial or heated moments. Know your default and switch by situation.",
+          },
+          tags: [{ zh: "人际", en: "Relations" }],
+          related: ["psych-safety", "equity", "tuckman-stages"],
+        },
+        {
+          id: "performance-review",
+          icon: "📝",
+          term: { zh: "绩效管理与考核", en: "Performance Management" },
+          level: 2,
+          oneLiner: {
+            zh: "目标—反馈—评估—发展闭环;一年一度的打分正被持续对话取代。",
+            en: "A loop of goals, feedback, appraisal and development — the annual rating gives way to ongoing conversation.",
+          },
+          detail: {
+            zh: "考核要衡量成果与行为、对齐目标(承接 MBO/OKR)、并服务于发展与激励而非只定薪酬。常见问题是各类认知偏差:近因效应、光环效应、宽大化、以及被“绩效焦虑”扭曲。趋势是把一年一次的评判拆成频繁的目标校准与教练式反馈。",
+            en: "Appraisal should weigh results and behaviour, align to goals (the MBO/OKR lineage) and serve growth and motivation, not set pay alone. Its flaws are cognitive: recency, halo, leniency and distortion by rating pressure. The drift is from a yearly verdict to frequent goal-setting and coaching feedback.",
+          },
+          tags: [{ zh: "人际", en: "Relations" }],
+          related: ["goal-setting", "equity", "drucker-mbo"],
+        },
+        {
+          id: "bases-power",
+          icon: "🗝️",
+          term: { zh: "权力的五种基础", en: "Five Bases of Power" },
+          level: 3,
+          oneLiner: {
+            zh: "法定、奖赏、强制、专家、参照——影响力可来自职位,也可来自能力与人格。",
+            en: "Legitimate, reward, coercive, expert and referent — influence can come from the chair, or from skill and character.",
+          },
+          detail: {
+            zh: "弗伦奇与雷文(1959)指出权力不止是职位授权:专家权力(懂得多)与参照权力(让人信服愿追随)往往比奖惩、强制更持久、更少抵触。管理者若只有“法定权力”而缺专业与信任,指令会打折;真正的权威多为后者。",
+            en: "French and Raven (1959) showed power is more than the office: expert power (knowing more) and referent power (being trusted and followed) usually outlast and draw less resistance than reward or coercion. A manager with only legitimate power but little expertise or trust finds commands discounted; lasting authority leans on the latter.",
+          },
+          tags: [{ zh: "领导", en: "Leadership" }],
+          related: ["transformational", "lewin-styles", "org-culture"],
+        },
+        {
+          id: "lewin-change",
+          icon: "🧊",
+          term: { zh: "勒温变革:解冻—变革—再冻结", en: "Lewin's Change Model" },
+          level: 2,
+          oneLiner: {
+            zh: "先打破旧平衡(解冻),再推行新做法(变革),最后固化为新的常态(再冻结)。",
+            en: "Break the old equilibrium (unfreeze), move to the new (change), then lock it in as the new normal (refreeze).",
+          },
+          detail: {
+            zh: "库尔特·勒温用场论把变革看作“力场”中驱动与抑制力量的博弈:不先让人意识到旧方式行不通,新方式就难以落地;改变了若不强化、不纳入制度与文化,就会回弹。这三步是后来许多变革模型(含科特八步)的骨架。",
+            en: "Kurt Lewin saw change as a force field of driving and restraining powers: unless people feel the old way no longer works, the new one will not land, and unless the change is reinforced into systems and culture, it snaps back. These three steps are the skeleton under many later models, Kotter's included.",
+          },
+          tags: [{ zh: "变革", en: "Change" }],
+          related: ["kotter-8", "adkar", "org-culture"],
+        },
+      ],
+    },
+  ],
+  refs: [
+    { label: { zh: "《科学管理原理》", en: "The Principles of Scientific Management" }, type: { zh: "经典", en: "Classic" } },
+    { label: { zh: "《管理的实践》", en: "The Practice of Management" }, type: { zh: "经典", en: "Classic" } },
+    { label: { zh: "《卓有成效的管理者》", en: "The Effective Executive" }, type: { zh: "经典", en: "Classic" } },
+    { label: { zh: "《竞争战略》", en: "Competitive Strategy" }, type: { zh: "战略", en: "Strategy" } },
+    { label: { zh: "《改变世界的机器》", en: "The Machine That Changed the World" }, type: { zh: "运营", en: "Operations" } },
+    { label: { zh: "《精益思想》", en: "Lean Thinking" }, type: { zh: "运营", en: "Operations" } },
+    { label: { zh: "《目标》", en: "The Goal" }, type: { zh: "小说", en: "Novel" } },
+    { label: { zh: "《创新者的窘境》", en: "The Innovator's Dilemma" }, type: { zh: "创新", en: "Innovation" } },
+    { label: { zh: "《第五项修炼》", en: "The Fifth Discipline" }, type: { zh: "组织", en: "Organization" } },
+    { label: { zh: "《组织文化与领导力》", en: "Organizational Culture and Leadership" }, type: { zh: "组织", en: "Organization" } },
+    { label: { zh: "《衡量关键之事》", en: "Measure What Matters" }, type: { zh: "目标", en: "Goals" } },
+  ],
+};

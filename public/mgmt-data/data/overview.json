@@ -1,0 +1,95 @@
+{
+  "version": "0.1.0",
+  "generatedFrom": "src/subjects/mgmt/data.ts",
+  "heroTitle": "万物管理学",
+  "heroTitleEn": "Management of Everything",
+  "intro": "从管理思想、战略、组织结构，到领导激励、决策、运营与财务——梳理让一群人把事做成的方法、框架与背后的取舍。",
+  "introEn": "Management thought, strategy, structure, leadership, decision-making, operations and finance — the methods, frameworks and trade-offs behind getting things done with other people.",
+  "total": 74,
+  "counts": {
+    "thought": 9,
+    "strategy": 8,
+    "org": 7,
+    "leadership": 10,
+    "decision": 11,
+    "ops": 10,
+    "finance": 10,
+    "people": 9
+  },
+  "modules": [
+    {
+      "key": "thought",
+      "icon": "🏛️",
+      "title": "管理思想",
+      "titleEn": "Schools of Thought",
+      "kind": "cards",
+      "count": 9
+    },
+    {
+      "key": "strategy",
+      "icon": "🎯",
+      "title": "战略与计划",
+      "titleEn": "Strategy & Planning",
+      "kind": "cards",
+      "count": 8
+    },
+    {
+      "key": "org",
+      "icon": "🏢",
+      "title": "组织与结构",
+      "titleEn": "Structure & Organization",
+      "kind": "cards",
+      "count": 7
+    },
+    {
+      "key": "leadership",
+      "icon": "🧭",
+      "title": "领导与激励",
+      "titleEn": "Leadership & Motivation",
+      "kind": "cards",
+      "count": 10
+    },
+    {
+      "key": "decision",
+      "icon": "⚖️",
+      "title": "决策与创新",
+      "titleEn": "Decision-Making & Innovation",
+      "kind": "cards",
+      "count": 11
+    },
+    {
+      "key": "ops",
+      "icon": "⚙️",
+      "title": "运营与质量",
+      "titleEn": "Operations & Quality",
+      "kind": "cards",
+      "count": 10
+    },
+    {
+      "key": "finance",
+      "icon": "📊",
+      "title": "财务与度量",
+      "titleEn": "Finance & Metrics",
+      "kind": "cards",
+      "count": 10
+    },
+    {
+      "key": "people",
+      "icon": "🤝",
+      "title": "人与变革",
+      "titleEn": "People & Change",
+      "kind": "cards",
+      "count": 9
+    }
+  ],
+  "kpis": [
+    { "key": "thought", "icon": "🏛️", "value": 9 },
+    { "key": "strategy", "icon": "🎯", "value": 8 },
+    { "key": "org", "icon": "🏢", "value": 7 },
+    { "key": "leadership", "icon": "🧭", "value": 10 },
+    { "key": "decision", "icon": "⚖️", "value": 11 },
+    { "key": "ops", "icon": "⚙️", "value": 10 },
+    { "key": "finance", "icon": "📊", "value": 10 },
+    { "key": "people", "icon": "🤝", "value": 9 }
+  ]
+}

@@ -19,6 +19,7 @@ const VERSION = "0.1.0";
 const SOURCES = {
   physics: { file: "src/subjects/physics/data.ts", name: "physicsData" },
   chem: { file: "src/subjects/chem/data.ts", name: "chemData" },
+  mgmt: { file: "src/subjects/mgmt/data.ts", name: "mgmtData" },
 };
 
 const argv = process.argv.slice(2);

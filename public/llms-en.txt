@@ -11,5 +11,6 @@
 - [Life of Everything](https://minosie.github.io/wanwu-hub/subject/life/): [data index](https://minosie.github.io/wanwu-hub/life-data/llms-en.txt)
 - [Physics of Everything](https://minosie.github.io/wanwu-hub/subject/physics/): [data index](https://minosie.github.io/wanwu-hub/physics-data/llms-en.txt)
 - [Chemistry of Everything](https://minosie.github.io/wanwu-hub/subject/chem/): [data index](https://minosie.github.io/wanwu-hub/chem-data/llms-en.txt)
+- [Management of Everything](https://minosie.github.io/wanwu-hub/subject/mgmt/): [data index](https://minosie.github.io/wanwu-hub/mgmt-data/llms-en.txt)
 
 - [Site map](https://minosie.github.io/wanwu-hub/sitemap.xml)

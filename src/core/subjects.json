@@ -144,5 +144,24 @@
     "statusEn": "wip",
     "tagsZh": ["元素", "反应", "材料", "化学家"],
     "tagsEn": ["Elements", "Reactions", "Materials", "Chemists"]
+  },
+  {
+    "key": "mgmt",
+    "emoji": "🗂️",
+    "zh": "万物管理学",
+    "en": "Management of Everything",
+    "subZh": "协同之道",
+    "subEn": "The Art of Getting Things Done",
+    "descZh": "从管理思想、战略、组织结构到领导激励、决策、运营与财务，梳理让一群人把事做成的方法与框架。",
+    "descEn": "Management thought, strategy, organization, leadership, decision-making, operations and finance — the frameworks that help groups of people get things done.",
+    "repo": "wanwu-hub",
+    "line": "everything",
+    "integrated": true,
+    "siteUrl": "https://minosie.github.io/wanwu-hub/#/subject/mgmt",
+    "repoUrl": "https://github.com/MinosIE/wanwu-hub",
+    "statusZh": "online",
+    "statusEn": "online",
+    "tagsZh": ["管理思想", "战略", "组织领导", "运营财务"],
+    "tagsEn": ["Thought", "Strategy", "Leadership", "Operations"]
   }
 ]
