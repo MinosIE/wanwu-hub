@@ -532,5 +532,57 @@
         "year": 1962
       }
     ]
+  },
+  {
+    "id": "demand-exceptions",
+    "title": "需求定律的例外",
+    "titleEn": "Exceptions to the Law of Demand",
+    "icon": "🌀",
+    "category": "需求",
+    "categoryEn": "Demand",
+    "level": 3,
+    "lead": "价格涨、买得少通常成立，但吉芬商品与炫耀性商品会让需求随价格上升反而增加。",
+    "leadEn": "Usually price up means buy less, but Giffen goods and Veblen goods see demand rise as price climbs.",
+    "points": [
+      {
+        "k": "吉芬商品",
+        "kEn": "Giffen good",
+        "v": "极穷时的主食（如土豆），涨价使人更买不起更便宜的替代，只能削减其他开支、反买更多它。",
+        "vEn": "A staple for the destitute (e.g. potatoes): a price rise makes cheaper substitutes unaffordable, so people cut other spending and buy more of it."
+      },
+      {
+        "k": "炫耀性消费",
+        "kEn": "Conspicuous consumption",
+        "v": "凡勃伦商品的高价本身即身份信号，降价反而失去买它的理由（奢侈品、限量品）。",
+        "vEn": "For Veblen goods the high price is itself the status signal; a cut removes the very reason to buy (luxury, limited editions)."
+      },
+      {
+        "k": "预期与投机",
+        "kEn": "Expectation and speculation",
+        "v": "涨价被解读为还会更涨，抢购与囤货推动需求随价格上行（房产、郁金香）。",
+        "vEn": "A rise read as 'more to come' sparks buying and hoarding, so demand climbs with price (housing, tulips)."
+      }
+    ],
+    "watch": [
+      "这些例外不推翻需求定律，而是提醒：背后还有收入效应、心理信号与预期在起作用。",
+      "判别是否真例外，要看涨价后总需求是否持续同向上升，而非一次性抢购。"
+    ],
+    "watchEn": [
+      "These exceptions do not overturn the law of demand; they flag income effects, status signals and expectations at work.",
+      "To judge a true exception, check whether total demand keeps rising with price, not one panic buy."
+    ],
+    "related": [
+      "elasticity",
+      "demand-curve",
+      "consumer-choice",
+      "herding-effect"
+    ],
+    "sources": [
+      {
+        "label": "凡勃伦《有闲阶级论》；吉芬对爱尔兰土豆市场的观察",
+        "labelEn": "Veblen, The Theory of the Leisure Class; Giffen on the Irish potato market",
+        "year": 1899
+      }
+    ]
   }
 ]

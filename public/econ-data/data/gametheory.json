@@ -142,5 +142,73 @@
     ],
     "related": ["prisoners-dilemma", "nash-equilibrium-game", "boxed-pigs"],
     "sources": [{ "label": "阿克塞尔罗德《合作的进化》", "labelEn": "Axelrod, The Evolution of Cooperation", "year": 1984 }]
+  },
+  {
+    "id": "auction-design",
+    "name": "拍卖与机制设计",
+    "nameEn": "Auctions and Mechanism Design",
+    "category": "机制",
+    "categoryEn": "Mechanisms",
+    "level": 3,
+    "oneLiner": "把规则设计好，自利的竞价者会自己透露私人估值——这是反过来的博弈：先设局，再让人择优。",
+    "oneLinerEn": "Design the rules well and self-interested bidders reveal private values—it is games in reverse: set the stage, then let them optimize.",
+    "detail": "机制设计不问'给定规则如何博弈'，而问'要得到好结果该定什么规则'。拍卖是典范：英式增价、荷式降价、第一价格密封与维克瑞（第二价格）密封各有策略。维克瑞拍卖让出价等于真实估值成为占优策略，从而减少'赢家诅咒'与策略性压价。现实中无线电频谱、碳排放额度都用组合拍卖，还需防合谋与信息泄露。",
+    "detailEn": "Mechanism design asks not 'given rules, how to play' but 'what rules yield good outcomes'. Auctions are the model: English ascending, Dutch descending, first-price sealed and Vickrey (second-price) sealed each carry distinct strategies. A Vickrey auction makes bidding your true value dominant, curbing the winner's curse and strategic shading. Real designs—spectrum, carbon allowances—use combinatorial auctions and must guard collusion and information leakage.",
+    "example": "美国 FCC 用多轮升价组合拍卖分配频谱，让电信运营商在互补牌照间自动报出高价值组合。",
+    "exampleEn": "The US FCC's simultaneous multiple-round auction allocates spectrum, letting carriers bid high-value license packages.",
+    "takeaways": [
+      "规则本身塑造行为：好的设计让说真话成为最优。",
+      "不同拍卖格式对应不同风险，理解'赢家诅咒'才能避免过激报价。"
+    ],
+    "takeawaysEn": [
+      "The rules shape behaviour: good design makes truth-telling optimal.",
+      "Formats carry different risks; grasp the winner's curse to avoid overbidding."
+    ],
+    "related": [
+      "nash-equilibrium-game",
+      "information-asymmetry",
+      "prisoners-dilemma"
+    ],
+    "sources": [
+      {
+        "label": "维克瑞《反投机、竞争与社会组织》；米尔格罗姆《拍卖理论导论》",
+        "labelEn": "Vickrey (1961); Milgrom, Auction Theory",
+        "year": 1961
+      }
+    ]
+  },
+  {
+    "id": "coordination-game",
+    "name": "协调博弈与路径依赖",
+    "nameEn": "Coordination and Path Dependence",
+    "category": "经典博弈",
+    "categoryEn": "Classic games",
+    "level": 3,
+    "oneLiner": "多个均衡里，大家各选一边都能过，却可能集体锁死在更差的惯例上，且越久越难改。",
+    "oneLinerEn": "With several equilibria, either side works for all, yet the crowd can lock into a worse convention that grows harder to change.",
+    "detail": "与囚徒困境不同，协调博弈里个人利益与集体利益同向，问题是'往哪边协调'。键盘 QWERTY、技术标准、货币单位、语言习惯常是多均衡的产物：一旦多数人在某选项上形成网络，转向虽整体更优，个体却先承担协调成本，于是次优被锁定，即路径依赖。破解靠聚点（焦点、政策、标准）把预期对齐，如政府指定充电接口或汇率锚。",
+    "detailEn": "Unlike the prisoner's dilemma, in coordination games private and collective interests align; the issue is which way to coordinate. Keyboards (QWERTY), standards, units and habits often stem from multiple equilibria: once a network forms on one option, switching—even if collectively better—makes each bear cost first, so the suboptimal is locked in, i.e. path dependence. Escape needs a focal point—an expectation anchor—to align everyone, e.g. government-mandated charging plugs or a currency peg.",
+    "example": "早期打字速度取决于避免机械杆卡键的 QWERTY 布局，即便它并非最优，因惯性沿用至今。",
+    "exampleEn": "QWERTY was set to jam fewer typebars, not for speed; the inertia keeps it alive despite suboptimal layout.",
+    "takeaways": [
+      "越多人用越有用（网络效应）常把标准锁死在并非最优的那一个。",
+      "打破锁定需要有人先对齐预期，政策、焦点或临界质量都可能触发切换。"
+    ],
+    "takeawaysEn": [
+      "The more who use it, the more useful it gets—locking a non-optimal standard.",
+      "Breaking lock-in needs expectation alignment; policy, a focal point, or critical mass can trigger a switch."
+    ],
+    "related": [
+      "nash-equilibrium-game",
+      "repeated-games",
+      "herding-effect"
+    ],
+    "sources": [
+      {
+        "label": "谢林《冲突的策略》；阿瑟关于报酬递增与路径依赖",
+        "labelEn": "Schelling, The Strategy of Conflict; Arthur on increasing returns and path dependence",
+        "year": 1960
+      }
+    ]
   }
 ]

@@ -528,5 +528,57 @@
         "year": 1983
       }
     ]
+  },
+  {
+    "id": "greshams-law",
+    "title": "劣币驱逐良币",
+    "titleEn": "Gresham's Law",
+    "icon": "🪙",
+    "category": "货币",
+    "categoryEn": "Money",
+    "level": 2,
+    "lead": "当良币劣币被强制等价流通，人们囤好钱、花坏钱，于是劣币占满市场。",
+    "leadEn": "Force good and bad money to circulate as equals and people hoard the good, spend the bad, so bad money fills the market.",
+    "points": [
+      {
+        "k": "机制",
+        "kEn": "The mechanism",
+        "v": "法定比价固定而金属实际价值有别，被高估的劣币留在流通，被低估的良币被熔化收藏。",
+        "vEn": "Set by law at par but differing in real metal value, the overvalued bad money stays in use while undervalued good money is melted or hoarded."
+      },
+      {
+        "k": "并非铁律",
+        "kEn": "Not a law of nature",
+        "v": "若价格能自由反映内在价值，'良币驱逐劣币'同样发生；关键在管制与固定比价。",
+        "vEn": "Where prices freely reflect intrinsic value, the reverse 'good money drives out bad' can occur; the cause is control and a fixed par."
+      },
+      {
+        "k": "现代回响",
+        "kEn": "Modern echoes",
+        "v": "同款逻辑见于二手车柠檬市场、劣质内容平台与影子银行——被高估的次品排挤真金。",
+        "vEn": "The same logic shows in lemon markets, low-quality platforms and shadow banking—overvalued lemons crowd out quality."
+      }
+    ],
+    "watch": [
+      "格雷欣法则的前提是名义价值被固定，一旦允许自由定价就会瓦解。",
+      "它更多揭示管制与错价的后果，而非关于人性'贪坏'的道德判断。"
+    ],
+    "watchEn": [
+      "Gresham's premise is a fixed nominal value; allow free pricing and it dissolves.",
+      "It reveals the fallout of control and mispricing, not a moral verdict that people love bad money."
+    ],
+    "related": [
+      "monetary-history",
+      "money",
+      "digital-currency",
+      "information-asymmetry"
+    ],
+    "sources": [
+      {
+        "label": "托马斯·格雷欣（16 世纪）；休谟关于货币与物价的论述",
+        "labelEn": "Thomas Gresham (16th c.); Hume on money and prices",
+        "year": 1560
+      }
+    ]
   }
 ]

@@ -1,28 +1,44 @@
 {
   "version": "0.1.0",
   "counts": {
-    "concepts": 26,
+    "concepts": 30,
     "glossary": 53,
     "thinkers": 12,
     "events": 31,
     "bubbles": 16,
-    "behavioral": 11,
+    "behavioral": 13,
     "charts": 7,
     "compare": 4,
     "everyday": 7,
-    "gametheory": 6,
-    "macro": 10,
-    "micro": 10,
-    "money": 10,
+    "gametheory": 8,
+    "macro": 13,
+    "micro": 11,
+    "money": 11,
     "myths": 7,
     "quiz": 8,
     "schools": 6,
     "trade": 9
   },
   "kpis": [
-    { "key": "concepts", "icon": "💡", "value": 26 },
-    { "key": "glossary", "icon": "📖", "value": 53 },
-    { "key": "events", "icon": "🗓️", "value": 31 },
-    { "key": "bubbles", "icon": "🎭", "value": 16 }
+    {
+      "key": "concepts",
+      "icon": "💡",
+      "value": 30
+    },
+    {
+      "key": "glossary",
+      "icon": "📖",
+      "value": 53
+    },
+    {
+      "key": "events",
+      "icon": "🗓️",
+      "value": 31
+    },
+    {
+      "key": "bubbles",
+      "icon": "🎭",
+      "value": 16
+    }
   ]
 }

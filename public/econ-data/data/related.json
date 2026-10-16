@@ -191,6 +191,34 @@
       "nEn": "Information Asymmetry"
     }
   ],
+  "invisible-hand": [
+    {
+      "m": "m-concepts",
+      "n": "看不见的手",
+      "nEn": "The Invisible Hand"
+    }
+  ],
+  "absolute-advantage": [
+    {
+      "m": "m-concepts",
+      "n": "绝对优势",
+      "nEn": "Absolute Advantage"
+    }
+  ],
+  "market-failure": [
+    {
+      "m": "m-concepts",
+      "n": "市场失灵",
+      "nEn": "Market Failure"
+    }
+  ],
+  "rational-agent": [
+    {
+      "m": "m-concepts",
+      "n": "理性人假设",
+      "nEn": "The Rational-Agent Assumption"
+    }
+  ],
   "cpi": [
     {
       "m": "m-glossary",
@@ -625,6 +653,27 @@
       "nEn": "Debt Dynamics and Sustainability"
     }
   ],
+  "ad-as": [
+    {
+      "m": "m-macro",
+      "n": "总需求与总供给",
+      "nEn": "Aggregate Demand and Supply"
+    }
+  ],
+  "phillips-curve": [
+    {
+      "m": "m-macro",
+      "n": "菲利普斯曲线",
+      "nEn": "The Phillips Curve"
+    }
+  ],
+  "quantity-theory": [
+    {
+      "m": "m-macro",
+      "n": "货币数量论",
+      "nEn": "The Quantity Theory of Money"
+    }
+  ],
   "demand-curve": [
     {
       "m": "m-micro",
@@ -686,6 +735,13 @@
       "m": "m-micro",
       "n": "公共选择与政府失灵",
       "nEn": "Public Choice and Government Failure"
+    }
+  ],
+  "demand-exceptions": [
+    {
+      "m": "m-micro",
+      "n": "需求定律的例外",
+      "nEn": "Exceptions to the Law of Demand"
     }
   ],
   "monetary-history": [
@@ -756,6 +812,13 @@
       "m": "m-money",
       "n": "存款保险与安全网",
       "nEn": "Deposit Insurance and Safety Nets"
+    }
+  ],
+  "greshams-law": [
+    {
+      "m": "m-money",
+      "n": "劣币驱逐良币",
+      "nEn": "Gresham's Law"
     }
   ],
   "adam-smith": [
@@ -1290,6 +1353,20 @@
       "nEn": "Fairness and Reciprocity"
     }
   ],
+  "nudge": [
+    {
+      "m": "m-behavioral",
+      "n": "助推与选择架构",
+      "nEn": "Nudge and Choice Architecture"
+    }
+  ],
+  "peak-end-rule": [
+    {
+      "m": "m-behavioral",
+      "n": "峰终定律",
+      "nEn": "The Peak-End Rule"
+    }
+  ],
   "prisoners-dilemma": [
     {
       "m": "m-game",
@@ -1330,6 +1407,20 @@
       "m": "m-game",
       "n": "重复博弈与合作",
       "nEn": "Repeated Games and Cooperation"
+    }
+  ],
+  "auction-design": [
+    {
+      "m": "m-game",
+      "n": "拍卖与机制设计",
+      "nEn": "Auctions and Mechanism Design"
+    }
+  ],
+  "coordination-game": [
+    {
+      "m": "m-game",
+      "n": "协调博弈与路径依赖",
+      "nEn": "Coordination and Path Dependence"
     }
   ],
   "gains-from-trade": [

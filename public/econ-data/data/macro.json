@@ -536,5 +536,179 @@
         "year": 2024
       }
     ]
+  },
+  {
+    "id": "ad-as",
+    "title": "总需求与总供给",
+    "titleEn": "Aggregate Demand and Supply",
+    "icon": "⚖️",
+    "category": "周期",
+    "categoryEn": "Cycles",
+    "level": 3,
+    "lead": "把整国的支出与产能画成两条曲线，其交点同时决定物价水平与总产出。",
+    "leadEn": "Chart an entire economy's spending and capacity as two curves; their crossing sets both the price level and total output.",
+    "points": [
+      {
+        "k": "总需求 AD",
+        "kEn": "Aggregate demand",
+        "v": "各物价水平下家庭、企业、政府与国外的计划支出之和，随物价上升而减少。",
+        "vEn": "Planned spending by households, firms, government and foreigners at each price level, falling as prices rise."
+      },
+      {
+        "k": "短期总供给 SRAS",
+        "kEn": "Short-run supply",
+        "v": "工资与价格调整慢时，产出可暂时偏离潜在水平，曲线向上倾斜。",
+        "vEn": "When wages and prices adjust slowly, output can temporarily depart from potential, so the curve slopes up."
+      },
+      {
+        "k": "长期总供给 LRAS",
+        "kEn": "Long-run supply",
+        "v": "长期产出由技术、资本与劳动力决定，与物价无关，是一条垂直线。",
+        "vEn": "Long-run output is set by technology, capital and labour regardless of prices—a vertical line."
+      },
+      {
+        "k": "冲击与波动",
+        "kEn": "Shocks and swings",
+        "v": "需求或供给的扰动移动曲线，解释通胀、衰退与滞胀的不同组合。",
+        "vEn": "Demand or supply shocks shift the curves, explaining the different blends of inflation, recession and stagflation."
+      }
+    ],
+    "watch": [
+      "AD-AS 是组织宏观事件的骨架，但曲线的形状与位置在学界仍有争论。",
+      "供给侧冲击（如油价）最难办：压通胀会伤产出，保产出会推高物价。"
+    ],
+    "watchEn": [
+      "AD-AS is the frame for organizing macro events, though the curves' shape and position remain debated.",
+      "Supply shocks (e.g. oil) are hardest: fighting inflation hurts output, protecting output lifts prices."
+    ],
+    "related": [
+      "inflation",
+      "unemployment",
+      "business-cycle",
+      "output-gap"
+    ],
+    "sources": [
+      {
+        "label": "多恩布什、费希尔、斯塔鲁兹扎施《宏观经济学》",
+        "labelEn": "Dornbusch, Fischer & Startz, Macroeconomics",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "phillips-curve",
+    "title": "菲利普斯曲线",
+    "titleEn": "The Phillips Curve",
+    "icon": "〰️",
+    "category": "物价",
+    "categoryEn": "Prices",
+    "level": 3,
+    "lead": "短期里低失业与低通胀似乎难两全，但这条权衡在预期面前会自我瓦解。",
+    "leadEn": "In the short run low unemployment and low inflation seem hard to have together, yet this trade-off unravels once expectations enter.",
+    "points": [
+      {
+        "k": "原始观察",
+        "kEn": "The original finding",
+        "v": "菲利普斯发现英国近百年失业与名义工资涨幅呈反向关系，后引申为失业与通胀的权衡。",
+        "vEn": "Phillips found a near-century inverse link in the UK between unemployment and wage growth, later read as a jobs-inflation trade-off."
+      },
+      {
+        "k": "附加预期",
+        "kEn": "Expectations augmented",
+        "v": "弗里德曼与费尔普斯指出：一旦人们预期到通胀，压低失业只是幻觉，长期曲线变垂直。",
+        "vEn": "Friedman and Phelps argued that once people expect inflation, cutting unemployment is an illusion and the long-run curve turns vertical."
+      },
+      {
+        "k": "滞胀考验",
+        "kEn": "The stagflation test",
+        "v": "1970 年代高通胀与高失业并存，击碎了稳定的权衡神话，凸显供给冲击与预期之重。",
+        "vEn": "1970s high inflation with high unemployment shattered the stable-trade-off myth, exposing supply shocks and expectations."
+      },
+      {
+        "k": "自然失业率",
+        "kEn": "Natural rate",
+        "v": "围绕结构性与摩擦性失业的水平，需求刺激只能暂时偏离，无法永久压低到其下。",
+        "vEn": "Around the structural-plus-frictional level, demand stimulus can only deviate briefly, not durably push below it."
+      }
+    ],
+    "watch": [
+      "近年通胀与失业关系变淡（曲线趋平），短期权衡未必可靠。",
+      "把菲利普斯曲线当政策菜单去'买'低失业，长期往往只买到更高通胀。"
+    ],
+    "watchEn": [
+      "Recently inflation and unemployment have decoupled (a flatter curve); short-run trade-offs prove unreliable.",
+      "Treating it as a policy menu to 'buy' low unemployment often buys only higher inflation over time."
+    ],
+    "related": [
+      "inflation",
+      "unemployment",
+      "expectations",
+      "ad-as"
+    ],
+    "sources": [
+      {
+        "label": "菲利普斯《经济与和平时期失业关系》；弗里德曼 1968 演讲",
+        "labelEn": "Phillips (1958); Friedman, 1968 presidential address",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "id": "quantity-theory",
+    "title": "货币数量论",
+    "titleEn": "The Quantity Theory of Money",
+    "icon": "🧮",
+    "category": "物价",
+    "categoryEn": "Prices",
+    "level": 3,
+    "lead": "MV=PY 的恒等式指向一个老规矩：货币发行长期快于产出，物价终将水涨船高。",
+    "leadEn": "The identity MV=PY points to an old rule: money growing long-run faster than output eventually lifts prices.",
+    "points": [
+      {
+        "k": "交换方程",
+        "kEn": "The equation of exchange",
+        "v": "货币量 M×流通速度 V = 物价 P×实际产出 Y，四者此消彼长构成账面上的恒等。",
+        "vEn": "Money M times velocity V equals price P times real output Y, an accounting identity among four moving parts."
+      },
+      {
+        "k": "货币中性",
+        "kEn": "Neutrality",
+        "v": "长期里 V 与 Y 由制度与产能给定，多印的钱主要反映为 P，而非真实财富。",
+        "vEn": "Long run, V and Y are set by institutions and capacity, so extra printing shows up mostly in P, not real wealth."
+      },
+      {
+        "k": "通胀的货币之锚",
+        "kEn": "The monetary anchor",
+        "v": "弗里德曼名言：通胀在任何时候任何地方都是货币现象——失控发行才有恶性通胀。",
+        "vEn": "Friedman's dictum: inflation is always and everywhere a monetary phenomenon—runaway issuance breeds hyperinflation."
+      },
+      {
+        "k": "短期失灵",
+        "kEn": "Short-run breakdown",
+        "v": "危机时 V 骤降、流动性陷阱使增发不再推价，恒等式仍在、因果却可能反转。",
+        "vEn": "In crises V collapses and a liquidity trap stops printing from lifting prices; the identity holds but causation may reverse."
+      }
+    ],
+    "watch": [
+      "把复杂通胀全归于'印钞'过于简化，供给冲击与预期同样重要。",
+      "短期货币与产出确有关联，中性论只宜作长期方向而非操作指南。"
+    ],
+    "watchEn": [
+      "Blaming all inflation on printing is too simple; supply shocks and expectations matter too.",
+      "In the short run money and output do move together; neutrality is a long-run direction, not an operating manual."
+    ],
+    "related": [
+      "inflation",
+      "money",
+      "interest-rate",
+      "central-bank-tools"
+    ],
+    "sources": [
+      {
+        "label": "欧文·费雪《货币的购买力》；弗里德曼《美国货币史》",
+        "labelEn": "Irving Fisher, The Purchasing Power of Money; Friedman, A Monetary History of the US",
+        "year": 1911
+      }
+    ]
   }
 ]

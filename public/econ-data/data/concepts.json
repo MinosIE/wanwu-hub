@@ -466,5 +466,144 @@
     "tags": ["市场失灵", "信息"],
     "tagsEn": ["Market failure", "Information"],
     "sources": [{ "label": "阿克洛夫《柠檬市场》", "labelEn": "Akerlof, The Market for Lemons", "year": 1970 }]
+  },
+  {
+    "id": "invisible-hand",
+    "term": "看不见的手",
+    "termEn": "The Invisible Hand",
+    "category": "基础概念",
+    "categoryEn": "Foundations",
+    "level": 1,
+    "oneLiner": "人人追逐自身利益，价格与竞争却像一只看不见的手，把无数打算协调成整体秩序。",
+    "oneLinerEn": "Each pursues self-interest, yet prices and competition act like an invisible hand that coordinates countless plans into overall order.",
+    "detail": "亚当·斯密用这只「看不见的手」比喻市场的自发协调：没有中央指令，面包师不为慈善而烤面包，只为生计；供给与需求通过价格互相试探，把个人逐利导向他人需要的东西。它的成立依赖前提——产权清晰、竞争充分、信息与外部成本能被反映，否则逐利也可能造成伤害。理解这只手，既要看到它组织生产的威力，也要看到它失灵时需要规则补位。",
+    "detailEn": "Adam Smith used this 'invisible hand' to picture the market's spontaneous coordination: with no central command, the baker bakes not from charity but for a living; supply and demand probe each other through prices, turning private pursuit of gain into what others need. It works only on conditions—clear property rights, competition, and information and external costs being reflected—otherwise the chase for profit can also harm. Grasp both its power to organize production and the rules needed when it fails.",
+    "example": "深夜还能买到热食，不是因为有人计划为你留灯，而是许多卖家为赚钱自发补上了这个时段。",
+    "exampleEn": "Late-night hot food is available not because someone planned it for you, but because many sellers chased profit into that hour.",
+    "related": [
+      "supply-demand",
+      "market-structure",
+      "price-signals",
+      "incentives"
+    ],
+    "tags": [
+      "市场",
+      "基础"
+    ],
+    "tagsEn": [
+      "Markets",
+      "Foundations"
+    ],
+    "sources": [
+      {
+        "label": "亚当·斯密《国富论》",
+        "labelEn": "Adam Smith, The Wealth of Nations",
+        "year": 1776
+      }
+    ]
+  },
+  {
+    "id": "absolute-advantage",
+    "term": "绝对优势",
+    "termEn": "Absolute Advantage",
+    "category": "国际贸易",
+    "categoryEn": "Trade & Globalization",
+    "level": 2,
+    "oneLiner": "同样的投入，谁把某样东西产得更多更省，谁就在它上有绝对优势，分工贸易于是双赢。",
+    "oneLinerEn": "Whoever makes more of a good with the same input holds an absolute advantage in it, so specialization and trade benefit both.",
+    "detail": "斯密的绝对优势指出：即使一国在每种产品上都更强，双方仍可通过各自专注最擅长的一环再交换而共同获益，因为分工提升了总产出。这是贸易「非零和」的第一块基石，反驳了「必须靠出口、避免进口才致富」的重商主义。局限也明显：若一国样样都弱、没有绝对优势怎么办？大卫·李嘉图后来用「比较优势」补上这一环——即便全面落后，专注机会成本更低的领域仍能互利。",
+    "detailEn": "Smith's absolute advantage holds that even if one country is stronger in every good, both gain by each focusing on the link it does best and then trading, since specialization lifts total output. This is the first cornerstone of trade as non-zero-sum, rebutting the mercantilist idea that wealth requires exporting while shunning imports. Its limit is clear: what if a country is weaker in everything and has no absolute advantage? Ricardo later filled the gap with comparative advantage—even a laggard gains by specializing where its opportunity cost is lower.",
+    "example": "裁缝做衣、农夫种粮，各干各的再互换，比两人样样自给能多出吃穿。",
+    "exampleEn": "A tailor sews and a farmer grows, then they swap—yielding more clothing and food than if both self-supplied everything.",
+    "related": [
+      "comparative-advantage",
+      "gains-from-trade",
+      "trade-deficit-meaning"
+    ],
+    "tags": [
+      "贸易",
+      "分工"
+    ],
+    "tagsEn": [
+      "Trade",
+      "Specialization"
+    ],
+    "sources": [
+      {
+        "label": "亚当·斯密《国富论》",
+        "labelEn": "Adam Smith, The Wealth of Nations",
+        "year": 1776
+      }
+    ]
+  },
+  {
+    "id": "market-failure",
+    "term": "市场失灵",
+    "termEn": "Market Failure",
+    "category": "市场结构",
+    "categoryEn": "Market Structure",
+    "level": 2,
+    "oneLiner": "价格这只手并不总灵：外部性、公共品、垄断与信息不对称会让市场自己配不出好结果。",
+    "oneLinerEn": "The price hand is not always effective: externalities, public goods, monopoly and information asymmetry stop markets allocating well on their own.",
+    "detail": "市场失灵指自由交易虽然各自理性，却整体达不到有效率或有福利的结果。四大典型：外部性（污染的成本没进价格）、公共品（不付费也享用的东西没人愿供给）、垄断与市场势力（定价偏离成本）、信息不对称（逆向选择与道德风险）。它并不等于「政府就该接管」——政府同样可能失灵，关键是权衡两种现实方案的治理成本，选对工具：税收、补贴、产权界定、管制或信息披露。",
+    "detailEn": "Market failure is when freely trading parties act rationally yet the whole misses an efficient or welfare-good outcome. Four classics: externalities (pollution cost left out of price), public goods (what all can enjoy for free no one wants to supply), monopoly and market power (price set away from cost), and information asymmetry (adverse selection and moral hazard). It is not a case for 'government takes over'—government can fail too; the trick is weighing the governance cost of two imperfect options and picking the tool: tax, subsidy, property rights, regulation or disclosure.",
+    "example": "工厂排污省钱、把健康代价转嫁给下游居民，市场价再高也不反映这笔污染，就是失灵。",
+    "exampleEn": "A factory saves by dumping waste and pushes health costs onto downstream residents; no market price reflects that pollution—a failure.",
+    "related": [
+      "externality",
+      "public-goods",
+      "information-asymmetry",
+      "market-structure"
+    ],
+    "tags": [
+      "市场失灵",
+      "政策"
+    ],
+    "tagsEn": [
+      "Market failure",
+      "Policy"
+    ],
+    "sources": [
+      {
+        "label": "庇古《福利经济学》；兰姆塞关于外部成本与税收的论述",
+        "labelEn": "Pigou, The Economics of Welfare; Ramsey on external costs and taxation",
+        "year": 1920
+      }
+    ]
+  },
+  {
+    "id": "rational-agent",
+    "term": "理性人假设",
+    "termEn": "The Rational-Agent Assumption",
+    "category": "基础概念",
+    "categoryEn": "Foundations",
+    "level": 2,
+    "oneLiner": "经济学常先假设人会权衡成本收益、追逐自身效用——这是好用的模型起点，而非对真人断言。",
+    "oneLinerEn": "Economics often starts by assuming people weigh costs and benefits to pursue their own utility—a handy model's premise, not a claim about real humans.",
+    "detail": "「理性人」（经济人，homo economicus）假设人为目标选定最优手段、偏好前后一致。它强大在于给出可预测的骨架：价格上涨需求减少、激励改变行为随之改变。但真人有有限理性、情绪、偏见与社会偏好，会拖延、从众、被框架左右。行为经济学正是系统检验这些偏离。健康的用法是把理性当基准线：先看模型预测什么，再问现实为何、在哪里偏离，从而设计更好的默认选项与制度。",
+    "detailEn": "The 'rational agent' (homo economicus) assumes people choose the best means to their ends with consistent preferences. Its power is a testable skeleton: price up, demand down; incentives shift, behaviour follows. But real people have bounded rationality, emotion, bias and social preferences—they procrastinate, herd and fall for framing. Behavioral economics systematically tests these departures. Use rationality well as a baseline: see what the model predicts, then ask why and where reality deviates, and so design better defaults and institutions.",
+    "example": "模型假设你会比较所有方案选最优，现实中你却可能因选项太多而干脆拖延不选。",
+    "exampleEn": "The model assumes you weigh all options and pick the best; in reality too many choices can leave you stalling.",
+    "related": [
+      "incentives",
+      "loss-aversion",
+      "prospect-theory",
+      "marginal-thinking"
+    ],
+    "tags": [
+      "假设",
+      "方法论"
+    ],
+    "tagsEn": [
+      "Assumption",
+      "Method"
+    ],
+    "sources": [
+      {
+        "label": "西蒙《有限理性》；塞勒、斯坦《助推》",
+        "labelEn": "Simon, bounded rationality; Thaler & Sunstein, Nudge",
+        "year": 1978
+      }
+    ]
   }
 ]

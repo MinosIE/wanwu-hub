@@ -282,5 +282,62 @@
         "year": 1987
       }
     ]
+  },
+  {
+    "id": "nudge",
+    "name": "助推与选择架构",
+    "nameEn": "Nudge and Choice Architecture",
+    "category": "核心理论",
+    "categoryEn": "Core theory",
+    "level": 2,
+    "oneLiner": "不禁止、不重奖，只重新设计默认与呈现，就能顺着人的惰性导向更好的选择。",
+    "oneLinerEn": "Without banning or big rewards, redesigning defaults and presentation works with human inertia toward better choices.",
+    "detail": "塞勒与桑斯坦的'助推'指出：既然人并非完全理性、又常被默认与框架牵着走，那么任何呈现方式都是'选择架构'。把养老金储蓄设为默认加入、把健康食品放在显眼处、用社会规范提示'多数人都缴税'，都能低成本改善结果。争议在于'谁定义更好'——好的助推要透明、保留退出、尊重自主，而非暗中操纵。",
+    "detailEn": "Thaler and Sunstein's 'nudge' holds that since people are not fully rational and are pulled by defaults and framing, any presentation is a 'choice architecture'. Making pension saving opt-out, placing healthy food in view, or signaling that 'most people pay taxes' improves outcomes at low cost. The debate is 'who defines better': good nudges are transparent, keep opt-out and respect autonomy rather than quietly manipulate.",
+    "experiment": "把器官捐献或储蓄改为'默认加入、可退出'，参与率往往远高于'默认不加入、需主动加入'。",
+    "experimentEn": "Switching organ donation or saving to opt-out defaults lifts participation far above opt-in designs.",
+    "everyday": "食堂把沙拉摆到视线齐平处、把甜点藏到下层，无需劝导就改变了大量人的实际选择。",
+    "everydayEn": "A canteen placing salad at eye level and hiding dessert below changes many people's actual choices without a word.",
+    "related": [
+      "prospect-theory",
+      "status-quo-bias",
+      "mental-accounting",
+      "framing-effect-behav"
+    ],
+    "sources": [
+      {
+        "label": "塞勒、桑斯坦《助推》",
+        "labelEn": "Thaler & Sunstein, Nudge",
+        "year": 2008
+      }
+    ]
+  },
+  {
+    "id": "peak-end-rule",
+    "name": "峰终定律",
+    "nameEn": "The Peak-End Rule",
+    "category": "核心理论",
+    "categoryEn": "Core theory",
+    "level": 2,
+    "oneLiner": "回忆一段体验时，我们主要记住最强烈的瞬间和结尾，而非全程的平均。",
+    "oneLinerEn": "Recalling an experience, we mainly remember its most intense moment and its ending, not its overall average.",
+    "detail": "卡尼曼的研究显示，人对体验的'记忆自我'与'当下自我'不同：打分时长短几乎不重要，高峰与收尾决定印象。肠绞痛手术中，多一段较温和的结尾反而让患者对整体痛苦评价更低，却愿意原谅更长的过程。这解释了为何一次糟糕的最后体验能毁掉整趟好旅行，也提醒政策与商家：优化'峰值'与'终点'比堆砌中间环节更影响满意度。",
+    "detailEn": "Kahneman found the 'remembering self' differs from the 'experiencing self': in recall, duration barely matters while the peak and the ending shape the impression. In a colonoscopy, adding a milder closing lowered patients' overall pain rating yet made them tolerate a longer procedure. This explains why one bad final moment can ruin a good trip, and reminds policymakers and sellers: shaping the peak and the end moves satisfaction more than padding the middle.",
+    "experiment": "结肠镜检查的实验中，延长一段痛感较轻的结尾，被试对整体不适的回忆评价反而更宽松。",
+    "experimentEn": "In colonoscopy studies, extending a lower-pain ending made subjects' recalled overall discomfort milder.",
+    "everyday": "餐厅在结账后赠一份小点心，往往比全程服务更被记住，正是靠'美好的收尾'抬高整体评分。",
+    "everydayEn": "A complimentary dessert after the bill is remembered more than the whole service, lifting ratings via a sweet ending.",
+    "related": [
+      "prospect-theory",
+      "framing-effect-behav",
+      "mental-accounting"
+    ],
+    "sources": [
+      {
+        "label": "卡尼曼等《体验效用与记忆效用》",
+        "labelEn": "Kahneman et al., on experienced and remembered utility",
+        "year": 1993
+      }
+    ]
   }
 ]
