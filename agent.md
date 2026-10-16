@@ -67,6 +67,18 @@
 - 内容数据在 `public/<key>-data/data/*.json`（如 `overview.json`、`sources.json`）。
 - 通常含：搜索框、模块筛选、refs / 来源区、详情面板（语言与主题由顶栏统一切换，仅中华王朝在 hero 另留按钮）。
 
+#### 共享框架层 `src/core/subject/`（earth / life / thought / econ 单一事实源）
+
+这四科的「框架」已上移为共享层，学科侧文件退化为 re-export shim，**改横切逻辑只动共享层一处**：
+
+- `types.ts`：`Lang / LObj / SourceRef / DetailSection / DetailPayload / OverviewFile / SearchEntry / ModuleDef / ModuleRender / AppApi` 等契约。学科 `core/types.ts` = `export * from core/subject/types`。
+- `dom` 复用既有 `src/core/ui/dom.ts`（学科 `core/dom.ts` = re-export）。
+- `app.ts`：服务定位器 `provideApp/app()`（内嵌时同时只有一个学科挂载，boot 重新 provide，共享单例安全）。
+- `i18n.ts` / `detail.ts` / `related.ts` / `theme.ts`：**工厂返回实例**（`createSubjectI18n/L`、`createSubjectDetail`、`createRelated`、`createSubjectTheme`）。学科 shim 用自己的 `wordbook/data/dom/app` 各实例化一份 → `lang`/`root`/`table` 状态独立，杜绝跨科串扰。i18n 的 `en`/`zh` 键对齐由泛型约束保留（en 缺键在 shim 传入处编译报错）。
+- `appKit.ts`：`createSubjectApp(cfg)` 抽取 `main.ts` 的编排逻辑（模块切换 / 首页 KPI / refs / footer / mail / 搜索 / 深链 / 语言·主题联动 / 服务定位）。学科 `main.ts` 退化为装配 `createSubjectApp({...})` 并 `export { boot, activate, setHistoryUpdate }`。学科差异经 `config.logTag` + `hooks`（`beforeInit` / `afterRender` / `onLangChangeExtra`）承载，例：thought 用 `afterRender` 注入总览图、econ 用 `beforeInit` 注入共享 ui 的 `setI18n/setDataBase` 且 `initSearch` 走选项对象适配器。
+
+**例外**：`mind` 是另一代框架（`ListModule` / `openDetailGlobal`、`DetailView`/`RefSource` 契约、`el` 为「查询」语义、自带 `loadJson`），**不并入** `createSubjectApp`；仅复用等价的 `esc`。`dynasty` 走自包含脚本注入，独立于本框架层。
+
 ### LIGHTWEIGHT 学科（physics / chem）
 
 - `index.ts` 调用 `createSubject(cfg)`（`src/subjects/subjectKit.ts`），`cfg` 来自 `data.ts`（`SubjectConfig`：`heroTitle / intro / modules / refs`）。
@@ -89,7 +101,7 @@
 2. 在 `src/main.ts` 注册 `import` + `mount` 分发（参考现有 `physics` / `chem` 分支）。
 3. 选择范式：
    - **轻量（推荐起步）**：新建 `src/subjects/<key>/index.ts` + `data.ts`，`createSubject(cfg)` 驱动；内容写在 `data.ts` 的 `modules`。
-   - **完整**：复制某 FULL 学科结构（`template.ts` + `main.ts` + `styles/`），适配自己的数据与模块。
+   - **完整**：优先接 `src/core/subject/appKit` 的 `createSubjectApp`（照抄 earth/life 的 `main.ts` 装配 + 各 `core/*` shim，仅换 `wordbook`/`MODULES`/`data` 目录/`logTag`），新学科即免费获得统一抽屉 / i18n / 主题 / 编排；只有与 earth 范式不兼容时才自带独立 `main.ts`（如 mind / dynasty）。
 4. 内容数据放 `public/<key>-data/data/*.json`（若适用）。
 5. 同步更新 `readme.md` 的学科清单与首页（如有静态列表）；新增学科后重跑 `npm run gen:sitemap && npm run gen:geo`（或直接 `npm run build:ssg`）以更新 GEO 与预渲染 ROUTES。
 6. 本地 `npm run dev` 验证，提交前 `npm run verify && npm run build:ssg` 确保门禁与构建通过。
