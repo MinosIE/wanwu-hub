@@ -154,5 +154,93 @@
     "categoryEn": "Learning",
     "related": ["stress-coping", "working-memory", "self-efficacy"],
     "sources": [{ "label": "Beilock (2010)《你的头脑如何欺骗你》", "labelEn": "Beilock (2010), Choke", "year": 2010 }]
+  },
+  {
+    "id": "choice-overload",
+    "term": "选择越多反而越难抉择",
+    "termEn": "Why More Choices Backfire",
+    "oneLiner": "选项一多，反悔成本、比较负担与「错过更好」的担忧齐升，人反而更容易焦虑、拖延甚至弃选。",
+    "oneLinerEn": "As options multiply, so do the cost of switching, the burden of comparing and fear of missing a better one—leaving people more anxious, stalled, or ready to opt out.",
+    "detail": "超市里 24 种果酱的试吃台，远不如 6 种的那张促成更多购买——这就是「选择过载」的经典演示。选项一多，人要为比较付出更多认知成本，还要承担「万一错过更优」的预期后悔；当决定本身并不那么重要时，最大化者总想穷尽所有选项，于是越挑越累。破解之道是主动设限：先定「够好即可」的标准与可接受的少数几个候选，把「要不要再多看一个」的诱惑挡在框架之外。",
+    "detailEn": "A tasting table of 24 jams closes far fewer sales than one with 6—this is the classic demonstration of choice overload. More options raise the cognitive cost of comparing and the anticipated regret of missing a better pick; when the choice hardly matters, maximizers still want to survey everything and grow weary picking. The fix is to set limits on purpose: define a 'good enough' bar and a shortlist, and shut the 'should I look at one more' temptation outside your frame.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": [
+      "decision-fatigue",
+      "framing-effect",
+      "procrastination"
+    ],
+    "sources": [
+      {
+        "label": "Iyengar & Lepper (2000), When Choice Is Demotivating",
+        "year": 2000
+      }
+    ]
+  },
+  {
+    "id": "multitasking-myth",
+    "term": "一心多用的真相",
+    "termEn": "The Multitasking Myth",
+    "oneLiner": "所谓多任务，其实是在任务间快速来回切换，每次切换都要「重新加载」——越忙越低效、还更易出错。",
+    "oneLinerEn": "'Multitasking' is really rapid task-switching; each switch forces a mental reload—busier yet less efficient, and more error-prone.",
+    "detail": "大脑并不真的并行处理两件需要注意的事，而是像在不同标签页间反复刷新。每次切换都带来「切换成本」：先放下旧任务的语境、再重建新任务的规则，误差也随之抬头。写论文时回消息、开会时改邮件，看似高效，实则以更浅的专注换更多的返工。频繁切换还会训练出「等不住」的注意习惯。真正省力的做法是批次化：一次只给一类任务一段不被打断的时间，把切换次数压到最低。",
+    "detailEn": "The brain doesn't truly run two attention-requiring tasks at once; it refreshes between them like switching browser tabs. Each switch carries a switching cost—dropping the old context, rebuilding the new task's rules—and errors creep in. Answering messages while writing, editing email during a meeting looks productive but trades deeper focus for more rework. Frequent switching also trains a restless attention. The effort-saving move is batching: give one class of task an uninterrupted block and keep switches to a minimum.",
+    "category": "行为",
+    "categoryEn": "Behavior",
+    "related": [
+      "attention",
+      "working-memory",
+      "procrastination"
+    ],
+    "sources": [
+      {
+        "label": "Monsell (2003), Task Switching",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "id": "social-rejection-pain",
+    "term": "被排挤为何这么痛",
+    "termEn": "Why Ostracism Hurts",
+    "oneLiner": "被无视、被排挤会激活与躯体疼痛相近的脑区——社会性痛是真实的痛。",
+    "oneLinerEn": "Being ignored or excluded recruits brain regions near physical pain—social hurt is real hurt.",
+    "detail": "进化把人绑在群体上：在远古，被部落排斥几乎等于判死刑，于是大脑演化出对「归属受威胁」的强烈警报，其神经影像与被烫到时重叠。哪怕只是网络传球游戏里被两人有意不传（Cyberball），被试也会报告情绪低落，且越是长期被冷暴力，越先伤及「归属感、控制感、自尊、存在意义」这四种基本需要。理解这一点，不是为了沉溺受害感，而是明白：对被排挤者轻说「别那么敏感」既不属实，也毫无安慰之效；而重建联结、寻找新群体，是缓解这种痛的正路。",
+    "detailEn": "Evolution bound humans to the group: in deep antiquity exile from the tribe was near a death sentence, so the brain grew a strong alarm for threatened belonging, overlapping on imaging with the pain of a burn. Even being deliberately left out of an online ball-toss game (Cyberball) lowers mood, and prolonged cold-shouldering first strikes four basic needs—belonging, control, self-esteem and meaningful existence. Knowing this isn't to wallow in victimhood but to see that telling the excluded 'don't be so sensitive' is both inaccurate and no comfort; rebuilding connection and finding a new group is the true path through the pain.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": [
+      "self",
+      "relationship-attachment",
+      "social-facilitation"
+    ],
+    "sources": [
+      {
+        "label": "Williams (2007), Ostracism: The Power of Silence",
+        "year": 2007
+      }
+    ]
+  },
+  {
+    "id": "revenge-sleep",
+    "term": "报复性熬夜",
+    "termEn": "Revenge Bedtime Procrastination",
+    "oneLiner": "白天时间都被别人占了，就用熬夜「夺回」一点自己的时间——明知该睡却舍不得睡。",
+    "oneLinerEn": "When the day's hours belong to others, people stay up late to reclaim a little time for themselves—knowing they should sleep yet loath to give it up.",
+    "detail": "白天被工作、课业与责任填满，一到夜里终于有一段「说了算」的时间，于是刷手机、追剧、发呆，用牺牲睡眠换回一点自主与愉悦。研究把它和「自我调节资源被白天耗尽」相连：越是白天控制感低、自由时间少的人，越容易用它补偿。代价是睡眠债与次日的注意力、情绪进一步受损，形成恶性循环。破局不在意志力硬扛，而在白天预先切出一点真正属于自己的留白，让夜晚不必靠透支来讨还。",
+    "detailEn": "Filled by work, study and duty by day, one finally owns a stretch of time at night—so people scroll, binge and zone out, trading sleep for a scrap of autonomy and pleasure. Research links it to self-regulation depleted across the day: the lower the daytime sense of control and the less free time, the more one compensates. The cost is sleep debt that further damages next-day attention and mood, a vicious cycle. The way out isn't white-knuckle willpower but carving out a little genuine margin in the day, so the night needn't be overdrawn to pay it back.",
+    "category": "健康",
+    "categoryEn": "Health",
+    "related": [
+      "sleep-memory",
+      "procrastination",
+      "self-efficacy"
+    ],
+    "sources": [
+      {
+        "label": "Kroese et al. (2014), Bedtime Procrastination",
+        "year": 2014
+      }
+    ]
   }
 ]

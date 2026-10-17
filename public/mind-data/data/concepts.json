@@ -617,5 +617,121 @@
         "year": 2001
       }
     ]
+  },
+  {
+    "id": "nature-nurture",
+    "term": "天性与教养",
+    "termEn": "Nature & Nurture",
+    "category": "差异",
+    "categoryEn": "Individual Differences",
+    "level": 1,
+    "oneLiner": "行为特征由基因与环境共同塑造；「各占多少」是可测量的问题，而非二选一。",
+    "oneLinerEn": "Traits are shaped jointly by genes and environment; 'how much of each' is a measurable question, not an either/or.",
+    "detail": "「天性还是教养」是个古老的伪两难：二者几乎从不单独起作用，而是交织。行为遗传学用量表化的「遗传率」估计群体差异中可归因于基因的比例——智商、人格大五特质多在 0.4–0.6 之间，但遗传率是就人群与环境而言，不是说某个人「六成天生」。同卵分养、领孩子等天然对照显示：环境确有实效应，尤其极端匮乏会压低潜能，而良好环境让差异更充分展开。基因也非宿命：它更像设定反应范围，环境决定你在其中落在何处。",
+    "detailEn": "'Nature or nurture' is a false dilemma: the two almost never act alone but interweave. Behavioral genetics uses heritability to estimate the share of group differences attributable to genes—intelligence and the Big Five land around 0.4–0.6—but heritability speaks of a population in a setting, not that one person is '60% innate'. Natural controls such as separated identical twins and adoptees show environment has real effects: deprivation caps potential, while good conditions let differences unfold. Genes are no destiny; they set a reaction range, and environment decides where within it you land.",
+    "example": "同卵双胞胎分开抚养，成年后在性格与兴趣上仍高度相似，却又并非完全一致——相似见基因之力，差异见环境之功。",
+    "exampleEn": "Identical twins raised apart stay strikingly alike in temperament and interests yet never identical—the likeness shows genes' power, the gaps show environment's hand.",
+    "related": [
+      "intelligence",
+      "personality",
+      "big-five"
+    ],
+    "tags": [
+      "差异",
+      "遗传"
+    ],
+    "sources": [
+      {
+        "label": "Plomin et al., Behavioral Genetics (2016)",
+        "year": 2016
+      }
+    ]
+  },
+  {
+    "id": "yerkes-dodson",
+    "term": "耶克斯-多德森定律",
+    "termEn": "Yerkes-Dodson Law",
+    "category": "动机",
+    "categoryEn": "Motivation",
+    "level": 1,
+    "oneLiner": "表现随唤起先升后降，呈倒 U 形；任务越难，最佳唤醒点越低。",
+    "oneLinerEn": "Performance rises then falls with arousal in an inverted-U; the harder the task, the lower the optimal arousal.",
+    "detail": "1908 年二人从动物学习实验归纳出这条曲线：适度的紧张、唤醒能提升注意与效率，但过犹不及——焦虑过高时，本就吃紧的工作记忆被担忧挤占，复杂任务最先崩盘。关键在「最佳点随难度移动」：拧螺丝、短跑这类简单熟练的任务，兴奋越高越好；解数学难题、临场演讲这类需要精细思考的任务，反而要把情绪调低、让头脑冷静。于是「想考好就把自己逼得更紧张」常常适得其反，找到那件事专属的舒适唤起区才更有效。",
+    "detailEn": "Drawn from animal learning in 1908, the curve says moderate arousal sharpens attention and efficiency, but too much backfires—when anxiety runs high, worried thoughts crowd out already-scarce working memory, and complex tasks crumble first. The catch is that the peak shifts with difficulty: simple, well-practiced acts like driving a nail or a sprint benefit from high charge, while fine reasoning—a hard proof, an on-the-spot speech—wants arousal turned down so the mind stays cool. So 'push harder to do better' often rebounds; finding each task's own comfort zone of arousal works best.",
+    "example": "考前适度兴奋有助发挥，但把手抖心慌当「重视」，反而会在最难的题上大脑空白。",
+    "exampleEn": "Mild pre-test buzz aids performance, but reading trembling hands and a racing heart as 'caring more' is exactly what blanks your mind on the hardest item.",
+    "related": [
+      "stress-coping",
+      "motivation",
+      "exam-anxiety"
+    ],
+    "tags": [
+      "动机",
+      "情绪"
+    ],
+    "sources": [
+      {
+        "label": "Yerkes & Dodson (1908)",
+        "year": 1908
+      }
+    ]
+  },
+  {
+    "id": "emotion-regulation",
+    "term": "情绪调节",
+    "termEn": "Emotion Regulation",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "level": 1,
+    "oneLiner": "情绪并非只能被动承受；在何时、用何法介入，决定了它是被放大还是被安顿。",
+    "oneLinerEn": "Emotion needn't be merely endured; when and how you intervene decides whether it escalates or settles.",
+    "detail": "格罗斯的过程模型把情绪分成「发生前」与「反应后」两段：前者可改情境（回避诱因）、改注意（转移焦点）、改评价（换角度看，即认知重评）；后者只能压制表达（硬撑、憋着，即表达抑制）或生理。效力大不同——认知重评下调负面情绪却不损记忆与关系，表达抑制看似镇定，实则内心唤起不减、还消耗资源、拉远人际。核心启示是「早介入、重解释」：情绪还在酝酿时改变对它的解读，远比等它汹涌后再硬压省力。这也是诸多疗法的共同内核。",
+    "detailEn": "Gross's process model splits emotion into before and after it arises: earlier you can change the situation (avoid triggers), attention (shift focus) or appraisal (reframe, i.e. cognitive reappraisal); later you can only suppress expression (gritting, bottling) or the body. Effects diverge: reappraisal lowers negative feeling without taxing memory or relationships, while suppression looks calm but leaves inner arousal high, drains resources and distances others. The lesson is 'intervene early, work on the reading'—reframing an emotion while it brews costs far less than forcing it down once it surges. This is the shared core of many therapies.",
+    "example": "被批评时，把它解读为「他对这事很在意」而非「他否定我这个人」，怒火往往当场降温。",
+    "exampleEn": "When criticized, reading it as 'he cares about this matter' rather than 'he rejects me as a person' often cools the flare on the spot.",
+    "related": [
+      "stress-coping",
+      "anxiety-disorders",
+      "emotion-labeling"
+    ],
+    "tags": [
+      "情绪",
+      "自我"
+    ],
+    "sources": [
+      {
+        "label": "Gross (1998), The Emerging Field of Emotion Regulation",
+        "year": 1998
+      }
+    ]
+  },
+  {
+    "id": "sensitive-period",
+    "term": "敏感期与关键期",
+    "termEn": "Sensitive & Critical Periods",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "oneLiner": "某些能力在特定窗口学得最省力；「关键期」是刚性开关，「敏感期」只是效率高地。",
+    "oneLinerEn": "Some skills are easiest to learn in a given window; a 'critical period' is a hard switch, a 'sensitive period' merely a stretch of peak efficiency.",
+    "detail": "洛伦兹的小鸭在出生后会紧咬第一个移动对象——那是不可逆的关键期；而人类多数能力（语言、依恋、面孔知觉）并非错过即永久关闭，只是敏感期内学得又快又省，窗口之后仍可习得、只是更费力。以语音为例：婴儿早期能分辨所有语言的音素，约一岁后对母语音系的辨别进一步锐化、对其他语言音素的辨别则逐渐钝化，成年后学外语的口音正因于此。厘清两者很要紧：「关键期」常被误用来贩卖焦虑（错过就完了），而更准确的「敏感期」承认最佳时机，也保留了后续可塑性。",
+    "detailEn": "Lorenz's ducklings irreversibly imprint on the first moving object after hatching—a critical period. But most human skills (language, attachment, face perception) aren't hard switches that shut forever if missed; there are sensitive periods when learning is fast and cheap, after which it remains possible at greater cost. Take speech sounds: infants discriminate every language's phonemes, then around age one their native system is sharpened while other contrasts dull—the adult foreign accent traces to this. Telling the two apart matters: 'critical period' is often sold to stoke anxiety (miss it and you're done), while 'sensitive period', the more accurate term, grants an optimal window yet keeps later plasticity.",
+    "example": "孩子学第二语言发音轻松，成人也能学好但要多花功夫——这更像敏感期而非关门的关键期。",
+    "exampleEn": "Children pick up a second language's sounds easily; adults can too, but must invest more effort—sensitive period rather than a slammed critical-period door.",
+    "related": [
+      "vygotsky",
+      "zpd",
+      "learning"
+    ],
+    "tags": [
+      "发展",
+      "学习"
+    ],
+    "sources": [
+      {
+        "label": "Hensch (2009), Critical Period Plasticity",
+        "year": 2009
+      }
+    ]
   }
 ]
