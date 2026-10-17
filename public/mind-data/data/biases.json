@@ -199,5 +199,71 @@
         "year": 1970
       }
     ]
+  },
+  {
+    "id": "self-serving-bias",
+    "term": "自利归因偏差",
+    "termEn": "Self-Serving Bias",
+    "oneLiner": "成功归自己（能力、努力），失败推外因（运气、环境）——自尊的隐形护卫。",
+    "oneLinerEn": "Credit success to self (skill, effort), blame failure on outside (luck, circumstances)—an invisible bodyguard of self-esteem.",
+    "detail": "考试顺利觉得「我复习到位」，砸了却说「题太偏、老师不公」；赢了比赛归功于实力，输了怪场地裁判。这种把功劳揽向自己、把过失推向情境的不对称归因，能短期维护自尊与掌控感，故普遍存在。它也与「印象管理」相连：人乐于接受对自己有利的解释。代价是它削弱了从失败中学习的能力——若过错总在外因，改进便无从下手；关系中双方都自利归因时，冲突更易升级。适度自我批评、复盘时先假设自己也有责任，可作解药。",
+    "detailEn": "A good test reads as 'I studied well'; a bad one as 'the questions were unfair'. Winning credits skill, losing blames the venue or referee. This asymmetric attribution—taking credit, pushing fault onto circumstance—protects self-esteem and control, so it is widespread, and ties to impression management since we welcome flattering explanations. The cost is weaker learning from failure: if the fault always lies outside, there's nothing to fix; when both sides self-serve, conflict escalates. Moderate self-criticism and assuming you too bear blame in a review are antidotes.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": [
+      "fundamental-attribution-error",
+      "self",
+      "halo-effect"
+    ],
+    "sources": [
+      {
+        "label": "Miller & Ross, Persona and Social Perception",
+        "year": 1975
+      }
+    ]
+  },
+  {
+    "id": "optimism-bias",
+    "term": "乐观偏差",
+    "termEn": "Optimism Bias",
+    "oneLiner": "「坏事不会轮到我」：人系统性地高估自己成功、好运的概率，低估风险。",
+    "oneLinerEn": "'It won't happen to me': people systematically overestimate their odds of success and luck while underestimating risk.",
+    "detail": "多数人自认驾驶技术高于平均、更不容易生病或离婚，创业成功率明明很低却觉得自己会是例外。这被称作「不切实际的乐观」；沙洛特（Tali Sharot）的脑成像研究显示，人面对关于自身的坏消息几乎不去更新预期，乐观因此格外顽固。适度乐观能提升动力、坚持与健康行为，是心理健康的保护因素；但极端乐观会诱使跳过体检、少买保险、低估工期与预算。对策是参考「外部视角」——用同类项目的真实分布给期望「校准」。",
+    "detailEn": "Most rate their driving above average, see illness or divorce as others' fate, and, though startup survival is low, believe they'd be the exception. This is called unrealistic optimism; Tali Sharot's brain imaging shows people barely update their predictions when bad news concerns themselves, which makes optimism stubborn. Moderate optimism lifts motivation, persistence and healthy behavior and guards wellbeing; extreme optimism skips check-ups, under-insures and under-prices time and budget. The fix is the outside view—calibrate against the real distribution of similar cases.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": [
+      "framing-effect",
+      "availability",
+      "self-efficacy"
+    ],
+    "sources": [
+      {
+        "label": "Weinstein (1980); Sharot, The Optimism Bias",
+        "year": 1980
+      }
+    ]
+  },
+  {
+    "id": "status-quo-bias",
+    "term": "现状偏差",
+    "termEn": "Status-Quo Bias",
+    "oneLiner": "明知道换个选择更好，人却倾向「什么都不改」——把任何变动都先当成损失。",
+    "oneLinerEn": "Even knowing a change would be better, people prefer to leave things as they are—reading any shift first as a loss.",
+    "detail": "塞缪尔森与泽克豪泽 1988 年命名了这一偏好：面对一组选项，只要其中一个是「当前状态」，多数人就会选它，哪怕其他选项客观上更优、且选择本身并不需要额外付出。它把损失厌恶、沉没成本与后悔规避拧在一起——改变意味着可能失去已有、又要为自己的主动选择担责，于是「不动」显得最安全。现实中它表现为不换的工作、不注销的订阅、迟迟做不了的决定。对策是把「维持现状」也当成一个需要理由的主动选择来追问：如果今天从零开始，我还会选它吗？",
+    "detailEn": "Samuelson and Zeckhauser named the preference in 1988: given a set of options, so long as one is the 'current state', most people pick it even when another is objectively better and choosing costs nothing extra. It braids loss aversion, sunk cost and regret avoidance—to change risks losing what you have and owning an active choice, so 'doing nothing' feels safest. In life it shows as the job you never switch, the subscription you never cancel, the decision you keep deferring. The fix is to treat staying put as itself an active choice needing a reason: if I started from zero today, would I still pick this?",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": [
+      "loss-aversion",
+      "endowment-effect",
+      "sunk-cost"
+    ],
+    "sources": [
+      {
+        "label": "Samuelson & Zeckhauser (1988)",
+        "year": 1988
+      }
+    ]
   }
 ]

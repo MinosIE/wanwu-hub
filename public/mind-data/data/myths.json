@@ -141,5 +141,49 @@
     "categoryEn": "Personality",
     "related": ["self", "self-efficacy", "parenting-praise"],
     "sources": [{ "label": "Baumeister et al. (2003)", "year": 2003 }]
+  },
+  {
+    "id": "introvert-shy",
+    "term": "「内向就是害羞、不善社交」",
+    "termEn": "Introversion Equals Shyness",
+    "oneLiner": "内向关乎「精力从哪来」，害羞关乎「害怕评判」——两者可以各走各的。",
+    "oneLinerEn": "Introversion is where energy comes from; shyness is fear of judgment—the two can run on separate tracks.",
+    "detail": "真相：内向（extraversion 的反面，荣格—艾森克意义上的一个维度）指人从独处与低刺激中恢复、在过多社交后耗竭；而害羞是对他人评价的焦虑，外向者同样可能害羞。二者统计相关却不同概念：一位爱演讲的外向者可能私下社恐，一位内向者也能在关心的议题上侃侃而谈。把内向误当缺陷，会催出「必须变外向」的规训；其实内向的优势在于深思、倾听与专注。来源：《安静》Susan Cain；人格特质研究。",
+    "detailEn": "Truth: introversion (the low pole of extraversion, in the Jung–Eysenck sense) means recharging in solitude and low stimulation and draining after much socializing; shyness is anxiety about evaluation, and extroverts can be shy too. The two correlate yet are distinct concepts: a gregarious speaker may panic offstage, while an introvert can hold forth on a cause they care about. Mistaking introversion for a defect breeds 'must-be-outgoing' discipline; in fact its strengths are depth, listening and focus. Source: Cain, Quiet; trait research.",
+    "category": "性格",
+    "categoryEn": "Temperament",
+    "related": [
+      "personality",
+      "big-five",
+      "self"
+    ],
+    "sources": [
+      {
+        "label": "Cain (2013), Quiet; Eysenck",
+        "year": 2013
+      }
+    ]
+  },
+  {
+    "id": "eyewitness-reliable",
+    "term": "「目击证词像录像一样可靠」",
+    "termEn": "Eyewitness Memory Is Like a Video",
+    "oneLiner": "记忆每次被回忆就重拼一次，暗示、误导与情绪都能改写它——错的目击是冤案的首要来源。",
+    "oneLinerEn": "Every recall reassembles memory; suggestion, misinformation and emotion can rewrite it—mis-ID is the top source of wrongful convictions.",
+    "detail": "真相：记忆不是回放，而是重构。洛夫特斯的实验显示，只把「撞碎（smashed）」换成「碰撞（hit）」，受试事后的速度估计就显著抬高，甚至更愿「记得」看到并不存在的碎玻璃；事后提问、 lineup 程序与同伴意见都会污染证词。情绪强烈也不会让记忆更准——闪光灯记忆主观鲜活，客观未必可靠。冤案平反统计中，误认是错误定罪的最大单一因素。改进靠双盲主持 lineup、先记录置信度、限制暗示性提问。来源： Loftus & Palmer (1974)。",
+    "detailEn": "Truth: memory is reconstruction, not playback. Loftus showed that merely swapping 'smashed' for 'hit' in a question raised people's later speed estimates and even their false 'memory' of nonexistent broken glass; post-event questions, lineup procedure and peers all contaminate testimony. Strong emotion doesn't sharpen it—flashbulb memories feel vivid yet can miss. Misidentification is the single largest contributor to overturned wrongful convictions. Fixes: double-blind lineups, confidence recorded upfront, and limiting suggestive questioning. Source: Loftus & Palmer (1974).",
+    "category": "记忆",
+    "categoryEn": "Memory",
+    "related": [
+      "loftus-eyewitness",
+      "memory",
+      "forgetting-curve"
+    ],
+    "sources": [
+      {
+        "label": "Loftus & Palmer (1974)",
+        "year": 1974
+      }
+    ]
   }
 ]

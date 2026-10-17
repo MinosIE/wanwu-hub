@@ -529,5 +529,197 @@
         "year": 1984
       }
     ]
+  },
+  {
+    "id": "carl-jung",
+    "name": "卡尔·荣格",
+    "nameEn": "Carl Jung",
+    "era": "1875–1961",
+    "field": "精神分析 · 分析心理学",
+    "fieldEn": "Psychoanalysis & analytical psychology",
+    "oneLiner": "从弗洛伊德出走后自成一派：提出集体无意识、原型与内外倾，把神话、宗教与象征纳入心理地图。",
+    "oneLinerEn": "After breaking with Freud he founded his own school: the collective unconscious, archetypes and introversion–extraversion, mapping myth, religion and symbol onto psychology.",
+    "detail": "荣格早年被视为弗洛伊德的继承人，后因分歧另立分析心理学。他认为无意识之下还有一层人类共有的「集体无意识」，其中沉淀着反复出现的「原型」——如人格面具、阴影、阿尼玛/阿尼姆斯与自性；人一生的任务是「个体化」，即把这些对立的部分整合为完整自我。他提出的内倾与外倾，成为后世人格测验（含 MBTI）的源头。批评者指其概念模糊、难以实证，近乎神秘主义，但他对文化、艺术与人生意义的洞见影响深远。",
+    "detailEn": "Once seen as Freud's heir, Jung split off to found analytical psychology. He held that beneath the personal unconscious lies a shared collective unconscious, seeded with recurring archetypes—the persona, the shadow, the anima/animus and the self; life's task is individuation, integrating these opposing parts into a whole self. His introversion and extraversion became the root of later type tests (including MBTI). Critics find his concepts vague, hard to test and near-mystical, yet his insights into culture, art and meaning run deep.",
+    "keyIdeas": [
+      "集体无意识",
+      "原型",
+      "内倾与外倾",
+      "个体化"
+    ],
+    "keyIdeasEn": [
+      "Collective unconscious",
+      "Archetypes",
+      "Introversion & extraversion",
+      "Individuation"
+    ],
+    "works": [
+      "《心理类型》",
+      "《原型与集体无意识》"
+    ],
+    "worksEn": [
+      "Psychological Types",
+      "The Archetypes and the Collective Unconscious"
+    ],
+    "related": [
+      "personality",
+      "id-ego-superego",
+      "psychoanalysis",
+      "mbti"
+    ],
+    "tags": [
+      "人格",
+      "临床"
+    ],
+    "sources": [
+      {
+        "label": "Jung, Collected Works",
+        "year": 1953
+      }
+    ]
+  },
+  {
+    "id": "alfred-adler",
+    "name": "阿尔弗雷德·阿德勒",
+    "nameEn": "Alfred Adler",
+    "era": "1870–1937",
+    "field": "个体心理学",
+    "fieldEn": "Individual psychology",
+    "oneLiner": "把焦点从性驱力转向「自卑感与超越」：人终其一生在补偿弱小，追求归属与价值。",
+    "oneLinerEn": "Shifted the drive from sex to inferiority and striving: a life spent compensating weakness and seeking belonging and worth.",
+    "detail": "阿德勒早年患佝偻病、体弱多病，这份切身经验塑成他的核心概念「自卑感」与对其的「补偿/超越」。他反对弗洛伊德的泛性论，认为人受社会兴趣与目标牵引，而非过去的原因；提出「生活风格」——每人幼年形成的独特追求模式，以及「虚构目标」对人的引导。他首创「自卑情结」这一日常语汇，也重视出生顺序与家庭教养，是自助运动、认知行为疗法与积极心理学的先行者。批评在于其理论可证伪性弱、概念边界宽泛。",
+    "detailEn": "Sickly and frail in childhood, Adler turned that experience into his core ideas of inferiority feeling and compensation/striving. Against Freud's pan-sexualism he saw people pulled by social interest and goals rather than pushed by the past, proposing the lifestyle—each person's unique pursuit formed in early years—and the guiding fiction of a final goal. He coined the popular term inferiority complex, stressed birth order and parenting, and foreshadowed self-help, CBT and positive psychology; the critique is that his theory is weakly falsifiable and its concepts loosely bounded.",
+    "keyIdeas": [
+      "自卑与超越",
+      "社会兴趣",
+      "生活风格",
+      "出生顺序"
+    ],
+    "keyIdeasEn": [
+      "Inferiority & striving",
+      "Social interest",
+      "Lifestyle",
+      "Birth order"
+    ],
+    "works": [
+      "《自卑与人格》",
+      "《生活的科学》"
+    ],
+    "worksEn": [
+      "Inferiority and Personality",
+      "The Science of Living"
+    ],
+    "related": [
+      "personality",
+      "self",
+      "self-efficacy",
+      "motivation"
+    ],
+    "tags": [
+      "人格",
+      "临床"
+    ],
+    "sources": [
+      {
+        "label": "Adler, What Life Should Mean to You",
+        "year": 1931
+      }
+    ]
+  },
+  {
+    "id": "jerome-bruner",
+    "name": "杰罗姆·布鲁纳",
+    "nameEn": "Jerome Bruner",
+    "era": "1915–2016",
+    "field": "认知 · 教育心理",
+    "fieldEn": "Cognitive & educational psychology",
+    "oneLiner": "学习不是被动接收而是主动建构：任何学科都能以「脚手架」和三种表征，教给任何年龄的孩子。",
+    "oneLinerEn": "Learning is active construction: any subject can be taught to any child at any age through scaffolding and three modes of representation.",
+    "detail": "布鲁纳是认知革命与教育心理的关键人物。他主张人以「动作—图像—符号」三种表征逐步理解世界，提倡「发现学习」——让学生自己组织知识而非死记结论；提出「脚手架」（近期发展区内的临时支持，随能力增长而撤除，与维果茨基相通）这一影响深远的教学隐喻。他相信文化的叙事方式塑造心智，晚年转向文化心理学。批评指「发现学习」若缺乏指导，对新手效率不高，后世研究更支持适度直接教学。",
+    "detailEn": "Bruner was a key figure in the cognitive revolution and educational psychology. He held that people make sense of the world through enactive, iconic and symbolic representation; championed discovery learning—pupils organizing knowledge themselves rather than memorizing conclusions—and coined the far-reaching teaching metaphor of scaffolding (temporary support within the zone of proximal development, faded as skill grows, echoing Vygotsky). Late in life he turned to cultural psychology, arguing narrative shapes mind. Critics note discovery learning is inefficient for novices without guidance; later work favors guided instruction.",
+    "keyIdeas": [
+      "三种表征",
+      "发现学习",
+      "脚手架",
+      "叙事心智"
+    ],
+    "keyIdeasEn": [
+      "Three representations",
+      "Discovery learning",
+      "Scaffolding",
+      "Narrative mind"
+    ],
+    "works": [
+      "《教育过程》",
+      "《意义的行为研究》"
+    ],
+    "worksEn": [
+      "The Process of Education",
+      "A Study of Thinking"
+    ],
+    "related": [
+      "schema",
+      "zpd",
+      "learning",
+      "vygotsky"
+    ],
+    "tags": [
+      "认知",
+      "教育"
+    ],
+    "sources": [
+      {
+        "label": "Bruner, The Process of Education",
+        "year": 1960
+      }
+    ]
+  },
+  {
+    "id": "amos-tversky",
+    "name": "阿莫斯·特沃斯基",
+    "nameEn": "Amos Tversky",
+    "era": "1937–1996",
+    "field": "认知 · 行为决策",
+    "fieldEn": "Cognitive & behavioral decision",
+    "oneLiner": "与卡尼曼并肩，用启发式与偏差、前景理论证明「理性人」只是一种便利的幻觉。",
+    "oneLinerEn": "Side by side with Kahneman, he used heuristics, biases and prospect theory to show 'the rational agent' is a convenient fiction.",
+    "detail": "特沃斯基是决策认知研究的天才，与卡尼曼组成心理学史上最富成果的搭档之一。1974 年二人系统提出人靠代表性、可得性等「启发式」快速判断，因而带来系统而可预测的偏差；后来又共创前景理论，用参照点、损失厌恶与概率加权解释人在风险下的真实选择。可惜他于 1996 年因病早逝，未能与卡尼曼一同领取 2002 年的诺贝尔经济学奖，这也成为该奖「只授予在世者」规则下最著名的遗憾之一。",
+    "detailEn": "Tversky was a prodigy of decision research and formed one of psychology's most productive duets with Kahneman. In 1974 they laid out how people judge fast by heuristics—representativeness, availability—yielding systematic, predictable biases; later they co-created prospect theory, explaining real choice under risk via a reference point, loss aversion and probability weighting. He died of illness in 1996 and so could not share the 2002 economics Nobel with Kahneman—one of the most cited regrets under the prize's living-recipient rule.",
+    "keyIdeas": [
+      "代表性启发式",
+      "可得性启发式",
+      "前景理论",
+      "框架效应"
+    ],
+    "keyIdeasEn": [
+      "Representativeness",
+      "Availability heuristic",
+      "Prospect theory",
+      "Framing effect"
+    ],
+    "works": [
+      "《不确定下的判断》",
+      "前景理论（1979 论文）"
+    ],
+    "worksEn": [
+      "Judgment Under Uncertainty",
+      "Prospect Theory (1979 paper)"
+    ],
+    "related": [
+      "kahneman",
+      "anchoring",
+      "availability",
+      "framing-effect"
+    ],
+    "tags": [
+      "认知",
+      "决策"
+    ],
+    "sources": [
+      {
+        "label": "Tversky & Kahneman, Judgment Under Uncertainty",
+        "year": 1974
+      }
+    ]
   }
 ]

@@ -295,5 +295,80 @@
         "year": 1968
       }
     ]
+  },
+  {
+    "id": "sherif-robbers-cave",
+    "term": "强盗洞穴实验（夏令营冲突）",
+    "termEn": "The Robbers Cave Experiment",
+    "year": 1954,
+    "oneLiner": "把两群男孩分成两队、只制造竞争与摩擦，偏见与敌意便凭空而生；再靠共同目标才化解。",
+    "oneLinerEn": "Split boys into two camps, add only competition and friction, and prejudice and hostility arise; only shared goals undo them.",
+    "detail": "谢里夫在俄克拉荷马的夏令营把 22 名素不相识的男孩分两组，先各自活动建立团队认同，再安排体育竞赛争夺奖杯——很快，组内凝聚、组外贬损、甚至偷旗斗殴接连上演。研究者并未制造资源稀缺或旧怨，仅仅是「我们 vs 他们」的竞争结构就足以催生歧视。随后引入必须两队合力才完成的目标（一起推抛锚的车、共用供水），冲突才明显缓解。它成为「现实冲突理论」的经典例证：群体敌意多源于竞争的利益结构，而非性格本身。",
+    "detailEn": "At an Oklahoma camp Sherif split 22 unfamiliar boys into two groups, first building each team's identity, then staging contests for a trophy—in-group bonding and out-group name-calling, even theft and brawls, quickly followed. No old feud or true scarcity was manufactured: the mere competition structure of 'us versus them' was enough to breed bias. Only when goals forced cooperation—together push a stalled truck, share the water supply—did conflict ease. It is the classic case for realistic-conflict theory: intergroup hostility stems largely from competing interests, not character.",
+    "ethics": "刻意点燃真实敌意、存在伤害风险，已属今日伦理审查难以批准的范式；但它深刻揭示偏见的可塑，价值极高。",
+    "ethicsEn": "Deliberately igniting real hostility carried harm risk and the design would today struggle to clear ethics review; yet it powerfully revealed how plastic prejudice is.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": [
+      "deindividuation",
+      "group-polarization",
+      "asch-conformity"
+    ],
+    "sources": [
+      {
+        "label": "Sherif et al., Group Conflict and Co-operation",
+        "year": 1961
+      }
+    ]
+  },
+  {
+    "id": "rosenhan-pseudo",
+    "term": "假病人实验（清醒地住进疯人院）",
+    "termEn": "On Being Sane in Insane Places",
+    "year": 1973,
+    "oneLiner": "正常人谎称幻听混入精神病院后，一旦被贴上标签，连「记笔记」都被记为症状——标签扭曲了知觉。",
+    "oneLinerEn": "Healthy people faked hallucinations to enter psychiatric wards; once labeled, even taking notes was charted as a symptom—labels warp perception.",
+    "detail": "罗森汉派 8 名身心健全者到 12 家医院假装听到「empty」「thud」之类的低语，除首句外全部如实作答，入院后立刻停演。结果 7 人被收住院，平均滞留近三周，医护人员无一察觉其为假；他们的正常行为反被病理化（「写作冲动」被记为症状）。而另一回合，医院被告知「近期可能有假病人」，医生却把大量真实病人误判为「试探者」——过度警惕同样失灵。文章引爆对精神诊断的效度、去污名与「标签效应」的长期争论，也推动了诊断标准的操作化改革。",
+    "detailEn": "Rosenhan sent eight sane people to twelve hospitals, feigning a whispered 'empty' or 'thud' and answering everything else truthfully; admitted, they dropped the act. Seven were kept for an average of nearly three weeks, staff never detecting the fraud, and their normal behavior was pathologized (note-taking charted as an 'writing compulsion'). In a second round, told that pseudopatients 'might' come, doctors instead flagged many genuine patients as probes—over-suspicion failed too. The paper ignited lasting debate over diagnostic validity, stigma and labeling, and pushed operational reform of diagnostic criteria.",
+    "ethics": "以欺骗入院、占用真实床位，本身极具伦理争议；但正是这种设计暴露了制度的盲区。",
+    "ethicsEn": "Gaining admission by deception and occupying real beds was itself ethically fraught; yet precisely that design exposed the institution's blind spots.",
+    "category": "认知",
+    "categoryEn": "Cognition",
+    "related": [
+      "confirmation-bias",
+      "schema",
+      "anxiety-disorders"
+    ],
+    "sources": [
+      {
+        "label": "Rosenhan, On Being Sane in Insane Places",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "id": "sperry-split-brain",
+    "term": "裂脑实验（切断胼胝体）",
+    "termEn": "Split-Brain Studies",
+    "year": 1968,
+    "oneLiner": "切断连接两半球的神经桥梁后，每半边大脑各有其「所知」，甚至互相拆台——意识可以分裂。",
+    "oneLinerEn": "Cut the bridge between the hemispheres and each half 'knows' its own, even undermining the other—consciousness can divide.",
+    "detail": "斯佩里与加扎尼加研究一群为治癫痫而切断胼胝体的患者。因左右视野分别传入对侧半球，信息可被定向送进单侧：让「苹果」只进右半球，患者口头说不出（语言多在左脑），左手却能从一堆物中准确挑出苹果，若要求左手再写也困难。更耐人寻味的是「解释器」现象：左脑会为并不知情的右脑行为编造合理理由。这些发现证明半球功能偏侧化、并追问「一个自我」的统一性，斯佩里因此获 1981 年诺贝尔生理学或医学奖。",
+    "detailEn": "Sperry and Gazzaniga studied epilepsy patients whose corpus callosum had been cut. Since each visual field feeds the opposite hemisphere, information could be sent to one side: show 'apple' only to the right hemisphere and the patient can't say it (language sits left) yet the left hand picks out the apple by touch, though that hand struggles to write it. Even more telling is the 'interpreter': the left brain fabricates reasons for acts the right side knew about. The work proved hemispheric specialization and probed the unity of the self; Sperry won the 1981 Nobel in physiology or medicine.",
+    "ethics": "研究对象是已因医疗需要接受手术的患者，实验本身为观察与测试；争议在于早年此类手术适应证与知情是否充分。",
+    "ethicsEn": "Subjects were patients already operated for medical need, studied by observation and testing; debate centers on whether the early surgery's indications and consent were adequate.",
+    "category": "神经",
+    "categoryEn": "Neuroscience",
+    "related": [
+      "consciousness",
+      "neuroplasticity",
+      "memory"
+    ],
+    "sources": [
+      {
+        "label": "Sperry (1968); Gazzaniga, The Bisected Brain",
+        "year": 1968
+      }
+    ]
   }
 ]
