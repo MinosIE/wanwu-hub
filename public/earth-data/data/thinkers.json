@@ -446,5 +446,226 @@
       }
     ],
     "related": ["mediterranean", "nile", "suez"]
+  },
+  {
+    "id": "yi-fu-tuan",
+    "name": "段义孚",
+    "nameEn": "Yi-Fu Tuan",
+    "life": "1930—",
+    "lifeEn": "b. 1930",
+    "country": "美籍华裔",
+    "countryEn": "Chinese-American",
+    "school": "人文主义地理学",
+    "schoolEn": "Humanistic geography",
+    "level": 3,
+    "oneLiner": "把地理学带回「人的感受」：抽象空间被赋予意义才成为「地方」，人对土地的爱与惧值得一再研究。",
+    "oneLinerEn": "He brought feeling back into geography: abstract space becomes 'place' only when laden with meaning, and people's love of and dread toward the land deserve study.",
+    "bio": "明尼苏达大学教授，人文主义地理学的奠基人之一。他反对把地理简化为数字与模型，主张研究人如何体验、并赋予地方以意义：冰冷的「空间」经由情感与记忆的投注，化为有归属感的「地方」；「恋地情结（topophilia）」是人对环境的依恋之爱，「恐惧之地」则相反。他关注身体、家园、尺度与时间如何层层编织出「地方感」，让地理学重新与文学、现象学和心理学对话，也深刻影响了关于归属感、家园与环境感知的研究。",
+    "bioEn": "A professor at the University of Minnesota and a founder of humanistic geography. Against reducing geography to numbers and models, he studied how people experience and endow places with meaning: cold 'space' turns into a belonging-laden 'place' through the investment of feeling and memory, while 'topophilia' names our love of the environment and feared places its inverse. Attending to how body, home, scale and time weave a sense of place, he reopened geography's dialogue with literature, phenomenology and psychology and deeply shaped the study of belonging, home and environmental perception.",
+    "ideas": [
+      {
+        "k": "恋地情结",
+        "kEn": "Topophilia",
+        "v": "人对自然环境的多重依恋之爱，从感官愉悦到精神归属。",
+        "vEn": "People's layered love of the natural environment, from sensory delight to spiritual belonging."
+      },
+      {
+        "k": "地方与空间",
+        "kEn": "Place and space",
+        "v": "空间经体验与赋义而成人所依附的「地方」。",
+        "vEn": "Space, lived and endowed with meaning, becomes the 'place' people cling to."
+      },
+      {
+        "k": "家园尺度",
+        "kEn": "Home & scale",
+        "v": "从身体、居所到社区与宇宙，层层展开的意义圈。",
+        "vEn": "From body and dwelling to community and cosmos, concentric circles of meaning."
+      }
+    ],
+    "works": [
+      {
+        "title": "恋地情结",
+        "titleEn": "Topophilia",
+        "year": 1974
+      },
+      {
+        "title": "空间与地方：经验的视角",
+        "titleEn": "Space and Place: The Perspective of Experience",
+        "year": 1977
+      }
+    ],
+    "quotes": [
+      {
+        "q": "地方是被注入了意义的空间。",
+        "qEn": "A place is space that has been filled with meaning."
+      }
+    ],
+    "related": [
+      "cultural-regions",
+      "human-land",
+      "humboldt"
+    ]
+  },
+  {
+    "id": "alfred-wegener",
+    "name": "阿尔弗雷德·魏格纳",
+    "nameEn": "Alfred Wegener",
+    "life": "1880—1930",
+    "lifeEn": "1880–1930",
+    "country": "德国",
+    "countryEn": "Germany",
+    "school": "气象与地球物理",
+    "schoolEn": "Meteorology & geophysics",
+    "level": 3,
+    "oneLiner": "以气象学家之身撼动地质学：大陆如浮筏漂移，曾拼合为一块「泛大陆」——生前见斥，身后成范式。",
+    "oneLinerEn": "A meteorologist who shook geology: continents drift like rafts and once joined as one 'Pangaea'—rejected in his life, vindicated as a paradigm after.",
+    "bio": "德国气象与地球物理学家。1912 年他据大西洋两岸海岸线的吻合、相同古生物与植物化石的跨洋分布、以及古冰川遗迹的对应，提出「大陆漂移说」：远古大陆曾连为「泛大陆（Pangaea）」，其后裂解、漂移至今位。因当时无法说明漂移的动力来源，此说长期被地质学界斥为异想天开；直到 1960 年代海底扩张与板块构造论确立，他的直觉才被证实，奉为先驱。1930 年他殉职于格陵兰冰原考察。",
+    "bioEn": "A German meteorologist and geophysicist. In 1912, from the fit of the coastlines on either side of the Atlantic, the trans-oceanic match of identical fossils and the correspondence of ancient glacial traces, he proposed continental drift: the landmasses once formed a single 'Pangaea' that later split and moved apart. Unable to name the force that drove them, the idea was long dismissed by geologists as fantasy; only in the 1960s, with seafloor spreading and plate tectonics, was his intuition confirmed and honored as prophetic. He died on a Greenland ice-field expedition in 1930.",
+    "ideas": [
+      {
+        "k": "大陆漂移",
+        "kEn": "Continental drift",
+        "v": "大陆并非固定，而是在地幔上缓慢横向移动。",
+        "vEn": "Continents are not fixed but creep sideways over the mantle."
+      },
+      {
+        "k": "泛大陆",
+        "kEn": "Pangaea",
+        "v": "所有大陆曾拼合为一整块，后逐级裂解分离。",
+        "vEn": "All land once joined a single mass that later broke stepwise apart."
+      },
+      {
+        "k": "跨洋证据",
+        "kEn": "Trans-ocean evidence",
+        "v": "海岸拟合、相同化石与冰川遗迹共同指向曾经相连。",
+        "vEn": "Fitting coasts, matching fossils and glacial relics all point to past union."
+      }
+    ],
+    "works": [
+      {
+        "title": "海陆的起源",
+        "titleEn": "The Origin of Continents and Oceans",
+        "year": 1915
+      }
+    ],
+    "quotes": [
+      {
+        "q": "大陆并非固定，而是漂移开去。",
+        "qEn": "The continents are not fixed but have drifted apart."
+      }
+    ],
+    "related": [
+      "continental-drift",
+      "plate-tectonics",
+      "humboldt"
+    ]
+  },
+  {
+    "id": "halford-mackinder",
+    "name": "哈尔福德·麦金德",
+    "nameEn": "Halford Mackinder",
+    "life": "1856—1932",
+    "lifeEn": "1856–1932",
+    "country": "英国",
+    "countryEn": "Britain",
+    "school": "地缘政治学",
+    "schoolEn": "Geopolitics",
+    "level": 3,
+    "oneLiner": "「谁主宰心脏地带，谁就统治世界岛」——把地理权力写进大国战略的经典地缘政治学家。",
+    "oneLinerEn": "'Who rules the Heartland commands the World-Island'—the classic geopolitician who wrote geographic power into grand strategy.",
+    "bio": "英国地理学家与政治学者，地缘政治学的奠基人之一。1904 年论文《历史的地理枢纽》提出「心脏地带（Heartland）」：欧亚大陆腹心那片海洋权力难以企及的平原，随铁路的机动能力而崛起为陆权的源头，并留下著名推论——统治东欧者主宰心脏地带，主宰心脏地带者主宰「世界岛」（欧亚非），主宰世界岛者主宰世界。他的陆权思想深刻塑造了二十世纪对德、俄战略的想象，也因「地理决定」的色彩而广受批评。",
+    "bioEn": "A British geographer and political scholar, a founder of geopolitics. His 1904 paper The Geographical Pivot of History posited the 'Heartland'—the sea-power-inaccessible plains of Eurasia's core, rising as the fount of land power with the mobility of rail—and left the famous chain: who rules Eastern Europe commands the Heartland, who rules the Heartland commands the 'World-Island' (Eurasia-Africa), who rules the World-Island commands the world. His land-power vision deeply shaped twentieth-century strategic thinking about Germany and Russia, and was much criticized for its geographic determinism.",
+    "ideas": [
+      {
+        "k": "心脏地带",
+        "kEn": "Heartland",
+        "v": "欧亚腹心的陆权堡垒，海权难以直接控制。",
+        "vEn": "The land-power citadel of Eurasia's interior, hard for sea power to reach."
+      },
+      {
+        "k": "陆权与海权",
+        "kEn": "Land vs. sea power",
+        "v": "机动技术决定大陆腹地与海洋边缘的此消彼长。",
+        "vEn": "Mobility tech sets the rise and fall of the continental core and maritime rim."
+      },
+      {
+        "k": "世界岛",
+        "kEn": "World-Island",
+        "v": "欧亚非连成一体的巨大陆块，是人类文明的重心。",
+        "vEn": "The joined mass of Eurasia-Africa, the weight-center of world history."
+      }
+    ],
+    "works": [
+      {
+        "title": "历史的地理枢纽",
+        "titleEn": "The Geographical Pivot of History",
+        "year": 1904
+      }
+    ],
+    "quotes": [
+      {
+        "q": "谁统治东欧，谁就主宰心脏地带。",
+        "qEn": "Who rules East Europe commands the Heartland."
+      }
+    ],
+    "related": [
+      "political-geography",
+      "globalization",
+      "economic-development"
+    ]
+  },
+  {
+    "id": "carl-ritter",
+    "name": "卡尔·李特尔",
+    "nameEn": "Carl Ritter",
+    "life": "1779—1859",
+    "lifeEn": "1779–1859",
+    "country": "德国",
+    "countryEn": "Germany",
+    "school": "现代地理学奠基",
+    "schoolEn": "Founding of modern geography",
+    "level": 3,
+    "oneLiner": "与洪堡并肩使地理学成为独立学科：以「区域」为单位，追问地球如何成为人类的家园。",
+    "oneLinerEn": "Beside Humboldt he made geography a discipline in its own right—working region by region to ask how the earth became humankind's home.",
+    "bio": "德国地理学家、柏林大学首任地理学教授，常与洪堡并列为现代地理学奠基人。若说洪堡偏重「通用／自然」地理，李特尔则专注「地志／区域」与人和地的关系，主张把地球当作人类历史的舞台来比较研究，强调一方之内自然与人文现象的相互关联。其多卷巨著《地理学——地球与人类历史的关系》系统比较各大洲，被视为「人地关系」思想的重要源头；其论述亦带有目的论与神学色彩，为后世所批评。",
+    "bioEn": "A German geographer and the first professor of geography at Berlin, ranked with Humboldt as a founder of modern geography. Where Humboldt leaned toward general/physical geography, Ritter focused on regional chorography and the human–land bond, treating the earth as the stage of human history to be studied comparatively and stressing the interconnection of natural and human phenomena within each region. His voluminous Geography set out to compare the world's continents and is seen as a key source of human-land thinking, though its teleological and theological coloring drew later criticism.",
+    "ideas": [
+      {
+        "k": "区域／地志法",
+        "kEn": "Regional method",
+        "v": "以区域为单位，比较各地球体独特的自然—人文关联。",
+        "vEn": "Taking regions as units, comparing each land's unique nature–culture web."
+      },
+      {
+        "k": "人地关系",
+        "kEn": "Human–land relation",
+        "v": "自然塑造人居与历史，地理是「家园」的科学。",
+        "vEn": "Nature molds settlement and history; geography is the science of home."
+      },
+      {
+        "k": "比较地理",
+        "kEn": "Comparative geography",
+        "v": "在各大洲的对照中归纳地球与人互动的规律。",
+        "vEn": "Gathering the laws of earth–human interaction across the continents."
+      }
+    ],
+    "works": [
+      {
+        "title": "地理学——地球与人类历史的关系",
+        "titleEn": "Die Erdkunde",
+        "year": 1822
+      }
+    ],
+    "quotes": [
+      {
+        "q": "地球是人类历史的舞台。",
+        "qEn": "The earth is the stage of human history."
+      }
+    ],
+    "related": [
+      "human-land",
+      "cultural-regions",
+      "humboldt"
+    ]
   }
 ]

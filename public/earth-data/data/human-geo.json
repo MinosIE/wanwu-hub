@@ -622,5 +622,184 @@
         "year": 1987
       }
     ]
+  },
+  {
+    "id": "central-place-theory",
+    "title": "中心地理论",
+    "titleEn": "Central Place Theory",
+    "icon": "🎯",
+    "category": "城市",
+    "categoryEn": "Urban",
+    "level": 3,
+    "order": 13,
+    "lead": "城镇作为腹地的服务「中心地」，其数量、规模与间距呈规律层级——克里斯塔勒以六边形市场区解释「多少个、多大、隔多远」。",
+    "leadEn": "Towns serve as 'central places' for their hinterlands; their number, size and spacing fall into a regular hierarchy—Christaller explained 'how many, how big, how far apart' with hexagonal market areas.",
+    "points": [
+      {
+        "k": "门槛与范围",
+        "kEn": "Threshold & range",
+        "v": "每项服务都需最小需求门槛，也有最大可达距离。",
+        "vEn": "Each service needs a minimum demand threshold and has a maximum reach."
+      },
+      {
+        "k": "六边形市场区",
+        "kEn": "Hexagonal regions",
+        "v": "圆形腹地会留下空隙，六边形恰好无缝铺满空间。",
+        "vEn": "Circular hinterlands leave gaps; hexagons tile space seamlessly."
+      },
+      {
+        "k": "等级体系",
+        "kEn": "Hierarchy",
+        "v": "高级中心供稀有商品、辐射广；低级中心密布而日常。",
+        "vEn": "High-order places offer rare goods over wide areas; low-order ones are dense and everyday."
+      }
+    ],
+    "related": [
+      "urbanization",
+      "settlement-patterns",
+      "commercial-trade",
+      "transport-networks"
+    ],
+    "sources": [
+      {
+        "label": "克里斯塔勒《德国南部的中心地》",
+        "labelEn": "Christaller, Central Places in Southern Germany",
+        "year": 1933
+      }
+    ]
+  },
+  {
+    "id": "demographic-transition",
+    "title": "人口转型",
+    "titleEn": "Demographic Transition",
+    "icon": "📉",
+    "category": "人口",
+    "categoryEn": "Population",
+    "level": 3,
+    "order": 14,
+    "lead": "社会从高出生、高死亡，经死亡率先降、生育随后跟进，走向低生低的现代人口格局——既解释了人口爆炸，也解释了老龄化。",
+    "leadEn": "Societies pass from high birth and death rates, through deaths falling first and births following, to a low–low modern regime—explaining both the population explosion and aging.",
+    "points": [
+      {
+        "k": "阶段模型",
+        "kEn": "Stages",
+        "v": "高高低→死亡先降的爆增→生育跟进下降→现代低低。",
+        "vEn": "High–high → surge as deaths fall → births follow down → modern low–low."
+      },
+      {
+        "k": "人口红利",
+        "kEn": "Demographic dividend",
+        "v": "抚养比下降、劳动人口占比升高的黄金窗口。",
+        "vEn": "A window when the working-age share swells as dependents shrink."
+      },
+      {
+        "k": "老化与少子",
+        "kEn": "Aging & low fertility",
+        "v": "生育长期低于更替水平，引发老龄化与养老金压力。",
+        "vEn": "Fertility below replacement for a generation brings aging and pension strain."
+      }
+    ],
+    "related": [
+      "population-distribution",
+      "economic-development",
+      "urbanization"
+    ],
+    "sources": [
+      {
+        "label": "汤普森、诺特斯坦的人口转型理论",
+        "labelEn": "Thompson & Notestein, Demographic Transition Theory",
+        "year": 1944
+      }
+    ]
+  },
+  {
+    "id": "core-periphery",
+    "title": "中心—外围结构",
+    "titleEn": "Core–Periphery",
+    "icon": "🧭",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 3,
+    "order": 15,
+    "lead": "财富与权力向「中心」集聚，「外围」供原料、输人才并依附于中心——用以解释区域之间与国家之间的不平等。",
+    "leadEn": "Wealth and power pool in the 'core' while the 'periphery' supplies raw materials and talent and stays dependent—used to explain inequality between regions and nations.",
+    "points": [
+      {
+        "k": "集聚与回波",
+        "kEn": "Agglomeration & backwash",
+        "v": "优势累积使边缘的价值回流中心（扩散效应 vs 回波效应）。",
+        "vEn": "Cumulative advantage drains value from the margin to the core (spread vs. backwash effects)."
+      },
+      {
+        "k": "不平等交换",
+        "kEn": "Unequal exchange",
+        "v": "外围出口初级品、进口高值品，贸易条件长期不利。",
+        "vEn": "The periphery exports primaries and imports high-value goods on worsening terms."
+      },
+      {
+        "k": "世界体系",
+        "kEn": "World-systems",
+        "v": "沃勒斯坦把全球划为中心—半边缘—边缘的分工体系。",
+        "vEn": "Wallerstein mapped a global core–semi-periphery–periphery division of labor."
+      }
+    ],
+    "related": [
+      "economic-development",
+      "globalization",
+      "commercial-trade",
+      "political-geography"
+    ],
+    "sources": [
+      {
+        "label": "赫希曼、弗里德曼；沃勒斯坦《现代世界体系》",
+        "labelEn": "Hirschman & Friedman; Wallerstein, The Modern World-System",
+        "year": 1974
+      }
+    ]
+  },
+  {
+    "id": "gentrification",
+    "title": "绅士化（中产化）",
+    "titleEn": "Gentrification",
+    "icon": "🏗️",
+    "category": "城市",
+    "categoryEn": "Urban",
+    "level": 3,
+    "order": 16,
+    "lead": "中产回流老城破败街区，翻新推高租金与房价，原住民与小店被挤出——城市复兴与人口置换并存的悖论。",
+    "leadEn": "Middle classes move back into decayed inner-city districts; renovation lifts rents and prices and displaces long-time residents and small shops—a renewal entangled with replacement.",
+    "points": [
+      {
+        "k": "驱动",
+        "kEn": "Drivers",
+        "v": "中心城区的区位价值、生活方式偏好、资本与政策共同促成。",
+        "vEn": "Inner-city location value, lifestyle taste, capital and policy converge."
+      },
+      {
+        "k": "置换效应",
+        "kEn": "Displacement",
+        "v": "租金上涨迫使低收入者与老商户外迁，社区网络断裂。",
+        "vEn": "Rising rents push out low-income residents and old businesses, severing community ties."
+      },
+      {
+        "k": "争议",
+        "kEn": "The debate",
+        "v": "是衰区重生、税基扩大，还是加剧不公的「空间清洗」？",
+        "vEn": "Regeneration and a wider tax base—or deepened inequity, a 'spatial cleansing'?"
+      }
+    ],
+    "related": [
+      "urbanization",
+      "settlement-patterns",
+      "economic-development",
+      "cultural-regions"
+    ],
+    "sources": [
+      {
+        "label": "露丝·格拉斯（1964 年提出术语）",
+        "labelEn": "Ruth Glass (who coined the term, 1964)",
+        "year": 1964
+      }
+    ]
   }
 ]

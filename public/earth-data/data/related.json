@@ -391,6 +391,34 @@
       "nEn": "Eratosthenes"
     }
   ],
+  "yi-fu-tuan": [
+    {
+      "m": "m-thinkers",
+      "n": "段义孚",
+      "nEn": "Yi-Fu Tuan"
+    }
+  ],
+  "alfred-wegener": [
+    {
+      "m": "m-thinkers",
+      "n": "阿尔弗雷德·魏格纳",
+      "nEn": "Alfred Wegener"
+    }
+  ],
+  "halford-mackinder": [
+    {
+      "m": "m-thinkers",
+      "n": "哈尔福德·麦金德",
+      "nEn": "Halford Mackinder"
+    }
+  ],
+  "carl-ritter": [
+    {
+      "m": "m-thinkers",
+      "n": "卡尔·李特尔",
+      "nEn": "Carl Ritter"
+    }
+  ],
   "continental-drift": [
     {
       "m": "m-principles",
@@ -550,6 +578,34 @@
       "m": "m-human-geo",
       "n": "人地关系与可持续发展",
       "nEn": "Human-Land Relations and Sustainability"
+    }
+  ],
+  "central-place-theory": [
+    {
+      "m": "m-human-geo",
+      "n": "中心地理论",
+      "nEn": "Central Place Theory"
+    }
+  ],
+  "demographic-transition": [
+    {
+      "m": "m-human-geo",
+      "n": "人口转型",
+      "nEn": "Demographic Transition"
+    }
+  ],
+  "core-periphery": [
+    {
+      "m": "m-human-geo",
+      "n": "中心—外围结构",
+      "nEn": "Core–Periphery"
+    }
+  ],
+  "gentrification": [
+    {
+      "m": "m-human-geo",
+      "n": "绅士化（中产化）",
+      "nEn": "Gentrification"
     }
   ]
 }
