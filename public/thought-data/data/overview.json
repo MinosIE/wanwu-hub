@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
   "counts": {
-    "schools": 20,
+    "schools": 22,
     "questions": 15,
-    "branches": 11,
+    "branches": 12,
     "classics": 16,
-    "thinkers": 29,
+    "thinkers": 34,
     "glossary": 30,
     "timeline": 25,
     "experiments": 14,
@@ -13,9 +13,25 @@
     "myths": 18
   },
   "kpis": [
-    { "key": "schools", "icon": "🏛️", "value": 20 },
-    { "key": "thinkers", "icon": "👤", "value": 29 },
-    { "key": "classics", "icon": "📜", "value": 16 },
-    { "key": "questions", "icon": "❓", "value": 15 }
+    {
+      "key": "schools",
+      "icon": "🏛️",
+      "value": 22
+    },
+    {
+      "key": "thinkers",
+      "icon": "👤",
+      "value": 34
+    },
+    {
+      "key": "classics",
+      "icon": "📜",
+      "value": 16
+    },
+    {
+      "key": "questions",
+      "icon": "❓",
+      "value": 15
+    }
   ]
 }

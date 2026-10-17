@@ -504,5 +504,57 @@
         "year": 1927
       }
     ]
+  },
+  {
+    "id": "philosophy-of-religion",
+    "title": "宗教哲学",
+    "titleEn": "Philosophy of Religion",
+    "icon": "🕊️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 12,
+    "lead": "不诉诸启示，而以理性审视信仰的核心命题：神是否存在、世间的恶如何与全能全善相容、信仰与理性究竟相斥还是相容。",
+    "leadEn": "Not from revelation but by reason it weighs faith's core claims: whether God exists, how evil squares with an all-powerful, all-good one, and whether faith and reason collide or cohere.",
+    "points": [
+      {
+        "k": "神存在的论证",
+        "kEn": "Arguments for God",
+        "v": "宇宙论、目的论、本体论诸路，以及阿奎那的「五路」。",
+        "vEn": "Cosmological, teleological and ontological proofs, and Aquinas's 'Five Ways.'"
+      },
+      {
+        "k": "恶的问题",
+        "kEn": "The problem of evil",
+        "v": "苦难与罪恶，与全能全善之神如何共存（神正论）。",
+        "vEn": "How suffering and sin can coexist with an all-powerful, all-good God (theodicy)."
+      },
+      {
+        "k": "信仰与理性",
+        "kEn": "Faith and reason",
+        "v": "信靠证据还是纵身一跃——帕斯卡的赌注、克尔凯郭尔之跃。",
+        "vEn": "Does belief rest on evidence or a leap—Pascal's wager, Kierkegaard's leap?"
+      },
+      {
+        "k": "言说无限者",
+        "kEn": "God-talk",
+        "v": "有限语言能否指无限者，抑或只能「否定神学」地层层排除。",
+        "vEn": "Can finite language point to the infinite, or only strip away by 'negative theology'?"
+      }
+    ],
+    "related": [
+      "god",
+      "aquinas",
+      "leibniz",
+      "kierkegaard",
+      "meaning"
+    ],
+    "sources": [
+      {
+        "label": "《神学大全》",
+        "labelEn": "Summa Theologiae",
+        "year": 1274
+      }
+    ]
   }
 ]

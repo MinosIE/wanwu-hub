@@ -139,6 +139,20 @@
       "nEn": "Neo-Taoist 'Dark Learning'"
     }
   ],
+  "neo-confucianism": [
+    {
+      "m": "m-schools",
+      "n": "宋明理学",
+      "nEn": "Neo-Confucianism"
+    }
+  ],
+  "absurdism": [
+    {
+      "m": "m-schools",
+      "n": "荒谬主义",
+      "nEn": "Absurdism"
+    }
+  ],
   "free-will": [
     {
       "m": "m-questions",
@@ -559,6 +573,41 @@
       "nEn": "G. W. F. Hegel"
     }
   ],
+  "xunzi": [
+    {
+      "m": "m-thinkers",
+      "n": "荀子",
+      "nEn": "Xunzi"
+    }
+  ],
+  "mozi": [
+    {
+      "m": "m-thinkers",
+      "n": "墨子",
+      "nEn": "Mozi"
+    }
+  ],
+  "leibniz": [
+    {
+      "m": "m-thinkers",
+      "n": "莱布尼茨",
+      "nEn": "Gottfried Wilhelm Leibniz"
+    }
+  ],
+  "kierkegaard": [
+    {
+      "m": "m-thinkers",
+      "n": "克尔凯郭尔",
+      "nEn": "Søren Kierkegaard"
+    }
+  ],
+  "bertrand-russell": [
+    {
+      "m": "m-thinkers",
+      "n": "伯特兰·罗素",
+      "nEn": "Bertrand Russell"
+    }
+  ],
   "metaphysics": [
     {
       "m": "m-branches",
@@ -634,6 +683,13 @@
       "m": "m-branches",
       "n": "现象学与诠释学",
       "nEn": "Phenomenology and Hermeneutics"
+    }
+  ],
+  "philosophy-of-religion": [
+    {
+      "m": "m-branches",
+      "n": "宗教哲学",
+      "nEn": "Philosophy of Religion"
     }
   ],
   "syllogism": [

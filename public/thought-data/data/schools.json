@@ -418,5 +418,135 @@
     "criticismsEn": ["Too much pure talk", "Detached from duty"],
     "related": ["taoism", "confucianism", "laozi", "zhuangzi"],
     "sources": [{ "label": "《老子注》王弼", "labelEn": "Wang Bi's Commentary on the Laozi" }]
+  },
+  {
+    "id": "neo-confucianism",
+    "name": "宋明理学",
+    "nameEn": "Neo-Confucianism",
+    "span": "中国 · 宋明",
+    "spanEn": "China · Song–Ming",
+    "level": 3,
+    "order": 21,
+    "core": "回应佛道挑战，以「理」「气」「心」「性」重建儒家的形而上学与工夫论：既向外穷理格物，又向内发明本心、致良知，使伦理秩序获得宇宙论与心性论的双重根基。",
+    "coreEn": "Answering Buddhism and Daoism, it rebuilt Confucian metaphysics and self-cultivation around principle (li), vital force (qi), mind (xin) and nature (xing)—outwardly investigating things to extend knowing, inwardly recovering the original mind and extending innate knowing—giving moral order a double root in cosmology and mind-nature.",
+    "founders": [
+      "周敦颐",
+      "张载",
+      "程颐",
+      "朱熹",
+      "陆九渊",
+      "王阳明"
+    ],
+    "foundersEn": [
+      "Zhou Dunyi",
+      "Zhang Zai",
+      "Cheng Yi",
+      "Zhu Xi",
+      "Lu Jiuyuan",
+      "Wang Yangming"
+    ],
+    "keyIdeas": [
+      "理一分殊",
+      "格物致知",
+      "心即理",
+      "致良知",
+      "存天理、灭人欲"
+    ],
+    "keyIdeasEn": [
+      "One principle, ten thousand functionings",
+      "Investigating things to extend knowledge",
+      "Mind is principle",
+      "Extending innate knowing",
+      "Preserve heavenly principle, efface desire"
+    ],
+    "strengths": [
+      "为儒家建立起精密的宇宙论与心性论",
+      "把道德修养落成可实做工夫"
+    ],
+    "strengthsEn": [
+      "Gave Confucianism a refined cosmology and theory of mind",
+      "Turned cultivation into concrete, practicable effort"
+    ],
+    "criticisms": [
+      "纲常名教易被绝对化而有「以理杀人」之弊",
+      "格物与发明本心两派长期对峙"
+    ],
+    "criticismsEn": [
+      "Its rankings of norm could be absolutized into 'killing people with principle'",
+      "A long standoff between investigating things and recovering the mind"
+    ],
+    "related": [
+      "zhu-xi",
+      "wangyangming",
+      "confucianism",
+      "liangzhi",
+      "gewu"
+    ],
+    "sources": [
+      {
+        "label": "《近思录》",
+        "labelEn": "Reflections on Things at Hand",
+        "year": 1175
+      }
+    ]
+  },
+  {
+    "id": "absurdism",
+    "name": "荒谬主义",
+    "nameEn": "Absurdism",
+    "span": "欧陆 · 20 世纪",
+    "spanEn": "Continental · 20th c.",
+    "level": 3,
+    "order": 22,
+    "core": "人天生渴求意义，世界却沉默无回应；二者的对峙生出「荒谬」。出路既非肉体的自杀、也非信仰的跳跃，而是清醒地抱住荒谬，在反抗、自由与充实中活着。",
+    "coreEn": "Humans crave meaning; the universe answers with silence—and the confrontation is 'the absurd.' The way out is neither bodily suicide nor a leap of faith but lucidly holding the absurd and living by revolt, freedom and fullness.",
+    "founders": [
+      "阿尔贝·加缪"
+    ],
+    "foundersEn": [
+      "Albert Camus"
+    ],
+    "keyIdeas": [
+      "荒谬的对峙",
+      "应当想象西西弗是幸福的",
+      "真正严肃的哲学问题只有一个",
+      "反抗—自由—激情"
+    ],
+    "keyIdeasEn": [
+      "The absurd as confrontation",
+      "One must imagine Sisyphus happy",
+      "Only one truly serious philosophical problem",
+      "Revolt, freedom, passion"
+    ],
+    "strengths": [
+      "直面无意义而不虚构安慰",
+      "把清醒地活着本身立为尊严"
+    ],
+    "strengthsEn": [
+      "Faces meaninglessness without inventing consolation",
+      "Founds dignity on lucid living itself"
+    ],
+    "criticisms": [
+      "诊断锐利而建设稀薄",
+      "易滑向英雄式的孤立"
+    ],
+    "criticismsEn": [
+      "A sharp diagnosis but thin construction",
+      "Slips toward heroic isolation"
+    ],
+    "related": [
+      "camus",
+      "nietzsche",
+      "kierkegaard",
+      "sartre",
+      "meaning"
+    ],
+    "sources": [
+      {
+        "label": "《西西弗神话》",
+        "labelEn": "The Myth of Sisyphus",
+        "year": 1942
+      }
+    ]
   }
 ]

@@ -1469,5 +1469,375 @@
     ],
     "related": ["philosophy-of-history", "marx", "marxism", "kant", "aristotle"],
     "sources": [{ "label": "《精神现象学》", "labelEn": "Phenomenology of Spirit", "year": 1807 }]
+  },
+  {
+    "id": "xunzi",
+    "name": "荀子",
+    "nameEn": "Xunzi",
+    "life": "约前313—前238",
+    "lifeEn": "c. 313–238 BC",
+    "country": "中国 · 战国",
+    "countryEn": "China · Warring States",
+    "school": "儒家",
+    "schoolEn": "Confucianism",
+    "level": 2,
+    "order": 30,
+    "tags": [
+      "性恶",
+      "礼义"
+    ],
+    "tagsEn": [
+      "Crooked nature",
+      "Ritual"
+    ],
+    "oneLiner": "人之性恶，其善者伪也——善不是天生，而是后天以礼义「化性起伪」雕琢出来的成就。",
+    "oneLinerEn": "Human nature is crooked; the good in us is 'crafted'—not innate but wrought by ritual and rightness.",
+    "bio": "战国末期儒家大师。与孟子道性善相反，荀子主张「性恶」：人生而有欲，顺之则争夺残贼、归于混乱，故善并非天生，而靠师法教化与礼义「化性起伪」——以人为的努力改造天然材质。他隆礼重法、明分使群、劝学不息，又讲「天人之分」：天道不为圣君尧而存、不为暴君桀而亡，人当「制天命而用之」。有趣的是，他的弟子韩非、李斯竟走向法家，正见其礼法之间的巨大张力。",
+    "bioEn": "The great Confucian master of the late Warring States. Against Mencius's innate goodness, Xunzi held human nature to be crooked: born with desires, we would fall into strife if we followed them, so the good is given but made—wrought by teachers, models and ritual through 'transforming nature and evoking artifice.' He exalted ritual and law, drew distinctions to bind society into groups, urged ceaseless learning, and separated Heaven from human affairs—the Way of Heaven persists not for the sage Yao nor perishes for the tyrant Jie; one should 'master Heaven and make use of it.' Strangely, his own students Han Fei and Li Si turned to Legalism, laying bare the tension within his blend of ritual and law.",
+    "ideas": [
+      {
+        "k": "性恶",
+        "kEn": "Crooked nature",
+        "v": "顺天然之欲则争乱，善有待于后天人为。",
+        "vEn": "Following innate desires breeds strife; the good awaits deliberate making."
+      },
+      {
+        "k": "化性起伪",
+        "kEn": "Transform nature, evoke artifice",
+        "v": "以师法礼义改造本性，「伪」即人为的功夫。",
+        "vEn": "By teaching and ritual one remolds raw nature; 'artifice' is the earned work of effort."
+      },
+      {
+        "k": "天人之分",
+        "kEn": "Heaven and man apart",
+        "v": "天道运行不以人事为转移，人当各自尽分。",
+        "vEn": "Heaven's course does not shift with human affairs; each should fulfil his own charge."
+      }
+    ],
+    "works": [
+      {
+        "title": "荀子",
+        "titleEn": "Xunzi",
+        "year": -250
+      }
+    ],
+    "quotes": [
+      {
+        "q": "人之性恶，其善者伪也。",
+        "qEn": "Human nature is crooked; its goodness is deliberate artifice."
+      }
+    ],
+    "related": [
+      "mengzi",
+      "confucianism",
+      "legalism",
+      "good-evil"
+    ],
+    "sources": [
+      {
+        "label": "《荀子·性恶》",
+        "labelEn": "Xunzi, 'Human Nature Is Evil'",
+        "year": -250
+      }
+    ]
+  },
+  {
+    "id": "mozi",
+    "name": "墨子",
+    "nameEn": "Mozi",
+    "life": "约前470—前391",
+    "lifeEn": "c. 470–391 BC",
+    "country": "中国 · 春秋战国",
+    "countryEn": "China · Spring & Autumn",
+    "school": "墨家",
+    "schoolEn": "Mohism",
+    "level": 2,
+    "order": 31,
+    "tags": [
+      "兼爱",
+      "非攻"
+    ],
+    "tagsEn": [
+      "Impartial care",
+      "Anti-aggression"
+    ],
+    "oneLiner": "兼相爱、交相利——以无差等的互爱互利，反对以大吞小的不义之战。",
+    "oneLinerEn": "Mutual care and mutual benefit—love without graded distinction, against wars that let the strong swallow the weak.",
+    "bio": "墨家创始人，出身工匠，代表「万民之利」发声。他主张「兼爱」：天下之乱起于「别相恶、交相贼」，应以无差等的互爱取代儒家差等之爱，并落在「交相利」的实际福祉上。据此起出「非攻」，谴责兼并掠夺，更身体力行赴千里助小国守城。他还倡「尚贤」「尚同」「节用」「节葬」，提出检验言论的「三表法」，并重逻辑、几何、力学与光学（小孔成像），是先秦最富科学与论辩精神的学派。",
+    "bioEn": "Founder of the Mohist school, of artisan birth, speaking for the benefit of the myriad people. He urged impartial care: the world's chaos springs from mutual discrimination and harm, so graded Confucian love should yield to love without distinction, grounded in real mutual benefit. From this came 'against offensive war'—denouncing annexation, which he resisted by hurrying a thousand li to help weak states hold their walls. He further championed exalting the worthy, frugality and simple funerals, set out the 'three criteria' for testing claims, and prized logic, geometry, mechanics and optics (pinhole imaging)—the most scientific and argumentative school of the age.",
+    "ideas": [
+      {
+        "k": "兼爱",
+        "kEn": "Impartial care",
+        "v": "视人之身若视其身，爱无差等。",
+        "vEn": "Regard others' bodies as your own—love without grades."
+      },
+      {
+        "k": "非攻",
+        "kEn": "Against offensive war",
+        "v": "攻国为大不义，强不凌弱、众不劫寡。",
+        "vEn": "Invading a state is the greatest injustice; the strong should not crush the weak."
+      },
+      {
+        "k": "三表法",
+        "kEn": "Three criteria",
+        "v": "上本于古者圣王之事、下原察百姓耳目之实、发以为刑政观其中国家百姓之利。",
+        "vEn": "Test claims against the sage-kings of old, the people's lived experience, and their benefit when made policy."
+      }
+    ],
+    "works": [
+      {
+        "title": "墨子",
+        "titleEn": "Mozi",
+        "year": -400
+      }
+    ],
+    "quotes": [
+      {
+        "q": "兼相爱，交相利。",
+        "qEn": "Mutual care, mutual benefit."
+      }
+    ],
+    "related": [
+      "mohism",
+      "confucianism",
+      "mengzi",
+      "good-evil"
+    ],
+    "sources": [
+      {
+        "label": "《墨子·兼爱》",
+        "labelEn": "Mozi, 'Impartial Care'",
+        "year": -400
+      }
+    ]
+  },
+  {
+    "id": "leibniz",
+    "name": "莱布尼茨",
+    "nameEn": "Gottfried Wilhelm Leibniz",
+    "life": "1646—1716",
+    "lifeEn": "1646–1716",
+    "country": "德国",
+    "countryEn": "Germany",
+    "school": "理性主义",
+    "schoolEn": "Rationalism",
+    "level": 3,
+    "order": 32,
+    "tags": [
+      "单子",
+      "前定和谐"
+    ],
+    "tagsEn": [
+      "Monads",
+      "Pre-established harmony"
+    ],
+    "oneLiner": "世界由无数「无窗」却能知觉的单子构成，彼此不相因果，却由神预先设定而和谐共舞。",
+    "oneLinerEn": "Reality is made of countless windowless yet perceiving 'monads'—not causally interacting, but harmonized in advance by God to keep perfect step.",
+    "bio": "德国博学家：哲学家、数学家，与牛顿各自发明微积分，又创二进制、构想一种普遍的形式语言与组合逻辑。形而上学上，他把终极实在看作「单子」——无部分、不能自外来影响的单纯实体，各有其「知觉」与「趋求」的内在展开；单子之间「没有窗户」，看似相互作用，实则由神在创世时安排「前定和谐」，如两座各自精准却始终同步的钟。他以「充足理由律」要求凡事必有其所以然之理，并由此论证神存在、断言我们所居乃「一切可能世界中最好的一个」。此说经伏尔泰借《老实人》讽刺里斯本地震而广受质疑，却始终是对「恶之问题」最雄心勃勃的回应之一。",
+    "bioEn": "A German polymath—philosopher and mathematician—who invented the calculus alongside Newton, devised binary numbers and sketched a universal formal language and combinational logic. In metaphysics he took ultimate reality to be 'monads': simple, partless substances admitting no outside influence, each unfolding its own perceptions and appetitions. Monads have 'no windows'; they only appear to interact, being reconciled by God at creation through a 'pre-established harmony,' like two clocks each exact yet always in step. His principle of sufficient reason demands a 'why' for everything, and from it he argued for God and claimed this the 'best of all possible worlds'—a thesis Voltaire mocked in Candide over the Lisbon earthquake, yet still among the most ambitious answers to the problem of evil.",
+    "ideas": [
+      {
+        "k": "单子",
+        "kEn": "Monads",
+        "v": "无窗、无部分、能知觉的单纯实体，是实在之终极构成。",
+        "vEn": "Windowless, partless, perceiving simple substances—the ultimate furniture of reality."
+      },
+      {
+        "k": "前定和谐",
+        "kEn": "Pre-established harmony",
+        "v": "单子不相因果交通，却因神预设而同步如两钟。",
+        "vEn": "Monads do not causally interact yet keep step as two clocks, harmonized by God."
+      },
+      {
+        "k": "充足理由律",
+        "kEn": "Principle of sufficient reason",
+        "v": "凡有之事必有其所以如此而不如彼之理。",
+        "vEn": "Nothing holds true without a why that makes it so rather than otherwise."
+      }
+    ],
+    "works": [
+      {
+        "title": "神义论",
+        "titleEn": "Theodicy",
+        "year": 1710
+      },
+      {
+        "title": "单子论",
+        "titleEn": "Monadology",
+        "year": 1714
+      }
+    ],
+    "quotes": [
+      {
+        "q": "在一切可能的世界中，神选择了最好的一个。",
+        "qEn": "Of all possible worlds, God chose the best."
+      }
+    ],
+    "related": [
+      "rationalism",
+      "descartes",
+      "god",
+      "mind-body"
+    ],
+    "sources": [
+      {
+        "label": "《单子论》",
+        "labelEn": "Monadology",
+        "year": 1714
+      }
+    ]
+  },
+  {
+    "id": "kierkegaard",
+    "name": "克尔凯郭尔",
+    "nameEn": "Søren Kierkegaard",
+    "life": "1813—1855",
+    "lifeEn": "1813–1855",
+    "country": "丹麦",
+    "countryEn": "Denmark",
+    "school": "存在主义先驱",
+    "schoolEn": "Forerunner of existentialism",
+    "level": 3,
+    "order": 33,
+    "tags": [
+      "生存",
+      "信仰之跃"
+    ],
+    "tagsEn": [
+      "Existence",
+      "Leap of faith"
+    ],
+    "oneLiner": "真理不是旁观的体系，而是主体在焦虑与抉择中「为我所真」地去承担——孤身成为自我。",
+    "oneLinerEn": "Truth is not a spectator's system but what I stake myself on in anxiety and choice—becoming a self, alone.",
+    "bio": "丹麦思想家，被尊为存在主义之父。他反抗黑格尔把个人化入「体系」的非人视角：生活的关键是单个的人如何成为真正的自我，而这并非客观思辨所能给出。他剖析生存的「诸阶段」——沉溺当下的审美、承担义务的伦理、以及凌驾普遍、独自面对上帝的信仰；三者之间须靠「抉择」的跳跃贯通，理性无法代劳。他以众多笔名写出畏、绝望、罪与信仰的悖论（亚伯拉罕献以撒，超越伦理而踏入信仰），并抨击「基督教国度」把信仰稀释成体面的常情。对后世海德格尔、萨特与整个存在主义影响深远。",
+    "bioEn": "A Danish thinker hailed as the father of existentialism. He rebelled against Hegel dissolving the individual into an impersonal 'system': what matters is how the single person becomes a real self—something objective speculation cannot hand over. He dissected the 'stages' of existence—aesthetic absorption in the moment, ethical commitment to duty, and faith that, set above the universal, stands alone before God; passage among them requires the leap of choice, which reason cannot do for you. Under many pseudonyms he wrote of dread, despair, sin and the paradox of faith (Abraham offering Isaac, stepping beyond ethics into faith), and he attacked 'Christendom' for thinning faith into respectable convention. His mark on Heidegger, Sartre and all later existentialism is deep.",
+    "ideas": [
+      {
+        "k": "主体性即真理",
+        "kEn": "Subjectivity is truth",
+        "v": "最要紧的真理不在客观确证，而在主体以无限激情去承担。",
+        "vEn": "The truth that matters is not objective certainty but the self's passionate, infinite appropriation of it."
+      },
+      {
+        "k": "生存诸阶段",
+        "kEn": "Stages on life's way",
+        "v": "审美—伦理—信仰三层，其间须有非理性的抉择。",
+        "vEn": "Aesthetic, ethical, religious—each reached not by inference but by a choice beyond reason."
+      },
+      {
+        "k": "信仰之跃",
+        "kEn": "Leap of faith",
+        "v": "面对悖论与畏，纵身投入，而非坐候证据齐备。",
+        "vEn": "Facing paradox and dread one casts oneself, rather than waiting for the evidence to be in."
+      }
+    ],
+    "works": [
+      {
+        "title": "非此即彼",
+        "titleEn": "Either/Or",
+        "year": 1843
+      },
+      {
+        "title": "恐惧与战栗",
+        "titleEn": "Fear and Trembling",
+        "year": 1843
+      }
+    ],
+    "quotes": [
+      {
+        "q": "必须找到那个我为之而生、为之而死的思想。",
+        "qEn": "What I need is to find the thought I dare live and die for."
+      }
+    ],
+    "related": [
+      "existentialism",
+      "sartre",
+      "meaning",
+      "absurdism"
+    ],
+    "sources": [
+      {
+        "label": "《恐惧与战栗》",
+        "labelEn": "Fear and Trembling",
+        "year": 1843
+      }
+    ]
+  },
+  {
+    "id": "bertrand-russell",
+    "name": "伯特兰·罗素",
+    "nameEn": "Bertrand Russell",
+    "life": "1872—1970",
+    "lifeEn": "1872–1970",
+    "country": "英国",
+    "countryEn": "Britain",
+    "school": "分析哲学",
+    "schoolEn": "Analytic philosophy",
+    "level": 3,
+    "order": 34,
+    "tags": [
+      "逻辑",
+      "摹状词"
+    ],
+    "tagsEn": [
+      "Logic",
+      "Description"
+    ],
+    "oneLiner": "把哲学交给逻辑分析：以摹状词理论解开指称之谜，也用「罗素悖论」撼动数学的地基。",
+    "oneLinerEn": "He put philosophy into logical analysis—untying reference with the theory of descriptions and shaking mathematics' foundations with Russell's paradox.",
+    "bio": "英国哲学家、逻辑学家与公共知识人，1950 年诺贝尔文学奖得主。他与怀特海合著《数学原理》，试图把数学还原为逻辑；所提「罗素悖论」（一切不属于自身的集合之集合）暴露了朴素集合论的破绽，逼出公理化与类型论。他更以「摹状词理论」把「当今的法国国王是秃头」这类限定描绘短语析解为「存在且唯一」的逻辑结构，被视为分析哲学的典范。晚年多写社会与伦理议题（《我为什么不是基督徒》），因反战入狱，又投身反核、推动《罗素—爱因斯坦宣言》；一生兼具冷静的逻辑与对世事的炽热关切。",
+    "bioEn": "British philosopher, logician and public intellectual, Nobel laureate in Literature (1950). With Whitehead he wrote Principia Mathematica, aiming to reduce mathematics to logic; his paradox—the set of all sets that are not members of themselves—exposed a crack in naive set theory and forced axiomatization and a theory of types. His theory of descriptions resolved a definite description such as 'the present King of France is bald' into a logical structure of existence-and-uniqueness—an exemplar of analytic philosophy. Late in life he turned to society and ethics (Why I Am Not a Christian), was jailed for his pacifism, and pressed the anti-nuclear cause behind the Russell–Einstein Manifesto—cool logic wedded all his life to a burning concern for the world.",
+    "ideas": [
+      {
+        "k": "摹状词理论",
+        "kEn": "Theory of descriptions",
+        "v": "「当今法国国王」不作名称而作逻辑描状，消解指空之谜。",
+        "vEn": "A phrase like 'the present King of France' is not a name but a logical description, dissolving puzzles of reference to the nonexistent."
+      },
+      {
+        "k": "罗素悖论",
+        "kEn": "Russell's paradox",
+        "v": "「不属于自身的集合之集合」自相矛盾，撼动朴素集合论。",
+        "vEn": "The set of all sets not members of themselves contradicts itself, shaking naive set theory."
+      },
+      {
+        "k": "逻辑原子主义",
+        "kEn": "Logical atomism",
+        "v": "世界是事实的总和，命题可析解为逻辑原子。",
+        "vEn": "The world is the totality of facts; propositions resolve into logical atoms."
+      }
+    ],
+    "works": [
+      {
+        "title": "哲学问题",
+        "titleEn": "The Problems of Philosophy",
+        "year": 1912
+      },
+      {
+        "title": "数学原理（合著）",
+        "titleEn": "Principia Mathematica",
+        "year": 1910
+      }
+    ],
+    "quotes": [
+      {
+        "q": "参差多态，乃是幸福的本源。",
+        "qEn": "Variety is essential to happiness."
+      }
+    ],
+    "related": [
+      "analytic",
+      "wittgenstein",
+      "kant",
+      "knowledge"
+    ],
+    "sources": [
+      {
+        "label": "《哲学问题》",
+        "labelEn": "The Problems of Philosophy",
+        "year": 1912
+      }
+    ]
   }
 ]
