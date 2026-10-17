@@ -843,5 +843,125 @@
         "year": 2023
       }
     ]
+  },
+  {
+    "id": "fed-founded-1913",
+    "y": 1913,
+    "yearLabel": "1913",
+    "yearLabelEn": "1913",
+    "title": "美联储成立",
+    "titleEn": "The Federal Reserve Is Founded",
+    "place": "美国",
+    "placeEn": "United States",
+    "level": 2,
+    "what": "1913 年《联邦储备法》签署，美国建立起由十二家地区储备银行与华盛顿理事会构成的中央银行体系，旨在化解频繁的银行恐慌、提供弹性通货与最后贷款人。",
+    "whatEn": "The Federal Reserve Act was signed in 1913, creating a central-bank system of twelve regional Reserve Banks and a Washington board, meant to ease frequent banking panics and supply an elastic currency and lender of last resort.",
+    "why": "1907 年恐慌靠摩根等私人巨头勉强平息，暴露了缺乏央行在危机中提供流动性的短板；此前国民银行时代的货币发行挂钩国债，难以随需求扩张。经过数月关于集权与分权、政府与私人的政治妥协，美国设计出「去中心化」的折中架构。",
+    "whyEn": "The 1907 panic, quelled barely by private giants such as Morgan, exposed the absence of a central liquidity provider; in the prior National Banking era currency was tied to Treasuries and could not expand with demand. Months of compromise over central versus regional and public versus private produced a decentralized design.",
+    "impact": "此后美联储逐步掌握利率与贴现窗口，1951 年《财政部—美联储协议》奠定现代独立性；2008 与 2020 年危机中最后贷款人与量化宽松登上舞台。批评者仍指出其在 1930 年代初的紧缩加深了大萧条，围绕央行独立性与问责的争论从未停息。",
+    "impactEn": "The Fed gradually mastered rates and the discount window, with the 1951 Treasury–Fed accord founding modern independence; lender of last resort and QE featured in 2008 and 2020. Critics note its early tightening deepened the Depression, and debates over independence versus accountability never cease.",
+    "related": [
+      "central-bank",
+      "central-bank-tools",
+      "money-creation",
+      "svb-collapse-2023"
+    ],
+    "sources": [
+      {
+        "label": "《联邦储备法》(1913)；梅尔茨《美联储史》",
+        "labelEn": "Federal Reserve Act (1913); Meltzer, A History of the Federal Reserve",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "id": "weimar-hyperinflation-1923",
+    "y": 1923,
+    "yearLabel": "1923",
+    "yearLabelEn": "1923",
+    "title": "魏玛恶性通胀",
+    "titleEn": "Weimar Hyperinflation",
+    "place": "德国",
+    "placeEn": "Germany",
+    "level": 2,
+    "what": "1921–1923 年德国马克几近归零：1923 年 11 月的物价相较 1913 年膨胀了数百亿倍，面包与咖啡以亿万马克计价，数代人的储蓄化为乌有。",
+    "whatEn": "From 1921–1923 the Mark approached zero: by November 1923 prices had ballooned by tens of billions of times versus 1913, bread and coffee priced in hundreds of millions of Marks, generations' savings wiped out.",
+    "why": "一战赔款与赤字本可经增税或借债弥补，德国却选择大量印钞，同时以「消极抵抗」和法国占领鲁尔消解赔偿；货币供给失控叠加产出骤降，公众一旦预期通胀便加速抛售马克、追逐工资，形成价格—工资螺旋，令通胀自我兑现。",
+    "whyEn": "War reparations and deficits could in principle be met by taxes or debt, but Germany printed heavily while passive resistance and the French occupation of the Ruhr blunted payment; runaway money supply met collapsing output, and once the public expected inflation they dumped Marks and chased wages—a price–wage spiral fulfilling itself.",
+    "impact": "1923 年 11 月发行地租马克并冻结旧币才止住血，随后道威斯计划重整赔款。恶性通胀抹平了中产储蓄、动摇魏玛共和国的合法性，成为后世理解「通胀税」、货币信心与极端政治后果的活教材，也深深刻下德国乃至欧洲央行对物价稳定的执念。",
+    "impactEn": "The November 1923 rentenmark and freezing of old notes stemmed it, then the Dawes Plan reset reparations. Hyperinflation flattened middle-class savings and shook Weimar's legitimacy—a live lesson on the inflation tax, monetary confidence and extreme politics, and a deep root of the Bundesbank and ECB obsession with price stability.",
+    "related": [
+      "quantity-theory",
+      "inflation",
+      "inflation-causes",
+      "greshams-law"
+    ],
+    "sources": [
+      {
+        "label": "洛韦蒂《魏玛恶性通胀的故事》",
+        "labelEn": "Rovere, The Weimar Hyperinflation Story",
+        "year": 1986
+      }
+    ]
+  },
+  {
+    "id": "smoot-hawley-1930",
+    "y": 1930,
+    "yearLabel": "1930",
+    "yearLabelEn": "1930",
+    "title": "斯穆特-霍利关税法",
+    "titleEn": "The Smoot-Hawley Tariff",
+    "place": "美国",
+    "placeEn": "United States",
+    "level": 2,
+    "what": "1930 年美国把约两万种进口商品的关税推至历史高位，意图保护本土农场与制造商免受大萧条冲击，却在数月内招致欧洲与加拿大等的连锁报复。",
+    "whatEn": "In 1930 the US lifted tariffs on some 20,000 imports to record highs to shield farms and manufacturers from the Depression; within months Europe and Canada retaliated in chain.",
+    "why": "农业州与制造业的游说、大选政治以及「以邻为壑」的直觉推动了法案，主流声音却低估了贸易伙伴的反应。1929 年股市崩盘后，国会为展示作为再度抬高门槛并最终签署成法；上千名经济学家联署的警告反被斥为恐慌情绪。",
+    "whyEn": "Farm-state and industrial lobbying, electoral politics and a beggar-thy-neighbour instinct drove the bill, while mainstream voices underestimated foreign retaliation. After the 1929 crash Congress again raised thresholds to show action and signed it; economists' warning letter was dismissed as panic.",
+    "impact": "美欧贸易额在 1929–1932 年间腰斩以上，关税战加深并延长了大萧条，成为教科书式的「囚徒困境」；战后美国转向关贸总协定与互惠减税，正是吸取这一教训。今天的贸易战争论仍常援引斯穆特-霍利，作为政策风险的警钟。",
+    "impactEn": "US–Europe trade more than halved between 1929 and 1932; the tariff war deepened and prolonged the Depression—a textbook prisoner's dilemma. Postwar the US pivoted to GATT and reciprocal cuts precisely on this lesson, and trade-war debates still cite Smoot-Hawley as a cautionary bell.",
+    "related": [
+      "tariff-war",
+      "protectionism-tools",
+      "trade-institutions",
+      "gains-from-trade"
+    ],
+    "sources": [
+      {
+        "label": "欧文·欧文《从斯穆特-霍利到互惠贸易协定》",
+        "labelEn": "Irwin, From Smoot-Hawley to Reciprocal Trade Agreements",
+        "year": 2011
+      }
+    ]
+  },
+  {
+    "id": "ltcm-collapse-1998",
+    "y": 1998,
+    "yearLabel": "1998",
+    "yearLabelEn": "1998",
+    "title": "长期资本管理公司崩塌",
+    "titleEn": "The Collapse of Long-Term Capital Management",
+    "place": "美国",
+    "placeEn": "United States",
+    "level": 2,
+    "what": "1998 年，由诺奖得主坐镇、以高杠杆与套利模型著称的对冲基金 LTCM，在俄债违约与市场「趋同失败」中数周内巨亏，几乎拖垮全球银行与衍生品系统，最终由美联储协调十四家机构出手救助。",
+    "whatEn": "In 1998 LTCM, a hedge fund led by Nobel laureates famed for leverage and convergence arbitrage, posted enormous losses within weeks amid the Russian default and a convergence failure, nearly dragging global banks and derivatives into crisis before the Fed brokered a fourteen-firm bailout.",
+    "why": "LTCM 依赖价差终将回归的统计模型，用超过三十倍的杠杆去放大微小的边际；1998 年 8 月俄债违约触发「逃向优质资产」，模型假设的流动性瞬间蒸发，本应互不相关的资产同时大跌，风险价值模型严重低估了尾部。",
+    "whyEn": "LTCM relied on statistical models of mean-reverting spreads and magnified thin edges with leverage above thirty to one; Russia's August 1998 default triggered a flight to quality, the assumed liquidity vanished, supposedly uncorrelated assets fell together, and its VaR models under-called the tail.",
+    "impact": "这次救助与「大而不倒」的对冲基金讨论进入监管视野，动量、相关性、模型风险与保证金螺旋被学界重新审视。它也教育了整个市场：低概率、高冲击的黑天鹅事件，常在拥挤、杠杆与相关性下被系统性低估，衍生品的传染路径从此成为常态议题。",
+    "impactEn": "The rescue and 'too-big-to-fail' hedge-fund talk entered the regulatory gaze; momentum, correlation, model risk and margin spirals were rethought. It taught markets that low-probability, high-impact black-swan events are routinely under-priced by crowding, leverage and correlation, and derivatives' systemic contagion became a standing topic.",
+    "related": [
+      "shadow-banking",
+      "russia-default-1998",
+      "asian-crisis",
+      "bubbles-crises"
+    ],
+    "sources": [
+      {
+        "label": "洛温斯坦《对冲基金：长期资本管理公司的失误》",
+        "labelEn": "Lowenstein, When Genius Failed",
+        "year": 2000
+      }
+    ]
   }
 ]

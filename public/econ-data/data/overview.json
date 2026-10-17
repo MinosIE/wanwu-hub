@@ -3,8 +3,8 @@
   "counts": {
     "concepts": 30,
     "glossary": 53,
-    "thinkers": 16,
-    "events": 31,
+    "thinkers": 20,
+    "events": 35,
     "bubbles": 16,
     "behavioral": 13,
     "charts": 7,
@@ -33,7 +33,7 @@
     {
       "key": "events",
       "icon": "🗓️",
-      "value": 31
+      "value": 35
     },
     {
       "key": "bubbles",

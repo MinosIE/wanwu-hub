@@ -973,5 +973,238 @@
         "year": 2015
       }
     ]
+  },
+  {
+    "id": "ludwig-von-mises",
+    "order": 17,
+    "name": "路德维希·冯·米塞斯",
+    "nameEn": "Ludwig von Mises",
+    "life": "1881–1973",
+    "lifeEn": "1881–1973",
+    "country": "奥地利 · 美国",
+    "countryEn": "Austria & USA",
+    "school": "奥地利学派",
+    "schoolEn": "Austrian School",
+    "level": 3,
+    "oneLiner": "市场经济是一台无需中央计算机也能算账的装置——离开真实价格，计划无从下手。",
+    "oneLinerEn": "The market is a computer-free calculating machine—without real prices, planning has no way to keep the books.",
+    "bio": "米塞斯是奥地利学派的巨擘，1920 年挑起「社会主义计算争论」：没有私有产权与市场价格，中央计划者无从比较成本与收益，资源必然错配。他捍卫方法论个人主义与「人的行动学」，反对把物理学的实验方法硬搬进经济学。哈耶克等承其衣钵，其思想在冷战后与新自由主义复兴中影响日盛。",
+    "bioEn": "A pillar of the Austrian School, Mises opened the socialist-calculation debate in 1920: without private property and market prices, planners cannot compare costs and benefits, so resources are misallocated. He defended methodological individualism and praxeology against importing physics methods into economics; Hayek and others carried his mantle, his influence swelling after the Cold War.",
+    "ideas": [
+      {
+        "k": "社会主义计算",
+        "kEn": "Socialist calculation",
+        "v": "缺少由真实交易形成的价格，就失去指导生产的经济计算信号。",
+        "vEn": "Without prices formed by real exchanges, the calculation signal guiding production is missing."
+      },
+      {
+        "k": "人的行动学",
+        "kEn": "Praxeology",
+        "v": "经济学从「人有目的地行动」这一公理演绎，而非实验室归纳。",
+        "vEn": "Economics deduces from the axiom that humans act purposefully, not from lab induction."
+      }
+    ],
+    "works": [
+      {
+        "title": "社会主义体制",
+        "titleEn": "Socialism",
+        "year": 1932
+      },
+      {
+        "title": "人的行动",
+        "titleEn": "Human Action",
+        "year": 1949
+      }
+    ],
+    "quotes": [
+      {
+        "q": "市场不是被设计出来的，而是个人互动不断生成的结果。",
+        "qEn": "The market is not designed; it emerges continually from individual interaction."
+      }
+    ],
+    "related": [
+      "austrian",
+      "friedrich-hayek",
+      "invisible-hand",
+      "price-signals"
+    ],
+    "sources": [
+      {
+        "label": "米塞斯《人的行动》",
+        "labelEn": "Mises, Human Action",
+        "year": 1949
+      }
+    ]
+  },
+  {
+    "id": "douglass-north",
+    "order": 18,
+    "name": "道格拉斯·诺斯",
+    "nameEn": "Douglass North",
+    "life": "1920–2015",
+    "lifeEn": "1920–2015",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "新制度经济学 · 经济史",
+    "schoolEn": "New institutional economics & history",
+    "level": 3,
+    "oneLiner": "制度——规则、产权与执行——决定社会长期繁荣还是停滞，而非单纯的技术或要素投入。",
+    "oneLinerEn": "Institutions—rules, property rights and enforcement—set long-run prosperity or stagnation, not merely technology or inputs.",
+    "bio": "诺斯把制度带回经济史的核心，指出产权结构决定激励、交易成本决定组织形态：有效率、保护投资的制度让社会愿意创新，抽取型制度则扼杀活力。他与托马斯、沃尔利斯以「制度」解释工业革命与各国兴衰的分野，1993 年获诺贝尔经济学奖。",
+    "bioEn": "North put institutions back at the heart of economic history: property structures set incentives and transaction costs shape organizations; efficient rules that protect investment reward innovation, while extractive ones crush vitality. With Thomas and Wallis he used institutions to explain the divergence of the Industrial Revolution and national rise and fall, winning the 1993 Nobel Prize.",
+    "ideas": [
+      {
+        "k": "制度即规则",
+        "kEn": "Institutions as rules",
+        "v": "正式法律与非正式习俗共同框定人们交往与交易的成本和边界。",
+        "vEn": "Formal law and informal norms together set the cost and boundaries of interaction and exchange."
+      },
+      {
+        "k": "路径依赖",
+        "kEn": "Path dependence",
+        "v": "过去选定的制度会自我强化，即便次优也难以轻易转向。",
+        "vEn": "Past institutional choices self-reinforce and, even when suboptimal, are hard to reverse."
+      }
+    ],
+    "works": [
+      {
+        "title": "制度、制度变迁与经济绩效",
+        "titleEn": "Institutions, Institutional Change and Economic Performance",
+        "year": 1990
+      }
+    ],
+    "quotes": [
+      {
+        "q": "制度是社会的游戏规则，塑造着人们交往的结构。",
+        "qEn": "Institutions are the rules of the game, structuring human interaction."
+      }
+    ],
+    "related": [
+      "new-institutional",
+      "ronald-coase",
+      "transaction-cost",
+      "market-failure"
+    ],
+    "sources": [
+      {
+        "label": "诺斯《制度、制度变迁与经济绩效》",
+        "labelEn": "North, Institutions, Institutional Change and Economic Performance",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "id": "joseph-stiglitz",
+    "order": 19,
+    "name": "约瑟夫·斯蒂格利茨",
+    "nameEn": "Joseph Stiglitz",
+    "life": "1943–",
+    "lifeEn": "1943–",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "信息经济学 · 不平等",
+    "schoolEn": "Information economics & inequality",
+    "level": 3,
+    "oneLiner": "信息不对称不是市场的边角料而是核心：它解释了为何竞争会失灵、政府与分配为何如此关键。",
+    "oneLinerEn": "Information asymmetry is not a footnote but the core: it explains why competition fails and why government and distribution matter.",
+    "bio": "斯蒂格利茨与阿克洛夫、斯彭斯共创信息经济学：甄别筛选、信贷配给与委托—代理问题，皆源于当事人所知多寡不同。他由此质疑「看不见的手」万能论，并对全球化、国际货币基金组织政策与不断扩大的不平等提出批判性分析，2001 年获诺贝尔经济学奖，著有《不平等的代价》。",
+    "bioEn": "With Akerlof and Spence, Stiglitz founded information economics: screening, credit rationing and principal–agent problems all stem from unequal knowledge. He used this to challenge the omnipotence of the invisible hand and to critique globalization, IMF policy and widening inequality, winning the 2001 Nobel Prize; author of The Price of Inequality.",
+    "ideas": [
+      {
+        "k": "信息不对称",
+        "kEn": "Information asymmetry",
+        "v": "卖方更知质量、借款方更知风险，市场因此萎缩或以配给代替价格。",
+        "vEn": "Sellers know quality and borrowers know risk better, so markets shrink or ration instead of pricing."
+      },
+      {
+        "k": "市场未必有效",
+        "kEn": "Markets not always efficient",
+        "v": "即便人人理性，信息不完全也能使自由市场偏离帕累托最优。",
+        "vEn": "Even with rational agents, incomplete information can push free markets off the Pareto frontier."
+      }
+    ],
+    "works": [
+      {
+        "title": "不平等的代价",
+        "titleEn": "The Price of Inequality",
+        "year": 2012
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我们有时确知市场失灵，却常不知政府能否把它修好。",
+        "qEn": "We sometimes know markets fail, yet often don't know whether government will fix them."
+      }
+    ],
+    "related": [
+      "information-asymmetry",
+      "market-failure",
+      "george-akerlof",
+      "public-choice"
+    ],
+    "sources": [
+      {
+        "label": "斯蒂格利茨《信息经济学》综述、《不平等的代价》",
+        "labelEn": "Stiglitz, on the economics of information; The Price of Inequality",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "george-akerlof",
+    "order": 20,
+    "name": "乔治·阿克洛夫",
+    "nameEn": "George Akerlof",
+    "life": "1940–",
+    "lifeEn": "1940–",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "信息经济学 · 行为",
+    "schoolEn": "Information & behavioral economics",
+    "level": 2,
+    "oneLiner": "一篇不到六页的《柠檬市场》证明：买卖双方信息不对称时，劣货能把好货彻底挤出门。",
+    "oneLinerEn": "A paper under six pages, 'The Market for Lemons,' showed that with unequal information bad goods can drive the good out entirely.",
+    "bio": "阿克洛夫以二手车为喻提出「逆向选择」：买家分不清好坏只肯出平均价，好货退出、市场劣化甚至消失。他把这套逻辑推广到保险、信贷、歧视与「身份经济学」，与斯彭斯、斯蒂格利茨分享 2001 年诺贝尔经济学奖，并与席勒合著《动物精神》，重估信心与经济叙事的作用。",
+    "bioEn": "Using used cars, Akerlof set out adverse selection: unable to tell good from bad, buyers pay an average price, good cars exit and the market degrades or vanishes. He extended the logic to insurance, credit, discrimination and identity economics, shared the 2001 Nobel with Spence and Stiglitz, and co-authored Animal Spirits with Shiller on confidence and narrative.",
+    "ideas": [
+      {
+        "k": "柠檬市场",
+        "kEn": "The lemons market",
+        "v": "质量无法验证时，低质拉低价格、高质退出，形成劣币式的驱逐。",
+        "vEn": "When quality is unverifiable the low pulls price down and the high exits—an adverse-selection exodus."
+      },
+      {
+        "k": "效率工资",
+        "kEn": "Efficiency wages",
+        "v": "付高于市场的工资能减少偷懒与流失，反而可能更划算。",
+        "vEn": "Paying above-market wages cuts shirking and turnover and can pay for itself."
+      }
+    ],
+    "works": [
+      {
+        "title": "柠檬市场",
+        "titleEn": "The Market for Lemons",
+        "year": 1970
+      }
+    ],
+    "quotes": [
+      {
+        "q": "信任一旦崩塌，连最诚实的商品也卖不出应有的价。",
+        "qEn": "Once trust collapses, even the honest goods can't fetch their due price."
+      }
+    ],
+    "related": [
+      "information-asymmetry",
+      "market-failure",
+      "greshams-law",
+      "factor-markets"
+    ],
+    "sources": [
+      {
+        "label": "阿克洛夫《柠檬市场》",
+        "labelEn": "Akerlof, The Market for Lemons",
+        "year": 1970
+      }
+    ]
   }
 ]

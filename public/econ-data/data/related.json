@@ -933,6 +933,34 @@
       "nEn": "Richard Thaler"
     }
   ],
+  "ludwig-von-mises": [
+    {
+      "m": "m-thinkers",
+      "n": "路德维希·冯·米塞斯",
+      "nEn": "Ludwig von Mises"
+    }
+  ],
+  "douglass-north": [
+    {
+      "m": "m-thinkers",
+      "n": "道格拉斯·诺斯",
+      "nEn": "Douglass North"
+    }
+  ],
+  "joseph-stiglitz": [
+    {
+      "m": "m-thinkers",
+      "n": "约瑟夫·斯蒂格利茨",
+      "nEn": "Joseph Stiglitz"
+    }
+  ],
+  "george-akerlof": [
+    {
+      "m": "m-thinkers",
+      "n": "乔治·阿克洛夫",
+      "nEn": "George Akerlof"
+    }
+  ],
   "classical": [
     {
       "m": "m-schools",
@@ -1211,6 +1239,34 @@
       "m": "m-events",
       "n": "硅谷银行倒闭",
       "nEn": "The Collapse of Silicon Valley Bank"
+    }
+  ],
+  "fed-founded-1913": [
+    {
+      "m": "m-events",
+      "n": "美联储成立",
+      "nEn": "The Federal Reserve Is Founded"
+    }
+  ],
+  "weimar-hyperinflation-1923": [
+    {
+      "m": "m-events",
+      "n": "魏玛恶性通胀",
+      "nEn": "Weimar Hyperinflation"
+    }
+  ],
+  "smoot-hawley-1930": [
+    {
+      "m": "m-events",
+      "n": "斯穆特-霍利关税法",
+      "nEn": "The Smoot-Hawley Tariff"
+    }
+  ],
+  "ltcm-collapse-1998": [
+    {
+      "m": "m-events",
+      "n": "长期资本管理公司崩塌",
+      "nEn": "The Collapse of Long-Term Capital Management"
     }
   ],
   "tulip-mania": [
