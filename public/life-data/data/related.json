@@ -314,6 +314,20 @@
       "nEn": "Dinosaurs to Birds"
     }
   ],
+  "sexual-reproduction": [
+    {
+      "m": "m-classics",
+      "n": "有性生殖的起源",
+      "nEn": "Origin of Sexual Reproduction"
+    }
+  ],
+  "sixth-extinction": [
+    {
+      "m": "m-classics",
+      "n": "第六次大灭绝（新生代）",
+      "nEn": "The Sixth Extinction"
+    }
+  ],
   "yuan-longping": [
     {
       "m": "m-thinkers",
@@ -419,6 +433,27 @@
       "nEn": "Lynn Margulis"
     }
   ],
+  "robert-koch": [
+    {
+      "m": "m-thinkers",
+      "n": "罗伯特·科赫",
+      "nEn": "Robert Koch"
+    }
+  ],
+  "carl-woese": [
+    {
+      "m": "m-thinkers",
+      "n": "卡尔·乌斯",
+      "nEn": "Carl Woese"
+    }
+  ],
+  "rosalind-franklin": [
+    {
+      "m": "m-thinkers",
+      "n": "罗莎琳德·富兰克林",
+      "nEn": "Rosalind Franklin"
+    }
+  ],
   "cell-fundamentals": [
     {
       "m": "m-principles",
@@ -501,6 +536,27 @@
       "m": "m-principles",
       "n": "生物多样性及其价值",
       "nEn": "Biodiversity and Its Value"
+    }
+  ],
+  "cell-theory": [
+    {
+      "m": "m-principles",
+      "n": "细胞学说",
+      "nEn": "Cell Theory"
+    }
+  ],
+  "tree-of-life": [
+    {
+      "m": "m-principles",
+      "n": "生命之树与分类",
+      "nEn": "The Tree of Life & Classification"
+    }
+  ],
+  "microbiome": [
+    {
+      "m": "m-principles",
+      "n": "微生物组与共生",
+      "nEn": "The Microbiome & Symbiosis"
     }
   ],
   "giant-panda": [

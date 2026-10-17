@@ -695,5 +695,171 @@
     ],
     "related": ["eukaryotic-cell", "bacteria", "darwin"],
     "order": -1
+  },
+  {
+    "id": "robert-koch",
+    "name": "罗伯特·科赫",
+    "nameEn": "Robert Koch",
+    "life": "1843—1910",
+    "lifeEn": "1843–1910",
+    "country": "德国",
+    "countryEn": "Germany",
+    "school": "细菌学",
+    "schoolEn": "Bacteriology",
+    "level": 3,
+    "order": 16,
+    "oneLiner": "用固体培养、显微染色与「科赫法则」把病原学变成严格科学，一一指认炭疽、结核、霍乱的真凶。",
+    "oneLinerEn": "With solid culture, staining and 'Koch's postulates' he made disease causation a rigorous science, naming anthrax, tuberculosis and cholera's culprits one by one.",
+    "bio": "德国医生，现代细菌学的奠基人之一，与巴斯德齐名。他建立起纯培养技术（固体培养基、单菌落分离）、显微染色与摄影，并提出「科赫法则」：一种特定疾病应由一种特定微生物引起，该微生物须能在病患中被分离、纯培养，并在健康宿主中重现同样的病。他据此确认炭疽杆菌（1876）、结核杆菌（1882）与霍乱弧菌的致病地位，发现结核菌素，1905 年获诺贝尔生理学或医学奖。法则亦有例外——无症状携带、尚不可培养之病原——后世由病毒学与「分子科赫法则」补足。",
+    "bioEn": "A German physician, a founder of modern bacteriology, ranked with Pasteur. He built up pure-culture technique (solid media, single-colony isolation), staining and microphotography, and set out Koch's postulates: a specific disease should be caused by a specific microbe, one that can be isolated from the sick, grown pure, and reproducible in a healthy host. On this basis he established the roles of the anthrax bacillus (1876), the tuberculosis bacillus (1882) and the cholera vibrio, discovered tuberculin, and won the 1905 Nobel in physiology or medicine. The postulates have exceptions—asymptomatic carriers, unculturable agents—later met by virology and 'molecular Koch's postulates.'",
+    "ideas": [
+      {
+        "k": "科赫法则",
+        "kEn": "Koch's postulates",
+        "v": "以分离、纯培与再现，确立某微生物即某病之因。",
+        "vEn": "Isolate, grow pure, reproduce—to prove a microbe is a disease's cause."
+      },
+      {
+        "k": "纯培养技术",
+        "kEn": "Pure culture",
+        "v": "固体培养基上分取单菌落，得干净可检的菌株。",
+        "vEn": "Picking single colonies on solid media yields clean, testable strains."
+      },
+      {
+        "k": "病原的指认",
+        "kEn": "Naming the pathogens",
+        "v": "把「瘴气/体质」的旧解释换成具体可辨的微生物。",
+        "vEn": "Replacing miasma and constitution with identifiable microbes."
+      }
+    ],
+    "works": [
+      {
+        "title": "结核病的病因（1882 演讲）",
+        "titleEn": "The Etiology of Tuberculosis",
+        "year": 1882
+      }
+    ],
+    "quotes": [
+      {
+        "q": "疾病的真凶是特定的微生物，而非瘴气或体质。",
+        "qEn": "The culprits of disease are specific microbes, not miasma or constitution."
+      }
+    ],
+    "related": [
+      "pasteur",
+      "immunity",
+      "bacteria"
+    ]
+  },
+  {
+    "id": "carl-woese",
+    "name": "卡尔·乌斯",
+    "nameEn": "Carl Woese",
+    "life": "1928—2012",
+    "lifeEn": "1928–2012",
+    "country": "美国",
+    "countryEn": "United States",
+    "school": "微生物与系统发育",
+    "schoolEn": "Microbiology & phylogenetics",
+    "level": 3,
+    "order": 17,
+    "oneLiner": "以 16S 核糖体 RNA 作「分子尺规」重排生命之树，划出全新的第三域——古菌。",
+    "oneLinerEn": "Using 16S ribosomal RNA as a molecular ruler he rebuilt the tree of life and carved out a wholly new third domain—the archaea.",
+    "bio": "美国微生物学家，演化生物学的革新者。他跳出形态与代谢的旧分类，改以高度保守的核糖体小亚基 RNA（原核 16S、真核 18S）序列度量生物间的亲缘，绘制以共同祖先为根的生命之树。1977 年他发现一类「产甲烷菌」在分子层面既非细菌也非真核，遂于 1990 年提出三域系统：细菌域、古菌域与真核生物域。此举重划了生命的高阶版图，并揭示真核细胞本身可能源自古菌与细菌的内共生融合——与马古利斯的学说遥相呼应。",
+    "bioEn": "An American microbiologist who reinvented evolutionary biology. Rejecting the old classification by form and metabolism, he measured kinship through the highly conserved RNA of the ribosome's small subunit (16S in prokaryotes, 18S in eukaryotes), drawing a tree of life rooted in common ancestors. In 1977 he found that certain 'methanogens' were, at the molecular level, neither bacteria nor eukaryotes, and in 1990 proposed the three-domain system—Bacteria, Archaea and Eukarya. It redrew life's high-level map and suggested the eukaryotic cell itself arose from an endosymbiotic fusion of archaea and bacteria—echoing Margulis.",
+    "ideas": [
+      {
+        "k": "rRNA 系统发育",
+        "kEn": "rRNA phylogeny",
+        "v": "以核糖体 RNA 序列作衡量亲缘的分子尺规。",
+        "vEn": "Ribosomal RNA sequence as the ruler of relatedness."
+      },
+      {
+        "k": "三域系统",
+        "kEn": "Three domains",
+        "v": "生命分为细菌、古菌与真核生物三大域。",
+        "vEn": "Life splits into Bacteria, Archaea and Eukarya."
+      },
+      {
+        "k": "古菌的独立",
+        "kEn": "Archaea set apart",
+        "v": "看似细菌却自成一枝，且与真核起源密切相关。",
+        "vEn": "Bacteria-like yet a lineage of their own, kin to the origin of eukaryotes."
+      }
+    ],
+    "works": [
+      {
+        "title": "生物的天然系统：三域（1990）",
+        "titleEn": "Towards a Natural System of Organisms: Three Domains",
+        "year": 1990
+      }
+    ],
+    "quotes": [
+      {
+        "q": "生命的三大谱系，远不止植物与动物。",
+        "qEn": "Life's great divisions run far deeper than plants and animals."
+      }
+    ],
+    "related": [
+      "tree-of-life",
+      "archaea",
+      "linnaeus",
+      "margulis"
+    ]
+  },
+  {
+    "id": "rosalind-franklin",
+    "name": "罗莎琳德·富兰克林",
+    "nameEn": "Rosalind Franklin",
+    "life": "1920—1958",
+    "lifeEn": "1920–1958",
+    "country": "英国",
+    "countryEn": "United Kingdom",
+    "school": "X 射线晶体学",
+    "schoolEn": "X-ray crystallography",
+    "level": 3,
+    "order": 18,
+    "oneLiner": "拍下决定性的「照片 51」，以 X 射线衍射揭示 DNA 双螺旋骨架——荣誉却长期旁落。",
+    "oneLinerEn": "She captured the decisive 'Photo 51', revealing DNA's helical backbone by X-ray diffraction—yet the credit long elided her.",
+    "bio": "英国物理化学家与晶体学家。她以精湛的 X 射线衍射拍摄 DNA 纤维照片，其中著名的「照片 51」清楚显示 X 形交叉与规律层线，指向两条链构成的螺旋、碱基朝内、骨架在外，并给出螺旋直径与周期等关键参数；她也独立得出 DNA 磷酸骨架在外、碱基在内的正确图景，精准区分了 A 型与 B 型两种构象。她未充分知情下的数据被同行用于建模；沃森、克里克与威尔金斯于 1962 年获诺贝尔奖时，富兰克林已因卵巢癌于 1958 年病逝，从未分享该奖，遂成科学史上女性贡献被低估的标志性案例。",
+    "bioEn": "A British physical chemist and crystallographer. With masterful X-ray diffraction she photographed DNA fibres, and the famous 'Photo 51' showed the telltale X-shaped cross and regular layer lines pointing to a two-stranded helix with bases inward and backbone out, giving key parameters of diameter and pitch. She independently reached the correct picture—phosphate backbone without, bases within—and cleanly distinguished the A and B forms. Data of hers, without her full knowledge, fed others' modeling; when Watson, Crick and Wilkins took the 1962 Nobel she had already died of ovarian cancer in 1958 and never shared the prize—an emblem of women's under-credited contributions in science.",
+    "ideas": [
+      {
+        "k": "X 射线衍射",
+        "kEn": "X-ray diffraction",
+        "v": "以晶体绕射图样反推分子的三维结构。",
+        "vEn": "Reading a molecule's 3-D structure from its diffraction pattern."
+      },
+      {
+        "k": "照片 51",
+        "kEn": "Photo 51",
+        "v": "B 型 DNA 的清晰绕射图，螺旋的直接证据。",
+        "vEn": "The crisp diffraction image of B-form DNA—direct proof of the helix."
+      },
+      {
+        "k": "骨架在外、碱基在内",
+        "kEn": "Backbone out, bases in",
+        "v": "她据数据定出这一正确方向，却未获应有的承认。",
+        "vEn": "She reasoned this correct orientation from the data, yet without due credit."
+      }
+    ],
+    "works": [
+      {
+        "title": "钠胸腺核酸的分子构型（1953）",
+        "titleEn": "Molecular Configuration in Sodium Thymonucleate",
+        "year": 1953
+      }
+    ],
+    "quotes": [
+      {
+        "q": "数据终会自己说话。",
+        "qEn": "The data will speak for themselves."
+      }
+    ],
+    "related": [
+      "watson-crick",
+      "central-dogma",
+      "mendel"
+    ]
   }
 ]

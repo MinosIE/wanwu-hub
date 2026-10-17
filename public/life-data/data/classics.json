@@ -328,5 +328,69 @@
         "url": "https://en.wikipedia.org/wiki/Origin_of_birds"
       }
     ]
+  },
+  {
+    "id": "sexual-reproduction",
+    "name": "有性生殖的起源",
+    "nameEn": "Origin of Sexual Reproduction",
+    "author": "古元古代",
+    "authorEn": "Paleoproterozoic",
+    "era": "约 10—20 亿年前",
+    "eraEn": "≈1–2 Ga",
+    "level": 3,
+    "core": "经由减数分裂与配子融合，后代获得重新组合的基因组；有性虽「昂贵」，却以重组加速适应、清除有害突变，成为演化的强大引擎。",
+    "coreEn": "Through meiosis and gamete fusion offspring inherit recombined genomes; sex is 'expensive' yet, via recombination, speeds adaptation and purges harmful mutations—an engine of evolution.",
+    "themes": [
+      "减数分裂",
+      "重组优势",
+      "性的两点成本",
+      "红皇后假说"
+    ],
+    "influence": "有性生殖让种群得以更快地应对环境变化与寄生者，奠定了此后复杂多细胞生命与生物多样性的遗传基础。",
+    "influenceEn": "Sex lets populations track environment and parasites faster, laying the genetic ground for later complex multicellular life and diversity.",
+    "related": [
+      "eukaryotic-cell",
+      "natural-selection",
+      "multicellularity",
+      "speciation"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Evolution of sexual reproduction",
+        "url": "https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction"
+      }
+    ]
+  },
+  {
+    "id": "sixth-extinction",
+    "name": "第六次大灭绝（新生代）",
+    "nameEn": "The Sixth Extinction",
+    "author": "全新世—人类世",
+    "authorEn": "Holocene–Anthropocene",
+    "era": "约自 1.5 万年前至今",
+    "eraEn": "since ≈15,000 years ago",
+    "level": 3,
+    "core": "栖息地丧失、过度猎捕、入侵物种、污染与气候变化，使当下物种灭绝的速率远高于自然本底——一场由单个物种的活动所驱动的灭绝事件。",
+    "coreEn": "Habitat loss, overexploitation, invasive species, pollution and climate change now drive extinction rates far above background—a die-off propelled by the activity of one species.",
+    "themes": [
+      "栖息地破碎",
+      "过度猎捕",
+      "入侵物种",
+      "灭绝速率"
+    ],
+    "influence": "与前五次大灭绝不同，本次由人类造成；这既是最严峻的责任，也意味着人类可经由保护、减排与修复而改变其进程。",
+    "influenceEn": "Unlike the five earlier mass extinctions, this one is human-caused—and so, the gravest responsibility, but also one that conservation, cuts in emissions and restoration can bend.",
+    "related": [
+      "biodiversity-value",
+      "k-pg-extinction",
+      "permian-extinction",
+      "population-ecology"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Holocene extinction",
+        "url": "https://en.wikipedia.org/wiki/Holocene_extinction"
+      }
+    ]
   }
 ]

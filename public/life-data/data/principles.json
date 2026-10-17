@@ -563,5 +563,139 @@
         "year": 1992
       }
     ]
+  },
+  {
+    "id": "cell-theory",
+    "title": "细胞学说",
+    "titleEn": "Cell Theory",
+    "icon": "🔬",
+    "category": "细胞",
+    "categoryEn": "Cell",
+    "level": 2,
+    "order": 13,
+    "lead": "一切生物都由细胞构成，细胞是生命的基本单位，新细胞来自老细胞的分裂——纷繁生命由此统一到同一条结构法则。",
+    "leadEn": "All organisms are made of cells, the cell is life's basic unit, and new cells arise from dividing old ones—unifying life's diversity under one structural law.",
+    "points": [
+      {
+        "k": "生命的基本单位",
+        "kEn": "Basic unit of life",
+        "v": "代谢、生长与遗传的活动都以细胞为舞台。",
+        "vEn": "Metabolism, growth and heredity all play out within the cell."
+      },
+      {
+        "k": "普遍的结构",
+        "kEn": "Universal structure",
+        "v": "从细菌到红杉，躯体都由一个或多个细胞组成。",
+        "vEn": "From bacteria to redwoods, bodies are one or many cells."
+      },
+      {
+        "k": "细胞来自细胞",
+        "kEn": "Omnis cellula e cellula",
+        "v": "新细胞只能由既有细胞分裂而来，而非自然发生。",
+        "vEn": "Cells come only from pre-existing cells by division, not spontaneous generation."
+      }
+    ],
+    "related": [
+      "cell-fundamentals",
+      "eukaryotic-cell",
+      "microbiome"
+    ],
+    "sources": [
+      {
+        "label": "施莱登、施旺与菲尔绍的细胞学说",
+        "labelEn": "Schleiden, Schwann & Virchow, Cell Theory",
+        "year": 1839
+      }
+    ]
+  },
+  {
+    "id": "tree-of-life",
+    "title": "生命之树与分类",
+    "titleEn": "The Tree of Life & Classification",
+    "icon": "🌳",
+    "category": "进化",
+    "categoryEn": "Evolution",
+    "level": 2,
+    "order": 14,
+    "lead": "万物由共同祖先分枝而成一棵大树：从林奈的双名法，到达尔文的谱系，再到乌斯的分子系统发育，人类不断重画生命之树的枝桠。",
+    "leadEn": "All species branch from common ancestors into one tree: from Linnaeus's binomials, through Darwin's genealogy, to Woese's molecular phylogeny, we keep redrawing its limbs.",
+    "points": [
+      {
+        "k": "分类与命名",
+        "kEn": "Taxonomy",
+        "v": "界门纲目科属种与双名法，为多样性建立秩序。",
+        "vEn": "Ranks and binomial names bring order to diversity."
+      },
+      {
+        "k": "共同祖先与谱系",
+        "kEn": "Common descent",
+        "v": "亲缘是一棵分叉的谱系树，而非层层上天的阶梯。",
+        "vEn": "Kinship is a branching genealogy, not a ladder climbing upward."
+      },
+      {
+        "k": "分子系统发育",
+        "kEn": "Molecular phylogeny",
+        "v": "以 DNA/RNA 序列度量分歧时间，重排生命版图。",
+        "vEn": "DNA/RNA sequences date divergence and reshape life's map."
+      }
+    ],
+    "related": [
+      "linnaeus",
+      "natural-selection",
+      "carl-woese",
+      "archaea"
+    ],
+    "sources": [
+      {
+        "label": "达尔文《物种起源》；林奈《自然系统》",
+        "labelEn": "Darwin, On the Origin of Species; Linnaeus, Systema Naturae",
+        "year": 1859
+      }
+    ]
+  },
+  {
+    "id": "microbiome",
+    "title": "微生物组与共生",
+    "titleEn": "The Microbiome & Symbiosis",
+    "icon": "🦠",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "order": 15,
+    "lead": "人体与地球都由海量微生物共同塑造：微生物组关乎消化、免疫与健康；而共生、而非纯粹的竞争，是生命的一条重要逻辑。",
+    "leadEn": "Bodies and the planet are shaped by vast microbial communities: the microbiome bears on digestion, immunity and health, and symbiosis—not pure competition—is a key logic of life.",
+    "points": [
+      {
+        "k": "人体微生物组",
+        "kEn": "Human microbiome",
+        "v": "肠道等处的菌群参与代谢、免疫与屏障，其意义远超「致病」。",
+        "vEn": "Gut and other flora drive metabolism, immunity and barrier—far beyond 'germs.'"
+      },
+      {
+        "k": "内共生起源",
+        "kEn": "Endosymbiosis",
+        "v": "线粒体与叶绿体源于被吞而不化的细菌（马古利斯）。",
+        "vEn": "Mitochondria and chloroplasts arose from engulfed, undigested bacteria (Margulis)."
+      },
+      {
+        "k": "生态系统服务",
+        "kEn": "Ecosystem services",
+        "v": "微生物固氮、分解、驱动地球化学循环，撑起食物网的根基。",
+        "vEn": "Microbes fix nitrogen, decay matter and drive biogeochemical cycles beneath food webs."
+      }
+    ],
+    "related": [
+      "margulis",
+      "immunity",
+      "bacteria",
+      "ecosystem-dynamics"
+    ],
+    "sources": [
+      {
+        "label": "马古利斯内共生学说；人类微生物组计划",
+        "labelEn": "Margulis, endosymbiosis; Human Microbiome Project",
+        "year": 1967
+      }
+    ]
   }
 ]
