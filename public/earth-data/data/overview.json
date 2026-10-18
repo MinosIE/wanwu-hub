@@ -2,8 +2,8 @@
   "version": "1.0",
   "counts": {
     "schools": 15,
-    "questions": 15,
-    "principles": 11,
+    "questions": 19,
+    "principles": 15,
     "humanGeo": 16,
     "classics": 15,
     "thinkers": 15
@@ -17,7 +17,7 @@
     {
       "key": "questions",
       "icon": "🌦️",
-      "value": 15
+      "value": 19
     },
     {
       "key": "classics",
@@ -27,7 +27,7 @@
     {
       "key": "principles",
       "icon": "⚙️",
-      "value": 11
+      "value": 15
     }
   ]
 }

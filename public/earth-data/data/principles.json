@@ -504,5 +504,205 @@
         "year": 2017
       }
     ]
+  },
+  {
+    "id": "uniformitarianism",
+    "title": "均变论：现在是认识过去的钥匙",
+    "titleEn": "Uniformitarianism: The Present Is the Key to the Past",
+    "icon": "⏳",
+    "category": "地质",
+    "categoryEn": "Geology",
+    "level": 3,
+    "order": 12,
+    "lead": "塑造地表的缓慢过程——侵蚀、沉积、火山与抬升——在过去也以同样的方式与相近的速率运作；读懂今日之过程，方能破译往昔之岩层。",
+    "leadEn": "The slow processes shaping the surface today—erosion, deposition, volcanism and uplift—worked the same way and at akin rates in the past; read today's processes to decipher yesterday's rocks.",
+    "points": [
+      {
+        "k": "同一法则",
+        "kEn": "Uniform laws",
+        "v": "支配自然的营力与法则不随时间改变。",
+        "vEn": "Nature's forces and laws do not change with time."
+      },
+      {
+        "k": "深时",
+        "kEn": "Deep time",
+        "v": "微小的速率在漫长岁月里累积成巨大的地貌变迁。",
+        "vEn": "Tiny rates, summed over vast time, build enormous change."
+      },
+      {
+        "k": "现在是钥匙",
+        "kEn": "The present as key",
+        "v": "观察今日的地貌过程，即可解读古老的岩石与地形。",
+        "vEn": "Today's processes let us read ancient rocks and landforms."
+      },
+      {
+        "k": "与灾变论的张力",
+        "kEn": "Tension with catastrophism",
+        "v": "地质史以渐变为主，但地震、撞击等突发剧变同样真实。",
+        "vEn": "History is mostly gradual, yet earthquakes and impacts show real abrupt events."
+      }
+    ],
+    "related": [
+      "continental-drift",
+      "rock-cycle",
+      "geomorphic-processes"
+    ],
+    "sources": [
+      {
+        "label": "莱尔《地质学原理》",
+        "labelEn": "Lyell, Principles of Geology",
+        "year": 1830
+      }
+    ]
+  },
+  {
+    "id": "greenhouse-effect",
+    "title": "温室效应与辐射平衡",
+    "titleEn": "The Greenhouse Effect & Radiation Balance",
+    "icon": "☀️",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 2,
+    "order": 13,
+    "lead": "大气放行太阳的短波、却拦回地表的一部分长波热量，使地球均温维持在宜居的约 15℃；这一自然的温室效应正因人类增排的温室气体而增强。",
+    "leadEn": "The atmosphere admits shortwave sunlight but holds back part of the longwave heat the surface re-emits, keeping Earth near a livable 15°C; this natural greenhouse is now strengthened by human greenhouse gases.",
+    "points": [
+      {
+        "k": "辐射平衡",
+        "kEn": "Radiation balance",
+        "v": "入射与出射能量大致相等，决定地球温度的基线。",
+        "vEn": "Balanced incoming and outgoing energy sets the temperature baseline."
+      },
+      {
+        "k": "温室气体的作用",
+        "kEn": "Greenhouse gases",
+        "v": "水汽、二氧化碳与甲烷吸收并回辐射地表的热量。",
+        "vEn": "Water vapour, CO₂ and methane absorb and re-radiate surface heat."
+      },
+      {
+        "k": "宜居的温度",
+        "kEn": "A habitable mean",
+        "v": "若无自然温室效应，地表均温将低至约零下 18℃。",
+        "vEn": "Without the natural greenhouse, the surface would sit near −18°C."
+      },
+      {
+        "k": "增强的温室",
+        "kEn": "The enhanced greenhouse",
+        "v": "气体浓度上升令能量收支失衡、气候随之变暖。",
+        "vEn": "Rising gas levels tip the energy budget and warm the climate."
+      }
+    ],
+    "related": [
+      "climate-genesis",
+      "circulation-cells",
+      "weather-systems"
+    ],
+    "sources": [
+      {
+        "label": "傅里叶的温室概念；阿伦尼乌斯的气候研究",
+        "labelEn": "Fourier's greenhouse concept; Arrhenius on climate",
+        "year": 1896
+      }
+    ]
+  },
+  {
+    "id": "milankovitch-cycles",
+    "title": "米兰科维奇循环（冰期周期）",
+    "titleEn": "Milankovitch Cycles (Ice-Age Rhythms)",
+    "icon": "🌀",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 3,
+    "order": 14,
+    "lead": "地球轨道的偏心率、地轴倾角与岁差以数万年的周期缓慢摆动，改变高纬的夏季日照，从而节律性地驱动冰期与间冰期交替。",
+    "leadEn": "Slow swings in Earth's orbit—eccentricity, axial tilt and precession—vary high-latitude summer sunlight on ten-thousand-year rhythms, pacing the turn of ice ages and warm interglacials.",
+    "points": [
+      {
+        "k": "三大参数",
+        "kEn": "Three parameters",
+        "v": "偏心率约 10 万年、倾角约 4.1 万年、岁差约 2.3 万年。",
+        "vEn": "Eccentricity ~100 kyr, obliquity ~41 kyr, precession ~23 kyr."
+      },
+      {
+        "k": "夏季日照是关键",
+        "kEn": "Summer insolation",
+        "v": "高纬夏季的融冰能力，决定冰盖能否存续壮大。",
+        "vEn": "High-latitude summer melting decides whether ice sheets survive and grow."
+      },
+      {
+        "k": "深时气候档案",
+        "kEn": "A climate archive",
+        "v": "深海沉积的同位素与冰芯记录印证了这些轨道周期。",
+        "vEn": "Isotopes in deep-sea mud and in ice cores confirm the orbital cycles."
+      },
+      {
+        "k": "触发而非唯一因",
+        "kEn": "Trigger, not sole cause",
+        "v": "轨道变化幅度小，靠冰反照率、CO₂ 等反馈放大。",
+        "vEn": "Orbital forcing is slight, amplified by feedbacks such as albedo and CO₂."
+      }
+    ],
+    "related": [
+      "glacier",
+      "climate-genesis",
+      "greenhouse-effect"
+    ],
+    "sources": [
+      {
+        "label": "米兰科维奇《地球轨道与气候变迁》",
+        "labelEn": "Milankovitch, Canon of Insolation",
+        "year": 1941
+      }
+    ]
+  },
+  {
+    "id": "weathering-soil",
+    "title": "风化与成土作用",
+    "titleEn": "Weathering & Soil Formation",
+    "icon": "🪨",
+    "category": "地貌",
+    "categoryEn": "Geomorphology",
+    "level": 2,
+    "order": 15,
+    "lead": "岩石在大气、水、温度与生物的作用下原地破碎并改建为土壤；这一表层过程串起岩石圈、水圈、大气与生物圈，也养住了陆地上的生命。",
+    "leadEn": "Under air, water, temperature and life, rock breaks down in place and is rebuilt into soil; this surface process threads together lithosphere, hydrosphere, atmosphere and biosphere, and underpins terrestrial life.",
+    "points": [
+      {
+        "k": "物理风化",
+        "kEn": "Mechanical weathering",
+        "v": "冻融、卸荷与温差使岩石崩解，却不改其成分。",
+        "vEn": "Frost, unloading and temperature split rock without altering its chemistry."
+      },
+      {
+        "k": "化学风化",
+        "kEn": "Chemical weathering",
+        "v": "水与酸溶解、氧化、水解矿物，改变其成分。",
+        "vEn": "Water and acids dissolve, oxidize and hydrolyse minerals, changing them."
+      },
+      {
+        "k": "土壤的形成",
+        "kEn": "Soil formation",
+        "v": "风化壳经有机质、水分与生物改建，发育出分层土壤。",
+        "vEn": "Weathered mantle, with organic matter and life, develops into layered soil."
+      },
+      {
+        "k": "地貌与碳汇",
+        "kEn": "Landform & carbon sink",
+        "v": "风化既塑造地貌，也消耗大气 CO₂，调节长期气候。",
+        "vEn": "Weathering both sculpts landforms and draws down CO₂, pacing long-term climate."
+      }
+    ],
+    "related": [
+      "geomorphic-processes",
+      "rock-cycle",
+      "river-landforms"
+    ],
+    "sources": [
+      {
+        "label": "道库恰耶夫与詹尼的土壤发生学说",
+        "labelEn": "Dokuchaev & Jenny, soil genesis",
+        "year": 1941
+      }
+    ]
   }
 ]

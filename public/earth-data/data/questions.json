@@ -439,5 +439,198 @@
     "thinkers": ["china", "qinghai-plateau", "li-daoyuan"],
     "related": ["china", "yangtze", "alpine"],
     "sources": [{ "label": "UNESCO", "year": 2022 }]
+  },
+  {
+    "id": "delta-wetland",
+    "name": "三角洲与湿地",
+    "nameEn": "Deltas & Wetlands",
+    "era": "大河入海处（尼罗河、长江、恒河—布拉马普特拉、密西西比）",
+    "eraEn": "Where great rivers meet the sea (Nile, Yangtze, Ganges–Brahmaputra, Mississippi)",
+    "level": 2,
+    "oneLiner": "河流入海时流速骤减、泥沙堆叠成扇，水陆交织出地球上生产力最高、人口最密的景观之一。",
+    "oneLinerEn": "As a river slows at the sea it sheds its sediment into a fan, weaving land and water into one of Earth's most productive and crowded landscapes.",
+    "positions": [
+      {
+        "k": "形成",
+        "kEn": "Formation",
+        "v": "泥沙在河口落淤、分流成网，逐代向海推进成三角洲。",
+        "vEn": "Sediment drops at the mouth, channels split into a net, and the delta grows seaward."
+      },
+      {
+        "k": "生态",
+        "kEn": "Ecology",
+        "v": "洪泛与咸淡水交汇孕育鱼塘、候鸟与丰茂的植被。",
+        "vEn": "Floods and the fresh–salt mix nurture fisheries, migratory birds and lush plants."
+      },
+      {
+        "k": "人与风险",
+        "kEn": "People & risk",
+        "v": "沃土养聚密集人口，却面临上游筑坝断沙与海平面上升。",
+        "vEn": "Rich soil feeds dense people, yet dams trap sediment and seas rise to drown them."
+      }
+    ],
+    "why": "三角洲与湿地是农业、渔业与航运的引擎，也是天然的风暴屏障与碳库；泥沙断供与海平面上升，正令许多三角洲沉降、退缩。",
+    "whyEn": "Deltas and wetlands power farming, fisheries and shipping, and buffer storms while storing carbon; lost sediment and rising seas now make many subside and shrink.",
+    "thinkers": [
+      "nile",
+      "yangtze",
+      "ganges",
+      "mississippi"
+    ],
+    "related": [
+      "water-cycle",
+      "river-landforms",
+      "tropical-rainforest"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Delta",
+        "url": "https://en.wikipedia.org/wiki/Delta"
+      }
+    ]
+  },
+  {
+    "id": "coastline",
+    "name": "海岸与潮间带",
+    "nameEn": "Coasts & the Intertidal Zone",
+    "era": "陆海交界（潮间带、沙滩、崖岸、河口湾）",
+    "eraEn": "The land–sea margin (intertidal flats, beaches, cliffs, estuaries)",
+    "level": 2,
+    "oneLiner": "波浪、潮汐与洋流日夜雕琢陆海交界，塑成一条动态、富饶而脆弱的海岸带。",
+    "oneLinerEn": "Waves, tides and currents sculpt the land–sea edge day and night into a dynamic, rich and fragile coastal zone.",
+    "positions": [
+      {
+        "k": "动力",
+        "kEn": "Forces",
+        "v": "波浪搬运泥沙，潮汐一日两度淹没，洋流沿岸输运。",
+        "vEn": "Waves move sand, tides flood twice a day, currents shift sediment alongshore."
+      },
+      {
+        "k": "地貌",
+        "kEn": "Landforms",
+        "v": "海蚀崖与海蚀平台在侵蚀中后退，沙嘴与沙坝在堆积中生长。",
+        "vEn": "Cliffs and platforms retreat as waves erode; spits and bars grow as sediment builds."
+      },
+      {
+        "k": "生态",
+        "kEn": "Ecology",
+        "v": "潮间带生物随潮汐在干湿、咸淡的极端之间轮替适应。",
+        "vEn": "Intertidal life adapts in turn to extremes of wet–dry and salt–fresh with each tide."
+      }
+    ],
+    "why": "海岸聚集了庞大的人口与港口，是生物多样性的热点；风暴、海平面上升与侵蚀，使它成为气候风险的最前线。",
+    "whyEn": "Coasts crowd with people and ports and teem with biodiversity; storms, rising seas and erosion put them on the front line of climate risk.",
+    "thinkers": [
+      "great-barrier-reef",
+      "suez",
+      "antarctica"
+    ],
+    "related": [
+      "ocean-currents",
+      "coral-reef",
+      "glacier"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Coast",
+        "url": "https://en.wikipedia.org/wiki/Coast"
+      }
+    ]
+  },
+  {
+    "id": "volcano-landscape",
+    "name": "火山与熔岩景观",
+    "nameEn": "Volcanoes & Lava Landscapes",
+    "era": "板块边界与热点（环太平洋、东非裂谷、夏威夷、冰岛）",
+    "eraEn": "Plate margins and hotspots (Pacific Ring of Fire, East African Rift, Hawaii, Iceland)",
+    "level": 2,
+    "oneLiner": "岩浆冲出地表，筑起锥体、熔岩台地与岛屿，是地球释放内热、造就新陆最壮观的方式。",
+    "oneLinerEn": "Where magma breaks through, it builds cones, lava plateaus and islands—Earth's most spectacular way to shed its inner heat and make new land.",
+    "positions": [
+      {
+        "k": "成因",
+        "kEn": "Cause",
+        "v": "板块俯冲、张裂或地幔柱使岩石熔融，上升喷溢而出。",
+        "vEn": "Subduction, rifting or mantle plumes melt rock that rises and erupts."
+      },
+      {
+        "k": "产物",
+        "kEn": "Products",
+        "v": "熔岩流、火山灰、碎屑流与火山气体共同塑造其景观。",
+        "vEn": "Lava, ash, pyroclastic flows and gases together sculpt the scene."
+      },
+      {
+        "k": "双面性",
+        "kEn": "Two faces",
+        "v": "喷发吞噬家园，风化之后却成最肥沃的农田与名山。",
+        "vEn": "Eruptions ruin homes, yet weathered ash makes the richest farmland and grand peaks."
+      }
+    ],
+    "why": "火山既是最危险的自然灾害之一，也是新陆与沃土的制造者；历史上的大型喷发更以气溶胶遮日、深刻影响气候。",
+    "whyEn": "Volcanoes are among the deadliest hazards yet also makers of new land and fertile soil; great eruptions have long swayed climate by veiling the sun with aerosols.",
+    "thinkers": [
+      "iceland",
+      "andes",
+      "himalaya"
+    ],
+    "related": [
+      "seismic-volcanic",
+      "plate-tectonics",
+      "rock-cycle"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Volcano",
+        "url": "https://en.wikipedia.org/wiki/Volcano"
+      }
+    ]
+  },
+  {
+    "id": "endorheic-basin",
+    "name": "内流区与盐湖",
+    "nameEn": "Endorheic Basins & Salt Lakes",
+    "era": "封闭的内陆盆地（里海—咸海、大盐湖、柴达木、死海）",
+    "eraEn": "Closed inland basins (Caspian–Aral, Great Salt Lake, Qaidam, Dead Sea)",
+    "level": 3,
+    "oneLiner": "在地势封闭、蒸发强盛的内陆，河流有进无出，盐分不断浓缩，酿出盐湖、干盐滩与神秘的内流河。",
+    "oneLinerEn": "In closed, evaporative interiors, rivers flow in but never out, salts keep concentrating, and brine lakes, salt flats and enigmatic inland streams appear.",
+    "positions": [
+      {
+        "k": "定义",
+        "kEn": "Definition",
+        "v": "降水汇入内陆却永不入海，蒸发是它唯一的「出口」。",
+        "vEn": "Water collects inland and never reaches the sea; evaporation is its only outlet."
+      },
+      {
+        "k": "盐渍",
+        "kEn": "Salinisation",
+        "v": "溶解的盐随水分蒸发留存，湖愈变愈咸，乃至结晶。",
+        "vEn": "Dissolved salts stay behind as water evaporates, and lakes grow briny to crystalline."
+      },
+      {
+        "k": "兴衰",
+        "kEn": "Rise & fall",
+        "v": "气候转干或河水被引走，湖面骤缩，只留下茫茫干盐滩。",
+        "vEn": "As climate dries or rivers are diverted, lakes shrink and leave vast salt deserts."
+      }
+    ],
+    "why": "内流区是干旱地区的水库与盐仓，也最敏感于气候变化与人类引水——咸海的急剧萎缩，正是生态灾难的一面镜鉴。",
+    "whyEn": "Endorheic basins store a dryland's water and salts and are acutely sensitive to climate and diversion—the Aral Sea's collapse is a stark cautionary mirror.",
+    "thinkers": [
+      "west-asia",
+      "central-asia",
+      "desert"
+    ],
+    "related": [
+      "water-cycle",
+      "desert",
+      "karst"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Endorheic basin",
+        "url": "https://en.wikipedia.org/wiki/Endorheic_basin"
+      }
+    ]
   }
 ]

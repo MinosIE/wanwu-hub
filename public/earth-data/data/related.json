@@ -209,6 +209,34 @@
       "nEn": "Karst Landforms"
     }
   ],
+  "delta-wetland": [
+    {
+      "m": "m-questions",
+      "n": "三角洲与湿地",
+      "nEn": "Deltas & Wetlands"
+    }
+  ],
+  "coastline": [
+    {
+      "m": "m-questions",
+      "n": "海岸与潮间带",
+      "nEn": "Coasts & the Intertidal Zone"
+    }
+  ],
+  "volcano-landscape": [
+    {
+      "m": "m-questions",
+      "n": "火山与熔岩景观",
+      "nEn": "Volcanoes & Lava Landscapes"
+    }
+  ],
+  "endorheic-basin": [
+    {
+      "m": "m-questions",
+      "n": "内流区与盐湖",
+      "nEn": "Endorheic Basins & Salt Lakes"
+    }
+  ],
   "yellow-river": [
     {
       "m": "m-classics",
@@ -494,6 +522,34 @@
       "m": "m-principles",
       "n": "自然带与地域分异规律",
       "nEn": "Natural Zonation and Regional Differentiation"
+    }
+  ],
+  "uniformitarianism": [
+    {
+      "m": "m-principles",
+      "n": "均变论：现在是认识过去的钥匙",
+      "nEn": "Uniformitarianism: The Present Is the Key to the Past"
+    }
+  ],
+  "greenhouse-effect": [
+    {
+      "m": "m-principles",
+      "n": "温室效应与辐射平衡",
+      "nEn": "The Greenhouse Effect & Radiation Balance"
+    }
+  ],
+  "milankovitch-cycles": [
+    {
+      "m": "m-principles",
+      "n": "米兰科维奇循环（冰期周期）",
+      "nEn": "Milankovitch Cycles (Ice-Age Rhythms)"
+    }
+  ],
+  "weathering-soil": [
+    {
+      "m": "m-principles",
+      "n": "风化与成土作用",
+      "nEn": "Weathering & Soil Formation"
     }
   ],
   "population-distribution": [
