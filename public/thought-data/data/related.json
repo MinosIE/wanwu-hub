@@ -1231,6 +1231,34 @@
       "nEn": "The Original Position"
     }
   ],
+  "nagel-bat": [
+    {
+      "m": "m-experiments",
+      "n": "内格尔的蝙蝠：作为一只蝙蝠是什么感觉",
+      "nEn": "Nagel's Bat: What Is It Like to Be a Bat?"
+    }
+  ],
+  "russell-turkey": [
+    {
+      "m": "m-experiments",
+      "n": "罗素的火鸡：归纳的信任",
+      "nEn": "Russell's Turkey: The Faith of Induction"
+    }
+  ],
+  "locke-prince-cobbler": [
+    {
+      "m": "m-experiments",
+      "n": "洛克：王子与鞋匠的同一",
+      "nEn": "Locke: The Prince and the Cobbler"
+    }
+  ],
+  "williams-jim": [
+    {
+      "m": "m-experiments",
+      "n": "威廉斯：吉姆与二十名人质",
+      "nEn": "Williams: Jim and the Hostages"
+    }
+  ],
   "ming-universal-compare": [
     {
       "m": "m-compare",
@@ -1299,6 +1327,34 @@
       "m": "m-compare",
       "n": "中庸与亚里士多德的中道",
       "nEn": "Zhongyong and the Aristotelian Mean"
+    }
+  ],
+  "liangzhi-autonomy": [
+    {
+      "m": "m-compare",
+      "n": "致良知与道德自律",
+      "nEn": "Innate Knowing & Moral Autonomy"
+    }
+  ],
+  "change-flux": [
+    {
+      "m": "m-compare",
+      "n": "易之变与万物流变",
+      "nEn": "The Book of Changes and Panta Rhei"
+    }
+  ],
+  "gong-an-therapy": [
+    {
+      "m": "m-compare",
+      "n": "禅门公案与哲学的治疗",
+      "nEn": "Kōan and Philosophy as Therapy"
+    }
+  ],
+  "gewu-intuition": [
+    {
+      "m": "m-compare",
+      "n": "格物致知与本质直观",
+      "nEn": "Investigating Things & Eidetic Intuition"
     }
   ],
   "myth-socrates-ignorance": [

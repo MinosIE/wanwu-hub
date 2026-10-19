@@ -319,5 +319,154 @@
         "year": -340
       }
     ]
+  },
+  {
+    "id": "liangzhi-autonomy",
+    "title": "致良知与道德自律",
+    "titleEn": "Innate Knowing & Moral Autonomy",
+    "icon": "🧭",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 3,
+    "order": 11,
+    "lead": "王阳明说善恶不待外求、当下一念即是良知；康德说道德律出自自由意志的自我立法。二者都把道德之根扎进「心」而非外在权威。",
+    "leadEn": "Wang Yangming holds good and evil need no outer search—the present thought is innate knowing; Kant holds the moral law is self-legislation of a free will. Both root morality in the 'mind', not in outer authority.",
+    "west": "康德以定言命令立则：只按你愿意其成为普遍法则的准则去行动；道德价值出于义务而非偏好，理性为自己立法即是自律与人之尊严的根源。",
+    "westEn": "Kant's categorical imperative: act only on a maxim you could will as universal law; moral worth comes from duty not inclination, and reason's self-legislation is the root of autonomy and human dignity.",
+    "east": "阳明提出「无善无恶心之体，有善有恶意之动……知善知恶是良知」：良知人人本具、不假外求，将其在事上磨炼扩充即成德，权威在内而不在经典教条。",
+    "eastEn": "Yangming: 'the body of mind is beyond good and evil... to know good and evil is innate knowing'—liangzhi is complete in everyone and sought outward in nothing; extending and tempering it through affairs is virtue, with authority within rather than in texts.",
+    "bridge": "两者都以内在立法对抗他律，却一重普遍形式的理性检验，一重当下直觉的扩充践履；良知能否经得起康德的普遍化测试，正是这场对话的张力所在。",
+    "bridgeEn": "Both answer heteronomy with inner lawgiving, yet one stresses universal rational form, the other the extension of present intuition—whether liangzhi can pass Kant's test of universalisation is the live tension of the dialogue.",
+    "related": [
+      "liangzhi",
+      "categorical-imperative",
+      "wangyangming",
+      "kant",
+      "groundwork",
+      "confucianism",
+      "kantian"
+    ],
+    "sources": [
+      {
+        "label": "王阳明《传习录》",
+        "labelEn": "Wang Yangming, Instructions for Practical Living",
+        "year": 1518
+      },
+      {
+        "label": "康德《道德形而上学奠基》",
+        "labelEn": "Kant, Groundwork of the Metaphysics of Morals",
+        "year": 1785
+      }
+    ]
+  },
+  {
+    "id": "change-flux",
+    "title": "易之变与万物流变",
+    "titleEn": "The Book of Changes and Panta Rhei",
+    "icon": "🌊",
+    "category": "形而上学",
+    "categoryEn": "Metaphysics",
+    "level": 3,
+    "order": 12,
+    "lead": "「生生之谓易」与「人不能两次踏入同一条河流」：两种文明都以变易为世界的底色，却各自给出了不同的落点。",
+    "leadEn": "'Ceaseless birth-and-rebirth is the Change' and 'you cannot step twice into the same river': two cultures both take flux as the world's keynote, yet land it differently.",
+    "west": "赫拉克利特以逻各斯统摄对立与流变、以火为本原；但巴门尼德—柏拉图一线判定流变属意见、真实者恒常不动，西方遂长期押注于「变中之常」。",
+    "westEn": "Heraclitus rules flux and opposition by the logos, with fire as principle; but the Parmenides–Plato line assigns flux to opinion and being to the unchanging, so the West long bet on permanence behind change.",
+    "east": "《易》以阴阳消息、刚柔相推写尽变易，却不在变化背后另立不变实体；「时中」教人在流转中随时取中、顺势而成，恒常只安于变化本身。",
+    "eastEn": "The Yijing charts change through the waxing and waning of yin and yang yet posits no unchanging substance behind it; 'timely equilibrium' teaches one to hit the mean within flux—constancy residing in change itself.",
+    "bridge": "同以流变为实在，一侧逼出「现象／本体」的二分，一侧走向「即用见体、唯变所适」；这一分岔几乎决定了西方形而上学与《易》学气质之别。",
+    "bridgeEn": "Both grant flux reality, yet one forces the appearance/being split while the other seeks 'substance seen in function, at home only in change'—a fork that all but decides the difference between Western metaphysics and the temper of Yijing thought.",
+    "related": [
+      "yinyang",
+      "taoism",
+      "qiwu",
+      "platonism"
+    ],
+    "sources": [
+      {
+        "label": "《周易·系辞》",
+        "labelEn": "Yijing, Great Commentary",
+        "year": -300
+      },
+      {
+        "label": "赫拉克利特残篇",
+        "labelEn": "Heraclitus, Fragments",
+        "year": -500
+      }
+    ]
+  },
+  {
+    "id": "gong-an-therapy",
+    "title": "禅门公案与哲学的治疗",
+    "titleEn": "Kōan and Philosophy as Therapy",
+    "icon": "🥋",
+    "category": "语言与意义",
+    "categoryEn": "Language & Meaning",
+    "level": 3,
+    "order": 13,
+    "lead": "临济的「吃茶去」、赵州的「狗子无佛性」，与维特根斯坦「给苍蝇指出飞出捕蝇瓶的路」——都以搅乱语言来解结，而非另立新论。",
+    "leadEn": "Linji's 'go and drink tea', Zhaozhou's 'dog—no buddha-nature', and Wittgenstein's 'show the fly the way out of the fly-bottle' all untie by jumbling language, not by founding a new thesis.",
+    "west": "后期维特根斯坦把哲学问题视为语言误用所致的「智力痉挛」，其方法不是解答而是消解：把词交回日常用法，让人看清语法的迷宫而获得安宁。",
+    "westEn": "The later Wittgenstein treats philosophical problems as a 'cramp of the mind' bred by misusing language; his method dissolves rather than answers, returning words to everyday use until one sees the grammar-maze and finds peace.",
+    "east": "禅宗自居「不立文字、教外别传」，却大量借公案、机锋、棒喝逼学人放下对概念的执取、直指见性；语言在此被用来打破语言自身的惯性。",
+    "eastEn": "Chán professes a transmission outside the letters, yet leans heavily on kōan, sharp exchange and shock to press the student to drop conceptual grasp and see directly; language here is the tool used to break language's own inertia.",
+    "bridge": "两者都不建体系而从事「治疗」，分歧却在有没有「治疗之后」的境界：维氏归于用法之平宁，禅者指向不可言说的开悟。",
+    "bridgeEn": "Both build no system and practise 'therapy', yet divide on whether there is any state 'after therapy': Wittgenstein settles into the peace of use, the Chan pointer toward an unsayable awakening.",
+    "related": [
+      "wittgenstein",
+      "philosophical-investigations",
+      "zhuangzi",
+      "speech-act",
+      "dao-name"
+    ],
+    "sources": [
+      {
+        "label": "维特根斯坦《哲学研究》§309",
+        "labelEn": "Wittgenstein, Philosophical Investigations §309",
+        "year": 1953
+      },
+      {
+        "label": "《无门关》《碧岩录》公案集",
+        "labelEn": "The Gateless Barrier / Blue Cliff Record",
+        "year": 1228
+      }
+    ]
+  },
+  {
+    "id": "gewu-intuition",
+    "title": "格物致知与本质直观",
+    "titleEn": "Investigating Things & Eidetic Intuition",
+    "icon": "🔍",
+    "category": "知识与方法",
+    "categoryEn": "Knowledge & Method",
+    "level": 3,
+    "order": 14,
+    "lead": "朱熹要「即物而穷其理」，胡塞尔要「回到事情本身、直观其本质」：二者都把认知落点放在事物之自身显现，而非主观臆断。",
+    "leadEn": "Zhu Xi would 'exhaust principle through things', Husserl 'return to the things themselves and intuit their essence': both anchor knowing in a thing's self-showing, not subjective guesswork.",
+    "west": "胡塞尔以现象学还原（悬置自然态度）剥离成见，让本质在直观中当场呈现；再以「自由想象变更」变换诸例，把其中不变的结构照面出来。",
+    "westEn": "Husserl's phenomenological reduction brackets the natural attitude so essences show themselves in intuition; 'free imaginative variation' then varies examples to bring out the invariant structure within them.",
+    "east": "朱熹的「格物致知」主张即一草一木、一事一物而穷其理，积习既久终能豁然贯通；阳明则反转其义，谓「格」者「正」也，理不在物而在心之良知。",
+    "eastEn": "Zhu Xi's 'investigate things to extend knowledge' reads principle in every plant and affair until, long practised, it breaks through at a glance; Yangming reverses it—'investigate' means 'rectify', and principle lies not in things but in the mind's innate knowing.",
+    "bridge": "两者都重「让事物如其所是地被给予」，但一以直观把握超时间的本质，一以格物贯通伦理的天理；阳明式的转向更逼问：穷理究竟当向外，还是向内？",
+    "bridgeEn": "Both prize 'letting the thing be given just as it is', yet one intuits a timeless essence and the other threads an ethical principle through things; Yangming's turn presses the further question—does exhausting principle go outward, or inward?",
+    "related": [
+      "gewu",
+      "liangzhi",
+      "chuanxilu",
+      "tl-husserl",
+      "epoché"
+    ],
+    "sources": [
+      {
+        "label": "朱熹《大学章句·格物补传》",
+        "labelEn": "Zhu Xi, Commentary on the Great Learning (supplied chapter)",
+        "year": 1190
+      },
+      {
+        "label": "胡塞尔《逻辑研究》《观念 I》",
+        "labelEn": "Husserl, Logical Investigations / Ideas I",
+        "year": 1913
+      }
+    ]
   }
 ]

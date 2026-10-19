@@ -675,5 +675,209 @@
         "year": 1971
       }
     ]
+  },
+  {
+    "id": "nagel-bat",
+    "title": "内格尔的蝙蝠：作为一只蝙蝠是什么感觉",
+    "titleEn": "Nagel's Bat: What Is It Like to Be a Bat?",
+    "icon": "🦇",
+    "category": "心灵与意识",
+    "categoryEn": "Mind & Consciousness",
+    "level": 3,
+    "order": 15,
+    "lead": "你可以穷尽蝙蝠的一切神经生理，却仍不知道「用声呐听世界」究竟是怎样的体验。",
+    "leadEn": "You may exhaust the bat's neurophysiology and still not know what it is like to hear the world by sonar.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "蝙蝠靠回声定位「看」世界，其主观样式远超人类想象，我们只能凭自身感官去猜。",
+        "vEn": "Bats perceive by echolocation; their subjective style far exceeds human imagination, and we can only guess from our own senses."
+      },
+      {
+        "k": "冲击",
+        "kEn": "The shock",
+        "v": "一旦承认「有某种成为蝙蝠的样子」，就说明存在无法被客观描述穷尽的事实。",
+        "vEn": "Once you grant there is 'something it is like' to be a bat, some facts escape any complete objective description."
+      },
+      {
+        "k": "针对",
+        "kEn": "The target",
+        "v": "直指还原论与功能主义：第三人称的物理／功能说明，似乎总漏掉第一人称的感受性质。",
+        "vEn": "It targets reductive and functionalist programmes: third-person physical/functional accounts seem to leave out first-person feel."
+      },
+      {
+        "k": "余响",
+        "kEn": "Aftermath",
+        "v": "「解释的鸿沟」由此得名；有人诉诸新神秘主义，有人仍寄望未来的科学将其跨越。",
+        "vEn": "The 'explanatory gap' is named here; some invoke a new mysterianism, others still trust future science to close it."
+      }
+    ],
+    "related": [
+      "marys-room",
+      "philosophical-zombie",
+      "mind-body",
+      "qualia"
+    ],
+    "sources": [
+      {
+        "label": "内格尔《作为一只蝙蝠是什么感觉》",
+        "labelEn": "Nagel, What Is It Like to Be a Bat?",
+        "year": 1974
+      }
+    ]
+  },
+  {
+    "id": "russell-turkey",
+    "title": "罗素的火鸡：归纳的信任",
+    "titleEn": "Russell's Turkey: The Faith of Induction",
+    "icon": "🦃",
+    "category": "知识与怀疑",
+    "categoryEn": "Knowledge & Doubt",
+    "level": 2,
+    "order": 16,
+    "lead": "一只火鸡观察到「主人每天来喂食」，一日日越发确证——直到圣诞前夜，规律第一次背叛了它。",
+    "leadEn": "A turkey notes 'the farmer comes to feed me' day after day, ever more confirmed—until Christmas Eve, when the pattern first betrays it.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "火鸡从大量一致的经验中归纳出「主人来＝有食物」这一规律，并深信不疑。",
+        "vEn": "From many uniform observations the turkey induces 'farmer comes → food' and trusts it completely."
+      },
+      {
+        "k": "冲击",
+        "kEn": "The shock",
+        "v": "再多正面例证，也不能在逻辑上保证未来必重演过去的秩序。",
+        "vEn": "No amount of positive instances logically guarantees the future will repeat the past order."
+      },
+      {
+        "k": "关联",
+        "kEn": "The kinship",
+        "v": "它是休谟归纳问题的寓言：「太阳明天照常升起」建立在习惯而非证明之上。",
+        "vEn": "It is Hume's problem of induction in fable: 'the sun will rise tomorrow' rests on custom, not proof."
+      },
+      {
+        "k": "回应",
+        "kEn": "Replies",
+        "v": "波普尔以可证伪取代归纳确证；也有人以自然齐一性或最佳解释推理为其辩护。",
+        "vEn": "Popper swaps inductive confirmation for falsifiability; others defend the uniformity of nature or inference to the best explanation."
+      }
+    ],
+    "related": [
+      "induction",
+      "knowledge",
+      "falsifiability",
+      "hume"
+    ],
+    "sources": [
+      {
+        "label": "罗素《哲学问题》中的归纳寓言",
+        "labelEn": "Russell, The Problems of Philosophy (the inductive bird)",
+        "year": 1912
+      }
+    ]
+  },
+  {
+    "id": "locke-prince-cobbler",
+    "title": "洛克：王子与鞋匠的同一",
+    "titleEn": "Locke: The Prince and the Cobbler",
+    "icon": "👑",
+    "category": "自我与同一",
+    "categoryEn": "Identity & Persistence",
+    "level": 3,
+    "order": 17,
+    "lead": "若王子的记忆搬进鞋匠的身体，换上宫廷衣裳的是「同一个人」，还是仅仅同一具躯壳？",
+    "leadEn": "If a prince's memory moved into a cobbler's body, is it the same person in courtly clothes, or merely the same body?",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "洛克设想意识（连同记忆）随王子转移进一具陌生的躯体。",
+        "vEn": "Locke imagines consciousness—together with memory—transferring with the prince into an unfamiliar body."
+      },
+      {
+        "k": "冲击",
+        "kEn": "The shock",
+        "v": "他由此区分「人（一团物质）」与「人格（自我）」：人格的同一系于记忆的连续，而非物质相同。",
+        "vEn": "He splits 'man (a lump of matter)' from 'person (a self)': personal identity tracks continuity of memory, not sameness of substance."
+      },
+      {
+        "k": "反驳",
+        "kEn": "Objection",
+        "v": "里德批评记忆链会传递断裂（少年—军官—老者），使洛克式记忆论陷入矛盾。",
+        "vEn": "Reid objects that the memory chain breaks transitivity (boy–officer–hoary general), landing Locke's view in contradiction."
+      },
+      {
+        "k": "回响",
+        "kEn": "Echo",
+        "v": "它开启了心理连续论，也逼出帕菲特「同一并非要紧之事」的后续追问。",
+        "vEn": "It opens psychological-continuity views and provokes Parfit's sequel that identity is not what matters."
+      }
+    ],
+    "related": [
+      "theseus-ship",
+      "parfit-fission",
+      "self",
+      "tabula-rasa"
+    ],
+    "sources": [
+      {
+        "label": "洛克《人类理解论》「论同一与差异」",
+        "labelEn": "Locke, Essay, 'Of Identity and Diversity'",
+        "year": 1690
+      }
+    ]
+  },
+  {
+    "id": "williams-jim",
+    "title": "威廉斯：吉姆与二十名人质",
+    "titleEn": "Williams: Jim and the Hostages",
+    "icon": "🎯",
+    "category": "伦理与价值",
+    "categoryEn": "Ethics & Value",
+    "level": 3,
+    "order": 18,
+    "lead": "若吉姆不开枪，二十人将被杀；若他亲手杀一人，其余十九得救。功利的算法干净利落，却像漏掉了什么。",
+    "leadEn": "If Jim does not shoot, twenty die; if he kills one with his own hand, nineteen are saved. The utilitarian calculus is clean—yet something seems left out.",
+    "points": [
+      {
+        "k": "设定",
+        "kEn": "Setup",
+        "v": "残暴队长允诺：吉姆若亲手处决一名人质，余者即刻获释，否则二十人全被杀。",
+        "vEn": "A brutal captain offers this: if Jim executes one hostage himself the rest go free at once, else all twenty are killed."
+      },
+      {
+        "k": "冲击",
+        "kEn": "The shock",
+        "v": "简单功利主义叫吉姆开枪（净多救十九），却无视他的完整人格与自身的计划、信念。",
+        "vEn": "Simple utilitarianism bids him shoot (nineteen net saved) but ignores his integrity and his own projects and commitments."
+      },
+      {
+        "k": "针对",
+        "kEn": "The target",
+        "v": "威廉斯以此批评功利计算把人当作中性管道，抹去行动者自己的道德账目。",
+        "vEn": "Williams charges that the calculus treats persons as neutral conduits, erasing the agent's own moral ledger."
+      },
+      {
+        "k": "余响",
+        "kEn": "Aftermath",
+        "v": "后果主义者反驳：拒开亦使吉姆双手沾上二十条命——「不作为」并非无辜。",
+        "vEn": "Consequentialists reply: refusing also stains Jim—with twenty deaths; 'doing nothing' is not innocent."
+      }
+    ],
+    "related": [
+      "trolley-problem",
+      "utility",
+      "utilitarianism",
+      "good-evil"
+    ],
+    "sources": [
+      {
+        "label": "夏与威廉斯《功利主义：赞成与反对》",
+        "labelEn": "Smart & Williams, Utilitarianism: For and Against",
+        "year": 1973
+      }
+    ]
   }
 ]
