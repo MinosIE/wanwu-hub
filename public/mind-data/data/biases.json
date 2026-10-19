@@ -265,5 +265,102 @@
         "year": 1988
       }
     ]
+  },
+  {
+    "id": "representativeness-bias",
+    "term": "代表性偏差",
+    "termEn": "Representativeness Bias",
+    "oneLiner": "我们凭「像不像典型」来判断归属与概率，却忽视基础比率与样本大小。",
+    "oneLinerEn": "We judge category and probability by how much something resembles a stereotype, ignoring base rates and sample size.",
+    "detail": "典型情境：描述一个「羞涩、爱读书、注重细节」的人，问他是图书管理员还是农民——多数人答图书管理员，却忘了农民基数大得多（基础比率谬误）。它还催生「合取谬误」：认为「琳达是银行出纳且积极参与女权运动」比「琳达是银行出纳」更可能，只因前者更「像」。纠偏之策：先问「这类人总共有多少」，再问「像不像」。",
+    "detailEn": "A typical case: told of someone 'shy, bookish and detail-oriented', most answer librarian rather than farmer, forgetting farmers vastly outnumber librarians (base-rate neglect). It also breeds the conjunction fallacy—judging 'Linda is a bank teller and an active feminist' likelier than 'Linda is a bank teller', only because it fits the portrait better. The fix: first ask 'how many such people exist overall', then 'how much it resembles'.",
+    "category": "启发式",
+    "categoryEn": "Heuristics",
+    "related": [
+      "availability",
+      "hindsight-bias",
+      "confirmation-bias",
+      "gambler-fallacy"
+    ],
+    "sources": [
+      {
+        "label": "《思考，快与慢》",
+        "labelEn": "Thinking, Fast and Slow",
+        "year": 2011
+      },
+      {
+        "label": "Kahneman & Tversky (1972)",
+        "year": 1972
+      }
+    ]
+  },
+  {
+    "id": "false-consensus-effect",
+    "term": "虚假共识效应",
+    "termEn": "False Consensus Effect",
+    "oneLiner": "我们高估他人与自己想法、行为一致的程度，把个人偏好当成了常识。",
+    "oneLinerEn": "We overestimate how much others share our beliefs and behavior, mistaking personal preference for common sense.",
+    "detail": "罗斯等人发现：自己持有的观点、选择的生活方式，都被以为「大多数人也会这样」；愿意在院前竖起告示牌的房主，远高估他人与自己同样同意的比例。它源于只接触相似的人（选择性接触），又以自己的立场为锚、调整不足。看清它，能少一些「大家明明都……」的臆断。",
+    "detailEn": "Ross and colleagues found that our own views and chosen lifestyles are all taken to be what 'most people' would do; landlords willing to post a front-yard sign greatly overestimated how many others would agree. It stems from associating mostly with similar people (selective exposure) and anchoring on one's own stance with insufficient adjustment. Seeing it curbs the smug 'everyone obviously...' assumption.",
+    "category": "社会认知",
+    "categoryEn": "Social cognition",
+    "related": [
+      "confirmation-bias",
+      "bandwagon",
+      "self-serving-bias",
+      "spotlight-effect"
+    ],
+    "sources": [
+      {
+        "label": "Ross, Amabile & Steinmetz (1977)",
+        "year": 1977
+      }
+    ]
+  },
+  {
+    "id": "just-world-hypothesis",
+    "term": "公正世界假设",
+    "termEn": "Just-World Hypothesis",
+    "oneLiner": "我们倾向相信世界公道、善恶有报，于是把不幸归咎于受害者自身。",
+    "oneLinerEn": "We lean on believing the world is fair and outcomes match desert, so we blame misfortune on the victims themselves.",
+    "detail": "勒纳提出：若相信「得其所应得」，世界才显得可预测、安全。代价是——当看见无辜者受难，为保住这份信念，我们会下意识寻找其「过错」，「肯定做了什么」。它与基本归因错误彼此推手，也是冷漠与受害者有罪论的心理根源。承认世界并不自动公正，是正义感的前提，而非它的敌人。",
+    "detailEn": "Lerner proposed that believing people 'get what they deserve' makes the world feel predictable and safe. The cost: faced with innocent suffering, we subconsciously hunt for the victim's 'fault'—'they must have done something'—to shield the belief. It feeds off the fundamental attribution error and underlies indifference and victim-blaming. Accepting that the world is not automatically just is a precondition of real justice, not its enemy.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": [
+      "fundamental-attribution-error",
+      "self-serving-bias",
+      "bystander-effect",
+      "actor-observer-bias"
+    ],
+    "sources": [
+      {
+        "label": "Lerner (1980), The Belief in a Just World",
+        "year": 1980
+      }
+    ]
+  },
+  {
+    "id": "actor-observer-bias",
+    "term": "行动者-观察者偏差",
+    "termEn": "Actor-Observer Bias",
+    "oneLiner": "解释行为时，我们把他人归于性格，把自己归于处境。",
+    "oneLinerEn": "Explaining behavior, we credit others' character but attribute our own to circumstances.",
+    "detail": "同样迟到：别人是「懒散」，自己却是「闹钟没响、路上出了事」。同一行为，视角不同，归因也不同——作为行动者，满目的情境细节涌入眼帘；作为观察者，眼前只有对方其人。它与基本归因错误合称「归因的两副面孔」，提醒我们：在对己对人下判词之前，先换一次视角。",
+    "detailEn": "Late again: the other is 'lazy', but you were foiled by a dead alarm and an accident. Same act, different vantage, different cause—as actor, a flood of situational detail fills your view; as observer, only the person stands before you. Together with the fundamental attribution error it forms the two faces of attribution, urging a swap of perspective before you grade self and other.",
+    "category": "社会认知",
+    "categoryEn": "Social cognition",
+    "related": [
+      "fundamental-attribution-error",
+      "self-serving-bias",
+      "just-world-hypothesis",
+      "false-consensus-effect"
+    ],
+    "sources": [
+      {
+        "label": "Jones & Nisbett (1971)",
+        "year": 1971
+      }
+    ]
   }
 ]

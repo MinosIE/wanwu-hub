@@ -370,5 +370,108 @@
         "year": 1968
       }
     ]
+  },
+  {
+    "id": "strange-situation",
+    "term": "安斯沃思陌生情境",
+    "termEn": "Strange Situation Procedure",
+    "year": 1978,
+    "oneLiner": "在一连串母子分离与重聚的标准化场景里，婴幼儿的依恋类型被清晰区分出来。",
+    "oneLinerEn": "Through a scripted sequence of separations and reunions between mother and child, infants' attachment styles are cleanly told apart.",
+    "detail": "安斯沃思设计八步流程：陌生房间、母亲在场、陌生人进入、两次母婴分离、两次重聚。据孩子的探索、痛苦与重聚反应，分出安全型、回避型、抗拒型（梅因后补混乱型）。重聚行为是关键：安全型很快被安抚，焦虑型则或紧黏、或推拒。它把「依恋」从抽象概念变成可观察的编码，成为发展心理学的基石，也引发「只看母亲这一个变量」与文化差异的批评。",
+    "detailEn": "Ainsworth's eight-step protocol: a novel room, mother present, a stranger entering, two separations, two reunions. From the child's exploring, distress and reunion behavior fall the secure, avoidant and resistant types (Main later added disorganized). Reunion is the key: the secure are quickly soothed, the anxious cling or resist. It turned 'attachment' from an abstraction into observable coding—a cornerstone of developmental psychology, while drawing fire for treating the mother as the sole variable across cultures.",
+    "ethics": "分离会引发短暂压力，流程设有严格终止标准以保护幼儿；争议在于它主要观察母婴、并把中产样本的模式普遍化。",
+    "ethicsEn": "Separations cause brief distress; strict termination rules protect the child. The criticism: it focuses on the mother and generalizes middle-class patterns.",
+    "category": "发展",
+    "categoryEn": "Development",
+    "related": [
+      "harlow-monkey",
+      "little-albert",
+      "bandura-bobo",
+      "visual-cliff"
+    ],
+    "sources": [
+      {
+        "label": "Ainsworth et al., Patterns of Attachment",
+        "year": 1978
+      }
+    ]
+  },
+  {
+    "id": "libet-ready-potential",
+    "term": "利贝特自由意志实验",
+    "termEn": "Libet's Readiness Potential",
+    "year": 1983,
+    "oneLiner": "大脑的「准备电位」似乎在本人报告「决定动手」之前就已开始上升。",
+    "oneLinerEn": "The brain's 'readiness potential' appears to start rising before the person reports the decision to act.",
+    "detail": "利贝特让被试随时机动手指，同时记录脑电、并以时钟标记其「想要动」的意识时刻。结果：运动前的准备电位在意识报告之前约 0.35 秒就已启动，动作本身更晚。这被解读为「大脑先决定、意识后知晓」，冲击了自由意志的直觉。批评随之而来：时钟法误差大、准备电位或许只是噪声的累积、而「临时不作废」的否决权仍可能属于意识。其后用功能磁共振成像的研究甚至能把决定提前数秒「预测」，争论至今未歇。",
+    "detailEn": "Libet had subjects flex a finger at will, recording the EEG while a clock marked each reported 'urge' to move. A readiness potential built up about 0.35 seconds before the conscious report, the act later still—read as 'the brain decides, awareness learns afterward', a blow to the free-will intuition. Critics cite the clock method's error, that the potential may be mere noise accumulating, and that a last-moment 'veto' may still belong to awareness; later fMRI work could even predict a choice seconds ahead. The dispute continues.",
+    "ethics": "被试皆为志愿者、任务无害；真正的争点不在伦理而在解释——从相关性跳到「没有自由意志」的推论是否越界。",
+    "ethicsEn": "All subjects volunteered for a harmless task; the real dispute is interpretive—whether correlational data license a leap to 'there is no free will'.",
+    "category": "神经",
+    "categoryEn": "Neuroscience",
+    "related": [
+      "sperry-split-brain",
+      "consciousness",
+      "stroop"
+    ],
+    "sources": [
+      {
+        "label": "Libet et al., Consciousness and Cognition (1983)",
+        "year": 1983
+      }
+    ]
+  },
+  {
+    "id": "wason-selection-task",
+    "term": "沃森选择任务",
+    "termEn": "Wason Selection Task",
+    "year": 1966,
+    "oneLiner": "面对「若正面是元音，则背面必是偶数」的规则，多数人翻错了牌——我们天生不擅证伪。",
+    "oneLinerEn": "Given the rule 'if one side is a vowel, the other is an even number', most turn the wrong cards—we are born poor at falsification.",
+    "detail": "桌上四张牌显示 A、K、4、7，问至少要翻哪几张才能验证规则。正确答案是 A（可能证伪前件）与 7（若奇数背面配元音即违反后件），但多数人只翻 A 与 4，专找「符合」的例子而忽略「证伪」——正是确认偏误的实验室版本。耐人寻味的是，把同样的逻辑换成社会契约（「未满二十一岁不得饮酒」）时，正确率骤然抬升：人类的推理或许并非形式逻辑的残次品，而是为「抓搭便车者」而优化的模块。",
+    "detailEn": "Four cards show A, K, 4, 7; which must you flip to test 'if a vowel, then an even number'? The right answer is A (it can falsify the rule) and 7 (an odd with a vowel on the other side breaks it), yet most turn only A and 4—seeking confirmations, not refutations, the laboratory form of confirmation bias. Strikingly, recast as a social contract ('under twenty-one may not drink'), accuracy jumps: human reasoning may not be a defective logic module but one tuned to catch cheaters.",
+    "ethics": "这是无被试伤害的纸笔任务；它的价值不在伦理争议，而在揭示推理的结构。",
+    "ethicsEn": "A harmless pencil-and-paper task; its value lies not in ethical controversy but in revealing the structure of reasoning.",
+    "category": "认知",
+    "categoryEn": "Cognition",
+    "related": [
+      "confirmation-bias",
+      "representativeness-bias",
+      "stroop",
+      "inattentional-gorilla"
+    ],
+    "sources": [
+      {
+        "label": "Wason, Quarterly Journal of Experimental Psychology (1966)",
+        "year": 1966
+      }
+    ]
+  },
+  {
+    "id": "cocktail-party-effect",
+    "term": "鸡尾酒会效应",
+    "termEn": "Cocktail Party Effect",
+    "year": 1953,
+    "oneLiner": "满场嘈杂里，自己的名字一旦被谁提起，你几乎立刻听见——注意力早已悄然分出一条通道。",
+    "oneLinerEn": "Amid a roaring room you instantly catch your own name if anyone speaks it—attention has quietly opened a private channel.",
+    "detail": "切里用双耳分听实验发现：人能跟随一只耳朵的语音、把另一只当作噪声，却仍对被「忽略」那一侧冒出的自己姓名、或语言切换保持敏感。这说明注意并非一道简单的闸门，而是先做了语义筛选（布罗德本特的早期过滤模型，由此被特瑞斯曼的衰减模型修正）。它既是选择性注意的窗口，也是「看不见的大猩猩」的镜像——我们听见或看见什么，取决于注意这束光打向何处。",
+    "detailEn": "Cherry's dichotic-listening work showed that people can track one ear and treat the other as noise, yet still notice their own name, or a switch of language, on the 'ignored' side. Attention is thus not a simple gate but performs early semantic screening (Broadbent's filter giving way to Treisman's attenuation model). It is a window on selective attention—and the mirror image of the invisible gorilla: what we hear or see depends on where the beam of attention falls.",
+    "ethics": "被试完成常规双耳倾听任务、并无风险；争点在于实验室的分听情境与真实聚会中的注意并不等同。",
+    "ethicsEn": "Subjects performed routine dichotic listening, at no risk; the debate is whether divided attention in the lab matches attention at a real party.",
+    "category": "认知",
+    "categoryEn": "Cognition",
+    "related": [
+      "inattentional-gorilla",
+      "stroop",
+      "memory",
+      "maguire-taxi"
+    ],
+    "sources": [
+      {
+        "label": "Cherry, 'Some Experiments on the Recognition of Speech, One and Two Ears' (1953)",
+        "year": 1953
+      }
+    ]
   }
 ]
