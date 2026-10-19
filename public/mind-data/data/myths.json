@@ -185,5 +185,93 @@
         "year": 1974
       }
     ]
+  },
+  {
+    "id": "eidetic-memory",
+    "term": "「人人都能练出照相式记忆」",
+    "termEn": "Photographic Memory Can Be Trained in Anyone",
+    "oneLiner": "所谓过目不忘的图像记忆几乎只见于个别儿童，且无法靠训练普及到人人都会。",
+    "oneLinerEn": "True eidetic image memory is seen, if at all, only in a few children—and cannot be trained into everyone.",
+    "detail": "市面上「全脑 / 波动速读」「记忆大师」课程宣称人人可练出过目成诵。真相是：发展心理学确记录过个别儿童在观看数秒后仍能看到残留图像，但此能力随年龄几乎消失，成人「照相记忆」从无可靠证据；竞赛级的记忆靠的是位置桩、数字编码等记忆术与刻意练习，而非某种图像直觉的天赋。把「练出的技巧」包装成「唤醒沉睡的天赋」，正是它的营销话术。",
+    "detailEn": "'Whole-brain / speed-reading' and 'memory master' courses claim anyone can learn to recall a page at a glance. In fact, developmental psychology has recorded a few children who still see a lingering image seconds after viewing, but it mostly fades with age, and adult 'photographic memory' has no solid evidence. Competition-level recall rests on mnemonics—the method of loci, number coding—built by deliberate practice, not a photographic gift. Repackaging 'a trained skill' as 'awakening a dormant talent' is exactly the sales pitch.",
+    "category": "记忆",
+    "categoryEn": "Memory",
+    "related": [
+      "memory-like-recording",
+      "spacing-retrieval",
+      "learning-styles"
+    ],
+    "sources": [
+      {
+        "label": "Haber & Nathanson on Eidetic Imagery",
+        "year": 1983
+      }
+    ]
+  },
+  {
+    "id": "depression-is-weakness",
+    "term": "「抑郁只是想太多、想开点就好」",
+    "termEn": "Depression Is Just Overthinking—Snap Out of It",
+    "oneLiner": "抑郁是涉及情绪、躯体与认知的疾病，不是性格软弱，也难靠「振作」自愈。",
+    "oneLinerEn": "Depression is a condition of mood, body and cognition—not a character flaw, and not something one simply snaps out of.",
+    "detail": "「你就是太闲 / 太玻璃心」是最常见也最伤人的劝说。事实上，抑郁伴随睡眠、食欲、精力与注意的改变，有神经与遗传的基础：轻症可靠心理治疗，中重度往往需要专业干预。「想开点」对一个已失去兴趣驱动的系统几乎无从下手，反而叠加自责与病耻感。恰当的援助是陪伴、去污名、鼓励就医，而不是一句「振作起来」。",
+    "detailEn": "'You're just idle / too sensitive' is the most common and most wounding advice. In truth depression alters sleep, appetite, energy and attention and has neural and genetic roots: mild cases may respond to psychotherapy, moderate-to-severe often need professional care. 'Cheer up' has nothing to grip in a system that has lost its drive, and only piles on self-blame and stigma. Right support means company, de-stigmatizing and encouraging treatment—not a 'pull yourself together'.",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "related": [
+      "emotion-labeling",
+      "venting-catharsis",
+      "exam-anxiety"
+    ],
+    "sources": [
+      {
+        "label": "WHO Depression Fact Sheet",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "left-handed-creative",
+    "term": "「左撇子更聪明、更有艺术天赋」",
+    "termEn": "Left-Handers Are More Creative or Gifted",
+    "oneLiner": "利手与创造力、智商之间并无稳定关系，「右脑等于艺术」只是连带编出的故事。",
+    "oneLinerEn": "Handedness shows no reliable link to creativity or IQ; 'right brain equals artsy' is just a story bolted on.",
+    "detail": "人们爱说左撇子靠右脑、更直觉、更有天赋。但大规模研究里，左利手与右利手在智力、创造力上的均值差异微乎其微；某些领域（如部分持拍、对抗性球类）左利手比例偏高，多源于「对手不习惯其角度」的战术优势，而非天赋更高。利手受基因与环境共同影响，本身也不像「右脑理论」那样对称。把统计上的微小偏差说成「一族人的超能力」，是把相关当成了因果。",
+    "detailEn": "The tale runs: left-handers lean on the right brain, so are more intuitive and gifted. But in large samples the average differences in intelligence and creativity between the hands are negligible; where left-handers are overrepresented (some racquet and contact sports) it mostly reflects the tactical edge of an unfamiliar angle, not a superior gift. Handedness is shaped by genes and environment and is no neat mirror of the right-brain story. Turning a tiny statistical tilt into 'a whole tribe's superpower' mistakes correlation for cause.",
+    "category": "脑与心智",
+    "categoryEn": "Brain & mind",
+    "related": [
+      "left-right-brain",
+      "multiple-intelligence",
+      "boys-girls-learn-differently"
+    ],
+    "sources": [
+      {
+        "label": "Meta-analyses of handedness and cognitive ability",
+        "year": 2010
+      }
+    ]
+  },
+  {
+    "id": "critical-period-language",
+    "term": "「过了关键期就再也学不好外语」",
+    "termEn": "Miss the Critical Period and You Can't Learn a Language",
+    "oneLiner": "敏感期确会影响口音，但把它说成「错过即终身锁死」，是对成年学习的低估。",
+    "oneLinerEn": "A sensitive period does shape accent, but recasting it as 'miss it and you're locked out for life' underestimates adult learning.",
+    "detail": "「关键期假说」由伦内伯格提出，指语言习得存在生物时间窗，后被简化为「十几岁后学语言注定蹩脚」。证据其实更细：在接近母语的口音上，早期沉浸确有优势且随年龄下降；但在词汇、语法、读写等大量维度上，成年学习者照样高效，甚至借助母语的元语言意识后来居上。更准确的说法是「敏感期，外加动机、输入与方法」，而非一扇关了就再也不开的门。",
+    "detailEn": "Lenneberg's critical-period hypothesis proposed a biological window for language, later flattened into 'learn after your teens and you're doomed to a bad accent'. The evidence is subtler: for near-native pronunciation early immersion does help and declines with age, yet across vocabulary, grammar and literacy adult learners thrive, even overtaking through metalinguistic insight from their first language. A truer frame is 'a sensitive period plus motivation, input and method'—not a door that shuts forever.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "learning-styles",
+      "spacing-retrieval",
+      "boys-girls-learn-differently"
+    ],
+    "sources": [
+      {
+        "label": "Lenneberg, Biological Foundations of Language (1967)",
+        "year": 1967
+      }
+    ]
   }
 ]

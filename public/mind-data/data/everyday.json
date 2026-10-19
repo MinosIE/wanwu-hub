@@ -242,5 +242,93 @@
         "year": 2014
       }
     ]
+  },
+  {
+    "id": "peak-end-rule",
+    "term": "峰终定律",
+    "termEn": "Peak-End Rule",
+    "oneLiner": "我们对一段经历的回忆，只由「最强烈的一刻」和「结束时」决定，而非全程的平均。",
+    "oneLinerEn": "We remember an experience by its most intense moment and how it ended—not by its average across time.",
+    "detail": "卡尼曼的结肠镜实验：让一组病人接受更长、但结尾更轻的检查，他们事后回忆的痛苦反而更低，也更愿复查。「时长」被记忆忽略，评价被高峰与终点两处锚定。启示：一次旅行的收尾、一场对话的最后一句，往往盖过了整段过程；给体验「设计结尾」，比压低全程均值更能影响被记住的满意度。",
+    "detailEn": "Kahneman's colonoscopy study: patients given a longer exam that ended gently recalled less pain afterward and were more willing to repeat it. Duration is dropped by memory, which anchors its verdict on the peak and the end. The lesson: how a trip closes or the last line of a conversation often overshadows the whole run—designing an ending shapes remembered satisfaction more than lowering the average.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": [
+      "memory-like-recording",
+      "emotion-labeling",
+      "choice-overload"
+    ],
+    "sources": [
+      {
+        "label": "Kahneman et al. (1993)",
+        "year": 1993
+      }
+    ]
+  },
+  {
+    "id": "flow-state",
+    "term": "心流",
+    "termEn": "Flow",
+    "oneLiner": "当挑战与技能刚好匹配，人会全神贯注、忘却时间——这就是心流。",
+    "oneLinerEn": "When challenge and skill match just right, you become utterly absorbed and lose track of time—that is flow.",
+    "detail": "契克森米哈赖提出：任务太难则焦虑、太易则无聊，唯有「跳一跳够得着」才进入忘我的投入，行动与意识合一、自我批评暂停。它需要清晰目标、即时反馈与专注的环境。与「拖延」相反，心流中的人不靠外部奖励，活动本身就是回报。它常被简化成「努力就会快乐」的口号，其实对触发条件颇为挑剔。",
+    "detailEn": "Csikszentmihalyi's idea: too hard breeds anxiety, too easy boredom; only a stretch just beyond skill triggers absorbed, self-forgetting engagement, action merging with awareness and the inner critic pausing. It needs clear goals, instant feedback and an undistracted setting. The opposite of procrastination, the person in flow isn't driven by reward—the activity is its own return. Often flattened into 'effort brings joy', it is in fact picky about its conditions.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "procrastination",
+      "spacing-retrieval",
+      "revenge-sleep"
+    ],
+    "sources": [
+      {
+        "label": "Csikszentmihalyi, Flow (1990)",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "id": "implementation-intention",
+    "term": "执行意图",
+    "termEn": "Implementation Intentions",
+    "oneLiner": "「如果到了某情境，我就做某事」的预案，把意志力消耗降为自动触发。",
+    "oneLinerEn": "An 'if this situation arises, then I do that' plan turns effortful willpower into an automatic cue.",
+    "detail": "光有目标（「我要多运动」）多半落空。戈尔维策发现，把目标翻译成具体的「何时、何地、如何做」的条件计划，成功率成倍上升。它预先在脑中「排练」线索，届时情境像开关一样直接唤起行为，无需临场挣扎——是「下决心」与「真做到」之间那座被低估的桥。",
+    "detailEn": "A bare goal ('exercise more') usually fizzles. Gollwitzer found that translating it into a concrete when/where/how 'if–then' plan multiplies success. It pre-rehearses the cue so the situation later flips a switch and the act runs off with no on-the-spot struggle—the underrated bridge between resolving and actually doing.",
+    "category": "自我管理",
+    "categoryEn": "Self-regulation",
+    "related": [
+      "procrastination",
+      "habit-loop",
+      "decision-fatigue"
+    ],
+    "sources": [
+      {
+        "label": "Gollwitzer (1999)",
+        "year": 1999
+      }
+    ]
+  },
+  {
+    "id": "fomo",
+    "term": "错失焦虑（FoMO）",
+    "termEn": "Fear of Missing Out (FoMO)",
+    "oneLiner": "总怕别人正经历比自己更好的事，于是放不下手机与通知。",
+    "oneLinerEn": "A persistent dread that others are having richer experiences than you—so you can't let go of the feed.",
+    "detail": "它滋生在社交媒体上被精心剪辑的「他人现场」：刷屏尽是别人的高光，拿来对照自己未经修饰的日常。它与更低的生活满意度、更差的睡眠、更强的刷屏强迫相关（无脑下滑、报复性熬夜都是它的近亲）。解毒剂未必是「戒网」本身，而是识破那份「比较的错觉」——被展示的生活，从来不是完整的生活。",
+    "detailEn": "It grows on social media's curated 'live feeds' of others—endless highlights set against your own unedited ordinary days. It tracks with lower life satisfaction, poorer sleep and compulsive checking (mindless scrolling and revenge bedtime are its kin). The antidote is not quitting the phone per se but seeing through the comparison: the life on display was never the whole life.",
+    "category": "数字生活",
+    "categoryEn": "Digital life",
+    "related": [
+      "social-media-mood",
+      "revenge-sleep",
+      "decision-fatigue"
+    ],
+    "sources": [
+      {
+        "label": "Przybylski et al. (2013)",
+        "year": 2013
+      }
+    ]
   }
 ]
