@@ -1710,6 +1710,34 @@
       "nEn": "China GDP growth (illustrative)"
     }
   ],
+  "global-poverty": [
+    {
+      "m": "m-charts",
+      "n": "全球极端贫困率（示意）",
+      "nEn": "Global extreme poverty rate (illustrative)"
+    }
+  ],
+  "income-inequality": [
+    {
+      "m": "m-charts",
+      "n": "全球收入前 10% 所占份额（示意）",
+      "nEn": "Global top-10% income share (illustrative)"
+    }
+  ],
+  "old-age-dependency": [
+    {
+      "m": "m-charts",
+      "n": "全球老年抚养比（示意）",
+      "nEn": "Global old-age dependency ratio (illustrative)"
+    }
+  ],
+  "urbanization": [
+    {
+      "m": "m-charts",
+      "n": "全球城镇化率（示意）",
+      "nEn": "Global urbanization rate (illustrative)"
+    }
+  ],
   "inflation-always-bad": [
     {
       "m": "m-myths",
@@ -1757,6 +1785,34 @@
       "m": "m-myths",
       "n": "「芒果骗局」这类故事说明：价格全是操纵者编出来的，只要看穿套路，就轮不到自己接盘。",
       "nEn": "Parables like the 'mango scam' show that prices are invented by a manipulator — spot the trick and you will never be the one left holding."
+    }
+  ],
+  "broken-window": [
+    {
+      "m": "m-myths",
+      "n": "打碎玻璃让玻璃匠有活干，所以破坏其实利好经济。",
+      "nEn": "A broken window puts the glazier to work, so destruction is good for the economy."
+    }
+  ],
+  "paradox-of-thrift": [
+    {
+      "m": "m-myths",
+      "n": "既然多储蓄对个人总是好的，那么人人省吃俭用，社会就更富裕。",
+      "nEn": "Since saving is good for one person, if everyone scrimps, society grows richer."
+    }
+  ],
+  "balanced-budget-household": [
+    {
+      "m": "m-myths",
+      "n": "家庭不能长年入不敷出，所以政府也必须年年把预算做平。",
+      "nEn": "A household can't run deficits for years, so neither should the government."
+    }
+  ],
+  "qe-not-printing": [
+    {
+      "m": "m-myths",
+      "n": "量化宽松就是央行印钞票直接撒给政府和百姓，必然酿成恶性通胀。",
+      "nEn": "Quantitative easing is the central bank printing cash to hand straight to government and people—sure to cause hyperinflation."
     }
   ],
   "q-opportunity-cost": [

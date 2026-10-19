@@ -82,5 +82,93 @@
     "level": 2,
     "related": ["ponzi-1920", "yinguangxia-2001"],
     "sources": [{ "label": "金德尔伯格、阿尔伯《疯狂、恐慌与崩溃：金融危机史》", "labelEn": "Kindleberger & Aliber, Manias, Panics, and Crashes: A History of Financial Crises", "year": 2011 }, { "label": "凯恩斯《就业、利息和货币通论》第 12 章（选美竞赛）", "labelEn": "Keynes, The General Theory, chapter 12 (the beauty contest)", "year": 1936 }, { "label": "阿克洛夫、席勒《钓愚：操纵与欺骗的经济学》", "labelEn": "Akerlof & Shiller, Phishing for Phools: The Economics of Manipulation and Deception", "year": 2015 }]
+  },
+  {
+    "id": "broken-window",
+    "myth": "打碎玻璃让玻璃匠有活干，所以破坏其实利好经济。",
+    "mythEn": "A broken window puts the glazier to work, so destruction is good for the economy.",
+    "truth": "你只看见被创造的修补支出，却看不见窗主本会拿这笔钱去做的别的事。破损把资源从看不见的用途里硬拽出来，社会净损失了那扇本不必重装的窗。",
+    "truthEn": "You see the repair spending created but not what the owner would have spent instead. Damage yanks resources out of the unseen use, and society nets a window it never needed to replace.",
+    "why": "看得见的效益具体、集中、易被镜头捕捉；看不见的，是分散而从未发生的替代。人的注意力天然倒向「已出现」的正面故事。",
+    "whyEn": "The seen benefit is specific, concentrated and camera-ready; the unseen is a diffuse non-event. Attention tilts toward the upside that has already appeared.",
+    "level": 2,
+    "related": [
+      "gdp-equals-wellbeing",
+      "printing-money",
+      "mango-parable"
+    ],
+    "sources": [
+      {
+        "label": "巴斯夏《看得见的与看不见的》",
+        "labelEn": "Bastiat, 'That Which Is Seen and That Which Is Not'",
+        "year": 1850
+      }
+    ]
+  },
+  {
+    "id": "paradox-of-thrift",
+    "myth": "既然多储蓄对个人总是好的，那么人人省吃俭用，社会就更富裕。",
+    "mythEn": "Since saving is good for one person, if everyone scrimps, society grows richer.",
+    "truth": "在需求不足、产能闲置时，一个人的支出正是另一个人的收入。若大家同时缩手，总收入随之下滑，计划中的储蓄反而可能落空——个体理财与宏观总量在此分岔（合成谬误）。",
+    "truthEn": "When demand is short and capacity idle, one's spending is another's income. If all cut back at once, total income falls and planned saving may go unrealised—household prudence and macro totals fork here (a fallacy of composition).",
+    "why": "对个体理性的判断被直接放大到整体，忽略了收入是一种循环流量：储蓄意愿抬升会压低总支出，也就压低了由此再生的收入本身。",
+    "whyEn": "What is rational for one is scaled straight to the whole, ignoring that income is a circular flow—a higher desire to save depresses spending, and so the income it regenerates.",
+    "level": 2,
+    "related": [
+      "gdp-equals-wellbeing",
+      "printing-money",
+      "inflation-always-bad"
+    ],
+    "sources": [
+      {
+        "label": "凯恩斯《就业、利息和货币通论》",
+        "labelEn": "Keynes, The General Theory of Employment, Interest and Money",
+        "year": 1936
+      }
+    ]
+  },
+  {
+    "id": "balanced-budget-household",
+    "myth": "家庭不能长年入不敷出，所以政府也必须年年把预算做平。",
+    "mythEn": "A household can't run deficits for years, so neither should the government.",
+    "truth": "政府不是放大版的家庭：它发行自己的货币、能跨期滚动举债，且其支出本身就是国民收入的一个来源。衰退里机械地追求平衡，往往雪上加霜。真正的约束是通胀、债务可持续与钱花在何处，而非「像持家那样年年不超支」。",
+    "truthEn": "The state is not a scaled-up household: it issues its own currency, rolls debt across time, and its spending is itself a source of national income. Mechanically balancing in a slump often makes it worse. The real constraints are inflation, debt sustainability and what the money buys—not 'staying in the black each year like a family'.",
+    "why": "家庭是货币的使用者，预算受既有收入的硬约束；而发钞政府是货币的来源，名义上的预算约束并不相同。这个类比在直觉上极具说服力，却在会计层面混淆了两类截然不同的主体。",
+    "whyEn": "A household is a user of currency under a hard constraint from existing income; a currency-issuing government is its source, with a different nominal constraint. The analogy feels deeply apt yet conflates two very different kinds of balance sheet.",
+    "level": 3,
+    "related": [
+      "printing-money",
+      "inflation-always-bad",
+      "govt-debt"
+    ],
+    "sources": [
+      {
+        "label": "勒纳《功能财政与联邦预算》",
+        "labelEn": "Lerner, 'Functional Finance and the Federal Budget'",
+        "year": 1943
+      }
+    ]
+  },
+  {
+    "id": "qe-not-printing",
+    "myth": "量化宽松就是央行印钞票直接撒给政府和百姓，必然酿成恶性通胀。",
+    "mythEn": "Quantitative easing is the central bank printing cash to hand straight to government and people—sure to cause hyperinflation.",
+    "truth": "量化宽松是央行在二级市场上、用新创造的准备金购买既有国债与抵押支持证券，以压低长端利率、置换私人部门的资产结构，而非把现金发到居民手中。它在低通胀时期被大规模使用，却并未立刻点燃物价，可见传导路径远比「印钱」二字间接。",
+    "truthEn": "QE is the central bank buying existing bonds and mortgage-backed securities in the secondary market with newly created reserve balances—to press long-term rates and swap the asset mix—rather than dropping cash into households' hands. It ran at scale through a low-inflation era without promptly igniting prices, so its transmission is far more indirect than 'printing money' implies.",
+    "why": "「印钱」一词把三件不同的事混为一谈：基础货币的扩张、商业银行信贷的创造、以及财政赤字的货币化。现实中三者由不同的机制驱动、受不同的约束牵制。",
+    "whyEn": "'Printing money' lumps three distinct things into one: expansion of base money, credit creation by commercial banks, and monetary financing of deficits. In practice each runs on its own mechanism and faces its own constraints.",
+    "level": 3,
+    "related": [
+      "printing-money",
+      "inflation-always-bad",
+      "policy-rate"
+    ],
+    "sources": [
+      {
+        "label": "伯南克《行动、等待与讲话：央行经济学》",
+        "labelEn": "Bernanke, 21st Monetary Policy Lectures",
+        "year": 2020
+      }
+    ]
   }
 ]

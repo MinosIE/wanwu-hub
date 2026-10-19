@@ -159,5 +159,189 @@
       { "y": 2024, "v": 5.0 }
     ],
     "sources": [{ "label": "中国国家统计局 GDP 数据（近似整理）", "labelEn": "China's National Bureau of Statistics GDP data (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "global-poverty",
+    "title": "全球极端贫困率（示意）",
+    "titleEn": "Global extreme poverty rate (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 1,
+    "note": "示意曲线：世界银行口径下、日均生活费低于极端贫困线的全球人口占比，整体呈长期显著下降；2020 年前后因疫情短暂反弹，其后基本回到下行轨道。数值为量级近似，仅用于说明趋势，非逐年精算，具体请以世界银行公布为准。",
+    "noteEn": "Stylised series: the share of the world's people living below the World Bank's extreme-poverty line, on a long decline; a brief pandemic-era uptick around 2020, then back on course. Values are order-of-magnitude approximations for trend, not exact—consult the World Bank for figures.",
+    "series": [
+      {
+        "y": 1990,
+        "v": 36
+      },
+      {
+        "y": 1995,
+        "v": 34
+      },
+      {
+        "y": 2000,
+        "v": 28
+      },
+      {
+        "y": 2005,
+        "v": 22
+      },
+      {
+        "y": 2010,
+        "v": 16
+      },
+      {
+        "y": 2015,
+        "v": 11
+      },
+      {
+        "y": 2019,
+        "v": 8
+      },
+      {
+        "y": 2020,
+        "v": 9
+      },
+      {
+        "y": 2022,
+        "v": 8
+      }
+    ],
+    "sources": [
+      {
+        "label": "世界银行 Poverty and Shared Prosperity（近似整理）",
+        "labelEn": "World Bank, Poverty and Shared Prosperity (approximated)",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "income-inequality",
+    "title": "全球收入前 10% 所占份额（示意）",
+    "titleEn": "Global top-10% income share (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 2,
+    "note": "示意曲线：国民总收入中，收入最高的前 10% 成年人所占份额。二十世纪上半叶高企，中期因战争、税负与普惠增长而回落，近数十年再度上行。取世界不平等数据库的量级近似，仅示意趋势，非精算。",
+    "noteEn": "Stylised series: the share of national income taken by the richest tenth of adults. High in the early twentieth century, lower through the mid-century wars, taxes and broad growth, then rising again in recent decades. Values are order-of-magnitude approximations from the World Inequality Database, showing trend only.",
+    "series": [
+      {
+        "y": 1900,
+        "v": 50
+      },
+      {
+        "y": 1920,
+        "v": 46
+      },
+      {
+        "y": 1950,
+        "v": 40
+      },
+      {
+        "y": 1980,
+        "v": 42
+      },
+      {
+        "y": 2000,
+        "v": 46
+      },
+      {
+        "y": 2020,
+        "v": 51
+      }
+    ],
+    "sources": [
+      {
+        "label": "世界不平等数据库（近似整理）",
+        "labelEn": "World Inequality Database (approximated)",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "old-age-dependency",
+    "title": "全球老年抚养比（示意）",
+    "titleEn": "Global old-age dependency ratio (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 2,
+    "note": "示意曲线：65 岁及以上人口相对 15—64 岁劳动年龄人口之比，即每一百名劳动年龄人口需赡养多少长者。因生育率下降与寿命延长，全球数值长期上行，预测段持续抬升。取联合国《世界人口展望》的量级近似。",
+    "noteEn": "Stylised series: people aged 65+ relative to those of 15–64 working age—elders supported per hundred working-age people. It rises over the long run as fertility falls and lives lengthen, with the projected segment continuing upward. Values approximate the UN World Population Prospects.",
+    "series": [
+      {
+        "y": 1960,
+        "v": 8
+      },
+      {
+        "y": 1980,
+        "v": 10
+      },
+      {
+        "y": 2000,
+        "v": 13
+      },
+      {
+        "y": 2020,
+        "v": 17
+      },
+      {
+        "y": 2040,
+        "v": 24
+      },
+      {
+        "y": 2050,
+        "v": 27
+      }
+    ],
+    "sources": [
+      {
+        "label": "联合国《世界人口展望》（近似整理）",
+        "labelEn": "UN World Population Prospects (approximated)",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "urbanization",
+    "title": "全球城镇化率（示意）",
+    "titleEn": "Global urbanization rate (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 1,
+    "note": "示意曲线：居住在城市地区的人口占全球总人口的比例，长期稳步上升，且新增城市人口主要来自亚洲与非洲。取联合国《世界城镇化展望》的量级近似，其中未来值为预测，仅示意趋势。",
+    "noteEn": "Stylised series: the share of the world's population living in urban areas, rising steadily, with most new urban dwellers added in Asia and Africa. Values approximate the UN World Urbanization Prospects; forward points are projections, shown for trend.",
+    "series": [
+      {
+        "y": 1960,
+        "v": 34
+      },
+      {
+        "y": 1980,
+        "v": 39
+      },
+      {
+        "y": 2000,
+        "v": 47
+      },
+      {
+        "y": 2020,
+        "v": 56
+      },
+      {
+        "y": 2035,
+        "v": 63
+      },
+      {
+        "y": 2050,
+        "v": 68
+      }
+    ],
+    "sources": [
+      {
+        "label": "联合国《世界城镇化展望》（近似整理）",
+        "labelEn": "UN World Urbanization Prospects (approximated)",
+        "year": 2018
+      }
+    ]
   }
 ]
