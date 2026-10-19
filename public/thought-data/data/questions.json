@@ -559,5 +559,221 @@
     "thinkersEn": ["Kant", "Mill", "Nietzsche"],
     "related": ["good-evil", "justice", "utilitarianism"],
     "sources": [{ "label": "《道德形而上学的奠基》康德", "labelEn": "Groundwork of the Metaphysics of Morals (Kant)" }]
+  },
+  {
+    "id": "why-something",
+    "name": "为何有物存在，而非一无所有？",
+    "nameEn": "Why is there something rather than nothing?",
+    "era": "形而上学",
+    "eraEn": "Metaphysics",
+    "level": 3,
+    "order": 16,
+    "oneLiner": "连「有世界」这一事实本身也非必然——看似最省俭的问题，却最难作答。",
+    "oneLinerEn": "That there is a world at all is not necessary—the seemingly least thrifty question is the hardest to answer.",
+    "positions": [
+      {
+        "k": "充足理由",
+        "kEn": "Sufficient reason",
+        "v": "莱布尼茨：凡事必有其所以如此的理由，终极理由在必然之神。",
+        "vEn": "Leibniz: all has a reason; the ultimate one lies in a necessary God."
+      },
+      {
+        "k": "根本荒谬",
+        "kEn": "Radical contingency",
+        "v": "萨特：存在无根据、无必然，世界纯然偶然地涌现。",
+        "vEn": "Sartre: existence is groundless; the world arises sheer contingently."
+      },
+      {
+        "k": "基本疑问",
+        "kEn": "The question itself",
+        "v": "海德格尔：这是「形而上学的基本疑问」，逼思存在之意义。",
+        "vEn": "Heidegger: the 'fundamental question of metaphysics,' pressing the sense of Being."
+      }
+    ],
+    "why": "它逼问「解释」的极限：一切因果链都预设了某物的存在，于是需要一个超乎因果的根据，或直接承认偶然。",
+    "whyEn": "It presses the limit of explanation: every causal chain presupposes that something exists, so we need a ground beyond the causal—or must avow contingency outright.",
+    "thinkers": [
+      "莱布尼茨",
+      "萨特",
+      "海德格尔"
+    ],
+    "thinkersEn": [
+      "Leibniz",
+      "Sartre",
+      "Heidegger"
+    ],
+    "related": [
+      "god",
+      "reality",
+      "metaphysics"
+    ],
+    "sources": [
+      {
+        "label": "莱布尼茨《单子论》§36",
+        "labelEn": "Leibniz, Monadology §36"
+      }
+    ]
+  },
+  {
+    "id": "math-discovered",
+    "name": "数学是被发现，还是被发明？",
+    "nameEn": "Is mathematics discovered or invented?",
+    "era": "数学哲学",
+    "eraEn": "Philosophy of mathematics",
+    "level": 3,
+    "order": 17,
+    "oneLiner": "素数的分布、欧拉恒等式不由人定——它们像在等待着被发现；可公理又确实由人手写就。",
+    "oneLinerEn": "Prime patterns and Euler's identity are not our decree—they seem there to be found; yet the axioms are plainly hand-written.",
+    "positions": [
+      {
+        "k": "柏拉图主义",
+        "kEn": "Platonism",
+        "v": "数学对象是抽象实在，真理被发现而非约定。",
+        "vEn": "Mathematical objects are abstract realities; truths are found, not stipulated."
+      },
+      {
+        "k": "形式主义",
+        "kEn": "Formalism",
+        "v": "数学是依规则操纵符号的人造游戏。",
+        "vEn": "Mathematics is a human game of manipulating symbols by rule."
+      },
+      {
+        "k": "拟经验主义",
+        "kEn": "Quasi-empiricism",
+        "v": "证明如猜想与反驳般可错、演化，近似经验探究。",
+        "vEn": "Proof grows fallibly through conjectures and refutations, akin to enquiry."
+      }
+    ],
+    "why": "若数学独立于人心，它为何对物理世界「不可思议地有效」？这关乎我们能否说触及了客观真理。",
+    "whyEn": "If mathematics is mind-independent, why is it 'unreasonably effective' in physics? The stakes are whether we touch objective truth.",
+    "thinkers": [
+      "柏拉图",
+      "哥德尔",
+      "维特根斯坦"
+    ],
+    "thinkersEn": [
+      "Plato",
+      "Gödel",
+      "Wittgenstein"
+    ],
+    "related": [
+      "universals",
+      "platonism",
+      "reality"
+    ],
+    "sources": [
+      {
+        "label": "维格纳《数学在自然科学中不可思议的有效性》",
+        "labelEn": "Wigner, The Unreasonable Effectiveness of Mathematics"
+      }
+    ]
+  },
+  {
+    "id": "machine-mind",
+    "name": "机器真的能思考吗？",
+    "nameEn": "Can a machine really think?",
+    "era": "心灵哲学 · 人工智能",
+    "eraEn": "Philosophy of mind · AI",
+    "level": 2,
+    "order": 18,
+    "oneLiner": "完美地问答、下棋、聊天——这算理解吗，还是只在智能地「表演」理解？",
+    "oneLinerEn": "Answering, playing, chatting flawlessly—is that understanding, or merely an intelligent performance of understanding?",
+    "positions": [
+      {
+        "k": "图灵测试",
+        "kEn": "The Turing test",
+        "v": "若行为上与思考者不可分辨，就该承认其智能。",
+        "vEn": "Indistinguishable in behaviour from a thinker—grant it intelligence."
+      },
+      {
+        "k": "中文房间",
+        "kEn": "Chinese Room",
+        "v": "塞尔：操纵符号得不出语义，程序从不真正「懂」。",
+        "vEn": "Searle: shuffling symbols yields no semantics; the program never 'gets' it."
+      },
+      {
+        "k": "功能主义",
+        "kEn": "Functionalism",
+        "v": "心灵在于功能组织，基质是硅还是碳可以无关。",
+        "vEn": "Mind is functional organisation; the substrate—silicon or carbon—may be irrelevant."
+      }
+    ],
+    "why": "它划定科学的雄心（造出有心之物）与哲学的警戒（行为不等于体验）之争，也在 AI 时代牵动责任与意识的归属。",
+    "whyEn": "It marks the quarrel between science's ambition (build a minded thing) and philosophy's caution (behaviour is not experience), and in the AI age bears on responsibility and the ascription of consciousness.",
+    "thinkers": [
+      "图灵",
+      "塞尔",
+      "丹尼特"
+    ],
+    "thinkersEn": [
+      "Turing",
+      "Searle",
+      "Dennett"
+    ],
+    "related": [
+      "mind-body",
+      "chinese-room",
+      "other-minds"
+    ],
+    "sources": [
+      {
+        "label": "图灵《计算机器与智能》；塞尔《心灵、大脑与程序》",
+        "labelEn": "Turing (1950); Searle, Minds, Brains, and Programs"
+      }
+    ]
+  },
+  {
+    "id": "time-reality",
+    "name": "时间是真实地流逝，还是心灵的错觉？",
+    "nameEn": "Does time truly flow, or is passing an illusion of mind?",
+    "era": "形而上学 · 时间哲学",
+    "eraEn": "Metaphysics · philosophy of time",
+    "level": 3,
+    "order": 19,
+    "oneLiner": "过去已逝、未来未至，唯「现在」似在流动——可这流动本身能否被再设想？",
+    "oneLinerEn": "The past is gone, the future not come, only the 'now' seems to flow—yet can that flowing itself be made sense of?",
+    "positions": [
+      {
+        "k": "现在论",
+        "kEn": "Presentism",
+        "v": "唯有当下真实，过去与未来都不存在。",
+        "vEn": "Only the present is real; past and future do not exist."
+      },
+      {
+        "k": "永恒论",
+        "kEn": "Eternalism",
+        "v": "过去、现在、未来同样实在，时间如四维之块。",
+        "vEn": "Past, present and future equally real—time as a four-dimensional block."
+      },
+      {
+        "k": "时间非实在",
+        "kEn": "Time unreal",
+        "v": "麦克塔格特：任何先后排序都自相矛盾，时间是幻相。",
+        "vEn": "McTaggart: every ordering of before/after breeds contradiction—time is appearance."
+      }
+    ],
+    "why": "相对论把「同时」交还给观察者，物理方程又不偏爱当下；流逝究竟在宇宙之中，还是在我们这一侧的心智里？",
+    "whyEn": "Relativity hands 'simultaneity' back to the observer, and physical law favours no present; is passing in the cosmos, or on our side of the mind?",
+    "thinkers": [
+      "奥古斯丁",
+      "康德",
+      "麦克塔格特"
+    ],
+    "thinkersEn": [
+      "Augustine",
+      "Kant",
+      "McTaggart"
+    ],
+    "related": [
+      "reality",
+      "self",
+      "metaphysics"
+    ],
+    "sources": [
+      {
+        "label": "麦克塔格特《时间的非实在性》；康德《纯粹理性批判》",
+        "labelEn": "McTaggart, The Unreality of Time; Kant, Critique of Pure Reason"
+      }
+    ]
   }
 ]

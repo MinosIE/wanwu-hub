@@ -258,6 +258,34 @@
       "nEn": "Are moral truths discovered or invented?"
     }
   ],
+  "why-something": [
+    {
+      "m": "m-questions",
+      "n": "为何有物存在，而非一无所有？",
+      "nEn": "Why is there something rather than nothing?"
+    }
+  ],
+  "math-discovered": [
+    {
+      "m": "m-questions",
+      "n": "数学是被发现，还是被发明？",
+      "nEn": "Is mathematics discovered or invented?"
+    }
+  ],
+  "machine-mind": [
+    {
+      "m": "m-questions",
+      "n": "机器真的能思考吗？",
+      "nEn": "Can a machine really think?"
+    }
+  ],
+  "time-reality": [
+    {
+      "m": "m-questions",
+      "n": "时间是真实地流逝，还是心灵的错觉？",
+      "nEn": "Does time truly flow, or is passing an illusion of mind?"
+    }
+  ],
   "lunyu": [
     {
       "m": "m-classics",
@@ -1075,6 +1103,34 @@
       "m": "m-timeline",
       "n": "克里普克《命名与必然性》",
       "nEn": "Kripke's Naming and Necessity"
+    }
+  ],
+  "tl-bacon": [
+    {
+      "m": "m-timeline",
+      "n": "培根《新工具》",
+      "nEn": "Bacon's Novum Organum"
+    }
+  ],
+  "tl-locke": [
+    {
+      "m": "m-timeline",
+      "n": "洛克《人类理解论》",
+      "nEn": "Locke's Essay Concerning Human Understanding"
+    }
+  ],
+  "tl-rousseau": [
+    {
+      "m": "m-timeline",
+      "n": "卢梭《社会契约论》",
+      "nEn": "Rousseau's The Social Contract"
+    }
+  ],
+  "tl-turing": [
+    {
+      "m": "m-timeline",
+      "n": "图灵《计算机器与智能》",
+      "nEn": "Turing's Computing Machinery and Intelligence"
     }
   ],
   "gettier-case": [

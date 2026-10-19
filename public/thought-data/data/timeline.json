@@ -563,5 +563,108 @@
         "year": 1980
       }
     ]
+  },
+  {
+    "id": "tl-bacon",
+    "term": "培根《新工具》",
+    "termEn": "Bacon's Novum Organum",
+    "category": "近代早期",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "year": 1620,
+    "oneLiner": "以归纳与排除取代先验三段论，为实验科学立下方法纲领。",
+    "oneLinerEn": "Replacing top-down syllogism with induction and exclusion, it set out a method for experimental science.",
+    "detail": "培根主张从观察与实验出发、逐层归纳出自然的形式，并以「三表法」与排除例证抑制先入之见；他提出的「洞穴假相」等四假相，是对认知偏见的早期诊断。书名与亚里士多德的《工具论》相对，宣示一种动手求证的知识观，为科学革命鸣锣。",
+    "detailEn": "Bacon urged starting from observation and experiment, inducing nature's forms step by step, and curbing prejudice through his three 'Tables' and exclusion; his 'Idols of the Cave' and kin were an early diagnosis of cognitive bias. Pitted against Aristotle's Organon, its title heralded a hands-on, evidence-seeking knowledge for the scientific revolution.",
+    "related": [
+      "empiricism",
+      "paradigm",
+      "tabula-rasa"
+    ],
+    "sources": [
+      {
+        "label": "培根《新工具》",
+        "labelEn": "Bacon, Novum Organum",
+        "year": 1620
+      }
+    ]
+  },
+  {
+    "id": "tl-locke",
+    "term": "洛克《人类理解论》",
+    "termEn": "Locke's Essay Concerning Human Understanding",
+    "category": "近代早期",
+    "categoryEn": "Early Modern",
+    "level": 2,
+    "year": 1689,
+    "oneLiner": "心灵初生如白板，一切观念皆来自经验——感觉与反省两大来源。",
+    "oneLinerEn": "The mind at birth is a blank slate; all ideas come from experience—sensation and reflection.",
+    "detail": "洛克系统反驳天赋观念，主张知识起源于经验：外部感觉与内部反省提供一切简单观念，心灵再以组合、比较、抽象构成复杂观念。他区分第一性质与第二性质，并追问人格同一性究竟系于记忆还是实体，为后来的贝克莱与休谟铺路。",
+    "detailEn": "Against innate ideas, Locke traced all knowledge to experience: two fountains—sensation and reflection—supply simple ideas, which the mind combines, compares and abstracts into complex ones. His split of primary and secondary qualities, and his puzzle over whether personal identity lies in memory rather than substance, paved the way for Berkeley and Hume.",
+    "related": [
+      "tabula-rasa",
+      "empiricism",
+      "two-liberties",
+      "knowledge"
+    ],
+    "sources": [
+      {
+        "label": "洛克《人类理解论》",
+        "labelEn": "Locke, An Essay Concerning Human Understanding",
+        "year": 1689
+      }
+    ]
+  },
+  {
+    "id": "tl-rousseau",
+    "term": "卢梭《社会契约论》",
+    "termEn": "Rousseau's The Social Contract",
+    "category": "启蒙",
+    "categoryEn": "Enlightenment",
+    "level": 3,
+    "year": 1762,
+    "oneLiner": "「人生而自由，却无往不在枷锁之中」——以公意为政治合法性奠基。",
+    "oneLinerEn": "'Man is born free, and everywhere he is in chains'—grounding political legitimacy in the general will.",
+    "detail": "卢梭追问政治权力的正当根据，主张主权在民且不可转让：人人让渡自然自由，以换取受公意保障的公民自由，而法律应是公意对全体成员、而非任何私意的表态。他区分公意与众意，警示自由与平等相互依存。此书当年被列为禁书，却成为现代民主与革命的思想火种。",
+    "detailEn": "Asking the right of political power, Rousseau placed sovereignty in the people, inalienable: each surrenders natural liberty to gain civil liberty secured by the general will, and law must be the general will speaking to all rather than any private will. His split of the general will from the 'will of all' and his warning that freedom and equality lean on each other made the book a banned text—yet the seed of modern democracy and revolution.",
+    "related": [
+      "political-philosophy",
+      "two-liberties",
+      "justice",
+      "veil-of-ignorance"
+    ],
+    "sources": [
+      {
+        "label": "卢梭《社会契约论》",
+        "labelEn": "Rousseau, Du contrat social",
+        "year": 1762
+      }
+    ]
+  },
+  {
+    "id": "tl-turing",
+    "term": "图灵《计算机器与智能》",
+    "termEn": "Turing's Computing Machinery and Intelligence",
+    "category": "20 世纪",
+    "categoryEn": "20th Century",
+    "level": 2,
+    "year": 1950,
+    "oneLiner": "把「机器能思考吗」变成可操作的模仿游戏，人工智能哲学由此开题。",
+    "oneLinerEn": "Turning 'can machines think?' into an operable imitation game, it opened the philosophy of artificial intelligence.",
+    "detail": "图灵回避难以捉摸的「思考」定义，改以行为判据：若一台机器在文本问答中让人类裁判无从分辨它与人，便可有把握地称其「智能」。这一「模仿游戏」（后世称图灵测试）把心智问题从内省转向可公开展现的处置，激起中文房间等批评与争论，至今仍是心灵哲学与人工智能讨论的枢纽。",
+    "detailEn": "Dodging the elusive definition of 'thinking', Turing offered a behavioural test: if a machine in text question-and-answer leaves a human judge unable to tell it from a person, we may confidently call it 'intelligent'. This 'imitation game' (the Turing test) shifted mind from introspection to open performance, provoking the Chinese Room and debate that still pivots discussions of mind and AI.",
+    "related": [
+      "mind-body",
+      "chinese-room",
+      "machine-mind",
+      "philosophy-of-mind"
+    ],
+    "sources": [
+      {
+        "label": "图灵《计算机器与智能》",
+        "labelEn": "Turing, Computing Machinery and Intelligence",
+        "year": 1950
+      }
+    ]
   }
 ]
