@@ -733,5 +733,73 @@
         "year": 2009
       }
     ]
+  },
+  {
+    "id": "self-determination-theory",
+    "term": "自我决定理论",
+    "termEn": "Self-Determination Theory",
+    "category": "动机",
+    "categoryEn": "Motivation",
+    "level": 2,
+    "oneLiner": "人有三种基本心理需要——自主、胜任、归属；被满足，内在动机才蓬勃。",
+    "oneLinerEn": "People need autonomy, competence and relatedness; met, these feed intrinsic motivation.",
+    "detail": "德西与瑞安提出：外在奖惩会「挤出」兴趣，持久的动力源于三需——感到出于自愿（自主）、能做好（胜任）、被联结接纳（归属）。它解释了为何「加薪激励」有时反让人敷衍、为何意义感与兴趣最养人。应用在教学、管理与自我调节里，核心都是把控制换成支持。",
+    "detailEn": "Deci and Ryan held that external reward can crowd out interest; lasting drive comes from three needs—feeling willing (autonomy), effective (competence) and connected (relatedness). It explains why 'raising the bonus' sometimes breeds mere compliance, and why interest and meaning sustain people. In teaching, management and self-regulation, the core is turning control into support.",
+    "example": "一个本爱画画的孩子，若被逐步用物质奖励替换「自己想画」的理由，奖励一撤，反而更少主动动笔。",
+    "exampleEn": "A child who loves drawing, gradually paid to draw instead of willing it himself, draws less on his own once the reward stops.",
+    "related": ["motivation", "self-efficacy", "yerkes-dodson"],
+    "tags": ["动机", "情绪"],
+    "sources": [{ "label": "Deci & Ryan (2000)", "year": 2000 }]
+  },
+  {
+    "id": "defense-mechanisms",
+    "term": "心理防御机制",
+    "termEn": "Defense Mechanisms",
+    "category": "人格",
+    "categoryEn": "Personality",
+    "level": 2,
+    "oneLiner": "自我在无意识中用否认、投射、合理化等方式，缓冲焦虑与内心冲突。",
+    "oneLinerEn": "The ego unconsciously deploys denial, projection and rationalization to buffer anxiety and inner conflict.",
+    "detail": "概念萌于弗洛伊德、成于安娜·弗洛伊德。人人都会用：适度可护心，僵化则失真——把自身难以承认的欲望归到别人身上（投射）、为失败编一个体面理由（合理化、酸葡萄）、把冲动转向更被社会接受的活动（升华）。它们多自动运行、并非刻意选择；识别自己的防御，是理解情绪反应的一个入口。",
+    "detailEn": "Begun by Freud, refined by Anna Freud. Everyone uses them; in dose they shield the mind, in rigidity they distort it—lodging an intolerable wish onto others (projection), inventing a face-saving cause for failure (rationalization, sour grapes), redirecting an impulse into more socially acceptable activity (sublimation). They run largely automatically, not by choice; spotting a defense is a doorway into understanding one's own reactions.",
+    "example": "明明自己忌妒同事，却断言「是他在针对我」——把难以承认的念头投射到对方身上。",
+    "exampleEn": "Envious of a colleague yet insisting 'he's out to get me'—projecting an unacknowledged wish onto the other.",
+    "related": ["psychoanalysis", "self", "emotion-regulation"],
+    "tags": ["人格", "情绪"],
+    "sources": [{ "label": "A. Freud, The Ego and the Mechanisms of Defence", "year": 1936 }]
+  },
+  {
+    "id": "operant-conditioning",
+    "term": "操作性条件反射",
+    "termEn": "Operant Conditioning",
+    "category": "行为",
+    "categoryEn": "Behavior",
+    "level": 1,
+    "oneLiner": "行为的频率由其后果塑造——被强化的多做，被惩罚、消退的少做。",
+    "oneLinerEn": "How often a behavior recurs is shaped by its consequences—reinforced acts rise, punished or extinguished ones fall.",
+    "detail": "桑代克的效果律开其端，斯金纳集大成：有机体主动「操作」环境，行为随后果而增减。强化分正（给予奖赏）与负（撤走厌恶物），两者都增加行为；惩罚与消退则使其减少。塑造（shaping）把复杂技能拆成逐级小步、逐步奖励。它解释了成瘾、游戏抽奖与「打卡返现」的机制，也被用于训练、教学与自我管理。",
+    "detailEn": "Thorndike's law of effect opened it, Skinner systematized it: an organism actively operates on its environment and behavior waxes or wanes with consequences. Reinforcement is positive (a reward given) or negative (an aversive removed)—both raise behavior; punishment and extinction lower it. Shaping splits a skill into graded steps, each rewarded. It accounts for addiction, loot boxes and 'cash-back check-ins', and powers training, teaching and self-management.",
+    "example": "老虎机用「偶尔中奖」的变率强化最黏人——正因奖励不可预测，拉杆才难停。",
+    "exampleEn": "A slot machine's variable-ratio 'occasional win' is the stickiest—because the reward is unpredictable, pulling the lever is hard to stop.",
+    "related": ["learning", "skinner", "pavlov-dog", "thorndike-cat"],
+    "tags": ["行为", "学习"],
+    "sources": [{ "label": "Skinner, Science and Human Behavior", "year": 1953 }]
+  },
+  {
+    "id": "emotional-intelligence",
+    "term": "情绪智力（情商）",
+    "termEn": "Emotional Intelligence",
+    "category": "差异",
+    "categoryEn": "Individual Differences",
+    "level": 2,
+    "oneLiner": "指识别、理解与调节自己及他人情绪的能力——其「可测量、能预测成功」被高度夸大。",
+    "oneLinerEn": "The ability to perceive, understand and regulate emotions in self and others—whose measurability and power to predict success are greatly overstated.",
+    "detail": "由萨洛维与迈耶提出、经戈尔曼推广，「情商」迅速走红大众。争议在于：它究竟是独立的智力，还是人格（如尽责、外向）与既有智商的换名？各量表效度不一，「情商决定八成成功」之类说法缺乏严谨证据。合理内核仍存——情绪觉察与调节确实关乎人际与抗压，值得培养；但把它捧成凌驾一切的神秘资质，则滑向了新迷思。",
+    "detailEn": "Coined by Salovey and Mayer, popularized by Goleman, 'EQ' went mainstream fast. The dispute: is it a distinct intelligence, or a rebranding of personality (conscientiousness, extraversion) and known IQ? Scales vary in validity, and claims that 'EQ drives eighty percent of success' lack firm evidence. A sound core remains—emotional awareness and regulation do bear on getting along and coping, and are worth cultivating; but exalting it into an all-surpassing gift slides into a new myth.",
+    "example": "面试被拒，情绪觉察力强的人能承认失落、复盘原因，而不是一连几天逢人便抱怨「对方不识货」。",
+    "exampleEn": "Rejected at an interview, one with good emotional awareness owns the disappointment and reviews causes, rather than grumbling 'they missed me' for days.",
+    "related": ["intelligence", "emotion", "mbti", "multiple-intelligence"],
+    "tags": ["差异", "情绪"],
+    "sources": [{ "label": "Salovey & Mayer (1990)", "year": 1990 }]
   }
 ]

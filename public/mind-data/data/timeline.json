@@ -12,6 +12,18 @@
     "sources": [{ "label": "Wundt (1879)", "year": 1879 }]
   },
   {
+    "id": "1890-james",
+    "year": "1890",
+    "term": "威廉·詹姆斯《心理学原理》",
+    "termEn": "James publishes The Principles of Psychology",
+    "oneLiner": "一部巨著奠定了美国心理学，提出「意识流」与「自我」的双层结构。",
+    "oneLinerEn": "A landmark founded American psychology, coining the 'stream of consciousness' and the layered self.",
+    "detail": "詹姆斯反对把心智切成静态元素，主张意识是一条不断流动的河；他把自我分为「主我 I」与「客我 Me」，并细究习惯、情绪与注意。与冯特的元素主义相映，他把心理学引向功能与适应，为日后的实用主义、以及动机与自我的研究埋下伏笔。",
+    "detailEn": "Against carving the mind into static elements, James held consciousness to be a flowing stream; he split the self into the 'I' and the 'Me' and probed habit, emotion and attention. Set against Wundt's elementism, he steered psychology toward function and adaptation, seeding pragmatism and later work on motivation and the self.",
+    "related": ["consciousness", "self", "structuralism"],
+    "sources": [{ "label": "James (1890)", "year": 1890 }]
+  },
+  {
     "id": "freud-1900",
     "year": "1900",
     "term": "弗洛伊德《梦的解析》",
@@ -22,6 +34,18 @@
     "detailEn": "Argued the unconscious, childhood and drives shape behavior; influential yet hard to test empirically.",
     "related": ["psychoanalysis", "little-albert"],
     "sources": [{ "label": "Freud (1900)", "year": 1900 }]
+  },
+  {
+    "id": "1905-binet",
+    "year": "1905",
+    "term": "比内-西蒙智力量表问世",
+    "termEn": "The Binet-Simon intelligence scale",
+    "oneLiner": "为筛出需要帮助的学童，世界第一套实用的智力测验诞生。",
+    "oneLinerEn": "Built to flag schoolchildren needing help, the world's first practical intelligence test appeared.",
+    "detail": "法国教育部请比内找出跟不上学业的儿童，他与西蒙设计出按年龄分层、可逐项作答的测验，并引入「智力年龄」的概念。它本为诊断、而非给人的一生排序，却被改造成推孟的斯坦福-比内量表与「智商」，进而用于移民筛选、乃至优生学——一项工具如何被误用，此为经典警示。",
+    "detailEn": "Asked by France's ministry to identify children lagging in school, Binet with Simon built an age-graded, item-by-item test and the notion of 'mental age'. Meant for diagnosis, not for ranking lives, it was remade into Terman's Stanford-Binet and the 'IQ', then turned to immigration screening and even eugenics—a classic warning in how a tool gets misused.",
+    "related": ["intelligence", "iq-fixed", "multiple-intelligence"],
+    "sources": [{ "label": "Binet & Simon (1905)", "year": 1905 }]
   },
   {
     "id": "behaviorism-1913",
@@ -94,6 +118,30 @@
     "detailEn": "Introduced vicarious reinforcement and self-efficacy, bridging behaviorism and cognition.",
     "related": ["self-efficacy", "social-media-mood"],
     "sources": [{ "label": "Bandura (1961)", "year": 1961 }]
+  },
+  {
+    "id": "1963-milgram",
+    "year": "1963",
+    "term": "米尔格拉姆服从实验",
+    "termEn": "Milgram's obedience experiments",
+    "oneLiner": "约三分之二的普通人，在权威指令下对他人施加了危险的电击。",
+    "oneLinerEn": "About two-thirds of ordinary people delivered dangerous shocks to another on an authority's orders.",
+    "detail": "在耶鲁的实验室，被试以为自己在「以电击惩罚错答」，实则挨电的是演员。尽管对方惨叫、要求停止，穿白大褂的实验者只是平静地要他继续，多数人便照做了。它震撼地揭示情境与权威对服从的塑造力，也因欺骗与施压激起强烈反弹，直接推动了知情同意研究规范的建立。",
+    "detailEn": "At Yale, subjects believed they were 'punishing wrong answers with shocks', the victim in fact an actor. Despite his screams and pleas to stop, the experimenter in a lab coat calmly urged them on—and most complied. It revealed with force how situation and authority shape obedience and, stirring backlash over deception and distress, helped drive informed-consent norms.",
+    "related": ["milgram", "stanford-prison", "asch-conformity"],
+    "sources": [{ "label": "Milgram (1963)", "year": 1963 }]
+  },
+  {
+    "id": "1971-zimbardo",
+    "year": "1971",
+    "term": "斯坦福监狱实验",
+    "termEn": "The Stanford prison experiment",
+    "oneLiner": "一场两周的「狱警与囚犯」角色扮演，第六天便因失控而中止。",
+    "oneLinerEn": "A two-week role-play of guards and prisoners, halted on day six for spiralling out of control.",
+    "detail": "津巴多把地下室改成假监狱，随机让大学生扮演狱警与囚犯。扮演迅速侵蚀真实：「狱警」日益专横，「囚犯」出现应激崩溃，不得不在第六天叫停。它常被引为「情境与角色能压垮品性」的明证；但近年也遭质疑——样本很小、需求特征与主持人的暗示都可能放大效应。无论结论如何，它已成为讨论权力与去个体化的通用语言。",
+    "detailEn": "Zimbardo turned a basement into a mock prison, randomly casting students as guards and prisoners. The role ate the person: 'guards' grew tyrannical, 'prisoners' broke down in stress, and it was stopped on day six. Long cited that situation and role can crush character, it has lately drawn fire—a tiny sample, demand characteristics and the host's hints may all have inflated the effect. Conclusion or not, it is now the common idiom for power and deindividuation.",
+    "related": ["stanford-prison", "deindividuation", "fundamental-attribution-error"],
+    "sources": [{ "label": "Zimbardo (1971)", "year": 1971 }]
   },
   {
     "id": "kahneman-1979",
