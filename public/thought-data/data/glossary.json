@@ -586,5 +586,122 @@
         "year": 150
       }
     ]
+  },
+  {
+    "id": "deontology",
+    "term": "义务论",
+    "termEn": "Deontology",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 2,
+    "def": "以「行为本身对不对」而非其后果来定道德的理论：某些义务或规则（守信、不滥杀无辜）具有约束力，即便违背似能换来更好的结果。康德是其最著名的形态。",
+    "defEn": "Theories fixing morality by the rightness of the act itself rather than its consequences: certain duties or rules (keep faith, do not kill the innocent) bind even when breaking them would seem to do better. Kant is their most famous form.",
+    "plain": "它问「这样做本身允不允许」，而不是「这样做划不划算」。",
+    "plainEn": "It asks 'is this act itself permitted?', not 'does it pay off?'.",
+    "related": [
+      "categorical-imperative",
+      "kant",
+      "kantian",
+      "utility",
+      "groundwork",
+      "ethics"
+    ],
+    "sources": [
+      {
+        "label": "康德《道德形而上学》",
+        "labelEn": "Kant, Metaphysics of Morals",
+        "year": 1797
+      },
+      {
+        "label": "罗斯《正当与善》",
+        "labelEn": "Ross, The Right and the Good",
+        "year": 1930
+      }
+    ]
+  },
+  {
+    "id": "social-contract",
+    "term": "社会契约",
+    "termEn": "The Social Contract",
+    "category": "政治哲学",
+    "categoryEn": "Political Philosophy",
+    "level": 2,
+    "def": "以「成员之间的协议」为国家与政治义务立论的思想构造：人们让渡部分自然自由，换取秩序与权利的保障；分歧在于这一契约所导出的是绝对主权，还是受限的政府。",
+    "defEn": "Theorising that grounds the state and political obligation on an agreement among members: people surrender some natural liberty for order and the guarantee of rights—dividing over whether that contract yields absolute sovereignty or a limited government.",
+    "plain": "「政府为何有权管我？」契约论答：因为（假想的）你我都在其中获益，并同意其规则。",
+    "plainEn": "'Why may government rule me?' The contract answers: because you and I—hypothetically—gain from it and consent to its rules.",
+    "related": [
+      "veil-of-ignorance",
+      "two-liberties",
+      "hobbes",
+      "rousseau",
+      "justice",
+      "political-philosophy"
+    ],
+    "sources": [
+      {
+        "label": "霍布斯《利维坦》；罗尔斯《正义论》",
+        "labelEn": "Hobbes, Leviathan; Rawls, A Theory of Justice",
+        "year": 1651
+      }
+    ]
+  },
+  {
+    "id": "benevolence",
+    "term": "仁",
+    "termEn": "Benevolence (Ren)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 1,
+    "def": "儒家全德之名，近于「把人当人」的恻隐与敬：以亲亲为根，由近及远地扩充。孔子重在具体践履，孟子则把它接到「不忍人之心」所发的四端。",
+    "defEn": "The Confucian name for virtue as a whole, near to the compassion and reverence that treats persons as persons: rooted in kinship and widened outward. Confucius stressed concrete practice; Mencius linked it to the four sprouts, beginning with the heart that cannot bear another's pain.",
+    "plain": "「己所不欲，勿施于人」是它的消极面；「己欲立而立人」是它的积极面。",
+    "plainEn": "'Do not impose on others what you would not choose' is its negative face; 'to establish others is to establish yourself' its positive.",
+    "related": [
+      "confucianism",
+      "kongzi",
+      "ren-justice-compare",
+      "li-ritual",
+      "mengzi",
+      "eudaimonia"
+    ],
+    "sources": [
+      {
+        "label": "《论语·颜渊》《雍也》",
+        "labelEn": "Analects, 'Yan Yuan' and 'Yong ye'",
+        "year": -450
+      },
+      {
+        "label": "《孟子·公孙丑上》",
+        "labelEn": "Mencius, Gong Sun Chou I",
+        "year": -320
+      }
+    ]
+  },
+  {
+    "id": "truth-theories",
+    "term": "真理的诸理论",
+    "termEn": "Theories of Truth",
+    "category": "认识论",
+    "categoryEn": "Epistemology",
+    "level": 3,
+    "def": "对「何为真」的诸种刻画：符合论说真在于与实在相合；融贯论说真在于与整个信念网无矛盾；实用论说真在于「有效、可兑现」；冗余论与紧缩论则否认「真」是一种深层性质。",
+    "defEn": "Competing accounts of what truth is: correspondence, a belief's agreeing with reality; coherence, its fitting without contradiction into a whole web of belief; pragmatism, its working and cashing out; deflationism and redundancy, denying that 'true' names any deep property at all.",
+    "plain": "「真」像是说「这张图与实景相符」；可若那实景无法独立触及，相符就只剩信念之间的融贯——几条进路各押一处。",
+    "plainEn": "'True' feels like 'this picture matches the scene'—but if the scene cannot be reached independently, matching collapses to coherence among beliefs; the routes each bet elsewhere.",
+    "related": [
+      "knowledge",
+      "epistemology",
+      "reality",
+      "a-priori",
+      "paradigm"
+    ],
+    "sources": [
+      {
+        "label": "亚里士多德《形而上学》符合论；詹姆斯《实用主义》",
+        "labelEn": "Aristotle, Metaphysics (correspondence); James, Pragmatism",
+        "year": 1907
+      }
+    ]
   }
 ]

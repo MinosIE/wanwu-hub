@@ -930,6 +930,34 @@
       "nEn": "Śūnyatā"
     }
   ],
+  "deontology": [
+    {
+      "m": "m-glossary",
+      "n": "义务论",
+      "nEn": "Deontology"
+    }
+  ],
+  "social-contract": [
+    {
+      "m": "m-glossary",
+      "n": "社会契约",
+      "nEn": "The Social Contract"
+    }
+  ],
+  "benevolence": [
+    {
+      "m": "m-glossary",
+      "n": "仁",
+      "nEn": "Benevolence (Ren)"
+    }
+  ],
+  "truth-theories": [
+    {
+      "m": "m-glossary",
+      "n": "真理的诸理论",
+      "nEn": "Theories of Truth"
+    }
+  ],
   "tl-thales": [
     {
       "m": "m-timeline",
@@ -1481,6 +1509,34 @@
       "m": "m-myths",
       "n": "哲学只是各抒己见",
       "nEn": "Philosophy Is Just Opinions"
+    }
+  ],
+  "myth-occams-razor": [
+    {
+      "m": "m-myths",
+      "n": "奥卡姆剃刀＝越简单越正确",
+      "nEn": "Occam's Razor: Simpler Is Truer"
+    }
+  ],
+  "myth-turing-test-conscious": [
+    {
+      "m": "m-myths",
+      "n": "通过图灵测试＝真的有意识",
+      "nEn": "Passing the Turing Test Means Real Consciousness"
+    }
+  ],
+  "myth-morality-is-religion": [
+    {
+      "m": "m-myths",
+      "n": "没有宗教就没有道德",
+      "nEn": "Without Religion There Is No Morality"
+    }
+  ],
+  "myth-zhuangzi-lying-flat": [
+    {
+      "m": "m-myths",
+      "n": "庄子逍遥＝躺平摆烂",
+      "nEn": "Zhuangzi's Ease Is Just Lying Flat"
     }
   ]
 }

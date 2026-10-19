@@ -475,5 +475,121 @@
         "year": 1953
       }
     ]
+  },
+  {
+    "id": "myth-occams-razor",
+    "term": "奥卡姆剃刀＝越简单越正确",
+    "termEn": "Occam's Razor: Simpler Is Truer",
+    "category": "推理误区",
+    "categoryEn": "Reasoning Errors",
+    "level": 1,
+    "myth": "「若无必要勿增实体」，于是「更简单的理论」几乎总被当成「更接近真的理论」。",
+    "mythEn": "'Do not multiply entities beyond necessity'—so the simpler theory is all but taken up to be the truer one.",
+    "truth": "剃刀是「方法论上的节俭」而非「真理的保证」：它建议在解释力相当时优先较简者，但「简单」与「实在」是否同构，本身是无法先验担保的假设。",
+    "truthEn": "The razor is methodological thrift, not a guarantee of truth: it counsels preferring the simpler at equal explanatory power—whether simplicity tracks reality is itself a presupposition nothing can secure a priori.",
+    "detail": "历史上「更简」的理论常被事实推翻：托勒密体系在削减本轮时一度显得更「节省」，光的微粒说也比波动说更直观。剃刀只有在前一句「解释力相当」的前提下才有分量；而比较解释力往往比这句箴言想象的更难。把它当作形而上的铁律，就是以审美趣味替代证据。",
+    "detailEn": "History repeatedly rebukes the 'simpler': Ptolemy could look terser than rivals when trimming epicycles, and corpuscular optics more intuitive than wave theory. The razor only bites under its prior clause, 'at equal explanatory power', and weighing that power is harder than the maxim admits; as a metaphysical iron law it swaps taste for evidence.",
+    "related": [
+      "falsifiability",
+      "paradigm",
+      "validity",
+      "induction"
+    ],
+    "sources": [
+      {
+        "label": "牛顿《自然哲学之数学原理》·推理规则一",
+        "labelEn": "Newton, Principia, Rule of Reasoning I",
+        "year": 1687
+      }
+    ]
+  },
+  {
+    "id": "myth-turing-test-conscious",
+    "term": "通过图灵测试＝真的有意识",
+    "termEn": "Passing the Turing Test Means Real Consciousness",
+    "category": "现代哲学",
+    "categoryEn": "Modern",
+    "level": 2,
+    "myth": "一台机器若在人机对话里骗过裁判，就等于证明它和我们一样在思考、有内心体验。",
+    "mythEn": "If a machine fools the judge in conversation, that is taken to prove it thinks and feels exactly as we do.",
+    "truth": "图灵自陈这只是「换个问法」，回避而非解决了意识问题；中文房间、感受质与「难问题」都指出：行为达标不等于拥有第一人称体验。",
+    "truthEn": "Turing himself framed it as 'a change of question'—dodging, not solving, consciousness. The Chinese Room, qualia and the 'hard problem' all press that meeting the behavioural bar is not having a first-person perspective.",
+    "detail": "裁判「无法分辨」至多确立「功能表现不可分辨」，而意识关乎其间是否有「作为它是什么样子」的体验——内格尔的蝙蝠、玛丽的房间正标示这一缺口。把图灵测试当意识的金标准，会既高估聊天机器人，又低估那些表现不出、却可能有感的存在。",
+    "detailEn": "A judge 'unable to tell' at most settles indistinguishable functional performance, while consciousness concerns whether there is 'what it is like' to be that system—Nagel's bat and Mary's room mark exactly the gap. Treating the test as consciousness's gold standard overrates chatbots and underrates beings that cannot perform yet may feel.",
+    "related": [
+      "chinese-room",
+      "nagel-bat",
+      "machine-mind",
+      "mind-body",
+      "qualia"
+    ],
+    "sources": [
+      {
+        "label": "图灵《计算机器与智能》；塞尔《心灵、大脑与程序》",
+        "labelEn": "Turing (1950); Searle, Minds, Brains, and Programs",
+        "year": 1980
+      }
+    ]
+  },
+  {
+    "id": "myth-morality-is-religion",
+    "term": "没有宗教就没有道德",
+    "termEn": "Without Religion There Is No Morality",
+    "category": "伦理学",
+    "categoryEn": "Ethics",
+    "level": 2,
+    "myth": "客观善恶必有一位超验立法者；一旦上帝缺席，一切都可被允许，道德随之瓦解。",
+    "mythEn": "Objective good and evil require a transcendent lawgiver; once God is gone, everything is permitted and morality collapses.",
+    "truth": "「道德是否需神」正是游叙弗伦两难：若善只因神所命而善，则善恶沦为任意；若神因其本善而命之，则善独立于神而先在。两途都令「无神即无德」难以成立。",
+    "truthEn": "Whether morality needs God is the Euthyphro dilemma: if the good is good because God commands it, good and evil turn arbitrary; if God commands it because it is good, then goodness stands apart from and prior to God. Either way 'no God, no morals' is hard to hold.",
+    "detail": "世俗伦理各有严密根据：康德的义务论、功利主义、德性论与契约论皆是；而实证上，非信仰社群的合作规范照常存续。真正的分歧不在「有无宗教」，而在「道德事实是否客观」——那是道德实在论之争，可与神学分，亦可与神学合。",
+    "detailEn": "Secular ethics carry their own warrant—Kantian, utilitarian, virtue-based and contractualist alike—and cooperation norms plainly thrive in communities without faith. The real fault line is not 'religion or none' but 'are moral facts objective', a quarrel of moral realism that can stand apart from theology or join it.",
+    "related": [
+      "good-evil",
+      "moral-realism",
+      "god",
+      "aquinas",
+      "republic"
+    ],
+    "sources": [
+      {
+        "label": "柏拉图《游叙弗伦》",
+        "labelEn": "Plato, Euthyphro",
+        "year": -399
+      },
+      {
+        "label": "《卡拉马佐夫兄弟》的命题及其反驳",
+        "labelEn": "The Karamazov thesis and its rebuttals",
+        "year": 1880
+      }
+    ]
+  },
+  {
+    "id": "myth-zhuangzi-lying-flat",
+    "term": "庄子逍遥＝躺平摆烂",
+    "termEn": "Zhuangzi's Ease Is Just Lying Flat",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "myth": "齐物、无用、逍遥都在说：既然万物无分别、努力皆无意义，不如消极躺平、一事不做。",
+    "mythEn": "Equalising things, uselessness and free-and-easy wandering all say: since nothing differs and effort is moot, better to lie flat and do nothing at all.",
+    "truth": "庄子的「无用之用」是对工具化人生的批判，而非取消作为；「逍遥」是从外在评价与固执成心中解放，境界里满是庖丁、承蜩、运斤这些匠人的极致专注与能事。",
+    "truthEn": "Zhuangzi's 'use of the useless' critiques an instrumentalised life; it does not cancel doing. His ease is release from outer grading and fixed mind—and the tales teem with artisans (Cook Ding, the cicada-catcher, the axesman) at feats of supreme attention and skill.",
+    "detail": "「齐物」所齐的，是各执一是的是非之争，并非抹平一切价值高下；其落脚是「因是」的开放与「吾丧我」的通透，近乎现象学式的悬搁，而不是虚无。把逍遥读成躺平，恰恰落进庄子所破的「以俗为量」。",
+    "detailEn": "What the 'equalising of things' levels is the partisan this-and-that of dogmatic judgement, not every distinction of worth; it lands in openness ('the thus-with') and the lucidity of 'losing my self'—close to a phenomenological bracketing, not nihilism. To read ease as lying flat falls straight into measuring by the world's yardstick, the very trap Zhuangzi breaks.",
+    "related": [
+      "zhuangzi",
+      "taoism",
+      "qiwu",
+      "wuwei",
+      "ataraxia"
+    ],
+    "sources": [
+      {
+        "label": "《庄子》养生主、齐物论、山木",
+        "labelEn": "Zhuangzi, 'Nourishing the Lord of Life', 'Qiwu', 'The Tree in the Mountain'",
+        "year": -300
+      }
+    ]
   }
 ]
