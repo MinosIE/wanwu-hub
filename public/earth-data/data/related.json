@@ -342,6 +342,34 @@
       "nEn": "Suez Canal"
     }
   ],
+  "sahara": [
+    {
+      "m": "m-classics",
+      "n": "撒哈拉沙漠",
+      "nEn": "Sahara Desert"
+    }
+  ],
+  "grand-canyon": [
+    {
+      "m": "m-classics",
+      "n": "科罗拉多大峡谷",
+      "nEn": "Grand Canyon"
+    }
+  ],
+  "dead-sea": [
+    {
+      "m": "m-classics",
+      "n": "死海",
+      "nEn": "Dead Sea"
+    }
+  ],
+  "vesuvius": [
+    {
+      "m": "m-classics",
+      "n": "维苏威火山",
+      "nEn": "Mount Vesuvius"
+    }
+  ],
   "zhenghe": [
     {
       "m": "m-thinkers",
@@ -445,6 +473,34 @@
       "m": "m-thinkers",
       "n": "卡尔·李特尔",
       "nEn": "Carl Ritter"
+    }
+  ],
+  "hutton": [
+    {
+      "m": "m-thinkers",
+      "n": "詹姆斯·赫顿",
+      "nEn": "James Hutton"
+    }
+  ],
+  "lyell": [
+    {
+      "m": "m-thinkers",
+      "n": "查尔斯·莱尔",
+      "nEn": "Charles Lyell"
+    }
+  ],
+  "maury": [
+    {
+      "m": "m-thinkers",
+      "n": "马修·莫里",
+      "nEn": "Matthew Fontaine Maury"
+    }
+  ],
+  "harry-hess": [
+    {
+      "m": "m-thinkers",
+      "n": "哈里·赫斯",
+      "nEn": "Harry Hammond Hess"
     }
   ],
   "continental-drift": [

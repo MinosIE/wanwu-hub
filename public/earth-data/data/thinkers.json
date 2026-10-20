@@ -667,5 +667,203 @@
       "cultural-regions",
       "humboldt"
     ]
+  },
+  {
+    "id": "hutton",
+    "name": "詹姆斯·赫顿",
+    "nameEn": "James Hutton",
+    "life": "1726—1797",
+    "lifeEn": "1726–1797",
+    "country": "苏格兰",
+    "countryEn": "Scotland",
+    "order": 16,
+    "school": "地质学",
+    "schoolEn": "Geology",
+    "level": 3,
+    "oneLiner": "「深时间」之父：以今日之缓变读出地球之悠远，均变论悄然把地质学从神创年表中解放。",
+    "oneLinerEn": "Father of \"deep time\": reading Earth's vast age in today's slow change, uniformitarianism quietly freed geology from scriptural chronologies.",
+    "bio": "苏格兰自然哲学家，在爱丁堡与锡卡湾的实地观察中领悟：一些「找不到起点、也望不见终点」的过程，正一点点雕琢着地表。他「以今日解过去」的思路为莱尔所总结，也为达尔文所需的漫长时间打开了大门。",
+    "bioEn": "A Scottish natural philosopher, he saw at Edinburgh and Siccar Bay that processes with \"no vestige of a beginning, no prospect of an end\" were slowly shaping the surface. His \"key to the past lies in the present\" was summed up by Lyell and opened the vast time Darwin would need.",
+    "ideas": [
+      {
+        "k": "深时间",
+        "kEn": "Deep time",
+        "v": "地球的年纪远超圣经推算的数千年。",
+        "vEn": "Earth is far older than the few thousand years of scriptural counts."
+      },
+      {
+        "k": "均变",
+        "kEn": "Uniformitarianism",
+        "v": "今日缓慢的自然作用是解读过去的钥匙。",
+        "vEn": "Today's slow natural action is the key to reading the past."
+      },
+      {
+        "k": "火成论",
+        "kEn": "Plutonism",
+        "v": "岩石由地下热反复熔融、抬升而成。",
+        "vEn": "Rocks are remelted and uplifted by subterranean heat."
+      }
+    ],
+    "works": [
+      {
+        "title": "地球论",
+        "titleEn": "Theory of the Earth",
+        "year": 1788
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我们找不到起点，也望不见终点。",
+        "qEn": "We find no vestige of a beginning, no prospect of an end."
+      }
+    ],
+    "related": ["uniformitarianism", "lyell", "rock-cycle"]
+  },
+  {
+    "id": "lyell",
+    "name": "查尔斯·莱尔",
+    "nameEn": "Charles Lyell",
+    "life": "1797—1875",
+    "lifeEn": "1797–1875",
+    "country": "英国",
+    "countryEn": "UK",
+    "order": 17,
+    "school": "地质学",
+    "schoolEn": "Geology",
+    "level": 3,
+    "oneLiner": "以《地质学原理》把均变论铸成地学方法：现在是理解过去的钥匙，为达尔文的缓慢演化备好时间舞台。",
+    "oneLinerEn": "With his Principles of Geology he forged uniformitarianism into method—the present as key to the past—laying the slow stage Darwin would need.",
+    "bio": "苏格兰律师转业的地质学家。三卷《地质学原理》以实证集束证明：地表由地震、火山、侵蚀这些今日仍在运作之力，历经难以想象之久逐渐塑成，深深影响了在环球航船上研读其书的达尔文。",
+    "bioEn": "A Scottish lawyer-turned-geologist. His three-volume Principles of Geology showed by evidence that the surface is shaped, over immense time, by earthquakes, volcanoes and erosion still at work today—profoundly swaying Darwin, who read it aboard the Beagle.",
+    "ideas": [
+      {
+        "k": "现实类比",
+        "kEn": "Actualism",
+        "v": "用今日可见的作用去解释过去。",
+        "vEn": "Explain the past by causes visible today."
+      },
+      {
+        "k": "渐变累积",
+        "kEn": "Slow accumulation",
+        "v": "微小的力量久叠足以移山填海。",
+        "vEn": "Minute forces, piled over ages, move mountains."
+      },
+      {
+        "k": "无既定终局",
+        "kEn": "No fixed end",
+        "v": "地球既没有创世之日，也没有既定终局。",
+        "vEn": "Earth has no creation day nor fixed final state."
+      }
+    ],
+    "works": [
+      {
+        "title": "地质学原理",
+        "titleEn": "Principles of Geology",
+        "year": 1830
+      }
+    ],
+    "quotes": [
+      {
+        "q": "看清当下，方能读懂往昔。",
+        "qEn": "The present is the key to the past."
+      }
+    ],
+    "related": ["uniformitarianism", "hutton", "continental-drift"]
+  },
+  {
+    "id": "maury",
+    "name": "马修·莫里",
+    "nameEn": "Matthew Fontaine Maury",
+    "life": "1806—1873",
+    "lifeEn": "1806–1873",
+    "country": "美国",
+    "countryEn": "USA",
+    "order": 18,
+    "school": "海洋学",
+    "schoolEn": "Oceanography",
+    "level": 3,
+    "oneLiner": "「海洋学之父」：汇集千船航海日志，绘出首幅风与洋流图，把空旷大洋变成有路可循的蓝径。",
+    "oneLinerEn": "The \"father of oceanography\": compiling a thousand ships' logs into the first wind and current charts, he turned open ocean into blue roads with routes to follow.",
+    "bio": "美国海军军官，因伤转掌航海仪器库，系统收集商船观测，出版《海洋的物理地理学》与洋流、风场图，大幅缩短航程；并借为跨洋电缆所做的海底测量，提供了深海平坦的最初线索。",
+    "bioEn": "A US naval officer who, after injury, ran the depot of charts and instruments and gathered merchantmen's observations into his Physical Geography of the Seas with current and wind charts—shortening voyages and, from soundings taken for cables, hinting at a flat deep seafloor.",
+    "ideas": [
+      {
+        "k": "海洋有律",
+        "kEn": "A lawful sea",
+        "v": "风与流并非杂乱，可测、可图、可循。",
+        "vEn": "Winds and currents are law-governed—measurable, chartable, sailable."
+      },
+      {
+        "k": "集体观测",
+        "kEn": "Collective data",
+        "v": "千船日志汇成一幅全球图景。",
+        "vEn": "A thousand logs combine into one global picture."
+      }
+    ],
+    "works": [
+      {
+        "title": "海洋的物理地理学",
+        "titleEn": "The Physical Geography of the Seas",
+        "year": 1855
+      }
+    ],
+    "quotes": [
+      {
+        "q": "绘制了风与流的道路，便缩短了海洋的航程。",
+        "qEn": "Chart the roads of wind and current, and the sea's voyages grow shorter."
+      }
+    ],
+    "related": ["ocean-currents", "thermohaline", "cousteau"]
+  },
+  {
+    "id": "harry-hess",
+    "name": "哈里·赫斯",
+    "nameEn": "Harry Hammond Hess",
+    "life": "1906—1969",
+    "lifeEn": "1906–1969",
+    "country": "美国",
+    "countryEn": "USA",
+    "order": 19,
+    "school": "地质与海洋学",
+    "schoolEn": "Geology & oceanography",
+    "level": 3,
+    "oneLiner": "海底扩张的提出者：洋壳在海岭涌出、向两侧铺展、潜没而亡——为大陆漂移补上它欠下的动力。",
+    "oneLinerEn": "Proposer of seafloor spreading: new crust wells up at ridges, spreads sideways, and sinks to its death—giving continental drift the engine it had lacked.",
+    "bio": "美国地质学家与海军少将，普林斯顿教授任内兼率潜艇考察，据声呐测深发现大洋中脊与中央裂谷、以及深海平原之年轻；1962 年以《大洋盆地史》提出海底扩张，与同期古地磁条带证据一道催生了板块构造论。",
+    "bioEn": "An American geologist and rear admiral who, as Princeton professor, captained submarine surveys; from sonar soundings he found mid-ocean ridges with central rifts and young abyssal plains, and in 1962 his History of Ocean Basins proposed seafloor spreading which, with magnetic stripes, midwifed plate tectonics.",
+    "ideas": [
+      {
+        "k": "海底扩张",
+        "kEn": "Seafloor spreading",
+        "v": "新洋壳在海岭生成，对称向两侧推开。",
+        "vEn": "New crust forms at ridges and splits symmetrically outward."
+      },
+      {
+        "k": "洋壳年轻",
+        "kEn": "Young ocean floor",
+        "v": "海底远较大陆为新，最老不过约两亿年。",
+        "vEn": "The seafloor is far younger than continents—nothing older than some 200 Myr."
+      },
+      {
+        "k": "潜没回收",
+        "kEn": "Subduction return",
+        "v": "在海沟处旧壳下沉，重回地幔。",
+        "vEn": "At trenches old crust sinks back into the mantle."
+      }
+    ],
+    "works": [
+      {
+        "title": "大洋盆地史",
+        "titleEn": "History of Ocean Basins",
+        "year": 1962
+      }
+    ],
+    "quotes": [
+      {
+        "q": "大陆并非在漂移，而是被新生的海底推着走。",
+        "qEn": "Continents don't drift—they are carried along by spreading new seafloor."
+      }
+    ],
+    "related": ["plate-tectonics", "continental-drift", "alfred-wegener"]
   }
 ]

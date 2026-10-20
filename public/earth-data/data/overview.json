@@ -5,8 +5,8 @@
     "questions": 19,
     "principles": 15,
     "humanGeo": 16,
-    "classics": 15,
-    "thinkers": 15
+    "classics": 19,
+    "thinkers": 19
   },
   "kpis": [
     {
@@ -22,7 +22,7 @@
     {
       "key": "classics",
       "icon": "🏔️",
-      "value": 15
+      "value": 19
     },
     {
       "key": "principles",
