@@ -2,10 +2,10 @@
   "version": "1.0",
   "counts": {
     "schools": 15,
-    "questions": 15,
+    "questions": 19,
     "principles": 15,
     "classics": 17,
-    "thinkers": 18,
+    "thinkers": 22,
     "endemics": 8
   },
   "kpis": [

@@ -209,6 +209,34 @@
       "nEn": "Peatlands"
     }
   ],
+  "boreal-forest": [
+    {
+      "m": "m-questions",
+      "n": "北方针叶林",
+      "nEn": "Boreal Forest (Taiga)"
+    }
+  ],
+  "freshwater-lake": [
+    {
+      "m": "m-questions",
+      "n": "淡水湖泊",
+      "nEn": "Freshwater Lake"
+    }
+  ],
+  "river-ecosystem": [
+    {
+      "m": "m-questions",
+      "n": "河流生态系统",
+      "nEn": "River Ecosystem"
+    }
+  ],
+  "alpine-meadow": [
+    {
+      "m": "m-questions",
+      "n": "高山草甸",
+      "nEn": "Alpine Meadow"
+    }
+  ],
   "origin-of-life": [
     {
       "m": "m-classics",
@@ -452,6 +480,34 @@
       "m": "m-thinkers",
       "n": "罗莎琳德·富兰克林",
       "nEn": "Rosalind Franklin"
+    }
+  ],
+  "aristotle": [
+    {
+      "m": "m-thinkers",
+      "n": "亚里士多德",
+      "nEn": "Aristotle"
+    }
+  ],
+  "hippocrates": [
+    {
+      "m": "m-thinkers",
+      "n": "希波克拉底",
+      "nEn": "Hippocrates"
+    }
+  ],
+  "harvey": [
+    {
+      "m": "m-thinkers",
+      "n": "威廉·哈维",
+      "nEn": "William Harvey"
+    }
+  ],
+  "lamarck": [
+    {
+      "m": "m-thinkers",
+      "n": "拉马克",
+      "nEn": "Jean-Baptiste Lamarck"
     }
   ],
   "cell-fundamentals": [

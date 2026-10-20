@@ -861,5 +861,225 @@
       "central-dogma",
       "mendel"
     ]
+  },
+  {
+    "id": "aristotle",
+    "name": "亚里士多德",
+    "nameEn": "Aristotle",
+    "life": "前384–前322",
+    "lifeEn": "384–322 BC",
+    "country": "古希腊",
+    "countryEn": "Ancient Greece",
+    "school": "自然哲学",
+    "schoolEn": "Natural philosophy",
+    "level": 2,
+    "order": 19,
+    "oneLiner": "系统观察并归类数百种动物，被誉为最早的生物学家，其《动物史》奠定比较解剖与分类的起点。",
+    "oneLinerEn": "He observed and sorted hundreds of animals, hailed as the first biologist; his History of Animals founded comparative anatomy and classification.",
+    "bio": "他在莱斯博斯岛观察海洋生物，按形态与生殖为动物归类，提出「自然阶梯」的观念，其权威统治西方自然知识近两千年。",
+    "bioEn": "Observing marine life on Lesbos, he grouped animals by form and reproduction and conceived the scala naturae, his authority ruling Western natural knowledge for nearly two millennia.",
+    "ideas": [
+      {
+        "k": "观察为先",
+        "v": "知识来自对具体生物的解剖与目见",
+        "kEn": "Observation first",
+        "vEn": "Knowledge comes from dissecting and seeing real creatures"
+      },
+      {
+        "k": "自然阶梯",
+        "v": "生物由高到低排成连续等级",
+        "kEn": "Scala naturae",
+        "vEn": "Life arrayed in a continuous ladder"
+      }
+    ],
+    "works": [
+      {
+        "title": "动物史",
+        "titleEn": "History of Animals",
+        "year": -343
+      }
+    ],
+    "quotes": [
+      {
+        "q": "自然界不做无用之事。",
+        "qEn": "Nature does nothing in vain."
+      }
+    ],
+    "related": [
+      "linnaeus",
+      "natural-selection",
+      "origin-of-life"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Aristotle",
+        "url": "https://en.wikipedia.org/wiki/Aristotle"
+      }
+    ]
+  },
+  {
+    "id": "hippocrates",
+    "name": "希波克拉底",
+    "nameEn": "Hippocrates",
+    "life": "约前460–前370",
+    "lifeEn": "c. 460–370 BC",
+    "country": "古希腊",
+    "countryEn": "Ancient Greece",
+    "school": "医学",
+    "schoolEn": "Medicine",
+    "level": 2,
+    "order": 20,
+    "oneLiner": "把医学从巫术与神谕中分离出来，主张疾病有自然成因，树立观察、预后与医德的临摹传统。",
+    "oneLinerEn": "He split medicine from sorcery and oracle, held disease to natural causes, and set an observant, prognostic, ethical clinical tradition.",
+    "bio": "相传他写下《希波克拉底誓言》，强调环境与饮食对健康的作用，以「自然疗愈力」解释身体的康复过程。",
+    "bioEn": "Credited with the Hippocratic Oath, he stressed environment and diet, and explained recovery through nature's healing power (vis medicatrix).",
+    "ideas": [
+      {
+        "k": "自然病因",
+        "v": "疾病源于身体与自然，而非神罚",
+        "kEn": "Natural causes",
+        "vEn": "Disease stems from body and nature, not divine punishment"
+      },
+      {
+        "k": "自愈之力",
+        "v": "身体本有趋向康复的倾向",
+        "kEn": "Vis medicatrix",
+        "vEn": "The body tends toward recovery on its own"
+      }
+    ],
+    "works": [
+      {
+        "title": "希波克拉底文集（传）",
+        "titleEn": "Hippocratic Corpus (attributed)",
+        "year": -400
+      }
+    ],
+    "quotes": [
+      {
+        "q": "首要的一条：不造成伤害。",
+        "qEn": "First, do no harm."
+      }
+    ],
+    "related": [
+      "pasteur",
+      "immunity",
+      "microbiome"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Hippocrates",
+        "url": "https://en.wikipedia.org/wiki/Hippocrates"
+      }
+    ]
+  },
+  {
+    "id": "harvey",
+    "name": "威廉·哈维",
+    "nameEn": "William Harvey",
+    "life": "1578–1657",
+    "lifeEn": "1578–1657",
+    "country": "英国",
+    "countryEn": "UK",
+    "school": "生理学",
+    "schoolEn": "Physiology",
+    "level": 3,
+    "order": 21,
+    "oneLiner": "以定量实验证明血液由心脏泵出、沿封闭回路循环，一举推翻盖伦关于血流的千年成说。",
+    "oneLinerEn": "By quantitative experiment he proved the heart pumps blood around a closed circuit, overturning Galen's thousand-year dogma of the flow.",
+    "bio": "他结扎血管并测算血流量，推断血必循环而非被不断耗用，1628 年出版《动物心血运动的解剖研究》，奠定实验生理学。",
+    "bioEn": "Ligating vessels and computing flow, he inferred blood must circulate rather than be consumed, publishing his De Motu in 1628 and founding experimental physiology.",
+    "ideas": [
+      {
+        "k": "心之泵动",
+        "v": "心脏如泵，推动血液周流不止",
+        "kEn": "The heart as pump",
+        "vEn": "The heart drives blood round and round like a pump"
+      },
+      {
+        "k": "封闭回路",
+        "v": "动脉与静脉在末梢相连成环",
+        "kEn": "Closed circuit",
+        "vEn": "Arteries and veins join at their ends in a loop"
+      }
+    ],
+    "works": [
+      {
+        "title": "动物心血运动的解剖研究",
+        "titleEn": "De Motu Cordis",
+        "year": 1628
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我不从书的权威，而从解剖与观察中寻求真理。",
+        "qEn": "I seek truth not from the authority of books but from dissection and observation."
+      }
+    ],
+    "related": [
+      "homeostasis",
+      "cell-fundamentals",
+      "mammalia"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: William Harvey",
+        "url": "https://en.wikipedia.org/wiki/William_Harvey"
+      }
+    ]
+  },
+  {
+    "id": "lamarck",
+    "name": "拉马克",
+    "nameEn": "Jean-Baptiste Lamarck",
+    "life": "1744–1829",
+    "lifeEn": "1744–1829",
+    "country": "法国",
+    "countryEn": "France",
+    "school": "演化思想",
+    "schoolEn": "Early evolution",
+    "level": 2,
+    "order": 22,
+    "oneLiner": "先于达尔文提出系统的演化论，以「用进废退」与「获得性遗传」解释物种随环境的渐变。",
+    "oneLinerEn": "Before Darwin he proposed a full evolutionary theory, explaining gradual change by use and disuse and the inheritance of acquired traits.",
+    "bio": "他首创「生物学」一词，把生命看作由简到繁连续攀升的谱系；其机制虽被否定，演化观念却开了先声。",
+    "bioEn": "He coined the term \"biology\" and saw life climbing a continuous scale from simple to complex; his mechanism was refuted, yet his evolutionary idea blazed a trail.",
+    "ideas": [
+      {
+        "k": "用进废退",
+        "v": "常用器官发达，不用的退化",
+        "kEn": "Use and disuse",
+        "vEn": "Organs used grow stronger, unused ones waste away"
+      },
+      {
+        "k": "获得性遗传",
+        "v": "后天获得的性状可传给后代",
+        "kEn": "Inherited acquisition",
+        "vEn": "Traits gained in life can pass to offspring"
+      }
+    ],
+    "works": [
+      {
+        "title": "动物学哲学",
+        "titleEn": "Philosophie Zoologique",
+        "year": 1809
+      }
+    ],
+    "quotes": [
+      {
+        "q": "自然没有真正的类别，只有我们为之命名的连续。",
+        "qEn": "Nature has no real classes, only a continuum we name."
+      }
+    ],
+    "related": [
+      "darwin",
+      "natural-selection",
+      "wallace"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Jean-Baptiste Lamarck",
+        "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck"
+      }
+    ]
   }
 ]

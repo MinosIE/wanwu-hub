@@ -551,5 +551,165 @@
         "url": "https://en.wikipedia.org/wiki/Peat"
       }
     ]
+  },
+  {
+    "id": "boreal-forest",
+    "name": "北方针叶林",
+    "nameEn": "Boreal Forest (Taiga)",
+    "era": "高纬环带 · 严寒短夏",
+    "eraEn": "High-latitude belt · freezing, short summer",
+    "level": 2,
+    "oneLiner": "环绕北半球的针叶林带，全球最大陆地生物群系之一，寒温松杉主导，冻土之下封存巨量碳。",
+    "oneLinerEn": "A conifer belt ringing the Northern Hemisphere, among the largest land biomes—cold-tolerant pines and spruces, vast carbon locked in permafrost.",
+    "positions": [
+      {
+        "k": "分布",
+        "v": "西伯利亚、加拿大、斯堪的纳维亚",
+        "kEn": "Where",
+        "vEn": "Siberia, Canada, Scandinavia"
+      },
+      {
+        "k": "主导",
+        "v": "云杉、松、落叶松",
+        "kEn": "Dominant",
+        "vEn": "Spruce, pine, larch"
+      },
+      {
+        "k": "气候",
+        "v": "长冬短夏、降水偏少",
+        "kEn": "Climate",
+        "vEn": "Long winters, brief summers, low rain"
+      }
+    ],
+    "why": "是北半球巨大的森林碳库与北方居民的生计之所；冻土一旦融化会释放温室气体，正反馈放大变暖。",
+    "whyEn": "A vast carbon store and home to northern peoples; thawing permafrost can release greenhouse gases, feeding back into warming.",
+    "thinkers": ["gymnosperms", "mammalia", "insecta"],
+    "related": ["tundra", "temperate-forest", "grassland"],
+    "sources": [
+      {
+        "label": "Wikipedia: Boreal forest",
+        "url": "https://en.wikipedia.org/wiki/Boreal_forest"
+      }
+    ]
+  },
+  {
+    "id": "freshwater-lake",
+    "name": "淡水湖泊",
+    "nameEn": "Freshwater Lake",
+    "era": "内陆静水 · 分层从表到底",
+    "eraEn": "Inland still water · zoned surface to floor",
+    "level": 2,
+    "oneLiner": "静水的内陆水体，按光照与温度分层，滋养鱼类与水鸟，是饮用水与生物多样性的关键水库。",
+    "oneLinerEn": "Standing inland water, zoned by light and temperature, it nurtures fish and waterbirds and is a key reservoir of drinking water and diversity.",
+    "positions": [
+      {
+        "k": "分区",
+        "v": "沿岸带 / 温跃层 / 深水区",
+        "kEn": "Zones",
+        "vEn": "Littoral / thermocline / profundal"
+      },
+      {
+        "k": "养分",
+        "v": "从贫营养到富营养的光谱",
+        "kEn": "Nutrients",
+        "vEn": "A spectrum from oligo- to eutrophic"
+      },
+      {
+        "k": "生物",
+        "v": "浮游、鱼类、底栖动物",
+        "kEn": "Life",
+        "vEn": "Plankton, fish, bottom dwellers"
+      }
+    ],
+    "why": "提供饮水、渔获与洪水泥涝，富营养化会引发藻华与死区，毁掉整条食物网。",
+    "whyEn": "Supplies drinking water, fisheries and flood storage; eutrophication sparks algal blooms and dead zones that unravel the food web.",
+    "thinkers": ["actinopterygii", "angiosperms", "amphibia"],
+    "related": ["wetland", "river-ecosystem", "deep-sea"],
+    "sources": [
+      {
+        "label": "Wikipedia: Lake",
+        "url": "https://en.wikipedia.org/wiki/Lake"
+      }
+    ]
+  },
+  {
+    "id": "river-ecosystem",
+    "name": "河流生态系统",
+    "nameEn": "River Ecosystem",
+    "era": "流动淡水 · 从山溪到长河",
+    "eraEn": "Flowing fresh water · brook to great river",
+    "level": 2,
+    "oneLiner": "顺地势奔流的淡水廊道，串联陆地与海洋，输送养分与沉积，塑造沿岸带与三角洲的生机。",
+    "oneLinerEn": "Freshwater corridors racing downhill, they link land to sea, carry nutrients and sediment, and shape riparian and delta life.",
+    "positions": [
+      {
+        "k": "连续",
+        "v": "上游急流渐变至下游缓水",
+        "kEn": "Continuum",
+        "vEn": "Fast headwaters to slow lower reaches"
+      },
+      {
+        "k": "廊道",
+        "v": "河岸带与洪泛平原",
+        "kEn": "Corridor",
+        "vEn": "Riverbank and floodplain"
+      },
+      {
+        "k": "输送",
+        "v": "水、泥沙与养分入海",
+        "kEn": "Export",
+        "vEn": "Water, sediment and nutrients to sea"
+      }
+    ],
+    "why": "是鱼蟹洄游与人类取水的命脉，筑坝与污染会切断纵向连续、毒化下游与河口。",
+    "whyEn": "Lifelines for migrating fish and human water; dams and pollution cut the continuum and poison downstream and estuaries.",
+    "thinkers": ["actinopterygii", "insecta", "mammalia"],
+    "related": ["freshwater-lake", "wetland", "mangrove"],
+    "sources": [
+      {
+        "label": "Wikipedia: River ecosystem",
+        "url": "https://en.wikipedia.org/wiki/River_ecosystem"
+      }
+    ]
+  },
+  {
+    "id": "alpine-meadow",
+    "name": "高山草甸",
+    "nameEn": "Alpine Meadow",
+    "era": "高海拔林线之上 · 低温强辐射",
+    "eraEn": "Above the treeline · cold, intense sun",
+    "level": 3,
+    "oneLiner": "耸立于林线之上，垫状与多年生草本铺展成花海，季短夜寒，是特有种的避难所与牧业命脉。",
+    "oneLinerEn": "Rising above the treeline, cushion plants and perennial herbs bloom in short, cold seasons—a refuge of endemics and a herder's mainstay.",
+    "positions": [
+      {
+        "k": "位置",
+        "v": "林线与雪线之间",
+        "kEn": "Where",
+        "vEn": "Between treeline and snowline"
+      },
+      {
+        "k": "适应",
+        "v": "矮化、垫状、覆毛",
+        "kEn": "Adaptations",
+        "vEn": "Dwarfed, cushioned, hairy"
+      },
+      {
+        "k": "季相",
+        "v": "短暂盛夏、漫长冰雪",
+        "kEn": "Season",
+        "vEn": "A brief high summer, long snow"
+      }
+    ],
+    "why": "涵养水源、供养放牧并庇护高山特有种；升温迫使物种向上逃逸，终至山顶再无退路。",
+    "whyEn": "It stores water, feeds livestock and shelters alpine endemics; warming pushes species uphill until there is nowhere left to go.",
+    "thinkers": ["angiosperms", "mammalia", "insecta"],
+    "related": ["tundra", "grassland", "desert"],
+    "sources": [
+      {
+        "label": "Wikipedia: Alpine meadow",
+        "url": "https://en.wikipedia.org/wiki/Alpine_meadow"
+      }
+    ]
   }
 ]
