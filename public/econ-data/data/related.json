@@ -583,6 +583,34 @@
       "nEn": "Seigniorage"
     }
   ],
+  "adverse-selection": [
+    {
+      "m": "m-glossary",
+      "n": "逆向选择",
+      "nEn": "Adverse Selection"
+    }
+  ],
+  "tragedy-of-commons": [
+    {
+      "m": "m-glossary",
+      "n": "公地悲剧",
+      "nEn": "Tragedy of the Commons"
+    }
+  ],
+  "price-elasticity": [
+    {
+      "m": "m-glossary",
+      "n": "价格弹性",
+      "nEn": "Price Elasticity of Demand"
+    }
+  ],
+  "lorenz-curve": [
+    {
+      "m": "m-glossary",
+      "n": "洛伦兹曲线",
+      "nEn": "Lorenz Curve"
+    }
+  ],
   "gdp-measure": [
     {
       "m": "m-macro",
@@ -1897,6 +1925,34 @@
       "m": "m-compare",
       "n": "减碳用碳税，还是用碳交易？",
       "nEn": "Carbon tax or emissions trading for decarbonisation?"
+    }
+  ],
+  "ubi": [
+    {
+      "m": "m-compare",
+      "n": "社会保障：无条件普发一笔钱，还是做家访精准救助？",
+      "nEn": "Should the safety net pay every adult a flat grant, or means-test aid to those in need?"
+    }
+  ],
+  "tax-mix": [
+    {
+      "m": "m-compare",
+      "n": "政府该主要向什么征税——收入、消费，还是财产与资本？",
+      "nEn": "What should a government tax most—income, consumption, or wealth and capital?"
+    }
+  ],
+  "industrial-policy": [
+    {
+      "m": "m-compare",
+      "n": "发展经济，该让政府挑选并扶持赢家，还是交给市场自由试错？",
+      "nEn": "Should the state pick and back winners, or leave the market to trial and error?"
+    }
+  ],
+  "pension-reform": [
+    {
+      "m": "m-compare",
+      "n": "养老靠现收现付（下一代养上一代），还是靠个人账户积累？",
+      "nEn": "Should pensions run pay-as-you-go (the young fund the old) or funded individual accounts?"
     }
   ]
 }

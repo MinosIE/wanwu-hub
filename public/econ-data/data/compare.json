@@ -57,5 +57,65 @@
     "takeaway": "选择的核心是「要确定价格还是要确定数量」，以及碳成本如何被税收、企业利润与消费者价格分担——这决定了对产业与居民的实际影响。",
     "takeawayEn": "The core choice is a certain price versus a certain quantity, and how the carbon cost is split between government, firm margins and consumer prices — which decides the real impact on industry and households.",
     "sources": [{ "label": "世界银行 碳定价现状与趋势报告", "labelEn": "World Bank State and Trends of Carbon Pricing", "year": 2024 }]
+  },
+  {
+    "id": "ubi",
+    "question": "社会保障：无条件普发一笔钱，还是做家访精准救助？",
+    "questionEn": "Should the safety net pay every adult a flat grant, or means-test aid to those in need?",
+    "level": 2,
+    "cases": [
+      { "who": "无条件基本收入", "whoEn": "Unconditional basic income", "how": "覆盖全民、无贫困陷阱、不惩罚工作、行政简单；但总额巨大，需增税或挤占其他福利，且对工作的激励效果存疑。", "howEn": "Covers all, avoids poverty traps and work penalties, easy to run; but the cost is huge—raising tax or crowding out other benefits—and work incentives are debated." },
+      { "who": "负所得税 / 工资补贴", "whoEn": "Negative income tax / wage subsidy", "how": "收入越低补得越多、随收入上升退坡，在普享与激励间折中；但退坡本身就是一道边际税率，可能削弱加班与多劳的意愿。", "howEn": "Payouts shrink as income rises, blending universality with incentives; but the phase-out is itself a marginal tax that can dull extra effort." },
+      { "who": "定向实物救助", "whoEn": "Targeted in-kind aid", "how": "食物、住房、医疗按人发放，确保用于刚需、单位成本更省；但识别与家访成本高、覆盖面窄，容易漏掉应保者。", "howEn": "Food, housing and care given in kind secure real needs at lower unit cost; but screening is costly, coverage narrow, and errors exclude the deserving." },
+      { "who": "有条件现金转移（如巴西家庭补助金）", "whoEn": "Conditional cash transfers (e.g. Brazil's Bolsa Família)", "how": "只发给送孩子上学、按时接种的贫困家庭，兼顾扶贫与人力资本，评估显示效果显著；但行政与合规负担较重。", "howEn": "Paid to poor families on condition of school attendance and vaccinations, pairing relief with human-capital gains—evaluations show real effects—at the price of administrative and compliance burden." }
+    ],
+    "takeaway": "关键不在「发还是不发」，而在一个三难：广覆盖、少养懒人、财政可持续，三者难以同时最大化。设计时要把退坡税率、资金来源与行政成本放在同一张账上权衡。",
+    "takeawayEn": "The question is not whether to pay but how to balance a trilemma: broad coverage, work incentives and fiscal sustainability cannot all be maximized at once. Weigh the phase-out tax, the funding source and the administrative cost on one ledger.",
+    "sources": [{ "label": "基本收入试验评估综述", "labelEn": "Reviews of basic-income pilot trials", "year": 2024 }]
+  },
+  {
+    "id": "tax-mix",
+    "question": "政府该主要向什么征税——收入、消费，还是财产与资本？",
+    "questionEn": "What should a government tax most—income, consumption, or wealth and capital?",
+    "level": 3,
+    "cases": [
+      { "who": "以所得税为主", "whoEn": "Income-tax-led", "how": "累进可调贫富、自动稳定器强；但高边际税率可能抑制工作与投资，且易被规避、不断侵蚀税基。", "howEn": "Progressive income tax narrows gaps and acts as an automatic stabilizer; but high marginal rates can damp work and saving and invite avoidance that erodes the base." },
+      { "who": "以消费 / 增值税为主", "whoEn": "Consumption / VAT-led", "how": "对储蓄与生产的扭曲较小、征管相对高效；但作为生活必需支出，它占穷人预算比例更高、具累退性，需以转移补偿低收入者。", "howEn": "Taxing spending distorts saving and production less and collects efficiently; but taking a larger share of the poor's budget it is regressive and needs offsetting transfers." },
+      { "who": "财产与土地税", "whoEn": "Property and land taxes", "how": "税基难以外逃、针对财富存量，被认为相对高效而公平；但估值与流动性问题突出，政治阻力大。", "howEn": "The base cannot flee and it taxes stored wealth—seen as efficient and fair—but valuation and liquidity issues stir stiff political resistance." },
+      { "who": "资本利得与数字 / 绿色税（新兴）", "whoEn": "Capital-gains, digital and green levies", "how": "回应不平等与外部性、引导行为；但全球协调困难，易引发资本流动与税基侵蚀。", "howEn": "They address inequality and externalities and steer behavior, but need global coordination or risk capital flight and base erosion." }
+    ],
+    "takeaway": "没有哪种税「最优」，只有权衡：效率、公平与可征管三者往往相互拉扯。成熟税制多是组合，让每种税扬长、并补偿其短所伤及的人。",
+    "takeawayEn": "No single tax is best; efficiency, equity and administrability pull against one another. Mature systems are portfolios, letting each tax do what it does well while compensating those it harms.",
+    "sources": [{ "label": "OECD 税收结构统计", "labelEn": "OECD Revenue Statistics", "year": 2023 }]
+  },
+  {
+    "id": "industrial-policy",
+    "question": "发展经济，该让政府挑选并扶持赢家，还是交给市场自由试错？",
+    "questionEn": "Should the state pick and back winners, or leave the market to trial and error?",
+    "level": 3,
+    "cases": [
+      { "who": "市场配置派", "whoEn": "Market-allocation view", "how": "价格信号引导资源最有效，政府难挑赢家、易被俘获，造成僵尸企业与寻租。", "howEn": "Price signals allocate best; governments struggle to pick winners, get captured, and breed zombie firms and rent-seeking." },
+      { "who": "选择性赶超扶持", "whoEn": "Selective catching-up support", "how": "后发国家聚焦战略产业、以补贴与信贷集中突破，东亚奇迹是其例证；风险在于押错方向、保护落后。", "howEn": "Late developers concentrate subsidies and credit on strategic industries—the East Asian catch-up exemplifies it—risking misbets and sheltering laggards." },
+      { "who": "功能性 / 横向产业政策", "whoEn": "Functional industrial policy", "how": "不指定赢家，而是补研发、职业培训、基础设施等市场失灵，改善所有企业面对的共性约束。", "howEn": "Rather than name winners, fix market failures across the board—R&D, skills, infrastructure—easing shared constraints for all firms." },
+      { "who": "安全与自主可控导向", "whoEn": "Security and self-reliance orientation", "how": "以供应链韧性、关键技术自主为由扶持特定产业；但边界易被泛化，滑向普遍保护主义。", "howEn": "Backing industries for supply-chain resilience and technological autonomy, yet the security rationale can stretch into blanket protectionism." }
+    ],
+    "takeaway": "争点不是「要不要产业政策」——政府本就在无形中选择，而是「选择靠什么标准、由谁监督、何时退出」。可考核、能纠错、有日落条款，才是好坏的分水岭。",
+    "takeawayEn": "The debate is not whether to have industrial policy—states pick quietly anyway—but by what criteria, under whose scrutiny, and with what exit. Verifiable goals, error-correction and sunset clauses are the real dividing line.",
+    "sources": [{ "label": "世界银行与 Aghion 等关于产业政策的辩论", "labelEn": "World Bank and Aghion et al. on industrial policy", "year": 2019 }]
+  },
+  {
+    "id": "pension-reform",
+    "question": "养老靠现收现付（下一代养上一代），还是靠个人账户积累？",
+    "questionEn": "Should pensions run pay-as-you-go (the young fund the old) or funded individual accounts?",
+    "level": 3,
+    "cases": [
+      { "who": "现收现付（待遇确定型）", "whoEn": "Pay-as-you-go defined benefit", "how": "代际转移、管理成本低、自带再分配与抗通胀潜力；但高度依赖抚养比，人口老龄化直接冲击其收支平衡。", "howEn": "Inter-generational transfers, cheap to run, built-in redistribution and inflation resilience; but acutely exposed to the old-age ratio, so ageing strains its balance directly." },
+      { "who": "完全积累（缴费确定型）", "whoEn": "Fully funded defined contribution", "how": "多缴多得、与人口结构脱钩、可提升国民储蓄；但投资风险归于个人，覆盖面不足，低收入者难以累积。", "howEn": "Pay relates to saving, decouples from demographics and lifts national saving; but investment risk sits with the individual, coverage can be thin, and low earners under-accumulate." },
+      { "who": "混合多支柱（名义账户 + 二三支柱）", "whoEn": "Mixed multi-pillar (notional accounts plus funded pillars)", "how": "公共名义账户兼顾公平与精算中性，叠上职业年金与个人储蓄分散风险；但结构复杂、跨制度衔接难。", "howEn": "Notional public accounts blend fairness with actuarial neutrality atop occupational and personal pillars, spreading risk—yet at the cost of complexity and portability." },
+      { "who": "参数改革为主（延退、调率）", "whoEn": "Parametric reform (retirement age, rates)", "how": "不动制度骨架，靠延迟退休、调整替代率与缴费率续命；见效快、震荡小；但常被视为政治毒药、治标难治本。", "howEn": "Adjust the knobs rather than the frame—raise the retirement age, tweak replacement and contribution rates. Fast and less disruptive, but often political poison and a patch, not a cure." }
+    ],
+    "takeaway": "长寿与少子正同时侵蚀「工作人口供养退休人口」这份老契约。没有万能模式，关键在缴费、退休年龄与替代率能否随人口结构动态再平衡，并把投资风险讲清楚。",
+    "takeawayEn": "Rising longevity and falling birth rates together erode the old contract of workers funding retirees. No model fits all; what matters is whether contributions, retirement age and replacement rates rebalance dynamically with demographics—and whether investment risk is clearly assigned.",
+    "sources": [{ "label": "OECD 与世界银行《世界养老金概览》", "labelEn": "OECD and World Bank, Pensions at a Glance", "year": 2023 }]
   }
 ]

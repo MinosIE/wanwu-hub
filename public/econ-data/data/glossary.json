@@ -739,5 +739,97 @@
         "year": 1982
       }
     ]
+  },
+  {
+    "id": "adverse-selection",
+    "term": "逆向选择",
+    "termEn": "Adverse Selection",
+    "category": "信息",
+    "categoryEn": "Information",
+    "def": "交易达成前，因质量信息不对称而「劣币驱逐良币」：买方怕踩雷只肯出平均价，优质卖家遂退出，市场充斥低品。",
+    "defEn": "Before a deal, asymmetric quality info lets bad products drive out good: wary buyers bid only an average price, top sellers exit, and the market fills with lemons.",
+    "plain": "二手车买家怕买到烂车，只愿出个平均价；好车车主觉得吃亏干脆不卖——最后挂牌的多是问题车。",
+    "plainEn": "A used-car buyer fears a dud and offers only an average price; owners of good cars feel cheated and stay home—so what gets listed are the problem cars.",
+    "related": [
+      "moral-hazard",
+      "credit-rating",
+      "systemic-risk"
+    ],
+    "sources": [
+      {
+        "label": "阿克洛夫《柠檬市场》",
+        "labelEn": "Akerlof, The Market for Lemons",
+        "year": 1970
+      }
+    ]
+  },
+  {
+    "id": "tragedy-of-commons",
+    "term": "公地悲剧",
+    "termEn": "Tragedy of the Commons",
+    "category": "制度",
+    "categoryEn": "Institutional",
+    "def": "当资源人人可用、却无人拥有，每个使用者只计眼前收益、把成本摊给众人，最终导致资源被过度耗竭。",
+    "defEn": "When a resource is open to all yet owned by none, each user takes the private gain and spreads the cost, until the resource is overused and depleted.",
+    "plain": "公共草场谁都能放牧，每家都多赶几头羊——草被啃光，大家一起遭殃。",
+    "plainEn": "On a common pasture anyone may graze, so each family adds a few more sheep—until the grass is gone and everyone loses.",
+    "related": [
+      "externality",
+      "transaction-cost",
+      "deadweight-loss"
+    ],
+    "sources": [
+      {
+        "label": "哈丁《公地悲剧》",
+        "labelEn": "Hardin, The Tragedy of the Commons",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "id": "price-elasticity",
+    "term": "价格弹性",
+    "termEn": "Price Elasticity of Demand",
+    "category": "微观概念",
+    "categoryEn": "Micro concepts",
+    "def": "衡量需求量对价格的敏感度：价格变动百分之一、销量随之变动百分之几。大于 1 为富有弹性，小于 1 为缺乏弹性。",
+    "defEn": "How sensitive quantity demanded is to price: the percent change in sales per one percent change in price. Above 1 it is elastic, below 1 inelastic.",
+    "plain": "一涨价就没人买的（某个奶茶品牌）弹性大；涨价也得买的（胰岛素）弹性小。",
+    "plainEn": "Goods you drop when price rises (one milk-tea brand) are elastic; goods you must still buy (insulin) are inelastic.",
+    "related": [
+      "supply-demand-term",
+      "price-discrimination",
+      "marginal-cost"
+    ],
+    "sources": [
+      {
+        "label": "马歇尔《经济学原理》",
+        "labelEn": "Marshall, Principles of Economics",
+        "year": 1890
+      }
+    ]
+  },
+  {
+    "id": "lorenz-curve",
+    "term": "洛伦兹曲线",
+    "termEn": "Lorenz Curve",
+    "category": "统计指标",
+    "categoryEn": "Statistical indicators",
+    "def": "将人口按收入由低到高累加，画出「底部若干比例的人口占有多少比例的收入」的弧线；它离绝对平等的对角线越远，不平等越严重，基尼系数即由此推得。",
+    "defEn": "Order people by income and plot how much of total income the bottom shares hold; the farther the curve bows from the line of equality, the greater the inequality—the Gini coefficient derives from it.",
+    "plain": "一条「累计到哪一成人口、已分走到哪一成财富」的弧线：弯得越狠，贫富越悬殊。",
+    "plainEn": "A curve of 'up to what share of people, how much of the wealth has gone': the deeper it bows, the wider the gap.",
+    "related": [
+      "gini",
+      "engel",
+      "ppp"
+    ],
+    "sources": [
+      {
+        "label": "洛伦兹《财富的度量方法》",
+        "labelEn": "Lorenz, Methods of Measuring Inequality",
+        "year": 1905
+      }
+    ]
   }
 ]

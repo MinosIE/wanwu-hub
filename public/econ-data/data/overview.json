@@ -2,13 +2,13 @@
   "version": "0.1.0",
   "counts": {
     "concepts": 30,
-    "glossary": 53,
+    "glossary": 57,
     "thinkers": 20,
     "events": 35,
     "bubbles": 16,
     "behavioral": 13,
     "charts": 11,
-    "compare": 4,
+    "compare": 8,
     "everyday": 10,
     "gametheory": 8,
     "macro": 13,
@@ -28,7 +28,7 @@
     {
       "key": "glossary",
       "icon": "📖",
-      "value": 53
+      "value": 57
     },
     {
       "key": "events",
