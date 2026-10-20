@@ -556,5 +556,189 @@
         "year": 1274
       }
     ]
+  },
+  {
+    "id": "philosophy-of-mathematics",
+    "title": "数学哲学",
+    "titleEn": "Philosophy of Mathematics",
+    "icon": "🔢",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 13,
+    "lead": "数学对象究竟是被发现还是被发明？数、集合与证明的实在地位，是形而上学最坚硬也最纯粹的一块。",
+    "leadEn": "Are mathematical objects discovered or invented? The reality of numbers, sets and proofs is metaphysics' hardest, purest core.",
+    "points": [
+      {
+        "k": "发现还是发明",
+        "kEn": "Discovered or invented",
+        "v": "定理似乎独立于人心被发现，可我们又在不断构造公理。",
+        "vEn": "Theorems seem discovered, independent of mind—yet we keep inventing axioms."
+      },
+      {
+        "k": "柏拉图主义",
+        "kEn": "Platonism",
+        "v": "数是抽象、永恒的实在，为多数从业者默默默认。",
+        "vEn": "Numbers as abstract, eternal entities—many practitioners' quiet default."
+      },
+      {
+        "k": "形式主义",
+        "kEn": "Formalism",
+        "v": "数学只是符号与规则的游戏，意义让位于一致性。",
+        "vEn": "Math is a game of symbols and rules; meaning yields to consistency."
+      },
+      {
+        "k": "直觉主义",
+        "kEn": "Intuitionism",
+        "v": "拒绝排中律的滥用，存在即能被构造出来。",
+        "vEn": "Rejecting misuse of excluded middle: to exist is to be constructed."
+      }
+    ],
+    "related": ["math-discovered", "platonism", "logic", "universals"],
+    "sources": [
+      {
+        "label": "柏拉图《理想国》；哥德尔不完备定理",
+        "labelEn": "Plato, Republic; Gödel's incompleteness theorems",
+        "year": 1931
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-law",
+    "title": "法哲学",
+    "titleEn": "Philosophy of Law",
+    "icon": "⚖️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 14,
+    "lead": "法律是什么、凭什么约束我们？自然法与法律实证主义的古老分歧，直通正义与服从的根据。",
+    "leadEn": "What is law, and why does it bind? The old rift between natural law and legal positivism leads straight to justice and obligation.",
+    "points": [
+      {
+        "k": "法律与道德",
+        "kEn": "Law and morality",
+        "v": "恶法非法，还是法即使恶？两条战线分处两端。",
+        "vEn": "Is an unjust law no law at all, or law nonetheless? Two camps pull apart."
+      },
+      {
+        "k": "义务的根据",
+        "kEn": "Ground of obligation",
+        "v": "它来自主权者的命令，还是社会事实与规则的承认？",
+        "vEn": "From a sovereign's command, or social facts and rules of recognition?"
+      },
+      {
+        "k": "疑难案件",
+        "kEn": "Hard cases",
+        "v": "规则用尽之处，法官是在发现还是在造法？",
+        "vEn": "Where rules run out, are judges finding law or making it?"
+      },
+      {
+        "k": "正当程序",
+        "kEn": "Due process",
+        "v": "程序的正义，常比结果更能证成一个判决。",
+        "vEn": "Procedural justice often justifies a verdict better than its outcome."
+      }
+    ],
+    "related": ["justice", "political-philosophy", "ethics", "veil-of-ignorance"],
+    "sources": [
+      {
+        "label": "哈特《法律的概念》；富勒《法律的道德性》",
+        "labelEn": "Hart, Concept of Law; Fuller, Morality of Law",
+        "year": 1961
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-technology",
+    "title": "技术哲学",
+    "titleEn": "Philosophy of Technology",
+    "icon": "🛠️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 15,
+    "lead": "技术是中立的工具，还是自带一种塑造世界的取向？从锤子到算法，它重铸着人的感知与自由。",
+    "leadEn": "Is technology a neutral tool, or does it carry an orientation that shapes the world? From hammer to algorithm, it recasts perception and freedom.",
+    "points": [
+      {
+        "k": "工具还是环境",
+        "kEn": "Tool or milieu",
+        "v": "它不止是被用的器物，更悄然设定何者可被感知。",
+        "vEn": "More than used objects, it quietly sets what can be noticed."
+      },
+      {
+        "k": "自主的疑虑",
+        "kEn": "Autonomous threat",
+        "v": "技术是否已自成系统，反过来支配它的使用者？",
+        "vEn": "Has technology become a self-running system that rules its users?"
+      },
+      {
+        "k": "具身与延伸",
+        "kEn": "Embodiment and extension",
+        "v": "眼镜是身体的补足，还是把人改写成新的种类？",
+        "vEn": "Are glasses an organ extended, or the user rewritten into a new kind?"
+      },
+      {
+        "k": "AI 之争",
+        "kEn": "The AI question",
+        "v": "当机器也能判断，责任与主体该落在哪里？",
+        "vEn": "When machines judge too, where do responsibility and agency land?"
+      }
+    ],
+    "related": ["machine-mind", "philosophy-of-science", "phenomenology", "ethics"],
+    "sources": [
+      {
+        "label": "海德格尔《技术的追问》；伊德《技术与生活世界》",
+        "labelEn": "Heidegger, Question Concerning Technology; Ihde, Technology and the Lifeworld",
+        "year": 1954
+      }
+    ]
+  },
+  {
+    "id": "social-philosophy",
+    "title": "社会哲学",
+    "titleEn": "Social Philosophy",
+    "icon": "👥",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 16,
+    "lead": "社会只是个人的集合，还是有其自身的实在？共同体、承认与异化在此被反复追问。",
+    "leadEn": "Is society merely a sum of individuals, or does it have its own reality? Community, recognition and alienation are pressed here.",
+    "points": [
+      {
+        "k": "唯名还是唯实",
+        "kEn": "Nominal or real",
+        "v": "「社会」是真实的实体，还是不过是对个人的名义？",
+        "vEn": "Is 'society' a real entity, or only a name for individuals?"
+      },
+      {
+        "k": "承认与异化",
+        "kEn": "Recognition and alienation",
+        "v": "人被当作物对待时，伤的不只是利益，还有身份。",
+        "vEn": "Treated as a thing, what's wounded is not only interest but identity."
+      },
+      {
+        "k": "公共与私人",
+        "kEn": "Public and private",
+        "v": "自由的边界，正落在两者交界的模糊地带。",
+        "vEn": "Freedom's line falls along the blurred border between them."
+      },
+      {
+        "k": "权力与话语",
+        "kEn": "Power and discourse",
+        "v": "谁的定义成为常识，本身就是一种隐形权力。",
+        "vEn": "Whose definitions become common sense is itself a quiet power."
+      }
+    ],
+    "related": ["political-philosophy", "marxism", "justice", "social-contract"],
+    "sources": [
+      {
+        "label": "黑格尔《法哲学原理》；霍耐特《为承认而斗争》",
+        "labelEn": "Hegel, Philosophy of Right; Honneth, Struggle for Recognition",
+        "year": 1821
+      }
+    ]
   }
 ]

@@ -1,9 +1,9 @@
 {
   "version": "0.1.0",
   "counts": {
-    "schools": 22,
+    "schools": 26,
     "questions": 19,
-    "branches": 12,
+    "branches": 16,
     "classics": 16,
     "thinkers": 34,
     "glossary": 34,
@@ -16,7 +16,7 @@
     {
       "key": "schools",
       "icon": "🏛️",
-      "value": 22
+      "value": 26
     },
     {
       "key": "thinkers",

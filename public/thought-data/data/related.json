@@ -153,6 +153,34 @@
       "nEn": "Absurdism"
     }
   ],
+  "sophists": [
+    {
+      "m": "m-schools",
+      "n": "智者学派",
+      "nEn": "Sophists"
+    }
+  ],
+  "epicureanism": [
+    {
+      "m": "m-schools",
+      "n": "伊壁鸠鲁学派",
+      "nEn": "Epicureanism"
+    }
+  ],
+  "scholasticism": [
+    {
+      "m": "m-schools",
+      "n": "经院哲学",
+      "nEn": "Scholasticism"
+    }
+  ],
+  "logical-positivism": [
+    {
+      "m": "m-schools",
+      "n": "逻辑实证主义",
+      "nEn": "Logical Positivism"
+    }
+  ],
   "free-will": [
     {
       "m": "m-questions",
@@ -718,6 +746,34 @@
       "m": "m-branches",
       "n": "宗教哲学",
       "nEn": "Philosophy of Religion"
+    }
+  ],
+  "philosophy-of-mathematics": [
+    {
+      "m": "m-branches",
+      "n": "数学哲学",
+      "nEn": "Philosophy of Mathematics"
+    }
+  ],
+  "philosophy-of-law": [
+    {
+      "m": "m-branches",
+      "n": "法哲学",
+      "nEn": "Philosophy of Law"
+    }
+  ],
+  "philosophy-of-technology": [
+    {
+      "m": "m-branches",
+      "n": "技术哲学",
+      "nEn": "Philosophy of Technology"
+    }
+  ],
+  "social-philosophy": [
+    {
+      "m": "m-branches",
+      "n": "社会哲学",
+      "nEn": "Social Philosophy"
     }
   ],
   "syllogism": [
