@@ -3,8 +3,8 @@
   "counts": {
     "schools": 15,
     "questions": 19,
-    "principles": 15,
-    "humanGeo": 16,
+    "principles": 19,
+    "humanGeo": 20,
     "classics": 19,
     "thinkers": 19
   },
@@ -27,7 +27,7 @@
     {
       "key": "principles",
       "icon": "⚙️",
-      "value": 15
+      "value": 19
     }
   ]
 }

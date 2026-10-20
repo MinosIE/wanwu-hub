@@ -704,5 +704,189 @@
         "year": 1941
       }
     ]
+  },
+  {
+    "id": "coriolis-effect",
+    "title": "地转偏向力（科里奥利效应）",
+    "titleEn": "Coriolis Effect and Geostrophic Wind",
+    "icon": "🌀",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 3,
+    "order": 16,
+    "lead": "地球自转让运动物体在其参照系里偏转——北右南左，正是它给风与洋流拧出气旋与环流的旋向。",
+    "leadEn": "Earth's spin deflects moving bodies in its frame—right in the north, left in the south—winding winds and currents into the swirl of cyclones and gyres.",
+    "points": [
+      {
+        "k": "偏转规律",
+        "kEn": "Deflection rule",
+        "v": "运动相对地表向右（北半球）、向左（南半球）偏转。",
+        "vEn": "Motion veers right in the Northern, left in the Southern Hemisphere."
+      },
+      {
+        "k": "地转风",
+        "kEn": "Geostrophic wind",
+        "v": "偏向力与气压梯度相平衡，风沿等压线平行吹成。",
+        "vEn": "Balance of deflection and pressure gradient sends wind along the isobars."
+      },
+      {
+        "k": "气旋旋向",
+        "kEn": "Cyclone spin",
+        "v": "它决定台风与气旋的旋转方向。",
+        "vEn": "It sets which way typhoons and cyclones swirl."
+      },
+      {
+        "k": "大洋环流",
+        "kEn": "Ocean gyres",
+        "v": "洋流因此旋成巨大的环流系统。",
+        "vEn": "Currents are wound into great basin gyres."
+      }
+    ],
+    "related": ["circulation-cells", "weather-systems", "ocean-currents"],
+    "sources": [
+      {
+        "label": "科里奥利论相对运动",
+        "labelEn": "Coriolis, on relative motion",
+        "year": 1835
+      }
+    ]
+  },
+  {
+    "id": "groundwater",
+    "title": "地下水与含水层",
+    "titleEn": "Groundwater and Aquifers",
+    "icon": "💧",
+    "category": "水文",
+    "categoryEn": "Hydrology",
+    "level": 2,
+    "order": 17,
+    "lead": "降水渗入地下，储存于含水层、受重力与压力缓缓潜流——它是干旱区的命脉，也常被超采而枯竭。",
+    "leadEn": "Rain seeps underground, stored in aquifers and creeping by gravity and pressure—a lifeline in dry lands, all too often mined faster than refilled.",
+    "points": [
+      {
+        "k": "补给与径流",
+        "kEn": "Recharge and flow",
+        "v": "降水入渗补给，向低处潜流排泄。",
+        "vEn": "Infiltration recharges it; it creeps downslope to discharge."
+      },
+      {
+        "k": "含水与隔水",
+        "kEn": "Aquifer and seal",
+        "v": "透水层储水，不透水层托起地下水面。",
+        "vEn": "Permeable layers store water; impermeable ones floor the water table."
+      },
+      {
+        "k": "承压自流",
+        "kEn": "Confined flow",
+        "v": "隔水层夹压之下，钻井可自流而出。",
+        "vEn": "Pressured between seals, a well may flow up on its own."
+      },
+      {
+        "k": "超采之患",
+        "kEn": "Overdraft",
+        "v": "抽取快于补给，水位下降、地面沉降。",
+        "vEn": "Pumping past recharge drops the table and subsides the ground."
+      }
+    ],
+    "related": ["hydrological-cycle", "karst", "river-landforms"],
+    "sources": [
+      {
+        "label": "地下水水理学奠基",
+        "labelEn": "Foundations of groundwater hydrology",
+        "year": 1964
+      }
+    ]
+  },
+  {
+    "id": "glacial-processes",
+    "title": "冰川作用与冰期地貌",
+    "titleEn": "Glacial Erosion and Deposition",
+    "icon": "🧊",
+    "category": "地貌",
+    "categoryEn": "Geomorphology",
+    "level": 3,
+    "order": 18,
+    "lead": "冰体如缓慢的锉刀：刨蚀、搬运与堆积，雕出 U 形谷、角峰与冰碛，留下重塑大陆的冰川印迹。",
+    "leadEn": "Ice works as a slow file—quarrying, hauling and dropping load—cutting U-shaped valleys and horns, leaving moraines that reshaped whole continents.",
+    "points": [
+      {
+        "k": "刨蚀搬运",
+        "kEn": "Erosion and transport",
+        "v": "冰底磨蚀拔起岩块，裹挟碎屑前行。",
+        "vEn": "The sole grinds and plucks rock, hauling debris along."
+      },
+      {
+        "k": "冰蚀地貌",
+        "kEn": "Carved forms",
+        "v": "U 形谷、角峰、羊背石与冰斗。",
+        "vEn": "U-valleys, horns, roches moutonnées and cirques."
+      },
+      {
+        "k": "冰碛堆积",
+        "kEn": "Moraine drift",
+        "v": "消融处卸载，成碛垄与鼓丘。",
+        "vEn": "Melt dumps its load as ridges and drumlins."
+      },
+      {
+        "k": "冰期轮回",
+        "kEn": "Glacial cycles",
+        "v": "与轨道周期呼应，大陆冰盖进退不已。",
+        "vEn": "Answering orbital cycles, ice sheets advance and retreat."
+      }
+    ],
+    "related": ["milankovitch-cycles", "geomorphic-processes", "glacier", "weathering-soil"],
+    "sources": [
+      {
+        "label": "阿加西斯《冰川研究》",
+        "labelEn": "Agassiz, Studies on Glaciers",
+        "year": 1840
+      }
+    ]
+  },
+  {
+    "id": "coastal-processes",
+    "title": "海岸动力与地貌",
+    "titleEn": "Coastal Processes and Landforms",
+    "icon": "🌊",
+    "category": "地貌",
+    "categoryEn": "Geomorphology",
+    "level": 2,
+    "order": 19,
+    "lead": "波浪、潮汐与沿岸流是不停的雕塑家，一边侵蚀海蚀崖，一边堆积沙滩与沙嘴，海岸线随之游移。",
+    "leadEn": "Waves, tides and longshore drift are tireless sculptors—nibbling cliffs while stacking beaches and spits—as the shoreline shifts beneath them.",
+    "points": [
+      {
+        "k": "波浪折射",
+        "kEn": "Wave refraction",
+        "v": "入射趋近浅海便弯折，能量聚焦于岬角。",
+        "vEn": "Waves bend into shallows, focusing energy on headlands."
+      },
+      {
+        "k": "侵蚀堆积",
+        "kEn": "Erosion and build",
+        "v": "海蚀崖、海蚀拱与沙滩、沙嘴此消彼长。",
+        "vEn": "Cliffs and arches abrade as beaches and spits accrue."
+      },
+      {
+        "k": "沿岸输沙",
+        "kEn": "Longshore drift",
+        "v": "斜向进波把泥沙沿岸递送。",
+        "vEn": "Oblique waves shuffle sediment down the coast."
+      },
+      {
+        "k": "海平扰动",
+        "kEn": "Sea-level sway",
+        "v": "升降与风暴潮不断重塑岸线平衡。",
+        "vEn": "Rise and storm surge keep rebalancing the shore."
+      }
+    ],
+    "related": ["coastline", "coral-reef", "ocean-currents", "geomorphic-processes"],
+    "sources": [
+      {
+        "label": "海岸地貌学研究",
+        "labelEn": "Studies in coastal geomorphology",
+        "year": 1950
+      }
+    ]
   }
 ]

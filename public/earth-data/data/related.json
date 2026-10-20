@@ -608,6 +608,34 @@
       "nEn": "Weathering & Soil Formation"
     }
   ],
+  "coriolis-effect": [
+    {
+      "m": "m-principles",
+      "n": "地转偏向力（科里奥利效应）",
+      "nEn": "Coriolis Effect and Geostrophic Wind"
+    }
+  ],
+  "groundwater": [
+    {
+      "m": "m-principles",
+      "n": "地下水与含水层",
+      "nEn": "Groundwater and Aquifers"
+    }
+  ],
+  "glacial-processes": [
+    {
+      "m": "m-principles",
+      "n": "冰川作用与冰期地貌",
+      "nEn": "Glacial Erosion and Deposition"
+    }
+  ],
+  "coastal-processes": [
+    {
+      "m": "m-principles",
+      "n": "海岸动力与地貌",
+      "nEn": "Coastal Processes and Landforms"
+    }
+  ],
   "population-distribution": [
     {
       "m": "m-human-geo",
@@ -718,6 +746,34 @@
       "m": "m-human-geo",
       "n": "绅士化（中产化）",
       "nEn": "Gentrification"
+    }
+  ],
+  "carrying-capacity": [
+    {
+      "m": "m-human-geo",
+      "n": "资源环境承载力",
+      "nEn": "Carrying Capacity"
+    }
+  ],
+  "urban-structure": [
+    {
+      "m": "m-human-geo",
+      "n": "城市地域结构",
+      "nEn": "Urban Land-Use Models"
+    }
+  ],
+  "push-pull-migration": [
+    {
+      "m": "m-human-geo",
+      "n": "人口迁移推拉理论",
+      "nEn": "Push–Pull Migration Theory"
+    }
+  ],
+  "heartland-theory": [
+    {
+      "m": "m-human-geo",
+      "n": "心脏地带与陆权论",
+      "nEn": "Heartland and Rimland Theory"
     }
   ]
 }

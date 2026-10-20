@@ -801,5 +801,183 @@
         "year": 1964
       }
     ]
+  },
+  {
+    "id": "carrying-capacity",
+    "title": "资源环境承载力",
+    "titleEn": "Carrying Capacity",
+    "icon": "🌱",
+    "category": "人口",
+    "categoryEn": "Population",
+    "level": 2,
+    "order": 17,
+    "lead": "一块土地能长期养活多少人，取决于水、土、能与技术的上限；一旦越过承载，恢复便力不从心。",
+    "leadEn": "How many a land can carry long-term hinges on water, soil, energy and technology; overshoot and resilience strains.",
+    "points": [
+      {
+        "k": "短板约束",
+        "kEn": "Limiting factor",
+        "v": "承载力由最紧缺的那一维资源决定。",
+        "vEn": "Capacity is set by the scarcest single resource."
+      },
+      {
+        "k": "人口与土地",
+        "kEn": "People and land",
+        "v": "马尔萨斯忧人口增长快于口粮。",
+        "vEn": "Malthus feared population outrunning food."
+      },
+      {
+        "k": "技术抬升",
+        "kEn": "Rising ceiling",
+        "v": "农业与贸易可上移上限，却非无穷。",
+        "vEn": "Farming and trade lift the ceiling, not without limit."
+      },
+      {
+        "k": "生态足迹",
+        "kEn": "Ecological footprint",
+        "v": "消费常常借用远方土地的生产力。",
+        "vEn": "Consumption often draws on distant land."
+      }
+    ],
+    "related": ["population-distribution", "human-land", "demographic-transition"],
+    "sources": [
+      {
+        "label": "马尔萨斯《人口原理》",
+        "labelEn": "Malthus, Essay on Population",
+        "year": 1798
+      }
+    ]
+  },
+  {
+    "id": "urban-structure",
+    "title": "城市地域结构",
+    "titleEn": "Urban Land-Use Models",
+    "icon": "🏙️",
+    "category": "城市",
+    "categoryEn": "Urban",
+    "level": 3,
+    "order": 18,
+    "lead": "城市内部并非均质：同心圆、扇形与多核心三幅模型，刻画住宅、商业与工业如何分区布局。",
+    "leadEn": "Cities are not uniform: the concentric, sector and multiple-nuclei models chart how homes, business and industry settle into zones.",
+    "points": [
+      {
+        "k": "同心圆",
+        "kEn": "Concentric zones",
+        "v": "由中心向外，用途逐圈更替。",
+        "vEn": "Uses change ring by ring outward from the core."
+      },
+      {
+        "k": "扇形",
+        "kEn": "Sector model",
+        "v": "沿交通线，同类用途成楔形延伸。",
+        "vEn": "Uses wedge out along transit lines."
+      },
+      {
+        "k": "多核心",
+        "kEn": "Multiple nuclei",
+        "v": "大城市围绕多个活动中心集群而生。",
+        "vEn": "Big cities cluster around several nuclei."
+      }
+    ],
+    "related": ["urbanization", "central-place-theory", "gentrification"],
+    "sources": [
+      {
+        "label": "伯吉斯同心圆模型",
+        "labelEn": "Burgess, concentric zone model",
+        "year": 1925
+      }
+    ]
+  },
+  {
+    "id": "push-pull-migration",
+    "title": "人口迁移推拉理论",
+    "titleEn": "Push–Pull Migration Theory",
+    "icon": "🚶",
+    "category": "人口",
+    "categoryEn": "Population",
+    "level": 2,
+    "order": 19,
+    "lead": "人为何背井离乡？原乡的推力、目的地的拉力与途中障碍共同作用，汇成可预测的迁移之流。",
+    "leadEn": "Why do people leave? Push from origin, pull from destination and intervening obstacles combine into flows that can be read.",
+    "points": [
+      {
+        "k": "推力",
+        "kEn": "Push",
+        "v": "失业、战乱与灾害逼人流出。",
+        "vEn": "Joblessness, war and disaster drive people out."
+      },
+      {
+        "k": "拉力",
+        "kEn": "Pull",
+        "v": "机会、薪资与安稳引人流入。",
+        "vEn": "Opportunity, wages and calm draw people in."
+      },
+      {
+        "k": "中间障碍",
+        "kEn": "Friction",
+        "v": "距离、边境与成本过滤迁移。",
+        "vEn": "Distance, borders and cost filter the move."
+      },
+      {
+        "k": "重力模型",
+        "kEn": "Gravity model",
+        "v": "迁移量随规模增大、随距离衰减。",
+        "vEn": "Flow rises with size, falls with distance."
+      }
+    ],
+    "related": ["population-distribution", "globalization", "core-periphery"],
+    "sources": [
+      {
+        "label": "拉文斯坦迁移定律",
+        "labelEn": "Ravenstein, laws of migration",
+        "year": 1885
+      }
+    ]
+  },
+  {
+    "id": "heartland-theory",
+    "title": "心脏地带与陆权论",
+    "titleEn": "Heartland and Rimland Theory",
+    "icon": "♟️",
+    "category": "政治",
+    "categoryEn": "Political",
+    "level": 3,
+    "order": 20,
+    "lead": "麦金德断言：谁掌控欧亚的「心脏地带」，谁便握有主宰世界的枢纽之地——陆权与海权在此博弈。",
+    "leadEn": "Mackinder argued: who rules the Eurasian 'heartland' commands the pivot of the world—here land power and sea power contend.",
+    "points": [
+      {
+        "k": "枢纽地带",
+        "kEn": "The Pivot",
+        "v": "欧亚内陆难以被海上势力触及。",
+        "vEn": "Eurasia's interior resists sea-based reach."
+      },
+      {
+        "k": "三段公式",
+        "kEn": "The dictum",
+        "v": "制东欧者掌心脏地带，进而制世界岛。",
+        "vEn": "Who holds Eastern Europe rules the heartland, then the world-island."
+      },
+      {
+        "k": "陆海之衡",
+        "kEn": "Land versus sea",
+        "v": "铁路一度让陆权压过海权。",
+        "vEn": "Railways briefly gave land the edge over sea."
+      },
+      {
+        "k": "边缘反制",
+        "kEn": "Rimland reply",
+        "v": "斯皮克曼重估边缘地带的关键分量。",
+        "vEn": "Spykman recalibrated the weight of the rimland."
+      }
+    ],
+    "related": ["political-geography", "halford-mackinder", "core-periphery"],
+    "sources": [
+      {
+        "label": "麦金德《历史的地理枢纽》",
+        "labelEn": "Mackinder, The Geographical Pivot of History",
+        "year": 1904
+      }
+    ]
   }
 ]
