@@ -214,5 +214,113 @@
       { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
       { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
+  },
+  {
+    "id": "baiji",
+    "name": "白鱀豚",
+    "nameEn": "Baiji (Yangtze River Dolphin)",
+    "taxon": "哺乳纲 · 鲸偶蹄目 · 白鱀豚科",
+    "taxonEn": "Mammalia · Cetartiodactyla · Lipotidae",
+    "status": "极危（CR）",
+    "statusEn": "Critically Endangered (CR)",
+    "region": "中国长江中下游",
+    "regionEn": "Middle-lower Yangtze, China",
+    "oneLiner": "长江特有的「水中女神」，2006 年科考难觅踪影，被视为功能性灭绝的首个大型水生哺乳动物。",
+    "oneLinerEn": "The Yangtze's 'goddess'; a 2006 survey found none—taken as the first large aquatic mammal functionally extinct.",
+    "bio": "白鱀豚在长江演化了逾两千万年，以声呐捕食鱼类，性情羞怯。航运噪声、螺旋桨、误捕与水质恶化令其种群崩溃，2007 年被评估为功能性灭绝，堪称长江生态之殇。",
+    "bioEn": "The baiji evolved in the Yangtze over 20 million years, hunting fish by sonar, shy by nature. Ship noise, propellers, bycatch and pollution collapsed it; declared functionally extinct in 2007—the river's great wound.",
+    "traits": [
+      { "k": "声呐捕食", "kEn": "Sonar hunting", "v": "以回波定位鱼群，视力高度退化", "vEn": "Echolocates fish; vision greatly reduced" },
+      { "k": "长江孑遗", "kEn": "Yangtze relict", "v": "仅分布于长江，演化史逾两千万年", "vEn": "Yangtze-only; over 20 Myr of evolution" }
+    ],
+    "notes": [
+      { "k": "功能灭绝", "kEn": "Functional extinction", "v": "种群过小而难再繁衍，虽或有残存个体", "vEn": "Population too small to recover, though stragglers may remain" },
+      { "k": "警示意义", "kEn": "A warning", "v": "首个因人类活动功能性灭绝的大型水生哺乳动物", "vEn": "First large aquatic mammal driven to functional extinction by people" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "《白鱀豚生物学》", "labelEn": "Baiji Biology, Tianjin Univ. Press", "url": "", "type": "专著", "typeEn": "Monograph" }
+    ]
+  },
+  {
+    "id": "south-china-tiger",
+    "name": "华南虎",
+    "nameEn": "South China Tiger",
+    "taxon": "哺乳纲 · 食肉目 · 猫科",
+    "taxonEn": "Mammalia · Carnivora · Felidae",
+    "status": "极危（CR）",
+    "statusEn": "Critically Endangered (CR)",
+    "region": "中国华南（野生几近消失）",
+    "regionEn": "South China (wild nearly gone)",
+    "oneLiner": "中国独有的虎亚种，野外已数十年未见确证踪迹，仅存于圈养种群。",
+    "oneLinerEn": "A tiger subspecies unique to China; no confirmed wild trace for decades, surviving only in captivity.",
+    "bio": "华南虎体型较小、斑纹宽疏，曾广布华中与华南山地。因猎杀与栖息地丧失，野生种群于上世纪末基本消失，现存数百只圈养个体面临近亲繁殖挑战，重引入仍在规划。",
+    "bioEn": "Smaller and more sparsely striped, it once ranged over central-south China. Hunting and habitat loss wiped out wild populations by the late 20th century; hundreds in captivity now face inbreeding, reintroduction still planned.",
+    "traits": [
+      { "k": "中国特有亚种", "kEn": "China endemic", "v": "虎的华南亚种，形态独特", "vEn": "A distinct Chinese tiger subspecies" },
+      { "k": "野外几近消失", "kEn": "Wild functionally gone", "v": "数十年无确证的野外记录", "vEn": "No confirmed wild record for decades" }
+    ],
+    "notes": [
+      { "k": "圈养困境", "kEn": "Captive bottleneck", "v": "谱系管理艰难，近交威胁遗传多样性", "vEn": "Studbook strain; inbreeding threatens diversity" },
+      { "k": "重引入愿景", "kEn": "Reintroduction hope", "v": "海外繁育基地正探索回归野外的可能", "vEn": "Overseas breeding bases explore return to wild" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
+    ]
+  },
+  {
+    "id": "green-peafowl",
+    "name": "绿孔雀",
+    "nameEn": "Green Peafowl",
+    "taxon": "鸟纲 · 鸡形目 · 雉科",
+    "taxonEn": "Aves · Galliformes · Phasianidae",
+    "status": "濒危（EN）",
+    "statusEn": "Endangered (EN)",
+    "region": "中国云南及东南亚",
+    "regionEn": "Yunnan, China, and SE Asia",
+    "oneLiner": "中国本土唯一的孔雀，远比常见的蓝孔雀珍稀，栖息于云南的河谷季雨林。",
+    "oneLinerEn": "China's only native peafowl, far rarer than the familiar blue peafowl, dwelling in Yunnan's valley forests.",
+    "bio": "绿孔雀雄鸟翠蓝泛金，求偶开屏炫耀。因开垦、水电与旅游开发蚕食季雨林，加上偷猎，中国野外种群仅存数百只；而园林中常见的「孔雀」多为引进的蓝孔雀，常被混淆。",
+    "bioEn": "The male gleams blue-green with gold, fanning in courtship. Farming, hydropower and tourism have eaten its monsoon-forest home, plus poaching, leaving a few hundred wild in China; the common garden 'peacock' is usually the introduced blue peafowl, easily confused.",
+    "traits": [
+      { "k": "本土唯一", "kEn": "The native one", "v": "中国原产的唯一孔雀属物种", "vEn": "China's sole native peafowl species" },
+      { "k": "开屏求偶", "kEn": "Courtship display", "v": "雄鸟展尾屏以争夺配偶", "vEn": "Male fans its train to win mates" }
+    ],
+    "notes": [
+      { "k": "常被误认", "kEn": "Often confused", "v": "公园蓝孔雀非本土，易张冠李戴", "vEn": "Park blue peafowls are not native" },
+      { "k": "栖息地危机", "kEn": "Habitat crisis", "v": "季雨林破碎化是首要威胁", "vEn": "Fragmented monsoon forest is the top threat" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
+    ]
+  },
+  {
+    "id": "dove-tree",
+    "name": "珙桐",
+    "nameEn": "Dove Tree",
+    "taxon": "被子植物 · 山茱萸目 · 蓝果树科",
+    "taxonEn": "Angiosperms · Cornales · Nyssaceae",
+    "status": "易危（VU）",
+    "statusEn": "Vulnerable (VU)",
+    "region": "中国中西部山地",
+    "regionEn": "Mountains of central-west China",
+    "oneLiner": "开花如白鸽群栖的「中国鸽子树」，第四纪冰川中侥幸幸存的孑遗植物。",
+    "oneLinerEn": "The 'dove tree' whose white bracts perch like pigeons—a relict that slipped through the Quaternary glaciers.",
+    "bio": "珙桐的头状花序配两片白色大苞片，远望若群鸽落枝，故西人称之为鸽子树。它是第三纪孑遗，靠冰川期在东亚山地寻得避难所才延续至今，现因栖息地狭窄而受保护。",
+    "bioEn": "Its flower heads carry two large white bracts, seen afar as doves on branches—hence the Western name. A Tertiary relict, it survived the ice ages in East Asian mountain refuges; its narrow range keeps it under protection.",
+    "traits": [
+      { "k": "鸽子树", "kEn": "Dove tree", "v": "两片白苞似鸽翼，花序如鸽身", "vEn": "White bracts like wings, the head like a body" },
+      { "k": "第三纪孑遗", "kEn": "Tertiary relict", "v": "冰川前的古类群，东亚避难所幸存", "vEn": "Pre-glacial lineage saved in East Asian refugia" }
+    ],
+    "notes": [
+      { "k": "活化石植物", "kEn": "Living-fossil plant", "v": "与银杏同属孑遗类群", "vEn": "A relict like the ginkgo" },
+      { "k": "园林价值", "kEn": "Ornamental", "v": "著名观赏树，多国引种栽培", "vEn": "Famed ornamental, introduced worldwide" }
+    ],
+    "sources": [
+      { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
+      { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
+    ]
   }
 ]

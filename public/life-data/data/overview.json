@@ -3,10 +3,10 @@
   "counts": {
     "schools": 15,
     "questions": 19,
-    "principles": 15,
+    "principles": 19,
     "classics": 17,
     "thinkers": 22,
-    "endemics": 8
+    "endemics": 12
   },
   "kpis": [
     {
@@ -17,7 +17,7 @@
     {
       "key": "principles",
       "icon": "🧫",
-      "value": 15
+      "value": 19
     },
     {
       "key": "classics",
@@ -27,7 +27,7 @@
     {
       "key": "endemics",
       "icon": "🐼",
-      "value": 8
+      "value": 12
     }
   ]
 }

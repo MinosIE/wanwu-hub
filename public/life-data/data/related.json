@@ -615,6 +615,34 @@
       "nEn": "The Microbiome & Symbiosis"
     }
   ],
+  "cell-division": [
+    {
+      "m": "m-principles",
+      "n": "细胞分裂：生长、修复与延续",
+      "nEn": "Cell Division: Growth, Repair and Continuity"
+    }
+  ],
+  "mutation-variation": [
+    {
+      "m": "m-principles",
+      "n": "突变：变异的原始材料",
+      "nEn": "Mutation: The Raw Material of Variation"
+    }
+  ],
+  "circulation-transport": [
+    {
+      "m": "m-principles",
+      "n": "循环与物质运输",
+      "nEn": "Circulation and Transport"
+    }
+  ],
+  "history-of-life": [
+    {
+      "m": "m-principles",
+      "n": "生命史：灭绝与适应辐射",
+      "nEn": "History of Life: Extinction and Radiation"
+    }
+  ],
   "giant-panda": [
     {
       "m": "m-endemics",
@@ -669,6 +697,34 @@
       "m": "m-endemics",
       "n": "中华鲟",
       "nEn": "Chinese Sturgeon"
+    }
+  ],
+  "baiji": [
+    {
+      "m": "m-endemics",
+      "n": "白鱀豚",
+      "nEn": "Baiji (Yangtze River Dolphin)"
+    }
+  ],
+  "south-china-tiger": [
+    {
+      "m": "m-endemics",
+      "n": "华南虎",
+      "nEn": "South China Tiger"
+    }
+  ],
+  "green-peafowl": [
+    {
+      "m": "m-endemics",
+      "n": "绿孔雀",
+      "nEn": "Green Peafowl"
+    }
+  ],
+  "dove-tree": [
+    {
+      "m": "m-endemics",
+      "n": "珙桐",
+      "nEn": "Dove Tree"
     }
   ]
 }

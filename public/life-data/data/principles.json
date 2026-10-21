@@ -697,5 +697,205 @@
         "year": 1967
       }
     ]
+  },
+  {
+    "id": "cell-division",
+    "title": "细胞分裂：生长、修复与延续",
+    "titleEn": "Cell Division: Growth, Repair and Continuity",
+    "icon": "🔁",
+    "category": "细胞",
+    "categoryEn": "Cell",
+    "level": 1,
+    "order": 16,
+    "lead": "一次分裂换来两个细胞：有丝分裂保全副本用于生长修复，减数分裂减半染色体用于繁衍后代。",
+    "leadEn": "One division yields two cells: mitosis keeps an identical copy for growth and repair, meiosis halves the chromosome set for offspring.",
+    "points": [
+      {
+        "k": "有丝分裂",
+        "kEn": "Mitosis",
+        "v": "一套染色体复制后均分两份，子细胞与母细胞一模一样，支撑生长与修复。",
+        "vEn": "Duplicated chromosomes split evenly; daughter cells match the parent, powering growth and repair."
+      },
+      {
+        "k": "减数分裂",
+        "kEn": "Meiosis",
+        "v": "染色体减半并随机重组，配子因此各不相同，是变异的引擎。",
+        "vEn": "Chromosomes halve and reshuffle, so gametes differ—an engine of variation."
+      },
+      {
+        "k": "细胞周期",
+        "kEn": "Cell cycle",
+        "v": "间期复制、分裂期分配，检查点层层把关，一旦失控便是癌变之虞。",
+        "vEn": "Interphase copies, division segregates; checkpoints gatekeep—runaway division looms as cancer."
+      },
+      {
+        "k": "分化的前提",
+        "kEn": "Basis of specialization",
+        "v": "同一套基因、不同分工：分裂之后各取所需的表达，才成就细胞的特化。",
+        "vEn": "One genome, many roles: selective expression after division makes cells specialize."
+      }
+    ],
+    "related": [
+      "cell-fundamentals",
+      "cell-theory",
+      "heredity-mendel"
+    ],
+    "sources": [
+      {
+        "label": "艾伯茨等《细胞分子生物学》",
+        "labelEn": "Alberts et al., Molecular Biology of the Cell",
+        "year": 1983
+      }
+    ]
+  },
+  {
+    "id": "mutation-variation",
+    "title": "突变：变异的原始材料",
+    "titleEn": "Mutation: The Raw Material of Variation",
+    "icon": "✳️",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 2,
+    "order": 17,
+    "lead": "从单个碱基到整段染色体的序列改写，为进化提供唯一的原材料；多数中性或有害，偶有者被自然选择留下。",
+    "leadEn": "Rewrites from a single base to whole chromosomes supply evolution's only raw material; most are neutral or harmful, the rare useful one kept by selection.",
+    "points": [
+      {
+        "k": "突变的类型",
+        "kEn": "Types",
+        "v": "点突变、插入缺失、倒位重复乃至整倍体变化，尺度从一碱基到一整套基因组。",
+        "vEn": "Point mutations, indels, inversions, duplications and whole-set changes span one base to a genome."
+      },
+      {
+        "k": "后果的谱系",
+        "kEn": "Spectrum of effects",
+        "v": "多数沉默或轻微，少数致病，极少数在特定环境下反而有利。",
+        "vEn": "Most silent or mild, a few disease-causing, a rare few advantageous in the right setting."
+      },
+      {
+        "k": "分子钟",
+        "kEn": "Molecular clock",
+        "v": "中性突变的累积近似匀速，可反推物种分化的年代。",
+        "vEn": "Neutral mutations tick roughly evenly, letting us date when lineages split."
+      },
+      {
+        "k": "与选择协作",
+        "kEn": "Partner of selection",
+        "v": "突变只提供可能，选择决定去留；没有突变，演化寸步难行。",
+        "vEn": "Mutation offers possibility, selection decides; without mutation evolution stalls."
+      }
+    ],
+    "related": [
+      "central-dogma",
+      "heredity-mendel",
+      "natural-selection"
+    ],
+    "sources": [
+      {
+        "label": "木村资生《分子演化中性理论》",
+        "labelEn": "Kimura, The Neutral Theory of Molecular Evolution",
+        "year": 1983
+      }
+    ]
+  },
+  {
+    "id": "circulation-transport",
+    "title": "循环与物质运输",
+    "titleEn": "Circulation and Transport",
+    "icon": "🩸",
+    "category": "生理",
+    "categoryEn": "Physiology",
+    "level": 2,
+    "order": 18,
+    "lead": "多细胞生物靠运输系统把氧、养料与激素送达每个细胞：动物用心脏泵血，植物以维管束输水送糖。",
+    "leadEn": "Multicellular life moves oxygen, nutrients and hormones to every cell: animals pump blood with a heart, plants pipe water and sugar through vascular tissue.",
+    "points": [
+      {
+        "k": "动物的循环",
+        "kEn": "Animal circulation",
+        "v": "心脏、血管与血液三体协作，哺乳类为完全双循环，含氧血与缺氧血各行其道。",
+        "vEn": "Heart, vessels and blood cooperate; mammals run a full double circuit, keeping oxygen-rich and poor apart."
+      },
+      {
+        "k": "开管与闭管",
+        "kEn": "Open vs closed",
+        "v": "昆虫的血淋巴浸浴器官为开管，脊椎动物血液始终在管内为闭管。",
+        "vEn": "Insect hemolymph bathes organs in an open system; vertebrate blood stays enclosed in a closed one."
+      },
+      {
+        "k": "植物的维管",
+        "kEn": "Plant vasculature",
+        "v": "木质部上运水、韧皮部下送糖，蒸腾拉力与根压驱动长途运输。",
+        "vEn": "Xylem lifts water, phloem ships sugars down; transpiration pull and root pressure drive the long haul."
+      },
+      {
+        "k": "稳态的物流",
+        "kEn": "Homeostatic logistics",
+        "v": "循环是内环境稳态的运输网：调温、缓冲、免疫细胞与激素都借它通行。",
+        "vEn": "Circulation is homeostasis's logistics web—heat, buffers, immune cells and hormones all ride it."
+      }
+    ],
+    "related": [
+      "homeostasis",
+      "energy-flow",
+      "immunity"
+    ],
+    "sources": [
+      {
+        "label": "哈维《心血运动论》",
+        "labelEn": "Harvey, De Motu Cordis",
+        "year": 1628
+      }
+    ]
+  },
+  {
+    "id": "history-of-life",
+    "title": "生命史：灭绝与适应辐射",
+    "titleEn": "History of Life: Extinction and Radiation",
+    "icon": "🌋",
+    "category": "进化",
+    "categoryEn": "Evolution",
+    "level": 3,
+    "order": 19,
+    "lead": "三十八亿年生命史由一连串起源、繁盛与大灭绝写就：旧类群退场，空出的生态位触发幸存者的爆发式分化。",
+    "leadEn": "Life's 3.8 billion years read as origins, blooms and mass extinctions: as old groups exit, freed niches spark explosive diversification among survivors.",
+    "points": [
+      {
+        "k": "五次大灭绝",
+        "kEn": "The big five",
+        "v": "从二叠纪末到白垩纪末，地球经历数次抹去大半物种的剧变。",
+        "vEn": "From end-Permian to end-Cretaceous, Earth suffered several upheavals that erased most species."
+      },
+      {
+        "k": "适应辐射",
+        "kEn": "Adaptive radiation",
+        "v": "空白生态位一旦敞开机会，幸存者便迅速填满，如恐龙谢幕后哺乳动物的崛起。",
+        "vEn": "When freed niches open, survivors fill them fast—like the rise of mammals after the dinosaurs."
+      },
+      {
+        "k": "拼接生命之树",
+        "kEn": "Reading the tree",
+        "v": "化石、地层与分子证据拼出亲缘与年代，不断改写主要类群的起源认知。",
+        "vEn": "Fossils, strata and molecules join to date kinship and rewrite origins of major lineages."
+      },
+      {
+        "k": "偶然与必然",
+        "kEn": "Chance and law",
+        "v": "大灭绝重置棋盘，幸存未必最强；但生态位的填充又遵循可预期的规律。",
+        "vEn": "Extinctions reset the board—survivors aren't always fittest; yet filling niches follows predictable rules."
+      }
+    ],
+    "related": [
+      "natural-selection",
+      "speciation",
+      "tree-of-life"
+    ],
+    "sources": [
+      {
+        "label": "古尔德与埃尔德里奇：间断平衡",
+        "labelEn": "Gould & Eldredge, Punctuated Equilibrium",
+        "year": 1972
+      }
+    ]
   }
 ]
