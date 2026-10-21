@@ -115,5 +115,57 @@
     "detailEn": "Polarized sunglasses cut glare off water.",
     "tags": ["物理光学"],
     "tagsEn": ["Physical Optics"]
+  },
+  {
+    "id": "eye-vision",
+    "icon": "👁️",
+    "term": "眼睛与视力矫正",
+    "termEn": "The Eye & Vision Correction",
+    "level": 2,
+    "oneLiner": "晶状体把像成在视网膜上，近视用凹透镜、远视用凸透镜矫正。",
+    "oneLinerEn": "The lens focuses images on the retina; myopia is fixed with a diverging lens, hyperopia with a converging one.",
+    "detail": "看近物时睫状肌调节晶状体焦距。近视是像成在视网膜之前，配凹透镜使光线先发散；远视与老花像成在视网膜之后，配凸透镜使光线先会聚。",
+    "detailEn": "Ciliary muscles refocus the lens for near objects. Myopia images before the retina and needs a diverging lens; hyperopia and presbyopia image behind it and need a converging lens.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "optical-instruments",
+    "icon": "🔭",
+    "term": "显微镜与望远镜",
+    "termEn": "Microscope & Telescope",
+    "level": 3,
+    "oneLiner": "两组透镜接力放大：显微镜看清近处微小物体，望远镜拉近远处巨大目标。",
+    "oneLinerEn": "Two lens stages relay magnification: microscopes resolve tiny nearby objects, telescopes bring distant ones close.",
+    "detail": "显微镜以短焦物镜成放大实像、目镜再放大成虚像；开普勒望远镜用长焦物镜会聚远方来光、目镜放大其所成的像。",
+    "detailEn": "A microscope's short-focus objective makes a magnified real image the eyepiece enlarges once more; Kepler's telescope uses a long-focus objective to gather distant light and an eyepiece to enlarge its image.",
+    "tags": ["几何光学"],
+    "tagsEn": ["Geometric Optics"]
+  },
+  {
+    "id": "object-color",
+    "icon": "🎨",
+    "term": "物体的颜色",
+    "termEn": "Color of Objects",
+    "level": 1,
+    "oneLiner": "透明物体的颜色由透过它的色光决定，不透明物体由它反射的色光决定。",
+    "oneLinerEn": "A transparent object's color is set by the light it transmits; an opaque one's by the light it reflects.",
+    "detail": "红玻璃只透过红光、吸收其余色光；红纸只反射红光、吸收其余。白光下物体显其本色，改变照明的色光便改变所见颜色。",
+    "detailEn": "Red glass passes only red and absorbs the rest; red paper reflects only red. Under white light objects show their color; change the illuminating light and the seen color changes.",
+    "tags": ["物理光学"],
+    "tagsEn": ["Physical Optics"]
+  },
+  {
+    "id": "light-primary",
+    "icon": "🌈",
+    "term": "色光的三原色",
+    "termEn": "Additive Primaries of Light",
+    "level": 1,
+    "oneLiner": "红、绿、蓝三色光按不同比例混合可得各种色光，等量混合即为白光。",
+    "oneLinerEn": "Red, green and blue light mix in varying ratios to yield all colors; equal parts give white.",
+    "detail": "这是加色混合，不同于颜料的减色三原色品红、黄、青；电视与手机屏幕正以红、绿、蓝像素合成图像。",
+    "detailEn": "This is additive mixing, unlike the subtractive primaries magenta, yellow and cyan of pigments; TV and phone screens compose images from red, green and blue pixels.",
+    "tags": ["物理光学"],
+    "tagsEn": ["Physical Optics"]
   }
 ]

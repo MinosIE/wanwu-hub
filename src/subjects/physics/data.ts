@@ -544,6 +544,66 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "物理光学", en: "Physical Optics" }],
         },
+        {
+          id: "eye-vision",
+          icon: "👁️",
+          term: { zh: "眼睛与视力矫正", en: "The Eye & Vision Correction" },
+          level: 2,
+          oneLiner: {
+            zh: "晶状体把像成在视网膜上，近视用凹透镜、远视用凸透镜矫正。",
+            en: "The lens focuses images on the retina; myopia is fixed with a diverging lens, hyperopia with a converging one.",
+          },
+          detail: {
+            zh: "看近物时睫状肌调节晶状体焦距。近视是像成在视网膜之前，配凹透镜使光线先发散；远视与老花像成在视网膜之后，配凸透镜使光线先会聚。",
+            en: "Ciliary muscles refocus the lens for near objects. Myopia images before the retina and needs a diverging lens; hyperopia and presbyopia image behind it and need a converging lens.",
+          },
+          tags: [{ zh: "几何光学", en: "Geometric Optics" }],
+        },
+        {
+          id: "optical-instruments",
+          icon: "🔭",
+          term: { zh: "显微镜与望远镜", en: "Microscope & Telescope" },
+          level: 3,
+          oneLiner: {
+            zh: "两组透镜接力放大：显微镜看清近处微小物体，望远镜拉近远处巨大目标。",
+            en: "Two lens stages relay magnification: microscopes resolve tiny nearby objects, telescopes bring distant ones close.",
+          },
+          detail: {
+            zh: "显微镜以短焦物镜成放大实像、目镜再放大成虚像；开普勒望远镜用长焦物镜会聚远方来光、目镜放大其所成的像。",
+            en: "A microscope's short-focus objective makes a magnified real image the eyepiece enlarges once more; Kepler's telescope uses a long-focus objective to gather distant light and an eyepiece to enlarge its image.",
+          },
+          tags: [{ zh: "几何光学", en: "Geometric Optics" }],
+        },
+        {
+          id: "object-color",
+          icon: "🎨",
+          term: { zh: "物体的颜色", en: "Color of Objects" },
+          level: 1,
+          oneLiner: {
+            zh: "透明物体的颜色由透过它的色光决定，不透明物体由它反射的色光决定。",
+            en: "A transparent object's color is set by the light it transmits; an opaque one's by the light it reflects.",
+          },
+          detail: {
+            zh: "红玻璃只透过红光、吸收其余色光；红纸只反射红光、吸收其余。白光下物体显其本色，改变照明的色光便改变所见颜色。",
+            en: "Red glass passes only red and absorbs the rest; red paper reflects only red. Under white light objects show their color; change the illuminating light and the seen color changes.",
+          },
+          tags: [{ zh: "物理光学", en: "Physical Optics" }],
+        },
+        {
+          id: "light-primary",
+          icon: "🌈",
+          term: { zh: "色光的三原色", en: "Additive Primaries of Light" },
+          level: 1,
+          oneLiner: {
+            zh: "红、绿、蓝三色光按不同比例混合可得各种色光，等量混合即为白光。",
+            en: "Red, green and blue light mix in varying ratios to yield all colors; equal parts give white.",
+          },
+          detail: {
+            zh: "这是加色混合，不同于颜料的减色三原色品红、黄、青；电视与手机屏幕正以红、绿、蓝像素合成图像。",
+            en: "This is additive mixing, unlike the subtractive primaries magenta, yellow and cyan of pigments; TV and phone screens compose images from red, green and blue pixels.",
+          },
+          tags: [{ zh: "物理光学", en: "Physical Optics" }],
+        },
       ],
     },
     /* ===================== 热学 ===================== */
@@ -920,6 +980,70 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "麦克斯韦统一电磁并预言电磁波；赫兹实验证实。频谱含无线电、可见光、X 射线等。",
             en: "Maxwell unified EM and predicted waves; Hertz confirmed them; the spectrum spans radio to X-rays.",
           },
+          tags: [{ zh: "电磁", en: "Electromagnetism" }],
+        },
+        {
+          id: "ac-current",
+          icon: "🔁",
+          term: { zh: "交变电流", en: "Alternating Current (AC)" },
+          level: 2,
+          oneLiner: {
+            zh: "电流大小与方向随时间周期性变化，家用电即正弦式交流电。",
+            en: "Current whose magnitude and direction cycle over time; mains supply is sinusoidal AC.",
+          },
+          detail: {
+            zh: "用峰值、有效值与频率描述：正弦交流电有效值等于峰值除以根号2；我国市电为 220 伏、50 赫兹，即每秒方向改变一百次。交流便于变压与远距离输送。",
+            en: "Described by peak, RMS and frequency: for a sine wave RMS equals peak over root-two; China's mains are 220 V, 50 Hz, reversing direction 100 times a second. AC suits transformation and long-distance transmission.",
+          },
+          eq: { lhs: "I", rhs: "Im/√2", rel: "equal" },
+          tags: [{ zh: "电磁", en: "Electromagnetism" }],
+        },
+        {
+          id: "transformer",
+          icon: "🔌",
+          term: { zh: "变压器", en: "Transformer" },
+          level: 2,
+          oneLiner: {
+            zh: "利用互感把交流电压升高或降低，理想变压器输入功率等于输出功率。",
+            en: "Uses mutual induction to raise or lower AC voltage; an ideal transformer conserves power.",
+          },
+          detail: {
+            zh: "原、副线圈电压比等于匝数比，电流比则与之相反。升压利于输电、降压利于用电，闭合铁芯能提高磁耦合效率。",
+            en: "Primary-to-secondary voltage equals the turn ratio while current ratio is inverted. Step-up aids transmission, step-down aids use; a closed iron core improves coupling.",
+          },
+          eq: { lhs: "U1/U2", rhs: "n1/n2", rel: "equal" },
+          tags: [{ zh: "电磁", en: "Electromagnetism" }],
+        },
+        {
+          id: "self-induction",
+          icon: "🌀",
+          term: { zh: "自感与互感", en: "Self & Mutual Induction" },
+          level: 3,
+          oneLiner: {
+            zh: "导体自身电流变化会在本回路激起感应电动势，两线圈之间则相互感应。",
+            en: "A changing current induces EMF in its own circuit (self) and in a neighboring coil (mutual).",
+          },
+          detail: {
+            zh: "自感电动势总是阻碍电流变化，使通电、断电呈现延时；线圈的自感系数以亨利为单位。互感是变压器与无线充电的原理。",
+            en: "Self-induced EMF opposes current change, giving switch-on and switch-off lag; inductance is measured in henries. Mutual induction underlies transformers and wireless charging.",
+          },
+          eq: { lhs: "ε", rhs: "L·ΔI/Δt", rel: "equal" },
+          tags: [{ zh: "电磁", en: "Electromagnetism" }],
+        },
+        {
+          id: "lc-oscillation",
+          icon: "🎛️",
+          term: { zh: "电磁振荡与电磁波发射", en: "LC Oscillation & Wave Emission" },
+          level: 3,
+          oneLiner: {
+            zh: "电容与电感回路中电场能与磁场能周期互转，产生高频振荡，是发射电磁波的基础。",
+            en: "In an LC circuit electric and magnetic energy trade periodically, giving high-frequency oscillation—the basis of emitting EM waves.",
+          },
+          detail: {
+            zh: "振荡频率由电感与电容共同决定；要有效辐射需高频且采用开放电路，故无线电通信使用极高的载波频率。",
+            en: "The oscillation frequency is set by inductance and capacitance; efficient radiation needs high frequency and an open circuit, so radio uses very high carriers.",
+          },
+          eq: { lhs: "f", rhs: "1/(2π√(LC))", rel: "equal" },
           tags: [{ zh: "电磁", en: "Electromagnetism" }],
         },
       ],

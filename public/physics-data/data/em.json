@@ -183,5 +183,61 @@
     "detailEn": "Maxwell unified EM and predicted waves; Hertz confirmed them; the spectrum spans radio to X-rays.",
     "tags": ["电磁"],
     "tagsEn": ["Electromagnetism"]
+  },
+  {
+    "id": "ac-current",
+    "icon": "🔁",
+    "term": "交变电流",
+    "termEn": "Alternating Current (AC)",
+    "level": 2,
+    "oneLiner": "电流大小与方向随时间周期性变化，家用电即正弦式交流电。",
+    "oneLinerEn": "Current whose magnitude and direction cycle over time; mains supply is sinusoidal AC.",
+    "detail": "用峰值、有效值与频率描述：正弦交流电有效值等于峰值除以根号2；我国市电为 220 伏、50 赫兹，即每秒方向改变一百次。交流便于变压与远距离输送。",
+    "detailEn": "Described by peak, RMS and frequency: for a sine wave RMS equals peak over root-two; China's mains are 220 V, 50 Hz, reversing direction 100 times a second. AC suits transformation and long-distance transmission.",
+    "eq": { "lhs": "I", "rhs": "Im/√2", "rel": "equal" },
+    "tags": ["电磁"],
+    "tagsEn": ["Electromagnetism"]
+  },
+  {
+    "id": "transformer",
+    "icon": "🔌",
+    "term": "变压器",
+    "termEn": "Transformer",
+    "level": 2,
+    "oneLiner": "利用互感把交流电压升高或降低，理想变压器输入功率等于输出功率。",
+    "oneLinerEn": "Uses mutual induction to raise or lower AC voltage; an ideal transformer conserves power.",
+    "detail": "原、副线圈电压比等于匝数比，电流比则与之相反。升压利于输电、降压利于用电，闭合铁芯能提高磁耦合效率。",
+    "detailEn": "Primary-to-secondary voltage equals the turn ratio while current ratio is inverted. Step-up aids transmission, step-down aids use; a closed iron core improves coupling.",
+    "eq": { "lhs": "U1/U2", "rhs": "n1/n2", "rel": "equal" },
+    "tags": ["电磁"],
+    "tagsEn": ["Electromagnetism"]
+  },
+  {
+    "id": "self-induction",
+    "icon": "🌀",
+    "term": "自感与互感",
+    "termEn": "Self & Mutual Induction",
+    "level": 3,
+    "oneLiner": "导体自身电流变化会在本回路激起感应电动势，两线圈之间则相互感应。",
+    "oneLinerEn": "A changing current induces EMF in its own circuit (self) and in a neighboring coil (mutual).",
+    "detail": "自感电动势总是阻碍电流变化，使通电、断电呈现延时；线圈的自感系数以亨利为单位。互感是变压器与无线充电的原理。",
+    "detailEn": "Self-induced EMF opposes current change, giving switch-on and switch-off lag; inductance is measured in henries. Mutual induction underlies transformers and wireless charging.",
+    "eq": { "lhs": "ε", "rhs": "L·ΔI/Δt", "rel": "equal" },
+    "tags": ["电磁"],
+    "tagsEn": ["Electromagnetism"]
+  },
+  {
+    "id": "lc-oscillation",
+    "icon": "🎛️",
+    "term": "电磁振荡与电磁波发射",
+    "termEn": "LC Oscillation & Wave Emission",
+    "level": 3,
+    "oneLiner": "电容与电感回路中电场能与磁场能周期互转，产生高频振荡，是发射电磁波的基础。",
+    "oneLinerEn": "In an LC circuit electric and magnetic energy trade periodically, giving high-frequency oscillation—the basis of emitting EM waves.",
+    "detail": "振荡频率由电感与电容共同决定；要有效辐射需高频且采用开放电路，故无线电通信使用极高的载波频率。",
+    "detailEn": "The oscillation frequency is set by inductance and capacitance; efficient radiation needs high frequency and an open circuit, so radio uses very high carriers.",
+    "eq": { "lhs": "f", "rhs": "1/(2π√(LC))", "rel": "equal" },
+    "tags": ["电磁"],
+    "tagsEn": ["Electromagnetism"]
   }
 ]
