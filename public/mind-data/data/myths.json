@@ -273,5 +273,57 @@
         "year": 1967
       }
     ]
+  },
+  {
+    "id": "tongue-flavor-map",
+    "term": "「味觉地图（舌尖尝甜、舌根尝苦）」",
+    "termEn": "The Tongue Map",
+    "oneLiner": "舌上没有「甜区苦区」的分工地图，每个部位都能尝出所有味道。",
+    "oneLinerEn": "There is no taste-bud map on the tongue; every region can detect all tastes.",
+    "detail": "真相：味觉细胞分布于全舌的味蕾，各个区域都能感受甜咸酸苦鲜。来源：这场误会源自 1901 年一篇论文的翻译错误，被教材以讹传讹沿用至今。别信「舌根必须尝苦」之类的分块说法。",
+    "detailEn": "Truth: taste cells sit across the papillae of the whole tongue, and every zone senses sweet, salty, sour, bitter and umami. Source: the myth stems from a mistranslation of a 1901 paper, passed down by textbooks ever since.",
+    "category": "脑与心智",
+    "categoryEn": "Brain & mind",
+    "related": ["left-right-brain", "we-only-use-10-percent", "perception"],
+    "sources": [{ "label": "Lindemann (2001)", "year": 2001 }]
+  },
+  {
+    "id": "sugar-hyperactivity",
+    "term": "「糖会让孩子过度亢奋」",
+    "termEn": "Sugar Makes Kids Hyperactive",
+    "oneLiner": "双盲实验反复显示：糖并不会让孩子「亢奋」，更多是父母的期待在作祟。",
+    "oneLinerEn": "Repeated blind studies show sugar does not make children hyperactive—expectation, not sucrose, drives the effect.",
+    "detail": "真相：多项元分析未发现糖与儿童行为之间有稳定的因果关系；所谓「吃糖后疯跑」更多来自场合与家长的信念。来源：当母亲被告知孩子吃了糖（其实没有），她们反而更易把孩子判为亢奋。",
+    "detailEn": "Truth: meta-analyses find no stable causal link between sugar and children's behavior; the 'post-sugar frenzy' mostly comes from setting and parental belief. Source: mothers told their child had sugar (they had not) were likelier to rate the child as hyperactive.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": ["learning-styles", "boys-girls-learn-differently"],
+    "sources": [{ "label": "Wolraich et al.（1995）元分析", "labelEn": "Wolraich et al., JAMA meta-analysis", "year": 1995 }]
+  },
+  {
+    "id": "opposites-attract",
+    "term": "「性格相反的人彼此相吸」",
+    "termEn": "Opposites Attract",
+    "oneLiner": "长期关系里更靠谱的是「相似」而非「互补」：态度、价值观相近才更耐久。",
+    "oneLinerEn": "In lasting relationships similarity beats complementarity—shared attitudes and values predict staying power.",
+    "detail": "真相：大量研究显示，伴侣在态度、人格与价值观上越相似，满意度与稳定度就越高；短暂的新鲜感并不等于长期吸引。来源：「相反相吸」更多源于对「新奇」的一时兴奋，而非关系的实证规律。",
+    "detailEn": "Truth: ample research shows the more similar partners are in attitudes, personality and values, the higher their satisfaction and stability; a fleeting novelty is not attraction. Source: 'opposites attract' reflects a momentary thrill of difference, not an empirical rule of relationships.",
+    "category": "性格",
+    "categoryEn": "Temperament",
+    "related": ["introvert-shy", "halo-effect", "blood-type-personality"],
+    "sources": [{ "label": "Montoya et al.（2008）元分析", "labelEn": "Montoya et al., similarity-attraction meta-analysis", "year": 2008 }]
+  },
+  {
+    "id": "brain-training-transfer",
+    "term": "「玩益智 / 脑力游戏能提高整体智力」",
+    "termEn": "Brain Training Boosts General Intelligence",
+    "oneLiner": "益智游戏只会让你更擅长那道游戏，几乎不能迁移到「变聪明」或改善工作记忆。",
+    "oneLinerEn": "Brain games make you better at the game itself—they barely transfer to general smarts or working memory.",
+    "detail": "真相：训练带来的进步高度「任务特异」，换一个测试就消失；所谓「远迁移」证据薄弱。来源：大规模对照研究显示，玩脑力训练的人并不比做普通益智活动的对照组更聪明。别为「提高智力」而付费。",
+    "detailEn": "Truth: gains from training are task-specific and vanish on a different test; far transfer is weakly supported. Source: large controlled studies find brain-training users no smarter than active-control groups. Do not pay to 'raise IQ'.",
+    "category": "智力",
+    "categoryEn": "Intelligence",
+    "related": ["iq-fixed", "multiple-intelligence", "memory-like-recording"],
+    "sources": [{ "label": "Simons et al.（2016）共识报告", "labelEn": "Simons et al., Psychological Science in the Public Interest", "year": 2016 }]
   }
 ]

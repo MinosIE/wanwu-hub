@@ -362,5 +362,57 @@
         "year": 1971
       }
     ]
+  },
+  {
+    "id": "mere-exposure-effect",
+    "term": "单纯曝光效应",
+    "termEn": "Mere-Exposure Effect",
+    "oneLiner": "见得越多就越喜欢：熟悉本身就能带来好感，无需任何理由。",
+    "oneLinerEn": "The more we see something, the more we like it—familiarity breeds liking, for no good reason.",
+    "detail": "表现：反复出现的广告、耳熟的歌曲更讨喜，陌生面孔多看几次也更显可信。为什么：加工越流畅，大脑越把它读作「安全、熟悉」。如何避免：分清「我喜欢」与「我常见」，警惕曝光量被用来悄悄操纵偏好。",
+    "detailEn": "How it shows: repeated ads, familiar songs and once-strange faces grow likable with exposure. Why: easier processing is misread as safety and familiarity. How to avoid: separate 'I like it' from 'I see it often', and watch exposure being used to steer preference.",
+    "category": "社会认知",
+    "categoryEn": "Social cognition",
+    "related": ["availability", "bandwagon", "false-consensus-effect"],
+    "sources": [{ "label": "Zajonc (1968)", "year": 1968 }]
+  },
+  {
+    "id": "in-group-favoritism",
+    "term": "内群体偏爱",
+    "termEn": "In-Group Favoritism",
+    "oneLiner": "只要被划进「我们」，人就本能地偏袒自己人、给内团体更多奖励。",
+    "oneLinerEn": "The moment we are sorted into an 'us', people instinctively favor their own and reward the in-group more.",
+    "detail": "表现：哪怕随机分成的两组，也会立刻偏袒己方、把更多资源分给「自己人」。为什么：归类触发认同与护短，把内团体成员当作自我的延伸。如何避免：扩大「我们」的圈层、强调共同目标与更高层的身份，弱化内外之分。",
+    "detailEn": "How it shows: even randomly assigned groups instantly favor their own and allocate more to 'us'. Why: categorization triggers identity and favoritism, treating in-group members as an extension of self. How to avoid: widen the 'we' and stress shared goals and a superordinate identity.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": ["bandwagon", "actor-observer-bias", "just-world-hypothesis"],
+    "sources": [{ "label": "Tajfel et al. (1971)", "year": 1971 }]
+  },
+  {
+    "id": "impact-bias",
+    "term": "影响偏差（情感预测失误）",
+    "termEn": "Impact Bias",
+    "oneLiner": "我们总高估未来情绪的强度与时长：好消息没那么久，坏消息没那么痛。",
+    "oneLinerEn": "We overestimate how strong and how long future feelings will last—good news fades sooner, bad news hurts less than feared.",
+    "detail": "表现：以为晋升会狂喜一整年、失恋会一蹶不振，实则心情很快回归基线。为什么：大脑忽略了自身的「心理免疫系统」会自动消化与合理化。如何避免：参考过来者的真实曲线、给情绪设「有效期」，少为遥远结果下重注。",
+    "detailEn": "How it shows: we expect a promotion to elate for a year or a breakup to cripple us, yet mood snaps back to baseline. Why: the mind overlooks its own 'psychological immune system' that digests and rationalizes. How to avoid: consult those who have been there and discount distant outcomes.",
+    "category": "决策判断",
+    "categoryEn": "Judgment & decision making",
+    "related": ["optimism-bias", "hindsight-bias", "framing-effect"],
+    "sources": [{ "label": "Gilbert & Wilson (1998)", "year": 1998 }]
+  },
+  {
+    "id": "omission-bias",
+    "term": "不作为偏差",
+    "termEn": "Omission Bias",
+    "oneLiner": "同等坏的结果，「做错了」比「没去做」更让我们自责——于是宁可袖手旁观。",
+    "oneLinerEn": "For equally bad outcomes, doing wrong feels worse than failing to act—so we prefer inaction.",
+    "detail": "表现：明知疫苗只有极小的风险仍拒绝接种，宁可不作为，也要避开「因我而害」的指责。为什么：行动造成的伤害更显眼、更易触发悔恨与责备。如何避免：把「不作为」也视作一种选择、同样计入它的代价，而非默认它更安全。",
+    "detailEn": "How it shows: people refuse a vaccine over a tiny action-risk, preferring inaction to avoid 'harm I caused'. Why: harms from action are more vivid and invite more regret and blame. How to avoid: treat inaction as a choice too, and count its costs rather than defaulting to it as safe.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": ["framing-effect", "status-quo-bias", "loss-aversion"],
+    "sources": [{ "label": "Spranca et al. (1991)", "year": 1991 }]
   }
 ]
