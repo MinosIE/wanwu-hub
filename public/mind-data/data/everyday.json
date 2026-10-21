@@ -330,5 +330,57 @@
         "year": 2013
       }
     ]
+  },
+  {
+    "id": "self-compassion",
+    "term": "自我关怀",
+    "termEn": "Self-Compassion",
+    "oneLiner": "跌倒时像对待好友那样善待自己，而非鞭笞——它比自我批评更能让人重新站起。",
+    "oneLinerEn": "Treating yourself like a good friend after a fall, rather than whipping yourself—this lifts people back up better than self-criticism.",
+    "detail": "为什么：许多人不把失败当人之常情，而当作自己「不行」的证据，越苛责越泄气。怎么办：三重自我关怀——正念地承认「这确实难受」、提醒自己「人人都会如此」、对自己说一句宽慰的话。研究表明，它降低焦虑、增强坚持，比一味追高自尊更稳。",
+    "detailEn": "Why: many read failure not as part of being human but as proof they are 'no good', and the harsher the self-blame the more they stall. What helps: three notes of self-compassion—mindfully admit 'this hurts', recall 'everyone fails', and offer yourself a kind word. Research finds it lowers anxiety and steadies persistence, more reliably than chasing high self-esteem.",
+    "category": "自我管理",
+    "categoryEn": "Self-regulation",
+    "related": ["self", "emotion-regulation", "high-self-esteem"],
+    "sources": [{ "label": "内夫《自我关怀的力量》", "labelEn": "Neff, Self-Compassion", "year": 2011 }]
+  },
+  {
+    "id": "self-fulfilling-prophecy",
+    "term": "自证预言（皮格马利翁效应）",
+    "termEn": "Self-Fulfilling Prophecy (Pygmalion Effect)",
+    "oneLiner": "对他人的期待会悄悄改变他的表现：被看好者真的更出色，被看低者逐渐坠落。",
+    "oneLinerEn": "Expectations quietly change performance: the favored truly rise, the doubted gradually fall.",
+    "detail": "机制：老师被告知某些孩子「潜力大」（实为随机抽取），便不自觉地多给关注、耐心与机会，孩子果然进步更快。循环是——你的期待，塑造你的对待，改变他的表现，再印证你的期待。启示：对他人（尤其孩子）多怀成长式的高期待，同时警惕负面标签的自我实现。",
+    "detailEn": "Mechanism: told certain children were 'bloomers' (randomly picked), teachers unwittingly gave more attention, patience and chance—and those kids did gain more. The loop: your expectation shapes your treatment, changes his performance, then confirms your expectation. Takeaway: hold growth-minded high expectations of others (especially children), and beware the self-trap of negative labels.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": ["first-impression", "self-efficacy", "motivation"],
+    "sources": [{ "label": "罗森塔尔与雅各布森《课堂中的皮格马利翁》", "labelEn": "Rosenthal & Jacobson, Pygmalion in the Classroom", "year": 1968 }]
+  },
+  {
+    "id": "exercise-mood",
+    "term": "运动为何能改善情绪",
+    "termEn": "Exercise and Mood",
+    "oneLiner": "不必跑马拉松，哪怕快走二三十分钟，也能实打实地减轻焦虑、抬升心情。",
+    "oneLinerEn": "No marathon needed—a brisk 20–30 minute walk reliably eases anxiety and lifts mood.",
+    "detail": "为什么：运动会释放内啡肽与内源大麻素，带来「跑者愉悦」；它同时降低压力激素、改善睡眠，并给出「我在照顾自己」的自我效能证据。对轻中度抑郁，规律有氧的效果在多项研究中可与部分治疗手段相当。怎么办：选喜欢的、能坚持的形式，「动起来」比「练多狠」更重要。",
+    "detailEn": "Why: exercise releases endorphins and endocannabinoids (the 'runner's high'), while lowering stress hormones, improving sleep and giving evidence of 'I care for myself'—self-efficacy. For mild-to-moderate depression, regular aerobic work in many studies rivals some treatments. What helps: pick a form you enjoy and can keep; 'moving' matters more than 'how hard'.",
+    "category": "健康",
+    "categoryEn": "Health",
+    "related": ["stress-coping", "emotion", "depression-mood"],
+    "sources": [{ "label": "《英国运动医学杂志》伞状综述", "labelEn": "BMJ Open Sport & Exercise Medicine umbrella review", "year": 2023 }]
+  },
+  {
+    "id": "default-effect",
+    "term": "「默认选项」如何替我们做决定",
+    "termEn": "The Default Effect",
+    "oneLiner": "预选好的选项，大多数人懒得改——一个小小的默认值，就能左右器官捐献与养老金。",
+    "oneLinerEn": "Pre-set options most won't bother to change—a tiny default can steer organ donation and pensions.",
+    "detail": "为什么：默认自带「推荐」的暗示，又省去决策成本；在复杂或陌生的选择面前，人倾向于随大流、维持现状。应用：把想推广的行为设为默认（如养老金自动加入、节能选项），效果远胜事后劝说。但也正因它强大，用得好是助推、滥用则是操纵，须警惕「暗桩」式默认。",
+    "detailEn": "Why: a default reads as a recommendation and saves the cost of deciding; before complex or unfamiliar choices people tend to stay put. Use: make the behavior you want the default (auto-enrolling pensions, energy-saving settings)—far stronger than after-the-fact persuasion. But precisely because it is powerful, well-used it nudges and abused it manipulates—beware 'dark-pattern' defaults.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": ["choice-overload", "status-quo-bias", "decision-fatigue"],
+    "sources": [{ "label": "约翰逊与戈德斯坦《默认的力量》", "labelEn": "Johnson & Goldstein, Defaults and Decision Outcomes", "year": 2003 }]
   }
 ]

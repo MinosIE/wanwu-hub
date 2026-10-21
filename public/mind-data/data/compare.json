@@ -94,5 +94,89 @@
     "eastEn": "Seeking help is often seen as 'family shame'.",
     "related": ["work-burnout"],
     "sources": [{ "label": "WHO (2014)", "year": 2014 }]
+  },
+  {
+    "id": "happiness-wellbeing",
+    "term": "幸福观：个人成就 vs 关系和谐",
+    "termEn": "Happiness: Personal Achievement vs Relational Harmony",
+    "oneLiner": "西方常把幸福系于「自我实现」，东亚更系于「关系和睦、内心知足」。",
+    "oneLinerEn": "The West ties happiness to self-achievement; East Asia more to harmonious relations and inner contentment.",
+    "detail": "西方（尤其北美）：幸福等于高唤起的积极情绪加上个人目标的达成，鼓励追逐激情与成就。中方／东亚：幸福更偏向低唤起的安宁、知足与「家和」，把个体放进关系网来衡量。跨文化调查显示两种成分都存在，只是权重不同。影响：你「快乐清单」上的第一项，往往已由文化预先写好。",
+    "detailEn": "West (esp. North America): happiness equals high-arousal positive affect plus reaching personal goals, prizing passion and achievement. China/East Asia: happiness leans toward low-arousal calm, contentment and family harmony, weighing the self within a relational net. Cross-cultural surveys find both ingredients present, only weighted differently—your happiness checklist's top item is often pre-written by culture.",
+    "west": "幸福 = 活出自己、达成所愿。",
+    "westEn": "Happiness = living your own life and reaching your aims.",
+    "east": "幸福 = 关系和顺、心满意足。",
+    "eastEn": "Happiness = smooth relations and a contented heart.",
+    "related": ["self-construal", "individualism-collectivism", "positive"],
+    "sources": [
+      {
+        "label": "内田《幸福的文化表征》",
+        "labelEn": "Uchiumi, Folk Representations of Well-Being",
+        "year": 2009
+      }
+    ]
+  },
+  {
+    "id": "guilt-shame-culture",
+    "term": "道德取向：罪感 vs 耻感",
+    "termEn": "Guilt vs Shame Culture",
+    "oneLiner": "一种文化靠「我做错了事」的内疚约束行为，另一种靠「我丢了人、被看穿」的羞耻来调节。",
+    "oneLinerEn": "One culture guides by guilt over 'what I did wrong'; another by shame over 'losing face, being seen'.",
+    "detail": "西方（常称罪感文化）：错误多由内在准则与对错界定，即使无人看见也自责，与普遍主义的规则相连。东亚（常被称耻感文化）：行为更由「他人怎么看、是否辱没身份」来约束，与情境、关系紧密。这并非优劣定论：内疚易生改过的动机，羞耻虽可能压垮人，却也深系荣辱与责任。真正起作用的是二者如何被文化放大。",
+    "detailEn": "West (a guilt culture): wrongs are defined by inner principles and right/wrong, self-blame even unseen, tied to universalist rules. East Asia (often called a shame culture): conduct is reined in by how others see it and whether face is lost, tied to context and relation. Not a verdict of better-or-worse: guilt breeds the motive to amend, while shame can crush yet also deep-binds honor and duty—what matters is how culture amplifies each.",
+    "west": "标尺：我是否违背了自己的原则。",
+    "westEn": "The yardstick: did I break my own principles?",
+    "east": "标尺：我是否失了身份、负了他人期待。",
+    "eastEn": "The yardstick: did I lose standing and fail others' hopes?",
+    "related": ["conformity-culture", "self-construal", "moral-development"],
+    "sources": [
+      {
+        "label": "鲁思·本尼迪克特《菊与刀》",
+        "labelEn": "Benedict, The Chrysanthemum and the Sword",
+        "year": 1946
+      }
+    ]
+  },
+  {
+    "id": "self-esteem-humility",
+    "term": "自尊观：自我肯定 vs 谦逊自省",
+    "termEn": "Self-Esteem: Affirmation vs Humility",
+    "oneLiner": "西方鼓励「看见并肯定自己的好」，东亚更重「自省与谦逊」，两者都在塑造人如何评价自己。",
+    "oneLinerEn": "The West urges seeing and affirming your worth; East Asia prizes self-reflection and humility—each shapes how people rate themselves.",
+    "detail": "西方：高自尊被当作心理健康的基石，孩子常被夸奖、被引导「为自己骄傲」。东亚：谦逊被视为美德，「木秀于林，风必摧之」，自我评价倾向低调、把成绩归于他人与机遇。研究发现，东亚人的自评常更抑扬、负面反馈更易被吸纳，但这与其自我提升的动机并不矛盾。启示：自尊的高低并非普世唯一的坐标，它被文化塑形。",
+    "detailEn": "West: high self-esteem is taken as a cornerstone of mental health, children praised and led to 'be proud of yourself'. East Asia: humility is a virtue—the tall poppy catches the wind—so self-rating stays modest and credit is given to others and occasion. Research finds East Asians' self-appraisal more self-effacing and negative feedback more readily absorbed, yet this sits fine with their motives to improve: the level of self-esteem is no universal single axis but is shaped by culture.",
+    "west": "健康 = 相信「我很好」并说出来。",
+    "westEn": "Health = believing 'I'm great' and saying so.",
+    "east": "成熟 = 低调自省、把光环让给他人。",
+    "eastEn": "Maturity = quiet self-reflection, yielding the spotlight.",
+    "related": ["self-construal", "self", "high-self-esteem"],
+    "sources": [
+      {
+        "label": "海因《文化与自我评价》",
+        "labelEn": "Heine, Cultural Influences on Self-Evaluation",
+        "year": 2006
+      }
+    ]
+  },
+  {
+    "id": "analytic-holistic-thinking",
+    "term": "思维方式：分析 vs 整体",
+    "termEn": "Analytic vs Holistic Thinking",
+    "oneLiner": "面对同一场景，一方先把物体从背景里「抠」出来分类，另一方先看它与环境的关系。",
+    "oneLinerEn": "At the same scene, one pulls the object from its background to classify it; the other first reads its relations to the field.",
+    "detail": "尼斯贝特等人的跨文化实验：看一段水中景物，西方被试更快注意焦点物体、按类别归组（分析式）；东亚被试更多提及背景、以及物体与环境的关联（整体式）。这延伸到归因（看情境还是看个人）与推理（重形式逻辑还是重辩证、容纳矛盾）。并非谁更聪明，而是文化把注意力默认指向了不同的层次。",
+    "detailEn": "Nisbett and colleagues' cross-cultural tests: watching an underwater scene, Western participants attended faster to the focal object and grouped it by category (analytic), while East Asians spoke more of the background and the object's relation to the field (holistic). It extends to attribution (context versus person) and reasoning (formal logic versus dialectic, holding contradiction). Neither is smarter—culture simply points attention at a different default level.",
+    "west": "先看「是什么」——把它从背景里分出来。",
+    "westEn": "First 'what it is'—carved out from the background.",
+    "east": "先看「和什么有关」——把它放回场里。",
+    "eastEn": "First 'what it relates to'—placed back in the field.",
+    "related": ["self-construal", "perception", "individualism-collectivism"],
+    "sources": [
+      {
+        "label": "尼斯贝特《思维的版图》",
+        "labelEn": "Nisbett, The Geography of Thought",
+        "year": 2003
+      }
+    ]
   }
 ]
