@@ -625,5 +625,61 @@
         "year": 1976
       }
     ]
+  },
+  {
+    "id": "confounding-variable",
+    "term": "混淆变量",
+    "termEn": "Confounding Variable",
+    "category": "方法",
+    "categoryEn": "Methods",
+    "def": "与研究变量、结果变量同时相关的第三方变量，让你无法判定因果究竟来自哪一个。",
+    "defEn": "A third variable related to both your factor and your outcome, leaving you unable to tell which caused what.",
+    "plain": "夏天冰淇淋卖得好、溺水也多，并非吃冰导致溺水——「气温」才是那个混淆变量。",
+    "plainEn": "Ice cream sells and drownings rise in summer—not because cones cause drowning, but because temperature confounds both.",
+    "related": ["correlation-vs-causation", "double-blind"],
+    "tags": ["方法"],
+    "sources": [{ "label": "香狄、库克、坎贝尔《准实验设计》", "labelEn": "Shadish, Cook & Campbell, Experimental and Quasi-Experimental Designs", "year": 2002 }]
+  },
+  {
+    "id": "negative-reinforcement",
+    "term": "负强化",
+    "termEn": "Negative Reinforcement",
+    "category": "行为",
+    "categoryEn": "Behavior",
+    "def": "撤销一个令人不适的刺激，从而增加该行为再次发生的概率——它属于强化（增多），不是惩罚。",
+    "defEn": "Removing an aversive stimulus to increase a behavior—it is reinforcement (more of the behavior), not punishment.",
+    "plain": "系上安全带以消除刺耳提示音，以后更爱系带：提示音被「逃掉」这件事强化了系带动作，这就是负强化。",
+    "plainEn": "Buckling up to silence a nagging chime makes you buckle more—the escape from the sound reinforces the action: negative reinforcement.",
+    "related": ["reinforcement", "punishment", "operant-conditioning"],
+    "tags": ["行为"],
+    "sources": [{ "label": "斯金纳《操作性条件》", "labelEn": "Skinner, Operant Behavior", "year": 1938 }]
+  },
+  {
+    "id": "random-assignment",
+    "term": "随机分配",
+    "termEn": "Random Assignment",
+    "category": "方法",
+    "categoryEn": "Methods",
+    "def": "用随机方式把被试分到各实验组，使组间在统计上可比，从而把差异归因于处理而非个体差异。",
+    "defEn": "Assigning participants to groups by chance so the groups are statistically alike and any difference traces to the treatment, not pre-existing traits.",
+    "plain": "抛硬币决定谁吃药、谁吃糖丸，两组原本可能有的差别就被平均掉了，效果差异才更能归功于药。",
+    "plainEn": "A coin flip decides who gets the pill and who the sugar pill—pre-existing differences average out, so any gap is creditable to the drug.",
+    "related": ["double-blind", "correlation-vs-causation"],
+    "tags": ["方法"],
+    "sources": [{ "label": "费希尔《实验设计论》", "labelEn": "Fisher, The Design of Experiments", "year": 1935 }]
+  },
+  {
+    "id": "partial-reinforcement",
+    "term": "部分强化",
+    "termEn": "Partial Reinforcement",
+    "category": "行为",
+    "categoryEn": "Behavior",
+    "def": "只在部分正确反应之后给予强化；它习得较慢，却比每次都给更能抵抗消退。",
+    "defEn": "Reinforcing only some correct responses; it learns more slowly but resists extinction better than always-reward.",
+    "plain": "老虎机并不每次都吐币，正因「偶尔中奖」难以预测，才最让人停不下来、也最难消退。",
+    "plainEn": "A slot machine pays only now and then—and that unpredictable 'sometimes I win' is what makes it hardest to stop and hardest to extinguish.",
+    "related": ["reinforcement", "extinction", "conditioning"],
+    "tags": ["行为"],
+    "sources": [{ "label": "Ferster & Skinner (1957)", "year": 1957 }]
   }
 ]

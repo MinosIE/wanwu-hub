@@ -801,5 +801,123 @@
     "related": ["intelligence", "emotion", "mbti", "multiple-intelligence"],
     "tags": ["差异", "情绪"],
     "sources": [{ "label": "Salovey & Mayer (1990)", "year": 1990 }]
+  },
+  {
+    "id": "classical-conditioning",
+    "term": "经典条件作用",
+    "termEn": "Classical Conditioning",
+    "category": "行为",
+    "categoryEn": "Behavior",
+    "level": 1,
+    "oneLiner": "把中性信号与天生反应反复配对，信号本身最终就能唤起那份反应。",
+    "oneLinerEn": "Pair a neutral signal with an innate reflex again and again, and the signal alone comes to trigger it.",
+    "detail": "巴甫洛夫注意到，狗只要在喂食员出现、铃声响过，即使食物未到也会流口水：原本中性的铃声（条件刺激）与天然引发唾液的肉粉（无条件刺激）多次同现，便在脑中结成联结，单独响起也能唤起唾液（条件反应）。这解释了为何某种气味会瞬间勾起情绪、广告要把产品与愉悦画面绑定。关键在「先后紧邻、反复配对」，而非狗「想要」食物；消退也由此发生——条件刺激反复不再伴随无条件刺激，联结便逐渐弱化。",
+    "detailEn": "Pavlov found that once the feeder appeared or a bell rang, dogs drooled before any food came: the neutral bell (conditioned stimulus) kept arriving with the meat powder that naturally caused salivation (unconditioned stimulus), so a link formed and the bell alone drew the response (conditioned response). This explains why a scent can summon a feeling in a flash, or why ads bind a product to pleasant images. The mechanism is tight, repeated pairing, not the dog 'wanting' food; and extinction follows when the signal stops being backed by the reward.",
+    "example": "一听到牙钻声就心里一紧——那声音与疼痛反复同现，本身已成了触发紧张的信号。",
+    "exampleEn": "Wincing at the sound of a dental drill—the noise, paired so often with pain, has itself become the cue that sparks tension.",
+    "related": [
+      "operant-conditioning",
+      "pavlov",
+      "learning"
+    ],
+    "tags": [
+      "行为",
+      "学习"
+    ],
+    "sources": [
+      {
+        "label": "巴甫洛夫《条件反射研究》",
+        "labelEn": "Pavlov, Conditioned Reflexes",
+        "year": 1927
+      }
+    ]
+  },
+  {
+    "id": "cognitive-load",
+    "term": "认知负荷",
+    "termEn": "Cognitive Load",
+    "category": "认知",
+    "categoryEn": "Cognition",
+    "level": 2,
+    "oneLiner": "工作记忆一次只能扛有限的信息，教学与设计若不超载，学习才可能发生。",
+    "oneLinerEn": "Working memory holds only so much at once; unless teaching and design avoid overloading it, learning can't happen.",
+    "detail": "米勒发现工作记忆容量狭小，斯威勒据此提出认知负荷理论：把加工负担分成「内在负荷」（材料本身的复杂度）、「外在负荷」（呈现方式带来的额外消耗）与「关联负荷」（用于建构图式的有益投入）。好的教学设计不该去削减必要的内在难度，而应竭力降低外在负荷——去掉花哨却无关的装饰、把图与文就近放置而非分列两页——从而把有限的心智资源留给真正的理解。界面一旦堆满弹窗与无关动效，人就会因超载而迷失。",
+    "detailEn": "Miller showed working memory is cramped, and Sweller built cognitive-load theory on it: split the burden into intrinsic load (the material's own complexity), extraneous load (waste forced by how it's presented) and germane load (the useful investment in building schemas). Good design shouldn't trim the necessary intrinsic difficulty but should ruthlessly cut the extraneous—drop the fancy-yet-irrelevant decoration, place words beside the figure instead of on a separate page—so scarce mental resources go to real understanding. Packed with pop-ups and irrelevant motion, an interface leaves users lost in overload.",
+    "example": "把步骤说明直接标在图上、而非另开一页，读者不必在两处来回对照，认知负荷立刻下降。",
+    "exampleEn": "Label the steps right on the diagram rather than on another page—readers stop shuttling between the two, and the load drops at once.",
+    "related": [
+      "working-memory",
+      "chunking",
+      "schema"
+    ],
+    "tags": [
+      "认知",
+      "学习"
+    ],
+    "sources": [
+      {
+        "label": "Sweller (1988)",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "id": "self-concept",
+    "term": "自我概念",
+    "termEn": "Self-Concept",
+    "category": "社会",
+    "categoryEn": "Social",
+    "level": 2,
+    "oneLiner": "对自己是谁、能做什么、值不值得被爱的整套信念，它塑造情绪，也筛选经验。",
+    "oneLinerEn": "The settled beliefs about who you are, what you can do and whether you're worth loving—they shape feeling and filter experience.",
+    "detail": "自我概念是关于我们自己的知识的组织：我是谁、我是什么样的人、我在意什么。它多来自过往经验与他人的反馈（尤其重要他人的评价），并经自我图式被主动维护——我们更留意、也更记得那些与既有自我相一致的信息。当「理想的自我」「应当的自我」与「现实的自我」差距过大，焦虑与低落便随之而来；反之，清晰而稳定的自我概念能带来一致感与韧性。它并非一成不变：持续的成败、重要的人生转折与心理治疗都能重塑它。",
+    "detailEn": "Self-concept is the organized body of knowledge about ourselves—who we are, what we are like, what we care about. It grows largely from past experience and others' feedback (above all from significant others) and is actively maintained through self-schemas, so we notice and better remember what fits the existing self. When the 'ideal self', the 'ought self' and the 'actual self' fall far apart, anxiety and low mood follow; a clear, stable self-concept instead brings coherence and resilience. And it is not fixed—repeated wins and losses, major turning points and therapy can all reshape it.",
+    "example": "一个自认「不擅长数学」的学生，会更容易把一次低分当作「果然如此」的证据，而忽略考好的时刻。",
+    "exampleEn": "A student who believes 'I'm bad at math' more readily reads one low score as 'see, just as I thought', while overlooking the times they did well.",
+    "related": [
+      "self",
+      "identity",
+      "self-efficacy"
+    ],
+    "tags": [
+      "自我",
+      "人格"
+    ],
+    "sources": [
+      {
+        "label": "Markus & Wurf (1987)",
+        "year": 1987
+      }
+    ]
+  },
+  {
+    "id": "empathy",
+    "term": "共情",
+    "termEn": "Empathy",
+    "category": "社会",
+    "categoryEn": "Social",
+    "level": 1,
+    "oneLiner": "既能感受他人的情绪（情感共情），又能读懂其视角（认知共情），是亲社会行为的引擎。",
+    "oneLinerEn": "Feeling another's emotion (affective empathy) and reading their perspective (cognitive empathy) together drive prosocial behavior.",
+    "detail": "共情至少走两条通路：情感共情让人像被「传染」般染上他人情绪，婴儿见人哭自己也跟着哭；认知共情（常与「心理理论」相通）则让我们站到他人的立场，理解其处境而未必同感其情。二者可以分离——有人极易被别人的痛苦淹没，却读不准对方究竟在想什么。共情一半天生、一半可练：镜像与模仿打下底子，而扩大「我们」的圈层、主动换位想象都能加深它。它催生助人，却也「偏私」——我们更容易共情「自己人」，这恰恰是道德推理需要矫正的地方。",
+    "detailEn": "Empathy runs on at least two routes: affective empathy leaves us 'caught' by another's feeling—an infant cries at the sight of another crying—while cognitive empathy (akin to theory of mind) lets us stand in their shoes and grasp their situation without necessarily sharing the feeling. The two can come apart: some are overwhelmed by others' pain yet read their minds poorly. Empathy is half innate, half trainable—mirroring and imitation lay the groundwork, and widening the 'we' and actively imagining their view deepen it. It sparks helping but is also partial—we empathize most easily with our own, just the bias moral reasoning must correct.",
+    "example": "朋友失业，你既感到胸口一沉（情感共情），也明白他正担心自我价值（认知共情），安慰才会说到点上。",
+    "exampleEn": "A friend loses a job: you feel a heaviness (affective) and grasp their worry about worth (cognitive)—only then does your comfort land rightly.",
+    "related": [
+      "theory-of-mind",
+      "self",
+      "attribution"
+    ],
+    "tags": [
+      "社会",
+      "情绪"
+    ],
+    "sources": [
+      {
+        "label": "霍夫曼《共情的起源与发展》",
+        "labelEn": "Hoffman, Foundations of Empathy",
+        "year": 2000
+      }
+    ]
   }
 ]
