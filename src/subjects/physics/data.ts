@@ -1291,6 +1291,66 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
+        {
+          id: "relativity-simultaneity",
+          icon: "⏱️",
+          term: { zh: "同时的相对性", en: "Relativity of Simultaneity" },
+          level: 3,
+          oneLiner: {
+            zh: "两件事是否「同时」发生取决于观察者的运动状态，没有绝对的全域此刻。",
+            en: "Whether two events are simultaneous depends on the observer's motion; there is no universal now.",
+          },
+          detail: {
+            zh: "高速行驶的列车上，车头车尾两道闪电对车上的人可能不同时、对站台的人却可能同时；时间与空间随参考系而重新划分。",
+            en: "Lightning at a fast train's front and rear may be non-simultaneous to riders yet simultaneous on the platform; time and space are re-parted by each frame.",
+          },
+          tags: [{ zh: "现代物理", en: "Modern Physics" }],
+        },
+        {
+          id: "equivalence-principle",
+          icon: "🛗",
+          term: { zh: "等效原理", en: "Equivalence Principle" },
+          level: 3,
+          oneLiner: {
+            zh: "引力与加速度在局部不可区分，这是广义相对论的基石。",
+            en: "Gravity and acceleration are locally indistinguishable—the cornerstone of general relativity.",
+          },
+          detail: {
+            zh: "在密闭电梯里，人无法分辨是静止于地面还是在深空被匀加速；既然加速度可使光线弯曲，引力也必然使光线弯曲，由此走向时空的几何。",
+            en: "In a sealed lift one cannot tell rest on Earth from uniform acceleration in deep space; since acceleration can bend light, gravity must too—leading to the curved geometry of spacetime.",
+          },
+          tags: [{ zh: "现代物理", en: "Modern Physics" }],
+        },
+        {
+          id: "gravitational-time",
+          icon: "🕰️",
+          term: { zh: "引力使时间变慢", en: "Gravitational Time Dilation" },
+          level: 3,
+          oneLiner: {
+            zh: "引力越强、时钟走得越慢；山脚的表比山顶的略慢。",
+            en: "The stronger the gravity, the slower clocks run; a clock at a mountain's foot lags one at its peak.",
+          },
+          detail: {
+            zh: "近大质量天体处时间流逝变缓，这正是全球定位卫星必须校正的效应，也是电影里「天上一日、地上一年」的物理雏形。",
+            en: "Time slows near mass—precisely the correction orbiting position satellites need, and the physics behind 'a day up high, a year below' in film.",
+          },
+          tags: [{ zh: "现代物理", en: "Modern Physics" }],
+        },
+        {
+          id: "mass-velocity",
+          icon: "🚀",
+          term: { zh: "质速关系", en: "Mass-Speed Relation" },
+          level: 3,
+          oneLiner: {
+            zh: "物体速度越接近光速，加速它越难，等效惯性随之增大。",
+            en: "The closer to light speed, the harder to accelerate—an effective rise in inertia.",
+          },
+          detail: {
+            zh: "随速度升高，动量增长快于经典预期，任何有质量的物体都无法被推到光速；这解释了粒子加速器里电子越飙越「重」。",
+            en: "Momentum grows faster than classical physics expects with speed, so no massive body can be pushed to light speed—why electrons in accelerators feel ever heavier as they race.",
+          },
+          tags: [{ zh: "现代物理", en: "Modern Physics" }],
+        },
       ],
     },
     /* ===================== 原子物理与原子核（含示意图） ===================== */
@@ -1842,6 +1902,66 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           detail: {
             zh: "无线电用于通信广播，微波用于雷达与加热，红外线遥感与热成像，可见光是视觉，紫外线杀菌，X 射线成像，γ 射线治疗与探伤。",
             en: "Radio for comms, microwaves for radar/heating, infrared for remote sensing, visible for sight, UV for sterilizing, X-rays for imaging, gamma for therapy/inspection.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "fiber-optics",
+          icon: "🔦",
+          term: { zh: "光纤通信", en: "Fiber-Optic Communication" },
+          level: 2,
+          oneLiner: {
+            zh: "让光在玻璃纤维中全反射长途奔流，承载现代互联网的信息洪流。",
+            en: "Light races by total internal reflection through glass fibers, carrying the flood of modern internet data.",
+          },
+          detail: {
+            zh: "利用光的全反射把信号锁在纤芯内几乎无损地传输，一条光纤可同时传送海量通话与网络数据，构成全球通信的骨干。",
+            en: "Total internal reflection traps the signal in the core with little loss; one fiber carries vast simultaneous voice and data traffic—the backbone of global communication.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "mri",
+          icon: "🧲",
+          term: { zh: "磁共振成像", en: "Magnetic Resonance Imaging" },
+          level: 3,
+          oneLiner: {
+            zh: "用强磁场与无线电波让人体内的氢原子发出信号，绘制无损的软组织图像。",
+            en: "Strong fields and radio waves make body hydrogen emit signals, painting soft-tissue images without radiation.",
+          },
+          detail: {
+            zh: "氢核在磁场中按特定频率共振，撤去脉冲后回波被接收并重建为断层图像；因不含电离辐射，特别适合观察脑与关节等软组织。",
+            en: "Hydrogen nuclei resonate at a set frequency in the field; after pulses their echoes are received and rebuilt into slices—free of ionizing radiation, ideal for brain and joints.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "particle-accelerator",
+          icon: "⚛️",
+          term: { zh: "粒子加速器", en: "Particle Accelerator" },
+          level: 3,
+          oneLiner: {
+            zh: "用电磁场把微观粒子加速到近光速并对撞，揭示物质最深处的结构。",
+            en: "Electric and magnetic fields drive particles near light speed and smash them, probing matter's innermost structure.",
+          },
+          detail: {
+            zh: "大型强子对撞机等环形加速器将质子加速对撞，从碰撞碎片中寻找希格斯玻色子等粒子，是研究基本相互作用的前沿工具。",
+            en: "Ring machines like the Large Hadron Collider speed protons into collisions, seeking particles such as the Higgs boson among the debris—a frontier tool for the fundamental forces.",
+          },
+          tags: [{ zh: "应用", en: "Application" }],
+        },
+        {
+          id: "quantum-computing",
+          icon: "💠",
+          term: { zh: "量子计算", en: "Quantum Computing" },
+          level: 3,
+          oneLiner: {
+            zh: "利用量子叠加与纠缠并行探索答案，在特定问题上远超经典计算机。",
+            en: "Exploiting superposition and entanglement to explore answers in parallel, far outpacing classical machines on select problems.",
+          },
+          detail: {
+            zh: "量子比特可同时处于零与一的叠加，多比特纠缠令状态空间指数膨胀，在因数分解、模拟分子等任务上潜力巨大，但离通用普及尚远。",
+            en: "A qubit holds a blend of zero and one at once, and entangling many grows the state space exponentially—huge promise for factoring and simulating molecules, yet far from general use.",
           },
           tags: [{ zh: "应用", en: "Application" }],
         },

@@ -63,5 +63,57 @@
     "detailEn": "Radio for comms, microwaves for radar/heating, infrared for remote sensing, visible for sight, UV for sterilizing, X-rays for imaging, gamma for therapy/inspection.",
     "tags": ["应用"],
     "tagsEn": ["Application"]
+  },
+  {
+    "id": "fiber-optics",
+    "icon": "🔦",
+    "term": "光纤通信",
+    "termEn": "Fiber-Optic Communication",
+    "level": 2,
+    "oneLiner": "让光在玻璃纤维中全反射长途奔流，承载现代互联网的信息洪流。",
+    "oneLinerEn": "Light races by total internal reflection through glass fibers, carrying the flood of modern internet data.",
+    "detail": "利用光的全反射把信号锁在纤芯内几乎无损地传输，一条光纤可同时传送海量通话与网络数据，构成全球通信的骨干。",
+    "detailEn": "Total internal reflection traps the signal in the core with little loss; one fiber carries vast simultaneous voice and data traffic—the backbone of global communication.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "mri",
+    "icon": "🧲",
+    "term": "磁共振成像",
+    "termEn": "Magnetic Resonance Imaging",
+    "level": 3,
+    "oneLiner": "用强磁场与无线电波让人体内的氢原子发出信号，绘制无损的软组织图像。",
+    "oneLinerEn": "Strong fields and radio waves make body hydrogen emit signals, painting soft-tissue images without radiation.",
+    "detail": "氢核在磁场中按特定频率共振，撤去脉冲后回波被接收并重建为断层图像；因不含电离辐射，特别适合观察脑与关节等软组织。",
+    "detailEn": "Hydrogen nuclei resonate at a set frequency in the field; after pulses their echoes are received and rebuilt into slices—free of ionizing radiation, ideal for brain and joints.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "particle-accelerator",
+    "icon": "⚛️",
+    "term": "粒子加速器",
+    "termEn": "Particle Accelerator",
+    "level": 3,
+    "oneLiner": "用电磁场把微观粒子加速到近光速并对撞，揭示物质最深处的结构。",
+    "oneLinerEn": "Electric and magnetic fields drive particles near light speed and smash them, probing matter's innermost structure.",
+    "detail": "大型强子对撞机等环形加速器将质子加速对撞，从碰撞碎片中寻找希格斯玻色子等粒子，是研究基本相互作用的前沿工具。",
+    "detailEn": "Ring machines like the Large Hadron Collider speed protons into collisions, seeking particles such as the Higgs boson among the debris—a frontier tool for the fundamental forces.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
+  },
+  {
+    "id": "quantum-computing",
+    "icon": "💠",
+    "term": "量子计算",
+    "termEn": "Quantum Computing",
+    "level": 3,
+    "oneLiner": "利用量子叠加与纠缠并行探索答案，在特定问题上远超经典计算机。",
+    "oneLinerEn": "Exploiting superposition and entanglement to explore answers in parallel, far outpacing classical machines on select problems.",
+    "detail": "量子比特可同时处于零与一的叠加，多比特纠缠令状态空间指数膨胀，在因数分解、模拟分子等任务上潜力巨大，但离通用普及尚远。",
+    "detailEn": "A qubit holds a blend of zero and one at once, and entangling many grows the state space exponentially—huge promise for factoring and simulating molecules, yet far from general use.",
+    "tags": ["应用"],
+    "tagsEn": ["Application"]
   }
 ]

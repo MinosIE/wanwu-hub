@@ -66,5 +66,57 @@
     "detailEn": "Predicts light bending, gravitational redshift, black holes and waves — all observed.",
     "tags": ["现代物理"],
     "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "relativity-simultaneity",
+    "icon": "⏱️",
+    "term": "同时的相对性",
+    "termEn": "Relativity of Simultaneity",
+    "level": 3,
+    "oneLiner": "两件事是否「同时」发生取决于观察者的运动状态，没有绝对的全域此刻。",
+    "oneLinerEn": "Whether two events are simultaneous depends on the observer's motion; there is no universal now.",
+    "detail": "高速行驶的列车上，车头车尾两道闪电对车上的人可能不同时、对站台的人却可能同时；时间与空间随参考系而重新划分。",
+    "detailEn": "Lightning at a fast train's front and rear may be non-simultaneous to riders yet simultaneous on the platform; time and space are re-parted by each frame.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "equivalence-principle",
+    "icon": "🛗",
+    "term": "等效原理",
+    "termEn": "Equivalence Principle",
+    "level": 3,
+    "oneLiner": "引力与加速度在局部不可区分，这是广义相对论的基石。",
+    "oneLinerEn": "Gravity and acceleration are locally indistinguishable—the cornerstone of general relativity.",
+    "detail": "在密闭电梯里，人无法分辨是静止于地面还是在深空被匀加速；既然加速度可使光线弯曲，引力也必然使光线弯曲，由此走向时空的几何。",
+    "detailEn": "In a sealed lift one cannot tell rest on Earth from uniform acceleration in deep space; since acceleration can bend light, gravity must too—leading to the curved geometry of spacetime.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "gravitational-time",
+    "icon": "🕰️",
+    "term": "引力使时间变慢",
+    "termEn": "Gravitational Time Dilation",
+    "level": 3,
+    "oneLiner": "引力越强、时钟走得越慢；山脚的表比山顶的略慢。",
+    "oneLinerEn": "The stronger the gravity, the slower clocks run; a clock at a mountain's foot lags one at its peak.",
+    "detail": "近大质量天体处时间流逝变缓，这正是全球定位卫星必须校正的效应，也是电影里「天上一日、地上一年」的物理雏形。",
+    "detailEn": "Time slows near mass—precisely the correction orbiting position satellites need, and the physics behind 'a day up high, a year below' in film.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "mass-velocity",
+    "icon": "🚀",
+    "term": "质速关系",
+    "termEn": "Mass-Speed Relation",
+    "level": 3,
+    "oneLiner": "物体速度越接近光速，加速它越难，等效惯性随之增大。",
+    "oneLinerEn": "The closer to light speed, the harder to accelerate—an effective rise in inertia.",
+    "detail": "随速度升高，动量增长快于经典预期，任何有质量的物体都无法被推到光速；这解释了粒子加速器里电子越飙越「重」。",
+    "detailEn": "Momentum grows faster than classical physics expects with speed, so no massive body can be pushed to light speed—why electrons in accelerators feel ever heavier as they race.",
+    "tags": ["现代物理"],
+    "tagsEn": ["Modern Physics"]
   }
 ]
