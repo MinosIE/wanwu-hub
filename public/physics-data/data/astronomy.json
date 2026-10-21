@@ -77,5 +77,57 @@
     "detailEn": "LIGO first detected them in 2015 from merging black holes.",
     "tags": ["现代物理"],
     "tagsEn": ["Modern Physics"]
+  },
+  {
+    "id": "stellar-evolution",
+    "icon": "⭐",
+    "term": "恒星的一生",
+    "termEn": "Stellar Evolution",
+    "level": 2,
+    "oneLiner": "恒星由星云引力坍缩点燃，历经主序、膨胀，最终坍缩或爆发，结局由初始质量决定。",
+    "oneLinerEn": "Stars ignite by gravitational collapse, live on the main sequence, then end as white dwarf, neutron star or black hole by mass.",
+    "detail": "氢聚变为氦释放辐射压以对抗引力；燃料耗尽后，小质量恒星抛出行星状星云留下白矮星，大质量者经超新星爆发留下中子星或黑洞，重元素也由此播撒宇宙。",
+    "detailEn": "Hydrogen fusion balances gravity; when fuel runs out, low-mass stars shed shells as white dwarfs, massive ones explode as supernovae leaving neutron stars or black holes and seeding the cosmos with heavy elements.",
+    "tags": ["天体"],
+    "tagsEn": ["Astronomy"]
+  },
+  {
+    "id": "cosmic-microwave-background",
+    "icon": "📻",
+    "term": "宇宙微波背景",
+    "termEn": "Cosmic Microwave Background",
+    "level": 3,
+    "oneLiner": "大爆炸约三十八万年后遗留的宇宙「余晖」，充满全天，温度仅约三开尔文。",
+    "oneLinerEn": "The afterglow of the Big Bang released some 380,000 years in, filling all sky at barely about three kelvin.",
+    "detail": "炽热早期宇宙冷却到电子与质子结合成原子、光得以自由穿行，那束古老辐射今天被宇宙膨胀红移为微波；其微小的温度涨落正是星系诞生的种子。",
+    "detailEn": "As the hot early universe cooled enough for atoms to form, light streamed free; that ancient glow is now redshifted to microwaves, and its tiny temperature ripples are the seeds of galaxies.",
+    "tags": ["宇宙学"],
+    "tagsEn": ["Cosmology"]
+  },
+  {
+    "id": "dark-matter",
+    "icon": "🌑",
+    "term": "暗物质",
+    "termEn": "Dark Matter",
+    "level": 3,
+    "oneLiner": "不发光、只靠引力显现的神秘物质，约占宇宙物质总量的八成。",
+    "oneLinerEn": "Invisible matter felt only through gravity, making up roughly four-fifths of the universe's matter.",
+    "detail": "星系外缘的旋转速度、引力透镜弯折的光与宇宙大尺度结构，都要求存在远超可见星的额外质量；其候选粒子至今尚未被直接探测到。",
+    "detailEn": "Galaxy rotation curves, the light bent by gravitational lensing and cosmic structure all demand far more mass than stars supply; candidate particles remain undetected.",
+    "tags": ["宇宙学"],
+    "tagsEn": ["Cosmology"]
+  },
+  {
+    "id": "cosmic-distance",
+    "icon": "📏",
+    "term": "光年与宇宙尺度",
+    "termEn": "Light-Years & Cosmic Distance",
+    "level": 1,
+    "oneLiner": "光年指的是光在一年里走过的距离，约十万亿公里；浩瀚宇宙用光年与秒差距来丈量。",
+    "oneLinerEn": "A light-year is the distance light crosses in a year, some ten trillion km; the vast cosmos is measured in light-years and parsecs.",
+    "detail": "离太阳最近的恒星约四光年之遥。天文学家用三角视差、标准烛光等「宇宙量天尺」，逐级丈量由近及远的天体距离，看远方即是在回溯过去。",
+    "detailEn": "The nearest star lies just over four light-years off; astronomers ladder up distance by parallax and standard candles, and in looking far away they look back in time.",
+    "tags": ["天体"],
+    "tagsEn": ["Astronomy"]
   }
 ]

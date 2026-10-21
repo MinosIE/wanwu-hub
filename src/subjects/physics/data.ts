@@ -1145,6 +1145,66 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "现代物理", en: "Modern Physics" }],
         },
+        {
+          id: "stellar-evolution",
+          icon: "⭐",
+          term: { zh: "恒星的一生", en: "Stellar Evolution" },
+          level: 2,
+          oneLiner: {
+            zh: "恒星由星云引力坍缩点燃，历经主序、膨胀，最终坍缩或爆发，结局由初始质量决定。",
+            en: "Stars ignite by gravitational collapse, live on the main sequence, then end as white dwarf, neutron star or black hole by mass.",
+          },
+          detail: {
+            zh: "氢聚变为氦释放辐射压以对抗引力；燃料耗尽后，小质量恒星抛出行星状星云留下白矮星，大质量者经超新星爆发留下中子星或黑洞，重元素也由此播撒宇宙。",
+            en: "Hydrogen fusion balances gravity; when fuel runs out, low-mass stars shed shells as white dwarfs, massive ones explode as supernovae leaving neutron stars or black holes and seeding the cosmos with heavy elements.",
+          },
+          tags: [{ zh: "天体", en: "Astronomy" }],
+        },
+        {
+          id: "cosmic-microwave-background",
+          icon: "📻",
+          term: { zh: "宇宙微波背景", en: "Cosmic Microwave Background" },
+          level: 3,
+          oneLiner: {
+            zh: "大爆炸约三十八万年后遗留的宇宙「余晖」，充满全天，温度仅约三开尔文。",
+            en: "The afterglow of the Big Bang released some 380,000 years in, filling all sky at barely about three kelvin.",
+          },
+          detail: {
+            zh: "炽热早期宇宙冷却到电子与质子结合成原子、光得以自由穿行，那束古老辐射今天被宇宙膨胀红移为微波；其微小的温度涨落正是星系诞生的种子。",
+            en: "As the hot early universe cooled enough for atoms to form, light streamed free; that ancient glow is now redshifted to microwaves, and its tiny temperature ripples are the seeds of galaxies.",
+          },
+          tags: [{ zh: "宇宙学", en: "Cosmology" }],
+        },
+        {
+          id: "dark-matter",
+          icon: "🌑",
+          term: { zh: "暗物质", en: "Dark Matter" },
+          level: 3,
+          oneLiner: {
+            zh: "不发光、只靠引力显现的神秘物质，约占宇宙物质总量的八成。",
+            en: "Invisible matter felt only through gravity, making up roughly four-fifths of the universe's matter.",
+          },
+          detail: {
+            zh: "星系外缘的旋转速度、引力透镜弯折的光与宇宙大尺度结构，都要求存在远超可见星的额外质量；其候选粒子至今尚未被直接探测到。",
+            en: "Galaxy rotation curves, the light bent by gravitational lensing and cosmic structure all demand far more mass than stars supply; candidate particles remain undetected.",
+          },
+          tags: [{ zh: "宇宙学", en: "Cosmology" }],
+        },
+        {
+          id: "cosmic-distance",
+          icon: "📏",
+          term: { zh: "光年与宇宙尺度", en: "Light-Years & Cosmic Distance" },
+          level: 1,
+          oneLiner: {
+            zh: "光年指的是光在一年里走过的距离，约十万亿公里；浩瀚宇宙用光年与秒差距来丈量。",
+            en: "A light-year is the distance light crosses in a year, some ten trillion km; the vast cosmos is measured in light-years and parsecs.",
+          },
+          detail: {
+            zh: "离太阳最近的恒星约四光年之遥。天文学家用三角视差、标准烛光等「宇宙量天尺」，逐级丈量由近及远的天体距离，看远方即是在回溯过去。",
+            en: "The nearest star lies just over four light-years off; astronomers ladder up distance by parallax and standard candles, and in looking far away they look back in time.",
+          },
+          tags: [{ zh: "天体", en: "Astronomy" }],
+        },
       ],
     },
     /* ===================== 相对论 ===================== */
@@ -1571,6 +1631,67 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "机翼上凸下平使上方流速大、压强小而产生升力；两船并行相吸、火车站安全线都源于此。",
             en: "A wing's curved top speeds flow and lowers pressure, giving lift; parallel ships attract and platform safety lines stem from this.",
           },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "surface-tension",
+          icon: "💧",
+          term: { zh: "表面张力", en: "Surface Tension" },
+          level: 2,
+          oneLiner: {
+            zh: "液体表面像一层绷紧的薄膜，使液滴收成球形、让轻小物体浮于水面。",
+            en: "A liquid's surface acts like a stretched skin, beading drops and holding light objects afloat.",
+          },
+          detail: {
+            zh: "表面层分子被内部拉扯而收缩，宏观表现为沿表面作用的张力；水黾停于水面、缝针可浮、肥皂减弱表面张力得以去污，皆源于此。",
+            en: "Surface molecules are pulled inward so the layer contracts, seen as tension along the surface; water striders, a floating needle and soap's cleaning all follow from it.",
+          },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "capillary-action",
+          icon: "🌱",
+          term: { zh: "毛细现象", en: "Capillary Action" },
+          level: 2,
+          oneLiner: {
+            zh: "细管中的液面会自动升高或下降，管越细现象越明显。",
+            en: "Liquid climbs or falls in narrow tubes, and the thinner the tube the stronger the effect.",
+          },
+          detail: {
+            zh: "当附着层分子引力大于液体内聚力，液体便润湿管壁并沿细管上升；植物体内输水、纸巾吸墨、砖石吸潮都是毛细作用。",
+            en: "Where adhesion beats cohesion a wetting liquid rises in a thin tube; water transport in plants, blotting ink and damp masonry all run on capillarity.",
+          },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "viscosity",
+          icon: "🍯",
+          term: { zh: "流体的黏性", en: "Viscosity" },
+          level: 2,
+          oneLiner: {
+            zh: "流体内部阻碍各层相对滑动的「内摩擦」，蜂蜜比水黏得多。",
+            en: "Internal friction resisting layers sliding past one another; honey is far more viscous than water.",
+          },
+          detail: {
+            zh: "黏度越大流动越慢、阻力越大；机油随温度变稠或变稀会改变润滑效果，血液与岩浆的流动同样由黏性主宰。",
+            en: "Higher viscosity means slower flow and more drag; engine oil thickening or thinning with temperature changes its lubrication, while blood and magma flow are governed by viscosity.",
+          },
+          tags: [{ zh: "流体", en: "Fluids" }],
+        },
+        {
+          id: "continuity-equation",
+          icon: "🚰",
+          term: { zh: "流量与连续性", en: "Flow Rate & Continuity" },
+          level: 3,
+          oneLiner: {
+            zh: "稳定流动中，同一流体通过任一截面的流量相等，管细处流速必大。",
+            en: "In steady flow the same fluid carries equal volume rate through every cross-section, so narrower parts run faster.",
+          },
+          detail: {
+            zh: "截面积与流速成反比：捏住水管出口水柱喷得更快，河流在狭窄处水急、开阔处水缓。这正是连续性方程的体现。",
+            en: "Area and speed trade inversely: pinching a hose outlet speeds the jet, and rivers run fast in narrows and slow in open reaches—the continuity equation at work.",
+          },
+          eq: { lhs: "S1v1", rhs: "S2v2", rel: "equal" },
           tags: [{ zh: "流体", en: "Fluids" }],
         },
       ],

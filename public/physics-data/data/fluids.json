@@ -66,5 +66,58 @@
     "detailEn": "A wing's curved top speeds flow and lowers pressure, giving lift; parallel ships attract and platform safety lines stem from this.",
     "tags": ["流体"],
     "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "surface-tension",
+    "icon": "💧",
+    "term": "表面张力",
+    "termEn": "Surface Tension",
+    "level": 2,
+    "oneLiner": "液体表面像一层绷紧的薄膜，使液滴收成球形、让轻小物体浮于水面。",
+    "oneLinerEn": "A liquid's surface acts like a stretched skin, beading drops and holding light objects afloat.",
+    "detail": "表面层分子被内部拉扯而收缩，宏观表现为沿表面作用的张力；水黾停于水面、缝针可浮、肥皂减弱表面张力得以去污，皆源于此。",
+    "detailEn": "Surface molecules are pulled inward so the layer contracts, seen as tension along the surface; water striders, a floating needle and soap's cleaning all follow from it.",
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "capillary-action",
+    "icon": "🌱",
+    "term": "毛细现象",
+    "termEn": "Capillary Action",
+    "level": 2,
+    "oneLiner": "细管中的液面会自动升高或下降，管越细现象越明显。",
+    "oneLinerEn": "Liquid climbs or falls in narrow tubes, and the thinner the tube the stronger the effect.",
+    "detail": "当附着层分子引力大于液体内聚力，液体便润湿管壁并沿细管上升；植物体内输水、纸巾吸墨、砖石吸潮都是毛细作用。",
+    "detailEn": "Where adhesion beats cohesion a wetting liquid rises in a thin tube; water transport in plants, blotting ink and damp masonry all run on capillarity.",
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "viscosity",
+    "icon": "🍯",
+    "term": "流体的黏性",
+    "termEn": "Viscosity",
+    "level": 2,
+    "oneLiner": "流体内部阻碍各层相对滑动的「内摩擦」，蜂蜜比水黏得多。",
+    "oneLinerEn": "Internal friction resisting layers sliding past one another; honey is far more viscous than water.",
+    "detail": "黏度越大流动越慢、阻力越大；机油随温度变稠或变稀会改变润滑效果，血液与岩浆的流动同样由黏性主宰。",
+    "detailEn": "Higher viscosity means slower flow and more drag; engine oil thickening or thinning with temperature changes its lubrication, while blood and magma flow are governed by viscosity.",
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
+  },
+  {
+    "id": "continuity-equation",
+    "icon": "🚰",
+    "term": "流量与连续性",
+    "termEn": "Flow Rate & Continuity",
+    "level": 3,
+    "oneLiner": "稳定流动中，同一流体通过任一截面的流量相等，管细处流速必大。",
+    "oneLinerEn": "In steady flow the same fluid carries equal volume rate through every cross-section, so narrower parts run faster.",
+    "detail": "截面积与流速成反比：捏住水管出口水柱喷得更快，河流在狭窄处水急、开阔处水缓。这正是连续性方程的体现。",
+    "detailEn": "Area and speed trade inversely: pinching a hose outlet speeds the jet, and rivers run fast in narrows and slow in open reaches—the continuity equation at work.",
+    "eq": { "lhs": "S1v1", "rhs": "S2v2", "rel": "equal" },
+    "tags": ["流体"],
+    "tagsEn": ["Fluids"]
   }
 ]
