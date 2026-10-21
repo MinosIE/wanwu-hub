@@ -473,5 +473,69 @@
         "year": 1953
       }
     ]
+  },
+  {
+    "id": "sherif-autokinetic",
+    "term": "谢里夫自动运动效应实验",
+    "termEn": "Sherif's Autokinetic Effect",
+    "year": 1936,
+    "oneLiner": "在漆黑房间里估计光点漂移多远，被试的判断会迅速向他人靠拢，凝结出群体规范。",
+    "oneLinerEn": "Estimating how far a stationary point drifts in the dark, judgments quickly converge on others', crystallizing into a group norm.",
+    "detail": "假设：面对模糊情境，人会借助他人的判断来定义现实。过程：暗室中一个固定光点看似在动（自动运动效应），被试先单独估计、再在群里轮流出声估计。结论：群体估计相互靠拢并稳定成共同的「规范」，且离场后个体仍沿用该标准。这成为研究从众与规范形成的经典范式。",
+    "detailEn": "Hypothesis: in ambiguous situations people use others' judgments to define reality. Procedure: a fixed point in the dark appears to move; participants first estimated alone, then aloud in a group. Result: estimates converged and stabilized into a shared 'norm' that persisted even after leaving. It became a classic paradigm for conformity and norm formation.",
+    "ethics": "以善意隐瞒真实目的（研究从众而非测距），无持续伤害，事后说明即可。",
+    "ethicsEn": "Mild deception about the aim (studying conformity, not distance), no lasting harm, debrief sufficed.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": ["asch-conformity", "group-polarization", "bandwagon"],
+    "sources": [{ "label": "Sherif (1936)", "year": 1936 }]
+  },
+  {
+    "id": "bartlett-ghosts",
+    "term": "巴特莱特「幽灵之战」再认记忆",
+    "termEn": "Bartlett's 'War of Ghosts'",
+    "year": 1932,
+    "oneLiner": "反复复述一则异文化鬼故事，记忆会被‘磨平’成符合自身文化图式的版本——记忆是重构，不是回放。",
+    "oneLinerEn": "Repeated retellings of a foreign ghost story get 'smoothed' into schema-conforming versions—memory reconstructs, it does not replay.",
+    "detail": "假设：记忆并非录像，而是按已有图式主动重建。过程：让英国被试反复朗读并隔期复述北美民间故事《幽灵之战》（文化陌生、情节古怪）。结论：故事被越来越简练、合理化、符合本土图式地改写，离奇细节被删、因果被补齐。这奠定了「重构记忆」观，直接启发了后来的目击者研究。",
+    "detailEn": "Hypothesis: memory is active reconstruction by schema, not a recording. Procedure: British participants read and, after delays, repeatedly reproduced the Native American tale 'War of Ghosts' (culturally alien, bizarre). Result: it grew terser, more rationalized and schema-conforming—odd details cut, gaps filled. It founded the 'reconstructive memory' view and later eyewitness research.",
+    "ethics": "让被试复述故事，方法温和无害，仅涉及文化材料的理解偏差。",
+    "ethicsEn": "Reproducing a story is mild and harmless, touching only cultural bias in understanding.",
+    "category": "认知",
+    "categoryEn": "Cognition",
+    "related": ["memory", "schema", "loftus-eyewitness"],
+    "sources": [{ "label": "Bartlett, Remembering", "year": 1932 }]
+  },
+  {
+    "id": "linda-problem",
+    "term": "琳达问题（合取谬误）",
+    "termEn": "The Linda Problem (Conjunction Fallacy)",
+    "year": 1983,
+    "oneLiner": "「琳达是银行出纳」比「琳达是银行出纳且活跃于女权运动」更可能发生，多数人却选了后者。",
+    "oneLinerEn": "'Linda is a bank teller' is more probable than 'teller and a feminist', yet most pick the latter.",
+    "detail": "假设：人用代表性而非概率律作判断。过程：给出一段描述——琳达关心社会公正、参加过抗议——再问哪个更可能：仅「银行出纳」，还是「银行出纳且女权活动者」。结论：约八成被试选了合取项，违反「合取不高于其任一组成部分」的基本概率律。这是可得性/代表性启发导致系统性偏差的招牌例证。",
+    "detailEn": "Hypothesis: people judge by representativeness, not probability. Procedure: given that Linda cares about justice and joined protests, is 'bank teller' or 'teller and active feminist' likelier? Result: about 80% chose the conjunction, violating the law that a conjunction cannot exceed its parts. A signature case of representativeness-driven bias.",
+    "ethics": "纯纸面判断问卷，不涉被试福祉，仅揭示推理偏差。",
+    "ethicsEn": "A paper judgment task, no welfare involved, revealing reasoning bias only.",
+    "category": "认知",
+    "categoryEn": "Cognition",
+    "related": ["representativeness-bias", "availability", "kahneman"],
+    "sources": [{ "label": "Tversky & Kahneman (1983)", "year": 1983 }]
+  },
+  {
+    "id": "zajonc-cockroaches",
+    "term": "蟑螂社会促进实验",
+    "termEn": "Zajonc's Cockroach Social Facilitation",
+    "year": 1965,
+    "oneLiner": "有同类在场时，蟑螂跑简单赛道更快、跑复杂赛道更慢——他人在场会放大占优势的反应。",
+    "oneLinerEn": "With others present, cockroaches raced a simple course faster but a hard one slower—mere presence amplifies the dominant response.",
+    "detail": "假设：他人在场提高唤起，从而强化‘占优势’的反应。过程：让蟑螂单独或与同伴一起跑一条直道（易）或带拐角的道（难），同伴只是隔着玻璃‘被看见’。结论：简单任务因在场而提速，困难任务则更糟——这正是社会促进与社会抑制的分野。把这条思路推及人类，便是「在场效应」的基石。",
+    "detailEn": "Hypothesis: the presence of others raises arousal and strengthens the dominant response. Procedure: cockroaches ran an easy straight or a hard cornered maze, alone or with 'co-actors' visible behind glass. Result: presence sped up the simple task but hurt the hard one—the split between social facilitation and inhibition. Generalized to humans, this is the foundation of the presence effect.",
+    "ethics": "以蟑螂为被试、任务无创；为早期社会性唤起证据。",
+    "ethicsEn": "Cockroaches in a non-invasive task; early evidence on social arousal.",
+    "category": "社会",
+    "categoryEn": "Social",
+    "related": ["social-facilitation", "mere-exposure", "stanford-prison"],
+    "sources": [{ "label": "Zajonc (1965)", "year": 1965 }]
   }
 ]

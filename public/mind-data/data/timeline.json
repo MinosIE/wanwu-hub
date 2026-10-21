@@ -196,5 +196,89 @@
     "detailEn": "AI for cognitive modeling, emotional support, screening aids; plus risks of privacy, dependency and misuse. Not a diagnosis here.",
     "related": ["social-media-mood"],
     "sources": [{ "label": "综述 (2023)", "labelEn": "Review (2023)", "year": 2023 }]
+  },
+  {
+    "id": "pavlov-reflex-1897",
+    "year": "1897",
+    "term": "巴甫洛夫发现条件反射",
+    "termEn": "Pavlov discovers the conditioned reflex",
+    "oneLiner": "消化生理研究意外撞见「心理性唾液」，为整个行为主义提供了机制钥匙。",
+    "oneLinerEn": "Studying digestion he stumbled on 'psychic salivation', handing behaviorism its key mechanism.",
+    "detail": "在测狗唾液分泌时，巴甫洛夫发现狗一见喂食员的脚步便先流了口水。他转而研究这种‘信号—反射’如何习得，奠定了经典条件作用，并因此获得 1904 年诺贝尔生理学或医学奖，成为行为主义学习的科学起点。",
+    "detailEn": "While measuring canine salivation, Pavlov found dogs drooled at the feeder's approaching footsteps. He pivoted to how such signal-reflexes are learned, founding classical conditioning, winning the 1904 Nobel in Physiology or Medicine, and giving behaviorism its scientific starting point.",
+    "related": [
+      "pavlov-dog",
+      "conditioning",
+      "little-albert-1920"
+    ],
+    "sources": [
+      {
+        "label": "Pavlov (1897)",
+        "year": 1897
+      }
+    ]
+  },
+  {
+    "id": "little-albert-1920",
+    "year": "1920",
+    "term": "华生与「小阿尔伯特」情绪条件化",
+    "termEn": "Watson's 'Little Albert' conditioning of emotion",
+    "oneLiner": "用一声巨响把白鼠与恐惧绑定，婴儿学会了对毛茸茸之物也泛化地害怕——情绪也能被‘制造’。",
+    "oneLinerEn": "Pairing a white rat with a loud bang, an infant learned to fear furry things by generalization—emotion could be 'made'.",
+    "detail": "行为主义主张情绪皆是习得。华生与雷纳让名叫阿尔伯特的幼儿把白鼠与惊吓巨响反复配对，孩子很快对白鼠哭泣，并泛化到兔、棉絮等相似物。此实验展示了条件性情绪反应与刺激泛化，也因未做消退、伦理存疑而常被引以为戒。",
+    "detailEn": "Behaviorism held emotions to be learned. Watson and Rayner paired a white rat with a startling bang for 'Little Albert', who soon feared the rat and generalized to rabbits and cotton. It demonstrated conditioned emotional response and stimulus generalization—and is often cited as an ethical caution, since no deconditioning was done.",
+    "related": [
+      "pavlov-reflex-1897",
+      "behaviorism-1913",
+      "little-albert"
+    ],
+    "sources": [
+      {
+        "label": "Watson & Rayner (1920)",
+        "year": 1920
+      }
+    ]
+  },
+  {
+    "id": "chomsky-review-1959",
+    "year": "1959",
+    "term": "乔姆斯基书评斯金纳《言语行为》",
+    "termEn": "Chomsky's review of Skinner's Verbal Behavior",
+    "oneLiner": "一篇书评拆解了用强化解释语言的可能，为方兴的认知革命再添一把火。",
+    "oneLinerEn": "One review dismantled reinforcement-based accounts of language, fanning the young cognitive revolution.",
+    "detail": "斯金纳试图把语言当作可被强化塑造的行为。乔姆斯基指出儿童语言的创造力与‘刺激贫乏’使这难以成立，须预设先天的语法结构。这场论战动摇了行为主义对内部过程的排斥，与信息加工、人工智能一道，把心智重新请回科学舞台。",
+    "detailEn": "Skinner tried to treat language as behavior shaped by reinforcement. Chomsky argued that children's creativity and the poverty of the stimulus defeated this, requiring an innate grammar. The dispute shook behaviorism's ban on internal process and, with information-processing and AI, brought mind back onto the scientific stage.",
+    "related": [
+      "cognitive-revolution-1956",
+      "skinner-box",
+      "noam-chomsky"
+    ],
+    "sources": [
+      {
+        "label": "Chomsky (1959)",
+        "year": 1959
+      }
+    ]
+  },
+  {
+    "id": "replication-crisis-2010s",
+    "year": "2010s",
+    "term": "心理学的可重复性危机",
+    "termEn": "The replication crisis",
+    "oneLiner": "大规模重做经典研究，许多效应缩小甚至消失，学科被迫直面方法与研究动机的痼疾。",
+    "oneLinerEn": "Large-scale redo of classic studies shrank or erased many effects, forcing the field to face its method ills.",
+    "detail": "2010 年前后，「重现性项目」系统重做心理学研究，发现相当比例的原结果无法复现。预注册、更大样本、开放数据与对显著性滥用的反思随之兴起，引发对发表偏倚、灵活分析和「显著性」迷信的深刻自省，重塑了实证规范。",
+    "detailEn": "Around 2010 replication projects systematically redid studies and found a large share could not be reproduced. Preregistration, bigger samples, open data and misgivings about p-hacking followed, sparking deep reflection on publication bias, flexible analysis and the cult of 'significance', and reshaping empirical norms.",
+    "related": [
+      "marshmallow",
+      "correlation-vs-causation",
+      "double-blind"
+    ],
+    "sources": [
+      {
+        "label": "Open Science Collaboration (2015)",
+        "year": 2015
+      }
+    ]
   }
 ]
