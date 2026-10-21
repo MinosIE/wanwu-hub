@@ -2,7 +2,7 @@
 
 > 从管理思想、战略、组织结构到领导激励、决策、运营与财务，梳理让一群人把事做成的方法与框架。
 
-共 157 条 / 8 类，全部为结构化 JSON。
+共 165 条 / 8 类，全部为结构化 JSON。
 
 ## 数据入口
 - [决策与创新](https://minosie.github.io/wanwu-hub/mgmt-data/data/decision.json)

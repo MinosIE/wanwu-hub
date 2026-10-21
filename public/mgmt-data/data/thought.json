@@ -166,5 +166,61 @@
     "tags": ["文化"],
     "tagsEn": ["Culture"],
     "related": ["mcgregor-xy", "org-culture", "equity"]
+  },
+  {
+    "id": "fordism",
+    "icon": "🚗",
+    "term": "福特制与流水线",
+    "termEn": "Fordism and the Assembly Line",
+    "level": 2,
+    "oneLiner": "把泰勒的方法落到车间：移动装配线让汽车越造越快、越卖越便宜，重塑了大众生产与消费。",
+    "oneLinerEn": "Taylor's ideas hit the shop floor: the moving assembly line made cars ever faster and cheaper to build, reshaping mass production and consumption.",
+    "detail": "亨利·福特 1913 年引入移动装配线，把整车装配拆成数百个简单工序、让工件流向工人而非工人绕车转，装配时间骤降；配合「五美元日薪」稳定人手、并让员工买得起车，形成大规模生产—大规模消费的循环。它的代价是高度重复、去技能化与刚性，只适合单一品种的标准化产品。",
+    "detailEn": "In 1913 Henry Ford ran a moving line, splitting final assembly into hundreds of simple steps with the work flowing to the worker, slashing build time; the 'five-dollar day' steadied labor and let workers buy the cars, fusing mass production with mass consumption. Its price was repetition, deskilling and rigidity suited only to one standardized model.",
+    "tags": ["古典"],
+    "tagsEn": ["Classical"],
+    "related": ["taylor-scientific", "lean-production", "jit-eoq"]
+  },
+  {
+    "id": "follett-integration",
+    "icon": "🤲",
+    "term": "福列特：整合与赋权",
+    "termEn": "Follett: Integration & Empowerment",
+    "level": 2,
+    "oneLiner": "被尊为「现代管理理论之母」：她主张用整合取代妥协、以影响而非权力压人，早已预见协作式管理。",
+    "oneLinerEn": "Hailed as the mother of modern management theory, she urged integration over compromise and influence over coercive power—an early foresight of collaborative management.",
+    "detail": "玛丽·帕克·福列特认为冲突不必是你输我赢：除了压制与妥协，还有「整合」——把双方真正的需求摆上台面，创造出谁都不曾想到的第三种方案。她区分「凌驾于人之上的权力」与「与人共享的权力」，强调管理者应靠专业与情境规律而非职位发号施令，让共享权力滋养组织。",
+    "detailEn": "Mary Parker Follett held that conflict need not be win-lose: besides domination and compromise lies integration—surfacing each side's real need to invent a third way neither had seen. She distinguished power-over people from power-with them, urging managers to lead by expertise and the law of the situation rather than rank.",
+    "tags": ["行为"],
+    "tagsEn": ["Behavioural"],
+    "related": ["hawthorne", "barnard-cooperation", "conflict-modes"]
+  },
+  {
+    "id": "reengineering",
+    "icon": "🔄",
+    "term": "企业流程再造",
+    "termEn": "Business Process Reengineering",
+    "level": 3,
+    "oneLiner": "别修补旧流程，而是推倒重来：以流程为单位、面向客户，追求绩效的跃迁而非渐进改良。",
+    "oneLinerEn": "Do not patch old steps—start over: work process-by-process, face the customer, seek a leap in performance, not gradual tweaks.",
+    "detail": "哈默与钱皮在二十世纪九十年代提出：组织常被职能切成一段段“铁路分段”，没人对整体结果负责。再造要求回到「我们为何做这件事」，围绕端到端流程重新设计，借信息技术合并岗位、并行作业，敢于设定非线性的高目标。它既带来显著提效，也因常被当作裁员的借口、变革剧烈而失败率颇高；但它把流程视角深深植入了后世的管理实践。",
+    "detailEn": "Hammer and Champy argued in the 1990s that firms are sliced by function into 'railroad segments' with no one owning the whole result. Reengineering returns to why we do the work at all, redesigning end-to-end processes, merging roles and running steps in parallel with IT, and daring nonlinear targets. It brought big gains—and big failures when used as a euphemism for downsizing—yet planted the process lens deep in later practice.",
+    "tags": ["现代"],
+    "tagsEn": ["Modern"],
+    "related": ["value-chain", "lean-thought", "process-mgmt"]
+  },
+  {
+    "id": "management-science",
+    "icon": "📊",
+    "term": "管理科学与定量方法",
+    "termEn": "Management Science & Quantitative Methods",
+    "level": 2,
+    "oneLiner": "把二战运筹的数学工具带进管理：用模型、数据与优化替直觉算账，让决策可计算。",
+    "oneLinerEn": "Carrying wartime operations-research math into management: models, data and optimization compute what intuition guesses, making decisions calculable.",
+    "detail": "战后，线性规划、排队论、库存与网络计划等管理科学方法兴起，把复杂运营化为可求解的模型，追求在约束下的最优。它与西蒙的有限理性互补——一个尽力算得更准、一个提醒算力与信息的边界；后来又在计算机推动下扩展为数据驱动的商业分析。",
+    "detailEn": "After the war methods like linear programming, queueing, inventory and network planning rose, casting messy operations into solvable models for the optimum under constraints. It complements Simon's bounded rationality—one computes harder, the other flags the limits of compute and information—and later grew, on the back of computers, into data-driven analytics.",
+    "tags": ["现代"],
+    "tagsEn": ["Modern"],
+    "related": ["decision-tree", "bounded-rationality", "tqm"]
   }
 ]

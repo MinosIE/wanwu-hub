@@ -5,11 +5,11 @@
   "heroTitleEn": "Management of Everything",
   "intro": "从管理思想、战略、组织结构，到领导激励、决策、运营与财务——梳理让一群人把事做成的方法、框架与背后的取舍。",
   "introEn": "Management thought, strategy, structure, leadership, decision-making, operations and finance — the methods, frameworks and trade-offs behind getting things done with other people.",
-  "total": 157,
+  "total": 165,
   "counts": {
-    "thought": 12,
+    "thought": 16,
     "strategy": 19,
-    "org": 14,
+    "org": 18,
     "leadership": 19,
     "decision": 23,
     "ops": 23,
@@ -23,7 +23,7 @@
       "title": "管理思想",
       "titleEn": "Schools of Thought",
       "kind": "cards",
-      "count": 12
+      "count": 16
     },
     {
       "key": "strategy",
@@ -39,7 +39,7 @@
       "title": "组织与结构",
       "titleEn": "Structure & Organization",
       "kind": "cards",
-      "count": 14
+      "count": 18
     },
     {
       "key": "leadership",
@@ -83,9 +83,9 @@
     }
   ],
   "kpis": [
-    { "key": "thought", "icon": "🏛️", "value": 12 },
+    { "key": "thought", "icon": "🏛️", "value": 16 },
     { "key": "strategy", "icon": "🎯", "value": 19 },
-    { "key": "org", "icon": "🏢", "value": 14 },
+    { "key": "org", "icon": "🏢", "value": 18 },
     { "key": "leadership", "icon": "🧭", "value": 19 },
     { "key": "decision", "icon": "⚖️", "value": 23 },
     { "key": "ops", "icon": "⚙️", "value": 23 },

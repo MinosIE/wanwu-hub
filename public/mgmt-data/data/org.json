@@ -194,5 +194,61 @@
     "tags": ["文化"],
     "tagsEn": ["Culture"],
     "related": ["hawthorne", "barnard-cooperation", "org-culture"]
+  },
+  {
+    "id": "matrix-org",
+    "icon": "🔀",
+    "term": "矩阵组织结构",
+    "termEn": "Matrix Structure",
+    "level": 3,
+    "oneLiner": "让人同时向职能经理与项目经理汇报：共享专家、灵活调配，代价是两个老板的张力。",
+    "oneLinerEn": "People answer to a functional and a project manager at once: experts shared and flexed, at the cost of two-boss tension.",
+    "detail": "矩阵制把按职能划分的纵向与按产品或项目划分的横向交织，员工身兼两线，常分强矩阵（项目主导）、弱矩阵（职能主导）与平衡矩阵。它适合需频繁跨部门协作、又离不开专业深度的组织；但双重指挥易生角色冲突、会议与政治增多，需清晰的权责与成熟的沟通来支撑。",
+    "detailEn": "The matrix weaves a vertical by-function split with a horizontal by-product one, so staff sit on two lines, typed strong (project-led), weak (function-led) or balanced. It suits organizations needing frequent cross-team work yet deep expertise; but dual command breeds role conflict and more meetings and politics, demanding clear authority and mature communication.",
+    "tags": ["结构"],
+    "tagsEn": ["Structure"],
+    "related": ["org-structures", "staff-vs-line", "mech-vs-organic"]
+  },
+  {
+    "id": "staff-vs-line",
+    "icon": "🧭",
+    "term": "直线与参谋",
+    "termEn": "Line and Staff",
+    "level": 2,
+    "oneLiner": "直线主管负责决策与结果，参谋提供专业建议——建议权与指挥权的分离，是分工也是摩擦源。",
+    "oneLinerEn": "Line managers decide and own results; staff give expert counsel—the split of advisory from command authority aids and yet strains.",
+    "detail": "随着组织变大，一线管理者既请不来、也养不起样样精通的专家，于是设立财务、法务、人力等参谋职能供给建议。妙处在于参谋只建议、直线才下令；难处在于参谋越界变成事实上的命令、或直线嫌参谋纸上谈兵。厘清各自权限、让建议有分量却不越权，是组织设计的经典课题。",
+    "detailEn": "As firms outgrew the all-round line boss, they added finance, legal and HR staff to supply counsel. The genius is that staff advise while only line commands; the friction is staff overreach into de facto orders, or line dismissing them as armchair theory. Fixing each one's scope is a classic design problem.",
+    "tags": ["权责"],
+    "tagsEn": ["Authority"],
+    "related": ["weber-bureaucracy", "org-structures", "span-control"]
+  },
+  {
+    "id": "network-org",
+    "icon": "🕸️",
+    "term": "网络化组织",
+    "termEn": "Network Organization",
+    "level": 3,
+    "oneLiner": "把许多功能外包、以契约与关系编织成网，自己只攒住核心，靠协同而非层级来整合。",
+    "oneLinerEn": "Many functions outsourced, woven into a web of contracts and ties, holding only the core and integrating through coordination, not hierarchy.",
+    "detail": "网络化组织是对大而全、层级笨重的反动：企业把制造、物流甚至研发交给伙伴，自己聚焦品牌与设计，像耐克那样轻资产地调度一张供应与协作之网。它灵活、能快速聚合资源，但也意味着控制力减弱、依赖关系治理与信任，一旦关键节点失衡便牵一发动全身。",
+    "detailEn": "The network form reacts against the big, slow, full-scope hierarchy: a firm hands making, logistics even R&D to partners, keeps brand and design, and orchestrates a web of supply with few owned assets. It is agile and fast to pool resources, but cedes control, leans on governance and trust, and one wobbly hub can rock the whole.",
+    "tags": ["现代"],
+    "tagsEn": ["Modern"],
+    "related": ["org-structures", "learning-org", "network-effects"]
+  },
+  {
+    "id": "team-based-org",
+    "icon": "👥",
+    "term": "团队型组织",
+    "termEn": "Team-Based Organization",
+    "level": 2,
+    "oneLiner": "以团队而非个人作为基本单元：把决策权下放给最接近工作的人，用互赖取代层层审批。",
+    "oneLinerEn": "Teams, not individuals, as the basic unit: pushing decisions to those nearest the work, replacing tiered sign-offs with interdependence.",
+    "detail": "当环境多变，层层请示太慢，组织遂把一线编成有明确目标、跨职能、能自我管理的团队，让团队承担过去属于主管的计划与协调职责。它提升响应、投入与全局理解，也要求成员具备协作与自我约束能力；配套的选拔、培训与激励须从奖励个人转向奖励团队，否则团队只剩名义。",
+    "detailEn": "When conditions shift, climbing the ladder for sign-offs is too slow, so the front line is organized into purposeful, cross-functional, self-managing teams that absorb planning and coordinating once left to supervisors. It lifts responsiveness and engagement, yet asks members for collaboration; hiring, training and rewards must shift from honoring individuals to honoring the team.",
+    "tags": ["团队"],
+    "tagsEn": ["Team"],
+    "related": ["belbin-roles", "tuckman-stages", "learning-org"]
   }
 ]
