@@ -13,12 +13,12 @@
     {
       "file": "psychologists.json",
       "titleKey": "kpi.psychologists",
-      "count": 21
+      "count": 25
     },
     {
       "file": "schools.json",
       "titleKey": "kpi.schools",
-      "count": 10
+      "count": 14
     }
   ],
   "entries": [
