@@ -264,5 +264,66 @@
     "tags": ["目标"],
     "tagsEn": ["Goals"],
     "related": ["goal-setting", "okr", "kpi"]
+  },
+  {
+    "id": "kotter-eight-steps",
+    "icon": "🚀",
+    "term": "科特变革八步",
+    "termEn": "Kotter's Eight Steps",
+    "level": 2,
+    "oneLiner": "变革失败多因顺序而非意愿：先树紧迫感、建联盟，再塑愿景、授权力、造短期胜利，直至把改变固化进文化。",
+    "oneLinerEn": "Change usually fails on sequence, not will: raise urgency, build a coalition, shape a vision, empower action, win short-term proof, then anchor it in culture.",
+    "detail": "约翰·科特研究大量变革失败后总结的路线图：一、营造紧迫感；二、组建领导联盟；三、塑造愿景与战略；四、沟通变革愿景；五、授权员工行动、扫清障碍；六、创造短期胜利并庆祝；七、巩固成果、推动更多改变；八、把新方法固化进企业文化。他强调大多数组织败在第一、二步——低估了恐惧与自满、联盟不够权威又缺紧迫感。它与「变革型领导」互补：一个讲风格，一个给出可操作的先后次序。",
+    "detailEn": "Kotter's roadmap, drawn from studying many failed transformations: create urgency; build a guiding coalition; form a strategic vision; communicate it; empower broad-based action and clear obstacles; generate short-term wins and celebrate them; consolidate gains and drive more change; and anchor the new ways in culture. He held that most organisations stumble at the first two steps, underestimating fear and complacency with a coalition too weak and no real urgency. It complements transformational leadership: one describes a style, the other a workable order of operations.",
+    "tags": ["执行"],
+    "tagsEn": ["Execution"],
+    "related": ["transformational", "lewin-styles", "mgmt-4c", "goal-setting"]
+  },
+  {
+    "id": "bases-of-power",
+    "icon": "🏛️",
+    "term": "权力的五种来源",
+    "termEn": "Bases of Power",
+    "level": 2,
+    "oneLiner": "影响力不止来自职位：法定、奖赏、强制之外，还有专长与参照——后两种才让人心服。",
+    "oneLinerEn": "Influence is not office alone: besides legal, reward and coercive power sit expert and referent power — the last two are what win genuine buy-in.",
+    "detail": "社会心理学家弗伦奇与雷文提出权力的五个基础：法定权（职位赋予）、奖赏权、强制权（惩罚）、专家权（专业与知识）与参照权（人格魅力与认同）。前三种依附于位置、人走即失；后两种根植于个人，更难夺走也更被接纳。研究普遍显示，靠专家权与参照权、以及交换、说服、合作等软性策略，比靠强制更易带来承诺而非仅仅服从。它提醒管理者：职权只是有限的杠杆，信任与专长才会复利。",
+    "detailEn": "Social psychologists French and Raven named five bases of power: legitimate (given by the role), reward, coercive (punishment), expert (knowledge and skill) and referent (charisma and identification). The first three attach to the position and fade when it is gone; the last two grow in the person, are harder to revoke and more willingly accepted. Research broadly finds that expert and referent power, plus soft tactics such as exchange, rational persuasion and collaboration, win commitment rather than mere compliance far more reliably than coercion. It warns managers that formal authority is only a limited lever while trust and expertise compound.",
+    "tags": ["领导"],
+    "tagsEn": ["Leadership"],
+    "related": ["situational-leadership", "transformational", "mcgregor-xy", "lmx"]
+  },
+  {
+    "id": "emotional-intelligence-leadership",
+    "icon": "🧠",
+    "term": "情商领导力",
+    "termEn": "Emotional Intelligence",
+    "level": 2,
+    "oneLiner": "当智商达标只是门槛，拉开差距的是自我觉察、自律、同理与人际管理——即所谓情商。",
+    "oneLinerEn": "Once IQ clears the bar, what separates leaders is self-awareness, self-regulation, empathy and social skill — emotional intelligence.",
+    "detail": "由萨洛维与迈耶界定、经戈尔曼普及：情商包含自我觉察、自我管理、社会意识（同理心）与关系管理四大块。戈尔曼的证据表明，在高层领导中，情商的区分力远大于纯技术能力，并与更强的团队氛围与绩效正相关。它并非「会做人」或讨好，而是准确识别并善用情绪信息——读懂房间里的情绪、在压力下不失态、把共情转成决断。好消息是它可通过刻意练习成长，而非固定天赋。",
+    "detailEn": "Defined by Salovey and Mayer and popularised by Goleman, it spans four blocks: self-awareness, self-management, social awareness (empathy) and relationship management. Goleman argued that among senior leaders emotional intelligence discriminates far more than pure technical skill and tracks a stronger team climate and performance. It is not people-pleasing but reading and using emotional information well — sensing the room, staying composed under pressure and turning empathy into judgement. Crucially, it can be grown through deliberate practice rather than being a fixed gift.",
+    "tags": ["心态"],
+    "tagsEn": ["Mindset"],
+    "related": [
+      "psychological-capital",
+      "servant-leadership",
+      "authentic-leadership",
+      "transformational"
+    ]
+  },
+  {
+    "id": "grow-model",
+    "icon": "🌱",
+    "term": "GROW 教练模型",
+    "termEn": "GROW Coaching Model",
+    "level": 1,
+    "oneLiner": "教练式带人四步：定目标、清现状、找出选项、承诺行动——用提问代替给答案。",
+    "oneLinerEn": "Four coaching moves: set the Goal, assess current Reality, weigh Options, commit to the Will — ask instead of telling.",
+    "detail": "一套结构化的教练对话，由亚历山大、法恩与惠特默在二十世纪八十年代成形并推广：G 目标（你想达成什么）、R 现状（此刻在哪里、有何障碍）、O 选项（都有哪些办法、代价与取舍）、W 意愿（你选哪条、何时做、谁支持）。它把领导从「下指令」转成「引人思考」，激发自主与责任感，适合一对一辅导、复盘与发展下属。用好的关键是忍住不说教、真正倾听；但面对危机或新手，直接指导往往比发问更有效，需依情境切换。",
+    "detailEn": "A structured coaching conversation shaped and spread by Alexander, Fine and Whitmore in the 1980s: Goal (what you want to achieve), Reality (where you are now and the blockers), Options (the possible paths, their costs and trade-offs) and Will (which you choose, when, and who supports it). It shifts leadership from issuing orders to provoking thought, sparking ownership and responsibility, and suits one-to-one coaching, review and developing reports. The hard part is to refrain from lecturing and truly listen; and in a crisis or with a novice, direct guidance often beats questions, so switch to fit the situation.",
+    "tags": ["成长"],
+    "tagsEn": ["Development"],
+    "related": ["situational-leadership", "goal-setting", "path-goal", "lmx"]
   }
 ]

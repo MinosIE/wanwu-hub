@@ -264,5 +264,67 @@
     "tags": ["市场"],
     "tagsEn": ["Markets"],
     "related": ["blue-ocean", "network-effects", "business-model-canvas"]
+  },
+  {
+    "id": "positioning",
+    "icon": "🎯",
+    "term": "定位理论",
+    "termEn": "Positioning",
+    "level": 2,
+    "oneLiner": "与其在产品上争高下，不如在顾客心智里占据一个简单、独特的位置——定位是先占心，不是先占货。",
+    "oneLinerEn": "Rather than out-feature the product, claim one simple, distinct spot in the customer's mind — positioning wins the mind before the shelf.",
+    "detail": "由里斯与特劳特在二十世纪七十年代提出：竞争的真正战场是消费者有限的心智。品牌应聚焦一个词、一个差异点，抢先占据并反复强化（如「安全」之于沃尔沃、「次日必达」之于快递公司）；若已有强者盘踞，就重新定位对手、给自己腾出空位。它强调做减法——敢于放弃部分诉求，以换取心智中的清晰与第一。它与 SWOT、波特五力的外向分析互补，共同回答「顾客凭什么选中你」。",
+    "detailEn": "Proposed by Ries and Trout in the 1970s, it holds that the real battlefield is the customer's limited mind. A brand should focus on one word, one point of difference, seize it early and reinforce it (safety for a car maker, next-day delivery for a courier); when a rival already owns a position, reposition the rival to free a gap. It stresses subtraction, trading away some claims to win clarity and being-first in the mind. It complements the outside-in analysis of SWOT and Porter's five forces in answering why a customer should choose you.",
+    "tags": ["定位"],
+    "tagsEn": ["Positioning"],
+    "related": ["swot", "porter-generic", "blue-ocean", "value-chain"]
+  },
+  {
+    "id": "vrio",
+    "icon": "🔍",
+    "term": "VRIO 竞争优势框架",
+    "termEn": "VRIO Framework",
+    "level": 3,
+    "oneLiner": "对每项资源四问：能否创造价值、是否稀缺、对手难不难模仿、组织能否善加利用——四问皆过才是持续优势。",
+    "oneLinerEn": "Ask four things of each resource: does it create value, is it rare, is it costly to imitate, is the firm organised to exploit it — only a clean sweep of all four yields sustained advantage.",
+    "detail": "由巴尼在彭罗斯资源观的基础上发展而成：企业被看作一束独特资源的集合。把一项资源依次过四道筛——能否创造价值、是否稀缺、对手模仿成本高不高（源于独特历史、因果模糊或社会复杂性）、以及组织能否把它用好，四问结果对应出竞争劣势、持平、暂时优势或持续优势。它把「向内看」的视角引入战略：真正的护城河多长在异质、难转移的隐性资源与能力上，而非一时的营销巧思。",
+    "detailEn": "Developed by Barney on the resource-based view rooted in Penrose: the firm is a bundle of distinctive resources. Run each resource through four screens — does it create value, is it rare, is it costly for rivals to imitate (through unique history, causal ambiguity or social complexity), and is the firm organised to capture its value — and the answers map to competitive disadvantage, parity, temporary advantage or sustained advantage. It brings an inside-out lens to strategy: the real moat usually grows on heterogeneous, hard-to-transfer tacit resources, not on a passing marketing trick.",
+    "tags": ["优势"],
+    "tagsEn": ["Advantage"],
+    "related": ["core-competence", "competitive-moat", "value-chain"]
+  },
+  {
+    "id": "competitive-moat",
+    "icon": "🏰",
+    "term": "经济护城河",
+    "termEn": "Economic Moat",
+    "level": 2,
+    "oneLiner": "好生意周围该有一道挡住竞争的壕沟——品牌、转换成本、网络效应或成本优势，让超额利润守得住。",
+    "oneLinerEn": "A good business sits behind a moat that deters rivals — brand, switching cost, network effect or cost advantage — so excess returns can endure.",
+    "detail": "这一说法因巴菲特而广为人知，指企业可持续的结构性竞争优势，能把竞争者挡在高回报之外。常见类型：无形资产（品牌、专利、监管牌照）、客户转换成本、网络效应、成本优势与高效规模。检验它的最终标准是「定价权」——能否提价而不流失客户。护城河并非一劳永逸，会被技术、政策与消费习惯侵蚀，故战略与投资都要持续分辨：这道优势究竟在变宽还是变窄。",
+    "detailEn": "Popularised by Buffett, it names a firm's durable structural advantage that keeps rivals out of its high returns. Common kinds: intangible assets (brand, patents, licences), customer switching costs, network effects, cost advantage and efficient scale. The ultimate test is pricing power, the ability to raise prices without losing customers. A moat is never permanent; technology, policy and taste can erode it, so strategy and investing alike must keep asking whether the advantage is widening or narrowing.",
+    "tags": ["优势"],
+    "tagsEn": ["Advantage"],
+    "related": [
+      "vrio",
+      "core-competence",
+      "economies-of-scale",
+      "network-effects",
+      "porter-five-forces"
+    ]
+  },
+  {
+    "id": "second-curve",
+    "icon": "📈",
+    "term": "第二曲线",
+    "termEn": "The Second Curve",
+    "level": 3,
+    "oneLiner": "任何增长曲线终会见顶；要在第一曲线尚未衰败时，就提前投入那条全新的第二曲线。",
+    "oneLinerEn": "Every growth curve eventually tops out; start the new second curve before the first one declines.",
+    "detail": "由哲学家查尔斯·汉迪提出、后由德格斯用于组织变革：S 形曲线描述事物从投入、起飞、成熟到衰退的轨迹，而最危险的时刻恰是巅峰——既得利益与惯性会让人拒绝改变。因此第二曲线必须在第一曲线仍处上升、资源尚充足时就播下种子，尽管它初期看起来更小、更不划算，且常与现有业务争夺资源、触发「创新者的窘境」。它考验领导者的关键正在于：在成功如日中天时主动自我颠覆。",
+    "detailEn": "Raised by the philosopher Handy and applied to organisations by de Geus: the S-curve traces a rise, take-off, maturity and decline, and the most dangerous moment is the peak itself, when vested interest and inertia resist change. The second curve must therefore be seeded while the first is still climbing and resources are plentiful, even though it looks smaller and less worthwhile early on, competes with the core for resources, and can trigger the innovator's dilemma. The defining test of leadership is to self-disrupt at the height of success.",
+    "tags": ["创新"],
+    "tagsEn": ["Innovation"],
+    "related": ["three-horizons", "core-competence", "flywheel", "disruptive-innovation"]
   }
 ]
