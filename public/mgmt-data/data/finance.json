@@ -264,5 +264,61 @@
     "tags": ["成本"],
     "tagsEn": ["Cost"],
     "related": ["breakeven", "economies-of-scale", "unit-economics"]
+  },
+  {
+    "id": "capm",
+    "icon": "📉",
+    "term": "CAPM 资本资产定价模型",
+    "termEn": "Capital Asset Pricing Model",
+    "level": 3,
+    "oneLiner": "收益要补偿风险，但市场只补偿「分散不掉」的系统性风险——系数越大，要求的回报越高。",
+    "oneLinerEn": "Return must pay for risk, but the market only rewards the systematic risk you cannot diversify away—the higher the coefficient, the higher the required return.",
+    "detail": "模型给出一条简洁公式：某资产的预期收益等于无风险利率加上该资产相对大盘的敏感度（贝塔）乘以市场风险溢价。它把风险分成可被分散消除的非系统性风险与逃不掉的系统性风险，认为理性市场只为后者付费。它被广泛用于估算股权成本、给项目设定「至少该赚多少才算够」的门槛。正因假设苛刻（人人理性、持有同一市场组合）而常被质疑，但作为思维的基准线，它把「高收益究竟来自承担哪种风险」说得极其透彻。",
+    "detailEn": "The model yields one compact formula: an asset's expected return equals the risk-free rate plus its sensitivity to the whole market (beta) times the market risk premium. It splits risk into non-systematic risk that diversification can erase and systematic risk you cannot escape, holding that a rational market pays only for the latter. It is widely used to estimate the cost of equity and to set the hurdle of what a project must at least earn. Harsh assumptions (universal rationality, one shared market portfolio) draw steady criticism, yet as a baseline it makes strikingly clear which kind of risk a high return really comes from.",
+    "tags": ["估值"],
+    "tagsEn": ["Valuation"],
+    "related": ["wacc", "npv-irr", "time-value", "ratio-analysis"]
+  },
+  {
+    "id": "wacc",
+    "icon": "⚖️",
+    "term": "WACC 加权平均资本成本",
+    "termEn": "Weighted Average Cost of Capital",
+    "level": 3,
+    "oneLiner": "企业用的钱既有债也有股，按各自占比加权平均出一个综合成本——它就是估值的折现尺。",
+    "oneLinerEn": "A firm runs on debt and equity alike; weighting each by its share gives one blended cost—the discount yardstick of valuation.",
+    "detail": "股权成本常用资本资产定价模型估算，债务成本看利率、并因利息可在税前列支而打个折（所谓税盾），再按负债与权益的比例加权，得到综合资本成本。它是净现值与现金流折现估值里那个折现率：数值越低，同样现金流算出的价值越高，所以优化资本结构、降低融资成本会直接抬升企业价值。风险越高的公司这项成本越高、越难为长远项目融资——它把「资本并非免费」量化到了每一个决策上。",
+    "detailEn": "The cost of equity is often estimated with the capital asset pricing model; the cost of debt reads off interest rates and, because interest is tax-deductible, is discounted by a so-called tax shield; weighting the two by their shares gives the blended figure. It is the discount rate inside net present value and discounted-cash-flow valuation: the lower it runs, the higher the value of the same cash flows, so tuning capital structure and cutting funding cost lift firm value directly. Riskier firms face a higher cost and struggle to fund long projects—it quantifies capital is never free in every decision.",
+    "tags": ["财务"],
+    "tagsEn": ["Finance"],
+    "related": ["capm", "npv-irr", "capital-structure", "cost-behavior"]
+  },
+  {
+    "id": "activity-based-costing",
+    "icon": "🧾",
+    "term": "作业成本法",
+    "termEn": "Activity-Based Costing",
+    "level": 2,
+    "oneLiner": "别把间接费用一律摊到产量上：先算每项作业花多少钱，再按谁触发了它来分摊，成本才不冤枉。",
+    "oneLinerEn": "Do not spread overhead on volume alone: cost each activity first, then charge it to those who trigger it, so no product is wrongly over- or under-charged.",
+    "detail": "传统成本法用单一基准（如工时、产量）分摊制造费用，常让大批量简单产品暗中补贴了小批量复杂产品。作业成本法改为按作业归集成本——备料、质检、调试、订单处理各算一笔，再用成本动因（批次、次数、工时）追溯到具体产品与客户，从而揭示复杂小单的隐形代价，帮助定价、外包与流程改进。代价是核算更繁琐、需要较细的数据，故多用在间接费用占比高、产品多样化的企业。",
+    "detailEn": "Traditional costing spreads overhead on one base such as labour hours or output volume, often letting high-volume simple products quietly subsidise low-volume complex ones. Activity-based costing instead pools cost by activity—setup, inspection, changeover, order handling each gets its own figure—then traces it to specific products and customers via cost drivers (batches, counts, hours), exposing the hidden cost of fussy small orders to guide pricing, outsourcing and process repair. The price is heavier bookkeeping and finer data, so it suits firms where overhead is a large share and the product mix is diverse.",
+    "tags": ["成本"],
+    "tagsEn": ["Cost"],
+    "related": ["cost-behavior", "unit-economics", "lean-production", "breakeven"]
+  },
+  {
+    "id": "capital-structure",
+    "icon": "🏗️",
+    "term": "资本结构与杠杆",
+    "termEn": "Capital Structure and Leverage",
+    "level": 3,
+    "oneLiner": "企业靠债还是靠股来撑？两者比例既影响成本与风险，也放大收益——这是杠杆的双刃。",
+    "oneLinerEn": "Prop the firm up with debt or equity? The ratio shapes cost and risk and magnifies return alike—the double edge of leverage.",
+    "detail": "债务便宜（利息可抵税、要求回报低于股权）却要按期偿付、放大下行风险，甚至推向破产；权益没有还本压力，但成本更高且不抵税。莫迪利安尼与米勒在理想世界里证明资本结构不影响价值，而现实中的税盾、财务困境成本与管理层动机打破了这份中性，形成权衡理论：适度负债提升价值，越过临界点后风险成本反噬。杠杆既能放大股东回报，也能放大亏损——稳健的公司往往留足举债的余力，以备不时之需。",
+    "detailEn": "Debt is cheap (interest is tax-deductible and its required return sits below equity's) but must be repaid on schedule, amplifies downside risk and can push toward failure; equity carries no repayment pressure yet costs more and gets no tax break. Modigliani and Miller proved capital structure irrelevant to value in an ideal world, while real tax shields, financial-distress cost and managerial motive break that neutrality into a trade-off theory: moderate debt lifts value until, past a tipping point, risk cost bites back. Leverage magnifies shareholder return and loss alike—sound firms keep spare borrowing capacity for a rainy day.",
+    "tags": ["取舍"],
+    "tagsEn": ["Trade-off"],
+    "related": ["wacc", "capm", "balance-sheet", "ratio-analysis"]
   }
 ]

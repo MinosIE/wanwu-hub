@@ -320,5 +320,66 @@
     "tags": ["不确定性"],
     "tagsEn": ["Uncertainty"],
     "related": ["black-swan", "theory-constraints", "scenario-planning"]
+  },
+  {
+    "id": "real-options",
+    "icon": "🌱",
+    "term": "实物期权",
+    "termEn": "Real Options",
+    "level": 3,
+    "oneLiner": "把「未来的选择权」也算进价值：投资不只是当下净现值为正，更在于它买下了日后扩张、放弃或转向的权利。",
+    "oneLinerEn": "Count the right to decide later as value: an investment is not just positive net present value now, but the option to expand, abandon or switch down the road.",
+    "detail": "传统折现把项目看成一条既定路径，低估了管理层的应变价值。实物期权借用金融期权的思路：一笔前期投入往往开出后续的选择——研发成功可加码扩张（增长期权）、行情变差可止损退出（放弃期权）、技术路线未明可推迟等待更清晰（延迟期权）。不确定性越大，这份灵活性的价值越高，有时足以让「当下账面为负、但期权为正」的项目值得尝试。它提醒人们别把决策简化成一次性的机械折现，而要显式为「保留选择权」付费。",
+    "detailEn": "Plain discounting treats a project as one fixed path and undervalues managerial flexibility. Real options borrow the logic of financial options: an early outlay often opens later choices—scale up if research succeeds (growth option), exit if the market sours (abandonment option), or wait for a clearer line before committing (deferral option). The more uncertainty, the more this flexibility is worth, sometimes enough to justify a project that looks negative on the books today yet carries positive option value. It warns against reducing decisions to one-shot mechanical discounting and urges paying explicitly for keeping options open.",
+    "tags": ["不确定性"],
+    "tagsEn": ["Uncertainty"],
+    "related": ["npv-irr", "decision-tree", "scenario-planning", "black-swan"]
+  },
+  {
+    "id": "analytic-hierarchy-process",
+    "icon": "🧮",
+    "term": "AHP 层次分析法",
+    "termEn": "Analytic Hierarchy Process",
+    "level": 2,
+    "oneLiner": "把复杂的权衡拆成「目标—准则—方案」的层级，再靠两两比较算出权重，让主观判断变得可核对。",
+    "oneLinerEn": "Break a tangled choice into a goal-criteria-alternatives hierarchy, then derive weights from pairwise comparisons so gut judgement turns auditable.",
+    "detail": "由数学家萨蒂提出的这套方法：先搭出层次结构，再就每个准则把方案两两对比、回答「甲比乙重要多少」，通过判断矩阵算出各方案的相对权重，并用「一致性比率」检查你的打分是否自相矛盾。它把含糊的直觉转成可追溯的数字，适合选址、供应商评估、技术路线这类难以直接量化的多准则决策。局限也很清楚：方案一多，两两比较的工作量与打分的主观性都会上升，权重也仍靠人给定。",
+    "detailEn": "Devised by the mathematician Saaty, the method first builds a hierarchy, then, criterion by criterion, compares alternatives two at a time asking how much one outweighs another, derives relative weights from the judgement matrix, and uses a consistency ratio to flag self-contradictory scores. It turns fuzzy intuition into traceable numbers and suits multi-criteria choices that resist direct measurement—siting, supplier selection, technology bets. Its limits are plain too: as options multiply, the volume of comparisons and the subjectivity of scoring both grow, and the weights are still human-set.",
+    "tags": ["决策"],
+    "tagsEn": ["Decision"],
+    "related": ["decision-matrix", "decision-tree", "bounded-rationality"]
+  },
+  {
+    "id": "ooda-loop",
+    "icon": "🔄",
+    "term": "OODA 决策循环",
+    "termEn": "OODA Loop",
+    "level": 2,
+    "oneLiner": "观察—判断—决策—行动，快速循环、边打边调；谁能转得比对手快，谁就掌握主动。",
+    "oneLinerEn": "Observe, orient, decide, act, then loop fast and adjust mid-flight; whoever cycles quicker than the rival holds the initiative.",
+    "detail": "由战斗机飞行员博伊德总结：决策不是一次性的静态分析，而是在不断变化的环境里反复循环。其中「判断（定向）」最关键——它由既有经验、文化与新信息共同塑造，决定你如何看待眼前的局面。在商业里，OODA 鼓励缩短反馈周期、小步快跑、依据市场实况迅速修正，而不是困守一份过时的计划；它与精益创业的「构建—衡量—学习」异曲同工，都强调在动态中比对手更快学习、更快转身。",
+    "detailEn": "Distilled by fighter pilot Boyd, it holds that deciding is not one-shot static analysis but a loop repeated in a shifting environment. The orient step matters most: shaped by prior experience, culture and fresh input, it sets how you read the situation. In business the loop urges shorter feedback cycles, fast small moves and quick correction against live market signals rather than clinging to an outdated plan; it rhymes with the lean startup build-measure-learn cycle, both stressing faster learning and faster turning than the competitor.",
+    "tags": ["行动"],
+    "tagsEn": ["Action"],
+    "related": ["lean-startup", "double-loop", "first-principles"]
+  },
+  {
+    "id": "decision-matrix",
+    "icon": "🗂️",
+    "term": "加权决策矩阵",
+    "termEn": "Weighted Decision Matrix",
+    "level": 1,
+    "oneLiner": "选项列成行、准则列成列，各按重要性加权打分再求和——一张表把「取舍」摊到阳光下。",
+    "oneLinerEn": "Options as rows, criteria as columns, each scored and weighted by importance then summed—one grid that lays the trade-off out in plain sight.",
+    "detail": "又称普格矩阵或打分模型：先确定评判准则并赋权重，再为每个方案逐项打分、加权求和排序，把各说各话的争论转成透明的数字比较。它简单直观，适合选供应商、挑方案、定优先级。但要警惕陷阱：权重本身可能带着偏见、打分依据未必统一，还容易给人「数字精确」的错觉——其实输入的估计很粗糙。它能结构化思考，却不会替你做真正的价值判断。",
+    "detailEn": "Also called a Pugh matrix or scoring model: first fix the criteria and their weights, then score each option item by item, multiply and rank, turning a talk-past-each-other argument into transparent numeric comparison. It is simple and visual, fitting supplier choice, option picking and prioritising. Beware the traps, though: the weights can smuggle in bias, scoring bases may differ, and the neat figures can feign precision built on rough inputs. It structures thinking but does not make the real value judgements for you.",
+    "tags": ["决策"],
+    "tagsEn": ["Decision"],
+    "related": [
+      "analytic-hierarchy-process",
+      "decision-tree",
+      "scamper",
+      "bounded-rationality"
+    ]
   }
 ]
