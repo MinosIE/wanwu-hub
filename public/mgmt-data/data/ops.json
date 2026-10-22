@@ -320,5 +320,61 @@
     "tags": ["风险"],
     "tagsEn": ["Risk"],
     "related": ["poka-yoke", "antifragile", "pre-mortem"]
+  },
+  {
+    "id": "fmea",
+    "icon": "🧯",
+    "term": "FMEA 失效模式分析",
+    "termEn": "Failure Mode and Effects Analysis",
+    "level": 2,
+    "oneLiner": "别等出事才补救：逐项预判产品或流程可能怎样失效、后果多严重、多难发现，按风险优先改进。",
+    "oneLinerEn": "Do not fix only after failure: predict how each part of a product or process can fail, how severe and how hard to catch, then fix by risk priority.",
+    "detail": "起源于军标与航天、被制造业广泛采用的前瞻性风险工具。把系统拆解到部件与步骤，逐一列出可能的失效模式，按严重度、发生概率、可探测性三项打分相乘得风险优先数，优先处置高分项，并把分析固化成持续更新的文档。它把哪里可能出错从模糊直觉变成可排序的行动清单，常与防错、事前验尸互补——一个在造之前防、一个在想象中先。局限是打分主观、易流于填表，需靠跨职能团队与真实数据支撑。",
+    "detailEn": "A forward-looking risk tool born in military and space standards and widely used in manufacturing. Break the system into parts and steps, list each way it might fail, then score severity, occurrence and detectability and multiply them into a risk priority number, acting on the highest first and keeping the analysis as a living document. It turns where things might go wrong from vague intuition into a rankable action list, complementing mistake-proofing and the pre-mortem — one guards before building, one rehearses the failure in advance. Its limits: scores are subjective and it can decay into box-ticking, so it needs a cross-functional team and real data behind it.",
+    "tags": ["风险"],
+    "tagsEn": ["Risk"],
+    "related": ["poka-yoke", "six-sigma", "pre-mortem", "theory-constraints"]
+  },
+  {
+    "id": "queuing-theory",
+    "icon": "⏳",
+    "term": "排队论",
+    "termEn": "Queueing Theory",
+    "level": 3,
+    "oneLiner": "为什么高峰期总在等？用数学刻画到达与服务能力的失衡，在多开窗口与少让人等之间找平衡。",
+    "oneLinerEn": "Why does waiting spike at rush hour? Model the mismatch between arrivals and service capacity, and balance adding servers against sparing the queue.",
+    "detail": "源于丹麦电话工程师爱尔朗对通话等待的研究，后成运筹学分支。它用到达间隔、服务时间、窗口数与服务规则建模排队，量化平均等待、队列长度与利用率，揭示当负荷接近饱和时等待会急剧飙升——这正是餐厅、呼叫中心、医院、服务器为何越忙越慢。核心权衡是提升利用率与降低等待之间的矛盾：加资源能减排队却增成本。它提醒运营者别把系统常年逼到满负荷，要为波动留出余量。",
+    "detailEn": "Born from the Danish telephone engineer Erlang's study of call waiting and later a branch of operations research. It models queues from inter-arrival time, service time, number of servers and the discipline, quantifying average wait, queue length and utilisation, and shows that as load nears saturation waiting blows up — why restaurants, call centres, hospitals and servers crawl when busy. The core tension is that higher utilisation and shorter waits pull against each other: more capacity cuts the queue but raises cost. It warns operators never to run a system pinned at full load but to keep slack for the variance.",
+    "tags": ["运营"],
+    "tagsEn": ["Operations"],
+    "related": ["jit-eoq", "process-mgmt", "lean-production", "critical-path"]
+  },
+  {
+    "id": "statistical-process-control",
+    "icon": "📊",
+    "term": "统计过程控制",
+    "termEn": "Statistical Process Control",
+    "level": 3,
+    "oneLiner": "在坏品造出来之前就叫停：用控制图区分过程的偶然波动与异常信号，让质量靠数据而非事后检验。",
+    "oneLinerEn": "Stop before defects are made: use control charts to tell routine variation from special-cause signals, so quality rides on data, not after-the-fact inspection.",
+    "detail": "休哈特提出的质量地基：任何过程都有正常波动，但一旦点子越出上下控制限、或出现连续上升、偏离中心等模式，就说明有了可查的特殊原因。控制图把这两类信号分开，让一线在问题成灾前就识别并纠正，而非靠全数检验事后剔除。它是六西格玛、统计质量管理的重要组成，也划出一条重要界线——稳定不等于合格，过程可以稳定地产出废品，须先让它受控再谈改进与能力分析。",
+    "detailEn": "Shewhart's foundation of quality: every process has common variation, but once a point falls outside the control limits, or shows runs, trends or shifts off centre, a special cause is at work. The control chart separates the two signals so the floor corrects before defects pile up instead of sorting them out by blanket inspection. It underpins six sigma and statistical quality control and draws a crucial line — being in control is not the same as being up to spec: a process can be stable yet steadily make scrap, so stabilise first, then improve and assess capability.",
+    "tags": ["质量"],
+    "tagsEn": ["Quality"],
+    "related": ["six-sigma", "tqm", "pdca", "pareto-principle"]
+  },
+  {
+    "id": "smed",
+    "icon": "⚙️",
+    "term": "单分钟快速换模",
+    "termEn": "Single-Minute Exchange of Die",
+    "level": 2,
+    "oneLiner": "把设备换型时间压到个位数分钟：分清内外部作业、把内部动作尽量外移并标准化，小批量才划算。",
+    "oneLinerEn": "Shrink changeover to single-digit minutes: split internal from external work, move internal steps out and standardise them, so small batches pay off.",
+    "detail": "由新乡（Shingo）在大野耐一的推动下提出，是精益应对多品种、小批量的关键。做法是先把换模步骤拆成必须在停机时完成的内部作业与可在机器运转时提前做好的外部作业，尽量把内部转为外部、并行操作、取消反复调试、用标准化与定位夹具压缩每一步。换型越快，批量就能越小、库存越低、对多样需求的响应越快，而不必靠大批量来摊薄切换成本。它把换线很慢从技术极限变成可不断改进的流程。",
+    "detailEn": "Set out by Shingo under Ohno's push, it is how lean copes with many products in small lots. First split changeover into internal work that needs the machine stopped and external work that can be done while it still runs; then move internal steps to external, work in parallel, kill setup adjustments, and shrink every step with standardisation and locating fixtures. The faster the changeover, the smaller the batch can be, the lower the stock and the quicker the answer to varied demand, without leaning on big lots to amortise setup. It turns slow changeover from a technical limit into a process that can be endlessly improved.",
+    "tags": ["流程"],
+    "tagsEn": ["Process"],
+    "related": ["lean-production", "jit-eoq", "theory-constraints", "kanban"]
   }
 ]

@@ -390,5 +390,61 @@
     "tags": ["关系"],
     "tagsEn": ["Relations"],
     "related": ["psych-safety", "org-culture", "engagement-q12"]
+  },
+  {
+    "id": "360-degree-feedback",
+    "icon": "🔁",
+    "term": "360 度反馈",
+    "termEn": "360-Degree Feedback",
+    "level": 2,
+    "oneLiner": "别只听上级一面：汇集上级、同事、下属甚至客户的匿名评价，让自我认知更接近别人眼中的你。",
+    "oneLinerEn": "Do not hear only from above: gather anonymous views from bosses, peers, reports and even customers so self-image nears how others actually see you.",
+    "detail": "由多方围绕被评估者匿名打分再汇总对照，重在领导力发展与自我觉察，而非直接定薪。好处是打破只对上负责的盲区、暴露意图与影响的落差；但若缺配套的成长导向文化与辅导，容易沦为办公室政治、或让当事人只看到一堆分数而无行动。有效做法是聚焦少数可改进行为、结合教练跟进、并保证反馈的安全与建设性。它与 SBI 具体反馈、绩效评估互补：一个多源照镜，一个即时具体。",
+    "detailEn": "Ratings are gathered anonymously from many around the person and summarised for contrast, aimed at leadership growth and self-awareness rather than direct pay. Its value is breaking the blind spot of answering only to the boss and exposing the gap between intent and impact; without a growth culture and coaching to match, it can slip into office politics or leave the person facing a pile of scores with no action. Use it well by fixing on a few improvable behaviours, following up with coaching and keeping the feedback safe and constructive. It complements SBI feedback and performance review: one a multi-source mirror, the other immediate and specific.",
+    "tags": ["度量"],
+    "tagsEn": ["Metrics"],
+    "related": ["performance-review", "sbi-feedback", "psych-safety", "engagement-q12"]
+  },
+  {
+    "id": "diversity-inclusion",
+    "icon": "🌈",
+    "term": "多元、平等与包容",
+    "termEn": "Diversity, Equity and Inclusion",
+    "level": 2,
+    "oneLiner": "把不同的人请进来只是开始，真正的挑战是让每个人都敢发言、被听见、能成长——差异才转成绩效。",
+    "oneLinerEn": "Bringing different people in is only the start; the real test is whether each dares to speak, is heard and can grow — only then does difference turn into performance.",
+    "detail": "多元指背景与视角的差异（性别、文化、专业、经历等），包容则关乎这些不同声音能否真正被接纳与善用。研究指出，多元本身并不自动带来好处，缺乏包容反而加剧摩擦与流失；只有当心理安全感足够、流程能汇集异见、晋升不偏向像我的人，差异才会拓宽选项、减少群体盲思、更贴近多样客户。管理落点在招聘去偏、会议规则、公平机制与长期文化养成，而非一次性口号或配额。",
+    "detailEn": "Diversity is difference of background and perspective (gender, culture, discipline, experience); inclusion is whether those different voices are truly welcomed and used. Research finds diversity brings no automatic gain — without inclusion it can worsen friction and turnover; only when psychological safety is high, processes gather dissent and promotion does not favour people like us does difference widen options, curb groupthink and mirror a varied clientele. The levers are de-biased hiring, meeting rules, fair systems and long-term culture, not a one-off slogan or a quota.",
+    "tags": ["文化"],
+    "tagsEn": ["Culture"],
+    "related": ["psych-safety", "org-culture", "conflict-modes", "groupthink"]
+  },
+  {
+    "id": "mentoring",
+    "icon": "🌳",
+    "term": "导师制与师徒传承",
+    "termEn": "Mentoring",
+    "level": 1,
+    "oneLiner": "成长最快的路径之一是有人带：导师给经验与视野、开人脉之门，把隐性知识在关系中传下去。",
+    "oneLinerEn": "A fastest route to growth is being guided: a mentor offers experience and perspective, opens doors, and passes tacit knowledge down through the relationship.",
+    "detail": "导师不同于经理或教练：重在以阅历、反馈与榜样支持被指导者的长期成长与融入，提供安全的试错空间与职业引路。经典划分是职业支持与心理社会支持两类功能；有效的配对靠自愿、边界清晰与双向承诺，失当则易变成小圈子或越界庇护。它还能反哺导师、沉淀组织智慧、提升留任。现代做法还辅以同伴互助与反向辅导，让年轻一代也指导资深者。它与 GROW 教练、职业锚互补：一个靠关系长期陪伴，一个靠提问当下自省。",
+    "detailEn": "A mentor differs from a manager or coach: it leans on experience, feedback and example to support the protégé's long-term growth and belonging, offering a safe space to test and career guidance. The classic split is career support versus psychosocial support; a good pairing rests on choice, clear boundaries and two-way commitment, while a poor one drifts into cliques or patronage. It also feeds back to the mentor, banks organisational wisdom and lifts retention. Modern practice adds peer help and reverse mentoring, letting juniors guide seniors. It complements GROW coaching and career anchors: one is long companionship through relationship, the other in-the-moment self-discovery through questions.",
+    "tags": ["学习"],
+    "tagsEn": ["Learning"],
+    "related": ["grow-coaching", "career-anchors", "kirkpatrick", "competency-iceberg"]
+  },
+  {
+    "id": "crucial-conversations",
+    "icon": "🗣️",
+    "term": "关键对话",
+    "termEn": "Crucial Conversations",
+    "level": 2,
+    "oneLiner": "高风险、情绪激烈、观点对立的谈话之所以难，是因为人一紧张就转向沉默或暴怒——先重建安全感。",
+    "oneLinerEn": "High-stakes, emotional, opposed views are hard because under stress people swing to silence or force — so rebuild safety first.",
+    "detail": "由帕特森等基于大量访谈提炼：当对话变得关键，人们常滑向两种失败——要么回避（沉默）、要么强加（控制），结果信息从共享的意义池中流失。核心是先营造让双方都敢开口的安全氛围，用对比说明消除误解，陈述事实与自身想法而不指责，再真诚探问对方。它强调管理情绪、聚焦我想要什么，把对抗变成共同探究。与非暴力沟通、SBI 反馈一脉相承，都是把难谈的话谈成。",
+    "detailEn": "Distilled by Patterson and colleagues from many interviews: when a conversation turns crucial, people slide into two failures — avoidance (silence) or imposition (coercion) — and information drains out of the shared pool of meaning. The core is to build safety so both dare speak, use contrasting to clear misunderstanding, state facts and your own view without blame, then genuinely probe the other. It stresses managing emotion and focusing on what you want, turning a fight into joint inquiry. It is of one family with nonviolent communication and SBI feedback — all about landing the hard talk.",
+    "tags": ["沟通"],
+    "tagsEn": ["Communication"],
+    "related": ["nvc", "conflict-modes", "principled-negotiation", "sbi-feedback"]
   }
 ]
