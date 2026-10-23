@@ -5,6 +5,7 @@
  */
 
 import type { DetailPayload, SourceRef } from "./types";
+import { yearText } from "../ui/text";
 
 export interface SubjectDetailDeps {
   esc: (value: unknown) => string;
@@ -35,11 +36,13 @@ export function createSubjectDetail(deps: SubjectDetailDeps): SubjectDetail {
     return t(`ui.lvl${level}`);
   }
 
-  /** 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。图表卡等处可复用。 */
+  /** 来源标签：英文界面优先 labelEn（缺失回退中文），年份括号随语言。
+   *  公元前负年份走 yearText（「前 450 年」/「450 BCE」），不再裸出「-450」。图表卡等处可复用。 */
   function srcLabel(s: SourceRef): string {
     const en = getLang() === "en";
     const label = en ? s.labelEn || s.label : s.label;
-    const year = s.year ? (en ? ` (${s.year})` : `（${s.year}）`) : "";
+    const y = yearText(s.year, en);
+    const year = y ? (en ? ` (${y})` : `（${y}）`) : "";
     return `${esc(label)}${year}`;
   }
 
@@ -85,6 +88,8 @@ export function createSubjectDetail(deps: SubjectDetailDeps): SubjectDetail {
     const tags = p.tags?.length
       ? `<div class="detail-tags">${p.tags.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</div>`
       : "";
+    // 副标题与标题同串时不重复展示（英文态下 L(term) 与 L(termEn) 会撞车）。
+    const subtitle = p.subtitle && p.subtitle !== p.title ? p.subtitle : "";
 
     const body = p.sections
       .map((sec) => {
@@ -109,7 +114,7 @@ export function createSubjectDetail(deps: SubjectDetailDeps): SubjectDetail {
         <button class="detail-close" type="button" data-close="1" aria-label="${esc(t("ui.close"))}">✕</button>
         ${eyebrow ? `<p class="detail-eyebrow">${esc(eyebrow)}</p>` : ""}
         <h3 class="detail-title">${esc(p.title)}</h3>
-        ${p.subtitle ? `<p class="detail-sub">${esc(p.subtitle)}</p>` : ""}
+        ${subtitle ? `<p class="detail-sub">${esc(subtitle)}</p>` : ""}
         ${p.badge ? `<span class="badge">${esc(p.badge)}</span>` : ""}
         ${tags}
       </header>

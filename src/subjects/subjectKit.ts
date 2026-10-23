@@ -38,6 +38,7 @@ const TXT = {
     en: "Nothing at this level yet",
   },
   noResult: { zh: "未找到匹配项", en: "No matches" },
+  related: { zh: "相关条目", en: "Related" },
 };
 
 export interface PeriodicCell {
@@ -722,6 +723,27 @@ export function createSubject(cfg: SubjectConfig) {
       const eyebrow = `${esc(L(m.title))}${
         item.level != null ? ` · ${esc(levelLabel(item.level))}` : ""
       }`;
+      /** 关联条目：related 存的是 id，跨模块查找同库内全部模块；解不到的（数据缺口）直接丢弃。
+       *  physics/chem 条目无 related 字段，此处自然为空。 */
+      const relTargets = (item.related ?? [])
+        .map((id) => {
+          for (const mm of cfg.modules) {
+            const hit = mm.items.find((x) => x.id === id);
+            if (hit) return { module: mm, item: hit };
+          }
+          return undefined;
+        })
+        .filter((x): x is { module: SubjectModule; item: SubjectItem } => !!x);
+      const related = relTargets.length
+        ? `<div class="detail-rel"><b>${esc(L(TXT.related))}</b><div class="rel-chips">${relTargets
+            .map(
+              (r, i) =>
+                `<button type="button" class="chip" data-rel="${i}">${esc(
+                  L(r.item.term),
+                )}</button>`,
+            )
+            .join("")}</div></div>`
+        : "";
       const tags =
         item.tags && item.tags.length
           ? `<div class="detail-tags">${item.tags
@@ -739,6 +761,7 @@ export function createSubject(cfg: SubjectConfig) {
             ${tags}
           </header>
           <div class="detail-body">${body}</div>
+          ${related}
         </aside>`;
       d.hidden = false;
       document.body.classList.add("no-scroll");
@@ -749,6 +772,16 @@ export function createSubject(cfg: SubjectConfig) {
       d.querySelectorAll<HTMLElement>("[data-close]").forEach((n) =>
         n.addEventListener("click", closeDetail),
       );
+      // 相关条目：先收当前面板再开目标；目标属别的模块时同步切过去，避免背后列表停在错误模块。
+      d.querySelectorAll<HTMLElement>("[data-rel]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const r = relTargets[Number(btn.dataset.rel)];
+          if (!r) return;
+          closeDetail();
+          if (r.module.key !== m.key) selectModule(r.module.key);
+          openDetail(r.module, r.item.id);
+        });
+      });
       // 重放：移除 .eq-anim 后强制回流再添加，重启 CSS 动画序列。
       d.querySelectorAll<HTMLElement>(".eq-replay").forEach((btn) => {
         btn.addEventListener("click", () => {

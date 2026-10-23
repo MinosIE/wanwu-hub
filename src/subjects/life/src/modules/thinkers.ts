@@ -1,5 +1,6 @@
 import { openDetail } from "../core/detail";
-import { L, t } from "../core/i18n";
+import { getLang, L, t } from "../core/i18n";
+import { yearText } from "../../../../core/ui/text";
 import type { DetailPayload, LObj } from "../core/types";
 import { lvlBadge } from "../core/ui";
 import {
@@ -77,8 +78,9 @@ export default async function render(): Promise<ModuleInstance> {
     const works = (item.works ?? [])
       .map((w) => {
         const title = L<string>(w as LObj, "title");
-        return w.year
-          ? `《${escapeInline(title)}》(${w.year})`
+        const y = yearText(w.year, getLang() === "en");
+        return y
+          ? `《${escapeInline(title)}》(${y})`
           : `《${escapeInline(title)}》`;
       })
       .filter(Boolean);

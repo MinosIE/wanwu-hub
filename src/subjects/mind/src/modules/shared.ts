@@ -108,10 +108,13 @@ export function mountList(m: ListModule): void {
               .filter(Boolean)
               .map((x) => `<span class="chip">${esc(x)}</span>`)
               .join('');
+            /* 英文态下 term 与 termEn 会同串，副行与主行重复则不再渲染。 */
+            const subSpan =
+              cv.sub && cv.sub !== cv.title
+                ? `<span class="g-en">${esc(cv.sub)}</span>`
+                : '';
             return `<button class="gloss-item" data-id="${esc(it.id)}">
-                <div class="g-head"><span class="g-term">${esc(cv.title)}</span><span class="g-en">${esc(
-                  cv.sub || '',
-                )}</span></div>
+                <div class="g-head"><span class="g-term">${esc(cv.title)}</span>${subSpan}</div>
                 <p class="g-def">${esc(cv.one || '')}</p>
                 ${cv.plain ? `<p class="g-plain">${esc(cv.plain)}</p>` : ''}
                 ${tags ? `<div class="c-tags">${tags}</div>` : ''}
@@ -135,7 +138,11 @@ export function mountList(m: ListModule): void {
                 <span class="tl-year">${esc(it.year || '')}</span>
                 <span class="tl-body">
                   <span class="tl-term">${esc(cv.title)}</span>
-                  ${cv.sub ? `<span class="tl-en">${esc(cv.sub)}</span>` : ''}
+                  ${
+                    cv.sub && cv.sub !== cv.title
+                      ? `<span class="tl-en">${esc(cv.sub)}</span>`
+                      : ''
+                  }
                   ${cv.one ? `<p class="tl-one">${esc(cv.one)}</p>` : ''}
                 </span>
               </button>`;
@@ -160,7 +167,12 @@ export function mountList(m: ListModule): void {
               .join('');
             return `<button class="card" data-id="${esc(it.id)}">
                 <span class="c-title">${esc(cv.title)}</span>
-                ${cv.sub ? `<span class="c-sub">${esc(cv.sub)}</span>` : ''}
+                ${
+                  /* 英文态下 term 与 termEn 会同串，副行与主行重复则不再渲染。 */
+                  cv.sub && cv.sub !== cv.title
+                    ? `<span class="c-sub">${esc(cv.sub)}</span>`
+                    : ''
+                }
                 ${cv.one ? `<span class="c-one">${esc(cv.one)}</span>` : ''}
                 <span class="c-tags">${lvl}${tags}</span>
               </button>`;

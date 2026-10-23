@@ -1,5 +1,6 @@
 import { getLang, t } from './i18n';
 import { esc } from './dom';
+import { yearText } from '../../../../core/ui/text';
 import type { DetailView, RefSource } from './types';
 
 // 说明：s.html 等由各模块拼装，凡插入数据字段一律经 esc()；来源 url 同样转义后作为 href。
@@ -16,8 +17,9 @@ export function srcLabel(s: RefSource): string {
   const label = en ? s.labelEn || s.label : s.label;
   // label 已含年份（如 "Milgram (1963)"）时不再重复拼接
   const hasYear = s.year != null && String(label).includes(`(${s.year})`);
+  const y = yearText(s.year, en);
   const year =
-    s.year != null && !hasYear ? (en ? ` (${s.year})` : `（${s.year}）`) : '';
+    s.year != null && !hasYear && y ? (en ? ` (${y})` : `（${y}）`) : '';
   return `${esc(label)}${year}`;
 }
 
@@ -91,7 +93,12 @@ export function renderDetail(
       <header class="detail-head">
         <button class="detail-close" id="detailClose" type="button" aria-label="${esc(t('ui.close'))}">✕</button>
         <h3 class="detail-title">${esc(view.title)}</h3>
-        ${view.sub ? `<p class="detail-sub">${esc(view.sub)}</p>` : ''}
+        ${
+          // 副标题与标题同串时不重复展示（英文态下 L(term) 与 L(termEn) 会撞车）。
+          view.sub && view.sub !== view.title
+            ? `<p class="detail-sub">${esc(view.sub)}</p>`
+            : ''
+        }
       </header>
       <div class="detail-body">${sections}</div>
       ${related}

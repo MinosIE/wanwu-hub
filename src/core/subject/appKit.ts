@@ -9,6 +9,7 @@
  */
 
 import { provideApp } from "./app";
+import { yearText } from "../ui/text";
 import type {
   DetailPayload,
   LObj,
@@ -258,7 +259,11 @@ export function createSubjectApp(cfg: SubjectAppConfig): SubjectApp {
       const [yOpen, yClose] = en ? [" (", ")"] : ["（", "）"];
       list.innerHTML = items
         .map((s) => {
-          const label = `${esc(L<string>(s, "label"))}${s.year ? `${yOpen}${esc(s.year)}${yClose}` : ""}`;
+          const label = `${esc(L<string>(s, "label"))}${
+            s.year
+              ? `${yOpen}${esc(yearText(String(s.year), en))}${yClose}`
+              : ""
+          }`;
           const text = s.url
             ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
             : label;

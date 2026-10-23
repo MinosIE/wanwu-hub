@@ -27,6 +27,17 @@ export function splitProse(s: string): string[] {
     .filter(Boolean);
 }
 
+/** 年份展示：公元前（数据里存负数）渲染为「前 450 年 / 450 BCE」，
+ *  公元后保持数字原样（不加「年」/CE，以免改动既有渲染与已核校文案）。
+ *  来源标签、文献列表、人物著作年等多处共用，避免「（-450）」这类裸负数泄到界面上。 */
+export function yearText(year?: string | number | null, en = false): string {
+  if (year === undefined || year === null || year === "") return "";
+  const n = typeof year === "number" ? year : Number(year);
+  if (!Number.isFinite(n)) return String(year);
+  if (n >= 0) return String(n);
+  return en ? `${Math.abs(n)} BCE` : `前 ${Math.abs(n)} 年`;
+}
+
 /** 散文 → HTML：单句仍以 <p> 呈现，两句以上转成既有的 .dsec-list 项目符号。
  *  format 由调用方提供（esc 纯转义 / escapeInline 额外支持 **加粗**）。 */
 export function proseHTML(
