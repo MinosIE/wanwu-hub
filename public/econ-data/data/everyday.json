@@ -190,5 +190,28 @@
         "year": 2006
       }
     ]
+  },
+  {
+    "id": "gift-debt",
+    "icon": "🧧",
+    "question": "随出去的份子钱，到底是谁在记账？",
+    "questionEn": "The cash you gift at weddings — who is keeping the books?",
+    "level": 2,
+    "econ": "份子钱是一笔没有利率、没有到期日、却人人记账的非正式信贷与保险。",
+    "econEn": "Wedding cash is informal credit and insurance: no interest rate, no due date, and everybody keeps a ledger.",
+    "detail": "在正式金融够不着的地方——没有小额信贷、没有保险、也没有破产清算——红白喜事的人情往来承担了三种经济功能。其一是大额支出的互助融资：一场婚丧的开销远超单户当年的现金流，靠网络把成本摊到多年多户。其二是跨期风险分担：你家有事时众人出钱，轮到别人时你出钱，等价于一份以关系为载体的互助保险。其三是信息登记：礼单就是可查的信用记录，谁随了多少、有没有还上，都留在纸上。它的「执行」不靠法院而靠社区——不还的人不是被告，而是被排除出未来的往来网络，这正是互惠作为制度的强制机制。同一套机制也有可测的成本：礼金通胀（互相攀比推高数额，实际保障没变）、对无现金者的排斥（年轻人和低收入户最先被门槛挡在外面）、以及「随了份子就该办事」的路径绑架。判据很朴素：当它能覆盖你本来买不起的风险，它是有效制度；当它只是把同一笔钱在亲友间反复搬运并抽取面子税，它是净损耗。",
+    "detailEn": "Where formal finance does not reach — no microcredit, no insurance, no bankruptcy — ritual gift-giving performs three economic jobs. First, mutualised funding of a lumpy expense: one wedding or funeral costs far more than a household's cash flow in that year, and the network spreads it across years and houses. Second, risk sharing across time: people pay in when you are in trouble and you pay in when they are, which is an insurance pool carried by relationship. Third, information registration: the gift list is an auditable credit record of who gave what and whether it was returned. Enforcement comes not from courts but from the community — a non-repaying person is not sued, they are written out of future exchange, which is precisely how reciprocity works as an institution. The same mechanism has measurable costs: gift inflation (rivalry pushes amounts up while the coverage stays flat), exclusion of those with no cash (the young and the low-income are priced out first), and the path lock of 'you paid in, so now you must hold your own event'. The test is plain: if it covers risks you could not otherwise insure, it is efficient institutions; if it only shuffles the same money between relatives while levying a face tax, it is deadweight loss.",
+    "concept": "reciprocity-institution",
+    "conceptLabel": "互惠：没有法院的交换如何维持",
+    "conceptLabelEn": "Reciprocity: Exchange Without Courts",
+    "related": ["second-hand-market", "gym-membership", "fairness-reciprocity"],
+    "sources": [
+      {
+        "label": "费孝通《乡土中国》",
+        "labelEn": "Fei Xiaotong, From the Soil: The Foundations of Chinese Society",
+        "year": 1948
+      },
+      { "label": "莫斯《礼物》", "labelEn": "Mauss, The Gift", "year": 1925 }
+    ]
   }
 ]

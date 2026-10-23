@@ -605,5 +605,41 @@
         "year": 1978
       }
     ]
+  },
+  {
+    "id": "reciprocity-institution",
+    "term": "互惠：没有法院的交换如何维持",
+    "termEn": "Reciprocity: Exchange Without Courts",
+    "category": "行为与博弈",
+    "categoryEn": "Behavior & Games",
+    "level": 3,
+    "oneLiner": "在合同与法院够不着的地方，交换靠「不回报就会被排除」的预期维持——互惠不只是美德，而是一套有代价、会记账、能执行的制度。",
+    "oneLinerEn": "Where contracts and courts do not reach, exchange is held together by the expectation that non-repayment means exclusion — reciprocity is not only a virtue but a bookkeeping system with enforcement.",
+    "detail": "交易成本为正时，法律并非唯一解。人类学一侧，莫斯《礼物》指出礼物自带「必须回报」的义务，给予、接受、回报三件事织成社会纽带；萨林斯再分泛化互惠（亲人之间不算账）、平衡互惠（礼尚往来、有期有额）与消极互惠（一次性讨价还价），说明亲疏决定结算方式。经济学一侧，格雷夫等人以中世纪马格里卜商人的联盟与集体惩罚说明跨海贸易如何在不靠国家执行的情况下运转；奥斯特罗姆则显示公共池塘社区用分级制裁也能长期自治。这解释了为什么熟人社会讲人情、陌生人社会讲合同：差别不在道德水位，而在监督成本与再交易概率。它也自带代价：人情债没有到期日、没有利率、金额含糊，容易被「先给小恩、再索大报」的互惠式操纵利用；网络一旦缩小（迁居、离职），这套资产也会迅速贬值。",
+    "detailEn": "When transaction costs are positive, law is not the only solution. On the anthropological side, Mauss argued that a gift carries an obligation to reciprocate — giving, receiving and repaying weave the social bond — and Sahlins then graded generalised reciprocity (no accounting among kin), balanced reciprocity (equal amounts, set timing) and negative reciprocity (one-shot haggling), so that closeness sets the settlement rule. On the economic side, Greif and colleagues described how Maghribi traders' coalition and collective sanctioning kept long-distance trade running without state enforcement, while Ostrom showed common-pool communities sustaining themselves through graduated sanctions. This is why societies of acquaintances run on favour and societies of strangers run on contract: the difference is monitoring cost and the probability of meeting again, not the water level of morality. The arrangement has its own price: a debt of favour has no due date, no interest rate and an ambiguous amount, which is exactly what 'small gift first, large demand later' manipulation exploits — and the asset depreciates fast once the network shrinks through moving or quitting.",
+    "example": "同学群里认真帮人答一次题，什么都不还就会难受；跨国订单却不必靠「下次记得我」，信用证替它把信任折成单据。",
+    "exampleEn": "Answering properly in a class group chat creates a debt you feel until it is returned; a cross-border order needs no 'remember me next time' because a letter of credit converts trust into paper.",
+    "related": [
+      "repeated-games",
+      "information-asymmetry",
+      "transaction-cost",
+      "fairness-reciprocity",
+      "public-goods"
+    ],
+    "tags": ["制度", "交换"],
+    "tagsEn": ["Institution", "Exchange"],
+    "sources": [
+      { "label": "莫斯《礼物》", "labelEn": "Mauss, The Gift", "year": 1925 },
+      {
+        "label": "格雷夫、米尔格罗姆、温加斯顿《协调、承诺与执行》",
+        "labelEn": "Greif, Milgrom & Weingast, Coordination, Commitment, and Enforcement",
+        "year": 1994
+      },
+      {
+        "label": "奥斯特罗姆《公共事物的治理之道》",
+        "labelEn": "Ostrom, Governing the Commons",
+        "year": 1990
+      }
+    ]
   }
 ]

@@ -59,5 +59,17 @@
     "labelEn": "Measure What Matters",
     "type": "目标",
     "typeEn": "Goals"
+  },
+  {
+    "label": "《影响力》",
+    "labelEn": "Influence: The Psychology of Persuasion",
+    "type": "说服",
+    "typeEn": "Persuasion"
+  },
+  {
+    "label": "《人情与面子：中国人的权力游戏》",
+    "labelEn": "Humanity and Face: The Chinese Power Game",
+    "type": "本土",
+    "typeEn": "Indigenous"
   }
 ]

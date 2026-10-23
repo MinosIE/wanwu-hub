@@ -703,5 +703,67 @@
         "year": 1907
       }
     ]
+  },
+  {
+    "id": "he-harmony",
+    "term": "和（和而不同）",
+    "termEn": "He (Harmony Without Uniformity)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "def": "「和」指差异共处之后的协调，不等于「同」。有子言「礼之用，和为贵」，把和谐定为礼的落点；孔子又以「君子和而不同，小人同而不和」划出边界——以他者之异成其和，而非以附和抹平差异。荀子「乐合同，礼别异」说的是同一结构：秩序来自分辨差异，团结来自情感共振。",
+    "defEn": "'He' names coordination among differences, not sameness. Youzi made harmony the point of ritual — 'in the use of ritual, harmony is prized'; Confucius then drew the boundary: the exemplary person harmonises without conforming, the small person conforms without harmonising. Xunzi's 'music fuses, ritual distinguishes' states the same structure: order comes from marking difference, solidarity from shared resonance.",
+    "plain": "「给个台阶」「别撕破脸」求的就是这个「和」；它既可能是真体谅，也可能被人拿来要你别再讲道理。",
+    "plainEn": "'Give them a way out' and 'do not tear the face' are chasing this harmony; it can be genuine consideration — or the argument used to make you stop making your point.",
+    "related": [
+      "li-ritual",
+      "zhongyong",
+      "confucianism",
+      "kongzi",
+      "li-natural-law-compare"
+    ],
+    "sources": [
+      {
+        "label": "《论语·学而》《子路》",
+        "labelEn": "Analects, 'Xue'er' and 'Zilu'",
+        "year": -450
+      },
+      {
+        "label": "《荀子·乐论》",
+        "labelEn": "Xunzi, Discourse on Music",
+        "year": -240
+      }
+    ]
+  },
+  {
+    "id": "shu-reciprocity",
+    "term": "恕（絜矩之道）",
+    "termEn": "Shu (Reciprocity and the Rule of Equivalence)",
+    "category": "中国哲学",
+    "categoryEn": "Chinese Philosophy",
+    "level": 2,
+    "def": "「恕」是推己及人。孔子答子贡「其恕乎，己所不欲，勿施于人」，给出一条可终身执行的消极金律；《大学》把它制度化为「絜矩之道」——以自身好恶为尺度丈量待人，「所恶于上，毋以使下」。朱熹注「尽己之谓忠，推己之谓恕」：忠是就事尽己，恕是以己度人，同一工夫的两面。",
+    "defEn": "'Shu' is extending what you know of yourself to others. Confucius answered Zigong with 'perhaps reciprocity: do not impose on others what you would not choose' — a negative golden rule kept for life. The Great Learning institutionalised it as the 'rule of equivalence': measure your dealings by what you yourself dislike, 'what you hate in your superior, do not do to your inferior'. Zhu Xi paired the two: 'doing your utmost in a matter is zhong; judging others by yourself is shu', two faces of one discipline.",
+    "plain": "它是儒家版本的可普遍化检验：先问「换成我受得了吗」，再决定怎么做。与「仁」不同，恕不要求你去爱人，只要求你别把自己不肯承受的东西转嫁出去。",
+    "plainEn": "It is the Confucian universalisability test: ask 'could I bear this if it were done to me' before acting. Unlike benevolence (ren), shu does not ask you to love others, only not to offload what you would refuse to bear.",
+    "related": [
+      "benevolence",
+      "li-ritual",
+      "categorical-imperative",
+      "kongzi",
+      "zhongyong"
+    ],
+    "sources": [
+      {
+        "label": "《论语·卫灵公》《颜渊》",
+        "labelEn": "Analects, 'Wei Ling Gong' and 'Yan Yuan'",
+        "year": -450
+      },
+      {
+        "label": "《大学》；朱熹《四书章句集注》",
+        "labelEn": "Great Learning; Zhu Xi, Collected Commentaries on the Four Books",
+        "year": 1190
+      }
+    ]
   }
 ]

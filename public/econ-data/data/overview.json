@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "counts": {
-    "concepts": 30,
+    "concepts": 31,
     "glossary": 57,
     "thinkers": 20,
     "events": 35,
@@ -9,7 +9,7 @@
     "behavioral": 13,
     "charts": 11,
     "compare": 8,
-    "everyday": 10,
+    "everyday": 11,
     "gametheory": 8,
     "macro": 13,
     "micro": 11,
@@ -23,7 +23,7 @@
     {
       "key": "concepts",
       "icon": "💡",
-      "value": 30
+      "value": 31
     },
     {
       "key": "glossary",

@@ -5,7 +5,7 @@
   "heroTitleEn": "Management of Everything",
   "intro": "从管理思想、战略、组织结构，到领导激励、决策、运营与财务——梳理让一群人把事做成的方法、框架与背后的取舍。",
   "introEn": "Management thought, strategy, structure, leadership, decision-making, operations and finance — the methods, frameworks and trade-offs behind getting things done with other people.",
-  "total": 189,
+  "total": 191,
   "counts": {
     "thought": 16,
     "strategy": 23,
@@ -14,7 +14,7 @@
     "decision": 27,
     "ops": 27,
     "finance": 23,
-    "people": 32
+    "people": 34
   },
   "modules": [
     {
@@ -79,7 +79,7 @@
       "title": "人与变革",
       "titleEn": "People & Change",
       "kind": "cards",
-      "count": 32
+      "count": 34
     }
   ],
   "kpis": [
@@ -90,6 +90,6 @@
     { "key": "decision", "icon": "⚖️", "value": 27 },
     { "key": "ops", "icon": "⚙️", "value": 27 },
     { "key": "finance", "icon": "📊", "value": 23 },
-    { "key": "people", "icon": "🤝", "value": 32 }
+    { "key": "people", "icon": "🤝", "value": 34 }
   ]
 }

@@ -219,6 +219,13 @@
       "nEn": "The Rational-Agent Assumption"
     }
   ],
+  "reciprocity-institution": [
+    {
+      "m": "m-concepts",
+      "n": "互惠：没有法院的交换如何维持",
+      "nEn": "Reciprocity: Exchange Without Courts"
+    }
+  ],
   "cpi": [
     {
       "m": "m-glossary",
@@ -1687,6 +1694,13 @@
       "m": "m-everyday",
       "n": "健身房年卡，为什么办了却不去？",
       "nEn": "Why buy the annual gym pass and then not go?"
+    }
+  ],
+  "gift-debt": [
+    {
+      "m": "m-everyday",
+      "n": "随出去的份子钱，到底是谁在记账？",
+      "nEn": "The cash you gift at weddings — who is keeping the books?"
     }
   ],
   "global-growth": [

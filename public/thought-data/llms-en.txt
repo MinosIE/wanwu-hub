@@ -2,7 +2,7 @@
 
 > Eastern and Western schools, core questions and classics — how we come to know the world through inquiry.
 
-228 entries across 10 categories, all as structured JSON.
+230 entries across 10 categories, all as structured JSON.
 
 ## Data endpoints
 - [Branches & mechanisms](https://minosie.github.io/wanwu-hub/thought-data/data/branches.json)
