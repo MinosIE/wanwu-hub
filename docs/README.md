@@ -37,10 +37,10 @@ CI：`.github/workflows/ci.yml` 在 PR / push 到 main 时跑 `verify` + `build`
 内容数据：`public/<key>-data/data/*.json`（`overview.json`、`sources.json` 等）。
 适合：需要自定义布局、搜索、筛选、来源区的学科。
 
-### 3.2 LIGHTWEIGHT 学科（physics / chem）
+### 3.2 LIGHTWEIGHT 学科（physics / chem / mgmt）
 
 结构：`index.ts` 调用 `createSubject(cfg)`（`src/subjects/subjectKit.ts`），`cfg` 来自 `data.ts`。
-**调整 physics/chem 优先改 `data.ts`**，一般无需改模板。
+**调整 physics/chem/mgmt 优先改 `data.ts`**，一般无需改模板。
 
 #### `SubjectConfig` 数据格式
 
@@ -64,6 +64,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           detail: { zh: "…", en: "…" }, // 详情面板
           example: { zh: "…", en: "…" }, // 详情面板示例
           tags: [{ zh: "经典力学", en: "Classical" }],
+          related: ["momentum", "energy-conservation"], // 可选，指向同科其他条目 id（mgmt 用；physics/chem 无此字段）
         },
       ],
     },

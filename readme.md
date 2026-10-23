@@ -4,7 +4,7 @@
 
 ## 本仓库定位
 
-`wanwu-hub` 是「万物通识」系列的**统一站**：既是聚合入口（首页导航 8 个学科），也是各学科内容的承载站。所有学科统一进本仓库，单一 Vite 工程构建、单一 GitHub Pages 部署。
+`wanwu-hub` 是「万物通识」系列的**统一站**：既是聚合入口（首页导航 9 个学科），也是各学科内容的承载站。所有学科统一进本仓库，单一 Vite 工程构建、单一 GitHub Pages 部署。
 
 技术栈：**Vite + TypeScript + 零 UI 框架**（沿用 econ/mind 的「零框架 + 数据驱动 + 中英双语」模式）。
 
@@ -19,7 +19,7 @@ wanwu-hub/
 │   │   ├── theme.ts        # 明暗主题 + toggleTheme/onThemeChange
 │   │   ├── router.ts       # hash 路由（#/subject/<key>[/<module>/<id>]）
 │   │   ├── layout.ts       # 顶栏/导航/footer 外壳
-│   │   ├── subjects.json   # 8 学科元信息「唯一数据源」（TS 与各脚本共享）
+│   │   ├── subjects.json   # 9 学科元信息「唯一数据源」（TS 与各脚本共享）
 │   │   ├── projects.ts     # import subjects.json → PROJECTS[] + 状态标签
 │   │   └── dataKit.ts      # createDataLoader 工厂（各 FULL 学科 data.ts 委托它）
 │   ├── shell/home.ts       # 首页：学科卡片网格
@@ -28,7 +28,7 @@ wanwu-hub/
 │       ├── dynasty/ econ/ mind/ thought/ earth/ life/   # FULL 学科
 │       │   ├── template.ts + main.ts/index.ts + styles/{base,components,tokens}.css
 │       │   └── public/<key>-data/data/*.json 为内容数据
-│       ├── physics/ chem/  # LIGHTWEIGHT 学科
+│       ├── physics/ chem/ mgmt/  # LIGHTWEIGHT 学科
 │       │   └── index.ts → createSubject(subjectKit) + data.ts
 │       ├── subjectKit.ts    # 轻量学科通用渲染器（hero+KPI+搜索+模块卡+难度筛选+详情+来源）
 │       ├── _shared/          # scaffold 三科（earth/life/thought）共享 CSS
@@ -48,7 +48,7 @@ wanwu-hub/
 | 类型            | 学科                                           | 实现                                        | 能力                                                          |
 | --------------- | ---------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
 | **FULL**        | dynasty / econ / mind / thought / earth / life | 各自 `template.ts` + `main.ts` + 独立 CSS   | 搜索 / 筛选 / refs / 详情 / 视图内主题·语言切换（仅 dynasty） |
-| **LIGHTWEIGHT** | physics / chem                                 | `subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情 + 来源区         |
+| **LIGHTWEIGHT** | physics / chem / mgmt                        | `subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情 + 来源区         |
 
 > 主题与语言的**唯一状态源在 `layout.ts` 的全局顶栏**，它也是全站唯一的切换入口：学科 hero 内不再放语言/主题按钮。例外是中华王朝（深色渐变上的玻璃胶囊是它的招牌样式），其 `.lang-btn` / `.theme-btn` 由 `src/core/viewControls.ts` 桥接到顶栏（捕获阶段接管点击），因此两处永远同步。
 
@@ -59,7 +59,7 @@ npm install
 npm run dev          # 开发服务器（Vite）
 npm run build        # 生产构建到 dist/
 npm run preview      # 预览构建产物
-npm run verify       # 类型检查 + JSON 校验 + 链接/双语/索引覆盖门禁 + physics/chem 导出防漂移 + dynasty/chem 数据校验
+npm run verify       # 类型检查 + JSON 校验 + 链接/双语/索引覆盖门禁 + physics/chem/mgmt 导出防漂移 + dynasty/chem 数据校验
 npm run build:ssg    # gen:geo + gen:sitemap + vite build + puppeteer 预渲染（静态 HTML，利于 SEO/首屏）
 ```
 
@@ -68,7 +68,7 @@ npm run build:ssg    # gen:geo + gen:sitemap + vite build + puppeteer 预渲染�
 - `npm run gen:sitemap` / `npm run gen:geo`：重生站点根与 per-subject 的 `sitemap.xml` / `llms*.txt` / `robots.txt`（域名统一为 `https://minosie.github.io/wanwu-hub/`）；`build:ssg` 已自动前置这两步。
 - `npm run index:rebuild`：一次重建全部学科派生索引（`search.json` / `related.json`）——scaffold 三科用 `s/build-index.mjs`、econ 用 `s/build-econ-index.mjs`、dynasty 用 `dynasty:build-search`。改源数据后需重跑。
 - `npm run links:check`：数据质量门禁（`related` 死链 / 双语字段成对 / 英文字段混中文 / 派生索引覆盖 / `overview.json` 计数与 kpis）。
-- `npm run data:export` / `data:check`：把 physics/chem 的 `data.ts` 导出为 `public/<x>-data/data/*.json` 机器可读数据（`--check` 作为防漂移门禁）。
+- `npm run data:export` / `data:check`：把 physics/chem/mgmt 的 `data.ts` 导出为 `public/<x>-data/data/*.json` 机器可读数据（`--check` 作为防漂移门禁）。
 - `npm run fmt:json`：统一数据 JSON 排版（与导出器共用 `scripts/jsonStyle.mjs`）。
 - dynasty 另有专用数据构建脚本：`npm run dynasty:validate` / `dynasty:rebuild` 等。
 - chem 有三道专用闸：`npm run chem:validate`（方程式原子+电荷守恒、双语字段结构、`subs` role、SVG viewBox 越界、`detail` 禁 markdown，已在 `verify` 链里）、`npm run chem:stats`（打印内容实测账：条目数、无 `detail`、`detail` 长短、方程式/`subs`/SVG 计数）、`npm run chem:smoke [模块名…]`（浏览器冒烟，中英 × 明暗逐条点开，自行起停 preview，需本机 Chrome 故不进 `verify`）。改 `src/subjects/chem/data.ts` 后前两个必跑。
@@ -77,7 +77,7 @@ npm run build:ssg    # gen:geo + gen:sitemap + vite build + puppeteer 预渲染�
 
 面向搜索引擎 / AI 爬虫的静态资产分两层，**均由脚本生成、不要手改**：
 
-- **站点根 hub**：`public/llms.txt` / `llms-en.txt` / `robots.txt` / `sitemap.xml`，由 `scripts/gen-geo.mjs` + `scripts/gen-sitemap.mjs` 产出（sitemap 覆盖首页 + 8 学科页 + 全部数据文件）。
+- **站点根 hub**：`public/llms.txt` / `llms-en.txt` / `robots.txt` / `sitemap.xml`，由 `scripts/gen-geo.mjs` + `scripts/gen-sitemap.mjs` 产出（sitemap 覆盖首页 + 9 学科页 + 全部数据文件）。
 - **per-subject**：`public/<key>-data/{llms.txt,llms-en.txt,robots.txt,sitemap.xml}`，scaffold 三科由 `gen-geo.mjs` 生成，econ/mind/dynasty 各自维护。
 - 学科清单以 `src/core/subjects.json` 为唯一真相源：`projects.ts`（TS import）与 `gen-sitemap.mjs` / `gen-geo.mjs` / `prerender.mjs`（node 读取）四方共享，避免多处手写清单漂移。
 
@@ -90,7 +90,7 @@ npm run build:ssg    # gen:geo + gen:sitemap + vite build + puppeteer 预渲染�
 
 - `/` 或 `#/` → 首页学科导航
 - `#/subject/<key>` → 进入某学科
-- `#/subject/<key>/<module>/<id>` → 深链到某学科某模块的具体条目（physics/chem 已支持）
+- `#/subject/<key>/<module>/<id>` → 深链到某学科某模块的具体条目（physics/chem/mgmt 已支持）
 
 ## 双语与主题
 

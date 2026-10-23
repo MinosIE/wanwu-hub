@@ -1,7 +1,7 @@
 # 可改进清单 · wanwu-hub（BACKLOG）
 
 > 生成日期：2026-10-09。基于当前代码现状梳理「还能做什么」。
-> 现状：Vite + TS + 零框架 + subject 插件化 SPA，8 个学科全部 `integrated`，由 `src/main.ts` 按 key 路由到各自 `mount`（`src/core/projects.ts`）。
+> 现状：Vite + TS + 零框架 + subject 插件化 SPA，已接入的 9 个学科全部 `integrated`，由 `src/main.ts` 按 key 路由到各自 `mount`（`src/core/projects.ts`）。
 > 既有规划 `PLAN.md`、Agent 规格 `agent.md`、说明 `readme.md` 均描述**旧版纯静态导航站**，与现状严重不符（见 §6）。
 
 ---
@@ -13,10 +13,10 @@
 | 类型            | 学科                                                     | 入口                                                     | 能力                                                    |
 | --------------- | -------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |
 | **FULL**        | `dynasty / econ / mind / thought / earth / life`（6 个） | 自带 `template.ts` + `main.ts` + 独立 CSS                | 搜索 / 筛选 / refs / 详情（语言与主题由顶栏统一切换）   |
-| **LIGHTWEIGHT** | `physics / chem`（2 个）                                 | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情弹层 + refs |
+| **LIGHTWEIGHT** | `physics / chem / mgmt`（3 个）               | `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动 | hero + KPI + 搜索 + 难度筛选 + 模块卡 + 详情弹层 + refs |
 
 工程：Vite 构建 + puppeteer SSG 预渲染（`build:ssg`）；GitHub Pages 自动部署（`.github/workflows/deploy.yml`）。
-数据门禁：`npm run verify` = typecheck + `check:json` + `links:check`（死链/双语/派生索引/overview 计数）+ `data:check`（physics/chem 导出防漂移）+ dynasty 校验。
+数据门禁：`npm run verify` = typecheck + `check:json` + `links:check`（死链/双语/派生索引/overview 计数）+ `data:check`（physics/chem/mgmt 导出防漂移）+ dynasty 校验。
 **测试：零覆盖**。文档：`readme.md` / `agent.md` / `docs/` 已对齐现状，`PLAN.md` 仍为历史规划。
 
 ---
@@ -127,6 +127,7 @@
   - 自伤与修复：写完专搜把中英混排、`?`、「应为」、形近字、巡检串各扫一遍——zh 里字母全是官能团式与分子式（—OH、—CHO、CH₄、C₂H₆O、C₆H₁₂O₆、[—CH₂—CH₂—]ₙ、β-H…）非英文单词；en 无双引号/无中文/无 markdown；8 条 en 均 832–1244 字符、zh 均 256–325 字，全部过线（新增行对 38 条巡检串 0 命中）。
   - 计数与实测：条目数 277 不变；`detail` 达标（≥200）**141→149**、不足 200 **4→0**、无 `detail` **18→14**（余 glossary 10 + sources 4 属设计）；方程式 165、`subs` 485、非周期表 SVG 26 本轮不动；`chem:validate` 全库 **pass=33946 fail=0**（较前 +160、因新增 8 条 detail 的双语/巡检字段）、warn **266→258**；`data:export`→`gen:geo`→`gen:sitemap` 已同步（全站 187 条不变）；`npm run build` ✓、`npm run verify` exit=0；`chem:smoke` 全库 19 模块 277 条中英 × 明暗 **8372 项断言全过、0 失败**（较前 +16、四新填条各在 4 组合补一条 detail 指纹）。至此 chem 空壳账清零，本条主账保留为未完成是因为扩展类内容与 physics 专题仍在后。
   - 剩余账：真·空壳已尽；glossary 10 + sources 4 的短 `detail` 属术语/文献清单设计不改。
+- [x] **mgmt 万物管理学 · 八模块经典补录 + 跨模块查重（第十八批·收官）**——真相源 `src/subjects/mgmt/data.ts`（subjectKit 轻量学科，item 比 physics/chem 多 `related` 字段）。承「补录经典缺口、不重复」口径，对八大模块各补一轮：thought+4 / org+4（`eba9850`）、decision+4 / finance+4（`359cdee`，165→173）、strategy+4 / leadership+4（`353df90`，173→181）、ops+4（FMEA/排队论/统计过程控制/快速换模）/ people+4（360 反馈/多元包容/导师制/关键对话）（`208b32d`，181→189）。**修正一处上批质量缺陷**：leadership 曾把 科特变革八步/权力五来源/情商/GROW 当新条目加入，实则 people 早已用 `kotter-8`/`bases-power`/`eq`/`grow-coaching` 逐字覆盖（中文标题一字不差）——已从 leadership 移除、改放真正缺失的 适应性领导/分布式领导/伦理型领导/向上管理（净 0）。**收官体检**：对全库 189 条按 term+oneLiner 做汉字二元组 Jaccard 跨模块查重（阈值降至 0.12），无 term 完全同名、仅 2 对边界互补（lean-production↔lean-thought、process-mgmt↔reengineering，均教科书式分立且已互链），顺带补齐 `process-mgmt`→`reengineering` 的 related 关联（`dac8c52`）。**教训**：新增前必须跨全部模块按概念查重、不能只比对本模块 id；新 id 还须跨全部学科 data 目录做碰撞预检。实测：mgmt 189 条（thought16/strategy23/org18/leadership23/decision27/ops27/finance23/people32）、links:check mgmt 189/189 错误 0 告警 0、verify exit=0、build ✓、puppeteer 中英端到端 + 0 pageerror。同步修正了 readme/agent/PLAN/BACKLOG/docs 中「LIGHTWEIGHT 仅 physics/chem、全库 8 学科、links:check 七科」等未随 mgmt 接入更新的旧口径。
 - [x] **physics 近代物理实验专题（第十七批）：`experiments`「著名实验」8 条空壳补写厚 `detail` 双语**（0 新增条目、只写正文）——physics 与 chem 同为 subjectKit（真相源 `src/subjects/physics/data.ts`），但著名实验模块 8 条此前只有 term/level/oneLiner、无 detail（点开详情为空）。为 8 条近代物理招牌实验各写一段可核实的装置→观察→意义：杨氏双缝（单光子逐点累积仍显条纹→波粒二象性）、迈克尔逊-莫雷（找以太风的零结果→光速不变）、密立根油滴（力平衡、电量皆 e≈1.60×10⁻¹⁹ C 整数倍→电荷量子化）、卢瑟福金箔（α 大角度散射→1911 核式模型）、卡文迪许扭秤（镜尺放大、先测地球密度、G 后人换算）、光电效应（只关频率、E=hν、逸出功与最大动能、1905/1921 诺奖）、伽利略斜面（冲淡重力、s∝t²、外推自由落体、惯性思想）、赫兹电磁波（发射接收火花、测速≈光速）。physics 无 chem 式守恒闸、无专属冒烟，事实逐条人工核。改后走 data:export→gen:geo→gen:sitemap。实测：detail zh 201–257 字 / detailEn 633–879 字符、links:check physics 130/128 错误0告警0、check:json 146/0、verify exit=0、build ✓。
 - [x] **chem 扩展第二批（第十六批）：有机化学逐族深化 +3 条（`organic` 8→11）+ 2 条配平有机方程式**（新增 3 条、不动现有 8 条）——真相源 `src/subjects/chem/data.ts`，在 organic 模块末尾新增「烃类家族（烷烯炔与苯）」「醇与酚」「酯化反应与酯」三条，后两条各挂一条**逐原子手核守恒**的新配平方程式（乙醇催化氧化 2CH₃CH₂OH + O₂ →(Cu/Ag,△) 2CH₃CHO + 2H₂O、乙酸酯化 CH₃COOH + C₂H₅OH ⇌(浓硫酸,△) CH₃COOC₂H₅ + H₂O，各左右 C₄H₁₂O₄ / C₄H₁₀O₃ 相等），并补齐覆盖全部物种的 subs。中文指针「取代反应/加成反应/同分异构体/官能团/消去反应/酯化反应与酯/醇与酚」逐字命中 term、英文 (see …) 命中 termEn（含本批新条 Alcohols & Phenols / Esterification & Esters）。改后走 data:export→gen:geo→gen:sitemap 同步链，并顺带修正第十五批遗漏的 thought llms 计数（184→188，当时只重建 search/related 未跑 gen:geo）。实测：chem 282→285、达标 154→157、有机方程式 4→6（全站 170→172）、subs 502→510、warn 258 不变、chem:validate pass=35361 fail=0、chem:smoke 8596 项全过（+84）、check:json 146/0、links:check chem 285/275 错误0告警0、verify exit=0、build ✓。
 - [x] **thought 精修第一批（第十五批）：为已在时间线/对比/误区中被引用、却无本人传记的大哲学家补 thinkers +4 条**（新增 4 条、不动现有 25 条）——霍布斯（1588—1679，自然状态是一切人对一切人的战争、以契约把权力让渡给主权者，`tl-hobbes`/`xingshan-hobbes-compare` 早有引用）、黑格尔（1770—1831，辩证法与扬弃、精神在历史中走向自由，`tl-hegel` 被引用）、伊壁鸠鲁（前341—前270，快乐即身体无痛与心灵宁静、死亡不足惧，`myth-epicurus-debauch` 正澄清其「纵欲」误区）三位此前只在他处出现却无本人条目，属内部一致性缺口；顺势补卢梭（1712—1778，公意与主权在民、「人生而自由却无往不在枷锁之中」），完善社会契约脉络（霍布斯—洛克—卢梭）。thought 与 mind 不同：除 `thinkers.json` 外另有派生 `search.json`/`related.json`（由 `index:build` 生成）与 overview 的 `counts`+`kpis` 两处计数，故 thinkers.json append-only 写回（deletions=0）后须 `npm run index:build -- thought` 重建派生文件（search 184→188、related 同步）+ 定点改 overview.thinkers 25→29。新条目 `related` 全跨模块解析（含本批互引 hobbes↔rousseau）、`*En` 纯 ASCII、含中文 source label 均配 labelEn。实测：thought 184→188 条、`check:json` 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`。

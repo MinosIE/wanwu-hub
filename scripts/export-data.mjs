@@ -1,13 +1,13 @@
-// 轻量学科（physics / chem）数据导出器：把 src/subjects/<x>/data.ts 里的 TS 常量
+// 轻量学科（physics / chem / mgmt）数据导出器：把 src/subjects/<x>/data.ts 里的 TS 常量
 // 转成与 FULL 学科同一契约的机器可读 JSON，落到 public/<x>-data/data/。
 //
 //   · LStr {zh,en}      → 主字段（zh）+ `字段En` 副本（en），与 earth/life/thought 一致
 //   · LStr[]（如 tags） → 并行数组 tags / tagsEn
 //   · 每个模块一个文件（模块 key 即文件名），另有 overview.json 与 sources.json
 //
-// 用法：node scripts/export-data.mjs [physics chem]
+// 用法：node scripts/export-data.mjs [physics chem mgmt]
 //   追加 --check 只报告与已提交文件不一致的学科（CI 防漂移），不写盘。
-// 说明：data.ts 是这两个学科的唯一事实来源，本脚本只是它的投影；改动 data.ts 后需重跑。
+// 说明：data.ts 是这三个学科的唯一事实来源，本脚本只是它的投影；改动 data.ts 后需重跑。
 import { build } from "esbuild";
 import fs from "node:fs";
 import path from "node:path";

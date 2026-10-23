@@ -27,7 +27,7 @@
 
 两种架构并存，扩充手法不同：
 
-- **subjectKit（LIGHTWEIGHT）**：`physics`、`chem` —— 配置驱动，加模块 = 往 `data.ts` 的 `modules[]` 追加，**最易扩充**，且已具备 `figure`/`eq`/动画/物质释义能力；`npm run data:export` 可把 `data.ts` 导出为 `public/<x>-data/data/*.json` 机器可读数据（含 llms.txt / sitemap / robots）。
+- **subjectKit（LIGHTWEIGHT）**：`physics`、`chem`、`mgmt` —— 配置驱动，加模块 = 往 `data.ts` 的 `modules[]` 追加，**最易扩充**，且已具备 `figure`/`eq`/动画/物质释义能力；`npm run data:export` 可把 `data.ts` 导出为 `public/<x>-data/data/*.json` 机器可读数据（含 llms.txt / sitemap / robots）。
 - **FULL 模板**：`dynasty`、`econ`、`mind`、`thought`、`earth`、`life` —— 自带 `template.ts` + `public/<x>-data/data/*.json`。加条目 = 改 JSON（易）；**加新分类视图 = 需改模板**（重）。
 
 | 学科    | 架构       | 现有模块                                                                          | 条目量 | 距门槛                               |
@@ -37,6 +37,7 @@
 | mind    | FULL       | 概念/术语/心理学家/流派/偏差/实验/时间线/测验/日常/误区/对比                      | 150±   | 🟡 达标边缘，补应用与临床            |
 | physics | subjectKit | 16 模块                                                                           | 130    | 🟢 已导出机器可读 JSON               |
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
+| mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 189    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 184    | ✅ 视图与 mind/econ 同量级           |
 | earth   | FULL       | 地区/专题/原理/人文/典籍/人物（6 类）                                             | 79     | 🟠 已达 6 视图（+原理+人文），继续补 |
 | life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种（6 类）                                     | 80     | 🟠 已新增生命原理 + 特有物种视图     |

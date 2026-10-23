@@ -1,13 +1,13 @@
 # 收敛规划 · 万物通识系列统一站
 
 > 目标：把各子项目内容**全部收敛进 `wanwu-hub` 单一仓库 / 站点**，形成「一个入口，看尽万物」的真正统一站。
-> 当前状态（2026-10）：**收敛已完成**——8 个学科全部 `integrated` 并统一进 `wanwu-hub`（单一 Vite 工程 + 单一 GitHub Pages 部署）。本文件保留作为历史背景与设计决策记录；后续待办见 `BACKLOG.md`。
+> 当前状态（2026-10）：**收敛已完成**——已接入的 9 个学科全部 `integrated` 并统一进 `wanwu-hub`（单一 Vite 工程 + 单一 GitHub Pages 部署）。本文件保留作为历史背景与设计决策记录；后续待办见 `BACKLOG.md`。
 
 ---
 
 ## 1. 现状盘点（已收敛）
 
-全部 8 个学科均已接入 `wanwu-hub`，由 `src/main.ts` 按 key 路由到各自 `mount`（`src/core/projects.ts`）：
+全部 9 个学科均已接入 `wanwu-hub`，由 `src/main.ts` 按 key 路由到各自 `mount`（`src/core/projects.ts`）：
 
 | 学科                | key     | 状态              | 实现范式                      |
 | ------------------- | ------- | ----------------- | ----------------------------- |
@@ -19,8 +19,9 @@
 | 万物生物            | life    | online            | FULL                          |
 | 万物物理            | physics | wip（内容种子化） | LIGHTWEIGHT（subjectKit）     |
 | 万物化学            | chem    | wip（内容种子化） | LIGHTWEIGHT（subjectKit）     |
+| 万物管理学          | mgmt    | online            | LIGHTWEIGHT（subjectKit）     |
 
-> 本地实际已有内容的子项目即上述 8 个，统一进 `wanwu-hub` 后旧仓库可归档。
+> 本地实际已有内容的子项目即上述 9 个，统一进 `wanwu-hub` 后旧仓库可归档。
 
 ---
 
@@ -55,9 +56,9 @@
 收敛过程中形成了**双轨**，需在后续明确走向：
 
 - **FULL**：dynasty / econ / mind / thought / earth / life。自带 `template.ts` + `main.ts` + 独立 CSS，能力最完整（搜索 / 筛选 / refs / 详情；语言与主题由顶栏统一切换）。
-- **LIGHTWEIGHT**：physics / chem。用 `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动，复用通用渲染器（hero + KPI + 模块卡 + 详情 + 搜索 + 来源区）。
+- **LIGHTWEIGHT**：physics / chem / mgmt。用 `src/subjects/subjectKit.ts` 的 `createSubject` 配置驱动，复用通用渲染器（hero + KPI + 模块卡 + 详情 + 搜索 + 来源区）。
 
-**待决策（见 `BACKLOG.md` §2）**：长期是「继续扩展 subjectKit 让轻量学科追平 FULL」还是「把 physics/chem 升级为 FULL 模板、收敛为单一范式」。这决定后续每个学科的维护成本。
+**待决策（见 `BACKLOG.md` §2）**：长期是「继续扩展 subjectKit 让轻量学科追平 FULL」还是「把 physics/chem/mgmt 升级为 FULL 模板、收敛为单一范式」。这决定后续每个学科的维护成本。
 
 ---
 
