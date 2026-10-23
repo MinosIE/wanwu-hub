@@ -382,5 +382,231 @@
     "categoryEn": "Decision making",
     "related": ["choice-overload", "status-quo-bias", "decision-fatigue"],
     "sources": [{ "label": "约翰逊与戈德斯坦《默认的力量》", "labelEn": "Johnson & Goldstein, Defaults and Decision Outcomes", "year": 2003 }]
+  },
+  {
+    "id": "decline-without-damage",
+    "term": "如何拒绝而不伤关系",
+    "termEn": "How to Say No Without Burning the Bridge",
+    "oneLiner": "让人受伤往往不是「不」本身，而是被否定感——立场、真实难处、替代方案，三样齐了才叫一次干净的拒绝。",
+    "oneLinerEn": "What stings is rarely the 'no' itself but the feeling of being dismissed—stance, honest constraint and an alternative make a refusal survivable.",
+    "detail": "为什么难：拒绝在开口之前就被放大了。聚光灯效应让我们高估对方会记住多少、也高估自己那份尴尬，于是先答应、再拖延、最后怨恨——把一次小成本变成这段关系的长期负债。怎么做：三段式。先给明确立场（这次不行），不含糊、也不留假希望；再给真实难处而不是借口，借口一旦被拆穿，赔进去的是信用；最后给替代——换个时间、换个方式，或者引荐更合适的人。核心是把「你不行」换成「这件事我做不到」：拒绝的是请求，不是人。边界：拖延不如早说，对方越晚知道越难重新安排。还有一条常被忽略——一贯有求必应的人，第一次说不反弹最大；而有原则的人偶尔说不几乎无损。所以保护你的不是每次都答应，而是可预期的诚实。",
+    "detailEn": "Why it is hard: a refusal is inflated before it is spoken. The spotlight effect makes us overestimate how much the other person will remember and how awkward we look, so we agree, stall, then resent—turning one small cost into a long-term liability on the relationship. How: three moves. State the position plainly (not this time) without leaving false hope; offer a real constraint rather than an excuse, since an exposed excuse costs credibility; then supply an alternative—another time, another form, or someone better placed. The core is swapping 'you are too much' for 'I cannot do this thing': refuse the request, not the person. Caveat: say it early, because the later people learn, the harder it is for them to rearrange. And those who always comply pay the most for their first no, while people with visible principles pay almost nothing—what protects you is not compliance but predictably honest limits.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": [
+      "spotlight-effect",
+      "door-in-the-face",
+      "self-compassion",
+      "boundary-sense"
+    ],
+    "sources": [
+      {
+        "label": "吉洛维奇等《社会判断中的聚光灯效应》",
+        "labelEn": "Gilovich, Medvec & Savitsky, The Spotlight Effect in Social Judgment",
+        "year": 2000
+      }
+    ]
+  },
+  {
+    "id": "gift-and-favor",
+    "term": "随份子与礼尚往来",
+    "termEn": "Gifts, Cash and the Debt of Reciprocity",
+    "oneLiner": "礼物从不免费：收下的那一刻就欠下一笔没有到期日的债——互惠既是纽带，也是杠杆。",
+    "oneLinerEn": "A gift is never free: accepting it opens a debt with no due date—reciprocity bonds people and levers them.",
+    "detail": "机制：格尔纳把「互惠规范」列为社会结构的支柱之一——人接受了好处就会产生应当回报的不适，而且回报往往超额、延后。随份子、年货、请客走的就是这条通道：金额被记住、被比较、被转述，一个人在关系网里的余额，决定他临时开口时能借到什么。怎么用得干净：一是把赠予说成赠予，别让它变成预付的控制——「我帮你带过孩子」是把债当场拿出来讨；二是接受时把回报的方式与时限说清，含糊的亏欠最容易发酵成怨恨；三是警惕以礼物开局的请求，得寸进尺效应说明先应下小恩惠，之后就更难拒绝大要求。边界：关系越近，越不该精确对账。把人情算成账目，往往正是它开始破裂的信号。",
+    "detailEn": "Mechanism: Gouldner listed the norm of reciprocity among the pillars of social structure—once we take a benefit we feel obliged to return it, and the return tends to be larger and later. Wedding cash gifts, New Year provisions and hosted meals all run on this channel: amounts are remembered, compared and retold, and a person's balance in a network decides what they can borrow when they ask in a hurry. How to keep it clean: call a gift a gift rather than prepaid leverage—'I minded your kids once' is a debt collected on the spot; when accepting, name the form and timing of the return, since vague owing ferments into resentment; and distrust requests that open with a present, because foot-in-door shows that a small accepted favour makes the large one harder to refuse. Boundary: the closer the relationship, the less exact the accounting. Keeping score is usually the symptom that the bond has already begun to fail.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": ["renqing", "bao-reciprocity", "foot-in-door", "in-group-favoritism"],
+    "sources": [
+      {
+        "label": "格尔纳《互惠规范》",
+        "labelEn": "Gouldner, The Norm of Reciprocity",
+        "year": 1960
+      },
+      {
+        "label": "西奥迪尼《影响力》",
+        "labelEn": "Cialdini, Influence: The Psychology of Persuasion",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "id": "read-courtesy-phrases",
+    "term": "客套话怎么听",
+    "termEn": "How to Read Polite Formulae",
+    "oneLiner": "「改天请你吃饭」不是日程而是关系的标点——高语境里，礼貌语传递的是距离与善意，不是信息。",
+    "oneLinerEn": "'Let's eat out sometime' is punctuation, not a schedule: in high-context talk politeness carries distance and goodwill, not information.",
+    "detail": "为什么会有客套：语言不只报告事实，也维护面子。汉语里的「您」「麻烦您」「不太合适」承担缓冲功能，把直接否定包起来，让对方有台阶、让场面不塌。霍尔把这类沟通称为高语境——大量含义放在关系、场合与措辞里，而不是字面上。怎么解码：看具体度，「改天聚」是礼节，「周三晚上七点、我发定位」是打算；看谁把成本留给自己，客套话总说「我来麻烦你」；看重复度，一次是礼貌，反复主动才是意愿。反向注意：把客套当真会白等，把客套当假会伤人。习惯低语境的人常抱怨「不直说」不够坦诚，但直说并非更诚实，只是把成本从听者转给了说者——两种风格各有代价，看清对方在为什么付钱就够了。",
+    "detailEn": "Why formulae exist: language does more than report facts, it protects face. Chinese honorifics and hedged refusals work as cushions, wrapping a direct no so the other side keeps a step down and the scene does not collapse. Hall called this high-context communication—much of the meaning sits in relationship, setting and phrasing rather than in the words. How to decode: check specificity, since 'sometime' is ritual while 'Wednesday seven, I'll send a pin' is intent; check who keeps the cost, because courtesy always volunteers oneself ('let me trouble you'); check repetition, since once is politeness and repeated initiative is willingness. The reverse caution: reading formulae literally wastes your waiting, reading them as false hurts someone. Low-context speakers often call indirectness dishonest, but bluntness is not more truthful—it merely shifts cost from listener to speaker. Both styles charge; notice who is paying.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": [
+      "guanxi",
+      "mianzi-face",
+      "emotion-expression",
+      "individualism-collectivism"
+    ],
+    "sources": [
+      { "label": "霍尔《超越文化》", "labelEn": "Hall, Beyond Culture", "year": 1976 },
+      {
+        "label": "戈夫曼《面子与工作》",
+        "labelEn": "Goffman, On Face-Work",
+        "year": 1955
+      }
+    ]
+  },
+  {
+    "id": "give-a-way-out",
+    "term": "给人台阶下",
+    "termEn": "Giving Someone a Way Out",
+    "oneLiner": "当众逼人认错，多半只换来抵抗——先把面子保住，人才有可能改。",
+    "oneLinerEn": "Cornering someone in public buys resistance: secure the face first and correction becomes possible.",
+    "detail": "机制：戈夫曼把面子定义为「在互动中主张的那份正面自我形象」，一旦被公开质疑，人会本能启动防御——合理化、否认、反击。因为此刻承认错误的成本不只是这件事，而是整个人。所以纠偏的第一目标不是让对方看见真相，而是把真相的价格降到他付得起。怎么做：把「你错了」换成「有个情况想跟你核对」；提供不丢人的解释通道（时间太紧、信息不全、我当时没说清），对方就能顺着走下来；能私下讲就别当众讲；必要时给一个可以公开的动作——主动认错的人，往往是刚被递了台阶的人。边界：给台阶不等于替人担责，原则问题上含糊只会把成本推到下一次。它也会有一种失效场景：对方把退让读成心虚。那时需要的是清楚的立场加上清楚的尊重，而不是更软的措辞。",
+    "detailEn": "Mechanism: Goffman defined face as the positive social value a person claims in interaction; once publicly challenged, defences fire automatically—rationalise, deny, counterattack—because admitting the error now costs not just the error but the whole self. So the first job of correction is not to show the truth but to price it low enough to afford. How: trade 'you're wrong' for 'there's something I'd like to check with you'; leave an unshaming explanation open (tight deadline, missing information, I explained it poorly) so they can step down it; say it privately when you can; and where useful, offer one public action—people who own a mistake in front of others are usually those just handed a way out. Boundary: a way out is not carrying their responsibility; vagueness on matters of principle only defers the bill. One failure mode: the retreat is read as weakness. Then what is needed is a clear position plus clear respect, not softer wording.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": [
+      "lian-character",
+      "mianzi-face",
+      "fundamental-attribution-error",
+      "actor-observer-bias"
+    ],
+    "sources": [
+      {
+        "label": "戈夫曼《面子与工作》",
+        "labelEn": "Goffman, On Face-Work",
+        "year": 1955
+      }
+    ]
+  },
+  {
+    "id": "anatomy-of-apology",
+    "term": "一次有效的道歉缺什么",
+    "termEn": "What an Effective Apology Is Missing",
+    "oneLiner": "「对不起行了吧」为什么让人更怒：只有情绪、没有承认具体后果与承诺改变的道歉，是在替自己解围。",
+    "oneLinerEn": "Why 'sorry, okay?' angers further: an apology with feeling but no acknowledgement of harm and no promise of change is self-relief, not repair.",
+    "detail": "研究：刘易基等人把有效道歉拆成若干要素——陈述事实、承认造成的伤害、表达悔意、提出补偿、承诺不再犯，其中「承认具体后果」与「承诺改变」权重最高；只描述自己多难受（「我也一直很自责」）会把焦点从被伤害的人挪回道歉者身上。为什么难：道歉是一次自我降格，权力感越高的人越难开口——权力本身就让人更少采纳他人视角。而接受方要的通常不是忏悔表演，是「你明白你做了什么」，所以「如果让你不舒服了」这类条件句最伤人：它把责任推回对方的敏感。结构建议：一句话说清做了什么，一句话说清对方承受了什么，一句话说接下来怎么办，然后停下来等回应。别加「但是」，那是转折的开始，也是道歉的结束。",
+    "detailEn": "Evidence: Lewicki and colleagues decomposed effective apologies into elements—state the act, acknowledge the harm, express regret, offer repair, promise change—with acknowledging specific consequences and promising change carrying the most weight; describing only how awful you feel moves the spotlight back onto the apologiser. Why it is hard: apologising is a self-demotion, and the more power someone feels the harder it gets, since power itself reduces perspective-taking. What receivers usually want is not a performance of remorse but 'you understand what you did'—which is why 'if this made you uncomfortable' cuts deepest: it hands responsibility back to their sensitivity. A workable shape: one sentence on what you did, one on what they carried, one on what happens next, then stop and let them answer. Do not append 'but'—it is where the reversal starts and the apology ends.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": ["empathy", "power-blind-spot", "self-serving-bias", "criticism-that-lands"],
+    "sources": [
+      {
+        "label": "刘易基等《有效道歉的结构探索》",
+        "labelEn": "Lewicki, Polin & Lount, An Exploration of the Structure of Effective Apologies",
+        "year": 2016
+      }
+    ]
+  },
+  {
+    "id": "ask-a-favor-right",
+    "term": "求人办事的分寸",
+    "termEn": "The Decency of Asking",
+    "oneLiner": "会开口是一种能力：把成本、时限和退路说清楚，别逼对方用「拒绝」来保护自己。",
+    "oneLinerEn": "Asking well is a skill: name the cost, the deadline and the exit, so the other side need not defend itself with a refusal.",
+    "detail": "为什么不敢开口：求助暴露依赖，人怕被看低。但研究的方向相反——出丑效应显示适度暴露不完美反而更讨人喜欢；真正消耗关系的也不是请求本身，而是含糊的请求：对方既估不出要花多少，又不好推辞，只能拖着或者疏远。怎么提：一句话说清要什么、什么时候要、大概多少投入；给出一个体面的拒绝方式（这周不方便就直说，我另想办法），降低对方说不的成本；说明为什么找他，具体的理由远比泛泛恭维有效；事后把结果回过去，让人知道自己确实帮到了什么——沉默的回报最容易让下一次没人伸手。边界：别把关系当提款机。连续单向索取、只在需要时出现、拿交情公开施压，都会迅速把账户清零。",
+    "detailEn": "Why we freeze: asking exposes dependence and we fear being seen as small. The evidence runs the other way—the pratfall effect shows a measured imperfection makes us likelier, not less; what actually drains a relationship is not the ask but a vague one, where the other side cannot price the effort and cannot refuse cleanly, so they stall or drift. How to ask: one sentence on what you need, when, and roughly what it costs; offer a dignified no ('if this week is bad, say so and I'll find another way') to lower the price of refusing; say why this person, since a specific reason beats flattery; and report back afterwards so they learn the help landed—silent returns are what make people stop lending. Boundary: never treat a relationship as an ATM. One-way taking, appearing only when needed, and pressing private closeness in public all empty the account fast.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": ["pratfall-effect", "foot-in-door", "guanxi", "renqing"],
+    "sources": [
+      {
+        "label": "阿伦森等《出丑效应：能力与失礼对吸引力的影响》",
+        "labelEn": "Aronson, Willerman & Ham, The Effect of Practical Elegance on Interpersonal Attractiveness",
+        "year": 1966
+      }
+    ]
+  },
+  {
+    "id": "table-seating-rules",
+    "term": "饭局、称谓与座位",
+    "termEn": "Seating, Titles and the Script of a Meal",
+    "oneLiner": "座次和称呼不是繁文缛节，而是一套低成本信号：告诉每个人「你在这里被怎样看待」。",
+    "oneLinerEn": "Seating and forms of address are not ceremony for its own sake but cheap signals telling everyone how they are regarded here.",
+    "detail": "为什么需要仪式：戈夫曼把日常互动看作有脚本的仪式，人们靠微小的形式确认彼此的位置。主位、上菜顺序、先敬谁、叫「某总」「老师」还是直呼名字——这些都在替关系定价，省下了大量「我们到底是什么关系」的谈判。实用做法：进入陌生场合先观察再表现——看谁坐主位、谁先动筷、谁的话被接住；称谓宁可略正式，等对方主动降格；介绍时把低位者介绍给高位者（「王总，这是小李」），被介绍的一方起身；座位拿不准就问一句，问比坐错便宜得多。边界：仪式一旦变成表演，成本就高过收益。真正让人舒服的，是形式上的稳妥加上注意力上的真诚——手机屏幕朝下放在桌上，比敬酒词漂亮更有用。",
+    "detailEn": "Why ritual is needed: Goffman read everyday interaction as scripted ceremony, with people confirming each other's place through tiny forms. The seat of honour, the order of serving, who is toasted first, whether someone is 'Director Wang', 'Teacher' or just a name—all of these price the relationship and spare everyone the negotiation of asking what it is. Practice: in an unfamiliar room observe before performing—who takes the head seat, who lifts chopsticks first, whose remark gets picked up; keep address slightly formal until the other side downgrades it; introduce the junior to the senior ('Director Wang, this is Li') and rise when you are introduced; when unsure of a seat, ask—asking is far cheaper than guessing. Boundary: once ritual becomes performance its cost exceeds its value. What people actually register is formal steadiness plus real attention: a phone face-down on the table beats a better toast.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": ["mianzi-face", "first-impression", "split-second-trust", "guanxi"],
+    "sources": [
+      {
+        "label": "戈夫曼《互动仪式》",
+        "labelEn": "Goffman, Interaction Rituals",
+        "year": 1967
+      }
+    ]
+  },
+  {
+    "id": "praise-behind-back",
+    "term": "背后说人好话",
+    "termEn": "Speaking Well of People Behind Their Backs",
+    "oneLiner": "当面夸是礼节，背后夸才被认为可信——好消息绕一圈传回来时，分量翻倍。",
+    "oneLinerEn": "Praise to someone's face is etiquette; praise behind their back is believed—and doubles in weight once it travels.",
+    "detail": "机制：坏比好更强——负面信息与评价在判断中的权重普遍高于正面，所以背后的坏话杀伤极大，背后的好话收益也极大。听者还会做一个推论：你在我面前怎么说他，就会在别人面前怎么说我，于是这句话同时给说话人贴上了标签。为什么有效：它绕过了防御。当面夸奖常被打折接收（他有求于我、不过是客气），而转述的好评看不出动机，可信度更高；社会比较让人对来自同级的评价格外敏感，一句背后的肯定常常比十次当面赞美更被记住。怎么做：把肯定说具体——哪个判断、造成什么后果，别夸天赋；在当事人不在场、话题相关时自然带出；如果被转述回来，不必否认，也不必追加。边界：只有一种情况会反噬，就是被看出你在用好评换取站队。",
+    "detailEn": "Mechanism: bad is stronger than good—negative information carries more weight in judgement than positive, which is why talk behind a back damages so efficiently and also why praise does the same in reverse. Listeners draw a second inference too: how you speak of them to others is how you speak of anyone, so the sentence labels the speaker as well. Why it lands: it bypasses defences. Praise to someone's face gets discounted (he wants something, it's just politeness), while reported praise shows no obvious motive and so is trusted; social comparison makes evaluations from peers especially salient, so one word behind a back often outlasts ten compliments to it. Practice: make the credit specific—which judgement, what it caused—rather than praising talent; let it out naturally when the person is absent and the topic is live; if it comes back to you, neither deny it nor pile on. Boundary: it only rebounds when people see you buying allegiance with good words.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": [
+      "negativity-bias",
+      "social-comparison",
+      "halo-effect",
+      "emotional-contagion"
+    ],
+    "sources": [
+      {
+        "label": "鲍迈斯特等《坏与好同样强大》",
+        "labelEn": "Baumeister et al., Bad Is as Strong as Good in Twenty-Four Psychological Phenomena",
+        "year": 2001
+      }
+    ]
+  },
+  {
+    "id": "talk-to-strangers",
+    "term": "冷场时，谁先开口",
+    "termEn": "Who Speaks First in a Silence",
+    "oneLiner": "我们高估被冷落的概率、低估攀谈之后的愉快——冷场常常不是没人想说话，是两个人都在等。",
+    "oneLinerEn": "We overestimate rejection and underestimate the enjoyment that follows: a silence is often two people waiting.",
+    "detail": "机制：艾普利等人的现场实验让通勤者与陌生人攀谈，结果双方都远比事前预期愉快，而事前几乎每个人都预判自己会被冷落。两层原因在起作用：虚假共识让我们以为别人更想独处，行动者—观察者偏差则让我们把自己的紧张算作情境、把对方的沉默算作性格。为什么值得练：弱关系带来信息与情绪的双重收益，而多数社交遗憾并不是说错话，是根本没开始。开场不必聪明：就地取材（共同处境）、具体而轻（问一个问题而不是给一个评价）、留出退路（对方答得短就收住）。注意：搭话不构成打扰的前提，是对方能轻易离开——车厢、排队、电梯适合轻聊；戴着耳机、看书、手上有明确事务时，沉默才是礼貌。把「不想聊」读成「没教养」，正是社交焦虑者最常见的误读。",
+    "detailEn": "Mechanism: Epley and Schroeder's field experiments had commuters strike up conversation with strangers; both parties enjoyed it far more than predicted, yet beforehand nearly everyone expected to be rebuffed. Two biases explain the gap: false consensus makes us assume others want to be left alone, while the actor-observer split files our own nervousness as circumstance and their silence as character. Why practise it: weak ties pay in information and in mood, and most social regret is not a wrong sentence but a non-start. Openings need not be clever—use the shared situation, ask one concrete light question rather than offer an appraisal, and leave an exit (if the answer is short, close warmly). Note: cold-approach is only rude when the other person cannot leave—trains, queues and lifts suit light talk; headphones, a book or an obvious task mean silence is the polite option. Reading 'not today' as 'ill-mannered' is the most common misjudgement of the socially anxious.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": [
+      "false-consensus-effect",
+      "actor-observer-bias",
+      "social-media-mood",
+      "emotional-contagion"
+    ],
+    "sources": [
+      {
+        "label": "艾普利《他心通：看见他人内心的科学》",
+        "labelEn": "Epley, Mindsight: The New Science of Seeing Others",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "id": "criticism-that-lands",
+    "term": "批评怎么说才不炸",
+    "termEn": "How to Criticise Without Detonation",
+    "oneLiner": "让人崩掉的很少是内容，多是「我这个人被否定了」的感觉——先对齐目标，再谈行为，最后谈影响。",
+    "oneLinerEn": "Rarely the content detonates someone; it is the sense of being written off. Align on the goal, then behaviour, then impact.",
+    "detail": "为什么总谈崩：斯通与希恩指出，每句批评里都叠着三层对话——事情到底是什么（真相对话）、情绪怎么处理（情绪对话）、我算老几（身份对话）。冲突多发生在第三层：对方听到的是「你不行」，于是先自保，内容根本没进去。怎么说：先确认共同目标（我们要的都是这次别返工）；把评价换成可观察的行为与时间（这版数据有三处对不上，就在周三那封邮件里）；说影响而不是动机（客户会以为我们没核对，优于你太不负责）；最后把选择权交回去（你觉得怎么改，需要我给什么）。被批评的一侧同样有技巧：把「你错了」听成「这里有条信息」，先复述再回应，问一句「你希望我先改哪一件」，能立刻把情绪对话拉回真相对话。边界：否定密度过高会失效，连续批评让人关闭注意；峰终定律说明收尾那句被记得最久，所以结尾要停在下一步，而不是停在错误上。",
+    "detailEn": "Why it blows up: Stone and Heen show that every piece of feedback stacks three conversations—what actually happened (truth), how we each feel about it (relationship), and who I am in light of it (identity). Conflict usually erupts in the third: the receiver hears 'you are inadequate' and defends, so the content never lands. How to say it: fix the shared goal first (we both want no rework this time); replace the verdict with observable behaviour and a timestamp (three figures in this draft don't match the Wednesday email); describe impact rather than motive (the client will read it as unchecked, not you are careless); then hand back the choice (how would you fix it, what do you need from me). Receiving has a technique too: hear 'you're wrong' as 'there is information here', restate before answering, and ask which single thing to change first—instantly pulling the emotional conversation back to the factual one. Boundary: a high density of negatives stops working, since consecutive criticism shuts attention down; the peak-end rule means the last sentence is what sticks, so end on the next step, not on the mistake.",
+    "category": "人际与分寸",
+    "categoryEn": "Relationships and tact",
+    "related": [
+      "anatomy-of-apology",
+      "fundamental-attribution-error",
+      "peak-end-rule",
+      "empathy"
+    ],
+    "sources": [
+      {
+        "label": "斯通与希恩《感谢反馈》",
+        "labelEn": "Stone & Heen, Thanks for the Feedback",
+        "year": 2014
+      }
+    ]
   }
 ]

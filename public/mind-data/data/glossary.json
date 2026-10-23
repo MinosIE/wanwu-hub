@@ -681,5 +681,140 @@
     "related": ["reinforcement", "extinction", "conditioning"],
     "tags": ["行为"],
     "sources": [{ "label": "Ferster & Skinner (1957)", "year": 1957 }]
+  },
+  {
+    "id": "mianzi-face",
+    "term": "面子（社会性声望）",
+    "termEn": "Mianzi (Social Face)",
+    "category": "本土人际",
+    "categoryEn": "Chinese Relational Concepts",
+    "def": "一个人在其社交圈里被公认的名望与体面，随财富、职位、排场与人际往来而涨落；它可以由别人「给」，也可以被当众「拆」。",
+    "defEn": "The prestige and decency a circle publicly credits a person with, rising and falling with wealth, office, display and social traffic; others can hand it over or chip it away in front of everyone.",
+    "plain": "「给他留点面子」「你这么做让大家没面子」说的都是它：像一份公共评价的余额，别人一眼看得见，也由大家共同决定。",
+    "plainEn": "When people say 'spare him some face' or 'that makes us all look bad', this is what they mean: a public balance others can read at a glance, and help set.",
+    "related": ["lian-character", "renqing", "guanxi", "give-a-way-out"],
+    "tags": ["本土人际"],
+    "sources": [
+      {
+        "label": "胡先缫《「面子」的概念》",
+        "labelEn": "Hu, The Concept of 'Face'",
+        "year": 1944
+      },
+      {
+        "label": "戈夫曼《面子与工作》",
+        "labelEn": "Goffman, On Face-Work",
+        "year": 1955
+      }
+    ]
+  },
+  {
+    "id": "lian-character",
+    "term": "脸（人格信用）",
+    "termEn": "Lian (Moral Face)",
+    "category": "本土人际",
+    "categoryEn": "Chinese Relational Concepts",
+    "def": "一个人是否配得上被信任的道德底线信用。与「面子」的涨落不同，「丢脸」意味着人格被判出局，代价更重、也更难补回。",
+    "defEn": "The moral credit that makes a person trustworthy at all. Unlike the fluctuating prestige of mianzi, losing lian means one's character is ruled out—costlier and far harder to restore.",
+    "plain": "「不要脸」是汉语里最重的骂法之一，因为它指的不是穷、不是失败，而是人格被判定不合格。",
+    "plainEn": "'Shameless' is among the harshest Chinese insults, because it targets neither poverty nor failure but a verdict on someone's character.",
+    "related": ["mianzi-face", "guilt-shame-culture", "give-a-way-out", "renqing"],
+    "tags": ["本土人际"],
+    "sources": [
+      {
+        "label": "胡先缫《「面子」的概念》",
+        "labelEn": "Hu, The Concept of 'Face'",
+        "year": 1944
+      }
+    ]
+  },
+  {
+    "id": "renqing",
+    "term": "人情",
+    "termEn": "Renqing (Human Favour)",
+    "category": "本土人际",
+    "categoryEn": "Chinese Relational Concepts",
+    "def": "同一个词装着三层：人与人之间自然流露的情感、具体的礼物或好处、以及「受人之恩必须回报」的社会规范。三层在汉语里从不分开。",
+    "defEn": "One word, three layers that Chinese never separates: the feeling between people, the concrete gift or favour, and the social rule that a favour received must be repaid.",
+    "plain": "「他有人情味」说的是情感，「欠他一个人情」说的是往来，「太不讲人情了」说的是规范——三句都是同一个词。",
+    "plainEn": "'He has human warmth' is about feeling, 'I owe him a renqing' about traffic of favours, 'that's inhuman' about the norm—same word, three jobs.",
+    "related": ["bao-reciprocity", "gift-and-favor", "read-courtesy-phrases", "guanxi"],
+    "tags": ["本土人际"],
+    "sources": [
+      {
+        "label": "黄光国《人情与面子：中国人的权力游戏》",
+        "labelEn": "Hwang, Face and Favor: The Chinese Power Game",
+        "year": 1987
+      },
+      {
+        "label": "格尔纳《互惠规范》",
+        "labelEn": "Gouldner, The Norm of Reciprocity",
+        "year": 1960
+      }
+    ]
+  },
+  {
+    "id": "guanxi",
+    "term": "关系",
+    "termEn": "Guanxi (Tied Network)",
+    "category": "本土人际",
+    "categoryEn": "Chinese Relational Concepts",
+    "def": "由既有纽带（亲缘、同乡、同学、同事、曾互相帮忙）织成、且可期待互惠的人际网络。它既是可调用的资源，也是必须维护的义务。",
+    "defEn": "A network bound by existing ties—kin, native place, school, workplace, past favours—carrying an expectation of reciprocity. It is both a resource one may draw on and an obligation one must maintain.",
+    "plain": "关系不是「认识谁」，而是「谁欠谁、谁认谁」：它要靠往来才活着，用一次不补就是净消耗。",
+    "plainEn": "Guanxi is not 'whom you know' but 'who owes whom and who vouches for whom': it survives only on traffic, and a favour spent without replenishing is pure drawdown.",
+    "related": ["renqing", "mianzi-face", "ask-a-favor-right", "in-group-favoritism"],
+    "tags": ["本土人际"],
+    "sources": [
+      {
+        "label": "费孝通《乡土中国》（差序格局）",
+        "labelEn": "Fei Xiaotong, From the Earth: Chinese Life in the Countryside",
+        "year": 1948
+      },
+      {
+        "label": "黄光国《人情与面子：中国人的权力游戏》",
+        "labelEn": "Hwang, Face and Favor: The Chinese Power Game",
+        "year": 1987
+      }
+    ]
+  },
+  {
+    "id": "bao-reciprocity",
+    "term": "报",
+    "termEn": "Bao (Requital)",
+    "category": "本土人际",
+    "categoryEn": "Chinese Relational Concepts",
+    "def": "中国交换伦理的核心机制：所受恩惠须在未来以相当或更重的分量回报，回报的时间与形式由受恩者自行承担，因此这笔债没有到期日。",
+    "defEn": "The core mechanism of Chinese exchange ethics: a favour received must be requited later at equal or greater weight, and when or how is left to the debtor—so the debt has no due date.",
+    "plain": "「报答」「报复」「善有善报」共用一个「报」字，说明恩与怨走的是同一套逻辑：迟早要结清，只是币种不同。",
+    "plainEn": "Requiting a kindness and taking revenge share the same character 'bao', which shows gratitude and grudges run on one logic: the ledger clears eventually, only in different currency.",
+    "related": ["renqing", "gift-and-favor", "just-world-hypothesis", "mianzi-face"],
+    "tags": ["本土人际"],
+    "sources": [
+      {
+        "label": "杨联陞《「报」的观念与中国社会》",
+        "labelEn": "Yang Lien-sheng, The Concept of 'Pao' and Chinese Society",
+        "year": 1957
+      }
+    ]
+  },
+  {
+    "id": "boundary-sense",
+    "term": "边界感",
+    "termEn": "Sense of Boundaries",
+    "category": "社会",
+    "categoryEn": "Social",
+    "def": "分得清哪些是自己的责任、情绪与选择，哪些是他人的：既不替别人承担，也不允许别人越界代管。它是关系里可被感知的界线，而非冷漠。",
+    "defEn": "Knowing which responsibilities, feelings and choices are yours and which are someone else's: not carrying others, not letting them take over you. It is a felt line in a relationship, not coldness.",
+    "plain": "「我帮你决定」和「你的情绪得由我负责」都是边界模糊的两种方向——一个越出去，一个让进来。有边界感的人拒绝得清楚，也接受得坦然。",
+    "plainEn": "'Let me decide for you' and 'your feelings are my fault' are the two ways boundaries blur—one reaches out, one lets in. People with a clear line refuse legibly and accept graciously.",
+    "related": ["decline-without-damage", "self", "attachment", "emotional-contagion"],
+    "tags": ["社会"],
+    "sources": [
+      {
+        "label": "米纽钦《家庭与家庭治疗》（界限概念）",
+        "labelEn": "Minuchin, Families and Family Treatment",
+        "year": 1974
+      }
+    ]
   }
 ]

@@ -55,7 +55,7 @@ const zh = {
   'entry.timeline.t': '发展时间轴',
   'entry.timeline.d': '从冯特 1879 到当代，心理学史关键节点',
   'entry.everyday.t': '生活中的心理学',
-  'entry.everyday.d': '拖延、决策、亲密关系、职场、育儿、社交媒体',
+  'entry.everyday.d': '拖延、决策、亲密关系、人情与面子、职场、育儿、社交媒体',
   'entry.mindbend.t': '颠覆世界观',
   'entry.mindbend.d':
     '一旦了解就再回不去：那些重塑心智、自我与现实直觉的心理学发现',
@@ -105,7 +105,7 @@ const zh = {
   'timeline.sub':
     '从冯特 1879 到 AI 时代，一条线看心理学怎么长成今天这样。点击节点看详情。',
   'everyday.sub':
-    '拖延、决策疲劳、亲密关系、职场倦怠、育儿与睡眠——把心理学用在每天的生活里。',
+    '拖延、决策疲劳、亲密关系、人情与面子、职场倦怠、育儿与睡眠——把心理学用在每天的生活里。',
   'myths.sub':
     '「左脑人/右脑人」「血型性格」「只用 10% 大脑」……用证据把这些流行说法拆开。',
   'quiz.sub': '6 道选择题自测：先想答案，再点开看解析。正确答案就在详情里。',
@@ -285,7 +285,7 @@ const en: typeof zh = {
     'From Wundt in 1879 to today — key turning points in psychology.',
   'entry.everyday.t': 'Everyday Psychology',
   'entry.everyday.d':
-    'Procrastination, decisions, relationships, work, parenting, social media.',
+    'Procrastination, decisions, relationships, face and human favour, work, parenting, social media.',
   'entry.mindbend.t': 'Worldview Shakers',
   'entry.mindbend.d':
     'Discoveries you cannot un-know—findings that quietly rewire mind, self and the feel of reality.',
@@ -339,7 +339,7 @@ const en: typeof zh = {
   'timeline.sub':
     'From Wundt in 1879 to the AI era—see how psychology grew. Tap a node for details.',
   'everyday.sub':
-    'Procrastination, decision fatigue, relationships, burnout, parenting and sleep—psychology for everyday life.',
+    'Procrastination, decision fatigue, relationships and reading the room, burnout, parenting and sleep—psychology for everyday life.',
   'myths.sub':
     'Left-brain/right-brain, blood-type personality, "10% of the brain"… taken apart with evidence.',
   'quiz.sub':
