@@ -121,8 +121,8 @@
     "integrated": true,
     "siteUrl": "https://minosie.github.io/wanwu-hub/#/subject/physics",
     "repoUrl": "https://github.com/MinosIE/wanwu-hub",
-    "statusZh": "wip",
-    "statusEn": "wip",
+    "statusZh": "online",
+    "statusEn": "online",
     "tagsZh": ["定律", "常数", "实验", "物理学家"],
     "tagsEn": ["Laws", "Constants", "Experiments", "Physicists"]
   },
@@ -140,8 +140,8 @@
     "integrated": true,
     "siteUrl": "https://minosie.github.io/wanwu-hub/#/subject/chem",
     "repoUrl": "https://github.com/MinosIE/wanwu-hub",
-    "statusZh": "wip",
-    "statusEn": "wip",
+    "statusZh": "online",
+    "statusEn": "online",
     "tagsZh": ["元素", "反应", "材料", "化学家"],
     "tagsEn": ["Elements", "Reactions", "Materials", "Chemists"]
   },

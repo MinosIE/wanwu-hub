@@ -1,4 +1,4 @@
-import { initLang, onLangChange } from "./core/i18n";
+import { initLang } from "./core/i18n";
 import { initTheme } from "./core/theme";
 // 共享学科 UI 层提前随入口加载：各学科基础布局（hero/kpi/卡片/导航）不再随
 // 懒加载分块迟到，避免「从王朝切到其他学科」时先出现无样式再补样式的闪烁。
@@ -111,10 +111,3 @@ initTheme();
 renderLayout(app);
 renderView();
 onRoute(renderView);
-// 语言切换：仅重渲染首页；subject（dynasty / econ / mind）内部自行响应 onLangChange
-onLangChange(() => {
-  if (parse().name === "home") {
-    const view = document.getElementById("view");
-    if (view) renderHome(view);
-  }
-});
