@@ -818,6 +818,165 @@
         width: 22px;
         height: 22px;
       }
+      /* ===== 首页专属：全宽 + 富内容 =====
+         统一限定 #app:not(.subject-mode)（学科页恒为 .subject-mode），
+         确保只改首页、不影响任何学科页。 */
+      #app:not(.subject-mode) {
+        max-width: none;
+        padding-left: clamp(16px, 4vw, 56px);
+        padding-right: clamp(16px, 4vw, 56px);
+      }
+      #app:not(.subject-mode) .hero {
+        margin: 10px 0 46px;
+        padding: clamp(30px, 6vw, 74px) clamp(20px, 4vw, 56px)
+          clamp(38px, 6vw, 78px);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        background:
+          radial-gradient(
+            120% 140% at 50% -20%,
+            rgba(56, 189, 248, 0.18),
+            transparent 58%
+          ),
+          radial-gradient(
+            90% 120% at 100% 0%,
+            rgba(59, 130, 246, 0.14),
+            transparent 62%
+          ),
+          color-mix(in srgb, var(--card) 55%, transparent);
+      }
+      #app:not(.subject-mode) .hero .kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 18px;
+        padding: 6px 14px;
+        font-size: 0.76rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--muted);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: rgba(154, 165, 177, 0.1);
+      }
+      #app:not(.subject-mode) .hero .slogan {
+        max-width: 900px;
+        margin: 10px auto 0;
+        font-size: clamp(1.15rem, 1rem + 1.2vw, 1.7rem);
+        font-weight: 600;
+        line-height: 1.5;
+        color: var(--text);
+      }
+      #app:not(.subject-mode) .stats {
+        gap: 16px;
+        margin-top: 30px;
+      }
+      #app:not(.subject-mode) .stat {
+        min-width: 150px;
+        background: color-mix(in srgb, var(--card) 88%, transparent);
+      }
+      #app:not(.subject-mode) .home-cta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 30px;
+      }
+      #app:not(.subject-mode) .cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 11px 22px;
+        font-size: 0.92rem;
+        font-weight: 600;
+        text-decoration: none;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        cursor: pointer;
+        transition:
+          transform 0.2s var(--ease-out),
+          opacity 0.2s,
+          box-shadow 0.2s;
+      }
+      #app:not(.subject-mode) .cta-primary {
+        color: #fff;
+        background: linear-gradient(90deg, var(--teal), var(--accent));
+        box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+      }
+      #app:not(.subject-mode) .cta-ghost {
+        color: var(--text);
+        background: transparent;
+        border-color: var(--border);
+      }
+      #app:not(.subject-mode) .cta:hover {
+        transform: translateY(-2px);
+        opacity: 0.92;
+      }
+      #app:not(.subject-mode) .pillars {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+        margin: 0 0 46px;
+      }
+      #app:not(.subject-mode) .pillar {
+        padding: 22px 22px 20px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+      }
+      #app:not(.subject-mode) .pillar .p-ico {
+        font-size: 1.5rem;
+      }
+      #app:not(.subject-mode) .pillar h3 {
+        margin: 8px 0 6px;
+        font-size: 1rem;
+        color: var(--teal);
+      }
+      #app:not(.subject-mode) .pillar p {
+        margin: 0;
+        font-size: 0.88rem;
+        line-height: 1.7;
+        color: var(--muted);
+      }
+      #app:not(.subject-mode) .section h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      #app:not(.subject-mode) .sec-count {
+        padding: 1px 9px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: var(--muted);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+      }
+      #app:not(.subject-mode) .sec-desc {
+        margin: -6px 0 18px;
+        font-size: 0.92rem;
+        color: var(--muted);
+      }
+      #app:not(.subject-mode) .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 22px;
+      }
+      #app:not(.subject-mode) #all {
+        scroll-margin-top: 92px;
+      }
+      @media (max-width: 640px) {
+        #app:not(.subject-mode) .hero {
+          margin-bottom: 34px;
+          border-radius: 18px;
+        }
+        #app:not(.subject-mode) .stat {
+          min-width: 128px;
+          padding: 12px 16px;
+        }
+        #app:not(.subject-mode) .card-grid {
+          grid-template-columns: 1fr;
+          gap: 16px;
+        }
+      }
       @media (max-width: 560px) {
         .to-top-home {
           right: 14px;

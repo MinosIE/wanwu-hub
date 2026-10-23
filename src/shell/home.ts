@@ -12,8 +12,8 @@ export function renderHome(view: HTMLElement): void {
       .map((x) => `<span class="chip">${x}</span>`)
       .join("");
     const action = p.integrated
-      ? `<a class="btn stretched-link" href="#/subject/${p.key}">进入浏览 →</a>`
-      : `<a class="btn disabled" href="#">敬请期待</a>`;
+      ? `<a class="btn stretched-link" href="#/subject/${p.key}">${t("enter_subject")}</a>`
+      : `<a class="btn disabled" href="#">${t("btn_soon")}</a>`;
 
     const head = `
       <div class="emoji">${p.emoji}</div>
@@ -31,14 +31,52 @@ export function renderHome(view: HTMLElement): void {
     </div>`;
   };
 
+  const statItems = [
+    { num: String(PROJECTS.length), label: t("stat_subjects") },
+    { num: "2,000+", label: t("stat_items") },
+    { num: "2", label: t("stat_langs") },
+    { num: "100%", label: t("stat_free") },
+  ];
+  const pillars = [
+    { icon: "🧭", title: t("pillar1_t"), desc: t("pillar1_d") },
+    { icon: "🎨", title: t("pillar2_t"), desc: t("pillar2_d") },
+    { icon: "🌏", title: t("pillar3_t"), desc: t("pillar3_d") },
+  ];
+
   view.innerHTML = `
     <div class="hero">
+      <span class="kicker" data-i18n="kicker">${t("kicker")}</span>
       <h1 data-i18n="brand">${t("brand")}</h1>
+      <p class="slogan" data-i18n="slogan">${t("slogan")}</p>
       <p class="subtitle" data-i18n="subtitle">${t("subtitle")}</p>
       <p class="intro" data-i18n="intro">${t("intro")}</p>
+      <div class="stats">
+        ${statItems
+          .map(
+            (s) =>
+              `<div class="stat"><div class="num">${s.num}</div><div class="label">${s.label}</div></div>`,
+          )
+          .join("")}
+      </div>
+      <div class="home-cta">
+        <button class="cta cta-primary" type="button" data-scroll="all">${t("cta_explore")} <span aria-hidden="true">↓</span></button>
+        <a class="cta cta-ghost" href="https://github.com/MinosIE/wanwu-hub" target="_blank" rel="noopener">${t("btn_repo")}</a>
+      </div>
     </div>
+    <section class="pillars" aria-label="${t("sec_all")}">
+      ${pillars
+        .map(
+          (p) => `<article class="pillar">
+        <span class="p-ico" aria-hidden="true">${p.icon}</span>
+        <h3>${p.title}</h3>
+        <p>${p.desc}</p>
+      </article>`,
+        )
+        .join("")}
+    </section>
     <section class="section" id="all">
-      <h2 data-i18n="sec_all">${t("sec_all")}</h2>
+      <h2><span data-i18n="sec_all">${t("sec_all")}</span><span class="sec-count">${PROJECTS.length}</span></h2>
+      <p class="sec-desc" data-i18n="sec_all_desc">${t("sec_all_desc")}</p>
       <div class="card-grid">${PROJECTS.map((p, i) => card(p, i)).join("")}</div>
     </section>
   `;
@@ -59,6 +97,16 @@ export function renderHome(view: HTMLElement): void {
   });
 
   mountHomeToTop(view);
+
+  // 首屏「开始探索」：滚动到学科网格。用 JS 而非 `href="#all"`，
+  // 避免改动 location.hash 干扰 hash 路由。
+  view
+    .querySelector<HTMLElement>("[data-scroll]")
+    ?.addEventListener("click", () => {
+      document
+        .getElementById("all")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
 }
 
 // 首页「返回顶部」：滚动超过阈值时在右下角显示，点击平滑回顶。
