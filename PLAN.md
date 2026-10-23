@@ -17,8 +17,8 @@
 | 万物哲学            | thought | online            | FULL                          |
 | 万物地理            | earth   | online            | FULL                          |
 | 万物生物            | life    | online            | FULL                          |
-| 万物物理            | physics | wip（内容种子化） | LIGHTWEIGHT（subjectKit）     |
-| 万物化学            | chem    | wip（内容种子化） | LIGHTWEIGHT（subjectKit）     |
+| 万物物理            | physics | online            | LIGHTWEIGHT（subjectKit）     |
+| 万物化学            | chem    | online            | LIGHTWEIGHT（subjectKit）     |
 | 万物管理学          | mgmt    | online            | LIGHTWEIGHT（subjectKit）     |
 
 > 本地实际已有内容的子项目即上述 9 个，统一进 `wanwu-hub` 后旧仓库可归档。

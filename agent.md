@@ -13,13 +13,14 @@
 
 关键共享模块在 `src/core/`：
 
-- `i18n.ts`：`getLang() / setLang() / onLangChange()` + `L(o)`（取 `{zh,en}` 当前语言值）。新增文案优先走各学科的 `i18n.json` / `i18n.ts` 字典。
+- `i18n.ts`：`getLang() / setLang() / onLangChange()` + `L(o)`（取 `{zh,en}` 当前语言值）。新增文案优先走各学科的 `i18n.json` / `i18n.ts` 字典。**注意 `L()` 的回退方向**：en 模式先取 `o[key+'En']`、缺失才回退 `o[key]`，因此对已是英文名的字段写 `L(it,'termEn')` 会回退成 `termEn` 本身，与 `L(it,'term')` 拿到同一串（标题 / 副标题撞车）。该写法在 mind 11 个模块与 thought/econ 多模块有 25+ 调用点，**修法是在渲染层判同串则不输出副行**，不逐点改写（改写会把 CJK 泄进英文态，与 `links:check` 要求 `*En` 纯 ASCII 的口径冲突）。
 - `theme.ts`：`getTheme() / toggleTheme() / onThemeChange()`。
 - `router.ts`：hash 路由（`parse() / navigate() / onRoute()`）。
 - `layout.ts`：顶栏（含全局 `.lang-btn` / `#themeBtn` 主题·语言切换）与 footer。
 - `subjects.json`：**学科清单唯一真相源**（9 学科元信息数组）；`projects.ts`（TS）与 `gen-sitemap.mjs` / `gen-geo.mjs` / `prerender.mjs`（node）均从此读取，**不要**再在别处硬编码学科清单。
 - `projects.ts`：`import subjects.json` → `PROJECTS[]`（收窄断言 `as Project[]`）+ `statusLabel()`；`Project` 接口在此定义。
 - `dataKit.ts`：`createDataLoader(baseDir)` 工厂，提供 `dataUrl/fetchData/peekData`（带缓存）；各 FULL 学科 `data.ts` 仅委托它，**勿再拷贝一份 21 行 loader**。
+- `ui/text.ts`：`splitProse / yearText / proseHTML` 共享文本格式化。**公元前年份（数据里存负数）一律走 `yearText(year, en)`** 转「前 450 年」/「450 BCE」，正数保持裸数字原样（不加「年」/CE，以免扰动既有已核校的渲染）；条目来源标签、首页参考清单、人物著作年均共用它，勿再各处自写（thought `timeline.ts` 的本地 `yearText` 与之同口径）。
 
 ## 3. Design Tokens（CSS 变量）
 
@@ -85,6 +86,7 @@
 - 通用渲染器已提供：hero（标题含「中文 · English」+ 一段导语）、KPI、模块导航、模块标题（直接用共享 `.mod-head`，居中标题，不带计数）、卡片网格、详情弹层、搜索框、来源区、footer。
 - KPI 首屏约定：**除中华王朝外，每科 hero 的 KPI 固定 4 个**（移动端 `.kpis` 为两列，4 个正好两行；更多会把搜索框与模块卡顶出首屏）。全量分类统计放 `overview.json` 的 `counts`，`kpis` 只挑最有辨识度的四项（如 econ：概念 / 词典 / 发展史 / 骗局与泡沫）。`links:check` 对超过 4 项告警；physics/chem/mgmt 例外——它们的 `overview.json` 是 `data:export` 产物，hero KPI 由 `subjectKit` 的 `kpisInner()` 现算。
 - 新增 / 调整 physics/chem/mgmt **优先改 `data.ts`**，无需动模板；需要新交互能力时再扩展 `subjectKit.ts`。
+- 详情面板已渲染 `related`（仅 mgmt 的 item 有此字段）：`subjectKit` 的 `openDetail` 把 id 跨同科全部模块解析成芯片（`.detail-rel` + `.rel-chips`，解不到的丢弃），点击先关面板、跨模块时先 `selectModule` 再开新详情。样式全走共享 `ui.css`（容器本就是 `.detail-root#subDetail`，淡入靠 `.detail-root.open`），**无需新增 CSS**；physics/chem 无此字段则关联区自然不出现。
 
 ## 5. 修改约束（重要）
 

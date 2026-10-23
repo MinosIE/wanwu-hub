@@ -33,14 +33,16 @@
 | 学科    | 架构       | 现有模块                                                                          | 条目量 | 距门槛                               |
 | ------- | ---------- | --------------------------------------------------------------------------------- | ------ | ------------------------------------ |
 | dynasty | FULL       | 19+                                                                               | 数千   | ✅ 达标（维持）                      |
-| econ    | FULL       | 概念/术语/人物/事件/骗局/宏微观/货币/贸易/行为/博弈/图表/日常/误区/测验/对比/流派 | 数百   | 🟡 接近，补强即可                    |
-| mind    | FULL       | 概念/术语/心理学家/流派/偏差/实验/时间线/测验/日常/误区/对比                      | 150±   | 🟡 达标边缘，补应用与临床            |
+| econ    | FULL       | 概念/术语/人物/事件/骗局/宏微观/货币/贸易/行为/博弈/图表/日常/误区/测验/对比/流派 | 282    | 🟡 接近，补强即可                    |
+| mind    | FULL       | 概念/术语/心理学家/流派/偏差/实验/时间线/测验/日常/误区/对比                      | 469    | 🟡 达标边缘，补应用与临床            |
 | physics | subjectKit | 16 模块                                                                           | 130    | 🟢 已导出机器可读 JSON               |
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
-| mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 189    | 🟢 已导出机器可读 JSON               |
-| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 184    | ✅ 视图与 mind/econ 同量级           |
+| mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
+| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 230    | ✅ 视图与 mind/econ 同量级           |
 | earth   | FULL       | 地区/专题/原理/人文/典籍/人物（6 类）                                             | 79     | 🟠 已达 6 视图（+原理+人文），继续补 |
 | life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种（6 类）                                     | 80     | 🟠 已新增生命原理 + 特有物种视图     |
+
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条、earth 111、life 104），未逐行刷新。
 
 ---
 
@@ -97,19 +99,20 @@
 
 ### 3.3 万物哲学 thought（🟠）
 
-**目标：4 类 → 10+。** 现 10 类 / 184 条 ✅
+**目标：4 类 → 10+。** 现 10 类 / 230 条 ✅
 
 - [x] 学派（补 `schools`→20+，含中国先秦诸子、宋明理学、近现代）（现 20）
 - [x] 哲学家（补 `thinkers`→25+）（现 29，新增阿奎那/斯宾诺莎/朱熹/杜威/加缪；第十五批补霍布斯/黑格尔/卢梭/伊壁鸠鲁）
 - [~] 经典著作（补 `classics`→20+）（现 16，新增道德形而上学奠基/伦理学/哲学研究/存在与虚无）
 - [x] 核心问题（补 `questions`→15+）（现 15，新增美/他心/共相/归纳/道德实在论）
 - [x] 分支：形而上学/认识论/伦理学/逻辑学/美学/政治哲学/心灵/科学/语言/历史/现象学（11 条，独立视图🧩）
-- [x] 哲学术语表 `glossary.json`（新，26 条，含中英对照与易混提示）
+- [x] 哲学术语表 `glossary.json`（新，26 条起、现 36 条，含中英对照与易混提示）
 - [x] 哲学史时间线 `timeline.json`（新，20 条，公元前 6 世纪 → 当代）
 - [x] 思想实验 `experiments.json`（新，14 条：洞穴/缸中之脑/电车/中文房间/无知之幕…）
 - [x] 中西哲学对比 `compare.json`（新，10 组：名实/知行/正义与义…）
 - [x] 常见误区 `myths.json`（新，14 条：「哲学无用」「存在主义是虚无主义」…）
 - [x] **thought 精修第一批（第十五批）：为已在时间线/对比/误区中被引用、却无本人传记的大哲学家补 thinkers +4 条**（新增 4 条、不动现有 25 条）——霍布斯（1588—1679，自然状态是一切人对一切人的战争、以契约把权力让渡给主权者，`tl-hobbes`/`xingshan-hobbes-compare` 早有引用）、黑格尔（1770—1831，辩证法与扬弃、精神在历史中走向自由，`tl-hegel` 被引用）、伊壁鸠鲁（前341—前270，快乐即身体无痛与心灵宁静、死亡不足惧，`myth-epicurus-debauch` 正澄清其「纵欲」误区）三位此前只在他处出现却无本人条目，属内部一致性缺口；顺势补卢梭（1712—1778，公意与主权在民、「人生而自由却无往不在枷锁之中」），完善社会契约脉络（霍布斯—洛克—卢梭）。thought 与 mind 不同：除 `thinkers.json` 外另有派生 `search.json`/`related.json`（由 `index:build` 生成）与 overview 的 `counts`+`kpis` 两处计数，故 append-only 写回后须 `npm run index:build -- thought` 重建派生文件（search 184→188、related 同步）+ 定点改 overview.thinkers 25→29。新条目 `related` 全部跨模块解析（含本批互引 hobbes↔rousseau）、`*En` 纯 ASCII 无汉字、含中文 source label 均配 `labelEn`。实测：`thinkers.json` git diff deletions=0、thought 184→188 条、`check:json` 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`
+- [x] **thought 人情世故分流（第二十批）：glossary 补「和」「恕」两条本土伦理概念 +2**（glossary 34→36，不动现有条目）——第十九批把「人际与分寸 / 本土人际」落在 mind 后，分流表里属哲学的那一格补在这里。写前先跨模块查重：`li-ritual`「礼」与 `benevolence`「仁」已在库、且 `benevolence` 的 `plain` 已引「己所不欲，勿施于人」，故不另立「礼」「仁」，只补两个真缺口。① `he-harmony`「和（和而不同）」：有子「礼之用，和为贵」＋「君子和而不同」＋荀子「乐合同，礼别异」，落点是「和」不是无原则调和、而是差异的协调，`related` 回挂 `li-ritual`/`zhongyong`/`confucianism`；② `shu-reciprocity`「恕（絜矩之道）」：「己所不欲，勿施于人」＋《大学》絜矩「所恶于上，毋以使下」＋朱熹「尽己之谓忠，推己之谓恕」，并在 `plain` 里与 `benevolence` 分工（仁是总德，恕是推行的下手处），`related` 挂 `categorical-imperative` 做中西对照。同步链：`counts.glossary` 34→36 → `node s/build-index.mjs thought` 重建 `search`/`related`（230 条 / 230 id）→ `gen:geo` 刷新 llms 228→230。实测：两文件 `git diff` deletions=0、`verify exit=0`、`build ✓`、中英×明暗点开详情 8/8 PASS、0 pageerror。记录一处**既有**渲染瑕疵：先秦条目负年份在来源里显示成「（-450）」。
 
 ### 3.4 万物化学 chem（subjectKit，🟠）
 
@@ -167,7 +170,7 @@
 
 ### 3.6 万物心理学 mind（🟡）
 
-- [ ] 应用心理：学习心理、记忆与遗忘曲线、沟通、情绪管理、决策
+- [~] 应用心理：学习心理、记忆与遗忘曲线、沟通、情绪管理、决策（沟通/人情世故一侧由第十九批「人际与分寸」补上 10 条）
 - [ ] 发展心理：皮亚杰/埃里克森阶段
 - [x] 社会心理：从众/服从/旁观者/群体极化（扩充）——已有阿希从众、米尔格拉姆服从、旁观者效应/干预；本轮再补群体极化、去个体化、社会懈怠、社会促进
 - [x] 临床与常见心理困扰、求助资源（谨慎、科普向）——本轮补焦虑与焦虑障碍、抑郁与心境障碍、心理治疗与求助（正常情绪 vs 需求助的边界、去污名、鼓励尽早向可信成人/专业人士求助）；另有考试焦虑、职业倦怠等日常条目
@@ -176,7 +179,9 @@
 - [x] **mind 扩展第一批（第十二批）：心理学基础层补齐 +14 条**（新增 14 条内容条目：心理学家 5 / 流派 2 / 实验 2 / 偏差 2 / 概念 3，**不动任何现有条目**）——按「先保课标/通识主干」把 mind 此前偏薄的基础层填实：心理学家补艾宾浩斯（遗忘曲线）、冯特（1879 首个实验室）、威廉·詹姆斯（意识流与詹姆斯-兰格情绪）、埃里克森（心理社会八阶段/同一性危机）、科尔伯格（道德三水平六阶段）；流派补格式塔（知觉组织与顿悟）、机能主义（适应与功能）；实验补桑代克饿猫迷箱（效果律）、旁观者干预癫痫求助（责任分散/多元无知）；偏差补幸存者偏差（瓦尔德的返航飞机）、旁观者效应；概念补遗忘曲线与间隔复习、自我同一性、最近发展区（ZPD）。真相源是 `public/mind-data/data/*.json`（JSON 驱动、非 `data.ts` 导出、不经 `data:export`/`gen:geo`），采「只追加、保留现有字节」写回——content 文件 `git diff` deletions=0、现有条目零改动，`overview.kpis` 定点改 3 个计数（concepts 18→21 / psychologists 12→17 / schools 8→10）；32 处 `related` 跨模块全解析、`*En` 字段纯 ASCII 无汉字、含中文的 source `label` 均配 `labelEn`。实测：mind 132→146 条、`links:check` 错误 0 告警 0、`check:json` 146 文件 0 失败、`verify exit=0`、`build ✓`（mind 无专属冒烟、`llms.txt` 无计数故不改）
 - [x] **mind 扩展第二批（第十三批）：社会心理扩充 + 临床/求助科普 concepts +7**（新增 7 条概念、不动现有条目）——承上一条的口径把 mind 3.6 里两块空白填实。社会心理 4 条：群体极化（信息/规范两股推力、网络回音室放大）、去个体化（匿名与责任分散削弱自我监控）、社会懈怠（拉塔内拉绳实验、贡献被淹没）、社会促进（扎永茨唤醒→优势反应、熟手得利新手失常）；临床/健康 3 条（谨慎科普向）：焦虑与焦虑障碍、抑郁与心境障碍、心理治疗与求助——三条都把「正常情绪波动 vs 需专业帮助的障碍」的边界讲清，去「想太多/软弱」污名、强调循证可治、并明确鼓励尽早向可信成人或专业人士求助（涉及自伤只作「立刻联系身边成年人/专业渠道」的正向引导，不给任何方法）。写回同样采「只追加、保留现有字节」，concepts `git diff` deletions=0、`overview.kpis` 定点改 concepts 21→28；全部 `related` 跨模块解析（含指向本批新条目如 `group-polarization`/`deindividuation`/`social-facilitation`）、`*En` 纯 ASCII 无汉字、含中文的 source `label` 均配 `labelEn`。实测：mind 146→153 条、`check:json` 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`
 - [x] **mind 扩展第三批（第十四批）：术语表 glossary 补到 30+（+16 条）**（新增 16 条术语、不动现有条目）——把 mind 术语表从 14 提到 30，覆盖八类高频、课标/通识常客术语：学习（消退、惩罚、观察学习）、发展（同化与顺应、客体永久性、守恒）、记忆（系列位置效应、陈述性与程序性记忆）、动机/人本（需要层次、自我实现）、精神分析（本我/自我/超我）、方法（相关不等于因果、双盲实验、安慰剂效应）、生物（神经递质、昼夜节律）。每条沿用 glossary 自带的 `def/defEn + plain/plainEn` 短定义格式（术语表短属设计、非缺陷）。写回同样 append-only，glossary `git diff` deletions=0、`overview.kpis` 定点改 glossary 14→30；`related` 全跨模块解析（含本批自引用如 `self-actualization`/`double-blind`/`placebo-effect`/`correlation-vs-causation`）、`*En` 纯 ASCII 无汉字、含中文 source label 均配 `labelEn`。实测：mind 153→169 条、`check:json` 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`
-- 目标：条目 200+。 **（累计 102→169：基础层 +14、社会心理与临床求助 +7、术语表 +16，及日常/误区等补强）**
+- [x] **mind 人情世故与情商第一批（第十九批）：everyday 新分类「人际与分寸」+10、glossary 新分类「本土人际」+5**（新增 16 条、不动现有条目）——把「人情世故与情商该加在哪」的调研结论落地。情商侧已有 `emotional-intelligence`/`emotion-regulation`/`共情` 与 mgmt「情商与领导」的骨架，缺「怎么练」；面子/人情/关系学全站空白。归属判据：讲「为什么」进 concepts、讲「明天怎么做」进 everyday、只是一个词进 glossary、讲东西方差异进 compare——故两条线都落 mind。everyday 24→34：拒绝而不伤关系、随份子与礼尚往来、客套话怎么听、给人台阶下、有效道歉缺什么、求人办事的分寸、饭局称谓与座位、背后说人好话、冷场谁先开口、批评怎么说才不炸；glossary 34→40：面子 mianzi / 脸 lian / 人情 renqing / 关系 guanxi / 报 bao（胡先缫、费孝通差序格局、黄光国、杨联陞、格尔纳做来源）+ 边界感（归既有「社会」分类）。写回沿用 `scripts/jsonStyle.mjs` 的 `ser()` 做 append-only（两文件 `git diff` deletions=0；整文件重排会产出上千行无关 diff）、`overview.kpis` 定点改 glossary 34→40（mind 无 `counts`、`check-links` 跳过其计数校验，须手工同步）、并同步 `mind/src/core/i18n.ts` 的 `everyday.sub`/`entry.everyday.d` 双语副标题。16 个新 id 全站碰撞预检 0。实测：mind 全站 469 条 / 469 id、`check:json` 158 文件 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`；puppeteer 中英×明暗 4 组合：新分类筛选命中且恰好 10 张卡、跨模块 related（`guanxi ↔ renqing`）跳转可用、英文态来源渲染为 `Goffman, Interaction Rituals (1967)`、站内搜索 "face"/"guanxi"/"apology" 均命中新条目、0 pageerror。
+- **分流后续（第二十批）**：上条调研里分流到 thought / mgmt / econ 的三格已补齐，见 §3.3「和 / 恕」、§3.7「互惠 / 份子钱」与 BACKLOG 第二十批 —— 且原建议中 mgmt「SBI 反馈、非职权影响力」与 econ「礼物与互惠」经查重发现在库，已改放真缺口。
+- 目标：条目 200+。 **（累计 102→169：基础层 +14、社会心理与临床求助 +7、术语表 +16，及日常/误区等补强；第十九批再 +16 条人际与本土概念）**
 
 ### 3.7 万物经济学 econ（🟡 接近达标）
 
@@ -189,7 +194,8 @@
 - [~] 经典图表/指标（补 charts）、术语（补 glossary 45→53）；事件（events 17→22）
 - [x] 经典资本骗局与金融大事件：新增 `m-bubbles` 视图（郁金香、南海、庞氏、麦道夫、FTX 等 16 条）；`events` 22→31（黑色星期一、索罗斯做空英镑、俄罗斯违约、欧债、闪电崩盘、2015 A 股、瑞郎脱钩、英债风暴、SVB）
 - [x] 误区 `myths` 6→7：新增 `mango-parable`，把网文「芒果骗局」当**寓言**处理（不进 `bubbles`：无真实主体与可核来源），逐点还原为真实机制——操纵成本的约束（亨特兄弟白银）、后期入场者是投机而非无知（凯恩斯选美竞赛）、转手依赖审计与披露失灵（银广夏）
-- 目标：条目 300+，维持。 **（本轮 174→206：六大机制/术语/事件共 +32；后续 206→232：骗局与泡沫 16 条 + 金融大事件 9 条；再 232→233：误区「芒果骗局」寓言入表）**
+- [x] **econ 人情世故分流（第二十批）：互惠写入制度层、份子钱写入日常层 +2**（concepts 30→31、everyday 10→11）——查重先挡掉一条假缺口：behavioral 里 `fairness-reciprocity`「公平与互惠」已存在，故不重写心理学版本的「礼物与互惠」，而补它没覆盖的两层。① `concepts` `reciprocity-institution`「互惠：没有法院的交换如何维持」（category 行为与博弈、level 3）：莫斯《礼物》的给予—接受—回报三义务、萨林斯互惠三型、Greif 中世纪马格里卜商人的集体惩罚联盟、奥斯特罗姆的分级制裁，最后落到「监督成本 × 再交易概率」这一可判据；② `everyday` `gift-debt` 🧧「随出去的份子钱，到底是谁在记账？」（level 2）：互助融资与跨期风险分担、礼单作为信用记录、社区排除作为执行机制，代价写礼金通胀、被排斥与被路径绑架，`concept` 字段回挂上一条。同步链：`counts.concepts` 30→31 ＋ `kpis` 中 concepts 的 `value` 30→31（econ 只有 concepts/glossary/events/bubbles 四项进 kpis，且字段名是 `value` 而非 `count`）＋ `counts.everyday` 10→11 → `npm run econ:build-index`（该脚本不回写 overview）。实测：append-only `git diff` deletions=0、`verify exit=0`、`build ✓`、econ 282 条 / 280 id（econ 属 `DUP_EXEMPT`，允许同 id 跨模块重名）、点开详情中英×明暗 PASS；`llms.txt` 的「核心概念速览」只列 26 条，系人工精选摘要而非全量枚举，故不随本轮改。
+- 目标：条目 300+，维持。 **（本轮 174→206：六大机制/术语/事件共 +32；后续 206→232：骗局与泡沫 16 条 + 金融大事件 9 条；再 232→233：误区「芒果骗局」寓言入表；第二十批 +2（互惠入 concepts、份子钱入 everyday），现 282 条）**
 
 ### 3.8 中华王朝 dynasty（✅ 维持）
 
@@ -219,7 +225,8 @@
 5. **计数同步**：改数据后更新该学科 `overview.json` 的 `counts`/`kpis`（FULL）；subjectKit 自动统计。文件命名与计数键的 kebab/camel 差异由 `check-links` 同义处理。
 6. **派生数据重建**：FULL 改数据后跑 `npm run index:build -- <subject>`（search/related）；subjectKit 改 `data.ts` 后跑 `npm run data:export`；对外文案/收录清单跑 `npm run gen:geo && npm run gen:sitemap`。
 7. **验证**：`npm run verify` = typecheck + `check:json` + `links:check`（死链/双语成对/英文混中文/派生索引覆盖/overview 计数）+ `data:check`（导出防漂移）+ dynasty 校验；再 `npm run build`。
-8. **提交**：按学科/阶段分组提交并推送，信息含范围与条目数。
+8. **渲染约定（不在数据里造展示逻辑）**：公元前年份在数据里存负数，展示走共享 `yearText`（「前 450 年」/「450 BCE」）；英文态下 `L(it,'termEn')` 会与 `L(it,'term')` 同串，副行与主行重复则不渲染；轻量学科条目的 `related` 由 `subjectKit` 详情面板渲为可跳转的芯片。三处均为全站约定，新增模块时沿用而非另写。
+9. **提交**：按学科/阶段分组提交并推送，信息含范围与条目数。
 
 ---
 

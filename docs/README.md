@@ -28,6 +28,7 @@ CI：`.github/workflows/ci.yml` 在 PR / push 到 main 时跑 `verify` + `build`
 - `subjects.json`：**学科清单唯一真相源**；`projects.ts` 与 `gen-sitemap.mjs` / `gen-geo.mjs` / `prerender.mjs` 均从此读取。
 - `projects.ts`：`import subjects.json` → `PROJECTS[]` + `statusLabel()`。
 - `dataKit.ts`：`createDataLoader(baseDir)` 工厂（dataUrl/fetchData/peekData），各 FULL 学科 `data.ts` 委托它，勿再拷贝。
+- `ui/text.ts`：`splitProse / yearText / proseHTML`——公元前年份（数据存负数）的全站统一口径在此，任何科渲染年份都先接它。
 
 ## 3. 学科范式
 
@@ -64,7 +65,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           detail: { zh: "…", en: "…" }, // 详情面板
           example: { zh: "…", en: "…" }, // 详情面板示例
           tags: [{ zh: "经典力学", en: "Classical" }],
-          related: ["momentum", "energy-conservation"], // 可选，指向同科其他条目 id（mgmt 用；physics/chem 无此字段）
+          related: ["momentum", "energy-conservation"], // 可选，指向同科其他条目 id（mgmt 用；physics/chem 无此字段）；详情面板会渲成「相关条目」芯片、可跨模块跳转
         },
       ],
     },
@@ -85,6 +86,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
 - `term` / `oneLiner` / `detail` / `example` / `title` / `heroTitle` 等文案字段均为 `LStr`（`{ zh, en }`），**双语必须同步**。
 - `refs[].type` 为可选项，渲染为类型角标（教材 / 著作 / 机构 / 科普…）。
 - `icon` 用 emoji 即可。
+- 年份类字段：公元前写**负数**（如 `-450`），展示层统一由 `src/core/ui/text.ts` 的 `yearText(year, en)` 转「前 450 年」/「450 BCE」，勿在数据里写中文「前…年」，也勿在渲染处自写格式化。
 
 #### 新增一个 physics/chem 条目
 
