@@ -1779,7 +1779,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Hammer and Champy (1993) urged fundamental rethinking and radical redesign of processes for leaps in cost, quality and speed — but high failure rates made 'reengineering' a mixed legacy. The steadier daily practice is process management: map the flow, measure cycle time and defects, improve in small steps. The shared blind spot is people — change the process but not the metrics and accountability, and it rebounds.",
           },
           tags: [{ zh: "运营", en: "Operations" }],
-          related: ["lean-production", "pdca", "systems-view"],
+          related: ["lean-production", "pdca", "systems-view", "reengineering"],
         },
         {
           id: "pdca",
