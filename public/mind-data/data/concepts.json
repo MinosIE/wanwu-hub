@@ -257,7 +257,7 @@
     "detailEn": "Learning runs on two rails: classical conditioning (Pavlov—pairing a neutral cue with reward/punishment into an automatic response) and operant conditioning (Skinner—consequences strengthen or weaken behavior). Add observational learning (Bandura—learning by watching others' outcomes). Reinforcement schedules, timely feedback and spaced practice shape how well we learn, a cornerstone of educational design.",
     "example": "表扬及时且具体，比笼统说「你真棒」更能强化努力行为——这是操作性条件作用的日常应用。",
     "exampleEn": "Timely, specific praise strengthens effort far better than a vague 'good job'—operant conditioning in daily life.",
-    "related": ["conditioning", "reinforcement", "marshmallow"],
+    "related": ["conditioning", "reinforcement", "marshmallow", "edward-thorndike"],
     "tags": ["行为", "学习"],
     "sources": [{ "label": "Pavlov (1927) / Skinner (1938)", "year": 1938 }]
   },
@@ -1042,6 +1042,41 @@
         "label": "布朗芬布伦纳《使人成为人》",
         "labelEn": "Bronfenbrenner, Making Human Beings Human",
         "year": 2004
+      }
+    ]
+  },
+{
+    "id": "effective-study-methods",
+    "term": "学习方法的有效性排序",
+    "termEn": "How Study Techniques Rank by Evidence",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "level": 2,
+    "oneLiner": "证据把常用学习法分成几档：自测与分散练习在前，重读与划重点在后——而学生用得最多的恰是后面那些。",
+    "oneLinerEn": "The evidence ranks study habits: testing and spacing on top, rereading and highlighting at the bottom—and the bottom ones are what students actually do.",
+    "detail": "邓洛斯基等人 2013 年的系统评审把十种常见技术按证据分档：高实用价值只有两种——实践性测试（合上书写出答案）与分散练习（把复习拉开）；中等是精细询问、自我解释与交错练习；低的是重读、划重点、写摘要与关键词记忆法。为什么差的那批反而最流行？因为它们留下的体验好：重读越读越顺，这种流畅感被大脑直接当成「已经掌握」。所以判断一个方法值不值，看的不是当晚完成度与自我感觉，而是一周、一个月后还能不能想起来、能不能迁移到新题。用之前也要留三点边界：提取练习必须配反馈，否则错误会被一起巩固；这些结论多来自实验室短文与词汇材料，对低龄儿童、写作与操作类技能的推广仍有限；对已经高度焦虑的人，裸考式自测要先降焦虑才谈得上效果。",
+    "detailEn": "Dunlosky and colleagues' 2013 review sorted ten common techniques by evidence. Two land in the high-utility column: practice testing (close the book and write out the answer) and distributed practice (spread the review out). Elaborative interrogation, self-explanation and interleaving sit in the middle. Rereading, highlighting, summarizing and the keyword mnemonic come out low. Why are the weakest the most popular? Because they feel right: rereading grows smoother, and the brain reads that fluency as mastery. Judge a method not by tonight's completion or confidence but by what survives a week, a month, and a transfer question. Keep three limits in mind before using the ranking: retrieval practice needs feedback, or errors get consolidated along with everything else; most studies used short lab texts and word lists, so generalizing to young children, writing or hands-on skill stays tentative; and for already anxious learners, raw self-testing has to be paired with anxiety relief before it can pay.",
+    "example": "同样复习两周历史：甲重读笔记、划重点，当晚自我感觉良好；乙合上先默写一遍、再做跨章节混题，当下难受。一个月后测验，乙记得更多。",
+    "exampleEn": "Two students review history for two weeks. A rereads and highlights notes and feels good that night. B closes the book and writes first, then mixes questions across chapters and feels shaky. A month later, B remembers more.",
+    "related": [
+      "spacing-retrieval",
+      "testing-effect",
+      "rereading-illusion",
+      "metacognition",
+      "interleaving",
+      "robert-bjork"
+    ],
+    "tags": ["学习", "记忆"],
+    "sources": [
+      {
+        "label": "邓洛斯基等《提升学生学习的有效学习技术》",
+        "labelEn": "Dunlosky et al., Improving Students' Learning with Effective Learning Techniques",
+        "year": 2013
+      },
+      {
+        "label": "勒迪格与卡尔皮克《测验增强学习》",
+        "labelEn": "Roediger & Karpicke, Test-Enhanced Learning",
+        "year": 2006
       }
     ]
   }

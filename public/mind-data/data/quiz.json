@@ -284,5 +284,135 @@
     ],
     "related": ["big-five", "personality", "mbti"],
     "sources": [{ "label": "McCrae & Costa (1992)", "year": 1992 }]
+  },
+{
+    "id": "q-learn-1",
+    "term": "同一批材料复习两周，哪种做法更可能一个月后还记得住？",
+    "termEn": "Reviewing the same material for two weeks—which method holds up a month later?",
+    "oneLiner": "重读与自测的差别。",
+    "oneLinerEn": "Rereading versus self-testing.",
+    "detail": "重读越读越顺，流畅感被大脑当成已经掌握；自测既暴露盲点又强化痕迹，是证据最硬的学习法之一。邓洛斯基等 2013 年的评审把实践性测试列为高实用价值，重读与划重点列为低。",
+    "detailEn": "Rereading grows smoother, and the brain reads fluency as mastery; testing exposes gaps and strengthens the trace. Dunlosky et al. (2013) put practice testing in the high-utility column and rereading or highlighting in the low one.",
+    "options": [
+      {
+        "text": "反复重读笔记并划重点",
+        "textEn": "Reread and highlight the notes",
+        "correct": false
+      },
+      {
+        "text": "合上书写出答案、再做跨章节混题",
+        "textEn": "Close the book, write answers, mix questions across chapters",
+        "correct": true
+      },
+      {
+        "text": "把笔记工整抄一遍",
+        "textEn": "Copy the notes out neatly",
+        "correct": false
+      }
+    ],
+    "related": ["rereading-illusion", "testing-effect", "effective-study-methods"],
+    "sources": [
+      {
+        "label": "邓洛斯基等（2013）",
+        "labelEn": "Dunlosky et al. (2013)",
+        "year": 2013
+      }
+    ]
+  },
+{
+    "id": "q-learn-2",
+    "term": "按题型一批批刷 vs 不同题型混在一轮练，哪个当下更顺、哪个长期更好？",
+    "termEn": "Blocked practice vs interleaved practice—which feels better now, and which works later?",
+    "oneLiner": "交错练习的两种效果。",
+    "oneLinerEn": "What interleaving costs and buys.",
+    "detail": "一批批刷当下更顺，因为「该用哪一招」由上一题免费提供；混着练当下更磕绊，却真正练到辨识与选择，延后测验与迁移更好。",
+    "detailEn": "Blocked practice feels smoother because the previous item hands you the strategy for free; mixing feels worse in the session but trains that very identification, paying off on delayed and transfer tests.",
+    "options": [
+      {
+        "text": "混着练当下更顺，长期也更好",
+        "textEn": "Mixing feels smoother now and works better later",
+        "correct": false
+      },
+      {
+        "text": "一批批刷当下更顺，混着练长期更好",
+        "textEn": "Blocked feels smoother now; interleaving works better later",
+        "correct": true
+      },
+      {
+        "text": "两者长期效果没有差别",
+        "textEn": "No long-term difference between them",
+        "correct": false
+      }
+    ],
+    "related": ["interleaving", "desirable-difficulties", "mix-up-practice"],
+    "sources": [
+      {
+        "label": "罗勒与泰勒（2007）",
+        "labelEn": "Rohrer & Taylor (2007)",
+        "year": 2007
+      }
+    ]
+  },
+{
+    "id": "q-learn-3",
+    "term": "自信地答错后被纠正，与不确定时答错后被纠正，哪种记得更牢？",
+    "termEn": "Corrected after a confident error vs after an unsure one—which sticks more?",
+    "oneLiner": "超纠正效应。",
+    "oneLinerEn": "The hypercorrection effect.",
+    "detail": "越自信地答错，纠正后反而记得越牢，意外感把注意力顶到最高。所以错题本里最该重做的是「我当时很确定」的题，前提是必须拿到正确答案。",
+    "detailEn": "High-confidence errors are corrected better, because the surprise raises attention. The items worth redoing are the ones you were sure about—provided you actually get the right answer.",
+    "options": [
+      {
+        "text": "自信的错被纠正后记得更牢",
+        "textEn": "Confident errors stick more once corrected",
+        "correct": true
+      },
+      {
+        "text": "不确定的错记得更牢，因为印象浅",
+        "textEn": "Unsure errors stick more, since the trace is weaker",
+        "correct": false
+      },
+      {
+        "text": "两者一样，纠正效果与信心无关",
+        "textEn": "They are the same; confidence makes no difference",
+        "correct": false
+      }
+    ],
+    "related": ["hypercorrection", "second-pass-on-errors", "testing-effect"],
+    "sources": [
+      {
+        "label": "巴特菲尔德与梅特卡夫（2001）",
+        "labelEn": "Butterfield & Metcalfe (2001)",
+        "year": 2001
+      }
+    ]
+  },
+{
+    "id": "q-memory-2",
+    "term": "「我读得很顺，应该记住了」——研究支持哪个结论？",
+    "termEn": "'It reads smoothly, so I must know it'—what does the evidence say?",
+    "oneLiner": "学习判断为什么系统性偏高。",
+    "oneLinerEn": "Why judgments of learning run high.",
+    "detail": "读得顺不等于记得住。学习判断高度依赖流畅感等表面线索，重读越多越顺也越自信，延后测验却不一定更好；换成「能不能想起来」作线索才靠得住。",
+    "detailEn": "Smooth reading is not retention. Judgments of learning lean heavily on surface cues like fluency—more rereading feels better and scores higher, while delayed tests disagree; using 'can I retrieve it' as the cue is what tracks reality.",
+    "options": [
+      {
+        "text": "流畅感是可靠的记忆指标",
+        "textEn": "Fluency is a reliable index of memory",
+        "correct": false
+      },
+      {
+        "text": "读得顺常被误当成已掌握，判断因此偏高",
+        "textEn": "Fluency is mistaken for mastery, inflating the judgment",
+        "correct": true
+      },
+      {
+        "text": "只有老年人才会被流畅感骗",
+        "textEn": "Only older adults are fooled by fluency",
+        "correct": false
+      }
+    ],
+    "related": ["jol-fluency-trap", "rereading-illusion", "predict-then-check"],
+    "sources": [{ "label": "科亚特（2007）", "labelEn": "Koriat (2007)", "year": 2007 }]
   }
 ]

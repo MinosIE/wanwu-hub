@@ -113,7 +113,7 @@
     "detailEn": "Mechanism: spacing counters the forgetting curve, and retrieval (self-testing) strengthens traces and exposes gaps better than rereading. Use flashcards with gaps of days, do practice problems rather than re-read; prefer effortful recall over a false sense of fluency. This is among the best-evidenced study methods.",
     "category": "学习",
     "categoryEn": "Learning",
-    "related": ["memory", "metacognition", "growth-mindset"],
+    "related": ["memory", "metacognition", "growth-mindset", "robert-bjork"],
     "sources": [{ "label": "Roediger & Karpicke (2006)", "year": 2006 }]
   },
   {
@@ -878,6 +878,180 @@
         "label": "米纽钦《家庭与家庭治疗》（三角化与界限）",
         "labelEn": "Minuchin, Families and Family Therapy",
         "year": 1974
+      }
+    ]
+  },
+{
+    "id": "mix-up-practice",
+    "term": "别按题型一批批刷",
+    "termEn": "Mix Problem Types in One Round",
+    "oneLiner": "混着练当下更磕绊，但考试要的那一步——「这题该用哪一招」——恰恰只在混题里被练到。",
+    "oneLinerEn": "Mixed practice feels worse now, yet it trains the very move an exam demands: spotting which trick a problem needs.",
+    "detail": "按题型一批批刷时，「该用哪一招」是免费的：上一题已经告诉你这一类怎么解。考试不给这个提示。交错练习把不同题型混进一轮，逼你每题先做辨识与选择，于是当下错题变多、手感变差，延后测验与迁移到新题却更好。做法：复习排程按 A—B—C 混排而不是 AAAAA；每轮里插几道跨章混题；数学、几何与语言辨析最吃这一套。边界也别忽略：连基本步骤都没建立的新手先要少量分块练习，一上来就混只会挫败，常见安排是「先分后混」；收益最大的是需要选策略的材料，纯背词汇表提升有限。",
+    "detailEn": "Blocked practice hands you the answer to 'which trick does this need' for free: the previous problem already told you the type. Exams do not. Interleaving different types in one round forces that identification step every time, so performance looks worse in the moment while delayed tests and transfer come out better. In practice: schedule A-B-C mixes rather than AAAAA, drop cross-chapter questions into each round; math, geometry and language discrimination benefit most. Two limits: beginners who have not built the basic steps first need some blocked practice, since pure mixing just defeats them—'block, then mix' is the usual arrangement; and the payoff is largest where choosing a strategy is the hard part, not in raw vocabulary memorization.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "interleaving",
+      "desirable-difficulties",
+      "effective-study-methods",
+      "spacing-retrieval"
+    ],
+    "sources": [
+      {
+        "label": "罗勒与泰勒关于交错练习的实验",
+        "labelEn": "Rohrer & Taylor, The effects of interleaving practice",
+        "year": 2007
+      },
+      {
+        "label": "邓洛斯基等《提升学生学习的有效学习技术》",
+        "labelEn": "Dunlosky et al., Improving Students' Learning with Effective Learning Techniques",
+        "year": 2013
+      }
+    ]
+  },
+{
+    "id": "second-pass-on-errors",
+    "term": "错题隔天再答一遍",
+    "termEn": "Retry Your Errors a Day Later",
+    "oneLiner": "错题本抄满答案还是会掉进同一个坑；最该重做的，是你当时很确信却答错的那几道。",
+    "oneLinerEn": "Copying answers into an error log rarely sticks; the items worth redoing are the ones you got wrong with confidence.",
+    "detail": "超纠正效应说的是反直觉的一件事：你越自信地答错，看到正确答案时记得越牢——那份意外把注意力顶到最高。所以错题本里最值钱的不是难题，而是「我当时很确定」的题。做法：错题先只标记不抄答案；隔一到两天空着手重答一遍，再核对；单独列一栏「高置信错误」，考前专挑它们。三条边界：必须有正确反馈，否则把错答反复提取反而更结实；低置信的蒙错不必同等对待，先补概念；这一效应多在词表与课文里验证，推到长论证与写作时要留余地。",
+    "detailEn": "The hypercorrection effect is counterintuitive: the more confident you were when wrong, the better the correction tends to stick—the surprise itself raises attention. So the valuable items in an error log are not the hard ones but the ones you were sure about. In practice: mark errors without copying the answer first; a day or two later, reanswer them blank, then check; keep a separate list of high-confidence errors and run it before the exam. Three limits: feedback is mandatory, since retrieving a wrong answer repeatedly just hardens it; low-confidence guesses do not deserve the same treatment—fix the concept first; and most evidence comes from word lists and short texts, so extending it to long arguments and writing should stay modest.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "hypercorrection",
+      "testing-effect",
+      "effective-study-methods",
+      "spacing-retrieval"
+    ],
+    "sources": [
+      {
+        "label": "巴特菲尔德与梅特卡夫关于超纠正效应的研究",
+        "labelEn": "Butterfield & Metcalfe, on the hypercorrection effect",
+        "year": 2001
+      },
+      {
+        "label": "卡皮克与勒迪格《提取练习促进长时保持的关键作用》",
+        "labelEn": "Karpicke & Roediger, The Critical Role of Retrieval Practice in Promoting Long-Term Retention",
+        "year": 2008
+      }
+    ]
+  },
+{
+    "id": "ask-why-each-step",
+    "term": "每一步问「凭什么」",
+    "termEn": "Ask What Each Step Rests On",
+    "oneLiner": "差生念「这步怎么算」，好学生念「这步凭什么成立」：把这行小字写出来，理解才有的查。",
+    "oneLinerEn": "Weak students say how the step is computed; strong students say why it holds. Writing that line makes understanding checkable.",
+    "detail": "切基等人 1994 年录下学生解代数题时的自言自语：好的学生几乎每写一步都给自己解释这一步的依据，差的学生只跟着步骤走。把「自解释」当习惯训练出来，成绩明显往上。机制是把被动跟做变成主动补全因果链，顺手暴露断掉的那一环。做法：例题每一步旁写一行小字「凭什么」；读完一节先盲写「这一节是怎么走到结论的」；写不出的地方记下来再去问人。边界：已经熟练的人被要求逐步解释反而会变慢（专长逆转效应），到那个水平该把脚手架撤掉；材料得本身可解释，纯套路操练收益小；赶时间时至少对卡住的那一步解释。",
+    "detailEn": "Chi and colleagues recorded students thinking aloud while solving algebra problems in 1994: the strong ones explained the warrant behind nearly every step, the weak ones just followed the procedure. Training self-explanation lifted results. The mechanism is turning passive following into actively completing the causal chain, which exposes exactly where the chain breaks. In practice: write one line beside each step of a worked example saying what it rests on; after a section, blank-write how it reaches its conclusion; keep what you cannot write for questions later. Limits: requiring step-by-step explanation from people who are already fluent slows them down (expertise reversal), so remove that scaffold at that point; material has to be explicable in the first place, and drills gain little; when pressed for time, explain at least the step where you stuck.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "self-explain-effect",
+      "expertise-reversal",
+      "levels-of-processing",
+      "effective-study-methods"
+    ],
+    "sources": [
+      {
+        "label": "切基等《引出自我解释改善理解》",
+        "labelEn": "Chi, de Leeuw, Chiu & LaVancher, Eliciting Self-Explanations Improves Understanding",
+        "year": 1994
+      },
+      {
+        "label": "卡柳加等《专长逆转效应》",
+        "labelEn": "Kalyuga, Ayres, Chandler & Sweller, The Expertise Reversal Effect",
+        "year": 2003
+      }
+    ]
+  },
+{
+    "id": "try-before-taught",
+    "term": "上新课前先裸做一遍",
+    "termEn": "Attempt It Before You Are Taught",
+    "oneLiner": "没教就去做、甚至全错，反而让你听课时抓得更准：错的那次尝试本身就是钩子。",
+    "oneLinerEn": "Attempting a problem before instruction—even failing it—sharpens what you take from the lesson that follows.",
+    "detail": "两条证据指向同一件事。先测后学：预先尝试即使答错，也让随后的学习记得更多，因为错误把注意力和问题空间都打开了。卡普尔的「有效失败」更极端：在正式教之前，让学生分组硬解几道没学过、注定解不好的复杂题，之后听讲、延后测验与概念题的成绩反而超过直接听课的组。做法：翻开新章节先做课后三题，不查答案；听课前五分钟写下你猜这节讲什么、这题大概会怎么解；听完对照「我猜的 vs 讲的」，把差距写下来。边界：一定要有讲评闭环，只裸做不给反馈收益明显缩水；得提前说清这是流程不是评分，否则挫败感把好处吃掉。",
+    "detailEn": "Two lines of evidence point the same way. Pretesting: attempting items before instruction, even wrongly, improves what you later retain, because the attempt opens attention and the problem space. Kapur's productive failure goes further: before any instruction, groups wrestle with complex problems they have not been taught and cannot solve, and they later outperform peers who were taught directly, on immediate, delayed and conceptual tests. In practice: do three end-of-chapter problems before reading the chapter; spend five minutes before a lecture writing what you expect it to cover and how the problem might go; afterwards compare your guess with what was taught and note the gap. Limits: it needs a debrief loop—bare attempts without feedback lose most of the benefit; and say out loud that this is procedure, not grading, or frustration eats the gain.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "pretesting-benefit",
+      "productive-failure",
+      "desirable-difficulties",
+      "effective-study-methods"
+    ],
+    "sources": [
+      {
+        "label": "科内尔等《不成功的提取尝试促进后续学习》",
+        "labelEn": "Kornell, Hays & Bjork, Unsuccessful Retrieval Attempts Enhance Subsequent Learning",
+        "year": 2009
+      },
+      {
+        "label": "卡普尔关于有效失败的研究",
+        "labelEn": "Kapur, on productive failure",
+        "year": 2016
+      }
+    ]
+  },
+{
+    "id": "predict-then-check",
+    "term": "先预测分数再核对",
+    "termEn": "Predict Your Score, Then Check",
+    "oneLiner": "把「我差不多了」写成数字再打脸：高估的那部分，就是下轮该练的。",
+    "oneLinerEn": "Turn 'I pretty much know it' into a number, then get corrected—the overestimate is next round's material.",
+    "detail": "复习完的信心多半来自流畅感：材料越读越顺，大脑把顺当作已经掌握，于是学习判断系统性偏高。校准的办法是把判断先变成可打脸的数字：合上材料，写下「我现在能默写几条」「这卷我能考多少」，再做一次自测，看差多少，把高估的内容排进下一轮提取练习。科里亚特的研究显示学习判断高度依赖表面线索，一旦把线索从「读得顺不顺」换成「能不能想起来」，判断立刻贴近实际。做法是三栏纸：预测、实测、差值。边界：预测本身不增进记忆，只有配上提取才有用；记一次不算校准，要连着记；对已经高度焦虑的人，每天打分数可能加压，改成隔天一次。",
+    "detailEn": "Confidence after review mostly comes from fluency: material reads smoother each pass, the brain files smoothness as mastery, and judgments run systematically high. Calibrate by turning the judgment into a number you can be wrong about: close the book, write down how many items you can now list and what you would score, then self-test and compare, and schedule the overestimated parts for the next round of retrieval. Koriat's work shows learning judgments lean heavily on surface cues; swap the cue from 'does it read easily' to 'can I get it back' and the judgment snaps closer to reality. The tool is a three-column sheet: predicted, actual, gap. Limits: predicting alone adds no memory—it only helps paired with retrieval; one data point is not calibration, keep logging; and for someone already anxious, daily scoring can add pressure, so move it to every other day.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "jol-fluency-trap",
+      "metacognition",
+      "rereading-illusion",
+      "effective-study-methods"
+    ],
+    "sources": [
+      {
+        "label": "科里亚特的学习判断研究",
+        "labelEn": "Koriat, on judgments of learning",
+        "year": 2007
+      },
+      {
+        "label": "比约克〈人类训练中的记忆与元记忆考量〉",
+        "labelEn": "Bjork, Memory and Metamemory Considerations in the Training of Human Beings",
+        "year": 1994
+      }
+    ]
+  },
+{
+    "id": "explain-in-plain-words",
+    "term": "用人话讲一遍",
+    "termEn": "Explain It in Plain Words",
+    "oneLiner": "讲不清的那一句就是没懂的那一句；卡壳不是失败，是免费的诊断。",
+    "oneLinerEn": "The sentence you cannot say is the one you do not know; stalling is a free diagnostic.",
+    "detail": "两条证据：一是生成效应，自己产出的词句比读到的记得牢；二是解释深度错觉，让人画自行车链条、说清拉链怎么咬合，多数人都画不出来，尽管他们确信自己懂。合上材料、对一个想象中的外行出声讲两分钟，不许用行话，卡住的地方做记号——那里才是真没懂，回去只读那一段，再讲一遍。这套常被叫作「费曼式」，但要点不在名字，而在卡壳把漏洞暴露出来。边界：讲一遍不等于记住，仍要隔天再讲一次；对隐性技能（写作手感、游泳、球类）语言复述替代不了练习；想象听众容易自我放水，找人真听更准。",
+    "detailEn": "Two findings back this. The generation effect: lines you produced yourself are remembered better than lines you read. The illusion of explanatory depth: ask people to draw a bicycle chain or say how a zipper engages, and most cannot, though they are sure they know it. Close the material, explain out loud for two minutes to an imagined layperson with no jargon allowed, mark every stall—that is the part you do not know—go back and read only that stretch, then explain again. The move is often sold as Feynman-style, but the value is not the name: stalling exposes the gap. Limits: one telling is not retention, so tell it again tomorrow; for tacit skill (writing feel, swimming, ball games) verbal recount cannot replace practice; and an imagined listener lets you off easy, so a real one is more accurate.",
+    "category": "学习",
+    "categoryEn": "Learning",
+    "related": [
+      "generation-effect",
+      "levels-of-processing",
+      "metacognition",
+      "effective-study-methods"
+    ],
+    "sources": [
+      {
+        "label": "斯拉梅卡与格拉夫《生成效应：一个现象的界定》",
+        "labelEn": "Slamecka & Graf, The Generation Effect: Delineation of a Phenomenon",
+        "year": 1978
+      },
+      {
+        "label": "罗森布利特与凯尔《被误解的常识边界》",
+        "labelEn": "Rozenblit & Keil, The Misunderstood Limits of Folk Science",
+        "year": 2002
       }
     ]
   }

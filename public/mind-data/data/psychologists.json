@@ -951,5 +951,92 @@
         "year": 2026
       }
     ]
+  },
+{
+    "id": "robert-bjork",
+    "name": "罗伯特·比约克",
+    "nameEn": "Robert A. Bjork",
+    "era": "1939–",
+    "field": "学习科学 / 必要难度",
+    "fieldEn": "Learning Science / Desirable Difficulties",
+    "oneLiner": "把「当下看起来学会了」与「真的学会」分开：他一生在证明，让练习更吃力的安排往往让长期记得更多。",
+    "oneLinerEn": "Separated looking-learned from learned: practice that feels harder often holds longer.",
+    "detail": "比约克在明尼苏达大学读数学，1966 年获斯坦福心理学博士，此后长期在加州大学洛杉矶分校任教，与妻子伊丽莎白共同主持被学生称作 Cogfog 的实验室。他的两根台柱子：一是把记忆拆成存储强度与提取强度——东西常常没丢，只是暂时够不着，走得多的路径更顺；二是 1994 年提出的「必要难度」，交错、分散、提取练习这些让当下表现变差的安排，恰是长期学习的杠杆。他也据此追问：一堂顺畅的课与一次吃力的测验，谁留下的更多。他曾任《心理学评论》主编与美国心理科学协会主席，2022 年入选美国国家科学院。他也反复限定：难度过了头就不再「必要」；这些效应多在实验室与大学材料中验证，教室成本、对低龄与复杂技能是否同样划算仍是开放问题。",
+    "detailEn": "Bjork studied mathematics at Minnesota, took his psychology PhD at Stanford in 1966, and has taught at UCLA ever since, running the lab students call Cogfog together with his wife Elizabeth. Two pillars: splitting memory into storage strength and retrieval strength—information is usually not lost, only temporarily unreachable, and the paths you keep walking stay passable; and desirable difficulties, coined in 1994—interleaving, spacing and retrieval practice make performance look worse while driving learning. That reframes a familiar misjudgment: which leaves more behind, the smooth lesson or the effortful quiz. He edited Psychological Review, chaired the Association for Psychological Science, and was elected to the National Academy of Sciences in 2022. He keeps the caveat loud: past a certain point a difficulty is no longer desirable, and most evidence comes from laboratories and university-grade material, so classroom cost, young learners and complex skills remain open questions.",
+    "keyIdeas": ["存储强度与提取强度", "必要难度", "短期表现会误导对长期学习的判断", "遗忘有适应价值"],
+    "keyIdeasEn": [
+      "Storage strength vs retrieval strength",
+      "Desirable difficulties",
+      "Short-term performance misleads learning judgments",
+      "Forgetting has adaptive value"
+    ],
+    "works": ["《认知学习理论》", "〈为自己制造必要的困难〉（与伊丽莎白·比约克合著）"],
+    "worksEn": [
+      "A Cognitive Theory of Learning (1975)",
+      "Making Things Hard on Yourself, But in a Good Way (2011)"
+    ],
+    "related": [
+      "desirable-difficulties",
+      "effective-study-methods",
+      "pretesting-benefit",
+      "spacing-retrieval"
+    ],
+    "tags": ["学习", "记忆"],
+    "sources": [
+      {
+        "label": "比约克〈人类训练中的记忆与元记忆考量〉",
+        "labelEn": "Bjork, Memory and Metamemory Considerations in the Training of Human Beings",
+        "year": 1994
+      },
+      {
+        "label": "比约克夫妇〈为自己制造必要的困难，但要用对方式〉",
+        "labelEn": "Bjork & Bjork, Making Things Hard on Yourself, But in a Good Way",
+        "year": 2011
+      }
+    ]
+  },
+{
+    "id": "edward-thorndike",
+    "name": "爱德华·桑代克",
+    "nameEn": "Edward L. Thorndike",
+    "era": "1874–1949",
+    "field": "学习 / 联结、迁移与测量",
+    "fieldEn": "Learning / Connectionism, Transfer & Testing",
+    "oneLiner": "用迷箱里的猫把「学习」从讲道理改成画曲线：逃脱用时越来越短的那条线，成了教育心理学的第一块基石。",
+    "oneLinerEn": "Turned learning from argument into a curve: cats escaping puzzle boxes founded educational psychology.",
+    "detail": "桑代克在马萨诸塞州长大，因读詹姆斯的《心理学原理》改了专业方向。1898 年他在卡特尔指导下以《动物的智慧》获哥伦比亚大学博士，被视为美国第一篇以动物为被试的博士论文，后留校师范学院任教至 1940 年退休。他的迷箱让猫自己撞出机关，逃脱用时被画成一条逐渐下降的曲线，而非一跳式的顿悟，据此立了效果律、练习律与准备律。他也不信「形式训练说」：迁移只靠新旧任务的共同元素。一战期间他参与编制陆军甲种与乙种测验，把心理测量推向大规模筛选。1912 年任美国心理学会主席，1917 年入选美国国家科学院。局限同样清楚：效果律后来被行为主义内部改造，相同元素说把迁移看得过窄，而他用测验分数给族群与移民排优劣，今天无人能为其辩护。",
+    "detailEn": "Thorndike grew up in Massachusetts and changed course after reading James's Principles of Psychology. In 1898 he took his Columbia PhD under Cattell with Animal Intelligence, widely counted as the first American psychology dissertation to experiment on animals, and he stayed on at Teachers College until retiring in 1940. His puzzle boxes let cats escape by luck; plotting each exit time gave a gradually falling curve rather than a sudden insight—hence the law of effect (connections followed by satisfaction get stamped in), the law of exercise and the law of readiness. He also rejected the doctrine of formal discipline: transfer happens only where tasks share elements. In the First World War he helped build the Army Alpha and Beta tests, pushing measurement into mass screening. He chaired the American Psychological Association in 1912 and joined the National Academy of Sciences in 1917. The limits are as clear: the law of effect was later rebuilt within behaviorism, identical elements proved too narrow an account of transfer, and his use of test scores to rank ethnic and immigrant groups finds no defense today.",
+    "keyIdeas": ["效果律", "迷箱与渐进学习曲线", "相同元素说（迁移）", "教育测量与大规模测验"],
+    "keyIdeasEn": [
+      "Law of effect",
+      "Puzzle boxes and gradual learning curves",
+      "Identical elements theory of transfer",
+      "Educational measurement and mass testing"
+    ],
+    "works": ["《教育心理学》", "《动物智慧》", "《人类的学习》"],
+    "worksEn": [
+      "Educational Psychology (1903; 3 vols 1913-1914)",
+      "Animal Intelligence (1911)",
+      "Human Learning (1931)"
+    ],
+    "related": ["thorndike-cat", "learning", "conditioning", "reinforcement"],
+    "tags": ["学习", "教育"],
+    "sources": [
+      {
+        "label": "桑代克《动物的智慧：动物联想过程的实验研究》",
+        "labelEn": "Thorndike, Animal Intelligence: An Experimental Study of the Associative Processes in Animals",
+        "year": 1911
+      },
+      {
+        "label": "桑代克《教育心理学初阶》",
+        "labelEn": "Thorndike, Educational Psychology: Briefer Course",
+        "year": 1926
+      },
+      {
+        "label": "桑代克《人类的学习》",
+        "labelEn": "Thorndike, Human Learning",
+        "year": 1931
+      }
+    ]
   }
 ]

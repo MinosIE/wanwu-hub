@@ -822,7 +822,7 @@
     "detailEn": "Bjork found that arrangements which make practice look worse—spaced, interleaved, self-tested first—hurt now but help later, effortful retrieval encoding memory more deeply. Fluency misleads: the smoother it reads, the shallower it may sit. It strikes hard at the sense that easy equals learned.",
     "category": "学习",
     "categoryEn": "Learning",
-    "related": ["learning", "memory", "spacing-retrieval", "testing-effect"],
+    "related": ["learning", "memory", "spacing-retrieval", "testing-effect", "robert-bjork"],
     "sources": [{ "label": "Bjork (1994)", "year": 1994 }]
   },
   {
@@ -2376,7 +2376,7 @@
     "detailEn": "Kornell, Hays and Bjork had people guess (wrongly) before reading glossary entries. Pretesting boosted later retention compared with reading only. Generating an answer, even a wrong one, marks what follows as a prediction error, and the brain privileges 'different from expected.'",
     "category": "学习",
     "categoryEn": "Learning",
-    "related": ["testing-effect", "hypercorrection", "desirable-difficulties", "generation-effect"],
+    "related": ["testing-effect", "hypercorrection", "desirable-difficulties", "generation-effect", "robert-bjork"],
     "sources": [{ "label": "Kornell, Hays & Bjork (2009)", "year": 2009 }]
   },
   {
