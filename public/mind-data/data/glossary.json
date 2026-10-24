@@ -816,5 +816,140 @@
         "year": 1974
       }
     ]
+  },
+  {
+    "id": "authoritative-parenting",
+    "term": "权威型教养",
+    "termEn": "Authoritative Parenting",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "要求与回应同时在线的教养姿态：底线和期待说得清、执行得稳，同时愿意听孩子的理由——规则可以被解释，可以商量顺序，但不商量是否成立。它与专制型只差「有没有解释」，与纵容型只差「有没有底线」。",
+    "defEn": "A style where demand and responsiveness are both online: limits and expectations are stated and held, while the child's reasons are heard—the rule may be explained and its order negotiated, but not whether it stands. It differs from authoritarian parenting by one thing only, an explanation; from permissive parenting by one thing only, a bottom line.",
+    "plain": "孩子知道边界在哪，也知道说了有人接。译名最容易混的一点：authoritative（权威型，温暖而有结构）与 authoritarian（专制型，只有结构）在英文里只差一个后缀，中文却常常都被写成「权威」，引用文献时务必看清是哪一种。",
+    "plainEn": "The child knows where the line is, and knows that speaking gets an answer. One translation trap worth unlearning: authoritative and authoritarian differ in English by a single suffix, yet both are often rendered with the same Chinese word for 'authoritative'—check which one a paper actually means.",
+    "related": [
+      "parenting-styles",
+      "behavior-vs-psychological-control",
+      "attachment",
+      "self-determination-theory"
+    ],
+    "tags": ["发展", "家庭"],
+    "sources": [
+      {
+        "label": "鲍姆林德〈当前父母权威的形态〉",
+        "labelEn": "Baumrind, Current Patterns of Parental Authority",
+        "year": 1971
+      },
+      {
+        "label": "梅肯比与马丁〈家庭情境中的社会化〉（四格模型）",
+        "labelEn": "Maccoby & Martin, Socialization in the Context of the Family",
+        "year": 1983
+      }
+    ]
+  },
+  {
+    "id": "helicopter-parenting",
+    "term": "直升机父母与扫雪机父母",
+    "termEn": "Helicopter and Snowplow Parenting",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "持续监控孩子、随时准备接管其本可自理之事（直升机），或提前替他把路上的障碍铲平（扫雪机）的养育行为。被批评的核心不是关心过度，而是代劳移走了孩子练习判断风险、完成任务与自我评估的机会。",
+    "defEn": "Constant monitoring with standby rescue (helicopter), or obstacles cleared ahead of the child before he ever meets them (snowplow). What draws the criticism is not excess care but confiscated practice: judgment of risk, finishing a task, and appraising oneself never get rehearsed.",
+    "plain": "判断标准很实用：这件事孩子已经会做了吗？如果会，你还接着做，那么加上的不是保护，而是练习的移除。「直升机」一词出自 1969 年一个孩子对咨询师的形容，后来被用来命名大学辅导员在 2000 年代观察到的一类家长。",
+    "plainEn": "A usable test: can he already do this? If yes and you still do it for him, what you added is not protection but a removed rehearsal. The word comes from a teenager's 1969 description of his mother—'like a helicopter circling over me'—and later named a cohort college counselors kept meeting.",
+    "related": [
+      "behavior-vs-psychological-control",
+      "self-determination-theory",
+      "zpd",
+      "helicopter-landing"
+    ],
+    "tags": ["发展", "家庭"],
+    "sources": [
+      {
+        "label": "法伊与克莱因《父母超载》",
+        "labelEn": "Fay & Cline, Parent Overload",
+        "year": 1990
+      },
+      {
+        "label": "希夫林等〈直升机式养育与大学生的适应〉",
+        "labelEn": "Schiffrin et al., Predicting Negative Outcomes of Helicopter Parenting",
+        "year": 2014
+      }
+    ]
+  },
+  {
+    "id": "emotion-coaching",
+    "term": "情绪教练",
+    "termEn": "Emotion Coaching",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "把孩子的负面情绪当作亲近与教学的机会，先确认感受、帮他命名，再立界限并一起解决问题的养育步骤。出自戈特曼夫妻对家长姿态的四分：不认可、忽略、放任、情绪教练。",
+    "defEn": "Treating a child's negative feeling as a doorway to closeness and teaching: validate first, help name it, then hold the limit and solve together. From the Gottmans' four stances toward feeling—disapproving, dismissing, laissez-faire, and coaching.",
+    "plain": "一句话版本：「你可以生气，但不能打人；我们先说说哪里最难受。」要说清的是，它与儿童情绪能力的关联确实存在，但幅度小于畅销书的承诺，而且证据多为相关——会做情绪教练的家庭往往本来就有更多时间和更稳的作息。",
+    "plainEn": "One-sentence version: 'You may be furious, you may not hit; tell me which part stings most.' The honest caveat: the correlation with emotional competence is real but smaller than the bestsellers promise, and mostly correlational—families who coach tend to have more time and steadier routines anyway.",
+    "related": [
+      "emotion-labeling",
+      "emotion-regulation",
+      "emotion-coach-at-home",
+      "empathy"
+    ],
+    "tags": ["发展", "情绪"],
+    "sources": [
+      {
+        "label": "戈特曼与卡茨《培育情绪智慧的孩子》",
+        "labelEn": "Gottman & Katz, Raising an Emotionally Intelligent Child",
+        "year": 1997
+      }
+    ]
+  },
+  {
+    "id": "i-message",
+    "term": "我信息",
+    "termEn": "I-Message",
+    "category": "社会",
+    "categoryEn": "Social",
+    "def": "由说话者陈述自己的观察、自己受到的具体影响与自己的感受来表达问题的句式（行为 + 影响 + 感受）；与之相对的「你信息」以人格指责开头，把对方放到被告席上。",
+    "defEn": "A sentence built from the speaker's side: the observable behavior, its concrete cost to me, my feeling. Its counterpart, the you-message, opens with a verdict on the personality and seats the other person as defendant.",
+    "plain": "「你怎么总是丢三落四」是你信息；「书包在楼梯上，我搬上去容易踩着，我有点烦」是我信息。少了具体影响那一段，我信息会退化成一条规则宣告；加了人格形容词，它立刻变回指责。",
+    "plainEn": "'You always leave things around' is a you-message; 'the bag is on the stairs, I trip carrying it up, and I get annoyed' is an I-message. Drop the cost and it decays into a rule announcement; add an adjective and it snaps straight back into blame.",
+    "related": [
+      "listen-so-child-talks",
+      "criticism-that-lands",
+      "anatomy-of-apology",
+      "boundary-sense"
+    ],
+    "tags": ["社会", "沟通"],
+    "sources": [
+      {
+        "label": "戈登《P.E.T. 父母效能训练》",
+        "labelEn": "Gordon, Parent Effectiveness Training",
+        "year": 1970
+      }
+    ]
+  },
+  {
+    "id": "sibling-rivalry",
+    "term": "同胞竞争",
+    "termEn": "Sibling Rivalry",
+    "category": "发展",
+    "categoryEn": "Development",
+    "def": "兄弟姐妹之间为父母的关注、家庭资源与地位而生的比较、敌意与冲突。其强度更多由孩子感知到的差别待遇、以及父母是否每次都下场裁决决定，而不是由实际的分配是否公平决定。",
+    "defEn": "Comparison, hostility and contest among brothers and sisters over parental attention, household resources and standing. Its intensity tracks the child's perception of differential treatment and whether parents referee every round, far more than the objective fairness of the split.",
+    "plain": "他们争的往往不是同一块饼干，而是「爸妈更偏向谁」的证据。父母每次判定谁对，孩子学会的是找大人而不是谈判；把解决交回给他们并教方法，冲突频率反而会下降。",
+    "plainEn": "What is on trial is rarely the biscuit but the evidence for who mummy prefers. Every verdict from a parent teaches run-to-an-adult; hand the fix back to them and teach how, and the quarrels thin out.",
+    "related": [
+      "sibling-quarrel",
+      "attachment",
+      "observational-learning",
+      "negativity-bias"
+    ],
+    "tags": ["发展", "家庭"],
+    "sources": [
+      {
+        "label": "邓恩与普洛明《各异的命运：同胞为何如此不同》",
+        "labelEn": "Dunn & Plomin, Separate Lives: Why Siblings Are So Different",
+        "year": 1986
+      }
+    ]
   }
 ]

@@ -3,12 +3,12 @@
     {
       "file": "concepts.json",
       "titleKey": "kpi.concepts",
-      "count": 40
+      "count": 42
     },
     {
       "file": "glossary.json",
       "titleKey": "kpi.glossary",
-      "count": 40
+      "count": 45
     },
     {
       "file": "psychologists.json",

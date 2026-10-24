@@ -608,5 +608,276 @@
         "year": 2014
       }
     ]
+  },
+  {
+    "id": "which-parenting-style",
+    "term": "四种带法，先看清自己是哪一种",
+    "termEn": "Which of the Four Styles Are You",
+    "oneLiner": "把「管得多不多」和「接不接得住」分成两把尺，四个格子立刻能认出自己家像哪一格。",
+    "oneLinerEn": "Split 'how much control' and 'how much warmth' into two rulers, and you can find your own cell in four.",
+    "detail": "两把尺：要求（有没有清楚的底线与期待）与回应（够不够温暖、愿不愿听孩子的话）。两高是权威型：规则明白，也允许孩子问「为什么」并得到回答；高要求低回应是专制型：「没有理由，因为我说的」；低要求高回应是纵容型：情绪全接住，却很少立规矩；两低是忽视型：既不要求也少回应，最常见于大人被工作、疾病或婚姻拖住的时候，而不是不爱。自查有用的地方在于：同一句「十点必须上床」落在不同格子里，孩子的解读完全不同——权威型里被读成关心，专制型里被读成控制，于是同样的规则换来完全不同的对抗强度。也要说清这套框架的局限：鲍姆林德的原始样本是上世纪六十年代以白人、中等收入以上的家庭为主；后续跨族群与跨阶层的重复里，权威型的优势稳，专制型的负面却弱得多（Chao 指出中文语境里「管教」本身就被孩子读成爱的表达）；权威型孩子成绩更好，一部分靠的是父母的时间与经济资源（Lareau 称为「协同培养」），不是态度自带魔法。所以自查不是为了给自己贴一个及格标签，而是找出可以调的那一格——多数人真正能加的是回应，而不是再叠一层要求。",
+    "detailEn": "Two rulers: demandingness (are there clear limits and expectations) and responsiveness (how much warmth, how much listening). High on both is the authoritative style: rules are explicit and the child may ask why and gets an answer. High demand, low warmth is authoritarian: 'no reason, because I said so.' Low demand, high warmth is permissive: every feeling is received, few limits are set. Low on both is uninvolved, which usually shows up when a parent is swamped by work, illness or a marriage, not when they do not care. The audit pays off because the same sentence—'lights out at ten'—is decoded differently in each cell: as care in one, as control in the next, so identical rules buy wildly different resistance. The caveats belong in the ledger too. Baumrind's original sample was white, mostly middle-income families in the 1960s; in later replications across ethnic and income groups the advantage of the authoritative style holds while the harm attached to the authoritarian one fades (Chao notes that in Chinese contexts 'discipline' is itself read by children as love, so the label bundles high demand with low warmth and misreads such homes). And authoritative kids' better grades run partly through parental time and money—what Lareau calls concerted cultivation—not through attitude alone. So the point of the audit is not a passing sticker but the one dial you can actually turn, which for most parents is warmth, not another layer of demand.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "parenting-styles",
+      "authoritative-parenting",
+      "behavior-vs-psychological-control",
+      "attachment",
+      "criticism-that-lands"
+    ],
+    "sources": [
+      {
+        "label": "鲍姆林德〈当前父母权威的形态〉",
+        "labelEn": "Baumrind, Current Patterns of Parental Authority",
+        "year": 1971
+      },
+      {
+        "label": "Chao〈超越父母管教：以「训练」理解中国养育〉",
+        "labelEn": "Chao, Beyond Parental Control: Understanding Chinese Parenting",
+        "year": 1994
+      },
+      {
+        "label": "莱罗《不平等的童年》",
+        "labelEn": "Lareau, Unequal Childhoods",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "id": "helicopter-landing",
+    "term": "手想伸出去时，先等十秒",
+    "termEn": "Ten Seconds Before You Step In",
+    "oneLiner": "代劳的冲动多半是大人的焦虑在动，不是孩子真的需要救援。",
+    "oneLinerEn": "The urge to take over is usually adult anxiety moving, not a child who actually needs rescuing.",
+    "detail": "「直升机」一词来自青少年来访者的抱怨（1969 年吉诺特的书里，孩子形容母亲「像直升机一样在我头顶盘旋」），2000 年代后被用来命名一类持续监控、随时接管的养育；同一逻辑往前推一步就是扫雪机父母：孩子还没碰到障碍，先替他在前面铲平。它被批评的机制不是「管得严」，而是心理控制与机会剥夺（见「行为控制与心理控制」条）：孩子练不出自己判断风险、自己收尾、自己开口求助的能力，也拿不到「这事是我做成的」那条内部凭据；被高度接管的大学生更低自主、更依赖外部确认，而学业表现并没有因此更好。可操作的五步：①事前把事分三档——安全与底线（立刻介入）、能力可及（先不介入）、偏好（穿什么、先写哪一科，归他自己定）；②设一个十秒延迟，孩子卡住时先在心里数到十，多数时候他自己接上了；③把帮忙改成「陪而不代」：问「你打算怎么办，要我帮哪一步」，只补那一步，不接手整件；④事后复盘只问两句——哪一步是你自己完成的、下次想改哪里，不追加训话，第三句就把复盘变成审判；⑤焦虑归自己：给自己找出口（运动、与配偶分工、自己的朋友），不要在孩子身上取平静。边界：真正需要外部结构的孩子（发育、注意力或情绪方面的困难）需要的是更多提示而不是更少；撤退要按能力分步走，不是一次断掉；「放手不管」和「不回应」是两件事，后者才是有害的那一件。",
+    "detailEn": "The word comes from an adolescent's complaint—in Ginott's 1969 book a teenager described his mother as 'like a helicopter circling over me'—and from the 2000s it named a style of constant monitoring and standby rescue. Push the same logic one step earlier and you get snowplow parenting: the obstacle is cleared before the child ever reaches it. What researchers object to is not strictness but psychological control plus confiscated practice (see the entry on behavioral versus psychological control): the child never gets to rehearse judging risk, finishing a task, or asking for help, so they also never gain the internal evidence that 'I did that'. Highly scaffolded college students show lower autonomy and more reliance on outside validation, without better academic performance. Five workable steps: sort events in advance into safety and non-negotiables (step in now), skills within reach (hold back), and preferences (what to wear, which subject first—his call); impose a ten-second delay when he stalls, and most of the time he picks the thread back up; convert help into company by asking 'what is your plan, which part do you want me for' and supply only that part; debrief with two questions only—which part did you finish yourself, what would you change next time—because a third turns review into a verdict; keep your own anxiety in your own lane (exercise, a split with your partner, your own friends) rather than harvesting calm from him. Boundaries: children who genuinely need external structure—developmental, attentional or emotional difficulties—need more prompts, not fewer, and withdrawal should be stepped to match competence, not cut at once. And 'hands off' is not 'no response'; the second is the harmful one.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "helicopter-parenting",
+      "behavior-vs-psychological-control",
+      "zpd",
+      "self-determination-theory",
+      "parenting-styles"
+    ],
+    "sources": [
+      {
+        "label": "法伊与克莱因《父母超载》（直升机式养育的命名）",
+        "labelEn": "Fay & Cline, Parent Overload",
+        "year": 1990
+      },
+      {
+        "label": "希夫林等〈直升机式养育与大学生的适应〉",
+        "labelEn": "Schiffrin et al., Predicting Negative Outcomes of Helicopter Parenting",
+        "year": 2014
+      },
+      {
+        "label": "索嫩斯与范斯坦基斯特〈心理控制的理论更新〉",
+        "labelEn": "Soenens & Vansteenkiste, Psychological Control: A Theoretical Update",
+        "year": 2010
+      }
+    ]
+  },
+  {
+    "id": "listen-so-child-talks",
+    "term": "孩子不肯说的时候，先别急着问",
+    "termEn": "When the Child Goes Silent",
+    "oneLiner": "追问是压力，复述是邀请：把「今天怎么样」换成「你刚才那句听起来挺烦」。",
+    "oneLinerEn": "Questioning presses, echoing invites: swap 'how was today' for 'that sounded irritating'.",
+    "detail": "为什么越问越沉默：孩子在报告坏消息之前会先估对方的反应，一估就是「说了要被讲道理」，于是选择闭嘴；提问密度高、每个回答后面紧跟建议，等于把对话变成审讯。三条替代路。第一条是积极倾听（戈登的 P.E.T.）：不评价地把话里的情绪当信息返回去——「数学课上被点名，你觉得难堪」；规矩是只回到他给的料，不添他自己没说的情节，说错了他会纠正你，那也算开口。第二条是「我信息」（同一本书里的另一个工具）：把「你怎么又……」换成三段——可观察的行为、对我的具体影响、我的感受（「看到书包扔在楼梯上，我搬上去容易踩着，我有点烦」）；少了影响那一段会被读成规则宣告，加了形容词（「你太不负责」）就退回指责。顺序值得记：先确认情绪，再谈事情——情绪没被接住时内容进不去，这与成人反馈里的三层对话同理（见「批评怎么说才不炸」）。第三条留给不肯当面说的年纪：并排不对面——一起走路、洗碗、开车时视线分开，坦白率明显高于面对面审问；同时把「有事跟我说」这种空邀请换成具体的（「明天要面试，要不要先跟我说一遍，我听着」）。边界：沉默本身不是问题，长期退缩加上吃饭、睡觉、成绩一起掉，才是要找专业帮忙的信号；也别把倾听当侦察手段，孩子一旦发现共情是为了套话，门会关得更严。",
+    "detailEn": "Why more questions yield less speech: before reporting bad news a child prices the reaction, and the price usually reads as 'I will get a lecture', so silence is the cheaper option; a high question rate with advice bolted onto every answer turns talk into interrogation. Three alternatives. First, active listening from Gordon's P.E.T.: hand the feeling back as information without verdict—'you were named out in front of the class, that felt humiliating'. The rule is to use only what he gave you; if you add a plot he did not say, he will spend his energy correcting you, which is also speech. Second, the I-message from the same book: replace 'you always...' with three parts—observable behavior, its concrete cost to me, my feeling ('the bag on the stairs, I trip carrying it up, I get annoyed'). Drop the cost and it reads as a rule announcement; add an adjective and it slides back into blame. Order matters: confirm the feeling before the facts, because content cannot land while the feeling is unreceived—the same three-layer problem as adult feedback. Third, for ages that refuse face-to-face confession: side by side beats eye to eye—walking, washing up, a car ride, where the gaze is unbolted, and disclosure rates rise; and swap the empty 'tell me if anything's wrong' for a concrete invitation ('say your interview out loud to me first, I will just listen'). Limits: silence is not the symptom—persistent withdrawal plus eating, sleeping and grades slipping together is when professional help belongs. And never use listening as reconnaissance: once a child finds that empathy is an extraction tool, the door shuts far tighter.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "i-message",
+      "emotion-coaching",
+      "criticism-that-lands",
+      "anatomy-of-apology",
+      "empathy"
+    ],
+    "sources": [
+      {
+        "label": "戈登《P.E.T. 父母效能训练》（积极倾听与我信息）",
+        "labelEn": "Gordon, Parent Effectiveness Training",
+        "year": 1970
+      },
+      {
+        "label": "斯通与希恩《感谢反馈》（三层对话）",
+        "labelEn": "Stone & Heen, Thanks for the Feedback",
+        "year": 2014
+      }
+    ]
+  },
+  {
+    "id": "emotion-coach-at-home",
+    "term": "孩子情绪炸开时，当教练别当法官",
+    "termEn": "Coach the Storm, Do Not Judge It",
+    "oneLiner": "五步里最常被跳过的是第二步：把崩溃当成一次教学机会，而不是必须马上止住的失礼。",
+    "oneLinerEn": "The step parents skip is the second: treat the meltdown as a teaching moment, not a breach of manners to stop at once.",
+    "detail": "戈特曼一家按家长对负面情绪的默认姿态分四种：不认可（情绪是坏毛病）、忽略（别当真，去吃点什么）、放任（只共情不设限）、情绪教练（先共情、再立界限、一起解决）。教练五步：①先觉察自己和孩子的情绪各到哪一格（心率差一级，能用的处理方式完全不同）；②把情绪时刻当作亲近与教学的机会，而不是麻烦；③先给共情、确认感受——感受没有对错，行为有；④帮孩子给情绪命名，一次只给一个词（这一步同时练情绪粒度，命名本身就能降低唤起，见「给情绪命名」条）；⑤立界限并一起想下一步：「你可以恨妹妹，但不能动手；下次想推的时候来找我」。证据要说清：情绪教练与儿童情绪能力的关联确实存在，但元分析给出的强度小于畅销书承诺的量级，而且多为相关设计——会做情绪教练的家庭本来就更多资源、更稳的作息，不能把相关读成因果。争议较少的是第四步与第五步各自有效：命名降唤起，清楚的界限与可预期的后果让情绪不至于失控（见强化与操作性条件）。两件事别搞反：接住情绪不等于同意行为；也不要要求「马上不哭」，那是在情绪上再叠一层羞耻，孩子学会的是把情绪藏起来而不是处理它。",
+    "detailEn": "The Gottmans sorted parents by their default stance toward negative feeling: disapproving (feelings are bad habits), dismissing (do not take it seriously, have a snack), laissez-faire (all empathy, no limits), and emotion coaching (empathy first, limits next, solve together). The five coach steps: notice your own arousal and the child's, since one level apart changes what you can use; treat the feeling moment as intimacy plus teaching rather than an interruption; validate first—feelings carry no verdict, behavior does; help the child name it, one word at a time (this doubles as training in granularity, and labeling itself lowers arousal); then set the limit and plan the next move: 'you may hate your sister, you may not hit her; come find me next time the push builds'. Keep the evidence honest: coaching does correlate with better emotional competence, but meta-analyses put the effect well below what the popular books promise, and nearly all of it is correlational—families that coach also have more time and steadier routines, so the arrow is not settled. What is least contested is that steps four and five each work on their own: naming lowers arousal, clear limits plus predictable consequences stop feeling from escalating into action. Two inversions to avoid: receiving the feeling is not approving the behavior; and demanding 'stop crying right now' stacks shame on top of feeling, teaching the child to hide it rather than handle it.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "emotion-coaching",
+      "emotion-labeling",
+      "emotion-regulation",
+      "operant-conditioning",
+      "boundary-sense"
+    ],
+    "sources": [
+      {
+        "label": "戈特曼与卡茨《培育情绪智慧的孩子》",
+        "labelEn": "Gottman & Katz, Raising an Emotionally Intelligent Child",
+        "year": 1997
+      },
+      {
+        "label": "莫里斯等〈家庭情境在情绪调节发展中的作用〉",
+        "labelEn": "Morris, Silk, Steinberg, Myers & Robinson, The Role of the Family Context in Emotion Regulation",
+        "year": 2007
+      }
+    ]
+  },
+  {
+    "id": "sibling-quarrel",
+    "term": "两个孩子争，别当裁判",
+    "termEn": "Two Kids Fighting: Skip the Referee Whistle",
+    "oneLiner": "比较是他们之间最直接的通道——一句「你看弟弟」，比抢走玩具更能定下敌意。",
+    "oneLinerEn": "Comparison is the fastest channel between siblings; one 'look at your brother' sets hostility deeper than the stolen toy.",
+    "detail": "机制有三层。第一，孩子之间的社会比较是自发运行的，父母把它正式化后成本剧增：研究里更能预测孩子适应的，不是父母实际是否偏心，而是孩子感知到的差别待遇——谁被允许更晚睡、谁被夸得更多、谁被叫去背锅。第二，同胞冲突的价值被低估：争执里练的是主张、讨价还价和读对方意图，邓恩与普洛明观察到同胞间的冲突与协商强度远高于同伴关系；若父母每次都裁决，这份练习就被抽走，孩子还多学到一条捷径——找大人。第三，他们争的往往不是那块饼干，而是「爸妈的那一份」能否被保住。怎么做：不裁谁对，改为描述规则与限制伤害（「家里的规矩是不动手；玩具归先拿到的人，你们要不要换个玩法」）；把孩子拉进解决（「你俩都想玩这辆车，今晚我们想三条办法，选一条你们都能过的」）；给年长者任务但不给身份（别要求「你是哥哥就得让」，那是把弟弟变成敌人）；单独相处的时间按人头排，而不是平分；表扬要具体、不跨人比较（「你刚才把轮子装上了」优于「你比妹妹聪明」）；和解也要教——怎么开口、怎么给对方台阶（见「给人台阶下」），多数孩子不是不想和，是不会和。另需分清：频率正常的打闹，与一方持续无力反抗、有隐藏性与伤害意图的欺凌不是一回事，后者要按欺凌处理而不是「孩子之间的问题」。",
+    "detailEn": "Three layers. First, social comparison between siblings runs by itself; parents formalize it at terrible cost—what predicts children's adjustment better than whether parents actually favor one child is what the child perceives: who gets the later bedtime, who gets praised more, who is drafted as the scapegoat. Second, sibling conflict is undervalued: arguing is where claiming, bargaining and reading another's intent get practiced, and Dunn and Plomin found contention and negotiation far fiercer between siblings than among peers; every parental verdict removes that practice and adds a shortcut—run to an adult. Third, what is contested is rarely the biscuit but whether one's share of the parents is safe. What works: refuse to adjudicate who is right and describe the rule instead ('no hands in this house; the toy stays with whoever had it first—do you want a different arrangement'); pull them into the fix ('you both want the car; tonight we invent three options and pick one you can both live with'); give the elder tasks but not an identity—'you are the big brother, so yield' turns the younger one into an enemy; schedule one-on-one time per head rather than splitting it evenly; praise specifically and never across children ('you got the wheel on' beats 'you are cleverer than her'); and teach reconciliation, how to reopen and how to leave a step down, because most children want to make up and simply do not know how. One distinction to keep: ordinary scuffles at normal frequency are not bullying—where one side cannot fight back, it is hidden, and it is intended to harm, treat it as bullying, not as 'kids being kids'.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "sibling-rivalry",
+      "give-a-way-out",
+      "observational-learning",
+      "negativity-bias",
+      "attachment"
+    ],
+    "sources": [
+      {
+        "label": "邓恩与普洛明《各异的命运：同胞为何如此不同》",
+        "labelEn": "Dunn & Plomin, Separate Lives: Why Siblings Are So Different",
+        "year": 1986
+      },
+      {
+        "label": "邓恩《家庭事务：儿童人际关系的差异》",
+        "labelEn": "Dunn, A Family Matter: Differences in Children's Interpersonal Relationships",
+        "year": 2004
+      },
+      {
+        "label": "克莱默与拉德雷特〈同胞冲突的家庭训练〉",
+        "labelEn": "Kramer & Radelet, Clinical Sibling Psychoeducation",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "id": "grandparent-handoff",
+    "term": "老人帮带娃，分歧怎么谈",
+    "termEn": "Splitting the Raise With Grandparents",
+    "oneLiner": "三代同养最容易塌的不是溺爱，而是「谁是一把手」没有明说。",
+    "oneLinerEn": "What collapses three-generation care is rarely indulgence; it is that nobody named who has the final say.",
+    "detail": "先把好处记在账上：稳定的第二依恋对象、父母的喘息、语言与节日的连续；孩子与祖辈亲厚本身就是韧性资源。塌的地方几乎都出在规则接口：①默示权限不明——父母以为自己是决策者，老人以为自己是执行者兼家长，孩子很快学会「找奶奶签」；②面子通道——当面指出老人的做法错了（「你这样喂会噎着」）在关系里被读成否定其付出，于是抵抗的不是知识而是位置；③补偿心理与体力限制——老人偏向有求必应与「别磕着」，于是一致性和边界在两头不一致；④分离风险——若幼年主要由祖辈带、父母只在晚上出现，孩子对「谁是主要依恋对象」会按事实而不是按名分来定，父母的权威得后期重新建立。可操作的解法：先做一份权限清单（安全、医疗、作息、屏幕、零花钱五格，明确哪格谁说了算、哪格可以不同但当面不拆台）；沟通顺序按先给功劳再上新证据（「您做的饭他最爱吃，医生说这个阶段盐再少一点，我们试试这么做」），把新做法挂在老人已有的付出上；不当着孩子争论规则（一旦拆台，规则就失效，孩子学到的是用关系绕过规则）；也给老人一份清单（他的时间、体力、社交与休息，别把帮助当无限供给）；父母仍要保住每天一段只属于亲子的高频小事，睡前那十几分钟最划算。若孩子长期与父母分离，要主动补链接而不是补偿购物：固定时间、可预见、能参与他真实的生活（作业、朋友、他的口头禅）才算陪伴。隔代不是问题，接口没谈才是。",
+    "detailEn": "Credit the gains first: a second steady attachment figure, relief for the parents, continuity of language and festival; a close grandchild is itself a resilience resource. Where it breaks is almost always the rule interface. One, unstated authority: parents think they decide, grandparents think they execute and also parent, and the child learns to get the grandmother's signature. Two, the face channel: correcting an elder in front of them ('that way of feeding can choke him') is read in the relationship as denying the labour, so what resists is not the knowledge but the position. Three, compensation and stamina: elders lean toward yes-to-everything and do-not-scrape-the-knee, so consistency and limits differ by household corner. Four, separation risk: if grandparents raise the child through the early years and parents only appear in the evening, the child settles who the primary attachment figure is by fact rather than by title, and parental authority has to be rebuilt afterwards. The workable fix: draw one authority sheet—safety, medical, sleep, screens, pocket money—and mark who owns each box and which differences may stand as long as nobody undermines the rule in front of the child; sequence your messages as credit first, new evidence second ('he eats your cooking happily; the doctor wants less salt at this age, let us try it this way'), hanging the new practice on what the elder already gives; never debate the rule in the child's hearing, because once it is split, the rule dies and the child learns to route around rules through relationships; give the elder a sheet of their own (time, strength, social life, rest) so help is not treated as infinite supply; and keep a small daily passage that belongs only to parent and child—the last ten minutes before sleep is the cheapest bargain. Where the child has lived apart for years, rebuild connection rather than buying compensation: fixed hours, predictable, present in his real life (homework, friends, his catchwords) counts as company. Grandparent care is not the problem; the untalked interface is.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "grandparent-care",
+      "parenting-styles",
+      "boundary-sense",
+      "guanxi",
+      "mianzi-face"
+    ],
+    "sources": [
+      {
+        "label": "拉森等〈隔代抚养者的管教方式与幼儿适应〉",
+        "labelEn": "Larson, Jacobs & Kelley, Rearing Grandparents: Consequences of Caregiver Discipline Practices",
+        "year": 1998
+      },
+      {
+        "label": "Chao〈超越父母管教：以「训练」理解中国养育〉",
+        "labelEn": "Chao, Beyond Parental Control: Understanding Chinese Parenting",
+        "year": 1994
+      },
+      {
+        "label": "米纽钦《家庭与家庭治疗》（跨代界限）",
+        "labelEn": "Minuchin, Families and Family Therapy",
+        "year": 1974
+      }
+    ]
+  },
+  {
+    "id": "teen-peer-risk",
+    "term": "孩子到了出格年纪，怎么谈朋友与风险",
+    "termEn": "Talking About Friends and Risk at Fifteen",
+    "oneLiner": "硬禁交友切的是你的信息渠道；同伴在场放大的是他已经在意的事。",
+    "oneLinerEn": "Banning a friend cuts your own line of information; a peer audience only amplifies what already matters to him.",
+    "detail": "先把两件事分开。同伴影响不等于坏影响：亲社会同伴能提高投入与助人水平，青少年对「同伴怎么看」的敏感本身是可用的动力（见「群体极化」与「青少年奖赏缺口」条）。真正抬高事故率的是一个具体组合：同伴在场 + 没有大人在场 + 时间压力 + 新鲜感强的场景——加德纳与斯坦伯格的实验里，仅仅旁边坐着同伴就显著提高了青少年的冒险选择与事故数，而成年人几乎不变。所以重心不该放在筛朋友，而应放在拆掉这个组合、补上临场能力。四条具体做法：①给拒绝脚本并练出来：青少年临场缺的是词汇不是道理——练一句身份式拒绝（「我从来不喝这个」）、一句推责式拒绝（「我妈会闻我车里的味道，她会知道」），比讲十次危害有用；②留一条便宜的退路：约定一个暗号（一条短信或一个表情就代表「来接我，当晚不问不训」，这就是 Code X 式约定的用意，代价是当晚的沉默要忍住）；③认识朋友的家长而不是朋友的名单：把监控换成社交接入，你有了背景与信源，他也少一层被审查感；④家里保一点可预测性：固定共处的时段与清楚的底线（菲斯等人的家庭作息综述显示，规律作息与更少的问题行为、更好的情绪调节相关），协商规则时让他在「怎么定」上有发言权，比在「要不要」上让步更稳（见自我决定论）。要避免的三件事：禁止某一个朋友（会激发心理反抗并把话题关掉，见「越被禁止，越想做」条）、把他与朋友的忠诚与你对他的忠诚对立、以及事后那句「我早说过」。",
+    "detailEn": "Separate two things first. Peer influence is not bad influence: prosocial peers lift effort and helping, and adolescents' sensitivity to what peers think is usable fuel (see group polarization and the adolescent reward gap). What actually raises accident rates is a specific recipe—peers present, no adult present, time pressure, and a novel or exciting setting. In Gardner and Steinberg's driving task, merely having peers alongside sharply increased adolescents' risk taking and crashes while adults barely moved. So the work is not screening friends but dismantling the recipe and supplying in-the-moment skill. Four concrete moves. Give refusal scripts and rehearse them: what a teenager lacks on the spot is vocabulary, not arguments—practice an identity refusal ('I never drink that') and a blame-shift refusal ('my mother sniffs the car, she will know'), which beats ten lectures on harm. Keep a cheap exit: agree a code (one text or one emoji meaning 'come get me, no questions, no lecture tonight')—that is the point of the Code X arrangement, and its price is your silence that night. Know the friends' parents instead of the friends list: swap surveillance for social access, so you hold context and a source while he loses a layer of being audited. Keep some predictability at home: fixed shared hours and clear bottoms—reviews of family routines tie regularity to fewer behavior problems and better emotional regulation—and let him have a vote on how rules are set rather than conceding whether they exist. Three things to avoid: banning one named friend (it triggers reactance and closes the topic), setting his loyalty to friends against your loyalty to him, and the closing line 'I told you so'.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "adolescent-reward-gap",
+      "reactance",
+      "group-polarization",
+      "deindividuation",
+      "behavior-vs-psychological-control",
+      "identity"
+    ],
+    "sources": [
+      {
+        "label": "加德纳与斯坦伯格〈同伴在场对青少年与成人风险决策的影响〉",
+        "labelEn": "Gardner & Steinberg, Peer Influence on Risk Taking, Risk Preference, and Risky Decision Making in Adolescence and Adulthood",
+        "year": 2005
+      },
+      {
+        "label": "阿斯卡里等〈Code X：家长与青少年应对饮酒突发状况的约定〉",
+        "labelEn": "Askari et al., Code X: Parental Communication Practices for Adolescents' Alcohol-Related Problem Situations",
+        "year": 2010
+      },
+      {
+        "label": "菲斯等〈家庭作息研究综述〉",
+        "labelEn": "Fiese et al., A Review of What Is Known and What Is Not Known About Family Routines",
+        "year": 2002
+      }
+    ]
+  },
+  {
+    "id": "parents-fighting-in-front",
+    "term": "当着孩子面吵，要不要收场",
+    "termEn": "Arguing in Front of the Kids",
+    "oneLiner": "真正伤孩子的不是冲突发生，而是冲突没被看见解决，或者把孩子拉进来当武器。",
+    "oneLinerEn": "What harms children is not that conflict happens but that its resolution is never seen—or that the child is drafted as a weapon.",
+    "detail": "直觉是「别让孩子看见吵架」，证据指向另一处：孩子对父母之间的张力极敏感，敏感到的不是音量而是「这件事后来怎么样了」。卡明斯与戴维斯的情绪安全框架：孩子把父母的冲突读作关于自身安全的信号，未解决的僵局或漫长的冷战会让注意力一直挂在父母的温度计上，学习与合作自然掉；格里奇与芬查姆的认知背景框架进一步指出，若孩子把冲突归因于自己（「是我不乖」）、觉得威胁大、又相信自己无力影响，最容易出现内化问题。所以要分清三种：建设性争执（有具体议题、音量可控、当着他面和好，或至少说明「我们在商量一件事，明天会有结果」）其实是冲突与修复的现场教材；破坏性争执（人身攻击、摔门、长期冷战）应尽量避开，且必须事后修复；把孩子当工具最伤——让他传话、评判谁对、逼他站队、或把争吵的理由说成「都怪你不听话」，等于把家庭治疗所说的三角化变成日常。若已经失控了，蹲下来按年龄说三句：「我们吵是因为在争一件事，不是因为你」；「刚才那么大声，会让人害怕，对不起」；「我们已经商量好了／我们打算这样解决」。修复这一步比不吵架更关键，也更便宜；孩子从中学到的是「冲突可以收场」，这比一个永远没有分歧的家庭更有用。",
+    "detailEn": "Instinct says hide the fight; the evidence points elsewhere. Children track parental tension with great precision, and what they read is not volume but whether the matter later resolves. In Cummings and Davies' emotional-security framework a parental quarrel is processed as a signal about the child's own safety, so an unresolved impasse or a long cold war keeps attention parked on the parental thermometer, and learning and cooperation fall as a result. Grych and Fincham's cognitive-contextual account adds the specifics: children who attribute the conflict to themselves ('because I was bad'), appraise it as threatening, and believe they can influence nothing are the ones most prone to internalising trouble. So separate three cases. Constructive disagreement—a concrete issue, volume in check, repaired in front of them or at least narrated ('we are working on something and will have an answer tomorrow')—is live teaching about conflict and repair. Destructive conflict—personal attacks, doors slammed, weeks of silence—should be kept away from them, and repaired afterwards if it leaks. Drafting the child does the real damage: messenger, judge, conscripted ally, or being told the fight was caused by them, which turns what family therapy calls triangulation into a household habit. If you did lose it, crouch and give three age-sized sentences: we are arguing about one thing, not about you; that noise was scary, and I am sorry for that part; we have settled it, or here is how we plan to. The repair matters more than the clean record, and costs less: what a child learns is that conflict can close, which is more useful than a household that never disagrees.",
+    "category": "育儿",
+    "categoryEn": "Parenting",
+    "related": [
+      "anatomy-of-apology",
+      "i-message",
+      "boundary-sense",
+      "emotional-contagion",
+      "criticism-that-lands"
+    ],
+    "sources": [
+      {
+        "label": "卡明斯与戴维斯〈夫妻冲突与儿童应对：情绪安全框架〉",
+        "labelEn": "Cummings & Davies, Marital Conflict and Children's Coping: An Emotional Security Framework",
+        "year": 1994
+      },
+      {
+        "label": "格里奇与芬查姆〈夫妻冲突与儿童适应：认知背景框架〉",
+        "labelEn": "Grych & Fincham, Marital Conflict and Children's Adjustment: A Cognitive-Contextual Framework",
+        "year": 1990
+      },
+      {
+        "label": "米纽钦《家庭与家庭治疗》（三角化与界限）",
+        "labelEn": "Minuchin, Families and Family Therapy",
+        "year": 1974
+      }
+    ]
   }
 ]

@@ -178,5 +178,42 @@
         "year": 2003
       }
     ]
+  },
+  {
+    "id": "grandparent-care",
+    "term": "谁来带孩子：父母自营与隔代抚养",
+    "termEn": "Who Raises the Child: Parent-Led or Grandparent-Led",
+    "oneLiner": "同样缺人手，一边把缺口交给付费托育与市场，另一边交给家庭内部的祖辈义务。",
+    "oneLinerEn": "Facing the same shortfall, one side buys care from the market; the other assigns it to grandparents as a family duty.",
+    "detail": "这不是谁更科学的差别，而是责任边界的划法不同。一方把照顾写成可购买的服务，关系与规则相对容易分开，祖辈帮忙是可选项，边界靠双方明说；另一方把它写成家内义务与晚年角色，照顾与权威、功劳与服从被同一条关系链绑在一起。前者的长处是权限清楚，代价是孩子少一个稳定的第二依恋对象、父母少一张不收费的支持网；后者的长处恰好反过来，代价是「谁说了算」没有明说时，分歧无法公开仲裁，只能靠默契与面子消化。研究并不支持把隔代抚养写成缺陷：拉森等人发现关键变量是一致性——祖辈照料者的管教若与父母期待明显不一致（偏松或偏硬），孩子的问题行为更高；Chao 则提醒，祖辈参与在华人传统里与「训练」的观念连在一起，不宜简单读成溺爱或忽视。这条链目前仍在移动：双职工工时、住房安排与托育供给决定了实际可行的方案，而争吵的焦点往往不是照顾质量，而是家庭里的位置与功劳怎么算。",
+    "detailEn": "The difference is not which is more scientific but where the line of responsibility is drawn. One side writes care as a purchasable service, so the relationship and the rules stay separable, grandparents' help is optional, and the boundary gets stated; the other writes it as a household duty and a role in old age, where labour and authority, credit and obedience come bundled in one relationship. The first gains clear jurisdiction and pays with one fewer steady attachment figure and one fewer free safety net. The second gains exactly those and pays when nobody named who has the final say: disagreement then cannot be arbitrated openly and must be digested by tacit understanding and face. The research does not support reading grandparent care as a deficit—Larson and colleagues found the operative variable to be consistency, since a caregiver whose discipline sits far from the parents' expectation, too lax or too rigid, goes with more behavior problems in the child; Chao adds that grandparent involvement in Chinese tradition is tied to the idea of training and should not be flattened into indulgence or neglect. The line keeps moving: working hours, housing and the supply of paid childcare decide what is actually feasible, while the quarrel is rarely about the quality of care and usually about standing and credit inside the family.",
+    "west": "「人手不够是资源问题」——买托育、请保姆、调整工时，把照顾交给付费服务被视为中性甚至专业的选择。",
+    "westEn": "Being short-handed is a resource problem: buy childcare, hire help, reshape hours—paying for care reads as neutral, even professional.",
+    "east": "「人手不够是家事」——祖辈参与被看作责任的正常履行与晚年角色，付出与权威相绑，分歧不好摆到桌面上。",
+    "eastEn": "Being short-handed is family business: grandparent involvement is a normal duty and a role for old age, so labour comes with authority and disagreement stays off the table.",
+    "related": [
+      "grandparent-handoff",
+      "parenting-culture",
+      "individualism-collectivism",
+      "self-construal",
+      "guanxi"
+    ],
+    "sources": [
+      {
+        "label": "拉森等〈隔代抚养者的管教方式与幼儿适应〉",
+        "labelEn": "Larson, Jacobs & Kelley, Rearing Grandparents: Consequences of Caregiver Discipline Practices",
+        "year": 1998
+      },
+      {
+        "label": "Chao〈超越父母管教：以「训练」理解中国养育〉",
+        "labelEn": "Chao, Beyond Parental Control: Understanding Chinese Parenting",
+        "year": 1994
+      },
+      {
+        "label": "费孝通《乡土中国》（家内责任与差序格局）",
+        "labelEn": "Fei Xiaotong, From the Soil: The Foundations of Chinese Society",
+        "year": 1948
+      }
+    ]
   }
 ]

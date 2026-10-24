@@ -919,5 +919,88 @@
         "year": 2000
       }
     ]
+  },
+  {
+    "id": "parenting-styles",
+    "term": "教养方式四型",
+    "termEn": "The Four Parenting Styles",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "oneLiner": "要求与回应两个轴交叉出四格；稳的结论是「回应」重要，而「专制一定糟」已被文化研究削弱。",
+    "oneLinerEn": "Two crossed axes give four cells. What replicates is that warmth matters; that authoritarianism is always harmful is what cross-cultural work has softened.",
+    "detail": "鲍姆林德的做法是从幼儿园里孩子的行为倒推家庭：那些既独立又有好奇心的孩子，家里规则清楚且理由会被解释；那些抗拒、依赖、要么横要么蔫的孩子，家里要么只有命令，要么没有命令。她最初提出专制—权威—纵容三型，梅肯比与马丁在 1983 年补上第四格（低要求低回应的忽视型），四型从此应当被读成「两个轴的四格」，而不是四个标签。轴一是要求（demandingness）：结构、监督、清楚的期待；轴二是回应（responsiveness）：温暖、接纳、允许孩子影响决定。这个框架稳的结论有两条：要求与回应各自预测不同的结果，把两者混成一句「管得严不严」是最常见的误用；权威型与更少问题行为、较好情绪适应的相关在多个文化样本里重复出现。不稳的结论也有两条：专制型的负面效应在非中等收入白人样本中明显变弱——Chao 指出中文语境里「管教」本身就被孩子读作关心的表达，把高要求和低温暖捆在一起正好误读了这类家庭；而权威型的优势有一部分是通过资源传导的（父母有时间、有钱、知道怎么跟学校打交道，Lareau 称之为协同培养），所以「家长态度好」与「孩子结果好」之间夹着结构变量，不能读成态度决定一切。它最有用的地方，是把爱与规矩拆成两笔账，于是可以只调一格：多数人能加的是回应，而不是再叠一层要求。",
+    "detailEn": "Baumrind worked backwards from the kindergarten: the children who were both independent and curious came from homes where rules were clear and reasons were given; the defiant, the dependent, the either braced or wilted ones came from homes with commands only, or with none at all. She first set out three patterns—authoritarian, authoritative, permissive—and Maccoby and Martin added the fourth cell in 1983, low demand with low responsiveness, the uninvolved style. Since then the four should be read as four cells of two axes rather than four name tags: demandingness (structure, monitoring, explicit expectations) crossed with responsiveness (warmth, acceptance, letting the child influence decisions). Two conclusions hold up: demand and warmth predict different outcomes, so collapsing them into 'how strict are you' is the field's most common misuse; and the authoritative pattern's association with fewer behavior problems and better emotional adjustment recurs across cultural samples. Two conclusions do not: the harm attributed to authoritarianism weakens sharply outside white, middle-income samples—Chao notes that in Chinese contexts 'discipline' is itself read by children as an expression of care, so bundling high demand with coldness misdescribes those families—and part of the authoritative advantage travels through resources, time, money and knowing how to work a school, what Lareau calls concerted cultivation, so a good attitude and a good outcome sit with structural variables between them. The framework's real use is that it splits love and rules into two separate accounts, which makes one dial adjustable: for most parents what can be added is warmth, not another layer of demand.",
+    "example": "同一件事——孩子没写完作业就去看电视。权威型拿走遥控器并说明「写完这一段我们再开」，规则解释过，顺序可以商量；专制型是「谁允许你开的」外加罚站，理由是「因为我说的」；纵容型「那你自己看着办」，情绪全接住但没有底线；忽视型根本没有注意到作业和电视。四型的差别不在有没有被管，而在被管的时候有没有被听。",
+    "exampleEn": "One situation: the child starts television before finishing homework. Authoritative: the remote comes with an explanation—'we turn it on when this section is done', the rule justified, the order negotiable. Authoritarian: 'who allowed that' plus a penalty, reason being that I said so. Permissive: 'sort it out yourself', every feeling received and no bottom line. Uninvolved: nobody noticed the homework or the television. The four differ not in whether the child is managed but in whether he is heard while managed.",
+    "related": [
+      "authoritative-parenting",
+      "behavior-vs-psychological-control",
+      "attachment",
+      "self-determination-theory",
+      "operant-conditioning"
+    ],
+    "tags": ["发展", "家庭"],
+    "sources": [
+      {
+        "label": "鲍姆林德〈父母管教程序对早期人格发展的影响〉",
+        "labelEn": "Baumrind, Effects of Parental Child-Rearing Procedures on Early Personality Development",
+        "year": 1966
+      },
+      {
+        "label": "梅肯比与马丁〈家庭情境中的社会化〉",
+        "labelEn": "Maccoby & Martin, Socialization in the Context of the Family",
+        "year": 1983
+      },
+      {
+        "label": "Chao〈超越父母管教：以「训练」理解中国养育〉",
+        "labelEn": "Chao, Beyond Parental Control: Understanding Chinese Parenting",
+        "year": 1994
+      },
+      {
+        "label": "斯坦伯格等〈权威型养育的文化情境〉",
+        "labelEn": "Steinberg et al., Authoritative Parenting in Cultural Context",
+        "year": 1992
+      }
+    ]
+  },
+  {
+    "id": "behavior-vs-psychological-control",
+    "term": "行为控制与心理控制",
+    "termEn": "Behavioral vs Psychological Control",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "oneLiner": "知道孩子在哪、管到哪一步是行为控制；用内疚与爱的撤回管住他的内心是心理控制——两者常被一起叫作「管得严」。",
+    "oneLinerEn": "Knowing where a child is and setting limits is behavioral control; governing his inner life through guilt and withdrawn love is psychological control—both get filed under 'strict'.",
+    "detail": "「专制型」这个词装了两件不同的东西，巴伯（Barber）在 1996 年把它们拆开。一支是可观察的结构：规则、监督、知道孩子在哪里、和谁在一起、后果清楚。另一支是侵入心理自主的做法：引发内疚、撤回爱、否定他的感受、限制他表达异议、替他决定他已能决定的事。拆开之后结论清楚得多：前者只要保持在适度水平，就与更少的违规行为、更好的安全结果相关，在多数文化里保持正面；后者与焦虑、抑郁、低自我效能和外化问题稳定相关，在华人、荷兰与美国样本中都被重复。心理控制的隐蔽形态很好认：「你这样对得起我吗」把责任变成债务；「我都是为你好」取消对方的否决权；用失望的表情代替规则；把孩子不同的感受解释成他不懂事。它的代价不是让孩子恨父母，而是让孩子失去「我自己的判断可以信」这条内部凭据——自我决定论所说的自主需求被堵住之后，外在标准只能靠监督维持，监督一撤就散。实务界线因此可以画得很直：管安全、作息与底线，是父母不可让的责任；管他的感受、动机与选择，是要逐步交还的。判据是一句可自查的问题：这条规则要求的是行为服从，还是连想法一起服？前者可以解释、允许异议但结果照样执行；后者要的是内心的投降。直升机与扫雪机养育被批评的正是第二支：问题不在于父母管得细，而在于用自己的焦虑替孩子做了决定。",
+    "detailEn": "The word 'authoritarian' bundles two different things, and Barber pried them apart in 1996. One is observable structure: rules, monitoring, knowing where the child is and with whom, predictable consequences. The other intrudes on psychological autonomy: inducing guilt, withdrawing love, disallowing his feelings, restricting dissent, deciding for him what he can already decide. Split apart, the findings get much cleaner: moderate behavioral control predicts fewer rule violations and safer outcomes and stays positive across cultures, while psychological control predicts anxiety, depression, low self-efficacy and externalising trouble, replicated in Chinese, Dutch and American samples. Its disguised forms are easy to spot: 'do you think this is fair to me?' converts responsibility into debt; 'all of this is for your own good' revokes the child's veto; disappointment is deployed instead of a rule; and a differing feeling is refiled as ingratitude. The price is not that the child resents the parent—it is that he loses the internal warrant that his own judgment can be trusted. Once the need for autonomy that self-determination theory names is blocked, external standards must be sustained by surveillance, and they dissolve the moment surveillance does. So the working line is drawable: safety, sleep and the bottom line are the parent's non-transferable responsibility; his feelings, motives and choices are what gets handed back in stages. The self-check is a single question—does this rule ask for compliant behavior, or for compliance of the thought as well? The first can be explained, may be argued with, and still gets executed; the second demands an inner surrender. What helicopter and snowplow parenting are actually criticised for is the second arm: not that parents attend to detail, but that they decide with their own anxiety standing in for the child's.",
+    "example": "孩子要跟同学去郊游。行为控制：确认地点、同行家长的电话、回程时间，约定到了发消息，并允许他就其中两项讨价还价。心理控制：「你要有良心，就知道我担心得睡不着」——于是是否成行不再关于安全，而变成他对母亲情绪负的责任。",
+    "exampleEn": "The child wants a trip with classmates. Behavioral control: pin down the place, a parent's phone number on site, the return time, a message on arrival—and let him bargain over two of the four. Psychological control: 'if you had a conscience you would know I have not slept for worrying'—whereupon the trip stops being about safety and becomes his debt toward a parent's emotions.",
+    "related": [
+      "parenting-styles",
+      "helicopter-parenting",
+      "self-determination-theory",
+      "reactance",
+      "identity"
+    ],
+    "tags": ["发展", "社会"],
+    "sources": [
+      {
+        "label": "巴伯〈父母心理控制：重访专制型〉",
+        "labelEn": "Barber, Parental Psychological Control: Revisiting the Authoritarian Style",
+        "year": 1996
+      },
+      {
+        "label": "索嫩斯与范斯坦基斯特〈心理控制的理论更新〉",
+        "labelEn": "Soenens & Vansteenkiste, Psychological Control: A Theoretical Update",
+        "year": 2010
+      },
+      {
+        "label": "鲍姆林德〈当前父母权威的形态〉",
+        "labelEn": "Baumrind, Current Patterns of Parental Authority",
+        "year": 1971
+      }
+    ]
   }
 ]
