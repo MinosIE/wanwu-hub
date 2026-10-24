@@ -76,7 +76,7 @@
 - `dom` 复用既有 `src/core/ui/dom.ts`（学科 `core/dom.ts` = re-export）。
 - `app.ts`：服务定位器 `provideApp/app()`（内嵌时同时只有一个学科挂载，boot 重新 provide，共享单例安全）。
 - `i18n.ts` / `detail.ts` / `related.ts` / `theme.ts`：**工厂返回实例**（`createSubjectI18n/L`、`createSubjectDetail`、`createRelated`、`createSubjectTheme`）。学科 shim 用自己的 `wordbook/data/dom/app` 各实例化一份 → `lang`/`root`/`table` 状态独立，杜绝跨科串扰。i18n 的 `en`/`zh` 键对齐由泛型约束保留（en 缺键在 shim 传入处编译报错）。
-- `appKit.ts`：`createSubjectApp(cfg)` 抽取 `main.ts` 的编排逻辑（模块切换 / 首页 KPI / refs / footer / mail / 搜索 / 深链 / 语言·主题联动 / 服务定位）。学科 `main.ts` 退化为装配 `createSubjectApp({...})` 并 `export { boot, activate, setHistoryUpdate }`。学科差异经 `config.logTag` + `hooks`（`beforeInit` / `afterRender` / `onLangChangeExtra`）承载，例：thought 用 `afterRender` 注入总览图、econ 用 `beforeInit` 注入共享 ui 的 `setI18n/setDataBase` 且 `initSearch` 走选项对象适配器。
+- `appKit.ts`：`createSubjectApp(cfg)` 抽取 `main.ts` 的编排逻辑（模块切换 / 首页 KPI / refs / footer / mail / 搜索 / 深链 / 语言·主题联动 / 服务定位）。学科 `main.ts` 退化为装配 `createSubjectApp({...})` 并 `export { boot, activate, setHistoryUpdate }`。学科差异经 `config.logTag` + `hooks`（`beforeInit` / `afterRender` / `onLangChangeExtra`）承载，例：econ 用 `beforeInit` 注入共享 ui 的 `setI18n/setDataBase` 且 `initSearch` 走选项对象适配器（thought 原用 `afterRender` 注入首页「思想总览图」，该特性已整体移除）。
 
 **例外**：`mind` 是另一代框架（`ListModule` / `openDetailGlobal`、`DetailView`/`RefSource` 契约、`el` 为「查询」语义、自带 `loadJson`），**不并入** `createSubjectApp`；仅复用等价的 `esc`。`dynasty` 走自包含脚本注入，独立于本框架层。
 

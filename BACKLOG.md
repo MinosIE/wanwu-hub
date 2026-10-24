@@ -212,6 +212,7 @@
 - [ ] **加载态 / 骨架屏、错误边界**。
 - [ ] **无障碍**：aria、键盘导航、对比度（hero 标题对比度本轮已修）。
 - [ ] **收藏 / 书签、分享深链**：physics/chem 已支持 `#subject/physics/mod/id` 深链，可推广到 FULL 学科。
+- [x] **移除万物哲学首页的「思想总览图」**（经确认要去掉的是 thought 的 `查看思想总览图`，化学本无此块——已逐词扫过 chem 与 `dist`/`public`，无串页泄漏，chem 只有零依赖的 3D 分子查看器 `mol3d.ts`）：删 `thought/src/main.ts` 的 `renderOverview()`、`ovShown`、`BASE` 与整个 `hooks`（`afterRender` 与 `onLangChangeExtra` 均只服务它）、`thought/src/core/i18n.json` 的 `ov.toggle`/`ov.toggleClose`/`ov.cap`/`ov.alt` 中英共 8 键、`_shared/scaffold.css` 的 `.subject-root .ov-*` 整段（55 行），并删 `public/thought-data/thought-overview.png`（528 KB，删前已核全站再无引用，GEO/sitemap/llms 亦未收录）。thought 因此不再向 `createSubjectApp` 传 `hooks`（该字段可选，econ 的 `beforeInit` 不受影响）；`agent.md` 原以 thought 作 `afterRender` 的例证，已改举 econ 并注明该特性已移除。实测：`typecheck` ✓、`verify exit=0`、`build ✓`（产物内 `thought-overview` 串 0 命中）；puppeteer 中英 **13 项断言全 PASS、0 pageerror**——首页反向对照（`refs=true kpi=4 entry=10`）证明非空白页而非“没按钮”、`#m-home` 子节点只剩 `home-lead/home-grid/refs`、`.ov-toggle`/`.ov-fig`/`.ov-img` 均为 0、页面文本搜不到「总览图 / philosophy map」、进术语表点卡仍能开详情（`syllogism` zh 179 / en 502 字）、化学页 11 卡正常且无该按钮、全程未发起 png 请求。**冒烟首轮 4 FAIL 全为脚本自己选择器写错**：thought 首页的入口卡是 `.entry`、不带 `data-key`（列表模块懒加载后才有 `.card[data-key]`），故「点卡开详情」必须先进 glossary 这类列表模块，不能停在首页。
 
 ## 6. 文档更新（已基本完成）
 
