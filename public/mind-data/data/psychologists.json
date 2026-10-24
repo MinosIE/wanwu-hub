@@ -737,7 +737,7 @@
     "keyIdeasEn": ["Attachment behavioral system", "Internal working model", "Secure base", "Separation anxiety"],
     "works": ["依恋与丧失"],
     "worksEn": ["Attachment and Loss"],
-    "related": ["attachment", "nature-nurture", "identity"],
+    "related": ["attachment", "mary-ainsworth", "nature-nurture", "identity"],
     "tags": ["发展", "依恋"],
     "sources": [{ "label": "鲍尔比《依恋》", "labelEn": "Bowlby, Attachment", "year": 1969 }]
   },
@@ -846,6 +846,109 @@
         "label": "鲍姆林德〈当前父母权威的形态〉",
         "labelEn": "Baumrind, Current Patterns of Parental Authority",
         "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "mary-ainsworth",
+    "name": "玛丽·安斯沃思",
+    "nameEn": "Mary Ainsworth",
+    "era": "1913–1999",
+    "field": "发展 / 依恋的测量",
+    "fieldEn": "Development / Attachment measurement",
+    "oneLiner": "把「依恋」从一句理论改成八个三分钟的场景：先在乌干达的草席上看母亲怎么应答，再在巴尔的摩按应答打分，然后才在陌生房间里分出安全与不安全。",
+    "oneLinerEn": "She turned attachment from a theory into eight three-minute scenes: first watching how mothers answer in Uganda, then scoring that answering in Baltimore, only then sorting secure from insecure in an unfamiliar room.",
+    "detail": "十六岁进多伦多大学，二战时在加拿大女子军团做人员选拔；1950 年到伦敦塔维斯托克诊所，与鲍尔比共事三年，替他整理世卫组织委托的照护缺失文献。真正塑形的是 1954 年起在乌干达的居家观察：母亲回应及时，婴儿就把她当作可以爬开再回来的「安全基地」。1956 年到约翰斯·霍普金斯后，她在巴尔的摩跟踪上百户母婴，把敏感、配合、不对抗三项打分与十二个月后的表现对上号，再用八步流程（两次分离、两次重聚）分出安全、回避、焦虑—矛盾三型，1978 年成书《依恋模式》。限制要一并记下：样本几乎全是中产白人母婴，「只看母亲」后来由父亲研究与跨文化工作补掉；三型本是连续分布而非三个盒子；她记录里看似平静的回避型婴儿，皮肤电反而更高。",
+    "detailEn": "She entered the University of Toronto at sixteen, ran personnel selection in the Canadian Women's Army Corps during the war, then joined Bowlby at the Tavistock Clinic in London for three years from 1950, sorting the literature behind his World Health Organization report on children without family care. What shaped her work was home observation in Uganda from 1954: where mothers answered promptly, infants used her as a secure base to crawl away from and return to. From Johns Hopkins she followed more than a hundred Baltimore families, matched ratings of maternal sensitivity, cooperation and non-hostility against performance at twelve months, and built the eight-step procedure—two separations, two reunions—into the secure, avoidant and resistant types published as Patterns of Attachment in 1978. The limits belong in the account: middle-class white mother-infant pairs only, a focus on the mother later corrected by father and cross-cultural work, three types that are really a continuous distribution, and her own records showing the seemingly calm avoidant infants with higher skin conductance.",
+    "keyIdeas": ["安全基地", "陌生情境八步流程", "母亲敏感性的纵向证据", "依恋三型（梅因后补混乱型）"],
+    "keyIdeasEn": [
+      "Secure base",
+      "The eight-step Strange Situation",
+      "Longitudinal evidence for maternal sensitivity",
+      "Three attachment patterns, disorganized added later by Main"
+    ],
+    "works": ["《乌干达的婴儿期》", "《依恋模式：陌生情境的心理学研究》", "〈婴儿期重要吗〉"],
+    "worksEn": [
+      "Infancy in Uganda",
+      "Patterns of Attachment: A Psychological Study of the Strange Situation",
+      "'Does Infancy Matter?'"
+    ],
+    "related": ["attachment", "strange-situation", "john-bowlby", "parenting-styles"],
+    "tags": ["发展", "依恋"],
+    "sources": [
+      {
+        "label": "安斯沃思等《依恋模式》",
+        "labelEn": "Ainsworth, Blehar, Waters & Wall, Patterns of Attachment",
+        "year": 1978
+      },
+      {
+        "label": "布莱克斯顿与梅因〈安斯沃思讣告〉",
+        "labelEn": "Bretherton & Main, Mary Dinsmore Salter Ainsworth: Obituary",
+        "year": 2000
+      },
+      {
+        "label": "安斯沃思〈自述〉",
+        "labelEn": "Ainsworth, Mary D. Salter Ainsworth: An Autobiographical Sketch",
+        "year": 2013
+      },
+      {
+        "label": "范罗斯马伦《从安全到依恋》（莱顿大学博士论文）",
+        "labelEn": "van Rosmalen, From Security to Attachment",
+        "year": 2015
+      },
+      {
+        "label": "亚利桑那州立大学胚胎项目百科〈安斯沃思〉",
+        "labelEn": "Embryo Project Encyclopedia, Mary Ainsworth",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "urie-bronfenbrenner",
+    "name": "尤里·布朗芬布伦纳",
+    "nameEn": "Urie Bronfenbrenner",
+    "era": "1917–2005",
+    "field": "发展 / 人类发展生态学",
+    "fieldEn": "Development / Ecology of human development",
+    "oneLiner": "别人问孩子怎么发展，他先问孩子被摆在几层房间里：家庭、学校、父母的公司与时代叠成嵌套圈，然后他把这套圈推成了一项联邦政策。",
+    "oneLinerEn": "Others asked how children develop; he asked how many rooms the child had been placed in—family, school, the parents' employer, the era—nested as circles, then turned those circles into a federal program.",
+    "detail": "生于莫斯科，幼年移居美国，父亲在纽约州一所州立儿童机构任职。1942 年在密歇根拿到博士，次日应征服役，在陆军航空队、战略服务局与陆军医疗队做心理选拔；1948 年起长期任教康奈尔。他不满当时的儿童研究：把孩子交给陌生成人、在不熟悉的房间里测他「能做什么」，等于在不会发生发展的条件下研究发展。1979 年《人类发展生态学》给出替代画法——微观（面对面）、中间（家校之间）、外层（父母的工作单位）、宏观（文化与政策）四层嵌套，晚年补上时间轴，并与切西改写成「过程—人—情境—时间」，核心词是近端过程：发展发生在孩子反复投入的活动里，环境的作用是把这类过程给足或打断。他还是 1965 年「开端计划」的创办者之一。",
+    "detailEn": "Born in Moscow and brought to the United States as a small child, he grew up around the New York state institution for children with disabilities where his father worked. He took a doctorate at Michigan in 1942, was inducted into the Army the next day, did selection work in the Air Corps, the Office of Strategic Services and the Army Medical Corps, and taught at Cornell from 1948. He objected to how children were studied then: handed to an unfamiliar adult in an unfamiliar room and tested for what they could do, which is to say studied under conditions where development does not happen. The Ecology of Human Development (1979) offered a different drawing—micro (face to face), meso (between home and school), exo (the parents' workplace), macro (culture and policy)—with time added later and the whole rewritten with Ceci as process, person, context and time, anchored in proximal processes: environments matter by making a child's repeated engagements more or less likely. He was also a founder of Head Start.",
+    "keyIdeas": ["四层嵌套系统（微观／中间／外层／宏观）", "近端过程才是发展的引擎", "反对「隔离中的儿童」式研究", "儿童研究与儿童政策互为前提"],
+    "keyIdeasEn": [
+      "Four nested systems: micro, meso, exo, macro",
+      "Proximal processes as the engine of development",
+      "Against the study of the isolated child",
+      "Research on children and policy for children need each other"
+    ],
+    "works": ["《两个世界的童年》", "《人类发展生态学》", "《使人成为人：人类发展的生态学观》"],
+    "worksEn": [
+      "The Two Worlds of Childhood",
+      "The Ecology of Human Development",
+      "Making Human Beings Human"
+    ],
+    "related": ["ecological-systems", "parenting-styles", "nature-nurture", "attachment"],
+    "tags": ["发展", "环境"],
+    "sources": [
+      {
+        "label": "布朗芬布伦纳《人类发展生态学》",
+        "labelEn": "Bronfenbrenner, The Ecology of Human Development",
+        "year": 1979
+      },
+      {
+        "label": "布朗芬布伦纳与切西〈人类发展的生态模型〉",
+        "labelEn": "Bronfenbrenner & Ceci, An Ecological Model of Human Development",
+        "year": 1994
+      },
+      {
+        "label": "布朗芬布伦纳《使人成为人》",
+        "labelEn": "Bronfenbrenner, Making Human Beings Human",
+        "year": 2004
+      },
+      {
+        "label": "哈佛出版社《人类发展生态学》作者介绍",
+        "labelEn": "Harvard University Press, The Ecology of Human Development, author note",
+        "year": 2026
       }
     ]
   }

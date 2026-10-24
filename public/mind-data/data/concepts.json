@@ -93,11 +93,11 @@
     "level": 2,
     "oneLiner": "婴儿与主要照料者之间形成的持久情感联结，影响一生的人际关系。",
     "oneLinerEn": "The enduring emotional bond between infant and primary caregiver that shapes relationships for life.",
-    "detail": "鲍尔比提出依恋理论，安斯沃斯通过「陌生情境」实验区分出安全型、焦虑—矛盾型与回避型。安全依恋的孩子在探索世界时更有底气；成人依恋风格也显著影响亲密关系质量。",
+    "detail": "鲍尔比提出依恋理论，安斯沃思通过「陌生情境」实验区分出安全型、焦虑—矛盾型与回避型。安全依恋的孩子在探索世界时更有底气；成人依恋风格也显著影响亲密关系质量。",
     "detailEn": "Bowlby proposed attachment theory; Ainsworth's 'Strange Situation' identified secure, anxious-ambivalent and avoidant styles. Securely attached children explore more confidently, and adult attachment strongly affects intimate relationships.",
     "example": "妈妈离开房间时大哭、回来又立刻被安抚的孩子，多半是安全依恋；而一直回避眼神的孩子可能是回避型。",
     "exampleEn": "A child who cries when mom leaves yet is soothed on return is likely secure; one who avoids eye contact may be avoidant.",
-    "related": ["freud", "humanistic", "personality"],
+    "related": ["john-bowlby", "mary-ainsworth", "freud", "humanistic", "personality"],
     "tags": ["发展", "关系"],
     "sources": [{ "label": "Bowlby, J. 《依恋》", "labelEn": "Bowlby, J., Attachment", "year": 1969 }]
   },
@@ -937,6 +937,7 @@
       "diana-baumrind",
       "authoritative-parenting",
       "behavior-vs-psychological-control",
+      "urie-bronfenbrenner",
       "attachment",
       "self-determination-theory",
       "operant-conditioning"
@@ -1002,6 +1003,45 @@
         "label": "鲍姆林德〈当前父母权威的形态〉",
         "labelEn": "Baumrind, Current Patterns of Parental Authority",
         "year": 1971
+      }
+    ]
+  },
+  {
+    "id": "ecological-systems",
+    "term": "生态系统理论",
+    "termEn": "Ecological Systems Theory",
+    "category": "发展",
+    "categoryEn": "Development",
+    "level": 2,
+    "oneLiner": "孩子身上看到的结果，常常来自他没直接碰到的那一层：父母的公司、学区的政策、文化对「好家长」的定义。",
+    "oneLinerEn": "Outcomes measured on the child often originate in a layer the child never enters: the parents' employer, the school board, the culture's definition of a good parent.",
+    "detail": "布朗芬布伦纳把成长环境画成套在一起的圈。微观系统是孩子面对面参与的场景：家、班级、同伴群，以及孩子对它们反向的作用。中间系统是场景之间的连线：家长与老师是否说得上话、父母之间怎么把各自的一天讲给对方。外层系统是孩子并不直接参与、却决定其资源的场域：父母的工作单位（排班、通勤、能不能三点接人）、学区委员会、社区医疗机构。宏观系统则是文化与制度层面的信条，写下前三层「允许什么」。1990 年代后他与切西把它改写成过程—人—情境—时间四要素，落点在近端过程：发展不是被环境「影响」出来的，而是孩子在反复投入的活动中长出来的，环境的好坏由它让这类过程更常发生还是更容易被打断来判。用之前先分清两件事——层次框架近乎不可反驳，所以极易被引用成装饰；可检验的是更硬的具体命题：父母的工时、通勤与工作自主性会经由养育质量传导到孩子，项目只有改变日常互动才会改变结果。它的价值在于拆掉「要么怪父母、要么怪孩子」的二选一：同一种教养方式在不同资源与制度下预测不同结果，所以「回应少一点」与「工时长一点」可能是同一个原因的两面。",
+    "detailEn": "Bronfenbrenner drew the growing environment as circles set inside one another. The microsystem is what the child faces directly: home, classroom, peer group, and the child's action back on all three. The mesosystem is the wiring between those settings: whether parent and teacher speak, how the two parents narrate their days to each other. The exosystem holds settings the child never enters yet which decide the child's resources: the employer that sets shifts, commutes and whether one can leave at three o'clock, the school board, the neighbourhood clinic. The macrosystem is the culture's beliefs and rules, writing down what the inner layers are allowed to do. In the 1990s he and Ceci rewrote the scheme as process, person, context and time, anchored in proximal processes: development is not something the environment influences but something the child grows inside repeated engagements, and an environment is good insofar as it makes those processes more frequent and less interrupted. Separate two things before using it: the layered frame is nearly unfalsifiable and gets quoted as decoration, while the testable claims are harder and specific—parental work hours, commute and job control reach the child through the quality of care, and programmes change outcomes only if they change daily interaction. Its real use is that it dissolves the choice between blaming parents and blaming the child: one parenting style predicts different outcomes under different resources and rules, so less warmth and longer hours can be two faces of a single cause.",
+    "example": "两个同样算「权威型」的家庭。一家住得离学校近、父母的工作允许下午三点接人、社区有图书馆与活动中心；另一家父母轮班、放学后只剩电视与临时看管。四格打分一样，落点差一层楼——差别不在教养这一圈，而在中间与外层两圈。这也是为什么「父母态度」类干预在资源被补齐时效果更大：只调最内一圈，往往调不动。",
+    "exampleEn": "Two families with the same authoritative score. In one, the school is walkable, both jobs permit a three o'clock pickup, and the neighbourhood has a library and a youth centre; in the other, rotating shifts leave the child after school with television and an occasional sitter. Same score, different floor: the gap sits not in the parenting ring but in the meso and exo rings. It is why attitude-focused trainings work better once resources are added—tune the innermost ring alone and little moves.",
+    "related": [
+      "urie-bronfenbrenner",
+      "parenting-styles",
+      "nature-nurture",
+      "zpd",
+      "attachment"
+    ],
+    "tags": ["发展", "环境"],
+    "sources": [
+      {
+        "label": "布朗芬布伦纳《人类发展生态学》",
+        "labelEn": "Bronfenbrenner, The Ecology of Human Development",
+        "year": 1979
+      },
+      {
+        "label": "布朗芬布伦纳与切西〈人类发展的生态模型〉",
+        "labelEn": "Bronfenbrenner & Ceci, An Ecological Model of Human Development",
+        "year": 1994
+      },
+      {
+        "label": "布朗芬布伦纳《使人成为人》",
+        "labelEn": "Bronfenbrenner, Making Human Beings Human",
+        "year": 2004
       }
     ]
   }
