@@ -139,7 +139,7 @@
     "detailEn": "Mechanism: labeling an emotion boosts prefrontal inhibition of the amygdala, shifting you from being flooded to observing. When feelings rise, name them specifically (angry/disappointed/envious), put them on paper, pair with breath and reappraisal. 'Saying it' is not weakness but effective regulation.",
     "category": "情绪",
     "categoryEn": "Emotion",
-    "related": ["emotion", "stress-coping", "attention"],
+    "related": ["emotion", "stress-coping", "attention", "distance-self-talk"],
     "sources": [{ "label": "Lieberman (2007) 情绪标注的神经机制", "labelEn": "Lieberman (2007), Putting Feelings into Words", "year": 2007 }]
   },
   {
@@ -168,7 +168,8 @@
     "related": [
       "decision-fatigue",
       "framing-effect",
-      "procrastination"
+      "procrastination",
+      "rule-before-info"
     ],
     "sources": [
       {
@@ -1051,6 +1052,172 @@
       {
         "label": "罗森布利特与凯尔《被误解的常识边界》",
         "labelEn": "Rozenblit & Keil, The Misunderstood Limits of Folk Science",
+        "year": 2002
+      }
+    ]
+  },
+{
+    "id": "body-first-calm",
+    "term": "情绪炸开时，先管身体再讲道理",
+    "termEn": "Handle the Body Before the Argument",
+    "oneLiner": "心跳顶着嗓子眼时讲不通道理——先处理呼吸与现场，再处理事情。",
+    "oneLinerEn": "When your heart is in your throat, no argument lands: deal with breath and scene first.",
+    "detail": "为什么：情绪一上来先是身体先动（心跳、呼吸、肌肉绷紧），前额叶重新拿回方向盘要几十秒到几分钟；在高峰期谈条件，几乎都会谈崩——这正是「冷热鸿沟」说的：冷静时的你猜不到激动时的你会怎么决定。怎么办：① 先离开现场，去接水、走到走廊，把话头推到「我们十分钟后再说」；② 把呼气拉长，试「循环叹息」：用鼻子吸气、再补一小口把肺填满、然后从口缓缓呼出，斯坦福 2023 年的随机对照里，每天五分钟连做四周的人积极情绪上升、静息呼吸频率下降，幅度优于同时长的正念观察呼吸；箱式呼吸也有效，各组之间的差别并不大。③ 若已恐慌到发麻，做「着陆」：说出眼前五样看得见的东西、四样摸得到的……限度：这类练习争取的是时间而不是结论，单次几分钟只压当下紧张；研究用的是健康人的自评量表，不能替代治疗；有呼吸系统疾病或憋气不适的人不要硬做。",
+    "detailEn": "Why: when emotion hits, the body moves first—heart rate, breathing, muscle tension—while the prefrontal cortex needs seconds to minutes to take the wheel back. Negotiating at the peak almost always fails, which is exactly the hot-cold gap: calm you cannot predict agitated you. What to do: ① leave the scene, go get water or walk down the hall, and push the topic to 'let's pick this up in ten minutes'; ② lengthen the exhale with cyclic sighing—inhale through the nose, add a short second inhale to top the lungs up, then exhale slowly through the mouth. In Stanford's 2023 randomized comparison, five minutes a day for four weeks lifted positive mood and lowered resting breathing rate more than the same amount of watching the breath in mindfulness; box breathing worked too, and gaps between the breathing groups were small. ③ If panic has gone numb-and-tingly, run grounding: name five things you can see, four you can touch... Limits: these buys time, not conclusions—a single round blunts the moment only. The studies used self-report scales in healthy adults and are no substitute for treatment; skip breath-holding if you have respiratory trouble or it feels wrong.",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "related": [
+      "emotion-regulation",
+      "hot-cold-gap",
+      "emotion-labeling",
+      "anxiety-disorders"
+    ],
+    "sources": [{ "label": "Balban et al. (2023), Cell Reports Medicine", "year": 2023 }]
+  },
+{
+    "id": "distance-self-talk",
+    "term": "跟自己说话时，换个称呼",
+    "termEn": "Talk to Yourself by Name",
+    "oneLiner": "把「我该怎么办」换成「小林，你打算怎么办」，焦虑往往先降一截。",
+    "oneLinerEn": "Swap 'what should I do' for 'Xiao Lin, what are you going to do' and anxiety often drops a notch.",
+    "detail": "机制：密歇根的克罗斯（Ethan Kross）与其同事 2014 年的一组实验发现，临做有压力的即兴演讲、或回想一段痛苦经历时，用自己名字或「你」来跟自己对话的人，被客观评分者评为表现更好，事后报告的焦虑与反复咀嚼也更少；后续的脑电与成像工作显示这种「拉开距离」并不额外消耗认知控制资源——也就是说，它不是硬把情绪压住，而是不再只从「我」这个机位看事。怎么办：难受时换个口吻，用「给朋友提建议」的语气问自己：「你现在最难的是哪一块？下一步最小能动的是什么？」名字通常比「你」更稳，在心里默念就够。限度：证据主要来自实验室的演讲与回忆任务，长期的日常效果、以及部分人觉得「别扭」的体验都还没有大样本检验；换称呼不会替你把问题本身想清楚，它只是让你有力气去想。",
+    "detailEn": "Mechanism: a set of 2014 experiments by Ethan Kross and colleagues at Michigan found that people who silently addressed themselves by name or with 'you'—right before a stressful impromptu speech, or while recalling a painful event—were rated as performing better by objective coders and reported less anxiety and less rumination afterwards; later EEG and imaging work suggested this self-distancing costs no extra cognitive control. In other words it is not white-knuckling the feeling down, it is stepping off the 'I' camera angle. What to do: when you are wound up, switch register and ask the way you would ask a friend—'what part is hardest right now, and what is the smallest thing you can move on?' A name usually works better than 'you', and muting it inward is enough. Limits: the evidence comes mostly from lab speeches and recall tasks; long-run everyday effects, and the awkwardness some people report, remain untested at scale. A new form of address will not think the problem through for you—it only gives you the room to.",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "related": ["emotion-regulation", "emotion-labeling", "emotion-granularity", "self"],
+    "sources": [{ "label": "Kross et al. (2014), PLOS ONE", "year": 2014 }]
+  },
+{
+    "id": "worry-time-window",
+    "term": "把担忧圈进一天里的一小段",
+    "termEn": "Give Worry an Appointment",
+    "oneLiner": "担忧赶不走，但可以给它安排一个固定的到访时间。",
+    "oneLinerEn": "You cannot chase worry away, but you can give it a fixed visiting hour.",
+    "detail": "机制：在广泛性焦虑里，担忧常被体验成「停不下来」，而越是压制越容易反弹——这正是白熊效应的日常版。行为疗法因此换了思路：不消灭担忧，而是给它设条件。博科维奇（Thomas Borkovec）等人 1983 年用「刺激控制」把担忧限定在每天固定的时间与地点，被试自我报告花在担忧上的比例和紧张感都明显下降；2023 年的元分析也支持它能减少日常担忧的时长与频率，但效应量小，且在确诊广泛性焦虑的人群中证据并不一致。怎么办：① 挑一个白天的 15—30 分钟，离睡前至少两小时，否则会把担忧搬进床前；② 别的时间冒出来，只写一句话记下，告诉自己「那个时段再想」；③ 到点先看清单，把条目分成「现在能动手的」与「想也没用的」，前者写下一步、后者放手；④ 闹钟一响就结束，不许续。核心不是拖延思考，而是让身体亲自验证一次：担忧并不危险，我可以决定什么时候回应它。",
+    "detailEn": "Mechanism: in generalized anxiety, worry feels uncontrollable, and the harder you push it down the more it rebounds—the everyday version of the white-bear effect. Behavioural therapy changes the lever: not deleting worry but putting conditions on it. In 1983 Thomas Borkovec and colleagues used stimulus control to confine worry to one fixed time and place each day, and participants' self-reported share of time spent worrying, along with tension, dropped noticeably; a 2023 meta-analysis found small but reliable reductions in how long and how often people worry in daily life, while evidence in diagnosed GAD remains mixed. What to do: ① pick a 15-30 minute daytime slot, at least two hours before bed, or you will simply move the worry to your pillow; ② at other hours, write a single line to catch it and tell yourself 'that one waits for the slot'; ③ when the time comes, sort the list into 'I can act now' and 'reheating changes nothing'—write one step for the first, let the second go; ④ stop when the alarm rings, no extensions. The point is not to postpone thinking; it is to let your body check once that worry is not dangerous and you choose when to answer it.",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "related": [
+      "anxiety-disorders",
+      "stress-coping",
+      "emotion-regulation",
+      "therapy-helping"
+    ],
+    "sources": [
+      {
+        "label": "Borkovec et al. (1983), Behaviour Research and Therapy",
+        "year": 1983
+      },
+      {
+        "label": "Dippel, Brosschot & Verkuil (2023), 担忧推迟的元分析",
+        "labelEn": "Dippel, Brosschot & Verkuil (2023), meta-analysis of worry postponement",
+        "year": 2023
+      }
+    ]
+  },
+{
+    "id": "first-step-when-low",
+    "term": "低到什么都不想做时，先把步子缩到最小",
+    "termEn": "When Nothing Sounds Worth Doing, Shrink the Step",
+    "oneLiner": "不是等有劲了再做，而是先做一件小到不可能失败的事，劲才回来。",
+    "oneLinerEn": "Don't wait for energy: do something too small to fail, and energy follows.",
+    "detail": "机制：低落有一个循环——提不起兴趣、于是更不动、生活里能带来回报的事更少、于是更没劲。「行为激活」正是拆这一环：雅各布森 1996 年把认知疗法拆开检验，发现去掉「改变想法」的成分，疗效并不下降；迪米姜 2006 年的随机试验里，在中重度抑郁患者中它与抗抑郁药相当。2023 年的元分析汇总成人门诊的效应量约 0.67，只保留低偏倚研究时降到 0.51，且参与者的脱落率略高，所以它有效但并非万能。怎么办：① 列几件过去给过你一点成就感或愉快感的小事；② 挑一件，写下具体时间与地点；③ 做完（哪怕做得很差）；④ 在活动前后各给心情打一次分，用记录代替「感觉没意思就不做」的判断。限度：这是治疗里的一个成分，自助方向可以参考，但不能替代正式治疗；如果低落加兴趣塌陷持续两周以上、影响睡眠食欲与学习交往，请告诉信任的大人或去专业渠道。",
+    "detailEn": "Mechanism: low mood runs on a loop—nothing interests you, so you move less, so fewer rewarding things enter your life, so you feel flatter. Behavioural activation cuts exactly that link: Jacobson's 1996 component analysis found that removing the 'change your thinking' part did not reduce benefit, and Dimidjian's 2006 randomized trial found it comparable to antidepressant medication among moderately to severely depressed adults. A 2023 meta-analysis puts the pooled effect at about 0.67 for adult outpatient care, falling to 0.51 when only low-bias trials count, with a slightly higher dropout rate—real but not magic. What to do: ① list a few small things that once gave you a touch of mastery or pleasure; ② choose one and write down a concrete time and place; ③ do it, badly is fine; ④ rate your mood once before and once after, letting the record, not the 'it sounds pointless' feeling, decide. Limits: this is one ingredient of a treatment—self-directed use is a direction, not a substitute. If low mood with collapsed interest lasts beyond two weeks and starts eating sleep, appetite or study, tell a trusted adult or reach a professional channel.",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "related": ["depression-mood", "therapy-helping", "exercise-mood", "procrastination"],
+    "sources": [
+      {
+        "label": "Dimidjian et al. (2006), Journal of Consulting and Clinical Psychology",
+        "year": 2006
+      },
+      {
+        "label": "Cuijpers et al. (2023), Psychotherapy Research",
+        "year": 2023
+      }
+    ]
+  },
+{
+    "id": "rule-before-info",
+    "term": "看材料之前，先把打分规则定下来",
+    "termEn": "Set the Rubric Before You Read",
+    "oneLiner": "先定标准再看信息，人才不至于一路替心头好找理由。",
+    "oneLinerEn": "Fix the standard before the material, or you will spend the reading defending your crush.",
+    "detail": "为什么：卡尼曼、西博尼与桑斯坦 2021 年指出，判断出错有另一半来自「噪声」——同样的材料，换个人、换个时间，结果散得离谱。而一旦先被某个选项打动，之后的阅读就自动变成替它辩护，这和确认偏误走的是同一条路。怎么办：① 把「这事行不行」拆成三五个互不代替的维度（成本、时间、可逆性、最坏情况、谁承担）；② 在看具体方案之前，先给每个维度写下权重与打分口径；③ 逐项独立打分，全打完了再形成整体印象，别边看边下结论；④ 有其他人参与时，先各自独立评完再开讨论，否则第一个发言的人就成了锚。限度：结构化会牺牲灵活性，面对真正前所未见的问题，规则本身可能就是错的；这套做法压的是随机波动，并不能替你确定哪条标准重要。",
+    "detailEn": "Why: Kahneman, Sibony and Sunstein (2021) argue that the other half of judgment error is noise—the same file scored wildly differently by another person, or by the same person on another afternoon. And once a option wins you over early, every page after it turns into its defence lawyer, the same road confirmation bias takes. What to do: ① split 'is this good' into three to five non-substitutable dimensions—cost, time, reversibility, worst case, who carries it; ② write weights and scoring anchors for each before you look at any specific proposal; ③ score item by item independently and only assemble an overall impression at the end, instead of concluding as you read; ④ if others are involved, everyone finishes their own scores before the discussion, or the first speaker becomes the anchor. Limits: structure trades away flexibility, and for genuinely unprecedented problems the rubric itself may be wrong; this discipline suppresses random scatter, it does not tell you which criteria deserve weight.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": [
+      "decision-hygiene",
+      "choice-overload",
+      "confirmation-bias",
+      "decision-fatigue"
+    ],
+    "sources": [
+      {
+        "label": "Kahneman, Sibony & Sunstein (2021),《噪声》",
+        "labelEn": "Kahneman, Sibony & Sunstein (2021), Noise",
+        "year": 2021
+      }
+    ]
+  },
+{
+    "id": "outside-view-first",
+    "term": "先问一句：同类的事平均怎么样",
+    "termEn": "Ask What the Same Kind of Thing Usually Does",
+    "oneLiner": "把自己放进一组相似案例里看分布，比把计划写得更漂亮更能纠偏。",
+    "oneLinerEn": "Watching how look-alike cases end corrects you better than polishing the plan.",
+    "detail": "为什么：卡尼曼与洛瓦洛 1993 年写下同一种怪象——企业做决策时谨慎，做预测时却大胆。他们让投资人先给同类项目的实际回报打个「公平分」，再评自己手上那个，结果细节了解得越多、乐观得越厉害：内部信息只会加固叙事。「外部视角」问的是另一件事：看起来像这样的局面，历史上通常怎么收场。怎么办：① 找一个参考类别（同类项目、同届考生、同规模创业），② 查真实分布——完成率、实际耗时、失败比例，不管当初预测写了什么；③ 再列出让你这一个不一样的具体理由；④ 估一个偏移量并回看：这个调整幅度，在这组案例自己的波动范围内吗？限度：参考类别常常难找，找到的还多是幸存者；对真正全新的领域，没有分布可查，也只能退回判断本身。",
+    "detailEn": "Why: Kahneman and Lovallo (1993) named the mismatch—firms are timid when they commit and bold when they forecast. They had investors first rate what comparable projects actually returned, then their own: the more project detail someone knew, the more optimistic the forecast, because inside information only strengthens the story. The outside view asks a different question—how do situations that look like this usually end. What to do: ① pick a reference class (similar projects, the same cohort, businesses of this size); ② get the real distribution—completion rates, actual time spent, failure share—regardless of what forecasts once said; ③ then list the concrete features that make yours differ; ④ estimate how far to shift, and check whether that shift even sits inside the spread the class itself shows. Limits: reference classes are often hard to find, and the ones you find over-represent survivors; for genuinely new territory there is no distribution, and you fall back on judgment.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": ["planning-fallacy", "optimism-bias", "overconfidence", "decision-hygiene"],
+    "sources": [{ "label": "Kahneman & Lovallo (1993), Management Science", "year": 1993 }]
+  },
+{
+    "id": "premortem-rehearsal",
+    "term": "点头之前，先假设它已经砸了",
+    "termEn": "Assume It Already Failed",
+    "oneLiner": "把「可能出什么问题」换成「它已经失败了，原因是什么」，异议才有出口。",
+    "oneLinerEn": "Swap 'what could go wrong' for 'it has failed—why', and dissent finally gets an exit.",
+    "detail": "为什么：正常讨论里，没人愿意在计划阶段说丧气话，怕显得不忠诚、不配合；于是风险被集体沉默挡在门外——团体迷思正是这样发生的。认知心理学家加里·克莱恩（Gary Klein）2007 年在《哈佛商业评论》提出「事前验尸」，依据是米切尔、鲁索与彭宁顿 1989 年关于「前视回溯」的发现：当一件事被想象成已经发生，人们找出原因的能力明显提高（克莱恩文中称约三成）。怎么办：① 让相关人先读完计划；② 主持人宣布「现在是半年后，这个项目已经惨败」；③ 每人独立写五分钟「它是怎么死的」，专收平时不好意思讲的那些；④ 依次各念一条不重复的理由，汇总之后据此改计划。限度：这套做法没有大样本随机检验，「30%」是克莱恩文章的转述而非同行评议的实验结论；假设失败也可能让人编出并不存在的风险，主持人若不善于收拢，现场容易变成互相指责。",
+    "detailEn": "Why: in ordinary discussion nobody wants to speak gloom during planning—it reads as disloyalty—so risks get screened out by collective silence, which is how groupthink operates. Gary Klein proposed the premortem in the Harvard Business Review in 2007, leaning on Mitchell, Russo and Pennington's 1989 finding on prospective hindsight: when an event is imagined as already having happened, people get markedly better at generating reasons for it (Klein's article cites about thirty percent). What to do: ① everyone reads the plan first; ② the facilitator announces 'it is six months from now and this project has failed spectacularly'; ③ each person writes alone for five minutes—how did it die—especially the objections usually left unsaid; ④ go around once, each stating a reason not yet heard, then revise the plan against the list. Limits: no large randomized test backs the procedure; the '30%' is a claim relayed in Klein's article, not a peer-reviewed effect, and a failure premise can also manufacture risks that do not exist. Without a steady facilitator the session turns into blame.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": ["groupthink-janis", "overconfidence", "optimism-bias", "decision-hygiene"],
+    "sources": [
+      { "label": "Klein, Performing a Project Premortem (2007)", "year": 2007 },
+      {
+        "label": "Mitchell, Russo & Pennington (1989), 前视回溯",
+        "labelEn": "Mitchell, Russo & Pennington (1989), prospective hindsight",
+        "year": 1989
+      }
+    ]
+  },
+{
+    "id": "write-an-exit-line",
+    "term": "进去之前，先写下什么情况我就撤",
+    "termEn": "Write Your Exit Line Before You Commit",
+    "oneLiner": "对付沉没成本，难的不是听懂道理，是没人提前替你画过撤退线。",
+    "oneLinerEn": "Sunk costs are hard to beat not for lack of reason but for lack of a line drawn earlier.",
+    "detail": "为什么：已经花掉的会变成理由。阿克斯与布拉默 1985 年的经典实验里，剧院季票被随机按全价与两种折扣卖出，付得多的那场次来得更勤；滑雪度假的版本里，一半被试选了那个更贵却更不好玩、且钱都退不回来的周末——不是因为更好，而是因为「不去就更浪费」。「从现在看还值不值」这句问话道理上正确，可深夜和不甘心一起时很难生效，所以更实用的做法是把判断前移：还没投入时就写下退出条件——「如果三月底前没有第一个付费用户就停」「这门课到第六周还在拖我另外两件事，就退」——并把它交给一个会当真的时间或人。阿利利与韦滕布罗赫 2002 年发现，学生会自设带罚则的死线并因此做得更好，但自设的死线并不总落在最优位置，所以外部来盯比自我约定更牢。限度：撤退线本身可能被「再给一次机会」绕开，定线时把「谁有权改线、改线要付什么」一并写清。",
+    "detailEn": "Why: what you already spent turns into a reason. In Arkes and Blumer's 1985 classic, theatre season tickets were sold at random—full price or two discounts—and those who paid more attended more shows; in the ski-trip version, half of the participants chose the dearer, less fun weekend although neither ticket was refundable. Not because it was better, but because skipping it would waste more. 'Is it still worth it from here' is correct in theory and weak at midnight, when resentment is loud. So move the judgment earlier: before you commit, write the exit condition—'stop if there is no first paying customer by the end of March', 'drop it if by week six it is still dragging down my other two'—and hand it to a time or a person who will hold you to it. Ariely and Wertenbroch (2002) found that students who set their own penalised deadlines performed better, but not at the optimal deadline, which is why an outside keeper beats a private vow. Limits: exit lines get routed around by 'one more chance'; write in advance who may move the line, and what moving it costs.",
+    "category": "决策",
+    "categoryEn": "Decision making",
+    "related": [
+      "sunk-cost",
+      "status-quo-bias",
+      "loss-aversion",
+      "implementation-intention",
+      "hot-cold-gap"
+    ],
+    "sources": [
+      {
+        "label": "Arkes & Blumer (1985), The Psychology of Sunk Cost",
+        "year": 1985
+      },
+      {
+        "label": "Ariely & Wertenbroch (2002), Psychological Science",
         "year": 2002
       }
     ]

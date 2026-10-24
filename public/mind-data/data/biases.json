@@ -74,7 +74,7 @@
     "detailEn": "How it shows: finishing a bad film, propping a failing project. Why: reluctance to admit waste. How to avoid: ask only 'is continuing worth it now?'",
     "category": "决策",
     "categoryEn": "Decision making",
-    "related": ["loss-aversion"],
+    "related": ["loss-aversion", "write-an-exit-line"],
     "sources": [{ "label": "Arkes & Blumer (1985)", "year": 1985 }]
   },
   {

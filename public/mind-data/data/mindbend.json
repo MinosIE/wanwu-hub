@@ -598,7 +598,7 @@
     "detailEn": "Buehler and colleagues had people date their theses, tasks and goals; estimates ran consistently optimistic and were repeatedly blown, with past overruns failing to cure the next one. We script a best-case plan and budget almost nothing for mishaps. The fix is often to anchor on how long such things actually took before.",
     "category": "决策",
     "categoryEn": "Decision-making",
-    "related": ["self", "attribution", "hindsight-bias"],
+    "related": ["self", "attribution", "hindsight-bias", "outside-view-first"],
     "sources": [{ "label": "Buehler, Ross & Miller (1994)", "year": 1994 }]
   },
   {
@@ -2670,7 +2670,7 @@
     "detailEn": "Janis traced a pattern in the Bay of Pigs and Pearl Harbor: cohesive groups self-censor doubts and read dissent as disloyalty, arriving at choices no individual member would have made alone. Later replications are mixed, but the mechanism—silence read as agreement—shows up in boardrooms, juries and policy rooms. The fix is not more talk but a designated dissenter.",
     "category": "社会",
     "categoryEn": "Social",
-    "related": ["false-consensus", "just-world", "pygmalion", "social-comparison"],
+    "related": ["false-consensus", "just-world", "pygmalion", "social-comparison", "premortem-rehearsal"],
     "sources": [{ "label": "Janis (1972); Kroon et al. (2017)", "year": 1972 }]
   },
   {

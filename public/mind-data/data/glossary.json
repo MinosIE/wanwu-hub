@@ -892,7 +892,8 @@
       "emotion-labeling",
       "emotion-regulation",
       "emotion-coach-at-home",
-      "empathy"
+      "empathy",
+      "body-first-calm"
     ],
     "tags": ["发展", "情绪"],
     "sources": [
@@ -950,6 +951,54 @@
         "label": "邓恩与普洛明《各异的命运：同胞为何如此不同》",
         "labelEn": "Dunn & Plomin, Separate Lives: Why Siblings Are So Different",
         "year": 1986
+      }
+    ]
+  },
+{
+    "id": "behavioral-activation",
+    "term": "行为激活",
+    "termEn": "Behavioural Activation",
+    "category": "行为",
+    "categoryEn": "Behavior",
+    "def": "抑郁治疗的一个成分：不先去改想法，而是安排有成就感或愉快感的小行动并记录活动前后的心情，用记录检验「做了也没意思」的预测。",
+    "defEn": "A component of depression treatment: rather than editing thoughts first, it schedules small acts with a sense of mastery or pleasure and logs mood before and after, testing the prediction that doing them would be pointless.",
+    "plain": "低落时「等有动力再动」几乎总会落空，因为动力是行动的结果而不是前提。所以先把步子缩到具体时间和地点，做得差也算完成；前后各记一次心情，让数据替感觉说话。",
+    "plainEn": "Waiting to feel like it rarely pays off, since drive is the result of action, not its precondition. So shrink the step to a time and a place—badly done still counts—and log mood twice, letting the record outvote the feeling.",
+    "related": [
+      "depression-mood",
+      "therapy-helping",
+      "first-step-when-low",
+      "conditioning"
+    ],
+    "tags": ["情绪", "治疗"],
+    "sources": [
+      {
+        "label": "雅各布森等（1996），成分拆解研究",
+        "labelEn": "Jacobson et al. (1996), component analysis",
+        "year": 1996
+      },
+      {
+        "label": "Dimidjian et al. (2006), Journal of Consulting and Clinical Psychology",
+        "year": 2006
+      }
+    ]
+  },
+{
+    "id": "cognitive-reappraisal",
+    "term": "认知重评",
+    "termEn": "Cognitive Reappraisal",
+    "category": "情绪",
+    "categoryEn": "Emotion",
+    "def": "在情绪反应成形之前重新解释情境——换角度、换意义，从而改变情绪的强度与走向；属格罗斯过程模型里的「发生前」调节。",
+    "defEn": "Reinterpreting a situation before the response settles—changing angle and meaning, and with them the emotion's force and direction; a 'before' strategy in Gross's process model.",
+    "plain": "和「憋住不露」不同，重评改的是这件事对我意味着什么，而不是脸上的表情。它在链条更早处动手，因此不需要持续用力压制；被批评时读成「他在意这件事」，火就小了一半。",
+    "plainEn": "Unlike bottling it up, reappraisal edits what the event means for you, not your facial muscles. Acting earlier in the chain means no sustained effort of suppression: read criticism as 'he cares about this' and the flare halves.",
+    "related": ["emotion-regulation", "stress-coping", "emotion-labeling", "q-emotion-1"],
+    "tags": ["情绪", "调节"],
+    "sources": [
+      {
+        "label": "Gross (1998), The Emerging Field of Emotion Regulation",
+        "year": 1998
       }
     ]
   }

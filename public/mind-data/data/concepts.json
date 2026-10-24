@@ -541,7 +541,8 @@
       "stress-coping",
       "exam-anxiety",
       "aaron-beck",
-      "learned-helplessness"
+      "learned-helplessness",
+      "worry-time-window"
     ],
     "tags": [
       "健康",
@@ -572,7 +573,8 @@
       "learned-helplessness",
       "martin-seligman",
       "emotion",
-      "stress-coping"
+      "stress-coping",
+      "first-step-when-low"
     ],
     "tags": [
       "健康",
@@ -692,7 +694,8 @@
     "related": [
       "stress-coping",
       "anxiety-disorders",
-      "emotion-labeling"
+      "emotion-labeling",
+      "body-first-calm"
     ],
     "tags": [
       "情绪",
@@ -1078,6 +1081,37 @@
         "labelEn": "Roediger & Karpicke, Test-Enhanced Learning",
         "year": 2006
       }
+    ]
+  },
+{
+    "id": "decision-hygiene",
+    "term": "决策卫生",
+    "termEn": "Decision Hygiene",
+    "category": "判断与决策",
+    "categoryEn": "Judgment & Decision",
+    "level": 2,
+    "oneLiner": "判断出错有两半：有方向的偏差和没方向的噪声；后者只能靠流程压。",
+    "oneLinerEn": "Judgment error has two halves: bias with a direction and noise without one; only process presses the second.",
+    "detail": "《噪声：人类判断的缺陷》（卡尼曼、西博尼、桑斯坦，2021）给出一个拆解：判断误差＝偏差＋噪声。偏差像所有的箭偏向同一边，噪声像箭散得满靶都是——同一位法官上午与下午量刑差几年、两位医生读同一张片子给出不同结论。噪声再分三层：水平噪声（人的基准线松严不一）、模式噪声（个人对某类案情的稳定偏好，通常是最大的一块）、情境噪声（情绪、疲劳、顺序带来的波动）。「决策卫生」的比喻是卫生防疫：它不针对某一种细菌，而是普遍降低随机变异，所以不需要先知道错在哪儿就能起效。三条最硬的做法：多位评估者先独立打分再汇总；把大问题拆成互不干扰的小维度、推迟拼出整体印象；定期做「噪声审计」，同一批材料让同一批人隔周重评，把散量实际量出来。与本库二十多条认知偏差的分工：偏差有方向，认出名号就可能避开；噪声无方向，认不出来也没用，只有流程能压。限度：一味压平个性化，可能把好的面试官、医生那种「对特定情形的敏感」也一起抹掉；书里自己承认存在「最优噪声」，而落地需要组织成本——个人层面能拿走的，主要是独立评估与推迟叙事这两条。",
+    "detailEn": "Noise: A Flaw in Human Judgment (Kahneman, Sibony & Sunstein, 2021) offers the decomposition: error in judgment = bias + noise. Bias is every arrow pulled to one side; noise is arrows scattered all over the target—a judge handing down different sentences before and after lunch, two physicians reading one scan differently. Noise splits three ways: level noise (people run looser or stricter baselines), pattern noise (a person's stable preference for particular kinds of cases, usually the largest share), and situation noise (mood, fatigue, order). 'Decision hygiene' borrows its metaphor from sanitation: it does not hunt a specific bacterium, it lowers random variation across the board, so it works before you know where the error sits. Its three hardest practices: have several judges score independently and only then aggregate; break the big question into non-substitutable pieces and postpone assembling a whole impression; run noise audits—give the same file back to the same people a week later and measure the spread. How this differs from the two dozen cognitive biases in this library: bias has a direction, so naming it can help you dodge; noise has none, so recognition is useless and only process compresses it. Limits: flattening individuality can also erase the very sensitivity that makes a good interviewer or physician, and the book itself allows an optimal amount of noise; adopting it costs organisations real effort. What an individual can actually borrow is mostly two moves: judge independently, delay the story.",
+    "example": "十位面试官各评同一份候选人材料，总分相差四十分——问题不是谁偏心，而是没有量表、没有独立评分、也没有汇总流程。",
+    "exampleEn": "Ten interviewers rate the same candidate and spread by forty points: the problem is not someone's prejudice but the missing rubric, missing independent scoring, missing aggregation.",
+    "related": [
+      "kahneman",
+      "confirmation-bias",
+      "overconfidence",
+      "optimism-bias",
+      "rule-before-info",
+      "decision-fatigue"
+    ],
+    "tags": ["决策", "判断"],
+    "sources": [
+      {
+        "label": "卡尼曼、西博尼、桑斯坦《噪声：人类判断的缺陷》",
+        "labelEn": "Kahneman, Sibony & Sunstein, Noise: A Flaw in Human Judgment",
+        "year": 2021
+      },
+      { "label": "Kahneman & Lovallo (1993), Management Science", "year": 1993 }
     ]
   }
 ]

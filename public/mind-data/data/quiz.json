@@ -414,5 +414,259 @@
     ],
     "related": ["jol-fluency-trap", "rereading-illusion", "predict-then-check"],
     "sources": [{ "label": "科亚特（2007）", "labelEn": "Koriat (2007)", "year": 2007 }]
+  },
+{
+    "id": "q-emotion-1",
+    "term": "火气上来了，哪种做法在研究里更管用？",
+    "termEn": "Anger flares up—which move has better evidence?",
+    "oneLiner": "两种常见调节法的比较。",
+    "oneLinerEn": "Two regulation moves compared.",
+    "detail": "格罗斯的过程模型里，认知重评在情绪链条更早处介入，重新解释现场；表达抑制只压住外在表现，生理唤醒没降，还占用工作记忆。长期更省力的通常是前者。",
+    "detailEn": "In Gross's process model, reappraisal intervenes earlier by reinterpreting the scene, while suppression only edits the output—arousal stays and working memory pays for it. The earlier move is the cheaper one long-term.",
+    "options": [
+      {
+        "text": "换个角度重新解释这件事",
+        "textEn": "Reinterpret the situation from another angle",
+        "correct": true
+      },
+      {
+        "text": "憋住，脸上一点不许露",
+        "textEn": "Hold it in and let nothing show",
+        "correct": false
+      },
+      {
+        "text": "先把当时现场骂个够",
+        "textEn": "Vent loudly about the scene first",
+        "correct": false
+      }
+    ],
+    "related": ["emotion-regulation", "emotion-labeling", "body-first-calm"],
+    "sources": [{ "label": "格罗斯（1998）", "labelEn": "Gross (1998)", "year": 1998 }]
+  },
+{
+    "id": "q-emotion-2",
+    "term": "上台前心里发慌，跟自己说话时怎么说更管用？",
+    "termEn": "Nervous before you go on stage—how should you talk to yourself?",
+    "oneLiner": "一句自我对话的口气。",
+    "oneLinerEn": "The register of self-talk.",
+    "detail": "用自己的名字或「你」拉开视角，表现更好、事后反刍更少。它不是压制情绪，而是暂时从「我」这个机位退一步；默念就够。",
+    "detailEn": "Addressing yourself by name or with 'you' adds distance: performance ratings improved, anxiety and rumination fell. It is not suppression, just stepping off the 'I' camera angle.",
+    "options": [
+      {
+        "text": "「小林，你打算怎么开头？」",
+        "textEn": "'Xiao Lin, how will you open?'",
+        "correct": true
+      },
+      {
+        "text": "「我一定不能搞砸」",
+        "textEn": "'I absolutely must not mess this up'",
+        "correct": false
+      },
+      {
+        "text": "「别想这些，赶紧忘掉」",
+        "textEn": "'Don't think about it, just forget it'",
+        "correct": false
+      }
+    ],
+    "related": ["distance-self-talk", "emotion-regulation", "exam-anxiety"],
+    "sources": [{ "label": "克罗斯等（2014）", "labelEn": "Kross et al. (2014)", "year": 2014 }]
+  },
+{
+    "id": "q-emotion-3",
+    "term": "朋友两周什么都不想做，你先建议哪一件？",
+    "termEn": "A friend has wanted to do nothing for two weeks—what do you suggest first?",
+    "oneLiner": "低落时的第一步。",
+    "oneLinerEn": "The first move when mood is low.",
+    "detail": "行为激活绕过「等有动力再说」：先定时间地点做一件具体的小事，做得差也算完成，并在活动前后各记一次心情，让记录去修正「做了也没意思」的预测。",
+    "detailEn": "Behavioural activation bypasses 'wait for motivation': fix a time and place for one small act, count badly-done as done, and rate mood before and after so the record—not the 'pointless' feeling—decides.",
+    "options": [
+      {
+        "text": "列几件小事，定好时间地点去做，并记下前后心情",
+        "textEn": "Pick small acts, schedule them, log mood before and after",
+        "correct": true
+      },
+      {
+        "text": "先想通了、心情好了再动",
+        "textEn": "Sort out the thoughts first, then act",
+        "correct": false
+      },
+      {
+        "text": "靠意志力硬逼自己每天大运动量",
+        "textEn": "Force a heavy daily workout by willpower",
+        "correct": false
+      }
+    ],
+    "related": ["first-step-when-low", "depression-mood", "therapy-helping"],
+    "sources": [
+      {
+        "label": "迪米姜等（2006）",
+        "labelEn": "Dimidjian et al. (2006)",
+        "year": 2006
+      }
+    ]
+  },
+{
+    "id": "q-decision-2",
+    "term": "电影看了 20 分钟就很难看，票花了 40 元。研究更支持哪种想法？",
+    "termEn": "You're 20 minutes into a bad film you paid 40 for—what does research back?",
+    "oneLiner": "一笔已经花掉的票钱。",
+    "oneLinerEn": "A ticket price already spent.",
+    "detail": "沉没成本无法收回，只该从现在看继续值不值。但人对损失敏感，常靠「别浪费」替错误续时长；提前写下撤退条件，是让决策回到当下的办法。",
+    "detailEn": "Sunk money can't be recovered—judge value from here on. But loss sensitivity keeps us buying bad things more time with 'don't waste it'; writing an exit line in advance pulls the call back to the present.",
+    "options": [
+      {
+        "text": "钱已经回不来，只从现在看继续值不值，想走就走",
+        "textEn": "The money is gone; decide from here on and leave if you want",
+        "correct": true
+      },
+      {
+        "text": "票都买了，硬看完才对得起",
+        "textEn": "You bought the ticket, so grind through it",
+        "correct": false
+      },
+      {
+        "text": "先刷完手机，把片子熬完再说",
+        "textEn": "Scroll your phone and just get through it",
+        "correct": false
+      }
+    ],
+    "related": ["sunk-cost", "write-an-exit-line", "loss-aversion"],
+    "sources": [
+      {
+        "label": "阿克斯 & 布伦默（1985）",
+        "labelEn": "Arkes & Blumer (1985)",
+        "year": 1985
+      }
+    ]
+  },
+{
+    "id": "q-decision-3",
+    "term": "估项目工期时，哪种做法更靠得住？",
+    "termEn": "Estimating project duration—which habit holds up better?",
+    "oneLiner": "规划谬误的纠正办法。",
+    "oneLinerEn": "A fix for the planning fallacy.",
+    "detail": "先查同类项目实际花了多久，拿分布作基准，再叠加自己特有的改动并写明理由。只看自己计划的内部视角，几乎总是偏乐观。",
+    "detailEn": "Start from the distribution of how long comparable tasks actually took, then layer your own specifics with stated reasons. The inside view of your own plan runs optimistic almost every time.",
+    "options": [
+      {
+        "text": "先查同类项目实际耗时的分布，再叠加自己的调整",
+        "textEn": "Start from outside data, then adjust for your case",
+        "correct": true
+      },
+      {
+        "text": "按自己计划的每一步逐项加总",
+        "textEn": "Add up each step of your own plan",
+        "correct": false
+      },
+      {
+        "text": "问队友谁觉得能提前完工，取多数意见",
+        "textEn": "Poll teammates on who expects early finish",
+        "correct": false
+      }
+    ],
+    "related": ["outside-view-first", "planning-fallacy", "optimism-bias"],
+    "sources": [
+      {
+        "label": "卡尼曼 & 洛瓦洛（1993）",
+        "labelEn": "Kahneman & Lovallo (1993)",
+        "year": 1993
+      }
+    ]
+  },
+{
+    "id": "q-decision-4",
+    "term": "两位法官对同一案情判决相差三年，这主要说明什么？",
+    "termEn": "Two judges give the same case three years apart—what does that show?",
+    "oneLiner": "判断里的一种系统性问题。",
+    "oneLinerEn": "A systematic flaw in judgment.",
+    "detail": "同案不同判是决策噪声：判断的离散度像偏见一样伤害公正，却更难被看见——没有人能指出「该往哪个方向纠」。卡尼曼等把减噪的方法叫决策卫生。",
+    "detailEn": "Same case, different verdicts is decision noise: scatter harms fairness like bias does, yet is harder to spot—no one can say which way to correct it. Kahneman and colleagues call the reductions decision hygiene.",
+    "options": [
+      {
+        "text": "判断存在噪声：同样的案情也会得到差很多的结论",
+        "textEn": "Noise: identical cases still yield widely different calls",
+        "correct": true
+      },
+      {
+        "text": "说明其中一位法官一定有偏见",
+        "textEn": "One judge must therefore be biased",
+        "correct": false
+      },
+      {
+        "text": "只是随机误差，无关公正",
+        "textEn": "Pure random error, fairness is unaffected",
+        "correct": false
+      }
+    ],
+    "related": ["decision-hygiene", "anchoring", "hindsight-bias"],
+    "sources": [
+      {
+        "label": "卡尼曼等（2021）",
+        "labelEn": "Kahneman, Sibony & Sunstein (2021)",
+        "year": 2021
+      }
+    ]
+  },
+{
+    "id": "q-help-1",
+    "term": "关于心理咨询，下列哪种说法更接近研究？",
+    "termEn": "On psychological counselling, which claim is closest to the evidence?",
+    "oneLiner": "一个常见的误解。",
+    "oneLinerEn": "A widespread misconception.",
+    "detail": "Meta 分析显示多数心理治疗对特定问题有小到中等实效，且流派之间差异小于想象。它会谈方法与行动，常留作业，也可能需要几周；只谈性格不合、或断言完全无用，都不贴近数据。",
+    "detailEn": "Meta-analyses show most therapies deliver small-to-moderate gains for specific problems, with less difference between schools than assumed. Work on methods and action is discussed, homework set, weeks may pass; 'it's just about personality' or 'it's useless' both misread the data.",
+    "options": [
+      {
+        "text": "它像健身教练，会谈具体方法和作业，也需要练几次才见效果",
+        "textEn": "Like a coach: methods, homework, and sessions to see effect",
+        "correct": true
+      },
+      {
+        "text": "主要看两人性格合不合，合就有效",
+        "textEn": "It hinges on whether two personalities click",
+        "correct": false
+      },
+      {
+        "text": "对真正的心理问题没有可测的效果",
+        "textEn": "It has no measurable effect on real problems",
+        "correct": false
+      }
+    ],
+    "related": ["therapy-helping", "mental-health-stigma", "anxiety-disorders"],
+    "sources": [
+      {
+        "label": "科林等（2025 更新）",
+        "labelEn": "Cuijpers et al. (2025 update)",
+        "year": 2025
+      }
+    ]
+  },
+{
+    "id": "q-social-1",
+    "term": "团队讨论中，哪种情形更常见？",
+    "termEn": "In team discussion, which pattern is more common?",
+    "oneLiner": "团结的团队也会犯错。",
+    "oneLinerEn": "Cohesive teams err too.",
+    "detail": "越团结越一致，共享的支持性信息占满议程，反面证据与坏消息被挡在门外。贾尼斯（Janis）研究决策灾难后把这套机制叫团体迷思。",
+    "detailEn": "The more cohesive and aligned a team, the more shared supportive info fills the agenda while disconfirming evidence and bad news stay outside. After studying fiascoes, Janis named the mechanism groupthink.",
+    "options": [
+      {
+        "text": "越团结越一致，团队更容易只聊大家都同意的信息",
+        "textEn": "The more united, the easier it is to discuss only shared-agreement info",
+        "correct": true
+      },
+      {
+        "text": "越团结越敢讲坏消息",
+        "textEn": "The more united, the braver people are with bad news",
+        "correct": false
+      },
+      {
+        "text": "人多意见杂，反而没人敢下结论",
+        "textEn": "With many conflicting voices, no one dares conclude",
+        "correct": false
+      }
+    ],
+    "related": ["premortem-rehearsal", "groupthink-janis", "group-polarization"],
+    "sources": [{ "label": "贾尼斯（1972）", "labelEn": "Janis (1972)", "year": 1972 }]
   }
 ]
