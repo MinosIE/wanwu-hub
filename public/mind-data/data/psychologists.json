@@ -797,5 +797,56 @@
     "related": ["aaron-beck", "emotion", "therapy-helping"],
     "tags": ["临床", "认知"],
     "sources": [{ "label": "艾利斯《理情心理治疗》", "labelEn": "Ellis, Reason and Emotion in Psychotherapy", "year": 1962 }]
+  },
+  {
+    "id": "diana-baumrind",
+    "name": "戴安娜·鲍姆林德",
+    "nameEn": "Diana Baumrind",
+    "era": "1927–2018",
+    "field": "发展 / 家庭社会化",
+    "fieldEn": "Development / Family socialization",
+    "oneLiner": "先在幼儿园观察孩子、再回他们家里观察父母，把教养分成权威／专制／纵容三种模式，让「爱」与「规矩」变成两格可以分开调的旋钮。",
+    "oneLinerEn": "She watched children in the nursery school and then their parents at home, sorting parenting into authoritative, authoritarian and permissive — turning warmth and rules into two dials that can be set separately.",
+    "detail": "她不发问卷，而是从行为倒推：先请幼儿园老师评出孩子的表现，再进这些家庭做访谈与情境观察，1960 年代的样本因此浮出三种可重复的模式；第四格（低要求低回应的忽视型）由梅肯比与马丁在 1983 年补上。她的关键动作是维度化——把纠缠在一起的「管得严」与「对孩子好」拆成要求与回应两支，此后这两格才能分别调节。限制也一样清楚：样本几乎全是伯克利的白人、中等收入、受教育家庭，证据是相关而非因果；跨文化研究（Chao 1994 指出中文语境里「管教」本身就被孩子读作关心）削弱了「专制一定糟」的普遍性。她的另一场战役是科研伦理——公开批评米尔格拉姆的服从实验滥用欺骗；她在人类发展研究所一待五十八年，每天戴自己做的发带。",
+    "detailEn": "She used no questionnaire; she worked backwards from behavior—teachers rated the children first, then she visited their homes for interviews and situational observation, and three repeatable patterns surfaced from her 1960s sample. Maccoby and Martin added the fourth cell, low demand with low responsiveness, in 1983. The decisive move was dimensionalization: prying apart the tangle of strictness and warmth into demand and responsiveness, so each could be set on its own. The limits are equally clear—the sample was almost all white, middle-income, educated Berkeley families, and the evidence is correlational, not causal—while cross-cultural work, Chao in 1994 noting that in Chinese contexts discipline is itself read by children as care, weakened the universality of an authoritarian penalty. Her other campaign was research ethics, attacking Milgram's use of deception; she stayed at the Institute of Human Development for fifty-eight years, wearing a headband she made herself.",
+    "keyIdeas": ["权威型／专制型／纵容型", "要求与回应两个维度", "把父亲纳入纵向样本", "反对实验中的欺骗（批评米尔格拉姆）"],
+    "keyIdeasEn": [
+      "Authoritarian / authoritative / permissive",
+      "Two axes: demand and responsiveness",
+      "Fathers in a longitudinal sample",
+      "Anti-deception critique of Milgram"
+    ],
+    "works": ["〈先于三种学龄前行为模式的育儿实践〉", "〈当前父母权威的形态〉", "《早期社会化与管教之争》", "《社会情境中的儿童虐待与最优照护》"],
+    "worksEn": [
+      "Child Care Practices Anteceding Three Patterns of Preschool Behavior",
+      "Current Patterns of Parental Authority",
+      "Early Socialization and the Discipline Controversy",
+      "Child Maltreatment and Optimal Caregiving in Social Contexts"
+    ],
+    "related": [
+      "parenting-styles",
+      "authoritative-parenting",
+      "behavior-vs-psychological-control",
+      "which-parenting-style",
+      "milgram"
+    ],
+    "tags": ["发展", "家庭"],
+    "sources": [
+      {
+        "label": "伯克利人类发展研究所〈悼念戴安娜·鲍姆林德〉",
+        "labelEn": "UC Berkeley, Institute of Human Development, In Memoriam: Diana Baumrind",
+        "year": 2018
+      },
+      {
+        "label": "鲍姆林德〈先于三种学龄前行为模式的育儿实践〉",
+        "labelEn": "Baumrind, Child Care Practices Anteceding Three Patterns of Preschool Behavior",
+        "year": 1967
+      },
+      {
+        "label": "鲍姆林德〈当前父母权威的形态〉",
+        "labelEn": "Baumrind, Current Patterns of Parental Authority",
+        "year": 1971
+      }
+    ]
   }
 ]
