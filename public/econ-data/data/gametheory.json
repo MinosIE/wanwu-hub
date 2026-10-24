@@ -210,5 +210,134 @@
         "year": 1960
       }
     ]
+  },
+{
+    "id": "signaling-game",
+    "name": "信号博弈",
+    "nameEn": "Signaling Games",
+    "category": "核心概念",
+    "categoryEn": "Core concept",
+    "level": 3,
+    "oneLiner": "信息一方靠发出“昂贵到只有真货才发得起”的信号来自证，均衡能否成立全看造假成本够不够高。",
+    "oneLinerEn": "An informed party proves itself by sending a signal too costly for a fake to afford; whether the equilibrium holds depends entirely on fakes finding it unaffordable.",
+    "detail": "斯彭斯（1973）在逆向选择之外补上“信号”这一腿：能力强的人更愿（也更负担得起）读多年书，于是学历把类型分开。关键在于信号必须昂贵且对不同人有不同成本，低能力者模仿不划算，才能形成“分离均衡”；若成本差不够大，所有人挤到同一档就是“混同均衡”，信号失效。与“筛检”相对——这里是信息方主动出价自证。学历究竟是提升能力（人力资本）还是仅暴露既有能力，正是它最激烈的争论。",
+    "detailEn": "Spence (1973) adds 'signaling' alongside adverse selection: the more able are keener and better placed to afford years of schooling, so credentials sort types. The crux is that a signal must be costly, and cost more for low types, so mimicking doesn't pay—only then does a 'separating equilibrium' arise; if cost differences are too small, everyone crowds into one tier, a 'pooling equilibrium', and the signal fails. It is the mirror of 'screening'—here the informed side bids to reveal itself. Whether schooling raises ability (human capital) or merely exposes it is the sharpest dispute around it.",
+    "example": "厂商敢给长期免费质保，是因为只有对自己质量真有信心的好货才付得起坏品赔付，消费者据此把它与劣质品区分开。",
+    "exampleEn": "A firm dares to offer a long free warranty because only a genuinely good product can afford to pay out defects, so buyers tell it from the shoddy.",
+    "takeaways": ["信号可信与否取决于成本结构，而非口头声明——“烧钱”本身才是内容。", "当模仿成本下降（文凭泛滥），信号贬值，市场退回逆向选择。"],
+    "takeawaysEn": [
+      "A signal's credibility rests on cost structure, not talk—the 'burning of money' is the message.",
+      "When imitation gets cheap (credential inflation), the signal degrades and the market slides back to adverse selection."
+    ],
+    "related": [
+      "adverse-selection",
+      "information-asymmetry",
+      "human-capital",
+      "education-signal",
+      "nash-equilibrium-game"
+    ],
+    "sources": [
+      {
+        "label": "斯彭斯《劳动力市场信号》（1973）",
+        "labelEn": "Spence, Job Market Signaling",
+        "year": 1973
+      }
+    ]
+  },
+{
+    "id": "ultimatum-dictator",
+    "name": "最后通牒与独裁者博弈",
+    "nameEn": "Ultimatum and Dictator Games",
+    "category": "经典博弈",
+    "categoryEn": "Classic games",
+    "level": 2,
+    "oneLiner": "一人提议怎么分钱、另一人可拒绝（双方都归零），结果“太少的钱也会被拒”，戳破了纯自利假设。",
+    "oneLinerEn": "One proposes a split, the other can reject it (both get nothing)—yet 'too little gets rejected', puncturing the pure-self-interest assumption.",
+    "detail": "古斯等（1982）用一笔小钱实验：按子博弈精炼均衡，提议者只给一元、响应者也该接受（一元胜过零）。现实里过低的分成常被拒，人们宁愿自己少拿也要惩罚“不公平”。去掉拒绝权的“独裁者博弈”中，多数仍会给对方留一点，只是幅度小得多。这为公平偏好、报复与“昂贵信号式的强硬”提供了可复现证据，也催生了 Fehr–Schmidt 等不平等规避模型。限度在于：小额、一次性、匿名实验对真实市场谈判的外部效度有限，文化与制度差异显著。",
+    "detailEn": "Guth et al. (1982) split a small stake: subgame-perfect equilibrium says the proposer offers the least and the responder accepts (something beats nothing). In fact low offers are often rejected—people pay to punish 'unfairness'. Even in the 'dictator game', where the responder can't reject, most still leave the other something, just far less. This gives reproducible evidence for fairness preferences, spite and 'costly tough signalling', and spawned inequity-aversion models (Fehr-Schmidt). Its limits: small, one-shot, anonymous lab stakes generalize weakly to real bargaining, and culture and institution matter a lot.",
+    "example": "两人分一百元，甲提议只给乙五元，乙宁可两人都拿零也拒绝——理性模型预测不了这份“争气钱”。",
+    "exampleEn": "Splitting 100, A offers B just 5; B rejects so both get nothing, preferring to 'save face'—something the rational model can't predict.",
+    "takeaways": ["人会为惩罚不公平付出真实代价，纯自利假设在分配场景系统性失灵。", "拒绝权显著抬高平均分成——谈判力（而非利他）也塑造“公平”。"],
+    "takeawaysEn": [
+      "People pay real costs to punish unfairness; pure self-interest fails systematically in allocation settings.",
+      "The power to reject markedly raises average shares—bargaining leverage, not altruism, also shapes 'fairness'."
+    ],
+    "related": [
+      "fairness-reciprocity",
+      "prospect-theory",
+      "loss-aversion-effect",
+      "nash-equilibrium-game"
+    ],
+    "sources": [
+      {
+        "label": "古斯、施密特伯格、施瓦茨《最后通牒谈判的实验分析》（1982）",
+        "labelEn": "Guth, Schmittberger & Schwarze, An Experimental Analysis of Ultimatum Bargaining",
+        "year": 1982
+      }
+    ]
+  },
+{
+    "id": "matching-market",
+    "name": "稳定匹配与延迟接受",
+    "nameEn": "Stable Matching and Deferred Acceptance",
+    "category": "机制",
+    "categoryEn": "Mechanisms",
+    "level": 3,
+    "oneLiner": "没有价格的市场（住培、择校、捐肾）靠算法配对，目标是让没人宁愿抛下现配去私下双宿。",
+    "oneLinerEn": "Priceless markets (residency, school choice, kidney swaps) are matched by algorithm, aiming so no pair would rather ditch their matches to elope together.",
+    "detail": "盖尔与沙普利（1962）证明：在双方各有偏好的两列匹配里，存在“稳定”解——不存在一男一女（或医院与医生）双双宁愿弃当前对象而互选。延迟接受算法让一方逐轮申请、另一方暂优后择优保留、末轮定盘，且对提出申请的一方“说真话最优”。罗斯（1980s–90s）把它接入美国住院医匹配、肾脏交换与择校，2012 年获诺奖。核心洞见：当价格不能出清（伦理或管制禁止），机制设计能替代价格，但会留下“哪一方提申请”的策略红利。",
+    "detailEn": "Gale and Shapley (1962) showed that in two-sided matching with preferences a 'stable' outcome exists—no man and woman (or hospital and doctor) both prefer to abandon their matches for each other. The deferred-acceptance algorithm has one side apply round by round while the other tentatively holds its best, settling at the end; it is strategy-proof (truthful is optimal) for the applying side. Roth (1980s–90s) wired it into U.S. residency matching, kidney exchange and school choice, earning the 2012 Nobel. The core insight: where prices can't clear (ethics or rules forbid them), mechanism design substitutes for price—but leaves a strategic edge to whichever side proposes.",
+    "example": "美国住院医匹配中，学生按真实意愿排序申报、医院择优暂留，避免了过去“抢人大战”里双方都谎报偏好、提前私签的混乱。",
+    "exampleEn": "In U.S. residency matching, students rank honestly and apply, hospitals hold the best tentatively, ending the old scramble where both lied about preferences and signed deals too early.",
+    "takeaways": ["价格被禁止时，算法能替代它达成“稳定”，但设计的细节决定红利归谁。", "对弱势或急着成交的一方，“先申请者”规则往往是它唯一可用的筹码。"],
+    "takeawaysEn": [
+      "When price is barred, an algorithm can deliver 'stability' in its place—but design details decide who captures the surplus.",
+      "For the weaker or more urgent side, the 'who-proposes' rule is often its only usable lever."
+    ],
+    "related": [
+      "auction-design",
+      "market-failure",
+      "price-signals",
+      "nash-equilibrium-game"
+    ],
+    "sources": [
+      {
+        "label": "盖尔、沙普利《大学录取与婚姻稳定》（1962）；罗斯的实践",
+        "labelEn": "Gale & Shapley, College Admissions and the Stability of Marriage; Roth's practice",
+        "year": 1962
+      }
+    ]
+  },
+{
+    "id": "backward-induction-commitment",
+    "name": "逆向归纳与可信承诺",
+    "nameEn": "Backward Induction and Credible Commitment",
+    "category": "核心概念",
+    "categoryEn": "Core concept",
+    "level": 3,
+    "oneLiner": "从终局往回推最优，常推出“一开始就摊牌”，于是先自缚手脚（破釜沉舟）反而成了优势。",
+    "oneLinerEn": "Reasoning optimal moves from the end backward often yields 'showdown at once'—so binding your own hands (burning the bridges) becomes an advantage.",
+    "detail": "有限序贯博弈用逆向归纳求解：先看最后一步谁怎么走，再倒推前一步。蜈蚣博弈显示这会很反直觉——两人轮流“继续/收手”，每多一轮总收益更高，但倒推到尽头竟是第一步就收手。原因是“我下一轮会合作”并不可信，理性人会在最后背叛，于是合作在起点就崩。谢林的正解是可信承诺：主动删掉自己的退路（烧船、立约、把决定权交给规则），让威胁或合作变得可信。这解释了央行独立性、债务上限、自动售货机不接受砍价等“自缚”设计的价值。",
+    "detailEn": "Finite sequential games are solved by backward induction: fix the last mover's best step, then unwind. The centipede game makes this counterintuitive—two players alternate 'continue/take', each extra round raising total gains, yet unwinding to the very end says take on move one. Because 'I'll cooperate next round' isn't credible—a rational player defects at the last node—cooperation collapses at the start. Schelling's fix is the credible commitment: deliberately deleting your own escape (burn the boats, pre-contract, hand the decision to a rule) so a threat or promise becomes believable. This is the value of 'self-binding' designs like central-bank independence, debt ceilings, or a vending machine that won't haggle.",
+    "example": "科尔特斯登陆后焚船，把“可撤退”从对手与士兵的选择集里物理删除，让“只能前进打赢”成为可信承诺。",
+    "exampleEn": "After landing, Cortes burned his ships, physically deleting 'retreat' from the choice set of foes and troops alike, making 'we can only press on and win' a credible commitment.",
+    "takeaways": ["理性倒推会摧毁合作；能可信地限制自己的未来选项，反而赢得当下的信任。", "制度（独立央行、自动规则、第三方托管）本质是把承诺“写死”的技术。"],
+    "takeawaysEn": [
+      "Rational unwind destroys cooperation; credibly constraining your future options wins present trust.",
+      "Institutions (independent central banks, automatic rules, escrow) are technologies for writing a commitment down."
+    ],
+    "related": [
+      "repeated-games",
+      "nash-equilibrium-game",
+      "prisoners-dilemma",
+      "hyperbolic-discounting"
+    ],
+    "sources": [
+      {
+        "label": "谢林《冲突的战略》；罗森塔尔蜈蚣博弈（1981）",
+        "labelEn": "Schelling, The Strategy of Conflict; Rosenthal's centipede game",
+        "year": 1981
+      }
+    ]
   }
 ]

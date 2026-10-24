@@ -33,7 +33,7 @@
 | 学科    | 架构       | 现有模块                                                                          | 条目量 | 距门槛                               |
 | ------- | ---------- | --------------------------------------------------------------------------------- | ------ | ------------------------------------ |
 | dynasty | FULL       | 19+                                                                               | 数千   | ✅ 达标（维持）                      |
-| econ    | FULL       | 概念/术语/人物/事件/骗局/宏微观/货币/贸易/行为/博弈/图表/日常/误区/测验/对比/流派 | 282    | 🟡 接近，补强即可                    |
+| econ    | FULL       | 概念/术语/人物/事件/骗局/宏微观/货币/贸易/行为/博弈/图表/日常/误区/测验/对比/流派 | 302    | ✅ 已破 300 门槛（第二十七批）        |
 | mind    | FULL       | 概念/术语/心理学家/流派/偏差/实验/时间线/测验/日常/ 误区/对比                      | 521    | 🟢 达标，应用与临床已铺开                    |
 | physics | subjectKit | 16 模块                                                                           | 130    | 🟢 已导出机器可读 JSON               |
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
@@ -189,7 +189,7 @@
 - **分流后续（第二十批）**：上条调研里分流到 thought / mgmt / econ 的三格已补齐，见 §3.3「和 / 恕」、§3.7「互惠 / 份子钱」与 BACKLOG 第二十批 —— 且原建议中 mgmt「SBI 反馈、非职权影响力」与 econ「礼物与互惠」经查重发现在库，已改放真缺口。
 - 目标：条目 200+。 **（累计 102→169：基础层 +14、社会心理与临床求助 +7、术语表 +16，及日常/误区等补强；第十九批再 +16 条人际与本土概念）**
 
-### 3.7 万物经济学 econ（🟡 接近达标）
+### 3.7 万物经济学 econ（✅ 已破 300）
 
 - [ ] 中国经济与数字经济、改革史
 - [ ] 行为金融与心理偏差（扩充 behavioral）
@@ -201,7 +201,8 @@
 - [x] 经典资本骗局与金融大事件：新增 `m-bubbles` 视图（郁金香、南海、庞氏、麦道夫、FTX 等 16 条）；`events` 22→31（黑色星期一、索罗斯做空英镑、俄罗斯违约、欧债、闪电崩盘、2015 A 股、瑞郎脱钩、英债风暴、SVB）
 - [x] 误区 `myths` 6→7：新增 `mango-parable`，把网文「芒果骗局」当**寓言**处理（不进 `bubbles`：无真实主体与可核来源），逐点还原为真实机制——操纵成本的约束（亨特兄弟白银）、后期入场者是投机而非无知（凯恩斯选美竞赛）、转手依赖审计与披露失灵（银广夏）
 - [x] **econ 人情世故分流（第二十批）：互惠写入制度层、份子钱写入日常层 +2**（concepts 30→31、everyday 10→11）——查重先挡掉一条假缺口：behavioral 里 `fairness-reciprocity`「公平与互惠」已存在，故不重写心理学版本的「礼物与互惠」，而补它没覆盖的两层。① `concepts` `reciprocity-institution`「互惠：没有法院的交换如何维持」（category 行为与博弈、level 3）：莫斯《礼物》的给予—接受—回报三义务、萨林斯互惠三型、Greif 中世纪马格里卜商人的集体惩罚联盟、奥斯特罗姆的分级制裁，最后落到「监督成本 × 再交易概率」这一可判据；② `everyday` `gift-debt` 🧧「随出去的份子钱，到底是谁在记账？」（level 2）：互助融资与跨期风险分担、礼单作为信用记录、社区排除作为执行机制，代价写礼金通胀、被排斥与被路径绑架，`concept` 字段回挂上一条。同步链：`counts.concepts` 30→31 ＋ `kpis` 中 concepts 的 `value` 30→31（econ 只有 concepts/glossary/events/bubbles 四项进 kpis，且字段名是 `value` 而非 `count`）＋ `counts.everyday` 10→11 → `npm run econ:build-index`（该脚本不回写 overview）。实测：append-only `git diff` deletions=0、`verify exit=0`、`build ✓`、econ 282 条 / 280 id（econ 属 `DUP_EXEMPT`，允许同 id 跨模块重名）、点开详情中英×明暗 PASS；`llms.txt` 的「核心概念速览」只列 26 条，系人工精选摘要而非全量枚举，故不随本轮改。
-- 目标：条目 300+，维持。 **（本轮 174→206：六大机制/术语/事件共 +32；后续 206→232：骗局与泡沫 16 条 + 金融大事件 9 条；再 232→233：误区「芒果骗局」寓言入表；第二十批 +2（互惠入 concepts、份子钱入 everyday），现 282 条）**
+- [x] **econ Phase B 补条目（第二十七批）：五个偏薄分类各补真缺口 +20（282→302、破 300 门槛）**——先做方向勘查：earth / life 各视图类已 15–20 条健康（总数低只因视图少）、econ 才有 Phase B 真靶（10 个视图类 8–11 条）。先跨库查重，三条红线不立（比较优势实证撞 concepts/glossary、贸易再分配撞 `trade.trade-and-jobs`、mgmt「Spence」是能力冰山模型非信号模型）。**落地**：`schools` 9→13（`marxian-economics`／`supply-side`／`mmt`／`ordoliberalism`）、`gametheory` 8→12（`signaling-game`／`ultimatum-dictator`／`matching-market`／`backward-induction-commitment`）、`trade` 9→13（`economic-sanctions`／`friendshoring`／`carbon-border`／`rules-of-origin`）、`compare` 8→11（`antitrust-models`／`capital-account`／`sovereign-funds`）、`quiz` 8→13（`q-signaling`／`q-ultimatum`／`q-carbon-border`／`q-sanctions`／`q-mmt`）；CBAM、Güth 1982、Spence 1973、Gale-Shapley/Roth 等事实经 WebSearch 多源核对，每条带「限度」段。同步链：五个目标类都不在 econ `kpis`（只含 concepts/glossary/events/bubbles）→ **只改 `counts` 五键、不动 kpis**；`npm run econ:build-index` 重建 search/related（302 条 / 300 id）；econ 不在 `gen-geo` 覆盖、llms 无写死这五类条数 → 本批不改 llms。反向回插 `thinkers.karl-marx.related` 加 `marxian-economics`。**deletions 全部定性**：五个内容文件纯追加 deletions=0，overview 5/5 为 counts、thinkers 1/1 为行内 related（旧数组是新数组子序列）、search/related 为脚本产物。实测：`econ:build-index` 302/300、`links:check` 0 错 0 警、`verify exit=0`、`build ✓ 911ms`；puppeteer 走 `vite preview` 4326 中英×明暗四组合 **136 项 PASS／0 FAIL**（五模块计数限定 `#gameGrid .card` 等宿主＋三反向对照、三档分类筛选 6/3/3、新卡详情芯片 >0、quiz 总数 13）。**新踩坑**：econ 模块懒挂载而 `<section id="m-*">` 外壳常驻，冒烟等待必须钉真实卡片选择器而非外壳；`data-cat` 永远存中文 category 原值（en 态也用中文值筛）。
+- 目标：条目 300+，**已破**。 **（本轮 174→206：六大机制/术语/事件共 +32；后续 206→232：骗局与泡沫 16 条 + 金融大事件 9 条；再 232→233：误区「芒果骗局」寓言入表；第二十批 +2（互惠入 concepts、份子钱入 everyday）→ 282；第二十七批 +20（schools/gametheory/trade/compare/quiz 五类补真缺口），现 302 条、破 300）**
 
 ### 3.8 中华王朝 dynasty（✅ 维持）
 

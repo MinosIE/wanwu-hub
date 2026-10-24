@@ -328,5 +328,187 @@
         "year": 2013
       }
     ]
+  },
+{
+    "id": "economic-sanctions",
+    "topic": "经济制裁与金融武器化",
+    "topicEn": "Sanctions and Financial Weaponization",
+    "level": 3,
+    "oneLiner": "把贸易、支付与储备当作施压杠杆：制裁能否奏效，取决于目标国的替代来源与制裁方的执行成本谁更大。",
+    "oneLinerEn": "Using trade, payments and reserves as leverage: whether sanctions work turns on whether the target's alternatives or the sender's enforcement cost is the bigger bind.",
+    "detail": "制裁从禁运特定商品，升级到切断 SWIFT 报文、冻结央行储备、二级制裁威慑第三方。金融基础设施的枢纽地位让“美元武器化”威力巨大，但也促使被制裁方另建支付通道、储备去美元化、囤积实物。实证上，制裁对成熟大国的政策改变成功率偏低，多靠长期消耗而非速胜；最大成本往往落在平民与第三方国家。它把相互依存本身变成了权力武器（“相互依存之武器的悖论”）。",
+    "detailEn": "Sanctions have escalated from embargoes on goods to cutting SWIFT messaging, freezing central-bank reserves and secondary sanctions that deter third parties. The hub role of financial infrastructure makes 'dollar weaponization' potent, yet pushes targets to build alternate rails, de-dollarize reserves and hoard goods. Empirically, sanctions win policy concessions from large mature economies rarely, succeeding by long attrition rather than quick wins, and their heaviest costs fall on civilians and third countries. It turns interdependence itself into a weapon—the paradox of 'weapons of interdependence'.",
+    "example": "2022 年后多国央行外汇储备加速分散、增持黄金，正是储备可被冻结这一先例触发的去美元化反应。",
+    "exampleEn": "The post-2022 rush by central banks to diversify reserves and buy gold is a de-dollarization response to the precedent that reserves can be frozen.",
+    "views": [
+      {
+        "k": "有效性",
+        "kEn": "Efficacy",
+        "v": "对小而依赖的经济体更有效；对大国常只是长期放血，难换即期让步。",
+        "vEn": "Better against small, dependent economies; against majors it bleeds slowly and rarely buys immediate concessions."
+      },
+      {
+        "k": "外溢代价",
+        "kEn": "Spillover",
+        "v": "人道成本、第三方受损与规避产业（影子船队、加密货币）随之兴起。",
+        "vEn": "Humanitarian cost, third-party harm and evasion industries (shadow fleets, crypto) follow."
+      },
+      {
+        "k": "长期反噬",
+        "kEn": "Backlash",
+        "v": "过度使用会侵蚀储备货币的中立性，反而削弱其网络优势。",
+        "vEn": "Overuse erodes the neutrality of the reserve currency, undercutting its own network advantage."
+      }
+    ],
+    "related": [
+      "currency-and-trade",
+      "trade-institutions",
+      "global-supply-chain-risks",
+      "plaza-accord"
+    ],
+    "sources": [
+      {
+        "label": "法雷尔与纽曼《相互依存之武器》；巴尔丁《金融制裁政治经济》",
+        "labelEn": "Farrell & Newman, Weaponized Interdependence; Balding, The Political Economy of Financial Sanctions",
+        "year": 2019
+      }
+    ]
+  },
+{
+    "id": "friendshoring",
+    "topic": "友岸外包与供应链回摆",
+    "topicEn": "Friend-Shoring and Supply-Chain Rewinding",
+    "level": 2,
+    "oneLiner": "疫情与地缘冲突后，企业把关键环节从“最低成本地”挪到“最放心地”，用一点效率换抗断供的韧性。",
+    "oneLinerEn": "After the pandemic and geopolitical shocks, firms move key links from the cheapest place to the safest, trading a little efficiency for resilience against disruption.",
+    "detail": "过去三十年供应链按“成本最低、即时到货”布局，代价是单点故障即可全球断链。友岸外包（把产能放到政治友好国）、近岸外包（放到邻近国）与回岸（搬回国内）是三种回摆。它不是纯粹的效率倒退：冗余库存、多元供应商与“中国+1”本身是保险。风险在于“阵营化”把贸易按地缘划线，可能推高成本、催生贸易转移，并把产业政策与补贴竞赛重新引燃。与 global-supply-chain-risks 是“诊断—应对”的分工：那条讲脆弱性，本条讲政策与企业对策。",
+    "detailEn": "Three decades of supply chains were laid out for lowest cost and just-in-time, at the price of single points of failure rippling worldwide. Friend-shoring (capacity to political allies), near-shoring (to neighbors) and onshoring (home) are three rewinds. This isn't pure efficiency loss: buffer stock, multi-sourcing and 'China+1' are themselves insurance. The risk is bloc-ization drawing trade along geopolitical lines—lifting costs, spurring trade diversion and rekindling subsidy and industrial-policy races. Its division of labour with global-supply-chain-risks is diagnosis-versus-response: that entry covers fragility, this one the policy and corporate counter-moves.",
+    "example": "苹果把部分 iPhone 产线从中国大陆迁往印度与越南，是“中国+1”分散单一产地风险的典型友岸/近岸并举。",
+    "exampleEn": "Apple shifting some iPhone lines from mainland China to India and Vietnam is a classic friend/near-shoring move under 'China+1' to spread single-origin risk.",
+    "views": [
+      {
+        "k": "韧性换效率",
+        "kEn": "Resilience for efficiency",
+        "v": "多元化降低断供概率，但抬高单位成本与资本占用。",
+        "vEn": "Diversification cuts disruption odds but raises unit cost and capital lock-up."
+      },
+      {
+        "k": "地缘划线",
+        "kEn": "Geographic blocs",
+        "v": "按“友好度”选供应商会把贸易工具化，弱国被迫选边。",
+        "vEn": "Picking suppliers by 'friendliness' weaponizes trade and forces small states to choose sides."
+      },
+      {
+        "k": "补贴竞赛",
+        "kEn": "Subsidy race",
+        "v": "回岸常伴随本土补贴，易升级为以邻为壑的产业竞赛。",
+        "vEn": "Onshoring usually rides on home subsidies, prone to escalate into a beggar-thy-neighbor industrial race."
+      }
+    ],
+    "related": [
+      "global-supply-chain-risks",
+      "tariff-war",
+      "protectionism-tools",
+      "economic-sanctions",
+      "china-wto-2001"
+    ],
+    "sources": [
+      {
+        "label": "《经济学人》关于 friend-shoring 系列；欧盟“战略自主”讨论文件",
+        "labelEn": "The Economist on friend-shoring; EU 'strategic autonomy' papers",
+        "year": 2022
+      }
+    ]
+  },
+{
+    "id": "carbon-border",
+    "topic": "碳边境与绿色贸易规则",
+    "topicEn": "Carbon Borders and Green Trade Rules",
+    "level": 3,
+    "oneLiner": "给进口货按其隐含碳排放补一道价，让“碳价差”不再是漏损：气候与国内产业两头都要顾，却同时踩到他国主权。",
+    "oneLinerEn": "Pricing imports on their embedded carbon so the 'carbon-price gap' stops leaking: it guards both climate and domestic industry, yet tread on other states' sovereignty all at once.",
+    "detail": "CBAM（欧盟《碳边境调节机制条例》2023/956）为本土已含碳价的产品，向进口补征差额，先覆盖水泥、钢、铝、化肥、电力、氢六类高碳泄漏行业。2019 年欧洲绿色新政构想、2021 年提案、2023 年 5 月生效，10 月 1 日起进入只报告不付费的过渡期，2026 年 1 月起正式期需购证清缴（首批针对 2026 年进口于 2027 年结），证书价挂钩 EU ETS。设计巧妙处：出口国已付碳价可抵扣、设最低门槛豁免小微进口。但争议尖锐：被指变相关税、歧视发展中国家、核算标准与技术壁垒；如何与 WTO 非歧视原则相容，仍在博弈。与 compare 的 carbon-pricing 分工：那条比国内碳定价工具，本条讲碳价的跨境贸易一面。",
+    "detailEn": "CBAM (EU Regulation 2023/956) tops up import charges on goods whose domestic peers already pay a carbon price, starting with the six high-leakage sectors—cement, steel, aluminium, fertilisers, power, hydrogen. Conceived in the 2019 Green Deal, proposed in 2021, the regulation entered force in May 2023 with a report-only transitional phase from October (no payments), moving to a charging phase from January 2026 (first certificates from 2027 on 2026 imports), priced against the EU ETS. Its clever bits: carbon already paid by the exporter is credited, and a de minimis spares small importers. But the disputes are sharp: critics call it a disguised tariff, biased against developing economies, and a data-standard-and-tech-barrier machine; its fit with WTO non-discrimination is still contested. It splits with compare's carbon-pricing, which contrasts domestic carbon tools—this entry is the cross-border trade face of carbon pricing.",
+    "example": "一家向欧盟出口钢铁、且本国未收碳价的工厂，未来须为隐含碳买 CBAM 证书；若本国已有碳市场，则只补差额、避免重复计费。",
+    "exampleEn": "A mill exporting steel to the EU from a country without carbon pricing must buy CBAM certificates for the embedded carbon; if a home carbon market exists, only the difference is added, avoiding double-charge.",
+    "views": [
+      {
+        "k": "防碳泄漏",
+        "kEn": "Anti-leakage",
+        "v": "把境内外碳价拉平，避免减排被生产外移抵消，兼护本土产业竞争力。",
+        "vEn": "Levels the carbon-price field, so cuts aren't undone by offshoring, while shielding local industry."
+      },
+      {
+        "k": "贸易摩擦",
+        "kEn": "Trade friction",
+        "v": "易被读作绿色壁垒，触发他国对等反制与合规成本激增。",
+        "vEn": "Readily seen as a green wall, prompting tit-for-tat and a spike in compliance cost."
+      },
+      {
+        "k": "发展公平",
+        "kEn": "Equity",
+        "v": "历史排放少的发展中国家承受最重，需把收入用于绿色转移而非纯保护。",
+        "vEn": "Developing economies with low historic emissions bear the brunt; revenue should fund their transition, not mere protection."
+      }
+    ],
+    "related": [
+      "carbon-pricing",
+      "externality",
+      "public-goods",
+      "trade-institutions",
+      "gains-from-trade"
+    ],
+    "sources": [
+      {
+        "label": "欧盟《碳边境调节机制条例》(EU) 2023/956",
+        "labelEn": "Regulation (EU) 2023/956 establishing the Carbon Border Adjustment Mechanism",
+        "year": 2023
+      }
+    ]
+  },
+{
+    "id": "rules-of-origin",
+    "topic": "原产地规则与“意大利面碗”",
+    "topicEn": "Rules of Origin and the Spaghetti Bowl",
+    "level": 3,
+    "oneLiner": "自由贸易协定靠“产自成员国才享零关税”的门槛运行，规则越叠越密，形成互相打架的“意面碗”。",
+    "oneLinerEn": "Free-trade pacts run on a 'made in a member to get zero tariffs' gate; the rules pile up into a spaghetti bowl of clashing criteria.",
+    "detail": "特惠关税只给“原产”协定成员的商品，于是必须界定“多少价值在成员国内产生、经过什么工序才算”，这就是原产地规则（ROO）：区域价值成分、税则归类改变、加工工序等门槛。门槛太松，区外厂把最后一道工序搬进来就能“洗澡过关”（贸易转移与避风港效应）；门槛太紧，企业凑不齐、干脆放弃优惠（贸易创造落空）。全球数百个双边/区域协定规则各异、互不兼容，被称为“意大利面碗”效应（Baghwati 1995）：合规成本随协定数指数级上升。理解“原产地”是看懂近岸外包、友岸与“本地含量”补贴为何常被滥用为变相保护的钥匙。",
+    "detailEn": "Preferential tariffs go only to goods 'originating' in a pact's members, so someone must decide how much value is added inside and what counts as processing: that is the rule of origin (ROO)—regional value content, tariff-shift, or a processing list. Too loose, an outside factory ships in the last step to 'bath through'; too strict, firms can't assemble a claim and forfeit the benefit, and trade creation fizzles. Hundreds of bilateral/regional pacts with non-aligned ROOs tangle into a 'spaghetti bowl' (Bhagwati 1995): compliance cost climbs geometrically with the number of agreements. Understanding 'origin' is the key to why near-shoring, friend-shoring and local-content mandates so easily turn into disguised protection.",
+    "example": "车企为拿到某贸易区零关税，把最后组装从东南亚搬到区内某国，零件照旧从区外进口——“洗澡过关”的典型避风港效应。",
+    "exampleEn": "To pocket a zone's zero tariff, a carmaker moves final assembly to a member state while parts still come from outside—the classic 'bathing through' haven effect.",
+    "views": [
+      {
+        "k": "反避风港",
+        "kEn": "Anti-haven",
+        "v": "严格的本地成分门槛防区外厂借道套利，让协定优惠落在成员。",
+        "vEn": "Tight local-content bars stop outside firms laundering in, keeping the pact's preference with members."
+      },
+      {
+        "k": "合规成本",
+        "kEn": "Compliance cost",
+        "v": "多协定互不兼容，凑证、审计、文书吞掉大部分优惠。",
+        "vEn": "Incompatible accords mean the paperwork of proving origin eats most of the gain."
+      },
+      {
+        "k": "投资扭曲",
+        "kEn": "Investment bias",
+        "v": "企业为凑门槛而改变区位，未必基于效率，形成保护性低效。",
+        "vEn": "Firms shift location to meet a rule rather than for efficiency—protection breeding inefficiency."
+      }
+    ],
+    "related": [
+      "trade-institutions",
+      "protectionism-tools",
+      "friendshoring",
+      "services-digital-trade"
+    ],
+    "sources": [
+      {
+        "label": "巴格瓦蒂《意大利面碗：世界贸易保护》",
+        "labelEn": "Bhagwati, The Spaghetti Bowl: World Trade Protection",
+        "year": 1995
+      }
+    ]
   }
 ]

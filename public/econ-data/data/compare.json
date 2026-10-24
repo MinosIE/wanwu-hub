@@ -117,5 +117,128 @@
     "takeaway": "长寿与少子正同时侵蚀「工作人口供养退休人口」这份老契约。没有万能模式，关键在缴费、退休年龄与替代率能否随人口结构动态再平衡，并把投资风险讲清楚。",
     "takeawayEn": "Rising longevity and falling birth rates together erode the old contract of workers funding retirees. No model fits all; what matters is whether contributions, retirement age and replacement rates rebalance dynamically with demographics—and whether investment risk is clearly assigned.",
     "sources": [{ "label": "OECD 与世界银行《世界养老金概览》", "labelEn": "OECD and World Bank, Pensions at a Glance", "year": 2023 }]
+  },
+{
+    "id": "antitrust-models",
+    "question": "面对垄断与平台巨头，政府该按什么标准执法？",
+    "questionEn": "When facing monopolies and platform giants, what standard should the state enforce by?",
+    "level": 3,
+    "cases": [
+      {
+        "who": "美国：消费者福利标准",
+        "whoEn": "US: consumer welfare standard",
+        "how": "1970 年代后（博克、芝加哥学派）从“反大”转向“反低效”——只要合并没让价格上升或产出下降，通常放行；结构派（布兰代斯“反新自由”传统）近年借民粹回潮。",
+        "howEn": "Post-1970s (Bork, Chicago) it flipped from 'big is bad' to 'inefficiency is bad'—mergers pass unless they raise price or cut output; a structural Brandeis lineage is resurging on a populist wave."
+      },
+      {
+        "who": "欧盟：竞争秩序与市场一体化",
+        "whoEn": "EU: competition order and single-market integration",
+        "how": "承秩序自由主义，保护的是“竞争过程与结构”，不只看即时价格——更敢拆支配地位、罚滥用（谷歌、Intel、微软案），并把执法当作建成单一市场的推手。",
+        "howEn": "Rooted in ordoliberalism, it guards the process and structure of competition, not just near-term price—keener on breaking dominance and punishing abuse (Google, Intel, Microsoft), and uses enforcement to build the single market."
+      },
+      {
+        "who": "中国：竞争政策 + 产业政策 + 平台治理并行",
+        "whoEn": "China: competition, industrial policy and platform governance in parallel",
+        "how": "2008 年《反垄断法》起步，近年对平台经济集中查处（未依法申报、滥用市场支配地位）与防止“资本无序扩张”挂钩，同时保留对国企与战略性行业的产业政策空间。",
+        "howEn": "The 2008 Anti-Monopoly Law started the track; recent platform enforcement (unfiled concentrations, abuse of dominance) ties to curbing 'disorderly expansion of capital', while industrial policy for SOEs and strategic sectors keeps its room."
+      },
+      {
+        "who": "结构 vs 行为： remedies 之争",
+        "whoEn": "Structural vs conduct remedies",
+        "how": "同一定性，药方不同：结构派要拆分与阻断并购（回到 1911 标准石油传统），行为派用禁令、互操作义务与数据可携（更接近欧盟对微软、DMA 的路子）。",
+        "howEn": "Same finding, different cure—structuralists break up firms and block mergers (back to the 1911 Standard Oil playbook), behaviorists use injunctions, interoperability and data portability (closer to EU's Microsoft-style and DMA toolkit)."
+      }
+    ],
+    "takeaway": "没有“中立”的反垄断最优范式：效率、消费者福利、公平、权力分散与创新激励，不同目标会导出截然不同的判决。真正的分歧在“目标是什么”，而不是“工具够不够聪明”。",
+    "takeawayEn": "No antitrust paradigm is neutral: efficiency, consumer welfare, fairness, dispersal of power and innovation incentives yield very different verdicts. The real fault line is 'what is the goal'—not 'are the tools smart enough'.",
+    "sources": [
+      {
+        "label": "博克《反垄断悖论》；齐图斯《数字资本主义的垄断》；欧盟 DMA 立法文件",
+        "labelEn": "Bork, The Antitrust Paradox; Zingales, Monopoly in Digital Capitalism; EU DMA files",
+        "year": 2022
+      }
+    ]
+  },
+{
+    "id": "capital-account",
+    "question": "一个国家该多快放开跨境资本流动？",
+    "questionEn": "How fast should a country open its cross-border capital flows?",
+    "level": 3,
+    "cases": [
+      {
+        "who": "快速全面开放：拉美与东南亚 1980s–90s",
+        "whoEn": "Rapid full opening: Latin America and SE Asia, 1980s–90s",
+        "how": "在国内金融监管与汇率机制尚未稳健时先放开资本账，短期热钱涌入催生房地产与信贷泡沫，1997 年亚洲金融危机里泰国、印尼、韩国被迫 IMF 援助，代价惨重。",
+        "howEn": "Opening the capital account before domestic prudential and FX regimes were mature flooded them with hot money, inflating property and credit; in 1997 Thailand, Indonesia and Korea were pushed into IMF programs at heavy cost."
+      },
+      {
+        "who": "渐进 + 管理：中国",
+        "whoEn": "Gradual with management: China",
+        "how": "长期保持未完全可兑换、有管理浮动、QFII/RQFII 与沪深港通额度通道，先让 FDI 与贸易结汇自由、再逐步开放证券投资。IMF 事后承认这类“宏观审慎+顺序”是危机里少踩坑的原因之一。",
+        "howEn": "For decades China kept partial convertibility, a managed float and quota rails (QFII/RQFII, Stock Connect), liberalising FDI and trade settlement first and securities flows later. The IMF later granted that this macroprudential-sequencing mix helped spare it from the worst of several crises."
+      },
+      {
+        "who": "主动使用资本流动管理措施（CFMs）",
+        "whoEn": "Active capital-flow management measures (CFMs)",
+        "how": "智利 1990s 的恩科/无息准备金（enforcement）压制短期投机流入；马来西亚 1998 危机时直接钉住并管制外流，事后被承认比 IMF 处方恢复更快；冰岛 2008 破产后出口限制延续多年稳住汇率。",
+        "howEn": "Chile's 1990s unpaid reserve requirements (encaje) throttled short-term inflows; Malaysia's 1998 peg plus outflow controls recovered faster than the IMF prescription it defied; post-2008 Iceland kept export restrictions for years to stabilize its króna."
+      },
+      {
+        "who": "完全开放 + 自由浮动：成熟发达经济体",
+        "whoEn": "Full opening plus free float: mature advanced economies",
+        "how": "美、英、日、欧元区成员资本项基本全开，代价由浮动汇率、深化的国内债市与独立央行吸收。这套的前提（制度厚度与深度本币债市）恰是新兴市场最缺的。",
+        "howEn": "The US, UK, Japan and eurozone members run largely open capital accounts; the cost is absorbed by free floats, deep domestic bond markets and independent central banks—exactly the preconditions emerging markets lack."
+      }
+    ],
+    "takeaway": "资本账户不是“开或关”的二选一：顺序（sequence）、期限结构（先长期后短期）与工具（宏观审慎、托宾类税、备用资本管制）能拆开风险。危机时“临时管制”往往被证明有效，但把它常态化则反噬 FDI 与融资成本。",
+    "takeawayEn": "The capital account is not a binary switch: sequencing (long-term money first, short-term last), maturity structure and tools (macroprudential rules, Tobin-type levies, contingent controls) let states unbundle the risks. Temporary crisis controls often earn out, but making them permanent bleeds FDI and funding access.",
+    "sources": [
+      {
+        "label": "IMF《资本账户自由化机构观点》(2012 综合); 雷伊 & 魏兹曼关于顺序的评估",
+        "labelEn": "IMF Institutional View on Liberalization of Capital Accounts (2012); REY & WEISZMANN on sequencing",
+        "year": 2012
+      }
+    ]
+  },
+{
+    "id": "sovereign-funds",
+    "question": "国家把外汇或资源财富装进一只基金，该怎么管、给谁用？",
+    "questionEn": "When a state bottles FX reserves or resource wealth into one fund, how should it be run—and for whom?",
+    "level": 3,
+    "cases": [
+      {
+        "who": "挪威政府全球养老基金（GPFG）",
+        "whoEn": "Norway Government Pension Fund Global (GPFG)",
+        "how": "以“只花预期实际回报（约 3%）”的财政规则隔离政治周期；伦理指引排除烟草、某些化石燃料与违约武器公司；治理独立、透明到近乎炫耀。它把石油财富变成了跨代储蓄而非支出。",
+        "howEn": "A fiscal rule of spending only the expected real return (~3%) shields it from political cycles; ethics guidelines exclude tobacco, certain fossil fuels and cluster-munitions makers; governance is independent and disclosure is almost ostentatious. It turned oil wealth into inter-generational saving, not spending."
+      },
+      {
+        "who": "新加坡：GIC + 淡马锡双轨",
+        "whoEn": "Singapore: the GIC–Temasek two-track",
+        "how": "GIC 管外储长期投资、以美元计价、追求长期回报；淡马锡持股新加坡战略性企业（航空、电信、银行），走“国家股东 + 商业化治理”。两轨分工让储备与产业政策互不侵蚀。",
+        "howEn": "GIC manages reserves as long-horizon USD investments chasing returns; Temasek holds stakes in strategic firms (aviation, telecoms, banking) as a 'state shareholder with commercial governance'. The two tracks keep reserves and industrial policy from eating each other."
+      },
+      {
+        "who": "中东：ADIA、Mubadala、QIA",
+        "whoEn": "Gulf: ADIA, Mubadala, QIA",
+        "how": "阿布扎比投资局偏纯财务长期分散；Mubadala、QIA 直接承担国内经济多元化（新能源、半导体、地产、体育与城市品牌）。同一主权下并存两只定位，考验治理边界。",
+        "howEn": "ADIA is a pure financial long-horizon diversifier; Mubadala and QIA carry explicit domestic diversification mandates (renewables, semis, real estate, sports and city brands). Two funds under one sovereign with different jobs stress-test the governance boundary."
+      },
+      {
+        "who": "中国投资有限责任公司（CIC，中投）",
+        "whoEn": "China Investment Corporation (CIC)",
+        "how": "2007 年成立，把部分外储从美国国债迁向多元资产配置，追求市场化保值增值；与国内政策性开发金融分工（国开、丝路基金、亚投行）互补。角色定位介于财务投资人与国家战略之间。",
+        "howEn": "Founded in 2007 to shift part of the reserves from Treasuries into a diversified, market-return mandate, complementing policy finance (CDB, Silk Road Fund, AIIB). Its identity sits between financial investor and national strategy."
+      }
+    ],
+    "takeaway": "主权财富基金的本质，是把“政治与市场对同一笔钱的双重索取”制度化：独立治理、支出规则与透明度决定它是缓冲还是诱惑。挪威式只花回报、新加坡式分轨、中东与中投把战略压在同一只基金上，各自有代价。",
+    "takeawayEn": "A sovereign wealth fund's core is to institutionalise the twin claims politics and the market lay on the same money: governance independence, spending rules and transparency decide whether it's a buffer or a temptation. Norway spends only the return, Singapore runs two tracks, and the Gulf/CIC stack strategy onto one pot—each with its own bill.",
+    "sources": [
+      {
+        "label": "GASW《主权财富基金原则：圣地亚哥原则》；IMF SWF 年鉴",
+        "labelEn": "GASSP Santiago Principles on SWFs; IMF SWF Yearbook",
+        "year": 2008
+      }
+    ]
   }
 ]

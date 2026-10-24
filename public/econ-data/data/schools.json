@@ -359,5 +359,184 @@
         "year": 1985
       }
     ]
+  },
+{
+    "id": "marxian-economics",
+    "order": 10,
+    "name": "马克思主义政治经济学",
+    "nameEn": "Marxian Economics",
+    "span": "1850 年代至今",
+    "spanEn": "1850s-present",
+    "level": 3,
+    "core": "以劳动价值论与剩余价值为骨架，把资本主义看成内含矛盾的历史生产方式：危机不是偶发失灵，而是制度运行的常态产物。",
+    "coreEn": "Built on the labour theory of value and surplus value, it treats capitalism as a historically specific mode of production with inner contradictions—crises are its normal output, not accidental failures.",
+    "founders": ["卡尔·马克思", "弗里德里希·恩格斯", "鲁道夫·希法亭", "米哈尔·卡莱基", "保罗·斯威齐", "大卫·哈维"],
+    "foundersEn": [
+      "Karl Marx",
+      "Friedrich Engels",
+      "Rudolf Hilferding",
+      "Michal Kalecki",
+      "Paul Sweezy",
+      "David Harvey"
+    ],
+    "keyIdeas": [
+      "商品价值由社会必要劳动时间决定，利润本质是未付给劳动者的剩余价值",
+      "积累推动机器替代劳动，形成利润率趋降与周期性生产过剩",
+      "资本与劳动的阶级关系决定收入分配与政策走向",
+      "金融资本是产业资本的高阶形态而非中性中介，危机可在此独立引爆"
+    ],
+    "keyIdeasEn": [
+      "Commodity value is set by socially necessary labour-time; profit is surplus value unpaid to labour",
+      "Accumulation drives labour-saving machinery, a falling tendency of the profit rate and periodic overproduction",
+      "Class relations between capital and labour shape income distribution and politics",
+      "Finance capital is a higher form of industrial capital, not a neutral intermediary—crises can ignite there on their own"
+    ],
+    "strengths": ["在主流只谈“市场失灵”时坚持追问制度性矛盾，为危机、不平等与全球化失衡提供长时段结构解释。"],
+    "strengthsEn": [
+      "Where the mainstream sees only 'market failures', it presses on institutional contradictions, giving long-run structural accounts of crises, inequality and global imbalance."
+    ],
+    "criticisms": [
+      "“转型问题”（把劳动价值转成生产价格）内部逻辑至今无一致解，劳动价值论的经验基础被边际革命与投入产出分析挑战；利润率长期趋降实证不稳，20 世纪计划经济的代价也使其难直接对应政策菜单。"
+    ],
+    "criticismsEn": [
+      "The 'transformation problem'—values into prices of production—is still unresolved, and the empirical basis of the labour theory of value is contested by marginalism and input-output analysis; long-run profit-rate decline is empirically mixed, and the cost of 20th-century planned economies makes direct policy translation hard."
+    ],
+    "related": ["karl-marx", "classical", "keynesian", "new-institutional", "austrian"],
+    "sources": [
+      {
+        "label": "马克思《资本论》第一卷；哈维《读〈资本论〉》",
+        "labelEn": "Marx, Capital Vol. I (1867); Harvey, A Companion to Marx's Capital",
+        "year": 1867
+      }
+    ]
+  },
+{
+    "id": "supply-side",
+    "order": 11,
+    "name": "供给学派",
+    "nameEn": "Supply-Side Economics",
+    "span": "1970 年代兴起，政策高峰 1980 年代",
+    "spanEn": "Rose in the 1970s; policy peak in the 1980s",
+    "level": 3,
+    "core": "把增长瓶颈归到被高税率与规制压制的供给侧激励，主张减税、去管制以恢复工作、储蓄与投资的积极性，标志工具是拉弗曲线。",
+    "coreEn": "Locates the growth bottleneck on supply-side incentives crushed by high tax rates and regulation, urging tax cuts and deregulation to restore work, saving and investment; its signature tool is the Laffer curve.",
+    "founders": ["罗伯特·蒙代尔", "亚瑟·拉弗", "裘德·万尼斯基"],
+    "foundersEn": ["Robert Mundell", "Arthur Laffer", "Jude Wanniski"],
+    "keyIdeas": [
+      "拉弗曲线：税率与税收非线性，越过顶点后加税反而减收",
+      "边际减税降低工作与规避成本，扩大税基，使部分增收自我融资",
+      "增长取决于货币稳定与生产激励，而非需求不足",
+      "管制的合规成本等效于隐性税，抑制创业与资本形成"
+    ],
+    "keyIdeasEn": [
+      "The Laffer curve: revenue and tax rate are nonlinear—beyond the peak, higher rates collect less",
+      "Marginal tax cuts lower the cost of working and avoiding, widening the base so some revenue is self-financing",
+      "Growth hinges on monetary stability and production incentives, not demand shortfall",
+      "Regulatory compliance costs act as an implicit tax, curbing entrepreneurship and capital formation"
+    ],
+    "strengths": ["把“激励”重新放回宏观议程，配合去管制与 80 年代通胀回落；提醒政策界名义税率不等于实际税负。"],
+    "strengthsEn": [
+      "Put 'incentives' back on the macro agenda, alongside deregulation and the 1980s inflation retreat; a reminder that statutory rates differ from effective burdens."
+    ],
+    "criticisms": [
+      "1980 年代美国赤字大幅扩大，“减税自付”的强命题未兑现，主流估计收入回补率仅数成；顶格减税对增长效应弱、对分配效应强（Saez–Mizeazol–Zucman 2019 指顶层税率才是主要驱动）。类似“税过高反减收”洞见可上溯伊本·哈尔敦（14 世纪），并非 70 年代首创。"
+    ],
+    "criticismsEn": [
+      "U.S. deficits ballooned in the 1980s and the strong 'tax cuts pay for themselves' claim did not hold—mainstream estimates recoup only a fraction; top-rate cuts show weak growth and strong distributional effects (Saez–Mizeazol–Zucman 2019 point to top marginal rates as the main driver). The insight that over-high rates cut revenue dates to Ibn Khaldun (14th c.), not the 1970s."
+    ],
+    "related": ["monetarism", "chicago-school", "fiscal-policy", "debt-dynamics"],
+    "sources": [
+      {
+        "label": "拉弗《供给面经济学》；费尔德斯坦关于税收与增长的评估",
+        "labelEn": "Laffer, Supply-Side Economics; Feldstein on taxes and growth",
+        "year": 1981
+      }
+    ]
+  },
+{
+    "id": "mmt",
+    "order": 12,
+    "name": "现代货币理论",
+    "nameEn": "Modern Monetary Theory",
+    "span": "1990 年代定名，2020 年进入公共辩论",
+    "spanEn": "Named in the 1990s; into public debate in 2020",
+    "level": 3,
+    "core": "主权货币发行政府的真约束不是“先收钱再花钱”，而是真实资源与通胀：税收先创造出对货币的需求，发债是利率操作而非融资必需。",
+    "coreEn": "For a sovereign currency issuer the real constraint is not 'collect before spending' but resources and inflation: taxes first create demand for the currency, and bonding is an interest-rate operation, not a funding need.",
+    "founders": ["沃伦·莫斯勒", "兰德尔·雷", "斯蒂芬妮·凯尔顿", "比尔·米切尔"],
+    "foundersEn": ["Warren Mosler", "L. Randall Wray", "Stephanie Kelton", "Bill Mitchell"],
+    "keyIdeas": [
+      "货币国定论（chartalism）：货币价值源于国家税收义务，而非商品交换的自然演化",
+      "本币政府不会“没钱”，只会引发通胀；赤字的真正上限是产能与就业",
+      "财政先于货币：支出先创造准备金，税收与发债是回收与利率操作",
+      "就业保证（job guarantee）充当缓冲储备，取代以失业抑制通胀"
+    ],
+    "keyIdeasEn": [
+      "Chartalism: money's value stems from the state's tax obligation, not a natural evolution of barter",
+      "A home-currency government cannot run out of money but can cause inflation; the deficit's real ceiling is capacity and jobs",
+      "Spending precedes revenue—it creates reserves first; taxes and bonds are drains and rate operations",
+      "A job guarantee acts as a buffer stock, replacing unemployment as the inflation brake"
+    ],
+    "strengths": ["把争论从“钱够不够”搬回“资源够不够”，为气候、疫情类大额支出正名；讲清发债不等于家庭借债、货币主权国与欧元区成员国的根本差别。"],
+    "strengthsEn": [
+      "Moves the argument from 'is there enough money' to 'are there enough resources', legitimising large climate/pandemic spending; clarifies that bonding is not household borrowing and that currency-sovereign states differ fundamentally from eurozone members."
+    ],
+    "criticisms": [
+      "通胀是滞后信号、政治上难以及踩刹车，土耳其、委内瑞拉常被举为反例（尽管成因多元、并非纯赤字）；主流认为就业保证的行政与信息成本被低估，“产能充裕”假设在关键部门并不成立；它未给出可操作的量化通胀警戒线。"
+    ],
+    "criticismsEn": [
+      "Inflation is a lagging signal hard to brake in time, with Turkey and Venezuela often cited as cautions (though their causes are multi-factor and not pure deficits); critics hold that a job guarantee's admin and informational costs are understated and the 'slack available' premise fails in key sectors; and it offers no operational, quantified inflation tripwire."
+    ],
+    "related": ["keynesian", "qe", "seigniorage", "government-debt", "monetarism"],
+    "sources": [
+      {
+        "label": "雷《理解现代货币》；凯尔顿《赤字迷思》",
+        "labelEn": "Wray, Understanding Modern Money; Kelton, The Deficit Myth",
+        "year": 2020
+      }
+    ]
+  },
+{
+    "id": "ordoliberalism",
+    "order": 13,
+    "name": "秩序自由主义与社会市场经济",
+    "nameEn": "Ordoliberalism and the Social Market Economy",
+    "span": "1930 年代弗莱堡学派，战后德国与欧盟实践",
+    "spanEn": "Freiburg School, 1930s; post-war German and EU practice",
+    "level": 3,
+    "core": "市场不是自然状态，而需由国家搭建并守护一套“竞争秩序”：经济自由只有在法治与反垄断的骨架内才既有效又可持续。",
+    "coreEn": "The market is not a state of nature but needs a state-built and policed 'competitive order': economic freedom works and stays sustainable only inside a legal and antitrust frame.",
+    "founders": ["瓦尔特·欧肯", "弗朗茨·伯姆", "莱昂哈德·米奇尔席德", "路德维希·艾哈德（政策实践）"],
+    "foundersEn": ["Walter Eucken", "Franz Bohm", "Leonhard Miksch", "Ludwig Erhard (policy)"],
+    "keyIdeas": [
+      "政策目标是设计秩序（Ordnungspolitik），而非直接干预价格与产量",
+      "竞争既是发现过程也是分散权力之机制，卡特尔、补贴与行政垄断同等可疑",
+      "社会市场经济＝自由竞争＋社会保障网＋独立央行",
+      "国家既裁判市场也可能被俘获，故须在宪法层面限制利益集团"
+    ],
+    "keyIdeasEn": [
+      "Policy should design the order (Ordnungspolitik), not directly set prices or output",
+      "Competition is both a discovery process and a power-dispersal mechanism—cartels, subsidies and administrative monopolies are equally suspect",
+      "The social market economy = free competition + a social safety net + an independent central bank",
+      "The state referees the market yet can be captured, so interest-group capture must be constitutionally limited"
+    ],
+    "strengths": ["为战后德国“经济奇迹”与低通胀、强出口提供制度底座；为欧盟竞争政策与国家援助纪律铺设理论骨架。"],
+    "strengthsEn": [
+      "A foundation of post-war Germany's 'economic miracle'—low inflation and strong exports—and the theoretical backbone of EU competition policy and state-aid discipline."
+    ],
+    "criticisms": [
+      "“秩序”定义宽泛，易被市场派与社会国家各取所需；对产业战略与规模经济持疑，被指对追赶型经济体与国际竞争不够敏感；独立央行模型在危机中与银行救助、财政深度绑定后已趋模糊。"
+    ],
+    "criticismsEn": [
+      "'Order' is elastic enough to be claimed by both market and social-state camps; its suspicion of industrial strategy and scale economies is judged insensitive to catch-up economies and global rivalry; and the independent-central-bank model blurred once crisis-era bailouts entangled it with fiscal policy."
+    ],
+    "related": ["austrian", "chicago-school", "new-institutional", "mercantilism"],
+    "sources": [
+      {
+        "label": "欧肯《资本主义的本质基础》；范伯格论弗莱堡学派",
+        "labelEn": "Eucken, Grundsatze der Wirtschaftspolitik; Vanberg on the Freiburg School",
+        "year": 1948
+      }
+    ]
   }
 ]

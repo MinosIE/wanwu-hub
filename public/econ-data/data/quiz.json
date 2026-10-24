@@ -175,5 +175,133 @@
     "explain": "名义纳税人不是实际负担者。负担按供需弹性分摊：越难替代（缺乏弹性）的一方，越容易被迫吸收税负。",
     "explainEn": "The legal taxpayer is not the real bearer. The burden splits by elasticity: the side that can less easily substitute absorbs more.",
     "related": ["tax-incidence"]
+  },
+{
+    "id": "q-signaling",
+    "category": "博弈论",
+    "categoryEn": "Game theory",
+    "level": 3,
+    "q": "斯彭斯的学历“信号模型”里，为什么教育能把人分开？",
+    "qEn": "In Spence's education-as-signal model, why does schooling sort people?",
+    "options": [
+      {
+        "k": "教育提升所有人相同的生产力，因此工资普遍上涨",
+        "kEn": "Schooling raises everyone's productivity by the same amount, so wages rise across the board"
+      },
+      {
+        "k": "低能力者读同样多年更苦、代价更高，因而模仿不划算",
+        "kEn": "The low-ability find the same years more painful and costly, so mimicking doesn't pay"
+      },
+      {
+        "k": "雇主要的是学习态度的证书，而非能力本身",
+        "kEn": "Employers want a certificate of attitude, not ability"
+      },
+      {
+        "k": "文凭越多，信号越有效",
+        "kEn": "The more credentials, the sharper the signal"
+      }
+    ],
+    "answer": 1,
+    "explain": "分离均衡靠“成本结构”：只要低能力者完成教育的边际成本明显更高，凭证就能把类型分开。当文凭泛滥、模仿门槛降低，信号反而贬值、市场退回混同。",
+    "explainEn": "A separating equilibrium rests on cost structure: as long as finishing school is markedly costlier for the low-ability, credentials sort types. When degrees proliferate and imitation gets cheap, the signal degrades and pooling returns.",
+    "related": [
+      "signaling-game",
+      "information-asymmetry",
+      "adverse-selection",
+      "human-capital"
+    ]
+  },
+{
+    "id": "q-ultimatum",
+    "category": "行为经济学",
+    "categoryEn": "Behavioral",
+    "level": 2,
+    "q": "古斯等 1982 年最后通牒实验里，两人分四马克，一极低的“给一元、其余归自己”的提议，响应者最常见反应是？",
+    "qEn": "In Güth et al. 1982's 4-DM ultimatum experiment, how do responders most often treat an offer of 1 DM to themselves (rest to proposer)?",
+    "options": [
+      { "k": "必然接受，因为一元好过零元", "kEn": "Always accept—one beats zero" },
+      {
+        "k": "大概率拒绝，宁愿两人归零也要惩罚不公",
+        "kEn": "Mostly reject, preferring zero for both rather than reward unfairness"
+      },
+      { "k": "反问提议者再出价，直到满意", "kEn": "Counter-offer until satisfied" },
+      { "k": "把决定权交给第三方", "kEn": "Hand the choice to an arbiter" }
+    ],
+    "answer": 1,
+    "explain": "子博弈精炼均衡预测“最小正数也要接受”，实验里过低分成常被拒。人们愿自掏代价惩罚不公平——纯自利假设在分配情境失灵，由此催生 Fehr–Schmidt 等不平等规避模型。",
+    "explainEn": "Subgame-perfect play says 'take anything positive', yet low offers are often rejected. People pay to punish unfairness—pure self-interest fails in allocations, prompting inequity-aversion models (Fehr–Schmidt).",
+    "related": ["ultimatum-dictator", "fairness-reciprocity", "prospect-theory"]
+  },
+{
+    "id": "q-carbon-border",
+    "category": "国际贸易",
+    "categoryEn": "Trade",
+    "level": 3,
+    "q": "CBAM（欧盟碳边境调节机制）对进入欧盟、本国未收碳价的钢铁，直接效果是什么？",
+    "qEn": "What is CBAM's direct effect on steel imported into the EU from a country without carbon pricing?",
+    "options": [
+      { "k": "免征关税以鼓励绿色进口", "kEn": "Waive tariffs to encourage green imports" },
+      {
+        "k": "按隐含碳排放补一道与 EU ETS 挂钩的成本，出口国已付碳价可抵扣",
+        "kEn": "Charge on embedded carbon, priced against the EU ETS, with credit for carbon already paid at home"
+      },
+      { "k": "一律征收 25% 反倾销税", "kEn": "Levy a flat 25% anti-dumping duty" },
+      {
+        "k": "只要求提交碳数据，不设任何经济义务",
+        "kEn": "Require only carbon data reporting, no economic obligation"
+      }
+    ],
+    "answer": 1,
+    "explain": "CBAM 把境内外碳价拉平防碳泄漏，先覆盖水泥、钢、铝、化肥、电力、氢。2023-10 至 2025-12 是过渡期（只报告），2026-01 起进入正式期，首批针对 2026 年进口的证书于 2027 年 9 月 30 日前清缴；已在本国付过的碳价可抵扣避免重复。",
+    "explainEn": "CBAM levels the carbon-price field to stop leakage across cement, steel, aluminium, fertilisers, power and hydrogen. A transitional phase (report-only) runs Oct 2023–Dec 2025; definitive begins Jan 2026 with first certificates (covering 2026 imports) surrendered by Sep 30 2027; carbon already priced at home is credited to avoid double-charge.",
+    "related": ["carbon-border", "carbon-pricing", "externality", "public-goods"]
+  },
+{
+    "id": "q-sanctions",
+    "category": "国际贸易",
+    "categoryEn": "Trade",
+    "level": 3,
+    "q": "现代经济制裁里，被普遍认为是“威力最大、也最反噬”的杠杆是？",
+    "qEn": "Among modern economic sanctions, which lever is widely judged the most powerful—and the most double-edged?",
+    "options": [
+      {
+        "k": "禁止目标国国民出国旅游",
+        "kEn": "Bar citizens of the target from outbound tourism"
+      },
+      {
+        "k": "冻结目标国央行储备并切断 SWIFT 报文通道",
+        "kEn": "Freeze the target's central-bank reserves and cut its SWIFT messaging access"
+      },
+      { "k": "中断文化交流", "kEn": "Suspend cultural exchanges" },
+      {
+        "k": "对目标国农产品加征临时关税",
+        "kEn": "Slap temporary tariffs on the target's farm exports"
+      }
+    ],
+    "answer": 1,
+    "explain": "金融基础设施的枢纽地位让“美元武器化”能瞬间封死大额交易与储备；但也因此刺激被制裁方另建通道、储备去美元化、增持黄金，反过来侵蚀储备货币的中立性与网络优势。",
+    "explainEn": "The hub role of financial rails lets 'dollar weaponization' shut down large payments and reserves at a stroke—but it also drives targets to build alternate channels, de-dollarize and hoard gold, eroding the reserve currency's neutrality and network advantage.",
+    "related": ["economic-sanctions", "currency-and-trade", "fx-regimes"]
+  },
+{
+    "id": "q-mmt",
+    "category": "货币金融",
+    "categoryEn": "Money & finance",
+    "level": 3,
+    "q": "按现代货币理论（MMT），对本币发行的主权政府而言，赤字的真正上限是什么？",
+    "qEn": "Per Modern Monetary Theory, what is the real ceiling on deficits for a home-currency sovereign?",
+    "options": [
+      { "k": "税收能筹到的现金规模", "kEn": "The cash tax revenue can raise" },
+      { "k": "上一年财政盈余的累积", "kEn": "The prior year's accumulated surplus" },
+      {
+        "k": "真实产能与就业——超出就会引发通胀",
+        "kEn": "Real capacity and jobs—go beyond and inflation bites"
+      },
+      { "k": "国债市场愿意接盘的程度", "kEn": "How much bond buyers will absorb" }
+    ],
+    "answer": 2,
+    "explain": "MMT 强调主权货币政府不会“没钱”，只会引发通胀；发债是利率操作而非融资必需。因此赤字的实际约束是经济体能提供的商品与服务上限——超出，物价就上涨。批评者反问：通胀是滞后信号，政治上难及时刹车。",
+    "explainEn": "MMT argues a home-currency sovereign cannot 'run out of money', only cause inflation; bonding is a rate operation, not a funding need. The real ceiling is what goods and services the economy can supply—push past it and prices rise. Critics ask back: inflation is a lagging signal, hard to brake in time.",
+    "related": ["mmt", "seigniorage", "qe", "government-debt", "monetarism"]
   }
 ]

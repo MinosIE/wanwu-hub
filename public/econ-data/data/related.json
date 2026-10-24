@@ -1059,6 +1059,34 @@
       "nEn": "New Keynesian Economics"
     }
   ],
+  "marxian-economics": [
+    {
+      "m": "m-schools",
+      "n": "马克思主义政治经济学",
+      "nEn": "Marxian Economics"
+    }
+  ],
+  "supply-side": [
+    {
+      "m": "m-schools",
+      "n": "供给学派",
+      "nEn": "Supply-Side Economics"
+    }
+  ],
+  "mmt": [
+    {
+      "m": "m-schools",
+      "n": "现代货币理论",
+      "nEn": "Modern Monetary Theory"
+    }
+  ],
+  "ordoliberalism": [
+    {
+      "m": "m-schools",
+      "n": "秩序自由主义与社会市场经济",
+      "nEn": "Ordoliberalism and the Social Market Economy"
+    }
+  ],
   "voc": [
     {
       "m": "m-events",
@@ -1563,6 +1591,34 @@
       "nEn": "Coordination and Path Dependence"
     }
   ],
+  "signaling-game": [
+    {
+      "m": "m-game",
+      "n": "信号博弈",
+      "nEn": "Signaling Games"
+    }
+  ],
+  "ultimatum-dictator": [
+    {
+      "m": "m-game",
+      "n": "最后通牒与独裁者博弈",
+      "nEn": "Ultimatum and Dictator Games"
+    }
+  ],
+  "matching-market": [
+    {
+      "m": "m-game",
+      "n": "稳定匹配与延迟接受",
+      "nEn": "Stable Matching and Deferred Acceptance"
+    }
+  ],
+  "backward-induction-commitment": [
+    {
+      "m": "m-game",
+      "n": "逆向归纳与可信承诺",
+      "nEn": "Backward Induction and Credible Commitment"
+    }
+  ],
   "gains-from-trade": [
     {
       "m": "m-trade",
@@ -1624,6 +1680,34 @@
       "m": "m-trade",
       "n": "贸易与就业再分配",
       "nEn": "Trade and Job Reallocation"
+    }
+  ],
+  "economic-sanctions": [
+    {
+      "m": "m-trade",
+      "n": "经济制裁与金融武器化",
+      "nEn": "Sanctions and Financial Weaponization"
+    }
+  ],
+  "friendshoring": [
+    {
+      "m": "m-trade",
+      "n": "友岸外包与供应链回摆",
+      "nEn": "Friend-Shoring and Supply-Chain Rewinding"
+    }
+  ],
+  "carbon-border": [
+    {
+      "m": "m-trade",
+      "n": "碳边境与绿色贸易规则",
+      "nEn": "Carbon Borders and Green Trade Rules"
+    }
+  ],
+  "rules-of-origin": [
+    {
+      "m": "m-trade",
+      "n": "原产地规则与“意大利面碗”",
+      "nEn": "Rules of Origin and the Spaghetti Bowl"
     }
   ],
   "queueing": [
@@ -1913,6 +1997,41 @@
       "nEn": "After a tax is levied on sellers, who mainly bears the burden?"
     }
   ],
+  "q-signaling": [
+    {
+      "m": "m-quiz",
+      "n": "斯彭斯的学历“信号模型”里，为什么教育能把人分开？",
+      "nEn": "In Spence's education-as-signal model, why does schooling sort people?"
+    }
+  ],
+  "q-ultimatum": [
+    {
+      "m": "m-quiz",
+      "n": "古斯等 1982 年最后通牒实验里，两人分四马克，一极低的“给一元、其余归自己”的提议，响应者最常见反应是？",
+      "nEn": "In Güth et al. 1982's 4-DM ultimatum experiment, how do responders most often treat an offer of 1 DM to themselves (rest to proposer)?"
+    }
+  ],
+  "q-carbon-border": [
+    {
+      "m": "m-quiz",
+      "n": "CBAM（欧盟碳边境调节机制）对进入欧盟、本国未收碳价的钢铁，直接效果是什么？",
+      "nEn": "What is CBAM's direct effect on steel imported into the EU from a country without carbon pricing?"
+    }
+  ],
+  "q-sanctions": [
+    {
+      "m": "m-quiz",
+      "n": "现代经济制裁里，被普遍认为是“威力最大、也最反噬”的杠杆是？",
+      "nEn": "Among modern economic sanctions, which lever is widely judged the most powerful—and the most double-edged?"
+    }
+  ],
+  "q-mmt": [
+    {
+      "m": "m-quiz",
+      "n": "按现代货币理论（MMT），对本币发行的主权政府而言，赤字的真正上限是什么？",
+      "nEn": "Per Modern Monetary Theory, what is the real ceiling on deficits for a home-currency sovereign?"
+    }
+  ],
   "inflation-targeting": [
     {
       "m": "m-compare",
@@ -1967,6 +2086,27 @@
       "m": "m-compare",
       "n": "养老靠现收现付（下一代养上一代），还是靠个人账户积累？",
       "nEn": "Should pensions run pay-as-you-go (the young fund the old) or funded individual accounts?"
+    }
+  ],
+  "antitrust-models": [
+    {
+      "m": "m-compare",
+      "n": "面对垄断与平台巨头，政府该按什么标准执法？",
+      "nEn": "When facing monopolies and platform giants, what standard should the state enforce by?"
+    }
+  ],
+  "capital-account": [
+    {
+      "m": "m-compare",
+      "n": "一个国家该多快放开跨境资本流动？",
+      "nEn": "How fast should a country open its cross-border capital flows?"
+    }
+  ],
+  "sovereign-funds": [
+    {
+      "m": "m-compare",
+      "n": "国家把外汇或资源财富装进一只基金，该怎么管、给谁用？",
+      "nEn": "When a state bottles FX reserves or resource wealth into one fund, how should it be run—and for whom?"
     }
   ]
 }
