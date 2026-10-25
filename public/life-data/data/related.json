@@ -1126,6 +1126,34 @@
       "nEn": "Dolly, the Somatic-Cell Clone (1996)"
     }
   ],
+  "pavlov-conditioned-reflex": [
+    {
+      "m": "m-experiments",
+      "n": "巴甫洛夫的唾液铃（1904）",
+      "nEn": "Pavlov's Salivary Bell (1904)"
+    }
+  ],
+  "morgan-fruit-fly": [
+    {
+      "m": "m-experiments",
+      "n": "果蝇房的白眼突变（1910）",
+      "nEn": "The White-Eyed Mutant in the Fly Room (1910)"
+    }
+  ],
+  "fleming-penicillin": [
+    {
+      "m": "m-experiments",
+      "n": "没洗的培养皿与青霉素（1928）",
+      "nEn": "The Unwashed Dish and Penicillin (1928)"
+    }
+  ],
+  "pasteur-swanneck": [
+    {
+      "m": "m-experiments",
+      "n": "鹅颈瓶与生命不「自生」（1859）",
+      "nEn": "The Swan-Neck Flask vs Spontaneous Life (1859)"
+    }
+  ],
   "photosynthesis-vs-respiration": [
     {
       "m": "m-compare",

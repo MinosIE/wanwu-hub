@@ -190,5 +190,61 @@
       "greenhouse-effect",
       "desert"
     ]
+  },
+  {
+    "id": "great-circle-route",
+    "term": "北京飞洛杉矶的航线在地图上「弯向北方」，为什么反而更近",
+    "termEn": "Why the Beijing–Los Angeles flight bows north on the map — and saves distance",
+    "category": "地图判读",
+    "categoryEn": "Map reading",
+    "level": 2,
+    "oneLiner": "球面上两点之间最短的是大圆弧线；地图上的「直线」是摊平之后的错觉。",
+    "oneLinerEn": "On a sphere the shortest link is the arc of a great circle; the 'straight line' is an illusion of the flattened map.",
+    "detail": "球面上的「直线」是过球心的大圆段。墨卡托地图保形却把高纬放大，于是大圆航线画到纸上就成了向极点鼓出的弯：北京—洛杉矶掠经阿留申附近，比纸面上的直线短两千公里量级。看远距离双城真实方位与距离，地球仪胜过任何平图——手机地图上的「歪航线」其实都是最直的走法。",
+    "detailEn": "Straightness on a sphere is the great-circle arc whose plane cuts Earth's centre. The Mercator map preserves shapes but inflates the poles, so great-circle routes print as poleward bows: Beijing–Los Angeles sweeps near the Aleutians, roughly two thousand kilometres shorter than the ruler line on paper. For true bearings and distances between far cities, a globe beats any flat map — those 'crooked' airways are the straightest ways there are.",
+    "related": ["mercator-true-shape", "map-up-north", "long-haul-wind"]
+  },
+  {
+    "id": "summer-sunset-late",
+    "term": "夏天的傍晚八九点天还亮，冬天的太阳下午四五点就落了，为什么",
+    "termEn": "Why summer dusk lasts past eight while winter's sun dips by four or five o'clock",
+    "category": "时空与生活",
+    "categoryEn": "Time & daily life",
+    "level": 1,
+    "oneLiner": "地轴是歪的：夏天你所在的纬度圈「露在太阳里的部分」更长，白天自然被拉长。",
+    "oneLinerEn": "Earth's axis leans: in summer your latitude circle spends a longer half inside the daylight, so the day stretches.",
+    "detail": "地轴倾斜约二十三度半，夏至前后太阳直射北半球，北半球各地把自转圆周的大部分留在昼半球里——纬度越高白天越长，日落点也偏到西北天际，晚霞拖得更久；冬至正相反。顺带破除一个直觉：夏天热与白天长都不是因为地球离太阳近——七月初地球反而处在轨道上离太阳最远的点附近。",
+    "detailEn": "Tilted about 23.5 degrees, Earth lets the sun stand over the northern half around June: your latitude circle keeps most of its daily turn inside daylight, so the sun sets far to the northwest and dusk lingers — the higher the latitude, the longer the day; December reverses it. And a folk intuition dies here: summer's heat and length come not from closeness to the sun — in early July Earth is near the farthest point of its orbit.",
+    "related": [
+      "seasons-distance",
+      "solar-terms-vs-meteorological-seasons",
+      "timezone-vs-dst"
+    ]
+  },
+  {
+    "id": "mountain-ear-popping",
+    "term": "盘山公路越开越高，耳朵为什么会「堵住」发闷",
+    "termEn": "Why your ears plug and pop as the mountain road climbs",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 2,
+    "oneLiner": "气压随海拔跌落，鼓膜外侧跟得上、中耳腔里跟不上——一张被压住的鼓膜就发闷了。",
+    "oneLinerEn": "Pressure falls with height; the outer ear keeps up but the middle-ear cavity lags — a braced eardrum goes muffled.",
+    "detail": "海拔三千米处气压只剩海平面的七成上下。中耳是被鼓膜封住的小气室，气压差让它来不及经咽鼓管放气，鼓膜便一侧被顶起，听力发闷、隐隐发胀。打哈欠、吞咽或闭口捏鼻缓缓鼓气，咽鼓管一开「噗」地一声即恢复。飞机客舱虽有增压，起降阶段照样耳朵闷——同一个道理；而高原上低气压还把水的沸点拖到九十几度，与「高原煮不熟饭」原是一根藤上的两个瓜。",
+    "detailEn": "At three thousand metres the air holds only about seventy percent of its sea-level pressure. The middle ear is a pocket sealed by the eardrum, and when climbing outpaces the venting Eustachian tube, the membrane stands braced and sound goes dull. A yawn, a swallow, or gently blowing against a pinched nose clicks it open. Pressurised cabins still leave you popping through takeoff and landing — same mechanism; and the same thin air on plateaus drags water's boiling point below a hundred, the twin of rice that refuses to cook.",
+    "related": ["highland-boil", "qinghai-plateau", "plateau-vs-basin"]
+  },
+  {
+    "id": "summer-afternoon-thunder",
+    "term": "夏天的雷阵雨为什么总在午后到傍晚「准时报到」",
+    "termEn": "Why summer thunderstorms keep an afternoon appointment",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 1,
+    "oneLiner": "上午给地面加热，午后对流最猛——水汽蒸腾成积雨云，雷劈雨浇都在这时分。",
+    "oneLinerEn": "The morning loads the ground with heat; convection peaks mid-afternoon — towering clouds build, and thunder pays up.",
+    "detail": "日出后地面持续吸热，午后两三点最烫，被烤热的空气成柱上升，在高空遇冷凝结成耸立的积雨云；云中冰晶与水滴碰撞分电，电荷击穿空气便是雷，雨随之倾下。夏天水汽足、大气层结不稳，「上午大太阳、午后一场雨」成了日常；城市热岛还会把这份午后对流再推一把。这与秋冬连阴雨式的锋面雨是两套机制——一个靠天上下沉升腾，一个靠冷暖气团交锋。",
+    "detailEn": "Since sunrise the ground has been banking heat; by two or three it burns hardest, and hot air rockets up in columns, condensing aloft into towering cumulonimbus. Ice and droplets jostle the cloud into charge, the air breaks down with thunder, and rain pours after. Summer's rich moisture and unstable layering make 'sun by day, storm by dusk' routine — and the urban heat island stirs the mix further. Winter's days-long frontal rain works differently: not the sky boiling, but two airmen wrestling.",
+    "related": ["city-heat-rain", "weather-systems", "monsoon"]
   }
 ]

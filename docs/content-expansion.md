@@ -39,10 +39,10 @@
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 243    | ✅ 视图与 mind/econ 同量级（四十批 branches 16→21）  |
-| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 212    | 🟢 已达 12 视图（四十四批 测验 12→16）      |
-| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 209    | 🟢 已达 12 视图（四十五批 特有物种 12→16，KPI）      |
+| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 216    | 🟢 已达 12 视图（四十六批 身边地理 12→16）      |
+| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 213    | 🟢 已达 12 视图（四十六批 经典实验 12→16）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在四十五批刷新为 212 / 209（life 含 quiz 与 endemics 各 12→16），thought 行在四十批刷新为 243（branches 16→21）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在四十六批刷新为 216 / 213（两科 Phase C 六视图 glossary/myths/compare/quiz/everyday-experiments/endemics 全线到 16），thought 行在四十批刷新为 243（branches 16→21）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
 
 ---
 
@@ -77,7 +77,7 @@
 - [x] 地理探索时间线 ✅ 三十五批 12 条（新视图 timeline，前 240 年埃拉托色尼 → 1972 地球观测卫星，按 year 时序）
 - [x] 地标山河（补 `classics`）✅ 三十七批 19→23（新增巴拿马运河/东非大裂谷/马里亚纳海沟/多瑙河；原 19 条以江河山脉湖礁为主，本批补运河/裂谷/海沟/文化河）
 - [x] 术语表 / 误区 ✅ 三十二批各 12 条（四十一批 术语 12→16：+峡湾/信风/断层/流域分水岭；四十二批 误区 12→16：+本初子午线天然起点/最大沙漠是撒哈拉/地震只在板块边界/非洲全境皆沙漠）
-- [x] 身边地理（生活应用 everyday）✅ 三十三批 12 条（新视图，schema 仿 mind/everyday）
+- [x] 身边地理（生活应用 everyday）✅ 三十三批 12 条（新视图，schema 仿 mind/everyday；四十六批 12→16）
 - [x] 测验 / 对比 ✅ 三十四批各 12 条（新视图：compare 12 对 + quiz 12 题；四十三批 对照 12→16；四十四批 测验 12→16）
 
 ### 3.2 万物生物 life（🔴 最优先）
@@ -96,7 +96,7 @@
 - [ ] 现代生物技术：基因/细胞/发酵工程、CRISPR（新）
 - [x] 生物分类（补 `schools`→界门纲目科属种，扩到 20+）✅ 三十八批 15→20（新增苔藓植物/蕨类植物/软骨鱼/环节动物/棘皮动物；补齐登陆植物两大孢子类群（苔藓、蕨类）与软骨鱼、环节、棘皮三个常见动物类群）
 - [x] 生物学家（补 `thinkers`→15+）✅ 三十九批 22→26（新增列文虎克/卡森/麦克林托克/杜布赞斯基；补齐微生物学·环境生态·细胞遗传·现代综合四个此前缺席的关键人物）
-- [x] 重要实验与发现时间线 ✅ 三十三批以「经典实验」视图落地（12 条，1642→1996 时序 order 排列）
+- [x] 重要实验与发现时间线 ✅ 三十三批以「经典实验」视图落地（12 条，1642→1996 时序 order 排列；四十六批 12→16）
 - [x] 演化里程碑（补 `classics`）✅ 三十七批 17→21（新增脊椎动物起源/眼睛的演化/奥陶纪末大灭绝/飞行的起源；补齐五次大灭绝之首与复杂器官/飞行等关键创新）
 - [x] 术语表 / 误区（新）✅ 三十二批各 12 条（四十一批 术语 12→16：+有丝分裂/染色体/酶/渗透；四十二批 误区 12→16：+抗生素治病毒/大脑只用10%/植物白天才呼吸/进化是阶梯）
 - [x] 测验 / 对比 ✅ 三十四批各 12 条（新视图：compare 12 对 + quiz 12 题；四十三批 对照 12→16；四十四批 测验 12→16）
@@ -117,6 +117,7 @@
 - [x] **Phase C 新增视图补薄（四十三批：earth / life compare 各 12→16，全科 204→208 / 197→201）**——接续把两科对照表（compare）从下限 12 推到 16。compare 走三十四批 schema=id/title/titleEn/icon/category/categoryEn/level/order/lead/west/east/bridge（各带 En）+related（17 键、三对正反面文本 west🅰/east🅱/bridge🌉 + lead🔍、无 sources、无嵌套 En），两科均**不进 kpis**→只改 counts；卡片按 order 排序、新条 order 续 13–16。选题（均为高频对照、跨 compare 查重不撞题、碰撞预检 free）：earth——冰川地貌 vs 河流地貌（U 形/ V 形剖面之辨）/气旋 vs 反气旋（低压成雨、高压放晴）/岩浆岩 vs 沉积岩（火成冷却与层层压实）/城市化 vs 逆城市化（集聚与外溢两阶段）；life——原核 vs 真核细胞（有无膜包细胞核）/有性 vs 无性生殖（洗牌与复制的多样性权衡）/能量流动 vs 物质循环（单向耗散与循环复用）/同源 vs 同功器官（共祖与趋同的甄别）。每位 2~3 个 related 全指既有 id（earth 跳 glacial-processes/river-landforms/weather-systems/rock-cycle/urbanization 等、life 跳 eukaryotic-cell/bacteria/archaea/meiosis/energy-flow/tree-of-life 等）、无同批互引。纯追加（两科 compare.json 非 ser 规范形→定点末尾追加、前缀不变断言、既有 12 条零改动）。实测：`index:build earth/life` 208/201、`gen:geo` 各 16 数据文件、llms 总数 208/201、`links:check` 0 错 0 警、`verify exit=0`（pass=35361 fail=0）、`build ✓ 860ms`；puppeteer earth/life × 中英×明暗八组合 **176 项 PASS／0 FAIL**（每新卡详情 4 分节且各分节非空 lead+west+east+bridge + related 芯片、无 pageerror）。新踩坑：compare 详情 4 分节（目前 Phase C 薄视图里最多），冒烟除断言 dsec>=4 还加断言四个分节文本均非空，防某侧空串仍计入分节数而漏检。
 - [x] **Phase C 新增视图补薄（四十四批：earth / life quiz 各 12→16，全科 208→212 / 201→205）**——接续把两科测验（quiz）从下限 12 推到 16，Phase C 六视图至此四类（glossary/myths/compare/quiz）均到 16。quiz schema=id/term/termEn/category/categoryEn/level/oneLiner/oneLinerEn/detail/detailEn/options/related（12 键；options 为嵌套数组、每项 {text,textEn,correct}、惯例 3 项恰 1 正确；题干用 term 字段、卡片 lead 取 oneLiner；无 sources、无 order 字段），两科均**不进 kpis**→只改 counts。选题（避开既有 12 题主题、与四十一～四十三批新知识点呼应）：earth——荒漠以降水定义（接四十二批误区）/地形雨迎风坡（三十二批术语）/断层块山华山（四十一批术语）/逆城市化（四十三批对照）；life——原核 vs 真核区别/有性生殖多样性来源/能量逐级递减原因/亲缘证据同源 vs 同功（后四题均直接呼应四十三批对照条目）。append 守卫除双语扫描外新增结构断言：options 恰 3 项、correct===true 恰 1、每项键集 {text,textEn,correct}。related 全指既有 id，含跨视图引用（四十三批 compare id、四十二批 myth id 均可被搜索索引命中）。碰撞预检换题 1：q-earth-14 的 related 猜了 `rain-shadow` 不存在→查池后改指既有 `desert`（焚风与荒漠本就是雨影叙事的两个结果）。纯追加（非 ser 规范形→定点末尾追加、前缀不变断言）。实测：`index:build earth/life` 212/205、`gen:geo` 各 16 数据文件、llms 总数 212/205、`links:check` 0 错 0 警、`verify exit=0`（pass=35361 fail=0）、`build ✓ 918ms`；puppeteer 八组合 **240 项 PASS／0 FAIL**（每新卡详情 3 分节均非空 oneLiner+options+detail，另断言选项列表 ≥3 项且恰 1 项末尾带 ✓——渲染器把 correct 标为文本尾缀「 ✓」）。新踩坑：quiz 是 Phase C 视图里首个带嵌套数组结构的，守卫须逐选项扫 textEn（CJK）与 text（未译夹词）；冒烟对 listSection 的断言可直接用 `.dsec li` 取选项行。
 - [x] **Phase C 新增视图补薄（四十五批：life endemics 12→16，全科 205→209）**——特有物种（endemics）是 life 四 KPI 之一（schools/principles/classics/endemics），counts 与 kpis[].value **双处同步** 12→16（同三十八批 schools 双改口径）。schema 16 键=name/nameEn/taxon/taxonEn/status/statusEn/region/regionEn/oneLiner/oneLinerEn/bio/bioEn/traits/notes/sources（traits/notes 嵌套 {k,kEn,v,vEn}×2、sources {label,labelEn,url,type,typeEn}×2，url 空串为既有惯例）；**无 related 字段**（详情不渲染芯片），无 order 字段。选题取中国特有/旗舰物种高频四位（均经碰撞预检 free）：川金丝猴（仰鼻猴、EN）、麋鹿（四不像、野外灭绝 EW→乌邦寺归还重引入经典案例）、大鲵（娃娃鱼、CR、现存最大两栖动物）、长江江豚（EN、白鱀豚后长江唯一鲸类、2022 科考约 1,249 头——正文取保守措辞「约一千二百四十头」）。IUCN 等级与保护史事实逐条自校（麋鹿 IUCN 现评仍为野外灭绝 EW、重引进成功为补充说明；南海子在北京非河北，初稿笔误已改）。纯追加（非 ser 规范形→定点末尾追加、前缀不变断言）。实测：`index:build life` 209、`gen:geo` 16 数据文件、llms 总数 209、`links:check` 0 错 0 警、`verify exit=0`（pass=35361 fail=0）、`build ✓ 1.06s`；puppeteer life 中英×明暗四组合 **88 项 PASS／0 FAIL**（每新卡详情 4 分节均非空 oneLiner+bio+traits+notes + sources 块存在；endemics 无 related 故不断言芯片）。新踩坑：endemics 详情分节与 thinkers/classics 同为 4 但内容各异（traits/notes 是 listSection 而 thinkers 是 ideas/works/quotes）；初稿曾把思考过程残句与冗余键（taxEn/taxonEn2）写进数据字面量——靠写入前逐键断言 + 人工复读拦下，append 脚本的 clean 对象重建（只按 KEYS 取键）可作惯例保留。
+- [x] **Phase C 新增视图补薄（四十六批：earth everyday / life experiments 各 12→16，全科 212→216 / 209→213，Phase C 六视图全线到 16 的里程碑）**——两科最后两格偏薄视图各 +4，均为三十三批新视图、非 KPI→只改 counts。everyday schema 11 键=term/termEn/category/categoryEn/level/oneLiner/oneLinerEn/detail/detailEn/related（无 order 无 sources，详情 2 分节 💬+🧭，分类四组沿用既有 categoryEn 逐字值）；experiments schema 12 键含 icon/order + points 嵌套 {k,kEn,v,vEn}×3（惯例三问「怎么做的/看到了什么/意味着什么」，详情 2 分节 🎯+🔑 listSection，分类三组沿用）。选题：earth 大圆航线为什么弯（地图判读，related 墨卡托真形/上北下南/跨洋追风）、夏天傍晚为什么亮得久（时空与生活，带四季非距离的远日点呼应）、盘山公路耳朵堵住（天气解读，与高原沸点同根）、夏日午后雷阵雨（天气解读，与城市热岛雨/季风互指）；life 巴甫洛夫唾液铃（🐕 生理与生态，与 innate-vs-learned-behavior 互指）、摩尔根果蝇白眼（🧬 遗传与分子，接孟德尔/染色体）、弗莱明与青霉素（💊 医学与方法，与抗生素误区条镜像）、巴斯德鹅颈瓶（⚗️ 生理与生态，与三十五批 timeline pasteur-biogenesis 里程碑条按「里程碑串联 vs 单个实验拆解」双轴分工，先例同 classics/experiments）。order 续 13–16；16 条 related 全部预检存在；碰撞预检 8 id 均 free。纯追加（两文件均非 ser 规范形→定点末尾追加、前缀不变断言）。实测：`index:build` earth 216/216、life 213/213；`gen:geo` 各 16 数据文件；`links:check` 0 错 0 警；`verify exit=0`（pass=35361 fail=0，258 chem 既有 warn 未增）；`build ✓ 905ms`；puppeteer 两科×中英×明暗八组合 **776 项 PASS／0 FAIL**（每新卡详情 2 分节、everyday 两 body 非空、experiments points 恰 3 li、标题双语对齐、关闭断言）。新踩坑：① 抽屉有 open/close 过渡动画，冒烟不能用 waitForSelector('.detail-panel')（hidden 祖先下也存在）与「移除即关」断言——改 getClientRects().length 等真正可见/消失；② 中文长段 innerText 软换行会插入换行空白，正文对齐断言需去全部空白后比对（标题同理）。
 
 ### 3.3 万物哲学 thought（🟠）
 

@@ -433,5 +433,137 @@
       "cell-division",
       "acquired-inheritance"
     ]
+  },
+  {
+    "id": "pavlov-conditioned-reflex",
+    "title": "巴甫洛夫的唾液铃（1904）",
+    "titleEn": "Pavlov's Salivary Bell (1904)",
+    "icon": "🐕",
+    "category": "生理与生态",
+    "categoryEn": "Physiology & Ecology",
+    "level": 2,
+    "order": 13,
+    "lead": "研究消化时顺手推开行为科学之门：狗不为食物流涎，为「食物的预告」流涎。",
+    "leadEn": "While studying digestion he cracked open behavioural science: the dog salivates not for the food but for its announcement.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "巴甫洛夫给狗定期在喂食前摇铃（或亮灯），铃声与食物反复配对；对照组则让铃声单独出现、绝不跟食物。",
+        "vEn": "Pavlov rang a bell (or lit a lamp) just before feeding, pairing signal with meal again and again; in control runs the sound came alone, never followed by food."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "若干次配对后，只闻铃声不见食物，狗也滔滔流涎；而从未与食物配过的中性刺激没有这效果——新反射是被「学习」出来的。",
+        "vEn": "After enough pairings the bell alone poured saliva with no food in sight; a never-paired neutral stimulus did nothing — the reflex had been learned."
+      },
+      {
+        "k": "意味着什么",
+        "kEn": "What it meant",
+        "v": "建立条件反射理论，把「联想学习」变成可客观测量的对象，成为行为主义心理学的基石；他本人因消化生理研究获 1904 年诺贝尔生理学或医学奖。",
+        "vEn": "The theory of the conditioned reflex turned associative learning into something measurable — a cornerstone of behaviourism; his Nobel in 1904, tellingly, came for the physiology of digestion."
+      }
+    ],
+    "related": ["innate-vs-learned-behavior", "ten-percent-brain"]
+  },
+  {
+    "id": "morgan-fruit-fly",
+    "title": "果蝇房的白眼突变（1910）",
+    "titleEn": "The White-Eyed Mutant in the Fly Room (1910)",
+    "icon": "🧬",
+    "category": "遗传与分子",
+    "categoryEn": "Genetics & Molecules",
+    "level": 3,
+    "order": 14,
+    "lead": "一只白眼雄蝇，让「基因在染色体上」从假说变成可检验的定论。",
+    "leadEn": "A single white-eyed male turned 'genes sit on chromosomes' from a hypothesis into a testable verdict.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "摩尔根在哥伦比亚大学的果蝇房里繁育大批果蝇，捕获那只罕见的白眼雄蝇，让它与红眼雌蝇正反交，追踪白眼性状在子代雌雄中的分布。",
+        "vEn": "In Columbia's 'fly room' Morgan bred swarms of fruit flies, caught one rare white-eyed male, and crossed it red-eyed both ways, tracking where the white trait surfaced in sons and daughters."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "白眼几乎只出现在雄蝇身上，与性别的绑定关系正好像X染色体旅行路线；连锁与交换比例还能测出基因在染色体上的相对距离。",
+        "vEn": "White turned up almost only in males — a hitchhiker on the X chromosome's route of inheritance; linkage and crossover rates even mapped genes' relative distances along the chromosome."
+      },
+      {
+        "k": "意味着什么",
+        "kEn": "What it meant",
+        "v": "把孟德尔的遗传因子落到细胞学实体上，建立基因的染色体学说，发明「作图」的遗传学；1933 年诺贝尔生理学或医学奖。",
+        "vEn": "Mendel's factors got physical addresses on chromosomes — the chromosome theory of inheritance and the first genetic maps; Morgan's Nobel followed in 1933."
+      }
+    ],
+    "related": ["heredity-mendel", "chromosome", "dominant-vs-recessive"]
+  },
+  {
+    "id": "fleming-penicillin",
+    "title": "没洗的培养皿与青霉素（1928）",
+    "titleEn": "The Unwashed Dish and Penicillin (1928)",
+    "icon": "💊",
+    "category": "医学与方法",
+    "categoryEn": "Medicine & Method",
+    "level": 2,
+    "order": 15,
+    "lead": "度假归来，一块发霉的污斑在葡萄菌毯上溶出一圈透明——「运气只青睐有准备的头脑」。",
+    "leadEn": "Back from holiday, a mouldy blot had melted a clear halo in the lawn of staphylococci — 'chance favours the prepared mind.'",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "弗莱明在伦敦圣玛丽医院堆着未洗的金黄色葡萄球菌平板度假去了；回来发现一块青霉菌落污染了其中一皿，且霉落四周的细菌被溶成了透明圈。",
+        "vEn": "Fleming left stacks of staphylococcus plates unwashed while holidaying at St Mary's Hospital, London; returning, he found one colonised by a Penicillium mould — ringed by a halo where the bacteria had dissolved."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "霉菌滤液能抑制多种革兰氏阳性菌而不伤白细胞，他对这物质取名「青霉素」；但粗滤液不稳定、难提纯，他发表后沉寂了近十年。",
+        "vEn": "The mould's filtrate killed many gram-positive bacteria yet spared white cells; he named it penicillin — but the crude juice was fickle and hard to purify, and the paper slept for nearly a decade."
+      },
+      {
+        "k": "意味着什么",
+        "kEn": "What it meant",
+        "v": "弗洛里与钱希团队 1940 年代完成提纯与量产，1942 年起走向临床，抗生素纪元开启；三人共享 1945 年诺贝尔生理学或医学奖。",
+        "vEn": "Florey and Chain's team purified and mass-produced it in the 1940s, and it reached the clinic from 1942 — the antibiotic era opened; the three shared the 1945 Nobel."
+      }
+    ],
+    "related": ["antibiotic-kills-virus", "virus-vs-bacterium", "discovery-insulin"]
+  },
+  {
+    "id": "pasteur-swanneck",
+    "title": "鹅颈瓶与生命不「自生」（1859）",
+    "titleEn": "The Swan-Neck Flask vs Spontaneous Life (1859)",
+    "icon": "⚗️",
+    "category": "生理与生态",
+    "categoryEn": "Physiology & Ecology",
+    "level": 2,
+    "order": 16,
+    "lead": "让空气能进、尘埃进不去——肉汤数月不坏；折断瓶颈，几天便臭。腐不是天注定，是外来客。",
+    "leadEn": "Air in, dust out — the broth stayed sweet for months; snap the neck and it fouled in days. Spoilage was fate's guest, not fate.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "巴斯德把肉汤装进拉成弯曲天鹅颈的烧瓶煮沸：空气能自由进出，浮尘与微生物却被拦在弯管的冷凝水膜里；另设直颈瓶与倾侧瓶作对照。",
+        "vEn": "Pasteur boiled broth in flasks drawn into a curved swan neck: air drifted freely in and out while dust and microbes were trapped in the bend's film of condensate; straight-neck and tilted flasks served as controls."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "鹅颈瓶里的肉汤放置数月仍然清澈无味；一旦倾侧让肉汤润过弯管、或折断瓶颈，数日之内便菌落丛生——「自然发生」的幕后被锁定了。",
+        "vEn": "The swan-necked broth sat for months, clear and sweet; tilt it so the liquor bathed the bend, or snap the neck off, and colonies bloomed within days — the smugglers' route was located."
+      },
+      {
+        "k": "意味着什么",
+        "kEn": "What it meant",
+        "v": "给「生生来源生源」提供了判决性证据，微生物不会凭空从腐汤中自生；由此奠基无菌术、巴氏消毒与后来的外科消毒法。",
+        "vEn": "Life comes only from life: broth makes no bugs by itself. Aseptic surgery, pasteurisation and the germ-practice of medicine all grew from this flask."
+      }
+    ],
+    "related": ["bio-pasteur-biogenesis", "virus-vs-bacterium"]
   }
 ]
