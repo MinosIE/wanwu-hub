@@ -1,0 +1,219 @@
+[
+  {
+    "id": "geo-era-eratosthenes",
+    "term": "埃拉托色尼测算地球周长",
+    "termEn": "Eratosthenes Measures the Earth",
+    "category": "古典测量",
+    "categoryEn": "Classical Measurement",
+    "level": 2,
+    "year": -240,
+    "oneLiner": "用一根影子、两座城市的正午高差，就算出了地球的周长，误差不过百分之几。",
+    "oneLinerEn": "With one shadow and the noon sun-angle difference between two cities, he computed the Earth's circumference to within a few percent.",
+    "detail": "亚历山大港与赛伊尼（今阿斯旺）夏至正午，前者方尖碑有影、后者井底直见日光。把影子的角当作两地的地心夹角，再除以已知地面距离，就得到整圈的比例。关键不在数据精度，而在第一个把「地球可测量」当作命题来解。",
+    "detailEn": "At the summer solstice noon, Alexandria's obelisk cast a shadow while Syene's (today's Aswan) well showed sunlight straight to the bottom. Treating the shadow's angle as the two cities' central angle and dividing the known ground distance by it yields the whole circle's proportion. The point is not the precision but being the first to pose 'the Earth is measurable' as a problem to solve.",
+    "related": [
+      "eratosthenes",
+      "geologic-time-scale"
+    ]
+  },
+  {
+    "id": "geo-ptolemy-geography",
+    "term": "托勒密《地理学指南》",
+    "termEn": "Ptolemy's Geography",
+    "category": "制图坐标",
+    "categoryEn": "Mapping Coordinates",
+    "level": 2,
+    "year": 150,
+    "oneLiner": "第一次给世界标注经纬度、并教人把球面画到平面上——一套可用一千五百年的坐标思想。",
+    "oneLinerEn": "The first to tag the world with latitude and longitude and to teach projecting a sphere onto a plane—a coordinate idea that served for fifteen centuries.",
+    "detail": "全书核心是数千个地点的经纬表与三种投影法。它假设地球为球、可用网格定位，把地理从叙事变成可计算的对象。可惜它沿用的地球周长偏小、又把已知世界向东拉伸，这一误差千年后仍影响着哥伦布的算盘。",
+    "detailEn": "Its core is a table of latitudes and longitudes for thousands of places plus three projection methods. Assuming a spherical, grid-locatable Earth turned geography from narrative into a computable object. Sadly its undersized circumference and eastward stretch of the known world still shaped Columbus's arithmetic a millennium later.",
+    "related": [
+      "ptolemy",
+      "mercator-true-shape",
+      "time-zone"
+    ]
+  },
+  {
+    "id": "geo-shuijingzhu",
+    "term": "郦道元《水经注》",
+    "termEn": "Li Daoyuan's Commentary on Waters",
+    "category": "古典地理",
+    "categoryEn": "Classical Geography",
+    "level": 1,
+    "year": 527,
+    "oneLiner": "以一条水为线索，把沿岸的山川、城邑、风物串成一部流水的百科全书。",
+    "oneLinerEn": "Using each river as a thread, it strings together the mountains, towns and customs along its banks into an encyclopedia that flows.",
+    "detail": "它为《水经》作注，记一百多条干流、上千条支流，每条都述其源流、经行与沿途史地。方法上是「因水以证地」——把水道当作野外考察的路线，比欧洲同类水文志早了近千年。",
+    "detailEn": "Commenting on the classic Water Classic, it records over a hundred main streams and a thousand tributaries, each with its source, course and the history and geography along the way. Its method—'verify land by following water'—treats rivers as fieldwork routes, nearly a thousand years before similar European hydrography.",
+    "related": [
+      "li-daoyuan",
+      "yangtze",
+      "yellow-river"
+    ]
+  },
+  {
+    "id": "geo-ibn-battuta",
+    "term": "伊本·白图泰的三十年行记",
+    "termEn": "Ibn Battuta's Thirty-Year Travels",
+    "category": "旅行考察",
+    "categoryEn": "Travel & Survey",
+    "level": 1,
+    "year": 1354,
+    "oneLiner": "从摩洛哥到中国，徒步与舟行走遍当时已知世界的几乎每一角，行程胜过马可·波罗数倍。",
+    "oneLinerEn": "From Morocco to China he walked and sailed nearly every corner of the known world, covering several times Marco Polo's distance.",
+    "detail": "1325 年出发、约 1354 年口述成书，足迹跨北非、阿拉伯、东非、南亚与元朝中国。他的记述是一张大范围内季风、洋流与商路的实地地图，为后世留下中世纪洲际联系的第一手人情地理。",
+    "detailEn": "Setting out in 1325 and dictating his account around 1354, he ranged across North Africa, Arabia, East Africa, South Asia and Yuan-dynasty China. His narrative is a field map of monsoons, currents and trade routes over a vast span, leaving the first-hand human geography of medieval intercontinental connection.",
+    "related": [
+      "ibn-battuta",
+      "monsoon",
+      "commercial-trade"
+    ]
+  },
+  {
+    "id": "geo-zhenghe-voyages",
+    "term": "郑和七下西洋",
+    "termEn": "Zheng He's Seven Voyages",
+    "category": "航海时代",
+    "categoryEn": "Age of Sail",
+    "level": 1,
+    "year": 1405,
+    "oneLiner": "比哥伦布早近九十年，率庞大船队借季风往返西太平洋与印度洋，把海上丝路推向顶点。",
+    "oneLinerEn": "Nearly ninety years before Columbus, he led a vast fleet riding the monsoons across the western Pacific and Indian Ocean, topping the Maritime Silk Road.",
+    "detail": "1405 至 1433 年七次远航，最远抵达东非。船队靠牵星板定位、凭对季风节律的把握规划往返窗口。《郑和航海图》记下五百多地名与航路，是那个时代最完整的印度洋航指南之一。",
+    "detailEn": "Seven voyages from 1405 to 1433 reached as far as East Africa. The fleet fixed its latitude by star plucks and timed its comings and goings by the monsoon rhythm. The Mao Zhen's sailing chart, the treasure voyaging map, lists over five hundred places and routes—one of the most complete Indian Ocean guides of its day.",
+    "related": [
+      "zhenghe",
+      "monsoon",
+      "isthmus"
+    ]
+  },
+  {
+    "id": "geo-mercator",
+    "term": "墨卡托投影问世",
+    "termEn": "The Mercator Projection",
+    "category": "制图坐标",
+    "categoryEn": "Mapping Coordinates",
+    "level": 2,
+    "year": 1569,
+    "oneLiner": "让海图上任何直线都代表恒定航向——大航海最急需的一张「罗盘友好」地图就此诞生。",
+    "oneLinerEn": "Making every straight line on a chart a constant bearing—the 'compass-friendly' map that the age of sail most needed was born.",
+    "detail": "墨卡托把球面按等角条件摊平，代价是高纬被急剧放大：格陵兰看着同非洲一般大。它牺牲面积、保住角度，正适合导航却极易误导人对大陆大小的直觉，这份「真假之辨」至今是地图课的第一题。",
+    "detailEn": "Mercator spread the sphere flat under a conformal condition, at the cost of wildly inflated high latitudes: Greenland appears as big as Africa. It trades area for angle—ideal for navigation, yet a standing trap for our sense of continental size, and that true-versus-shape tension remains geography's first lesson.",
+    "related": [
+      "mercator-true-shape",
+      "ptolemy",
+      "time-zone"
+    ]
+  },
+  {
+    "id": "geo-xu-xiake",
+    "term": "徐霞客喀斯特考察",
+    "termEn": "Xu Xiake's Karst Fieldwork",
+    "category": "旅行考察",
+    "categoryEn": "Travel & Survey",
+    "level": 2,
+    "year": 1613,
+    "oneLiner": "三十余年徒步考察，第一个系统记录并解释中国西南岩溶地貌的成因，早于欧洲同类研究。",
+    "oneLinerEn": "Over thirty years on foot, he was the first to systematically record and explain the origin of China's south-west karst, ahead of like studies in Europe.",
+    "detail": "他从长江三角洲走到云贵高原，逐段描摹峰林、溶洞、地下河的形态与分布，并推断流水是其塑造者。《徐霞客游记》因此不只是一部行旅文学，更是一份早期的地貌野外报告。",
+    "detailEn": "He walked from the Yangtze delta to the Yunnan-Guizhou Plateau, tracing the form and distribution of peak forests, caves and underground rivers and inferring running water as their sculptor. The Travels of Xu Xiake is thus not only travel literature but an early geomorphology field report.",
+    "related": [
+      "xu-xiake",
+      "karst",
+      "river-landforms"
+    ]
+  },
+  {
+    "id": "geo-cook-antarctica",
+    "term": "库克环航南极与测绘太平洋",
+    "termEn": "Cook's Circumnavigation of the South",
+    "category": "航海时代",
+    "categoryEn": "Age of Sail",
+    "level": 2,
+    "year": 1772,
+    "oneLiner": "三下南大洋、首次越过南极圈，用精密经度仪把太平洋海岸线第一次画准。",
+    "oneLinerEn": "Thrice into the Southern Ocean and past the Antarctic Circle for the first time, he traced the Pacific's coasts true with a precision marine chronometer.",
+    "detail": "他两度越过南极圈却未见大陆，证明传说中的「南方巨陆」即便存在也在冰带之内、无从富庶。随船的经度仪解决了海上定经的世纪难题，他的海图精度直到一个多世纪后才被超越。",
+    "detailEn": "He crossed the Antarctic Circle twice yet never sighted land, showing the fabled 'great southern continent', if it existed at all, lay locked within the ice and could not be fertile. The chronometer aboard solved the century-old riddle of finding longitude at sea, and his charts' accuracy stood unbeaten for more than a century.",
+    "related": [
+      "antarctica",
+      "great-barrier-reef",
+      "ocean-currents"
+    ]
+  },
+  {
+    "id": "geo-humboldt",
+    "term": "洪堡的定量自然地理",
+    "termEn": "Humboldt's Quantitative Biogeography",
+    "category": "近代科学",
+    "categoryEn": "Modern Science",
+    "level": 2,
+    "year": 1800,
+    "oneLiner": "把温度、气压、高度与植被摆在同一张图上，第一次让自然地理成为讲因果的科学。",
+    "oneLinerEn": "Plotting temperature, pressure, altitude and vegetation on one map, he first made physical geography a science of causes.",
+    "detail": "南美考察中，他把植物按海拔分带、画出等温线，并提出「植被带」随气候而非仅随纬度变化的思想。等温线、等压线这些今天习以为常的图层，正是从他手里走进地理学。",
+    "detailEn": "In his South American survey he banded plants by altitude, drew isotherms, and held that vegetation zones track climate rather than latitude alone. The isotherm and isobar—layers now taken for granted—entered geography through his hand.",
+    "related": [
+      "humboldt",
+      "biome-zonation",
+      "isotherm",
+      "albedo"
+    ]
+  },
+  {
+    "id": "geo-uniformitarianism",
+    "term": "均变论与深时间",
+    "termEn": "Uniformitarianism and Deep Time",
+    "category": "近代科学",
+    "categoryEn": "Modern Science",
+    "level": 3,
+    "year": 1830,
+    "oneLiner": "「今天是理解过去的钥匙」——把地貌归因于缓慢而恒常的作用，为地球打开了漫长地质年表。",
+    "oneLinerEn": "'The present is the key to the past'—attributing landforms to slow, constant action threw open the Earth's long geological clock.",
+    "detail": "赫顿提出地质作用古今一致、莱尔以《地质学原理》集其大成：细微的侵蚀与沉积经无穷岁月即可雕刻高山与深谷。这不仅解释了地貌，更把地球时间从数千年的短促尺度扩展到难以想象的深远。",
+    "detailEn": "Hutton held that geological action is uniform across time, and Lyell crowned it in his Principles: minute erosion and deposition, over infinite years, can carve mountains and gorges. This explained landforms and, more, stretched Earth time from a brief few thousand years to an unimaginable depth.",
+    "related": [
+      "lyell",
+      "uniformitarianism",
+      "geologic-time-scale",
+      "hutton"
+    ]
+  },
+  {
+    "id": "geo-continental-drift",
+    "term": "大陆漂移说的提出",
+    "termEn": "The Idea of Continental Drift",
+    "category": "近代科学",
+    "categoryEn": "Modern Science",
+    "level": 3,
+    "year": 1912,
+    "oneLiner": "从两岸岩层的咬合与化石的分布，大胆断言大陆并非固定，而是在漂移。",
+    "oneLinerEn": "From the jigsaw fit of coasts and the spread of fossils, he boldly claimed the continents are not fixed but adrift.",
+    "detail": "魏格纳注意到大西洋两岸轮廓与古生物的高度吻合，提出各陆块曾同属一块「泛大陆」而后分裂漂移。当时他给不出合理的驱动力，学说长期受冷落，直到海底扩张证据出现才被正名。",
+    "detailEn": "Wegner noted how the Atlantic's shores and their ancient life matched, and proposed that the lands once formed a single Pangaia before splitting and drifting. Lacking a workable driving force, his idea stayed cold-shouldered until seafloor-spreading evidence vindicated it.",
+    "related": [
+      "alfred-wegener",
+      "continental-drift",
+      "plate-tectonics"
+    ]
+  },
+  {
+    "id": "geo-earth-observation",
+    "term": "地球观测卫星时代",
+    "termEn": "The Earth-Observation Satellite Era",
+    "category": "当代技术",
+    "categoryEn": "Modern Technology",
+    "level": 2,
+    "year": 1972,
+    "oneLiner": "第一颗陆地卫星上天，人类第一次能从太空持续俯瞰并量化整颗地球的样貌。",
+    "oneLinerEn": "With the first Landsat in orbit, humanity could for the first time watch and measure the whole Earth steadily from space.",
+    "detail": "遥感卫星以多波段反复扫描地表，把冰川退缩、城市扩张、植被季相变成可比对的时间序列。它顺带打破了一个流行误区：在低轨根本看不清长城，更谈不上「太空肉眼可见」——但正因看得够广，地球的每一寸变化反而被真正记录了下来。",
+    "detailEn": "Remote-sensing satellites scan the surface repeatedly in many bands, turning glacier retreat, urban sprawl and seasonal vegetation into comparable time series. They also debunked a popular myth: from low orbit the Great Wall is not visible to the naked eye, let alone 'from space'—yet precisely because they see so widely, every inch of the planet's change is now genuinely recorded.",
+    "related": [
+      "great-wall-space",
+      "contour-line",
+      "albedo"
+    ]
+  }
+]

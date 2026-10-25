@@ -860,6 +860,90 @@
       "nEn": "Geologic Time Scale"
     }
   ],
+  "geo-era-eratosthenes": [
+    {
+      "m": "m-timeline",
+      "n": "埃拉托色尼测算地球周长",
+      "nEn": "Eratosthenes Measures the Earth"
+    }
+  ],
+  "geo-ptolemy-geography": [
+    {
+      "m": "m-timeline",
+      "n": "托勒密《地理学指南》",
+      "nEn": "Ptolemy's Geography"
+    }
+  ],
+  "geo-shuijingzhu": [
+    {
+      "m": "m-timeline",
+      "n": "郦道元《水经注》",
+      "nEn": "Li Daoyuan's Commentary on Waters"
+    }
+  ],
+  "geo-ibn-battuta": [
+    {
+      "m": "m-timeline",
+      "n": "伊本·白图泰的三十年行记",
+      "nEn": "Ibn Battuta's Thirty-Year Travels"
+    }
+  ],
+  "geo-zhenghe-voyages": [
+    {
+      "m": "m-timeline",
+      "n": "郑和七下西洋",
+      "nEn": "Zheng He's Seven Voyages"
+    }
+  ],
+  "geo-mercator": [
+    {
+      "m": "m-timeline",
+      "n": "墨卡托投影问世",
+      "nEn": "The Mercator Projection"
+    }
+  ],
+  "geo-xu-xiake": [
+    {
+      "m": "m-timeline",
+      "n": "徐霞客喀斯特考察",
+      "nEn": "Xu Xiake's Karst Fieldwork"
+    }
+  ],
+  "geo-cook-antarctica": [
+    {
+      "m": "m-timeline",
+      "n": "库克环航南极与测绘太平洋",
+      "nEn": "Cook's Circumnavigation of the South"
+    }
+  ],
+  "geo-humboldt": [
+    {
+      "m": "m-timeline",
+      "n": "洪堡的定量自然地理",
+      "nEn": "Humboldt's Quantitative Biogeography"
+    }
+  ],
+  "geo-uniformitarianism": [
+    {
+      "m": "m-timeline",
+      "n": "均变论与深时间",
+      "nEn": "Uniformitarianism and Deep Time"
+    }
+  ],
+  "geo-continental-drift": [
+    {
+      "m": "m-timeline",
+      "n": "大陆漂移说的提出",
+      "nEn": "The Idea of Continental Drift"
+    }
+  ],
+  "geo-earth-observation": [
+    {
+      "m": "m-timeline",
+      "n": "地球观测卫星时代",
+      "nEn": "The Earth-Observation Satellite Era"
+    }
+  ],
   "weather-vs-climate": [
     {
       "m": "m-compare",

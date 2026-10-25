@@ -1,0 +1,211 @@
+[
+  {
+    "id": "bio-aristotle-fauna",
+    "term": "亚里士多德的动物观察",
+    "termEn": "Aristotle's Animals",
+    "category": "古典自然史",
+    "categoryEn": "Classical Natural History",
+    "level": 1,
+    "year": -350,
+    "oneLiner": "第一次把动物系统观察、解剖并按形态归类，为两千年间的生物知识定下底本。",
+    "oneLinerEn": "The first to observe, dissect and sort animals by form, setting the baseline of biological knowledge for the next two millennia.",
+    "detail": "他记述五百余种动物，按有无红血、胎生卵生、四肢与介壳等特征分层，已具分类学的雏形。他也提出「自然不做无用之事」的目的论解释，长时期主导后人对适应的理解。",
+    "detailEn": "He described over five hundred species, layering them by the presence of red blood, live- or egg-birth, limbs and shell—already the skeleton of taxonomy. His purposive maxim 'nature does nothing in vain' long shaped how adaptation was read.",
+    "related": [
+      "aristotle",
+      "tree-of-life"
+    ]
+  },
+  {
+    "id": "bio-harvey-circulation",
+    "term": "哈维证明血液循环",
+    "termEn": "Harvey's Circulation",
+    "category": "生理机制",
+    "categoryEn": "Physiology",
+    "level": 2,
+    "year": 1628,
+    "oneLiner": "以结扎与定量推算证明血液由心脏泵出、沿闭合回路循环，推翻了盖伦的千年血流成说。",
+    "oneLinerEn": "By ligation and quantitative reckoning he showed the heart pumps blood around a closed loop, overturning Galen's thousand-year doctrine of the flow.",
+    "detail": "他算出心搏一次输出的血量远超餐食所能化生，若血液不回收则每日须制造数倍体重的血——唯一自洽的解释是同一摊血在体内循环。把定量推理引入生理，是生命科学方法论的一次跃迁。",
+    "detailEn": "He computed that each heartbeat expels far more blood than a meal could ever generate; if blood were not returned, the body would make several times its own weight daily—the only coherent reading is one and the same blood circling. Bringing quantitative argument into physiology was a leap in method.",
+    "related": [
+      "harvey",
+      "circulation-transport"
+    ]
+  },
+  {
+    "id": "bio-cell-discovery",
+    "term": "细胞的发现与命名",
+    "termEn": "The Discovery of the Cell",
+    "category": "显微时代",
+    "categoryEn": "The Microscopic Age",
+    "level": 1,
+    "year": 1665,
+    "oneLiner": "自制显微镜看向软木薄片，第一次认出生命由一格格的「小房间」构成。",
+    "oneLinerEn": "Peering at cork through a homemade microscope, he first saw that life is built of box-like little rooms.",
+    "detail": "他照样观察到蜂窝状小室，取拉丁文细胞之名命之；虽看到的只是死细胞的壁，却为「细胞是生命单位」这一观念埋下第一颗种子。稍后列文虎克用更利的透镜第一次看见活细胞与微生物。",
+    "detailEn": "He saw the honeycomb chambers and named them cells after their Latin for 'little room'; though only the walls of dead cells, they planted the first seed of 'the cell is life's unit'. Soon after, Leeuwenhoek with sharper lenses first saw living cells and microbes.",
+    "related": [
+      "cell-fundamentals",
+      "cell-theory"
+    ]
+  },
+  {
+    "id": "bio-linnaeus-systema",
+    "term": "林奈建立双名分类",
+    "termEn": "Linnaeus Sets the Binomial System",
+    "category": "分类秩序",
+    "categoryEn": "Ordering Life",
+    "level": 1,
+    "year": 1735,
+    "oneLiner": "用属名加种加词的双名法，为混乱的动植物发下人人可查的「身份证」。",
+    "oneLinerEn": "With genus plus species-name binomials, he issued every plant and animal a checkable identity card out of the earlier confusion.",
+    "detail": "他把界分为纲、目、属、种的层级，以生殖器官数简单归类植物，命名法却沿用至今。他的体系暗含「物种固定」的假设——而这份整齐秩序，很快就要被演化的思想松动。",
+    "detailEn": "He split the kingdom into class, order, genus and species, sorting plants simply by the count of their reproductive parts—a naming scheme still in use. His system quietly assumed fixed species; that tidy order was soon to be loosened by the idea of evolution.",
+    "related": [
+      "linnaeus",
+      "tree-of-life"
+    ]
+  },
+  {
+    "id": "bio-lamarck-transformism",
+    "term": "拉马克的演化先声",
+    "termEn": "Lamarck's Early Transformism",
+    "category": "演化思想",
+    "categoryEn": "Evolutionary Thought",
+    "level": 2,
+    "year": 1809,
+    "oneLiner": "第一个成体系主张物种会随环境改变而演化，尽管他给的机制后来被证伪。",
+    "oneLinerEn": "The first to argue systematically that species change with their environment—though the mechanism he offered was later refuted.",
+    "detail": "他用「用进废退」与「获得性遗传」解释短颈的鹿如何一步步变成长颈：常不用的器官退化、常用的发达，且能传给后代。这一机制在达尔文之后被否定，但「物种可变」的洞见本身是重要的一步。",
+    "detailEn": "He explained the short-necked deer becoming the giraffe by 'use and disuse' and the inheritance of acquired traits: unused organs waste, used ones grow, and both pass to offspring. The mechanism was refuted after Darwin, but the insight that species change was a real step.",
+    "related": [
+      "lamarck",
+      "acquired-inheritance"
+    ]
+  },
+  {
+    "id": "bio-darwin-origin",
+    "term": "达尔文《物种起源》",
+    "termEn": "Darwin's Origin of Species",
+    "category": "演化思想",
+    "categoryEn": "Evolutionary Thought",
+    "level": 2,
+    "year": 1859,
+    "oneLiner": "以自然选择解释物种的由来：变异、遗传与生存竞争的合演，无需设计者。",
+    "oneLinerEn": "Explaining the origin of species by natural selection—the interplay of variation, heredity and the struggle for existence, with no designer needed.",
+    "detail": "他从家养选育推及野外：个体变异不均，资源有限致竞争，有利变异者留下更多后代，代代累积便成新种。华莱士独立想到同一机制，促使论文共同发表。这一理论把散落的博物事实收进一条因果主线。",
+    "detailEn": "From breeding he reasoned outward to the wild: individuals vary unequally, scarce resources force a struggle, the better-fitted leave more young, and the accumulation across generations makes new kinds. Wallace hit on the same mechanism independently, forcing a joint publication. The theory gathered scattered natural-history facts onto one causal line.",
+    "related": [
+      "darwin",
+      "natural-selection",
+      "wallace"
+    ]
+  },
+  {
+    "id": "bio-pasteur-biogenesis",
+    "term": "巴斯德驳倒自然发生说",
+    "termEn": "Pasteur Refutes Spontaneous Generation",
+    "category": "微生物学",
+    "categoryEn": "Microbiology",
+    "level": 2,
+    "year": 1861,
+    "oneLiner": "用鹅颈瓶证明微生物来自空气中已有的孢子，而非腐液自生，奠定病菌学说之基。",
+    "oneLinerEn": "His swan-neck flasks showed microbes come from spores already in the air, not springing from broth itself—laying the base of germ theory.",
+    "detail": "鹅颈瓶能进气却拦落尘粒，瓶中肉汤久置不腐；一倾断颈，尘埃入内便生菌。生命来自生命（生源论）由此确立，也直接通向无菌手术、巴氏消毒与疫苗的路。",
+    "detailEn": "The swan neck admits air but traps falling dust, and the broth stays clear for months; tilt and snap the neck and dust enters, and life appears. Biogenesis—life from life—was established, opening the road to aseptic surgery, pasteurization and vaccines.",
+    "related": [
+      "pasteur",
+      "origin-of-life"
+    ]
+  },
+  {
+    "id": "bio-mendel-heredity",
+    "term": "孟德尔发现遗传定律",
+    "termEn": "Mendel's Laws of Heredity",
+    "category": "遗传学",
+    "categoryEn": "Genetics",
+    "level": 2,
+    "year": 1866,
+    "oneLiner": "统计数万株豌豆的性状比例，悟出遗传是离散的「因子」按规律分离与组合。",
+    "oneLinerEn": "Counting the trait ratios of tens of thousands of peas, he saw that heredity works by discrete 'factors' separating and recombining by rule.",
+    "detail": "高茎与矮茎杂交，子一代全高、子二代再现约三比一——性状并非融合稀释，而是由成对因子承载、随配子分离。这一超前的定量思路当世无人理解，直到 1900 年才被重新发现。",
+    "detailEn": "Crossing tall with short peas gave all-tall first generation and roughly three-to-one in the second—traits not blended away but carried in paired factors that separate into gametes. This quantitative leap went unnoticed in his lifetime and was only rediscovered in 1900.",
+    "related": [
+      "mendel",
+      "heredity-mendel",
+      "allele"
+    ]
+  },
+  {
+    "id": "bio-morgan-chromosome",
+    "term": "摩尔根：基因在染色体上",
+    "termEn": "Morgan: Genes on Chromosomes",
+    "category": "遗传学",
+    "categoryEn": "Genetics",
+    "level": 3,
+    "year": 1910,
+    "oneLiner": "以果蝇白眼性状的伴性遗传，把抽象的遗传因子钉到了具体的染色体上。",
+    "oneLinerEn": "Tracking the white-eye trait's sex-linked inheritance in fruit flies, he pinned the abstract hereditary factor onto the concrete chromosome.",
+    "detail": "白眼只随 X 染色体传递，与减数分裂中染色体的行为严丝合缝，基因因此有了物质载体。他又借连锁与交换率给染色体上的基因排定相对位置，画出第一张基因图。",
+    "detailEn": "White eye rode with the X chromosome, matching exactly how chromosomes behave in meiosis, so genes gained a physical carrier. Linkage and crossover rates then ordered genes along the chromosome into the first gene map.",
+    "related": [
+      "meiosis",
+      "allele",
+      "heredity-mendel"
+    ]
+  },
+  {
+    "id": "bio-dna-helix",
+    "term": "DNA 双螺旋结构",
+    "termEn": "The Double Helix",
+    "category": "分子时代",
+    "categoryEn": "The Molecular Age",
+    "level": 3,
+    "year": 1953,
+    "oneLiner": "两条链反向平行、碱基互补配对——遗传信息如何存储与复制，一眼看尽。",
+    "oneLinerEn": "Two antiparallel strands with complementary base pairs—at a glance, how genetic information is stored and copied.",
+    "detail": "结构本身暗示机制：解开双链，各以互补原则配对新链，即为复制；碱基序列便是遗传密码。关键的一张 X 射线衍射图出自富兰克林之手，为模型定下螺距与直径，而这份贡献长期少被提及。",
+    "detailEn": "The structure implied the mechanism: part the strands and each pairs a complement—that is replication; the base sequence is the code. The decisive X-ray diffraction image came from Franklin, fixing the helix's pitch and diameter, though her contribution long went under-credited.",
+    "related": [
+      "watson-crick",
+      "central-dogma",
+      "rosalind-franklin"
+    ]
+  },
+  {
+    "id": "bio-dolly-clone",
+    "term": "体细胞克隆羊多利",
+    "termEn": "Dolly the Cloned Sheep",
+    "category": "生物技术",
+    "categoryEn": "Biotechnology",
+    "level": 2,
+    "year": 1996,
+    "oneLiner": "把成年乳腺细胞的核移入去核卵细胞，育出遗传相同的羊——分化原来并非不可逆。",
+    "oneLinerEn": "Moving an adult breast cell's nucleus into a dewalled egg produced a genetically identical sheep—specialization, it turned out, is not locked in.",
+    "detail": "多利的基因组来自六岁母羊的体细胞，打破了「成年细胞命运已定」的成见，也开启了治疗性克隆与诱导多能干细胞的研究。它同时把克隆伦理推上公共讨论的前台。",
+    "detailEn": "Dolly's genome came from a six-year-old ewe's body cell, breaking the dogma that an adult cell's fate is fixed and opening therapeutic cloning and induced stem-cell research. She also forced cloning ethics onto the public stage.",
+    "related": [
+      "cloned-sheep-dolly",
+      "cell-division"
+    ]
+  },
+  {
+    "id": "bio-human-genome",
+    "term": "人类基因组计划完成",
+    "termEn": "The Human Genome Project",
+    "category": "生物技术",
+    "categoryEn": "Biotechnology",
+    "level": 3,
+    "year": 2003,
+    "oneLiner": "三十亿碱基对的草图被读出，人类第一次拿到自身遗传的完整「参考书」。",
+    "oneLinerEn": "A draft of three billion base pairs was read—the first full reference book of our own heredity.",
+    "detail": "国际协作测出人类基因组的参考序列，估定基因两万上下的数目，远少于预期，提醒复杂性状并非由基因数量简单决定。它把比较基因组学与精准医学的大门一同推开，也把「基因决定论」的误解一并摆上台面。",
+    "detailEn": "An international effort read out the human reference sequence and set the gene count near twenty thousand—far below expectation, a reminder that complex traits do not track gene number. It flung open comparative genomics and precision medicine while laying the error of 'genetic determinism' bare.",
+    "related": [
+      "gene-pool",
+      "genotype",
+      "central-dogma"
+    ]
+  }
+]

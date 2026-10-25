@@ -11,7 +11,8 @@
     "myths": 12,
     "experiments": 12,
     "compare": 12,
-    "quiz": 12
+    "quiz": 12,
+    "timeline": 12
   },
   "modules": [
     {
@@ -23,6 +24,11 @@
       "key": "compare",
       "title": "生命对照",
       "titleEn": "Biology contrasts"
+    },
+    {
+      "key": "timeline",
+      "title": "认知生命时间线",
+      "titleEn": "Timeline of Biology"
     }
   ],
   "kpis": [

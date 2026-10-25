@@ -2,7 +2,7 @@
 
 > Terrain, climate zones, country profiles and rivers — a spatial map of the world.
 
-171 entries across 11 categories, all as structured JSON.
+183 entries across 12 categories, all as structured JSON.
 
 ## Data endpoints
 - [Classics](https://minosie.github.io/wanwu-hub/earth-data/data/classics.json)
@@ -20,5 +20,6 @@
 - [Search index](https://minosie.github.io/wanwu-hub/earth-data/data/search.json)
 - [References](https://minosie.github.io/wanwu-hub/earth-data/data/sources.json)
 - [Thinkers](https://minosie.github.io/wanwu-hub/earth-data/data/thinkers.json)
+- [Timeline of Exploration](https://minosie.github.io/wanwu-hub/earth-data/data/timeline.json)
 - [Page](https://minosie.github.io/wanwu-hub/subject/earth/)
 - [Chinese index](https://minosie.github.io/wanwu-hub/earth-data/llms.txt)

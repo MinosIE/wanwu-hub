@@ -102,6 +102,14 @@ export const MODULES: ModuleDef[] = [
     priority: 2,
     load: () => import("./quiz"),
   },
+  {
+    id: "m-timeline",
+    key: "timeline",
+    icon: "🕰️",
+    file: "timeline.json",
+    priority: 2,
+    load: () => import("./timeline"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

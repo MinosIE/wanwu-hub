@@ -55,6 +55,9 @@ export const TEMPLATE = `<div class="wrap">
         <button class="mod" data-go="m-quiz" data-i18n="nav.quiz">
           小测验
         </button>
+        <button class="mod" data-go="m-timeline" data-i18n="nav.timeline">
+          时间线
+        </button>
       </nav>
 
       <section class="module active" id="m-home">
@@ -201,6 +204,18 @@ export const TEMPLATE = `<div class="wrap">
         <div class="filters" id="quizFilters"></div>
         <p class="count" id="quizCount"></p>
         <div class="card-grid" id="quizGrid"></div>
+      </section>
+
+      <section class="module" id="m-timeline">
+        <header class="mod-head">
+          <h2 data-i18n="timeline.title">认知生命时间线</h2>
+          <p class="mod-sub" data-i18n="timeline.sub">
+            从亚里士多德观察动物到人类基因组草图：把生命科学的关键时刻放回时间里。点击看前因后果。
+          </p>
+        </header>
+        <div class="filters" id="timelineFilters"></div>
+        <p class="count" id="timelineCount"></p>
+        <div class="card-grid" id="timelineGrid"></div>
       </section>
 
       <footer class="foot" id="foot"></footer>
