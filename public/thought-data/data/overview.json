@@ -4,7 +4,7 @@
     "schools": 26,
     "questions": 19,
     "branches": 16,
-    "classics": 16,
+    "classics": 20,
     "thinkers": 34,
     "glossary": 36,
     "timeline": 29,
@@ -26,7 +26,7 @@
     {
       "key": "classics",
       "icon": "📜",
-      "value": 16
+      "value": 20
     },
     {
       "key": "questions",

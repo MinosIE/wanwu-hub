@@ -382,5 +382,102 @@
     "influenceEn": "The systematic masterwork of existentialism, shaping twentieth-century thought on freedom and responsibility.",
     "related": ["existentialism", "sartre", "beauvoir", "meaning"],
     "sources": [{ "label": "《存在与虚无》", "labelEn": "Being and Nothingness", "year": 1943 }]
+  },
+  {
+    "id": "contrat-social",
+    "name": "社会契约论",
+    "nameEn": "The Social Contract",
+    "author": "让-雅克·卢梭",
+    "authorEn": "Jean-Jacques Rousseau",
+    "era": "法国 · 启蒙",
+    "eraEn": "France · Enlightenment",
+    "level": 2,
+    "order": 17,
+    "core": "人生而自由，却无往不在枷锁之中；合法的政治权威必须建立在契约与公意之上。",
+    "coreEn": "Man is born free, yet everywhere he is in chains; legitimate political authority must rest on the contract and the general will.",
+    "themes": ["主权在民", "公意", "社会契约", "自由与平等"],
+    "themesEn": [
+      "Popular sovereignty",
+      "General will",
+      "Social contract",
+      "Liberty & equality"
+    ],
+    "influence": "启蒙政治哲学的核心文本，深刻影响了现代民主观念与革命思想。",
+    "influenceEn": "A cornerstone of Enlightenment political thought, deeply shaping modern democracy and revolutionary ideas.",
+    "related": ["rousseau", "hobbes", "social-contract", "political-philosophy"],
+    "sources": [{ "label": "《社会契约论》", "labelEn": "The Social Contract", "year": 1762 }]
+  },
+  {
+    "id": "phenomenology-of-spirit",
+    "name": "精神现象学",
+    "nameEn": "The Phenomenology of Spirit",
+    "author": "黑格尔",
+    "authorEn": "G. W. F. Hegel",
+    "era": "德国 · 观念论",
+    "eraEn": "Germany · Idealism",
+    "level": 3,
+    "order": 18,
+    "core": "意识经由辩证运动，从感性确定性一步步上升到绝对知识；真理是整个体系自身。",
+    "coreEn": "Consciousness rises through dialectical movement from sense-certainty to absolute knowing; truth is the whole system itself.",
+    "themes": ["辩证法", "主奴关系", "扬弃", "绝对精神"],
+    "themesEn": ["Dialectics", "Master-servant", "Sublation", "Absolute spirit"],
+    "influence": "德国古典哲学的巅峰之一，为马克思与后世思潮开辟了思想源头。",
+    "influenceEn": "A summit of German classical philosophy, opening sources for Marx and later currents of thought.",
+    "related": ["hegel", "marx", "marxism", "rationalism"],
+    "sources": [
+      {
+        "label": "《精神现象学》",
+        "labelEn": "The Phenomenology of Spirit",
+        "year": 1807
+      }
+    ]
+  },
+  {
+    "id": "on-liberty",
+    "name": "论自由",
+    "nameEn": "On Liberty",
+    "author": "约翰·斯图尔特·密尔",
+    "authorEn": "John Stuart Mill",
+    "era": "英国 · 功利主义",
+    "eraEn": "Britain · Utilitarianism",
+    "level": 2,
+    "order": 19,
+    "core": "社会只有在防止伤害他人时，才能正当地干涉个人自由；思想与言论自由尤须守护。",
+    "coreEn": "Society may justly interfere with individual liberty only to prevent harm to others; liberty of thought and discussion must be especially guarded.",
+    "themes": ["伤害原则", "个人自由", "言论自由", "多数暴政"],
+    "themesEn": [
+      "Harm principle",
+      "Individual liberty",
+      "Freedom of speech",
+      "Tyranny of the majority"
+    ],
+    "influence": "古典自由主义的奠基之作，成为讨论自由与权力边界的标准文本。",
+    "influenceEn": "A founding work of classical liberalism, the standard text for debating liberty and the limits of power.",
+    "related": ["mill", "utilitarianism", "justice", "political-philosophy"],
+    "sources": [{ "label": "《论自由》", "labelEn": "On Liberty", "year": 1859 }]
+  },
+  {
+    "id": "democracy-education",
+    "name": "民主与教育",
+    "nameEn": "Democracy and Education",
+    "author": "约翰·杜威",
+    "authorEn": "John Dewey",
+    "era": "美国 · 实用主义",
+    "eraEn": "United States · Pragmatism",
+    "level": 2,
+    "order": 20,
+    "core": "教育即生长、即经验的不断改造；学校应是民主社会的雏形，而非隔绝的象牙塔。",
+    "coreEn": "Education is growth and the continual reorganization of experience; the school should be an embryonic democratic community, not an isolated ivory tower.",
+    "themes": ["教育即生活", "从做中学", "经验与生长", "民主社会"],
+    "themesEn": [
+      "Education as life",
+      "Learning by doing",
+      "Experience & growth",
+      "Democratic society"
+    ],
+    "influence": "实用主义教育哲学的代表作，深刻影响了二十世纪的进步教育运动。",
+    "influenceEn": "The keywork of pragmatist philosophy of education, deeply shaping the twentieth-century progressive education movement.",
+    "related": ["dewey", "pragmatism", "empiricism", "political-philosophy"],
+    "sources": [{ "label": "《民主与教育》", "labelEn": "Democracy and Education", "year": 1916 }]
   }
 ]
