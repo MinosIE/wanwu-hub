@@ -389,5 +389,85 @@
       "climate-genesis",
       "circulation-cells"
     ]
+  },
+  {
+    "id": "q-earth-13",
+    "term": "按气候学的定义，判断一个地方是不是荒漠，主要看——",
+    "termEn": "By the scientific definition, whether a place counts as a desert depends mainly on—",
+    "category": "天气与气候",
+    "categoryEn": "Weather & Climate",
+    "level": 1,
+    "oneLiner": "提示：和热不热关系不大。",
+    "oneLinerEn": "Hint: it has little to do with how hot it is.",
+    "detail": "荒漠以降水稀少为准，通常年降水量不足 250 毫米即算——所以冰封的南极才是世界最大的荒漠，炎热的撒哈拉只是「热荒漠」。",
+    "detailEn": "A desert is defined by scarce precipitation—usually under about 250 mm a year—so icy Antarctica is the planet's largest desert, while scorching Sahara is merely a 'hot desert'.",
+    "options": [
+      { "text": "降水量多少", "textEn": "How little rain it gets", "correct": true },
+      { "text": "气温高低", "textEn": "How hot it is", "correct": false },
+      { "text": "沙层厚薄", "textEn": "How deep the sand goes", "correct": false }
+    ],
+    "related": ["antarctica-largest-desert", "desert"]
+  },
+  {
+    "id": "q-earth-14",
+    "term": "气流越过山地时，迎风坡多雨、背风坡干燥，这种降水类型叫——",
+    "termEn": "Air forced up a mountain dumps rain on the windward side and leaves the leeward side dry; this rain is—",
+    "category": "天气与气候",
+    "categoryEn": "Weather & Climate",
+    "level": 1,
+    "oneLiner": "提示：山在「拦路」下雨。",
+    "oneLinerEn": "Hint: the hill itself forces the rain out.",
+    "detail": "暖湿空气沿坡抬升、冷却凝结成雨，是地形雨；翻过山顶后空气下沉增温、水汽已尽，形成干燥的雨影区——焚风与荒漠常由此而生。",
+    "detailEn": "Warm moist air climbs the slope, cools and rains out — orographic precipitation. Descending the far side, it warms and has spent its moisture, leaving a rain-shadow: hence foehn winds and often a desert.",
+    "options": [
+      { "text": "地形雨", "textEn": "Orographic rain", "correct": true },
+      { "text": "对流雨", "textEn": "Convectional rain", "correct": false },
+      { "text": "锋面雨", "textEn": "Frontal rain", "correct": false }
+    ],
+    "related": ["orographic-precipitation", "foehn-wind", "desert"]
+  },
+  {
+    "id": "q-earth-15",
+    "term": "华山那种「一侧是陡崖、一侧是缓坡」的山，最可能的成因是——",
+    "termEn": "A mountain like Huashan — a sheer cliff on one flank, a gentle slope on the other — was most likely made by—",
+    "category": "地貌与地质作用",
+    "categoryEn": "Landforms & Geomorphism",
+    "level": 2,
+    "oneLiner": "提示：岩块沿着一条缝「站」了起来。",
+    "oneLinerEn": "Hint: a rock slab stood up along a crack.",
+    "detail": "断层两侧岩块相对错动，一侧抬升成陡崖、一侧下陷成谷地，形成断层块山与地堑；华山的绝壁正是断层面，风化只是后期的雕刻工。",
+    "detailEn": "Blocks slip along a fault: one rises into a sheer face, one drops into a valley — a fault-block mountain and graben. Huashan's cliff is the fault plane itself; weathering only sculpted the details.",
+    "options": [
+      {
+        "text": "断层抬升的岩块",
+        "textEn": "A block lifted along a fault",
+        "correct": true
+      },
+      { "text": "火山喷发堆积", "textEn": "A volcano piling up", "correct": false },
+      { "text": "河流下切侵蚀", "textEn": "A river cutting down", "correct": false }
+    ],
+    "related": ["fault", "plate-tectonics", "glacial-vs-fluvial-landforms"]
+  },
+  {
+    "id": "q-earth-16",
+    "term": "城市人口向郊区、乡村和小城镇回流的现象称为——",
+    "termEn": "The drift of people from big cities back out to suburbs, villages and small towns is called—",
+    "category": "人文与城市",
+    "categoryEn": "Human & Urban Geography",
+    "level": 3,
+    "oneLiner": "提示：它不是城市在衰亡。",
+    "oneLinerEn": "Hint: not the city dying.",
+    "detail": "这叫逆城市化：中心城区拥挤、地价高企，交通与通信又把生活半径拉大，人口随之向外疏解。它是城市化的再阶段而非倒退，城市群与都市带正由此成形。",
+    "detailEn": "Counter-urbanization: congestion and high land prices push people out while cars and networks stretch the commute — a re-spreading stage of urbanization, not its retreat, building city-regions and corridors.",
+    "options": [
+      { "text": "逆城市化", "textEn": "Counter-urbanization", "correct": true },
+      {
+        "text": "城市化加速",
+        "textEn": "Accelerating urbanization",
+        "correct": false
+      },
+      { "text": "乡村复兴", "textEn": "Rural revival", "correct": false }
+    ],
+    "related": ["urbanization", "urbanization-vs-counterurbanization"]
   }
 ]

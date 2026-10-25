@@ -1405,5 +1405,33 @@
       "n": "制作面包时面团膨松，功劳主要归于酵母——",
       "nEn": "Bread rises mainly because yeast—"
     }
+  ],
+  "q-life-13": [
+    {
+      "m": "m-quiz",
+      "n": "原核细胞（如细菌）与真核细胞最根本的区别是——",
+      "nEn": "The most fundamental difference between a prokaryotic cell (a bacterium) and a eukaryotic one is—"
+    }
+  ],
+  "q-life-14": [
+    {
+      "m": "m-quiz",
+      "n": "与无性生殖相比，有性生殖后代更具多样性的关键是——",
+      "nEn": "Compared with asexual reproduction, sexual reproduction breeds diversity chiefly because—"
+    }
+  ],
+  "q-life-15": [
+    {
+      "m": "m-quiz",
+      "n": "生态系统中能量流动逐级递减，平均每级只传递约 10%，主要原因是——",
+      "nEn": "Energy in an ecosystem declines up each trophic level — only ~10% passes on — mainly because—"
+    }
+  ],
+  "q-life-16": [
+    {
+      "m": "m-quiz",
+      "n": "判断两个物种亲缘关系远近，最可靠的证据是——",
+      "nEn": "The most reliable evidence for how closely two species are related is—"
+    }
   ]
 }

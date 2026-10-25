@@ -391,5 +391,113 @@
       "fungi",
       "metabolism-enzymes"
     ]
+  },
+  {
+    "id": "q-life-13",
+    "term": "原核细胞（如细菌）与真核细胞最根本的区别是——",
+    "termEn": "The most fundamental difference between a prokaryotic cell (a bacterium) and a eukaryotic one is—",
+    "category": "细胞与代谢",
+    "categoryEn": "Cell Biology",
+    "level": 1,
+    "oneLiner": "提示：看「有没有一间上锁的核」。",
+    "oneLinerEn": "Hint: is there a locked room for the genes?",
+    "detail": "真核细胞有核膜包被的细胞核与众多膜细胞器，原核细胞则没有——DNA 成环裸在细胞质中。二者约在 20 亿年前经内共生分开路，却共同构成全部细胞生命。",
+    "detailEn": "Eukaryotes keep their DNA in a membrane-walled nucleus with many membrane organelles; prokaryotes leave a bare loop in the cytoplasm. The two parted ways ~2 billion years ago via endosymbiosis yet make up every living cell.",
+    "options": [
+      {
+        "text": "有无核膜包被的细胞核",
+        "textEn": "Whether genes sit in a membrane-bound nucleus",
+        "correct": true
+      },
+      {
+        "text": "有无细胞膜",
+        "textEn": "Whether it has a cell membrane",
+        "correct": false
+      },
+      {
+        "text": "能否独立生活",
+        "textEn": "Whether it can live alone",
+        "correct": false
+      }
+    ],
+    "related": ["prokaryote-vs-eukaryote-cell", "eukaryotic-cell", "bacteria"]
+  },
+  {
+    "id": "q-life-14",
+    "term": "与无性生殖相比，有性生殖后代更具多样性的关键是——",
+    "termEn": "Compared with asexual reproduction, sexual reproduction breeds diversity chiefly because—",
+    "category": "生殖与发育",
+    "categoryEn": "Reproduction",
+    "level": 2,
+    "oneLiner": "提示：它是一副重新洗过的牌。",
+    "oneLinerEn": "Hint: a freshly shuffled deck.",
+    "detail": "减数分裂使基因重组，双亲配子再随机结合，每个后代都是新组合；无性繁殖只复制母体模板。多样化为自然选择备料，让种群在多变环境中更有底气。",
+    "detailEn": "Meiosis reshuffles the genes and two parents' gametes meet at random, so each offspring is a new hand; asexual copying just deals the same one again. Variety is natural selection's raw material in a changing world.",
+    "options": [
+      {
+        "text": "双亲基因经重组与随机结合",
+        "textEn": "Genes recombine and fuse at random",
+        "correct": true
+      },
+      { "text": "繁殖速度更快", "textEn": "It reproduces faster", "correct": false },
+      {
+        "text": "后代更适应稳定环境",
+        "textEn": "Offspring suit a stable world",
+        "correct": false
+      }
+    ],
+    "related": ["sexual-vs-asexual-reproduction", "meiosis", "natural-selection"]
+  },
+  {
+    "id": "q-life-15",
+    "term": "生态系统中能量流动逐级递减，平均每级只传递约 10%，主要原因是——",
+    "termEn": "Energy in an ecosystem declines up each trophic level — only ~10% passes on — mainly because—",
+    "category": "生态系统",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "oneLiner": "提示：每一口都被「呼吸税」抽走。",
+    "oneLinerEn": "Hint: a 'respiration tax' on every bite.",
+    "detail": "各营养级的呼吸、体温与活动把大部分能量以热的形式耗散，只有少部分转化为生物量被下一级摄入；能量单向流过、需阳光不断补充，这与可循环利用的物质截然不同。",
+    "detailEn": "Respiration, body heat and movement burn most energy away at each level, leaving a fraction as biomass for the next; energy flows one way and needs fresh sunlight — unlike matter, which can be cycled.",
+    "options": [
+      {
+        "text": "呼吸等生命活动以热的形式耗散",
+        "textEn": "Life processes burn it off as heat",
+        "correct": true
+      },
+      {
+        "text": "顶级捕食者食量太小",
+        "textEn": "Top predators eat too little",
+        "correct": false
+      },
+      {
+        "text": "分解者把能量全部回收",
+        "textEn": "Decomposers reclaim it all",
+        "correct": false
+      }
+    ],
+    "related": ["energy-flow-vs-nutrient-cycling", "energy-flow", "producer-vs-consumer"]
+  },
+  {
+    "id": "q-life-16",
+    "term": "判断两个物种亲缘关系远近，最可靠的证据是——",
+    "termEn": "The most reliable evidence for how closely two species are related is—",
+    "category": "生物分类",
+    "categoryEn": "Classification",
+    "level": 2,
+    "oneLiner": "提示：别看外表，看更底层的「账本」。",
+    "oneLinerEn": "Hint: skip the disguise; read the deeper ledger.",
+    "detail": "外形会骗人：同功器官（如鸟翼与蝶翼）功能像而来源不同，趋同演化让无关生物长得相似。DNA 序列与同源结构等发育、分子证据才真实记录共祖的分合。",
+    "detailEn": "Looks deceive: analogous wings (bird and butterfly) serve alike but start apart, and convergence dresses strangers alike. DNA sequences and homologous structures — the developmental and molecular ledger — record real kinship.",
+    "options": [
+      {
+        "text": "DNA 序列与同源结构",
+        "textEn": "DNA sequences and homologous structures",
+        "correct": true
+      },
+      { "text": "生活习性与栖息地", "textEn": "Habits and habitat", "correct": false },
+      { "text": "外形是否相似", "textEn": "Similar appearance", "correct": false }
+    ],
+    "related": ["homologous-vs-analogous", "tree-of-life"]
   }
 ]

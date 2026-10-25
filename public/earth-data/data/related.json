@@ -1454,5 +1454,33 @@
       "n": "驱动大气水循环与洋流的根本能量来源是——",
       "nEn": "The engine behind atmospheric, water and ocean circulation is ultimately—"
     }
+  ],
+  "q-earth-13": [
+    {
+      "m": "m-quiz",
+      "n": "按气候学的定义，判断一个地方是不是荒漠，主要看——",
+      "nEn": "By the scientific definition, whether a place counts as a desert depends mainly on—"
+    }
+  ],
+  "q-earth-14": [
+    {
+      "m": "m-quiz",
+      "n": "气流越过山地时，迎风坡多雨、背风坡干燥，这种降水类型叫——",
+      "nEn": "Air forced up a mountain dumps rain on the windward side and leaves the leeward side dry; this rain is—"
+    }
+  ],
+  "q-earth-15": [
+    {
+      "m": "m-quiz",
+      "n": "华山那种「一侧是陡崖、一侧是缓坡」的山，最可能的成因是——",
+      "nEn": "A mountain like Huashan — a sheer cliff on one flank, a gentle slope on the other — was most likely made by—"
+    }
+  ],
+  "q-earth-16": [
+    {
+      "m": "m-quiz",
+      "n": "城市人口向郊区、乡村和小城镇回流的现象称为——",
+      "nEn": "The drift of people from big cities back out to suburbs, villages and small towns is called—"
+    }
   ]
 }
