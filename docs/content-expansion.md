@@ -39,10 +39,10 @@
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 243    | ✅ 视图与 mind/econ 同量级（四十批 branches 16→21）  |
-| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 220    | 🟢 已达 12 视图（四十七批 时间线 12→16，全线 ≥16）      |
+| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 224    | 🟢 Phase C 收官，Phase D 开工（四十八批 原理+3/人文+1）      |
 | life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 217    | 🟢 已达 12 视图（四十七批 时间线 12→16，全线 ≥16）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在四十七批刷新为 220 / 217（两科 Phase C 十二视图全线 ≥16：glossary/myths/compare/quiz/everyday-experiments/endemics/timeline 均到 16），thought 行在四十批刷新为 243（branches 16→21）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在四十八批刷新为 224 / 217（Phase C 十二视图全线 ≥16 后，earth 转入 Phase D 课标专条补强：principles 22、humanGeo 21），thought 行在四十批刷新为 243（branches 16→21）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
 
 ---
 
@@ -64,15 +64,15 @@
 **目标模块（≥12）：**
 
 - [x] 自然地理原理：板块漂移/地震火山/岩石循环/气候因子/三圈环流/天气系统/水循环/温盐环流/内外力地貌/河流地貌/自然带（新，11 条机制卡，合并覆盖原「大气与气候」「水文与洋流」「地貌」三类）
-- [ ] 大气与气候：气候类型、气压带风带、季风、天气系统（新）
-- [ ] 水文与洋流：水循环、河流地貌、洋流、湖泊（新）
-- [ ] 地貌：喀斯特/冰川/风成/海岸/河流（新）
+- [x] 大气与气候：气候类型、气压带风带、季风、天气系统（新）✅ 既有覆盖深（principles 四格齐备）；四十八批补气候类型专条（柯本分类）
+- [x] 水文与洋流：水循环、河流地貌、洋流、湖泊（新）✅ 既有 water-cycle/ocean-currents/thermohaline/river-landforms 覆盖；四十八批补大洋环流与涡旋专条
+- [x] 地貌：喀斯特/冰川/风成/海岸/河流（新）✅ 既有 karst/glacier/coastline/delta-wetland + geomorphic/river/glacial/coastal 四原理覆盖，无实质缺口
 - [x] 世界分区：七大洲 / 主要地区（补 `schools`→扩到 20+）✅ 三十八批 15→20（新增法国/加拿大/挪威/阿根廷/印度尼西亚；补齐西欧·北美·北欧峡湾·南美·赤道群岛五种典型区域地理）
 - [ ] 中国地理：地形/气候/河流/行政区划（新）
 - [x] 人文地理：人口与城市化、农业区位、工业与服务业、交通（新）✅ 12 条机制卡（人口/城市/聚落/农业/产业/交通/商贸/文化/政治/发展/全球化/人地）
-- [ ] 自然资源与能源（新）
-- [ ] 自然灾害与环境问题（新）
-- [ ] 地图与 GIS：比例尺、投影、等高线（新）
+- [x] 自然资源与能源（新）✅ 四十八批 human-geo +1（resources-energy：不均家底/再生耗竭/能源转型/调配工程）
+- [x] 自然灾害与环境问题（新）✅ 四十八批 principles +1（natural-hazards：灾害链/风险公式/监测预警/适应之道）
+- [x] 地图与 GIS：比例尺、投影、等高线（新）✅ 既有 glossary/everyday/quiz/timeline 四视图已覆盖（等高线/墨卡托/大圆航线/投影史）；四十八批气候分类条顺带补「字母读法」判图技能
 - [x] 地理学家（补 `thinkers`→15+）✅ 三十九批 19→23（新增张衡/马可·波罗/库克/玛丽·萨普；已超 15，补齐古中国地动仪·中世纪陆路记述·太平洋测绘·海底制图四位）
 - [x] 地理探索时间线 ✅ 三十五批 12 条（新视图 timeline，前 240 年埃拉托色尼 → 1972 地球观测卫星，按 year 时序；四十七批 12→16）
 - [x] 地标山河（补 `classics`）✅ 三十七批 19→23（新增巴拿马运河/东非大裂谷/马里亚纳海沟/多瑙河；原 19 条以江河山脉湖礁为主，本批补运河/裂谷/海沟/文化河）
@@ -118,6 +118,7 @@
 - [x] **Phase C 新增视图补薄（四十五批：life endemics 12→16，全科 205→209）**——特有物种（endemics）是 life 四 KPI 之一（schools/principles/classics/endemics），counts 与 kpis[].value **双处同步** 12→16（同三十八批 schools 双改口径）。schema 16 键=name/nameEn/taxon/taxonEn/status/statusEn/region/regionEn/oneLiner/oneLinerEn/bio/bioEn/traits/notes/sources（traits/notes 嵌套 {k,kEn,v,vEn}×2、sources {label,labelEn,url,type,typeEn}×2，url 空串为既有惯例）；**无 related 字段**（详情不渲染芯片），无 order 字段。选题取中国特有/旗舰物种高频四位（均经碰撞预检 free）：川金丝猴（仰鼻猴、EN）、麋鹿（四不像、野外灭绝 EW→乌邦寺归还重引入经典案例）、大鲵（娃娃鱼、CR、现存最大两栖动物）、长江江豚（EN、白鱀豚后长江唯一鲸类、2022 科考约 1,249 头——正文取保守措辞「约一千二百四十头」）。IUCN 等级与保护史事实逐条自校（麋鹿 IUCN 现评仍为野外灭绝 EW、重引进成功为补充说明；南海子在北京非河北，初稿笔误已改）。纯追加（非 ser 规范形→定点末尾追加、前缀不变断言）。实测：`index:build life` 209、`gen:geo` 16 数据文件、llms 总数 209、`links:check` 0 错 0 警、`verify exit=0`（pass=35361 fail=0）、`build ✓ 1.06s`；puppeteer life 中英×明暗四组合 **88 项 PASS／0 FAIL**（每新卡详情 4 分节均非空 oneLiner+bio+traits+notes + sources 块存在；endemics 无 related 故不断言芯片）。新踩坑：endemics 详情分节与 thinkers/classics 同为 4 但内容各异（traits/notes 是 listSection 而 thinkers 是 ideas/works/quotes）；初稿曾把思考过程残句与冗余键（taxEn/taxonEn2）写进数据字面量——靠写入前逐键断言 + 人工复读拦下，append 脚本的 clean 对象重建（只按 KEYS 取键）可作惯例保留。
 - [x] **Phase C 新增视图补薄（四十六批：earth everyday / life experiments 各 12→16，全科 212→216 / 209→213，Phase C 六视图全线到 16 的里程碑）**——两科最后两格偏薄视图各 +4，均为三十三批新视图、非 KPI→只改 counts。everyday schema 11 键=term/termEn/category/categoryEn/level/oneLiner/oneLinerEn/detail/detailEn/related（无 order 无 sources，详情 2 分节 💬+🧭，分类四组沿用既有 categoryEn 逐字值）；experiments schema 12 键含 icon/order + points 嵌套 {k,kEn,v,vEn}×3（惯例三问「怎么做的/看到了什么/意味着什么」，详情 2 分节 🎯+🔑 listSection，分类三组沿用）。选题：earth 大圆航线为什么弯（地图判读，related 墨卡托真形/上北下南/跨洋追风）、夏天傍晚为什么亮得久（时空与生活，带四季非距离的远日点呼应）、盘山公路耳朵堵住（天气解读，与高原沸点同根）、夏日午后雷阵雨（天气解读，与城市热岛雨/季风互指）；life 巴甫洛夫唾液铃（🐕 生理与生态，与 innate-vs-learned-behavior 互指）、摩尔根果蝇白眼（🧬 遗传与分子，接孟德尔/染色体）、弗莱明与青霉素（💊 医学与方法，与抗生素误区条镜像）、巴斯德鹅颈瓶（⚗️ 生理与生态，与三十五批 timeline pasteur-biogenesis 里程碑条按「里程碑串联 vs 单个实验拆解」双轴分工，先例同 classics/experiments）。order 续 13–16；16 条 related 全部预检存在；碰撞预检 8 id 均 free。纯追加（两文件均非 ser 规范形→定点末尾追加、前缀不变断言）。实测：`index:build` earth 216/216、life 213/213；`gen:geo` 各 16 数据文件；`links:check` 0 错 0 警；`verify exit=0`（pass=35361 fail=0，258 chem 既有 warn 未增）；`build ✓ 905ms`；puppeteer 两科×中英×明暗八组合 **776 项 PASS／0 FAIL**（每新卡详情 2 分节、everyday 两 body 非空、experiments points 恰 3 li、标题双语对齐、关闭断言）。新踩坑：① 抽屉有 open/close 过渡动画，冒烟不能用 waitForSelector('.detail-panel')（hidden 祖先下也存在）与「移除即关」断言——改 getClientRects().length 等真正可见/消失；② 中文长段 innerText 软换行会插入换行空白，正文对齐断言需去全部空白后比对（标题同理）。
 - [x] **Phase C 新增视图补薄（四十七批：earth / life timeline 各 12→16，全科 216→220 / 213→217，Phase C 十二视图全线 ≥16 彻底收官）**——两科最后一格仍停 12 的视图（三十五批建）各 +4，非 KPI→只改 counts。schema 与 everyday 同构 +year 共 12 键扁平（id/term/termEn/category/categoryEn/level/year/oneLiner/oneLinerEn/detail/detailEn/related，无 sources 无嵌套），渲染 2 textSection 🎯+🧭、sortBy year、年份本地化 yearText（前 240 年 / 240 BCE）。选题按年代插空且与 thinkers/classics/experiments 双轴查重：earth 伊德里西世界图 1154（制图坐标，与托勒密/上北下南/墨卡托互指）、大地测量第十五峰 1852（古典测量，接珠峰误区/喜马拉雅/等高线）、挑战者号深海调查 1872（航海时代，接马里亚纳/洋流/上升流）、赫斯海底扩张 1962（近代科学，接大陆漂移/魏格纳/板块构造）；life 列文虎克书信报告 1676（显微时代，接本人 thinkers 条目/微生物组/病毒误区）、科赫结核杆菌 1882（微生物学，与巴斯德双璧+鹅颈瓶实验互指）、孟德尔定律重发现 1900（遗传学，与本人条/显隐对照分工：里程碑条讲迟到的三植物学家、非本人传记），CRISPR 体外组装 2012（生物技术，接 DNA/RNA/中心法则/PCR）。8 id 碰撞预检 free、year 全部既有库不重复、related 24 目标全预检存在。纯追加（非 ser 规范形→定点末尾追加、前缀不变断言；counts needle 为末键无逗号形态 `"timeline": 12\n  },`）。实测：`index:build` earth 220/220、life 217/217；`gen:geo` 各 16 数据文件；`links:check` 0 错 0 警；`verify exit=0`（pass=35361 fail=0，258 chem 既有 warn 未增）；`build ✓ 774ms`；puppeteer 两科×中英×明暗八组合 **904 项 PASS／0 FAIL**（每卡 16 张、详情 2 分节非空、副标题含年份文案含负年份专测、芯片数与数据一致、开关面板断言）。新踩坑：① 冒烟导航用哈希路由 `#/subject/<key>`（直访 `/earth/` 会回首页模板难发现）；② Write 工具长文件惯性笔误复发（键名多引号 `Xxx":`）需逐处 sed/node 修复，今后富内容脚本优先分段写；③ 追加后脚本重跑会被 `expected 12` 守卫拦下（防重复追加好事），但 overview 段需单独补跑。
+- [x] **Phase D 课标专条（四十八批：earth principles +3 / human-geo +1，全科 220→224）**——接候选 1「转 Phase D」开工。勘查定口径：七格「（新）」待办经覆盖度扫描，多数已被既有 12 视图深度覆盖（水文/地貌/地图 GIS/中国地理），真缺口是「无专条只顺带提及」——而 shared.ts 的分类筛选按数据动态生成，新主题可落既有视图加专条零接线（免新视图 6 件套），定为 Phase D 主路径。本批补四格：principles 气候类型与分类（柯本五带/字母读法/景观呼应/阈值局限，related 自然带/气候成因/三圈环流/季风）、大洋环流与涡旋（环流圈/西边界流/上升流/垃圾涡聚，与既有 ocean-currents/thermohaline 分工：那两条讲洋流成因与经向输送带，本条讲表层风生环流格局）、自然灾害与防灾（灾害链/风险公式/监测预警/适应之道，与 seismic-volcanic 分工：那条讲成因机制本条讲风险治理）；human-geo 自然资源与能源（不均家底/再生耗竭/能源转型/调配工程，分类沿既有「产业」组免筛选项分裂）。「中国地理」格 schools 既有 china 国别条已覆盖主干、「地图 GIS」格四视图已覆盖，均改判勾项注明分工。schema 两表同构 13 键（icon/order + points 嵌套 {k,kEn,v,vEn}×4 + sources {label,labelEn,year}×1，year 为整数非 endemics 的 url 形态）；principles 是 KPI→counts 与 kpis[].value 双改 19→22，humanGeo 只进 counts 20→21。碰撞预检 4 id free、order 续 20–22/21、related 16 目标全预检（wave-energy 不存在→弃用改既有 id）。实测：`index:build earth` 224/224、`gen:geo` 16 数据文件、`links:check` 0 错 0 警、`verify exit=0`（pass=35361 fail=0）、`build ✓ 779ms`；puppeteer earth 中英×明暗四组合 **120 项 PASS／0 FAIL**（两网格计数 22/21、四新卡详情 2 分节、points 恰 4 li、芯片数与来源块断言）。新踩坑：① text.ts 会把多句 lead 按句拆成 li（一句话分节 li 数≠1），冒烟分节断言须按 `.dsec` 索引定位而非全局 li 求和；② 初稿三处质量拦截靠人工复读：未译夹词「输 heat」、柯本误作科本、Sverdup 拼错与书名年份不实（改 Sverdrup 1996）、残句「把灾害「谈」改为」重写；sources 书名逐条自核（Alexander 原书名 Natural Disasters and Catastrophes、Smil 副标题 A History）；落盘后复读又把环流圈一点的「五大环流绕马尾藻海」过头表述改为「中心水域相对平静，马尾藻海是经典一例」。
 
 ### 3.3 万物哲学 thought（🟠）
 

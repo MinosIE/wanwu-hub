@@ -727,6 +727,27 @@
       "nEn": "Coastal Processes and Landforms"
     }
   ],
+  "climate-classification": [
+    {
+      "m": "m-principles",
+      "n": "气候类型与分类",
+      "nEn": "Climate Types and Classification"
+    }
+  ],
+  "ocean-gyres": [
+    {
+      "m": "m-principles",
+      "n": "大洋环流与涡旋",
+      "nEn": "Ocean Gyres and Currents"
+    }
+  ],
+  "natural-hazards": [
+    {
+      "m": "m-principles",
+      "n": "自然灾害与防灾",
+      "nEn": "Natural Hazards and Disaster Risk"
+    }
+  ],
   "population-distribution": [
     {
       "m": "m-human-geo",
@@ -865,6 +886,13 @@
       "m": "m-human-geo",
       "n": "心脏地带与陆权论",
       "nEn": "Heartland and Rimland Theory"
+    }
+  ],
+  "resources-energy": [
+    {
+      "m": "m-human-geo",
+      "n": "自然资源与能源",
+      "nEn": "Natural Resources and Energy"
     }
   ],
   "contour-line": [

@@ -979,5 +979,56 @@
         "year": 1904
       }
     ]
+  },
+  {
+    "id": "resources-energy",
+    "title": "自然资源与能源",
+    "titleEn": "Natural Resources and Energy",
+    "icon": "⚡",
+    "category": "产业",
+    "categoryEn": "Industry",
+    "level": 2,
+    "order": 21,
+    "lead": "水、土、矿、能都来自地表，却分布得极不均匀——资源版图由此成为贸易、冲突与工程的底图。",
+    "leadEn": "Water, soil, ore and power all come from the surface, spread wildly unevenly—the resource map is the underdrawing of trade, conflict and engineering.",
+    "points": [
+      {
+        "k": "不均的家底",
+        "kEn": "Uneven inheritance",
+        "v": "石油集中在中东与少数盆地，淡水、耕地与太阳能的版图彼此错位。",
+        "vEn": "Oil sits in the Middle East and a few basins; fresh water, cropland and sunshine maps fall out of register with each other."
+      },
+      {
+        "k": "再生与耗竭",
+        "kEn": "Renewable, exhaustible",
+        "v": "阳光风力可再生，矿产化石亿年方成；地下水介于两界之间，采速常过补速。",
+        "vEn": "Sun and wind renew; ores and fossils took aeons. Groundwater straddles the line—pumping often outruns recharge."
+      },
+      {
+        "k": "能源转型",
+        "kEn": "Energy transitions",
+        "v": "薪柴到煤、煤到油气、再向低碳电力——每次转型都以数十年计，且从未「全城同时换轨」。",
+        "vEn": "Wood to coal, coal to oil and gas, then to low-carbon power—each transition runs on decades and never switches the whole city at once."
+      },
+      {
+        "k": "调配工程",
+        "kEn": "Rerouting the map",
+        "v": "西气东输、北煤南运、南水北调与特高压输电——用工程缝合资源与负荷中心的错位。",
+        "vEn": "West-to-east gas, north-to-south coal, south-to-north water and ultra-high-voltage lines—engineering stitches the mismatch between resource and demand."
+      }
+    ],
+    "related": [
+      "human-land",
+      "industrial-location",
+      "carrying-capacity",
+      "population-distribution"
+    ],
+    "sources": [
+      {
+        "label": "《能源与文明：世界史》",
+        "labelEn": "Smil, Energy and Civilization: A History",
+        "year": 2017
+      }
+    ]
   }
 ]

@@ -888,5 +888,143 @@
         "year": 1950
       }
     ]
+  },
+  {
+    "id": "climate-classification",
+    "title": "气候类型与分类",
+    "titleEn": "Climate Types and Classification",
+    "icon": "🌦️",
+    "category": "气候",
+    "categoryEn": "Climate",
+    "level": 2,
+    "order": 20,
+    "lead": "世界各地的气候为何各成一类？柯本分类给出最通用的一把尺：先看冬季够不够冷、夏季够不够热，再看雨量多寡与季节分配。",
+    "leadEn": "Why does every region settle into its own climate class? The Köppen system is the most used ruler: first how cold the winter and how hot the summer, then how much rain falls and in which seasons.",
+    "points": [
+      {
+        "k": "五带框架",
+        "kEn": "Five families",
+        "v": "热带、干旱、温带、冷带、极地，按气温与降水划界。",
+        "vEn": "Tropical, dry, temperate, continental, polar—bounded by heat and moisture."
+      },
+      {
+        "k": "字母读法",
+        "kEn": "Reading the letters",
+        "v": "首母定带、次母定夏冬与雨量：如「Csb」是夏干温暖气候。",
+        "vEn": "First letter the zone, later letters summer, winter and rain: 'Csb' is a warm summer-dry climate."
+      },
+      {
+        "k": "与景观呼应",
+        "kEn": "Matching the views",
+        "v": "气候带与生态带大致对得上：雨林、草原、荒漠、苔原各有其气候门牌号。",
+        "vEn": "Climate belts track the biome belts—rainforest, savanna, desert, tundra each have an address."
+      },
+      {
+        "k": "界线不是铁幕",
+        "kEn": "Edges, not walls",
+        "v": "分类以固定阈值划线，高原山地与城市常落不进任何格；过渡自古存在。",
+        "vEn": "Fixed thresholds draw the lines; highlands, mountains and cities often fit no box—transition has always existed."
+      }
+    ],
+    "related": ["biome-zonation", "climate-genesis", "circulation-cells", "monsoon"],
+    "sources": [
+      {
+        "label": "柯本气候分类集释",
+        "labelEn": "Köppen–Geiger climate classification, collected edition",
+        "year": 1936
+      }
+    ]
+  },
+  {
+    "id": "ocean-gyres",
+    "title": "大洋环流与涡旋",
+    "titleEn": "Ocean Gyres and Currents",
+    "icon": "🌀",
+    "category": "水文",
+    "categoryEn": "Hydrology",
+    "level": 2,
+    "order": 21,
+    "lead": "信风推、西风赶、大陆挡、偏向力扭——各大洋由此绕出巨大的环流圈，西边界流窄而急，把热量一路往高纬送。",
+    "leadEn": "Trade winds push, westerlies drive, continents block, deflection turns—each ocean thus coils into a great gyre, its western boundary current narrow and swift, shipping heat poleward.",
+    "points": [
+      {
+        "k": "环流圈",
+        "kEn": "The gyre",
+        "v": "北半球副热带环流顺时针、南半球逆时针，中心水域相对平静，马尾藻海是经典一例。",
+        "vEn": "The five subtropical gyres turn clockwise in the north, counter-clockwise in the south, around the calmer Sargasso Sea."
+      },
+      {
+        "k": "西边界流",
+        "kEn": "Western boundary jets",
+        "v": "湾流与黑潮紧贴西岸奔涌，宽不过百公里、流速数节，把热量与航路一并送往高纬。",
+        "vEn": "The Gulf Stream and Kuroshio run hugging the western shores—some hundred kilometres wide, knots fast—carrying heat (and voyages) far."
+      },
+      {
+        "k": "上升流",
+        "kEn": "Upwelling",
+        "v": "离岸风带走表水、深层冷水上涌补位，营养盐涌出，渔场随之成形。",
+        "vEn": "Offshore winds strip the surface; cold deep water welling back up brings nutrients, and fisheries follow."
+      },
+      {
+        "k": "垃圾涡聚",
+        "kEn": "Gyre of debris",
+        "v": "环流中心的缓慢汇聚也把塑料碎片聚成「垃圾带」——环流的另一面镜子。",
+        "vEn": "The slow convergence at a gyre's centre also gathers plastic into 'garbage patches'—the circulation's other mirror."
+      }
+    ],
+    "related": ["ocean-currents", "thermohaline", "coriolis-effect", "upwelling"],
+    "sources": [
+      {
+        "label": "《风生海洋环流》",
+        "labelEn": "Sverdrup, Wind-Driven Ocean Circulation",
+        "year": 1996
+      }
+    ]
+  },
+  {
+    "id": "natural-hazards",
+    "title": "自然灾害与防灾",
+    "titleEn": "Natural Hazards and Disaster Risk",
+    "icon": "⚠️",
+    "category": "地质",
+    "categoryEn": "Geology",
+    "level": 3,
+    "order": 22,
+    "lead": "地震、台风、洪水本身不是灾难——当它们撞上毫无防备的人，才成为灾害；防灾就是把「撞上」的概率与后果一起压低。",
+    "leadEn": "Quakes, typhoons and floods are not disasters by themselves—they become ones when they meet the unprepared; hazard defence means cutting both the odds of the meeting and its cost.",
+    "points": [
+      {
+        "k": "灾害链",
+        "kEn": "Hazard chains",
+        "v": "地震继以滑坡、海啸、火灾；台风继以风暴潮与洪涝——一场灾害常是一串。",
+        "vEn": "A quake is followed by slides, tsunami, fire; a typhoon by storm surge and flood—one event is often a chain."
+      },
+      {
+        "k": "风险公式",
+        "kEn": "The risk algebra",
+        "v": "风险＝危险性×暴露度×脆弱性：同样强度的地震，落空与落地是两个数字。",
+        "vEn": "Risk = hazard × exposure × vulnerability—the same shock, on empty ground or on a city, is two different numbers."
+      },
+      {
+        "k": "监测预警",
+        "kEn": "Watch and warn",
+        "v": "地震网、气象卫星、江河水情站抢的是分钟到天的提前量；预警不等于防灾完成。",
+        "vEn": "Seismic nets, weather satellites and river gauges buy minutes to days—a warning alone is not a defence."
+      },
+      {
+        "k": "适应之道",
+        "kEn": "Living with risk",
+        "v": "建筑设防标准、蓄滞洪区、避难教育——从灾后救援转向与风险长期共处。",
+        "vEn": "Building codes, retention basins, drill and education—the shift from 'talking about' disasters to living with risk."
+      }
+    ],
+    "related": ["seismic-volcanic", "plate-tectonics", "volcano-landscape", "monsoon"],
+    "sources": [
+      {
+        "label": "《自然灾害与灾难》",
+        "labelEn": "Alexander, Natural Disasters and Catastrophes",
+        "year": 1993
+      }
+    ]
   }
 ]
