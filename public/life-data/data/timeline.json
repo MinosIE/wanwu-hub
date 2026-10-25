@@ -207,5 +207,61 @@
       "genotype",
       "central-dogma"
     ]
+  },
+  {
+    "id": "bio-leeuwenhoek-obs",
+    "term": "列文虎克书信报告「微小动物」",
+    "termEn": "Leeuwenhoek's Letters Reveal the 'Little Animals'",
+    "category": "显微时代",
+    "categoryEn": "The Microscope Age",
+    "level": 2,
+    "year": 1676,
+    "oneLiner": "一把磨到两百倍的小单镜片，让雨水和牙垢里冒出数不清游动的「微小动物」。",
+    "oneLinerEn": "A hand-ground lens of two hundred power let rainwater and plaque swarm with uncountable little animals.",
+    "detail": "布商列文虎克自磨单片显微镜头，把观察到的一一写信告知英国皇家学会：原生动物、精子、红细胞，还有雨水静置后「活物」爆发的场面。学会起初不肯信，直到代做实验的医生们重复出结果。他一生寄出数百封信，从未发表过「论文」，却第一个证明了生命世界在肉眼以下另有一层。局限也清楚：他的单镜好看不好用，测量粗疏，「微小动物」究竟吃什么怎么生，他也说不清。",
+    "detailEn": "A draper by trade, Leeuwenhoek ground his own single lenses and wrote the Royal Society what he saw: protists, spermatozoa, red cells, and rainwater standing still long enough to burst with 'living animalcules'. The Society doubted until physicians repeated the sights. His hundreds of letters — never 'papers' — proved life beyond the eye's reach; his tools, though fine, were awkward, measurements rough, and what the little animals ate or bred from he could not tell.",
+    "related": ["van-leeuwenhoek", "microbiome", "virus-vs-bacterium"]
+  },
+  {
+    "id": "bio-koch-bacillus",
+    "term": "科赫宣布发现结核杆菌",
+    "termEn": "Koch Announces the Tubercle Bacillus",
+    "category": "微生物学",
+    "categoryEn": "Bacteriology",
+    "level": 3,
+    "year": 1882,
+    "oneLiner": "把细菌从「看见」推进到「证明」：染色、纯培、接种、回检——一条病原一个流程。",
+    "oneLinerEn": "From seeing to proving germs: stain, pure-culture, inoculate, recover — one pathogen, one protocol.",
+    "detail": "1882 年 3 月，科赫在柏林报告结核杆菌：用苯胺染料着色、在培养基上分离纯育、接种动物发病并从病体再检出同一种菌——四步「科赫法则」把「某病有某菌」从猜测变成可重复的证明；次年他再报霍乱弧菌并赴埃及与印度实地追踪。他与巴斯德并认现代细菌学奠基人，1905 年因结核病研究获诺贝尔生理学或医学奖。局限：法则偏重「一病一菌」，对无症状携带与多因素疾病当时无力处理，天花等尚无细菌可培养的病原更完全落空。",
+    "detailEn": "In March 1882 Koch reported the tubercle bacillus from Berlin: aniline staining, pure culture on media, inoculation of animals and recovery of the same germ — his postulates turned 'this disease has this germ' from guess into repeatable proof; next year came cholera's comma bacillus and field tracking to Egypt and India. With Pasteur he is reckoned founder of modern bacteriology; his 1905 Nobel cited the tuberculosis work. The postulates' limits: silent carriage and multi-cause illness sat beyond them, and pathogens unculturable then — smallpox among them — slipped through entirely.",
+    "related": ["robert-koch", "bio-pasteur-biogenesis", "virus-vs-bacterium"]
+  },
+  {
+    "id": "bio-mendel-rediscovery",
+    "term": "三位植物学家同时重新发现孟德尔",
+    "termEn": "Three Botanists Rediscover Mendel, Together",
+    "category": "遗传学",
+    "categoryEn": "Genetics",
+    "level": 2,
+    "year": 1900,
+    "oneLiner": "被埋没三十四年的豌豆论文在 1900 年春天同时点亮三间实验室——遗传学以「迟到」的方式出生。",
+    "oneLinerEn": "The buried pea paper lit three laboratories on one spring morning of 1900 — genetics arrived by way of lateness.",
+    "detail": "孟德尔 1866 年发表分离与自由组合定律，三十年无人问津。1900 年，德弗里斯、科伦斯与切尔马克各自在做杂交实验时读到原文、各自发现豌豆定律早已算出同一结果，遂相继发表论文并一致把优先权归给这位布尔诺修士。此后「孟德尔主义」与生物测量学派的渐派争论席卷世纪初，也是 1910 年代染色体遗传学的起跑线。局限：定律只管得住颗粒式单基因性状，而当时连「基因在染色体上」都尚未证明。",
+    "detailEn": "Mendel's 1866 paper on segregation and independent assortment slept three decades. In 1900 de Vries, Correns and Tschermak each met the original text in the act of their own crosses, each found the pea monk had already reckoned the same ratios, and their papers handed priority back to Brno. 'Mendelism' versus the biometricians then convulsed the young century — the starting line for the chromosome genetics of the 1910s. Its reach, honestly, stopped at particulate single-gene traits, when even 'genes on chromosomes' stood unproven.",
+    "related": ["mendel", "heredity-mendel", "dominant-vs-recessive"]
+  },
+  {
+    "id": "bio-crispr",
+    "term": "CRISPR 基因编辑工具在试管中组装",
+    "termEn": "CRISPR Assembled as an Editing Tool in the Test Tube",
+    "category": "生物技术",
+    "categoryEn": "Biotechnology",
+    "level": 3,
+    "year": 2012,
+    "oneLiner": "细菌的抗病毒免疫记忆被改装成通用「分子剪刀」：一段向导核糖核酸指到哪，剪刀剪到哪。",
+    "oneLinerEn": "A bacterial antiviral memory refitted as a general molecular pair of scissors: a guide of ribonucleic acid points, and they cut.",
+    "detail": "2012 年，杜德纳与夏蓬蒂埃团队在体外重组出 CRISPR 关联蛋白与向导核糖核酸的切割系统，证明它能按程序在指定位置剪开双链脱氧核糖核酸，随后两年各实验室把它铺向细胞与动物。它把「改写基因」的成本从数年降到数周，2020 年两人因此分享诺贝尔化学奖。边界同样写进了这段历史：2018 年「基因编辑婴儿」事件遭到全球科学界一致谴责，可遗传的人类胚胎编辑被划为禁区——技术能做什么，与该做什么，是两道问题。",
+    "detailEn": "In 2012 the teams of Doudna and Charpentier reconstituted, in vitro, a cutting system of a CRISPR-associated protein and a guide of ribonucleic acid, proved it snips double-stranded deoxyribonucleic acid at programmed sites, and within two years labs carried it into cells and animals. It cut the cost of rewriting genes from years to weeks; its inventors shared the 2020 Nobel in Chemistry. The boundary entered this history too: the 2018 'gene-edited babies' affair drew worldwide condemnation, and heritable editing of human embryos was ruled out of bounds — what a tool can do and what it should do are two questions.",
+    "related": ["dna-vs-rna", "central-dogma", "pcr-invention"]
   }
 ]

@@ -1042,6 +1042,34 @@
       "nEn": "The Human Genome Project"
     }
   ],
+  "bio-leeuwenhoek-obs": [
+    {
+      "m": "m-timeline",
+      "n": "列文虎克书信报告「微小动物」",
+      "nEn": "Leeuwenhoek's Letters Reveal the 'Little Animals'"
+    }
+  ],
+  "bio-koch-bacillus": [
+    {
+      "m": "m-timeline",
+      "n": "科赫宣布发现结核杆菌",
+      "nEn": "Koch Announces the Tubercle Bacillus"
+    }
+  ],
+  "bio-mendel-rediscovery": [
+    {
+      "m": "m-timeline",
+      "n": "三位植物学家同时重新发现孟德尔",
+      "nEn": "Three Botanists Rediscover Mendel, Together"
+    }
+  ],
+  "bio-crispr": [
+    {
+      "m": "m-timeline",
+      "n": "CRISPR 基因编辑工具在试管中组装",
+      "nEn": "CRISPR Assembled as an Editing Tool in the Test Tube"
+    }
+  ],
   "willow-pot-experiment": [
     {
       "m": "m-experiments",

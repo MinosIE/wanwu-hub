@@ -1063,6 +1063,34 @@
       "nEn": "The Earth-Observation Satellite Era"
     }
   ],
+  "geo-idrisi-map": [
+    {
+      "m": "m-timeline",
+      "n": "伊德里西为西西里宫廷绘制世界图",
+      "nEn": "Al-Idrisi Draws His World Map for the Sicilian Court"
+    }
+  ],
+  "geo-great-trig": [
+    {
+      "m": "m-timeline",
+      "n": "大地测量算出「第十五峰」是世界最高",
+      "nEn": "The Great Trigonometrical Survey Fixes Peak XV as Roof of the World"
+    }
+  ],
+  "geo-challenger": [
+    {
+      "m": "m-timeline",
+      "n": "「挑战者号」开启全球深海调查",
+      "nEn": "HMS Challenger Opens the Global Deep-Sea Survey"
+    }
+  ],
+  "geo-seafloor-spreading": [
+    {
+      "m": "m-timeline",
+      "n": "赫斯提出海底扩张：大陆为何会漂移",
+      "nEn": "Hess Proposes Seafloor Spreading — How Continents Drift"
+    }
+  ],
   "weather-vs-climate": [
     {
       "m": "m-compare",

@@ -215,5 +215,61 @@
       "contour-line",
       "albedo"
     ]
+  },
+  {
+    "id": "geo-idrisi-map",
+    "term": "伊德里西为西西里宫廷绘制世界图",
+    "termEn": "Al-Idrisi Draws His World Map for the Sicilian Court",
+    "category": "制图坐标",
+    "categoryEn": "Cartographic coordinates",
+    "level": 2,
+    "year": 1154,
+    "oneLiner": "汇通希腊与阿拉伯的地理知识、再据商人口述实地校订，中世纪最准确的一幅世界图在这一年落成。",
+    "oneLinerEn": "Greek and Arab geography, cross-checked against travellers' own accounts — the most accurate world map of the medieval age was finished this year.",
+    "detail": "地理学家伊德里西在巴勒莫的诺曼宫廷为国王罗杰编成《罗杰之书》，随图的世界地图把已知世界画成有纬带与海岸线的整体，南方置于图上方。它整合了托勒密传统与阿拉伯旅行家的实测见闻，此后近三百年间无人能出其右。局限也诚实：图的原本与说明书早已散佚，今人只能从抄本想见，且它重知晓世界轮廓、不重测定位置精度。",
+    "detailEn": "In Palermo, al-Idrisi compiled the Book of Roger for the Norman king: its world map set the known lands within latitude belts and coastlines, with south at the top. Fusing Ptolemaic tradition with Arab travellers' reports, it went unbeaten for some three centuries — and honestly limited: originals are lost, later eyes know it only through copies, and it prized the shape of the world over the precision of fixings.",
+    "related": ["geo-ptolemy-geography", "map-up-north", "mercator-true-shape"]
+  },
+  {
+    "id": "geo-great-trig",
+    "term": "大地测量算出「第十五峰」是世界最高",
+    "termEn": "The Great Trigonometrical Survey Fixes Peak XV as Roof of the World",
+    "category": "古典测量",
+    "categoryEn": "Classical measurement",
+    "level": 2,
+    "year": 1852,
+    "oneLiner": "印度测站的三角网一路推上喜马拉雅，计算表明：被称为第十五峰的那座，压过了此前所有的「世界之最」。",
+    "oneLinerEn": "The triangulation net pushed up from Indian stations into the Himalaya, and the arithmetic said: Peak XV outranked every 'world's highest' before it.",
+    "detail": "英国主持的印度大地测量持续数十年，在平差与折射改正的苛刻流程下逐段铺展三角网。1852 年，计算员西达尔确认观测数据中的第十五峰（即后来的珠峰）为世界第一高峰，数年后正式公布，命名取自测量局前任局长。同一套严密测量还把南极与喜马拉雅的山高、位置从传说变成数字。局限写在名字上：「埃佛勒斯」是外来命名，当地名字「珠穆朗玛」由来已久。",
+    "detailEn": "Decades of triangulation across India, with patient least-squares and refraction corrections, reached the Himalaya: in 1852 the computer Radha Sikdar concluded that Peak XV — later named Everest after the Survey's own retired superintendent — stood tallest on Earth, and the verdict was proclaimed years on. The same exacting work turned southern and Himalayan heights from legend into numbers. The name carries its limit: 'Everest' is an outsider's label; Chomolungma is far older.",
+    "related": ["everest-tallest", "himalaya", "contour-line"]
+  },
+  {
+    "id": "geo-challenger",
+    "term": "「挑战者号」开启全球深海调查",
+    "termEn": "HMS Challenger Opens the Global Deep-Sea Survey",
+    "category": "航海时代",
+    "categoryEn": "Age of navigation",
+    "level": 3,
+    "year": 1872,
+    "oneLiner": "四条腿的帆船改成浮动实验室，四年巡航测深、测温、捞生物——海洋学作为一门学科就此出生。",
+    "oneLinerEn": "A four-masted ship converted into a floating laboratory cruised four years sounding, thermometers deep-hanging and biology dredging — oceanography was born.",
+    "detail": "1872 至 1876 年，挑战者号环绕三大洋作业：垂下铅绳与温度计测得深度与水温剖面，拖网采回成千上万吨样品，描述了大量前所未见的物种，并在一处海沟探到约八千米量级的深度（后称挑战者深渊）。它第一次证明深海不是死水一潭。局限同样明确：当时的绳索测深误差随深度放大，海沟精确深度要等二十世纪的回声仪。",
+    "detailEn": "From 1872 to 1876 the Challenger worked the three oceans: lead lines and thermometers gave depth and temperature profiles, dredges brought up seas of unknown life, and one trench sounded to some eight thousand metres — the Challenger Deep. It proved the deep sea no dead pond. Its tools confess their age: rope-sounding error grew with depth, and the trench's true figure waited for the echo sounder.",
+    "related": ["mariana-trench", "ocean-currents", "upwelling"]
+  },
+  {
+    "id": "geo-seafloor-spreading",
+    "term": "赫斯提出海底扩张：大陆为何会漂移",
+    "termEn": "Hess Proposes Seafloor Spreading — How Continents Drift",
+    "category": "近代科学",
+    "categoryEn": "Modern science",
+    "level": 3,
+    "year": 1962,
+    "oneLiner": "大洋地壳不是越漂越老的旧地板：海岭是新地壳的产房，海沟是它的炉膛。",
+    "oneLinerEn": "Ocean floor is no aging old planking: the ridges are its birthplace and the trenches its furnace.",
+    "detail": "地质学家赫斯 1962 年发表《大洋盆地的历史》：地幔热流在海岭处涌出、驮开两侧新地壳，老地壳在海沟俯冲回收——地球表壳像传送带一样更新。这给三十多年前的大陆漂移补上了缺失的动力机制；六十年代初海底磁条带与年龄梯度的观测又为它提供了判决性证据，板块构造论由此登台。局限：赫斯当时不知道热对流的精细结构，「扩张」的速率与方向是后人用磁条带钉死的。",
+    "detailEn": "In 1962 geologist Hess published 'History of Ocean Basins': mantle flow wells up at the ridges, carries new crust outward, and old crust is consumed at the trenches — the surface renewing like a conveyor. It supplied the missing engine for continental drift of three decades earlier; magnetic stripes and age gradients soon after made the verdict decisive, and plate tectonics took the stage. Hess, honestly, lacked the fine structure of convection — the spreading's rates and directions were nailed down later by the stripes.",
+    "related": ["geo-continental-drift", "alfred-wegener", "plate-tectonics"]
   }
 ]
