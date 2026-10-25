@@ -58,17 +58,22 @@ export default async function render(): Promise<ModuleInstance> {
       subtitle: L<string>(item, "questionEn"),
       level: item.level,
       sections: [
-        {
-          icon: "⚖️",
-          title: t("ui.compareNote"),
-          html: `<div class="cmp-cases">${casesHtml(item)}</div>`,
-        },
+        // 原过滤条件 endsWith("></div>") 会把非空 cases 段一并误杀（</div></div> 亦以后者结尾）：改为显式判空
+        ...(item.cases?.length
+          ? [
+              {
+                icon: "⚖️",
+                title: t("ui.compareNote"),
+                html: `<div class="cmp-cases">${casesHtml(item)}</div>`,
+              },
+            ]
+          : []),
         {
           icon: "🎯",
           title: t("ui.takeaway"),
           html: `<p>${escapeInline(L(item, "takeaway") ?? "")}</p>`,
         },
-      ].filter((s) => s.html && !s.html.endsWith("></div>")),
+      ].filter((s) => s.html !== "<p></p>"),
       sources: Array.isArray(item.sources) ? item.sources : [],
     });
   }

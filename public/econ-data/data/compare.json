@@ -240,5 +240,169 @@
         "year": 2008
       }
     ]
+  },
+{
+    "id": "exchange-rate-regime",
+    "question": "汇率制度：盯住锚货币、让市场定价，还是走中间道路？",
+    "questionEn": "Exchange Rate Regimes: Peg, Float, or the Middle Road?",
+    "level": 3,
+    "cases": [
+      {
+        "who": "货币局与硬盯住（联系汇率；历史上的阿根廷货币局）",
+        "whoEn": "Currency boards and hard pegs (the linked exchange rate; Argentina's historic board)",
+        "how": "以法律或制度把本币钉在外币上，直接输入锚货币国的信誉与低通胀；代价是完全放弃独立货币政策，遭投机冲击时只能靠利率与外汇储备硬扛，阿根廷 2001 年的崩局即出于此。",
+        "howEn": "Law or board fixes the local currency to an anchor, importing the anchor country's credibility and low inflation; the cost is full monetary independence, leaving only rates and reserves against speculative attack, as Argentina's 2001 collapse showed."
+      },
+      {
+        "who": "自由浮动（美元、欧元、日元、澳元）",
+        "whoEn": "Free floats (US dollar, euro, yen, Australian dollar)",
+        "how": "汇率由市场出清，充当吸收外部冲击的缓冲垫，货币政策专注国内目标；波动会传导到进口价格与外币计价债务，但储备货币发行国另当别论。",
+        "howEn": "The market clears the rate, cushioning external shocks while policy focuses on domestic goals; volatility feeds through to import prices and foreign-currency debt, though a reserve-currency issuer faces a different calculus."
+      },
+      {
+        "who": "有管理的浮动与中间制度（新加坡、中国）",
+        "whoEn": "Managed floats and intermediate regimes (Singapore, China)",
+        "how": "名义上不钉死，但以参考篮子、公开市场操作等工具平滑过度波动、引导预期；保留了工具也保留了难题——教科书里的「角点解」假说说得直白：危机来临时，中间制度最难自持。",
+        "howEn": "Nominally unfixed, yet basket references and open-market tools temper excess volatility and steer expectations; the toolkit is kept along with its dilemma, since in a crisis the intermediate regimes are the hardest to sustain."
+      },
+      {
+        "who": "美元化与共同货币（厄瓜多尔、欧元区成员）",
+        "whoEn": "Dollarisation and monetary union (Ecuador, eurozone members)",
+        "how": "彻底消灭汇率风险与本币滥发之可能，换来的是没有最后贷款人的货币；欧元危机的教训是，缺少财政与银行联盟时，单一货币把全部调整压到劳动力与资本市场身上。",
+        "howEn": "Exchange-rate risk and the temptation to print both vanish, but so does the lender of last resort; the euro crisis showed that without fiscal and banking union, a single currency throws all adjustment onto labour and product markets."
+      }
+    ],
+    "takeaway": "没有放之四海皆优的制度：选择取决于金融市场深度、贸易结构、通胀史与制度可信度。与货币模块「汇率制度」那条的分工是：那条盘点制度知识，本条对比各选择的历史代价。经验教训不是「浮动一定好」，而是越想把鱼和熊掌都占着，越要备好被攻击时的防御纵深。",
+    "takeawayEn": "No regime is optimal everywhere; the choice turns on market depth, trade structure, inflation history and institutional credibility. Where the money module's regime entry inventories what the options are, this one contrasts what each has cost. The lesson is not that floating always wins, but that trying to have it both ways demands defence in depth against attack.",
+    "sources": [
+      {
+        "label": "IMF 汇率安排事实分类年报",
+        "labelEn": "IMF de facto classification of exchange rate arrangements",
+        "year": 2023
+      }
+    ]
+  },
+{
+    "id": "labor-market-regulation",
+    "question": "劳动力市场：靠严格的雇佣保护，还是靠灵活的进出与兜底？",
+    "questionEn": "Labour Markets: Strict Protection, or Flexible Churn with a Safety Net?",
+    "level": 2,
+    "cases": [
+      {
+        "who": "强保护模式（南欧与法国等）",
+        "whoEn": "Strong-protection models (Southern Europe, France)",
+        "how": "解雇成本高、程序繁琐，意在保住在位者的稳定岗位；结果常是市场二元化——握有永久合同者受保护，年轻人与新来者只能反复签短期合同。",
+        "howEn": "High dismissal costs and long procedures aim to keep incumbents stable; the common result is a dualised market where permanent-contract holders are shielded while the young and newcomers cycle through short-term deals."
+      },
+      {
+        "who": "灵活优先（美国的随意雇佣）",
+        "whoEn": "Flexibility-first (US at-will employment)",
+        "how": "雇与解都容易，企业调整快、总量失业恢复快；代价是收入波动大，被裁后的缓冲主要落在个人储蓄而非公共保障上。",
+        "howEn": "Hiring and firing are both easy, so firms adjust fast and aggregate unemployment recovers quickly; the price is volatile incomes, with cushioning left to personal savings rather than public protection."
+      },
+      {
+        "who": "灵活保障（丹麦模式）",
+        "whoEn": "Flexicurity (the Danish model)",
+        "how": "用「好进好出、慷慨的失业给付、主动再培训」三角替代岗位终身制——保护的是人而不是某个职位；高度依赖财政能力、社会信任，以及把领取给付与积极求职绑在一起的执行体系。",
+        "howEn": "A triangle of easy entry and exit, generous benefits and active retraining replaces job-for-life, protecting the person rather than the post; it leans hard on fiscal capacity, social trust and conditioning benefits on active job-seeking."
+      },
+      {
+        "who": "双向调整中的中国实践",
+        "whoEn": "China's practice, adjusting both ways",
+        "how": "2008 年《劳动合同法》强化书面合同与经济补偿，一度被担心抑制用工；此后政策在「保护」与「稳就业」之间反复校准，而平台与灵活就业的体量已让教科书式的二分越来越不贴切。",
+        "howEn": "The 2008 Labour Contract Law tightened written contracts and severance, with warnings it would damp hiring; policy has since recalibrated between protection and jobs, while the scale of platform and flexible work now strains textbook dichotomies."
+      }
+    ],
+    "takeaway": "真正要对比的不是「规制多严」，而是灵活性服务于谁、安全网能兜住谁。与微观模块「最低工资」那条的分工是：那条谈价格工具，本条谈解雇保护与保障网。只盯法律条文会看错方向，得看离职率、青年失业与非正规就业占比这些结果变量。",
+    "takeawayEn": "The real contrast is not how strict the rules are but whom flexibility serves and whom the safety net catches. Where the micro module's minimum-wage entry treats the price tool, this one treats dismissal protection and the backstop. Watching statutes alone misleads; outcome variables such as separation rates, youth unemployment and informal-work share tell more.",
+    "sources": [
+      {
+        "label": "OECD 就业展望：雇佣保护与劳动力市场",
+        "labelEn": "OECD Employment Outlook on employment protection and labour markets",
+        "year": 2023
+      }
+    ]
+  },
+{
+    "id": "education-funding",
+    "question": "高等教育：公共财政买单，还是个人投资付费？",
+    "questionEn": "Higher Education: Public Purse or Private Investment?",
+    "level": 2,
+    "cases": [
+      {
+        "who": "免费或低学费、税收支撑（北欧；德国 2014 年起取消州级学费）",
+        "whoEn": "Free or low tuition on tax funds (Nordics; Germany ended state-level fees in 2014)",
+        "how": "以广义税收摊平入学机会，学生毕业后通过纳税回补；批评在于大学生多来自较高收入家庭，等于税收向未来的高收入人群倾斜，带有逆向补贴性质。",
+        "howEn": "Broad taxation levels access and is recouped through graduates' taxes; the critique is that students skew to higher-income families, making it a subsidy flowing toward future high earners."
+      },
+      {
+        "who": "高学费、学生贷款（美国）",
+        "whoEn": "High tuition with student loans (US)",
+        "how": "成本显性地由受教育者自担，院校分层、按市场定价；累积的学生债务以万亿美元计，负担轻重高度取决于是否毕业、读的是什么学校与什么专业。",
+        "howEn": "Costs sit visibly on the student, with institutions stratified and priced by the market; accumulated debt runs to trillions of dollars, and the burden hinges on graduating and on which school and field."
+      },
+      {
+        "who": "收入关联贷款（澳大利亚 1989 年起的办法，英格兰类似）",
+        "whoEn": "Income-contingent loans (Australia from 1989, similar in England)",
+        "how": "先上学，毕业后按收入比例还款、低于门槛不还，把「不敢借钱读书」与「还不起」两头都削掉；代价是财政回收慢，补贴率随利率与收入分布波动。",
+        "howEn": "Study first, repay as a share of income, nothing below a threshold: it cuts both the fear of borrowing to study and the risk of unpayable debt, at the cost of slow fiscal recovery and subsidy rates that drift with rates and incomes."
+      },
+      {
+        "who": "公助与资助混合（东亚多国的基准学费加奖、助、贷）",
+        "whoEn": "Mixed subsidy and aid (base tuition plus grants and loans across East Asia)",
+        "how": "名义学费通常不算最高，但公共投入强度差异大，公平效果取决于资助的覆盖面与瞄准精度；家庭实际负担里，补习支出与放弃工作的机会成本往往比账面学费更大。",
+        "howEn": "Headline tuition stays moderate while public investment intensity varies, so equity turns on how well aid covers and targets; the heaviest family costs, tutoring and foregone earnings, often sit off the books."
+      }
+    ],
+    "takeaway": "「贵不贵」是最不重要的指标。值得分别看的是：公共生均投入、入学率按家庭收入分组的变化，以及把补贴与债务加总之后，究竟由谁、在什么时候、付了多少钱。免费不等于公平，贷款也不等于放任，差别在配套。",
+    "takeawayEn": "Headline price is the least informative indicator. Look instead at public spending per student, enrolment by family income group, and who pays how much and when once subsidies and debts are summed. Free is not automatically fair, and loans are not automatically laissez-faire; the difference lies in the surrounding design.",
+    "sources": [
+      {
+        "label": "OECD《教育概览》与世界银行教育融资评论",
+        "labelEn": "OECD Education at a Glance and World Bank education financing reviews",
+        "year": 2023
+      }
+    ]
+  },
+{
+    "id": "trade-strategy",
+    "question": "开放策略：多边谈判、区域协定，还是单边关税与产业政策？",
+    "questionEn": "Opening Strategy: Multilateral Rounds, Regional Deals, or Unilateral Tariffs?",
+    "level": 3,
+    "cases": [
+      {
+        "who": "多边回合（关贸总协定到世贸组织）",
+        "whoEn": "Multilateral rounds (GATT to WTO)",
+        "how": "在最惠国原则下一揽子降税，规则普适、不用逐个谈判即可搭便车获得市场准入；但协商一致让成员越多越难产，2001 年启动的多哈回合实际已停摆多年。",
+        "howEn": "Tariff cuts are bundled under most-favoured-nation rules, so access spreads universally without case-by-case deals; but consensus among ever more members makes delivery hard, and the Doha Round launched in 2001 has long stalled."
+      },
+      {
+        "who": "区域与诸边协定（全面与进步跨太平洋伙伴关系、区域全面经济伙伴关系、欧盟单一市场）",
+        "whoEn": "Regional and plurilateral deals (CPTPP, RCEP, the EU single market)",
+        "how": "小圈子谈得更深更快，把竞争、投资、知识产权等「边境之后」的议题一并纳入；代价是规则层层叠加如一碗意大利面，且会产生贸易转移与对被排除者的排斥。",
+        "howEn": "Smaller clubs go deeper and faster, folding in behind-the-border issues like competition, investment and IP; the price is a bowl of overlapping rules, trade diversion, and the excluded left outside."
+      },
+      {
+        "who": "单边关税与战略产业政策（2018 年以来的关税回合与各国补贴竞赛）",
+        "whoEn": "Unilateral tariffs and strategic industrial policy (the tariff rounds since 2018 and subsidy races)",
+        "how": "出手快、直指战略目标，关税可作为谈判筹码；但实证的代价清单同样明确——税负几乎全额由本国进口商与消费者消化，且招来报复、侵蚀多边规则。",
+        "howEn": "Fast and aimed straight at strategic goals, with tariffs as bargaining chips; the empirical bill is equally clear, since the duty passes almost fully onto domestic importers and consumers, invites retaliation and erodes the multilateral rules."
+      },
+      {
+        "who": "安全优先的供应链重组（近年的友岸外包与回岸政策）",
+        "whoEn": "Security-first supply chains (recent friendshoring and reshoring)",
+        "how": "在效率之上追加韧性与同盟维度，把订单与投资向伙伴国偏移；与贸易模块「友岸外包」那条的分工是：那条讲现象与动因，本条把它放进策略谱系里对比。",
+        "howEn": "Resilience and alliance dimensions are layered over efficiency, shifting orders and investment toward partners; where the trade module's friendshoring entry explains the phenomenon, this one sets it in a taxonomy of strategies."
+      }
+    ],
+    "takeaway": "三条路径现实中常被同时使用，真正的取舍在于：普适规则带来的总收益最大、深度一体化便于捆绑改革、战略自主提供确定感，三者不可同时最大化。评估任何一格时都该问：收益归谁、成本归谁、规则由谁执笔。",
+    "takeawayEn": "States in practice run all three at once; what cannot be maximised together is the aggregate gain from universal rules, the reform bundling of deep integration, and the reassurance of strategic autonomy. For every cell, ask who gains, who pays, and who writes the rules.",
+    "sources": [
+      {
+        "label": "巴格瓦蒂《贸易体制中的白蚁》与世贸组织、基金组织贸易监测",
+        "labelEn": "Bhagwati, Termites in the Trading System; WTO and IMF trade monitoring",
+        "year": 2023
+      }
+    ]
   }
 ]

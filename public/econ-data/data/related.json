@@ -1944,6 +1944,34 @@
       "nEn": "Global urbanization rate (illustrative)"
     }
   ],
+  "trade-openness": [
+    {
+      "m": "m-charts",
+      "n": "世界贸易额占 GDP（示意）",
+      "nEn": "World Trade as a Share of GDP (Illustrative)"
+    }
+  ],
+  "rd-intensity": [
+    {
+      "m": "m-charts",
+      "n": "全球研发支出占 GDP（示意）",
+      "nEn": "Global R&D Spending as a Share of GDP (Illustrative)"
+    }
+  ],
+  "life-expectancy": [
+    {
+      "m": "m-charts",
+      "n": "全球平均预期寿命（示意）",
+      "nEn": "Global Average Life Expectancy (Illustrative)"
+    }
+  ],
+  "renewables-share": [
+    {
+      "m": "m-charts",
+      "n": "可再生能源占全球发电量（示意）",
+      "nEn": "Renewables in World Electricity Generation (Illustrative)"
+    }
+  ],
   "inflation-always-bad": [
     {
       "m": "m-myths",
@@ -2215,6 +2243,34 @@
       "m": "m-compare",
       "n": "国家把外汇或资源财富装进一只基金，该怎么管、给谁用？",
       "nEn": "When a state bottles FX reserves or resource wealth into one fund, how should it be run—and for whom?"
+    }
+  ],
+  "exchange-rate-regime": [
+    {
+      "m": "m-compare",
+      "n": "汇率制度：盯住锚货币、让市场定价，还是走中间道路？",
+      "nEn": "Exchange Rate Regimes: Peg, Float, or the Middle Road?"
+    }
+  ],
+  "labor-market-regulation": [
+    {
+      "m": "m-compare",
+      "n": "劳动力市场：靠严格的雇佣保护，还是靠灵活的进出与兜底？",
+      "nEn": "Labour Markets: Strict Protection, or Flexible Churn with a Safety Net?"
+    }
+  ],
+  "education-funding": [
+    {
+      "m": "m-compare",
+      "n": "高等教育：公共财政买单，还是个人投资付费？",
+      "nEn": "Higher Education: Public Purse or Private Investment?"
+    }
+  ],
+  "trade-strategy": [
+    {
+      "m": "m-compare",
+      "n": "开放策略：多边谈判、区域协定，还是单边关税与产业政策？",
+      "nEn": "Opening Strategy: Multilateral Rounds, Regional Deals, or Unilateral Tariffs?"
     }
   ]
 }

@@ -343,5 +343,111 @@
         "year": 2018
       }
     ]
+  },
+{
+    "id": "trade-openness",
+    "title": "世界贸易额占 GDP（示意）",
+    "titleEn": "World Trade as a Share of GDP (Illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 1,
+    "note": "示意性年度近似值：货物与服务进出口合计占世界 GDP 的比重，展示全球化上行、2008 年回踩与近年的供应链重构，非实测统计。口径（货物或含服务、名义或实际）不同数值会有出入，请以 WTO 与世界银行发布为准。",
+    "noteEn": "Illustrative annual approximations of goods plus services trade flows as a share of world GDP, showing the globalisation climb, the 2008 setback and recent supply-chain reconfiguration, not measured statistics. Figures move with the definition (goods versus goods-plus-services, nominal versus real), so consult WTO and World Bank releases.",
+    "series": [
+      { "y": 1970, "v": 28 },
+      { "y": 1980, "v": 39 },
+      { "y": 1990, "v": 37 },
+      { "y": 2000, "v": 45 },
+      { "y": 2007, "v": 52 },
+      { "y": 2009, "v": 42 },
+      { "y": 2015, "v": 46 },
+      { "y": 2023, "v": 51 }
+    ],
+    "sources": [
+      {
+        "label": "WTO / 世界银行（近似整理）",
+        "labelEn": "WTO and World Bank (approximated)",
+        "year": 2024
+      }
+    ]
+  },
+{
+    "id": "rd-intensity",
+    "title": "全球研发支出占 GDP（示意）",
+    "titleEn": "Global R&D Spending as a Share of GDP (Illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 2,
+    "note": "示意性年度近似值：全球研发总支出相当于世界 GDP 的比重，近年主要由高收入经济体与中国的投入推升。各机构口径（企业出资与高校出资、购买力平价换算）不同，请以 UNESCO 科学报告为准。",
+    "noteEn": "Illustrative annual approximations of total world R&D as a share of world GDP, lifted in recent years mainly by high-income economies and China. Shares differ across definitions (business versus higher-education funding, purchasing-power conversion), so consult UNESCO science reports.",
+    "series": [
+      { "y": 2000, "v": 1.7 },
+      { "y": 2005, "v": 1.9 },
+      { "y": 2010, "v": 2.2 },
+      { "y": 2015, "v": 2.4 },
+      { "y": 2019, "v": 2.6 },
+      { "y": 2022, "v": 2.7 }
+    ],
+    "sources": [
+      {
+        "label": "UNESCO《科学报告》（近似整理）",
+        "labelEn": "UNESCO Science Report (approximated)",
+        "year": 2024
+      }
+    ]
+  },
+{
+    "id": "life-expectancy",
+    "title": "全球平均预期寿命（示意）",
+    "titleEn": "Global Average Life Expectancy (Illustrative)",
+    "unit": "岁",
+    "unitEn": "years",
+    "level": 1,
+    "note": "示意性近似值：出生时平均预期寿命的长期上行与 2020 至 2021 年的疫情回撤；区域差异巨大，最高与最低地区可差约 20 岁。请以 WHO 全球健康观察数据为准。",
+    "noteEn": "Illustrative approximations of average life expectancy at birth, its long climb and the 2020 to 2021 pandemic setback, with regional gaps that can span roughly two decades. Consult WHO Global Health Observatory data for exact figures.",
+    "series": [
+      { "y": 1960, "v": 52 },
+      { "y": 1970, "v": 58 },
+      { "y": 1980, "v": 63 },
+      { "y": 1990, "v": 65 },
+      { "y": 2000, "v": 67 },
+      { "y": 2010, "v": 70 },
+      { "y": 2019, "v": 73 },
+      { "y": 2021, "v": 71 },
+      { "y": 2023, "v": 73 }
+    ],
+    "sources": [
+      {
+        "label": "WHO 全球健康观察（近似整理）",
+        "labelEn": "WHO Global Health Observatory (approximated)",
+        "year": 2024
+      }
+    ]
+  },
+{
+    "id": "renewables-share",
+    "title": "可再生能源占全球发电量（示意）",
+    "titleEn": "Renewables in World Electricity Generation (Illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 2,
+    "note": "示意性年度近似值：含水电在内的可再生能源占全球发电的比重，光伏与风电是近年增长的主引擎。各机构对「可再生」的界定（是否含水电、核电）不同，请以 IEA 与 Ember 发布为准。",
+    "noteEn": "Illustrative annual approximations of renewables including hydropower as a share of world electricity generation, with solar and wind the recent growth engines. Shares move with what counts as renewable (hydro in, nuclear out), so consult IEA and Ember releases.",
+    "series": [
+      { "y": 2010, "v": 20 },
+      { "y": 2013, "v": 22 },
+      { "y": 2015, "v": 23 },
+      { "y": 2017, "v": 24 },
+      { "y": 2019, "v": 26 },
+      { "y": 2021, "v": 28 },
+      { "y": 2023, "v": 30 }
+    ],
+    "sources": [
+      {
+        "label": "IEA / Ember（近似整理）",
+        "labelEn": "IEA and Ember (approximated)",
+        "year": 2024
+      }
+    ]
   }
 ]
