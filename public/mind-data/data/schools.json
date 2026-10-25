@@ -364,5 +364,232 @@
     "related": ["cognitivism", "memory", "intelligence"],
     "tags": ["计算", "学习"],
     "sources": [{ "label": "Rumelhart & McClelland《并行分布式处理》", "labelEn": "Rumelhart & McClelland, Parallel Distributed Processing", "year": 1986 }]
+  },
+  {
+    "id": "analytical-psychology",
+    "name": "分析心理学",
+    "nameEn": "Analytical Psychology",
+    "era": "19世纪末–20世纪中叶",
+    "eraEn": "Late 19th–mid 20th century",
+    "oneLiner": "荣格以集体无意识与原型为核心，绘制一条整合心灵对立面的个体化道路。",
+    "oneLinerEn": "Jung centers on the collective unconscious and archetypes, charting an individuation path that integrates the psyche's opposites.",
+    "core": "心灵不只有被压抑的个人无意识，还沉淀着全人类共享的集体无意识，以原型（阴影、阿尼玛/阿尼姆斯、自性等）显形；人生的任务是「个体化」——在对立张力中整合而非消灭另一半。",
+    "coreEn": "Beyond the personal unconscious lies a collective unconscious shared by humanity, expressing itself through archetypes (shadow, anima/animus, self); life's task is individuation—integrating opposites rather than erasing them.",
+    "founders": [
+      "卡尔·古斯塔夫·荣格",
+      "玛丽-路易丝·冯·弗兰兹"
+    ],
+    "foundersEn": [
+      "Carl Gustav Jung",
+      "Marie-Louise von Franz"
+    ],
+    "keyIdeas": [
+      "集体无意识",
+      "原型",
+      "阴影与阿尼玛",
+      "个体化",
+      "积极想象"
+    ],
+    "keyIdeasEn": [
+      "Collective unconscious",
+      "Archetypes",
+      "Shadow and anima",
+      "Individuation",
+      "Active imagination"
+    ],
+    "strengths": "把神话、宗教、炼金术与临床并置，为「意义」话题提供深层框架，并启发了后世的人格类型研究与叙事治疗。",
+    "strengthsEn": "Sets myth, religion, alchemy and clinic side by side, offering a depth framework for meaning and inspiring typology research and narrative therapy.",
+    "criticisms": "核心概念边界模糊、难以操作化检验，晚年论述趋近神秘主义，实证取向的心理学多持保留态度。",
+    "criticismsEn": "Key concepts are hard to operationalize or test; late writings drift toward mysticism, and empirical psychology remains skeptical.",
+    "related": [
+      "carl-jung",
+      "psychoanalysis",
+      "consciousness",
+      "self"
+    ],
+    "tags": [
+      "深层心理学",
+      "临床"
+    ],
+    "sources": [
+      {
+        "label": "荣格《心理类型》",
+        "labelEn": "Jung, C. G., Psychological Types",
+        "year": 1921
+      },
+      {
+        "label": "荣格《人及其象征》",
+        "labelEn": "Jung, C. G., Man and His Symbols",
+        "year": 1964
+      }
+    ]
+  },
+  {
+    "id": "individual-psychology",
+    "name": "个体心理学",
+    "nameEn": "Individual Psychology",
+    "era": "20世纪初–20世纪中叶",
+    "eraEn": "Early–mid 20th century",
+    "oneLiner": "阿德勒把人视作不可分割的整体，由自卑补偿、向优越的追求与社会兴趣驱动。",
+    "oneLinerEn": "Adler sees the person as an indivisible whole, moved by inferiority compensation, striving for superiority and social interest.",
+    "core": "「个体」本义是不可分割：人格是一个自洽风格的整体，而非驱力碎片战场；人人体验自卑，健康之路是朝优越与完善的追求，辅以社会兴趣；出生顺序与童年私有记忆塑造的生活风格，比客观条件本身更关键。",
+    "coreEn": "'Individual' means indivisible: personality is one self-consistent style, not a battlefield of drives; everyone feels inferior, and the healthy path is striving toward superiority and completion guided by social interest; birth order and the lifestyle forged from childhood memories matter more than objective conditions.",
+    "founders": [
+      "阿尔弗雷德·阿德勒"
+    ],
+    "foundersEn": [
+      "Alfred Adler"
+    ],
+    "keyIdeas": [
+      "自卑感与补偿",
+      "向优越的追求",
+      "生活风格",
+      "社会兴趣",
+      "出生顺序"
+    ],
+    "keyIdeasEn": [
+      "Inferiority and compensation",
+      "Striving for superiority",
+      "Lifestyle",
+      "Social interest",
+      "Birth order"
+    ],
+    "strengths": "最早把社会与教育视角带入深层心理学，直接影响人本主义、认知治疗与现代正面管教运动。",
+    "strengthsEn": "First to bring social and educational perspectives into depth psychology, directly shaping humanism, cognitive therapy and modern positive parenting.",
+    "criticisms": "概念多靠直觉、操作化偏弱；出生顺序效应在近年大样本研究中反复翻车，学界评价两极。",
+    "criticismsEn": "Many concepts are intuitive and lightly operationalized; birth-order effects have repeatedly failed in recent large-sample studies.",
+    "related": [
+      "alfred-adler",
+      "psychoanalysis",
+      "motivation",
+      "self"
+    ],
+    "tags": [
+      "深层心理学",
+      "教育"
+    ],
+    "sources": [
+      {
+        "label": "阿德勒《个体心理学的实践与理论》",
+        "labelEn": "Adler, A., Practice and Theory of Individual Psychology",
+        "year": 1927
+      }
+    ]
+  },
+  {
+    "id": "psychophysics",
+    "name": "心理物理学派",
+    "nameEn": "Psychophysics",
+    "era": "19世纪中后期",
+    "eraEn": "Mid–late 19th century",
+    "oneLiner": "先用尺子和天平给心灵称重，为感觉与物理刺激建立数量关系。",
+    "oneLinerEn": "First weighed the mind with rulers and scales, forging quantitative laws between sensation and stimulus.",
+    "core": "心理现象可测量：刺激强度按几何级数增长、感觉按算术级数增长（韦伯–费希纳定律）；绝对阈限、最小可觉差与极限法、常差法、平均差误法三大旧方法，让心理学从哲学思辨走向实验科学，直接为冯特实验室铺路。",
+    "coreEn": "Mental life is measurable: sensation grows arithmetically as stimulus grows geometrically (the Weber–Fechner law); absolute thresholds, just noticeable differences and the classic methods of limits, constant stimuli and average error laid the road from philosophy to Wundt's laboratory.",
+    "founders": [
+      "古斯塔夫·西奥多·费希纳",
+      "恩斯特·海因里希·韦伯"
+    ],
+    "foundersEn": [
+      "Gustav Theodor Fechner",
+      "Ernst Heinrich Weber"
+    ],
+    "keyIdeas": [
+      "绝对阈限",
+      "最小可觉差",
+      "韦伯–费希纳定律",
+      "心理量法"
+    ],
+    "keyIdeasEn": [
+      "Absolute threshold",
+      "Just noticeable difference",
+      "Weber–Fechner law",
+      "Psychometric methods"
+    ],
+    "strengths": "把「心灵」变成可测量的变量，为实验心理学提供了第一批可复用的方法与量具。",
+    "strengthsEn": "Turned the 'mind' into measurable variables, gifting experimental psychology its first reusable methods and instruments.",
+    "criticisms": "对数律在极端强度下失灵，后世靠史蒂文斯幂定律修补；感觉并非刺激的简单镜像，学派最终并入更大的实验心理学传统。",
+    "criticismsEn": "The logarithmic law breaks at extremes, patched later by Stevens' power law; sensation is no simple mirror of stimulus, and the school merged into mainstream experimental psychology.",
+    "related": [
+      "wundt",
+      "structuralism",
+      "perception",
+      "consciousness"
+    ],
+    "tags": [
+      "实验",
+      "方法论"
+    ],
+    "sources": [
+      {
+        "label": "费希纳《心理物理学纲要》",
+        "labelEn": "Fechner, G. T., Elemente der Psychophysik",
+        "year": 1860
+      },
+      {
+        "label": "史蒂文斯《心理物理定律》",
+        "labelEn": "Stevens, S. S., On the Psychophysical Law",
+        "year": 1957
+      }
+    ]
+  },
+  {
+    "id": "embodied-cognition",
+    "name": "具身认知学派",
+    "nameEn": "Embodied Cognition",
+    "era": "20世纪80年代至今",
+    "eraEn": "1980s–present",
+    "oneLiner": "认知不是脑袋里的离身计算机——身体的感知运动系统深度参与塑造思想。",
+    "oneLinerEn": "Cognition is not a disembodied computer in the head—the body's sensorimotor system deeply shapes thought.",
+    "core": "概念系统扎根于身体经验与意象图式，推理带着力觉、温度与空间隐喻；心智不是计算机，而是嵌入环境的生命体活动。对「认知＝符号计算」的经典计算观构成正面挑战。",
+    "coreEn": "Conceptual systems are grounded in bodily experience and image schemas; reasoning carries force, temperature and spatial metaphors. Mind is not a computer but an organism embedded in its environment—a direct challenge to the classical computational view of cognition.",
+    "founders": [
+      "弗朗西斯科·瓦雷拉",
+      "乔治·莱考夫",
+      "埃莉诺·罗施"
+    ],
+    "foundersEn": [
+      "Francisco Varela",
+      "George Lakoff",
+      "Eleanor Rosch"
+    ],
+    "keyIdeas": [
+      "概念隐喻",
+      "意象图式",
+      "扎根认知",
+      "生成论"
+    ],
+    "keyIdeasEn": [
+      "Conceptual metaphor",
+      "Image schema",
+      "Grounded cognition",
+      "Enactivism"
+    ],
+    "strengths": "把身体与环境重新摆上心灵哲学的桌面议程，启发交互设计、运动康复与具身心理治疗的实验范式。",
+    "strengthsEn": "Put body and environment back on the philosophy-of-mind agenda, inspiring paradigms in interaction design, motor rehab and embodied therapy.",
+    "criticisms": "证据强度参差：洗手减道德污点、热咖啡暖人心等一批经典启动实验在重复检验中翻车，「具身」的边界仍待厘清。",
+    "criticismsEn": "Evidence is uneven: classic priming studies (hand-washing washing away moral stains, warm coffee warming hearts) failed replication, and embodiment's boundaries remain contested.",
+    "related": [
+      "gestalt",
+      "perception",
+      "consciousness",
+      "cognitivism"
+    ],
+    "tags": [
+      "认知",
+      "哲学"
+    ],
+    "sources": [
+      {
+        "label": "瓦雷拉等《具身心智》",
+        "labelEn": "Varela, Thompson & Rosch, The Embodied Mind",
+        "year": 1991
+      },
+      {
+        "label": "巴萨卢《扎根认知》",
+        "labelEn": "Barsalou, Grounded Cognition, Annual Review of Psychology",
+        "year": 2008
+      }
+    ]
   }
 ]

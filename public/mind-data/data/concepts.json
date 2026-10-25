@@ -114,7 +114,7 @@
     "detailEn": "Heider proposed internal-external attribution; Kelley used consensus, distinctiveness and consistency to infer cause. The fundamental attribution error is over-crediting personality and under-crediting situation for others (calling someone 'unreliable' rather than 'stuck in traffic').",
     "example": "同事汇报出错，你心想「他太粗心」（性格）；轮到自己出错，你怪「需求又变了」（情境）。",
     "exampleEn": "When a colleague errs you think 'careless' (trait); when you err you blame 'changing requirements' (situation).",
-    "related": ["self"],
+    "related": ["self", "attribution-culture"],
     "tags": ["社会"],
     "sources": [{ "label": "Heider, F. 《人际关系心理学》", "labelEn": "Heider, F., The Psychology of Interpersonal Relations", "year": 1958 }]
   },
@@ -695,7 +695,8 @@
       "stress-coping",
       "anxiety-disorders",
       "emotion-labeling",
-      "body-first-calm"
+      "body-first-calm",
+      "mindfulness-clinical"
     ],
     "tags": [
       "情绪",

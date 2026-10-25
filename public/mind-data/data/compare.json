@@ -215,5 +215,118 @@
         "year": 1948
       }
     ]
+  },
+  {
+    "id": "mindfulness-clinical",
+    "term": "正念：修心传统 vs 临床技术",
+    "termEn": "Mindfulness: Contemplative Practice vs Clinical Tool",
+    "oneLiner": "同一个「觉知」，两千多年里是宗教修持，近几十年被世俗医学打包成八周课程。",
+    "oneLinerEn": "The same 'awareness' was a religious cultivation for millennia, then packaged by secular medicine into an eight-week course.",
+    "detail": "东方源流：佛教的「念」（巴利语 sati）是戒定慧三学的一环，配有伦理与生活整体；儒家讲「吾日三省吾身」，同样把内省当作功夫。西方临床化：1979 年卡巴金把禅修改编为八周减压课程，剥离宗教外衣、带着随机对照证据进入医院，其后又与认知疗法结合成防抑郁复发方案。张力在于：被精简成「每天十分钟看呼吸」的消费品版本，被批剥离了伦理维度；而临床疗效虽获大量研究支持，效应量常为中等，与运动等其他主动干预的差距仍在争论。",
+    "detailEn": "Eastern roots: Buddhist 'sati' sits within ethics, concentration and wisdom; Confucianism's daily self-examination treats introspection as practice too. Western clinical turn: in 1979 Kabat-Zinn recast meditation into an eight-week stress-reduction program, stripped of religion, entering hospitals with trial evidence; later fused with cognitive therapy to prevent depression relapse. The tension: consumer-grade 'ten minutes of breath-watching' is criticized for amputating the ethics, while clinical effects, though well supported, are usually moderate and still compared against active controls like exercise.",
+    "west": "可测量、处方式的大脑训练工具。",
+    "westEn": "A measurable, prescribable brain-training tool.",
+    "east": "嵌在师承、伦理与生活方式里的修心功夫。",
+    "eastEn": "Cultivation nested in lineage, ethics and a way of life.",
+    "related": [
+      "emotion-regulation",
+      "cognitive-reappraisal",
+      "consciousness",
+      "therapy-helping"
+    ],
+    "sources": [
+      {
+        "label": "卡巴金《多舛的生命》",
+        "labelEn": "Kabat-Zinn, Full Catastrophe Living",
+        "year": 1990
+      },
+      {
+        "label": "西格尔等《抑郁症的认知行为预防》",
+        "labelEn": "Segal, Williams & Teasdale, Mindfulness-Based Cognitive Therapy for Depression",
+        "year": 2002
+      }
+    ]
+  },
+  {
+    "id": "attribution-culture",
+    "term": "归因风格：归人 vs 归境",
+    "termEn": "Attribution Style: Disposition vs Situation",
+    "oneLiner": "同样一件事，西方人更爱问「他是什么人」，东亚人更爱问「他遇到了什么」。",
+    "oneLinerEn": "For the same act, the West asks 'what kind of person?' while East Asia asks 'what happened to him?'",
+    "detail": "教科书偏差是「基本归因错误」：解释他人行为时高估性格、低估情境。跨文化研究发现它的分布并不均匀——莫里斯与彭 1994 年对比中英文报纸对同类社会事件的报道，中文媒体更多铺陈情境之网，英文媒体更快给出性格定性；个体主义文化中这一错误更普遍，东亚情境化推理甚至可能反转。解释自己失败时方向恰好相反：东亚更常归因于努力与能力（还不够），西方更常怪情境。差异与自我建构联动：把自我看得越独立，就越容易把行为读成内在性情的流露。",
+    "detailEn": "The textbook bias—over-crediting disposition, under-crediting situation—is not uniformly distributed. Morris & Peng (1994) compared Chinese- and English-language news on the same events: Chinese accounts wove situational webs, English ones reached for trait verdicts. The error is commoner in individualist cultures, and East Asian situational reasoning can even flip it. Self-explanations run the other way: East Asians more often blame effort and ability, Westerners the situation. It tracks self-construal—the more independent the self, the more behavior reads as personality.",
+    "west": "行为是性格的输出，先看人再看事。",
+    "westEn": "Behavior is personality's output—read the person first.",
+    "east": "行为是情境与关系的函数，先看局再看人。",
+    "eastEn": "Behavior is a function of situation and relation—read the field first.",
+    "related": [
+      "attribution",
+      "fundamental-attribution-error",
+      "individualism-collectivism",
+      "self-construal"
+    ],
+    "sources": [
+      {
+        "label": "莫里斯与彭《文化与因果》",
+        "labelEn": "Morris & Peng, Culture and Cause",
+        "year": 1994
+      }
+    ]
+  },
+  {
+    "id": "grief-culture",
+    "term": "哀悼：放手 vs 续缘",
+    "termEn": "Grief: Letting Go vs Continuing Bonds",
+    "oneLiner": "一种悲伤的剧本教你「尽快走出」，另一种允许你与逝者继续相处。",
+    "oneLinerEn": "One script of grief says 'move on soon'; the other lets you keep relating to the departed.",
+    "detail": "二十世纪西方的主流剧本是「断开」：弗洛伊德 1917 年把哀伤工作定义为从客体身上逐步撤回力贯注，阶段模型与任务模型也都指向「恢复独立生活」。东亚则有另一条从未断流的制度线：三年之丧、神主牌、清明与中元，让逝者以象征身份继续参与家事。1996 年克拉斯等人提出「继续联结」框架，把评价翻转：与逝者保持内在关系不是「未完成的哀悼」，而是正常甚至更从容的哀悼路径；「多久算走出来」的计时器本身被质疑。两边如今互为镜像：西方临床开始欢迎写信、对话式仪式，东亚城市也在引入「告别式」的心理教育。",
+    "detailEn": "The 20th-century Western script was detachment: Freud (1917) defined grief work as gradually withdrawing cathexis from the lost object, and stage and task models both aim at 'back to independent life'. East Asia kept an institutional counter-line—three-year mourning, spirit tablets, Qingming and Zhongyuan festivals—letting the deceased continue participating in family affairs. In 1996 Klass et al.'s 'continuing bonds' framework flipped the verdict: maintaining an inner relationship with the dead is not unfinished grief but a normal, sometimes more at-ease path, and the 'how long until you're over it' timer itself was questioned. Today they mirror each other: Western clinics welcome letters and dialogic rituals, while urban East Asia adopts psychoeducation about farewell.",
+    "west": "哀悼是有终点的工程：撤下依恋，重建新生活。",
+    "westEn": "Grief is a project with an end: withdraw attachment, rebuild life.",
+    "east": "哀悼是关系的再安排：换一种方式相守。",
+    "eastEn": "Grief is a re-arrangement of relation: staying together in a new form.",
+    "related": [
+      "attachment",
+      "self-construal",
+      "individualism-collectivism"
+    ],
+    "sources": [
+      {
+        "label": "弗洛伊德《哀悼与忧郁》",
+        "labelEn": "Freud, S., Mourning and Melancholia",
+        "year": 1917
+      },
+      {
+        "label": "克拉斯等《继续联结》",
+        "labelEn": "Klass, Silverman & Nickman, Continuing Bonds",
+        "year": 1996
+      }
+    ]
+  },
+  {
+    "id": "creativity-culture",
+    "term": "创造观：灵感 vs 功夫",
+    "termEn": "Views on Creativity: Inspiration vs Cultivation",
+    "oneLiner": "西方画像是孤独特异的天才与灵光一现，东亚画像是一笔一画的苦练与厚积薄发。",
+    "oneLinerEn": "The Western image is a lone, eccentric genius with a spark; the East Asian one is patient apprenticeship accumulating until breakthrough.",
+    "detail": "西方浪漫主义传统把创造绑定在天才、人格与「尤里卡时刻」上，今天的测验仍按「新颖＋有效」双标准测量个体的发散思维，阿马比尔的成分模型强调内在动机与领域相关技能。东亚传统从临帖、师承起步——先模仿后创造，创造是长期功夫与积累的果实；在对华人学生的创造力观念调查中，勤学、贡献家国常排在个人奇想之前。两边正在合流：西方研究同样承认深度专长是创造的地基（发明创造研究里常见的「十年规则」），东亚课堂则开始保护提问与异想。分歧不在「要不要创新」，而在创新从哪里长出来。",
+    "detailEn": "The Western romantic tradition tethers creativity to genius and 'eureka' moments; tests still score individual divergence on novelty-plus-usefulness, and Amabile's componential model stresses intrinsic motivation and domain skills. The East Asian tradition starts from copying masters—imitate first, create later—with creativity as the fruit of long effort; surveys of Chinese students rank diligence and contributing to family and country above personal whimsy. The two are converging: Western research grants deep expertise as creativity's foundation (the 'ten-year rule' in invention studies), while East Asian classrooms begin protecting questioning and whimsy. The split is not whether to innovate, but where innovation grows from.",
+    "west": "创造是个体灵感与特立独行的火花。",
+    "westEn": "Creation is the spark of individual inspiration and nonconformity.",
+    "east": "创造是长期师承与勤学积累后的开花。",
+    "eastEn": "Creation blooms after long apprenticeship and accumulated effort.",
+    "related": [
+      "individualism-collectivism",
+      "flow",
+      "growth-mindset",
+      "motivation"
+    ],
+    "sources": [
+      {
+        "label": "阿马比尔《创造力的社会心理学》",
+        "labelEn": "Amabile, The Social Psychology of Creativity",
+        "year": 1983
+      }
+    ]
   }
 ]
