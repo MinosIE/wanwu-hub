@@ -188,5 +188,57 @@
       "transpiration",
       "photosynthesis"
     ]
+  },
+  {
+    "id": "mitosis",
+    "term": "有丝分裂",
+    "termEn": "Mitosis",
+    "category": "细胞",
+    "categoryEn": "Cell Biology",
+    "level": 2,
+    "def": "体细胞复制染色体后均等分裂为两个遗传相同的子细胞的过程，是生长、修复与无性繁殖的细胞基础。",
+    "defEn": "The process by which a somatic cell duplicates its chromosomes and divides equally into two genetically identical daughter cells — the basis of growth, repair and asexual reproduction.",
+    "plain": "一个细胞照着图纸把自己复制成两个一模一样的，身体长大、伤口愈合都靠它。",
+    "plainEn": "A cell copies itself into two identical ones — how a body grows and a wound heals.",
+    "related": ["meiosis", "cell-division", "cell-theory"]
+  },
+  {
+    "id": "chromosome",
+    "term": "染色体",
+    "termEn": "Chromosome",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 2,
+    "def": "由 DNA 与组蛋白缠绕压缩而成的遗传载体，在细胞分裂期高度凝缩、便于基因的均等分配。",
+    "defEn": "A packaged thread of DNA wound around histone proteins that carries genes, condensing tightly during division so genetic material can be apportioned evenly.",
+    "plain": "细胞里把长长的遗传信息盘成的一根根「线团」，分裂时才现形，好把基因分给下一代。",
+    "plainEn": "The cell's spooled-up bundles of hereditary message, visible only when dividing so genes get shared out.",
+    "related": ["meiosis", "dna-vs-rna", "central-dogma"]
+  },
+  {
+    "id": "enzyme",
+    "term": "酶",
+    "termEn": "Enzyme",
+    "category": "代谢",
+    "categoryEn": "Metabolism",
+    "level": 2,
+    "def": "绝大多数为蛋白质的生物催化剂，通过降低反应活化能把细胞内的化学反应提速到生命可用的速率。",
+    "defEn": "Biological catalysts, mostly proteins, that speed the cell's chemistry to life-sustaining rates by lowering the activation energy of reactions.",
+    "plain": "生命里的「加速剂」：让体内那些本该慢得不能用的反应，在体温下瞬间完成。",
+    "plainEn": "Life's accelerators: reactions that would crawl at body temperature are rushed to completion by them.",
+    "related": ["photosynthesis", "aerobic-vs-anaerobic-respiration", "cell-fundamentals"]
+  },
+  {
+    "id": "osmosis",
+    "term": "渗透",
+    "termEn": "Osmosis",
+    "category": "物质运输",
+    "categoryEn": "Transport",
+    "level": 2,
+    "def": "水分子顺浓度梯度穿过半透膜，从溶质浓度低的一侧流向浓度高的一侧，驱动细胞吸失水与水分运输。",
+    "defEn": "The movement of water across a semi-permeable membrane down its concentration gradient, from dilute to concentrated side, driving cell swelling, wilting and water transport.",
+    "plain": "水自己会穿过半透膜，往「更浓」那边挤——腌菜出水、植物吸水都是这道理。",
+    "plainEn": "Water seeps through a membrane toward the saltier side — why pickles weep and roots drink.",
+    "related": ["transpiration", "stomata", "cell-fundamentals"]
   }
 ]

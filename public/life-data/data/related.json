@@ -902,6 +902,34 @@
       "nEn": "Stomata"
     }
   ],
+  "mitosis": [
+    {
+      "m": "m-glossary",
+      "n": "有丝分裂",
+      "nEn": "Mitosis"
+    }
+  ],
+  "chromosome": [
+    {
+      "m": "m-glossary",
+      "n": "染色体",
+      "nEn": "Chromosome"
+    }
+  ],
+  "enzyme": [
+    {
+      "m": "m-glossary",
+      "n": "酶",
+      "nEn": "Enzyme"
+    }
+  ],
+  "osmosis": [
+    {
+      "m": "m-glossary",
+      "n": "渗透",
+      "nEn": "Osmosis"
+    }
+  ],
   "bio-aristotle-fauna": [
     {
       "m": "m-timeline",

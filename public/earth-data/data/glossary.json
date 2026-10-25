@@ -186,5 +186,57 @@
       "uniformitarianism",
       "milankovitch-cycles"
     ]
+  },
+  {
+    "id": "fjord",
+    "term": "峡湾",
+    "termEn": "Fjord",
+    "category": "冰川地貌",
+    "categoryEn": "Glacial Landform",
+    "level": 2,
+    "def": "冰川侵蚀出的U形谷被海水倒灌后形成的狭长海湾，两岸陡崖、湾口常有沙坎，深度与岸高远超普通海岸。",
+    "defEn": "A long, deep, narrow sea inlet carved by a glacier and later flooded by the ocean, flanked by steep cliffs and often barred by a submerged moraine at its mouth.",
+    "plain": "冰川刻出的深谷后来被海水灌满：又窄又深、两岸如削，是冰与海合写的地貌。",
+    "plainEn": "A glacial valley drowned by the sea: narrow, deep and wall-sided — a landform co-authored by ice and ocean.",
+    "related": ["glacial-processes", "glacier", "karst"]
+  },
+  {
+    "id": "trade-wind",
+    "term": "信风",
+    "termEn": "Trade Wind",
+    "category": "大气环流",
+    "categoryEn": "Atmospheric Circulation",
+    "level": 2,
+    "def": "在副热带高压吹向赤道低压、受地转偏向力偏转而成的近地面定向风带，低纬海域终年稳定，是帆船时代的跨洋动力。",
+    "defEn": "Near-surface winds blowing from the subtropical highs toward the equatorial low, deflected by the Coriolis effect; steady over tropical seas, they powered the age of sail.",
+    "plain": "低纬度常年守时的「风」，方向几乎不变，古时候商船帆船就靠它横跨大洋。",
+    "plainEn": "Tropical winds that keep faithful hours, blowing a near-constant way — the sailing trade's engine across the oceans.",
+    "related": ["circulation-cells", "coriolis-effect", "monsoon"]
+  },
+  {
+    "id": "fault",
+    "term": "断层",
+    "termEn": "Fault",
+    "category": "地质构造",
+    "categoryEn": "Geologic Structure",
+    "level": 2,
+    "def": "岩层受力破裂并沿破裂面发生明显相对位移的构造，是地震、地垒地堑与许多谷地的直接成因。",
+    "defEn": "A fracture in rock across which the blocks have slipped measurably — the direct cause of many quakes, horsts, grabens and valleys.",
+    "plain": "地壳里一道「错位」：两侧的岩石沿着裂面上下或水平挪了位，常常伴随地震。",
+    "plainEn": "A slip-line in the crust: rock on either side has shifted up or across along the break, often with earthquakes.",
+    "related": ["plate-tectonics", "seismic-volcanic", "east-african-rift"]
+  },
+  {
+    "id": "watershed",
+    "term": "流域分水岭",
+    "termEn": "Watershed",
+    "category": "水文",
+    "categoryEn": "Hydrology",
+    "level": 2,
+    "def": "分隔相邻两个流域的山脊或高地，降水在此分流向不同水系；广义也指一条河流汇水的全部区域。",
+    "defEn": "The ridge or highland dividing two adjacent river basins, so rainfall runs off to different systems; the term also names a river's entire catchment area.",
+    "plain": "雨落在山这边流进这条河、落那边流进那条河——那道分水的脊线就是分水岭。",
+    "plainEn": "Rain on this side of the ridge feeds one river, on that side another — the dividing crest is the watershed.",
+    "related": ["river-landforms", "hydrological-cycle", "danube"]
   }
 ]

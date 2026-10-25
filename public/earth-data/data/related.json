@@ -951,6 +951,34 @@
       "nEn": "Geologic Time Scale"
     }
   ],
+  "fjord": [
+    {
+      "m": "m-glossary",
+      "n": "峡湾",
+      "nEn": "Fjord"
+    }
+  ],
+  "trade-wind": [
+    {
+      "m": "m-glossary",
+      "n": "信风",
+      "nEn": "Trade Wind"
+    }
+  ],
+  "fault": [
+    {
+      "m": "m-glossary",
+      "n": "断层",
+      "nEn": "Fault"
+    }
+  ],
+  "watershed": [
+    {
+      "m": "m-glossary",
+      "n": "流域分水岭",
+      "nEn": "Watershed"
+    }
+  ],
   "geo-era-eratosthenes": [
     {
       "m": "m-timeline",
