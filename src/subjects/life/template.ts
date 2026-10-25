@@ -46,6 +46,9 @@ export const TEMPLATE = `<div class="wrap">
         <button class="mod" data-go="m-myths" data-i18n="nav.myths">
           常见误区
         </button>
+        <button class="mod" data-go="m-experiments" data-i18n="nav.experiments">
+          经典实验
+        </button>
       </nav>
 
       <section class="module active" id="m-home">
@@ -156,6 +159,18 @@ export const TEMPLATE = `<div class="wrap">
         <div class="filters" id="mythsFilters"></div>
         <p class="count" id="mythsCount"></p>
         <div class="card-grid" id="mythsGrid"></div>
+      </section>
+
+      <section class="module" id="m-experiments">
+        <header class="mod-head">
+          <h2 data-i18n="experiments.title">经典实验</h2>
+          <p class="mod-sub" data-i18n="experiments.sub">
+            教科书里那些结论，大多来自一两个设计精巧的实验。按时间顺序看它们怎么做的、看到了什么、说明了什么。
+          </p>
+        </header>
+        <div class="filters" id="experimentsFilters"></div>
+        <p class="count" id="experimentsCount"></p>
+        <div class="card-grid" id="experimentsGrid"></div>
       </section>
 
       <footer class="foot" id="foot"></footer>

@@ -78,6 +78,14 @@ export const MODULES: ModuleDef[] = [
     priority: 2,
     load: () => import("./myths"),
   },
+  {
+    id: "m-experiments",
+    key: "experiments",
+    icon: "🧪",
+    file: "experiments.json",
+    priority: 2,
+    load: () => import("./experiments"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

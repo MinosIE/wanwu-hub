@@ -1,0 +1,437 @@
+[
+  {
+    "id": "willow-pot-experiment",
+    "title": "柳树盆栽实验（1642）",
+    "titleEn": "The Willow Pot Experiment (1642)",
+    "icon": "🌿",
+    "category": "生理与生态",
+    "categoryEn": "Physiology & Ecology",
+    "level": 2,
+    "order": 1,
+    "lead": "一棵柳树五年增重七十多公斤，土壤只少了不到六十克——植物长身体，到底吃的是什么？",
+    "leadEn": "A willow gained over 70 kilograms in five years while the soil lost under 60 grams. If plants don't eat earth, what do they eat?",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "海尔蒙特把柳枝插进称过重、烘干过的土壤，只浇雨水，五年间用盖子挡灰，最后再次称量大树与土壤。",
+        "vEn": "Jan Baptist van Helmont planted a willow cutting in weighed, dried soil, watered it only with rain, shielded the pot from dust, and re-weighed tree and soil five years later."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "柳树增重约 74 公斤，土壤只减少约 57 克——「植物吃土」的说法对不上账。",
+        "vEn": "The tree gained about 74 kilograms; the soil lost some 57 grams. 'Plants eat soil' simply did not add up."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "他归因于水，还漏了另一半答案：增重主要来自空气中的碳。与「植物吃土吗」误区条目对照阅读，那是误区拆解版、这是实验设计版。",
+        "vEn": "He credited the water and missed the other half: most of the gain comes from carbon in the air. Read alongside the 'plants eat soil' myth—one entry debunks the belief, this one shows the experiment."
+      }
+    ],
+    "related": [
+      "plants-eat-soil",
+      "transpiration"
+    ]
+  },
+  {
+    "id": "light-bubble-experiment",
+    "title": "水生植物气泡实验（1779）",
+    "titleEn": "The Pondweed Bubble Experiment (1779)",
+    "icon": "🫧",
+    "category": "生理与生态",
+    "categoryEn": "Physiology & Ecology",
+    "level": 2,
+    "order": 2,
+    "lead": "同样的水草，只有晒到阳光的地方才冒泡——他把「植物净化空气」拆成了光与绿两个条件。",
+    "leadEn": "The same pondweed bubbled only where sunlight struck it—splitting 'plants refresh the air' into two conditions: light and green.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "英根豪茨把水生植物浸没在倒扣的玻璃罩里曝晒，收集冒出的气泡，用将熄的蜡烛检验气体，再对比照光与遮阴、绿色部位与根部。",
+        "vEn": "Jan Ingenhousz submerged pondweed under an inverted glass bell in sunlight, collected the bubbles and tested them with a dying candle—comparing lit versus shaded plants, green parts versus roots."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "只有阳光下、只有绿色部分产生气泡；那气体助燃，遮阴或入夜后产气停止。",
+        "vEn": "Gas rose only in sunlight, only from green parts; it fed the flame, and stopped in shade or after dark."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "放氧是一场依赖光的化学反应，主战场在绿叶——光合作用的「光依赖」一半，就此被实验钉住。",
+        "vEn": "Oxygen release is a light-driven reaction seated in green leaves—the 'light' half of photosynthesis, pinned by experiment."
+      }
+    ],
+    "related": [
+      "photosynthesis",
+      "energy-flow"
+    ]
+  },
+  {
+    "id": "sachs-half-leaf",
+    "title": "萨克斯半叶实验（1864）",
+    "titleEn": "The Half-Leaf Experiment (1864)",
+    "icon": "🍃",
+    "category": "生理与生态",
+    "categoryEn": "Physiology & Ecology",
+    "level": 2,
+    "order": 3,
+    "lead": "一片叶子，一半遮光一半见光，碘液只染黑了见光的那半边——淀粉是光照的产物。",
+    "leadEn": "One leaf, half shaded and half lit: iodine blackened only the lit side—starch is a product of light.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "萨克斯先把天竺葵暗放一昼夜耗尽叶内淀粉，再让同一片叶子一半遮光、一半曝光数小时，取下叶片酒精脱色后滴碘液显色。",
+        "vEn": "Julius von Sachs first kept a geranium in the dark overnight to drain its leaf starch, then exposed half of one leaf to light while shading the other half, stripped the pigment with alcohol and painted it with iodine."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "只有曝光的半边变成蓝黑色——碘液只对淀粉露出这个颜色。",
+        "vEn": "Only the lit half turned blue-black: iodine says that color only to starch."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "叶片在光下制造淀粉——把前人的「气体证据」补成了「产物证据」，光合作用的原料与产出各有了实验锚点。",
+        "vEn": "Leaves manufacture starch in light, completing earlier gas evidence with product evidence—inputs and outputs of photosynthesis each anchored by experiment."
+      }
+    ],
+    "related": [
+      "photosynthesis",
+      "metabolism-enzymes"
+    ]
+  },
+  {
+    "id": "mendel-pea-cross",
+    "title": "孟德尔豌豆杂交实验（1866）",
+    "titleEn": "Mendel's Pea Crosses (1866)",
+    "icon": "🌸",
+    "category": "遗传与分子",
+    "categoryEn": "Genetics & Molecules",
+    "level": 2,
+    "order": 4,
+    "lead": "七对性状的豌豆杂交、上万株的统计——「消失」的隐性性状在子二代按约三比一回来了。",
+    "leadEn": "Seven trait contrasts, thousands of plants: the 'lost' recessive trait came back in generation two at a ratio of about three to one.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "孟德尔人工去雄、定向授粉，用七对易辨性状的纯系豌豆做正反杂交，逐一统计子一代、子二代各性状的株数比例。",
+        "vEn": "Gregor Mendel removed anthers by hand and pollinated deliberately, crossing pure-bred pea lines that contrasted in seven visible traits, then counting trait ratios plant by plant across two filial generations."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "子一代整齐地只表现一种性状；子二代里「消失」的隐性性状重新出现，显性与隐性之比接近三比一。",
+        "vEn": "Every first-generation plant showed one trait; in generation two the hidden trait reappeared, dominant to recessive at nearly three to one."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "遗传是颗粒状因子的传递，不是混合稀释——显性、隐性的概念自此分立。与「显性就是最强」误区条目正好互为镜像。",
+        "vEn": "Heredity passes down as particulate factors, not blended soup—dominance and recessiveness were born as separate ideas, the mirror image of the 'dominant means strongest' myth."
+      }
+    ],
+    "related": [
+      "heredity-mendel",
+      "mendel",
+      "dominant-strongest"
+    ]
+  },
+  {
+    "id": "discovery-insulin",
+    "title": "胰岛素的提取（1921）",
+    "titleEn": "Isolating Insulin (1921)",
+    "icon": "💉",
+    "category": "医学与方法",
+    "categoryEn": "Medicine & Method",
+    "level": 2,
+    "order": 5,
+    "lead": "结扎胰管让腺体「退化」，只为留下那一小撮内分泌物——糖尿病从绝症变成可控制的病症。",
+    "leadEn": "Ligating the pancreatic duct to let the gland 'shrink' away, keeping only its inner secretion—diabetes turned from a death sentence into a manageable condition.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "班廷结扎狗的胰管使外分泌腺萎缩，低温萃取剩下的内分泌部分，注射给切除胰腺、患糖尿病的狗；再由生化家科利普进一步提纯后用于人体。",
+        "vEn": "Frederick Banting ligated a dog's pancreatic duct to wither the digestive tissue, cold-extracted the remaining inner secretion and injected it into pancreas-removed, diabetic dogs; biochemist James Collip purified it further for human trials."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "用药狗的血糖与尿糖明显回落、精神好转；1922 年一名 14 岁患者注射提取物后血糖下降、症状缓解。",
+        "vEn": "Treated dogs' blood and urine sugar fell and their spirits rose; in 1922 a 14-year-old patient saw his blood sugar drop and symptoms ease after an injection."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "胰腺分泌的某种激素可以被提取、提纯、按需给药——「胰岛素」从假说变成药品，激素疗法由此开路。",
+        "vEn": "A hormone of the pancreas could be extracted, purified and dosed—'insulin' became medicine rather than hypothesis, opening the era of hormone therapy."
+      }
+    ],
+    "related": [
+      "homeostasis",
+      "metabolism-enzymes"
+    ]
+  },
+  {
+    "id": "griffith-transformation",
+    "title": "格里菲斯转化实验（1928）",
+    "titleEn": "Griffith's Transformation Experiment (1928)",
+    "icon": "🐭",
+    "category": "遗传与分子",
+    "categoryEn": "Genetics & Molecules",
+    "level": 3,
+    "order": 6,
+    "lead": "加热杀死的致病菌，加上活的不致病菌，杀死了小鼠——死去细菌里有什么东西「传染」了活细菌？",
+    "leadEn": "Heat-killed deadly bacteria plus living harmless ones killed the mouse—what in the dead cells had 'transformed' the living?",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "格里菲斯给小鼠分别注射光滑型（S，致死）、粗糙型（R，不致死）的肺炎链球菌，再注射「加热杀死的 S 型加活 R 型」的混合液。",
+        "vEn": "Frederick Griffith injected mice with smooth (S, lethal) or rough (R, harmless) pneumococcus—and then a mixture of heat-killed S plus living R."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "混合组小鼠死亡，并从其体内分离出了活的 S 型菌——死的细菌让活的细菌变了性状，而且能遗传下去。",
+        "vEn": "The mixed group died, and living S bacteria were recovered from them—the dead had changed the living, and the change was inherited."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "细菌间存在某种可转移的遗传物质，「转化因子」之谜就此开题——下一位实验者要回答：它是什么？",
+        "vEn": "Some heritable material had passed between bacteria, opening the mystery of the 'transforming principle'—the next experimentalist would have to answer: what is it?"
+      }
+    ],
+    "related": [
+      "bacteria",
+      "mutation-variation"
+    ]
+  },
+  {
+    "id": "avery-transforming-factor",
+    "title": "艾弗里锁定转化因子（1944）",
+    "titleEn": "Avery Identifies the Transforming Principle (1944)",
+    "icon": "🧪",
+    "category": "遗传与分子",
+    "categoryEn": "Genetics & Molecules",
+    "level": 3,
+    "order": 7,
+    "lead": "把 S 型菌的各类成分逐一「拆解」，谁被破坏后转化就失灵——答案指向当时最不被看好的分子。",
+    "leadEn": "Destroying one S-cell fraction at a time until transformation failed—the answer pointed at the least fashionable molecule of the day.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "艾弗里团队从 S 型菌分别提纯 DNA、RNA、蛋白质与多糖，再用各自的水解酶逐一处理，然后测试哪种提取物仍能让 R 型菌转化。",
+        "vEn": "Oswald Avery's team purified DNA, RNA, protein and sugars from S cells, knocked each out with its specific enzyme, and tested which treated extracts could still transform R cells."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "只有 DNA 被破坏后转化能力消失；蛋白质、RNA 等其他成分失活都不影响转化。",
+        "vEn": "Only destroying DNA abolished transformation; removing protein, RNA or the rest changed nothing."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "转化因子就是 DNA——基因的化学身份第一次有了实验答案，尽管当时质疑声远大于掌声。",
+        "vEn": "The transforming principle is DNA—the first experimental answer to the chemical identity of the gene, though doubt outweighed applause at the time."
+      }
+    ],
+    "related": [
+      "griffith-transformation",
+      "central-dogma"
+    ]
+  },
+  {
+    "id": "hershey-chase-blender",
+    "title": "赫尔希-蔡斯搅拌器实验（1952）",
+    "titleEn": "The Hershey–Chase Blender Experiment (1952)",
+    "icon": "🌀",
+    "category": "遗传与分子",
+    "categoryEn": "Genetics & Molecules",
+    "level": 3,
+    "order": 8,
+    "lead": "蛋白壳标上硫、内核标上磷，搅拌离心后看谁进了细菌——遗传物质有了独立复现的证据。",
+    "leadEn": "Sulfur on the coat, phosphorus in the core; after the blender and the spin, the tracer showed who actually entered the cell.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "赫尔希与蔡斯用放射性硫标记噬菌体的蛋白质外壳、放射性磷标记其内部 DNA，让它们感染细菌，再用搅拌器剥离外壳、离心分离，检测两路放射性的去向。",
+        "vEn": "Hershey and Chase labeled phage protein coats with radioactive sulfur and their DNA cores with radioactive phosphorus, let them infect bacteria, sheared the coats off in a blender, spun the mixture and traced where each label went."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "硫标记基本留在壳层，磷标记进入细菌体内，并在子代噬菌体中重新出现。",
+        "vEn": "The sulfur stayed with the empty shells; the phosphorus entered the cells and reappeared in the next generation of phages."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "进入宿主、指挥复制、传递遗传的是 DNA 而非蛋白质——艾弗里的结论拿到了干净利落的独立复现。",
+        "vEn": "DNA, not protein, enters the host, directs copying and carries heredity—Avery's conclusion at last with crisp, independent confirmation."
+      }
+    ],
+    "related": [
+      "avery-transforming-factor",
+      "central-dogma",
+      "virus-is-organism"
+    ]
+  },
+  {
+    "id": "meselson-stahl-gradient",
+    "title": "氮同位素密度梯度实验（1958）",
+    "titleEn": "The Density-Gradient Replication Experiment (1958)",
+    "icon": "⚖️",
+    "category": "遗传与分子",
+    "categoryEn": "Genetics & Molecules",
+    "level": 3,
+    "order": 9,
+    "lead": "先让细菌在「重水重氮」里传代，再切换到普通氮，离心看密度条带——分子生物学最著名的「最美实验」。",
+    "leadEn": "Growing bacteria in heavy nitrogen first, then switching to the ordinary kind and reading the bands by density—the experiment often crowned 'the most beautiful in molecular biology'.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "梅塞尔森与斯塔尔让大肠杆菌长期繁殖于含重氮同位素的培养基，转入普通轻氮后逐代取样，用氯化铯密度梯度离心分辨不同重量的 DNA 条带。",
+        "vEn": "Meselson and Stahl grew E. coli for generations in heavy nitrogen isotope, shifted them to light, sampled each generation and resolved DNA of different weights in cesium chloride density gradients."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "子一代的条带全部落在「一半重一半轻」的中间位置；子二代一半居中、一半全轻，最重的位置始终空着。",
+        "vEn": "First-generation DNA sat dead-center—half heavy, half light; generation two split between hybrid and fully light, and the all-heavy band never survived."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "双螺旋的两条链各自作模板、一分为二——「半保留复制」的假说被密度直接看见。",
+        "vEn": "Each strand of the double helix serves as its own template, splitting one into two: semi-conservative replication, seen directly as density."
+      }
+    ],
+    "related": [
+      "hershey-chase-blender",
+      "cell-division"
+    ]
+  },
+  {
+    "id": "monoclonal-antibody",
+    "title": "单克隆抗体技术（1975）",
+    "titleEn": "Monoclonal Antibodies (1975)",
+    "icon": "🧫",
+    "category": "医学与方法",
+    "categoryEn": "Medicine & Method",
+    "level": 3,
+    "order": 10,
+    "lead": "把只会分泌抗体却活不长久的细胞，与长生却不分泌的肿瘤细胞融合——各取所需的杂交细胞改变了医学。",
+    "leadEn": "Fusing antibody-secreting cells that can't survive long with immortal tumor cells that don't secrete—the hybrid took the best of each and changed medicine.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "科勒与米尔斯坦先用特定抗原免疫小鼠，取其脾脏中的抗体生成细胞，与骨髓瘤细胞在融合剂介导下合胞，再筛选出既能无限增殖、又分泌单一抗体的杂交细胞。",
+        "vEn": "Köhler and Milstein immunized mice with a chosen antigen, harvested their spleen's antibody-making cells, fused them with myeloma cells using a fusion agent, and screened for hybrids that multiplied forever while pouring out one identical antibody."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "单个杂交细胞的克隆后代，产生的抗体分子完全同一，可以近乎无限地扩增供应。",
+        "vEn": "Clones descended from a single hybrid cell delivered one identical antibody molecule, in practically limitless supply."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "抗体从「血清混合物」变成可量产的精准识别工具——免疫诊断、靶向治疗自此进入单克隆时代。",
+        "vEn": "Antibodies went from serum soup to a mass-producible precision tool—diagnostics and targeted therapy entered the monoclonal age."
+      }
+    ],
+    "related": [
+      "immunity",
+      "cell-division"
+    ]
+  },
+  {
+    "id": "pcr-invention",
+    "title": "聚合酶链式反应的发明（1983）",
+    "titleEn": "Inventing PCR (1983)",
+    "icon": "🔁",
+    "category": "医学与方法",
+    "categoryEn": "Medicine & Method",
+    "level": 3,
+    "order": 11,
+    "lead": "受热分开、降温配对、升温复制，三个温度步骤循环往复——一根试管里的「分子复印机」。",
+    "leadEn": "Heat to separate, cool to pair, warm to copy, then repeat—a photocopier for molecules inside a single tube.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "穆利斯设计出「模板加两段引物」的循环方案：高温让双链分开，低温让引物就位，中温由取自耐热菌的聚合酶延伸新链，每一轮把目标片段翻倍。",
+        "vEn": "Kary Mullis designed a cycle of template plus two primers: heat to split the strands, cool to seat the primers, warm for a heat-loving polymerase from thermophilic bacteria to build new chains—each round doubling the target."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "几十个循环后，一根试管里痕量的目标片段扩增成天文数字的拷贝，凝胶上清晰可见。",
+        "vEn": "After a few dozen cycles, a trace fragment in one tube ballooned into astronomical copies, bright enough to see on a gel."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "读取基因不再依赖活细胞培养——法医物证、古 DNA、病毒检测、亲子鉴定都建立在这台「复印机」上。",
+        "vEn": "Reading genes no longer required living cells—forensics, ancient DNA, virus testing and paternity all run on this molecular photocopier."
+      }
+    ],
+    "related": [
+      "meselson-stahl-gradient",
+      "central-dogma"
+    ]
+  },
+  {
+    "id": "cloned-sheep-dolly",
+    "title": "体细胞克隆羊多利（1996）",
+    "titleEn": "Dolly, the Somatic-Cell Clone (1996)",
+    "icon": "🐑",
+    "category": "医学与方法",
+    "categoryEn": "Medicine & Method",
+    "level": 2,
+    "order": 12,
+    "lead": "把成年乳腺细胞的核搬进去核卵细胞，代孕产羔——遗传蓝图原来没有被分化「锁死」。",
+    "leadEn": "Moving an adult mammary cell's nucleus into an enucleated egg, then a surrogate's lamb: the genetic blueprint was never locked away by differentiation.",
+    "points": [
+      {
+        "k": "怎么做的",
+        "kEn": "How it was done",
+        "v": "威尔穆特与坎贝尔把成年母羊乳腺细胞的细胞核移入去核的卵母细胞，用电脉冲让两者融合并激活发育，再把重构胚胎植入代孕母羊子宫。",
+        "vEn": "Wilmut and Campbell transferred the nucleus of a mammary cell from an adult ewe into an enucleated egg, fused and activated it with an electric pulse, and carried the reconstructed embryo to term in a surrogate."
+      },
+      {
+        "k": "看到了什么",
+        "kEn": "What was seen",
+        "v": "多利健康出生，遗传鉴定与供体母羊一致——一个成年体细胞的核，仍带着发育成完整个体的全套信息。",
+        "vEn": "Dolly was born healthy and matched the donor ewe by genetic testing—one adult body cell's nucleus still held the full instructions for a whole animal."
+      },
+      {
+        "k": "说明了什么",
+        "kEn": "What it showed",
+        "v": "细胞分化不是单程票：卵细胞质能把已分化的基因程序「重启」。哺乳动物体细胞克隆第一次成为可能，也引爆了伦理大讨论。",
+        "vEn": "Differentiation is not a one-way trip: egg cytoplasm can reprogram settled genes. Mammal cloning from body cells became possible for the first time—and lit a firestorm of ethics."
+      }
+    ],
+    "related": [
+      "genotype",
+      "cell-division",
+      "acquired-inheritance"
+    ]
+  }
+]

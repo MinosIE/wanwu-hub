@@ -811,6 +811,90 @@
       "nEn": "Stomata"
     }
   ],
+  "willow-pot-experiment": [
+    {
+      "m": "m-experiments",
+      "n": "柳树盆栽实验（1642）",
+      "nEn": "The Willow Pot Experiment (1642)"
+    }
+  ],
+  "light-bubble-experiment": [
+    {
+      "m": "m-experiments",
+      "n": "水生植物气泡实验（1779）",
+      "nEn": "The Pondweed Bubble Experiment (1779)"
+    }
+  ],
+  "sachs-half-leaf": [
+    {
+      "m": "m-experiments",
+      "n": "萨克斯半叶实验（1864）",
+      "nEn": "The Half-Leaf Experiment (1864)"
+    }
+  ],
+  "mendel-pea-cross": [
+    {
+      "m": "m-experiments",
+      "n": "孟德尔豌豆杂交实验（1866）",
+      "nEn": "Mendel's Pea Crosses (1866)"
+    }
+  ],
+  "discovery-insulin": [
+    {
+      "m": "m-experiments",
+      "n": "胰岛素的提取（1921）",
+      "nEn": "Isolating Insulin (1921)"
+    }
+  ],
+  "griffith-transformation": [
+    {
+      "m": "m-experiments",
+      "n": "格里菲斯转化实验（1928）",
+      "nEn": "Griffith's Transformation Experiment (1928)"
+    }
+  ],
+  "avery-transforming-factor": [
+    {
+      "m": "m-experiments",
+      "n": "艾弗里锁定转化因子（1944）",
+      "nEn": "Avery Identifies the Transforming Principle (1944)"
+    }
+  ],
+  "hershey-chase-blender": [
+    {
+      "m": "m-experiments",
+      "n": "赫尔希-蔡斯搅拌器实验（1952）",
+      "nEn": "The Hershey–Chase Blender Experiment (1952)"
+    }
+  ],
+  "meselson-stahl-gradient": [
+    {
+      "m": "m-experiments",
+      "n": "氮同位素密度梯度实验（1958）",
+      "nEn": "The Density-Gradient Replication Experiment (1958)"
+    }
+  ],
+  "monoclonal-antibody": [
+    {
+      "m": "m-experiments",
+      "n": "单克隆抗体技术（1975）",
+      "nEn": "Monoclonal Antibodies (1975)"
+    }
+  ],
+  "pcr-invention": [
+    {
+      "m": "m-experiments",
+      "n": "聚合酶链式反应的发明（1983）",
+      "nEn": "Inventing PCR (1983)"
+    }
+  ],
+  "cloned-sheep-dolly": [
+    {
+      "m": "m-experiments",
+      "n": "体细胞克隆羊多利（1996）",
+      "nEn": "Dolly, the Somatic-Cell Clone (1996)"
+    }
+  ],
   "dominant-strongest": [
     {
       "m": "m-myths",

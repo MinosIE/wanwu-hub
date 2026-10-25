@@ -943,5 +943,89 @@
       "n": "「时区界线沿经线笔直划分」",
       "nEn": "\"Time Zone Borders Run Straight Along Meridians\""
     }
+  ],
+  "map-up-north": [
+    {
+      "m": "m-everyday",
+      "n": "地图为什么总是「上北下南」",
+      "nEn": "Why Maps Put North on Top"
+    }
+  ],
+  "sun-time-xinjiang": [
+    {
+      "m": "m-everyday",
+      "n": "新疆作息为什么比北京「晚两小时」",
+      "nEn": "Why Xinjiang Keeps Time Two Hours behind Beijing"
+    }
+  ],
+  "long-haul-wind": [
+    {
+      "m": "m-everyday",
+      "n": "跨洋航班为什么去程快、回程慢",
+      "nEn": "Why Eastbound Flights Beat Westbound Ones"
+    }
+  ],
+  "forecast-symbols": [
+    {
+      "m": "m-everyday",
+      "n": "天气图上的锋面符号怎么看",
+      "nEn": "Reading Front Symbols on Weather Maps"
+    }
+  ],
+  "house-facing-south": [
+    {
+      "m": "m-everyday",
+      "n": "房子为什么讲究「坐北朝南」",
+      "nEn": "Why Chinese Houses Face South"
+    }
+  ],
+  "contour-hike": [
+    {
+      "m": "m-everyday",
+      "n": "徒步为什么看等高线就知道坡陡坡缓",
+      "nEn": "Why Crowded Contour Lines Mean Brutal Climbs"
+    }
+  ],
+  "sea-breeze-day": [
+    {
+      "m": "m-everyday",
+      "n": "海边白天风为什么从海上吹来",
+      "nEn": "Why Sea Breezes Blow Inland by Day"
+    }
+  ],
+  "city-heat-rain": [
+    {
+      "m": "m-everyday",
+      "n": "城市为什么比郊区更热、雨更多",
+      "nEn": "Why Cities Are Hotter and Wetter than the Countryside"
+    }
+  ],
+  "typhoon-eye": [
+    {
+      "m": "m-everyday",
+      "n": "台风眼里为什么反而是晴天",
+      "nEn": "Why the Typhoon's Eye Is Fair Weather"
+    }
+  ],
+  "highland-boil": [
+    {
+      "m": "m-everyday",
+      "n": "高原上水为什么不到一百度就开",
+      "nEn": "Why Water Boils Below 100 °C on the Plateau"
+    }
+  ],
+  "thunder-safe": [
+    {
+      "m": "m-everyday",
+      "n": "打雷时为什么「躲车里、别躲树下」",
+      "nEn": "Why Cars Are Safer than Trees in a Storm"
+    }
+  ],
+  "dew-frost-night": [
+    {
+      "m": "m-everyday",
+      "n": "晴朗无风的夜晚为什么容易起霜",
+      "nEn": "Why Clear, Calm Nights Bring Frost"
+    }
   ]
 }

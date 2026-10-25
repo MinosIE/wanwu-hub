@@ -155,6 +155,13 @@ const EXTRA = [
     name: "term",
     text: "truth",
   },
+  {
+    file: "everyday.json",
+    m: "m-everyday",
+    t: "search.t.everyday",
+    name: "term",
+    text: "oneLiner",
+  },
 ];
 for (const spec of EXTRA) {
   if (!fs.existsSync(path.join(D, spec.file))) continue;

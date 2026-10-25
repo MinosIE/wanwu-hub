@@ -2,11 +2,12 @@
 
 > 从演化、分类学到细胞与生态，理解生命的多样性与万物之间的关联。
 
-共 128 条 / 8 类，全部为结构化 JSON。
+共 140 条 / 9 类，全部为结构化 JSON。
 
 ## 数据入口
 - [经典著作](https://minosie.github.io/wanwu-hub/life-data/data/classics.json)
 - [特有物种](https://minosie.github.io/wanwu-hub/life-data/data/endemics.json)
+- [经典实验](https://minosie.github.io/wanwu-hub/life-data/data/experiments.json)
 - [术语表](https://minosie.github.io/wanwu-hub/life-data/data/glossary.json)
 - [常见误区](https://minosie.github.io/wanwu-hub/life-data/data/myths.json)
 - [概览与计数](https://minosie.github.io/wanwu-hub/life-data/data/overview.json)

@@ -8,8 +8,16 @@
     "thinkers": 22,
     "endemics": 12,
     "glossary": 12,
-    "myths": 12
+    "myths": 12,
+    "experiments": 12
   },
+  "modules": [
+    {
+      "key": "experiments",
+      "title": "经典实验",
+      "titleEn": "Classic experiments"
+    }
+  ],
   "kpis": [
     {
       "key": "schools",

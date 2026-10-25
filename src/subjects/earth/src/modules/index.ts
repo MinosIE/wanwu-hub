@@ -78,6 +78,14 @@ export const MODULES: ModuleDef[] = [
     priority: 2,
     load: () => import("./myths"),
   },
+  {
+    id: "m-everyday",
+    key: "everyday",
+    icon: "🌂",
+    file: "everyday.json",
+    priority: 2,
+    load: () => import("./everyday"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

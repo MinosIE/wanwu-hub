@@ -1,0 +1,194 @@
+[
+  {
+    "id": "map-up-north",
+    "term": "地图为什么总是「上北下南」",
+    "termEn": "Why Maps Put North on Top",
+    "category": "地图判读",
+    "categoryEn": "Map reading",
+    "level": 1,
+    "oneLiner": "不是自然的规矩，而是制图传统的胜出——古代地图朝向各异，上北随海图标准化才成为默认。",
+    "oneLinerEn": "Not a law of nature but a winning tradition: early maps faced many ways, and north-up spread with standardized sea charts.",
+    "detail": "地球本身没有「上」和「下」，朝向是制图者的选择。中世纪欧洲常见上南下北的地图，古中国舆图也长期以南为上。18 世纪以后海图标准化，罗盘指向与图廓对齐让「上北」成为行业默认；地图符号、方位角、坐标网格随之统一，看的人才觉得理所当然。方位是约定，不是天条。",
+    "detailEn": "The planet has no 'up'. Orientation is a cartographer's choice: many medieval European maps put south on top, and old Chinese charts long did the same. From the 18th century, standardized sea charts aligned the compass with the sheet edge, north-up became the industry default, and symbols, bearings and grid coordinates were unified around it—so readers began to take it for granted. North-up is convention, not commandment.",
+    "related": [
+      "mercator-true-shape",
+      "contour-line"
+    ]
+  },
+  {
+    "id": "sun-time-xinjiang",
+    "term": "新疆作息为什么比北京「晚两小时」",
+    "termEn": "Why Xinjiang Keeps Time Two Hours behind Beijing",
+    "category": "时空与生活",
+    "categoryEn": "Time & daily life",
+    "level": 1,
+    "oneLiner": "全中国只用一个北京时间，但太阳时刻跟着经度走——乌鲁木齐的真实正午比北京晚约两小时。",
+    "oneLinerEn": "China runs on one Beijing time, but solar noon follows longitude—Urumqi sees it roughly two hours later than Beijing.",
+    "detail": "地方时刻本质上是太阳高度的函数。北京约在东经 116°，乌鲁木齐约在东经 87°，相差近 30 个经度、约两个小时。统一时区方便铁路运行与行政管理，却让西部作息与日照错位：当地午饭常在北京时间下午两点、日落常在夜里十点以后。新疆不少单位实际执行「乌鲁木齐作息」，本质是给生活重新对表。",
+    "detailEn": "Local time is a function of the sun's height. Beijing sits near 116°E, Urumqi near 87°E—some 30 degrees of longitude, about two hours. One standard time suits railways and administration but desynchronizes the west from daylight: lunch runs at 2 p.m. on the Beijing clock and sunset often past 10. Offices in Xinjiang effectively keep an 'Urumqi schedule'—re-syncing daily life with the sun.",
+    "related": [
+      "time-zone",
+      "timezone-straight-lines"
+    ]
+  },
+  {
+    "id": "long-haul-wind",
+    "term": "跨洋航班为什么去程快、回程慢",
+    "termEn": "Why Eastbound Flights Beat Westbound Ones",
+    "category": "时空与生活",
+    "categoryEn": "Time & daily life",
+    "level": 2,
+    "oneLiner": "高空急流自西向东，顺风省时省油、逆风绕飞避让——飞行计划本质上是「追风计划」。",
+    "oneLinerEn": "Jet streams blow west to east: eastbound flights ride them to save fuel, westbound ones detour around the headwind—flight plans are wind-chasing plans.",
+    "detail": "对流层顶的急流时速可达两三百公里。太平洋两岸的航班常相差一两个小时：西去东回的航班取偏北航线顺流而下；回程为躲逆风走更南、更曲折的路线。这背后是行星风带与海陆温差共同塑造的高空环流，也是地理知识直接换算成机票时长与油耗的例子。",
+    "detailEn": "Jet streams at the tropopause can exceed 200–300 km/h. Trans-Pacific flights differ by an hour or two: eastbound hops ride the northerly jet, while the return drifts onto longer, bendier southern tracks to dodge the headwind. The pattern comes from planetary wind belts and land–sea temperature contrasts—geography converting straight into flight time and fuel.",
+    "related": [
+      "jet-stream",
+      "circulation-cells"
+    ]
+  },
+  {
+    "id": "forecast-symbols",
+    "term": "天气图上的锋面符号怎么看",
+    "termEn": "Reading Front Symbols on Weather Maps",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 1,
+    "oneLiner": "半圆朝前是暖锋、三角朝前是冷锋，指向即移动方向——两个符号讲完一场降雨的剧本。",
+    "oneLinerEn": "Half-circles mark a warm front, triangles a cold one, and they point the way the front travels—two symbols outline a rain event's script.",
+    "detail": "冷暖气团的交接地带叫锋。冷锋坡度陡、推进快，常带来短时强降水和大风，符号三角指向前进方向；暖锋坡度缓，云层逐渐增厚、降水绵长。温带气旋常把两条锋拴在一起转动：观测站从暖区被扫入冷锋之后，就是典型的「前一天闷热、一场大风降雨后转凉」。看懂符号，天气预报就不再是黑箱。",
+    "detailEn": "Fronts are the seams between cold and warm air masses. Cold fronts are steep and fast, with short heavy rain and gusts—the triangles point their way of travel; warm fronts are gentle, thickening the clouds into long, steady drizzle. A mid-latitude cyclone ropes both fronts together and spins them: a station passing from the warm sector behind the cold front gets the classic 'muggy day, then wind, rain and cooler air'. Read the symbols and forecasts stop being a black box.",
+    "related": [
+      "weather-systems",
+      "monsoon"
+    ]
+  },
+  {
+    "id": "house-facing-south",
+    "term": "房子为什么讲究「坐北朝南」",
+    "termEn": "Why Chinese Houses Face South",
+    "category": "人居与气候",
+    "categoryEn": "Homes & climate",
+    "level": 1,
+    "oneLiner": "北回归线以北的正午太阳永远在南方天空——朝南冬暖夏凉、背西北可避冬季寒风，是最朴素的气候适应。",
+    "oneLinerEn": "North of the Tropic, the noon sun always hangs in the southern sky: south-facing rooms stay warm in winter, shaded in summer, and sheltered from cold northwest winds.",
+    "detail": "中国绝大部分领土位于北回归线以北，冬天阳光斜射入室、能晒暖地面，夏天太阳接近头顶反而晒不深。冬季盛行的西北季风干冷，北面少窗等于关上迎风面；夏季东南风带来水汽，南北通透形成过堂风。古人「向阳而居」的经验，其实是低成本的被动式节能设计。",
+    "detailEn": "Most of China lies north of the Tropic, so noon sun always comes from the south: low winter light reaches deep indoors and warms the floor, while high summer light barely penetrates. The dry, cold northwest monsoon batters the north wall in winter—few windows there close the windward face—while the moist southeast summer breeze is caught by north-south ventilation. 'Living toward the sun' was passive climate design: cheap, and effective.",
+    "related": [
+      "monsoon",
+      "circulation-cells"
+    ]
+  },
+  {
+    "id": "contour-hike",
+    "term": "徒步为什么看等高线就知道坡陡坡缓",
+    "termEn": "Why Crowded Contour Lines Mean Brutal Climbs",
+    "category": "地图判读",
+    "categoryEn": "Map reading",
+    "level": 2,
+    "oneLiner": "等高线越密，同样水平距离里爬得越高——出发前看一眼密疏，就能预估腿的代价。",
+    "oneLinerEn": "The tighter the contour lines, the more height packed into the same distance—glance at the spacing before you hike and you can price the climb.",
+    "detail": "等高线把海拔相同的点连成线，高差固定、间距越短坡度越陡。上山走「之」字形盘旋，是用水平距离换垂直高度，把陡坡摊成缓坡。山脊的等高线向低处凸出、山谷向高处凸出——「凸低为脊、凸高为谷」的口诀，帮你在图上避开断崖、沿溪找到水源。",
+    "detailEn": "Contour lines join points of equal height at fixed intervals: shorter spacing, steeper slope. Hikers switch-back up a hill to buy height with distance, smoothing a wall into a ramp. Ridge lines bulge downslope and valley lines bulge upslope—recite 'bulge-low, ridge; bulge-high, dale' and you can dodge cliffs and trace water from paper alone.",
+    "related": [
+      "contour-line",
+      "alpine"
+    ]
+  },
+  {
+    "id": "sea-breeze-day",
+    "term": "海边白天风为什么从海上吹来",
+    "termEn": "Why Sea Breezes Blow Inland by Day",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 2,
+    "oneLiner": "沙子升温快、海水升温慢，白天陆地上空热空气上升，海面冷空气流来补位——风从海上扑面而来。",
+    "oneLinerEn": "Sand heats faster than seawater: by day warm air rises over land and cooler air streams in off the sea, so the breeze comes off the water.",
+    "detail": "海陆热力性质差异是海陆风的发动机：白天陆地热、近地面气压低，风从凉爽的海面吹向岸边；夜里陆地散热快，风向倒转吹向海。把尺度放大到整个大陆与大洋，同样的机制随季节翻转就成了季风。傍晚海边风停入夜风向倒转，正是这台小发动机在提醒：热惯性的差异，比钟表还守时。",
+    "detailEn": "Land and sea store heat differently, and that engine drives coastal breezes: by day the hot land lowers surface pressure and air flows in from the cool sea; at night the land sheds heat first and the wind reverses offshore. Scale the same mechanism up to whole continents and oceans, flipping with the seasons, and you get monsoons. The evening lull and nightly reversal are the little engine reminding you that heat inertia keeps better time than a clock.",
+    "related": [
+      "monsoon",
+      "circulation-cells"
+    ]
+  },
+  {
+    "id": "city-heat-rain",
+    "term": "城市为什么比郊区更热、雨更多",
+    "termEn": "Why Cities Are Hotter and Wetter than the Countryside",
+    "category": "人居与气候",
+    "categoryEn": "Homes & climate",
+    "level": 2,
+    "oneLiner": "水泥储热、空调排热、微粒充当凝结核——城市造出自己的「热岛」，还常在下风方向造出暴雨。",
+    "oneLinerEn": "Concrete stores heat, air conditioners dump it, and aerosols seed clouds—the city builds its own heat island, and often its own downwind downpour.",
+    "detail": "不透水地面取代植被，蒸腾散热消失；白天储满热量的墙面屋顶在夜里慢慢吐热，形成比郊区暖好几摄氏度的「热岛」。市区上升气流增强对流，雨强常大于周边；细颗粒物充当云的凝结核，提高降水效率。热岛叠加污染羽，让一些城市夏季下风方向的强降水概率上升——这是一张看得见的城市地理账单。",
+    "detailEn": "Impervious surfaces replace plants and evaporative cooling vanishes; walls and roofs hoard daylight heat and exhale it at night, raising a heat island several degrees warmer than the suburbs. Stronger updrafts over the city fire convection, and fine particles act as cloud condensation nuclei, sharpening rainfall. Heat island plus pollution plume lifts the odds of heavy downwind downpours—a visible geographic bill the summer city pays.",
+    "related": [
+      "urbanization",
+      "greenhouse-effect"
+    ]
+  },
+  {
+    "id": "typhoon-eye",
+    "term": "台风眼里为什么反而是晴天",
+    "termEn": "Why the Typhoon's Eye Is Fair Weather",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 2,
+    "oneLiner": "眼区空气下沉增温、云层被甩进四周的眼壁——狂风暴雨围成一圈，中心反而风停云散。",
+    "oneLinerEn": "Air sinks and warms in the eye while the clouds are flung into the surrounding eyewall—at the storm's heart the wind drops and the sky clears.",
+    "detail": "台风是一台巨大的热机：海洋蒸发的暖湿空气沿螺旋云带急速上升、凝结放热，把热量转化为风浪。升到顶的空气在中心反而下沉，绝热增温驱散云层，形成无云少风的眼区。眼壁上风雨最猛，所以台风过境常呈现「先猛、后静、再猛」的三段式——那是观测点依次扫过眼壁、台风眼、对侧眼壁的过程。",
+    "detailEn": "A typhoon is a heat engine: warm, moist air evaporated off the ocean rises violently through spiral bands, condensing and releasing the heat that powers wind and wave. Up at the top, air subsides back down through the center, warming adiabatically and clearing the clouds—the calm, cloudless eye. The eyewall carries the fiercest weather, so a passing storm plays out in three acts—pound, pause, pound again—as a station is swept by eyewall, eye, then the far eyewall.",
+    "related": [
+      "weather-systems",
+      "monsoon"
+    ]
+  },
+  {
+    "id": "highland-boil",
+    "term": "高原上水为什么不到一百度就开",
+    "termEn": "Why Water Boils Below 100 °C on the Plateau",
+    "category": "时空与生活",
+    "categoryEn": "Time & daily life",
+    "level": 2,
+    "oneLiner": "沸点跟着气压走：青藏高原气压低，水九十几度就沸腾——饭煮不熟不是火小，是温度不够。",
+    "oneLinerEn": "Boiling point tracks air pressure: on the Qinghai-Tibet Plateau water boils in the 90s, so undercooked rice is a shortage of degrees, not of flame.",
+    "detail": "液体沸腾发生在其蒸气压等于外界气压的时刻。海拔每升高约 1000 米，气压大约下降一成，沸点随之降低约 3 摄氏度：拉萨的开水只有 87 度上下。淀粉糊化和蛋白质变性需要足够的温度，敞口锅达不到，于是高压锅成为高原标配——增压升温再煮熟食物，是倒着用的地理。同样的物理，也迫使高原烘焙调整糖和液体的配比。",
+    "detailEn": "A liquid boils when its vapor pressure matches the air outside. Pressure falls roughly a tenth per 1,000 meters of altitude, and the boiling point drops about 3 °C along with it: open-air boiling water in Lhasa is near 87 °C. Starch gelatinizes and proteins denature only at sufficient heat, which an open pot cannot supply—hence the pressure cooker as plateau standard gear, adding pressure to raise the boil: geography run in reverse. The same physics forces high-altitude baking to rebalance sugar and liquid.",
+    "related": [
+      "qinghai-plateau",
+      "alpine"
+    ]
+  },
+  {
+    "id": "thunder-safe",
+    "term": "打雷时为什么「躲车里、别躲树下」",
+    "termEn": "Why Cars Are Safer than Trees in a Storm",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 1,
+    "oneLiner": "金属车身把电流沿外壳导进地里（法拉第笼效应），孤立高树则易遭直击并炸裂树皮——高而孤立者最危险。",
+    "oneLinerEn": "A car's metal skin routes current around the cabin into the ground like a Faraday cage; a lone tree can take the direct strike and burst its bark—tall and isolated is where danger gathers.",
+    "detail": "闪电优先击穿电场最强的路径：孤立高物的尖端聚集电荷，树下的人与地面之间容易形成旁侧闪络，落地电流还会造成跨步电压。硬顶汽车遭雷击时，电流沿导电外壳绕行乘员流入大地，车内相对安全；帐篷和凉亭没有连续的金属外壳，帮不上忙。户外实在没有车时，双脚并拢蹲低、远离树木与水面，是降低跨步电压的兜底办法。顺带拆解误区：「闪电不会两次击中同一处」并不成立——高塔恰恰被反复击中。",
+    "detailEn": "Lightning takes the path of strongest field: tips of isolated tall objects concentrate charge, people under trees face side flashes, and current reaching the ground creates step voltage. When a hard-topped car is struck, current skims the conductive shell around the occupants to earth—the cabin is relatively safe; tents and open pavilions offer no continuous shell to help. If no car is at hand, crouch low with feet together, away from the tree line and water, to blunt step voltage. And the old claim that 'lightning never strikes twice' is a myth—tall towers are struck again and again.",
+    "related": [
+      "lightning-twice",
+      "weather-systems"
+    ]
+  },
+  {
+    "id": "dew-frost-night",
+    "term": "晴朗无风的夜晚为什么容易起霜",
+    "termEn": "Why Clear, Calm Nights Bring Frost",
+    "category": "天气解读",
+    "categoryEn": "Reading the weather",
+    "level": 3,
+    "oneLiner": "没有云层当被子，地面热量一夜散尽，近地面空气跌到冰点以下——水汽在草叶上直接凝成霜晶。",
+    "oneLinerEn": "With no cloud blanket the ground radiates its heat away overnight, surface air dips below freezing, and vapor crystallizes straight onto the grass.",
+    "detail": "霜是「冰版的露」：物体表面比周围空气更冷，水汽直接凝华成冰晶。云层会把地面辐射反射回来；晴朗的夜晚失去这层被子，降温最狠。微风不断带来新的水汽，风太大则把上下空气搅匀、反而难结。气象站预报「霜冻」专挑秋冬春的晴静之夜。同一原理放大开来，就是沙漠昼夜温差巨大，以及雪洞能在寒夜里保温的原因。",
+    "detailEn": "Frost is dew turned to ice: surfaces colder than the air around them deposit vapor directly as crystals. Clouds bounce ground radiation back; a clear night loses that blanket and cools hardest. A light breeze keeps supplying fresh vapor, while strong wind mixes the layer top to bottom and spoils the frost—forecasters pick clear, still autumn, winter and spring nights for frost warnings. The same physics, scaled up, gives deserts their savage day-night swing and snow caves their midnight warmth.",
+    "related": [
+      "greenhouse-effect",
+      "desert"
+    ]
+  }
+]
