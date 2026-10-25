@@ -39,10 +39,10 @@
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 238    | ✅ 视图与 mind/econ 同量级（三十六批 classics 16→20 补齐）  |
-| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 192    | 🟢 已达 12 视图（三十八批 世界分区 15→20）      |
-| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 185    | 🟢 已达 12 视图（三十八批 生物分类 15→20）      |
+| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 196    | 🟢 已达 12 视图（三十九批 地理学家 19→23）      |
+| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 189    | 🟢 已达 12 视图（三十九批 生物学家 22→26）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十八批刷新为 192 / 185（schools 各 +5），thought 行在三十六批刷新为 238（classics 16→20）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条）， 未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十九批刷新为 196 / 189（thinkers 各 +4），thought 行在三十六批刷新为 238（classics 16→20）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条）， 未逐行刷新。
 
 ---
 
@@ -73,7 +73,7 @@
 - [ ] 自然资源与能源（新）
 - [ ] 自然灾害与环境问题（新）
 - [ ] 地图与 GIS：比例尺、投影、等高线（新）
-- [ ] 地理学家（补 `thinkers`→15+）
+- [x] 地理学家（补 `thinkers`→15+）✅ 三十九批 19→23（新增张衡/马可·波罗/库克/玛丽·萨普；已超 15，补齐古中国地动仪·中世纪陆路记述·太平洋测绘·海底制图四位）
 - [x] 地理探索时间线 ✅ 三十五批 12 条（新视图 timeline，前 240 年埃拉托色尼 → 1972 地球观测卫星，按 year 时序）
 - [x] 地标山河（补 `classics`）✅ 三十七批 19→23（新增巴拿马运河/东非大裂谷/马里亚纳海沟/多瑙河；原 19 条以江河山脉湖礁为主，本批补运河/裂谷/海沟/文化河）
 - [x] 术语表 / 误区 ✅ 三十二批各 12 条
@@ -95,7 +95,7 @@
 - [ ] 微生物与病毒、免疫（新）
 - [ ] 现代生物技术：基因/细胞/发酵工程、CRISPR（新）
 - [x] 生物分类（补 `schools`→界门纲目科属种，扩到 20+）✅ 三十八批 15→20（新增苔藓植物/蕨类植物/软骨鱼/环节动物/棘皮动物；补齐登陆植物两大孢子类群（苔藓、蕨类）与软骨鱼、环节、棘皮三个常见动物类群）
-- [ ] 生物学家（补 `thinkers`→15+）
+- [x] 生物学家（补 `thinkers`→15+）✅ 三十九批 22→26（新增列文虎克/卡森/麦克林托克/杜布赞斯基；补齐微生物学·环境生态·细胞遗传·现代综合四个此前缺席的关键人物）
 - [x] 重要实验与发现时间线 ✅ 三十三批以「经典实验」视图落地（12 条，1642→1996 时序 order 排列）
 - [x] 演化里程碑（补 `classics`）✅ 三十七批 17→21（新增脊椎动物起源/眼睛的演化/奥陶纪末大灭绝/飞行的起源；补齐五次大灭绝之首与复杂器官/飞行等关键创新）
 - [x] 术语表 / 误区（新）✅ 三十二批各 12 条
@@ -111,6 +111,7 @@
 - [x] **Phase C 新增视图（三十五批）：earth / life 各 +1 视图（时间线 timeline），全科 171→183 / 164→176**——接 c1 方案第四批。两条省力路径再现：timeline 渲染器从 thought **字节级零改动复制**（同于三十二批 glossary/myths、三十三批 experiments：三科 scaffold 同构、渲染器无学科硬编码）；`s/build-index.mjs` 的 EXTRA 规格表与 `gen-geo.mjs` 的 LABEL 表均已预含 timeline 键（thought 早用）→ 两派生脚本零改动。接线只需：数据 JSON×2、渲染器×2、MODULES 注册×2（m-timeline 🕰️ priority 2）、模板 nav+section×2、i18n 每科 6 键×双语（nav.timeline / entry.timeline.t・d / timeline.title・sub / search.t.event；详情分节复用已有 ui.oneLiner/ui.detail）、overview counts +modules 覆盖表（把 LABEL 默认「时间线」分流为「地理探索时间线」「认知生命时间线」）。schema 与 thought timeline 同构：id/term/termEn/category/categoryEn/level/year（公元前为负数）/oneLiner/oneLinerEn/detail/detailEn/related；渲染器 `sortBy year`、年份本地化 `yearText`（-240→「前 240 年」/「240 BCE」）。选题：earth 12（埃拉托色尼测周长前 240/托勒密《地理学》150/郦道元《水经注》527/伊本·白图泰 1354/郑和下西洋 1405/墨卡托投影 1569/徐霞客喀斯特 1613/库克环航南极 1772/洪堡定量自然地理 1800/均变论与深时间 1830/大陆漂移说 1912/地球观测卫星 1972）；life 12（亚里士多德动物观察前 350/哈维血液循环 1628/细胞发现 1665/林奈双名法 1735/拉马克演化先声 1809/达尔文《物种起源》1859/巴斯德驳自然发生 1861/孟德尔遗传定律 1866/摩尔根染色体遗传 1910/DNA 双螺旋 1953/多利羊克隆 1996/人类基因组计划 2003）。life 特意与 experiments 视图分工：experiments 拆单个实验设计、timeline 串学科里程碑（两者均含孟德尔/哈维/巴斯德/多利但视角不同）；DNA 条把富兰克林的 X 射线衍射贡献写正。24 条 related 目标全部预检存在（均指既有库、无同批互引）；仍不带 sources。实测：`index:build` earth 183/183、life 176/176；`gen:geo` 两科各 16 数据文件；llms 四标签正确；`links:check` 错误 0 告警 0；`verify exit=0`；`build ✓ 739ms`；puppeteer 中英×明暗 **56 项 PASS／0 FAIL**（含负年份格式化前/BCE、正年份后/CE 专测）。新踩坑：数据初稿中文正文夹英下划线占位词（_shell_/giraffe_/germ_theory_/tilt）被守卫拦下→改中文说法；oneLinerEn 漏开双引号、ibn-battuta 误写三元表达式→逐处修。
 - [x] **Phase B 补条目（三十七批：earth / life classics 各 +4，全科 183→187 / 176→180）**——清 docs 唯二仍挂 `[ ]` 的 Phase B 未勾项。两科 classics 的 UI 标签早已从 thought 脚手架旧名「经典著作」分流：earth=「地标山河」、life=「演化里程碑」（docs 旧勾项「著作」系措辞残留，本批一并纠正语义注释）。选题：earth 地标 4（巴拿马运河两洋船闸/东非大裂谷板块张裂/马里亚纳海沟俯冲最深/多瑙河流经多国首都）；life 里程碑 4（脊椎动物起源/眼睛的演化/奥陶纪末大灭绝——补齐五次大灭绝之首/飞行的起源——昆虫鸟蝠三次独立）。两科均走「既有视图纯追加 + 派生脚本零改动」省力路径（同三十六批 thought classics）；classics 在两科 kpis 各占一项→ counts 与 kpis[].value 双处同步（earth 19→23、life 17→21）。字段惯例两科分野：earth classics 有 themesEn+order、全库 0/19 无 sources（本批照带 themesEn 不带 sources）；life classics 无 themesEn、全库 17/17 带 sources{label,url}（本批照带主流 Wikipedia 出处不带 themesEn）。两科 classics.json 均非 `ser()` 规范形→定点末尾追加（前缀不变断言：earth +82/−0、life +98/−0）。同步链：`index:build earth/life` 187/180（新 id 自动入 search/related 双向回插）→ `gen:geo` 两科各 16 数据文件、llms 总数 187/180。实测：`links:check` 0 错 0 警（earth 187/187、life 180/180）、`verify exit=0`（pass=35361 fail=0）、`build ✓ 907ms`；puppeteer earth/life × 中英×明暗八组合 **168 项 PASS／0 FAIL**（每新卡详情 ≥3 分节；life 断言含 sources 块、earth 断言不含）。新踩坑：thought/earth/life 均系单模块激活（appKit），需先点 `#modNav [data-go="m-classics"]` 才渲染 `#classicsGrid`。
 - [x] **Phase B 补条目（三十八批：earth / life schools 各 +5，全科 187→192 / 180→185）**——清 docs §3.1/§3.2 唯二仍挂 `[ ]` 的 Phase B 勾项「世界分区/生物分类（补 schools→20+）」。schools 在两科均为 thought 脚手架同构的富 schema（span/founders/keyIdeas/strengths/criticisms 六组双语数组 + level + order + related + sources），UI 标签早已分流：earth=「世界分区（国家/地区）」、life=「生物类群（界门纲目）」。选题：earth 补五种典型区域地理（法国·温带海洋→地中海→阿尔卑斯垂直过渡、加拿大·寒带针叶林与五大湖、挪威·冰川峡湾与极昼极夜、阿根廷·安第斯垂直带与潘帕斯草原、印度尼西亚·赤道群岛与环太平洋火山地震带）；life 补五个此前缺席的关键类群（苔藓植物·上陆先驱无维管、蕨类·维管孢子植物成煤、软骨鱼·鲨鳐、环节动物·分节真体腔、棘皮动物·五辐射对称与水管系统）。仍走「既有视图纯追加 + 派生脚本零改动」省力路径；schools 在两科 kpis 各占一项→ counts 与 kpis[].value 双处同步（earth 15→20、life 15→20，icon 分别 🌍/🧬）。字段惯例两科分野沿用三十七批：earth schools sources={label,labelEn,year}、life schools sources={label,url}，两科均 15/15 带 sources→本批照带；两科都有 themesEn+order（order 续 16–20）。两科 schools.json 均非 `ser()` 规范形→定点末尾追加（前缀不变断言：earth/life +各 5 对象）。同步链：`index:build earth/life` 192/185（新 id 自动入 search/related 双向回插）→ `gen:geo` 两科各 16 数据文件、llms 总数 192/185。实测：`links:check` 0 错 0 警、`verify exit=0`（258 条 chem 既有 warn 未增）、`build ✓ 881ms`；puppeteer earth/life × 中英×明暗八组合 **248 项 PASS／0 FAIL**（每新卡详情 ≥5 分节 core/founders/keyIdeas/strengths/criticisms + sources 块 + related 芯片显名）。新踩坑：① 生物学名等长英文术语（Sporophyte/Water-vascular/Pentaradial）属正常 *En 字段，守卫不得对英文字段限英文词数——只查英文侧无 CJK、中文侧无未译 ≥5 字母英文夹词；② related 校验池须取全学科所有数据文件（mediterranean/andes 等跨 questions/classics），非仅 schools.json 自身 id。
+- [x] **Phase B 补条目（三十九批：earth / life thinkers 各 +4，全科 192→196 / 185→189）**——把两科 thinkers（UI 早已从脚手架旧名分流：earth=「地理学家」、life=「生物学家」）各推到更稳位置，清 docs §3.1/§3.2 最后两处 `[ ]` 的「补 thinkers→15+」旧勾项（两科本已 19/22≥15，此批顺势补广）。选题：earth 四位标志地理学家/探险家（张衡·浑天说与候风地动仪、马可·波罗·丝路东行与《游记》、詹姆斯·库克·经度测定与太平洋测绘、玛丽·萨普·手绘首张大洋洋底图佐证海底扩张——一位长期被漏记的女性制图师）；life 四位关键生物学家（列文虎克·首次显微见微生物、蕾切尔·卡森·《寂静的春天》食物链富集、麦克林托克·玉米转座因子/跳跃基因、杜布赞斯基·《遗传学与物种起源》现代综合）。thinkers 在两科均**不进 kpis**（earth kpis=schools/questions/classics/principles、life=schools/principles/classics/endemics）→ 本批**只改 counts**（earth 19→23、life 22→26），与三十八批 schools 的 counts+kpis 双处同步不同。字段惯例两科分野：两科 thinkers 同构 thought 富 schema（life/country/school/level/order/oneLiner/bio/ideas/works/quotes/related 均双语）；但 **earth 顶层 order 在 school 前、ideas 键序 {k,kEn,v,vEn}、全库 0/19 无 sources**；**life order 在 level 后、ideas 键序 {k,v,kEn,vEn}、12/22 带 sources{label,url}**——新条目严格匹配各自兄弟文件形态（earth 不带 sources、life 带主流 Wikipedia 出处）；order earth 续 20–23、life 续 23–26。两科 thinkers.json 均非 ser 规范形→定点末尾追加（前缀不变断言、既有条目零改动）。同步链：`index:build earth/life` 196/189（新 id 自动入 search/related）→ `gen:geo` 各 16 数据文件、llms 总数 196/189。实测：`links:check` 0 错 0 警、`verify exit=0`、`build ✓ 809ms`；puppeteer earth/life × 中英×明暗八组合 **200 项 PASS／0 FAIL**（每新卡详情 ≥5 分节 oneLiner/bio/ideas/works/quotes；life 断言含 sources 块、earth 断言不含）。新踩坑：守卫把 ideas/works/quotes 嵌套内的 *En（kEn/vEn/titleEn/qEn）纳入 CJK 扫描、把中文侧 k/v/title/q 纳入未译夹词扫描；列文虎克 bio 初稿夹拉丁术语 animalcules 被拦→改中文「微小动物」。
 
 ### 3.3 万物哲学 thought（🟠）
 

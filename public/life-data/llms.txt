@@ -2,7 +2,7 @@
 
 > 从演化、分类学到细胞与生态，理解生命的多样性与万物之间的关联。
 
-共 185 条 / 12 类，全部为结构化 JSON。
+共 189 条 / 12 类，全部为结构化 JSON。
 
 ## 数据入口
 - [经典著作](https://minosie.github.io/wanwu-hub/life-data/data/classics.json)

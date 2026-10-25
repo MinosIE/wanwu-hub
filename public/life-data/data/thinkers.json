@@ -1081,5 +1081,216 @@
         "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck"
       }
     ]
+  },
+  {
+    "id": "van-leeuwenhoek",
+    "name": "列文虎克",
+    "nameEn": "Antonie van Leeuwenhoek",
+    "life": "1632—1723",
+    "lifeEn": "1632–1723",
+    "country": "荷兰",
+    "countryEn": "Netherlands",
+    "school": "显微观察",
+    "schoolEn": "Microscopy",
+    "level": 2,
+    "order": 23,
+    "oneLiner": "以自制的简陋单式显微镜，第一次让人看见细菌、精子与红细胞，独自推开微生物世界的大门。",
+    "oneLinerEn": "With simple microscopes of his own grinding, he was the first to see bacteria, sperm and red blood cells, opening the microbial world almost single-handed.",
+    "bio": "荷兰代尔夫特的布商与市政看守，自学磨出高倍小透镜。自 1673 年起他致信英国皇家学会，报告雨水、牙垢与池水中游动的「微小动物」，首次描述了细菌、原生动物与红细胞——却终生不通拉丁文，也不识当时显微学界的行话。",
+    "bioEn": "A Delft cloth-tradesman and civic guardsman who taught himself to grind high-power lenses; from 1673 he wrote to the Royal Society reporting tiny creatures swimming in rain, tooth-scrape and pond water — the first account of bacteria, protozoa and red blood cells, though he never learned Latin nor the jargon of the science of his day.",
+    "ideas": [
+      {
+        "k": "自制显微",
+        "v": "磨小透镜得二三百倍放大",
+        "kEn": "Home-ground lenses",
+        "vEn": "Small lenses gave two- to three-hundred-fold"
+      },
+      {
+        "k": "首次见菌",
+        "v": "在牙垢水中看到游动细菌",
+        "kEn": "First bacteria",
+        "vEn": "Saw moving bacteria in scraped plaque"
+      },
+      {
+        "k": "显微量数",
+        "v": "量出精子与红细胞大小",
+        "kEn": "First measurements",
+        "vEn": "Sized sperm and red blood cells"
+      }
+    ],
+    "works": [
+      {
+        "title": "致皇家学会书",
+        "titleEn": "Letters to the Royal Society",
+        "year": 1684
+      }
+    ],
+    "quotes": [
+      {
+        "q": "我不过把水置于透镜下，看它自己会动。",
+        "qEn": "I only set water to the lens and watched it move."
+      }
+    ],
+    "related": ["bacteria", "protista", "pasteur"],
+    "sources": [
+      {
+        "label": "Wikipedia: Antonie van Leeuwenhoek",
+        "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+      }
+    ]
+  },
+  {
+    "id": "rachel-carson",
+    "name": "蕾切尔·卡森",
+    "nameEn": "Rachel Carson",
+    "life": "1907—1964",
+    "lifeEn": "1907–1964",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "生态与环保",
+    "schoolEn": "Ecology & conservation",
+    "level": 2,
+    "order": 24,
+    "oneLiner": "以《寂静的春天》揭露农药沿食物链富集，一人之笔催生了现代环境运动。",
+    "oneLinerEn": "With Silent Spring she exposed how pesticides build up along the food chain; one pen helped found the modern environmental movement.",
+    "bio": "美国海洋生物学家与作家，早以海洋三部曲畅销成名；1962 年出版《寂静的春天》，指认某些杀虫剂经食物链放大、毒杀鸟类并危及人体，触怒化工巨头却推动各地禁喷，并促成后来美国环保署的成立。",
+    "bioEn": "An American marine biologist and writer who first made her name with a trilogy of sea books; in 1962 came Silent Spring, charging that certain pesticides were magnified up the food chain, killing birds and endangering people — defying the chemical industry, spurring spray bans and the later founding of the U.S. Environmental Protection Agency.",
+    "ideas": [
+      {
+        "k": "食物链富集",
+        "v": "农药沿营养级层层放大",
+        "kEn": "Food-chain magnification",
+        "vEn": "Poisons multiply up the trophic levels"
+      },
+      {
+        "k": "久留不去",
+        "v": "化学残留久存水土之间",
+        "kEn": "Persistence",
+        "vEn": "Chemicals linger in soil and water"
+      },
+      {
+        "k": "公众之警",
+        "v": "把科学写给寻常人家",
+        "kEn": "A public warning",
+        "vEn": "Science written for ordinary homes"
+      }
+    ],
+    "works": [{ "title": "寂静的春天", "titleEn": "Silent Spring", "year": 1962 }],
+    "quotes": [
+      {
+        "q": "人类是自然的一部分，对它的战争就是对自己的战争。",
+        "qEn": "We are part of nature, and our war on it is a war on ourselves."
+      }
+    ],
+    "related": ["lovelock", "sixth-extinction"],
+    "sources": [
+      {
+        "label": "Wikipedia: Rachel Carson",
+        "url": "https://en.wikipedia.org/wiki/Rachel_Carson"
+      }
+    ]
+  },
+  {
+    "id": "barbara-mcclintock",
+    "name": "麦克林托克",
+    "nameEn": "Barbara McClintock",
+    "life": "1902—1992",
+    "lifeEn": "1902–1992",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "细胞遗传学",
+    "schoolEn": "Cytogenetics",
+    "level": 3,
+    "order": 25,
+    "oneLiner": "在玉米籽粒的花斑里看出基因会「跳跃」，独守其说数十载，终以转座因子获 1983 年诺贝尔奖。",
+    "oneLinerEn": "Reading mosaic maize kernels she saw that genes could 'jump'; she held to it for decades and won the 1983 Nobel Prize for transposable elements.",
+    "bio": "美国细胞遗传学家，长年在冷泉港研究玉米染色体。1940 年代她据籽粒与叶片斑纹提出基因并非固定不动，而是能在染色体间移动、开关邻近性状（她称作「控制因子」）；其说久被冷待，随分子生物学证实转座子而获追认，她成为单独获此诺奖的第一位女性科学家。",
+    "bioEn": "An American cytogeneticist who long worked on maize chromosomes at Cold Spring Harbor; in the 1940s, from blotchy kernels and leaves, she argued genes were not fixed but could move along the chromosome, switching neighbouring traits (her 'controlling elements') — shunned for decades, then vindicated once transposons were proven, she became the first woman to win the Nobel prize alone.",
+    "ideas": [
+      {
+        "k": "跳跃基因",
+        "v": "控制因子在染色体间移位",
+        "kEn": "Jumping genes",
+        "vEn": "Elements move along the chromosome"
+      },
+      {
+        "k": "花斑为证",
+        "v": "据籽粒斑纹推知基因动静",
+        "kEn": "Mosaic proof",
+        "vEn": "Kernel variegation betrayed their motion"
+      },
+      {
+        "k": "领先追认",
+        "v": "其说超前时代数十年",
+        "kEn": "Ahead of her time",
+        "vEn": "Her claim ran decades ahead"
+      }
+    ],
+    "works": [{ "title": "论控制因子", "titleEn": "On Controlling Elements", "year": 1950 }],
+    "quotes": [{ "q": "我与玉米交谈，它也回应我。", "qEn": "I talk to my maize, and it talks back." }],
+    "related": ["mendel", "mutation-variation", "watson-crick"],
+    "sources": [
+      {
+        "label": "Wikipedia: Barbara McClintock",
+        "url": "https://en.wikipedia.org/wiki/Barbara_McClintock"
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky",
+    "name": "杜布赞斯基",
+    "nameEn": "Theodosius Dobzhansky",
+    "life": "1900—1975",
+    "lifeEn": "1900–1975",
+    "country": "美国（生于乌克兰）",
+    "countryEn": "USA (born in Ukraine)",
+    "school": "演化遗传学",
+    "schoolEn": "Evolutionary genetics",
+    "level": 3,
+    "order": 26,
+    "oneLiner": "把孟德尔遗传与达尔文选择合流，奠基演化论的「现代综合」；一句「无演化之光则生物学皆无意义」成座右铭。",
+    "oneLinerEn": "Fusing Mendelian genetics with Darwinian selection, his Genetics and the Origin of Species underpinned the 'modern synthesis'; his dictum — nothing in biology makes sense save in the light of evolution — became a motto.",
+    "bio": "生于乌克兰、后赴美的演化生物学家，比对果蝇的染色体与野生种群变异，把群体遗传学的数学与野外观察合流；1937 年《遗传学与物种起源》与同时诸家一同奠定演化论的「现代综合」，将突变、选择与隔离统一为可计算的机制。",
+    "bioEn": "Born in Ukraine and later an American evolutionary biologist, he studied chromosome variation in wild fruit-fly populations and fused the mathematics of population genetics with field observation; his 1937 Genetics and the Origin of Species, with peers, laid down the modern synthesis, uniting mutation, selection and isolation into a computable mechanism.",
+    "ideas": [
+      {
+        "k": "群体变异",
+        "v": "野生果蝇即演化实验室",
+        "kEn": "Variation in populations",
+        "vEn": "Wild fruit flies as evolution's lab"
+      },
+      {
+        "k": "现代综合",
+        "v": "遗传学与自然选择合流",
+        "kEn": "Modern synthesis",
+        "vEn": "Genetics meets natural selection"
+      },
+      {
+        "k": "演化为光",
+        "v": "无演化则生物学无意义",
+        "kEn": "Evolution as light",
+        "vEn": "Without it, biology is meaningless"
+      }
+    ],
+    "works": [
+      {
+        "title": "遗传学与物种起源",
+        "titleEn": "Genetics and the Origin of Species",
+        "year": 1937
+      }
+    ],
+    "quotes": [
+      {
+        "q": "若无演化之光，生物学的任何一面都无从理解。",
+        "qEn": "Nothing in biology makes sense except in the light of evolution."
+      }
+    ],
+    "related": ["darwin", "natural-selection", "wallace", "mendel"],
+    "sources": [
+      {
+        "label": "Wikipedia: Theodosius Dobzhansky",
+        "url": "https://en.wikipedia.org/wiki/Theodosius_Dobzhansky"
+      }
+    ]
   }
 ]

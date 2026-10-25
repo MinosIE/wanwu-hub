@@ -865,5 +865,192 @@
       }
     ],
     "related": ["plate-tectonics", "continental-drift", "alfred-wegener"]
+  },
+  {
+    "id": "zhang-heng",
+    "name": "张衡",
+    "nameEn": "Zhang Heng",
+    "life": "78—139",
+    "lifeEn": "78–139",
+    "country": "中国（东汉）",
+    "countryEn": "China (Eastern Han)",
+    "order": 20,
+    "school": "天文与地动",
+    "schoolEn": "Astronomy & seismology",
+    "level": 3,
+    "oneLiner": "浑天说的集大成者，造候风地动仪——最早以仪器捕捉远域地震的方向。",
+    "oneLinerEn": "Leading voice of the 'celestial shell' cosmology and maker of the first seismoscope — the earliest device to sense the direction of distant earthquakes.",
+    "bio": "东汉天文学家与发明家，主张「浑天如鸡子」的球形宇宙，改进了漏水转浑天仪以候天象；阳嘉元年造候风地动仪，以都柱感知震源之方，早于西方同类仪器千余年。",
+    "bioEn": "An Eastern Han astronomer and inventor who held the cosmos to be egg-shaped, refined the water-powered armillary sphere to track the heavens, and in 132 built a seismoscope whose central pillar pointed to the quarter of a distant quake — centuries before a like device in the West.",
+    "ideas": [
+      {
+        "k": "浑天说",
+        "kEn": "Celestial shell",
+        "v": "天如鸡子、地如蛋黄，天包地外。",
+        "vEn": "Heaven like an egg enclosing the yolk-like Earth."
+      },
+      {
+        "k": "候风地动仪",
+        "kEn": "Seismoscope",
+        "v": "以都柱感知地震来向。",
+        "vEn": "A central pillar sensed a quake's bearing."
+      },
+      {
+        "k": "仪象测候",
+        "kEn": "Instruments",
+        "v": "改进漏水转浑天仪与指南车。",
+        "vEn": "Improved the water-driven sphere and south-pointer."
+      }
+    ],
+    "works": [
+      {
+        "title": "浑天仪注",
+        "titleEn": "Notes on the Armillary Sphere",
+        "year": 132
+      }
+    ],
+    "quotes": [
+      {
+        "q": "不患位之不尊，而患德之不崇。",
+        "qEn": "Grieve not over low rank but over shallow virtue."
+      }
+    ],
+    "related": ["seismic-volcanic", "plate-tectonics"]
+  },
+  {
+    "id": "marco-polo",
+    "name": "马可·波罗",
+    "nameEn": "Marco Polo",
+    "life": "1254—1324",
+    "lifeEn": "1254–1324",
+    "country": "意大利（威尼斯）",
+    "countryEn": "Italy (Venice)",
+    "order": 21,
+    "school": "旅行与地理记述",
+    "schoolEn": "Travel & geography",
+    "level": 2,
+    "oneLiner": "沿丝绸之路东行至元廷，其口述《游记》把东亚、印度与南海诸地首次系统绘入欧洲人的世界。",
+    "oneLinerEn": "He travelled the Silk Road to the Yuan court; his dictated account first mapped East Asia, India and the South Seas for Europeans in systematic detail.",
+    "bio": "威尼斯商人之子，约 1271 年随父叔东行，抵上都侍元廷多年，自述奉使遍历中国及东南亚；归国被俘，于狱中口授成《马可·波罗游记》，成为中世纪欧洲认识东方的重要窗口（其具体经历学界仍有争议）。",
+    "bioEn": "Son of a Venetian merchant house, he set off along the Silk Road around 1271, reached the Yuan court and claimed missions across China and Southeast Asia; captured on his return, he dictated The Travels in prison, shaping Europe's picture of the East — though its particulars remain debated.",
+    "ideas": [
+      {
+        "k": "东西陆路",
+        "kEn": "Eurasian route",
+        "v": "记述丝路沿线驿城、物产与风俗。",
+        "vEn": "Described towns, goods and customs of the road."
+      },
+      {
+        "k": "南方海域",
+        "kEn": "The South Seas",
+        "v": "提及日本、锡兰与苏门答剌诸国。",
+        "vEn": "Touched on Japan, Ceylon and Sumatra."
+      },
+      {
+        "k": "以数记地",
+        "kEn": "Measure & bearing",
+        "v": "用里程方位为地理想象定基。",
+        "vEn": "Fixed distances to ground its geography."
+      }
+    ],
+    "works": [
+      {
+        "title": "马可·波罗游记",
+        "titleEn": "The Travels of Marco Polo",
+        "year": 1300
+      }
+    ],
+    "quotes": [{ "q": "我看到的还不及我讲出的一半。", "qEn": "I have not told half of what I saw." }],
+    "related": ["central-asia", "west-asia"]
+  },
+  {
+    "id": "james-cook",
+    "name": "詹姆斯·库克",
+    "nameEn": "James Cook",
+    "life": "1728—1779",
+    "lifeEn": "1728–1779",
+    "country": "英国",
+    "countryEn": "Britain",
+    "order": 22,
+    "school": "航海与测绘",
+    "schoolEn": "Navigation & surveying",
+    "level": 3,
+    "oneLiner": "三下太平洋，以精密计时器测定经度、环航南极并首绘大堡礁，把散落的海岸线拼成近代海图。",
+    "oneLinerEn": "Three voyages into the Pacific — a chronometer to fix longitude, a run around the Antarctic and the first chart of the Great Barrier Reef — he stitched scattered coasts into a modern map.",
+    "bio": "英国皇家海军航海家，奉皇家学会之命观测金星凌日并探查「南方大陆」；首次环航新西兰证明其为两岛，沿澳大利亚东岸测绘并搁浅于大堡礁，1772—1775 年穿越南极圈而未遇陆地，为后世洋流与生物地理留下精确底图。",
+    "bioEn": "A Royal Navy navigator sent to observe a transit of Venus and seek the southern continent; he proved New Zealand two islands, charted Australia's east coast and grounded on the Reef, then crossed the Antarctic Circle in 1772–1775 without finding land — leaving a base chart for later ocean and biogeographic science.",
+    "ideas": [
+      {
+        "k": "经度测定",
+        "kEn": "Longitude",
+        "v": "倚精密时计把东西位置算准。",
+        "vEn": "A marine clock fixed east–west position."
+      },
+      {
+        "k": "环南极",
+        "kEn": "Antarctic circuit",
+        "v": "三度穿越南极圈逼近冰界。",
+        "vEn": "Crossed the Antarctic Circle thrice."
+      },
+      {
+        "k": "沿岸测绘",
+        "kEn": "Coastal survey",
+        "v": "首绘新西兰与澳大利亚东岸。",
+        "vEn": "First charts of New Zealand and eastern Australia."
+      }
+    ],
+    "works": [{ "title": "发现之旅志", "titleEn": "Voyages of Discovery", "year": 1773 }],
+    "quotes": [
+      {
+        "q": "我们有勇气沿海岸而行，并敢于更进一步。",
+        "qEn": "We had courage to sail the shore and daring to venture on."
+      }
+    ],
+    "related": ["coral-reef", "antarctica", "ocean-currents"]
+  },
+  {
+    "id": "marie-tharp",
+    "name": "玛丽·萨普",
+    "nameEn": "Marie Tharp",
+    "life": "1920—2006",
+    "lifeEn": "1920–2006",
+    "country": "美国",
+    "countryEn": "USA",
+    "order": 23,
+    "school": "海洋地图绘制",
+    "schoolEn": "Ocean cartography",
+    "level": 3,
+    "oneLiner": "凭回声测深手绘首张完整大洋底地形图，让「海底扩张」有了看得见的证据。",
+    "oneLinerEn": "She hand-drew the first full map of the ocean floor from sonar soundings — giving seafloor spreading a face you could see.",
+    "bio": "美国地质学家与制图师。1950 年代她以船载回声测深数据逐幅绘制大西洋海底地形，据图看清大洋中脊中央竟有一条裂谷；她把绘图成果与赫斯的海底扩张假说相互印证，成为板块构造论奠基时最有力也最少被承认的证据之一。",
+    "bioEn": "An American geologist and cartographer who, in the 1950s, mapped the Atlantic floor sounding by sounding and saw that the mid-ocean ridge was split by a central rift; her charts corroborated Hess's seafloor-spreading hypothesis and became among the strongest — and least-credited — evidence founding plate tectonics.",
+    "ideas": [
+      {
+        "k": "手测绘图",
+        "kEn": "Hand-drawn maps",
+        "v": "把测深数据绘成可读海底地貌。",
+        "vEn": "Turned soundings into readable sea-floor forms."
+      },
+      {
+        "k": "中脊裂谷",
+        "kEn": "Rift valley",
+        "v": "看清大洋中脊轴心的张裂谷。",
+        "vEn": "Revealed the spreading rift at the ridge axis."
+      },
+      {
+        "k": "图像实证",
+        "kEn": "Visual proof",
+        "v": "为海底扩张提供看得见的凭据。",
+        "vEn": "Gave spreading its visual proof."
+      }
+    ],
+    "works": [{ "title": "大洋海底", "titleEn": "The Floor of the Ocean", "year": 1957 }],
+    "quotes": [
+      {
+        "q": "我没上过船，却比许多人更懂海底。",
+        "qEn": "I never went to sea, yet knew the floor better than most."
+      }
+    ],
+    "related": ["harry-hess", "maury", "plate-tectonics"]
   }
 ]
