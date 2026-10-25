@@ -740,5 +740,245 @@
         "year": 1821
       }
     ]
+  },
+  {
+    "id": "hermeneutics",
+    "title": "诠释学",
+    "titleEn": "Hermeneutics",
+    "icon": "🔍",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 17,
+    "lead": "理解究竟是还原作者之心，还是读者与文本的视域交融？诠释学把「如何理解」本身变成一门学问。",
+    "leadEn": "Is understanding to recover an author's mind, or a fusion of the reader's and the text's horizons? Hermeneutics makes the very question of how-we-understand into a discipline.",
+    "points": [
+      {
+        "k": "解释循环",
+        "kEn": "Hermeneutic circle",
+        "v": "部分靠整体理解，整体又靠部分把握。",
+        "vEn": "Parts are read through the whole, the whole through the parts."
+      },
+      {
+        "k": "视界融合",
+        "kEn": "Fusion of horizons",
+        "v": "理解是今人之见与文本之见的相遇。",
+        "vEn": "Understanding meets our horizon with that of the text."
+      },
+      {
+        "k": "前见的地位",
+        "kEn": "Role of prejudice",
+        "v": "先行理解非障碍，而是理解的起点。",
+        "vEn": "Fore-understanding is not a barrier but a starting point."
+      },
+      {
+        "k": "方法与真理",
+        "kEn": "Method vs truth",
+        "v": "艺术、历史与经验，超出科学方法之外仍有所真。",
+        "vEn": "Art, history and experience hold truth beyond scientific method."
+      }
+    ],
+    "related": ["phenomenology", "epistemology", "philosophy-of-language"],
+    "sources": [
+      {
+        "label": "伽达默尔《真理与方法》",
+        "labelEn": "Gadamer, Truth and Method",
+        "year": 1960
+      }
+    ]
+  },
+  {
+    "id": "critical-theory",
+    "title": "批判理论",
+    "titleEn": "Critical Theory",
+    "icon": "📣",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 3,
+    "order": 18,
+    "lead": "理论不止于解释世界，更要追问：谁在支配，知识为谁服务？法兰克福学派把马克思与弗洛伊德带进了文化与现代理性之中。",
+    "leadEn": "Theory should not only read the world but ask: who dominates it, and whom does knowledge serve? The Frankfurt School brought Marx and Freud into culture and modern reason.",
+    "points": [
+      {
+        "k": "工具理性",
+        "kEn": "Instrumental reason",
+        "v": "理性沦为算计手段，反噬了它的启蒙初衷。",
+        "vEn": "Reason decayed into mere calculation, turning on its own enlightenment promise."
+      },
+      {
+        "k": "文化工业",
+        "kEn": "Culture industry",
+        "v": "大众文化被批量生产，驯化了批判之心。",
+        "vEn": "Mass culture, industrially made, tames the critical mind."
+      },
+      {
+        "k": "内在批判",
+        "kEn": "Immanent critique",
+        "v": "以社会自身许诺的标准，指证它的背离。",
+        "vEn": "Confront a society with the standards it itself professes."
+      },
+      {
+        "k": "解放旨趣",
+        "kEn": "Emancipatory interest",
+        "v": "知识的目的，是把人从支配中解放出来。",
+        "vEn": "Knowledge aims at freeing people from domination."
+      }
+    ],
+    "related": [
+      "marxism",
+      "social-philosophy",
+      "political-philosophy",
+      "philosophy-of-technology"
+    ],
+    "sources": [
+      {
+        "label": "霍克海默、阿多诺《启蒙辩证法》",
+        "labelEn": "Horkheimer & Adorno, Dialectic of Enlightenment",
+        "year": 1947
+      }
+    ]
+  },
+  {
+    "id": "feminist-philosophy",
+    "title": "女性主义哲学",
+    "titleEn": "Feminist Philosophy",
+    "icon": "⚧️",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 19,
+    "lead": "「女人不是天生的，而是被塑造的。」这一分支追问：理性、知识与正义的经典理想，是否从一开始便以一半人为默认？",
+    "leadEn": "'One is not born, but becomes, a woman.' This branch asks whether the classic ideals of reason, knowledge and justice were written with only one half of humanity as the default.",
+    "points": [
+      {
+        "k": "社会性别",
+        "kEn": "Gender as constructed",
+        "v": "生理之外，性别多由文化塑成。",
+        "vEn": "Beyond sex, gender is largely made by culture."
+      },
+      {
+        "k": "私人即政治",
+        "kEn": "The personal is political",
+        "v": "家庭与身体中的权力，也是公共议题。",
+        "vEn": "Power in home and body is a public matter too."
+      },
+      {
+        "k": "知识中的立场",
+        "kEn": "Situated knowledge",
+        "v": "所谓客观，常是特定视角的普遍化。",
+        "vEn": "So-called objectivity is often one viewpoint made universal."
+      },
+      {
+        "k": "承认与差异",
+        "kEn": "Recognition & difference",
+        "v": "平等之外，被看见与被倾听同样要紧。",
+        "vEn": "Beyond equality, to be seen and heard also matters."
+      }
+    ],
+    "related": ["ethics", "political-philosophy", "social-philosophy", "justice"],
+    "sources": [
+      {
+        "label": "波伏娃《第二性》",
+        "labelEn": "Beauvoir, The Second Sex",
+        "year": 1949
+      }
+    ]
+  },
+  {
+    "id": "applied-ethics",
+    "title": "应用伦理",
+    "titleEn": "Applied Ethics",
+    "icon": "🩺",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 20,
+    "lead": "把伦理原则放到手术台、试验场、算法与谈判桌前：堕胎、安乐死、动物与气候——哲学从这里开始直面具体抉择。",
+    "leadEn": "Ethics brought to the operating table, the lab, the algorithm and the negotiating table — abortion, euthanasia, animals, climate. Here philosophy faces concrete choices.",
+    "points": [
+      {
+        "k": "生命伦理",
+        "kEn": "Bioethics",
+        "v": "起止、知情与自主：医学伦理的四大关口。",
+        "vEn": "Onset, end, consent and autonomy: medicine's four gates."
+      },
+      {
+        "k": "扩展的关怀",
+        "kEn": "Widening circle",
+        "v": "道德共同体扩及动物、后代与自然。",
+        "vEn": "The moral community widens to animals, future people, nature."
+      },
+      {
+        "k": "技术与责任",
+        "kEn": "Tech & responsibility",
+        "v": "算法与基因，谁为后果担责？",
+        "vEn": "For algorithms and genes, who answers for the outcome?"
+      },
+      {
+        "k": "原则与情境",
+        "kEn": "Principle vs case",
+        "v": "普遍规则落地个案，须情境判断补足。",
+        "vEn": "Applying rules to cases needs situated judgment."
+      }
+    ],
+    "related": [
+      "ethics",
+      "utilitarianism",
+      "philosophy-of-technology",
+      "philosophy-of-science"
+    ],
+    "sources": [
+      {
+        "label": "彼得·辛格《实践伦理学》",
+        "labelEn": "Singer, Practical Ethics",
+        "year": 1979
+      }
+    ]
+  },
+  {
+    "id": "philosophy-of-education",
+    "title": "教育哲学",
+    "titleEn": "Philosophy of Education",
+    "icon": "🎓",
+    "category": "分支",
+    "categoryEn": "Branch",
+    "level": 2,
+    "order": 21,
+    "lead": "教育是把人塑成既定模样，还是助其自主生长？知识、德性与民主的目的，决定了课堂该教什么、又该如何教。",
+    "leadEn": "Is education to shape people to a preset mold or to help them grow on their own terms? Its aims — knowledge, character, democracy — decide what to teach and how.",
+    "points": [
+      {
+        "k": "为何而教",
+        "kEn": "Aims of education",
+        "v": "谋生、成德，还是培养自由的人？",
+        "vEn": "Livelihood, virtue, or the making of free persons?"
+      },
+      {
+        "k": "从做中学",
+        "kEn": "Learning by doing",
+        "v": "经验与反省相长，胜过灌输死记。",
+        "vEn": "Experience plus reflection beats rote pouring-in."
+      },
+      {
+        "k": "知识与权威",
+        "kEn": "Knowledge & authority",
+        "v": "该把什么算作值得传之正道？",
+        "vEn": "What counts as knowledge worth passing on?"
+      },
+      {
+        "k": "教育与平等",
+        "kEn": "Education & equality",
+        "v": "课堂复制阶层，还是打破阶层？",
+        "vEn": "Does school reproduce or break class barriers?"
+      }
+    ],
+    "related": ["pragmatism", "dewey", "democracy-education", "political-philosophy"],
+    "sources": [
+      {
+        "label": "杜威《民主与教育》",
+        "labelEn": "Dewey, Democracy and Education",
+        "year": 1916
+      }
+    ]
   }
 ]

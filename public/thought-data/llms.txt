@@ -2,7 +2,7 @@
 
 > 串起东西方哲学流派、核心命题与经典著作，在追问与思辨中理解我们如何认识世界。
 
-共 238 条 / 10 类，全部为结构化 JSON。
+共 243 条 / 10 类，全部为结构化 JSON。
 
 ## 数据入口
 - [分支 / 机制](https://minosie.github.io/wanwu-hub/thought-data/data/branches.json)

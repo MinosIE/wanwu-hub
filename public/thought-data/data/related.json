@@ -804,6 +804,41 @@
       "nEn": "Social Philosophy"
     }
   ],
+  "hermeneutics": [
+    {
+      "m": "m-branches",
+      "n": "诠释学",
+      "nEn": "Hermeneutics"
+    }
+  ],
+  "critical-theory": [
+    {
+      "m": "m-branches",
+      "n": "批判理论",
+      "nEn": "Critical Theory"
+    }
+  ],
+  "feminist-philosophy": [
+    {
+      "m": "m-branches",
+      "n": "女性主义哲学",
+      "nEn": "Feminist Philosophy"
+    }
+  ],
+  "applied-ethics": [
+    {
+      "m": "m-branches",
+      "n": "应用伦理",
+      "nEn": "Applied Ethics"
+    }
+  ],
+  "philosophy-of-education": [
+    {
+      "m": "m-branches",
+      "n": "教育哲学",
+      "nEn": "Philosophy of Education"
+    }
+  ],
   "syllogism": [
     {
       "m": "m-glossary",

@@ -38,11 +38,11 @@
 | physics | subjectKit | 16 模块                                                                           | 130    | 🟢 已导出机器可读 JSON               |
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
-| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 238    | ✅ 视图与 mind/econ 同量级（三十六批 classics 16→20 补齐）  |
+| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 243    | ✅ 视图与 mind/econ 同量级（四十批 branches 16→21）  |
 | earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 196    | 🟢 已达 12 视图（三十九批 地理学家 19→23）      |
 | life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 189    | 🟢 已达 12 视图（三十九批 生物学家 22→26）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十九批刷新为 196 / 189（thinkers 各 +4），thought 行在三十六批刷新为 238（classics 16→20）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条）， 未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十九批刷新为 196 / 189（thinkers 各 +4），thought 行在四十批刷新为 243（branches 16→21）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条）， 未逐行刷新。
 
 ---
 
@@ -115,13 +115,13 @@
 
 ### 3.3 万物哲学 thought（🟠）
 
-**目标：4 类 → 10+。** 现 10 类 / 238 条 ✅
+**目标：4 类 → 10+。** 现 10 类 / 243 条 ✅
 
 - [x] 学派（补 `schools`→20+，含中国先秦诸子、宋明理学、近现代）（现 20）
 - [x] 哲学家（补 `thinkers`→25+）（现 29，新增阿奎那/斯宾诺莎/朱熹/杜威/加缪；第十五批补霍布斯/黑格尔/卢梭/伊壁鸠鲁）
 - [x] 经典著作（补 `classics`→20+）✅ 三十六批 16→20（新增社会契约论/精神现象学/论自由/民主与教育；此前已有道德形而上学奠基/伦理学/哲学研究/存在与虚无）
 - [x] 核心问题（补 `questions`→15+）（现 15，新增美/他心/共相/归纳/道德实在论）
-- [x] 分支：形而上学/认识论/伦理学/逻辑学/美学/政治哲学/心灵/科学/语言/历史/现象学（11 条，独立视图🧩）
+- [x] 分支：形而上学/认识论/伦理学/逻辑学/美学/政治哲学/心灵/科学/语言/历史/现象学…（独立视图🧩）✅ 四十批 16→21（新增诠释学/批判理论/女性主义哲学/应用伦理/教育哲学；补齐理解方法论、法兰克福学派、性别、生命与应用伦理、杜威教育五处传统）
 - [x] 哲学术语表 `glossary.json`（新，26 条起、现 36 条，含中英对照与易混提示）
 - [x] 哲学史时间线 `timeline.json`（新，20 条，公元前 6 世纪 → 当代）
 - [x] 思想实验 `experiments.json`（新，14 条：洞穴/缸中之脑/电车/中文房间/无知之幕…）
@@ -131,6 +131,7 @@
 - [x] **thought 人情世故分流（第二十批）：glossary 补「和」「恕」两条本土伦理概念 +2**（glossary 34→36，不动现有条目）——第十九批把「人际与分寸 / 本土人际」落在 mind 后，分流表里属哲学的那一格补在这里。写前先跨模块查重：`li-ritual`「礼」与 `benevolence`「仁」已在库、且 `benevolence` 的 `plain` 已引「己所不欲，勿施于人」，故不另立「礼」「仁」，只补两个真缺口。① `he-harmony`「和（和而不同）」：有子「礼之用，和为贵」＋「君子和而不同」＋荀子「乐合同，礼别异」，落点是「和」不是无原则调和、而是差异的协调，`related` 回挂 `li-ritual`/`zhongyong`/`confucianism`；② `shu-reciprocity`「恕（絜矩之道）」：「己所不欲，勿施于人」＋《大学》絜矩「所恶于上，毋以使下」＋朱熹「尽己之谓忠，推己之谓恕」，并在 `plain` 里与 `benevolence` 分工（仁是总德，恕是推行的下手处），`related` 挂 `categorical-imperative` 做中西对照。同步链：`counts.glossary` 34→36 → `node s/build-index.mjs thought` 重建 `search`/`related`（230 条 / 230 id）→ `gen:geo` 刷新 llms 228→230。实测：两文件 `git diff` deletions=0、`verify exit=0`、`build ✓`、中英×明暗点开详情 8/8 PASS、0 pageerror。记录一处**既有**渲染瑕疵：先秦条目负年份在来源里显示成「（-450）」。
 - [x] **thought Phase B 补条目（第三十一批：thought +4 条，全站 230→234，补齐 compare 14 的偏薄格）**——三格新题：`moh-logic-compare` 墨家辩经与三段论（分工：名实条管本体论、本条管推理技艺为何一边成学科一边不成）、`li-vs-law-compare` 礼治与法治（分工：天理自然法条讲超越根据、本条讲秩序技术）、`sage-philosopher-compare` 内圣外王与哲学王、`dream-cogito-compare` 蝶梦与恶魔假设（分工：experiments `butterfly-dream` 展开实验本身、本条对照两种文明的找回方式）。thought 惯例沿用纯追加无反向回插（既有库中 compare id 只被 glossary/timeline/myths 单向引用）；schema 比 mind compare 多 `icon/category/level/order/bridge`，order 续 15–18。同步链：counts 定点 needle `"compare": 14`→18（compare 不进 kpis）→ `index:build -- thought` 重建派生（234 search / 234 related）→ `gen:geo` 刷 llms 总数 230→234。实测：`links:check` `[thought] 10 个数据文件 / 234 条 / 234 个 id`、0 错 0 警、`verify exit=0`、`build ✓ 685ms`；puppeteer 中英×明暗四组合 **36 项 PASS／0 FAIL**（compare 18 卡、四新卡齐备、两条详情标题双语、related 芯片解析成显示名、旧条 ming-universal 反向对照）。新踩坑：**thought 卡片选择器是 `article.card[data-key]`（同 econ）而非 mind 的 `.card[data-id]`**，冒烟首跑 4 FAIL 即此。
 - [x] **thought Phase B 补条目（三十六批：thought classics 16→20，全站 234→238，docs 唯一 `[~]` 未达标格补齐）**——选四部此前缺席、各自填一个空传统的经典：`contrat-social` 卢梭《社会契约论》1762（政治哲学：主权在民/公意）、`phenomenology-of-spirit` 黑格尔《精神现象学》1807（德国观念论：辩证法/主奴/扬弃）、`on-liberty` 密尔《论自由》1859（自由主义/功利主义：伤害原则/言论自由/多数暴政）、`democracy-education` 杜威《民主与教育》1916（实用主义教育哲学：从做中学）。四位作者（rousseau/hegel/mill/dewey）均已在 thinkers 库（十五批等入），相关目标全指既有 thought id（跨 glossary `social-contract`/branch `political-philosophy`/school `utilitarianism`、`pragmatism`、`marxism`、`rationalism`、`empiricism`/question `justice`）；order 续 17–20。区别于三十二至三十五批「新增视图不带 sources」，本批沿用 classics 既有带 sources 惯例，每条附原著 label/labelEn/year（四书年份均确凿）。classics 进 kpis→ counts 与 kpis[].value 双处 16→20（与三十二批 glossary/myths 只进 counts 不同）。纯追加：`classics.json` git diff +97/−0（既有 16 条零改动，尾部插 4 对象、前缀不变断言）；既文件非 `ser()` 规范形（全量 re-ser 多 132 字节）→ 采用定点末尾追加而非整文件重排。同步链：`index:build thought` 234→238 search/related（新 id 自动入派生池）→ `gen:geo` 刷 llms 总数 234→238（sitemap 只到 classics.json 目录级、无逐条 URL 故不变）。实测：`links:check` `[thought] 10 个数据文件 / 238 条 / 238 个 id`、0 错 0 警、`verify exit=0`（pass=35361 fail=0，258 条 chem 既有 warn 未增）、`build ✓ 794ms`；puppeteer 中英×明暗四组合 **100 项 PASS／0 FAIL**（每新卡详情 ≥3 分节 + sources 块 + related 芯片显名）。新踩坑：① thought 是**单模块激活**（需先点 `#modNav [data-go="m-classics"]` 才渲染 `#classicsGrid`，非所有 section 常驻）→冒烟首跑超时即此；② node_modules 根下一层脚本 import 路径为 `../scripts/jsonStyle.mjs`（非 `../../`）。
+- [x] **thought Phase B 补条目（四十批：thought branches 16→21，全站 238→243）**——补齐哲学分支这一独立视图（🧩）此前缺位的五个公认学科。branches 用 title/lead/points 富 schema（与 classics/schools 不同：id/title/titleEn/icon/category/categoryEn/level/order/lead/leadEn/points[{k,kEn,v,vEn}]/related/sources[{label,labelEn,year}]），且**不在 thought kpis**（kpis=schools/thinkers/classics/questions）→ 本批**只改 counts 16→21**（同三十九批 thinkers、区别于三十六批 classics 的 counts+kpis 双处）。选题（均为已有 16 主干之外的公认分支）：`hermeneutics` 诠释学（解释循环/视界融合/前见/方法与真理，→伽达默尔《真理与方法》1960）、`critical-theory` 批判理论（工具理性/文化工业/内在批判/解放旨趣，→霍克海默阿多诺《启蒙辩证法》1947）、`feminist-philosophy` 女性主义哲学（社会性别/私人即政治/情境知识/承认与差异，→波伏娃《第二性》1949）、`applied-ethics` 应用伦理（生命伦理/关怀圈扩展/技术责任/原则与情境，→辛格《实践伦理学》1979）、`philosophy-of-education` 教育哲学（为何而教/从做中学/知识与权威/教育与平等，→杜威《民主与教育》1916）。每位 4 points、order 续 17–21。related 全指既有 thought id（跨 branch `phenomenology`/`social-philosophy`/`political-philosophy`/school `marxism`、`utilitarianism`、`pragmatism`/glossary·question `justice`/thinker `dewey`/classic `democracy-education`）；sources 沿用 branches 16/16 带 {label,labelEn,year} 惯例（五书年份均确凿）。纯追加：branches.json 非 `ser()` 规范形→定点末尾追加（前缀不变断言、既有 16 条零改动）。同步链：`index:build thought` 238→243 search/related（新 id 自动入派生池）→ `gen:geo` 刷 llms 总数 238→243（sitemap 只到 branches.json 目录级、无逐条 URL 故不变）。实测：`links:check` `[thought] 243 条 / 243 id`、0 错 0 警、`verify exit=0`（pass=35361 fail=0，258 条 chem 既有 warn 未增）、`build ✓ 891ms`；puppeteer 中英×明暗四组合 **124 项 PASS／0 FAIL**（每新卡详情 ≥2 分节 lead+points + sources 块 + related 芯片显名）。新踩坑：① 教育哲学 leadEn 初稿误将中文「自主」未译残留（grow自主）被英文侧 CJK 守卫拦下→改英文；② 同一 thought 脚手架内不同视图 schema 不同（branches=title/lead/points、classics=name/core/themes、schools=name/span/keyIdeas），append 脚本的必过键序与守卫字段集须逐视图对照。
 
 ### 3.4 万物化学 chem（subjectKit，🟠）
 
