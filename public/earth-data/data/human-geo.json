@@ -41,7 +41,8 @@
       "desert",
       "water-cycle",
       "urbanization",
-      "economic-development"
+      "economic-development",
+      "geo-boundary-lines"
     ],
     "sources": [
       {
@@ -196,7 +197,8 @@
       "biome-zonation",
       "desert",
       "climate-genesis",
-      "human-land"
+      "human-land",
+      "geo-boundary-lines"
     ],
     "sources": [
       {
@@ -1028,6 +1030,130 @@
         "label": "《能源与文明：世界史》",
         "labelEn": "Smil, Energy and Civilization: A History",
         "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "china-geo-framework",
+    "title": "中国地理框架：阶梯、季风与区划",
+    "titleEn": "China's Geographic Framework: Steps, Monsoon and Divisions",
+    "icon": "🧱",
+    "category": "政治",
+    "categoryEn": "Political",
+    "level": 1,
+    "order": 22,
+    "lead": "认识中国地理有三把钥匙：西高东低的三级阶梯、把国土分成两半的季风区界线，以及 34 个省级行政区的划分与简称。",
+    "leadEn": "Read China with three keys: the west-high, east-low three steps, the monsoon line that splits the country in two, and 34 provincial-level units with their short names.",
+    "points": [
+      {
+        "k": "三级阶梯",
+        "kEn": "Three terrain steps",
+        "v": "第一级青藏高原平均四千米以上；第二级云贵、黄土、内蒙古高原与塔里木、准噶尔、四川盆地相间；第三级东北、华北、长江中下游平原直抵海岸，阶梯交界处落差与水能集中。",
+        "vEn": "Step one, the Qinghai-Tibet Plateau, averages over 4,000 m; step two alternates plateaus with basins; step three, the great eastern plains, runs to the sea—drop and hydropower concentrate where the steps meet."
+      },
+      {
+        "k": "季风区与非季风区",
+        "kEn": "Monsoon and beyond",
+        "v": "大兴安岭—阴山—贺兰山—巴颜喀拉山—冈底斯山一线东南，夏季风可及、雨热同期；西北深居内陆，干旱半干旱为主，河流多为内流河。",
+        "vEn": "Southeast of the Greater Khingan–Yinshan–Helan–Bayankala–Gangdise line the summer monsoon reaches, pairing rain with heat; the inland northwest stays arid with mostly interior rivers."
+      },
+      {
+        "k": "省级行政区",
+        "kEn": "Provincial-level units",
+        "v": "23 省、5 自治区、4 直辖市与 2 特别行政区共 34 个省级单位；简称多取自历史地名或山川，如鲁因齐、晋因晋水、皖因古皖国。",
+        "vEn": "Twenty-three provinces, five autonomous regions, four municipalities and two special administrative units make thirty-four; short names draw on old states and rivers—Lu from Qi, Jin from the Jin river, Wan from ancient Wan."
+      },
+      {
+        "k": "区划的意义",
+        "kEn": "Why divisions matter",
+        "v": "行政界线划定治理与统计单元，人口、经济与政策常沿省界跳变；胡焕庸线则揭示自然地理比行政界线更深地塑造分布格局。",
+        "vEn": "Administrative borders frame governance and statistics—population, economy and policy leap along them; the Hu Line shows physical geography shapes patterns even deeper than borders do."
+      }
+    ],
+    "related": [
+      "qinghai-plateau",
+      "yangtze",
+      "monsoon",
+      "population-distribution",
+      "time-zone"
+    ],
+    "sources": [
+      {
+        "label": "宛可侯《中国地理区划》",
+        "labelEn": "Wen Ke-Hou, \"The Regional Division of China\"",
+        "year": 1935
+      },
+      {
+        "label": "谭其骧《中国历史地理概述》",
+        "labelEn": "Tan Qixiang, An Outline of Chinese Historical Geography",
+        "year": 1993
+      },
+      {
+        "label": "人教版《地理·八年级上册》",
+        "labelEn": "PEP Geography Grade 8 Vol.1",
+        "year": 2013
+      }
+    ]
+  },
+  {
+    "id": "geo-boundary-lines",
+    "title": "重要地理分界线",
+    "titleEn": "Great Geographic Boundary Lines",
+    "icon": "📏",
+    "category": "文化",
+    "categoryEn": "Culture",
+    "level": 2,
+    "order": 23,
+    "lead": "秦岭—淮河、胡焕庸线、400 毫米等降水量线……中国地理课堂上的这些「线」不是尺子画出来的，而是自然与人文梯度签下的名。",
+    "leadEn": "Qinling–Huaihe, the Hu Line, the 400-mm isohyet—these classroom \"lines\" were drawn not with rulers but signed by natural and human gradients.",
+    "points": [
+      {
+        "k": "秦岭—淮河线",
+        "kEn": "The Qinling–Huaihe line",
+        "v": "一月 0℃等温线、800 毫米等降水量线、暖温带与亚热带、湿润与半湿润、水田与旱地、河流有无结冰期——一线压缩多重意义，是中国地理第一分界线。",
+        "vEn": "The January 0°C isotherm, the 800-mm isohyet, warm-temperate versus subtropical, humid versus semi-humid, paddy versus dry field, icy rivers versus free-flowing—one line, many meanings."
+      },
+      {
+        "k": "胡焕庸线",
+        "kEn": "The Hu Line",
+        "v": "1935 年自黑河（瑷珲）至腾冲作线：东南一侧以约三分之一国土承载九成以上人口，九十年间比例惊人稳定；其成因至今仍是人口地理的开放问题。",
+        "vEn": "Drawn in 1935 from Heihe (Aihun) to Tengchong: the southeast side holds over nine-tenths of the people on about a third of the land, the ratio eerily stable for ninety years—why remains an open question."
+      },
+      {
+        "k": "400 毫米线与农牧交界",
+        "kEn": "The 400-mm farming–herding edge",
+        "v": "半湿润与半干旱的分界大体沿大兴安岭—兰州—拉萨一线，东耕西牧的格局由此分野，也是防护林与载畜政策的依据线。",
+        "vEn": "The semi-humid/semi-arid break runs roughly Greater Khingan–Lanzhou–Lhasa: farming east, herding west—the basis for shelterbelt and grazing policy alike."
+      },
+      {
+        "k": "线是渐变带",
+        "kEn": "Lines are transition belts",
+        "v": "分界线本质是数公里至数十公里宽的渐变带：气候年际摆动、作物可越界试种，把线当刀切即是误区，但作为认知抓手它无可替代。",
+        "vEn": "A boundary is really a belt of gradation kilometers wide—climate sways between years and crops can be tried across it; treating lines as knife-cuts is a fallacy, yet as cognitive handles they are irreplaceable."
+      }
+    ],
+    "related": [
+      "china-geo-framework",
+      "agricultural-location",
+      "population-distribution",
+      "biome-zonation",
+      "climate-classification"
+    ],
+    "sources": [
+      {
+        "label": "胡焕庸《中国人口之分布》",
+        "labelEn": "Hu Huanyong, \"The Distribution of China's Population\"",
+        "year": 1935
+      },
+      {
+        "label": "竺可桢《中国气候之特征》",
+        "labelEn": "Chu Cochin (Zhu Kezhen), \"The Characters of the Climate of China\"",
+        "year": 1926
+      },
+      {
+        "label": "人教版《地理·八年级上册》",
+        "labelEn": "PEP Geography Grade 8 Vol.1",
+        "year": 2013
       }
     ]
   }

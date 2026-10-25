@@ -895,6 +895,20 @@
       "nEn": "Natural Resources and Energy"
     }
   ],
+  "china-geo-framework": [
+    {
+      "m": "m-human-geo",
+      "n": "中国地理框架：阶梯、季风与区划",
+      "nEn": "China's Geographic Framework: Steps, Monsoon and Divisions"
+    }
+  ],
+  "geo-boundary-lines": [
+    {
+      "m": "m-human-geo",
+      "n": "重要地理分界线",
+      "nEn": "Great Geographic Boundary Lines"
+    }
+  ],
   "contour-line": [
     {
       "m": "m-glossary",
