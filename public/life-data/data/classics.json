@@ -392,5 +392,103 @@
         "url": "https://en.wikipedia.org/wiki/Holocene_extinction"
       }
     ]
+  },
+  {
+    "id": "vertebrate-origin",
+    "name": "脊椎动物的起源",
+    "nameEn": "Origin of Vertebrates",
+    "author": "寒武纪",
+    "authorEn": "Cambrian",
+    "era": "约 5.2 亿年前",
+    "eraEn": "about 520 million years ago",
+    "level": 2,
+    "core": "在寒武纪的海洋里，最早的一批脊索动物长出雏形颅骨与脊椎，为一切鱼、两栖、爬行、鸟与哺乳动物——包括人类——定了头尾分明的身体蓝图。",
+    "coreEn": "In Cambrian seas the earliest chordates grew a proto-skull and backbone, laying the head-to-tail body plan behind every fish, amphibian, reptile, bird and mammal, humans included.",
+    "themes": ["脊索出现", "原始颅骨", "无颌到有颌", "身体蓝图"],
+    "influence": "从一条小小的滤食脊索动物到有脑有脊椎的主动猎手，这是生命史上最风光一支的起点。",
+    "influenceEn": "From a tiny filter-feeding chordate to a brain-backed active hunter, the starting point of the lineage that would later dominate sea, land and air.",
+    "related": [
+      "cambrian-explosion",
+      "actinopterygii",
+      "tree-of-life",
+      "natural-selection"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Vertebrate",
+        "url": "https://en.wikipedia.org/wiki/Vertebrate"
+      }
+    ]
+  },
+  {
+    "id": "evolution-of-eye",
+    "name": "眼睛的演化",
+    "nameEn": "Evolution of the Eye",
+    "author": "寒武纪起",
+    "authorEn": "From the Cambrian",
+    "era": "从感光点到成像眼",
+    "eraEn": "From light spot to imaging eye",
+    "level": 2,
+    "core": "从一个能辨明暗的感光细胞起，经小孔、凹面再到晶状体聚焦，眼睛在演化里被一步步组装起来，且在动物界独立出现过许多次。",
+    "coreEn": "From a light-sensitive cell, then pinhole, cup and lens, the eye was assembled step by step and arose independently many times across the animal kingdom.",
+    "themes": ["感光细胞", "小孔成像", "晶状体聚焦", "多次独立起源"],
+    "influence": "眼睛这样复杂的器官如何一点点长成，曾被视作演化论最难缠的诘问，而中间的过渡形态如今已被逐一找到。",
+    "influenceEn": "How so complex an organ could grow by degrees was once evolution's trickiest objection, yet the transitional forms have now been found one by one.",
+    "related": ["natural-selection", "mutation-variation", "cnidaria", "multicellularity"],
+    "sources": [
+      {
+        "label": "Wikipedia: Evolution of the eye",
+        "url": "https://en.wikipedia.org/wiki/Evolution_of_the_eye"
+      }
+    ]
+  },
+  {
+    "id": "end-ordovician-extinction",
+    "name": "奥陶纪末大灭绝",
+    "nameEn": "End-Ordovician Extinction",
+    "author": "奥陶纪末",
+    "authorEn": "Late Ordovician",
+    "era": "约 4.45 亿年前",
+    "eraEn": "about 445 million years ago",
+    "level": 3,
+    "core": "显生宙五次大灭绝里的第一次：短时间的大冰期使海水骤冷、海平面骤降，依赖温暖浅海的生物成片消失，约八成物种退场。",
+    "coreEn": "The first of the five great mass extinctions: a brief ice age chilled the seas and dropped sea level, sweeping away warm shallow-water life, roughly eighty percent of species gone.",
+    "themes": ["短促冰期", "海平面骤降", "浅海生物受创", "五次之首"],
+    "influence": "它提醒人们，气候在极短时间内剧烈变冷，本身已足以给生命来一次大洗牌。",
+    "influenceEn": "A reminder that a rapid plunge into cold, by itself, is enough to reshuffle life.",
+    "related": [
+      "permian-extinction",
+      "k-pg-extinction",
+      "sixth-extinction",
+      "history-of-life"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: End-Ordovician extinction",
+        "url": "https://en.wikipedia.org/wiki/Ordovician%E2%80%93Silurian_extinction_event"
+      }
+    ]
+  },
+  {
+    "id": "origin-of-flight",
+    "name": "飞行的起源",
+    "nameEn": "Origin of Flight",
+    "author": "石炭纪起",
+    "authorEn": "From the Carboniferous",
+    "era": "昆虫、鸟类与蝙蝠",
+    "eraEn": "Insects, birds and bats",
+    "level": 2,
+    "core": "飞行至少独立演化了三回——昆虫率先离地，恐龙的一支借羽毛升空，哺乳动物里的蝙蝠另起炉灶，滑翔与拍翅各有各的巧思。",
+    "coreEn": "Flight evolved independently at least three times: insects first left the ground, one branch of dinosaurs took to the air on feathers, and bats among the mammals built their own wings, gliding and flapping by distinct designs.",
+    "themes": ["昆虫先行", "羽毛与恐龙", "蝙蝠独立演化", "从滑翔到拍翅"],
+    "influence": "翅膀把天空变成新的栖息空间，也让捕食、迁徙与扩散从此多出一个维度。",
+    "influenceEn": "Wings turned the sky into fresh habitat, giving predation, migration and dispersal a whole new dimension.",
+    "related": ["insecta", "dinosaurs-to-birds", "aves", "natural-selection"],
+    "sources": [
+      {
+        "label": "Wikipedia: Evolution of flight",
+        "url": "https://en.wikipedia.org/wiki/Evolution_of_flight"
+      }
+    ]
   }
 ]

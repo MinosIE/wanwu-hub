@@ -4,7 +4,7 @@
     "schools": 15,
     "questions": 19,
     "principles": 19,
-    "classics": 17,
+    "classics": 21,
     "thinkers": 22,
     "endemics": 12,
     "glossary": 12,
@@ -45,7 +45,7 @@
     {
       "key": "classics",
       "icon": "🐾",
-      "value": 17
+      "value": 21
     },
     {
       "key": "endemics",

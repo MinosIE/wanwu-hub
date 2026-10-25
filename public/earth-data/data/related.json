@@ -370,6 +370,34 @@
       "nEn": "Mount Vesuvius"
     }
   ],
+  "panama-canal": [
+    {
+      "m": "m-classics",
+      "n": "巴拿马运河",
+      "nEn": "Panama Canal"
+    }
+  ],
+  "east-african-rift": [
+    {
+      "m": "m-classics",
+      "n": "东非大裂谷",
+      "nEn": "East African Rift"
+    }
+  ],
+  "mariana-trench": [
+    {
+      "m": "m-classics",
+      "n": "马里亚纳海沟",
+      "nEn": "Mariana Trench"
+    }
+  ],
+  "danube": [
+    {
+      "m": "m-classics",
+      "n": "多瑙河",
+      "nEn": "Danube"
+    }
+  ],
   "zhenghe": [
     {
       "m": "m-thinkers",

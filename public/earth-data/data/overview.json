@@ -5,7 +5,7 @@
     "questions": 19,
     "principles": 19,
     "humanGeo": 20,
-    "classics": 19,
+    "classics": 23,
     "thinkers": 19,
     "glossary": 12,
     "myths": 12,
@@ -40,7 +40,7 @@
     {
       "key": "classics",
       "icon": "🏔️",
-      "value": 19
+      "value": 23
     },
     {
       "key": "principles",
