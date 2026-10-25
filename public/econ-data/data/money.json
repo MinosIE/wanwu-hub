@@ -96,7 +96,7 @@
       "Central banks face a tension between price stability and financial stability: prolonged low rates can breed bubbles.",
       "Credibility is part of policy power: if markets believe the bank, less tightening is needed."
     ],
-    "related": ["monetary-history", "rate-system", "money-creation"],
+    "related": ["monetary-history", "rate-system", "money-creation", "monetary-transmission"],
     "sources": [
       {
         "label": "BIS 年度经济报告 央行工具章节",
@@ -149,7 +149,7 @@
       "An inverted yield curve is often read as a recession signal, but it is a probability, not a prophecy.",
       "Real rates drive real decisions: 5% nominal with 6% inflation is a negative real rate."
     ],
-    "related": ["central-bank-tools", "money-creation", "fx-regimes"],
+    "related": ["central-bank-tools", "money-creation", "fx-regimes", "bond-yield-curve"],
     "sources": [
       {
         "label": "美联储 H.15 利率统计说明",
@@ -578,6 +578,217 @@
         "label": "托马斯·格雷欣（16 世纪）；休谟关于货币与物价的论述",
         "labelEn": "Thomas Gresham (16th c.); Hume on money and prices",
         "year": 1560
+      }
+    ]
+  },
+{
+    "id": "monetary-transmission",
+    "title": "货币政策如何传导到实体经济",
+    "titleEn": "How Monetary Policy Reaches the Real Economy",
+    "icon": "🔗",
+    "category": "央行",
+    "categoryEn": "Central bank",
+    "level": 3,
+    "lead": "央行调的是政策利率，但要经过信贷、资产价格与预期几道关口，才慢慢影响企业投资与家庭消费，而且常有时滞。",
+    "leadEn": "The central bank moves the policy rate, but it passes through credit, asset prices and expectations before it slowly touches business investment and household spending, usually with a lag.",
+    "points": [
+      {
+        "k": "利率渠道",
+        "kEn": "Interest-rate channel",
+        "v": "政策利率升降带动借贷成本，进而抑制或刺激投资与耐用品消费。",
+        "vEn": "The policy rate moves borrowing costs up or down, damping or spurring investment and durable spending."
+      },
+      {
+        "k": "信贷渠道",
+        "kEn": "Credit channel",
+        "v": "利率与准备金影响银行放贷意愿，中小企业对这道关口尤其敏感。",
+        "vEn": "Rates and reserves shape banks' willingness to lend, and smaller firms feel this channel most."
+      },
+      {
+        "k": "资产与预期",
+        "kEn": "Assets and expectations",
+        "v": "利率改变资产估值，前瞻指引管理预期，即便尚未行动也能起效。",
+        "vEn": "Rates move asset valuations and forward guidance manages expectations, working even before action is taken."
+      },
+      {
+        "k": "时滞与失灵",
+        "kEn": "Lags and failures",
+        "v": "传导常需一到两年，且遇流动性陷阱或银行惜贷时会明显钝化。",
+        "vEn": "Transmission often takes one to two years and dulls sharply at a liquidity trap or when banks hoard credit."
+      }
+    ],
+    "watch": ["它与央行工具箱那条的分工：那讲有哪些工具，本条讲工具如何起效、又为何失灵。", "同一加息在不同经济体传导强度不同，金融结构决定哪条渠道占主导。"],
+    "watchEn": [
+      "Where the central-bank-tools entry lists what instruments exist, this one is how they bite and why they misfire.",
+      "The same rate rise transmits differently across economies; the financial structure decides which channel dominates."
+    ],
+    "related": ["central-bank-tools", "interest-rate", "inflation-targeting", "keynesian"],
+    "sources": [
+      {
+        "label": "伯南克、格特勒《货币政策传导的黑箱》",
+        "labelEn": "Bernanke & Gertler, Inside the Black Box of monetary transmission",
+        "year": 1995
+      }
+    ]
+  },
+{
+    "id": "bond-yield-curve",
+    "title": "债券与收益率曲线",
+    "titleEn": "Bonds and the Yield Curve",
+    "icon": "📈",
+    "category": "利率",
+    "categoryEn": "Rates",
+    "level": 3,
+    "lead": "债券价格与收益率反向而行；把不同到期期限的收益率连成一条曲线，它的形状是市场对未来增长与利率的读秒表。",
+    "leadEn": "Bond prices and yields move in opposite directions; plotting yield across maturities gives a curve whose shape is a readout of expectations for growth and rates.",
+    "points": [
+      {
+        "k": "价格与收益率",
+        "kEn": "Price and yield",
+        "v": "既有债券票息固定，市价涨则实际收益率跌，反之亦然，二者反向。",
+        "vEn": "A bond's coupon is fixed, so when its price rises the yield falls and vice versa, moving in opposite directions."
+      },
+      {
+        "k": "正常与倒挂",
+        "kEn": "Normal and inverted",
+        "v": "通常期限越长收益越高；当短端反超长端即倒挂，历史上多次先于衰退。",
+        "vEn": "Normally longer terms pay more; when the short end exceeds the long it inverts, and this has preceded recessions repeatedly."
+      },
+      {
+        "k": "久期风险",
+        "kEn": "Duration risk",
+        "v": "到期越久对利率越敏感，一旦加息长久债券价格跌得越狠。",
+        "vEn": "The longer the maturity, the more rate-sensitive, so a rate hike hits long bonds hardest."
+      },
+      {
+        "k": "要用也要设界",
+        "kEn": "Use it, with limits",
+        "v": "倒挂有预测力却非万能，宽松时代曲线形态被政策扭曲，误报并不少见。",
+        "vEn": "Inversion predicts but is not infallible; in the era of easing, policy distorted the curve's shape and false alarms were common."
+      }
+    ],
+    "watch": ["「倒挂必定预示衰退」被媒体夸大，历史样本有限、时滞跨度也大。", "曲线的陡峭化常反映降息预期，别把它与股市信号读成同一个。"],
+    "watchEn": [
+      "The claim that inversion always forecasts recession is overstated by media, given the small sample and long, varying lags.",
+      "A steepening curve often reflects expected rate cuts, so do not read it as the same signal as equities."
+    ],
+    "related": ["rate-system", "bubbles-crises", "gfc-2008"],
+    "sources": [
+      {
+        "label": "米什金《货币金融学》收益率曲线",
+        "labelEn": "Mishkin, The Economics of Money, Banking and Financial Markets",
+        "year": 2019
+      }
+    ]
+  },
+{
+    "id": "macroprudential",
+    "title": "宏观审慎：给金融体系装保险栓",
+    "titleEn": "Macroprudential Policy: Fitting the System with Safety Valves",
+    "icon": "🛡️",
+    "category": "金融稳定",
+    "categoryEn": "Financial stability",
+    "level": 3,
+    "lead": "只管单体机构稳不稳还不够，宏观审慎专门盯整个体系的顺周期风险，用逆周期资本缓冲、房贷成数上限这类工具提前泄压。",
+    "leadEn": "Keeping single institutions safe is not enough; macroprudential policy targets system-wide, pro-cyclical risk and bleeds off pressure early with counter-cyclical capital buffers and loan-to-value caps.",
+    "points": [
+      {
+        "k": "为何需要",
+        "kEn": "Why needed",
+        "v": "个体理性可能合成系统非理性：人人同时去杠杆反而一起下跌，微观审慎管不到。",
+        "vEn": "Rational individuals can sum to an irrational system, as when everyone deleverages at once and prices collapse together, beyond micro-prudential reach."
+      },
+      {
+        "k": "逆周期缓冲",
+        "kEn": "Counter-cyclical buffer",
+        "v": "景气时多计提资本、下行时释放，给银行既留垫子又不额外收紧信贷。",
+        "vEn": "Banks build capital in booms and release it in downturns, keeping a cushion without tightening credit further."
+      },
+      {
+        "k": "房贷与杠杆",
+        "kEn": "Credit and leverage",
+        "v": "设贷款价值比、偿债收入比上限，从源头压住房价与债务互相推高的循环。",
+        "vEn": "Caps on loan-to-value and debt-to-income curb at source the spiral of rising prices feeding rising debt."
+      },
+      {
+        "k": "与货币政策的分工",
+        "kEn": "Division with monetary policy",
+        "v": "利率管总量与通胀，结构性风险交给宏观审慎，两者可同向也可互补。",
+        "vEn": "Rates govern the aggregate and inflation while structural risk goes to macroprudential policy; the two can align or complement."
+      }
+    ],
+    "watch": [
+      "工具好用但执行难：泡沫本身难识别，逆周期计提又易被政治与周期压力淡化。",
+      "它与存款保险、影子银行那两条的分工：那讲现象与安全网，本条讲监管工具。"
+    ],
+    "watchEn": [
+      "The tools are useful but hard to run, since bubbles are uncertain to spot and counter-cyclical build-up tends to be diluted by political and cycle pressure.",
+      "Where the deposit-insurance and shadow-banking entries describe the phenomenon and the safety net, this one is about the regulatory toolkit."
+    ],
+    "related": [
+      "bubbles-crises",
+      "shadow-banking",
+      "deposit-insurance",
+      "svb-collapse-2023"
+    ],
+    "sources": [
+      {
+        "label": "国际清算银行关于宏观审慎框架的研究",
+        "labelEn": "BIS studies on the macroprudential framework",
+        "year": 2012
+      }
+    ]
+  },
+{
+    "id": "reserve-currency",
+    "title": "储备货币：美元的地位与代价",
+    "titleEn": "The Reserve Currency: The Dollar's Privilege and Price",
+    "icon": "💵",
+    "category": "汇率",
+    "categoryEn": "Foreign exchange",
+    "level": 3,
+    "lead": "一种货币被各国广泛持有作储备与结算，发行国便能以本币借外债、承受更大赤字，这份「过头特权」也把责任与风险一并接下。",
+    "leadEn": "When a currency is widely held by states as reserve and settlement, its issuer can borrow abroad in its own money and run larger deficits, a privileged position that also takes on obligation and risk.",
+    "points": [
+      {
+        "k": "何为储备货币",
+        "kEn": "What a reserve is",
+        "v": "各国央行与市场把它作储备、结算和计价锚，赋予其远超贸易份额的需求。",
+        "vEn": "Central banks and markets hold, settle and price in it, giving demand far beyond the issuer's share of trade."
+      },
+      {
+        "k": "特里芬难题",
+        "kEn": "The Triffin dilemma",
+        "v": "世界要足够的美元流动性，就得靠美国持续逆差供给，却迟早侵蚀对美元的信心。",
+        "vEn": "For the world to hold enough dollars, the United States must run persistent deficits, which in time erodes confidence in the dollar."
+      },
+      {
+        "k": "特权与成本",
+        "kEn": "Privilege and cost",
+        "v": "能以本币举债、更抗挤兑，但也面对资本大进大出的冲击与政策约束。",
+        "vEn": "It can borrow in its own currency and better weather runs, but faces hot capital flows and the constraints they bring."
+      },
+      {
+        "k": "地位的松动",
+        "kEn": "Fading dominance",
+        "v": "份额在缓慢分散，储备多元化与本币结算兴起，但网络效应仍强，短期难被取代。",
+        "vEn": "Its share is slowly diversifying away through reserve spreads and local-currency settlement, yet network effects stay strong, so a near-term replacement is unlikely."
+      }
+    ],
+    "watch": [
+      "「美元立即崩落」多为夸大，储备地位的惯性靠纵深市场与网络效应维系。",
+      "美元计价与美元发行不同：许多新兴市场债务虽非美国发行却以美元计价，风险随之而来。"
+    ],
+    "watchEn": [
+      "Talk of the dollar collapsing overnight is mostly overstated; reserve status persists on the inertia of deep markets and network effects.",
+      "Dollar pricing is not the same as dollar issuance; much emerging-market debt is dollar-denominated though not US-issued, and the risk follows."
+    ],
+    "related": ["fx-regimes", "monetary-history", "currency-and-trade", "bretton-woods"],
+    "sources": [
+      {
+        "label": "艾肯格林《嚣张的特权》",
+        "labelEn": "Eichengreen, Exorbitant Privilege",
+        "year": 2011
       }
     ]
   }

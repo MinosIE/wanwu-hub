@@ -392,6 +392,11 @@
       "m": "m-glossary",
       "n": "规模经济",
       "nEn": "Economies of Scale"
+    },
+    {
+      "m": "m-micro",
+      "n": "规模经济与自然垄断",
+      "nEn": "Economies of Scale and Natural Monopoly"
     }
   ],
   "price-discrimination": [
@@ -637,6 +642,11 @@
       "m": "m-macro",
       "n": "货币政策如何传导",
       "nEn": "How Monetary Policy Transmits"
+    },
+    {
+      "m": "m-money",
+      "n": "货币政策如何传导到实体经济",
+      "nEn": "How Monetary Policy Reaches the Real Economy"
     }
   ],
   "fiscal-multiplier": [
@@ -779,6 +789,27 @@
       "nEn": "Exceptions to the Law of Demand"
     }
   ],
+  "price-controls": [
+    {
+      "m": "m-micro",
+      "n": "价格管制：限价与保护价",
+      "nEn": "Price Controls: Ceilings and Floors"
+    }
+  ],
+  "welfare-deadweight": [
+    {
+      "m": "m-micro",
+      "n": "消费者剩余、生产者剩余与无谓损失",
+      "nEn": "Consumer and Producer Surplus, Deadweight Loss"
+    }
+  ],
+  "innovation-competition": [
+    {
+      "m": "m-micro",
+      "n": "竞争的另一面：创新与创造性破坏",
+      "nEn": "The Other Face of Competition: Innovation and Creative Destruction"
+    }
+  ],
   "monetary-history": [
     {
       "m": "m-money",
@@ -854,6 +885,27 @@
       "m": "m-money",
       "n": "劣币驱逐良币",
       "nEn": "Gresham's Law"
+    }
+  ],
+  "bond-yield-curve": [
+    {
+      "m": "m-money",
+      "n": "债券与收益率曲线",
+      "nEn": "Bonds and the Yield Curve"
+    }
+  ],
+  "macroprudential": [
+    {
+      "m": "m-money",
+      "n": "宏观审慎：给金融体系装保险栓",
+      "nEn": "Macroprudential Policy: Fitting the System with Safety Valves"
+    }
+  ],
+  "reserve-currency": [
+    {
+      "m": "m-money",
+      "n": "储备货币：美元的地位与代价",
+      "nEn": "The Reserve Currency: The Dollar's Privilege and Price"
     }
   ],
   "adam-smith": [
@@ -1787,6 +1839,34 @@
       "nEn": "The cash you gift at weddings — who is keeping the books?"
     }
   ],
+  "convenience-premium": [
+    {
+      "m": "m-everyday",
+      "n": "便利店的一瓶水为什么比超市贵那么多？",
+      "nEn": "Why is a bottle of water so much dearer at the corner store?"
+    }
+  ],
+  "bundling-value-meals": [
+    {
+      "m": "m-everyday",
+      "n": "套餐和第二杯半价，到底是占了便宜还是被套路？",
+      "nEn": "Combos and half-price refills: a bargain for you, or a play by the seller?"
+    }
+  ],
+  "free-trial-auto-renew": [
+    {
+      "m": "m-everyday",
+      "n": "免费试用为什么总要求绑卡、到期还自动扣费？",
+      "nEn": "Why does a free trial want your card and renew itself automatically?"
+    }
+  ],
+  "why-999-pricing": [
+    {
+      "m": "m-everyday",
+      "n": "为什么标价 9.9 元而不是 10 元？",
+      "nEn": "Why is the price tagged 9.9 rather than 10?"
+    }
+  ],
   "global-growth": [
     {
       "m": "m-charts",
@@ -1939,6 +2019,34 @@
       "m": "m-myths",
       "n": "量化宽松就是央行印钞票直接撒给政府和百姓，必然酿成恶性通胀。",
       "nEn": "Quantitative easing is the central bank printing cash to hand straight to government and people—sure to cause hyperinflation."
+    }
+  ],
+  "lump-of-labour": [
+    {
+      "m": "m-myths",
+      "n": "工作总量是固定的：多一个人上岗，就必然少一个人有活干。",
+      "nEn": "The number of jobs is fixed: every person hired must push someone else out."
+    }
+  ],
+  "tariff-paid-by-foreigners": [
+    {
+      "m": "m-myths",
+      "n": "关税是我们向外国征的税，由对方出口商替我们掏钱。",
+      "nEn": "Tariffs are a tax on foreigners, paid by their exporters on our behalf."
+    }
+  ],
+  "deflation-is-good": [
+    {
+      "m": "m-myths",
+      "n": "物价越跌越划算，通货紧缩是送给消费者的实惠。",
+      "nEn": "Falling prices are good for consumers; deflation is a gift to buyers."
+    }
+  ],
+  "stocks-equal-economy": [
+    {
+      "m": "m-myths",
+      "n": "股市上涨就说明经济变好了。",
+      "nEn": "A rising stock market means the economy is getting better."
     }
   ],
   "q-opportunity-cost": [

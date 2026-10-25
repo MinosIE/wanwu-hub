@@ -8,7 +8,7 @@
     "why": "人们在涨价时感受强烈、在收入增长时感受迟钝，且媒体报道更偏好「物价暴涨」。加之通缩同样危险却难以感知，于是「通胀=坏」成为直觉。",
     "whyEn": "Price rises are felt acutely while income gains are noticed less, and media prefer dramatic stories. Deflation is equally dangerous but harder to perceive, so 'inflation is bad' becomes intuition.",
     "level": 1,
-    "related": ["deflation", "volcker-shock"],
+    "related": ["deflation", "volcker-shock", "deflation-is-good"],
     "sources": [{ "label": "IMF 通胀目标制研究", "labelEn": "IMF research on inflation targeting", "year": 2023 }]
   },
   {
@@ -56,7 +56,7 @@
     "why": "被替代的岗位往往具体、集中且可见，而新创造的岗位分散、尚未出现且难以命名，因此「机器换人」的叙事更具冲击力。",
     "whyEn": "Displaced jobs are specific, concentrated and visible, while new jobs are scattered, not yet existing and hard to name, so the displacement narrative dominates.",
     "level": 2,
-    "related": ["gdp-equals-wellbeing", "minimum-wage"],
+    "related": ["gdp-equals-wellbeing", "minimum-wage", "lump-of-labour"],
     "sources": [{ "label": "OECD 就业展望：自动化与就业", "labelEn": "OECD Employment Outlook on automation and jobs", "year": 2023 }]
   },
   {
@@ -168,6 +168,90 @@
         "label": "伯南克《行动、等待与讲话：央行经济学》",
         "labelEn": "Bernanke, 21st Monetary Policy Lectures",
         "year": 2020
+      }
+    ]
+  },
+{
+    "id": "lump-of-labour",
+    "myth": "工作总量是固定的：多一个人上岗，就必然少一个人有活干。",
+    "mythEn": "The number of jobs is fixed: every person hired must push someone else out.",
+    "truth": "岗位数量不是定数。长期看，就业水平由总需求、生产率与制度共同决定；新增劳动力、外贸、移民与技术会改变工作的结构，而非把总量锁死。一个人上岗创造的工资还会变成别处的需求，衍生出新的岗位。",
+    "truthEn": "Jobs are not a fixed pool. In the long run employment is set by aggregate demand, productivity and institutions; new entrants, trade, migration and technology shift the mix of work rather than capping its total. The wages a new hire earns become demand elsewhere, creating further jobs.",
+    "why": "被顶替的那个工作是具体可见的，被间接创造出的工作是抽象隐形的；把短期局部的冲击误当成社会整体的固定份额，正是合成谬误。",
+    "whyEn": "The displaced job is concrete and visible while the indirectly created ones are abstract and invisible; mistaking a short-run local shock for a fixed societal total is a classic fallacy of composition.",
+    "level": 2,
+    "related": ["robots-take-all-jobs", "trade-and-jobs", "unemployment"],
+    "sources": [
+      {
+        "label": "凯恩斯《我们后代的经济前景》",
+        "labelEn": "Keynes, Economic Possibilities for our Grandchildren",
+        "year": 1930
+      }
+    ]
+  },
+{
+    "id": "tariff-paid-by-foreigners",
+    "myth": "关税是我们向外国征的税，由对方出口商替我们掏钱。",
+    "mythEn": "Tariffs are a tax on foreigners, paid by their exporters on our behalf.",
+    "truth": "关税是在本国口岸对进口商品征收、由本国进口商缴纳并计入其成本；税负最终落在谁头上取决于买卖双方的弹性——谁更难找到替代，谁就多承担。对 2018 至 2019 年美国加征关税的实证研究显示，成本几乎全额转嫁成了美国进口价格与消费者、下游企业的支出。",
+    "truthEn": "A tariff is levied at the border on imports, paid by the domestic importer and built into its cost; where it finally lands depends on the elasticities of buyer and seller, and the side with fewer alternatives bears more. Studies of the 2018 to 2019 US tariff rounds found the cost passed through almost fully into US import prices and onto consumers and downstream firms.",
+    "why": "把「向谁开征」与「由谁承担」混为一谈。税负归宿是一场弹性博弈，而非按发票上的付款人决定。",
+    "whyEn": "It conflates who the bill is addressed to with who actually bears it. Tax incidence is an elasticity contest, not settled by the name on the invoice.",
+    "level": 2,
+    "related": ["tax-incidence", "tariff-war", "elasticity", "gains-from-trade"],
+    "sources": [
+      {
+        "label": "美国国家经济研究局：2018 至 2019 年关税转嫁研究",
+        "labelEn": "NBER studies on 2018 to 2019 tariff passthrough",
+        "year": 2021
+      }
+    ]
+  },
+{
+    "id": "deflation-is-good",
+    "myth": "物价越跌越划算，通货紧缩是送给消费者的实惠。",
+    "mythEn": "Falling prices are good for consumers; deflation is a gift to buyers.",
+    "truth": "个别商品降价是好事，但普遍而持续的价格下跌往往很糟：它抬高债务的实际负担（名义债务不变、收入与物价在缩），诱使大家推迟消费与投资等着更便宜，并把名义利率压向零下限，使降息这把主要工具失灵。费雪的债务-通缩与大萧条、日本的长期低迷都由此而来。",
+    "truthEn": "A cheaper item is good, but general and persistent price declines often are not: they raise the real burden of debt (nominal debts fixed while incomes and prices shrink), tempt households and firms to postpone spending for something cheaper still, and push nominal rates toward the zero lower bound, blunting the main tool of easing. Fisher's debt-deflation, the Great Depression and Japan's long slump trace to this.",
+    "why": "混淆了「某样东西更便宜了」与「所有价格普遍下跌且预期继续下跌」，又忽略了债务是以名义金额计量的。",
+    "whyEn": "It confuses 'this one thing got cheaper' with 'all prices are falling and expected to keep falling', and ignores that debts are written in nominal amounts.",
+    "level": 2,
+    "related": [
+      "inflation-always-bad",
+      "printing-money",
+      "inflation",
+      "japan-bubble-1991",
+      "great-depression"
+    ],
+    "sources": [
+      {
+        "label": "欧文·费雪《繁荣与萧条》",
+        "labelEn": "Irving Fisher, The Boom and Depression",
+        "year": 1933
+      }
+    ]
+  },
+{
+    "id": "stocks-equal-economy",
+    "myth": "股市上涨就说明经济变好了。",
+    "mythEn": "A rising stock market means the economy is getting better.",
+    "truth": "股市是资产价格的温度计，不是实体经济的全身检查。股价主要由盈利预期与贴现率驱动，并被少数大型权重股拉动，可以在就业与产出毫无起色甚至恶化时一路走高——2008 年金融危机之后、2020 年疫情冲击之下都出现过这种背离。指数只涵盖存活并上市的大公司，本身带有幸存者偏差。",
+    "truthEn": "The stock market is a thermometer for asset prices, not a full check-up of the real economy. Prices are driven mainly by profit expectations and the discount rate and are pulled by a few heavyweight stocks, so they can climb while employment and output stagnate or worsen, as after the 2008 crisis and during the 2020 shock. An index lists only surviving large firms, so it carries built-in survivorship bias.",
+    "why": "把一种金融资产的价格当成整个经济，又因指数只含幸存者而放大了繁荣信号。",
+    "whyEn": "It reads the price of one financial asset as the whole economy, and the survivor-only construction of indices amplifies the bullish signal.",
+    "level": 2,
+    "related": [
+      "gdp-equals-wellbeing",
+      "gdp",
+      "bubbles-crises",
+      "dot-com-2000",
+      "black-monday-1987"
+    ],
+    "sources": [
+      {
+        "label": "标普道琼斯指数编制方法与权重说明",
+        "labelEn": "S&P Dow Jones Indices methodology and weighting",
+        "year": 2024
       }
     ]
   }

@@ -149,7 +149,7 @@
       "Industries with high fixed and low marginal costs (software, content, airlines) naturally concentrate and cut prices.",
       "Treating spent fixed cost as a reason to continue is the sunk-cost fallacy."
     ],
-    "related": ["market-forms", "elasticity-pricing", "demand-curve"],
+    "related": ["market-forms", "elasticity-pricing", "demand-curve", "economies-of-scale"],
     "sources": [
       {
         "label": "平狄克、鲁宾费尔德《微观经济学》",
@@ -582,6 +582,215 @@
         "label": "凡勃伦《有闲阶级论》；吉芬对爱尔兰土豆市场的观察",
         "labelEn": "Veblen, The Theory of the Leisure Class; Giffen on the Irish potato market",
         "year": 1899
+      }
+    ]
+  },
+{
+    "id": "price-controls",
+    "title": "价格管制：限价与保护价",
+    "titleEn": "Price Controls: Ceilings and Floors",
+    "icon": "🚧",
+    "category": "机制",
+    "categoryEn": "Mechanisms",
+    "level": 2,
+    "lead": "限价把价格钉在均衡之下会造出短缺，保护价钉在之上会造出过剩，两者都留下排队、黑市或销毁。",
+    "leadEn": "A ceiling pinned below equilibrium breeds shortage, a floor above it breeds surplus; both leave queues, black markets or destruction.",
+    "points": [
+      {
+        "k": "最高限价",
+        "kEn": "Price ceiling",
+        "v": "为让人买得起而把价压到均衡之下，结果是短缺、排队、配给与质量下降。",
+        "vEn": "Set below equilibrium so buyers can afford it, the result is shortage, queuing, rationing and degraded quality."
+      },
+      {
+        "k": "最低限价",
+        "kEn": "Price floor",
+        "v": "为保护卖方把价抬到均衡之上（最低工资、农产品保护价），结果是过剩与积压。",
+        "vEn": "Set above equilibrium to protect sellers, such as a minimum wage or farm support price, the result is surplus and glut."
+      },
+      {
+        "k": "隐性代价",
+        "kEn": "Hidden cost",
+        "v": "价格被压住，配给就改由排队、资历、关系或黑市来完成，效率与公平未必改善。",
+        "vEn": "When price is suppressed, allocation shifts to queuing, seniority, connections or black markets, so efficiency and fairness need not improve."
+      },
+      {
+        "k": "松紧权衡",
+        "kEn": "The trade-off",
+        "v": "短期救助与长期供给常相冲突：房租管制利于当下租户，却可能抑制新建。",
+        "vEn": "Short-run relief often clashes with long-run supply, since rent control helps current tenants yet can damp new building."
+      }
+    ],
+    "watch": ["一见到短缺就归咎商家黑心，往往忽略了正是限价本身制造了短缺。", "最低工资的就业效应存在争议，取决于市场结构与弹性，不能一概而论。"],
+    "watchEn": [
+      "Blaming a shortage on greedy sellers overlooks that the price ceiling itself often created it.",
+      "The employment effect of a minimum wage is contested and depends on market structure and elasticity, not a foregone conclusion."
+    ],
+    "related": [
+      "surplus-shortage",
+      "minimum-wage",
+      "housing-price",
+      "equilibrium",
+      "externality-policy"
+    ],
+    "sources": [
+      {
+        "label": "曼昆《经济学原理》：供给、需求与政府政策",
+        "labelEn": "Mankiw, Principles of Economics, supply, demand and government policy",
+        "year": 2020
+      }
+    ]
+  },
+{
+    "id": "welfare-deadweight",
+    "title": "消费者剩余、生产者剩余与无谓损失",
+    "titleEn": "Consumer and Producer Surplus, Deadweight Loss",
+    "icon": "⚖️",
+    "category": "市场",
+    "categoryEn": "Markets",
+    "level": 3,
+    "lead": "交易创造的总福利是供需曲线之间的一块面积；任何让成交减少的税、限价或垄断，都会切掉一块谁也得不到的无谓损失。",
+    "leadEn": "Total gains from trade are the area between supply and demand; any tax, ceiling or monopoly that shrinks transactions cuts out a deadweight loss that goes to no one.",
+    "points": [
+      {
+        "k": "消费者剩余",
+        "kEn": "Consumer surplus",
+        "v": "愿付价与实际价之差，即买家占到的便宜，是需求曲线以下、价格以上的面积。",
+        "vEn": "Willingness to pay minus the price actually paid, the area under the demand curve above the price."
+      },
+      {
+        "k": "生产者剩余",
+        "kEn": "Producer surplus",
+        "v": "实际价与愿卖价之差，是供给曲线以上、价格以下的面积，代表卖家的净收益。",
+        "vEn": "The price received minus the lowest acceptable price, the area above supply below price, the seller's net gain."
+      },
+      {
+        "k": "无谓损失",
+        "kEn": "Deadweight loss",
+        "v": "税或管制使部分本可互利的交易不发生，这块消失的总剩余谁也拿不走。",
+        "vEn": "Taxes or rules that block mutually beneficial trades let this surplus vanish to no one's benefit."
+      },
+      {
+        "k": "弹性决定大小",
+        "kEn": "Elasticity sets size",
+        "v": "买卖任一方越缺乏弹性，被扭曲掉的交易量越少，无谓损失也越小。",
+        "vEn": "The more inelastic either side, the fewer trades are distorted away and the smaller the deadweight loss."
+      }
+    ],
+    "watch": ["效率（把饼做大）与公平（怎么分饼）是两回事，剩余分析只谈前者。", "无谓损失是相对自由市场基准的静态测算，本身带有假设与边界。"],
+    "watchEn": [
+      "Efficiency, growing the pie, and equity, dividing it, are different matters, and surplus analysis speaks only to the first.",
+      "Deadweight loss is a static measure relative to a free-market benchmark and carries its own assumptions and limits."
+    ],
+    "related": ["tax-incidence", "surplus-shortage", "elasticity", "market-structure"],
+    "sources": [
+      {
+        "label": "斯蒂格利茨、罗森加德《公共部门经济学》",
+        "labelEn": "Stiglitz & Rosengard, The Economics of the Public Sector",
+        "year": 2015
+      }
+    ]
+  },
+{
+    "id": "economies-of-scale",
+    "title": "规模经济与自然垄断",
+    "titleEn": "Economies of Scale and Natural Monopoly",
+    "icon": "🏭",
+    "category": "企业",
+    "categoryEn": "The firm",
+    "level": 3,
+    "lead": "当产量越大、单位成本越低，一家企业就可能比多家更低成本地满足整个市场，于是有了水电管网这类自然垄断与随之而来的管制。",
+    "leadEn": "Where bigger output means lower unit cost, one firm can serve the whole market more cheaply than several, giving natural monopolies like water and grid, and the regulation that follows.",
+    "points": [
+      {
+        "k": "成本为何下降",
+        "kEn": "Why cost falls",
+        "v": "固定成本被摊薄、专业化与大批量采购，使长期平均成本随规模下行。",
+        "vEn": "Fixed costs are spread, and specialization and bulk buying push long-run average cost down with scale."
+      },
+      {
+        "k": "自然垄断",
+        "kEn": "Natural monopoly",
+        "v": "若一家供应全市场比多家更省，重复建设反而浪费，管网类行业最典型。",
+        "vEn": "If one supplier serves the market more cheaply than many, duplicating plant is wasteful, most typical of network industries."
+      },
+      {
+        "k": "规模不经济",
+        "kEn": "Diseconomies of scale",
+        "v": "大到管理臃肿、协调失灵，单位成本会重新上升，规模并非越大越好。",
+        "vEn": "Past a point, bloated management and coordination failures raise unit cost again, so bigger is not always better."
+      },
+      {
+        "k": "为何要管制",
+        "kEn": "Why regulate",
+        "v": "自然垄断缺少竞争约束，定价与服务质量需靠管制或公营来防止滥用市场力。",
+        "vEn": "Lacking competitive discipline, a natural monopoly needs regulation or public ownership to curb abuse of market power."
+      }
+    ],
+    "watch": [
+      "它与成本结构那条的分工：那讲短中期成本构成，本条讲长期规模报酬及其结构含义。",
+      "数字平台常被说成自然垄断，但其可竞争性远强于公用管网，需逐案分析。"
+    ],
+    "watchEn": [
+      "Unlike the cost-structure entry, which covers short and medium run cost build-up, this one is about long-run returns to scale and their structural meaning.",
+      "Digital platforms are often called natural monopolies, yet they are far more contestable than utility networks, so each case needs its own analysis."
+    ],
+    "related": ["cost-structure", "market-structure", "market-forms"],
+    "sources": [
+      {
+        "label": "梯若尔《产业组织理论》",
+        "labelEn": "Tirole, The Theory of Industrial Organization",
+        "year": 1988
+      }
+    ]
+  },
+{
+    "id": "innovation-competition",
+    "title": "竞争的另一面：创新与创造性破坏",
+    "titleEn": "The Other Face of Competition: Innovation and Creative Destruction",
+    "icon": "💡",
+    "category": "市场结构",
+    "categoryEn": "Market structure",
+    "level": 3,
+    "lead": "真正激烈的竞争有时不在压低今天的价，而在用新技术推翻今天的在位者；适度利润正是创新风险的报酬。",
+    "leadEn": "Fierce competition is not always about today's price but about unseating incumbents with new technology, and a measure of profit is the reward for innovation risk.",
+    "points": [
+      {
+        "k": "动态对静态",
+        "kEn": "Dynamic vs static",
+        "v": "静态看当下的价格与效率，动态看谁用创新改写格局，两者可相互矛盾。",
+        "vEn": "The static lens weighs today's price and efficiency, the dynamic one who rewrites the field by innovating; they can conflict."
+      },
+      {
+        "k": "利润的正当性",
+        "kEn": "Why profit matters",
+        "v": "研发要预支巨额成本且多半失败，可期的超额利润是承担风险的补偿。",
+        "vEn": "R&D fronts large costs that mostly fail, so an expected surplus is the pay for bearing that risk."
+      },
+      {
+        "k": "创造性破坏",
+        "kEn": "Creative destruction",
+        "v": "熊彼特指出新组合不断从内部革命化经济结构，摧毁旧的、创造新的。",
+        "vEn": "Schumpeter's process that ceaselessly revolutionizes economic structure from within, destroying the old and creating the new."
+      },
+      {
+        "k": "竞争的悖论",
+        "kEn": "The paradox",
+        "v": "若一切利润都被竞争抹平，也就没人有动力去创新；理想强度需留有余地。",
+        "vEn": "If competition wipes out all profit, no one has the motive to innovate; the ideal intensity must leave room."
+      }
+    ],
+    "watch": ["它为垄断势力辩护是有边界的：只有源于创新的暂时利润才具生产性，靠壁垒寻租则不然。", "本条讲动态竞争，与四种市场形态那条的静态分类互补。"],
+    "watchEn": [
+      "Its defense of market power is bounded, since only profits born of innovation are productive, while those from rent-seeking barriers are not.",
+      "Where the four-market-forms entry is a static taxonomy, this one is about competition as a dynamic process."
+    ],
+    "related": ["market-structure", "market-forms", "economic-growth", "joseph-schumpeter"],
+    "sources": [
+      {
+        "label": "熊彼特《资本主义、社会主义与民主》",
+        "labelEn": "Schumpeter, Capitalism, Socialism and Democracy",
+        "year": 1942
       }
     ]
   }

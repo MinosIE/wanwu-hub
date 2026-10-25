@@ -127,7 +127,8 @@
     "related": [
       "elasticity",
       "demand-exceptions",
-      "consumer-choice"
+      "consumer-choice",
+      "bundling-value-meals"
     ],
     "sources": [
       {
@@ -212,6 +213,82 @@
         "year": 1948
       },
       { "label": "莫斯《礼物》", "labelEn": "Mauss, The Gift", "year": 1925 }
+    ]
+  },
+{
+    "id": "convenience-premium",
+    "icon": "🏪",
+    "question": "便利店的一瓶水为什么比超市贵那么多？",
+    "questionEn": "Why is a bottle of water so much dearer at the corner store?",
+    "econ": "你多付的钱，买的是「少走十分钟、不用排长队、此刻就能拿到」——本质是为你省下的时间付的机会成本。",
+    "econEn": "What you pay extra for is 'ten fewer minutes walking, no long queue, available right now', which is really the opportunity cost of the time it saves you.",
+    "detail": "同一瓶水对不同人的价值并不相同：赶时间的商务客愿意为便利付高价，不赶时间的居民则愿多走路去换低价。便利店靠选址在人流密集处，精准地把货架摆在高支付意愿的人面前，于是能把这层「位置差价」收进价格。它卖得快、单价高、销量靠周转，成本结构也和薄利多销的大型超市不同。看穿这一点，你就知道自己到底在为「省下的时间」买不买账，值不值那个价。",
+    "detailEn": "The same bottle is worth different things to different people: a rushed business traveller will pay for convenience while a relaxed resident will walk farther to save money. By placing shelves where foot traffic is dense, the corner store lines up exactly in front of those with the highest willingness to pay and captures that 'location premium'. It sells fast at a high unit price on quick turnover, a cost structure unlike the thin-margin, high-volume supermarket. Seeing this lets you judge whether the time you save is actually worth the extra.",
+    "concept": "opportunity-cost",
+    "related": ["housing-price", "airline-seat-pricing", "supply-demand"],
+    "sources": [
+      {
+        "label": "萨缪尔森《经济学》机会成本",
+        "labelEn": "Samuelson, Economics (opportunity cost)",
+        "year": 2010
+      }
+    ]
+  },
+{
+    "id": "bundling-value-meals",
+    "icon": "🍔",
+    "question": "套餐和第二杯半价，到底是占了便宜还是被套路？",
+    "questionEn": "Combos and half-price refills: a bargain for you, or a play by the seller?",
+    "econ": "商家用捆绑与阶梯价格把消费者剩余一点点榨出来，对买得多的人给出更低单价，这叫二级价格歧视。",
+    "econEn": "Sellers use bundling and tiered pricing to siphon off consumer surplus bit by bit, giving a lower unit price to those who buy more, which is second-degree price discrimination.",
+    "detail": "「第二杯半价」针对的是你本来不会买的那一杯——对商家而言多冲一杯的边际成本很低，对你却是「不买就亏了」的诱惑，于是多花钱买了并不需要的量。套餐把高毛利的饮料小食和主菜绑在一起，让你难以单独比价，实际是为搭售的部分付了溢价。这与按人头定价（学生票、机票邻座不同价）不同：那是针对不同人的一级或三级价格歧视，本条是按数量与版本自我筛选。识别方法很简单：先问「这第二杯我原本要不要」，再算「凑完总价的单位价到底降了没有」。",
+    "detailEn": "The half-price second cup targets a cup you would not have bought anyway: for the seller the marginal cost of another scoop is low, for you it becomes a fear of missing a deal, so you spend more on quantity you do not need. A combo ties high-margin drinks and snacks to the main item so you cannot price each part, and you end up paying a premium for the bundle. This differs from pricing by person (student tickets, seat-differentiated airfares): those are first or third degree discrimination by identity, while this is second-degree self-screening by quantity and version. The check is simple, ask 'did I want the second cup at all', then 'does the unit price of the total actually fall'.",
+    "concept": "marginal-thinking",
+    "related": ["airline-seat-pricing", "elasticity"],
+    "sources": [
+      {
+        "label": "范里安《中间微观经济学》价格歧视",
+        "labelEn": "Varian, Intermediate Microeconomics (price discrimination)",
+        "year": 2014
+      }
+    ]
+  },
+{
+    "id": "free-trial-auto-renew",
+    "icon": "🔁",
+    "question": "免费试用为什么总要求绑卡、到期还自动扣费？",
+    "questionEn": "Why does a free trial want your card and renew itself automatically?",
+    "econ": "商家靠默认选项与取消的摩擦来助推：把「继续付费」设成不行动就自动发生的结果，你的惰性和怕麻烦就成了它的护城河。",
+    "econEn": "Sellers nudge through default options and cancellation friction: they set 'keep paying' to happen unless you act, so your inertia and hassle-aversion become their moat.",
+    "detail": "绑卡降低了你开始使用的门槛，也顺手为续费铺好了路；到期时若你不主动去翻设置取消，扣款就默认发生——这正是选择架构里「默认即答案」的经典用法。取消流程常被设计得层层设卡（找不到入口、需打电话、给折扣挽留），用转换成本把「留下」变成省力的一方。对付它的办法是把决策前移：试用当天就设一个到期前的日历提醒，到时只问一句「这一年的服务我还打算用吗」，用主动评估替代默认延续。",
+    "detailEn": "Adding a card lowers the barrier to starting and quietly paves the way for renewal: unless you dig into settings to cancel before expiry, the charge happens by default, the classic 'the default is the answer' use of choice architecture. Cancellation is often built with hurdle after hurdle, hidden entry points, phone-only opt-outs, discount-save offers, so that staying put becomes the lazy option. Beat it by moving the decision earlier, set a calendar alert for just before expiry on day one, and when it fires ask only 'am I still going to use this service', replacing silent continuation with an active judgment.",
+    "concept": "incentives",
+    "related": ["gym-membership", "sunk-cost", "nudge"],
+    "sources": [
+      {
+        "label": "泰勒、桑斯坦《助推》",
+        "labelEn": "Thaler & Sunstein, Nudge",
+        "year": 2008
+      }
+    ]
+  },
+{
+    "id": "why-999-pricing",
+    "icon": "🏷️",
+    "question": "为什么标价 9.9 元而不是 10 元？",
+    "questionEn": "Why is the price tagged 9.9 rather than 10?",
+    "econ": "人读数从左往右、先抓最左一位，9.9 被大脑归进「9 块那一档」，与 10 差了整整一个数量级的心理刻度，这就是左位效应与锚定。",
+    "econEn": "People read left to right and lock onto the first digit, so 9.9 gets filed under the nine-yuan tier, a whole step away from ten in the mind, which is the left-digit and anchoring effect at work.",
+    "detail": "标价 9.9 与 10 只差一角，但前者给人的「便宜感」远超实际差额，零售与电商因此把它当成常规武器；同理还有划线原价制造「省了多少」的参照点。它之所以奏效，恰恰是因为你并不是纯粹的理性计算器——真实需求相同的两件事，会因为首位数字和心理锚点而产生不同的支付意愿，这正是经济学「理性人」假设常被现实打脸的地方。破解办法是丢掉价格的心理档位，回到两个朴素问题：这东西我到底需不需要、和替代品比的单位价格划不划算。",
+    "detailEn": "A 9.9 tag differs from 10 by a single dime, yet the feeling of 'cheap' it delivers far outstrips that gap, so retail and e-commerce treat it as a standing weapon, and a struck-through original price works the same way by manufacturing a 'how much I save' reference point. It works precisely because you are not a pure rational calculator: for two things of identical real need, the first digit and the mental anchor shift your willingness to pay, which is where the economist's rational-agent assumption often meets reality. The counter is to drop the price's mental tier and return to two plain questions, do I actually need this, and is its unit price worth it against the alternatives.",
+    "concept": "rational-agent",
+    "related": ["anchoring-effect", "mental-accounting", "airline-seat-pricing"],
+    "sources": [
+      {
+        "label": "阿里利《怪诞行为学》",
+        "labelEn": "Ariely, Predictably Irrational",
+        "year": 2008
+      }
     ]
   }
 ]
