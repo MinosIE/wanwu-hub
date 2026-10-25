@@ -108,5 +108,18 @@
     "detailEn": "The Sun and hydrogen bombs run on fusion; per mass it releases more energy than fission with cleaner products, but needs >10⁸ K confinement (magnetic/inertial) — controlled fusion is still being mastered.",
     "tags": ["原子核"],
     "tagsEn": ["Nuclear"]
+  },
+  {
+    "id": "standard-model",
+    "icon": "🧩",
+    "term": "粒子物理与标准模型",
+    "termEn": "Particle Physics & the Standard Model",
+    "level": 3,
+    "oneLiner": "物质由夸克与轻子构成，靠规范玻色子传递三种基本相互作用。",
+    "oneLinerEn": "Matter is built of quarks and leptons, with gauge bosons carrying three fundamental forces.",
+    "detail": "标准模型把基本粒子分为费米子（六种夸克与电子、μ 子、τ 子及其中微子）与玻色子（光子、胶子、W/Z，以及 2012 年证实的希格斯玻色子），统一了电磁、弱、强三种相互作用，引力不在其内。夸克因色禁闭从不单独出现、只能组成质子与中子等强子；该模型预言极精，却无法解释暗物质、中微子质量与引力，被视为更深层理论的近似。",
+    "detailEn": "The Standard Model sorts particles into fermions (six quarks plus the electron, muon, tau and their neutrinos) and bosons (photon, gluon, W/Z, and the Higgs confirmed in 2012), unifying the electromagnetic, weak and strong forces—gravity aside. Quarks never appear free due to color confinement, only as hadrons like protons and neutrons; the model is uncannily precise yet leaves dark matter, neutrino mass and gravity unexplained, and is taken as an approximation of a deeper theory.",
+    "tags": ["粒子", "前沿"],
+    "tagsEn": ["Particles", "Frontier"]
   }
 ]

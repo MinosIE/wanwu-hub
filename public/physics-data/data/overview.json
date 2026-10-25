@@ -5,16 +5,16 @@
   "heroTitleEn": "Physics of Everything",
   "intro": "从运动、声、光、热、电磁到天体与相对论，按高中物理脉络系统梳理核心概念、常数、实验与物理学家。",
   "introEn": "Motion, sound, light, heat, electromagnetism, astronomy and relativity — core concepts, constants, experiments and physicists organized along the high-school physics map.",
-  "total": 154,
+  "total": 158,
   "counts": {
-    "mechanics": 17,
+    "mechanics": 20,
     "sound": 7,
     "optics": 13,
     "thermal": 10,
     "em": 17,
     "astronomy": 10,
     "relativity": 9,
-    "atomic": 8,
+    "atomic": 9,
     "waves": 5,
     "fluids": 9,
     "methods": 4,
@@ -31,7 +31,7 @@
       "title": "运动与力学",
       "titleEn": "Motion & Mechanics",
       "kind": "cards",
-      "count": 17
+      "count": 20
     },
     {
       "key": "sound",
@@ -87,7 +87,7 @@
       "title": "原子物理与原子核",
       "titleEn": "Atomic & Nuclear Physics",
       "kind": "cards",
-      "count": 8
+      "count": 9
     },
     {
       "key": "waves",
@@ -155,14 +155,14 @@
     }
   ],
   "kpis": [
-    { "key": "mechanics", "icon": "🏃", "value": 17 },
+    { "key": "mechanics", "icon": "🏃", "value": 20 },
     { "key": "sound", "icon": "🔊", "value": 7 },
     { "key": "optics", "icon": "🌈", "value": 13 },
     { "key": "thermal", "icon": "🌡️", "value": 10 },
     { "key": "em", "icon": "⚡", "value": 17 },
     { "key": "astronomy", "icon": "🌌", "value": 10 },
     { "key": "relativity", "icon": "🕰️", "value": 9 },
-    { "key": "atomic", "icon": "☢️", "value": 8 },
+    { "key": "atomic", "icon": "☢️", "value": 9 },
     { "key": "waves", "icon": "🌊", "value": 5 },
     { "key": "fluids", "icon": "🛟", "value": 9 },
     { "key": "methods", "icon": "📐", "value": 4 },

@@ -209,6 +209,52 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           tags: [{ zh: "天体", en: "Astronomy" }],
         },
         {
+          id: "cosmic-velocity",
+          eq: { lhs: "v₁", rhs: "√(GM/R) ≈ 7.9 km/s", rel: "equal" },
+          icon: "🚀",
+          term: { zh: "三个宇宙速度", en: "Cosmic Velocities" },
+          level: 2,
+          oneLiner: {
+            zh: "环绕、脱离、逃逸三档最小速度：约 7.9、11.2、16.7 km/s。",
+            en: "The three minimum speeds—orbital, escape, and beyond—about 7.9, 11.2, 16.7 km/s.",
+          },
+          detail: {
+            zh: "第一宇宙速度 7.9 km/s 是近地圆轨道的环绕速度，也是最小发射速度；第二 11.2 km/s 可挣脱地球引力成为绕太阳的人造行星；第三 16.7 km/s 可离开太阳系。三档数值都随中心天体的质量与半径而变，月球、火星探测器须按所在天体重新计算。",
+            en: "The first (7.9 km/s) is the low circular-orbit speed and also the minimum launch speed; the second (11.2 km/s) breaks free of Earth to orbit the Sun; the third (16.7 km/s) leaves the Solar System. All scale with the host body's mass and radius, so lunar and Martian probes recompute them per world.",
+          },
+          tags: [{ zh: "引力", en: "Gravity" }, { zh: "航天", en: "Spaceflight" }],
+        },
+        {
+          id: "orbit-maneuver",
+          icon: "🛰️",
+          term: { zh: "卫星变轨与轨道转移", en: "Orbit Maneuvers & Transfers" },
+          level: 3,
+          oneLiner: {
+            zh: "加速抬轨、减速降轨——一次喷发重设圆轨半径与周期。",
+            en: "Speed up to climb, slow down to descend—a burn resets orbit radius and period.",
+          },
+          detail: {
+            zh: "卫星在原圆轨道加速，所需向心力大于当前引力供给，遂做离心运动抬升到更高轨道；稳定到新圆轨后线速度反而变小（v 随 r 增大而减小），“高处反而更慢”是常考易错点。霍曼转移用两次短脉冲最省燃料地进出高轨，交会对接则需在低轨加速追赶、再做相位微调。",
+            en: "A prograde burn makes the satellite need more centripetal force than gravity supplies, so it swings out to a higher orbit; once circularized its speed is actually lower (v falls as r grows)—“higher yet slower” is a classic trap. A Hohmann transfer raises or lowers an orbit with two impulsive burns at minimum fuel, while rendezvous means accelerating in a lower chase orbit then trimming phase.",
+          },
+          tags: [{ zh: "引力", en: "Gravity" }, { zh: "航天", en: "Spaceflight" }],
+        },
+        {
+          id: "binary-star",
+          icon: "🌀",
+          term: { zh: "双星与多星系统", en: "Binary & Multiple Stars" },
+          level: 3,
+          oneLiner: {
+            zh: "两颗星绕共同质心转动，周期相同、轨道半径与质量成反比。",
+            en: "Two stars orbit their common centre of mass—same period, radii inversely proportional to mass.",
+          },
+          detail: {
+            zh: "双星间的万有引力提供各自绕质心的向心力，故两者角速度与周期相同，满足 m₁r₁ = m₂r₂——质量大的离质心更近、转的圆更小。天狼星 B、食双星由此称出质量；X 射线双星与引力波双黑洞并合同属这一框架，使双星成为称量天体的主法。",
+            en: "Their mutual gravity supplies each star's centripetal force, so both share one angular speed and period with m₁r₁ = m₂r₂—heavier stars sit closer to the barycentre on smaller circles. Sirius B and eclipsing binaries are weighed this way, as are X-ray binaries and merging black-hole waves, making binaries the primary method for measuring stellar masses.",
+          },
+          tags: [{ zh: "引力", en: "Gravity" }, { zh: "天体", en: "Astronomy" }],
+        },
+        {
           id: "work-power",
           eq: [
             { lhs: "W", rhs: "Fs·cosθ", rel: "equal" },
@@ -1521,6 +1567,21 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "The Sun and hydrogen bombs run on fusion; per mass it releases more energy than fission with cleaner products, but needs >10⁸ K confinement (magnetic/inertial) — controlled fusion is still being mastered.",
           },
           tags: [{ zh: "原子核", en: "Nuclear" }],
+        },
+        {
+          id: "standard-model",
+          icon: "🧩",
+          term: { zh: "粒子物理与标准模型", en: "Particle Physics & the Standard Model" },
+          level: 3,
+          oneLiner: {
+            zh: "物质由夸克与轻子构成，靠规范玻色子传递三种基本相互作用。",
+            en: "Matter is built of quarks and leptons, with gauge bosons carrying three fundamental forces.",
+          },
+          detail: {
+            zh: "标准模型把基本粒子分为费米子（六种夸克与电子、μ 子、τ 子及其中微子）与玻色子（光子、胶子、W/Z，以及 2012 年证实的希格斯玻色子），统一了电磁、弱、强三种相互作用，引力不在其内。夸克因色禁闭从不单独出现、只能组成质子与中子等强子；该模型预言极精，却无法解释暗物质、中微子质量与引力，被视为更深层理论的近似。",
+            en: "The Standard Model sorts particles into fermions (six quarks plus the electron, muon, tau and their neutrinos) and bosons (photon, gluon, W/Z, and the Higgs confirmed in 2012), unifying the electromagnetic, weak and strong forces—gravity aside. Quarks never appear free due to color confinement, only as hadrons like protons and neutrons; the model is uncannily precise yet leaves dark matter, neutrino mass and gravity unexplained, and is taken as an approximation of a deeper theory.",
+          },
+          tags: [{ zh: "粒子", en: "Particles" }, { zh: "前沿", en: "Frontier" }],
         },
       ],
     },
