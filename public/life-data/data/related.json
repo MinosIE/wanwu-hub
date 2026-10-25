@@ -818,6 +818,34 @@
       "nEn": "Dove Tree"
     }
   ],
+  "golden-snub-nosed-monkey": [
+    {
+      "m": "m-endemics",
+      "n": "川金丝猴",
+      "nEn": "Golden Snub-nosed Monkey"
+    }
+  ],
+  "pere-davids-deer": [
+    {
+      "m": "m-endemics",
+      "n": "麋鹿",
+      "nEn": "Père David's Deer"
+    }
+  ],
+  "chinese-giant-salamander": [
+    {
+      "m": "m-endemics",
+      "n": "大鲵",
+      "nEn": "Chinese Giant Salamander"
+    }
+  ],
+  "yangtze-finless-porpoise": [
+    {
+      "m": "m-endemics",
+      "n": "长江江豚",
+      "nEn": "Yangtze Finless Porpoise"
+    }
+  ],
   "allele": [
     {
       "m": "m-glossary",

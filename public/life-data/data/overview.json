@@ -6,7 +6,7 @@
     "principles": 19,
     "classics": 21,
     "thinkers": 26,
-    "endemics": 12,
+    "endemics": 16,
     "glossary": 16,
     "myths": 16,
     "experiments": 12,
@@ -50,7 +50,7 @@
     {
       "key": "endemics",
       "icon": "🐼",
-      "value": 12
+      "value": 16
     }
   ]
 }

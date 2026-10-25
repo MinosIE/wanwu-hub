@@ -322,5 +322,241 @@
       { "label": "IUCN 红色名录", "labelEn": "IUCN Red List", "url": "", "type": "权威名录", "typeEn": "Authoritative list" },
       { "label": "中国生物多样性红色名录", "labelEn": "China Biodiversity Red List", "url": "", "type": "国内名录", "typeEn": "National list" }
     ]
+  },
+  {
+    "id": "golden-snub-nosed-monkey",
+    "name": "川金丝猴",
+    "nameEn": "Golden Snub-nosed Monkey",
+    "taxon": "哺乳纲 · 灵长目 · 猴科 · 仰鼻猴属",
+    "taxonEn": "Mammals · Primates · Cercopithecidae · Rhinopithecus",
+    "status": "濒危（EN）",
+    "statusEn": "Endangered (EN)",
+    "region": "中国西南与中部山地",
+    "regionEn": "Mountains of southwest and central China",
+    "oneLiner": "金毛蓝面、朝天鼻——常年生活在海拔一千五百米以上雪林的仰鼻猴。",
+    "oneLinerEn": "Golden fur, blue face, upturned nose — a monkey at home in snow forest above 1,500 metres.",
+    "bio": "鼻梁退化、鼻孔上仰是对高寒气候的适应，可减少冻伤。它们家族群居，冬季食物短缺时整群转场觅食，雄性育儿尤为尽心。神话里的「金毛犼」与香格里拉的「雪域精灵」说的都是它。",
+    "bioEn": "Its flattened, upturned nose is read as an adaptation to alpine cold, limiting frostbite. It lives in family groups that move through the conifers when winter food runs short, with males doting on infants. Chinese lore of golden-furred spirits points to this monkey.",
+    "traits": [
+      {
+        "k": "朝天鼻",
+        "kEn": "Upturned nose",
+        "v": "鼻梁退化，适应高寒环境",
+        "vEn": "Reduced nasal bridge suits the cold"
+      },
+      {
+        "k": "雪林转场",
+        "kEn": "Winter movement",
+        "v": "食物短缺时整群迁移觅食",
+        "vEn": "Groups relocate when food fails"
+      }
+    ],
+    "notes": [
+      {
+        "k": "旗舰物种",
+        "kEn": "Flagship species",
+        "v": "亚热带高山森林生态指示者",
+        "vEn": "Symbol of montane forest health"
+      },
+      {
+        "k": "保护成效",
+        "kEn": "Conservation gain",
+        "v": "栖息地保护下种群稳步增长",
+        "vEn": "Numbers rise under habitat protection"
+      }
+    ],
+    "sources": [
+      {
+        "label": "IUCN 红色名录",
+        "labelEn": "IUCN Red List",
+        "url": "",
+        "type": "权威名录",
+        "typeEn": "Authoritative list"
+      },
+      {
+        "label": "中国国家重点保护野生动物名录",
+        "labelEn": "China National Protected Wildlife List",
+        "url": "",
+        "type": "国内名录",
+        "typeEn": "National list"
+      }
+    ]
+  },
+  {
+    "id": "pere-davids-deer",
+    "name": "麋鹿",
+    "nameEn": "Père David's Deer",
+    "taxon": "哺乳纲 · 偶蹄目 · 鹿科 · 麋鹿属",
+    "taxonEn": "Mammals · Artiodactyla · Cervidae · Elaphurus",
+    "status": "野外灭绝（EW）· 重引进成功",
+    "statusEn": "Extinct in the Wild · Reintroduced",
+    "region": "原产华北平原，今重返北京南海子与沿江湿地",
+    "regionEn": "Native to the North China Plain; returned to Nanhaizi and Yangtze wetlands",
+    "oneLiner": "角似鹿、蹄似牛、尾似驴、头似马的「四不像」，历经本土灭绝与海外归还、重返荒野的生命传奇。",
+    "oneLinerEn": "Antlers like a deer, hooves like a cow, tail like a donkey, head like a horse — the 'not-this-not-that' that vanished, then came home.",
+    "bio": "清末在原产地彻底灭绝，幸存个体靠英国乌邦寺庄园的种群延续；1985 年起归还中国，北京南海子与江苏大丰相继建群，野化种群已在长江与鄱阳湖畔的湿地站稳脚跟，成为物种重引入的经典案例。",
+    "bioEn": "Wiped out in its native wetlands by the end of the Qing, the species survived only in the herd at Woburn Abbey in England. Returned to China from 1985, herds re-established at Nanhaizi near Beijing and Dafeng in Jiangsu, and wild-released populations now hold the wetlands near the Yangtze and Poyang — a textbook rescue from extinction in the wild.",
+    "traits": [
+      {
+        "k": "四不像",
+        "kEn": "The 'four-nots'",
+        "v": "角、蹄、尾、头各具他兽之形",
+        "vEn": "Antler, hoof, tail and head each borrowed"
+      },
+      {
+        "k": "归国之路",
+        "kEn": "Road home",
+        "v": "乌邦寺种群归还、重建野化群落",
+        "vEn": "Woburn herd repatriated; wild herds rebuilt"
+      }
+    ],
+    "notes": [
+      {
+        "k": "湿地旗舰",
+        "kEn": "Wetland flagship",
+        "v": "平原沼泽生态系统的指示物种",
+        "vEn": "Indicator of lost lowland marshes"
+      },
+      {
+        "k": "文化图腾",
+        "kEn": "Cultural icon",
+        "v": "传说中姜子牙的坐骑即其形象",
+        "vEn": "Riding beast of lore's Jiang Ziya"
+      }
+    ],
+    "sources": [
+      {
+        "label": "IUCN 红色名录",
+        "labelEn": "IUCN Red List",
+        "url": "",
+        "type": "权威名录",
+        "typeEn": "Authoritative list"
+      },
+      {
+        "label": "中国国家重点保护野生动物名录",
+        "labelEn": "China National Protected Wildlife List",
+        "url": "",
+        "type": "国内名录",
+        "typeEn": "National list"
+      }
+    ]
+  },
+  {
+    "id": "chinese-giant-salamander",
+    "name": "大鲵",
+    "nameEn": "Chinese Giant Salamander",
+    "taxon": "两栖纲 · 有尾目 · 隐鳃鲵科 · 大鲵属",
+    "taxonEn": "Amphibians · Caudata · Cryptobranchidae · Andrias",
+    "status": "极危（CR）",
+    "statusEn": "Critically Endangered (CR)",
+    "region": "秦岭—淮河以南的山涧溪流",
+    "regionEn": "Mountain streams south of the Qinling–Huaihe line",
+    "oneLiner": "古人唤作「娃娃鱼」的巨螈，体长可逾一米、寿命近百——现存最大的两栖动物。",
+    "oneLinerEn": "The giant 'baby-fish' of old tales — over a metre long, living perhaps a century — the largest amphibian alive.",
+    "bio": "与恐龙同时代兴起又在物种大灭绝中幸存的古老类群，是名副其实的活化石。因「娃娃鱼可食」的旧说长期遭捕捞，加上溪流污染与水电切割栖息地，野生种群急跌；现为国家重点保护野生动物，人工繁育与增殖放流正在托底。",
+    "bioEn": "An ancient lineage that outlived the dinosaurs, a true living fossil. Hunted for centuries under the folk claim that its flesh feeds the weak — compounded by stream pollution and dams slicing its habitat — wild numbers collapsed; it is now under state protection, with hatchery breeding and release buffering the species.",
+    "traits": [
+      {
+        "k": "两栖巨人",
+        "kEn": "Giant of the streams",
+        "v": "现存最大两栖动物，可超一米",
+        "vEn": "Largest living amphibian, past one metre"
+      },
+      {
+        "k": "夜行隐士",
+        "kEn": "Nocturnal recluse",
+        "v": "白天匿身石缝，夜间溪中觅食",
+        "vEn": "Hides in rock crevices by day, fords the current at night"
+      }
+    ],
+    "notes": [
+      {
+        "k": "水质指示",
+        "kEn": "Water gauge",
+        "v": "只对洁净低温溪流敏感",
+        "vEn": "Thrives only in clean cold streams"
+      },
+      {
+        "k": "娃娃鱼传说",
+        "kEn": "Folk lore",
+        "v": "啼声似婴孩而得俗名",
+        "vEn": "Named for its infant-like cry"
+      }
+    ],
+    "sources": [
+      {
+        "label": "IUCN 红色名录",
+        "labelEn": "IUCN Red List",
+        "url": "",
+        "type": "权威名录",
+        "typeEn": "Authoritative list"
+      },
+      {
+        "label": "中国国家重点保护野生动物名录",
+        "labelEn": "China National Protected Wildlife List",
+        "url": "",
+        "type": "国内名录",
+        "typeEn": "National list"
+      }
+    ]
+  },
+  {
+    "id": "yangtze-finless-porpoise",
+    "name": "长江江豚",
+    "nameEn": "Yangtze Finless Porpoise",
+    "taxon": "哺乳纲 · 鲸目 · 鼠海豚科 · 江豚属",
+    "taxonEn": "Mammals · Cetacea · Phocoenidae · Neophocaena",
+    "status": "濒危（EN）",
+    "statusEn": "Endangered (EN)",
+    "region": "长江中下游干流、通江湖泊及近海",
+    "regionEn": "Middle-lower Yangtze, connected lakes and coastal waters",
+    "oneLiner": "嘴角上扬如微笑的「长江女神」，白鱀豚功能性灭绝后长江唯一的鲸类居民。",
+    "oneLinerEn": "The smiling 'goddess of the Yangtze' — the river's only whale-life left after the baiji's functional extinction.",
+    "bio": "没有背鳍，背脊低平，嘴角天然上扬，被摄影者称为微笑天使。受定置渔具缠绕、航运噪声与江湖隔断之苦，2006 年科考曾估算不足两千头；近年十年禁渔与迁地保护初见成效，2022 年科考回升至约一千二百四十头，是长江生态的晴雨表。",
+    "bioEn": "Ridge-backed rather than finned, with a naturally upturned mouth — the 'smiling angel' of camera lenses. Tangled in fixed nets, harassed by ship noise and cut off between river and lake, it was counted at under 2,000 in 2006; a decade-wide fishing ban and translocation refuges have lifted it to roughly 1,250 in the 2022 survey — the Yangtze's ecological barometer.",
+    "traits": [
+      {
+        "k": "微笑天使",
+        "kEn": "Smiling angel",
+        "v": "无背鳍、嘴角上扬，形似带笑",
+        "vEn": "No dorsal fin, mouth that looks aglow"
+      },
+      {
+        "k": "生态晴雨表",
+        "kEn": "River barometer",
+        "v": "种群增减直接反映长江健康状况",
+        "vEn": "Its numbers read the river's health"
+      }
+    ],
+    "notes": [
+      {
+        "k": "与白鱀豚同支",
+        "kEn": "Baiji's cousin",
+        "v": "同陷濒危，一已功能性灭绝",
+        "vEn": "Same peril; one already functionally lost"
+      },
+      {
+        "k": "迁地保护",
+        "kEn": "Refuge transfer",
+        "v": "铜陵等地半迁移保护区建成",
+        "vEn": "Semi-natural reserves built at Tongling and beyond"
+      }
+    ],
+    "sources": [
+      {
+        "label": "IUCN 红色名录",
+        "labelEn": "IUCN Red List",
+        "url": "",
+        "type": "权威名录",
+        "typeEn": "Authoritative list"
+      },
+      {
+        "label": "中国国家重点保护野生动物名录",
+        "labelEn": "China National Protected Wildlife List",
+        "url": "",
+        "type": "国内名录",
+        "typeEn": "National list"
+      }
+    ]
   }
 ]
