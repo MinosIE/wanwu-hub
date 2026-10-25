@@ -674,8 +674,8 @@
   "immunity": [
     {
       "m": "m-principles",
-      "n": "免疫防御",
-      "nEn": "Immune Defense"
+      "n": "免疫防御（疫苗与免疫记忆）",
+      "nEn": "Immune Defense (Vaccines and Immune Memory)"
     }
   ],
   "biodiversity-value": [
@@ -702,8 +702,8 @@
   "microbiome": [
     {
       "m": "m-principles",
-      "n": "微生物组与共生",
-      "nEn": "The Microbiome & Symbiosis"
+      "n": "微生物组与共生（微生物与病毒）",
+      "nEn": "The Microbiome & Symbiosis (Microbes and Viruses)"
     }
   ],
   "cell-division": [
@@ -716,15 +716,15 @@
   "mutation-variation": [
     {
       "m": "m-principles",
-      "n": "突变：变异的原始材料",
-      "nEn": "Mutation: The Raw Material of Variation"
+      "n": "突变：变异的原始材料（现代生物技术）",
+      "nEn": "Mutation: The Raw Material of Variation (Modern Biotechnology)"
     }
   ],
   "circulation-transport": [
     {
       "m": "m-principles",
-      "n": "循环与物质运输",
-      "nEn": "Circulation and Transport"
+      "n": "循环与物质运输（植物激素与信号）",
+      "nEn": "Circulation and Transport (Plant Hormones and Signals)"
     }
   ],
   "history-of-life": [
@@ -732,6 +732,34 @@
       "m": "m-principles",
       "n": "生命史：灭绝与适应辐射",
       "nEn": "History of Life: Extinction and Radiation"
+    }
+  ],
+  "plant-hormones": [
+    {
+      "m": "m-principles",
+      "n": "植物激素与信号",
+      "nEn": "Plant Hormones and Signals"
+    }
+  ],
+  "vaccine-immunity": [
+    {
+      "m": "m-principles",
+      "n": "疫苗与免疫记忆",
+      "nEn": "Vaccines and Immune Memory"
+    }
+  ],
+  "microbes-viruses": [
+    {
+      "m": "m-principles",
+      "n": "微生物与病毒",
+      "nEn": "Microbes and Viruses"
+    }
+  ],
+  "modern-biotech": [
+    {
+      "m": "m-principles",
+      "n": "现代生物技术",
+      "nEn": "Modern Biotechnology"
     }
   ],
   "giant-panda": [

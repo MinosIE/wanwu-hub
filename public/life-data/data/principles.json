@@ -474,8 +474,8 @@
   },
   {
     "id": "immunity",
-    "title": "免疫防御",
-    "titleEn": "Immune Defense",
+    "title": "免疫防御（疫苗与免疫记忆）",
+    "titleEn": "Immune Defense (Vaccines and Immune Memory)",
     "icon": "🛡️",
     "category": "生理",
     "categoryEn": "Physiology",
@@ -509,7 +509,7 @@
         "vEn": "Memory cells surge on re-encounter—the very basis of vaccination."
       }
     ],
-    "related": ["pasteur", "bacteria", "homeostasis"],
+    "related": ["pasteur", "bacteria", "homeostasis", "vaccine-immunity"],
     "sources": [
       {
         "label": "巴斯德免疫与疫苗研究",
@@ -655,8 +655,8 @@
   },
   {
     "id": "microbiome",
-    "title": "微生物组与共生",
-    "titleEn": "The Microbiome & Symbiosis",
+    "title": "微生物组与共生（微生物与病毒）",
+    "titleEn": "The Microbiome & Symbiosis (Microbes and Viruses)",
     "icon": "🦠",
     "category": "生态",
     "categoryEn": "Ecology",
@@ -688,7 +688,8 @@
       "margulis",
       "immunity",
       "bacteria",
-      "ecosystem-dynamics"
+      "ecosystem-dynamics",
+      "microbes-viruses"
     ],
     "sources": [
       {
@@ -750,8 +751,8 @@
   },
   {
     "id": "mutation-variation",
-    "title": "突变：变异的原始材料",
-    "titleEn": "Mutation: The Raw Material of Variation",
+    "title": "突变：变异的原始材料（现代生物技术）",
+    "titleEn": "Mutation: The Raw Material of Variation (Modern Biotechnology)",
     "icon": "✳️",
     "category": "遗传",
     "categoryEn": "Genetics",
@@ -788,7 +789,8 @@
     "related": [
       "central-dogma",
       "heredity-mendel",
-      "natural-selection"
+      "natural-selection",
+      "modern-biotech"
     ],
     "sources": [
       {
@@ -800,8 +802,8 @@
   },
   {
     "id": "circulation-transport",
-    "title": "循环与物质运输",
-    "titleEn": "Circulation and Transport",
+    "title": "循环与物质运输（植物激素与信号）",
+    "titleEn": "Circulation and Transport (Plant Hormones and Signals)",
     "icon": "🩸",
     "category": "生理",
     "categoryEn": "Physiology",
@@ -838,7 +840,8 @@
     "related": [
       "homeostasis",
       "energy-flow",
-      "immunity"
+      "immunity",
+      "plant-hormones"
     ],
     "sources": [
       {
@@ -895,6 +898,246 @@
         "label": "古尔德与埃尔德里奇：间断平衡",
         "labelEn": "Gould & Eldredge, Punctuated Equilibrium",
         "year": 1972
+      }
+    ]
+  },
+  {
+    "id": "plant-hormones",
+    "title": "植物激素与信号",
+    "titleEn": "Plant Hormones and Signals",
+    "icon": "🌱",
+    "category": "生理",
+    "categoryEn": "Physiology",
+    "level": 2,
+    "order": 20,
+    "lead": "植物不会挪窝，却会把根扎向水、把茎探向光、在季节里落叶结果——指挥这一切的不是神经，而是微量的植物激素。",
+    "leadEn": "Plants can't move, yet roots reach for water, stems lean into light, leaves fall and fruit ripens on cue—no nerves involved, only trace plant hormones.",
+    "points": [
+      {
+        "k": "生长素的发现",
+        "kEn": "Uncovering auxin",
+        "v": "达尔文父子用金丝雀虉草向光实验猜到有「影响」在上下传递；1928 年温特以燕麦胚芽鞘证明那是一种化学物质，将其命名生长素，后来证实本质是吲哚乙酸。",
+        "vEn": "Darwin and his son suspected a transmitted 'influence' in phototropic canary grass; in 1928 Went proved it a chemical using oat coleoptiles and named it auxin, later identified as indole-3-acetic acid."
+      },
+      {
+        "k": "两重性：低促高抑",
+        "kEn": "Dose flips the effect",
+        "v": "同一激素在不同浓度效果迥异：低浓度促进生长、高浓度抑制，根、芽、茎对浓度越来越不敏感；顶端优势即顶芽优长、侧芽受抑。",
+        "vEn": "One hormone, two faces: low doses promote growth, high doses inhibit, roots being most sensitive; apical dominance lets the tip grow while side buds wait."
+      },
+      {
+        "k": "极性运输",
+        "kEn": "One-way transport",
+        "v": "生长素在幼嫩组织合成，只能从形态学上端单方向向下运送；单侧光下它在尖端横向重分布、背光侧多，茎因此向弯光。",
+        "vEn": "Made in young tissue, auxin travels only from the morphological top downward; under one-sided light it redistributes at the tip, pooling on the shaded side so the stem bends to light."
+      },
+      {
+        "k": "五大类与农业应用",
+        "kEn": "Five classes, many uses",
+        "v": "生长素、赤霉素、细胞分裂素、脱落酸与乙烯各司其职；人工生长调节剂已用于生根粉、疏花疏果、无子番茄与乙烯利催熟。",
+        "vEn": "Auxin, gibberellin, cytokinin, abscisic acid and ethylene each play a role; synthetic regulators already serve rooting powders, fruit thinning, seedless tomatoes and ripening agents."
+      }
+    ],
+    "related": ["circulation-transport", "cell-division", "energy-flow"],
+    "sources": [
+      {
+        "label": "The Power of Movement in Plants",
+        "labelEn": "The Power of Movement in Plants",
+        "year": 1880
+      },
+      {
+        "label": "Went, Oats and Auxin",
+        "labelEn": "Went, Oats and Auxin",
+        "year": 1928
+      },
+      {
+        "label": "人教版《生物学·选择性必修1》",
+        "labelEn": "PEP Biology Elective Required 1",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "vaccine-immunity",
+    "title": "疫苗与免疫记忆",
+    "titleEn": "Vaccines and Immune Memory",
+    "icon": "💉",
+    "category": "生理",
+    "categoryEn": "Physiology",
+    "level": 2,
+    "order": 21,
+    "lead": "疫苗的本质是一次「彩排」：把无害或减量的病原交给免疫系统预演，等真敌来袭，记忆早已磨好了刀。",
+    "leadEn": "A vaccine is a rehearsal: hand the immune system a harmless or attenuated foe to drill, and when the real enemy comes, memory is already sharpened.",
+    "points": [
+      {
+        "k": "接种即初次应答",
+        "kEn": "Vaccination primes",
+        "v": "疫苗模拟初次感染，激发淋巴细胞产生效应细胞与记忆细胞，却不发病；这借用的是适应性免疫「学一次、记多年」的天性。",
+        "vEn": "Vaccines mimic a first infection, raising effector and memory lymphocytes without the illness—borrowing adaptive immunity’s knack of learning once and remembering for years."
+      },
+      {
+        "k": "记忆为何更强",
+        "kEn": "Why memory hits harder",
+        "v": "再次遇到同种抗原，记忆细胞迅速增殖分化，抗体来得更快、更多、更持久，二次应答远强于初次应答——加强针正基于此。",
+        "vEn": "On re-encounter, memory cells proliferate fast; antibodies arrive sooner, thicker and longer—a secondary response far beyond the first, the logic behind boosters."
+      },
+      {
+        "k": "疫苗家族的路线之争",
+        "kEn": "A family of strategies",
+        "v": "灭活疫苗稳而弱、减毒活疫苗强而慎、亚单位与重组疫苗精而短、mRNA 疫苗新而快；从牛痘天花疫苗到流感裂解疫苗，路线各有权衡。",
+        "vEn": "Inactivated is safe but mild, live-attenuated strong but cautious, subunit precise but brief, mRNA novel and swift—from smallpox to flu split vaccines, each trade-off is deliberate."
+      },
+      {
+        "k": "群体免疫",
+        "kEn": "Herd immunity",
+        "v": "接种率跨过某病阈值，传播链大面积断裂，连未接种者也被庇护；传染力越强的病门槛越高，故群体免疫不等于人人接种。",
+        "vEn": "Past a coverage threshold, transmission chains snap at large and even the unvaccinated shelter beneath herd immunity—the more contagious the disease, the higher the bar."
+      }
+    ],
+    "related": [
+      "immunity",
+      "bio-pasteur-biogenesis",
+      "specific-vs-nonspecific-immunity",
+      "history-of-life"
+    ],
+    "sources": [
+      {
+        "label": "Janeway's Immunobiology",
+        "labelEn": "Janeway's Immunobiology",
+        "year": 2021
+      },
+      {
+        "label": "Plotkin's Vaccines",
+        "labelEn": "Plotkin's Vaccines",
+        "year": 2018
+      },
+      {
+        "label": "人教版《生物学·选择性必修1》",
+        "labelEn": "PEP Biology Elective Required 1",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "microbes-viruses",
+    "title": "微生物与病毒",
+    "titleEn": "Microbes and Viruses",
+    "icon": "🦠",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 1,
+    "order": 22,
+    "lead": "微生物不是一个类群，而是「长得小、活得简单」的生物的统称；病毒更特殊——不在细胞里，就不算活着。",
+    "leadEn": "Microbes are no lineage but a shorthand for \"small and simple\" life; viruses are stranger still—outside a cell, they hardly count as alive.",
+    "points": [
+      {
+        "k": "多系而非一族",
+        "kEn": "Many lineages, one label",
+        "v": "细菌、古菌、多数原生生物与微型真菌同打「微生物」旗号却无同一祖先，把微生物当作一个分类单元是常见误会。",
+        "vEn": "Bacteria, archaea, most protists and tiny fungi share the label but no single ancestor—treating microbes as one taxon is a classic blunder."
+      },
+      {
+        "k": "大小与极端",
+        "kEn": "Tiny, yet extreme",
+        "v": "从纳米级的滤过性细菌到肉眼可辨的硫珠菌，微生物尺度横跨几个数量级；深海、热泉、酸性矿水皆是它们的地盘。",
+        "vEn": "From nanometer filterable bacteria to naked-eye sulfur pearls, microbes span orders of magnitude; deep sea, hot springs and acid mine water are their parishes."
+      },
+      {
+        "k": "病毒：寄生边缘",
+        "kEn": "Viruses at the edge",
+        "v": "几十到数百纳米，仅衣壳包裹遗传物质，专性活细胞内复制：吸附、注入、合成、组装、释放；按遗传物质分 DNA 病毒、RNA 病毒与逆转录病毒诸类。",
+        "vEn": "Tens to hundreds of nanometers, just a capsid around genetic material, replicating only inside living cells—attach, inject, make, assemble, release—typed by genome into DNA, RNA and retro-viruses."
+      },
+      {
+        "k": "敌友两面",
+        "kEn": "Foe and friend",
+        "v": "人类历史上许多传染病源于动物；而肠道菌群、发酵工业与氮碳循环同样离不开微生物——「敌人」与「盟友」是同一批小家伙。",
+        "vEn": "Many historic plagues came from animals; yet gut flora, fermentation and the carbon–nitrogen cycles depend on the same tiny players—foes and friends in one skin."
+      }
+    ],
+    "related": [
+      "microbiome",
+      "ecosystem-dynamics",
+      "van-leeuwenhoek",
+      "energy-flow"
+    ],
+    "sources": [
+      {
+        "label": "Dworkin, The Prokaryotes",
+        "labelEn": "Dworkin, The Prokaryotes",
+        "year": 2006
+      },
+      {
+        "label": "Flint, Viral Life",
+        "labelEn": "Flint, Viral Life",
+        "year": 2020
+      },
+      {
+        "label": "人教版《生物学·必修1》",
+        "labelEn": "PEP Biology Required 1",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "modern-biotech",
+    "title": "现代生物技术",
+    "titleEn": "Modern Biotechnology",
+    "icon": "🧬",
+    "category": "综合",
+    "categoryEn": "Synthesis",
+    "level": 3,
+    "order": 23,
+    "lead": "从泡菜坛到基因编辑瓶，生物技术的主线只有一条：让生命替人干活——现代三支是基因、细胞与发酵工程。",
+    "leadEn": "From pickle crock to gene-editing vial, biotechnology has one plot: make life work for us—its modern three acts are gene, cell and fermentation engineering.",
+    "points": [
+      {
+        "k": "工程三支骨架",
+        "kEn": "Three engineering acts",
+        "v": "发酵工程借生物反应器与固定化酶把微生物变成工人；基因工程要限制酶、连接酶与载体三件套；细胞工程从组织培养、体细胞杂交到核移植各展其技。",
+        "vEn": "Fermentation turns microbes into workers with bioreactors and immobilized enzymes; gene engineering needs restriction enzymes, ligase and vectors; cell engineering runs from tissue culture and somatic hybridization to nuclear transfer."
+      },
+      {
+        "k": "工具酶与载体",
+        "kEn": "Enzymes and vectors",
+        "v": "限制酶如「分子手术刀」定点剪切，DNA 连接酶缝合切口，载体送目的基因上路；PCR 则像分子复印机，让片段指数级扩增。",
+        "vEn": "Restriction enzymes cut at defined sites, ligase stitches the nicks, vectors carry the gene of interest; PCR works as a molecular copier, amplifying fragments exponentially."
+      },
+      {
+        "k": "细胞的手笔",
+        "kEn": "Cell crafts",
+        "v": "植物组织培养凭细胞全能性从单个细胞养出完整植株；单克隆抗体靠杂交瘤把抗体做成单一规格；体细胞核移植则问出了克隆羊多莉。",
+        "vEn": "Tissue culture exploits cellular totipotency to regrow a whole plant from one cell; hybridomas standardize antibodies; somatic cell nuclear transfer produced Dolly."
+      },
+      {
+        "k": "安全与伦理并行",
+        "kEn": "Safety with ethics",
+        "v": "转基因作物的论战、生殖性克隆人的红线、基因编辑婴儿的越界——技术能做什么之外，社会还要回答允许做什么。",
+        "vEn": "GM crop disputes, the red line on reproductive human cloning, the edited-babies breach—beyond what technology can do, society must answer what it will allow."
+      }
+    ],
+    "related": [
+      "central-dogma",
+      "mutation-variation",
+      "griffith-transformation",
+      "cloned-sheep-dolly",
+      "pcr-invention"
+    ],
+    "sources": [
+      {
+        "label": "Sambrook, Molecular Cloning",
+        "labelEn": "Sambrook, Molecular Cloning",
+        "year": 2001
+      },
+      {
+        "label": "Watson, Molecular Biology of the Gene",
+        "labelEn": "Watson, Molecular Biology of the Gene",
+        "year": 2008
+      },
+      {
+        "label": "人教版《生物学·选择性必修3》",
+        "labelEn": "PEP Biology Elective Required 3",
+        "year": 2019
       }
     ]
   }
