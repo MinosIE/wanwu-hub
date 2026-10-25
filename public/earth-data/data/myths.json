@@ -209,5 +209,65 @@
       "time-zone",
       "china"
     ]
+  },
+  {
+    "id": "greenwich-meridian",
+    "term": "「0°经线是天然的起点」",
+    "termEn": "\"The Prime Meridian Is a Natural Zero Line\"",
+    "category": "地图与识图",
+    "categoryEn": "Maps & Reading",
+    "level": 1,
+    "myth": "地球上本该有一条「起始经线」，格林尼治是自然选中的那条。",
+    "mythEn": "Earth ought to have one natural starting meridian, and Greenwich was chosen by nature rather than by people.",
+    "truth": "0°经线纯属人为约定，历史上英法美等国各定自己的本初线；1884 年国际会议才把格林尼治定为通用参考。",
+    "truthEn": "The zero line is pure convention: Britain, France and the US each kept their own prime meridian until an 1884 conference set Greenwich as the shared reference.",
+    "detail": "纬线有赤道这一天然大圆，经线却两两等长、无所谓首；换一条本初线，全球经度数值都随之平移。今天卫星定位所用的本初线，与格林尼治老铜盘已差出约百米。",
+    "detailEn": "Latitudes have the equator as a natural great circle, but all meridians are equal halves with no rightful first; shift the prime line and every longitude on Earth shifts with it. The meridian satellites use today sits some hundred metres east of Greenwich's old disc.",
+    "related": ["time-zone", "timezone-straight-lines", "mercator-true-shape"]
+  },
+  {
+    "id": "antarctica-largest-desert",
+    "term": "「最大的沙漠就是撒哈拉」",
+    "termEn": "\"The Sahara Is the World's Largest Desert\"",
+    "category": "荒漠与干旱",
+    "categoryEn": "Deserts & Aridity",
+    "level": 1,
+    "myth": "沙漠等于烈日黄沙，所以最大的沙漠自然在最热的非洲。",
+    "mythEn": "A desert means blazing sun and golden sand, so the largest one must lie in hot Africa.",
+    "truth": "沙漠的判据是降水稀少而非气温，南极洲才是世界最大荒漠，撒哈拉只是最大的热沙漠。",
+    "truthEn": "Deserts are defined by scarce precipitation, not heat; Antarctica is the largest desert on Earth, with the Sahara only the largest hot one.",
+    "detail": "南极年降水极少、空气干燥、地表几乎无植物，完全符合荒漠定义；按干湿划分，冷荒漠面积远超热荒漠。把沙漠与酷暑画等号，才让人误认撒哈拉居首。",
+    "detailEn": "Antarctica gets tiny precipitation, dry air and almost no plant life, a desert by every definition. Cold deserts far outweigh hot ones, and it is the habit of equating desert with scorching heat that wrongly crowns the Sahara.",
+    "related": ["desert", "desert-sand-seas", "tundra"]
+  },
+  {
+    "id": "inland-quakes",
+    "term": "「地震只发生在板块交界」",
+    "termEn": "\"Earthquakes Only Strike Plate Boundaries\"",
+    "category": "地质构造",
+    "categoryEn": "Geologic Structure",
+    "level": 2,
+    "myth": "板块边缘才是地震带，远离边界的内陆腹地安稳无虞。",
+    "mythEn": "Only plate edges are earthquake belts; far from the margins, inland interiors are safe.",
+    "truth": "板块内部同样会地震：古老断裂重新活动、板内应力积累都能引发强震，历史上不少大地震正发生在板块内部。",
+    "truthEn": "Intraplate quakes are real: ancient faults can reactivate and stress builds within plates, and several great quakes in history struck far from any boundary.",
+    "detail": "板块并非刚性不动，内部仍有薄弱带与残余应力。中国华北、印度德干、美国新马德里等强震区都深居板块内部，提醒人们「离边界远」绝不等于「没有地震」。",
+    "detailEn": "A plate is not a rigid, idle slab; weak zones and stored stress linger within. The North China plain, India's Deccan and the New Madrid zone all sit deep inside plates, a reminder that being far from a boundary never means being free of earthquakes.",
+    "related": ["plate-tectonics", "seismic-volcanic", "fault"]
+  },
+  {
+    "id": "africa-all-desert",
+    "term": "「整个非洲都是炎热的沙漠」",
+    "termEn": "\"All of Africa Is Scorching Desert\"",
+    "category": "气候与生态",
+    "categoryEn": "Climate & Ecology",
+    "level": 1,
+    "myth": "一提到非洲就想到干旱沙海与酷热，仿佛全境都是撒哈拉。",
+    "mythEn": "Africa conjures parched seas of sand and heat, as if the whole continent were the Sahara.",
+    "truth": "非洲气候以赤道为轴南北对称：雨林、草原、沙漠、地中海海岸与高原山地兼备，刚果盆地就是世界第二大雨林。",
+    "truthEn": "Africa's climates mirror across the equator: rainforest, savanna, desert, Mediterranean coasts and highlands all feature, and the Congo Basin holds the world's second-largest rainforest.",
+    "detail": "赤道横贯中部，使自然带呈对称的环状分布；东非高原虽近赤道，却因海拔而凉爽，孕育稀树草原与裂谷湖泊。把整块大陆化约为「沙漠」，抹去了它从雨林到雪山的完整梯度。",
+    "detailEn": "The equator bisects the continent into a mirrored belt pattern; the East African highlands, cool for all their low latitude thanks to altitude, breed savanna and rift lakes. Reducing Africa to desert erases a gradient running from rainforest to snowpeak.",
+    "related": ["sahara", "desert", "savanna", "egypt"]
   }
 ]

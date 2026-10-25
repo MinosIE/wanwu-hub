@@ -213,5 +213,70 @@
       "homeostasis",
       "mammalia"
     ]
+  },
+  {
+    "id": "antibiotic-kills-virus",
+    "term": "「感冒就该吃抗生素消炎」",
+    "termEn": "\"Antibiotics Cure a Viral Cold\"",
+    "category": "微生物与健康",
+    "categoryEn": "Microbes & Health",
+    "level": 1,
+    "myth": "一有感冒发烧就自行服用抗生素，把它当成杀病毒、消发炎的万能药。",
+    "mythEn": "At the first cold or fever people reach for antibiotics, treating them as an all-purpose virus-killer and inflammation-curer.",
+    "truth": "抗生素只针对细菌（抑制其生长或将其杀灭），对病毒无效；滥用反而催生出无药可治的耐药菌。",
+    "truthEn": "Antibiotics act on bacteria, inhibiting their growth or killing them, and do nothing to viruses; misusing them instead breeds untreatable resistant strains.",
+    "detail": "感冒九成以上由病毒引起，抗生素既不能缩短病程也不能退热，唯有面对细菌性并发症才有意义。抗生素耐药被世卫组织列为全球头号公卫威胁之一；正确做法是遵医嘱、按疗程，而非「发炎就吃药」。",
+    "detailEn": "Most colds are viral, so antibiotics neither shorten them nor lower fever; they matter only against bacterial complications. Antimicrobial resistance ranks among the top global public-health threats. The right move is to complete a doctor's course, not to dose at every sign of inflammation.",
+    "related": ["virus-vs-bacterium", "bacteria", "pasteur"]
+  },
+  {
+    "id": "ten-percent-brain",
+    "term": "「人类只开发了大脑的 10%」",
+    "termEn": "\"Humans Use Only 10% of the Brain\"",
+    "category": "神经与行为",
+    "categoryEn": "Brain & Behaviour",
+    "level": 2,
+    "myth": "大脑九成处于沉睡，若能开启剩余部分就能获得超常智力。",
+    "mythEn": "Nine-tenths of the brain lies dormant; unlocking the rest would grant extraordinary intelligence.",
+    "truth": "脑成像显示即便在安静或睡眠时，大脑也几乎全域活动；所谓 10% 的说法既无证据，也与微小脑损伤的严重后果相矛盾。",
+    "truthEn": "Brain imaging shows that nearly the whole brain is active even at rest or in sleep; the 10% claim has no support and clashes with the devastation even small lesions cause.",
+    "detail": "大脑约占体重的 2%，却消耗约两成的能量，若九成闲置，进化绝不会容忍这份浪费。流言常源于对神经元功能的误传与成功学的包装，却被影视剧当作「超能力」设定反复引用。",
+    "detailEn": "The brain is about 2% of body weight yet burns roughly 20% of its energy; evolution would never abide a nine-tenths idle organ. The myth springs from misreported neuron function dressed up by self-help lore, then recycled by films as a superpower premise.",
+    "related": ["eukaryotic-cell", "cell-fundamentals", "innate-vs-learned-behavior"]
+  },
+  {
+    "id": "plant-only-day",
+    "term": "「植物白天只光合，夜里才呼吸」",
+    "termEn": "\"Plants Only Photosynthesize by Day and Breathe by Night\"",
+    "category": "植物生理",
+    "categoryEn": "Plant Physiology",
+    "level": 2,
+    "myth": "光合作用与呼吸是日班、夜班两套轮值：白天只管吸碳造氧，夜里才切换到呼吸。",
+    "mythEn": "Photosynthesis and respiration are day and night shifts: by day the plant only takes in carbon and makes oxygen, and only at night does it switch to breathing.",
+    "truth": "呼吸作用全天不间断进行，只有光合作用依赖光照；白天两者同时发生，只是光合速率远超呼吸，净效应才表现为吸碳放氧。",
+    "truthEn": "Respiration runs around the clock; it is photosynthesis that needs light. In daytime both proceed at once, but photosynthesis so outpaces respiration that the net effect reads as taking in carbon and giving off oxygen.",
+    "detail": "若真等到夜里才呼吸，白天积累的有机物将无人分解供能。叶片在正午同时运转两条通路，只是气体交换被强盛的光合所掩盖；入夜光照消失，呼吸显露，净向大气排放二氧化碳——这也是卧房里众多绿植清晨二氧化碳偏高的缘由。",
+    "detailEn": "If respiration truly waited for night, the sugars built by day would never be broken down for energy. At noon a leaf runs both pathways together, the gas exchange simply masked by vigorous photosynthesis; once light fails, respiration shows through and the plant nets out carbon dioxide, why a room thick with plants is rich in it by dawn.",
+    "related": ["photosynthesis-vs-respiration", "photosynthesis", "stomata"]
+  },
+  {
+    "id": "evolution-progress",
+    "term": "「进化是一步步迈向更高级的阶梯」",
+    "termEn": "\"Evolution Is a Ladder Climbing Toward Higher Forms\"",
+    "category": "演化论",
+    "categoryEn": "Evolution",
+    "level": 2,
+    "myth": "生命沿一条阶梯由低到高攀升，细菌落后，人类则是进化的终点与巅峰。",
+    "mythEn": "Life climbs a ladder from lower to higher, bacteria being behind and humans the goal and summit of evolution.",
+    "truth": "演化没有预设方向与终点，自然选择只保留当下更适应环境的性状；简单生物若能繁衍生息，本就是成功而非落后。",
+    "truthEn": "Evolution has no preset direction or summit; natural selection only keeps what suits the present environment. A simple organism that thrives is a success, not a laggard.",
+    "detail": "常被误称为「进化阶梯」的图景，其实更像不断分叉的树：细菌从未消失，至今仍是地球上数量最多、代谢最多样的一类，与真菌、动物同源。人类只是其中一根细枝，而非所有枝条指向的目标。",
+    "detailEn": "The picture often mislabelled a ladder of progress is really an ever-forking tree: bacteria never went away and remain the most numerous, most metabolically diverse lineage on Earth, sharing deep ancestry with fungi and animals. Humans are one slender twig, not the target every branch aimed at.",
+    "related": [
+      "natural-selection",
+      "human-evolution",
+      "fittest-strongest",
+      "tree-of-life"
+    ]
   }
 ]

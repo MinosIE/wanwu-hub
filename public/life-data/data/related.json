@@ -1266,6 +1266,34 @@
       "nEn": "\"Hibernation Is Just a Long Sleep\""
     }
   ],
+  "antibiotic-kills-virus": [
+    {
+      "m": "m-myths",
+      "n": "「感冒就该吃抗生素消炎」",
+      "nEn": "\"Antibiotics Cure a Viral Cold\""
+    }
+  ],
+  "ten-percent-brain": [
+    {
+      "m": "m-myths",
+      "n": "「人类只开发了大脑的 10%」",
+      "nEn": "\"Humans Use Only 10% of the Brain\""
+    }
+  ],
+  "plant-only-day": [
+    {
+      "m": "m-myths",
+      "n": "「植物白天只光合，夜里才呼吸」",
+      "nEn": "\"Plants Only Photosynthesize by Day and Breathe by Night\""
+    }
+  ],
+  "evolution-progress": [
+    {
+      "m": "m-myths",
+      "n": "「进化是一步步迈向更高级的阶梯」",
+      "nEn": "\"Evolution Is a Ladder Climbing Toward Higher Forms\""
+    }
+  ],
   "q-life-1": [
     {
       "m": "m-quiz",

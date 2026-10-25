@@ -1231,6 +1231,34 @@
       "nEn": "\"Time Zone Borders Run Straight Along Meridians\""
     }
   ],
+  "greenwich-meridian": [
+    {
+      "m": "m-myths",
+      "n": "「0°经线是天然的起点」",
+      "nEn": "\"The Prime Meridian Is a Natural Zero Line\""
+    }
+  ],
+  "antarctica-largest-desert": [
+    {
+      "m": "m-myths",
+      "n": "「最大的沙漠就是撒哈拉」",
+      "nEn": "\"The Sahara Is the World's Largest Desert\""
+    }
+  ],
+  "inland-quakes": [
+    {
+      "m": "m-myths",
+      "n": "「地震只发生在板块交界」",
+      "nEn": "\"Earthquakes Only Strike Plate Boundaries\""
+    }
+  ],
+  "africa-all-desert": [
+    {
+      "m": "m-myths",
+      "n": "「整个非洲都是炎热的沙漠」",
+      "nEn": "\"All of Africa Is Scorching Desert\""
+    }
+  ],
   "map-up-north": [
     {
       "m": "m-everyday",
