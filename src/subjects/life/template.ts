@@ -49,6 +49,12 @@ export const TEMPLATE = `<div class="wrap">
         <button class="mod" data-go="m-experiments" data-i18n="nav.experiments">
           经典实验
         </button>
+        <button class="mod" data-go="m-compare" data-i18n="nav.compare">
+          生命对照
+        </button>
+        <button class="mod" data-go="m-quiz" data-i18n="nav.quiz">
+          小测验
+        </button>
       </nav>
 
       <section class="module active" id="m-home">
@@ -171,6 +177,30 @@ export const TEMPLATE = `<div class="wrap">
         <div class="filters" id="experimentsFilters"></div>
         <p class="count" id="experimentsCount"></p>
         <div class="card-grid" id="experimentsGrid"></div>
+      </section>
+
+      <section class="module" id="m-compare">
+        <header class="mod-head">
+          <h2 data-i18n="compare.title">生命对照</h2>
+          <p class="mod-sub" data-i18n="compare.sub">
+            光合与呼吸、DNA 与 RNA——生物学里概念越像越容易混。成对摆开辨差异，再搭桥看联系。
+          </p>
+        </header>
+        <div class="filters" id="compareFilters"></div>
+        <p class="count" id="compareCount"></p>
+        <div class="card-grid" id="compareGrid"></div>
+      </section>
+
+      <section class="module" id="m-quiz">
+        <header class="mod-head">
+          <h2 data-i18n="quiz.title">小测验</h2>
+          <p class="mod-sub" data-i18n="quiz.sub">
+            12 道题覆盖细胞、遗传与生态：每题有提示、选项（✓ 标出正确答案）与解析。先答，再点开对。
+          </p>
+        </header>
+        <div class="filters" id="quizFilters"></div>
+        <p class="count" id="quizCount"></p>
+        <div class="card-grid" id="quizGrid"></div>
       </section>
 
       <footer class="foot" id="foot"></footer>

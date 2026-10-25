@@ -895,6 +895,90 @@
       "nEn": "Dolly, the Somatic-Cell Clone (1996)"
     }
   ],
+  "photosynthesis-vs-respiration": [
+    {
+      "m": "m-compare",
+      "n": "光合作用与细胞呼吸",
+      "nEn": "Photosynthesis vs Respiration"
+    }
+  ],
+  "mitosis-vs-meiosis": [
+    {
+      "m": "m-compare",
+      "n": "有丝分裂与减数分裂",
+      "nEn": "Mitosis vs Meiosis"
+    }
+  ],
+  "dna-vs-rna": [
+    {
+      "m": "m-compare",
+      "n": "DNA 与 RNA",
+      "nEn": "DNA vs RNA"
+    }
+  ],
+  "producer-vs-consumer": [
+    {
+      "m": "m-compare",
+      "n": "生产者与消费者",
+      "nEn": "Producers vs Consumers"
+    }
+  ],
+  "innate-vs-learned-behavior": [
+    {
+      "m": "m-compare",
+      "n": "先天性行为与学习行为",
+      "nEn": "Innate vs Learned Behavior"
+    }
+  ],
+  "virus-vs-bacterium": [
+    {
+      "m": "m-compare",
+      "n": "病毒与细菌",
+      "nEn": "Viruses vs Bacteria"
+    }
+  ],
+  "fungi-vs-bacteria": [
+    {
+      "m": "m-compare",
+      "n": "真菌与细菌",
+      "nEn": "Fungi vs Bacteria"
+    }
+  ],
+  "primary-vs-secondary-succession": [
+    {
+      "m": "m-compare",
+      "n": "初生演替与次生演替",
+      "nEn": "Primary vs Secondary Succession"
+    }
+  ],
+  "specific-vs-nonspecific-immunity": [
+    {
+      "m": "m-compare",
+      "n": "特异性免疫与非特异性免疫",
+      "nEn": "Adaptive vs Innate Immunity"
+    }
+  ],
+  "aerobic-vs-anaerobic-respiration": [
+    {
+      "m": "m-compare",
+      "n": "有氧呼吸与无氧呼吸",
+      "nEn": "Aerobic vs Anaerobic Respiration"
+    }
+  ],
+  "dominant-vs-recessive": [
+    {
+      "m": "m-compare",
+      "n": "显性与隐性",
+      "nEn": "Dominant vs Recessive"
+    }
+  ],
+  "heredity-vs-variation": [
+    {
+      "m": "m-compare",
+      "n": "遗传与变异",
+      "nEn": "Heredity vs Variation"
+    }
+  ],
   "dominant-strongest": [
     {
       "m": "m-myths",
@@ -977,6 +1061,90 @@
       "m": "m-myths",
       "n": "「冬眠只是长觉一睡」",
       "nEn": "\"Hibernation Is Just a Long Sleep\""
+    }
+  ],
+  "q-life-1": [
+    {
+      "m": "m-quiz",
+      "n": "被称为细胞「动力车间」、负责有氧呼吸主要阶段的细胞器是——",
+      "nEn": "The cell's 'power plant', running the main stage of respiration, is—"
+    }
+  ],
+  "q-life-2": [
+    {
+      "m": "m-quiz",
+      "n": "「细胞是生命的基本单位」这一理论的建立者是施莱登与施旺，理论名叫——",
+      "nEn": "Schleiden and Schwann founded which doctrine—that cells are life's basic units?"
+    }
+  ],
+  "q-life-3": [
+    {
+      "m": "m-quiz",
+      "n": "遗传信息从 DNA 到 RNA 再到蛋白质的流向，被总结为——",
+      "nEn": "The flow of genetic information, DNA to RNA to protein, is named—"
+    }
+  ],
+  "q-life-4": [
+    {
+      "m": "m-quiz",
+      "n": "提出「自然选择」进化机制、并发表《物种起源》的科学家是——",
+      "nEn": "Which scientist proposed natural selection and published On the Origin of Species?"
+    }
+  ],
+  "q-life-5": [
+    {
+      "m": "m-quiz",
+      "n": "生态系统中能量流动的起点，是生产者固定的——",
+      "nEn": "Energy flow in an ecosystem begins with producers capturing—"
+    }
+  ],
+  "q-life-6": [
+    {
+      "m": "m-quiz",
+      "n": "皮肤与黏膜阻挡病原体入侵，属于人体免疫的第几道防线？",
+      "nEn": "Skin and mucosa blocking pathogens—which line of defense is that?"
+    }
+  ],
+  "q-life-7": [
+    {
+      "m": "m-quiz",
+      "n": "长期使用同一种农药，害虫抗药性增强。抗药性变异的来源是——",
+      "nEn": "Pests grow resistant under one pesticide year after year. The resistance variation arises—"
+    }
+  ],
+  "q-life-8": [
+    {
+      "m": "m-quiz",
+      "n": "血液中运输氧气的主力是——",
+      "nEn": "Blood's main oxygen hauler is—"
+    }
+  ],
+  "q-life-9": [
+    {
+      "m": "m-quiz",
+      "n": "生物分类从大到小的等级中，最基本的分类单位是——",
+      "nEn": "Among taxonomic ranks, the most fundamental unit is—"
+    }
+  ],
+  "q-life-10": [
+    {
+      "m": "m-quiz",
+      "n": "植物体「水分从根部升到高处」的拉力，主要来自——",
+      "nEn": "The pull lifting water high through a plant comes mostly from—"
+    }
+  ],
+  "q-life-11": [
+    {
+      "m": "m-quiz",
+      "n": "疫苗在免疫学上的角色是——",
+      "nEn": "Immunologically, a vaccine acts as—"
+    }
+  ],
+  "q-life-12": [
+    {
+      "m": "m-quiz",
+      "n": "制作面包时面团膨松，功劳主要归于酵母——",
+      "nEn": "Bread rises mainly because yeast—"
     }
   ]
 }

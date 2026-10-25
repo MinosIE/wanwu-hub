@@ -48,6 +48,7 @@ const LABEL = {
   myths: { cn: "常见误区", en: "Common misreadings" },
   sources: { cn: "参考资料", en: "References" },
   everyday: { cn: "生活应用", en: "Everyday applications" },
+  quiz: { cn: "小测验", en: "Quiz" },
   search: { cn: "搜索索引", en: "Search index" },
   related: { cn: "相关条目索引", en: "Related index" },
   endemics: { cn: "特有物种", en: "Endemic species" },

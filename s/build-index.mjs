@@ -162,6 +162,13 @@ const EXTRA = [
     name: "term",
     text: "oneLiner",
   },
+  {
+    file: "quiz.json",
+    m: "m-quiz",
+    t: "search.t.quiz",
+    name: "term",
+    text: "oneLiner",
+  },
 ];
 for (const spec of EXTRA) {
   if (!fs.existsSync(path.join(D, spec.file))) continue;

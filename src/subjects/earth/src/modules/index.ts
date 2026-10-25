@@ -86,6 +86,22 @@ export const MODULES: ModuleDef[] = [
     priority: 2,
     load: () => import("./everyday"),
   },
+  {
+    id: "m-compare",
+    key: "compare",
+    icon: "🆚",
+    file: "compare.json",
+    priority: 2,
+    load: () => import("./compare"),
+  },
+  {
+    id: "m-quiz",
+    key: "quiz",
+    icon: "📝",
+    file: "quiz.json",
+    priority: 2,
+    load: () => import("./quiz"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {

@@ -1,0 +1,393 @@
+[
+  {
+    "id": "q-earth-1",
+    "term": "地图上等高线变得很密，说明这一带——",
+    "termEn": "Closely spaced contour lines mean the terrain is—",
+    "category": "地图判读",
+    "categoryEn": "Map reading",
+    "level": 1,
+    "oneLiner": "提示：高差固定时，密与疏对应什么？",
+    "oneLinerEn": "Hint: with fixed height intervals, crowding maps onto what?",
+    "detail": "等高线按固定高差绘制，间距越短说明单位水平距离爬升越多——坡越陡。之字形上山路就是用水平距离摊薄垂直高度。",
+    "detailEn": "Contours join equal-height points at fixed intervals: shorter spacing means more climb per meter walked—steeper ground. Switchbacks buy height with distance.",
+    "options": [
+      {
+        "text": "坡度更陡",
+        "textEn": "Steeper",
+        "correct": true
+      },
+      {
+        "text": "坡度更缓",
+        "textEn": "Gentler",
+        "correct": false
+      },
+      {
+        "text": "一定是山脊",
+        "textEn": "Definitely a ridge",
+        "correct": false
+      }
+    ],
+    "related": [
+      "contour-line"
+    ]
+  },
+  {
+    "id": "q-earth-2",
+    "term": "昼夜交替的直接原因是——",
+    "termEn": "Day and night alternate directly because of—",
+    "category": "天气与气候",
+    "categoryEn": "Weather & Climate",
+    "level": 1,
+    "oneLiner": "提示：「交替」看自转，「四季」才看公转。",
+    "oneLinerEn": "Hint: alternation is rotation's business; seasons are revolution's.",
+    "detail": "地球自转使各地轮流朝向太阳，周期约 24 小时。公转加地轴倾斜负责的是四季与昼夜长短变化，两套现象常被混为一谈。",
+    "detailEn": "Earth's rotation turns each side toward the Sun on a ~24-hour cycle. Revolution plus axial tilt run the seasons and day-length—two phenomena constantly conflated.",
+    "options": [
+      {
+        "text": "地球的自转",
+        "textEn": "Earth's rotation",
+        "correct": true
+      },
+      {
+        "text": "地球的公转",
+        "textEn": "Earth's revolution",
+        "correct": false
+      },
+      {
+        "text": "月球的引力",
+        "textEn": "The Moon's pull",
+        "correct": false
+      }
+    ],
+    "related": [
+      "seasons-distance"
+    ]
+  },
+  {
+    "id": "q-earth-3",
+    "term": "花岗岩按成因属于三大类岩石中的——",
+    "termEn": "By origin, granite belongs to which rock family—",
+    "category": "地貌与地质作用",
+    "categoryEn": "Landforms & Geomorphism",
+    "level": 1,
+    "oneLiner": "提示：看它是在哪里「出生」的。",
+    "oneLinerEn": "Hint: where was it born?",
+    "detail": "花岗岩是岩浆在地壳深处缓慢冷凝的侵入岩，属岩浆岩家族；沉积岩由碎屑或化学沉淀层积而成，变质岩是已有岩石被高温高压改写。",
+    "detailEn": "Granite is magma that cooled slowly deep in the crust—an intrusive igneous rock. Sedimentary rocks pile from grains or precipitates; metamorphic ones are older rocks rewritten by heat and pressure.",
+    "options": [
+      {
+        "text": "岩浆岩",
+        "textEn": "Igneous",
+        "correct": true
+      },
+      {
+        "text": "沉积岩",
+        "textEn": "Sedimentary",
+        "correct": false
+      },
+      {
+        "text": "变质岩",
+        "textEn": "Metamorphic",
+        "correct": false
+      }
+    ],
+    "related": [
+      "rock-cycle"
+    ]
+  },
+  {
+    "id": "q-earth-4",
+    "term": "东亚夏季风带来的水汽主要来自——",
+    "termEn": "East Asia's summer monsoon draws its moisture chiefly from—",
+    "category": "天气与气候",
+    "categoryEn": "Weather & Climate",
+    "level": 1,
+    "oneLiner": "提示：风从哪来，雨就往哪去。",
+    "oneLinerEn": "Hint: rain follows where the wind came from.",
+    "detail": "夏季风从太平洋与印度洋吹向陆地，水汽在抬升中凝结成雨带。冬季风来自内陆高压，干冷少雨——两季风一湿一干，正对应多雨与旱季。",
+    "detailEn": "The summer monsoon blows ashore from the Pacific and Indian Oceans, its cargo condensing into the rain belt as air is lifted. The winter monsoon starts overland—dry and cold—so the two seasons split wet and dry.",
+    "options": [
+      {
+        "text": "太平洋与印度洋",
+        "textEn": "The Pacific and Indian Oceans",
+        "correct": true
+      },
+      {
+        "text": "北冰洋",
+        "textEn": "The Arctic Ocean",
+        "correct": false
+      },
+      {
+        "text": "内陆湖泊",
+        "textEn": "Inland lakes",
+        "correct": false
+      }
+    ],
+    "related": [
+      "monsoon"
+    ]
+  },
+  {
+    "id": "q-earth-5",
+    "term": "世界大渔场常分布在沿海，关键原因是海水——",
+    "termEn": "Great fisheries cluster off coasts mainly because the water there—",
+    "category": "水文与洋流",
+    "categoryEn": "Water & Currents",
+    "level": 2,
+    "oneLiner": "提示：鱼跟着饵料走，饵料跟着养分走。",
+    "oneLinerEn": "Hint: fish follow bait, bait follows nutrients.",
+    "detail": "离岸流与寒流把表层海水带走，深层富含营养的冷水上升补充，浮游生物暴发，鱼群随之而来——秘鲁、本格拉等渔场都吃这口「上升流」的饭。",
+    "detailEn": "Offshore winds and cold currents strip surface water away; nutrient-rich depths well up to replace it, plankton blooms and fish follow. Peru and Benguela fisheries live on this upwelling pay.",
+    "options": [
+      {
+        "text": "存在上升流带来养分",
+        "textEn": "Upwelling brings nutrients",
+        "correct": true
+      },
+      {
+        "text": "水温全年更高",
+        "textEn": "Warmer year-round",
+        "correct": false
+      },
+      {
+        "text": "离大陆近所以鱼多",
+        "textEn": "Near land, so more fish",
+        "correct": false
+      }
+    ],
+    "related": [
+      "upwelling"
+    ]
+  },
+  {
+    "id": "q-earth-6",
+    "term": "中纬度高空引导民航顺风飞行的强风带是——",
+    "termEn": "The high-altitude wind band that speeds mid-latitude flights is—",
+    "category": "天气与气候",
+    "categoryEn": "Weather & Climate",
+    "level": 2,
+    "oneLiner": "提示：它自西向东，时速可达两三百公里。",
+    "oneLinerEn": "Hint: it blows west to east at 200–300 km/h.",
+    "detail": "急流是对流层顶的窄而强西风带，由高低纬温差与地转偏向力共同塑造。跨洋航班向东搭急流省时省油，向西则绕风而行。",
+    "detailEn": "Jet streams are narrow, fierce westerly rivers at the tropopause, built by the equator-to-pole temperature gap and planetary spin. Eastbound flights ride them; westbound ones detour around them.",
+    "options": [
+      {
+        "text": "急流",
+        "textEn": "The jet stream",
+        "correct": true
+      },
+      {
+        "text": "海陆风",
+        "textEn": "Sea breeze",
+        "correct": false
+      },
+      {
+        "text": "山谷风",
+        "textEn": "Valley wind",
+        "correct": false
+      }
+    ],
+    "related": [
+      "jet-stream",
+      "long-haul-wind"
+    ]
+  },
+  {
+    "id": "q-earth-7",
+    "term": "「先高出生率、后死亡率下降、最后生育回落」描述的人口阶段理论叫——",
+    "termEn": "'High births first, deaths fall, fertility follows' names which theory—",
+    "category": "人与地",
+    "categoryEn": "People & Land",
+    "level": 3,
+    "oneLiner": "提示：它是一条随发展与医疗推进的转型曲线。",
+    "oneLinerEn": "Hint: a transition curve tracking development and health.",
+    "detail": "人口转变论：前工业时代高出生高死亡，医疗与粮食让死亡率先降、人口激增，城市化与教育随后压低出生率，社会走入低增长。日本、韩国已走完，多国在中段。",
+    "detailEn": "Demographic transition: pre-industrial high birth and death rates; food and medicine drop deaths first—surge; cities and schools then pull births down into low growth. Japan and Korea are through it; many nations sit mid-curve.",
+    "options": [
+      {
+        "text": "人口转变论",
+        "textEn": "Demographic transition",
+        "correct": true
+      },
+      {
+        "text": "人口容量论",
+        "textEn": "Carrying capacity",
+        "correct": false
+      },
+      {
+        "text": "推拉理论",
+        "textEn": "Push-pull migration",
+        "correct": false
+      }
+    ],
+    "related": [
+      "demographic-transition",
+      "population-distribution"
+    ]
+  },
+  {
+    "id": "q-earth-8",
+    "term": "赤道附近高温多雨地区的典型自然带是——",
+    "termEn": "The hot, rainy equatorial belt's signature biome is—",
+    "category": "地貌与地质作用",
+    "categoryEn": "Landforms & Geomorphism",
+    "level": 1,
+    "oneLiner": "提示：全年皆夏、雨量丰沛，分层最复杂的那一个。",
+    "oneLinerEn": "Hint: eternal summer, deep rain, the most layered forest.",
+    "detail": "热带雨林带：全年高温多雨，群落垂直分层可达四五层，养分大多锁在生物体内而非土壤——雨林的地力在树上，不在土里。",
+    "detailEn": "The tropical rainforest biome: hot and wet all year, four or five canopy layers, nutrients held in living tissue more than soil—the forest's wealth stands on the trees, not under them.",
+    "options": [
+      {
+        "text": "热带雨林带",
+        "textEn": "Tropical rainforest",
+        "correct": true
+      },
+      {
+        "text": "热带荒漠带",
+        "textEn": "Tropical desert",
+        "correct": false
+      },
+      {
+        "text": "亚寒带针叶林带",
+        "textEn": "Boreal forest",
+        "correct": false
+      }
+    ],
+    "related": [
+      "biome-zonation",
+      "tropical-rainforest"
+    ]
+  },
+  {
+    "id": "q-earth-9",
+    "term": "自西向东越过国际日期变更线，日期应——",
+    "termEn": "Crossing the date line westbound, your calendar should—",
+    "category": "地图判读",
+    "categoryEn": "Map reading",
+    "level": 2,
+    "oneLiner": "提示：钟面跟时区走，日期线是「回拨一格」的那条。",
+    "oneLinerEn": "Hint: clocks step with zones; the date line is where you repeat a day.",
+    "detail": "向东（顺自转方向的反向越线）日期回退一天，向西则前进一天——麦哲伦船队归航日历少一天正是绕「回退」规则走的账。变更线为避开陆地而曲折，并非一条直线。",
+    "detailEn": "Crossing eastbound repeats a day; westbound skips one—Magellan's return crew lost a day on exactly this ledger. The line doglegs to avoid land; it is not a straight meridian.",
+    "options": [
+      {
+        "text": "回退一天",
+        "textEn": "Go back one day",
+        "correct": true
+      },
+      {
+        "text": "前进一天",
+        "textEn": "Jump one day ahead",
+        "correct": false
+      },
+      {
+        "text": "不变",
+        "textEn": "Stay the same",
+        "correct": false
+      }
+    ],
+    "related": [
+      "time-zone",
+      "timezone-straight-lines"
+    ]
+  },
+  {
+    "id": "q-earth-10",
+    "term": "U 形谷、角峰与冰斗组成的地貌，主要塑造力是——",
+    "termEn": "U-valleys, horn peaks and cirques are sculpted mainly by—",
+    "category": "地貌与地质作用",
+    "categoryEn": "Landforms & Geomorphism",
+    "level": 2,
+    "oneLiner": "提示：流水刻 V，这几种刻刀更慢也更宽。",
+    "oneLinerEn": "Hint: water cuts V; these chisels cut slower and wider.",
+    "detail": "冰川地貌：冰体像缓慢移动的锉刀，把 V 形河槽刨成 U 形谷，山坡掏蚀出角峰与冰斗。峡湾就是被海水倒灌的冰川 U 谷。",
+    "detailEn": "Glacial landforms: ice files V-gorges into U-valleys and hollows cirques and horn peaks. A fjord is a glacial U-valley drowned by the sea.",
+    "options": [
+      {
+        "text": "冰川",
+        "textEn": "Glaciers",
+        "correct": true
+      },
+      {
+        "text": "流水",
+        "textEn": "Running water",
+        "correct": false
+      },
+      {
+        "text": "风",
+        "textEn": "Wind",
+        "correct": false
+      }
+    ],
+    "related": [
+      "glacial-processes",
+      "glacier"
+    ]
+  },
+  {
+    "id": "q-earth-11",
+    "term": "城市中心夏季夜里比郊区更热的直接原因是——",
+    "termEn": "City cores stay hotter than suburbs on summer nights chiefly because—",
+    "category": "人与地",
+    "categoryEn": "People & Land",
+    "level": 2,
+    "oneLiner": "提示：白天存进去的热，夜里慢慢往外吐。",
+    "oneLinerEn": "Hint: heat banked by day is paid out at night.",
+    "detail": "沥青、混凝土白天储热、夜间缓慢释放，加上空调与机动车的人为排热、植被蒸腾散热缺失，形成「热岛」。这也是城市下风方向雷雨偏多的一条引擎。",
+    "detailEn": "Asphalt and concrete hoard daylight heat and exhale it slowly at night; waste heat and missing evapotranspiration top it off—the heat island, also one engine of extra downwind thunderstorms.",
+    "options": [
+      {
+        "text": "建材储热加人为排热",
+        "textEn": "Stored heat plus waste heat",
+        "correct": true
+      },
+      {
+        "text": "城市纬度更低",
+        "textEn": "Cities sit lower in latitude",
+        "correct": false
+      },
+      {
+        "text": "郊区风把冷气吹走",
+        "textEn": "Suburban winds blow cool away",
+        "correct": false
+      }
+    ],
+    "related": [
+      "urbanization",
+      "city-heat-rain"
+    ]
+  },
+  {
+    "id": "q-earth-12",
+    "term": "驱动大气水循环与洋流的根本能量来源是——",
+    "termEn": "The engine behind atmospheric, water and ocean circulation is ultimately—",
+    "category": "天气与气候",
+    "categoryEn": "Weather & Climate",
+    "level": 1,
+    "oneLiner": "提示：不是地球内部，而是 1.5 亿公里之外。",
+    "oneLinerEn": "Hint: not the planet's interior, but 150 million km away.",
+    "detail": "太阳辐射在高低纬之间制造温差，温差生风、蒸发生水循环；地球自转再给它们转向。地热能驱动的是内力工程——火山与造山，与大气机器各记各账。",
+    "detailEn": "Sunlight's equator-to-pole temperature gap makes wind; evaporation makes the water cycle; planetary spin steers both. Geothermal heat runs the internal works—volcanoes and mountains—separate books.",
+    "options": [
+      {
+        "text": "太阳辐射",
+        "textEn": "Solar radiation",
+        "correct": true
+      },
+      {
+        "text": "地球内部热能",
+        "textEn": "Earth's internal heat",
+        "correct": false
+      },
+      {
+        "text": "月球引力",
+        "textEn": "The Moon's pull",
+        "correct": false
+      }
+    ],
+    "related": [
+      "climate-genesis",
+      "circulation-cells"
+    ]
+  }
+]

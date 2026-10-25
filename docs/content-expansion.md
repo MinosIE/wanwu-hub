@@ -39,10 +39,10 @@
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 234    | ✅ 视图与 mind/econ 同量级（第三十一批 compare 补齐）  |
-| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理（9 类）                        | 147    | 🟠 已达 9 视图（三十三批 +身边地理）      |
-| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验（9 类）              | 140    | 🟠 已达 9 视图（三十三批 +经典实验）      |
+| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验（11 类）              | 171    | 🟠 已达 11 视图（三十四批 +对照/测验）      |
+| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验（11 类）        | 164    | 🟠 已达 11 视图（三十四批 +对照/测验）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十三批同步刷新为 147 / 140；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十四批同步刷新为 171 / 164；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
 
 ---
 
@@ -76,8 +76,9 @@
 - [ ] 地理学家（补 `thinkers`→15+）
 - [ ] 地理大发现时间线（新）
 - [ ] 经典地理著作（补 `classics`）
-- [x] 术语表 / 误区 ✅ 三十二批各 12 条（测验/对比待后续批次）
+- [x] 术语表 / 误区 ✅ 三十二批各 12 条
 - [x] 身边地理（生活应用 everyday）✅ 三十三批 12 条（新视图，schema 仿 mind/everyday）
+- [x] 测验 / 对比 ✅ 三十四批各 12 条（新视图：compare 12 对 + quiz 12 题）
 
 ### 3.2 万物生物 life（🔴 最优先）
 
@@ -98,10 +99,13 @@
 - [x] 重要实验与发现时间线 ✅ 三十三批以「经典实验」视图落地（12 条，1642→1996 时序 order 排列）
 - [ ] 经典著作（补 `classics`）
 - [x] 术语表 / 误区（新）✅ 三十二批各 12 条
+- [x] 测验 / 对比 ✅ 三十四批各 12 条（新视图：compare 12 对 + quiz 12 题）
 
 - [x] **Phase C 新增视图（三十二批）：earth / life 各 +2 视图（术语表+误区），全科 111→135 / 104→128**——照 human-geo 先例接入 thought 同构的 glossary/myths 视图：渲染器与 `termCard` 直接从 thought 字节级复制（三科 scaffold 同构，渲染器零学科硬编码）；`s/build-index.mjs` 的 EXTRA 规格表与 `gen-geo.mjs` 的 LABEL 表已含 glossary/myths 键——两脚本零改动，新视图仅靠数据文件存在即自动入索引/入 llms。接线：MODULES 注册×4、模板 nav+section×4、i18n 每科 16 键×双语（含 ui.def/plain/myth/truth 四个详情分节键）；overview 只进 counts 不进 kpis（两科 kpis 已满 4 项，超则告警）。选题：earth 术语 12（等高线/时区/地形雨/急流/上升流/冻土/含水层/地峡/焚风/反照率/等温线/地质年代）+误区 12（长城入太空/尼罗第一长河/珠峰唯一之最/热带必热/两极同冷/闪电不复击/四季因距离/完美球体/荒漠皆沙海/墨卡托真形/死海自由游/时区直线）；life 术语 12（等位基因/基因型/表型/减数分裂/生态位/食物网/关键种/基因库/限制因子/演替/蒸腾/气孔）+误区 12（显性即优/人由黑猩猩变来/获得性遗传/适者即最强/垃圾DNA/血型饮食/酵母是细菌/植物吃土/病毒是生物/蜘蛛是昆虫/蝙蝠是瞎子/冬眠即长觉）。碰撞预检 48 候选换词 3（thermohaline/homeostasis/carrying-capacity 已占→避开或换题）；存疑出处宁缺勿滥→本批 48 条均不带 sources。顺手修复：earth template 单行串残留全部 thought 兜底文案（heroTitle/heroSub/homeLead/各模块 title/sub/placeholder 共 17 处 sweep 同步为 earth 自己的 zh 值）。实测：`index:build` earth 135/135、life 128/128；`links:check` 错误 0 告警 0；`verify` 绿（biome 自动修复 2 个 shared.ts 尾行格式）；`build ✓`；puppeteer 中英×明暗 **108 项 PASS／0 FAIL**（冒烟首跑 4 FAIL 为断言预期错——allele 的 related 芯片应是孟德尔而非真菌界，非程序缺陷）。
 
 - [x] **Phase C 新增视图（三十三批）：earth「身边地理」+ life「经典实验」，全科 135→147 / 128→140**——life experiments 渲染器直接从 thought 字节级复制（EXTRA 规格表已含 experiments spec，零改动）；earth everyday 为自制渲染器（仿 thought glossary 的 termCard 风格：titleKeys=[term]、leadKeys=[oneLiner]、详情分节 ui.oneLiner+ui.detail），需给 `s/build-index.mjs` EXTRA 与 `gen-geo.mjs` LABEL 各补一条 everyday 键。接线同例：MODULES 注册×2、模板 nav+section×2（earth 单行串脚本两处定点插入）、i18n 每科 8 键×双语、overview counts 各 +1。选题：earth everyday 12（地图为何上北下南/新疆作息晚两小时/跨洋航班追风/锋面符号/坐北朝南/等高线判坡/海陆风/城市热岛雨/台风眼/高原沸点/雷击避险/晴夜起霜，分类四组：地图判读/天气解读/时空与生活/人居与气候）；life experiments 12 按 1642→1996 时序（柳树盆栽/水草气泡/萨克斯半叶/孟德尔豌豆/胰岛素提取/格里菲斯转化/艾弗里锁 DNA/赫尔希-蔡斯搅拌器/梅塞尔森-斯塔尔密度梯度/单克隆抗体/PCR 发明/多利羊），每条三分点「怎么做的/看到了什么/说明了什么」，与 myths 植物吃土条互为镜像（实验设计视角 vs 误区拆解视角）。life 在 overview.modules 加覆盖表把 llms 标签从 LABEL 默认的「思想实验」改为「经典实验」（gen-geo 标题优先级 overview.modules > LABEL > 文件名）。24 条 related 目标全部预检存在（部分指向同批新条：艾弗里→格里菲斯等时序链）；本批仍不带 sources。实测：`index:build` earth 147/147、life 140/140；`gen:geo` earth/life 各 13 数据文件；`links:check` 错误 0 告警 0；`verify exit=0`；`build ✓`；puppeteer 中英×明暗 **68 项 PASS／0 FAIL**（卡片各 12、探针详情标题/分节键/related 芯片显示名全命中；本批冒烟踩坑：puppeteer 升级后默认要 Chrome 154，改显式 executablePath 指缓存 132；addInitScript 是 Playwright API，puppeteer 用 evaluateOnNewDocument）。
+
+- [x] **Phase C 新增视图（三十四批）：earth / life 各 +2 视图（对照 compare + 小测验 quiz），全科 147→171 / 140→164**——接 c1 方案第三批。两条路线：compare 渲染器从 thought 复制后改分节键（`ui.west/east` → 新建通用键 `ui.sideA/sideB`，图标 🌍🏮→🅰🅱；数据字段名保留 west/east 不动 schema）；quiz 因 mind 的 quiz.ts 是老式 ListModule 声明不可复制，**自制渲染器**（termCard icon 📝 + 详情三分节 ui.oneLiner/ui.options/ui.detail，正确选项拼「 ✓」）。接线九步：数据 JSON×4、渲染器×4、MODULES 注册×4（m-compare 🆚 / m-quiz 📝）、模板 nav+section×4、i18n 每科 17 键×双语（含详情分节键）、overview counts、`s/build-index.mjs` EXTRA 补 quiz spec（compare 已预含）、`gen-geo.mjs` LABEL 补 quiz「小测验/Quiz」（compare 默认「中西对照」用 overview.modules 覆盖表分别改「地理对照/Geographic contrasts」「生命对照/Biology contrasts」）。选题：earth compare 12 对（天气与气候/内力与外力/夏冬季风/暖流寒流/厄尔尼诺拉尼娜/高原盆地/河流上下游/城市与乡村气候/节气与气象四季/时区与夏令时/喀斯特雅丹/三角洲与冲积扇）+ quiz 12 题（等高线判坡/昼夜自转/花岗岩/夏季风/上升流渔场/急流/人口转变/雨林带/日界线/冰川 U 谷/热岛/太阳辐射）；life compare 12 对（光合与呼吸/有丝与减数/DNA与RNA/生产者消费者/先天与学习/病毒与细菌/真菌与细菌/初生与次生演替/特异与非特异免疫/有氧与无氧/显性隐性/遗传与变异）+ quiz 12 题（线粒体/细胞学说/中心法则/达尔文/太阳能/第一道防线/抗药性变异先于施药/红细胞/分类等级/蒸腾/疫苗抗原/酵母产气）。48 候选 id 碰撞预检 0（el-nino/rainforest 不存在→换 weather-systems/tropical-rainforest 作 related 目标）；本批仍不带 sources。实测：`index:build` earth 171/171、life 164/164；`gen:geo` 两科各 15 数据文件，llms 四标签正确；`links:check` 错误 0 告警 0；`verify exit=0`；`build ✓`；puppeteer 中英×明暗 **108 项 PASS／0 FAIL**。新踩坑：sed 批量改 compare.ts 分节行写坏语法（改回 SearchReplace 逐文件修）；数据守卫首版不递归 options 数组内的对象（中文夹英 receipt/ranks 漏网→补 walk 递归）；Lamark 拼写应作 Lamarck。
 
 ### 3.3 万物哲学 thought（🟠）
 

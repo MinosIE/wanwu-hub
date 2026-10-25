@@ -860,6 +860,90 @@
       "nEn": "Geologic Time Scale"
     }
   ],
+  "weather-vs-climate": [
+    {
+      "m": "m-compare",
+      "n": "天气与气候",
+      "nEn": "Weather vs Climate"
+    }
+  ],
+  "internal-vs-external-forces": [
+    {
+      "m": "m-compare",
+      "n": "内力与外力",
+      "nEn": "Internal vs External Forces"
+    }
+  ],
+  "summer-vs-winter-monsoon": [
+    {
+      "m": "m-compare",
+      "n": "夏季风与冬季风",
+      "nEn": "Summer vs Winter Monsoon"
+    }
+  ],
+  "warm-vs-cold-currents": [
+    {
+      "m": "m-compare",
+      "n": "暖流与寒流",
+      "nEn": "Warm vs Cold Currents"
+    }
+  ],
+  "el-nino-vs-la-nina": [
+    {
+      "m": "m-compare",
+      "n": "厄尔尼诺与拉尼娜",
+      "nEn": "El Niño vs La Niña"
+    }
+  ],
+  "plateau-vs-basin": [
+    {
+      "m": "m-compare",
+      "n": "高原与盆地",
+      "nEn": "Plateau vs Basin"
+    }
+  ],
+  "river-upper-vs-lower": [
+    {
+      "m": "m-compare",
+      "n": "河流上游与下游",
+      "nEn": "River Upper vs Lower Course"
+    }
+  ],
+  "urban-vs-rural-climate": [
+    {
+      "m": "m-compare",
+      "n": "城市气候与乡村气候",
+      "nEn": "Urban vs Rural Climate"
+    }
+  ],
+  "solar-terms-vs-meteorological-seasons": [
+    {
+      "m": "m-compare",
+      "n": "节气与气象四季",
+      "nEn": "Solar Terms vs Meteorological Seasons"
+    }
+  ],
+  "timezone-vs-dst": [
+    {
+      "m": "m-compare",
+      "n": "时区与夏令时",
+      "nEn": "Time Zones vs Daylight Saving"
+    }
+  ],
+  "karst-vs-yardang": [
+    {
+      "m": "m-compare",
+      "n": "喀斯特与雅丹",
+      "nEn": "Karst vs Yardang"
+    }
+  ],
+  "delta-vs-alluvial-fan": [
+    {
+      "m": "m-compare",
+      "n": "三角洲与冲积扇",
+      "nEn": "Delta vs Alluvial Fan"
+    }
+  ],
   "great-wall-space": [
     {
       "m": "m-myths",
@@ -1026,6 +1110,90 @@
       "m": "m-everyday",
       "n": "晴朗无风的夜晚为什么容易起霜",
       "nEn": "Why Clear, Calm Nights Bring Frost"
+    }
+  ],
+  "q-earth-1": [
+    {
+      "m": "m-quiz",
+      "n": "地图上等高线变得很密，说明这一带——",
+      "nEn": "Closely spaced contour lines mean the terrain is—"
+    }
+  ],
+  "q-earth-2": [
+    {
+      "m": "m-quiz",
+      "n": "昼夜交替的直接原因是——",
+      "nEn": "Day and night alternate directly because of—"
+    }
+  ],
+  "q-earth-3": [
+    {
+      "m": "m-quiz",
+      "n": "花岗岩按成因属于三大类岩石中的——",
+      "nEn": "By origin, granite belongs to which rock family—"
+    }
+  ],
+  "q-earth-4": [
+    {
+      "m": "m-quiz",
+      "n": "东亚夏季风带来的水汽主要来自——",
+      "nEn": "East Asia's summer monsoon draws its moisture chiefly from—"
+    }
+  ],
+  "q-earth-5": [
+    {
+      "m": "m-quiz",
+      "n": "世界大渔场常分布在沿海，关键原因是海水——",
+      "nEn": "Great fisheries cluster off coasts mainly because the water there—"
+    }
+  ],
+  "q-earth-6": [
+    {
+      "m": "m-quiz",
+      "n": "中纬度高空引导民航顺风飞行的强风带是——",
+      "nEn": "The high-altitude wind band that speeds mid-latitude flights is—"
+    }
+  ],
+  "q-earth-7": [
+    {
+      "m": "m-quiz",
+      "n": "「先高出生率、后死亡率下降、最后生育回落」描述的人口阶段理论叫——",
+      "nEn": "'High births first, deaths fall, fertility follows' names which theory—"
+    }
+  ],
+  "q-earth-8": [
+    {
+      "m": "m-quiz",
+      "n": "赤道附近高温多雨地区的典型自然带是——",
+      "nEn": "The hot, rainy equatorial belt's signature biome is—"
+    }
+  ],
+  "q-earth-9": [
+    {
+      "m": "m-quiz",
+      "n": "自西向东越过国际日期变更线，日期应——",
+      "nEn": "Crossing the date line westbound, your calendar should—"
+    }
+  ],
+  "q-earth-10": [
+    {
+      "m": "m-quiz",
+      "n": "U 形谷、角峰与冰斗组成的地貌，主要塑造力是——",
+      "nEn": "U-valleys, horn peaks and cirques are sculpted mainly by—"
+    }
+  ],
+  "q-earth-11": [
+    {
+      "m": "m-quiz",
+      "n": "城市中心夏季夜里比郊区更热的直接原因是——",
+      "nEn": "City cores stay hotter than suburbs on summer nights chiefly because—"
+    }
+  ],
+  "q-earth-12": [
+    {
+      "m": "m-quiz",
+      "n": "驱动大气水循环与洋流的根本能量来源是——",
+      "nEn": "The engine behind atmospheric, water and ocean circulation is ultimately—"
     }
   ]
 }

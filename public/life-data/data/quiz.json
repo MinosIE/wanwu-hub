@@ -1,0 +1,395 @@
+[
+  {
+    "id": "q-life-1",
+    "term": "被称为细胞「动力车间」、负责有氧呼吸主要阶段的细胞器是——",
+    "termEn": "The cell's 'power plant', running the main stage of respiration, is—",
+    "category": "细胞与代谢",
+    "categoryEn": "Cells & Metabolism",
+    "level": 1,
+    "oneLiner": "提示：它的内膜折成嵝，加大产能面积。",
+    "oneLinerEn": "Hint: its inner membrane folds to widen the production line.",
+    "detail": "线粒体把丙酮酸彻底氧化、大量合成 ATP，故称动力车间；叶绿体是产能另一站（存能），核糖体造蛋白，中心体管分裂——各车间别混岗。",
+    "detailEn": "Mitochondria finish oxidizing fuel and bank most ATP—hence 'power plant'. Chloroplasts store energy instead, ribosomes build proteins, centrosomes run division—don't swap the workshops.",
+    "options": [
+      {
+        "text": "线粒体",
+        "textEn": "Mitochondrion",
+        "correct": true
+      },
+      {
+        "text": "核糖体",
+        "textEn": "Ribosome",
+        "correct": false
+      },
+      {
+        "text": "液泡",
+        "textEn": "Vacuole",
+        "correct": false
+      }
+    ],
+    "related": [
+      "cell-fundamentals",
+      "metabolism-enzymes"
+    ]
+  },
+  {
+    "id": "q-life-2",
+    "term": "「细胞是生命的基本单位」这一理论的建立者是施莱登与施旺，理论名叫——",
+    "termEn": "Schleiden and Schwann founded which doctrine—that cells are life's basic units?",
+    "category": "细胞与代谢",
+    "categoryEn": "Cells & Metabolism",
+    "level": 1,
+    "oneLiner": "提示：19 世纪，植物学家与动物学家各带一半证据。",
+    "oneLinerEn": "Hint: 19th century—a botanist and a zoologist, half the evidence each.",
+    "detail": "细胞学说：一切动植物由细胞发育而来、细胞是相对独立的单位。魏尔肖后补一句「细胞来自细胞」，把自然发生说的后门关上。",
+    "detailEn": "Cell theory: all plants and animals develop from cells, each cell a relatively independent unit. Virchow's later line—cells only from cells—shut the door on spontaneous generation.",
+    "options": [
+      {
+        "text": "细胞学说",
+        "textEn": "Cell theory",
+        "correct": true
+      },
+      {
+        "text": "进化论",
+        "textEn": "Evolution theory",
+        "correct": false
+      },
+      {
+        "text": "中心法则",
+        "textEn": "Central dogma",
+        "correct": false
+      }
+    ],
+    "related": [
+      "cell-theory"
+    ]
+  },
+  {
+    "id": "q-life-3",
+    "term": "遗传信息从 DNA 到 RNA 再到蛋白质的流向，被总结为——",
+    "termEn": "The flow of genetic information, DNA to RNA to protein, is named—",
+    "category": "遗传与进化",
+    "categoryEn": "Genetics & Evolution",
+    "level": 2,
+    "oneLiner": "提示：克里克提出，主线只许单向抄写。",
+    "oneLinerEn": "Hint: proposed by Crick; the main road is one-way.",
+    "detail": "中心法则：转录（DNA→RNA）与翻译（RNA→蛋白质）为主道。逆转录与 RNA 复制是病毒走的旁门，不推翻主线方向。",
+    "detailEn": "The central dogma: transcription and translation are the highway; reverse transcription and RNA copying are viral side roads, not a reversal of the mainline.",
+    "options": [
+      {
+        "text": "中心法则",
+        "textEn": "The central dogma",
+        "correct": true
+      },
+      {
+        "text": "分离定律",
+        "textEn": "Segregation law",
+        "correct": false
+      },
+      {
+        "text": "自然选择",
+        "textEn": "Natural selection",
+        "correct": false
+      }
+    ],
+    "related": [
+      "central-dogma"
+    ]
+  },
+  {
+    "id": "q-life-4",
+    "term": "提出「自然选择」进化机制、并发表《物种起源》的科学家是——",
+    "termEn": "Which scientist proposed natural selection and published On the Origin of Species?",
+    "category": "遗传与进化",
+    "categoryEn": "Genetics & Evolution",
+    "level": 1,
+    "oneLiner": "提示：华莱士也独立想到了同一机制。",
+    "oneLinerEn": "Hint: Wallace reached it independently too.",
+    "detail": "达尔文随贝格尔号考察、积累变异的证据后提出自然选择；1858 年与华莱士共同宣读，1859 年出书。拉瓦锡是化学家、孟德尔是遗传学，常在三选一里凑数。",
+    "detailEn": "Darwin, after the Beagle voyage and years of variation evidence, proposed natural selection; read jointly with Wallace in 1858, in print in 1859. Lavoisier (chemistry) and Mendel (heredity) are the classic decoys.",
+    "options": [
+      {
+        "text": "达尔文",
+        "textEn": "Charles Darwin",
+        "correct": true
+      },
+      {
+        "text": "拉马克",
+        "textEn": "Lamarck",
+        "correct": false
+      },
+      {
+        "text": "孟德尔",
+        "textEn": "Gregor Mendel",
+        "correct": false
+      }
+    ],
+    "related": [
+      "darwin",
+      "natural-selection",
+      "wallace"
+    ]
+  },
+  {
+    "id": "q-life-5",
+    "term": "生态系统中能量流动的起点，是生产者固定的——",
+    "termEn": "Energy flow in an ecosystem begins with producers capturing—",
+    "category": "生态与健康",
+    "categoryEn": "Ecology & Health",
+    "level": 1,
+    "oneLiner": "提示：绝大多数生态系统的入口在天上。",
+    "oneLinerEn": "Hint: for almost every ecosystem, the door is in the sky.",
+    "detail": "太阳能经光合作用进入生物群落，之后沿食物链单向流动、逐级递减——热泉口化能合成菌是少数例外，入口换成了化学能。",
+    "detailEn": "Sunlight enters via photosynthesis, then flows one way and thins step by step along food chains—vent chemosynthetic bacteria being the rare receipt with chemical energy instead.",
+    "options": [
+      {
+        "text": "太阳能",
+        "textEn": "Sunlight",
+        "correct": true
+      },
+      {
+        "text": "土壤里的养分",
+        "textEn": "Soil nutrients",
+        "correct": false
+      },
+      {
+        "text": "水中的溶解氧",
+        "textEn": "Dissolved oxygen",
+        "correct": false
+      }
+    ],
+    "related": [
+      "energy-flow",
+      "photosynthesis"
+    ]
+  },
+  {
+    "id": "q-life-6",
+    "term": "皮肤与黏膜阻挡病原体入侵，属于人体免疫的第几道防线？",
+    "termEn": "Skin and mucosa blocking pathogens—which line of defense is that?",
+    "category": "生态与健康",
+    "categoryEn": "Ecology & Health",
+    "level": 1,
+    "oneLiner": "提示：它生来就有，而且不分敌我。",
+    "oneLinerEn": "Hint: born with it, no discrimination.",
+    "detail": "第一道防线：屏障（皮肤黏膜）。第二道是体液中的杀菌物质与吞噬细胞，这两道合称非特异性免疫；第三道才是针对特定病原的免疫器官与免疫细胞。",
+    "detailEn": "Line one: barriers—skin and mucosa. Line two: microbicidal chemicals and phagocytes in body fluids; those two together are innate, non-specific. Line three—the specific organs and cells—finishes the triad.",
+    "options": [
+      {
+        "text": "第一道",
+        "textEn": "The first line",
+        "correct": true
+      },
+      {
+        "text": "第二道",
+        "textEn": "The second line",
+        "correct": false
+      },
+      {
+        "text": "第三道",
+        "textEn": "The third line",
+        "correct": false
+      }
+    ],
+    "related": [
+      "immunity"
+    ]
+  },
+  {
+    "id": "q-life-7",
+    "term": "长期使用同一种农药，害虫抗药性增强。抗药性变异的来源是——",
+    "termEn": "Pests grow resistant under one pesticide year after year. The resistance variation arises—",
+    "category": "遗传与进化",
+    "categoryEn": "Genetics & Evolution",
+    "level": 3,
+    "oneLiner": "提示：农药是考官，不是作者。",
+    "oneLinerEn": "Hint: the spray is the examiner, not the author.",
+    "detail": "变异在施药前就随机的存在——少数个体携带抗性基因；农药只是选择压力，把有抗性的个体留下并繁殖。拉马克式「用出来」的获得性遗传不成立。",
+    "detailEn": "Variants exist randomly before the first spray—a few carriers of resistance genes. The pesticide is only the selection pressure keeping them breeding. Lamarck's 'use it and bequeath it' does not hold.",
+    "options": [
+      {
+        "text": "先于施药的基因突变",
+        "textEn": "Mutations predating the spray",
+        "correct": true
+      },
+      {
+        "text": "害虫适应农药后产生",
+        "textEn": "Created once pests adapt",
+        "correct": false
+      },
+      {
+        "text": "农药直接诱发定向变异",
+        "textEn": "The spray directs the change",
+        "correct": false
+      }
+    ],
+    "related": [
+      "mutation-variation",
+      "natural-selection"
+    ]
+  },
+  {
+    "id": "q-life-8",
+    "term": "血液中运输氧气的主力是——",
+    "termEn": "Blood's main oxygen hauler is—",
+    "category": "生态与健康",
+    "categoryEn": "Ecology & Health",
+    "level": 1,
+    "oneLiner": "提示：它丢了细胞核，腾出舱位装血红蛋白。",
+    "oneLinerEn": "Hint: it evicted its own nucleus to stack more hemoglobin.",
+    "detail": "成熟红细胞无核、富含血红蛋白，与氧可逆结合完成运输；白细胞管防御、血小板管止血——三类血细胞分工别记反。",
+    "detailEn": "Mature red cells, nucleus-free and packed with hemoglobin, bind and release oxygen on the loop; white cells guard, platelets seal—the three shifts must not be swapped.",
+    "options": [
+      {
+        "text": "红细胞",
+        "textEn": "Red blood cells",
+        "correct": true
+      },
+      {
+        "text": "白细胞",
+        "textEn": "White blood cells",
+        "correct": false
+      },
+      {
+        "text": "血小板",
+        "textEn": "Platelets",
+        "correct": false
+      }
+    ],
+    "related": [
+      "circulation-transport"
+    ]
+  },
+  {
+    "id": "q-life-9",
+    "term": "生物分类从大到小的等级中，最基本的分类单位是——",
+    "termEn": "Among taxonomic ranks, the most fundamental unit is—",
+    "category": "生态与健康",
+    "categoryEn": "Ecology & Health",
+    "level": 1,
+    "oneLiner": "提示：双名法命名的正是这一级。",
+    "oneLinerEn": "Hint: binomial nomenclature names exactly this rank.",
+    "detail": "界门纲目科属种，「种」是最基本单位——同一物种能自然交配并产生可育后代。林奈的双名法给每种的属名与种加词两截。",
+    "detailEn": "Kingdom down to species: species is the base unit—members interbreeding fertile offspring in the wild. Linnaeus' binomials stamp genus plus specific epithet on each.",
+    "options": [
+      {
+        "text": "种",
+        "textEn": "Species",
+        "correct": true
+      },
+      {
+        "text": "属",
+        "textEn": "Genus",
+        "correct": false
+      },
+      {
+        "text": "科",
+        "textEn": "Family",
+        "correct": false
+      }
+    ],
+    "related": [
+      "linnaeus",
+      "tree-of-life"
+    ]
+  },
+  {
+    "id": "q-life-10",
+    "term": "植物体「水分从根部升到高处」的拉力，主要来自——",
+    "termEn": "The pull lifting water high through a plant comes mostly from—",
+    "category": "细胞与代谢",
+    "categoryEn": "Cells & Metabolism",
+    "level": 2,
+    "oneLiner": "提示：叶片上的气孔是这台泵的出水口。",
+    "oneLinerEn": "Hint: the stomata are this pump's outlet.",
+    "detail": "蒸腾作用：叶片水分散失产生的拉力沿水柱上递，带动水分与溶解的无机盐上行——高树不靠「根压」从底下顶，主要靠上面拉。",
+    "detailEn": "Transpiration: water evaporating from leaves pulls the whole column, lifting water and its dissolved salts—the tall tree is watered from the top, not pushed from the roots.",
+    "options": [
+      {
+        "text": "蒸腾作用",
+        "textEn": "Transpiration",
+        "correct": true
+      },
+      {
+        "text": "根压",
+        "textEn": "Root pressure",
+        "correct": false
+      },
+      {
+        "text": "毛细现象",
+        "textEn": "Capillary action",
+        "correct": false
+      }
+    ],
+    "related": [
+      "transpiration",
+      "stomata"
+    ]
+  },
+  {
+    "id": "q-life-11",
+    "term": "疫苗在免疫学上的角色是——",
+    "termEn": "Immunologically, a vaccine acts as—",
+    "category": "生态与健康",
+    "categoryEn": "Ecology & Health",
+    "level": 2,
+    "oneLiner": "提示：它是不带危险的「通缉照」。",
+    "oneLinerEn": "Hint: a wanted poster without the danger.",
+    "detail": "疫苗含抗原成分（灭活病原、蛋白亚单位等），不带致病力却能让特异性免疫提前演习、生成记忆细胞——真病原再来时快而强。它不是抗体、更不是特效药。",
+    "detailEn": "A vaccine carries antigen—killed pathogen or subunit—harmless yet enough for the adaptive system to drill and mint memory cells, so the real invasion meets a faster, harder answer. It is neither antibody nor cure.",
+    "options": [
+      {
+        "text": "抗原，引发免疫记忆",
+        "textEn": "An antigen that drills memory",
+        "correct": true
+      },
+      {
+        "text": "抗体，直接杀病原",
+        "textEn": "An antibody that kills directly",
+        "correct": false
+      },
+      {
+        "text": "抗生素，抑制病原",
+        "textEn": "An antibiotic that suppresses",
+        "correct": false
+      }
+    ],
+    "related": [
+      "immunity"
+    ]
+  },
+  {
+    "id": "q-life-12",
+    "term": "制作面包时面团膨松，功劳主要归于酵母——",
+    "termEn": "Bread rises mainly because yeast—",
+    "category": "细胞与代谢",
+    "categoryEn": "Cells & Metabolism",
+    "level": 1,
+    "oneLiner": "提示：它在面团里开了间无氧小作坊。",
+    "oneLinerEn": "Hint: it runs a little anaerobic shop inside the dough.",
+    "detail": "酵母无氧呼吸（发酵）把糖分解为酒精与二氧化碳，气体受热膨胀撑起面筋网络；酒精在烘焙中挥发。酵母是真菌，不是细菌——与「酵母是细菌」误区正好对照。",
+    "detailEn": "Yeast ferments sugar to alcohol and carbon dioxide; the gas puffs the gluten frame and the alcohol bakes off. Yeast is a fungus, not a bacterium—the mirror of that common myth.",
+    "options": [
+      {
+        "text": "无氧呼吸产生二氧化碳",
+        "textEn": "Its anaerobic CO₂",
+        "correct": true
+      },
+      {
+        "text": "有氧呼吸产生水",
+        "textEn": "Its aerobic water",
+        "correct": false
+      },
+      {
+        "text": "直接分泌膨松剂",
+        "textEn": "Leavening it secretes",
+        "correct": false
+      }
+    ],
+    "related": [
+      "yeast-is-bacteria",
+      "fungi",
+      "metabolism-enzymes"
+    ]
+  }
+]
