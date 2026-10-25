@@ -1147,6 +1147,34 @@
       "nEn": "Delta vs Alluvial Fan"
     }
   ],
+  "glacial-vs-fluvial-landforms": [
+    {
+      "m": "m-compare",
+      "n": "冰川地貌与河流地貌",
+      "nEn": "Glacial vs Fluvial Landforms"
+    }
+  ],
+  "cyclone-vs-anticyclone": [
+    {
+      "m": "m-compare",
+      "n": "气旋与反气旋",
+      "nEn": "Cyclone vs Anticyclone"
+    }
+  ],
+  "igneous-vs-sedimentary-rock": [
+    {
+      "m": "m-compare",
+      "n": "岩浆岩与沉积岩",
+      "nEn": "Igneous vs Sedimentary Rock"
+    }
+  ],
+  "urbanization-vs-counterurbanization": [
+    {
+      "m": "m-compare",
+      "n": "城市化与逆城市化",
+      "nEn": "Urbanization vs Counter-urbanization"
+    }
+  ],
   "great-wall-space": [
     {
       "m": "m-myths",

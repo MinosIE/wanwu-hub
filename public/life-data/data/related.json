@@ -1182,6 +1182,34 @@
       "nEn": "Heredity vs Variation"
     }
   ],
+  "prokaryote-vs-eukaryote-cell": [
+    {
+      "m": "m-compare",
+      "n": "原核细胞与真核细胞",
+      "nEn": "Prokaryotic vs Eukaryotic Cell"
+    }
+  ],
+  "sexual-vs-asexual-reproduction": [
+    {
+      "m": "m-compare",
+      "n": "有性生殖与无性生殖",
+      "nEn": "Sexual vs Asexual Reproduction"
+    }
+  ],
+  "energy-flow-vs-nutrient-cycling": [
+    {
+      "m": "m-compare",
+      "n": "能量流动与物质循环",
+      "nEn": "Energy Flow vs Nutrient Cycling"
+    }
+  ],
+  "homologous-vs-analogous": [
+    {
+      "m": "m-compare",
+      "n": "同源器官与同功器官",
+      "nEn": "Homologous vs Analogous Structures"
+    }
+  ],
   "dominant-strongest": [
     {
       "m": "m-myths",
