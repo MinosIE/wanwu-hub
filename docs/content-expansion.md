@@ -38,7 +38,7 @@
 | physics | subjectKit | 16 模块                                                                           | 130    | 🟢 已导出机器可读 JSON               |
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
-| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 230    | ✅ 视图与 mind/econ 同量级           |
+| thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 234    | ✅ 视图与 mind/econ 同量级（第三十一批 compare 补齐）  |
 | earth   | FULL       | 地区/专题/原理/人文/典籍/人物（6 类）                                             | 79     | 🟠 已达 6 视图（+原理+人文），继续补 |
 | life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种（6 类）                                     | 80     | 🟠 已新增生命原理 + 特有物种视图     |
 
@@ -99,7 +99,7 @@
 
 ### 3.3 万物哲学 thought（🟠）
 
-**目标：4 类 → 10+。** 现 10 类 / 230 条 ✅
+**目标：4 类 → 10+。** 现 10 类 / 234 条 ✅
 
 - [x] 学派（补 `schools`→20+，含中国先秦诸子、宋明理学、近现代）（现 20）
 - [x] 哲学家（补 `thinkers`→25+）（现 29，新增阿奎那/斯宾诺莎/朱熹/杜威/加缪；第十五批补霍布斯/黑格尔/卢梭/伊壁鸠鲁）
@@ -113,6 +113,7 @@
 - [x] 常见误区 `myths.json`（新，14 条：「哲学无用」「存在主义是虚无主义」…）
 - [x] **thought 精修第一批（第十五批）：为已在时间线/对比/误区中被引用、却无本人传记的大哲学家补 thinkers +4 条**（新增 4 条、不动现有 25 条）——霍布斯（1588—1679，自然状态是一切人对一切人的战争、以契约把权力让渡给主权者，`tl-hobbes`/`xingshan-hobbes-compare` 早有引用）、黑格尔（1770—1831，辩证法与扬弃、精神在历史中走向自由，`tl-hegel` 被引用）、伊壁鸠鲁（前341—前270，快乐即身体无痛与心灵宁静、死亡不足惧，`myth-epicurus-debauch` 正澄清其「纵欲」误区）三位此前只在他处出现却无本人条目，属内部一致性缺口；顺势补卢梭（1712—1778，公意与主权在民、「人生而自由却无往不在枷锁之中」），完善社会契约脉络（霍布斯—洛克—卢梭）。thought 与 mind 不同：除 `thinkers.json` 外另有派生 `search.json`/`related.json`（由 `index:build` 生成）与 overview 的 `counts`+`kpis` 两处计数，故 append-only 写回后须 `npm run index:build -- thought` 重建派生文件（search 184→188、related 同步）+ 定点改 overview.thinkers 25→29。新条目 `related` 全部跨模块解析（含本批互引 hobbes↔rousseau）、`*En` 纯 ASCII 无汉字、含中文 source label 均配 `labelEn`。实测：`thinkers.json` git diff deletions=0、thought 184→188 条、`check:json` 0 失败、`links:check` 错误 0 告警 0、`verify exit=0`、`build ✓`
 - [x] **thought 人情世故分流（第二十批）：glossary 补「和」「恕」两条本土伦理概念 +2**（glossary 34→36，不动现有条目）——第十九批把「人际与分寸 / 本土人际」落在 mind 后，分流表里属哲学的那一格补在这里。写前先跨模块查重：`li-ritual`「礼」与 `benevolence`「仁」已在库、且 `benevolence` 的 `plain` 已引「己所不欲，勿施于人」，故不另立「礼」「仁」，只补两个真缺口。① `he-harmony`「和（和而不同）」：有子「礼之用，和为贵」＋「君子和而不同」＋荀子「乐合同，礼别异」，落点是「和」不是无原则调和、而是差异的协调，`related` 回挂 `li-ritual`/`zhongyong`/`confucianism`；② `shu-reciprocity`「恕（絜矩之道）」：「己所不欲，勿施于人」＋《大学》絜矩「所恶于上，毋以使下」＋朱熹「尽己之谓忠，推己之谓恕」，并在 `plain` 里与 `benevolence` 分工（仁是总德，恕是推行的下手处），`related` 挂 `categorical-imperative` 做中西对照。同步链：`counts.glossary` 34→36 → `node s/build-index.mjs thought` 重建 `search`/`related`（230 条 / 230 id）→ `gen:geo` 刷新 llms 228→230。实测：两文件 `git diff` deletions=0、`verify exit=0`、`build ✓`、中英×明暗点开详情 8/8 PASS、0 pageerror。记录一处**既有**渲染瑕疵：先秦条目负年份在来源里显示成「（-450）」。
+- [x] **thought Phase B 补条目（第三十一批：thought +4 条，全站 230→234，补齐 compare 14 的偏薄格）**——三格新题：`moh-logic-compare` 墨家辩经与三段论（分工：名实条管本体论、本条管推理技艺为何一边成学科一边不成）、`li-vs-law-compare` 礼治与法治（分工：天理自然法条讲超越根据、本条讲秩序技术）、`sage-philosopher-compare` 内圣外王与哲学王、`dream-cogito-compare` 蝶梦与恶魔假设（分工：experiments `butterfly-dream` 展开实验本身、本条对照两种文明的找回方式）。thought 惯例沿用纯追加无反向回插（既有库中 compare id 只被 glossary/timeline/myths 单向引用）；schema 比 mind compare 多 `icon/category/level/order/bridge`，order 续 15–18。同步链：counts 定点 needle `"compare": 14`→18（compare 不进 kpis）→ `index:build -- thought` 重建派生（234 search / 234 related）→ `gen:geo` 刷 llms 总数 230→234。实测：`links:check` `[thought] 10 个数据文件 / 234 条 / 234 个 id`、0 错 0 警、`verify exit=0`、`build ✓ 685ms`；puppeteer 中英×明暗四组合 **36 项 PASS／0 FAIL**（compare 18 卡、四新卡齐备、两条详情标题双语、related 芯片解析成显示名、旧条 ming-universal 反向对照）。新踩坑：**thought 卡片选择器是 `article.card[data-key]`（同 econ）而非 mind 的 `.card[data-id]`**，冒烟首跑 4 FAIL 即此。
 
 ### 3.4 万物化学 chem（subjectKit，🟠）
 

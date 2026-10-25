@@ -468,5 +468,154 @@
         "year": 1913
       }
     ]
+  },
+  {
+    "id": "moh-logic-compare",
+    "title": "墨家辩经与三段论",
+    "titleEn": "Mohist Dialectic vs. the Syllogism",
+    "icon": "🧮",
+    "category": "知识与方法",
+    "categoryEn": "Knowledge & Method",
+    "level": 3,
+    "order": 15,
+    "lead": "墨家率先写下辩论的规矩，亚里士多德把推理几何化；一个成了论辩工具，一个成了形式学科。",
+    "leadEn": "Mohists first wrote rules of disputation; Aristotle geometrized inference—one stayed an argument tool, the other became a formal discipline.",
+    "west": "《前分析篇》从论证中抽离纯形式：三个词项、两个前提必然推出结论，格与式可脱离内容单独检验。逻辑由此成为可授受的科目——斯多亚与中世纪经院把它纳入课程底座，直到 19 世纪数学逻辑重启其叙事。",
+    "westEn": "The Prior Analytics abstracts pure form from argument: three terms and two premises necessitate a conclusion, figure and mood testable apart from content. Logic becomes a teachable subject—Stoics and medieval schools set it as curriculum bedrock until 19th-century mathematical logic reopened its story.",
+    "east": "墨子以「三表」为立论立据：有本之于古者、有原察百姓耳目之实者、有用之刑政观其中国家百姓之利者。后期墨家《小取》细密到「辟、侔、援、推」四式与诸过犯，但正确性的最终判准仍落在「是否迁国家百姓之利」——形式与内容从未彻底剥离，演绎的张力没有自立为一门学科。",
+    "eastEn": "Mozi's three gauges license argument: grounded in the ancient, verified against common ears and eyes, applied in governance to weigh the people's benefit. The later Mohist Xiao Qu refines analogy, parallel, citation and extension with catalogued fallacies—yet the final test stays consequentialist: form never fully detaches from content, and the deductive tension never spun off into an autonomous discipline.",
+    "bridge": "比较的不是谁更聪明，而是制度与激励：希腊的法庭与城邦辩论让「有效式」成为可售卖的技艺，战国的百家争鸣让「言之效」成为终极裁判；同一路推法，一支走向三段论，一支走向判例式类推。名实之辩（见「名实之辩与共相之争」条）管本体论，本条管推理技艺为何在一边成学科、在另一边不成。",
+    "bridgeEn": "Not who was smarter, but institutions and incentives: Greek courts and civic debate made valid form a sellable skill; the Warring States contest of schools made efficacy of speech the final judge. Down one path the same inference became syllogistics; down the other, case-like analogy. The universals entry handles ontology; this one handles why the art of reason became a discipline on one side and not the other.",
+    "related": [
+      "mozi",
+      "mohism",
+      "mingjia",
+      "aristotle",
+      "syllogism",
+      "logic"
+    ],
+    "sources": [
+      {
+        "label": "《墨子·小取》",
+        "labelEn": "Mozi, Minor Expounding of General Ideas",
+        "year": -400
+      },
+      {
+        "label": "亚里士多德《前分析篇》",
+        "labelEn": "Aristotle, Prior Analytics",
+        "year": -350
+      }
+    ]
+  },
+  {
+    "id": "li-vs-law-compare",
+    "title": "礼治秩序与法治秩序",
+    "titleEn": "Ritual Order vs. Legal Order",
+    "icon": "🏛️",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 2,
+    "order": 16,
+    "lead": "一端靠角色与习俗的养成，一端靠成文规则的颁布与强制——儒家法家在中国内部吵完，希腊人早就在城邦里辩过一轮。",
+    "leadEn": "One order rests on trained roles and custom, the other on promulgated rules and enforcement—Confucians and Legalists fought it inside China; the Greeks had debated it in the polis first.",
+    "west": "从梭伦立法到亚里士多德「法治优于一人之治」，人为法成为被正面反思的对象；斯多亚的普遍之法落入罗马法学，经中世纪教会法与近代社会契约论，长成「法律之下人人平等」的宪政语法的底座。",
+    "westEn": "From Solon's statutes to Aristotle's 'rule of law over rule of any man', positive law becomes a reflected object; the Stoic universal law descends into Roman jurisprudence, through medieval canon law and early-modern contract theory, into the grammar of constitutional equality under law.",
+    "east": "孔子答为政：「道之以政，齐之以刑，民免而无耻；道之以德，齐之以礼，有耻且格。」礼不只是仪节，而是分角色、分器物、分资源的秩序图；法家则有相当完整的成文法体系与「刑无等级」的执行。秦以法得天下、汉以后以「德礼为政教之本，刑罚为政教之用」（《唐律疏议》序）合流——礼与法对峙又互济，争的是法律本身还需不需要一个更上的正当性来源。",
+    "eastEn": "Confucius on governance: lead by decrees and align by punishments, people dodge without shame; lead by virtue and align by ritual, people gain shame and correct themselves. Li is not mere ceremony but a map allocating roles, things and resources; the Legalists fielded near-complete written codes with punishment above rank. Qin took the realm by law; since Han the two merged—'virtue and ritual the root of governance, punishment its instrument' (preface to the Tang Code). The fight was whether law itself needs a higher source of legitimacy.",
+    "bridge": "真实分歧不在「有没有法」——法家有完整的制定法；而在法的位阶：希腊—罗马传统让法接受正义与自然的外在评判，中国传统让法在礼与人情之内履职。今天「法治与德治相结合」的表述，仍是这场两千年辩论的最新一层。与「天理与自然法」条分工：那条讲超越根据，本条讲秩序技术。",
+    "bridgeEn": "The split is not whether laws existed—the Legalists had full statutes—but their rank: the Greek-Roman line lets law be judged by an external justice and nature; the Chinese line lets law serve inside ritual and human feeling. Today's 'combining rule of law with rule of virtue' is the newest layer of a 2,000-year quarrel. Against the heaven-principle/natural-law entry: that one covers transcendental grounding; this one covers the technology of order.",
+    "related": [
+      "li-ritual",
+      "legalism",
+      "confucianism",
+      "justice",
+      "aristotle"
+    ],
+    "sources": [
+      {
+        "label": "《论语·为政》",
+        "labelEn": "Analects, On Governance",
+        "year": -400
+      },
+      {
+        "label": "亚里士多德《政治学》",
+        "labelEn": "Aristotle, Politics",
+        "year": -330
+      }
+    ]
+  },
+  {
+    "id": "sage-philosopher-compare",
+    "title": "内圣外王与哲学王",
+    "titleEn": "Sage Within, King Without vs. Philosopher-King",
+    "icon": "👑",
+    "category": "伦理与政治",
+    "categoryEn": "Ethics & Politics",
+    "level": 3,
+    "order": 17,
+    "lead": "谁配统治？儒家给出道德楷模，柏拉图给出见过「善」的人；一个靠修身向外推，一个靠辩证法而上。",
+    "leadEn": "Who deserves to rule? Confucianism offers the moral exemplar, Plato one who has seen the Good—one extends self-cultivation outward, the other ascends by dialectic.",
+    "west": "《理想国》的城邦里，唯有走出洞穴、见过善之理念者堪当大任：童年练音乐与体操，三十岁起学算术几何诸科预备，五十岁方「下去」执掌城邦——统治不是选举的产物，而是被真理转身之后的义务。",
+    "westEn": "In the Republic only those who leave the cave and see the Form of the Good are fit to rule: music and gymnastics in childhood, the mathematical propaedeutic from thirty, and only at fifty do they 'go down' to govern—rule is not elected but an obligation incurred after being turned toward truth.",
+    "east": "「内圣外王」（《庄子·天下》）与《中庸》「虽有其位，苟无其德，不敢作礼乐焉；虽有其德，苟无其位，亦不敢作礼乐焉」把统治资格同时挂德与位上；现实等不来圣人，替代机制是「选贤与能」的荐举与科举——政治正当性连到学问与道德示范，君主本人须先经经筵与史官的双重规训。",
+    "eastEn": "'Sage within, king without' (Zhuangzi, Under Heaven) and the Doctrine of the Mean's twin clause—no rites or music composed without both the position and the virtue—hang legitimacy on moral worth and seat together. Sages never arrive on schedule, so recommendation and the examination state substituted: legitimacy ties to learning and exemplarity, the emperor himself disciplined first by classical readings and the historians' brush.",
+    "bridge": "两套方案都在回应「权力应交给智慧」的焦虑，验收方向却相反：柏拉图是事前考试制（谁见过善），儒家是事后史观制（治下之民是否有耻且格）。现代政治哲学的认识论民主之争（专家治理 vs 民意授权）仍在这两个坐标之间摆动。",
+    "bridgeEn": "Both answer the anxiety that power should be entrusted to wisdom, with opposite acceptance tests: Plato's is an ante-mortem examination (who has seen the Good), Confucianism's a post-mortem historiography (did the people gain shame and rectitude). Today's epistemic-democracy quarrel—technocracy vs. mandate of the people—still swings between these coordinates.",
+    "related": [
+      "kongzi",
+      "plato",
+      "confucianism",
+      "zhongyong",
+      "mengzi"
+    ],
+    "sources": [
+      {
+        "label": "《庄子·天下》",
+        "labelEn": "Zhuangzi, Under Heaven",
+        "year": -300
+      },
+      {
+        "label": "柏拉图《理想国》",
+        "labelEn": "Plato, Republic",
+        "year": -370
+      }
+    ]
+  },
+  {
+    "id": "dream-cogito-compare",
+    "title": "蝶梦与恶魔假设",
+    "titleEn": "Butterfly Dream vs. the Evil Demon",
+    "icon": "🦋",
+    "category": "知识与方法",
+    "categoryEn": "Knowledge & Method",
+    "level": 3,
+    "order": 18,
+    "lead": "一个在人与蝶之间醒来，一个把怀疑住到「我思」为止——同设一个现实全面崩塌的场景，找回的路径正好相反。",
+    "leadEn": "One wakes between man and butterfly; the other dwells in doubt until 'I think'—the same collapse of reality, opposite recoveries.",
+    "west": "笛卡尔的方法论怀疑在《第一哲学沉思集》里剥掉感觉、醒觉乃至算术，假设一个全能恶魔使一切为假，只为找一块不可疑的阿基米德点：「我思故我在」从残渣中立起，再用清楚明白的观念、上帝之存在把外部世界重新拼装回来——判准放在无可怀疑的主体。",
+    "westEn": "Descartes' methodical doubt strips sensation, wakefulness even arithmetic, housing an omnipotent evil demon to make all false—all to find one Archimedean point: 'I think, I am' rises from the residue, and clear and distinct ideas, God's veracity, reassemble the world—certainty lodged in the indubitable subject.",
+    "east": "庄周梦蝶「栩栩然胡蝶也，自喻适志与」，觉后「则周也」——故事不停在「哪个是真的」，而落在「周与胡蝶，则必有分矣——此之谓物化」：怀疑不是索取确定性的梯子，而是物与物互化的观照；判准被化掉而不是被修复。与「庄周梦蝶」思想实验条分工：那条展开实验本身，本条对照两种文明的找回方式。",
+    "eastEn": "Zhuang Zhou 'blissful as a butterfly, content with his own way'; waking, 'then he was Zhou'—the tale does not stop at which was real but lands on the passing over of things into each other: doubt is not a ladder demanding certainty but an apprehension of transformation—the criterion dissolved rather than repaired. Against the standalone butterfly-dream experiment: that one unpacks the puzzle; this one contrasts how two cultures recover.",
+    "bridge": "「你怎么知道没在做梦」在近代认识论里以「经验不可决定论」与「缸中之脑」重演，两边文本仍可各读一半：笛卡尔一系把怀疑当知识地基的破损待修，庄子一系把怀疑当观点的轮转可安。把「醒来」本身当作需要解释的概念，是两边共同留给今天的作业。",
+    "bridgeEn": "The dream question returns as underdetermination of experience and the brain-in-a-vat; both texts still supply half the answer: the Cartesian line treats doubt as damage to knowledge's foundation awaiting repair, the Zhuangzian line as rotation of vantage to be settled into. Treating 'waking up' itself as the concept needing gloss is the homework both leave us.",
+    "related": [
+      "zhuangzi",
+      "descartes",
+      "qiwu",
+      "knowledge",
+      "butterfly-dream"
+    ],
+    "sources": [
+      {
+        "label": "《庄子·齐物论》",
+        "labelEn": "Zhuangzi, On the Equality of Things",
+        "year": -300
+      },
+      {
+        "label": "笛卡尔《第一哲学沉思集》",
+        "labelEn": "Descartes, Meditations on First Philosophy",
+        "year": 1641
+      }
+    ]
   }
 ]

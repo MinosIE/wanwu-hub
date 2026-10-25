@@ -1455,6 +1455,34 @@
       "nEn": "Investigating Things & Eidetic Intuition"
     }
   ],
+  "moh-logic-compare": [
+    {
+      "m": "m-compare",
+      "n": "墨家辩经与三段论",
+      "nEn": "Mohist Dialectic vs. the Syllogism"
+    }
+  ],
+  "li-vs-law-compare": [
+    {
+      "m": "m-compare",
+      "n": "礼治秩序与法治秩序",
+      "nEn": "Ritual Order vs. Legal Order"
+    }
+  ],
+  "sage-philosopher-compare": [
+    {
+      "m": "m-compare",
+      "n": "内圣外王与哲学王",
+      "nEn": "Sage Within, King Without vs. Philosopher-King"
+    }
+  ],
+  "dream-cogito-compare": [
+    {
+      "m": "m-compare",
+      "n": "蝶梦与恶魔假设",
+      "nEn": "Butterfly Dream vs. the Evil Demon"
+    }
+  ],
   "myth-socrates-ignorance": [
     {
       "m": "m-myths",
