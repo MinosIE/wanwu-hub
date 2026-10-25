@@ -578,5 +578,200 @@
         "url": "https://en.wikipedia.org/wiki/Gymnosperm"
       }
     ]
+  },
+  {
+    "id": "bryophytes",
+    "name": "苔藓植物",
+    "nameEn": "Bryophytes",
+    "span": "植物界 · 苔藓类群",
+    "spanEn": "Plantae · Bryophytes",
+    "level": 1,
+    "core": "最早上陆却仍依赖水环境的一支，无真正的维管组织与根，以叶状体和假根贴地生长、经孢子繁殖，常见于阴湿的林地、岩石与沼泽。",
+    "coreEn": "Among the first land plants yet still tied to water — no true vessels or roots, growing low as leafy mats with rhizoids and reproducing by spores across damp woods, rocks and bogs.",
+    "founders": ["代表：葫芦藓、地钱、泥炭藓"],
+    "foundersEn": ["e.g. mosses, liverworts, peat moss"],
+    "keyIdeas": ["无维管、无真根", "配子体世代占优势", "精子具鞭毛需水游动", "孢子体依赖配子体"],
+    "keyIdeasEn": [
+      "No vessels, no true roots",
+      "Dominant gametophyte stage",
+      "Flagged sperm need water",
+      "Sporophyte depends on gametophyte"
+    ],
+    "strengths": ["拓荒先锋、改良土壤", "保水固沙、形成泥炭", "指示湿度与空气质量"],
+    "strengthsEn": [
+      "Pioneers that build soil",
+      "Hold water, form peat",
+      "Indicate moisture & air quality"
+    ],
+    "criticisms": ["体型矮小限制高度", "离潮湿难以存活", "生长缓慢、易受干扰"],
+    "criticismsEn": [
+      "Stunted by no vascular system",
+      "Need persistent damp",
+      "Slow-growing, easily disturbed"
+    ],
+    "order": 16,
+    "related": ["land-plants", "angiosperms", "tree-of-life"],
+    "sources": [
+      {
+        "label": "Wikipedia: Bryophyte",
+        "url": "https://en.wikipedia.org/wiki/Bryophyte"
+      }
+    ]
+  },
+  {
+    "id": "monilophyta",
+    "name": "蕨类植物",
+    "nameEn": "Ferns & Allies",
+    "span": "植物界 · 蕨类（含木贼石松）",
+    "spanEn": "Plantae · Ferns & allies",
+    "level": 2,
+    "core": "具维管组织却仍以孢子繁殖的类群，叶大型、幼时拳卷，精子需水游动；古生代晚期曾形成广袤森林，是重要的成煤来源。",
+    "coreEn": "Vascular yet spore-bearing plants with large, coiled young leaves and water-dependent sperm; in the late Paleozoic they formed vast forests and became a major source of coal.",
+    "founders": ["代表：蕨、木贼、石松"],
+    "foundersEn": ["e.g. ferns, horsetails, clubmosses"],
+    "keyIdeas": ["有维管但无种子", "孢子囊聚合成孢子堆", "幼叶拳卷", "古树蕨成煤"],
+    "keyIdeasEn": [
+      "Vascular but seedless",
+      "Spore cases in sori",
+      "Fiddlehead coiled fronds",
+      "Ancient tree-ferns made coal"
+    ],
+    "strengths": ["适应阴湿与山地", "生态保持与观赏价值", "食用与药用"],
+    "strengthsEn": [
+      "Fits damp & montane places",
+      "Conservation & ornamental value",
+      "Edible & medicinal uses"
+    ],
+    "criticisms": ["繁殖仍受水限制", "竞争中不敌种子植物", "部分种类富集毒素"],
+    "criticismsEn": [
+      "Reproduction still water-bound",
+      "Outcompeted by seed plants",
+      "Some accumulate toxins"
+    ],
+    "order": 17,
+    "related": ["land-plants", "gymnosperms", "tree-of-life"],
+    "sources": [
+      {
+        "label": "Wikipedia: Fern",
+        "url": "https://en.wikipedia.org/wiki/Fern"
+      }
+    ]
+  },
+  {
+    "id": "chondrichthyes",
+    "name": "软骨鱼",
+    "nameEn": "Cartilaginous Fish",
+    "span": "动物界 · 软骨鱼纲",
+    "spanEn": "Animalia · Chondrichthyes",
+    "level": 2,
+    "core": "内骨骼全为软骨的颌口脊椎动物，鳃裂直接开口、多数具楯鳞与发达嗅觉，包含鲨鱼、鳐与魟，是海洋中古老而高效的顶级掠食者。",
+    "coreEn": "Jawed vertebrates with all-cartilage skeletons, gill slits opening directly, dermal denticles and keen senses — sharks, rays and skates, ancient and highly efficient marine predators.",
+    "founders": ["代表：大白鲨、鲸鲨、蝠鲼"],
+    "foundersEn": ["e.g. great white, whale shark, manta"],
+    "keyIdeas": ["骨骼全为软骨", "鳃裂无鳃盖、直接开口", "电感受与嗅觉敏锐", "卵胎生与胎生并存"],
+    "keyIdeasEn": [
+      "Skeleton wholly cartilage",
+      "Bare gill slits, no operculum",
+      "Ampullary electroreception & smell",
+      "Oviparous to viviparous"
+    ],
+    "strengths": ["位居海洋食物链顶端", "感官系统高度灵敏", "演化历史悠久"],
+    "strengthsEn": [
+      "Top of marine food webs",
+      "Exquisitely sensitive senses",
+      "An ancient lineage"
+    ],
+    "criticisms": ["繁殖慢、易被过度捕捞", "鱼鳍鱼肝遭大量索取", "种群恢复困难"],
+    "criticismsEn": [
+      "Slow to breed, overfished",
+      "Fins & livers heavily taken",
+      "Populations recover slowly"
+    ],
+    "order": 18,
+    "related": ["actinopterygii", "vertebrate-origin", "cambrian-explosion"],
+    "sources": [
+      {
+        "label": "Wikipedia: Cartilaginous fish",
+        "url": "https://en.wikipedia.org/wiki/Cartilaginous_fish"
+      }
+    ]
+  },
+  {
+    "id": "annelida",
+    "name": "环节动物",
+    "nameEn": "Annelids",
+    "span": "动物界 · 环节动物门",
+    "spanEn": "Animalia · Annelida",
+    "level": 2,
+    "core": "身体由许多相似体节组成的蠕虫状动物，具真体腔与闭管式循环，沙蚕、蚯蚓与水蛭皆属此类；分节与刚毛使其在土壤与水域中灵活穿行。",
+    "coreEn": "Segmented worm-like animals built of repeating rings, with a true coelom and closed circulation — ragworms, earthworms and leeches — whose bristles and segments let them bore soil and water.",
+    "founders": ["代表：环毛蚓、沙蚕、水蛭"],
+    "foundersEn": ["e.g. earthworm, ragworm, leech"],
+    "keyIdeas": ["分节与刚毛疣足", "真体腔与闭管循环", "土壤重要改良者", "部分种类吸血"],
+    "keyIdeasEn": [
+      "Segments with setae & parapodia",
+      "True coelom, closed vessels",
+      "Key soil turners",
+      "Some are blood-feeding"
+    ],
+    "strengths": ["疏松土壤、提高肥力", "底栖水域重要环节", "药用与饵料价值"],
+    "strengthsEn": [
+      "Loosen soil, boost fertility",
+      "Vital benthic link",
+      "Medicinal & bait value"
+    ],
+    "criticisms": ["部分寄生或吸血", "对土壤污染敏感", "易被天敌大量捕食"],
+    "criticismsEn": [
+      "Some parasitic or bloodsucking",
+      "Sensitive to pollutants",
+      "Much predated upon"
+    ],
+    "order": 19,
+    "related": ["mollusca", "cnidaria", "tree-of-life"],
+    "sources": [
+      {
+        "label": "Wikipedia: Annelid",
+        "url": "https://en.wikipedia.org/wiki/Annelid"
+      }
+    ]
+  },
+  {
+    "id": "echinodermata",
+    "name": "棘皮动物",
+    "nameEn": "Echinoderms",
+    "span": "动物界 · 棘皮动物门",
+    "spanEn": "Animalia · Echinodermata",
+    "level": 2,
+    "core": "体表具钙质棘刺、拥有独特水管系统的海洋后口动物，成体多五辐射对称、幼体两侧对称，海星、海胆、海参皆属此门，再生能力惊人。",
+    "coreEn": "Marine deuterostomes armoured with calcareous spines and driven by a unique water-vascular system — adults five-fold radial, larvae bilateral — starfish, sea urchins and sea cucumbers, famed for regeneration.",
+    "founders": ["代表：海星、海胆、海参"],
+    "foundersEn": ["e.g. starfish, sea urchin, sea cucumber"],
+    "keyIdeas": ["成体五辐射对称", "水管系统用于运动摄食", "内骨骼为钙质骨片", "再生能力极强"],
+    "keyIdeasEn": [
+      "Pentaradial adult symmetry",
+      "Water-vascular locomotion & feeding",
+      "Calcareous ossicle endoskeleton",
+      "Remarkable regeneration"
+    ],
+    "strengths": ["珊瑚礁与海底关键成员", "食物链重要环节", "再生与发育研究模型"],
+    "strengthsEn": [
+      "Key reef & seafloor members",
+      "An important food-web link",
+      "Models for regrowth & development"
+    ],
+    "criticisms": ["行动缓慢、代谢偏低", "部分种类暴发作害", "对海水酸化敏感"],
+    "criticismsEn": [
+      "Slow, low-metabolism",
+      "Some outbreak as pests",
+      "Sensitive to acidifying seas"
+    ],
+    "order": 20,
+    "related": ["cnidaria", "mollusca", "natural-selection"],
+    "sources": [
+      {
+        "label": "Wikipedia: Echinoderm",
+        "url": "https://en.wikipedia.org/wiki/Echinoderm"
+      }
+    ]
   }
 ]

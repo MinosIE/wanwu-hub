@@ -104,6 +104,41 @@
       "nEn": "Central Asia"
     }
   ],
+  "france": [
+    {
+      "m": "m-schools",
+      "n": "法国",
+      "nEn": "France"
+    }
+  ],
+  "canada": [
+    {
+      "m": "m-schools",
+      "n": "加拿大",
+      "nEn": "Canada"
+    }
+  ],
+  "norway": [
+    {
+      "m": "m-schools",
+      "n": "挪威",
+      "nEn": "Norway"
+    }
+  ],
+  "argentina": [
+    {
+      "m": "m-schools",
+      "n": "阿根廷",
+      "nEn": "Argentina"
+    }
+  ],
+  "indonesia": [
+    {
+      "m": "m-schools",
+      "n": "印度尼西亚",
+      "nEn": "Indonesia"
+    }
+  ],
   "tropical-rainforest": [
     {
       "m": "m-questions",

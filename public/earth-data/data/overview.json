@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "counts": {
-    "schools": 15,
+    "schools": 20,
     "questions": 19,
     "principles": 19,
     "humanGeo": 20,
@@ -30,7 +30,7 @@
     {
       "key": "schools",
       "icon": "🌍",
-      "value": 15
+      "value": 20
     },
     {
       "key": "questions",
