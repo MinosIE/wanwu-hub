@@ -39,10 +39,10 @@
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 234    | ✅ 视图与 mind/econ 同量级（第三十一批 compare 补齐）  |
-| earth   | FULL       | 地区/专题/原理/人文/典籍/人物（6 类）                                             | 79     | 🟠 已达 6 视图（+原理+人文），继续补 |
-| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种（6 类）                                     | 80     | 🟠 已新增生命原理 + 特有物种视图     |
+| earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区（8 类）                        | 135    | 🟠 已达 8 视图（三十二批 +术语/误区）      |
+| life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区（8 类）              | 128    | 🟠 已达 8 视图（三十二批 +术语/误区）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条、earth 111、life 104），未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在三十二批同步刷新为 135 / 128；其余行仍为 2026-10 盘点时的旧快照（如 physics 实为 154 条），未逐行刷新。
 
 ---
 
@@ -76,7 +76,7 @@
 - [ ] 地理学家（补 `thinkers`→15+）
 - [ ] 地理大发现时间线（新）
 - [ ] 经典地理著作（补 `classics`）
-- 术语表 / 测验 / 误区 / 对比（若模板支持则补）
+- [x] 术语表 / 误区 ✅ 三十二批各 12 条（测验/对比待后续批次）
 
 ### 3.2 万物生物 life（🔴 最优先）
 
@@ -96,6 +96,9 @@
 - [ ] 生物学家（补 `thinkers`→15+）
 - [ ] 重要实验与发现时间线（新）
 - [ ] 经典著作（补 `classics`）
+- [x] 术语表 / 误区（新）✅ 三十二批各 12 条
+
+- [x] **Phase C 新增视图（三十二批）：earth / life 各 +2 视图（术语表+误区），全科 111→135 / 104→128**——照 human-geo 先例接入 thought 同构的 glossary/myths 视图：渲染器与 `termCard` 直接从 thought 字节级复制（三科 scaffold 同构，渲染器零学科硬编码）；`s/build-index.mjs` 的 EXTRA 规格表与 `gen-geo.mjs` 的 LABEL 表已含 glossary/myths 键——两脚本零改动，新视图仅靠数据文件存在即自动入索引/入 llms。接线：MODULES 注册×4、模板 nav+section×4、i18n 每科 16 键×双语（含 ui.def/plain/myth/truth 四个详情分节键）；overview 只进 counts 不进 kpis（两科 kpis 已满 4 项，超则告警）。选题：earth 术语 12（等高线/时区/地形雨/急流/上升流/冻土/含水层/地峡/焚风/反照率/等温线/地质年代）+误区 12（长城入太空/尼罗第一长河/珠峰唯一之最/热带必热/两极同冷/闪电不复击/四季因距离/完美球体/荒漠皆沙海/墨卡托真形/死海自由游/时区直线）；life 术语 12（等位基因/基因型/表型/减数分裂/生态位/食物网/关键种/基因库/限制因子/演替/蒸腾/气孔）+误区 12（显性即优/人由黑猩猩变来/获得性遗传/适者即最强/垃圾DNA/血型饮食/酵母是细菌/植物吃土/病毒是生物/蜘蛛是昆虫/蝙蝠是瞎子/冬眠即长觉）。碰撞预检 48 候选换词 3（thermohaline/homeostasis/carrying-capacity 已占→避开或换题）；存疑出处宁缺勿滥→本批 48 条均不带 sources。顺手修复：earth template 单行串残留全部 thought 兜底文案（heroTitle/heroSub/homeLead/各模块 title/sub/placeholder 共 17 处 sweep 同步为 earth 自己的 zh 值）。实测：`index:build` earth 135/135、life 128/128；`links:check` 错误 0 告警 0；`verify` 绿（biome 自动修复 2 个 shared.ts 尾行格式）；`build ✓`；puppeteer 中英×明暗 **108 项 PASS／0 FAIL**（冒烟首跑 4 FAIL 为断言预期错——allele 的 related 芯片应是孟德尔而非真菌界，非程序缺陷）。
 
 ### 3.3 万物哲学 thought（🟠）
 

@@ -726,5 +726,173 @@
       "n": "珙桐",
       "nEn": "Dove Tree"
     }
+  ],
+  "allele": [
+    {
+      "m": "m-glossary",
+      "n": "等位基因",
+      "nEn": "Allele"
+    }
+  ],
+  "genotype": [
+    {
+      "m": "m-glossary",
+      "n": "基因型",
+      "nEn": "Genotype"
+    }
+  ],
+  "phenotype": [
+    {
+      "m": "m-glossary",
+      "n": "表型",
+      "nEn": "Phenotype"
+    }
+  ],
+  "meiosis": [
+    {
+      "m": "m-glossary",
+      "n": "减数分裂",
+      "nEn": "Meiosis"
+    }
+  ],
+  "niche": [
+    {
+      "m": "m-glossary",
+      "n": "生态位",
+      "nEn": "Ecological Niche"
+    }
+  ],
+  "food-web": [
+    {
+      "m": "m-glossary",
+      "n": "食物网",
+      "nEn": "Food Web"
+    }
+  ],
+  "keystone-species": [
+    {
+      "m": "m-glossary",
+      "n": "关键种",
+      "nEn": "Keystone Species"
+    }
+  ],
+  "gene-pool": [
+    {
+      "m": "m-glossary",
+      "n": "基因库",
+      "nEn": "Gene Pool"
+    }
+  ],
+  "limiting-factor": [
+    {
+      "m": "m-glossary",
+      "n": "限制因子",
+      "nEn": "Limiting Factor"
+    }
+  ],
+  "ecological-succession": [
+    {
+      "m": "m-glossary",
+      "n": "群落演替",
+      "nEn": "Ecological Succession"
+    }
+  ],
+  "transpiration": [
+    {
+      "m": "m-glossary",
+      "n": "蒸腾作用",
+      "nEn": "Transpiration"
+    }
+  ],
+  "stomata": [
+    {
+      "m": "m-glossary",
+      "n": "气孔",
+      "nEn": "Stomata"
+    }
+  ],
+  "dominant-strongest": [
+    {
+      "m": "m-myths",
+      "n": "「显性性状就是更强、更优的性状」",
+      "nEn": "\"Dominant Means Stronger or Better\""
+    }
+  ],
+  "human-from-chimp": [
+    {
+      "m": "m-myths",
+      "n": "「人类由黑猩猩进化而来」",
+      "nEn": "\"Humans Evolved From Chimpanzees\""
+    }
+  ],
+  "acquired-inheritance": [
+    {
+      "m": "m-myths",
+      "n": "「用进废退的获得性性状可以遗传」",
+      "nEn": "\"Acquired Traits Are Inherited\""
+    }
+  ],
+  "fittest-strongest": [
+    {
+      "m": "m-myths",
+      "n": "「适者生存就是最强者生存」",
+      "nEn": "\"Survival of the Fittest Means Survival of the Strongest\""
+    }
+  ],
+  "junk-dna": [
+    {
+      "m": "m-myths",
+      "n": "「大部分 DNA 是无用的『垃圾』」",
+      "nEn": "\"Most DNA Is Useless Junk\""
+    }
+  ],
+  "blood-type-diet": [
+    {
+      "m": "m-myths",
+      "n": "「按血型吃饭有科学依据」",
+      "nEn": "\"Blood-Type Diets Have Science Behind Them\""
+    }
+  ],
+  "yeast-is-bacteria": [
+    {
+      "m": "m-myths",
+      "n": "「酵母是一种细菌」",
+      "nEn": "\"Yeast Is a Kind of Bacterium\""
+    }
+  ],
+  "plants-eat-soil": [
+    {
+      "m": "m-myths",
+      "n": "「植物是靠吃土长大的」",
+      "nEn": "\"Plants Grow by Eating Soil\""
+    }
+  ],
+  "virus-is-organism": [
+    {
+      "m": "m-myths",
+      "n": "「病毒是最小的生物」",
+      "nEn": "\"Viruses Are the Smallest Living Things\""
+    }
+  ],
+  "spider-is-insect": [
+    {
+      "m": "m-myths",
+      "n": "「蜘蛛是一种昆虫」",
+      "nEn": "\"Spiders Are Insects\""
+    }
+  ],
+  "bats-are-blind": [
+    {
+      "m": "m-myths",
+      "n": "「蝙蝠是瞎子，只靠回声『看』世界」",
+      "nEn": "\"Bats Are Blind and See Only by Echo\""
+    }
+  ],
+  "hibernation-is-sleep": [
+    {
+      "m": "m-myths",
+      "n": "「冬眠只是长觉一睡」",
+      "nEn": "\"Hibernation Is Just a Long Sleep\""
+    }
   ]
 }

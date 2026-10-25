@@ -1,0 +1,190 @@
+[
+  {
+    "id": "contour-line",
+    "term": "等高线",
+    "termEn": "Contour Line",
+    "category": "地图与识图",
+    "categoryEn": "Maps & Reading",
+    "level": 1,
+    "def": "把海拔相等的点连成闭合曲线绘于图上：线密坡陡、线疏坡缓，穿过山谷时折向河谷上游。",
+    "defEn": "Closed lines joining points of equal elevation: crowded lines mean steep slopes, sparse ones gentle slopes; where a contour crosses a valley it bends upstream.",
+    "plain": "像把山一层层水平切开、再把每层的外缘压到纸上——线的疏密就是坡度的「快慢表」。",
+    "plainEn": "Imagine slicing a hill horizontally and pressing each slice's edge onto paper — how dense the lines are is a speedometer for the slope.",
+    "related": [
+      "river-landforms"
+    ]
+  },
+  {
+    "id": "time-zone",
+    "term": "时区",
+    "termEn": "Time Zone",
+    "category": "地图与识图",
+    "categoryEn": "Maps & Reading",
+    "level": 1,
+    "def": "使用同一区时（标准时）的区域：理论上全球按经度每15°划一时区，实际时区界线的走向受行政区划与经济联系左右。",
+    "defEn": "A region keeping one standard time: theoretically the globe is divided into 24 zones of 15° longitude each, but real zone borders follow political and economic geography.",
+    "plain": "地球每小时自转15°，就把经度切成一条条带、同带共钟；各国常「按边界切，不按经线切」。",
+    "plainEn": "Earth turns 15° an hour, so the globe is cut into longitude belts that share one clock — but countries usually cut along borders, not meridians.",
+    "related": [
+      "eratosthenes"
+    ]
+  },
+  {
+    "id": "orographic-precipitation",
+    "term": "地形雨",
+    "termEn": "Orographic Rainfall",
+    "category": "气候与大气",
+    "categoryEn": "Climate & Atmosphere",
+    "level": 1,
+    "def": "潮湿气流沿迎风坡被迫抬升、绝热冷却凝结致雨；背风侧气流下沉增温，形成干热的雨影坡。",
+    "defEn": "Moist air forced up a windward slope cools adiabatically and drops its rain; on the leeward side the sinking air warms and creates a rain shadow.",
+    "plain": "山是「挤水的闸」：迎风侧四时多雨，背风侧天干物燥——坡向比纬度更先决定干湿。",
+    "plainEn": "A mountain range is a water-wringing gate: the windward side gets rain, the leeward side gets drought — aspect decides wetness even before latitude does.",
+    "related": [
+      "monsoon",
+      "himalaya"
+    ]
+  },
+  {
+    "id": "jet-stream",
+    "term": "急流",
+    "termEn": "Jet Stream",
+    "category": "气候与大气",
+    "categoryEn": "Climate & Atmosphere",
+    "level": 2,
+    "def": "对流层顶附近沿水平温度梯度强劲流动的窄条高速风带；其位置与强度引导地面天气系统的移动路径。",
+    "defEn": "Narrow bands of very strong wind near the tropopause, driven by sharp horizontal temperature contrasts; they steer surface weather systems along their path.",
+    "plain": "万米高空的「传送带」：民航自西向东借它省油，它一摆动，寒潮与热浪就跟着改道。",
+    "plainEn": "A conveyor belt ten kilometres up: airliners ride it west-to-east to save fuel, and when it wanders, cold snaps and heat waves wander with it.",
+    "related": [
+      "circulation-cells",
+      "monsoon"
+    ]
+  },
+  {
+    "id": "upwelling",
+    "term": "上升流",
+    "termEn": "Upwelling",
+    "category": "海洋与水文",
+    "categoryEn": "Ocean & Hydrology",
+    "level": 2,
+    "def": "表层海水离岸或被带走后，下层冷水涌流补充；富含营养盐，支撑高生产力渔场与庞大海鸟种群。",
+    "defEn": "Cold deep water rises to replace surface water blown offshore, carrying nutrients upward and fueling some of the world's richest fisheries and seabird colonies.",
+    "plain": "海洋的「施肥泵」：把海底的营养抽到表层，小鱼虾闻讯而来——秘鲁渔场即由此而来。",
+    "plainEn": "The ocean's fertilizer pump: nutrients from the deep reach the surface, and the fish follow — that is how the Peruvian fishery got its name.",
+    "related": [
+      "humboldt",
+      "ocean-currents"
+    ]
+  },
+  {
+    "id": "permafrost",
+    "term": "永久冻土",
+    "termEn": "Permafrost",
+    "category": "冰冻圈",
+    "categoryEn": "Cryosphere",
+    "level": 2,
+    "def": "连续两年及以上保持0℃或以下的土层或岩层，广布于高纬与高海拔；融化会释放温室气体并导致地基失稳。",
+    "defEn": "Ground (soil or rock) that stays at or below 0°C for two consecutive years or more, widespread at high latitudes and altitudes; thawing releases greenhouse gases and destabilizes foundations.",
+    "plain": "地下上了几千年的「冰箱」：一旦断电（变暖），食物（有机碳）腐化，冰箱上的房子（路基）也会塌陷。",
+    "plainEn": "Nature's freezer, running for thousands of years: when it loses power to warming, its contents rot — and the roads and houses resting on it sag.",
+    "related": [
+      "tundra",
+      "antarctica"
+    ]
+  },
+  {
+    "id": "aquifer",
+    "term": "含水层",
+    "termEn": "Aquifer",
+    "category": "海洋与水文",
+    "categoryEn": "Ocean & Hydrology",
+    "level": 1,
+    "def": "能储存并透过大量重力水的岩层或土层，补给井与泉；补给缓慢，超采会形成降落漏斗乃至地面沉降。",
+    "defEn": "A rock or sediment layer that stores and transmits abundant groundwater, feeding wells and springs; recharge is slow, so over-pumping draws cones of depression and can sink the land.",
+    "plain": "地下的「海绵水库」：灌水远慢于抽水，多用一点就是在花攒了几百年的积蓄。",
+    "plainEn": "An underground sponge-reservoir: refilling is far slower than withdrawal, so every extra drop pumped spends centuries of saving.",
+    "related": [
+      "groundwater"
+    ]
+  },
+  {
+    "id": "isthmus",
+    "term": "地峡",
+    "termEn": "Isthmus",
+    "category": "地貌与地表",
+    "categoryEn": "Landforms",
+    "level": 1,
+    "def": "连接两块较大陆地、两侧被海水夹峙的狭窄陆地；常成为航运与贸易的咽喉，也是开凿运河的要地。",
+    "defEn": "A narrow neck of land joining two larger landmasses with seas on either side; isthmuses become choke points of trade and the natural sites for canals.",
+    "plain": "陆地的「腰」：一凿通就改写大洋联通（巴拿马、苏伊士），也改写两大洲生物的交流。",
+    "plainEn": "The waist of a land bridge: cut it open and the oceans connect (Panama, Suez); close it and two continents start swapping species.",
+    "related": [
+      "suez",
+      "magellan"
+    ]
+  },
+  {
+    "id": "foehn-wind",
+    "term": "焚风",
+    "termEn": "Foehn Wind",
+    "category": "气候与大气",
+    "categoryEn": "Climate & Atmosphere",
+    "level": 2,
+    "def": "气流翻山后在背风侧下沉增温形成的干暖风：迎风坡抬升降雨后，气块按干绝热率下沉，温度显著高于同高度两侧。",
+    "defEn": "A warm, dry downslope wind on the leeward side of a barrier: having lost its moisture rising over the windward slope, the air compresses and warms faster than its surroundings.",
+    "plain": "山的「吹风机」：迎风侧先挤干水分，背风侧像热风一样吹下来——春天催融雪，也能催奶牛多产奶。",
+    "plainEn": "A mountain's hair-dryer: wring out the water on the windward side, blow hot on the lee — melting snow fast in spring, famously even boosting milk yields.",
+    "related": [
+      "alpine"
+    ]
+  },
+  {
+    "id": "albedo",
+    "term": "反照率",
+    "termEn": "Albedo",
+    "category": "气候与大气",
+    "categoryEn": "Climate & Atmosphere",
+    "level": 1,
+    "def": "地表反射太阳辐射与入射辐射之比（0—1）：新雪高、海面低；其差异与反馈是极地放大作用的关键一环。",
+    "defEn": "The fraction of incoming sunlight a surface reflects (0–1): fresh snow is high, open ocean low; its contrasts and feedbacks drive polar amplification.",
+    "plain": "地球的「衣服颜色」：白雪反光散热，深色海面吸热；雪一融就换上「黑衣」，越吸越热、越热越融。",
+    "plainEn": "The planet's clothing color: white snow reflects, dark ocean drinks the sunlight; melt the snow and Earth puts on a black shirt — warmer, so melting more.",
+    "related": [
+      "greenhouse-effect",
+      "glacier"
+    ]
+  },
+  {
+    "id": "isotherm",
+    "term": "等温线",
+    "termEn": "Isotherm",
+    "category": "地图与识图",
+    "categoryEn": "Maps & Reading",
+    "level": 1,
+    "def": "把气温相等的点连成的线，制图时通常先归算到海平面；由洪堡首创，使气候的空间分布第一次跃然一图。",
+    "defEn": "Lines joining points of equal temperature, usually reduced to sea level before drawing; introduced by Humboldt, they first made climate visible as a pattern on one map.",
+    "plain": "和等高线一样，只是画的不算高低而是冷暖——线越平直，气候越「随纬而行」。",
+    "plainEn": "Contours, but for cold and heat instead of height — the straighter the lines, the more faithfully climate follows latitude.",
+    "related": [
+      "humboldt"
+    ]
+  },
+  {
+    "id": "geologic-time-scale",
+    "term": "地质年代",
+    "termEn": "Geologic Time Scale",
+    "category": "深时",
+    "categoryEn": "Deep Time",
+    "level": 3,
+    "def": "以地层、化石与同位素测年把46亿年地球史划分为宙、代、纪、期的时间框架，各界线多设于「金钉子」型层剖面。",
+    "defEn": "The framework dividing 4.6 billion years of Earth history into eons, eras, periods and ages, pinned to stratotypes ('golden spikes') chosen from the rock record.",
+    "plain": "地球的「日历」：若把全部历史压成一年，人类只出现在12月31日最后几十秒。",
+    "plainEn": "Earth's calendar: compress all history into one year and humans show up in the last seconds of December 31st.",
+    "related": [
+      "lyell",
+      "uniformitarianism",
+      "milankovitch-cycles"
+    ]
+  }
+]

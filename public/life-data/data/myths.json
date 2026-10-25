@@ -1,0 +1,217 @@
+[
+  {
+    "id": "dominant-strongest",
+    "term": "「显性性状就是更强、更优的性状」",
+    "termEn": "\"Dominant Means Stronger or Better\"",
+    "category": "遗传常识",
+    "categoryEn": "Heredity",
+    "level": 1,
+    "myth": "显性代表「强势」：显性基因是好基因，理应在人群中更常见。",
+    "mythEn": "Dominant means strong: dominant genes are the better ones and ought to be the commoner trait in a population.",
+    "truth": "显性只描述杂合状态下谁表达出来，与「优劣」「多寡」无涉：多指症是显性却罕见，常见血型也有显隐性之分。",
+    "truthEn": "Dominance only describes which allele shows itself in a heterozygote — nothing about quality or frequency: polydactyly is dominant yet rare, and ordinary blood types follow dominance too.",
+    "detail": "显隐性是分子层面的表达现象：一份产物足以盖过另一份即为显性，更多情况是不完全显性或共显性。某性状能否扩散，看选择压与随机漂变——有害的显性遗传病照样「显」，却代代受选择清除。",
+    "detailEn": "Dominance is a molecular matter of expression: one copy sufficing to mask the other reads as dominant, while incomplete dominance and codominance are commoner still. Whether a trait spreads depends on selection and drift — a harmful dominant disorder still shows itself dominantly, generation after cleared generation.",
+    "related": [
+      "heredity-mendel",
+      "mendel"
+    ]
+  },
+  {
+    "id": "human-from-chimp",
+    "term": "「人类由黑猩猩进化而来」",
+    "termEn": "\"Humans Evolved From Chimpanzees\"",
+    "category": "演化",
+    "categoryEn": "Evolution",
+    "level": 1,
+    "myth": "人是猴子、黑猩猩后来的一支，黑猩猩是我们的祖先。",
+    "mythEn": "Humans are a later branch of apes — chimpanzees our ancestors.",
+    "truth": "人类与黑猩猩约七百万年前共享一位祖先；黑猩猩是我们的「表亲」而非「祖先」，它们同样沿自己的支系演化至今。",
+    "truthEn": "Humans and chimpanzees shared an ancestor roughly seven million years ago; chimps are our cousins, not our forebears — they have been evolving down their own branch just as long.",
+    "detail": "「猿→人」直线登阶图是对演化树的误读：两支物种形成后各自发展，大猩猩、红毛猩猩、已灭绝的南方古猿与尼安德特人，都是同一棵大树上不同的旁支；人属里今日仅存智人一支。",
+    "detailEn": "The single-file 'ape-to-man' ladder misreads a tree: after each split both branches keep evolving — gorillas, orangutans, the extinct australopiths and Neanderthals are all side branches of one great tree, with only one human lineage left standing.",
+    "related": [
+      "human-evolution",
+      "tree-of-life"
+    ]
+  },
+  {
+    "id": "acquired-inheritance",
+    "term": "「用进废退的获得性性状可以遗传」",
+    "termEn": "\"Acquired Traits Are Inherited\"",
+    "category": "演化",
+    "categoryEn": "Evolution",
+    "level": 1,
+    "myth": "生物一生锻炼、改变获得的性状（如铁匠厚茧）能直接传给后代——拉马克式的观念至今流行。",
+    "mythEn": "What a body builds or changes in a lifetime — a smith's callus — passes straight to the offspring; a Lamarckian notion still popular today.",
+    "truth": "正常情况下，体细胞的获得性改变不进生殖系、不遗传；可遗传变异的累积叠加自然选择，才是适应性演化的机制。",
+    "truthEn": "Under ordinary biology, somatic changes never enter the germline and are not inherited; the accumulation of heritable variation under natural selection is the mechanism of adaptive evolution.",
+    "detail": "十九世纪末著名的「小鼠断尾二十代」实验证明尾巴并未越断越短；现代表观遗传学发现特定环境下某些标记可跨代延续少数几代，但大多被重置——这不是用进废退的重拍，铁匠的茧仍只长在自己的手上。",
+    "detailEn": "The famous tail-cutting mouse experiment across twenty generations found no shorter tails; modern epigenetics shows some marks can ride a few generations under specific conditions, but most are wiped — a footnote, not a encore of use-and-disuse. The smith's callus stays on the smith.",
+    "related": [
+      "lamarck",
+      "darwin"
+    ]
+  },
+  {
+    "id": "fittest-strongest",
+    "term": "「适者生存就是最强者生存」",
+    "termEn": "\"Survival of the Fittest Means Survival of the Strongest\"",
+    "category": "演化",
+    "categoryEn": "Evolution",
+    "level": 1,
+    "myth": "演化就是最强壮、最快速、最凶猛者无休止的竞争取胜。",
+    "mythEn": "Evolution is a perpetual contest won by the strongest, fastest and fiercest.",
+    "truth": "「适」指适合当前环境并留下更多存活后代：伪装、合作、耐旱、省吃俭用都是「适」的活法；选择作用于繁殖成就，不是角斗场。",
+    "truthEn": "'Fit' means matching the current environment and leaving more living descendants: camouflage, cooperation, drought tolerance and thrifty living are all winning styles — selection screens reproduction, not combat.",
+    "detail": "自然选择没有目标也没有方向，只被局地环境筛选：工业黑化的蛾、干旱年份喙径随种子硬度涨跌的雀、滥用药物下带抗药性的菌，各以不同标准胜出。这句口号本出自一位同时代哲学家的社会推演，被借入后成了误读总根源。",
+    "detailEn": "Natural selection has no goal and no direction, filtered only by local conditions: soot-darkened moths, finches whose beak sizes track seed hardness across drought years, resistant bacteria under drug misuse — each winning by a different rule. The slogan itself was a contemporary philosopher's social extrapolation, borrowed late and misread ever since.",
+    "related": [
+      "natural-selection",
+      "wallace"
+    ]
+  },
+  {
+    "id": "junk-dna",
+    "term": "「大部分 DNA 是无用的『垃圾』」",
+    "termEn": "\"Most DNA Is Useless Junk\"",
+    "category": "遗传常识",
+    "categoryEn": "Heredity",
+    "level": 2,
+    "myth": "人类基因组计划完成后常说「98% 的 DNA 不编码蛋白、毫无功能，是演化残渣」。",
+    "mythEn": "After the human genome project the line went round that 98% of our DNA encodes no protein, does nothing, and is evolutionary debris.",
+    "truth": "不编码蛋白质不等于无功能：非编码区含调控元件、剪接信号、染色质结构与各类功能 RNA；「垃圾」论把「不编码」与「无功能」混为一谈。",
+    "truthEn": "Non-coding is not non-functional: the dark stretches hold regulatory elements, splicing signals, chromatin architecture and many working RNAs — the junk hypothesis conflated 'not coding for protein' with 'doing nothing'.",
+    "detail": "「垃圾 DNA」假说上世纪六十年代提出、后随测序普及而流行；其中大片确为重复序列与转座衍生，但部分参与基因组结构乃至演化创新。严谨的说法是：受选择约束的「功能」比例有限，生化活跃区远大于编码区——两派至今仍在定义上争论。",
+    "detailEn": "The junk hypothesis was floated in the 1960s and rode the sequencing wave; much of the dark genome is repeats and transposon debris, yet some of it builds genome architecture and even evolutionary novelty. The careful line: only a fraction shows selection constraint, while biochemically active territory far exceeds the protein-coding — the two camps still argue over the word 'function'.",
+    "related": [
+      "central-dogma",
+      "mutation-variation"
+    ]
+  },
+  {
+    "id": "blood-type-diet",
+    "term": "「按血型吃饭有科学依据」",
+    "termEn": "\"Blood-Type Diets Have Science Behind Them\"",
+    "category": "人体与健康",
+    "categoryEn": "Body & Health",
+    "level": 1,
+    "myth": "不同血型该遵循专属食谱，吃错食物的凝集素有害，吃对则瘦身健康。",
+    "mythEn": "Each blood type demands its own menu — wrong foods carry harmful lectins, right ones bring weight loss and health.",
+    "truth": "对照变量的系统研究中找不到支持血型饮食疗效的证据；个别食谱见效，用「多吃蔬菜、少加工食品」即可完全解释。",
+    "truthEn": "Carefully controlled studies find no evidence backing blood-type diets; where a regimen helps, 'more vegetables, fewer processed foods' explains it entirely.",
+    "detail": "该理论创始人未提供随机对照试验，系统综述亦未发现支持其主张者，部分方案反有营养失衡之虞。血型的本相是红细胞表面抗原的差异，与消化酶谱无关——身体认的是分子，不是传单上的分组。",
+    "detailEn": "The theory's founder offered no randomized trials, and systematic reviews located none supporting its claims, while some regimens risk nutritional gaps. Blood type, properly, is about surface antigens on red cells — nothing to do with digestive enzymes. The body reads molecules, not the chart from a pamphlet.",
+    "related": [
+      "phenotype"
+    ]
+  },
+  {
+    "id": "yeast-is-bacteria",
+    "term": "「酵母是一种细菌」",
+    "termEn": "\"Yeast Is a Kind of Bacterium\"",
+    "category": "微生物",
+    "categoryEn": "Microbiology",
+    "level": 1,
+    "myth": "酵母、乳酸菌、霉菌同属「菌」，都是细菌类的单细胞小东西。",
+    "mythEn": "Yeast, lactobacillus and mold are all 'fungi-bacteria' — little single-celled bacterium-class things.",
+    "truth": "酵母是真菌，属真核生物：有细胞核、线粒体等膜包被的细胞器；细菌没有这套结构——两者的分野是域级的大类之别。",
+    "truthEn": "Yeast is a fungus — a eukaryote with a nucleus and mitochondria; bacteria stand on the other great domain, and the split between the two predates everything you can see.",
+    "detail": "按细胞结构，生命分原核（细菌与古菌，无核膜）与真核（有真正细胞核）两大阵营：酵母体量常十倍于细菌、出芽繁殖，发面酿酒全靠它；「某某杆菌、某某球菌」是细菌，「酵母、曲霉」属真菌——中文名一字之差，域级分类两重天地。",
+    "detailEn": "By cell architecture life splits into prokaryotes (bacteria and archaea, no nuclear membrane) and eukaryotes (true nucleus): yeast is often ten times a bacterium's bulk and buds to multiply — bread and beer are its trade. Chinese names betray the class at a glance: suffixes for bacillus and coccus mark bacteria, while yeast and Aspergillus belong to the fungi — one written character apart, two domains distant.",
+    "related": [
+      "fungi",
+      "bacteria",
+      "archaea"
+    ]
+  },
+  {
+    "id": "plants-eat-soil",
+    "term": "「植物是靠吃土长大的」",
+    "termEn": "\"Plants Grow by Eating Soil\"",
+    "category": "植物生理",
+    "categoryEn": "Plant Physiology",
+    "level": 1,
+    "myth": "植物的重量来自土壤——一棵树吃掉了一桶土。",
+    "mythEn": "A plant's bulk comes from the soil it consumes — a tree eats a bucket of dirt.",
+    "truth": "植物干重的主要部分固自空气中的二氧化碳（经光合作用），根供的水与无机盐只占小头；所谓「吃土」其实是「吃空气」。",
+    "truthEn": "Most of a plant's dry matter is fixed from carbon dioxide in the air by photosynthesis; the water and minerals drawn by roots are junior partners — the plant is really eating the sky.",
+    "detail": "十七世纪初著名的柳树盆栽实验已点破谜底：五年间柳树增重数十公斤、盆土只减了不到百分之一——大头来自水与空气。木材的「实体」多半是被固定下来的空气（碳），土壤消失的那点矿物才是植物真正的「饭钱」。",
+    "detailEn": "The famous willow-pot experiment of the early 1600s saw through it: over five years the tree gained tens of kilograms while the pot's soil lost well under one percent — the difference came from water and air. Wood is largely solidified sky, and the ounces of vanished minerals are the plant's true grocery bill.",
+    "related": [
+      "photosynthesis",
+      "cell-fundamentals"
+    ]
+  },
+  {
+    "id": "virus-is-organism",
+    "term": "「病毒是最小的生物」",
+    "termEn": "\"Viruses Are the Smallest Living Things\"",
+    "category": "微生物",
+    "categoryEn": "Microbiology",
+    "level": 2,
+    "myth": "病毒是一种超微型细菌，属于生命的最低级形式。",
+    "mythEn": "A virus is a germ of germs — bacteria shrunk to the lowest rung of life.",
+    "truth": "病毒没有独立代谢与核糖体，只能在宿主细胞内复制，处于「生命与非生命之间」的边缘状态；它与细菌有本质区别，根本不是同类。",
+    "truthEn": "Viruses carry no independent metabolism or ribosomes and replicate only inside host cells — a borderline estate between living and non-living, and categorically unlike bacteria.",
+    "detail": "病毒有基因组（脱氧核糖核酸或核糖核酸）、能演化受选择——这是人们不肯称其为死物的理由；巨型病毒与类病毒让边界更形模糊。教科书主流仍称其为「专性细胞内寄生物」，不列入五界任何一界。",
+    "detailEn": "Viruses carry genomes of DNA or RNA, evolve and feel selection — the reason people resist calling them dead; giant viruses and viroid-like agents blur the line further. Mainstream textbooks still file them as obligate intracellular parasites, in no kingdom at all.",
+    "related": [
+      "bacteria",
+      "origin-of-life"
+    ]
+  },
+  {
+    "id": "spider-is-insect",
+    "term": "「蜘蛛是一种昆虫」",
+    "termEn": "\"Spiders Are Insects\"",
+    "category": "动物分类",
+    "categoryEn": "Animal Classification",
+    "level": 1,
+    "myth": "节肢的小虫子都是昆虫：蜘蛛、蜈蚣、蜱虫亦在内。",
+    "mythEn": "Any small arthropod is an insect — spiders, centipedes and ticks included.",
+    "truth": "「昆虫」严格指六足总纲：成虫三对足、一对触角、头胸腹三段分明。蜘蛛属螯肢动物：四对足、无触角、体分两部。",
+    "truthEn": "'Insect' strictly names the six-legged hexapods: three pairs of legs, one pair of antennae, three tagmata. Spiders are chelicerates — four pairs of legs, no antennae, a two-part body.",
+    "detail": "昆虫纲是动物界物种最丰富、唯一具翅的类群；蜈蚣、马陆、虾蟹各属别的门纲，蝎子与蜘蛛、蜱同属螯肢亚门。野外有个顺口溜式的经验：若「蜘蛛」只有六条腿，那多半是蜱——生动，但不作分类依据。",
+    "detailEn": "Insects, the most species-rich and only winged animals, stand apart; centipedes, millipedes, crabs each belong to other groups, while scorpions, spiders and ticks share the chelicerate subphylum. A field rhyme goes: if your 'spider' has six legs, it's probably a tick — vivid, but no substitute for taxonomy.",
+    "related": [
+      "insecta",
+      "arachnida"
+    ]
+  },
+  {
+    "id": "bats-are-blind",
+    "term": "「蝙蝠是瞎子，只靠回声『看』世界」",
+    "termEn": "\"Bats Are Blind and See Only by Echo\"",
+    "category": "动物行为",
+    "categoryEn": "Animal Behavior",
+    "level": 1,
+    "myth": "蝙蝠眼睛是摆设，全凭回声定位，且「瞎到落地就不能起飞」。",
+    "mythEn": "A bat's eyes are ornamental; it maps the world by echo alone — and grounded, it cannot launch again.",
+    "truth": "所有蝙蝠都有可用的眼睛，不少果蝠视力与嗅觉俱佳；回声定位只是夜间导航与捕捉飞虫的增强手段，两套感官并用不悖。",
+    "truthEn": "Every bat has working eyes, and many fruit bats see and smell superbly; echolocation is a night-ops enhancement for flying insect hawks, deployed alongside vision, not instead of it.",
+    "detail": "旧大陆果蝠大多不发声呐，靠看与闻觅食；食虫蝙蝠以超声脉冲解析障碍与猎物，但仍用眼睛。成语把蝙蝠判为「盲目」千余年——它的听觉神经处理能力，其实位居动物界最精密之列。",
+    "detailEn": "Old World fruit bats mostly forage by sight and scent without laryngeal sonar; insect-eaters resolve obstacles and prey with ultrasonic pulses yet keep their eyes switched on. Language filed bats as 'blind' for millennia — when in truth their neural auditory processing ranks among the animal kingdom's finest.",
+    "related": [
+      "mammalia"
+    ]
+  },
+  {
+    "id": "hibernation-is-sleep",
+    "term": "「冬眠只是长觉一睡」",
+    "termEn": "\"Hibernation Is Just a Long Sleep\"",
+    "category": "动物生理",
+    "categoryEn": "Animal Physiology",
+    "level": 2,
+    "myth": "冬眠像一觉睡到开春，中途叫醒它如同打断赖床。",
+    "mythEn": "Hibernation is sleeping until spring; rousing a hibernator merely interrupts a lie-in.",
+    "truth": "冬眠是重新编排的生理低代谢状态：体温骤降、心率呼吸降到几分之一，且大脑周期性地「醒」——与睡眠判然两回事。",
+    "truthEn": "Hibernation is a reprogrammed hypometabolic state: body temperature plummets, heart and breath slow to fractions, and the brain wakes on a schedule — categorically unlike sleep.",
+    "detail": "地松鼠冬眠时心率从每分钟两百余次跌到不足十次、体温逼近冰点，每隔一到三周却自发「觉醒」回温一次——这次规律性的意义至今仍是生理学悬题。普通睡眠几乎不动体温、易被唤醒；冬眠者的基因表达、免疫乃至记忆整理都被整体改写。",
+    "detailEn": "A hibernating ground squirrel drops from over two hundred beats a minute to fewer than ten, body heat nears freezing — yet every one to three weeks it spontaneously rewarms, a rhythm whose purpose physiology still cannot explain. Ordinary sleep barely moves body temperature and breaks easily; a hibernator's gene expression, immunity and even memory housekeeping are rewritten wholesale.",
+    "related": [
+      "homeostasis",
+      "mammalia"
+    ]
+  }
+]

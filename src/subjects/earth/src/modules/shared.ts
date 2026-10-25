@@ -196,3 +196,46 @@ export function topicCard(item: LObj, badge?: string): string {
     </footer>
   </article>`;
 }
+/** 术语类卡片选项：标题/摘要按候选字段回退，副行与徽标由调用方拼装。 */
+export interface TermCardOptions {
+  titleKeys?: string[];
+  leadKeys?: string[];
+  /** 已本地化的副行文本（如「前 399 年 · 古希腊」）。 */
+  sub?: string;
+  badge?: string;
+  tag?: string;
+  /** 卡片图标：数据无 icon 字段时的兜底。 */
+  icon?: string;
+}
+
+/**
+ * 通用「术语卡」：哲学术语 / 时间线 / 误区一类以 term 为标题的条目复用。
+ * 与 topicCard 的区别是标题与摘要字段可配置（title → term，lead → oneLiner → def → truth）。
+ */
+export function termCard(item: LObj, opts: TermCardOptions = {}): string {
+  const pick = (keys: string[]): string => {
+    for (const key of keys) {
+      const v = L<string>(item, key);
+      if (v) return String(v);
+    }
+    return "";
+  };
+  const title = pick(opts.titleKeys ?? ["title", "term"]);
+  const lead = pick(opts.leadKeys ?? ["lead", "oneLiner", "def", "truth"]);
+  const sub = opts.sub
+    ? `<p class="card-sub">${escapeInline(opts.sub)}</p>`
+    : "";
+  return `<article class="card js-item" data-key="${item.id}">
+    <header class="card-h">
+      <span class="card-ic" aria-hidden="true">${String(item.icon ?? opts.icon ?? "📄")}</span>
+      <span class="card-t">${escapeInline(title)}</span>
+      ${opts.badge ?? ""}
+    </header>
+    ${sub}
+    <p class="card-lead">${escapeInline(lead)}</p>
+    <footer class="card-f">
+      ${opts.tag ? `<span class="tag">${escapeInline(opts.tag)}</span>` : ""}
+      <span class="card-go">${t("ui.enter")}</span>
+    </footer>
+  </article>`;
+}

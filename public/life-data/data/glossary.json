@@ -1,0 +1,192 @@
+[
+  {
+    "id": "allele",
+    "term": "等位基因",
+    "termEn": "Allele",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 1,
+    "def": "同一基因在同源染色体相同位点上的不同形式；等位差异通过改变蛋白质结构或表达量造成性状差别。",
+    "defEn": "Alternative forms of a gene at the same locus on homologous chromosomes; allelic differences alter protein structure or expression level, producing trait variation.",
+    "plain": "同一个基因的「不同版本」——血型、豌豆花色都是基因的不同版本，父母各传一版给你。",
+    "plainEn": "Different 'editions' of one gene — blood type, pea flower color: each parent hands you one edition.",
+    "related": [
+      "heredity-mendel",
+      "mendel"
+    ]
+  },
+  {
+    "id": "genotype",
+    "term": "基因型",
+    "termEn": "Genotype",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 1,
+    "def": "个体携带的等位基因组合，也指全部遗传组成；它是性状形成的内在方案，与环境共同决定最终表现。",
+    "defEn": "The allele combination an individual carries (or its whole genetic makeup): the internal program that, together with environment, determines the final outcome.",
+    "plain": "写在体内的「剧本」；能不能演成那样，还要看环境这位导演怎么调度。",
+    "plainEn": "The script written inside the body — whether it gets performed depends on how the director called Environment stages it.",
+    "related": [
+      "phenotype"
+    ]
+  },
+  {
+    "id": "phenotype",
+    "term": "表型",
+    "termEn": "Phenotype",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 1,
+    "def": "可观察的个体性状——形态、生理与行为，是基因型在特定环境下发育的结果；自然选择直接作用的对象。",
+    "defEn": "The observable traits of an individual — form, physiology, behavior — the genotype's outcome under particular conditions, and the level natural selection acts on directly.",
+    "plain": "最终在身上「演出来、看得见」的样子：选择压不直接碰基因，碰的是这副模样。",
+    "plainEn": "The performance you can actually see on the organism: selection does not grab genes, it screens appearances.",
+    "related": [
+      "natural-selection",
+      "genotype"
+    ]
+  },
+  {
+    "id": "meiosis",
+    "term": "减数分裂",
+    "termEn": "Meiosis",
+    "category": "细胞",
+    "categoryEn": "Cells",
+    "level": 2,
+    "def": "同源染色体分离、染色体数目减半的特殊细胞分裂，产生配子或孢子；交叉互换与自由组合在其中制造可遗传变异。",
+    "defEn": "The specialized division in which homologous chromosomes separate and chromosome number is halved, forming gametes or spores; crossing-over and independent assortment generate heritable variation along the way.",
+    "plain": "制造生殖细胞的特殊分裂：复制一次、连分两次，染色体减半再打乱——你独一无二的两个来源都在这一步。",
+    "plainEn": "The division that makes sex cells: copy once, divide twice, halve the chromosomes and shuffle them — both sources of your uniqueness happen here.",
+    "related": [
+      "cell-division",
+      "sexual-reproduction"
+    ]
+  },
+  {
+    "id": "niche",
+    "term": "生态位",
+    "termEn": "Ecological Niche",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "def": "一个物种在环境梯度、资源利用与种间关系中所处位置的总和，即「n 维超体积」概念；包含住地、食物、活动时间与功能角色。",
+    "defEn": "The sum of a species' position along environmental gradients, its resource use and its interrelations — an 'n-dimensional hypervolume' covering habitat, diet, timing and functional role.",
+    "plain": "物种的「职业＋住址」：住哪儿、吃什么、何时开工、和谁竞争——两个物种无法长期共用同一份职业。",
+    "plainEn": "A species' job plus its address: where it lives, what it eats, when it works, whom it competes with — two species cannot hold the same job for long.",
+    "related": [
+      "ecosystem-dynamics",
+      "keystone-species"
+    ]
+  },
+  {
+    "id": "food-web",
+    "term": "食物网",
+    "termEn": "Food Web",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 1,
+    "def": "多条食物链相互交叉连接成的网状取食关系：能量与物质沿网流动，物种存续彼此牵制。",
+    "defEn": "The mesh formed when many food chains interlink: energy and matter flow along it, and species' fates bind one another.",
+    "plain": "比单一「谁吃谁」链条更接近现实的吃法地图——抽一根线而全网动，一处崩溃会层层传导。",
+    "plainEn": "A feeding map far closer to life than a single chain — tug one thread and the whole mesh moves; collapse in one corner ripples outward.",
+    "related": [
+      "energy-flow"
+    ]
+  },
+  {
+    "id": "keystone-species",
+    "term": "关键种",
+    "termEn": "Keystone Species",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "def": "对群落的影响远超其多寡所预期的物种：移除它，群落结构骤简、多样性大跌——概念由研究海星的生态学家于1969年提出。",
+    "defEn": "A species whose impact on a community far exceeds what its abundance would predict: remove it and the structure simplifies and diversity falls — a concept coined in 1969 from starfish experiments.",
+    "plain": "石拱顶上的「拱心石」：拿掉那块不起眼的石头，整座群落之拱塌落——海星一走，贻贝独占礁盘。",
+    "plainEn": "The keystone in an arch: pull that modest stone and the whole community arch collapses — take the starfish out, and mussels inherit the reef.",
+    "related": [
+      "ecosystem-dynamics",
+      "niche"
+    ]
+  },
+  {
+    "id": "gene-pool",
+    "term": "基因库",
+    "termEn": "Gene Pool",
+    "category": "遗传",
+    "categoryEn": "Genetics",
+    "level": 2,
+    "def": "一个种群全部个体所含全部基因与等位基因的总和；等位频率及其变动是演化生物学的核心量，受突变、选择、漂变与迁移驱动。",
+    "defEn": "The total of all genes and alleles carried by all individuals of a population; allele frequencies and their shifts are evolution's core currency, moved by mutation, selection, drift and migration.",
+    "plain": "一个群体所有成员的「基因存货清单」——演化改的不是清单本身，而是清单里各版本所占的比例。",
+    "plainEn": "A population's inventory of gene editions: evolution edits not the inventory itself but the share each edition holds.",
+    "related": [
+      "natural-selection",
+      "speciation"
+    ]
+  },
+  {
+    "id": "limiting-factor",
+    "term": "限制因子",
+    "termEn": "Limiting Factor",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "def": "最接近某物种耐受上限或下限、从而对其分布与增长约束最强的环境因子；「木桶效应」的最小律与耐受律是其两种经典表述。",
+    "defEn": "The environmental factor nearest a species' tolerance limits, and thus the tightest brake on its distribution and growth — expressed classically as the law of the minimum and the law of tolerance.",
+    "plain": "木桶的容量由最短那块木板决定：对生物「最不够」的那个因子，往往才是决定生死的因子。",
+    "plainEn": "A barrel holds only to its shortest stave: the factor that is 'least enough' is usually the one deciding life and death.",
+    "related": [
+      "population-ecology",
+      "niche"
+    ]
+  },
+  {
+    "id": "ecological-succession",
+    "term": "群落演替",
+    "termEn": "Ecological Succession",
+    "category": "生态",
+    "categoryEn": "Ecology",
+    "level": 2,
+    "def": "群落随时间由简单到相对稳定的有序更替过程，分始于裸岩的初生演替与始于干扰迹地的次生演替；顶级并非终点而是动态稳定。",
+    "defEn": "The orderly turnover of a community over time from simple toward relatively stable states — primary from bare rock, secondary from disturbed ground — where the 'climax' is dynamic stability, not an endpoint.",
+    "plain": "自然的「空地改造工程」：地衣杂草先来，灌木跟进，乔木最后掌局——每个阶段住不同的租客。",
+    "plainEn": "Nature's renovation project: lichens and weeds move in first, shrubs follow, trees take over last — different tenants at each stage.",
+    "related": [
+      "ecosystem-dynamics",
+      "tropical-rainforest"
+    ]
+  },
+  {
+    "id": "transpiration",
+    "term": "蒸腾作用",
+    "termEn": "Transpiration",
+    "category": "植物生理",
+    "categoryEn": "Plant Physiology",
+    "level": 2,
+    "def": "水分以蒸汽状态经叶片气孔等散失的过程；由此产生的负压是水分与矿质沿木质部上升的主要动力，并带走叶片多余热量。",
+    "defEn": "The loss of water as vapor through leaf stomata and elsewhere: the tension it creates is the main engine pulling water and minerals up the xylem, while also shedding excess leaf heat.",
+    "plain": "把水从根部抽上高楼的泵不在根部、在叶尖——叶片蒸发失水，整根水柱被拉上去。",
+    "plainEn": "The pump that lifts water to the treetops sits not in the roots but in the leaves: evaporation up top hauls the whole water column behind it.",
+    "related": [
+      "photosynthesis",
+      "stomata"
+    ]
+  },
+  {
+    "id": "stomata",
+    "term": "气孔",
+    "termEn": "Stomata",
+    "category": "植物生理",
+    "categoryEn": "Plant Physiology",
+    "level": 1,
+    "def": "由一对保卫细胞开合、分布于叶表皮等处的微孔，是气体交换与蒸腾失水的主通道；开合受光照、二氧化碳浓度与水分状况调节。",
+    "defEn": "Pores bounded by a pair of guard cells across the leaf surface, the main gates for gas exchange and evaporative loss; light, carbon dioxide and water status tune their opening.",
+    "plain": "叶片上一张张会开关的「门」：开门吸碳放汽，关门省水却断粮——植物全天都在权衡。",
+    "plainEn": "Tiny doors all over a leaf: open them for carbon dioxide at the cost of escaping water, shut them to save water and starve the photosynthesis — the trade-off runs all day.",
+    "related": [
+      "transpiration",
+      "photosynthesis"
+    ]
+  }
+]

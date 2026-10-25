@@ -775,5 +775,173 @@
       "n": "心脏地带与陆权论",
       "nEn": "Heartland and Rimland Theory"
     }
+  ],
+  "contour-line": [
+    {
+      "m": "m-glossary",
+      "n": "等高线",
+      "nEn": "Contour Line"
+    }
+  ],
+  "time-zone": [
+    {
+      "m": "m-glossary",
+      "n": "时区",
+      "nEn": "Time Zone"
+    }
+  ],
+  "orographic-precipitation": [
+    {
+      "m": "m-glossary",
+      "n": "地形雨",
+      "nEn": "Orographic Rainfall"
+    }
+  ],
+  "jet-stream": [
+    {
+      "m": "m-glossary",
+      "n": "急流",
+      "nEn": "Jet Stream"
+    }
+  ],
+  "upwelling": [
+    {
+      "m": "m-glossary",
+      "n": "上升流",
+      "nEn": "Upwelling"
+    }
+  ],
+  "permafrost": [
+    {
+      "m": "m-glossary",
+      "n": "永久冻土",
+      "nEn": "Permafrost"
+    }
+  ],
+  "aquifer": [
+    {
+      "m": "m-glossary",
+      "n": "含水层",
+      "nEn": "Aquifer"
+    }
+  ],
+  "isthmus": [
+    {
+      "m": "m-glossary",
+      "n": "地峡",
+      "nEn": "Isthmus"
+    }
+  ],
+  "foehn-wind": [
+    {
+      "m": "m-glossary",
+      "n": "焚风",
+      "nEn": "Foehn Wind"
+    }
+  ],
+  "albedo": [
+    {
+      "m": "m-glossary",
+      "n": "反照率",
+      "nEn": "Albedo"
+    }
+  ],
+  "isotherm": [
+    {
+      "m": "m-glossary",
+      "n": "等温线",
+      "nEn": "Isotherm"
+    }
+  ],
+  "geologic-time-scale": [
+    {
+      "m": "m-glossary",
+      "n": "地质年代",
+      "nEn": "Geologic Time Scale"
+    }
+  ],
+  "great-wall-space": [
+    {
+      "m": "m-myths",
+      "n": "「长城是太空肉眼可见的唯一人造建筑」",
+      "nEn": "\"The Great Wall Is the Only Human Work Visible from Space\""
+    }
+  ],
+  "nile-longest": [
+    {
+      "m": "m-myths",
+      "n": "「尼罗河一定是世界第一长河」",
+      "nEn": "\"The Nile Is Certainly the World's Longest River\""
+    }
+  ],
+  "everest-tallest": [
+    {
+      "m": "m-myths",
+      "n": "「珠峰是世界唯一之最的山」",
+      "nEn": "\"Everest Is the Tallest Mountain by Every Measure\""
+    }
+  ],
+  "tropics-hot": [
+    {
+      "m": "m-myths",
+      "n": "「热带一定酷热难当」",
+      "nEn": "\"The Tropics Must Be Scorching\""
+    }
+  ],
+  "polar-equal-cold": [
+    {
+      "m": "m-myths",
+      "n": "「北极和南极一样冷」",
+      "nEn": "\"The Arctic and Antarctic Are Equally Cold\""
+    }
+  ],
+  "lightning-twice": [
+    {
+      "m": "m-myths",
+      "n": "「闪电不会两次击中同一处」",
+      "nEn": "\"Lightning Never Strikes the Same Place Twice\""
+    }
+  ],
+  "seasons-distance": [
+    {
+      "m": "m-myths",
+      "n": "「四季来自日地距离远近」",
+      "nEn": "\"Seasons Come from Earth's Distance to the Sun\""
+    }
+  ],
+  "earth-perfect-sphere": [
+    {
+      "m": "m-myths",
+      "n": "「地球是完美球体」",
+      "nEn": "\"Earth Is a Perfect Sphere\""
+    }
+  ],
+  "desert-sand-seas": [
+    {
+      "m": "m-myths",
+      "n": "「荒漠都是沙丘之海」",
+      "nEn": "\"All Deserts Are Seas of Sand\""
+    }
+  ],
+  "mercator-true-shape": [
+    {
+      "m": "m-myths",
+      "n": "「墨卡托投影画出了国家的真实大小」",
+      "nEn": "\"Mercator Maps Show Countries at Their True Size\""
+    }
+  ],
+  "dead-sea-swim": [
+    {
+      "m": "m-myths",
+      "n": "「死海里能自由游泳潜水」",
+      "nEn": "\"You Can Swim and Dive Freely in the Dead Sea\""
+    }
+  ],
+  "timezone-straight-lines": [
+    {
+      "m": "m-myths",
+      "n": "「时区界线沿经线笔直划分」",
+      "nEn": "\"Time Zone Borders Run Straight Along Meridians\""
+    }
   ]
 }

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "great-wall-space",
+    "term": "「长城是太空肉眼可见的唯一人造建筑」",
+    "termEn": "\"The Great Wall Is the Only Human Work Visible from Space\"",
+    "category": "人文传闻",
+    "categoryEn": "Urban Legends",
+    "level": 1,
+    "myth": "流传版本称从月球或太空用肉眼就能看到长城，仿佛它是大地上唯一的人造印记。",
+    "mythEn": "The claim says the Wall can be seen from the Moon or from orbit with the naked eye, as if it were the only human mark on the land.",
+    "truth": "低轨道肉眼确实能看到一些人造物（城市、农田、运河），但长城平均宽仅数米、色泽近于山体，肉眼辨认几乎不可能，「唯一」更无从谈起。",
+    "truthEn": "From low orbit people do spot human features — cities, fields, canals — but the Wall averages only a few meters wide and matches its hillsides; spotting it bare-eyed is close to impossible, and 'the only one' has no basis.",
+    "detail": "说法源于航天时代之前的想象：早在1909年就有人宣称「从火星能看到长城」。多位航天员在轨用镜头拍摄长城区域亦难找到它；肉眼真正可见的是城市灯光、大型水库与田块。",
+    "detailEn": "The idea pre-dates spaceflight — as early as 1909 voices claimed it visible even from Mars. Astronauts photographing the Wall's region from orbit struggle to pick it out; what the naked eye truly catches are city lights, reservoirs and farmland.",
+    "related": [
+      "china"
+    ]
+  },
+  {
+    "id": "nile-longest",
+    "term": "「尼罗河一定是世界第一长河」",
+    "termEn": "\"The Nile Is Certainly the World's Longest River\"",
+    "category": "河流知识",
+    "categoryEn": "Rivers",
+    "level": 1,
+    "myth": "教科书常把尼罗河列为第一、亚马逊河第二，似乎名次没有争议。",
+    "mythEn": "Textbooks often rank the Nile first and the Amazon second, as though the order were settled.",
+    "truth": "两河在「最长」之争上互有胜负：亚马逊河流量与流域面积稳居第一，长度则取决于源头如何认定，不同测量各称胜出。",
+    "truthEn": "The two rivals trade places: the Amazon's discharge and basin are beyond challenge, while its length — and the Nile's — depends on where you dare to set the source.",
+    "detail": "以尼罗河最南支流为源约6650公里；若把亚马逊正源推到秘鲁南部深入安第斯山，一些测量给出6800公里以上。21世纪多次科考各自宣称本方胜出，但学界未有一致结论——名次是约定而非定理。",
+    "detailEn": "Start the Nile at its remotest southern tributary and it runs about 6,650 km; push the Amazon's source deep into southern Peru and some surveys exceed 6,800 km. Expeditions in the 2000s claimed victory each way; the ranking is convention, not theorem.",
+    "related": [
+      "nile",
+      "amazon"
+    ]
+  },
+  {
+    "id": "everest-tallest",
+    "term": "「珠峰是世界唯一之最的山」",
+    "termEn": "\"Everest Is the Tallest Mountain by Every Measure\"",
+    "category": "山脉与高地",
+    "categoryEn": "Mountains",
+    "level": 2,
+    "myth": "珠峰是无可争议的「世界最高山」。",
+    "mythEn": "Everest is the undisputed tallest mountain on Earth.",
+    "truth": "珠峰只赢在「海拔」这一个口径：从山脚算起，夏威夷的盾状火山高出海面之下合超万米；离地心最远的高峰是厄瓜多尔的赤道火山。",
+    "truthEn": "Everest wins only the sea-level measure. Measured from its base, a shield volcano in Hawaii climbs over 10 km; the point farthest from Earth's center is an equatorial peak in Ecuador.",
+    "detail": "海拔是以大地水准面为基准的「水平线」，而赤道因自转隆起、半径比两极大约21公里：赤道峰顶因此在地心距离口径上击败珠峰；海底基准则让冒纳开亚反超。「最高」要先问「从哪儿量到哪儿」。",
+    "detailEn": "Sea level is a drawn baseline, and the equatorial bulge makes Earth's radius some 21 km larger there than at the poles — so an equatorial summit beats Everest on the center-to-surface measure; on the seafloor-base measure, Mauna Kea climbs past both. 'Tallest' must first answer: measured from where to where?",
+    "related": [
+      "himalaya",
+      "andes"
+    ]
+  },
+  {
+    "id": "tropics-hot",
+    "term": "「热带一定酷热难当」",
+    "termEn": "\"The Tropics Must Be Scorching\"",
+    "category": "气候常识",
+    "categoryEn": "Climate",
+    "level": 1,
+    "myth": "热带横贯赤道两侧，终年烈日，是地球上最热的地方。",
+    "mythEn": "The tropics straddle the equator under endless sun, so they must be the hottest places on Earth.",
+    "truth": "最热纪录集中在副热带荒漠；赤道附近的高原山地却常年凉爽——海拔每升百米约降温0.6℃，足以抵消低纬的骄阳。",
+    "truthEn": "Heat records belong to the subtropical deserts; upland towns near the equator stay cool year-round — altitude drops about 0.6°C per 100 m, canceling the low-latitude sun.",
+    "detail": "安第斯山麓的赤道城市常年二旬上下、夜间需添衣；世界热极却在北非与西亚的干漠——气流干燥、辐射强、无水体调节。同一纬度带上，决定冷暖的不是太阳，而是海拔与海陆。",
+    "detailEn": "Equatorial Andean towns hold near 20°C by day and need blankets at night, while the world's heat poles sit in the dry deserts of North Africa and West Asia — arid air, hard radiation, no water to moderate. Across one latitude band, altitude and sea-land layout, not sunlight, set the thermometer.",
+    "related": [
+      "alpine",
+      "qinghai-plateau"
+    ]
+  },
+  {
+    "id": "polar-equal-cold",
+    "term": "「北极和南极一样冷」",
+    "termEn": "\"The Arctic and Antarctic Are Equally Cold\"",
+    "category": "冰冻圈",
+    "categoryEn": "Cryosphere",
+    "level": 1,
+    "myth": "同为高纬极地、同有半年极夜，冷暖程度应当差不多。",
+    "mythEn": "Both are polar, both know half-year nights, so their cold should match.",
+    "truth": "南极远比北极寒冷：南极内陆录得地球最低天然温度约零下89℃，北极纪录约零下69℃；南极也是平均海拔最高的大陆。",
+    "truthEn": "Antarctica is far colder than the Arctic: its interior holds the natural low near −89°C against the Arctic's near −69°C — and Antarctica is also the highest continent on average.",
+    "detail": "差在三点：南极是覆冰的高原大陆，陆地比海水降温快；南极绕极流隔断了与低纬的热量交换；北极则是被大陆环绕的冰洋，北大西洋暖流冬日仍能侵入。同纬度带，海陆配置翻转了常识。",
+    "detailEn": "Three reasons stack up: Antarctica is an ice-capped high continent and land chills faster than sea; the circumpolar current cuts off heat from lower latitudes; the Arctic is an ocean ringed by continents, which winter warm water from the North Atlantic still intrudes upon. Same latitude band, reversed geography.",
+    "related": [
+      "antarctica",
+      "tundra"
+    ]
+  },
+  {
+    "id": "lightning-twice",
+    "term": "「闪电不会两次击中同一处」",
+    "termEn": "\"Lightning Never Strikes the Same Place Twice\"",
+    "category": "大气与天气",
+    "categoryEn": "Weather",
+    "level": 1,
+    "myth": "闪电随机选址，同一地点再被击中的可能性很小。",
+    "mythEn": "Lightning picks targets at random, so a spot struck once is unlikely to be hit again.",
+    "truth": "闪电有明显偏好：高尖、导电之物反复被击是常态，摩天大楼一遭雷劫数十次不足为奇。",
+    "truthEn": "Lightning has favorites: tall, pointy, conductive things get struck again and again — a skyscraper may take dozens of strikes in a year.",
+    "detail": "先导梯级下行，一旦电离通道建立，后续放电就沿旧路再来一遍——击中一次，更易再被击中。避雷设计正是以「重复击中」为前提。",
+    "detailEn": "A stepped leader probes downward; once an ionized channel exists, later discharges reuse it — being struck once makes a second strike likelier. Lightning-rod engineering assumes exactly this repetition.",
+    "related": [
+      "weather-systems"
+    ]
+  },
+  {
+    "id": "seasons-distance",
+    "term": "「四季来自日地距离远近」",
+    "termEn": "\"Seasons Come from Earth's Distance to the Sun\"",
+    "category": "天文与气候",
+    "categoryEn": "Astronomy",
+    "level": 1,
+    "myth": "夏天是地球靠近太阳，冬天是远离。",
+    "mythEn": "Summer means Earth nearer the Sun, winter means farther away.",
+    "truth": "四季源于黄赤交角（约23.4°）：半球倾向太阳时正午更高、白昼更长即为夏；地球1月初过近日点，恰是北半球隆冬。",
+    "truthEn": "Seasons come from the 23.4° axial tilt: a hemisphere leans sunward, the noon runs higher and the days longer — and Earth reaches perihelion in early January, dead of the northern winter.",
+    "detail": "近日比远日仅近约3.1%，全球获得的太阳辐射变化不过7%，解释不了冬夏反差；而太阳高度与昼夜长短此消彼长，让南北半球季节精确相反——「距离说」过不了半球翻转这道题。",
+    "detailEn": "Perihelion tightens the distance by only about 3.1%, shifting the planet's solar intake by some 7% — nowhere near enough for winter-versus-summer. Sun angle and day length, however, flip between hemispheres with clockwork precision, which the distance story can never explain.",
+    "related": [
+      "milankovitch-cycles"
+    ]
+  },
+  {
+    "id": "earth-perfect-sphere",
+    "term": "「地球是完美球体」",
+    "termEn": "\"Earth Is a Perfect Sphere\"",
+    "category": "大地测量",
+    "categoryEn": "Geodesy",
+    "level": 1,
+    "myth": "地球像教学用地球仪一样是个标准圆球。",
+    "mythEn": "Earth is a standard ball, like the classroom globe.",
+    "truth": "地球是两极稍扁、赤道略鼓的椭球，赤道与极直径差约43公里；而由平均海平面延展开的「大地水准面」，还因重力起伏上下鼓落数十米。",
+    "truthEn": "Earth is an oblate spheroid — flattened at the poles, bulging at the equator by some 43 km of diameter — and its geoid, the mean-sea-level surface extended inland, heaves tens of meters on gravity's unevenness.",
+    "detail": "十七世纪末牛顿按旋转理论预言了扁球，随后赴拉普兰与秘鲁的大地测量证实；现代卫星测定扁率约1/298.257。地球仪把扁率与水准面起伏都抹平了——它是模型，不是比例。",
+    "detailEn": "Newton predicted the flattening from rotation theory in the 1690s; geodesic expeditions to Lapland and Peru confirmed it, and satellites now fix the flattening near 1/298.257. The classroom globe smooths both away — it is a model, not a scale.",
+    "related": [
+      "eratosthenes",
+      "magellan"
+    ]
+  },
+  {
+    "id": "desert-sand-seas",
+    "term": "「荒漠都是沙丘之海」",
+    "termEn": "\"All Deserts Are Seas of Sand\"",
+    "category": "地貌与地表",
+    "categoryEn": "Landforms",
+    "level": 1,
+    "myth": "荒漠就是波涛起伏的金色沙海。",
+    "mythEn": "A desert is an ocean of rolling golden dunes.",
+    "truth": "沙丘荒漠只占全球荒漠的小部分；多数荒漠是裸岩、砾石（戈壁）与盐碱地，「沙海」反倒是少数派。",
+    "truthEn": "Dune fields make up only a minority of the world's deserts; most are bare bedrock, gravel pavements — the reg of the Gobi — and salt flats.",
+    "detail": "卫星统计显示流动沙丘约占荒漠的两成上下：撒哈拉的岩漠与砾漠面积远超沙海，戈壁多以风吹不走、只剩砾石被面的岩块覆盖层为主。沙海是影像的想象，不是地貌的底图。",
+    "detailEn": "Satellite tallies put shifting dunes at around a fifth of desert area: the Sahara's rocky and gravel deserts dwarf its sand seas, and the Gobi is chiefly a pavement of lag stones the wind could not lift. The sea of sand is a camera's idea, not the geomorphic base map.",
+    "related": [
+      "desert",
+      "sahara"
+    ]
+  },
+  {
+    "id": "mercator-true-shape",
+    "term": "「墨卡托投影画出了国家的真实大小」",
+    "termEn": "\"Mercator Maps Show Countries at Their True Size\"",
+    "category": "地图与识图",
+    "categoryEn": "Maps & Reading",
+    "level": 2,
+    "myth": "世界地图上的大小就是各国的实际比例。",
+    "mythEn": "The world map you hang shows each country at its real relative size.",
+    "truth": "墨卡托投影保角不保面积：纬度越高等距线被拉得越开，格陵兰看着与非洲相当，实际仅约十四分之一。",
+    "truthEn": "Mercator preserves angles, not area: spacing between parallels stretches with latitude, so Greenland looms as large as Africa while holding about one fourteenth of its area.",
+    "detail": "1569年，佛拉芒制图师以把纬线间距按纬度拉伸的代价，让「恒向航线成直线」——为大洋导航而生。面积变形则留给后世：阿拉斯加「与巴西同大」、欧洲「与南美相仿」皆投影幻象；等积投影纠回面积时，形状又开始失真。",
+    "detailEn": "In 1569 a Flemish mapmaker stretched parallel spacing by latitude so that constant-bearing routes ran straight — made for ocean navigation. The area cost came down the centuries: Alaska 'matching' Brazil, Europe 'matching' South America; equal-area projections restore the size only to set the shapes wobbling.",
+    "related": [
+      "ptolemy"
+    ]
+  },
+  {
+    "id": "dead-sea-swim",
+    "term": "「死海里能自由游泳潜水」",
+    "termEn": "\"You Can Swim and Dive Freely in the Dead Sea\"",
+    "category": "湖泊与水文",
+    "categoryEn": "Lakes & Water",
+    "level": 1,
+    "myth": "死海浮力大，所以游起来更轻松自由，潜水更不在话下。",
+    "mythEn": "The Dead Sea's buoyancy makes swimming easier and diving a casual affair.",
+    "truth": "高盐使密度大增、漂浮确是被动而稳的；但常规泳姿失効，主动下潜几乎做不到，剧烈动作反会把人翻出水面。",
+    "truthEn": "Brine so dense that passive floating comes free — yet ordinary strokes lose their grip, active diving is nearly impossible, and thrashing flips you up instead of down.",
+    "detail": "死海含盐度逾30%，浮力惊人，「躺漂读报」属实；但盐水入眼入口刺痛难当、对伤口有刺激，救生规范限制浸水时长与姿势。准确说法是：漂得起来，游不痛快。",
+    "detailEn": "Salinity past 30% lets a reader float like a cork — true enough; but the brine scours eyes and mouth and irritates cuts, and lifeguard rules cap time in the water. The accurate claim: floating comes free, swimming does not.",
+    "related": [
+      "dead-sea"
+    ]
+  },
+  {
+    "id": "timezone-straight-lines",
+    "term": "「时区界线沿经线笔直划分」",
+    "termEn": "\"Time Zone Borders Run Straight Along Meridians\"",
+    "category": "地图与识图",
+    "categoryEn": "Maps & Reading",
+    "level": 1,
+    "myth": "全球被经线均匀切成24个时区，界线是笔直的南北线。",
+    "mythEn": "The globe is cut evenly into 24 zones by meridians, each border a straight north-south line.",
+    "truth": "实际时区界线由各国法定，蜿蜒绕行于行政边界，时差也不都是整小时：尼泊尔用东5.75区，印度全境统一东5.5区。",
+    "truthEn": "Real zone borders are set by law, wiggle around administrative lines, and the offsets need not be whole hours: Nepal keeps UTC+5:45, and one law gives all India UTC+5:30.",
+    "detail": "若严格按经线划线，同一座城市会被切成两个钟点：中国跨理论五个时区而通行一个统一时间，正是「经线归地理、时区归政治」的写照。地图上一格格的直边时区图，是罕见的美化。",
+    "detailEn": "Cut strictly by meridians and a single city would split into two clocks: China spans five theoretical zones yet runs on one official time — meridians belong to geography, zones to politics. The neat striped time-zone map is a rare flattery.",
+    "related": [
+      "time-zone",
+      "china"
+    ]
+  }
+]

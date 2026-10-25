@@ -40,6 +40,12 @@ export const TEMPLATE = `<div class="wrap">
         <button class="mod" data-go="m-endemics" data-i18n="nav.endemics">
           中国特有物种
         </button>
+        <button class="mod" data-go="m-glossary" data-i18n="nav.glossary">
+          生物术语
+        </button>
+        <button class="mod" data-go="m-myths" data-i18n="nav.myths">
+          常见误区
+        </button>
       </nav>
 
       <section class="module active" id="m-home">
@@ -126,6 +132,30 @@ export const TEMPLATE = `<div class="wrap">
         <div class="filters" id="endemicsFilters"></div>
         <p class="count" id="endemicsCount"></p>
         <div class="card-grid" id="endemicsGrid"></div>
+      </section>
+
+      <section class="module" id="m-glossary">
+        <header class="mod-head">
+          <h2 data-i18n="glossary.title">生物术语</h2>
+          <p class="mod-sub" data-i18n="glossary.sub">
+            细胞、遗传与生态学里最容易混淆的一组词：先统一语言，再谈生命。点击术语看定义与白话版。
+          </p>
+        </header>
+        <div class="filters" id="glossaryFilters"></div>
+        <p class="count" id="glossaryCount"></p>
+        <div class="card-grid" id="glossaryGrid"></div>
+      </section>
+
+      <section class="module" id="m-myths">
+        <header class="mod-head">
+          <h2 data-i18n="myths.title">常见误区</h2>
+          <p class="mod-sub" data-i18n="myths.sub">
+            「人类由黑猩猩进化而来」「用进废退会遗传」……流传已久的生物学说法，哪些是误解？逐条拆解。
+          </p>
+        </header>
+        <div class="filters" id="mythsFilters"></div>
+        <p class="count" id="mythsCount"></p>
+        <div class="card-grid" id="mythsGrid"></div>
       </section>
 
       <footer class="foot" id="foot"></footer>

@@ -62,6 +62,22 @@ export const MODULES: ModuleDef[] = [
     priority: 1,
     load: () => import("./endemics"),
   },
+  {
+    id: "m-glossary",
+    key: "glossary",
+    icon: "📖",
+    file: "glossary.json",
+    priority: 2,
+    load: () => import("./glossary"),
+  },
+  {
+    id: "m-myths",
+    key: "myths",
+    icon: "🧯",
+    file: "myths.json",
+    priority: 2,
+    load: () => import("./myths"),
+  },
 ];
 
 export function moduleByKey(key: string): ModuleDef | undefined {
