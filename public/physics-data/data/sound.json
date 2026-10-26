@@ -87,5 +87,32 @@
     "detailEn": "Ultrasound aids medical imaging; infrasound arises from quakes and explosions.",
     "tags": ["声学"],
     "tagsEn": ["Acoustics"]
+  },
+  {
+    "id": "echo-ranging",
+    "icon": "📡",
+    "term": "回声与测距",
+    "termEn": "Echoes & Ranging",
+    "level": 1,
+    "oneLiner": "声波遇到障碍反射回来就是回声，测出往返时间便能算出距离。",
+    "oneLinerEn": "Sound reflected from a barrier returns as an echo; timing the round trip gives the distance.",
+    "detail": "人耳要把回声与原声区分开，两者须相隔约 0.1 s 以上，在空气中对应障碍距声源约 17 m；比这更近的反射声只与原声叠在一起使听感更丰满，音乐厅正是靠这类早期反射声增强音色，而空旷大厅里的长延迟反射才成为恼人的回声。测距公式 s=vt/2：声呐据此测海深、探鱼群，超声测厚与“B 超”成像同属一理。太空与月球表面不能用回声——真空不传声，只能改用电磁波测距。",
+    "detailEn": "For the ear to separate an echo from the original sound, the gap must exceed about 0.1 s, which in air means a reflector some 17 m away; closer reflections merge with the direct sound and simply enrich it, which is exactly what concert halls exploit with early reflections, while long-delayed bounces in bare halls become intrusive echoes. The ranging formula is s=vt/2: sonar sounds the depth of the sea and locates shoals this way, and ultrasonic thickness gauging and B-scan imaging follow the same principle. Echoes fail in space and on the Moon, since a vacuum carries no sound—radar and laser ranging take over there.",
+    "eq": { "lhs": "s", "rhs": "vt/2", "rel": "equal" },
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
+  },
+  {
+    "id": "noise-control",
+    "icon": "🔇",
+    "term": "噪声的危害与控制",
+    "termEn": "Noise Harm & Control",
+    "level": 1,
+    "oneLiner": "物理上指无规则的杂乱振动，环保上指干扰工作与休息的声音。",
+    "oneLinerEn": "Physically irregular vibration; environmentally any sound that disrupts work or rest.",
+    "detail": "乐音与噪声的界限不在频率高低而在波形是否规则，长期处于 85 dB 以上会损伤听力，噪声作业场所的暴露限值通常就定在这一量级附近，睡眠则易被三四十贝的间断声响干扰。控制分三个环节：在声源处减弱（消声器、低噪机械、城区禁鸣），在传播过程中阻断（声屏障、吸声材料、双层玻璃、绿化带），在人耳处防护（耳塞、防声帽）。与分贝一条的分工是：那条讲如何量度，本条讲危害在哪、从何处下手治理。",
+    "detailEn": "The boundary between music and noise lies not in pitch but in whether the waveform is regular; sustained levels above 85 dB damage hearing, which is roughly where occupational exposure limits sit, while intermittent sounds of only thirty to forty decibels can break sleep. Control acts at three points—at the source (silencers, quieter machines, horn bans), along the path (barriers, absorptive lining, double glazing, tree belts), and at the ear (plugs, muffs). Where the decibel entry explains the measuring scale, this one asks what the harm is and where to attack it.",
+    "tags": ["声学"],
+    "tagsEn": ["Acoustics"]
   }
 ]

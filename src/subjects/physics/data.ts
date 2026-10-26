@@ -451,6 +451,37 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "声学", en: "Acoustics" }],
         },
+        {
+          id: "echo-ranging",
+          icon: "📡",
+          term: { zh: "回声与测距", en: "Echoes & Ranging" },
+          level: 1,
+          oneLiner: {
+            zh: "声波遇到障碍反射回来就是回声，测出往返时间便能算出距离。",
+            en: "Sound reflected from a barrier returns as an echo; timing the round trip gives the distance.",
+          },
+          detail: {
+            zh: "人耳要把回声与原声区分开，两者须相隔约 0.1 s 以上，在空气中对应障碍距声源约 17 m；比这更近的反射声只与原声叠在一起使听感更丰满，音乐厅正是靠这类早期反射声增强音色，而空旷大厅里的长延迟反射才成为恼人的回声。测距公式 s=vt/2：声呐据此测海深、探鱼群，超声测厚与“B 超”成像同属一理。太空与月球表面不能用回声——真空不传声，只能改用电磁波测距。",
+            en: "For the ear to separate an echo from the original sound, the gap must exceed about 0.1 s, which in air means a reflector some 17 m away; closer reflections merge with the direct sound and simply enrich it, which is exactly what concert halls exploit with early reflections, while long-delayed bounces in bare halls become intrusive echoes. The ranging formula is s=vt/2: sonar sounds the depth of the sea and locates shoals this way, and ultrasonic thickness gauging and B-scan imaging follow the same principle. Echoes fail in space and on the Moon, since a vacuum carries no sound—radar and laser ranging take over there.",
+          },
+          eq: { lhs: "s", rhs: "vt/2", rel: "equal" },
+          tags: [{ zh: "声学", en: "Acoustics" }],
+        },
+        {
+          id: "noise-control",
+          icon: "🔇",
+          term: { zh: "噪声的危害与控制", en: "Noise Harm & Control" },
+          level: 1,
+          oneLiner: {
+            zh: "物理上指无规则的杂乱振动，环保上指干扰工作与休息的声音。",
+            en: "Physically irregular vibration; environmentally any sound that disrupts work or rest.",
+          },
+          detail: {
+            zh: "乐音与噪声的界限不在频率高低而在波形是否规则，长期处于 85 dB 以上会损伤听力，噪声作业场所的暴露限值通常就定在这一量级附近，睡眠则易被三四十贝的间断声响干扰。控制分三个环节：在声源处减弱（消声器、低噪机械、城区禁鸣），在传播过程中阻断（声屏障、吸声材料、双层玻璃、绿化带），在人耳处防护（耳塞、防声帽）。与分贝一条的分工是：那条讲如何量度，本条讲危害在哪、从何处下手治理。",
+            en: "The boundary between music and noise lies not in pitch but in whether the waveform is regular; sustained levels above 85 dB damage hearing, which is roughly where occupational exposure limits sit, while intermittent sounds of only thirty to forty decibels can break sleep. Control acts at three points—at the source (silencers, quieter machines, horn bans), along the path (barriers, absorptive lining, double glazing, tree belts), and at the ear (plugs, muffs). Where the decibel entry explains the measuring scale, this one asks what the harm is and where to attack it.",
+          },
+          tags: [{ zh: "声学", en: "Acoustics" }],
+        },
       ],
     },
     /* ===================== 光学 ===================== */
@@ -1667,6 +1698,51 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "String and wind instrument pitches arise from standing waves; the Tacoma Narrows collapse shows destructive resonance.",
           },
           tags: [{ zh: "波动", en: "Wave" }],
+        },
+        {
+          id: "wave-graphs",
+          icon: "📈",
+          term: { zh: "波动图象与振动图象", en: "Waveform & Oscillation Graphs" },
+          level: 2,
+          oneLiner: {
+            zh: "y–x 图看某一时刻所有质点的位置，y–t 图看某一个质点随时间的位移。",
+            en: "A y–x graph shows every particle at one instant; a y–t graph shows one particle through time.",
+          },
+          detail: {
+            zh: "波动图象的横轴是位置，相邻两波峰之间直接读出波长；振动图象的横轴是时间，一次完整起伏的宽度即周期，两图合体再用 v=λ/T 求波速。判断传播方向常用“带动法”：先振动的质点带动后振动的质点，故波形沿传播方向平移少许即可比出各点下一时刻的动向。最典型的易错是把 y–x 快照误当成某质点的振动历史——两图形状一样、含义完全不同；反之由振动图推各质点位置时，须先确认所给时刻。",
+            en: "On a y–x graph the horizontal axis is position, so adjacent crests give the wavelength directly; on a y–t graph it is time, so one full excursion gives the period, and together they yield v=λ/T. To find the direction of travel, shift the whole waveform a little along the guessed direction and compare: whichever way fits the observed particle motions is the true one. The classic error is reading a y–x snapshot as a particle's history—the two curves look identical but mean different things, and going from a y–t graph back to positions requires fixing the instant first.",
+          },
+          tags: [{ zh: "波动", en: "Wave" }],
+        },
+        {
+          id: "huygens-principle",
+          icon: "🌀",
+          term: { zh: "惠更斯原理", en: "Huygens' Principle" },
+          level: 3,
+          oneLiner: {
+            zh: "波面上每一点都可视为发出子波的新波源，各子波的包络就是下一时刻的波面。",
+            en: "Every point of a wavefront emits a secondary wavelet; the envelope of all of them is the next wavefront.",
+          },
+          detail: {
+            zh: "这一作图同时解释了波的反射、折射与衍射：波进入波速较小的介质时，同一波面上各点子波前进的距离变短，包线遂转向法线一侧——频率保持不变，波速与波长同比例减小。它也给出衍射明显的条件：障碍物或孔径的尺寸与波长可比时子波绕得很远，尺寸远大于波长时阴影边界锐利、近似直线传播。原原理只定出波面的几何位置，不回答各方向各分配多少能量，后由菲涅耳补上子波相干叠加，才成为可定量使用的惠更斯–菲涅耳原理。",
+            en: "The construction explains reflection, refraction and diffraction at once: entering a slower medium shortens every secondary wavelet on the same front, tilting the envelope toward the normal while frequency holds and speed and wavelength shrink together. It also sets the condition for strong diffraction—an obstacle or aperture comparable to the wavelength is wrapped around substantially, whereas one far larger leaves a sharp shadow and near-rectilinear travel. The original principle fixes only wavefront geometry, not how much energy goes each way; Fresnel added coherent superposition of the wavelets, making it the quantitatively usable Huygens–Fresnel principle.",
+          },
+          tags: [{ zh: "波动", en: "Wave" }],
+        },
+        {
+          id: "beats",
+          icon: "🎼",
+          term: { zh: "拍与拍频", en: "Beats & Beat Frequency" },
+          level: 3,
+          oneLiner: {
+            zh: "两列频率相近的波叠加，强弱会周期性地起伏，起伏频率等于两频率之差。",
+            en: "Two waves of nearby frequencies add into a pulsation whose rate is their difference.",
+          },
+          detail: {
+            zh: "f₁ 与 f₂ 相差不大时，两波时而同相加强、时而反相抵消，每秒强弱变化的次数即拍频 |f₁−f₂|。拍是叠加造成的效果而非新的波：介质中各点仍同时参与两个频率的振动。调音师靠听拍判断音准——拍频越大相差越远，拍消失即已同频；超声血流计与雷达测速则把拍频（差频）与多普勒频移配合使用来读出速度。注意与驻波区分：驻波由同频率、相向传播的两列波形成，节与腹的位置固定；拍则是各点振幅随时间的起伏。",
+            en: "With f₁ and f₂ close, the pair alternately reinforces and cancels, and the number of swellings per second—the beat frequency—is |f₁−f₂|. A beat is an effect of superposition, not a third wave: each particle still takes part in both original oscillations. Tuners listen for beats to judge pitch, a fast beat meaning a wide gap and silence on them meaning unison; ultrasonic blood-flow meters and radar speed guns combine the difference frequency with the Doppler shift to read out speed. Standing waves are different: made from two equal-frequency counter-traveling waves, they hold nodes and antinodes fixed in space, whereas beats are an amplitude that pulses in time.",
+          },
+          tags: [{ zh: "波动", en: "Wave" }, { zh: "声学", en: "Acoustics" }],
         },
       ],
     },

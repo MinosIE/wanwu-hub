@@ -35,14 +35,14 @@
 | dynasty | FULL       | 19+                                                                               | 数千   | ✅ 达标（维持）                      |
 | econ    | FULL       | 概念/术语/人物/事件/骗局/宏微观/货币/贸易/行为/博弈/图表/日常/误区/测验/对比/流派 | 337    | ✅ 已破 300 门槛（二十七至二十九批；五十二批补课标三待办、五十三批 quiz 联动）   |
 | mind    | FULL       | 概念/术语/心理学家/流派/偏差/实验/时间线/测验/日常/误区/对比                      | 529    | 🟢 达标，schools/compare 两格已补齐（第三十批）           |
-| physics | subjectKit | 16 模块                                                                           | 158    | 🟢 课标主干已补齐（五十一批 万有引力与航天/粒子物理）      |
+| physics | subjectKit | 16 模块                                                                           | 163    | 🟢 课标主干已补齐、薄格已清扫（五十一批 万有引力与航天/粒子物理；五十四批 振动与波/声学）      |
 | chem    | subjectKit | 19 模块                                                                           | 277    | 🟢 已导出机器可读 JSON               |
 | mgmt    | subjectKit | 8 模块（思想/战略/组织/领导/决策/运营/财务/人事）                                | 191    | 🟢 已导出机器可读 JSON               |
 | thought | FULL       | 学派/问题/分支/经典/人物 + 术语/时间线/思想实验/中西对比/误区（10 类）            | 243    | ✅ 视图与 mind/econ 同量级（四十批 branches 16→21）  |
 | earth   | FULL       | 地区/专题/原理/人文/地标/人物/术语/误区/身边地理/对照/测验/时间线（12 类）        | 226    | 🟢 Phase D 推进（五十批 人文+2，中国地理格清零）      |
 | life    | FULL       | 类群/专题/原理/经典/生物学家/特有物种/术语/误区/经典实验/对照/测验/时间线（12 类）  | 221    | 🟢 Phase D 推进（四十九批 原理+4，三格待办清零）      |
 
-> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在五十批刷新为 226 / 221（Phase C 十二视图全线 ≥16 后，两科均转入 Phase D 课标专条补强：earth principles 22、humanGeo 23；life principles 23），thought 行在四十批刷新为 243（branches 16→21）；physics 行在五十一批刷新为 158 条（课标主干 万有引力与航天/粒子物理）；econ 行在五十二批刷新为 332 条（课标三待办：改革史/行为金融/美元周期）、五十三批 quiz 联动后至 337；其余行仍为 2026-10 盘点时的旧快照，未逐行刷新。
+> 口径说明：mind / mgmt / thought / econ 四行已改取 `links:check` 的「N 条」实时值（mind 含 quiz/timeline 等全部数据文件）；earth / life 两行在五十批刷新为 226 / 221（Phase C 十二视图全线 ≥16 后，两科均转入 Phase D 课标专条补强：earth principles 22、humanGeo 23；life principles 23），thought 行在四十批刷新为 243（branches 16→21）；physics 行在五十一批刷新为 158 条（课标主干 万有引力与航天/粒子物理）、五十四批再刷新为 163 条（波动与声学薄格：wave-graphs/huygens-principle/beats/echo-ranging/noise-control）；econ 行在五十二批刷新为 332 条（课标三待办：改革史/行为金融/美元周期）、五十三批 quiz 联动后至 337；其余行仍为 2026-10 盘点时的旧快照，未逐行刷新。
 
 ---
 
@@ -183,7 +183,7 @@
 
 **补强（现 12 模块已不错）：**
 
-- [x] 机械振动与波动（单摆/波的形成/多普勒）→ 新「机械振动与波」模块
+- [x] 机械振动与波动（单摆/波的形成/多普勒）→ 新「机械振动与波」模块（五十四批再补波动图象/惠更斯原理/拍与拍频 + 声学回声测距/噪声控制，waves 5→8、sound 7→9）
 - [x] 万有引力与航天（补：宇宙速度、变轨、双星）✅ 五十一批 mechanics +3（三个宇宙速度/卫星变轨与轨道转移/双星与多星系统）
 - [x] 近代物理：光电效应、康普顿、波粒二象性、原子模型史（已在「原子物理」覆盖）
 - [x] 原子核与粒子物理：衰变半衰期、核反应、标准模型简介 ✅ radioactivity/fission/fusion 既有覆盖；五十一批 atomic +1（粒子物理与标准模型）
@@ -194,8 +194,9 @@
 - [x] 新「物理与现代技术」模块（半导体、超导、激光、核能、电磁波谱）
 - [~] 物理学家（补到 20+）、著名实验（补到 15+）——第十七批已把现有 `experiments` 8 条招牌实验从「只有 oneLiner 的空壳」补写厚双语 detail，条目数暂不变、下一步再补数量与物理学家
 - [x] **physics 近代物理实验专题（第十七批）：著名实验 8 条空壳补写厚 `detail` 双语**（0 新增条目、只写正文）——physics 与 chem 同为 subjectKit，真相源 `src/subjects/physics/data.ts`，但 `experiments`「著名实验」模块 8 条此前都只有 `term`/`level`/`oneLiner`、没有 `detail`，点开详情是空的。本轮为这 8 条近代物理招牌实验各写一段可核实的实验原理史（装置→观察→为什么重要）：杨氏双缝（干涉条纹、单光子逐点累积仍显条纹→波粒二象性）、迈克尔逊-莫雷（互相垂直两路找以太风的「零结果」、为光速不变扫清道路）、密立根油滴（重力/电场/斯托克斯阻力平衡、电量皆为 e≈1.60×10⁻¹⁹ C 整数倍→电荷量子化）、卢瑟福金箔（α 大角度散射、十五英寸炮弹轰纸巾被弹回、1911 核式模型）、卡文迪许扭秤（镜尺放大微小扭转、先测地球密度约水 5.5 倍、G 由后人换算）、光电效应（只关频率不关强度、E=hν 一份一份、逸出功与最大动能、爱因斯坦 1905/1921 诺奖）、伽利略斜面（冲淡重力、s∝t²、外推自由落体、萌生惯性思想）、赫兹电磁波（感应线圈发射、几米外开口环火花接收、测速≈光速并演示反射折射偏振驻波）。physics 无 chem 式守恒闸、也无专属冒烟，事实由人工逐条核对；写后走 `data:export→gen:geo→gen:sitemap` 同步链。实测：8 条 detail zh 201–257 字 / detailEn 633–879 字符、无空壳；`links:check` physics 130 条/128 id 错误 0 告警 0（含 *En 无汉字校验）、`check:json` 146/0、`verify exit=0`、`build ✓`（physics 无 figure/eq/subs 新增、overview 计数不变）
-- 目标：12 → 16+ 模块，条目 180+。 **（已达 16 模块）**
+- 目标：12 → 16+ 模块，条目 180+。 **（已达 16 模块；五十四批后 163 条）**
 - [x] **physics 课标主干补齐（五十一批：mechanics +3 / atomic +1，全站 154→158）**——全站盘点扫描后选定的 subjectKit 课标专条批：§3.5 三条未勾项经覆盖度扇查定为真缺——“宇宙速度/第一宇宙/变轨/双星”、“标准模型/夸克/轻子/反物质”均 physics 库 0 命中（旧计数仅他科顺带提及）；热学一条（分子动理论/理想气体/热二定）则由既有 kinetic-theory/gas-laws/first-law/second-law + glossary entropy 充分覆盖→改判勾项不立条。沿 subjectKit 零接线口径直接写 `src/subjects/physics/data.ts`（非 JSON）：🚀 三个宇宙速度（环绕/脱离/逃逸三档、随中心天体变、带 v₁=√(GM/R) 结构公式）/ 🛰️ 卫星变轨与轨道转移（加速抬轨、新圆轨线速度反而变小“高处更慢”易错点、霍曼转移）/ 🌀 双星与多星系统（m₁r₁=m₂r₂、称量天体主法）落 mechanics（kepler 后、按“引力应用”归类）；🧩 粒子物理与标准模型（费米子/玻色子、色禁闭与强子、不包引力与开放问题）落 atomic（fusion 后）。四新条均明写分工、不与 kepler/gravitation/radioactivity 重。subjectKit 计数自动：overview.json total/counts/kpis 均由 `data:export` 从 data.ts 重导（mechanics 17→20、atomic 8→9、total 154→158），无需手改；无 related 字段（卡片走 tags）故无回插、无野行风险。碰撞预检 4 id 均 free。实测：`data:export physics` 18 文件/158 条、`gen:geo`、`gen:sitemap` 215 条、`links:check` `[physics] 158 条/156 id` 0 错 0 警、`verify exit=0`、`build ✓ 1.10s`、`check-json` 170/0；puppeteer physics 中英×明暗四组合 **84 项 PASS／0 FAIL**（mechanics 20 卡/atomic 9 卡网格计数、四新卡详情标题双语逐字相等、正文去空白后命中、cosmic-velocity 的 eq 渲染含 7.9、英文标题无 CJK）。新踩坑：① **physics 详情抽屉用 FULL 同款标记（`.detail-panel`/`.detail-title`/`#subDetail [data-close]`）而非 chem 专属冒烟的 `.sd-title`/`.sd-close`**，照 chem smoke 写选择器会拿到空标题（首跑 16 FAIL 即此）；② 写入 Greek 字母 μ/τ 时一度丢失（“电子、子、子”）需复读补回 μ 子/τ 子；③ 冒烟正文断言需双侧去空白（zh detail 含“7.9 km/s”类空格、渲染 innerText 保留、数据侧 norm 删空）才能命中。
+- [x] **physics 振动与波·声学薄格清扫（五十四批：waves +3 / sound +2，全站 158→163）**——接五十二批报告候选 2「physics 薄格清扫」开工。按每模块条目数排行定靶：methods 4 / waves 5 / sound 7 为最矮三格，本批取主题连贯的两格（振动与波、声学同属一条课标主干链），methods 另批处理。覆盖度扇查定真缺：“惠更斯/回声/噪声控制/泛音/拍” 全库 0 命中（“拍”仅 astronomy 里“拍摄”误命中），而 **偏振已有 optics.polarization、干涉与衍射已有 waves.superposition + optics.interference-diffraction、多普勒已有 sound.doppler、共振已有 waves.standing-wave + sound.resonance → 四格均拒重不立**。落地：📈 波动图象与振动图象（y–x 读波长、y–t 读周期、v=λ/T、“把快照当振动历史”易错点）/ 🌀 惠更斯原理（子波包络作图一并解释反射·折射·衍射条件，频率不变而波速与波长同比减小，并点明原原理不定能量分布、菲涅耳补相干叠加）/ 🎼 拍与拍频（|f₁−f₂|、调音与超声血流计/雷达测速，与驻波“节腹固定”明写分工）落 waves；📡 回声与测距（0.1 s/≈17 m 可分辨阈值、s=vt/2 结构公式、声呐/B 超、真空不传声故太空改用电磁波）/ 🔇 噪声的危害与控制（波形是否规则为界、85 dB 量级限值与三四十贝干扰睡眠、声源/传播/人耳三环节，与 decibel 分工“那条讲量度、本条讲治理”）落 sound。零接线：subjectKit 真相源 `src/subjects/physics/data.ts`（非 JSON），overview 的 total/counts/kpis 全由 `data:export physics` 重导（waves 5→8、sound 7→9、total 158→163）；无 related 字段故无回插无野行；tags 沿用既有组（波动/Wave、声学/Acoustics）不分裂筛选项。碰撞预检 5 id 均 free（全库 2291 id）。实测：`data:export physics` 18 文件/163 条、`gen:geo`、`links:check` `[physics] 163 条/161 id` 0 错 0 警、`verify exit=0`（258 条 chem 既有 warn 未增、pass 数不变）、`build ✓ 916ms`、`check-json` 170/0；双语守卫自查新条 0 命中（En 侧无 CJK、zh 侧除 Huygens/Fresnel/sonar/radar 外无夹词）；puppeteer physics 中英×明暗四组合 **216 项 PASS／0 FAIL**（KPI 首位 163、waves 8 卡/sound 9 卡网格计数、五新项列表标题与抽屉标题双语逐字相等、一句话+详解正文去空白命中、分节数≥2、tags 双语渲染、echo-ranging 公式含 vt/2、两条新项标题可搜到、四旧项 standing-wave/shm/ultrasonic/decibel 反向对照仍在列）。**新踩坑**：① subjectKit 抽屉开启时会给 `#subDetail` 先置 `hidden=false`、下一帧才加 `.open` 并跑 0.3s 滑入过渡——此间 `page.click` 算的可点击点仍在屏外，会抛 `Node is either not clickable`（冒烟首跑即崩），必须轮询 `.open` 后再等 ~450ms；② `[data-close]` 首匹配是遮罩（其中心被面板盖住、puppeteer 点不动），真要点按钮应取 `.detail-close`；③ 关闭有 320ms 定时器才置 `hidden`，固定 `sleep 260` 必假报“未能关闭”并连锁使后续点击失败——冒烟里的开/关一律轮询而非写死时长。
 
 ### 3.6 万物心理学 mind（🟡）
 
