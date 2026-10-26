@@ -202,6 +202,23 @@ export function renderLayout(app: HTMLElement): void {
   // 滚动时给顶栏加阴影（毛玻璃吸顶后的层次感）
   const topbarEl = app.querySelector<HTMLElement>(".topbar");
   if (topbarEl) {
+    /**
+     * 把顶栏实测高度写进 `--topbar-h`：各科的吸顶模块导航（.modnav / .mnav）用它做
+     * `top` 偏移，否则两者同为 `sticky; top: 0`，页面一滚动导航条就被顶栏整条盖住、
+     * 点不动。顶栏高度随语言与断点变化（窄屏品牌字号收紧），故实测而非写死像素。
+     */
+    const syncTopbarH = () => {
+      document.documentElement.style.setProperty(
+        "--topbar-h",
+        `${Math.floor(topbarEl.getBoundingClientRect().height)}px`,
+      );
+    };
+    if (typeof ResizeObserver !== "undefined") {
+      new ResizeObserver(syncTopbarH).observe(topbarEl);
+    }
+    window.addEventListener("resize", syncTopbarH);
+    syncTopbarH();
+
     const onScroll = () =>
       topbarEl.classList.toggle("scrolled", window.scrollY > 8);
     window.addEventListener("scroll", onScroll, { passive: true });

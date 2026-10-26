@@ -330,7 +330,8 @@ body.no-scroll {
 /* ---------------- 吸顶模块导航 ---------------- */
 .subject-root .modnav {
   position: sticky;
-  top: 0;
+  /* 与顶栏错开：--topbar-h 由 src/core/layout.ts 实测写入（与 ui.css 同款规则保持同步） */
+  top: var(--topbar-h, 0px);
   z-index: 30;
   display: flex;
   flex-wrap: wrap;
@@ -374,7 +375,7 @@ body.no-scroll {
 .subject-root .module {
   display: none;
   position: relative;
-  scroll-margin-top: calc(var(--nav-h) + 16px);
+  scroll-margin-top: calc(var(--topbar-h, 0px) + var(--nav-h) + 16px);
 }
 .subject-root .module.active {
   display: flex;

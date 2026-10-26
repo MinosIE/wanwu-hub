@@ -45,7 +45,8 @@
   gap: 8px;
   justify-content: center;
   position: sticky;
-  top: 0;
+  /* 顶栏（.topbar）同为吸顶，导航条需挂在它下沿；--topbar-h 由 src/core/layout.ts 实测写入 */
+  top: var(--topbar-h, 0px);
   z-index: 20;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(8px);

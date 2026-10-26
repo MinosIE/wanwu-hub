@@ -379,7 +379,8 @@
 /* 模块导航与分区 */
 .dynasty-root .modnav {
   position: sticky;
-  top: 0;
+  /* 顶栏也吸顶，导航条需挂在顶栏下沿；--topbar-h 由 src/core/layout.ts 实测写入 */
+  top: var(--topbar-h, 0px);
   z-index: 20;
   display: flex;
   gap: 8px;
@@ -422,7 +423,7 @@
 }
 .dynasty-root .module {
   display: none;
-  scroll-margin-top: 72px;
+  scroll-margin-top: calc(var(--topbar-h, 0px) + 72px);
 }
 .dynasty-root .module.active {
   display: flex;

@@ -96,6 +96,7 @@
 - **全局切换键**：主题 / 语言切换由 `layout.ts` 的全局 `.lang-btn` / `#themeBtn` 提供，所有学科共用，**不要**在学科内重复渲染同语义的切换按钮（会造成重复 / 冲突）；如学科需视图内按钮，使用独立 class / id。
 - **样式隔离**：学科样式用各自根 class（如 `.physics-root` / `.sub-wrap`）作用域隔离；切换视图时 `main.ts` 会清理 `app` 的 `subject-*` class 防止串屏。
 - **禁止 `<a>` 套 `<a>`**（历史约束，卡片可点击用 `::after` 覆盖实现）。
+- **吸顶层只用 `--topbar-h` 错位**：外壳顶栏 `.topbar` 是 `sticky; top: 0; z-index: 50`，所以任何次级吸顶导航（`.modnav` / `.mnav`）**必须**写 `top: var(--topbar-h, 0px)`，否则两者同为 `top: 0`，页面一滚动导航条就被顶栏整条盖住、点不动。`--topbar-h` 由 `src/core/layout.ts` 实测顶栏高度（`ResizeObserver` + `resize`）写到 `<html>` 上——高度随语言与断点变化，**禁止写死像素**。模块容器的 `scroll-margin-top` 同步让开两层：`calc(var(--topbar-h, 0px) + var(--nav-h) + 16px)`。需同步的 5 处吸顶规则：`src/core/ui/ui.css`（`.subject-root .modnav` 与 `.subject-mnav/.subject-kit/.dynasty-root .mnav`）、`src/subjects/_shared/scaffold.css`、`src/subjects/dynasty/dynasty.css`、`src/subjects/mind/src/styles/components.css`。
 
 ## 6. 如何新增一个学科
 

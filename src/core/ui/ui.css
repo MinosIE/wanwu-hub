@@ -329,7 +329,9 @@
 /* ---------------- 吸顶模块导航 ---------------- */
 .subject-root .modnav {
   position: sticky;
-  top: 0;
+  /* 顶栏（.topbar）同为 sticky 吸顶，导航条必须贴在它下沿，否则滚动后被顶栏盖住、点不动。
+     --topbar-h 由 src/core/layout.ts 实测顶栏高度后写入（高度随语言与断点变化）。 */
+  top: var(--topbar-h, 0px);
   z-index: 30;
   display: flex;
   flex-wrap: wrap;
@@ -373,7 +375,8 @@
 .subject-root .module {
   display: none;
   position: relative;
-  scroll-margin-top: calc(var(--nav-h) + 16px);
+  /* 锚点跳转要让开「顶栏 + 吸顶导航」两层，否则模块标题被遮 */
+  scroll-margin-top: calc(var(--topbar-h, 0px) + var(--nav-h) + 16px);
 }
 .subject-root .module.active {
   display: flex;
@@ -931,7 +934,7 @@ body.no-scroll {
 .subject-kit .mnav,
 .dynasty-root .mnav {
   position: sticky;
-  top: 0;
+  top: var(--topbar-h, 0px);
   z-index: 40;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
