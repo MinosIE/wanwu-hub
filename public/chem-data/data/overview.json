@@ -5,25 +5,25 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 291,
+  "total": 300,
   "counts": {
     "concepts": 11,
     "mol3d": 0,
     "structure": 7,
     "periodic-table-full": 118,
     "trends": 8,
-    "reactions": 6,
+    "reactions": 9,
     "equations": 16,
     "metals-nonmetals": 8,
     "quickref": 12,
     "life-chem": 13,
     "chem-industry": 10,
     "chem-env": 7,
-    "bonding": 6,
+    "bonding": 9,
     "organic": 11,
     "solutions": 11,
     "energy": 8,
-    "kinetics": 6,
+    "kinetics": 9,
     "electrochem": 8,
     "chemists": 15,
     "glossary": 10
@@ -75,7 +75,7 @@
       "title": "反应类型",
       "titleEn": "Reaction Types",
       "kind": "cards",
-      "count": 6
+      "count": 9
     },
     {
       "key": "equations",
@@ -131,7 +131,7 @@
       "title": "物质构成与化学键",
       "titleEn": "Structure & Chemical Bonds",
       "kind": "cards",
-      "count": 6
+      "count": 9
     },
     {
       "key": "organic",
@@ -163,7 +163,7 @@
       "title": "速率与化学平衡",
       "titleEn": "Rate & Equilibrium",
       "kind": "cards",
-      "count": 6
+      "count": 9
     },
     {
       "key": "electrochem",
@@ -196,18 +196,18 @@
     { "key": "structure", "icon": "🧱", "value": 7 },
     { "key": "periodic-table-full", "icon": "🧭", "value": 118 },
     { "key": "trends", "icon": "📊", "value": 8 },
-    { "key": "reactions", "icon": "🔥", "value": 6 },
+    { "key": "reactions", "icon": "🔥", "value": 9 },
     { "key": "equations", "icon": "📝", "value": 16 },
     { "key": "metals-nonmetals", "icon": "🧲", "value": 8 },
     { "key": "quickref", "icon": "📋", "value": 12 },
     { "key": "life-chem", "icon": "🏭", "value": 13 },
     { "key": "chem-industry", "icon": "⚙️", "value": 10 },
     { "key": "chem-env", "icon": "🌿", "value": 7 },
-    { "key": "bonding", "icon": "🔗", "value": 6 },
+    { "key": "bonding", "icon": "🔗", "value": 9 },
     { "key": "organic", "icon": "🧬", "value": 11 },
     { "key": "solutions", "icon": "🧪", "value": 11 },
     { "key": "energy", "icon": "🔥", "value": 8 },
-    { "key": "kinetics", "icon": "⚖️", "value": 6 },
+    { "key": "kinetics", "icon": "⚖️", "value": 9 },
     { "key": "electrochem", "icon": "🔋", "value": 8 },
     { "key": "chemists", "icon": "🧑‍🔬", "value": 15 },
     { "key": "glossary", "icon": "📖", "value": 10 }

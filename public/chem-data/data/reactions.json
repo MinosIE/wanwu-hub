@@ -830,5 +830,289 @@
     "detailEn": "Neutralisation recognises one thing only: an acid acting on a base to give salt and water, which makes it a special — and the most-used — case of double decomposition. Two limits decide every judgement: the reactants must be an acid and a base (not a salt with an acid, not an oxide with a base), and nothing besides salt and water may appear among the products. Weighing the formulae needs care with the two-proton acids: one molecule of sulfuric acid takes two of sodium hydroxide, because it can hand over two hydrogen ions — the count comes from how many H⁺ and OH⁻ the substance ionises, not from any valency trick. In solution the substance of it is H⁺ + OH⁻ → H₂O, which the senior course writes as an ionic equation and which is the basis of the definition of heat of neutralisation; heat is therefore always given out. Add dilute hydrochloric acid drop by drop to sodium hydroxide solution with phenolphthalein and, besides watching the red fade to colourless, you can feel the beaker warm — that manipulation is the standard answer to 'how do you know the two have exactly finished reacting': you trust an indicator's colour, not a guess. Indicators and their use are tabulated in the quick-reference module and under solutions and pH. The applications are broader than the theory and are worth keeping as a list: farmers amend acid soil with slaked lime rather than caustic soda (cheap, mild, and it will not ruin the soil), but a field already given ammonium fertiliser must be limed at a different time, since alkali drives ammonia off ammonium salts and the nitrogen is lost (see double decomposition); industry neutralises acidic effluent with lime; medicine uses aluminium hydroxide or sodium hydrogencarbonate against excess stomach acid, the bicarbonate being barred when an ulcer is present because it generates gas (see sodium and its compounds); a bee or mosquito sting is rubbed with soap solution because the injected venom is acid and soap is alkaline, while an alkaline sting calls for a weak acid such as vinegar. Three false sentences must be taken apart one by one. 'pH 7 means exactly neutralised' — not necessarily: a salt of strong acid and weak base, aluminium chloride in this entry, is acidic in water, so 'exactly neutralised' speaks of stoichiometric completion while the acidity of the result still depends on the salt formed. 'Any reaction giving salt and water is neutralisation' — carbon dioxide with sodium hydroxide yields sodium carbonate and water, products that look identical, yet no acid is among the reactants, so it is a non-metal oxide with a base and not neutralisation (and it serves to scrub waste gas just as well). 'Neutralising and diluting are the same' — diluting an acid only stretches out the H⁺ concentration, so pH creeps toward 7 and never crosses it and nothing is removed, whereas neutralisation actually converts the hydrogen ions into water. Finally separate 'neutral' from 'neutralise': neutral describes a solution's acid-base state (and depends on concentration and temperature), neutralise names an action; the solution is only neutralised when acid and base have met in stoichiometric amounts, and a colourless result merely says the alkaline environment that feeds phenolphthalein is gone.",
     "tags": ["反应类型", "酸碱"],
     "tagsEn": ["Reaction Type", "Acid-Base"]
+  },
+  {
+    "id": "mass-conservation",
+    "subs": [
+      {
+        "f": "4P",
+        "name": "白磷（P₄，保存在水中）",
+        "nameEn": "White phosphorus (P₄, kept under water)",
+        "note": "灼热玻璃管一碰即燃，产生大量白烟。",
+        "noteEn": "Ignites on a hot rod and fills the flask with white fume.",
+        "role": "l"
+      },
+      {
+        "f": "5O₂",
+        "name": "氧气（瓶内空气所提供）",
+        "nameEn": "Oxygen (from the air trapped in the flask)",
+        "note": "瓶内氧气耗尽后冷却，水会沿导管倒吸。",
+        "noteEn": "Once spent, cooling draws water back up the tube.",
+        "role": "l"
+      },
+      {
+        "f": "2P₂O₅",
+        "name": "五氧化二磷（白烟）",
+        "nameEn": "Phosphorus pentoxide (the white fume)",
+        "note": "固体颗粒而非气体，所以仍留在瓶内计入质量。",
+        "noteEn": "A solid, not a gas — it stays in the flask and still counts.",
+        "role": "r"
+      },
+      {
+        "f": "Fe",
+        "name": "铁钉（先用砂纸打磨）",
+        "nameEn": "Iron nail (abraded first)",
+        "note": "氧化膜不除净，反应迟迟不动，容易误判为不反应。",
+        "noteEn": "Leave the oxide on and the reaction crawls — a false 'no reaction'.",
+        "role": "l"
+      },
+      {
+        "f": "CuSO₄",
+        "name": "硫酸铜溶液（蓝色）",
+        "nameEn": "Copper(II) sulfate solution (blue)",
+        "note": "蓝色来自 Cu²⁺，颜色变浅即铜离子被消耗。",
+        "noteEn": "The blue is Cu²⁺; fading shows it being consumed.",
+        "role": "l"
+      },
+      {
+        "f": "FeSO₄",
+        "name": "硫酸亚铁溶液（浅绿）",
+        "nameEn": "Iron(II) sulfate solution (pale green)",
+        "note": "溶液由蓝转浅绿，是反应确实发生的肉眼证据。",
+        "noteEn": "Blue turning pale green is the visible proof of reaction.",
+        "role": "r"
+      },
+      {
+        "f": "Cu",
+        "name": "铜（红色固体）",
+        "nameEn": "Copper (red solid)",
+        "note": "析出在铁钉表面，同时说明铁比铜活泼。",
+        "noteEn": "Plates onto the nail — iron sits above copper in the reactivity series.",
+        "role": "r"
+      }
+    ],
+    "icon": "🧮",
+    "term": "质量守恒定律",
+    "termEn": "Law of Conservation of Mass",
+    "level": 1,
+    "oneLiner": "参加反应的各物质质量总和等于生成物总质量，底牌是原子的三种不变。",
+    "oneLinerEn": "The mass that reacts equals the mass produced; three atomic constants are the guarantee.",
+    "eq": [
+      {
+        "lhs": "4P + 5O₂",
+        "cond": "密闭锥形瓶中引燃，连瓶带塞一起称",
+        "condEn": "ignited in a sealed flask, flask and stopper weighed together",
+        "rhs": "2P₂O₅",
+        "rel": "equal"
+      },
+      {
+        "lhs": "Fe + CuSO₄",
+        "cond": "溶液中进行，无气体参加也无气体逸出",
+        "condEn": "in solution; no gas in or out, so an open beaker balances too",
+        "rhs": "FeSO₄ + Cu",
+        "rel": "equal"
+      }
+    ],
+    "detail": "质量守恒定律说的是：参加化学反应的各物质质量总和，等于反应生成的各物质质量总和。主语里「参加反应」四个字最要紧——取来却没有反应的过量部分不算，把一整块铁丢进硫酸铜溶液，只有真正溶掉的那部分铁进得了等式。它的根据在原子层：化学变化只是原子重新组合，原子的种类、数目、质量三样都不变，总质量自然不变（微观解释见「原子结构」）。这条定律同时是配平化学方程式的依据，也是四种守恒里最基础的一种（计算中的用法见「守恒法」）。课本验证它只有两个装置：白磷在密闭锥形瓶里燃烧，瓶底铺一层细沙防炸裂，用灼热的玻璃管引燃，反应前后连瓶带塞一起称，天平不动；铁钉与硫酸铜溶液反应，蓝色变浅绿、铁面挂一层红铜，这反应既无气体参加也无气体逸出，所以敞口烧杯称照样守恒。反过来，碳酸钠与盐酸混合必须密闭才称得平，因为生成的二氧化碳会跑——跑掉不等于不守恒，把逸出的气体与析出的沉淀一起算回账上，两边永远相等。「蜡烛烧完变轻、镁条燃烧后固体反而变重」是选择题最常设的两个坑：前者是产物二氧化碳与水蒸气散进了空气，后者是空气中的氧结合进了产物，两个现象都恰恰遵守质量守恒。清点时用「六不变、两改变、一可能变」最稳：不变的是原子种类、原子数目、原子质量、元素种类、元素质量与物质总质量；一定变的是物质种类与分子种类；可能变的是分子总数（H₂ + Cl₂ 生成 2HCl 前后分子数不变，2H₂ + O₂ 生成水就变）与元素化合价。定律还能反推组成：某物质在氧气中完全燃烧只得二氧化碳和水，就能断定它一定含碳和氢，是否含氧则必须靠数据算，因为参加反应的氧本身就带进了氧元素（这套定量分析见「甲烷燃烧」）。三条边界不要踩：冰化成水、酒精挥发前后质量也相等，但那是物理变化，不在定律的适用之列；质量守恒与能量守恒是两件事，反应伴随的热量进出由「放热与吸热反应」专门管；至于原子核的变化，中学阶段一律不讨论。最后把它与「根据化学方程式的计算」看成一体两面——定律回答「凭什么能列等式」，方程式回答「按什么比例列等式」。",
+    "detailEn": "The law of conservation of mass states that the total mass of the substances that react equals the total mass of those produced. The qualifier does all the work: only what actually reacts enters the equation, so of an iron nail dropped into copper sulfate solution just the part that dissolves counts. Its warrant lies one level down, among atoms — a chemical change only rearranges them, and since the kinds, number and mass of atoms are all untouched, the total cannot shift (see atomic structure for the microscopic account). The same law is what makes balancing equations possible and is the most elementary of the four conservations used in calculation (see the conservation method). The textbook verifies it with two setups and no more. White phosphorus burns in a conical flask stoppered and weighed whole, sand on the bottom guarding against cracking, ignition brought on by a hot glass rod: the balance does not move. An iron nail in copper sulfate solution fades the blue toward pale green and grows a red coating, and because no gas is taken in or given off, an open beaker balances just as well. Mix sodium carbonate with hydrochloric acid, however, and only a closed vessel will balance, since the carbon dioxide escapes — escaping is not the same as being lost: put the off-gas and any precipitate back into the accounts and the two sides agree every time. Two stock exam traps dissolve under this reading. A candle burns away and the residue is lighter: the products, carbon dioxide and steam, went into the air. A magnesium ribbon gains weight as it burns: oxygen from the air joined the solid. Both obey the law exactly. The tidy way to check is six-unchanged, two-changed, one-maybe: unchanged are the kinds, numbers and masses of atoms, the kinds and masses of elements and the total mass of matter; certain to change are the kinds of substance and of molecule; free to change is the number of molecules (unchanged for H₂ + Cl₂ → 2HCl, halved for 2H₂ + O₂ → 2H₂O) and the oxidation states. The law also reconstructs composition: burn a substance in oxygen and collect nothing but carbon dioxide and water, and it must contain carbon and hydrogen — whether it also held oxygen takes arithmetic, because the reacting oxygen brought oxygen of its own (see the quantitative analysis under methane burning). Keep three boundaries in view: ice melting and alcohol evaporating also conserve mass, but those are physical changes and outside the law's remit; mass conservation and energy conservation are separate matters, heat being dealt with under exothermic and endothermic reactions; and nuclear change is simply not discussed at this level. Pair the law at last with calculation from equations — it answers why an equation may be written at all, the equation answers in what proportion.",
+    "tags": ["反应规律", "初中"],
+    "tagsEn": ["Reaction Law", "Junior"]
+  },
+  {
+    "id": "ionic-reaction",
+    "subs": [
+      {
+        "f": "H⁺",
+        "name": "氢离子（强酸电离所提供）",
+        "nameEn": "Hydrogen ion (from any strong acid)",
+        "note": "盐酸、硫酸、硝酸都可给它，所以一条式子代表一整类酸。",
+        "noteEn": "Hydrochloric, sulfuric and nitric all supply it — one line stands for a whole class.",
+        "role": "l"
+      },
+      {
+        "f": "OH⁻",
+        "name": "氢氧根离子（强碱电离所提供）",
+        "nameEn": "Hydroxide ion (from any strong alkali)",
+        "note": "NaOH、KOH 可拆写，Ba(OH)₂ 作澄清液时也拆。",
+        "noteEn": "From NaOH or KOH; baryta water is split as well.",
+        "role": "l"
+      },
+      {
+        "f": "CO₃²⁻",
+        "name": "碳酸根离子（可溶性碳酸盐）",
+        "nameEn": "Carbonate ion (from a soluble carbonate)",
+        "note": "来自 Na₂CO₃、K₂CO₃，不来自不溶的 CaCO₃。",
+        "noteEn": "From sodium or potassium carbonate, never from chalk.",
+        "role": "l"
+      },
+      {
+        "f": "Ba²⁺",
+        "name": "钡离子（氯化钡或硝酸钡）",
+        "nameEn": "Barium ion (from barium chloride or nitrate)",
+        "note": "检验硫酸根用的就是它，故选试剂时不引干扰离子。",
+        "noteEn": "The ion behind the sulfate test — hence a reagent that adds no interference.",
+        "role": "l"
+      },
+      {
+        "f": "SO₄²⁻",
+        "name": "硫酸根离子",
+        "nameEn": "Sulfate ion",
+        "note": "在稀硝酸存在下仍与钡离子沉淀，这是它独有的稳定性。",
+        "noteEn": "Still precipitates in dilute nitric acid, its signature stability.",
+        "role": "l"
+      },
+      {
+        "f": "H₂O",
+        "name": "水（弱电解质，保留分子式）",
+        "nameEn": "Water (a weak electrolyte, written whole)",
+        "note": "极难电离，所以绝不拆成 H⁺ 与 OH⁻。",
+        "noteEn": "Ionises so little that it is never split.",
+        "role": "r"
+      },
+      {
+        "f": "CO₂",
+        "name": "二氧化碳（气体，加↑）",
+        "nameEn": "Carbon dioxide (gas, marked ↑)",
+        "note": "有气体逸出即离子浓度下降，是反应发生的证据之一。",
+        "noteEn": "Escaping gas means ions were removed — one proof the reaction ran.",
+        "role": "r"
+      },
+      {
+        "f": "BaSO₄",
+        "name": "硫酸钡（白色沉淀，加↓）",
+        "nameEn": "Barium sulfate (white precipitate, marked ↓)",
+        "note": "不溶于稀硝酸，医用钡餐用的也是它。",
+        "noteEn": "Insoluble in dilute nitric acid; the same solid used as the imaging meal.",
+        "role": "r"
+      }
+    ],
+    "icon": "💦",
+    "term": "离子反应与离子方程式",
+    "termEn": "Ionic Reactions and Ionic Equations",
+    "level": 2,
+    "oneLiner": "把真正参加的离子挑出来写，一条式子就代表一整类反应。",
+    "oneLinerEn": "Write only the ions that really react and one line speaks for a whole class.",
+    "detail": "有离子参加的反应都在溶液里进行，反应物一旦溶解就以离子身份存在，所谓「反应」其实就是某些离子的浓度降低了——把这件事写出来的式子就是离子方程式。书写固定四步：写、拆、删、查。第一步按客观事实写化学方程式（能不能反应先查「复分解反应」的三个出口与「溶解性规律」）；第二步把该拆的拆成离子；第三步删去两边一模一样、其实没参加反应的旁观离子；第四步查原子与电荷是否都守恒、系数是否已约到最简。拆与不拆是唯一需要背的规矩：强酸（盐酸、硫酸、硝酸）、强碱（氢氧化钠、氢氧化钾、氢氧化钡）与可溶性盐一律拆；弱酸（醋酸、碳酸、次氯酸）、弱碱（一水合氨）、水、气体、沉淀与氧化物一律保留分子式。三处细节最易写错：浓硫酸里水太少，按分子式写；石灰水作反应物时 Ca(OH)₂ 拆，而作为生成物沉淀出来时不拆；微溶物（硫酸钙）在生成物一侧写沉淀符号。为什么要费这个事？因为离子方程式比化学方程式更本质：H⁺ + OH⁻ 生成 H₂O 一句就代表了强酸与强碱之间一整类中和，而 NaOH + HCl 那一条只管住一个具体反应，这正是「中和反应」里那句实质的来处。检查一道离子方程式有三道关：原子守恒、电荷守恒、得失电子守恒（氧化还原类才需要，见「氧化还原反应」）。第二关失手最多，把亚铁离子被氯气氧化写成 Fe²⁺ + Cl₂ 生成 Fe³⁺ + 2Cl⁻ 就电荷不平，正确的是 2Fe²⁺ + Cl₂ 生成 2Fe³⁺ + 2Cl⁻。离子共存是同一套知识的反面：两组离子相遇，只要会生成沉淀、气体或弱电解质，或发生氧化还原与络合，就不能大量共存——钡离子与硫酸根、碳酸根与氢离子、铵根与氢氧根（放出氨，见「常见离子的检验」）、铁离子与硫氰酸根（血红色，正是检验三价铁的原理）、铁离子与碘离子（氧化还原对头）都算不共存。题目还会埋两条附加限制：说明溶液无色，就排掉了铜离子、铁离子、亚铁离子与高锰酸根；给出酸性或碱性条件，等于额外提供了氢离子或氢氧根，碳酸氢根在两边都待不住。三类高频错句须逐个拆：把不溶的碳酸钙拆成离子（拆的前提是既溶解又电离）、把铜与硝酸银写成 Cu + Ag⁺ 生成 Cu²⁺ + Ag（原子与电荷都没平，正确的是 Cu + 2Ag⁺ 生成 Cu²⁺ + 2Ag）、以及以为删掉旁观离子后还可以继续乱约系数——约到最简必须做，但只能在删完之后做。",
+    "detailEn": "Any reaction with ions taking part runs in solution, where the reactants already exist as ions, so the reaction is really the fall in concentration of certain ions — and the line that records this is an ionic equation. Writing it follows four fixed steps: compose, split, delete, check. Compose from the facts (does it react at all? consult the three exits of double decomposition and the solubility rules); split everything that deserves splitting into ions; delete the identical ions on both sides, which were only spectators; then check that atoms and charge both balance and that the coefficients are reduced to the simplest ratio. Which species to split is the one rule worth memorising. Split all strong acids (hydrochloric, sulfuric, nitric), all strong alkalis (soda, potash, baryta) and all soluble salts. Keep whole every weak acid (acetic, carbonous, hypochlorous), every weak base (ammonia solution), water, gases, precipitates and oxides. Three details catch people out: concentrated sulfuric acid has too little water to be split; calcium hydroxide is split when it is the reagent as limewater but whole when it precipitates as a product; a sparingly soluble salt such as calcium sulfate takes the downward arrow on the product side. Why bother? Because an ionic equation is the deeper statement. One line, H⁺ + OH⁻ → H₂O, covers the whole class of strong-acid-versus-strong-alkali neutralisation, whereas NaOH + HCl governs a single reaction — that is exactly the substance noted under neutralisation. Three tests grade a finished ionic equation: atoms conserved, charge conserved, and for redox cases electrons conserved (see oxidation-reduction reaction). The second fails most often: writing Fe²⁺ + Cl₂ → Fe³⁺ + 2Cl⁻ leaves the charges unequal, and the correct line is 2Fe²⁺ + Cl₂ → 2Fe³⁺ + 2Cl⁻. Ion coexistence is the same knowledge turned inside out. Two sets of ions cannot abound together if mixing them would precipitate, give off a gas, form a weak electrolyte, or trigger redox or complexation: barium with sulfate, carbonate with hydrogen, ammonium with hydroxide (ammonia off — see the ion tests), iron(III) with thiocyanate (the blood red that detects Fe³⁺), iron(III) with iodide (natural redox partners). Exam statements hide two further conditions: 'colourless solution' removes copper, iron(III), iron(II) and permanganate ions; 'acidic' or 'alkaline' supplies hydrogen or hydroxide ions for you, and hydrogen carbonate survives neither. Break the three familiar false moves one by one: splitting insoluble calcium carbonate into ions, since splitting presumes both dissolving and ionising; writing Cu + Ag⁺ → Cu²⁺ + Ag, unbalanced in atoms and charge alike, where the truth is Cu + 2Ag⁺ → Cu²⁺ + 2Ag; and reducing coefficients before the spectators have been deleted — simplification is compulsory, but only after the deletion.",
+    "tags": ["反应类型", "离子反应"],
+    "tagsEn": ["Reaction Type", "Ionic Reaction"]
+  },
+  {
+    "id": "oxide-reactions",
+    "subs": [
+      {
+        "f": "CO₂",
+        "name": "二氧化碳（酸性氧化物）",
+        "nameEn": "Carbon dioxide (an acidic oxide)",
+        "note": "碳酸的酸酐，本身不燃烧也不支持燃烧。",
+        "noteEn": "The anhydride of carbonic acid; neither burns nor feeds a flame.",
+        "role": "l"
+      },
+      {
+        "f": "Ca(OH)₂",
+        "name": "氢氧化钙（石灰水）",
+        "nameEn": "Calcium hydroxide (limewater)",
+        "note": "浓度很低，检验二氧化碳要持续通入才看得清浑浊。",
+        "noteEn": "Weakly concentrated; pass the gas steadily or the milkiness is missed.",
+        "role": "l"
+      },
+      {
+        "f": "CaCO₃",
+        "name": "碳酸钙（白色沉淀）",
+        "nameEn": "Calcium carbonate (white precipitate)",
+        "note": "继续通二氧化碳会变澄清，生成可溶的碳酸氢钙。",
+        "noteEn": "More carbon dioxide clears it again as soluble calcium hydrogen carbonate forms.",
+        "role": "r"
+      },
+      {
+        "f": "H₂O",
+        "name": "水",
+        "nameEn": "Water",
+        "note": "两类氧化物与酸碱反应都必然生成它。",
+        "noteEn": "Inevitably produced whenever either class of oxide meets acid or base.",
+        "role": "r"
+      },
+      {
+        "f": "CaO",
+        "name": "氧化钙（生石灰）",
+        "nameEn": "Calcium oxide (quicklime)",
+        "note": "碱性氧化物，与水剧烈放热，故用作干燥剂。",
+        "noteEn": "A basic oxide; slakes with heat, which is why it dries gases.",
+        "role": "l"
+      },
+      {
+        "f": "2HCl",
+        "name": "盐酸（稀）",
+        "nameEn": "Hydrochloric acid (dilute)",
+        "note": "除水垢与中和碱性废水都走这条反应。",
+        "noteEn": "The route both for scale removal and for neutralising alkaline effluent.",
+        "role": "l"
+      },
+      {
+        "f": "CaCl₂",
+        "name": "氯化钙（可溶）",
+        "nameEn": "Calcium chloride (soluble)",
+        "note": "无水氯化钙吸水后自溶，是另一种干燥剂。",
+        "noteEn": "Anhydrous it takes up water and dissolves — a different drying agent.",
+        "role": "r"
+      },
+      {
+        "f": "SO₂",
+        "name": "二氧化硫（酸性氧化物）",
+        "nameEn": "Sulfur dioxide (an acidic oxide)",
+        "note": "亚硫酸的酸酐，大气中被缓慢氧化为三氧化硫。",
+        "noteEn": "The anhydride of sulfurous acid; slowly oxidised onward in air.",
+        "role": "l"
+      },
+      {
+        "f": "2NaOH",
+        "name": "氢氧化钠溶液",
+        "nameEn": "Sodium hydroxide solution",
+        "note": "吸收酸性尾气比石灰水彻底，因为溶解度大得多。",
+        "noteEn": "Scubs acid gas far better than limewater — it dissolves by the litre.",
+        "role": "l"
+      },
+      {
+        "f": "Na₂SO₃",
+        "name": "亚硫酸钠",
+        "nameEn": "Sodium sulfite",
+        "note": "在空气中会被氧化成硫酸钠，所以吸收液要定期更换。",
+        "noteEn": "Oxidises onward to the sulfate in air, so the scrub liquor must be renewed.",
+        "role": "r"
+      }
+    ],
+    "icon": "🪨",
+    "term": "酸性氧化物与碱性氧化物",
+    "termEn": "Acidic and Basic Oxides",
+    "level": 2,
+    "oneLiner": "跟碱只生成盐和水的叫酸性氧化物，跟酸只生成盐和水的叫碱性氧化物。",
+    "oneLinerEn": "An oxide giving only salt and water with base is acidic; one doing the same with acid is basic.",
+    "eq": [
+      {
+        "lhs": "CO₂ + Ca(OH)₂",
+        "cond": "澄清石灰水，变浑浊",
+        "condEn": "clear limewater; turns milky",
+        "rhs": "CaCO₃↓ + H₂O",
+        "rel": "equal"
+      },
+      {
+        "lhs": "CaO + 2HCl",
+        "cond": "碱性氧化物溶于酸",
+        "condEn": "a basic oxide dissolving in acid",
+        "rhs": "CaCl₂ + H₂O",
+        "rel": "equal"
+      },
+      {
+        "lhs": "SO₂ + 2NaOH",
+        "cond": "吸收酸性尾气",
+        "condEn": "scrubbing acid waste gas",
+        "rhs": "Na₂SO₃ + H₂O",
+        "rel": "equal"
+      }
+    ],
+    "detail": "氧化物按化学行为分家，标准只有一条：跟碱反应只生成盐和水的叫酸性氧化物，跟酸反应只生成盐和水的叫碱性氧化物。定义里「只」字最要紧，多生成一样东西就要把这个类别排除在外。酸性氧化物大多是含氧酸对应的酸酐（CO₂ 是碳酸的酸酐、SO₂ 是亚硫酸的、SO₃ 是硫酸的、SiO₂ 是硅酸的、P₂O₅ 是磷酸的），碱性氧化物则大多是活泼金属的氧化物（Na₂O、CaO、CuO、Fe₂O₃、MgO）。把通性排成两张对照清单最有用。酸性氧化物四条：与水化合得含氧酸（CO₂ 得碳酸、SO₃ 得硫酸，而 SiO₂ 既不溶于水也不与水反应，制硅酸要靠硅酸钠加酸）；与碱反应得盐与水（石灰水检验二氧化碳、氢氧化钠吸收二氧化硫同一条理）；与碱性氧化物化合得含氧酸盐（CaO + CO₂ 生成 CaCO₃，所以生石灰也能吸二氧化碳）；不跟酸反应。碱性氧化物四条：与水化合得碱（Na₂O、CaO 可以，CuO、Fe₂O₃ 不跟水反应，所以铁锈不能靠加水变成氢氧化铁）；与酸反应得盐与水（除水垢、中和酸性废水、炼铁前造渣都在这条上）；与酸性氧化物化合得盐；不作尾气吸收剂。真正丢分的是分类边界，六句反例逐个背：酸性氧化物不一定是非金属氧化物，Mn₂O₇ 是金属氧化物却是高锰酸的酸酐；非金属氧化物不一定是酸性氧化物，CO 与 NO 是不成盐氧化物，水更不是；碱性氧化物一定是金属氧化物，但金属氧化物不一定碱性，Mn₂O₇ 酸性、Al₂O₃ 两性、Na₂O₂ 过氧化物；Na₂O₂ 与二氧化碳反应除生成碳酸钠还放出氧气，因此它不算碱性氧化物（这个反例几乎年年考）；Al₂O₃ 既能溶于盐酸又能溶于氢氧化钠溶液，叫两性氧化物，这也是铝制餐具不宜久存酸碱的原因（见「铝及其化合物」）；NO₂ 与水反应除硝酸还生成 NO，不满足「只生成盐和水」，所以不是酸性氧化物。应用连着好几条主线：石灰水检验二氧化碳（见「二氧化碳使石灰水变浑浊」）、生石灰作干燥剂却不能干燥二氧化碳、二氧化硫、氯化氢这些酸性气体（它自己就要跟它们反应，见「生石灰遇水」）、工业烟气脱硫用石灰石浆液把二氧化硫固定下来（见「酸雨与石灰石-石膏法脱硫」与「接触法制硫酸」里三氧化硫被浓硫酸吸收的操作）、金属氧化物与酸的反应则是酸洗与湿法冶金的共同第一步（见「铁及其化合物的铁三角」）。最后提醒命名与化合价必须挂钩：铁的三种氧化物 FeO、Fe₂O₃ 是碱性氧化物，Fe₃O₄ 可看作 FeO·Fe₂O₃ 的混合价态化合物，它与酸反应生成两种盐，别按「+ 价铁」一处写死（见「化合价」）。",
+    "detailEn": "Oxides are sorted by a single behavioural test: one that yields only salt and water with a base is acidic, one that does the same with an acid is basic. The word 'only' carries the whole definition — a reaction producing anything else expels that oxide from the class. Most acidic oxides are the anhydrides of oxyacids (carbon dioxide of carbonic, sulfur dioxide of sulfurous, sulfur trioxide of sulfuric, silicon dioxide of silicic, phosphorus pentoxide of phosphoric); most basic oxides are those of the reactive metals (sodium oxide, quicklime, copper and iron oxides, magnesia). Two parallel lists of general behaviour are the useful thing to carry. Acidic oxides: with water they give the oxyacid — carbon dioxide makes carbonic and sulfur trioxide sulfuric, while silicon dioxide neither dissolves nor reacts, so silicic acid must be won from sodium silicate with an acid; with bases they give salt and water, which is both the limewater test and the soda scrub; with basic oxides they give an oxysalt, hence quicklime also captures carbon dioxide; they do not answer to acids. Basic oxides: with water the reactive ones give an alkali, but copper and iron oxides do not, which is why rust cannot be hydrated into a hydroxide; with acids they give salt and water — scale removal, effluent neutralisation and slag formation all stand on this line; with acidic oxides they give a salt; they are never used as scrubbers. Marks are lost on the boundaries, so learn the six counter-examples. An acidic oxide need not be a non-metal oxide — manganese(VII) oxide is a metal oxide yet the anhydride of permanganic acid. A non-metal oxide need not be acidic — carbon monoxide and nitric oxide are non-salt-forming, and water least of all. A basic oxide is always a metal oxide, but a metal oxide need not be basic: manganese(VII) is acidic, aluminium amphoteric, sodium peroxide a peroxide. Sodium peroxide with carbon dioxide gives oxygen as well as sodium carbonate, so it is not basic — a counter-example that surfaces every year. Aluminium oxide dissolves in hydrochloric acid and in sodium hydroxide alike, which is why aluminium tableware should not store acids or alkalis. Nitrogen dioxide with water gives nitric acid and nitric oxide, failing 'only salt and water', so it is not acidic either. Applications string several threads together: limewater tests carbon dioxide; quicklime dries gases but never acid gases, since it reacts with them; flue gas is desulfurised by limestone slurry, and in the contact process sulfur trioxide is taken up by strong acid rather than water; metal oxides plus acid is the common first step of pickling and leaching (see the iron triangle). Name and valency must finally be kept in step: FeO and Fe₂O₃ are basic oxides, Fe₃O₄ is best read as FeO·Fe₂O₃, and with acid it yields two salts at once — do not force a single valency onto it (see valency).",
+    "tags": ["反应规律", "物质分类"],
+    "tagsEn": ["Reaction Law", "Classification"]
   }
 ]
