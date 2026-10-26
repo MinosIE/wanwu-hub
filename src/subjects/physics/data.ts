@@ -2553,6 +2553,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "经典力学与微积分奠基人，《原理》建立三定律与万有引力。",
             en: "Founder of classical mechanics and calculus; Principia set the three laws and gravitation.",
           },
+          detail: {
+            zh: "1666 年他为躲鼠疫回到乡下，一年内酝酿出微积分、光的色散与万有引力三条线索；1684 年哈雷登门问「行星为何走椭圆」，催生了 1687 年由哈雷垫资印行的《自然哲学的数学原理》。他的绝对时空与超距引力被后人当作铁律两百年，又被爱因斯坦逐条改写；与莱布尼茨的微积分发明权之争撕裂了英国与欧洲大陆数学界近一个世纪。他做出第一架实用的反射望远镜，也留下了比物理更多的炼金术手稿；凯恩斯因此说他是「最后一位魔术师」而非「第一个理性主义者」。晚年他主持皇家造币厂、受封爵士，也不再愿意被人反驳。",
+            en: "Plague sent him back to the countryside in 1666 and inside a year he had sketches of calculus, the dispersion of light and universal gravitation. Halley's 1684 question about elliptical orbits produced the Principia of 1687, printed with Halley's own money. His absolute space, absolute time and action at a distance stood as law for two centuries and then were dismantled one by one by Einstein, while his priority quarrel with Leibniz split British and continental mathematics for nearly a hundred years. He built the first practical reflecting telescope and left more alchemical manuscript than physics, which is why Keynes called him the last of the magicians rather than the first rationalist. He ended as master of the Mint, knighted, and no longer willing to be argued with.",
+          },
         },
         {
           id: "einstein",
@@ -2562,6 +2566,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "狭义与广义相对论、光电效应，重塑时空与引力观。",
             en: "Special & general relativity and the photoelectric effect reshaped space, time and gravity.",
+          },
+          detail: {
+            zh: "1905 年他在伯尔尼专利局三级技术员的工位上写出四篇改变物理的论文：光电效应、布朗运动、狭义相对论，以及随后补上的一页质能等价。1915 年 11 月他把广义相对论场方程交到普鲁士科学院，1919 年爱丁顿的日食观测让他成为科学史上第一个全球性头版人物。诺贝尔奖发给他的却是光电效应而非相对论；他终生不接受量子力学的概率诠释，「上帝不掷骰子」的诘问反而生出 EPR 悖论——几十年后它成了量子纠缠实验与量子信息学的起点。",
+            en: "In 1905, sitting at his desk as a third-class examiner in the Bern patent office, he produced four papers: the photoelectric effect, Brownian motion, special relativity and mass-energy equivalence. He handed the field equations of general relativity to the Prussian Academy in November 1915, and Eddington's 1919 eclipse expedition made him the first scientist in history to become a global headline. The Nobel committee honoured the photoelectric effect rather than relativity. He never accepted the probability interpretation of quantum mechanics, and his protest that God does not play dice generated the EPR argument, which decades later became the experimental starting point of entanglement and quantum information.",
           },
         },
         {
@@ -2573,6 +2581,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "统一电、磁、光，提出麦克斯韦方程组。",
             en: "Unified electricity, magnetism and light via Maxwell's equations.",
           },
+          detail: {
+            zh: "1861 年他补上位移电流、算出电磁波速度恰等于光速，1865 年给出电磁场的动力学理论，1873 年写成《电学与磁学论》；他 1879 年去世、只有 48 岁，没等到 1887 年赫兹把那些波打出来。今天课本上的四个矢量方程是赫维赛德与赫兹在 1880 年代把他原稿里二十多个分量式精简而成的。他还是分子速率分布的提出者、论证土星环必须是碎粒、拍下第一张永久性彩色影像的人，1871 年创建卡文迪许实验室并任首任主任。",
+            en: "In 1861 he added the displacement current and found that the resulting wave speed equalled the speed of light; the dynamical theory followed in 1865 and his Treatise on Electricity and Magnetism in 1873. He died in 1879, aged 48, never knowing that Hertz would generate those waves eight years later. The four vector equations students memorise today are Heaviside's and Hertz's compression of his twenty-odd component equations. He also gave the molecular speed distribution, argued that Saturn's rings must be loose particles, took the first permanent colour photograph, and founded the Cavendish Laboratory in 1871 as its first professor.",
+          },
         },
         {
           id: "bohr",
@@ -2582,6 +2594,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "原子量子化模型与哥本哈根诠释。",
             en: "Quantized atomic model and the Copenhagen interpretation.",
+          },
+          detail: {
+            zh: "1913 年他把量子化条件硬装进卢瑟福的核式原子，一举解释了氢光谱与里德伯常量，也留下一个只能算氢的半经典模型——1926 年薛定谔方程一出即被取代。1920 年他创立哥本哈根理论物理研究所、1921 年正式落成，把它变成量子力学的教堂，1922 年获诺贝尔奖。1939 年他与惠勒用液滴模型给出裂变的理论解释；1943 年他逃出纳粹占领的丹麦，母亲后来死于集中营，他自己化名参与曼哈顿计划，晚年奔走于核开放与不扩散。他的弟弟哈拉尔是数学家，还拿过 1908 年奥运会足球银牌。",
+            en: "In 1913 he forced a quantisation condition onto Rutherford's nuclear atom, explaining the hydrogen spectrum and the Rydberg constant at a stroke — and leaving a semi-classical model that nothing more complicated than hydrogen could fit once Schrödinger's equation arrived in 1926. His Copenhagen institute, founded in 1920, became the cathedral of quantum mechanics; the Nobel Prize came in 1922. With Wheeler in 1939 he turned the liquid-drop model into a theory of fission. He fled occupied Denmark by sea in 1943, his mother later dying in a camp; he worked on the Manhattan Project under an assumed name and spent his last years arguing for openness and control of nuclear weapons. His brother Harald was a mathematician who won Olympic football silver in 1908.",
           },
         },
         {
@@ -2593,6 +2609,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "放射性研究先驱，首位两获诺贝尔奖的科学家。",
             en: "Pioneer of radioactivity; first person to win two Nobel Prizes.",
           },
+          detail: {
+            zh: "1898 年她与皮埃尔先后宣布钋与镭；1903 年诺贝尔物理学奖的提名起初只列了贝克勒尔与皮埃尔，经人提醒才补上她的名字，1911 年她因分离出纯镭并定出其原子量独得化学奖，至今仍是唯一跨两科获奖的人。一战时她把 X 光设备装上汽车组成流动放射车间奔赴前线。她的笔记本到今天仍带放射性，须存于铅盒、穿防护服才能查阅；1934 年她死于再生障碍性贫血，致病的就是她亲手发现的东西。1911 年她与朗之万的私情风波，几乎让法兰西科学院把她拒之门外。",
+            en: "She and Pierre announced polonium and then radium in 1898; the 1903 physics nomination listed only Becquerel and Pierre and she was added after someone pointed out the omission. In 1911 she took the chemistry prize alone, for isolating pure radium and fixing its atomic weight, and she remains the only person to win Nobels in two sciences. During the First World War she fitted cars with X-ray equipment and drove them to the front. Her notebooks are still radioactive, kept in lead boxes and consulted in protective clothing; she died of aplastic anaemia in 1934, killed by what she had discovered. The 1911 scandal over her friendship with Langevin very nearly kept the French Academy of Sciences from admitting her.",
+          },
         },
         {
           id: "galileo",
@@ -2602,6 +2622,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "近代实验物理与天文观测奠基人，惯性概念先驱。",
             en: "Founder of modern experimental physics and observational astronomy; pioneer of inertia.",
+          },
+          detail: {
+            zh: "1609 年他把自制的约二十倍望远镜转向天空，看见月球有环形山、木星有四颗卫星、金星有盈亏，「不变的天界」当场塌了。比萨斜塔上的演示多半出自学生的传闻，他真正做的是用斜面把下落冲淡到可以测量。1632 年的《对话》使他在 1633 年受审、余生于软禁，而软禁中写成的《关于两门新科学的对话》（1638）才是近代力学的起点。他的局限同样清楚：始终不肯放弃圆形轨道的完美信念，拒绝了开普勒的椭圆；对罗马政治形势的判断也彻底失败。",
+            en: "In 1609 he turned a telescope of his own making, some twenty powers, on the sky and found craters on the Moon, four moons orbiting Jupiter and phases on Venus, which broke the unchanging heavens. The Leaning Tower demonstration was probably a student's story; what he really did was dilute falling along an inclined plane until it could be measured. His Dialogue of 1632 brought him to trial in 1633 and house arrest for life, and the Two New Sciences he wrote under confinement (1638) founded mechanics. His limits are equally plain: he never gave up circular orbits and refused Kepler's ellipses, and his reading of Roman politics failed completely.",
           },
         },
         {
@@ -2613,6 +2637,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "发现电磁感应，奠定电力工业基础。",
             en: "Discovered electromagnetic induction, foundation of the electrical industry.",
           },
+          detail: {
+            zh: "他做过装订学徒，靠旁听戴维的讲座记了笔记、自荐进皇家研究所。1821 年他做出电磁旋转装置，是电动机的祖先；1831 年发现电磁感应，电力工业从此有了原理；他还给出电解定律，「电极」「离子」「阳极」「阴极」这些词是惠威尔为他造的。他数学几乎为零，却坚持用「力线」想象空间本身被电场与磁场充满，把物理学从超距作用里解放出来——麦克斯韦说自己的方程只是给法拉第的思想作的翻译。1855 年他拒绝为克里米亚战争研制毒气；他也创办了延续至今的皇家研究所圣诞讲座。",
+            en: "A bookbinder's apprentice, he entered the Royal Institution by taking notes at Davy's lectures and offering his services. His electromagnetic rotations of 1821 were the ancestry of the motor; induction in 1831 gave the electrical industry its principle; the laws of electrolysis came from him too, and the words electrode, ion, anode and cathode were coined for him by Whewell. Almost without mathematics, he insisted on lines of force filling space, which freed physics from action at a distance — Maxwell described his own equations as a translation of Faraday's ideas. In 1855 he refused to help design chemical weapons for the Crimean War. He also founded the Royal Institution Christmas Lectures, still running.",
+          },
         },
         {
           id: "kepler",
@@ -2622,6 +2650,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "提出行星运动三定律，揭示天体运行规律。",
             en: "Formulated the three laws of planetary motion.",
+          },
+          detail: {
+            zh: "他接过第谷二十年攒下的观测数据，为了火星轨道上那 8 角分对不上圆的误差，放弃了被沿用两千年的圆形轨道：1609 年给出椭圆定律与面积定律，1619 年给出周期定律。他的动机并不「现代」：他相信有一种从太阳发出的力扫动行星（引力观念的前身），也相信宇宙必须和谐——早年用五个正多面体嵌套解释六条轨道，那个模型错了，但对「背后必有一律」的执念是对的。1615 年母亲被控巫术，他花数年打赢官司；1630 年他死于为讨薪奔赴雷根斯堡的路上。",
+            en: "He inherited Tycho's twenty years of observations and, to settle an eight-arcminute disagreement on Mars, gave up the circular orbits physics had assumed for two thousand years: ellipses and equal areas in 1609, the harmonic law in 1619. His motives were not modern. He believed a force issuing from the sun swept the planets along, a precursor of gravitation, and that the cosmos had to be harmonious — which is why he had first explained six orbits with the five regular solids. That model was wrong while his faith that a law was waiting was right. His mother was charged with witchcraft in 1615 and he spent years winning her release; he died in 1630 on the road to Regensburg to collect a salary he never received.",
           },
         },
         {
@@ -2633,6 +2665,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             zh: "提出能量量子化，开创量子理论。",
             en: "Proposed energy quantization, launching quantum theory.",
           },
+          detail: {
+            zh: "1900 年 10 月他写出黑体辐射公式，12 月 14 日他被迫承认能量只能一份一份地发射与吸收，这一天通常被当作量子理论的生日。他自称那是「绝望之举」，此后十几年一直想把它塞回经典框架；他拟合出的 h 约 6.55×10⁻³⁴ J·s，与今天的 6.626 只差约百分之一。他本人保守，1913 年推荐爱因斯坦进普鲁士科学院时特意补了一句：他偶尔会跑得太远，比如光量子假说。1918 年的诺贝尔奖延迟到次年颁发。纳粹年代他没有离德，1945 年儿子因涉刺杀希特勒案被处决；两年后他去世，1948 年那个学会以他的名字重命名。",
+            en: "In October 1900 he wrote down the black-body formula; on 14 December he conceded that energy is emitted and absorbed only in packets, a date now taken as the birthday of quantum theory. He called it an act of desperation and spent the next decade trying to push it back into classical physics. His value of h, about 6.55×10⁻³⁴ J·s, misses today's 6.626 by roughly one per cent. Politically conservative, he nominated Einstein to the Prussian Academy in 1913 with the caveat that he sometimes overshoots the mark, as with the light quantum. His 1918 Nobel Prize was awarded a year late. He stayed in Germany through Nazism, and in 1945 his son was executed for the plot against Hitler. He died two years later; in 1948 the learned society was renamed for him.",
+          },
         },
         {
           id: "hertz",
@@ -2642,6 +2678,94 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "首次实验证实电磁波存在。",
             en: "First experimentally confirmed electromagnetic waves.",
+          },
+          detail: {
+            zh: "1887 年他用感应线圈激励一对中间开口的铜棒，再以一个开环接收，测出这种波的反射、折射与驻波，并确认它的速度就是光速——麦克斯韦赢了。同年他发现紫外光照在电极上会让火花更容易跳，这是光电效应的第一条观测记录，解释要等爱因斯坦 1905 年接手。他对此毫无兴趣，说这「只是证明麦克斯韦是对的」，也由此留下科技史上最著名的失算之一：无线电属于后来人。他 1894 年死于血液感染，年仅 36 岁；频率单位「赫兹」到二十世纪中叶才由国际计量大会正式命名。",
+            en: "In 1887 he drove a split copper dipole with an induction coil and picked the wave up with an open ring, demonstrating its reflection, refraction and standing waves, and confirming that its speed was the speed of light: Maxwell had won. That same year he noticed that ultraviolet light on the electrodes made the sparks jump more easily — the first observation of the photoelectric effect, left for Einstein to explain in 1905. He had no interest in any of it, calling his work a mere proof that Maxwell was right, which became one of the most famous miscalculations in technology: radio went to other people. He died of blood poisoning in 1894, aged 36, and the unit hertz was only formalised by the General Conference on Weights and Measures in the mid-twentieth century.",
+          },
+        },
+        {
+          id: "rutherford",
+          icon: "🎯",
+          term: { zh: "欧内斯特·卢瑟福", en: "Ernest Rutherford" },
+          level: 2,
+          oneLiner: {
+            zh: "α 粒子散射确立原子的核式结构，首次实现人工核转变。",
+            en: "Alpha scattering gave the nuclear atom; first artificial transmutation of an element.",
+          },
+          detail: {
+            zh: "新西兰农场出身，1895 年靠卡文迪许奖学金进剑桥，1898 年到蒙特利尔任讲席。在加拿大他与索迪建立起衰变理论、提出半衰期概念，主张放射性就是元素在自发转变——1908 年的化学奖就发给了这项工作，他自嘲毕生把别人的元素变来变去，却没把自己从物理学家变成化学家。1909 年盖革与马斯登在他手下用 α 粒子轰金箔，约八千个里有一个被原路反弹回来；1911 年他据此把原子改成「中心一个很小很重的核，四周几乎全空」。1917 年他用 α 轰氮，第一次人工把一种元素变成另一种，并从飞出的粒子中认出质子；1920 年他已预言中子存在，1932 年由查德威克找到。他执掌卡文迪许实验室后，学生与共事者里出了十多位诺贝尔奖得主。他也留下两个著名失算：核式原子按经典电动力学本该在一瞬间坍缩，他把这个问题留给了玻尔；1933 年他公开断言从原子蜕变中取能「不过是无稽之谈」，四年后裂变被证实。",
+            en: "He grew up on a New Zealand farm, reached Cambridge in 1895 on a Cavendish scholarship and took a chair in Montreal in 1898. There, with Soddy, he built the theory of radioactive decay, named the half-life and insisted that radioactivity was elements transforming into other elements — the work that brought him the 1908 chemistry prize, which he took as a joke at his own expense: he had spent his life transmuting other people's elements without ever turning himself from a physicist into a chemist. In 1909 Geiger and Marsden, working under him, fired alpha particles at gold foil and found that about one in eight thousand came straight back, so in 1911 he rebuilt the atom as a tiny heavy nucleus inside a mostly empty volume. In 1917 the alpha bombardment of nitrogen gave the first artificial transmutation of one element into another, and he identified the proton among the particles flying out. He had forecast the neutron in 1920; Chadwick found it in 1932. As head of the Cavendish, more than ten Nobel laureates passed through his students and collaborators. His two famous misses: a nuclear atom should collapse classically in an instant, a problem he handed on to Bohr; and in 1933 he declared that any power obtainable from the transmutation of atoms was moonshine, four years before fission was proved.",
+          },
+        },
+        {
+          id: "jj-thomson",
+          icon: "🍇",
+          term: { zh: "约瑟夫·约翰·汤姆孙", en: "J. J. Thomson" },
+          level: 2,
+          oneLiner: {
+            zh: "发现电子：阴极射线是带比荷的微粒，原子并非不可再分。",
+            en: "Discovered the electron: cathode rays are particles with a measurable charge ratio.",
+          },
+          detail: {
+            zh: "1884 年，27 岁的他当上卡文迪许教授，主持这间实验室三十多年，直到 1919 年由卢瑟福来接。1897 年他在阴极射线管里分别用磁场与电场把它偏转，测得这种「微体」的比荷约为氢离子的 1800 倍，据此宣布原子并非不可分；他叫它 corpuscle，后来被命名为电子，1906 年他因气体导电的研究获诺贝尔奖。1904 年他给出「葡萄干布丁」模型：正电荷铺满整个球、电子嵌在其中。这个模型被学生的学生的散射实验推翻，可他追问的「正电荷在原子中如何分布」恰恰是此后所有散射实验真正要测的东西。他还是质谱的先驱：1912 年让带正电的射线穿过交叉的电场与磁场，在底片上按荷质比分出抛物线束，其中氖有一条位置偏重的谱迹，即氖-22——同位素的实验证据比阿斯顿的仪器更早。局限同样明确：他只测到 e/m，电荷值要等密立根；他晚年认定电子是以太里的涡环，把原子结构引向思辨而非测量。他与儿子分别在 1906 与 1937 年因「电子是粒子」和「电子会衍射」获奖，正是同一物体的两张脸。",
+            en: "He was made Cavendish professor in 1884 at the age of 27 and ran the laboratory for more than thirty years, until Rutherford came to take it over in 1919. In 1897 he deflected cathode rays separately with magnetic and electric fields and found their charge-to-mass ratio about 1800 times that of the hydrogen ion, concluding that the atom was not divisible; he called them corpuscles and the name that stuck was the electron, while his work on conduction in gases earned him the 1906 physics prize. His 1904 plum-pudding atom spread positive charge through the whole sphere with electrons set inside it. The model fell to a scattering experiment run by a student's student, yet the question he was asking — how is positive charge distributed inside an atom — is exactly what scattering experiments still measure. He also founded mass spectrometry: in 1912 his positively charged rays passed crossed fields and separated on a photographic plate into parabolas by charge-to-mass ratio, and one neon trace sat unmistakably heavy, neon-22, evidence for isotopes before Aston's instrument. His limits match his successes: he measured only e/m, leaving the charge itself to Millikan, and in later life he argued that corpuscles were vortex rings in the ether, steering atomic structure towards speculation rather than measurement. He and his son shared the 1906 and 1937 prizes for the electron as a particle and the electron as a wave, two faces of one object.",
+          },
+        },
+        {
+          id: "millikan",
+          icon: "💧",
+          term: { zh: "罗伯特·密立根", en: "Robert A. Millikan" },
+          level: 2,
+          oneLiner: {
+            zh: "油滴实验测出元电荷，并精确验证爱因斯坦的光电方程。",
+            en: "The oil-drop charge of the electron and a precision test of Einstein's photoelectric equation.",
+          },
+          detail: {
+            zh: "1909 年起他把水滴换成不易蒸发的油滴，用喷雾器让油雾穿过小孔缓缓落下，靠两块平行板间的电场把某一滴悬停或倒退，反复测它的电荷，得出 e 约 1.6×10⁻¹⁹ 库仑，把「电荷只能一份一份地出现」钉成实验事实；同一个数字还能反推阿伏伽德罗常量、普朗克常量与电子质量。1914 到 1916 年他做了第二件事：用单色光照射碱金属、测截止电压随频率的变化，检验爱因斯坦 1905 年那条光量子方程。他本自认是来证伪的，量出的直线斜率却正好是普朗克常量，1916 年他承认这方程「与我们现在持有的任何图像都无法调和，却已被实验完全证实」。1923 年诺贝尔奖发给了这两项工作。争议也长在同一张表上：1970 年代科学史家霍尔顿指出，他发表油滴数据时略去了若干不合期望的滴，「失踪数据」之争至今未息——也有学者为他辩护，说被剔掉的每一滴都能指出蒸发或气流干扰。他晚年坚持宇宙线是来自恒星的原始光、宇宙是稳态的，这一条被超新星起源说驳倒。",
+            en: "From 1909 he swapped water for oil, which evaporates far less, sprayed single drops through a pinhole and used the field between two plates to hold one drop still or drive it back, measuring its charge again and again until the result pinned the elementary charge near 1.6×10⁻¹⁹ coulomb and made 'charge comes only in whole units' an experimental fact. The same number let him back out Avogadro's constant, Planck's constant and the mass of the electron. Then, from 1914 to 1916, he did a second job: shining monochromatic light on alkali metals and measuring stopping voltage against frequency to test Einstein's 1905 light-quantum equation. He expected to refute it; the slope of his line was Planck's constant, and in 1916 he conceded that the equation, which could not be reconciled with any picture then possessed, had nevertheless been completely justified by experiment. The 1923 Nobel Prize covered both pieces of work. The reproach grew from the same table of numbers: in the 1970s the historian Holton showed that drops disagreeing with his conclusion had been left out of the published data, and the case of the missing drops is still argued, other historians defending each omission as a drop with identifiable evaporation or air disturbance. In his later years he insisted that cosmic rays were pristine light from the stars and that the universe was steady, a position the supernova origin of cosmic rays defeated.",
+          },
+        },
+        {
+          id: "cavendish",
+          icon: "⚖️",
+          term: { zh: "亨利·卡文迪许", en: "Henry Cavendish" },
+          level: 1,
+          oneLiner: {
+            zh: "扭秤称量地球，电学手稿提前一个世纪，判定氢气与水。",
+            en: "Weighed the Earth with a torsion balance, left electrical manuscripts a century ahead, settled hydrogen and water.",
+          },
+          detail: {
+            zh: "他继承了米歇尔留下的装置：一根轻质横杆两端各吊一只小球，用细丝悬起，再把两只约 350 磅的大铅球搬到杆的两侧——大球吸引小球，把悬丝扭过一个极小的角度，而这正是整个实验的全部难点。1798 年，他 67 岁，测出地球平均密度约为水的 5.48 倍（今天公认 5.51），误差不到百分之二。当时这成果并不被说成「测出了万有引力常量」——G 要到十九世纪后半才被直接给出——而被说成「称量地球」。他的电学手稿写于 1771 年，用一组莱顿瓶证明电力服从平方反比，又做出电荷全落在导体外表面的「冰桶」实验，比普里斯特利的提示更进一步、比库仑的扭秤早十四年，却压着不发；一百年后麦克斯韦在 1879 年把这些手稿编印成册，人们才发现他几乎把电学提前想完。化学上他分离出「可燃空气」即氢、判定它是单质，1784 年让氢在空气中爆鸣生成水，从而把水从元素表上划掉。他孤僻到与女仆用字条交谈、把住宅一侧的楼梯封起来以免撞到来客，大量成果锁在抽屉里，好些优先权要等手稿被翻出来才归还给他。",
+            en: "He inherited the apparatus John Michell had designed: a light horizontal rod with a small ball at each end, suspended on a fine thread, with two lead balls of some 350 pounds moved up beside it. The big balls tugged the small ones and twisted the thread through an angle so tiny that measuring it was the entire difficulty. In 1798, aged 67, he found the mean density of the Earth at 5.48 times that of water, against today's accepted 5.51, a miss of under two per cent. His contemporaries did not describe this as measuring the gravitational constant, which waited for the later nineteenth century, but as weighing the world. His electrical manuscripts of 1771 used a bank of Leyden jars to show that electric force falls off as the inverse square of distance, and proved that charge resides entirely on the outer surface of a conductor — the ice-pail experiment — going further than Priestley's hint and anticipating Coulomb's torsion balance by fourteen years, all of it unpublished; it took Maxwell's 1879 edition of the papers for people to realise that he had thought through most of electricity. In chemistry he isolated inflammable air, judged hydrogen to be a simple substance, and in 1784 exploded it in air to water, removing water from the list of elements. He was unsociable to the point of talking to his housekeeper by note and walling off one staircase of his house to avoid meeting callers, and so much of his work stayed in drawers that several priorities were only returned to him when the manuscripts were read out decades later.",
+          },
+        },
+        {
+          id: "joule",
+          icon: "🔥",
+          term: { zh: "詹姆斯·普雷斯科特·焦耳", en: "James Prescott Joule" },
+          level: 1,
+          oneLiner: {
+            zh: "热功当量的定量测量与焦耳定律，奠定能量守恒的实验根基。",
+            en: "Measured the mechanical equivalent of heat and the heating law of currents; grounded energy conservation.",
+          },
+          detail: {
+            zh: "他是索尔福德啤酒厂主的儿子，因体弱在家念书，16 岁进了道尔顿的课堂。1840 年他 22 岁发表电流发热定律——发热正比于电流的平方与电阻，比楞次的独立发现早三年。1843 到 1850 年他把「功变成热」做成可重复的定量实验：让下落的重物带动浸在水里的叶轮转，再量水暖了多少。整个四十年代他测得把一磅水升高 1°F 大约要八百多英尺·磅的功，也就是说十磅的重物得下落八十多英尺才够，他因此打趣说自己需要一个八十英尺高的房间；1878 年他最好的数值与今天的 778 已差不到百分之一。1847 年他在英国科学促进会宣读这结果，同年亥姆霍兹从另一个入口发表能量守恒；而在「热不是物质而是运动」这一点上，焦耳坚持得更早也更硬——他干脆不接受热质说。他与汤姆孙（后来的开尔文勋爵）合作量出节流会降温的焦耳-汤姆孙效应，为液化气体开了路。局限也在这儿：他只信机械运动的图像，对场与势能这些新工具并不热心；以他名字命名的能量单位到十九世纪末才定下、1948 年列入国际单位制。",
+            en: "The son of a Salford brewer, too frail for school he was taught at home and at 16 became one of Dalton's pupils. In 1840, aged 22, he published the law that a current's heating goes as the square of the current times the resistance, three years before Lenz reached it independently. From 1843 to 1850 he made the turning of work into heat a repeatable number: falling weights drove paddles immersed in water and he measured how much warmer the water came out. Through the 1840s the eight-hundred-odd foot-pounds he measured to raise a pound of water by a Fahrenheit degree meant a ten-pound weight falling more than eighty feet, which is why he joked that he required an eighty-foot room; by 1878 his best value was within a per cent of today's 778. He read the result to the British Association in 1847, the same year Helmholtz published conservation of energy from another direction, and on the point that heat is not a substance but motion Joule had been earlier and more stubborn, since he would not accept the caloric theory at all. With William Thomson, later Lord Kelvin, he measured the cooling of throttled gases — the Joule-Thomson effect that opened the road to liquefying gases. His limit lay in the same place: he trusted pictures of mechanical motion and took little interest in fields and potential energy, and the energy unit bearing his name was only settled at the end of the nineteenth century before entering SI in 1948.",
+          },
+        },
+        {
+          id: "heisenberg",
+          icon: "🌫️",
+          term: { zh: "维尔纳·海森堡", en: "Werner Heisenberg" },
+          level: 3,
+          oneLiner: {
+            zh: "矩阵力学与不确定性原理，量子力学的奠基者之一。",
+            en: "Matrix mechanics and the uncertainty principle; a founder of quantum mechanics.",
+          },
+          detail: {
+            zh: "1925 年夏他到黑尔戈兰岛养花粉症，在那里算出一套不用电子轨道、只让可观测的谱线与强度彼此相乘的量子力学；回哥廷根后与玻恩、约尔当一起把它写成三人论文。不到一年薛定谔的波动力学出现，狄拉克证明两者本是同一个理论。1926 到 1927 年他与玻尔反复争「这套算符究竟说了什么」，1927 年给出测不准关系：位置测得越准，动量就越模糊，两者不确定度的乘积不小于普朗克常量的量级——严格的 Δx·Δp ≥ ħ/2 是肯纳德同年补出来的。1932 年他因「创立量子力学——其应用之一引出了氢的两种形态的发现」获诺贝尔奖，颁奖词把奖项钉在具体可验的成果上；纳粹兴起后他却被攻击搞「犹太物理学」，1937 年遭官方调查，他公开表态效忠、承诺留在德国才平息。1941 年他去哥本哈根拜访玻尔，那次谈话的动机至今无定论，被弗莱恩写成戏剧《哥本哈根》；战后他们在农场庄园被拘留期间的录音显示，德国铀计划的成员既没有造弹的思路，也缺关键工艺。他后半生的另一条线在原子核上：与伊凡年科各自给出质子-中子的核模型，提出同位旋与核子间的交换力，又把 S 矩阵当作绕开波函数的思路留给强相互作用物理。",
+            en: "In the summer of 1925 he went to the island of Helgoland to recover from hay fever and there worked out a quantum mechanics that used no electron orbits at all, only arrays of observable spectral lines and intensities that multiplied one another; back in Göttingen, Born and Jordan turned it into the three-man paper. Within a year Schrödinger's wave mechanics appeared and Dirac showed the two were the same theory. From 1926 he argued with Bohr over what the formalism actually said, and in 1927 he published the uncertainty relation — the sharper the position, the blurrer the momentum, with the product of the two spreads no smaller than the scale of Planck's constant, while the exact bound of Δx·Δp ≥ ħ/2 was supplied by Kennard the same year. His 1932 Nobel Prize for the creation of quantum mechanics cited, in its official wording, the application that had led to the discovery of the allotropic forms of hydrogen — a prize pinned to a checkable result. After 1933 the Nazis' acolytes denounced him for practising Jewish physics and an official inquiry followed in 1937; he survived it only by publicly pledging to stay in Germany. His 1941 visit to Bohr in Copenhagen left a conversation whose motive is still unsettled — Frayn made a play of it — and the recordings made while he and his colleagues were detained at Farm Hall after the war show that the German uranium project had neither a bomb design nor the missing industrial steps. His later work ran on another track: with Ivanenko he gave the nucleus its proton-neutron picture, he introduced isotope spin and exchange forces between nucleons, and he proposed the S-matrix as a way around wave functions that strong-interaction physics later took up.",
           },
         },
       ],

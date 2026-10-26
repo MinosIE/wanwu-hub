@@ -2,7 +2,7 @@
 
 > 从基本定律、常数到关键实验与物理学家，看见支配宇宙运行的简洁秩序。
 
-共 179 条 / 16 类，全部为结构化 JSON。
+共 185 条 / 16 类，全部为结构化 JSON。
 
 ## 数据入口
 - [天体与宇宙](https://minosie.github.io/wanwu-hub/physics-data/data/astronomy.json)
