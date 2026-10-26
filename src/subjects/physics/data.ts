@@ -1581,7 +1581,7 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
   <circle cx="200" cy="116" r="14" fill="#3b82f6"/><text x="200" y="120" text-anchor="middle" font-size="9" fill="#fff">Kr</text>
   <g fill="#22c55e"><circle cx="248" cy="56" r="6"/><circle cx="268" cy="92" r="6"/><circle cx="248" cy="128" r="6"/></g>
   <g stroke="#22c55e" stroke-width="1.4"><line x1="216" y1="62" x2="242" y2="56"/><line x1="216" y1="92" x2="262" y2="92"/><line x1="216" y1="122" x2="242" y2="128"/></g>
-  <text x="250" y="165" font-size="11" fill="currentColor">放出 2–3 中子 + 能量 ≈ 200 MeV，引发链式反应</text>
+  <text x="180" y="165" text-anchor="middle" font-size="10" fill="currentColor">放出 2–3 中子 + 能量 ≈ 200 MeV，引发链式反应</text>
 </svg>`,
         },
         {
@@ -2450,6 +2450,90 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           detail: {
             zh: "1860 年代麦克斯韦从他的方程组预言：变化的电场与磁场会彼此激发、以波的形式沿空间传播，速度恰等于光速，因此光本身就是电磁波。这只是一个数学预言，直到 1887 至 1888 年赫兹用实验把它坐实：他用感应线圈驱动一对带小间隙的铜环作发射器，在几米外放一个开口环作接收器，间隙间蹦出微小火花——电磁波真的被发射并被收到了。赫兹又测出它的波长与频率算得速度约等于光速，并演示了电磁波的反射、折射、偏振与驻波，全面证明它是一种横波、与光同类。这一实验开启了无线电通信的时代，尽管赫兹本人当时认为它「毫无用处」。",
             en: "In the 1860s Maxwell's equations predicted that changing electric and magnetic fields should sustain each other and travel through space as a wave moving at exactly the speed of light, so light itself is an electromagnetic wave. This was pure mathematics until Hertz made it experimental in 1887-1888: he drove a pair of copper loops with a small gap using an induction coil as a transmitter, and set an open loop several metres away as a receiver - a faint spark leapt the gap, so electromagnetic waves really were sent and caught. Hertz then measured their wavelength and frequency to get a speed close to that of light, and showed their reflection, refraction, polarisation and standing waves, proving in full that they are transverse waves of the same kind as light. The experiment opened the age of radio communication, though Hertz himself judged it 'of no use whatsoever'.",
+          },
+        },
+        {
+          id: "cathode-ray",
+          icon: "📺",
+          term: { zh: "阴极射线实验：电子的发现", en: "Cathode Rays and the Electron" },
+          level: 2,
+          oneLiner: {
+            zh: "汤姆孙测出阴极射线的比荷，发现第一种亚原子粒子。",
+            en: "Thomson measured the ray's charge-to-mass ratio and found the first subatomic particle.",
+          },
+          detail: {
+            zh: "十九世纪末，真空管里从阴极射出的「阴极射线」究竟是波还是粒子，争论不休：赫兹让它穿过薄金窗仍能透出，据此支持波动说；克鲁克斯却发现电场与磁场都能把它打偏。1897 年汤姆孙在卡文迪许实验室用测量代替争论：同时加上电场与磁场，把两种偏折调成互相抵消，先定出射线的速度，再由纯磁场下的偏转半径算出比荷 e/m——约为氢离子荷质比的 1800 倍。无论换阴极金属还是管中气体，这个数值都不变，可见它是所有物质共有的组分，而不是某种原子的离子。电子由此成为第一个被发现的亚原子粒子，汤姆孙把它叫作「微粒」。他测到的是电荷与质量之比，电荷本身还要等密立根油滴实验量出，两值相除才得到电子质量。1906 年他因电子获诺贝尔物理学奖，显像管与电子显微镜都是这一测量的下游。",
+            en: "In the 1890s physicists argued over whether the 'cathode ray' streaming from the cathode of an evacuated tube was a wave or a particle. Hertz let it pass a thin gold window and read that as evidence for waves; Crookes saw it bent by both electric and magnetic fields. In 1897 J.J. Thomson settled it at the Cavendish by measuring instead of arguing: he applied electric and magnetic fields together, balanced the two deflections to fix the speed, then used the pure-magnetic deflection radius to get the charge-to-mass ratio - about 1800 times that of the hydrogen ion. Swapping the cathode metal or the gas changed nothing, so this was an ingredient shared by all matter rather than an ion of some atom. The electron became the first subatomic particle ever found, and Thomson called it a 'corpuscle'. He measured a ratio: the charge itself had to wait for Millikan's oil drops, and dividing the two yields the electron mass. Thomson took the 1906 Nobel Prize, and cathode-ray tubes and electron microscopes are downstream of that one measurement.",
+          },
+        },
+        {
+          id: "frank-hertz",
+          icon: "🪜",
+          term: { zh: "弗兰克-赫兹实验", en: "Franck-Hertz Experiment" },
+          level: 3,
+          oneLiner: {
+            zh: "电子撞汞原子，每 4.9 伏丢一次能量，能级当场现身。",
+            en: "Electrons striking mercury lost energy in 4.9-volt steps, showing levels directly.",
+          },
+          detail: {
+            zh: "玻尔 1913 年给原子安排了分立能级，可证据全来自光谱线，属于「事后反推」。1914 年弗兰克与赫兹在柏林改用电子直接撞原子：真空管充汞蒸气，电子被加速电压 U 推向栅极，越过栅极后还得克服一小段反向拒斥电压才能到达板极形成电流。按经典图像，电子撞气原子只会连续地一点点损失能量，电流该随 U 一路上扬。实测却在 U 到达 4.9 伏时骤然跌落，此后每隔 4.9 伏重复一次：电子只能整份交出 4.9 电子伏把汞原子送上第一激发态，攒不满这一份就撞不出能量损失，越过栅极的电子依旧能到板极。这是原子内部能量量子化的第一次直接证明，两人因此获 1925 年诺贝尔奖。同一装置换氢气，第一激发能是 10.2 电子伏（13.6 减 3.4）。要点在于「非弹性碰撞也有门槛」，而非电子被原子吞掉。",
+            en: "Bohr gave atoms discrete levels in 1913, but the evidence came from spectral lines - reasoning after the fact. In 1914 Franck and Hertz in Berlin bombarded atoms with electrons instead: a tube filled with mercury vapour accelerated electrons toward a grid by a voltage U, and beyond the grid they still had to climb a small reverse retarding voltage to reach the plate and make a current. On the classical picture an electron rubbing past a gas atom would bleed energy continuously, so the current should simply keep rising with U. Instead it collapsed the moment U reached 4.9 volts, then collapsed again every 4.9 volts after that: an electron can only hand over a whole 4.9 electronvolts to lift a mercury atom to its first excited state, and short of that bundle there is no inelastic loss at all, so the electron still arrives. This was the first direct proof of quantised energy inside the atom and won them the 1925 Nobel Prize. Refilled with hydrogen, the same tube shows 10.2 electronvolts (13.6 minus 3.4). The lesson is that inelastic collisions have a threshold, not that atoms swallow electrons.",
+          },
+        },
+        {
+          id: "davisson-germer",
+          icon: "🌀",
+          term: { zh: "电子衍射实验", en: "Electron Diffraction" },
+          level: 3,
+          oneLiner: {
+            zh: "镍晶体把电子束衍射出峰，物质波得到实测。",
+            en: "A nickel crystal diffracted electrons into sharp peaks, confirming matter waves.",
+          },
+          detail: {
+            zh: "德布罗意 1924 年猜想电子也该有波长 λ = h/p，可是没人测到过。1925 年戴维孙与革末在贝尔实验室用电子轰镍靶，一次空气漏进真空室、镍面氧化，他们高温退火补救，结果原先的多晶长成了几块大单晶——散射强度随角度出现尖锐的峰，和过去平滑的曲线完全不同。他们没有把这桩事故扫掉，而是当成结果来处理：1927 年用 54 电子伏的电子测出强度极大角，与布拉格条件 2d sinθ = λ、取镍晶面间距 0.091 纳米算出的 0.167 纳米严丝合缝；同年 G. P. 汤姆孙让电子穿过超薄金箔，拍到了衍射环。电子确实会衍射。最妙的一对是：父亲 J. J. 汤姆孙因证明电子是粒子获奖（1906），儿子 G. P. 汤姆孙因证明它是波获奖（1937），父子相隔三十一年各领一次诺贝尔物理学奖。宏观棒球的波长只有 10⁻³⁴ 米量级，波动性永远显不出来。",
+            en: "De Broglie guessed in 1924 that electrons should carry a wavelength λ = h/p, but nobody had measured one. In 1925 Davisson and Germer at Bell Labs fired electrons at a nickel target; air leaked into the chamber, the surface oxidised, and their high-temperature anneal turned the polycrystal into a few large single crystals - and the scattering intensity suddenly grew sharp peaks against angle where the curve had been smooth. They treated the accident as a result: in 1927, with 54-electronvolt electrons, the peak angle agreed exactly with the Bragg condition 2d sinθ = λ using a nickel plane spacing of 0.091 nanometres, implying λ = 0.167 nanometres, and that same year G. P. Thomson shot electrons through ultrathin gold foil and photographed the diffraction rings. Electrons really do diffract. The loveliest pairing: the father J. J. Thomson was honoured for proving the electron is a particle (1906), the son G. P. Thomson for proving it is a wave (1937), the two honoured thirty-one years apart for opposite faces of the same particle. A baseball's wavelength is of order 10⁻³⁴ metres, so its wave nature never shows.",
+          },
+        },
+        {
+          id: "chadwick-neutron",
+          icon: "🎱",
+          term: { zh: "查德威克发现中子", en: "Chadwick's Neutron" },
+          level: 2,
+          oneLiner: {
+            zh: "α 轰铍放出的中性粒子，撞出质子才露出真身。",
+            en: "Beryllium's neutral emission betrayed itself by knocking protons loose.",
+          },
+          detail: {
+            zh: "用 α 粒子轰击铍，会冒出一束穿透力极强的「辐射」。1930 年博特与贝克尔以为它是 γ 射线；1932 年约里奥-居里夫妇把它照向石蜡，打出的质子快得离谱，反推需要几千万电子伏的光子——能量账本已经对不上，他们仍按 γ 解释，与发现擦肩。查德威克重复实验并加测氢、氦、锂等反冲核，只换一个假设：来的是质量与质子相近、不带电的粒子。碰撞要同时守住动量与能量守恒，一个中性粒子撞飞质子毫不费力，γ 却得强到不合常理才做得到。他定出中子质量略大于质子（今值 1.0087 原子质量单位），沿用卢瑟福 1920 年设想的名称。原子核从此是质子与中子的组合，同位素有了说法；更要紧的是中子不带电、不受核的静电排斥，才成了撬开原子核的探针——费米随即用它轰出一串新核素，裂变也在 1938 年被叩开。自由中子本身并不稳定，约 880 秒就 β 衰变，1935 年查德威克因发现中子得诺贝尔物理学奖。",
+            en: "Bombarding beryllium with alpha particles produced a strangely penetrating 'radiation'. Bothe and Becker read it as gamma rays in 1930; in 1932 the Joliot-Curies aimed it at paraffin and found the protons it knocked loose far too fast, implying photons of tens of millions of electronvolts - the energy ledger no longer balanced, yet they kept the gamma interpretation and missed the discovery. Chadwick repeated the experiment, added recoil measurements on hydrogen, helium and lithium, and changed just one assumption: the incoming particle weighs about as much as a proton and carries no charge. Since collisions must obey both momentum and energy, a neutral bullet flips a proton effortlessly while a gamma quantum would need an absurd energy to do the same. He fixed the neutron's mass as slightly above the proton's (today 1.0087 atomic mass units) and kept the name Rutherford had proposed in 1920. Nuclei were now protons plus neutrons, which finally explained isotopes; and because a neutron feels no electric repulsion from the nucleus, it became the probe that pried nuclei open - Fermi used it at once, and fission followed in 1938. A free neutron is unstable, beta-decaying in about 880 seconds, and Chadwick took the 1935 Nobel Prize for the discovery.",
+          },
+        },
+        {
+          id: "stern-gerlach",
+          icon: "🔀",
+          term: { zh: "斯特恩-革拉赫实验", en: "Stern-Gerlach Experiment" },
+          level: 3,
+          oneLiner: {
+            zh: "银原子束在非均匀磁场里裂成两条，取向竟是量子化的。",
+            en: "A silver beam split in two inside an inhomogeneous field, quantising orientation.",
+          },
+          detail: {
+            zh: "1922 年在汉堡，斯特恩与革拉赫让一束银原子穿过非均匀磁场——磁极削成楔形，使场强沿束的方向变化，原子磁矩会被往侧面拧。按经典图像，磁矩取向是连续的，底片上该出现一条被拉宽的模糊带。洗出来却是清清楚楚的两条，中间留着一道空白：取向只能取两个分立值，这是空间量子化最干净的演示。更棘手的是银原子基态的轨道角动量为零，按当时的理论一束本不该分裂。直到 1925 年乌伦贝克与古兹密特提出电子自旋，自旋量子数 1/2 对应 2 × 1/2 + 1 = 2 条，分裂间距由玻尔磁子定住，结果才对上号。这套分子射线法后来支撑起光谱精细结构与塞曼反常的解释，也是磁共振与原子钟的远祖；斯特恩因它获 1943 年诺贝尔化学奖。还有一点常被忽略：选中了两个取向之一，其余取向的信息就被抹掉了——这是「测量扰动量子态」最早的实物样板。",
+            en: "In Hamburg in 1922 Stern and Gerlach sent a beam of silver atoms through an inhomogeneous magnetic field - pole pieces ground into a wedge so the field strength varied across the beam and twisted each atomic magnet sideways. Classically the orientations are continuous, so the plate should record one smeared band. What developed was two clean lines with a gap between them: orientation takes only discrete values, the cleanest demonstration of space quantisation ever made. The awkward part is that silver's ground state carries zero orbital angular momentum, so on the theory of the day the beam should not have split at all. Not until 1925, when Uhlenbeck and Goudsmit proposed electron spin, did it add up - spin one-half gives 2 × 1/2 + 1 = 2 lines, with the spacing set by the Bohr magneton. The molecular-ray method behind it went on to support fine structure and the anomalous Zeeman effect and is an ancestor of magnetic resonance and atomic clocks; Stern received the 1943 Nobel Prize in Chemistry. One detail is often skipped: picking one of the two orientations erases the information in the others, making this the earliest hardware demonstration that measurement disturbs the quantum state.",
+          },
+        },
+        {
+          id: "mass-spectrograph",
+          icon: "🧾",
+          term: { zh: "阿斯顿质谱仪与同位素实测", en: "Aston's Mass Spectrograph" },
+          level: 2,
+          oneLiner: {
+            zh: "磁场按质量把离子排成谱线，同位素从假设变成读数。",
+            en: "A magnetic field lined ions up by mass, turning isotopes from hypothesis into readings.",
+          },
+          detail: {
+            zh: "索迪 1913 年为化学性质相同、质量不同的原子造了「同位素」一词，把它称出质量的是质谱仪。原理是两段筛选：离子经加速电压 U 得到动能 qU = ½mv²，进入垂直磁场走圆周，半径 r = mv/(qB)；两式一消得 r = √(2mU/(qB²))——同一电荷下质量越大拐得越缓，落在底片不同位置，一条线就是一种核素，线的浓淡就是天然丰度。汤姆孙 1913 年在阳极射线里看到氖的双亮斑只是雏形，阿斯顿 1919 年起把它做成精密仪器，测出二百余种同位素：氖确有其二（²⁰Ne 与 ²²Ne），氯的两兄弟约 3 ∶ 1，于是「35.5」不再是谜，它只是加权平均。各核素质量还都紧贴整数（整数规则，1922 年诺贝尔化学奖），偏离的那一点正是把核子捆在一起的代价：氦-4 比两个质子加两个中子轻约 0.030 原子质量单位。同位素电子结构一样、化学性质几乎相同，分离只靠这点质量差，所以扩散与离心都得反复上百级；碳-14 测年、氧同位素判古温度与铀-235 提纯都出自这台仪器。",
+            en: "Soddy coined 'isotope' in 1913 for atoms of identical chemistry but different mass; the instrument that weighed them was the mass spectrograph. Two selections do the work: an ion gains kinetic energy qU = ½mv² from an accelerating voltage, then circles a perpendicular field at radius r = mv/(qB), and eliminating v gives r = √(2mU/(qB²)) - at equal charge the heavier ion bends more lazily and lands elsewhere on the plate, so each line is one nuclide and its darkness is its natural abundance. Thomson's twin bright spots in canal rays (1913) were only a prototype; from 1919 Aston turned the idea into a precision instrument and identified over two hundred isotopes, confirming neon's two forms (²⁰Ne and ²²Ne) and chlorine's pair at roughly 3 to 1, which made '35.5' a plain weighted average. Nuclide masses also hug whole numbers - the packing rule that won the 1922 Nobel Prize in Chemistry - and the shortfall is precisely the price of binding nucleons together: helium-4 comes out about 0.030 atomic mass units lighter than two protons plus two neutrons. Since isotopes share an electron structure and thus nearly identical chemistry, separation exploits only this sliver of mass, which is why diffusion and centrifugation run through a hundred stages; carbon-14 dating, palaeotemperature from oxygen isotopes and uranium-235 purification all come from this one instrument.",
           },
         },
       ],
