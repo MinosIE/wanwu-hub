@@ -5,7 +5,7 @@
   "heroTitleEn": "Chemistry of Everything",
   "intro": "从原子结构、元素周期表、常见实验方程式到材料与化学家，按高中化学脉络系统梳理核心知识。",
   "introEn": "Atomic structure, the periodic table, common lab equations, materials and chemists — core high-school chemistry organized coherently.",
-  "total": 285,
+  "total": 291,
   "counts": {
     "concepts": 11,
     "mol3d": 0,
@@ -22,9 +22,9 @@
     "bonding": 6,
     "organic": 11,
     "solutions": 11,
-    "energy": 5,
+    "energy": 8,
     "kinetics": 6,
-    "electrochem": 5,
+    "electrochem": 8,
     "chemists": 15,
     "glossary": 10
   },
@@ -155,7 +155,7 @@
       "title": "化学反应与能量",
       "titleEn": "Reaction Energy & Thermochemistry",
       "kind": "cards",
-      "count": 5
+      "count": 8
     },
     {
       "key": "kinetics",
@@ -171,7 +171,7 @@
       "title": "电化学",
       "titleEn": "Electrochemistry",
       "kind": "cards",
-      "count": 5
+      "count": 8
     },
     {
       "key": "chemists",
@@ -206,9 +206,9 @@
     { "key": "bonding", "icon": "🔗", "value": 6 },
     { "key": "organic", "icon": "🧬", "value": 11 },
     { "key": "solutions", "icon": "🧪", "value": 11 },
-    { "key": "energy", "icon": "🔥", "value": 5 },
+    { "key": "energy", "icon": "🔥", "value": 8 },
     { "key": "kinetics", "icon": "⚖️", "value": 6 },
-    { "key": "electrochem", "icon": "🔋", "value": 5 },
+    { "key": "electrochem", "icon": "🔋", "value": 8 },
     { "key": "chemists", "icon": "🧑‍🔬", "value": 15 },
     { "key": "glossary", "icon": "📖", "value": 10 }
   ]
