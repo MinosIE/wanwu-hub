@@ -115,5 +115,18 @@
     "detailEn": "A resultant force replacing two pulls, one resistor replacing a network, and the RMS current whose heating equals that of a direct current are all equivalent substitution: what is traded is the effect, not the essence, so the conditions must be stated—an equivalent resistance holds only for that branch under that current. The method is also the skeleton of measurement—Chao Chong weighed an elephant by swapping in stones that displaced the same water, and the substitution technique finds an unknown resistance by replacing it with a readable box while holding the current fixed. Where idealized models subtract minor factors, equivalent substitution swaps the object for an equal-effect stand-in.",
     "tags": ["方法"],
     "tagsEn": ["Method"]
+  },
+  {
+    "id": "order-of-magnitude",
+    "icon": "🧮",
+    "term": "数量级估算",
+    "termEn": "Order-of-Magnitude Estimation",
+    "level": 2,
+    "oneLiner": "只留一两位有效数字连着乘，答案只问落在 10 的哪一次方。",
+    "oneLinerEn": "Multiply factors kept to one or two digits and ask only which power of ten the answer lands on.",
+    "detail": "把没法直接测的问题拆成几个“能记住的数”：每个因子只留一两位有效数字再连乘。费米课堂上问“芝加哥有多少钢琴调音师”，靠的是城市人口、有琴家庭比例、一架琴几年调一次这类可查可猜的锚点；1945 年三位一体核试验，他撕几张纸片随手抛出、看冲击波把它们吹开多远，估出约一万吨 TNT，与后来测得的约两万吨同属一个数量级。随身锚点得事先备好：人约 60 kg、教室约 200 m³、分子直径约 10⁻¹⁰ m、一年约 3×10⁷ s。算完要回头找最不确定那个因子，把它上下浮动一个数量级，看结论是否仍然站得住。与误差与有效数字分工：那条讲有测得值时怎么报精度，本条讲没得测时怎么框范围；与量纲分析分工：那条管单位自洽，本条管数值大小。估算的产物是数量级而非数值——差十倍即算不同级，只够用来判断量对不对、值不值得去测。",
+    "detailEn": "Break a question you cannot measure into numbers you can actually remember, keep one or two significant digits per factor, then multiply. Fermi's classroom query—how many piano tuners are in Chicago—runs on city population, the share of households with a piano, and how often one gets tuned; at the 1945 Trinity test he tore up paper and tossed it to see how far the blast carried the scraps, estimating about ten kilotons of TNT, the same order as the twenty or so measured later. Carry anchors in advance: a person about 60 kg, a classroom about 200 m³, a molecule about 10⁻¹⁰ m across, a year about 3×10⁷ s. Afterwards find the loosest factor, slide it a decade up and down, and check whether the conclusion still stands. Where the errors-and-significant-figures entry reports the precision of measured values, this one bounds the unmeasured; where dimensional analysis keeps units honest, this keeps magnitudes honest. An estimate yields an order of magnitude, not a number—a factor of ten is already a different level, so it settles whether a quantity is plausible and worth measuring.",
+    "tags": ["方法"],
+    "tagsEn": ["Method"]
   }
 ]

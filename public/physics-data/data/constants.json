@@ -78,5 +78,46 @@
     "value": "9.109×10⁻³¹ kg",
     "oneLiner": "基本粒子中最轻的稳定带电粒子质量。",
     "oneLinerEn": "Mass of the lightest stable charged particle."
+  },
+  {
+    "id": "g",
+    "icon": "🍎",
+    "term": "重力加速度",
+    "termEn": "Free-Fall Acceleration",
+    "level": 1,
+    "value": "≈ 9.8 N/kg（9.8 m/s²）",
+    "valueEn": "≈ 9.8 N/kg (9.8 m/s²)",
+    "oneLiner": "地面附近自由下落的加速度，粗略计算常取 10。",
+    "oneLinerEn": "Acceleration of free fall near the surface; often taken as 10."
+  },
+  {
+    "id": "ke",
+    "icon": "🔌",
+    "term": "静电力常量",
+    "termEn": "Coulomb Constant",
+    "level": 2,
+    "value": "≈ 9.0×10⁹ N·m²/C²",
+    "oneLiner": "库仑定律的比例系数 k=1/(4πε₀)，与 ε₀ 只记一个。",
+    "oneLinerEn": "Coulomb's k = 1/(4πε₀); memorize it or ε₀, not both."
+  },
+  {
+    "id": "mu0",
+    "icon": "🧲",
+    "term": "真空磁导率",
+    "termEn": "Vacuum Permeability",
+    "level": 3,
+    "value": "≈ 4π×10⁻⁷ N/A²",
+    "oneLiner": "与 ε₀ 联手定出光速 c=1/√(μ₀ε₀)。",
+    "oneLinerEn": "With ε₀ it fixes c = 1/√(μ₀ε₀)."
+  },
+  {
+    "id": "R",
+    "icon": "🎈",
+    "term": "摩尔气体常量",
+    "termEn": "Molar Gas Constant",
+    "level": 2,
+    "value": "8.314 J/(mol·K)",
+    "oneLiner": "等于阿伏伽德罗常数乘玻尔兹曼常数，是 k 的摩尔版。",
+    "oneLinerEn": "R = N_A × k_B, the mole-scale twin of Boltzmann's k."
   }
 ]

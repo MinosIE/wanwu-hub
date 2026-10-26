@@ -2034,6 +2034,21 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "方法", en: "Method" }],
         },
+        {
+          id: "order-of-magnitude",
+          icon: "🧮",
+          term: { zh: "数量级估算", en: "Order-of-Magnitude Estimation" },
+          level: 2,
+          oneLiner: {
+            zh: "只留一两位有效数字连着乘，答案只问落在 10 的哪一次方。",
+            en: "Multiply factors kept to one or two digits and ask only which power of ten the answer lands on.",
+          },
+          detail: {
+            zh: "把没法直接测的问题拆成几个“能记住的数”：每个因子只留一两位有效数字再连乘。费米课堂上问“芝加哥有多少钢琴调音师”，靠的是城市人口、有琴家庭比例、一架琴几年调一次这类可查可猜的锚点；1945 年三位一体核试验，他撕几张纸片随手抛出、看冲击波把它们吹开多远，估出约一万吨 TNT，与后来测得的约两万吨同属一个数量级。随身锚点得事先备好：人约 60 kg、教室约 200 m³、分子直径约 10⁻¹⁰ m、一年约 3×10⁷ s。算完要回头找最不确定那个因子，把它上下浮动一个数量级，看结论是否仍然站得住。与误差与有效数字分工：那条讲有测得值时怎么报精度，本条讲没得测时怎么框范围；与量纲分析分工：那条管单位自洽，本条管数值大小。估算的产物是数量级而非数值——差十倍即算不同级，只够用来判断量对不对、值不值得去测。",
+            en: "Break a question you cannot measure into numbers you can actually remember, keep one or two significant digits per factor, then multiply. Fermi's classroom query—how many piano tuners are in Chicago—runs on city population, the share of households with a piano, and how often one gets tuned; at the 1945 Trinity test he tore up paper and tossed it to see how far the blast carried the scraps, estimating about ten kilotons of TNT, the same order as the twenty or so measured later. Carry anchors in advance: a person about 60 kg, a classroom about 200 m³, a molecule about 10⁻¹⁰ m across, a year about 3×10⁷ s. Afterwards find the loosest factor, slide it a decade up and down, and check whether the conclusion still stands. Where the errors-and-significant-figures entry reports the precision of measured values, this one bounds the unmeasured; where dimensional analysis keeps units honest, this keeps magnitudes honest. An estimate yields an order of magnitude, not a number—a factor of ten is already a different level, so it settles whether a quantity is plausible and worth measuring.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
       ],
     },
     /* ===================== 物理与现代技术 ===================== */
@@ -2271,6 +2286,50 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "基本粒子中最轻的稳定带电粒子质量。",
             en: "Mass of the lightest stable charged particle.",
+          },
+        },
+        {
+          id: "g",
+          icon: "🍎",
+          term: { zh: "重力加速度", en: "Free-Fall Acceleration" },
+          level: 1,
+          value: { zh: "≈ 9.8 N/kg（9.8 m/s²）", en: "≈ 9.8 N/kg (9.8 m/s²)" },
+          oneLiner: {
+            zh: "地面附近自由下落的加速度，粗略计算常取 10。",
+            en: "Acceleration of free fall near the surface; often taken as 10.",
+          },
+        },
+        {
+          id: "ke",
+          icon: "🔌",
+          term: { zh: "静电力常量", en: "Coulomb Constant" },
+          level: 2,
+          value: { zh: "≈ 9.0×10⁹ N·m²/C²", en: "≈ 9.0×10⁹ N·m²/C²" },
+          oneLiner: {
+            zh: "库仑定律的比例系数 k=1/(4πε₀)，与 ε₀ 只记一个。",
+            en: "Coulomb's k = 1/(4πε₀); memorize it or ε₀, not both.",
+          },
+        },
+        {
+          id: "mu0",
+          icon: "🧲",
+          term: { zh: "真空磁导率", en: "Vacuum Permeability" },
+          level: 3,
+          value: { zh: "≈ 4π×10⁻⁷ N/A²", en: "≈ 4π×10⁻⁷ N/A²" },
+          oneLiner: {
+            zh: "与 ε₀ 联手定出光速 c=1/√(μ₀ε₀)。",
+            en: "With ε₀ it fixes c = 1/√(μ₀ε₀).",
+          },
+        },
+        {
+          id: "R",
+          icon: "🎈",
+          term: { zh: "摩尔气体常量", en: "Molar Gas Constant" },
+          level: 2,
+          value: { zh: "8.314 J/(mol·K)", en: "8.314 J/(mol·K)" },
+          oneLiner: {
+            zh: "等于阿伏伽德罗常数乘玻尔兹曼常数，是 k 的摩尔版。",
+            en: "R = N_A × k_B, the mole-scale twin of Boltzmann's k.",
           },
         },
       ],
