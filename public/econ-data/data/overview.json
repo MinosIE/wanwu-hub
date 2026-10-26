@@ -4,9 +4,9 @@
     "concepts": 31,
     "glossary": 57,
     "thinkers": 20,
-    "events": 35,
+    "events": 38,
     "bubbles": 16,
-    "behavioral": 13,
+    "behavioral": 15,
     "charts": 15,
     "compare": 15,
     "everyday": 15,
@@ -17,7 +17,7 @@
     "myths": 15,
     "quiz": 13,
     "schools": 13,
-    "trade": 13
+    "trade": 14
   },
   "kpis": [
     {
@@ -33,7 +33,7 @@
     {
       "key": "events",
       "icon": "🗓️",
-      "value": 35
+      "value": 38
     },
     {
       "key": "bubbles",

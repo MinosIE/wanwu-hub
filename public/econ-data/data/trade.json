@@ -24,7 +24,11 @@
         "vEn": "Uneven distribution, deindustrialisation and security dependence are real, so aggregate arguments alone are insufficient."
       }
     ],
-    "related": ["tariff-war", "trade-deficit-meaning", "currency-and-trade"],
+    "related": [
+      "tariff-war",
+      "trade-deficit-meaning",
+      "currency-and-trade"
+    ],
     "sources": [
       {
         "label": "李嘉图《政治经济学及赋税原理》",
@@ -96,7 +100,11 @@
         "vEn": "If driven by debt-financed consumption, it can accumulate external debt risk and currency fragility."
       }
     ],
-    "related": ["gains-from-trade", "tariff-war", "currency-and-trade"],
+    "related": [
+      "gains-from-trade",
+      "tariff-war",
+      "currency-and-trade"
+    ],
     "sources": [
       {
         "label": "IMF 对外部门报告",
@@ -130,7 +138,11 @@
         "vEn": "In critical sectors, disruption costs are extreme, so some redundancy is necessary insurance."
       }
     ],
-    "related": ["gains-from-trade", "tariff-war", "trade-deficit-meaning"],
+    "related": [
+      "gains-from-trade",
+      "tariff-war",
+      "trade-deficit-meaning"
+    ],
     "sources": [
       {
         "label": "OECD 全球价值链报告",
@@ -208,7 +220,11 @@
         "vEn": "With multilateralism stalled, high-standard regional pacts become testing grounds."
       }
     ],
-    "related": ["tariff", "comparative-advantage", "supply-chain"],
+    "related": [
+      "tariff",
+      "comparative-advantage",
+      "supply-chain"
+    ],
     "sources": [
       {
         "label": "WTO《世界贸易报告》",
@@ -242,7 +258,11 @@
         "vEn": "Environment, safety and protectionism share a thin line—de facto discrimination is the test."
       }
     ],
-    "related": ["tariff-war", "gains-from-trade", "supply-chain"],
+    "related": [
+      "tariff-war",
+      "gains-from-trade",
+      "supply-chain"
+    ],
     "sources": [
       {
         "label": "UNCTAD 非关税壁垒分类",
@@ -320,7 +340,11 @@
         "vEn": "Fund adjustment aid rather than walls to keep openness sustainable."
       }
     ],
-    "related": ["gains-from-trade", "tariff-war", "unemployment-rate"],
+    "related": [
+      "gains-from-trade",
+      "tariff-war",
+      "unemployment-rate"
+    ],
     "sources": [
       {
         "label": "Autor、Dorn、Hanson“中国冲击”研究",
@@ -329,7 +353,7 @@
       }
     ]
   },
-{
+  {
     "id": "economic-sanctions",
     "topic": "经济制裁与金融武器化",
     "topicEn": "Sanctions and Financial Weaponization",
@@ -374,7 +398,7 @@
       }
     ]
   },
-{
+  {
     "id": "friendshoring",
     "topic": "友岸外包与供应链回摆",
     "topicEn": "Friend-Shoring and Supply-Chain Rewinding",
@@ -420,7 +444,7 @@
       }
     ]
   },
-{
+  {
     "id": "carbon-border",
     "topic": "碳边境与绿色贸易规则",
     "topicEn": "Carbon Borders and Green Trade Rules",
@@ -466,7 +490,7 @@
       }
     ]
   },
-{
+  {
     "id": "rules-of-origin",
     "topic": "原产地规则与“意大利面碗”",
     "topicEn": "Rules of Origin and the Spaghetti Bowl",
@@ -508,6 +532,44 @@
         "label": "巴格瓦蒂《意大利面碗：世界贸易保护》",
         "labelEn": "Bhagwati, The Spaghetti Bowl: World Trade Protection",
         "year": 1995
+      }
+    ]
+  },
+  {
+    "id": "dollar-cycle",
+    "topic": "美元周期与全球溢出",
+    "topicEn": "The Dollar Cycle and Global Spillovers",
+    "level": 3,
+    "oneLiner": "美联储的加息与降息，通过资本流动、美元计价与债务成本向全球传导。",
+    "oneLinerEn": "Fed hiking and easing transmit worldwide via capital flows, dollar pricing and debt costs.",
+    "detail": "宽松期：廉价美元外溢，新兴市场与借款人大量发行美元债，埋下货币与期限双重错配；紧缩期：资本回流美国、美元走强、本币贬值与偿债成本飙升，危机往往在最依赖美元融资的经济体率先爆发（「你在美元周期里处于哪一段」比自身基本面更能解释危机时点）。美元占储备与计价的绝对份额，使这一溢出无法被任何其他货币替代。各国应对之道：囤外汇、资本管制、本地货币计价结算——每一种都有成本。",
+    "detailEn": "In easing phases cheap dollars flood out, emerging markets and borrowers issue dollar debt, building currency- and maturity-mismatch; in tightening phases capital repatriates, the dollar surges, local currencies and debt-service costs blow out, and crisis strikes first where dollar financing dependence is deepest—which segment of the dollar cycle you sit in often explains crisis timing better than fundamentals. The dollar's overwhelming share of reserves and invoicing makes the spillover irreplaceable. Responses—FX hoarding, capital controls, local-currency invoicing—each carry costs.",
+    "example": "1980 年代初沃尔克紧缩引爆拉美债务危机；1997 年亚洲金融危机前企业美元短债堆积；2013 年「缩减恐慌」中「脆弱五国」货币大幅贬值——同一台「美元潮汐机」的三次显影。",
+    "exampleEn": "Volcker's tightening ignited the Latin American debt crisis in the early 1980s; Asian firms were stuffed with short-dollar debt before 1997; the 2013 'taper tantrum' hammered the 'fragile five'—three exposures of the same dollar-tide machine.",
+    "views": [
+      {
+        "view": "溢出必然论：中心国家的货币政策天然全球化，外围只能自救（囤储备、管资本）。",
+        "viewEn": "Spillovers are inevitable: the centre's policy is naturally global, the periphery can only self-insure (reserves, capital controls)."
+      },
+      {
+        "view": "道德风险论：充裕的美元流动性鼓励了轻率借债，危机是内生后果而非外生冲击。",
+        "viewEn": "Abundant dollar liquidity induces reckless borrowing; crises are endogenous, not shocks from outside."
+      },
+      {
+        "view": "改革论：扩大本地货币计价与国际安全网（互换额度、IMF 改革）才能削薄潮汐。",
+        "viewEn": "Only local-currency invoicing and a thicker international safety net (swap lines, IMF reform) can thin the tide."
+      }
+    ],
+    "related": [
+      "fx-regimes",
+      "reserve-currency",
+      "asian-crisis"
+    ],
+    "sources": [
+      {
+        "label": "雷伊《美元如何统治世界》",
+        "labelEn": "Rey, 'The Dollar Hegemon'",
+        "year": 2023
       }
     ]
   }

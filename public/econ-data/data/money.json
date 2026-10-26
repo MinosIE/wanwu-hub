@@ -414,7 +414,12 @@
       "Balancing programmability against controllable anonymity is CBDC's hardest design trade-off.",
       "Most digital assets remain under conventional finance rules; 'decentralized' is not 'unregulated'."
     ],
-    "related": ["monetary-history", "fx-regimes", "payments-systems"],
+    "related": [
+      "monetary-history",
+      "fx-regimes",
+      "payments-systems",
+      "mobile-payment-china"
+    ],
     "sources": [
       {
         "label": "BIS《创新走廊：CBDC 评估》",

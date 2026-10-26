@@ -42,7 +42,11 @@
     "experimentEn": "After a wheel landed on 10 or 65, participants estimated the share of African countries in the UN at about 25% versus 45% respectively.",
     "everyday": "商场先标「原价 1299，现价 599」，599 是否划算完全取决于那个被给定的锚。",
     "everydayEn": "A 'was 1299, now 599' tag makes 599 look cheap purely because of the supplied anchor.",
-    "related": ["prospect-theory", "herding-effect", "asset-bubble"],
+    "related": [
+      "prospect-theory",
+      "herding-effect",
+      "asset-bubble"
+    ],
     "sources": [
       {
         "label": "特沃斯基、卡尼曼《判断中的锚定与调整》",
@@ -66,7 +70,12 @@
     "experimentEn": "Investors hold losing positions notably longer than winners — the disposition effect — because selling makes the loss real.",
     "everyday": "订阅自动续费取消按钮做得很深，因为失去已有服务比从未拥有更难接受。",
     "everydayEn": "Cancellation flows are deliberately buried: giving up an existing service is harder than never signing up.",
-    "related": ["prospect-theory", "sunk-cost", "endowment-effect-behav"],
+    "related": [
+      "prospect-theory",
+      "sunk-cost",
+      "endowment-effect-behav",
+      "disposition-effect"
+    ],
     "sources": [
       {
         "label": "卡尼曼《思考，快与慢》",
@@ -90,7 +99,12 @@
     "experimentEn": "In Asch's line experiment about a third of participants conformed to a clearly wrong majority answer.",
     "everyday": "餐厅门口排长队并不代表更好吃，只代表前面有人排队。",
     "everydayEn": "A long restaurant queue signals earlier diners, not necessarily better food.",
-    "related": ["anchoring-effect", "asset-bubble", "systemic-risk"],
+    "related": [
+      "anchoring-effect",
+      "asset-bubble",
+      "systemic-risk",
+      "noise-trader"
+    ],
     "sources": [
       {
         "label": "阿希《群体压力研究》",
@@ -114,7 +128,11 @@
     "experimentEn": "Many prefer 100 today over 120 in a year, yet choose 120 in a year and a day over 120 in a year: preference reversal.",
     "everyday": "深夜下单、次日后悔；把购物 App 移出首页或设置 24 小时冷静期就是自我承诺。",
     "everydayEn": "Late-night purchases regretted next morning; removing shopping apps from the home screen or imposing a 24-hour rule is self-commitment.",
-    "related": ["prospect-theory", "mental-accounting", "sunk-cost"],
+    "related": [
+      "prospect-theory",
+      "mental-accounting",
+      "sunk-cost"
+    ],
     "sources": [
       {
         "label": "塞勒、谢弗林《自我控制的困境》",
@@ -166,7 +184,11 @@
     "experimentEn": "In the Cornell mug experiment, median willingness to accept was $5.25 versus willingness to pay of $2.25.",
     "everyday": "免费试用 30 天后退货率低于预期，因为「已经在用」使它变成要失去的东西。",
     "everydayEn": "Free-trial return rates are lower than expected: once in use, giving it back feels like a loss.",
-    "related": ["loss-aversion-effect", "prospect-theory", "mental-accounting"],
+    "related": [
+      "loss-aversion-effect",
+      "prospect-theory",
+      "mental-accounting"
+    ],
     "sources": [
       {
         "label": "卡尼曼、尼奇、塞勒《禀赋效应的实验检验》",
@@ -218,7 +240,11 @@
     "experimentEn": "In the 'Asian disease problem', describing a plan as saving 200 vs. killing 400 flips the choice.",
     "everyday": "「90% 成功率」听起来比「10% 失败率」更令人放心，尽管两者等价。",
     "everydayEn": "'90% success' feels safer than '10% failure' though they are identical.",
-    "related": ["prospect-theory", "anchoring-effect", "mental-accounting"],
+    "related": [
+      "prospect-theory",
+      "anchoring-effect",
+      "mental-accounting"
+    ],
     "sources": [
       {
         "label": "特沃斯基、卡尼曼《框架效应研究》",
@@ -337,6 +363,62 @@
         "label": "卡尼曼等《体验效用与记忆效用》",
         "labelEn": "Kahneman et al., on experienced and remembered utility",
         "year": 1993
+      }
+    ]
+  },
+  {
+    "id": "disposition-effect",
+    "name": "处置效应",
+    "nameEn": "The Disposition Effect",
+    "category": "投资决策",
+    "categoryEn": "Investment Decisions",
+    "level": 2,
+    "oneLiner": "过早卖出赚钱的股票、长期抱着亏钱的股票——「截断利润、让亏损奔跑」。",
+    "oneLinerEn": "Selling winners too early and holding losers too long—cutting profits short while letting losses run.",
+    "detail": "前景理论的 S 形价值函数给出直接推论：盈利区间人是风险厌恶的，倾向落袋为安；亏损区间人是风险偏好的，宁愿赌一把反弹也不愿实现损失。两者叠加，就系统性地「卖盈持亏」。它违反基本投资原则——在多数资产上，过去的涨跌并不预测未来，止损与止盈应依据资产本身而非账面成本。",
+    "detailEn": "The S-shaped value function of prospect theory implies it directly: in the gains domain people are risk-averse and cash out early; in the losses domain they become risk-seeking and would rather gamble on a rebound than realise a loss. Stacked together, this yields systematic early selling of winners and late selling of losers—violating a core principle that past moves rarely predict future ones, so stop-loss and take-profit should rest on the asset, not the book cost.",
+    "experiment": "Odean（1998）跟踪一万多个券商账户：投资者卖出盈利股票的概率约为卖出亏损股票的 1.5～2 倍，而被留下的亏损股在随后一年平均跑输被卖出的盈利股。跟风卖出还常在低位实现了本可避免的亏损。",
+    "experimentEn": "Odean (1998) tracked over ten thousand brokerage accounts: investors were roughly 1.5–2 times likelier to sell a winner than a loser, and the retained losers underperformed the sold winners over the following year—so the bias realised losses at the bottom it might have avoided.",
+    "everyday": "年终奖投资后亏了两成就「等回本再卖」，装修、旅游计划一拖再拖；二手平台上「买都买了」的健身卡与闲置物，都是同一逻辑：账面成本绑架了决策。",
+    "everydayEn": "Holding a bonus investment down twenty percent 'until it recovers' while postponing repairs and trips; gym memberships and idle gadgets kept because 'already paid for'—same logic: book cost holds the decision hostage.",
+    "related": [
+      "loss-aversion-effect",
+      "prospect-theory",
+      "mental-accounting"
+    ],
+    "sources": [
+      {
+        "label": "舍夫林、斯塔特曼《处置效应》",
+        "labelEn": "Shefrin & Statman, 'The Disposition Effect'",
+        "year": 1985
+      }
+    ]
+  },
+  {
+    "id": "noise-trader",
+    "name": "噪声交易者",
+    "nameEn": "Noise Traders",
+    "category": "市场与情绪",
+    "categoryEn": "Markets and Sentiment",
+    "level": 3,
+    "oneLiner": "凭情绪、故事和跟风下单的人——他们的交易本身就是风险来源。",
+    "oneLinerEn": "People trading on sentiment, stories and herd signals—their very trading is a source of risk.",
+    "detail": "经典金融学假设套利者会抹平价格偏离；De Long 等（1990）证明噪声交易者的存在本身就是风险：理性套利者担心「价格在被修正前会更疯」，因而不敢重仓纠错（有限套利），泡沫得以存续。噪声交易还会引发「跟踪跟踪者」的正反馈，把情绪放大成价格趋势，为自我实现的泡沫提供了微观基础。",
+    "detailEn": "Classic finance assumes arbitrageurs erase mispricings; De Long et al. (1990) showed that noise traders are themselves a risk: rational arbitrageurs fear 'price can stay irrational longer than you can stay solvent' and under-invest in correction (limited arbitrage), letting bubbles persist. Noise trading also spawns tracking-of-trackers positive feedback, amplifying sentiment into trends and giving self-fulfilling bubbles a micro-foundation.",
+    "experiment": "Barber 与 Odean（2000）对六万多个家庭账户研究发现：换手最频繁的散户组年化收益显著低于市场整体，摩擦成本与错误择时双重拖累；「过度自信」测量（交易频率）越高，业绩越差——「交易是税，愉悦是代价」。",
+    "experimentEn": "Barber & Odean (2000), studying some 66,000 household accounts, found the most-active group trailed the market badly each year—friction costs plus mistimed entries; the proxy for overconfidence (turnover) predicted underperformance: 'trading is a tax, enjoyment is the cost.'",
+    "everyday": "牛市里新手最赚钱的月份往往也是仓位最重的月份；群里刷屏的「代码」点进去多是高位。识别自己何时在「交易情绪」而非「交易信息」，是散户第一课。",
+    "everydayEn": "A novice's best month in a bull market is often the month of the heaviest position; the ticker buzzing in group chats is usually at a peak. Telling when you trade emotion rather than information is lesson one for retail investors.",
+    "related": [
+      "overconfidence",
+      "herding-effect",
+      "bubbles-crises"
+    ],
+    "sources": [
+      {
+        "label": "De Long 等《噪声交易者风险与资产价格》",
+        "labelEn": "De Long, Shleifer, Summers & Waldmann, 'Noise Trader Risk and Asset Prices'",
+        "year": 1990
       }
     ]
   }

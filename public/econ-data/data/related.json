@@ -1384,6 +1384,27 @@
       "nEn": "The Collapse of Long-Term Capital Management"
     }
   ],
+  "household-responsibility": [
+    {
+      "m": "m-events",
+      "n": "家庭联产承包责任制启动",
+      "nEn": "The Household Responsibility System Begins"
+    }
+  ],
+  "price-reform-pass": [
+    {
+      "m": "m-events",
+      "n": "价格闯关",
+      "nEn": "The Price Reform 'Storming the Pass'"
+    }
+  ],
+  "mobile-payment-china": [
+    {
+      "m": "m-events",
+      "n": "中国移动支付爆发",
+      "nEn": "China's Mobile-Payment Takeoff"
+    }
+  ],
   "tulip-mania": [
     {
       "m": "m-bubbles",
@@ -1587,6 +1608,20 @@
       "nEn": "The Peak-End Rule"
     }
   ],
+  "disposition-effect": [
+    {
+      "m": "m-behavioral",
+      "n": "处置效应",
+      "nEn": "The Disposition Effect"
+    }
+  ],
+  "noise-trader": [
+    {
+      "m": "m-behavioral",
+      "n": "噪声交易者",
+      "nEn": "Noise Traders"
+    }
+  ],
   "prisoners-dilemma": [
     {
       "m": "m-game",
@@ -1760,6 +1795,13 @@
       "m": "m-trade",
       "n": "原产地规则与“意大利面碗”",
       "nEn": "Rules of Origin and the Spaghetti Bowl"
+    }
+  ],
+  "dollar-cycle": [
+    {
+      "m": "m-trade",
+      "n": "美元周期与全球溢出",
+      "nEn": "The Dollar Cycle and Global Spillovers"
     }
   ],
   "queueing": [

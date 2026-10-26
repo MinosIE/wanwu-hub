@@ -15,7 +15,10 @@
     "whyEn": "Long-distance trade was risky and capital-hungry beyond partnership capacity, so limited liability and share transfer emerged.",
     "impact": "催生了阿姆斯特丹证券交易所与近代资本市场，也为公司治理、审计与信息披露制度埋下伏笔。",
     "impactEn": "It spawned the Amsterdam stock exchange and modern capital markets, planting the seeds of corporate governance, audit and disclosure.",
-    "related": ["money-creation", "bubbles-crises"],
+    "related": [
+      "money-creation",
+      "bubbles-crises"
+    ],
     "sources": [
       {
         "label": "荷兰东印度公司历史档案研究",
@@ -40,7 +43,11 @@
     "whyEn": "Property rights and patents, coal and capital, an agricultural surplus freeing labor, and the marriage of science and craft let the breakthrough start in Britain.",
     "impact": "奠定现代增长与城市化，重塑全球力量格局；也带来圈地、童工与污染等社会代价，催生后续劳工与环境制度。",
     "impactEn": "It laid the base for modern growth and urbanization and reset global power, while enclosure, child labor and pollution spurred later labor and environmental institutions.",
-    "related": ["economic-growth", "productivity", "wealth-of-nations"],
+    "related": [
+      "economic-growth",
+      "productivity",
+      "wealth-of-nations"
+    ],
     "sources": [
       {
         "label": "克拉夫特《工业革命》",
@@ -65,7 +72,10 @@
     "whyEn": "On the eve of industrialisation, mercantilist controls prevailed and a new framework for the sources of wealth was needed.",
     "impact": "确立了「市场协调分散决策」的核心命题，直接影响此后两百多年的经济政策与贸易秩序。",
     "impactEn": "Established the core proposition that markets coordinate dispersed decisions, shaping economic policy and trade for two centuries.",
-    "related": ["comparative-advantage", "scarcity"],
+    "related": [
+      "comparative-advantage",
+      "scarcity"
+    ],
     "sources": [
       {
         "label": "斯密《国富论》",
@@ -90,7 +100,11 @@
     "whyEn": "For the first time the new banking system and stock market linked credit, investment and sentiment into an amplifying loop.",
     "impact": "证明危机是工业化金融体系的常态特征，推动了公司法、银行监管与最后贷款人角色的讨论。",
     "impactEn": "Proved crises are a regular feature of industrial financial systems, prompting debate on company law, bank regulation and a lender of last resort.",
-    "related": ["money-creation", "bubbles-crises", "business-cycle"],
+    "related": [
+      "money-creation",
+      "bubbles-crises",
+      "business-cycle"
+    ],
     "sources": [
       {
         "label": "英国 1825 年金融危机史料汇编",
@@ -115,7 +129,11 @@
     "whyEn": "Expanding trade and investment needed exchange-rate stability, and gold was seen as an anchor beyond state credit.",
     "impact": "促进了国际贸易与资本流动，但也限制了逆周期调控空间，最终在大萧条与战争冲击下瓦解。",
     "impactEn": "It boosted trade and capital flows while restricting countercyclical policy, and it fell apart under depression and war.",
-    "related": ["monetary-history", "fx-regimes", "great-depression"],
+    "related": [
+      "monetary-history",
+      "fx-regimes",
+      "great-depression"
+    ],
     "sources": [
       {
         "label": "艾肯格林《金镣铐》",
@@ -140,7 +158,11 @@
     "whyEn": "Monetary tightening, the gold standard, bank runs and protectionism reinforced each other, and policy errors amplified the shock.",
     "impact": "催生了凯恩斯革命、存款保险、证券监管与布雷顿森林体系，重塑了此后八十年的宏观政策框架。",
     "impactEn": "It produced the Keynesian revolution, deposit insurance, securities regulation and Bretton Woods, reshaping macro policy for eighty years.",
-    "related": ["gold-standard", "keynesian", "bretton-woods"],
+    "related": [
+      "gold-standard",
+      "keynesian",
+      "bretton-woods"
+    ],
     "sources": [
       {
         "label": "弗里德曼、施瓦茨《美国货币史》",
@@ -195,7 +217,11 @@
     "whyEn": "Classical theory could not explain persistent mass unemployment, so a framework centred on aggregate demand was needed.",
     "impact": "战后三十年财政与货币政策成为调控常态，并演化为今天的新凯恩斯主义模型。",
     "impactEn": "For three decades fiscal and monetary policy became routine tools, evolving into today's New Keynesian models.",
-    "related": ["great-depression", "keynesian", "milton-friedman"],
+    "related": [
+      "great-depression",
+      "keynesian",
+      "milton-friedman"
+    ],
     "sources": [
       {
         "label": "凯恩斯《就业、利息和货币通论》",
@@ -220,7 +246,11 @@
     "whyEn": "Reconstruction needed stable rates and financing while avoiding a repeat of 1930s competitive devaluation.",
     "impact": "带来近三十年的贸易扩张与相对稳定，同时确立了以 IMF 为核心的国际货币协调机制。",
     "impactEn": "It delivered nearly three decades of trade expansion and relative stability and established IMF-centred monetary coordination.",
-    "related": ["gold-standard", "fx-regimes", "nixon-shock"],
+    "related": [
+      "gold-standard",
+      "fx-regimes",
+      "nixon-shock"
+    ],
     "sources": [
       {
         "label": "IMF 布雷顿森林体系历史档案",
@@ -245,7 +275,11 @@
     "whyEn": "Persistent deficits and overseas dollar liabilities left gold reserves unable to honour convertibility.",
     "impact": "世界进入信用货币与浮动汇率时代，货币政策获得更大空间，也带来更高的通胀风险。",
     "impactEn": "The world entered the fiat-money and floating-rate era: more monetary room and higher inflation risk.",
-    "related": ["bretton-woods", "monetary-history", "inflation"],
+    "related": [
+      "bretton-woods",
+      "monetary-history",
+      "inflation"
+    ],
     "sources": [
       {
         "label": "美联储历史档案 1971 年公告",
@@ -270,7 +304,11 @@
     "whyEn": "Geopolitical conflict cut supply while demand was inelastic in the short run, transmitting price pressure across supply chains.",
     "impact": "「滞胀」成为现实，凯恩斯式需求管理失效，理论与政策转向货币主义与供给侧。",
     "impactEn": "'Stagflation' became real, Keynesian demand management failed and thinking turned to monetarism and supply-side policy.",
-    "related": ["stagflation", "monetarism", "volcker-shock"],
+    "related": [
+      "stagflation",
+      "monetarism",
+      "volcker-shock"
+    ],
     "sources": [
       {
         "label": "IEA 石油危机回顾报告",
@@ -295,7 +333,11 @@
     "whyEn": "Shortages and inefficiency under planning became unsustainable, so market incentives and opening up were needed to unleash productivity.",
     "impact": "此后四十余年实现了高速工业化与大规模减贫，同时也伴随收入与区域差距、环境与债务等难题，是从计划到市场的标志性转折。",
     "impactEn": "It delivered rapid industrialisation and mass poverty reduction over the next four decades, alongside challenges of inequality, the environment and debt — a landmark turn from plan to market.",
-    "related": ["comparative-advantage", "gdp"],
+    "related": [
+      "comparative-advantage",
+      "gdp",
+      "household-responsibility"
+    ],
     "sources": [
       {
         "label": "世界银行 中国改革开放四十年回顾",
@@ -320,7 +362,11 @@
     "whyEn": "Inflation expectations had become entrenched, so only decisively severe tightening could rebuild credibility.",
     "impact": "通胀预期被锚定，奠定了此后四十年央行独立性与通胀目标制的制度共识。",
     "impactEn": "Expectations were anchored, establishing a forty-year consensus on central bank independence and inflation targeting.",
-    "related": ["inflation", "central-bank", "monetarism"],
+    "related": [
+      "inflation",
+      "central-bank",
+      "monetarism"
+    ],
     "sources": [
       {
         "label": "美联储联邦基金利率历史数据",
@@ -345,7 +391,12 @@
     "whyEn": "Stagflation exposed the limits of the Keynesian consensus; monetarism and supply-side economics rose while union decline opened a political window.",
     "impact": "提升效率与资本回报、压低通胀，但也加剧不平等与金融不稳定，影响延续至今的全球政策辩论。",
     "impactEn": "It lifted efficiency and returns and tamed inflation but deepened inequality and financial instability, still shaping global policy debate.",
-    "related": ["volcker-shock", "inflation-causes", "monetary-transmission", "gini"],
+    "related": [
+      "volcker-shock",
+      "inflation-causes",
+      "monetary-transmission",
+      "gini"
+    ],
     "sources": [
       {
         "label": "哈维《简短的新自由主义史》",
@@ -370,7 +421,11 @@
     "whyEn": "With a widening US trade deficit and rising protectionism, exchange-rate adjustment was preferred to tariffs.",
     "impact": "日元快速升值长期影响日本产业与资产价格，成为讨论汇率协调与资产泡沫的经典案例。",
     "impactEn": "The yen's rapid appreciation shaped Japanese industry and asset prices, making it a classic case in exchange-rate coordination and bubbles.",
-    "related": ["fx-regimes", "bubbles-crises", "exchange-rate"],
+    "related": [
+      "fx-regimes",
+      "bubbles-crises",
+      "exchange-rate"
+    ],
     "sources": [
       {
         "label": "广场协议联合声明全文",
@@ -395,7 +450,12 @@
     "whyEn": "Mechanical strategies such as portfolio insurance sold as prices fell, creating a self-reinforcing loop, while large US fiscal and trade deficits, rising rates, a weakening dollar and fraying consensus after the Plaza Accord turned valuation and mechanism against each other at the same moment.",
     "impact": "事件直接催生个股与指数层面的熔断机制、清算与保证金改革，以及央行「随时提供流动性」的公开承诺（美联储次日即发声明）。此后每一次技术性下跌，政策反应模板都源自 1987 年。",
     "impactEn": "It produced circuit breakers at both stock and index level, clearing and margin reform, and the explicit promise of central-bank liquidity — the Federal Reserve issued a supportive statement the next day. Every subsequent technical selloff has been managed against the 1987 template.",
-    "related": ["plaza-accord", "market-structure", "volcker-shock", "bubbles-crises"],
+    "related": [
+      "plaza-accord",
+      "market-structure",
+      "volcker-shock",
+      "bubbles-crises"
+    ],
     "sources": [
       {
         "label": "布雷迪委员会《1987 年 10 月 19 日股市下跌》报告（1988）",
@@ -420,7 +480,12 @@
     "whyEn": "Easy money and credit inflated assets; over-leveraged firms and banks and maturity mismatch meant a balance-sheet slump suppressed spending after the crash.",
     "impact": "成为资产负债表衰退与长期通缩的经典案例，警示资产泡沫与政策迟滞，深刻影响后来的危机应对。",
     "impactEn": "It became the textbook case of a balance-sheet recession and prolonged deflation, warning on bubbles and slow policy, shaping later crisis response.",
-    "related": ["bubbles-crises", "plaza-accord", "qe", "deflation"],
+    "related": [
+      "bubbles-crises",
+      "plaza-accord",
+      "qe",
+      "deflation"
+    ],
     "sources": [
       {
         "label": "辜朝明《资产负债表衰退》",
@@ -481,7 +546,12 @@
     "whyEn": "Pegged rates, large short-term foreign borrowing and local-currency assets created currency and maturity mismatch that unravelled on outflows.",
     "impact": "亚洲多国转向浮动汇率与外汇储备积累，IMF 的救助条件也引发广泛争论与改革。",
     "impactEn": "Many Asian economies moved to floating rates and reserve accumulation, and IMF conditionality came under intense debate and reform.",
-    "related": ["fx-regimes", "bubbles-crises", "money-creation"],
+    "related": [
+      "fx-regimes",
+      "bubbles-crises",
+      "money-creation",
+      "dollar-cycle"
+    ],
     "sources": [
       {
         "label": "IMF 亚洲金融危机专题评估",
@@ -542,7 +612,12 @@
     "whyEn": "A common currency was meant to deepen integration, cut transaction costs and offset the dollar—a project both political and economic.",
     "impact": "贸易与金融融合加深，但财政不统一遇上非对称冲击埋下隐患，直接酿成后来的欧债危机。",
     "impactEn": "Trade and finance integrated more deeply, but unified money over divided treasuries and asymmetric shocks sowed the seeds of the euro-area crisis.",
-    "related": ["fx-regimes", "exchange-rate", "bretton-woods", "asian-crisis"],
+    "related": [
+      "fx-regimes",
+      "exchange-rate",
+      "bretton-woods",
+      "asian-crisis"
+    ],
     "sources": [
       {
         "label": "德格拉韦《镜中的欧洲》",
@@ -567,7 +642,10 @@
     "whyEn": "Joining the multilateral system was seen as using external rules to push domestic reform while securing stable export markets.",
     "impact": "出口与制造业产能快速扩张，中国深度嵌入全球产业链；同时也带来了产业冲击、贸易摩擦与对外依赖的讨论。",
     "impactEn": "Exports and manufacturing capacity expanded rapidly and China became deeply embedded in global supply chains; it also sparked debate on industry shocks, trade friction and external dependence.",
-    "related": ["tariff", "comparative-advantage"],
+    "related": [
+      "tariff",
+      "comparative-advantage"
+    ],
     "sources": [
       {
         "label": "WTO 中国加入议定书",
@@ -592,7 +670,11 @@
     "whyEn": "High leverage, complex securitisation, maturity mismatch and regulatory blind spots amplified local mortgage risk into systemic risk.",
     "impact": "催生宏观审慎监管、压力测试与《巴塞尔协议 III》，并开启长达十余年的低利率与量化宽松时代。",
     "impactEn": "It produced macroprudential regulation, stress testing and Basel III, and opened a decade-long era of low rates and quantitative easing.",
-    "related": ["bubbles-crises", "systemic-risk", "qe"],
+    "related": [
+      "bubbles-crises",
+      "systemic-risk",
+      "qe"
+    ],
     "sources": [
       {
         "label": "美国金融危机调查委员会最终报告",
@@ -653,7 +735,12 @@
     "whyEn": "Order-book depth depended on high-frequency firms that withdrew under their own risk rules once volatility spiked, so liquidity evaporated in minutes; arbitrage and stop-loss linkages across cash and futures amplified an ordinary macro trade into a stampede.",
     "impact": "美英监管随后推出涨跌停带（limit up-down）、更明确的市场层面熔断与错误交易撤销规则，把高频交易纳入登记与风控要求，并推动「统一代码」与交易前风险评估。此后 2015 年、2018 年、2024 年等多次瞬时波动，都以本案为参照。",
     "impactEn": "US and UK regulators introduced limit-up/limit-down bands, clearer market-wide circuit breakers and broken-trade rules, brought high-frequency trading under registration and risk requirements, and pushed for a consolidated tape. Every subsequent burst of intraday volatility — 2015, 2018, 2024 — has been assessed against this case.",
-    "related": ["market-structure", "black-monday-1987", "bubbles-crises", "gfc-2008"],
+    "related": [
+      "market-structure",
+      "black-monday-1987",
+      "bubbles-crises",
+      "gfc-2008"
+    ],
     "sources": [
       {
         "label": "美国证监会与商品期货交易委员会闪电崩盘联合报告（2010）",
@@ -678,7 +765,12 @@
     "whyEn": "The rally was driven by leverage — exchange margin and structured off-exchange financing — plus loose liquidity rather than earnings. When regulators required the leverage to be unwound, forced selling and falling prices caused each other, and price limits with T+1 settlement turned individual risk into a collective stampede when liquidity dried up.",
     "impact": "事件推动中国加强对场外配资与股指期货的监管，2016 年初试行熔断机制又在四日内紧急叫停，成为「以机制抑制波动」的失败样本；同时留下关于政府直接入市稳定市场的边界、道德风险与政策退出成本的长期争论。",
     "impactEn": "It tightened supervision of off-exchange leverage and index futures; a circuit-breaker scheme launched in early 2016 was suspended within days, becoming a case study in trying to legislate away volatility. It also left an enduring argument about the limits of direct state market support, moral hazard and the cost of policy exit.",
-    "related": ["shadow-banking", "market-structure", "money-creation", "bubbles-crises"],
+    "related": [
+      "shadow-banking",
+      "market-structure",
+      "money-creation",
+      "bubbles-crises"
+    ],
     "sources": [
       {
         "label": "中国证监会关于 2015 年市场异常波动的通报与处罚决定",
@@ -708,7 +800,12 @@
     "whyEn": "To resist deflationary pressure from safe-haven inflows the SNB had bought euros on an almost unlimited scale for three years; as expectations of ECB quantitative easing built, the intervention required to hold the floor had become incompatible with the size of its balance sheet and with political tolerance.",
     "impact": "事件成为「央行政策承诺随时可撤销」的教科书案例：多家做市商与零售经纪商因穿仓被客户索赔，止损单集中滑点引发集体诉讼与监管检讨，零售外汇杠杆随后普遍下调。它也提醒所有以固定汇率为锚的经济体：锚的可靠性取决于维持它的成本。",
     "impactEn": "It became the textbook case of a central-bank promise that can be withdrawn at any moment: market-makers and retail brokers faced client claims for negative balances, stop-loss slippage produced class actions and supervisory reviews, and retail forex leverage was cut across the industry. Its wider warning to any economy anchored to a fixed rate is that the anchor is only as credible as the cost of defending it.",
-    "related": ["fx-regimes", "central-bank-tools", "euro-debt-crisis-2010", "inflation"],
+    "related": [
+      "fx-regimes",
+      "central-bank-tools",
+      "euro-debt-crisis-2010",
+      "inflation"
+    ],
     "sources": [
       {
         "label": "瑞士央行关于放弃最低汇率的声明（2015）",
@@ -738,7 +835,11 @@
     "whyEn": "Lockdowns cut supply while income collapse hit demand, requiring direct-to-household fiscal support to prevent balance-sheet collapse.",
     "impact": "避免了债务通缩式萧条，但也带来后续通胀压力、财政债务上升与央行资产负债表大幅扩张。",
     "impactEn": "It avoided a debt-deflationary slump but left higher inflation, larger public debt and greatly expanded central bank balance sheets.",
-    "related": ["qe", "fiscal-multiplier", "inflation"],
+    "related": [
+      "qe",
+      "fiscal-multiplier",
+      "inflation"
+    ],
     "sources": [
       {
         "label": "IMF 财政监测 2021 年疫情应对评估",
@@ -763,7 +864,11 @@
     "whyEn": "Supply shocks, shifted demand composition and tight labour markets spread inflation from individual categories into core measures.",
     "impact": "再度验证央行可信度与通胀预期管理的重要性，也让「滞胀风险」重新回到政策讨论中心。",
     "impactEn": "It re-confirmed the importance of credibility and expectation management and returned stagflation risk to policy debate.",
-    "related": ["inflation", "central-bank", "volcker-shock"],
+    "related": [
+      "inflation",
+      "central-bank",
+      "volcker-shock"
+    ],
     "sources": [
       {
         "label": "BIS 年度经济报告 通胀与加息章节",
@@ -961,6 +1066,90 @@
         "label": "洛温斯坦《对冲基金：长期资本管理公司的失误》",
         "labelEn": "Lowenstein, When Genius Failed",
         "year": 2000
+      }
+    ]
+  },
+  {
+    "id": "household-responsibility",
+    "y": 1978,
+    "yearLabel": "1978",
+    "yearLabelEn": "1978",
+    "title": "家庭联产承包责任制启动",
+    "titleEn": "The Household Responsibility System Begins",
+    "place": "中国",
+    "placeEn": "China",
+    "level": 2,
+    "what": "1978 年冬，安徽凤阳小岗村 18 户农民按下红手印，把集体土地分包到户、自负盈亏；这一「大包干」做法随后被中央认可，家庭联产承包责任制在全国推广，人民公社体制逐步解体。",
+    "whatEn": "In the winter of 1978, eighteen households in Xiaogang village, Fengyang, Anhui, pressed their thumbprints to contract collective land to families on a keep-what-you-earn basis; the 'da bao gan' practice won Beijing's endorsement, the household responsibility system spread nationwide, and the commune system gradually dissolved.",
+    "why": "计划时代的统购统销与集体劳动削弱了激励，农民在土地上的努力与回报脱钩，产量长期停滞。包干到户把剩余索取权还给农户，用最小的制度改动瞬间修复了激励——粮食产量连年跃升，也为城市改革与乡镇企业提供了最初的剩余与劳动力。",
+    "whyEn": "Quota procurement and collective labor had severed the link between effort and reward, leaving output stagnant. Returning the residual claim to households repaired incentives with a minimal institutional change; grain output jumped year after year, supplying the first surplus and labor pool for urban reform and township enterprises.",
+    "impact": "农村改革成为中国整个转型的起点与范本：先做增量、允许试验、成功后再推广（「摸着石头过河」）。它与后来的价格闯关一起，构成理解中国「渐进式改革」的原型案例，也显示了产权与激励安排比投入本身更能决定产出。",
+    "impactEn": "Rural reform became the starting point and template of China's whole transition: pilot at the margin, allow experimentation, scale up once proven—'crossing the river by feeling for stones'. Together with the later price-storming episode, it forms the archetype of China's gradualist reform, showing that property-rights and incentive arrangements matter more than inputs alone.",
+    "related": [
+      "reform-opening-1978",
+      "price-signals"
+    ],
+    "sources": [
+      {
+        "label": "《邓小平文选》第二卷关于农村政策的论述",
+        "labelEn": "Deng Xiaoping Selected Works, vol. II, on rural policy",
+        "year": 1994
+      }
+    ]
+  },
+  {
+    "id": "price-reform-pass",
+    "y": 1988,
+    "yearLabel": "1988",
+    "yearLabelEn": "1988",
+    "title": "价格闯关",
+    "titleEn": "The Price Reform 'Storming the Pass'",
+    "place": "中国",
+    "placeEn": "China",
+    "level": 3,
+    "what": "1988 年 8 月，中央决定「抢五晚」加快放开长期管制的主商品价格，把计划价与市场价并轨（双轨变单轨）。消息一出，全国城镇爆发抢购潮与挤储潮，物价快速上行，闯关被迫刹车，改革回到调放结合。",
+    "whatEn": "In August 1988 Beijing moved to 'storm the pass'—rapidly liberalising state-set prices on key commodities and merging the plan and market tracks into one. The announcement triggered stampedes of panic buying and bank-run behaviour across cities, prices spiked, the rush was halted, and reform reverted to a mix of adjustment and liberalisation.",
+    "why": "双轨制下计划内低价与轨道外市价并存，套利与通胀预期早已蓄势；一次性并轨等于把长期压抑的通胀瞬间释放。在货币偏松与缺乏社会保障缓冲的条件下，价格改革单兵突进，遭遇了预期管理的经典失败。",
+    "whyEn": "The two-track system had built up arbitrage and inflationary expectations; a one-shot merger instantly released suppressed inflation. With loose money and no social buffer, price reform advanced alone and suffered a classic failure of expectation management.",
+    "impact": "闯关受挫促成了此后十年「以稳定促改革」的路线调整，也留下重要教训：并轨的实质是重新分配，通胀预期与挤兑可以在政策落地之前先把政策击败。1990 年代初，大部分商品价格在高通胀之后被悄然放开，改革的节奏感自此成为中国经济政策的核心特征。",
+    "impactEn": "The setback shaped a decade of 'stability first' recalibration and left a lasting lesson: merging tracks is redistribution, and inflation expectations and bank runs can defeat a policy before it lands. In the early 1990s most price controls were quietly lifted after high inflation, and a sense of timing became central to Chinese economic policymaking.",
+    "related": [
+      "reform-opening-1978",
+      "price-controls"
+    ],
+    "sources": [
+      {
+        "label": "吴敬琏《当代中国经济改革》",
+        "labelEn": "Wu Jinglian, Contemporary China's Economic Reform",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "id": "mobile-payment-china",
+    "y": 2013,
+    "yearLabel": "2013",
+    "yearLabelEn": "2013",
+    "title": "中国移动支付爆发",
+    "titleEn": "China's Mobile-Payment Takeoff",
+    "place": "中国",
+    "placeEn": "China",
+    "level": 2,
+    "what": "2013 年 8 月余额宝上线，把零散钱包资金变成货币基金；随后二维码扫码支付在补贴大战中迅速普及，从街边摊到医院全面覆盖。中国跳过银行卡主导阶段直接进入移动钱包，移动支付规模数年内居全球第一，并催生数字人民币试点。",
+    "whatEn": "Yu'e Bao launched in August 2013, turning pocket change into money-market balances; QR-code payments then spread through a subsidy war, covering everything from street vendors to hospitals. Skipping the bank-card-dominated stage, China moved straight into mobile wallets, whose transaction value topped the world within years and whose rails later fed the e-CNY pilots.",
+    "why": "信用卡渗透率低反而成了后发优势：没有沉重的存量系统要保护，钱包类应用以极低的受理成本（一张打印的二维码）完成了对长尾商户的覆盖。平台经济与数据沉淀进一步强化了网络效应，支付成为流量与信用的入口。",
+    "whyEn": "Low card penetration turned into a latecomer advantage: with no heavy legacy rails to defend, wallet apps onboarded the long tail of merchants at near-zero cost (a printed QR code). Platform ecosystems and data accumulation reinforced network effects, making payment the gateway to traffic and credit.",
+    "impact": "支付数字化为「数字经济」提供了底层账本：交易留痕使信用评估、即时配送与供应链金融成为可能。同时引出新的议题——备付金集中存管、平台垄断与数据安全、现金使用的包容性，以及 CBDC（数字人民币）对私人钱包的反向约束。",
+    "impactEn": "Digitised payments supplied the underlying ledger of the 'digital economy': traceable transactions enabled credit scoring, instant logistics and supply-chain finance. They also raised new questions—centralised custody of client funds, platform monopoly and data security, cash inclusion, and the countervailing pull of the e-CNY.",
+    "related": [
+      "digital-currency",
+      "payments-systems"
+    ],
+    "sources": [
+      {
+        "label": "中国人民银行支付体系运行报告",
+        "labelEn": "PBOC Payment System Operation Reports",
+        "year": 2020
       }
     ]
   }
