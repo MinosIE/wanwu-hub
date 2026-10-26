@@ -2210,6 +2210,41 @@
       "nEn": "Per Modern Monetary Theory, what is the real ceiling on deficits for a home-currency sovereign?"
     }
   ],
+  "q-xiaogang-incentive": [
+    {
+      "m": "m-quiz",
+      "n": "家庭联产承包责任制在推行头几年带来粮食产量跃升，最核心的机制是：",
+      "nEn": "The household responsibility system lifted grain output sharply in its first years. The core mechanism was:"
+    }
+  ],
+  "q-price-pass": [
+    {
+      "m": "m-quiz",
+      "n": "1988 年「价格闯关」消息一出即引发抢购与挤储，最直接的教训是：",
+      "nEn": "The 1988 price 'storming the pass' instantly triggered panic buying and bank runs. The closest lesson:"
+    }
+  ],
+  "q-mobile-qr": [
+    {
+      "m": "m-quiz",
+      "n": "中国移动支付跳过银行卡主导阶段直接爆发，供给侧最关键的条件是：",
+      "nEn": "China's mobile payments skipped the card-dominated stage and took off. The key supply-side condition:"
+    }
+  ],
+  "q-noise-trader": [
+    {
+      "m": "m-quiz",
+      "n": "De Long 等的「噪声交易者风险」模型推翻的关键直觉是：",
+      "nEn": "The De Long et al. 'noise trader risk' model overturned which intuition?"
+    }
+  ],
+  "q-dollar-tide": [
+    {
+      "m": "m-quiz",
+      "n": "按「美元周期」的传导逻辑，新兴市场债务危机往往在何时率先爆发？",
+      "nEn": "By the 'dollar cycle' logic, emerging-market debt crises tend to break out first when:"
+    }
+  ],
   "inflation-targeting": [
     {
       "m": "m-compare",

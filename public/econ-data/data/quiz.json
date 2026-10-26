@@ -7,7 +7,10 @@
     "q": "你花一小时去看电影，机会成本最准确的理解是：",
     "qEn": "You spend an hour at the cinema. The most accurate reading of opportunity cost is:",
     "options": [
-      { "k": "电影票的价格", "kEn": "The price of the ticket" },
+      {
+        "k": "电影票的价格",
+        "kEn": "The price of the ticket"
+      },
       {
         "k": "这一小时里你放弃的最有价值的其他选择",
         "kEn": "The most valuable alternative you gave up in that hour"
@@ -16,12 +19,17 @@
         "k": "电影票价格加上这一小时的机会成本",
         "kEn": "The ticket price plus the value of the hour"
       },
-      { "k": "你为此感到的后悔程度", "kEn": "How much you regret it" }
+      {
+        "k": "你为此感到的后悔程度",
+        "kEn": "How much you regret it"
+      }
     ],
     "answer": 1,
     "explain": "机会成本是「被放弃的最有价值的其他选择」。票钱是显性支出，两者的简单相加并不等于机会成本的定义；后悔属于主观感受，也不用于定义。",
     "explainEn": "Opportunity cost is the best forgone alternative. The ticket is an explicit outlay, and simply summing it is not the definition; regret is subjective and not part of it.",
-    "related": ["opportunity-cost"]
+    "related": [
+      "opportunity-cost"
+    ]
   },
   {
     "id": "q-elasticity",
@@ -31,15 +39,29 @@
     "q": "某商品需求富有弹性，企业提价 10% 最可能的结果是：",
     "qEn": "If demand for a product is elastic, a 10% price rise most likely leads to:",
     "options": [
-      { "k": "总销售收入上升", "kEn": "Higher total revenue" },
-      { "k": "总销售收入下降", "kEn": "Lower total revenue" },
-      { "k": "总销售收入不变", "kEn": "Unchanged total revenue" },
-      { "k": "无法判断", "kEn": "Impossible to tell" }
+      {
+        "k": "总销售收入上升",
+        "kEn": "Higher total revenue"
+      },
+      {
+        "k": "总销售收入下降",
+        "kEn": "Lower total revenue"
+      },
+      {
+        "k": "总销售收入不变",
+        "kEn": "Unchanged total revenue"
+      },
+      {
+        "k": "无法判断",
+        "kEn": "Impossible to tell"
+      }
     ],
     "answer": 1,
     "explain": "需求富有弹性意味着销量下降的幅度大于价格上升的幅度，两者相乘后总收入下降。缺乏弹性时才是涨价增收。",
     "explainEn": "Elastic demand means quantity falls proportionally more than price rises, so revenue falls. Only with inelastic demand does a price rise raise revenue.",
-    "related": ["elasticity"]
+    "related": [
+      "elasticity"
+    ]
   },
   {
     "id": "q-gdp-excludes",
@@ -49,18 +71,29 @@
     "q": "下列哪一项通常不计入 GDP？",
     "qEn": "Which of the following is normally excluded from GDP?",
     "options": [
-      { "k": "餐馆出售的一份午餐", "kEn": "A lunch sold at a restaurant" },
+      {
+        "k": "餐馆出售的一份午餐",
+        "kEn": "A lunch sold at a restaurant"
+      },
       {
         "k": "自己在家做的一顿同样的饭",
         "kEn": "Cooking the same meal at home"
       },
-      { "k": "企业购入的新设备", "kEn": "New equipment bought by a firm" },
-      { "k": "政府修建的一段公路", "kEn": "A road built by the government" }
+      {
+        "k": "企业购入的新设备",
+        "kEn": "New equipment bought by a firm"
+      },
+      {
+        "k": "政府修建的一段公路",
+        "kEn": "A road built by the government"
+      }
     ],
     "answer": 1,
     "explain": "GDP 只统计通过市场交易体现的最终产品与服务。自给自足的家务劳动没有市场价格，因此不计入，这也是 GDP 低估实际福利的典型原因。",
     "explainEn": "GDP counts final goods and services that pass through markets. Unpaid household work has no market price, so it is excluded — a classic reason GDP understates welfare.",
-    "related": ["gdp"]
+    "related": [
+      "gdp"
+    ]
   },
   {
     "id": "q-real-rate",
@@ -70,15 +103,29 @@
     "q": "名义利率 5%，通胀率 6%，则实际利率大致为：",
     "qEn": "With a 5% nominal rate and 6% inflation, the real rate is roughly:",
     "options": [
-      { "k": "+11%", "kEn": "+11%" },
-      { "k": "+1%", "kEn": "+1%" },
-      { "k": "−1%", "kEn": "−1%" },
-      { "k": "0%", "kEn": "0%" }
+      {
+        "k": "+11%",
+        "kEn": "+11%"
+      },
+      {
+        "k": "+1%",
+        "kEn": "+1%"
+      },
+      {
+        "k": "−1%",
+        "kEn": "−1%"
+      },
+      {
+        "k": "0%",
+        "kEn": "0%"
+      }
     ],
     "answer": 2,
     "explain": "近似算法为实际利率 ≈ 名义利率 − 通胀率 = 5% − 6% = −1%。负实际利率意味着债权的购买力在缩水，通常对债务人有利、对存款人不利。",
     "explainEn": "Approximately real = nominal − inflation = 5% − 6% = −1%. A negative real rate erodes the purchasing power of a claim, favouring borrowers over savers.",
-    "related": ["interest-rate"]
+    "related": [
+      "interest-rate"
+    ]
   },
   {
     "id": "q-comparative-advantage",
@@ -92,14 +139,25 @@
         "k": "谁的绝对生产率更高",
         "kEn": "Who has higher absolute productivity"
       },
-      { "k": "谁的机会成本更低", "kEn": "Who has lower opportunity cost" },
-      { "k": "谁的工资水平更低", "kEn": "Who has lower wages" },
-      { "k": "谁的市场规模更大", "kEn": "Who has a larger market" }
+      {
+        "k": "谁的机会成本更低",
+        "kEn": "Who has lower opportunity cost"
+      },
+      {
+        "k": "谁的工资水平更低",
+        "kEn": "Who has lower wages"
+      },
+      {
+        "k": "谁的市场规模更大",
+        "kEn": "Who has a larger market"
+      }
     ],
     "answer": 1,
     "explain": "比较优势看相对机会成本而非绝对效率。即使一方在所有行业都更高效，只要相对成本不同，专业化与交换仍能让双方获益。",
     "explainEn": "It compares opportunity cost, not absolute efficiency. Even if one side is more productive in everything, differing relative costs make specialisation and exchange mutually beneficial.",
-    "related": ["comparative-advantage"]
+    "related": [
+      "comparative-advantage"
+    ]
   },
   {
     "id": "q-prisoners-dilemma",
@@ -113,7 +171,10 @@
         "k": "个人理性选择可能带来集体更差的结果",
         "kEn": "Individually rational choices can produce collectively worse outcomes"
       },
-      { "k": "背叛总是最优策略", "kEn": "Defecting is always optimal" },
+      {
+        "k": "背叛总是最优策略",
+        "kEn": "Defecting is always optimal"
+      },
       {
         "k": "合作在一次性博弈中最稳定",
         "kEn": "Cooperation is most stable in one-off games"
@@ -126,7 +187,9 @@
     "answer": 0,
     "explain": "在单次博弈中，各自选择占优策略会导致双方都更差。合作要稳定，通常需要重复博弈、可观察行为与可信惩罚机制。",
     "explainEn": "In a one-off game each choosing the dominant strategy leaves both worse off. Stable cooperation usually requires repetition, observability and credible punishment.",
-    "related": ["nash-equilibrium"]
+    "related": [
+      "nash-equilibrium"
+    ]
   },
   {
     "id": "q-loss-aversion",
@@ -148,12 +211,17 @@
         "k": "对盈亏反应完全对称",
         "kEn": "React symmetrically to gains and losses"
       },
-      { "k": "完全忽略沉没成本", "kEn": "Ignore sunk costs entirely" }
+      {
+        "k": "完全忽略沉没成本",
+        "kEn": "Ignore sunk costs entirely"
+      }
     ],
     "answer": 0,
     "explain": "卖出盈利头寸会带来确定的收益（让人想锁定），而卖出亏损头寸等于把损失「变现」，心理代价更大，于是形成「处置效应」。",
     "explainEn": "Realising a gain feels like locking in a win, while selling a loser makes the loss real, which feels costlier — the disposition effect.",
-    "related": ["loss-aversion"]
+    "related": [
+      "loss-aversion"
+    ]
   },
   {
     "id": "q-tax-incidence",
@@ -163,20 +231,31 @@
     "q": "政府对卖方征税后，税负主要由谁承担？",
     "qEn": "After a tax is levied on sellers, who mainly bears the burden?",
     "options": [
-      { "k": "全部由卖方承担", "kEn": "Sellers bear it all" },
-      { "k": "全部由买方承担", "kEn": "Buyers bear it all" },
+      {
+        "k": "全部由卖方承担",
+        "kEn": "Sellers bear it all"
+      },
+      {
+        "k": "全部由买方承担",
+        "kEn": "Buyers bear it all"
+      },
       {
         "k": "由缺乏弹性的一方承担更多",
         "kEn": "Whichever side is less elastic bears more"
       },
-      { "k": "由征收机关承担", "kEn": "The tax authority bears it" }
+      {
+        "k": "由征收机关承担",
+        "kEn": "The tax authority bears it"
+      }
     ],
     "answer": 2,
     "explain": "名义纳税人不是实际负担者。负担按供需弹性分摊：越难替代（缺乏弹性）的一方，越容易被迫吸收税负。",
     "explainEn": "The legal taxpayer is not the real bearer. The burden splits by elasticity: the side that can less easily substitute absorbs more.",
-    "related": ["tax-incidence"]
+    "related": [
+      "tax-incidence"
+    ]
   },
-{
+  {
     "id": "q-signaling",
     "category": "博弈论",
     "categoryEn": "Game theory",
@@ -211,7 +290,7 @@
       "human-capital"
     ]
   },
-{
+  {
     "id": "q-ultimatum",
     "category": "行为经济学",
     "categoryEn": "Behavioral",
@@ -219,20 +298,33 @@
     "q": "古斯等 1982 年最后通牒实验里，两人分四马克，一极低的“给一元、其余归自己”的提议，响应者最常见反应是？",
     "qEn": "In Güth et al. 1982's 4-DM ultimatum experiment, how do responders most often treat an offer of 1 DM to themselves (rest to proposer)?",
     "options": [
-      { "k": "必然接受，因为一元好过零元", "kEn": "Always accept—one beats zero" },
+      {
+        "k": "必然接受，因为一元好过零元",
+        "kEn": "Always accept—one beats zero"
+      },
       {
         "k": "大概率拒绝，宁愿两人归零也要惩罚不公",
         "kEn": "Mostly reject, preferring zero for both rather than reward unfairness"
       },
-      { "k": "反问提议者再出价，直到满意", "kEn": "Counter-offer until satisfied" },
-      { "k": "把决定权交给第三方", "kEn": "Hand the choice to an arbiter" }
+      {
+        "k": "反问提议者再出价，直到满意",
+        "kEn": "Counter-offer until satisfied"
+      },
+      {
+        "k": "把决定权交给第三方",
+        "kEn": "Hand the choice to an arbiter"
+      }
     ],
     "answer": 1,
     "explain": "子博弈精炼均衡预测“最小正数也要接受”，实验里过低分成常被拒。人们愿自掏代价惩罚不公平——纯自利假设在分配情境失灵，由此催生 Fehr–Schmidt 等不平等规避模型。",
     "explainEn": "Subgame-perfect play says 'take anything positive', yet low offers are often rejected. People pay to punish unfairness—pure self-interest fails in allocations, prompting inequity-aversion models (Fehr–Schmidt).",
-    "related": ["ultimatum-dictator", "fairness-reciprocity", "prospect-theory"]
+    "related": [
+      "ultimatum-dictator",
+      "fairness-reciprocity",
+      "prospect-theory"
+    ]
   },
-{
+  {
     "id": "q-carbon-border",
     "category": "国际贸易",
     "categoryEn": "Trade",
@@ -240,12 +332,18 @@
     "q": "CBAM（欧盟碳边境调节机制）对进入欧盟、本国未收碳价的钢铁，直接效果是什么？",
     "qEn": "What is CBAM's direct effect on steel imported into the EU from a country without carbon pricing?",
     "options": [
-      { "k": "免征关税以鼓励绿色进口", "kEn": "Waive tariffs to encourage green imports" },
+      {
+        "k": "免征关税以鼓励绿色进口",
+        "kEn": "Waive tariffs to encourage green imports"
+      },
       {
         "k": "按隐含碳排放补一道与 EU ETS 挂钩的成本，出口国已付碳价可抵扣",
         "kEn": "Charge on embedded carbon, priced against the EU ETS, with credit for carbon already paid at home"
       },
-      { "k": "一律征收 25% 反倾销税", "kEn": "Levy a flat 25% anti-dumping duty" },
+      {
+        "k": "一律征收 25% 反倾销税",
+        "kEn": "Levy a flat 25% anti-dumping duty"
+      },
       {
         "k": "只要求提交碳数据，不设任何经济义务",
         "kEn": "Require only carbon data reporting, no economic obligation"
@@ -254,9 +352,14 @@
     "answer": 1,
     "explain": "CBAM 把境内外碳价拉平防碳泄漏，先覆盖水泥、钢、铝、化肥、电力、氢。2023-10 至 2025-12 是过渡期（只报告），2026-01 起进入正式期，首批针对 2026 年进口的证书于 2027 年 9 月 30 日前清缴；已在本国付过的碳价可抵扣避免重复。",
     "explainEn": "CBAM levels the carbon-price field to stop leakage across cement, steel, aluminium, fertilisers, power and hydrogen. A transitional phase (report-only) runs Oct 2023–Dec 2025; definitive begins Jan 2026 with first certificates (covering 2026 imports) surrendered by Sep 30 2027; carbon already priced at home is credited to avoid double-charge.",
-    "related": ["carbon-border", "carbon-pricing", "externality", "public-goods"]
+    "related": [
+      "carbon-border",
+      "carbon-pricing",
+      "externality",
+      "public-goods"
+    ]
   },
-{
+  {
     "id": "q-sanctions",
     "category": "国际贸易",
     "categoryEn": "Trade",
@@ -272,7 +375,10 @@
         "k": "冻结目标国央行储备并切断 SWIFT 报文通道",
         "kEn": "Freeze the target's central-bank reserves and cut its SWIFT messaging access"
       },
-      { "k": "中断文化交流", "kEn": "Suspend cultural exchanges" },
+      {
+        "k": "中断文化交流",
+        "kEn": "Suspend cultural exchanges"
+      },
       {
         "k": "对目标国农产品加征临时关税",
         "kEn": "Slap temporary tariffs on the target's farm exports"
@@ -281,9 +387,13 @@
     "answer": 1,
     "explain": "金融基础设施的枢纽地位让“美元武器化”能瞬间封死大额交易与储备；但也因此刺激被制裁方另建通道、储备去美元化、增持黄金，反过来侵蚀储备货币的中立性与网络优势。",
     "explainEn": "The hub role of financial rails lets 'dollar weaponization' shut down large payments and reserves at a stroke—but it also drives targets to build alternate channels, de-dollarize and hoard gold, eroding the reserve currency's neutrality and network advantage.",
-    "related": ["economic-sanctions", "currency-and-trade", "fx-regimes"]
+    "related": [
+      "economic-sanctions",
+      "currency-and-trade",
+      "fx-regimes"
+    ]
   },
-{
+  {
     "id": "q-mmt",
     "category": "货币金融",
     "categoryEn": "Money & finance",
@@ -291,17 +401,202 @@
     "q": "按现代货币理论（MMT），对本币发行的主权政府而言，赤字的真正上限是什么？",
     "qEn": "Per Modern Monetary Theory, what is the real ceiling on deficits for a home-currency sovereign?",
     "options": [
-      { "k": "税收能筹到的现金规模", "kEn": "The cash tax revenue can raise" },
-      { "k": "上一年财政盈余的累积", "kEn": "The prior year's accumulated surplus" },
+      {
+        "k": "税收能筹到的现金规模",
+        "kEn": "The cash tax revenue can raise"
+      },
+      {
+        "k": "上一年财政盈余的累积",
+        "kEn": "The prior year's accumulated surplus"
+      },
       {
         "k": "真实产能与就业——超出就会引发通胀",
         "kEn": "Real capacity and jobs—go beyond and inflation bites"
       },
-      { "k": "国债市场愿意接盘的程度", "kEn": "How much bond buyers will absorb" }
+      {
+        "k": "国债市场愿意接盘的程度",
+        "kEn": "How much bond buyers will absorb"
+      }
     ],
     "answer": 2,
     "explain": "MMT 强调主权货币政府不会“没钱”，只会引发通胀；发债是利率操作而非融资必需。因此赤字的实际约束是经济体能提供的商品与服务上限——超出，物价就上涨。批评者反问：通胀是滞后信号，政治上难及时刹车。",
     "explainEn": "MMT argues a home-currency sovereign cannot 'run out of money', only cause inflation; bonding is a rate operation, not a funding need. The real ceiling is what goods and services the economy can supply—push past it and prices rise. Critics ask back: inflation is a lagging signal, hard to brake in time.",
-    "related": ["mmt", "seigniorage", "qe", "government-debt", "monetarism"]
+    "related": [
+      "mmt",
+      "seigniorage",
+      "qe",
+      "government-debt",
+      "monetarism"
+    ]
+  },
+  {
+    "id": "q-xiaogang-incentive",
+    "category": "宏观经济",
+    "categoryEn": "Macroeconomics",
+    "level": 2,
+    "q": "家庭联产承包责任制在推行头几年带来粮食产量跃升，最核心的机制是：",
+    "qEn": "The household responsibility system lifted grain output sharply in its first years. The core mechanism was:",
+    "options": [
+      {
+        "k": "大幅提高了农业的机械化与化肥投入",
+        "kEn": "It sharply raised mechanisation and fertiliser inputs"
+      },
+      {
+        "k": "国家提高了粮食统购价格",
+        "kEn": "The state raised unified procurement prices"
+      },
+      {
+        "k": "把劳动努力与剩余回报直接挂钩，修复了激励",
+        "kEn": "It re-linked effort with residual reward, repairing incentives"
+      },
+      {
+        "k": "土地私有化后农民可以自由买卖土地",
+        "kEn": "Land privatisation let farmers trade land freely"
+      }
+    ],
+    "answer": 2,
+    "explain": "统购统销与集体劳动把努力与回报拆开，产量长期停滞；包干到户把「交够国家的、留足集体的、剩下都是自己的」写成合同，用最小的制度改动改变激励——土地仍归集体所有，并非私有化；机械化与提价是后续与伴随因素，解释不了「立竿见影」。",
+    "explainEn": "Quota procurement and collective labour had severed effort from reward; the household contract ('finish the state's share, keep the collective's, the rest is yours') changed incentives with minimal institutional cost. Land stayed collectively owned—no privatisation; mechanisation and price hikes were later or accompanying factors and cannot explain the immediate jump.",
+    "related": [
+      "household-responsibility",
+      "incentives",
+      "price-signals"
+    ]
+  },
+  {
+    "id": "q-price-pass",
+    "category": "宏观经济",
+    "categoryEn": "Macroeconomics",
+    "level": 3,
+    "q": "1988 年「价格闯关」消息一出即引发抢购与挤储，最直接的教训是：",
+    "qEn": "The 1988 price 'storming the pass' instantly triggered panic buying and bank runs. The closest lesson:",
+    "options": [
+      {
+        "k": "价格改革在任何条件下都不应推进",
+        "kEn": "Price reform should never be attempted under any conditions"
+      },
+      {
+        "k": "长期压抑的通胀在并轨预期下被提前释放，预期能先于政策击败政策",
+        "kEn": "Suppressed inflation was released by expectations—expectations can defeat a policy before it lands"
+      },
+      {
+        "k": "居民实际收入当时大幅下降，买不起商品",
+        "kEn": "Real incomes had fallen sharply, so goods were unaffordable"
+      },
+      {
+        "k": "抢购主要由境外投机资本煽动",
+        "kEn": "The stampede was stoked by foreign speculative capital"
+      }
+    ],
+    "answer": 1,
+    "explain": "双轨制已蓄势套利空间与涨价预期，一次性并轨等于把抑制性通胀瞬间放开；当时货币偏松、又无社保缓冲，单兵突进的代价是闯关刹车。九十年代初多数价格在高通胀后悄然放开，节奏与缓冲成为后续改革的关键变量——教训不是「不该改」，而是「怎么改」。",
+    "explainEn": "The two-track system had built up arbitrage and price-rise expectations; a one-shot merger released suppressed inflation at once. With loose money and no social buffer, the rush had to be halted. Most prices were quietly liberalised in the early 1990s after high inflation—the lesson is not 'never reform' but 'how, with what sequencing and buffers'.",
+    "related": [
+      "price-reform-pass",
+      "price-controls",
+      "inflation-causes"
+    ]
+  },
+  {
+    "id": "q-mobile-qr",
+    "category": "货币金融",
+    "categoryEn": "Money & finance",
+    "level": 2,
+    "q": "中国移动支付跳过银行卡主导阶段直接爆发，供给侧最关键的条件是：",
+    "qEn": "China's mobile payments skipped the card-dominated stage and took off. The key supply-side condition:",
+    "options": [
+      {
+        "k": "银行卡体系彻底失败，民众不信任银行",
+        "kEn": "Bank cards had wholly failed and people distrusted banks"
+      },
+      {
+        "k": "监管强制要求商户使用移动支付",
+        "kEn": "Regulators compelled merchants to accept mobile payment"
+      },
+      {
+        "k": "人民币汇率走强降低了交易成本",
+        "kEn": "A strong renminbi lowered transaction costs"
+      },
+      {
+        "k": "受理成本几乎为零——一张打印的二维码就能收单，覆盖长尾商户",
+        "kEn": "Near-zero acceptance cost—a printed QR code onboarded the long tail of merchants"
+      }
+    ],
+    "answer": 3,
+    "explain": "信用卡渗透率低反而是后发优势：没有沉重存量收单网络要保护，钱包应用以二维码把小微商户的接入成本打到接近零，再用补贴完成双边冷启动。同时余额宝把钱包余额变成货币基金，需求侧瞬间被点燃；其代价与监管议题（备付金、垄断、数据）见「中国移动支付爆发」条。",
+    "explainEn": "Low card penetration became a latecomer advantage: with no heavy legacy acquiring network to defend, QR codes cut merchant onboarding to near zero, and subsidy wars solved the two-sided cold start. Yu'e Bao turned wallet balances into money-market funds, igniting demand. The costs—client-fund custody, monopoly, data—sit in the 'Mobile-Payment Takeoff' entry.",
+    "related": [
+      "mobile-payment-china",
+      "payments-systems",
+      "digital-currency"
+    ]
+  },
+  {
+    "id": "q-noise-trader",
+    "category": "行为经济学",
+    "categoryEn": "Behavioral",
+    "level": 3,
+    "q": "De Long 等的「噪声交易者风险」模型推翻的关键直觉是：",
+    "qEn": "The De Long et al. 'noise trader risk' model overturned which intuition?",
+    "options": [
+      {
+        "k": "散户的交易亏损会被做市商完全吸收",
+        "kEn": "Retail losses are fully absorbed by market makers"
+      },
+      {
+        "k": "泡沫只在信息不透明的市场出现",
+        "kEn": "Bubbles occur only in opaque markets"
+      },
+      {
+        "k": "只要存在套利者，价格偏离终会被抹平",
+        "kEn": "As long as arbitrageurs exist, mispricings get erased"
+      },
+      {
+        "k": "股价长期由股息折现决定，短期无意义",
+        "kEn": "Stock prices are dividends in the long run, noise in the short"
+      }
+    ],
+    "answer": 2,
+    "explain": "经典论证假定套利是无成本的；该模型让噪声交易者共存——他们的行为使「纠错」本身有了风险（价格被修正前可能更疯），理性套利者因而不敢重仓，泡沫得以存续，这就是「有限套利」。「泡沫与危机」条讲宏观表象，本条讲微观机制。",
+    "explainEn": "The classic argument assumed costless arbitrage. Letting noise traders coexist makes correction itself risky—prices can stay irrational before they converge—so rational arbitrageurs under-invest: 'limited arbitrage' keeps bubbles alive. The 'Bubbles and Crises' entry covers the macro surface; this is the micro mechanism.",
+    "related": [
+      "noise-trader",
+      "bubbles-crises",
+      "prospect-theory"
+    ]
+  },
+  {
+    "id": "q-dollar-tide",
+    "category": "国际贸易",
+    "categoryEn": "Trade",
+    "level": 3,
+    "q": "按「美元周期」的传导逻辑，新兴市场债务危机往往在何时率先爆发？",
+    "qEn": "By the 'dollar cycle' logic, emerging-market debt crises tend to break out first when:",
+    "options": [
+      {
+        "k": "美联储紧缩、美元走强，美元短债的滚动与偿债成本同时恶化",
+        "kEn": "The Fed tightens and the dollar surges, rolling costs of short-dollar debt blow up together"
+      },
+      {
+        "k": "美联储降息、全球流动性最充裕之时",
+        "kEn": "The Fed eases and global liquidity is most abundant"
+      },
+      {
+        "k": "危机国出口份额首次超过美国时",
+        "kEn": "The crisis country's export share first surpasses the US"
+      },
+      {
+        "k": "国际油价暴涨推高全球通胀之时",
+        "kEn": "Oil price spikes push up global inflation"
+      }
+    ],
+    "answer": 0,
+    "explain": "机制是三段管道：资本回流、美元计价债务变贵、本币贬值再通胀。宽松期埋下美元短债与期限错配（1997 年泰国企业），紧缩期集中引爆（1980 年代拉美、2013 缩减恐慌）。注意与「制裁」条分工：那条讲美元作为武器，本条讲美元作为周期。",
+    "explainEn": "The transmission runs through three pipes: capital repatriation, pricier dollar-invoiced debt, and currency-depreciation inflation. Easing phases plant short-dollar debt and maturity mismatch (Thai firms pre-1997); tightening detonates it (Latin America in the 1980s, the 2013 taper tantrum). Contrast with the sanctions entry: dollar-as-weapon vs dollar-as-cycle.",
+    "related": [
+      "dollar-cycle",
+      "asian-crisis",
+      "fx-regimes"
+    ]
   }
 ]
