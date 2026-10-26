@@ -1959,6 +1959,81 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "方法", en: "Method" }],
         },
+        {
+          id: "control-variables",
+          icon: "🧪",
+          term: { zh: "控制变量法", en: "Control of Variables" },
+          level: 1,
+          oneLiner: {
+            zh: "多因素问题里只让一个量变、其余保持不变，再逐个排查因果关系。",
+            en: "Vary one factor while holding the rest fixed, then test each cause in turn.",
+          },
+          detail: {
+            zh: "探究加速度与力、质量的关系是教科书范例：先保持小车质量不变找 a 与 F 的正比，再保持拉力不变找 a 与 m 的反比，最后合成一条规律。它也是判定实验有没有可比性的尺度——只说“变大变小”而不说明其余条件相同，结论便不能成立。同一思路支撑大量入门实验：电阻与材料、长度、横截面面积的关系，蒸发快慢与温度、表面积、气流的关系。与理想模型分工：那条把对象简化，本条把原因分离。",
+            en: "The classic case is finding how acceleration depends on force and mass: keep the cart's mass fixed to show acceleration proportional to force, keep the force fixed to show it inversely proportional to mass, then merge the two. It is also the yardstick for whether a comparison is fair—saying “it got bigger” without holding everything else equal proves nothing. The same logic underpins most introductory experiments, from how resistance depends on material, length and cross-section to how fast water evaporates with temperature, surface area and airflow. Where idealized models simplify the object, this method separates the causes.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "limit-method",
+          icon: "⏳",
+          term: { zh: "极限法与微元思想", en: "Limits & Infinitesimal Elements" },
+          level: 3,
+          oneLiner: {
+            zh: "用时间趋于零的比值定义瞬时量，把曲线过程切成无限小段再累加。",
+            en: "Define instantaneous ratios as the interval shrinks to zero, then chop a curved process into tiny pieces.",
+          },
+          detail: {
+            zh: "平均速度 Δx/Δt 在 Δt 足够小之后的极限就是瞬时速度，v–t 图上某点切线的斜率就是该时刻的加速度——极限法把“变速”定住为“某一时刻的不变”。反向使用就是微元法：求匀变速位移时把过程分成许多小段、每段当匀速处理，段数越多小矩形越贴近 v–t 图下的面积，这就是积分思想的物理入口。伽利略的外推法补上第三环：斜面倾角推到 90 度即自由落体、推到水平即得惯性定律（见「伽利略斜面实验」条）。",
+            en: "Instantaneous velocity is the limit of Δx/Δt as the interval shrinks, and the tangent's slope on a v–t graph is the acceleration at that instant—the limit method pins a changing motion to a definite value. Used in reverse it is the element method: to get the displacement of an accelerating motion, split it into many short stretches, treat each as uniform, and as the strips multiply the rectangles fill the area under the v–t curve, which is the physical gateway to integration. Galileo's extrapolation adds the third move—tilting the incline to vertical gives free fall, levelling it to horizontal gives inertia (see the Galileo incline entry).",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "amplify-convert",
+          icon: "🔍",
+          term: { zh: "微小量放大与转换法", en: "Amplification & Conversion" },
+          level: 2,
+          oneLiner: {
+            zh: "把看不见的、测不出的小量放大成可读的量，或转换成好测的量。",
+            en: "Magnify what is too small to read, or convert it into something measurable.",
+          },
+          detail: {
+            zh: "放大分两条路：几何放大，如卡文迪许用镜尺把丝线扭转的极小角度反射成光斑的长距离移动；累积放大则先测批量再平分——测一张纸厚可量 100 张，测一个周期可计 30 次全振动。转换法负责看不见的主角：磁场靠小磁针偏转显示，温度靠液柱高度显示，桌面微形变靠光斑位移显示，声音强弱靠示波器波形显示。两者常联手——「著名实验」里的卡文迪许扭秤条是实例，本条讲的是方法本身。",
+            en: "Amplification has two roads. Geometric: Cavendish turned a barely perceptible fibre twist into a long light-spot travel with a mirror and scale. Cumulative: measure a hundred sheets together for one page's thickness, or thirty full swings for one period. Conversion handles the invisible cast: a magnetic field betrays itself through a compass needle, temperature through a liquid column, a table's faint sag through a shifting light spot, sound through an oscilloscope trace. The two often work as a pair—the Cavendish entry under Famous Experiments is the case study, this entry is the method itself.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "graph-method",
+          icon: "📉",
+          term: { zh: "图象法与函数思想", en: "Graphs & Functional Thinking" },
+          level: 2,
+          oneLiner: {
+            zh: "用图线代替公式表达关系：斜率与面积往往就是物理量本身。",
+            en: "Let a curve replace a formula: slopes and areas often are physical quantities themselves.",
+          },
+          detail: {
+            zh: "读图三步：先看清轴名与单位，再读截距与斜率，最后算图线与轴围的面积。x–t 图斜率是速度、v–t 图斜率是加速度、v–t 图下面积是位移；F–x 图下面积是功，U–I 图斜率是电阻。非线性猜想靠“变直”检验：画 a 与 1/m 的关系而不是 a 与 m，画 1/I 与 R 而不是 I 与 R——只有成直线才支持比例成立，而截距还能暴露内阻等隐藏量。与「波动图象与振动图象」一条分工：那条专讲波的两类图，本条是通用的图象—函数转化。",
+            en: "Read a graph in three passes: check the axis names and units, take intercept and slope, then compute the area between curve and axis. Slope is velocity on an x–t graph and acceleration on a v–t graph, whose area is displacement; area under F–x is work, and the slope of U–I is resistance. Suspected non-linear laws are tested by straightening—plot a against 1/m rather than m, or 1/I against R; only a straight line backs the proportionality, and its intercept can expose hidden quantities such as internal resistance. Where the waveform-graphs entry covers the two wave plots, this is the general translation between picture and formula.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
+        {
+          id: "equivalent-method",
+          icon: "🔄",
+          term: { zh: "等效替代法", en: "Equivalent Substitution" },
+          level: 2,
+          oneLiner: {
+            zh: "用一个简单对象完全顶替复杂对象，效果相同即允许替换。",
+            en: "Let one simple object stand fully in for a complex one—equal effect licenses the swap.",
+          },
+          detail: {
+            zh: "合力与分力、串并联网络的总电阻、交流电的有效值（热效应与直流相等的数值）都属等效替代：替换的是效果而非本质，所以适用条件必须写清——等效电阻只在同一段电路、同一电流条件下成立。它也是测量术的骨架：曹冲称象用石头顶替大象的排水效果；替代法测电阻把未知电阻换成可读的电阻箱、保持电流不变即可读数。与理想模型分工：那条做减法（忽略次要因素），本条做替换（换成等价对象）。",
+            en: "A resultant force replacing two pulls, one resistor replacing a network, and the RMS current whose heating equals that of a direct current are all equivalent substitution: what is traded is the effect, not the essence, so the conditions must be stated—an equivalent resistance holds only for that branch under that current. The method is also the skeleton of measurement—Chao Chong weighed an elephant by swapping in stones that displaced the same water, and the substitution technique finds an unknown resistance by replacing it with a readable box while holding the current fixed. Where idealized models subtract minor factors, equivalent substitution swaps the object for an equal-effect stand-in.",
+          },
+          tags: [{ zh: "方法", en: "Method" }],
+        },
       ],
     },
     /* ===================== 物理与现代技术 ===================== */
