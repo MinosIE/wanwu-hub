@@ -5,7 +5,7 @@
   "heroTitleEn": "Physics of Everything",
   "intro": "从运动、声、光、热、电磁到天体与相对论，按高中物理脉络系统梳理核心概念、常数、实验与物理学家。",
   "introEn": "Motion, sound, light, heat, electromagnetism, astronomy and relativity — core concepts, constants, experiments and physicists organized along the high-school physics map.",
-  "total": 185,
+  "total": 190,
   "counts": {
     "mechanics": 20,
     "sound": 9,
@@ -21,7 +21,7 @@
     "tech": 9,
     "constants": 12,
     "experiments": 14,
-    "physicists": 16,
+    "physicists": 21,
     "glossary": 10
   },
   "modules": [
@@ -143,7 +143,7 @@
       "title": "物理学家",
       "titleEn": "Physicists",
       "kind": "cards",
-      "count": 16
+      "count": 21
     },
     {
       "key": "glossary",
@@ -169,7 +169,7 @@
     { "key": "tech", "icon": "📡", "value": 9 },
     { "key": "constants", "icon": "🔢", "value": 12 },
     { "key": "experiments", "icon": "🔬", "value": 14 },
-    { "key": "physicists", "icon": "🧑‍🔬", "value": 16 },
+    { "key": "physicists", "icon": "🧑‍🔬", "value": 21 },
     { "key": "glossary", "icon": "📖", "value": 10 }
   ]
 }

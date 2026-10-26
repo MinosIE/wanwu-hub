@@ -2,7 +2,7 @@
 
 > Laws, constants, landmark experiments and physicists — the elegant order governing the universe.
 
-185 entries across 16 categories, all as structured JSON.
+190 entries across 16 categories, all as structured JSON.
 
 ## Data endpoints
 - [Astronomy & Cosmos](https://minosie.github.io/wanwu-hub/physics-data/data/astronomy.json)
