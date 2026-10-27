@@ -23,8 +23,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Displacement, velocity and acceleration describe how position changes with time.",
           },
           detail: {
-            zh: "位移是矢量（初位置指向末位置）；速度是位移对时间的变化率；加速度是速度对时间的变化率，反映速度变化的快慢。",
-            en: "Displacement is the vector from start to end; velocity is its rate of change; acceleration is the rate of change of velocity.",
+            zh: "描述运动要先选参考系、再把物体看成质点——你坐着不动，可是北纬 30° 的地面正带你以约 400 m/s 向东转。位移只问初末位置、是矢量，路程才数走过的轨迹、是标量，绕 400 m 跑道跑一圈位移为零而路程是 400 m。平均速度是位移除以时间，瞬时速度是这段时间取得越短越趋近的那个比值，速率只取它的大小。加速度是对速度再做一次同样的处理，它与「跑得多快」无关：刚起步的货车速度很小而加速度不小，定速巡航的高铁速度很大而加速度近乎零；a 与 v 同号就加速、异号就减速，a 读作负数只说明它指向你定的正方向的反面，不代表在减速。单位换算是常年的失分点：60 km/h 等于 16.7 m/s，人步行约 1.4 m/s，手枪子弹出膛不过 300 m/s 上下，已是步行速度的两百倍。本条只管「用哪些量说运动」，具体公式在匀变速、平抛与圆周诸条里。",
+            en: "To describe motion you first pick a reference frame and treat the body as a point mass - sitting still, you are being carried east at about 400 m/s at latitude 30°. Displacement asks only about start and end and is a vector; distance counts the actual trail and is a scalar, so one lap of a 400 m track gives zero displacement and 400 m of distance. Average velocity is displacement over time, instantaneous velocity is what that ratio approaches as the interval shrinks, and speed is its magnitude. Acceleration is the same trick applied to velocity and says nothing about how fast something goes: a truck pulling away has little speed but real acceleration, a cruise-controlled train has plenty of speed and almost none. Same sign as v means speeding up, opposite means slowing down, and a negative a only marks direction against the axis you chose. Unit conversion is the standing trap: 60 km/h is 16.7 m/s, walking is about 1.4 m/s, and a pistol bullet leaves the barrel near 300 m/s, some two hundred times a walking pace. This entry settles only what language to use; the formulas live in the uniformly accelerated, projectile and circular-motion entries.",
           },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
@@ -36,6 +36,10 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           oneLiner: {
             zh: "速度恒定、轨迹为直线的运动，位移与时间成正比。",
             en: "Motion at constant velocity along a straight line; displacement is proportional to time.",
+          },
+          detail: {
+            zh: "物体沿直线且在任意相等的时间里位移都相等，就是匀速直线运动，只剩一个公式 x = vt。图像各说一半：x–t 图是一条倾斜直线、斜率就是速度，v–t 图是一条水平线、与时间轴围下的面积是位移。实验室用打点计时器造出并检验这种运动——电磁式接 50 Hz 交流、每 0.02 s 打一点，纸带上相邻点距相等即判定匀速，习惯上每 5 个点取一个计数点、对应时间间隔 0.1 s。概念上它是牛顿第一定律的正面形态：维持匀速不需要力，只有改变运动状态才需要力。「力是维持运动的原因」是摩擦造出的日常错觉，冰面与气垫导轨上滑块能滑很久、几乎不停，正是反证。现实中严格的匀速只是近似：平直轨道上定速巡航的列车、匀速传送带、以及下落到阻力与重力相等的收尾速度的雨滴，都归在这一档。",
+            en: "A body moves uniformly along a straight line when its displacement is equal in every equal interval of time, which leaves one equation, x = vt. The two graphs split the story: x-t is a slanted straight line whose slope is the velocity, v-t is a horizontal line whose area against the axis is the displacement. The laboratory makes and checks such motion with a ticker timer - an electromagnetic one on a 50 Hz supply stamps a dot every 0.02 s, equally spaced dots certify uniform motion, and counting every fifth dot gives a convenient 0.1 s step. Conceptually this is Newton's first law seen from the front: nothing needs a force to keep going, only a change of motion does. The belief that force sustains motion is an illusion bred by friction, and a puck on an air track shows the opposite. Perfectly uniform motion is only an approximation in practice: a train cruising on straight level track, a conveyor belt, and a raindrop that has reached its terminal speed, with drag exactly balancing weight, all belong to this class.",
           },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
@@ -54,8 +58,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Constant acceleration: v=v₀+at, x=v₀t+½at², v²−v₀²=2ax.",
           },
           detail: {
-            zh: "自由落体是加速度为 g≈9.8 m/s² 的匀加速运动；竖直上抛可分段或整体处理。其中 v₀、v 为初、末速度，a 为加速度，t 为时间，x 为位移。",
-            en: "Free fall is uniformly accelerated motion with a=g≈9.8 m/s²; vertical projection can be split or treated as a whole. Here v₀/v are initial/final velocity, a acceleration, t time, x displacement.",
+            zh: "三条公式只服务同一前提：加速度恒定且沿直线，用哪条看缺什么——不求位移用 v = v₀+at，不含时间用 v²−v₀²=2ax，不碰末速度用 x = v₀t+½at²。两条推论常考：某段时间的平均速度等于这段中间时刻的瞬时速度 (v₀+v)/2，但只对匀变速成立；而中间位置的速度 √((v₀²+v²)/2) 总比中间时刻的速度大，因为速度小的那一段花的时间更多。纸带上求加速度用逐差法：相邻相等时间里的位移差是恒量 Δx = aT²，把六段分两组两两相减再平均，能压小偶然误差。自由落体是 a = g 的特例，g 约 9.8 m/s² 且随纬度与海拔微变（赤道约 9.780、两极约 9.832），落得太快不好计时，伽利略才用斜面「冲淡重力」。竖直上抛的上升与回落对称——回到抛点速率仍是 v₀、两段时间相等，把全程当成 a 取负的匀减速来处理比分段省事。符号纪律：先定一个正方向并守住它，负号只代表指向，不该读成「在变小」。式中 v₀、v 为初、末速度，a 为加速度，t 为时间，x 为位移。",
+            en: "Three formulas serve one premise - constant acceleration along a line - and you pick by what is missing: v = v0 + at skips displacement, v² - v0² = 2ax skips time, x = v0*t + ½at² skips the final velocity. Two consequences are exam staples: the average velocity over a stretch equals the instantaneous velocity at the middle instant, true only for uniform acceleration; and the velocity at the middle of the distance, √((v0²+v²)/2), always exceeds the velocity at the middle of the time, because the body spends more time while going slower. On tape, successive displacements in equal times differ by the constant Δx = aT², and the standard way to squeeze out random error is to split six segments into two groups, subtract in pairs, then average. Free fall is the case a = g, about 9.8 m/s² and shifting slightly with latitude and height (roughly 9.780 at the equator, 9.832 at the poles); Galileo diluted gravity with an inclined plane because the fall itself was too quick to time. A ball thrown straight up is symmetric - it returns to the launch point at the launch speed after equal times - and treating the whole flight as one uniform acceleration with a taken as negative is shorter than splitting it. Keep one positive direction: a minus sign marks orientation, not a shrinking quantity. Symbols: v0 and v are initial and final velocity, a the acceleration, t the time, x the displacement.",
           },
           example: {
             zh: "苹果下落约 0.5 s 后速度达约 4.9 m/s。",
@@ -76,8 +80,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "With no net force, an object stays at rest or in uniform motion.",
           },
           detail: {
-            zh: "惯性是物体保持原有运动状态的属性，质量越大惯性越大。",
-            en: "Inertia is the tendency to keep current motion; larger mass means larger inertia.",
+            zh: "这条定律给不出直接的实验证明——地球上找不到真正不受力的物体，它出自伽利略的理想斜面：小球沿一个斜面滚下，会冲上另一个斜面、几乎回到原来的高度；第二面放得越平，球要滚越远才够到那个高度；放到完全水平，球就永远滚下去。笛卡尔补上「方向也不变」，牛顿 1687 年在《自然哲学的数学原理》里把它列为第一定律，推翻了统治近两千年「运动需要力来维持」的看法。要点有三。惯性只由质量量度，与速度无关——同一辆车满载比空车难停，变的是质量不是速度。其次「不受力」与「合外力为零」等价，所以匀速直线是零合力所呈现的状态，而不是需要力去养着的状态。第三，解释现象别说「受到惯性作用」，惯性不是力，正确的说法是物体因惯性要保持原来的速度。安全带、头枕与货物捆扎，全是这条定律开出的工程账单。",
+            en: "The first law cannot be proven by experiment directly - nothing on Earth is free of force - and it grew from Galileo's ideal incline: a ball rolling down one slope climbs the next to nearly its original height; flatten that second slope and it must roll farther to reach the same height; make it perfectly horizontal and the ball never stops. Descartes added the unchanged direction, and Newton set it down as the first law in the Principia of 1687, overturning the view, close to two thousand years old, that motion needs a cause to sustain it. Hold on to three points. Inertia is measured by mass alone, not by speed - a loaded truck is harder to stop than the same truck empty, and it is the mass that changed. Next, no force and perfectly balanced force come to the same thing, so uniform straight motion is what zero net force looks like, not a state a force must feed. Third, never say a body is 'acted on by inertia': inertia is not a force; the body keeps its velocity because that is its default. Seat belts, headrests and lashed cargo are all bills presented by this law.",
           },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
@@ -92,8 +96,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Acceleration is proportional to net force and inversely to mass: F=ma.",
           },
           detail: {
-            zh: "F、a 均为矢量，方向一致；该定律是经典力学的核心方程。其中 F 为合外力（单位 N），m 为质量（kg），a 为加速度（m/s²）。",
-            en: "F and a are vectors in the same direction; it is the central equation of classical mechanics. F is net force (N), m mass (kg), a acceleration (m/s²).",
+            zh: "F = ma 要读作「合外力等于质量乘以加速度」，重音落在「合」与「即时」：先把所有外力按矢量合成一个和，它定下的加速度就与和同向、随和立刻改变，力一撤 a 归零而物体照旧匀速下去。力的单位正是这么定的——使 1 kg 获得 1 m/s² 的力为 1 N，于是 kg·m/s² 与 N 可互相检验。解题的两个视角：几个物体一起动时先当整体求出 a，再隔离其中一个求内力，别把内力混进整体方程。两个易混点：把 a 与 v 挂钩是错的（力大不代表速度大，上抛的小球在最高点 v = 0 而 a 仍是 g）；把「视重」当重力也是错的（电梯加速上升时台秤读数变大即超重、加速下降时变小即失重，变的只是支持力 N，g 没有动）。适用范围须写明：宏观低速才成立，接近光速要换相对论形式（那时更基本的是 F = dp/dt），微观粒子另有量子规律。式中 F 为合外力（单位 N）、m 为质量（kg）、a 为加速度（m/s²）。",
+            en: "Read F = ma as 'net force equals mass times acceleration', with the stress on net and on instant: add the external forces as vectors first, and the acceleration points along that sum and changes with it the moment it changes - take the force away and a drops to zero while the body carries on at constant velocity. The unit is defined by the law: 1 N is the force giving 1 kg an acceleration of 1 m/s², which is how kg·m/s² and newtons cross-check. Two working habits for problems: for bodies moving together treat them as one system to find a, then isolate one to find the internal force, and never let internal forces into the system equation. Two confusions to clear: linking a to v (a large force is not a large speed - a thrown ball at its highest point has v = 0 while a is still g), and taking apparent weight for gravity (a scale reads high in an upward accelerating lift and low in a downward one, but only the support force N changed, g did not). State the boundary too: the form holds for slow everyday bodies; near light speed you need the relativistic version, where F = dp/dt is the deeper statement, and microscopic particles follow quantum rules. Symbols: F is the net force in newtons, m the mass in kilograms, a the acceleration in m/s².",
           },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
@@ -107,8 +111,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Action and reaction are equal, opposite, and act on different bodies.",
           },
           detail: {
-            zh: "两个力同时产生、同时消失，不能相互抵消（因作用对象不同）。",
-            en: "The pair appears and vanishes together and never cancels (different bodies).",
+            zh: "两物体间的作用力与反作用力总是等值、反向、共线，而且同性质、同时产生同时消失。它与「一对平衡力」的分别是必考点：平衡力作用在同一物体上、可以相互抵消，作用力与反作用力分属两个物体、永远谈不上抵消。两个误解当场消掉。其一，马拉车不是因为「马的拉力大于车回给的拉力」——那对力大小恒等；马能前进是马蹄向后蹬地、地把马向前推，而地给马向前的力大于车受到的阻力，胜负写在各物体所受的外力上，不在这一对相互作用里。其二，火箭不靠推空气：它把废气向后高速抛出，废气给火箭向前的反作用力，真空中同样存在，这正是太空里能变轨、能调姿的原因；喷气飞机、划桨、人走路都是同一笔账。用两只弹簧秤对拉，无论哪一方更「主动」，两边读数始终一样——这既是定律的演示，也是测力计读数的依据。",
+            en: "Action and reaction between two bodies are always equal, opposite and collinear, of the same kind of force, born and gone at the same instant. The contrast with a balanced pair is the point usually tested: balanced forces act on one body and cancel, while an action-reaction pair acts on two different bodies and can never cancel each other. Two misconceptions clear away at once. A horse does not pull a cart because its pull exceeds the cart's reaction - those two are always equal; the horse advances because it kicks the ground backward and the ground pushes it forward harder than the drag on the cart, so the verdict is written on each body's external forces, not inside that pair. A rocket does not push against the air: it throws exhaust backward and the exhaust pushes it forward, and that thrust exists in vacuum, which is exactly how a spacecraft turns or trims its attitude; jet engines, oars and walking are the same transaction. Hook two spring scales together and pull - however one side 'attacks', the readings stay identical, which is both a demonstration of the law and the reason a force meter can be trusted.",
           },
           tags: [{ zh: "牛顿定律", en: "Newton's Laws" }],
         },
@@ -123,8 +127,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "A force opposing relative motion or its tendency; static or kinetic.",
           },
           detail: {
-            zh: "滑动摩擦力 f=μN（μ 为动摩擦因数，N 为正压力）；静摩擦力随外力在 0 到最大静摩擦间变化。其中 f 为滑动摩擦力，μ 为动摩擦因数，N 为接触面正压力。",
-            en: "Kinetic friction f=μN; static friction varies from 0 up to its maximum with applied force. f kinetic friction, μ coefficient, N normal force.",
+            zh: "摩擦力头上写着「相对」二字：它阻碍的是两个接触面之间的相对滑动或其趋势，不是物体本身的运动。静摩擦是被动力，大小由平衡条件决定（有加速度时改由牛顿第二定律定），可在 0 到最大静摩擦之间随外力取值，方向与相对运动趋势相反——判断趋势的常用手法是「假想接触面光滑，它会往哪边滑」。一旦滑动，f = μN，μ 是动摩擦因数、没有单位，只由材料与粗糙程度决定，在近似意义上与接触面积和速度大小无关；N 是正压力，不一定等于重力：斜面上 N = mg cosθ，别的力只要有竖直分量就会改动它。最大静摩擦略高于滑动摩擦，所以推重柜子最费劲的是「起步」那一下。以滚代滑省力的量级差很大，钢轮对钢轨的滚动阻力系数约 0.001，比干钢面滑动摩擦的 0.5 上下小两个数量级。两个易错处：摩擦力也能做动力，传送带靠摩擦把货物从静止带到共速、人走路时地面给脚的摩擦向前；算摩擦生热要乘相对位移，Q = f·Δs 里的 Δs 是两表面之间滑过的距离（也就是划痕长度），不是任一物体相对地面的位移。式中 f 为滑动摩擦力，μ 为动摩擦因数，N 为接触面正压力。",
+            en: "Friction carries the word relative in its own definition: it opposes relative sliding between the two surfaces in contact, or the tendency of it, not the motion of the body. Static friction is reactive - its value is fixed by the balance condition, or by Newton's second law once there is acceleration, free to take anything from zero up to its maximum, pointing against the tendency you test by asking which way the surfaces would slip if they were smooth. Once sliding, f = μN, with μ a dimensionless coefficient set by material and roughness and, to good approximation, independent of contact area and speed; N is the pressing force, which need not equal weight - on a slope N = mg cosθ, and any vertical component of another force shifts it. Maximum static friction sits a little above the kinetic value, which is why a heavy cabinet is hardest exactly at the start. Replacing sliding by rolling is cheap in a way the numbers show: steel wheel on steel rail has a rolling resistance coefficient around 0.001 against a kinetic value near 0.5 for dry steel. Two traps: friction can be the driving force, since a conveyor belt accelerates its load by friction and the ground pushes your foot forward by friction when you walk; and the heat produced is Q = f times the relative sliding distance - the length of the scratch between the surfaces - not either body's displacement over the ground. Symbols: f is kinetic friction, μ the coefficient, N the normal (pressing) force.",
           },
           tags: [{ zh: "力", en: "Force" }],
         },
@@ -138,8 +142,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "When balanced by concurrent forces, the net force is zero.",
           },
           detail: {
-            zh: "可用正交分解法：任意方向合力均为零。",
-            en: "Resolve into components: net force is zero in every direction.",
+            zh: "平衡条件是合外力为零，而这等价于两条方程：ΣFx = 0 且 ΣFy = 0，所以正交分解是默认动作——先选定研究对象，再画受力图，把斜着的力拆进两根轴。只受三个力时有捷径：三条作用线必共点（三力汇交），把三个力首尾相接就得到一个闭合三角形，于是相似三角形与纯几何常比列方程更快。动态平衡另有一套路子：一个力大小方向都不变、一个只变方向、剩下的随之调整，把可变的力沿矢量三角形滑过去，谁增大谁减小一眼可见，这类题在「缓慢拉起」「半圆形支架」一类装置上反复出现。约束模型要分清真绳与轻杆：绳只能沿自身提供拉力，跨过光滑滑轮的同一根绳张力处处相等（活结），打了结则两侧张力可以不等（死结）；轻杆却能拉、能压、还能给侧向力，其弹力方向不必沿杆。整体法与隔离法可自由切换，但一次只能对一个对象列方程，也别把内力写进方程里。",
+            en: "Equilibrium means zero net force, which is two equations, ΣFx = 0 and ΣFy = 0, so resolving into perpendicular axes is the default move: choose the object, draw the free-body diagram, split every slanted force between the axes. With only three forces there is a shortcut - their lines of action must meet at one point, and laid head to tail they close into a triangle, so similar triangles and plain geometry often beat algebra. Dynamic equilibrium wants a different reflex: hold one force fixed, let a second change only in direction, and slide the remaining force along the vector triangle to see which grows and which shrinks; this is the pattern behind the 'pulled up slowly' and 'semicircular frame' problems. Sort out the constraint models: a rope can only pull along itself, and a single rope over a frictionless pulley has equal tension throughout (a running knot), whereas a tied knot permits different tensions on the two sides; a light rod can pull, push or load sideways, and its force need not lie along the rod. Switch freely between the whole system and one isolated body, but write equations for a single object at a time and keep internal forces out of them.",
           },
           tags: [{ zh: "力", en: "Force" }],
         },
@@ -153,8 +157,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Curved motion occurs when velocity and net force are not collinear; a projectile combines horizontal uniform and vertical free-fall motion.",
           },
           detail: {
-            zh: "平抛可分解为水平匀速与竖直匀加速两个独立分运动。",
-            en: "A projectile splits into independent horizontal uniform and vertical accelerated motions.",
+            zh: "做曲线运动的条件是合力与速度不在同一直线上，轨迹向合力一侧弯：合力指向凹侧、速度沿切线，这两条写反，图像题就全错。处理办法是「拆成互不干扰的直线运动」——演示实验里蜡块在注水的玻璃管中匀速上升，同时随管水平匀速移动，合起来仍是直线；把水平那段改成变速，轨迹就弯成抛物线，这同时说明了分运动的等时性与独立性。平抛取水平 x = v₀t、竖直 y = ½gt²，两式一消去 t 得轨迹 y = gx²/(2v₀²)；任意时刻速度偏向角 α 与位移偏向角 θ 满足 tanα = 2tanθ，这个二倍关系是选择与填空的常客。等时性还能反过来做演示：平抛出去的小球与同高同时自由下落的小球同时落地（平抛竖落仪），说明竖直分运动与水平快慢无关。同一套数学搬到匀强电场里就是带电粒子的「类平抛」，示波管与喷墨打印靠它偏转束流。不计阻力时，等高落地的抛体射程在 45° 取得极大，40° 与 50° 的射程精确相等——互补角共用同一个 sin2θ，这正是「两个角度命中同一目标」的来源。",
+            en: "A body curves whenever the net force is not along its velocity, and the path bends toward that force: the force points to the concave side while the velocity lies along the tangent - reverse these two and every graph question is lost. The method is to split motion into independent straight-line parts. In the classic demonstration a wax block rising steadily inside a water-filled tube that is slid sideways at a steady pace still traces a straight line, while making the horizontal part accelerated bends the path into a parabola, which shows at once that the components are simultaneous and independent. For a horizontal throw take x = v0*t and y = ½gt²; eliminating t gives the path y = gx²/(2v0²), and at any instant the velocity angle α and displacement angle θ obey tanα = 2tanθ - that factor of two is a favourite of examiners. Equality of time works in reverse as a demo: a ball launched sideways and a ball dropped from the same height at the same moment land together (the projectile-and-free-fall apparatus), proving the vertical part ignores horizontal speed. The same algebra moved into a uniform electric field is the projectile-like deflection of a charged particle, which is how cathode-ray tubes and inkjet printers steer their beam. Neglecting drag, range on level ground peaks at 45°, and 40° and 50° land exactly alike because complementary angles share one sin2θ - which is why two angles can hit one target.",
           },
           tags: [{ zh: "运动学", en: "Kinematics" }],
         },
@@ -172,8 +176,8 @@ export const physicsData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Uniform circular motion needs a centripetal force toward the center: F=mv²/r=mω²r.",
           },
           detail: {
-            zh: "向心力不改速度大小，只改变方向；汽车转弯、卫星绕地均由此力维持。其中 m 为质量，v 为线速度，ω 为角速度，r 为圆周半径。",
-            en: "Centripetal force changes only direction, not speed; it keeps cars turning and satellites orbiting. m mass, v linear speed, ω angular speed, r radius.",
+            zh: "先理清描述量：线速度 v = 2πr/T、角速度 ω = 2π/T，两者由 v = ωr 挂钩；向心加速度 a = v²/r = ω²r = 4π²r/T²，它只改速度方向、不改大小。最要紧的一句是「向心力」按效果取名字，不是一种新来的力，所以每道题都得回答谁提供它：随转盘转的物块靠静摩擦，圆锥摆靠绳拉力与重力的合力，卫星靠引力，火车在略高的外轨上转弯靠重力与支持力的合力——在设计速度下轮缘几乎不挤压轨道。竖直平面内的圆周分两种模型：绳（或内侧轨道）只能拉，最高点速率不得低于 √(gr)，再小绳就松、车就脱轨；杆（或圆管）既能拉又能撑，最高点速率可以为零。当供给小于所需的 mv²/r，物体就做离心运动，洗衣机脱水与砂轮超速时飞出的碎块都记在这笔账上。最后一条纪律：在惯性系里别写「物体受到离心力」，那是只有在非惯性系里才需要引入的惯性力，写出来就把受力分析搞乱了。式中 m 为质量，v 为线速度，ω 为角速度，r 为圆周半径。",
+            en: "Sort the descriptors first: v = 2πr/T and ω = 2π/T, joined by v = ωr, with centripetal acceleration a = v²/r = ω²r = 4π²r/T², which turns the velocity around without changing its size. The essential sentence is that 'centripetal force' names an effect, not a fresh kind of force, so every problem must answer who supplies it: static friction for a block riding a turntable, the resultant of tension and weight for a conical pendulum, gravity for a satellite, and the resultant of weight and the track's support for a train turning on a raised outer rail - at the design speed the wheel flanges press almost nothing. Vertical circles split into two models: a string or an inner rail can only pull, so the speed at the top cannot fall below √(gr) or the string goes slack and the vehicle leaves the track; a rod or a tube can also push, so zero speed at the top is allowed. When the supply falls short of the needed mv²/r the body swings outward - a spin dryer wringing clothes and the shards of an over-speeding grinding wheel are on this account. One discipline: in an inertial frame never write that the body 'experiences a centrifugal force', which is a device used only in non-inertial frames and it wrecks the force analysis. Symbols: m is mass, v linear speed, ω angular speed, r the radius.",
           },
           tags: [{ zh: "力学", en: "Mechanics" }],
         },
