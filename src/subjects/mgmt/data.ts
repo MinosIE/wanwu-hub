@@ -2821,6 +2821,102 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           tags: [{ zh: "营销", en: "Marketing" }],
           related: ["aida", "stp", "brand-equity", "aarrr"],
         },
+        {
+          id: "product-lifecycle",
+          icon: "♻️",
+          term: { zh: "产品生命周期", en: "The Product Life Cycle" },
+          level: 2,
+          oneLiner: {
+            zh: "导入、成长、成熟、衰退四段曲线——同一产品在不同段落，该打的营销牌完全不同。",
+            en: "Introduction, growth, maturity, decline — the right marketing moves differ completely by stage of the same product.",
+          },
+          detail: {
+            zh: "产品生命周期把品类销售随时间的推移描成一条 S 形加尾巴的四段曲线：导入期销量低、单位成本高、竞手寥寥，钱该花在告知型广告与渠道试用；成长期销量陡升、竞争者涌入，重心转向品牌偏好、扩产能扩渠道，价格开始受压；成熟期增长放缓、市场饱和，价格战与差异化并行，控成本、改市场（新客群新用途）与改产品（新功能新版型）是三把老斧子；衰退期替代品接管，要么收割现金流、要么退出，恋战只会拖垮资源。它提醒管理者：品类曲线与品牌命运不同——碳酸饮料早已成熟，可口可乐却靠全球化与品类扩张续了百年；也要警惕“自我实现”：若因预判衰退而停投，好产品也会被自己判死。另与用户生命周期（AARRR 讲单个用户从获客到留存的五环）互为镜像：一个量产品，一个量顾客。风险在于形状多变：有的品类一步入成熟，有的（时尚品、风口品）从成长直接跳衰退，“生命周期”不是命定时间表，而是一套提醒你在每一段重新审视竞争与现金流的思维框架。",
+            en: "The product life cycle traces a category's sales over time as a four-stage curve: in introduction, volumes are low, unit costs high and rivals few, so money buys awareness and trial; in growth, sales climb steeply while competitors pile in, so the job shifts to preference, capacity and distribution as price begins to squeeze; in maturity, growth slows and the market saturates, so price wars and differentiation run side by side, with three classic moves — modify the market (new users, new uses), modify the product (new features, new formats) and modify the mix to hold cost; in decline, substitutes take over and you either harvest the cash flow or exit, because clinging drains resources. It reminds managers that a category's curve is not a brand's fate — carbonated drinks long sat in maturity, yet Coca-Cola bought another century through globalisation and line extension — and that the concept can be self-fulfilling: cut spending on the belief of decline and a fine product dies of the diagnosis. It mirrors the user lifecycle (AARRR's five rings per customer): one measures the product, the other the customer. The caveat is shape: some categories enter maturity in a single swoop; fad goods jump from growth straight into decline. The life cycle is not destiny but a framework forcing you to re-examine competition and cash flow at each stage.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["bcg-matrix", "second-curve", "aarrr", "stp"],
+        },
+        {
+          id: "jtbd",
+          icon: "🥤",
+          term: { zh: "待办任务", en: "Jobs to Be Done" },
+          level: 2,
+          oneLiner: {
+            zh: "顾客买的不是产品，是“把某件事办成”——奶昔真正的竞品是香蕉、贝果和“什么都不买”。",
+            en: "Customers buy outcomes, not products — the milkshake's real rivals are bananas, bagels and buying nothing at all.",
+          },
+          detail: {
+            zh: "克里斯坦森著名的奶昔之问：一家快餐连锁想多卖奶昔，问卷反复问“怎样改进产品”，他的团队却换个问法——顾客雇奶昔来干什么活？观察发现近一半卖在早上八点半前，买单人独自开车上班：需要一件能陪路上一个小时、耐吸、不顶饿过头、不脏手、还能给枯燥车程加点乐子的东西——香蕉来得太快、贝果太干、甜甜圈太腻，什么都不买则十点就饿。看清任务后改进反而简单：更稠、加果粒、提早供货、给大杯自助机。理论内核是：产品是工具，需求是功能、情感、社会三层任务的合体；细分市场别按人群画像切，按“情境+任务”切——同一个人早上雇奶昔、晚上给儿子雇玩具。它和颠覆式创新同出一人之手，是另一把刀：多数失败的新品不是不懂用户，而是懂错了任务——满足了问卷里的愿望，没满足通勤路上的小时。",
+            en: "Christensen's famous milkshake question: a fast-food chain wanted more milkshakes; surveys kept asking 'how do we improve the product', while his team asked a different one — what job do customers hire the milkshake to do? Nearly half were sold before 8:30 a.m., to solo commuters driving to work: they needed something that would last an hour on the road, stay filling without bloating, keep the hands clean and enliven a dull drive — bananas finished too fast, bagels were dry, donuts cloying, and buying nothing meant hunger by ten. Once the job was seen, improvement became obvious: thicker, fruit chunks, earlier supply, a big-cup self-serve machine. The core idea: products are tools, and demand is a blend of functional, emotional and social jobs; segment not by demographic portraits but by situation plus job — the same person hires a milkshake at dawn and a toy for a son at night. From the same mind as disruptive innovation, it is that theory's other blade: most failed products do not misunderstand users, they misunderstand the job — answering the survey's wish while missing the hour on the commute.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["disruptive-innovation", "consumer-decision", "stp", "usp"],
+        },
+        {
+          id: "pricing-strategy",
+          icon: "🏷️",
+          term: { zh: "定价策略族", en: "Pricing Strategies" },
+          level: 2,
+          oneLiner: {
+            zh: "4P 里唯一直接进账的一条：撇脂、渗透、价值、心理、版本、动态、订阅——七种收钱的姿势，各有各的代价。",
+            en: "The only revenue-generating P: skimming, penetration, value, psychological, versioning, dynamic and subscription — each with its own price.",
+          },
+          detail: {
+            zh: "定价是营销组合里唯一直接产生收入的要素，其余三项都在花钱，而它最常被当作成本问题而非战略问题处理。七种基本姿势：撇脂——先高价收割最不敏感的人群再逐段降价，适合技术领先、仿制慢的产品；渗透——低价快抢份额与网络效应、指望后期变现，适合规模经济显著的生意；价值定价——按买家感知价值而非成本加价定价，前提是能把价值说清并量化；心理定价——利用尾数、锚定（高标低折）与“价格即质量”的信号；版本化——经济舱与商务舱、学生价、家庭装，把不同支付意愿的人分开，是价格歧视的生意名；动态定价——随供需实时改价，机票、网约车、酒店收益管理是主场；订阅——把一次性买卖改成经常性现金流，估值重心随之转向生命周期价值。出招前先查经济学那把尺：价格弹性——需求对价格越不敏感，涨价越安全。两条戒律：降价是最容易发动、最难退出的战争；改价太频会训练顾客“等等再买”，把定价的权威让渡给促销日历。",
+            en: "Price is the only element of the marketing mix that generates revenue — the other three spend it — yet it is usually managed as a cost question rather than a strategy. Seven basic stances: skimming — charge high first to harvest the least-sensitive buyers, then step down, fitting technically lead products slow to copy; penetration — buy share and network effects with a low price and monetise later, fitting businesses with strong economies of scale; value pricing — set price from buyer-perceived value rather than cost-plus, provided the value can be articulated and measured; psychological pricing — odd endings, anchoring through high list and discount, and price-as-quality signals; versioning — economy and business class, student rates, family packs — separating willingness to pay, the commercial name of price discrimination; dynamic pricing — repricing with live supply and demand, home turf of airlines, ride-hailing and hotel revenue management; subscription — turning one-off sales into recurring cash flow, moving valuation weight onto lifetime value. Before choosing, consult the economist's ruler: price elasticity — the less sensitive demand, the safer a rise. Two rules to keep: a price cut is the easiest war to start and the hardest to exit; and repricing too often trains customers to 'wait for the sale', handing pricing authority to the promotion calendar.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["marketing-mix-4p", "breakeven", "unit-economics", "cost-behavior"],
+        },
+        {
+          id: "programmatic-advertising",
+          icon: "🤖",
+          term: { zh: "程序化广告", en: "Programmatic Advertising" },
+          level: 3,
+          oneLiner: {
+            zh: "一次曝光的买卖在百毫秒内完成竞价——实时竞价、需求方与供给方平台组成的自动市场，效率高，水也深。",
+            en: "A single impression trades in a hundred-millisecond auction — RTB with demand- and supply-side platforms: efficient markets, murky ones too.",
+          },
+          detail: {
+            zh: "程序化广告把“买广告位”从人和人谈价变成机器和机器竞价：媒体每亮出一次曝光机会，交易系统就向各需求方平台（DSP）广播询问，平台依据这个受众的数据——是否目标人群、值多少钱——实时出价，最高者得，全程约百毫秒，此谓实时竞价（RTB）；卖方通过供给方平台（SSP）把流量打包上架，数据管理平台（DMP）提供人群标签。优点是精准、可规模化、按人投放而非按版位投放，长尾流量也变得可买；但它同时把沃纳梅克之问升级到技术层：交易链条层层抽成且不透明，虚假流量、机器人点击与品牌安全（广告出现在恶劣内容旁）是慢性病，“买到的曝光”与“真被看见的曝光”又隔一层。第二大浪是隐私收紧：第三方 cookies 逐步退场、移动端要求用户授权，定向能力被砍，第一方数据（自有顾客与情境数据）回潮，大平台自建闭环。应对与度量同根：用增量实验证明有效、用可见性标准证明被看、把预算当投资而非成本来核算。",
+            en: "Programmatic advertising turns buying ad space from negotiation between people into auction between machines: whenever a publisher offers an impression, an exchange broadcasts the question to demand-side platforms (DSPs), which bid in real time based on data about that viewer — whether they match the target and what they are worth — and the highest wins in roughly a hundred milliseconds; that is real-time bidding (RTB). Sellers pool inventory through supply-side platforms (SSPs), while data platforms supply audience segments. The gains are precision, scale, buying people instead of slots, and a monetisable long tail; but it also upgrades Wanamaker's problem to the technical layer: opaque layers of take-rate, phantom traffic, bot clicks and brand safety (your ad beside awful content) are chronic ills, and 'an impression bought' sits one layer from 'an impression seen'. The second wave is privacy: third-party cookies fading, mobile requiring explicit consent, targeting cut back, first-party data returning to favour, and large platforms building walled gardens. The response shares roots with measurement: prove effect with incrementality experiments, prove viewing with visibility standards, and account for budget as investment, not cost.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["ad-measurement", "imc", "aida"],
+        },
+        {
+          id: "pr-earned-media",
+          icon: "📰",
+          term: { zh: "公关与口碑", en: "Public Relations & Earned Media" },
+          level: 2,
+          oneLiner: {
+            zh: "广告是付钱买版面，公关是赢得第三方自愿转述——可信度更高，也最经不起撒谎。",
+            en: "Advertising buys space; public relations wins unpaid retelling — more credible, and the least able to survive a lie.",
+          },
+          detail: {
+            zh: "在付费、自有、赢得三类媒体中，公关经营最难买的“赢得”：报道、口碑、推荐与品牌词搜索。第三方背书自带可信度加成，但你控制不了它说什么、说多大——这决定了公关的产品是新闻价值：故事是否有时效、有数据、有面孔、切中公共议题，而不是自我表扬的通稿。危机公关是压力测试：社媒时代回应窗口从旧训“黄金四小时”缩到按分钟计；实践排序常被做反——先法律口径、后人情，公众先读到的是冷漠。可用框架四个字：快（第一时间表态）、真（承认已知事实、共情受害者，道歉不等于定责）、一（单一口径发声，免得部门版本打架）、改（整改可见可查）。日常一侧，口碑可用品牌搜索量、净情绪与转介率监测——推荐正是 AARRR 的第四个 R，社会认同的心理机制见“影响力原则”条。最深一层：声誉是复利资产，平日好感是危机时的减震器；把公关当成本中心削减，等于退掉消防队的保险费。",
+            en: "Among paid, owned and earned media, public relations runs the hardest to buy — the earned: coverage, word of mouth, referrals, branded search. Third-party endorsement carries built-in credibility, but you control neither what it says or how loudly — which makes newsworthy story the PR product: timeliness, data, a human face, a live public issue, not a self-congratulatory release. Crisis communication is the stress test: in the social era the response window has shrunk from the old 'golden four hours' to minutes; priorities are often inverted — legal wording first, humanity second, so the public reads coldness first. A usable frame in four words: fast (speak first), true (concede known facts, empathise with victims — apology is not admission of liability), one (a single voice, not warring departments), fix (remediation visible and verifiable). On ordinary days, word of mouth is tracked via branded search volume, net sentiment and referral rates — referral being AARRR's fourth R, with social proof's psychology covered under the principles of influence. The deepest layer: reputation compounds, and goodwill banked is the crisis shock absorber; cutting PR as a cost centre is cancelling the fire brigade to save on premiums.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["imc", "brand-equity", "influence-principles", "aarrr"],
+        },
+        {
+          id: "customer-satisfaction-nps",
+          icon: "😊",
+          term: { zh: "顾客满意与 NPS", en: "Satisfaction & Net Promoter Score" },
+          level: 2,
+          oneLiner: {
+            zh: "满意只是不被投诉的及格线，推荐与复购才是忠诚的分数——一道题简化了世界，也埋了坑。",
+            en: "Satisfaction is merely the no-complaint pass mark; recommending and rebuying measure loyalty — one question simplified the world and buried traps.",
+          },
+          detail: {
+            zh: "满意度研究的理论地基是“期望不一致”：满意不是体验的绝对值，而是体验与期望之差——广告把期望吹高，好产品也会让人失望。但满意与购买之间有一条裂缝：赖赫尔德的经典发现是“非常满意”的顾客照样流失——满意只是门槛，忠诚才是行为：复购、推荐、对竞争者的报价不再敏感。NPS 把忠诚折成一道题：“你有多大可能把它推荐给朋友？”九十分以上为推荐者、六十分以下为贬损者，两者占比之差即得分；它因简单、可跨期跨业比较而流行，也因过度简化而遭反噬：不同文化打分尺度不同（中庸文化天然压低分数）、单一题目对改进缺乏操作性（员工知道分数却不知为何）、激励扭曲的诱惑尤其防不住——只向满意客户发问、用奖励换高分，让指标空心化，赖赫尔德本人晚年也批评 NPS 被用成“又一个应付的分数”。严肃的做法：把 NPS 与流失率、复购、留存曲线并排看，把追访“为什么”固定成流程——它最终连着单位经济学里生命周期价值的分母：留存率。",
+            en: "The theoretical ground of satisfaction research is expectation-disconfirmation: satisfaction is not the absolute of experience but its gap to expectation — hype the expectation and a good product still disappoints. Yet a crack runs between satisfaction and purchase: Reichheld's classic finding was that 'very satisfied' customers switch anyway — satisfaction is a threshold; loyalty is behaviour: rebuying, recommending, insensitivity to rivals' quotes. NPS folds loyalty into one question: 'How likely are you to recommend this to a friend?' Scores of nine or ten count as promoters, six or below as detractors, and the gap between their shares is the score. It spread because it is simple and comparable across time and industry, and drew fire for oversimplification: response scales differ across cultures (middle-way cultures depress scores), a single question lacks operability (staff know the number, not the why), and incentive distortion tempts all — surveying only satisfied customers, buying high scores with rewards, hollowing the metric; Reichheld himself later lamented NPS reduced to 'yet another score to manage'. The serious practice: read NPS beside churn, repeat purchase and retention curves, and make the follow-up question 'why' a standing process — it ends at the denominator of lifetime value in unit economics: retention.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["unit-economics", "kpi", "aarrr", "consumer-decision"],
+        },
       ],
     },
     /* ===================== 人与变革 ===================== */
