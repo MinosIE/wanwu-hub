@@ -2206,6 +2206,118 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
       title: { zh: "财务与度量", en: "Finance & Metrics" },
       items: [
         {
+          id: "double-entry",
+          icon: "📒",
+          term: { zh: "复式记账法", en: "Double-Entry Bookkeeping" },
+          level: 1,
+          oneLiner: {
+            zh: "每笔交易都同时记“借”与“贷”两方、金额相等——有借必有贷，借贷必相等。",
+            en: "Every transaction is posted to both a debit and a credit of equal amount — for every debit there must be an equal credit.",
+          },
+          detail: {
+            zh: "意大利数学家卢卡·帕乔利 1494 年在《算术、几何、比与比例概要》中系统描述了威尼斯商人的这套记法，被尊为“会计学之父”。其要义是任何一笔经济业务都同时影响至少两个账户，且“借方合计恒等于贷方合计”，于是账簿能靠试算平衡自查是否记错。它把记账从零散的流水变成一套自我约束的符号系统，是财务报表、审计乃至整个现代商业计量的地基；难点在于“借贷”只是“左／右”的记账方向，与“借钱／贷款”的日常含义无关，初学者极易被字面误导。",
+            en: "In 1494 the Italian mathematician Luca Pacioli systematised the bookkeeping of Venetian merchants in his Summa and is honoured as the 'father of accounting'. Its core is that every transaction touches at least two accounts and that total debits always equal total credits, so a trial balance can self-check for errors. It turned scattered records into a self-disciplining notation — the ground under financial statements, auditing and modern business measurement. The trap: 'debit' and 'credit' here mean only the left and right sides of a ledger, not borrowing and lending, which misleads beginners.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["accounting-equation", "three-statements", "auditing"],
+        },
+        {
+          id: "accounting-equation",
+          icon: "⚖️",
+          term: { zh: "会计恒等式", en: "The Accounting Equation" },
+          level: 1,
+          oneLiner: {
+            zh: "资产 = 负债 + 所有者权益——一行同时说清“有什么”和“谁的钱”，是复式记账的骨架。",
+            en: "Assets = liabilities + equity — one line says both what you own and who has a claim on it, the spine of double-entry.",
+          },
+          detail: {
+            zh: "它是复式记账得以自动配平的数学根据：企业拥有的每一项资产，钱要么来自债权人（负债），要么来自股东投入与留存（所有者权益），所以两边天然相等、任何交易都只能在等式内部此消彼长，不会打破平衡。利润会通过留存收益并入权益，把利润表与资产负债表串起来。它看似平庸，却决定了每张凭证如何拆分成借贷分录；理解了资产等于负债加权益，再看资产负债表就不再是死记科目，而是看懂资金来龙去脉的一张因果图。",
+            en: "It is the mathematical reason double-entry self-balances: every asset a firm holds was funded either by creditors (liabilities) or by owners' capital and retained earnings (equity), so the two sides are equal by construction and no transaction can break that balance — it only shifts amounts within the equation. Profit flows into equity as retained earnings, linking the income statement to the balance sheet. Plain-looking, it dictates how each entry is split into debit and credit; once 'assets = liabilities + equity' clicks, the balance sheet stops being memorised accounts and becomes a map of where money came from and went.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["double-entry", "balance-sheet", "three-statements"],
+        },
+        {
+          id: "accrual-vs-cash",
+          icon: "🕐",
+          term: { zh: "权责发生制与收付实现制", en: "Accrual vs Cash Basis" },
+          level: 2,
+          oneLiner: {
+            zh: "收入与费用在“赚到／发生的那一刻”入账，而不是等现金到账才记——这才叫配比。",
+            en: "Revenue and expense are booked when earned and incurred, not when cash moves — that matching is the whole point.",
+          },
+          detail: {
+            zh: "收付实现制只在现金进出时记账，简单、贴近兜里有没有钱，但会把业绩扭曲到收款日：本月卖出的货要等下月回款才算收入。权责发生制则按归属期记录——收入在赚取时确认、费用在为产生该收入而发生时确认，二者配比，于是应收账款、应付账款、预收预付这些科目应运而生，利润更能反映一段经营的真实成绩。代价是它依赖估计与判断（坏账、折旧、收入确认时点），也给提前确认收入、递延费用留下操纵空间。正因如此，读懂一家公司要利润表与现金流量表对照：权责发生制看赚没赚，收付口径看钱到没到。",
+            en: "Cash basis records only when money moves — simple and close to whether the pocket has cash, but it warps performance to the settlement date: goods sold this month count as revenue only when paid next month. Accrual basis records by the period to which items belong — revenue when earned, expense when incurred to earn it, matched together — which is why receivables, payables and prepayments exist and why profit better reflects a stretch of real operating effort. The price is reliance on estimates and judgement (bad debts, depreciation, revenue-recognition timing) and the room it leaves to pull revenue forward and defer cost. Hence read a firm by pairing the income statement with the cash-flow statement: accrual shows whether you earned, cash shows whether the money arrived.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["income-statement", "cashflow", "three-statements"],
+        },
+        {
+          id: "accounting-standards",
+          icon: "📐",
+          term: { zh: "会计准则：GAAP 与 IFRS", en: "Accounting Standards: GAAP & IFRS" },
+          level: 3,
+          oneLiner: {
+            zh: "同一笔生意，全世界要按同一套记账语法来做表，数字才可比、可信、能被审计。",
+            en: "The same deal must be cast in one grammar of bookkeeping so numbers across firms and borders are comparable, credible and auditable.",
+          },
+          detail: {
+            zh: "没有统一准则，各公司自选折旧法、收入确认口径，报表就成了可以打扮的化妆术，投资者无从比较。会计准则（美国 GAAP、国际财务报告准则 IFRS）规定交易如何确认、计量、列报与披露，让不同企业、不同年份的数字落在同一把尺子上，是资本市场信任的基础设施。两者路数略有不同：GAAP 更规则导向、条文明细，IFRS 更原则导向、强调实质与职业判断，多年来一直在趋向协调而非完全合并。准则也在相关性与如实反映、可比、可验证、及时之间权衡，并受重要性、一致性等约束；它永远追不上金融创新，所以按准则做表是可信的底线，却不等于生意的真实价值。",
+            en: "Without common rules each firm picks its own depreciation and revenue-recognition method, and statements become makeup that can be dressed up — investors cannot compare. Accounting standards (US GAAP, and IFRS) prescribe how transactions are recognised, measured, presented and disclosed, putting numbers from different firms and years on one ruler; they are the trust infrastructure of capital markets. The two differ in temperament — GAAP more rules-based and detailed, IFRS more principles-based, leaning on substance and judgement — long converging rather than fully merging. Standards trade relevance against faithful representation, comparability, verifiability and timeliness, bounded by materiality and consistency; they always lag financial innovation, so 'made to standard' is a floor of credibility, not the same as a business's true worth.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["accounting-principles", "three-statements", "auditing"],
+        },
+        {
+          id: "accounting-principles",
+          icon: "🧭",
+          term: { zh: "会计基本假设与原则", en: "Accounting Assumptions & Principles" },
+          level: 3,
+          oneLiner: {
+            zh: "会计主体、持续经营、会计分期、货币计量四个前提，加上谨慎、配比、实质重于形式等原则。",
+            en: "Four premises — entity, going concern, periodicity, monetary measurement — plus prudence, matching and substance over form.",
+          },
+          detail: {
+            zh: "整套记账建立在四个默认前提上：会计主体（把公司和老板个人分开）、持续经营（假定不会马上清算，才敢按使用年限折旧）、会计分期（人为切成年度季度来考核）、货币计量（只记能用钱衡量的事，人才、口碑进不了表）。在其上运行一组原则：历史成本（按买入价记，客观却可能过时）、配比（费用跟着它带来的收入走）、充分披露（表外附注补足信息）、谨慎稳健（不高估资产与利润、不低估负债）、实质重于形式（按经济实质而非合同外衣入账，防钻空子）、重要性与一致性（小事可从简，口径不能年年乱改）。它们合起来回答数字该信到什么程度，也是审计与管理层博弈的规则场。",
+            en: "The whole edifice rests on four default premises: the accounting entity (separate the firm from its owner), going concern (assume no imminent liquidation, so you may depreciate over useful life), periodicity (carve time into years and quarters to measure) and monetary measurement (record only what money can weigh — staff and goodwill stay off the books). On them run a set of principles: historical cost (book at purchase price — objective yet possibly stale), matching (expense follows the revenue it produced), full disclosure (notes fill what the face omits), prudence (do not overstate assets and profit or understate liabilities), substance over form (record by economic reality, not the contract's wrapper, to close loopholes), and materiality and consistency (sweat the small stuff, never reshuffle the basis year to year). Together they answer how far the numbers can be trusted and set the arena where auditors and management play by the same rules.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["accounting-standards", "double-entry", "depreciation"],
+        },
+        {
+          id: "management-vs-financial-accounting",
+          icon: "🗂️",
+          term: { zh: "管理会计与财务会计", en: "Management vs Financial Accounting" },
+          level: 2,
+          oneLiner: {
+            zh: "一张对外交代（给投资者与税局），一张对内决策（给经理与团队）——同一套账，两种服务对象。",
+            en: "One faces outward (investors, tax), one faces inward (managers, teams) — the same books, two audiences.",
+          },
+          detail: {
+            zh: "财务会计面向企业外部：按准则把已发生的经营固化成三大报表，供投资者、债权人、监管与税务阅读，强调客观、可比、可审计，格式相对固定。管理会计面向企业内部：不受准则约束，为定价、投产、考核与预算服务，看未来、看细分（产品线、部门、客户），手段包括本量利、作业成本、责任中心与预算控制。两者共用同一套原始凭证与账簿，只是一个向后、对外、讲规矩，一个向前、对内、讲有用。财务会计算经营成果长什么样，管理会计问下一步该怎么走；读懂企业既要会看对外报表的诚实，也要会挑对内数据的相关。",
+            en: "Financial accounting looks outward: under the standards it fixes what has happened into the three statements for investors, creditors, regulators and tax authorities to read, prized for objectivity, comparability and auditability in a largely set format. Management accounting looks inward: unbound by the standards, it serves pricing, production, appraisal and budgeting, thinking ahead and by segment (product line, department, customer) with tools like cost-volume-profit, activity-based costing, responsibility centres and budget control. Both draw on the same source documents and ledgers — one is backward, outward and rule-bound, the other forward, inward and usefulness-driven. Financial accounting computes what the result looks like; management accounting asks what to do next; reading a firm takes both the honesty of the external report and the relevance of the internal number.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["cost-behavior", "activity-based-costing", "three-statements", "unit-economics"],
+        },
+        {
+          id: "auditing",
+          icon: "🔍",
+          term: { zh: "审计与内部控制", en: "Auditing & Internal Control" },
+          level: 2,
+          oneLiner: {
+            zh: "由独立的第三方替公众验真报表，靠的不是逐笔重算，而是内控、抽样与职业怀疑。",
+            en: "An independent third party verifies the statements for the public — not by re-adding every line but through controls, sampling and professional scepticism.",
+          },
+          detail: {
+            zh: "所有权与经营权分离后，外人凭什么信管理层自报的数字？审计就是补上这道信任缺口：外部审计师以独立身份按准则核查报表是否在所有重大方面公允反映，出具无保留、保留乃至否定或无法表示意见的报告，为资本市场提供可信背书。它不逐笔重算，而是评估并测试内部控制——职责分离、授权审批、实物盘点、对账复核——在薄弱处加大抽样。审计给的是合理保证而非绝对保证，抽样与判断意味着错报可能漏网。另一侧的舞弊三角（压力、机会、自我合理化）提醒：账做得平不等于事干净，制度上要堵住既经手又记账的机会，文化上要松动合理化的土壤。审计与准则相互支撑——准则定义该怎么记，审计核查是否真这么记。",
+            en: "Once ownership separates from control, why should outsiders trust the numbers management reports? Auditing closes that trust gap: an external auditor, independent by standing, tests under the standards whether the statements are fairly presented in all material respects and issues an opinion — unqualified, qualified, or adverse and disclaimer — giving capital markets a credible endorsement. It does not re-add every entry but evaluates and tests internal control — segregation of duties, authorisation, physical counts, reconciliations — sampling harder where control is weak. Audit offers reasonable, not absolute, assurance, so sampling and judgement let some misstatements slip. The fraud triangle — pressure, opportunity, rationalisation — is the other warning: books can balance while the business is dirty, so systems must deny the chance to both handle and record an asset, and culture must starve the excuses. Standards and audit lean on each other — standards say how to book it, audit checks whether it was.",
+          },
+          tags: [{ zh: "会计", en: "Accounting" }],
+          related: ["accounting-standards", "three-statements", "double-entry"],
+        },
+        {
           id: "three-statements",
           icon: "📑",
           term: { zh: "三大财务报表", en: "The Three Financial Statements" },
@@ -2572,6 +2684,142 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           },
           tags: [{ zh: "取舍", en: "Trade-off" }],
           related: ["wacc", "capm", "balance-sheet", "ratio-analysis"],
+        },
+      ],
+    },
+    /* ===================== 营销与广告 ===================== */
+    {
+      key: "marketing",
+      icon: "📣",
+      title: { zh: "营销与广告", en: "Marketing & Advertising" },
+      items: [
+        {
+          id: "stp",
+          icon: "🧩",
+          term: { zh: "STP：细分·目标·定位", en: "STP: Segment · Target · Position" },
+          level: 2,
+          oneLiner: {
+            zh: "先按需求把市场切成几块，挑最值得服务的一块，再在用户心里给它钉一个清晰位置。",
+            en: "Cut the market by need, choose the slice worth serving, then pin a clear place for it in the mind.",
+          },
+          detail: {
+            zh: "STP 是现代营销的战略主线，分三步：市场细分按地理、人口、行为与心理，把参差多样的需求切成一块块内部相近的小市场——真正管用的常是按想要的利益与使用行为来分，而非只按年龄收入分；目标市场选择在细分市场的吸引力与企业自身能力之间权衡，据此选无差异（赌大众）、差异化（多块多版本）或集中化（专注一块）；定位则在你选定的那块用户心智里，为品牌争一个简单、独特、守得住的位置。它是定位理论的上位流程：定位是最后一环，前面若没有正确的细分与取舍，定位再漂亮也悬在半空。STP 逼企业承认不可能服务所有人——敢于放弃，是营销走向成熟的第一标志。",
+            en: "STP is the strategic spine of modern marketing, in three moves. Segmentation slices a diverse demand into homogeneous pockets by geography, demographics, behaviour and psychographics — what usually works keys on sought benefits and usage, not age and income alone. Targeting weighs each segment's attractiveness against the firm's own capability, then bets undifferentiated (the whole market), differentiated (many segments, many offers) or concentrated (one niche). Positioning then wins a simple, distinct, defensible place in that chosen slice of the user's mind. It is the higher-level process around the positioning theory: positioning is the last move, and without the right segmentation and trade-offs before it, even a beautiful position floats in mid-air. STP forces a firm to admit it cannot serve everyone — daring to give up is the first sign of marketing maturity.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["marketing-mix-4p", "positioning", "brand-equity"],
+        },
+        {
+          id: "marketing-mix-4p",
+          icon: "🧰",
+          term: { zh: "营销组合 4P（及 7P）", en: "The Marketing Mix: 4P (and 7P)" },
+          level: 1,
+          oneLiner: {
+            zh: "产品、价格、渠道、推广四只手要一起调——营销不只是打广告，而是让这四者彼此咬合。",
+            en: "Product, price, place and promotion must be tuned together — marketing is not just advertising but meshing all four.",
+          },
+          detail: {
+            zh: "杰罗姆·麦卡锡把营销的可控手段归成四个 P：产品（解决什么需求、什么功能与品质）、价格（值多少、怎么收费与折让）、渠道（在哪里、如何触达与交付）与推广（广告、公关、促销与人员推销如何让顾客知晓并心动）。它的精髓不是清单，而是一致性：四者必须指向同一类顾客、同一个定位，任何一环拧着来都会漏水——高端定位配地摊渠道，再响的广告也救不回。服务营销又把 7P 补上人员、流程与有形展示。常见误区是把 4P 当成由内而外的自我表达，现代营销更强调它的镜子——4C（顾客需求、成本、便利、沟通）：先问顾客要什么，再决定这四个 P。",
+            en: "McCarthy grouped the levers a marketer controls into four Ps: Product (what need it solves, its features and quality), Price (what it is worth, how it is charged and discounted), Place (where and how it reaches and is delivered to buyers) and Promotion (how advertising, PR, sales promotion and personal selling make buyers aware and keen). The insight is not the list but consistency: all four must point at the same customer and the same position, and one lever working against the others leaks — a premium brand on a bargain shelf loses no matter how loud the ad. Service marketing adds three more Ps: People, Process and Physical Evidence. The classic trap is treating 4P as an inside-out self-expression; modern marketing stresses its mirror, the 4Cs — customer need, cost, convenience and communication: ask what the buyer wants first, then set the four Ps.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["stp", "aida", "imc", "breakeven"],
+        },
+        {
+          id: "usp",
+          icon: "💡",
+          term: { zh: "独特销售主张 USP", en: "Unique Selling Proposition" },
+          level: 2,
+          oneLiner: {
+            zh: "给顾客一个只此一家、且对我有利的具体理由——说不出一句独特的话，广告就只是噪声。",
+            en: "Give the buyer one concrete reason that is yours alone and good for them — with no unique line to say, advertising is just noise.",
+          },
+          detail: {
+            zh: "罗瑟·里夫斯在二十世纪四五十年代提出 USP，一条主张要同时满足三点：向顾客明确说出一个具体好处（买我的牙膏能得到什么）；这个好处必须是竞争对手无法或未曾提出的只此一家；它要强到足以打动大众、驱动购买。经典如 M 豆只溶在口、不溶在手——把产品特性翻成一句独占的利益承诺。USP 与定位理论近亲而不同：USP 从产品本身的独特卖点出发、偏我说什么，定位则从顾客既有心智出发、偏我占哪个位置，很多时候先有心智空位、再去打造或宣称相应 USP。它的难处在于真实且可兑现的独特越来越少——功能趋同的市场里，独特常常要靠品牌、体验或商业模式来承载，一句吹过头的 USP 还会反噬信任。",
+            en: "Rosser Reeves set out the USP in the 1940s and 50s: a proposition must meet three tests at once — say one concrete benefit to the buyer (what they get from my toothpaste); make it something rivals cannot or do not claim, ours alone; and make it strong enough to move the mass to buy. The classic line, M&Ms melts in your mouth, not in your hand, turns a product trait into a sole, ownable promise. USP is a near-relative of positioning but not the same: USP starts from the product's own unique selling point and leans toward what I say, while positioning starts from the mind the customer already has and leans toward what slot I take; often the mental gap is found first, then a matching USP is built or claimed. Its difficulty is that genuinely deliverable uniqueness grows scarcer — in a market of converging features the edge must ride on brand, experience or business model, and an over-promised USP can turn against your credibility.",
+          },
+          tags: [{ zh: "广告", en: "Advertising" }],
+          related: ["aida", "positioning", "brand-equity"],
+        },
+        {
+          id: "aida",
+          icon: "🪜",
+          term: { zh: "AIDA 受众行动模型", en: "The AIDA Funnel" },
+          level: 1,
+          oneLiner: {
+            zh: "注意、兴趣、欲望、行动——广告要一步步把路人推到下单，缺一环就断链。",
+            en: "Attention, interest, desire, action — advertising must walk a passer-by to purchase step by step; a missing rung breaks the chain.",
+          },
+          detail: {
+            zh: "AIDA 由 19 世纪末的埃·圣埃尔莫·刘易斯概括，是最早的传播效果阶梯：广告先得抓住注意，再唤起兴趣，把兴趣推成占有的欲望，最后促成行动（购买或留资）。它给文案与投放一个朴素指令——开头没有钩子，后面再对也没人看到；所以要标题抓眼、正文养兴趣、证据点火、结尾给一个明确的行动召唤（CTA）。今天把顾客旅程画成漏斗，正源于此：每一环都会有人漏掉，转化率就是一环除以一环。它也招批评——真实决策未必线性、还漏了购后与复购，于是衍生出加信任与行动线索的 AIDCA、以及更贴合社媒的 5A（了解、吸引、问询、行动、拥护）等版本，但 AIDA 仍是看懂一切广告结构的入门语法。",
+            en: "Summarised in the late 19th century by E. St. Elmo Lewis, AIDA is the earliest hierarchy of effects in communication: an ad must first seize attention, then arouse interest, turn interest into desire, and finally drive action (a purchase or a lead). It hands copy and media one plain order — with no hook at the top no one ever sees how right the rest is: an eye-catching headline, a body that nurtures interest, proof that ignites desire, and a clear call to action at the end. The modern habit of drawing the customer journey as a funnel comes straight from it — buyers leak at every rung, and the conversion rate is one rung divided by the next. It draws criticism, too: real decisions are rarely linear and it omits post-purchase and repeat buying, hence descendants like AIDCA (adding trust and clues) and the social-media-friendly 5A (aware, appeal, ask, act, advocate). Even so, AIDA remains the entry grammar for reading any ad's structure.",
+          },
+          tags: [{ zh: "广告", en: "Advertising" }],
+          related: ["ad-measurement", "marketing-mix-4p", "aarrr"],
+        },
+        {
+          id: "brand-equity",
+          icon: "🏅",
+          term: { zh: "品牌资产", en: "Brand Equity" },
+          level: 3,
+          oneLiner: {
+            zh: "同一只包，贴牌就能多卖很多——品牌是把认知与信任存进顾客心里、能带来超额回报的无形资产。",
+            en: "The same bag sells for far more with the mark on it — a brand is intangible capital of perception and trust that earns an above-normal return.",
+          },
+          detail: {
+            zh: "品牌资产指因为品牌被知晓、被怎样联想而给产品带来的、超出其功能价值的附加值：同一枚包，贴上某些牌子就能卖出数倍溢价、也更容易被首选——这差额就是资产。大卫·阿克把它拆成品牌知名度、感知质量、品牌联想与品牌忠诚度几项资产（以及相应的负债），凯文·莱恩·凯勒的基于顾客的品牌资产则画出一条从被认出、被记住，到强烈而独特的正面联想，再到共鸣与忠诚的建构阶梯。它的商业意义很实在：品牌是护城河里无形资产的一根支柱，直接支撑定价权与复购，还能被延伸去带动新品线。但它也是最脆弱的资产——一场危机、一次失信就能把多年积累迅速清零，所以品牌既是最值钱的储蓄罐，也是最需要小心照看的账户。",
+            en: "Brand equity is the value a product gains beyond its functional worth because of what the brand is known and how it is associated: the same bag commands several times the price and is chosen first when a certain mark is on it — that premium is the asset. David Aaker breaks it into brand awareness, perceived quality, brand associations and brand loyalty (plus their liabilities), while Kevin Lane Keller's customer-based brand equity draws a building ladder from being recognised and recalled, to strong, unique, favourable associations, up to resonance and loyalty. Its business meaning is concrete: the brand is a pillar of the intangible-asset moat, underwriting pricing power and repeat purchase, and can be extended to pull along new lines. Yet it is also the most fragile asset — one crisis, one breach of trust can wipe years of accrual overnight, so a brand is at once the most valuable piggy bank and the account that most needs careful tending.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["competitive-moat", "stp", "usp"],
+        },
+        {
+          id: "imc",
+          icon: "🔊",
+          term: { zh: "整合营销传播 IMC", en: "Integrated Marketing Communications" },
+          level: 3,
+          oneLiner: {
+            zh: "广告、公关、促销、社媒、包装……所有触点要讲同一句话——一个声音，一张脸。",
+            en: "Advertising, PR, promotion, social, packaging — every touchpoint must say the same thing: one voice, one face.",
+          },
+          detail: {
+            zh: "唐·舒尔茨等把 IMC 立为一种管理哲学：别让广告、公关、促销、直销、社媒、包装设计各说各话，而从顾客接收端倒推，把所有传播触点整合成一个声音、一张脸，让信息一致、相互放大。它的底层判断是——顾客在无数碎片接触里认识品牌，只要各渠道口径打架，力量就互相抵消；反之，同样的预算因协调一致能产生一加一大于二的叠加。IMC 也随媒介演进而扩展，今天常按付费、自有、赢得三类媒体来统筹：投广告、经营自己的账号与官网、撬动口碑与报道，三者合拍才算整合。难点在于组织内各部门、代理商各管一段、各有 KPI，协调往往败于各自为政，所以它既是传播策略，更是对内部流程与数据的治理。",
+            en: "Don Schultz and others raised IMC into a management philosophy: do not let advertising, PR, promotion, direct selling, social and packaging each speak in a different tongue; work backward from the receiver, the customer, integrating every touchpoint into one voice, one face so messages stay consistent and reinforce one another. Its premise is that a customer comes to know a brand across countless fragmentary contacts, so when channels contradict, their forces cancel — while the same budget, coordinated, can yield more than the sum of its parts. IMC has grown with media; today it is often run across the paid, owned and earned triad — buying ads, tending your own accounts and site, and leveraging word of mouth and coverage — which only counts as integrated when the three play in tune. The hard part is organisational: departments and agencies each own a slice and a KPI, and coordination often loses to each to their own — so it is a communications strategy and, just as much, a governance of internal process and data.",
+          },
+          tags: [{ zh: "广告", en: "Advertising" }],
+          related: ["marketing-mix-4p", "aida", "positioning"],
+        },
+        {
+          id: "ad-measurement",
+          icon: "📇",
+          term: { zh: "广告效果与度量", en: "Advertising Effectiveness & Metrics" },
+          level: 2,
+          oneLiner: {
+            zh: "我知道我的广告费有一半是浪费的，问题是我不知道是哪一半——从曝光到转化，广告须能被测量才谈得上优化。",
+            en: "Half my advertising is wasted — I just don't know which half. From reach to conversion, advertising must be measurable before it can be optimised.",
+          },
+          detail: {
+            zh: "常被归到约翰·沃纳梅克名下的那句一半广告费被浪费、却不知是哪一半，正是广告度量的原点难题。可量化的阶梯一层层往上：曝光层看触达与频次、千人成本（CPM）；成本层看按点击或行动计价的 CPC、CPA；响应层看点击率（CTR）与互动；结果层看转化、广告投入产出比（ROAS）与各种归因——把一笔成交的功劳分摊到用户接触过的多个触点。难点在于两类广告天生难测程度不同：效果广告（求即时点击下单）能 A/B、能归因，品牌广告（求长期记忆与偏好）见效慢、易被高估或埋没。因此可信的做法是增量实验：在可比人群中投放与不投放，看真实抬升，而非只信归因模型自报的功劳。它把广告从玄学拉回可验证的投资，与获客成本、单位经济相连——测不准，就无法判断这门生意到底健不健康。",
+            en: "The line usually credited to John Wanamaker — half my advertising is wasted, and I don't know which half — is the founding puzzle of advertising measurement. The ladder of measurable layers climbs upward: at exposure, reach, frequency and cost per mille (CPM); at cost, price per click (CPC) and cost per action (CPA); at response, click-through rate (CTR) and engagement; at outcome, conversion, return on ad spend (ROAS) and the many schemes of attribution that split one sale's credit across the touchpoints the user met. The difficulty is that the two kinds of advertising resist measurement unevenly: performance advertising (for an immediate click or order) can be A/B-tested and attributed, while brand advertising (for long-term memory and preference) works slowly and is easily over- or under-counted. The trustworthy move is thus the incrementality test — run the campaign on one comparable audience and not another and watch the true lift, rather than trusting an attribution model's self-reported credit. It pulls advertising from occult craft back toward a verifiable investment, tying to customer-acquisition cost and unit economics: if you cannot measure it, you cannot tell whether the business is actually healthy.",
+          },
+          tags: [{ zh: "广告", en: "Advertising" }],
+          related: ["aida", "aarrr", "unit-economics", "kpi"],
+        },
+        {
+          id: "consumer-decision",
+          icon: "🛒",
+          term: { zh: "消费者决策过程", en: "The Consumer Decision Process" },
+          level: 2,
+          oneLiner: {
+            zh: "从发现想要到买后复盘的五步——营销的每一招，都该落在顾客正处的那一步上。",
+            en: "Five steps from spotting a want to post-purchase review — every marketing move should land on the step the customer is actually at.",
+          },
+          detail: {
+            zh: "这是消费者行为学的经典五段：问题识别（现实与期望的落差让想要浮现）到信息搜集（内部记忆加外部广告、口碑、评测）、方案评估（在心里用某些标准比较品牌，往往缩到考虑集里几个候选）、购买决策（临门一脚，还可能被渠道、促销、旁人意见打断）、购后行为（满意或认知失调——买了贵东西后心里打鼓、四处找理由证明自己没做错）。它把顾客为什么买拆成可干预的路径：每一步营销都能下力——唤醒需求、占领信息入口、把自己放进考虑集并给足购买理由、让结账顺畅、用售后与保证消解失调。卷入度决定走哪条路：高价、高风险、买得少是深思熟虑，日常低价常是习惯性、几乎不评估。它与 AIDA 相映——AIDA 是传播者视角，五段是消费者视角；品牌资产则在最后一步替你降低失调。",
+            en: "The classic five acts of consumer behaviour: problem recognition (the gap between actual and desired brings a want to the surface), information search (memory plus outside ads, word of mouth, reviews), evaluation of alternatives (weighing a consideration set — the few candidates it narrows to — by some criteria in the mind), purchase decision (the final step, easily interrupted by channel, promotion or a bystander's opinion), and post-purchase behaviour (satisfaction or cognitive dissonance — after a costly buy one frets and hunts for reasons they did not err). It breaks why a customer buys into intervenable paths, so marketing can push at each step: arouse the need, hold the information gate, get into the consideration set with a full reason to buy, make checkout smooth, and dissolve dissonance with after-sales and guarantees. Involvement picks the road: high price, high risk and rare buys are deliberate, while cheap daily goods are habitual, barely evaluated. It mirrors AIDA — AIDA is the communicator's view, the five acts the consumer's — and brand equity steps in at the last act to lower the buyer's dissonance for you.",
+          },
+          tags: [{ zh: "营销", en: "Marketing" }],
+          related: ["aida", "stp", "brand-equity", "aarrr"],
         },
       ],
     },

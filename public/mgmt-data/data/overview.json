@@ -5,7 +5,7 @@
   "heroTitleEn": "Management of Everything",
   "intro": "从管理思想、战略、组织结构，到领导激励、决策、运营与财务——梳理让一群人把事做成的方法、框架与背后的取舍。",
   "introEn": "Management thought, strategy, structure, leadership, decision-making, operations and finance — the methods, frameworks and trade-offs behind getting things done with other people.",
-  "total": 191,
+  "total": 206,
   "counts": {
     "thought": 16,
     "strategy": 23,
@@ -13,7 +13,8 @@
     "leadership": 23,
     "decision": 27,
     "ops": 27,
-    "finance": 23,
+    "finance": 30,
+    "marketing": 8,
     "people": 34
   },
   "modules": [
@@ -71,7 +72,15 @@
       "title": "财务与度量",
       "titleEn": "Finance & Metrics",
       "kind": "cards",
-      "count": 23
+      "count": 30
+    },
+    {
+      "key": "marketing",
+      "icon": "📣",
+      "title": "营销与广告",
+      "titleEn": "Marketing & Advertising",
+      "kind": "cards",
+      "count": 8
     },
     {
       "key": "people",
@@ -89,7 +98,8 @@
     { "key": "leadership", "icon": "🧭", "value": 23 },
     { "key": "decision", "icon": "⚖️", "value": 27 },
     { "key": "ops", "icon": "⚙️", "value": 27 },
-    { "key": "finance", "icon": "📊", "value": 23 },
+    { "key": "finance", "icon": "📊", "value": 30 },
+    { "key": "marketing", "icon": "📣", "value": 8 },
     { "key": "people", "icon": "🤝", "value": 34 }
   ]
 }
