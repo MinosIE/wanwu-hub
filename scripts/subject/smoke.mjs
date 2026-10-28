@@ -87,6 +87,9 @@ const norm = (s) => (s || "").replace(/\s+/g, "").trim();
 /* 只留字母数字汉字：去掉标点、列表符号与上下标，使正文可比 */
 const clean = (s) => (s || "").replace(/[^0-9A-Za-z\u4e00-\u9fff]/g, "");
 const CJK = /[\u4e00-\u9fff]/;
+/* 模块网格内的「条目」标记：普通卡模块是 .js-item，周期表模块是 .js-pt
+   （占位格 .js-pt-marker、图例 .js-pt-leg 无 data-key，不计入条目数）。 */
+const itemsSel = (scope) => `${scope} .js-item, ${scope} .js-pt`;
 
 /* physics/chem 允许同一 id 跨模块重名（以模块为命名空间），所以跨模块搜索结果里
    `[data-key=id]` 并不唯一。断言口径改为「标题 ∈ 该 id 的候选集」，并用标题文本
@@ -195,7 +198,7 @@ try {
           `${tag} 模块未激活 ${mod.key}`,
         );
 
-        const cards = await page.$$eval(`#sm-${mod.key} .js-item`, (els) =>
+        const cards = await page.$$eval(itemsSel(`#sm-${mod.key}`), (els) =>
           els.map((e) => e.dataset.key),
         );
         ok(
@@ -209,10 +212,12 @@ try {
           );
         }
 
-        /* 难度筛选：chip 档位与逐档计数都须由数据算出 */
-        const levels = [...new Set(mod.items.map((it) => it.level))].sort(
-          (a, b) => a - b,
-        );
+        /* 难度筛选：chip 档位与逐档计数都须由数据算出；level 允许缺省
+           （如 chem periodic-table-full 全 118 条无该字段），故先剔除 null/undefined，
+           否则 [null] 会让 length 为真却无对应 chip，选择器返回 null 而 .click() 抛错。 */
+        const levels = [
+          ...new Set(mod.items.map((it) => it.level).filter((l) => l != null)),
+        ].sort((a, b) => a - b);
         const chips = await page.$$eval(
           `#sm-${mod.key} .sm-filters [data-lvl]`,
           (els) => els.map((e) => Number(e.dataset.lvl)),
@@ -233,7 +238,7 @@ try {
               lv,
             );
             const got = await page.$$eval(
-              `#sm-${mod.key} .js-item`,
+              itemsSel(`#sm-${mod.key}`),
               (els) => els.length,
             );
             ok(
@@ -250,7 +255,7 @@ try {
           );
           ok(
             (await page.$$eval(
-              `#sm-${mod.key} .js-item`,
+              itemsSel(`#sm-${mod.key}`),
               (els) => els.length,
             )) === mod.items.length,
             `${tag} ${mod.key} 复位「全部」后计数不符`,
@@ -466,7 +471,7 @@ try {
           await clearSearch(page);
           ok(
             (await page.$$eval(
-              `#sm-${p.key} .js-item`,
+              itemsSel(`#sm-${p.key}`),
               (els) => els.length,
             )) === modules.find((m) => m.key === p.key).items.length,
             `${tag} 清空搜索后 ${p.key} 列表未复原`,
