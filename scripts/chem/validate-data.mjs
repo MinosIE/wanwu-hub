@@ -6,6 +6,7 @@
    退出码：fail>0 时为 1；警告（detail 偏短、物种未释义、SVG 静态估宽）不影响退出码，
    SVG 是否真越界以浏览器 getComputedTextLength()/getBBox() 实测为权威。 */
 import fs from "node:fs";
+import { join } from "node:path";
 
 const DIR = "public/chem-data/data";
 const SUP = {
@@ -384,7 +385,66 @@ if (stats) {
 
 let nEq = 0,
   nSub = 0,
-  nFig = 0;
+  nFig = 0,
+  nQuote = 0;
+
+/* ---------- 「」引用可解析门禁（七十七批引入，与 validate-physics 同口径）----------
+   硬门禁：detail / oneLiner 里每个「X」都必须在可解析 term 集合内。
+   修辞强调一律写全角双引号 “”，不得用直角引号伪装成链接。 */
+const ROOT = "public";
+const NAME_KEYS = [
+  "term",
+  "termEn",
+  "name",
+  "nameEn",
+  "n",
+  "nEn",
+  "title",
+  "titleEn",
+  "label",
+  "labelEn",
+  "cn",
+  "cnEn",
+  "dyn",
+  "dynasty",
+];
+const resolvable = new Set();
+for (const d of fs
+  .readdirSync(ROOT)
+  .filter((x) => x.endsWith("-data") && fs.existsSync(join(ROOT, x, "data")))) {
+  for (const f of fs
+    .readdirSync(join(ROOT, d, "data"))
+    .filter((x) => x.endsWith(".json"))) {
+    let j;
+    try {
+      j = JSON.parse(fs.readFileSync(join(ROOT, d, "data", f), "utf8"));
+    } catch {
+      continue;
+    }
+    const arr = Array.isArray(j)
+      ? j
+      : j.items || j.data || j.entries || j.nodes || j.things || [];
+    if (!Array.isArray(arr)) continue;
+    for (const it of arr) {
+      for (const k of NAME_KEYS)
+        if (typeof it[k] === "string") resolvable.add(it[k].trim());
+      for (const t of it.tags || []) if (t && t.zh) resolvable.add(t.zh);
+    }
+  }
+}
+{
+  const ts = fs.readFileSync("src/subjects/chem/data.ts", "utf8");
+  for (const m of ts.matchAll(/title: \{ zh: "([^"]+)"/g)) resolvable.add(m[1]);
+}
+for (const s of JSON.parse(fs.readFileSync("src/core/subjects.json", "utf8"))) {
+  resolvable.add(s.zh);
+  if (s.nameZh) resolvable.add(s.nameZh);
+}
+ok(
+  resolvable.size >= 5000,
+  `resolvable set 异常过小 ${resolvable.size}（构建可能失败，集合不可信）`,
+);
+
 for (const key of list) {
   const items = JSON.parse(fs.readFileSync(`${DIR}/${key}.json`, "utf8"));
   for (const it of items) {
@@ -427,6 +487,18 @@ for (const key of list) {
         !/\*\*|`/.test(text),
         `${tag} detail 含 markdown 标记（渲染层 esc 后原样显示）`,
       );
+    }
+    /* 「」引用可解析（zh 侧，detail + oneLiner）——与 validate-physics 同口径，谓词不 trim */
+    for (const fld of ["detail", "oneLiner"]) {
+      const t = it[fld];
+      if (typeof t !== "string") continue;
+      for (const mm of t.matchAll(/「([^」]+)」/g)) {
+        nQuote++;
+        ok(
+          resolvable.has(mm[1]),
+          `${tag}[${fld}] 「${mm[1]}」非可解析 term（应改全角双引号 “” 或指向真实条目）`,
+        );
+      }
     }
     const subs = it.subs || [];
     nSub += subs.length;
@@ -491,7 +563,7 @@ for (const key of list) {
   }
 }
 console.log(
-  `模块 ${list.join(",")} | 方程式 ${nEq} | subs ${nSub} | figure ${nFig}`,
+  `模块 ${list.join(",")} | 方程式 ${nEq} | subs ${nSub} | figure ${nFig} | 「」引用 ${nQuote} (集 ${resolvable.size})`,
 );
 console.log(`pass=${pass} fail=${fails.length} warn=${warns.length}`);
 if (warns.length)

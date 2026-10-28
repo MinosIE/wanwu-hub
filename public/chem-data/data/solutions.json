@@ -7,7 +7,7 @@
     "level": 1,
     "oneLiner": "连接微观粒子与宏观质量的桥梁，1 mol 含约 6.02×10²³ 个粒子。",
     "oneLinerEn": "Bridges particles and mass; 1 mol holds about 6.02×10²³ entities.",
-    "detail": "物质的量是把微观粒子数与宏观质量、体积连起来的桥梁，单位摩尔（mol），符号 n。1 mol 任何指定粒子的数目都等于阿伏伽德罗常数 Nₐ 约 6.02×10²³，它把一个数不到也摸不着的「个数」换成可以称量的量。四条换算都绕着 n 转：n = m/M（质量除以摩尔质量）、n = N/Nₐ（粒子数除以常数）、标准状况下气体用 n = V 除以 22.4 L/mol、溶液里 n = cV。用摩尔必须讲清是哪种微粒，说「1 mol 氧」是含糊的，要写明 1 mol O 原子还是 1 mol O₂ 分子；摩尔质量以 g/mol 为单位时数值上正好等于相对原子或分子质量，这是「摩尔」在计算里最好用的一处巧合。",
+    "detail": "物质的量是把微观粒子数与宏观质量、体积连起来的桥梁，单位摩尔（mol），符号 n。1 mol 任何指定粒子的数目都等于阿伏伽德罗常数 Nₐ 约 6.02×10²³，它把一个数不到也摸不着的“个数”换成可以称量的量。四条换算都绕着 n 转：n = m/M（质量除以摩尔质量）、n = N/Nₐ（粒子数除以常数）、标准状况下气体用 n = V 除以 22.4 L/mol、溶液里 n = cV。用摩尔必须讲清是哪种微粒，说“1 mol 氧”是含糊的，要写明 1 mol O 原子还是 1 mol O₂ 分子；摩尔质量以 g/mol 为单位时数值上正好等于相对原子或分子质量，这是「摩尔」在计算里最好用的一处巧合。",
     "detailEn": "Amount of substance bridges the uncountable micro world and the weighable macro one; its unit is the mole (mol) and its symbol n. One mole of any specified particles holds Avogadro's number NA, about 6.02×10²³, turning a count you can never reach into a mass you can. Four conversions run through n: n = m/M, n = N/NA, for gases at STP n = V over 22.4 L/mol, and in solution n = cV. You must name the entity — saying one mole of oxygen is ambiguous, so write O atoms or O₂ molecules. Numeric in grams per mole it equals relative formula mass, which is what makes the mole so handy in calculation (see Mole).",
     "tags": ["计算"],
     "tagsEn": ["Calculation"]
