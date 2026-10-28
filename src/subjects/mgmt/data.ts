@@ -215,7 +215,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Taylor's ideas hit the shop floor: the moving assembly line made cars ever faster and cheaper to build, reshaping mass production and consumption.",
           },
           detail: {
-            zh: "亨利·福特 1913 年引入移动装配线，把整车装配拆成数百个简单工序、让工件流向工人而非工人绕车转，装配时间骤降；配合「五美元日薪」稳定人手、并让员工买得起车，形成大规模生产—大规模消费的循环。它的代价是高度重复、去技能化与刚性，只适合单一品种的标准化产品。",
+            zh: "亨利·福特 1913 年引入移动装配线，把整车装配拆成数百个简单工序、让工件流向工人而非工人绕车转，装配时间骤降；配合“五美元日薪”稳定人手、并让员工买得起车，形成大规模生产—大规模消费的循环。它的代价是高度重复、去技能化与刚性，只适合单一品种的标准化产品。",
             en: "In 1913 Henry Ford ran a moving line, splitting final assembly into hundreds of simple steps with the work flowing to the worker, slashing build time; the 'five-dollar day' steadied labor and let workers buy the cars, fusing mass production with mass consumption. Its price was repetition, deskilling and rigidity suited only to one standardized model.",
           },
           tags: [{ zh: "古典", en: "Classical" }],
@@ -227,11 +227,11 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "福列特：整合与赋权", en: "Follett: Integration & Empowerment" },
           level: 2,
           oneLiner: {
-            zh: "被尊为「现代管理理论之母」：她主张用整合取代妥协、以影响而非权力压人，早已预见协作式管理。",
+            zh: "被尊为“现代管理理论之母”：她主张用整合取代妥协、以影响而非权力压人，早已预见协作式管理。",
             en: "Hailed as the mother of modern management theory, she urged integration over compromise and influence over coercive power—an early foresight of collaborative management.",
           },
           detail: {
-            zh: "玛丽·帕克·福列特认为冲突不必是你输我赢：除了压制与妥协，还有「整合」——把双方真正的需求摆上台面，创造出谁都不曾想到的第三种方案。她区分「凌驾于人之上的权力」与「与人共享的权力」，强调管理者应靠专业与情境规律而非职位发号施令，让共享权力滋养组织。",
+            zh: "玛丽·帕克·福列特认为冲突不必是你输我赢：除了压制与妥协，还有“整合”——把双方真正的需求摆上台面，创造出谁都不曾想到的第三种方案。她区分“凌驾于人之上的权力”与“与人共享的权力”，强调管理者应靠专业与情境规律而非职位发号施令，让共享权力滋养组织。",
             en: "Mary Parker Follett held that conflict need not be win-lose: besides domination and compromise lies integration—surfacing each side's real need to invent a third way neither had seen. She distinguished power-over people from power-with them, urging managers to lead by expertise and the law of the situation rather than rank.",
           },
           tags: [{ zh: "行为", en: "Behavioural" }],
@@ -247,7 +247,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Do not patch old steps—start over: work process-by-process, face the customer, seek a leap in performance, not gradual tweaks.",
           },
           detail: {
-            zh: "哈默与钱皮在二十世纪九十年代提出：组织常被职能切成一段段“铁路分段”，没人对整体结果负责。再造要求回到「我们为何做这件事」，围绕端到端流程重新设计，借信息技术合并岗位、并行作业，敢于设定非线性的高目标。它既带来显著提效，也因常被当作裁员的借口、变革剧烈而失败率颇高；但它把流程视角深深植入了后世的管理实践。",
+            zh: "哈默与钱皮在二十世纪九十年代提出：组织常被职能切成一段段“铁路分段”，没人对整体结果负责。再造要求回到“我们为何做这件事”，围绕端到端流程重新设计，借信息技术合并岗位、并行作业，敢于设定非线性的高目标。它既带来显著提效，也因常被当作裁员的借口、变革剧烈而失败率颇高；但它把流程视角深深植入了后世的管理实践。",
             en: "Hammer and Champy argued in the 1990s that firms are sliced by function into 'railroad segments' with no one owning the whole result. Reengineering returns to why we do the work at all, redesigning end-to-end processes, merging roles and running steps in parallel with IT, and daring nonlinear targets. It brought big gains—and big failures when used as a euphemism for downsizing—yet planted the process lens deep in later practice.",
           },
           tags: [{ zh: "现代", en: "Modern" }],
@@ -591,7 +591,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Rather than out-feature the product, claim one simple, distinct spot in the customer's mind — positioning wins the mind before the shelf.",
           },
           detail: {
-            zh: "由里斯与特劳特在二十世纪七十年代提出：竞争的真正战场是消费者有限的心智。品牌应聚焦一个词、一个差异点，抢先占据并反复强化（如「安全」之于沃尔沃、「次日必达」之于快递公司）；若已有强者盘踞，就重新定位对手、给自己腾出空位。它强调做减法——敢于放弃部分诉求，以换取心智中的清晰与第一。它与 SWOT、波特五力的外向分析互补，共同回答「顾客凭什么选中你」。",
+            zh: "由里斯与特劳特在二十世纪七十年代提出：竞争的真正战场是消费者有限的心智。品牌应聚焦一个词、一个差异点，抢先占据并反复强化（如“安全”之于沃尔沃、“次日必达”之于快递公司）；若已有强者盘踞，就重新定位对手、给自己腾出空位。它强调做减法——敢于放弃部分诉求，以换取心智中的清晰与第一。它与 SWOT、波特五力的外向分析互补，共同回答“顾客凭什么选中你”。",
             en: "Proposed by Ries and Trout in the 1970s, it holds that the real battlefield is the customer's limited mind. A brand should focus on one word, one point of difference, seize it early and reinforce it (safety for a car maker, next-day delivery for a courier); when a rival already owns a position, reposition the rival to free a gap. It stresses subtraction, trading away some claims to win clarity and being-first in the mind. It complements the outside-in analysis of SWOT and Porter's five forces in answering why a customer should choose you.",
           },
           tags: [{ zh: "定位", en: "Positioning" }],
@@ -607,7 +607,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Ask four things of each resource: does it create value, is it rare, is it costly to imitate, is the firm organised to exploit it — only a clean sweep of all four yields sustained advantage.",
           },
           detail: {
-            zh: "由巴尼在彭罗斯资源观的基础上发展而成：企业被看作一束独特资源的集合。把一项资源依次过四道筛——能否创造价值、是否稀缺、对手模仿成本高不高（源于独特历史、因果模糊或社会复杂性）、以及组织能否把它用好，四问结果对应出竞争劣势、持平、暂时优势或持续优势。它把「向内看」的视角引入战略：真正的护城河多长在异质、难转移的隐性资源与能力上，而非一时的营销巧思。",
+            zh: "由巴尼在彭罗斯资源观的基础上发展而成：企业被看作一束独特资源的集合。把一项资源依次过四道筛——能否创造价值、是否稀缺、对手模仿成本高不高（源于独特历史、因果模糊或社会复杂性）、以及组织能否把它用好，四问结果对应出竞争劣势、持平、暂时优势或持续优势。它把“向内看”的视角引入战略：真正的护城河多长在异质、难转移的隐性资源与能力上，而非一时的营销巧思。",
             en: "Developed by Barney on the resource-based view rooted in Penrose: the firm is a bundle of distinctive resources. Run each resource through four screens — does it create value, is it rare, is it costly for rivals to imitate (through unique history, causal ambiguity or social complexity), and is the firm organised to capture its value — and the answers map to competitive disadvantage, parity, temporary advantage or sustained advantage. It brings an inside-out lens to strategy: the real moat usually grows on heterogeneous, hard-to-transfer tacit resources, not on a passing marketing trick.",
           },
           tags: [{ zh: "优势", en: "Advantage" }],
@@ -623,7 +623,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "A good business sits behind a moat that deters rivals — brand, switching cost, network effect or cost advantage — so excess returns can endure.",
           },
           detail: {
-            zh: "这一说法因巴菲特而广为人知，指企业可持续的结构性竞争优势，能把竞争者挡在高回报之外。常见类型：无形资产（品牌、专利、监管牌照）、客户转换成本、网络效应、成本优势与高效规模。检验它的最终标准是「定价权」——能否提价而不流失客户。护城河并非一劳永逸，会被技术、政策与消费习惯侵蚀，故战略与投资都要持续分辨：这道优势究竟在变宽还是变窄。",
+            zh: "这一说法因巴菲特而广为人知，指企业可持续的结构性竞争优势，能把竞争者挡在高回报之外。常见类型：无形资产（品牌、专利、监管牌照）、客户转换成本、网络效应、成本优势与高效规模。检验它的最终标准是“定价权”——能否提价而不流失客户。护城河并非一劳永逸，会被技术、政策与消费习惯侵蚀，故战略与投资都要持续分辨：这道优势究竟在变宽还是变窄。",
             en: "Popularised by Buffett, it names a firm's durable structural advantage that keeps rivals out of its high returns. Common kinds: intangible assets (brand, patents, licences), customer switching costs, network effects, cost advantage and efficient scale. The ultimate test is pricing power, the ability to raise prices without losing customers. A moat is never permanent; technology, policy and taste can erode it, so strategy and investing alike must keep asking whether the advantage is widening or narrowing.",
           },
           tags: [{ zh: "优势", en: "Advantage" }],
@@ -639,7 +639,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Every growth curve eventually tops out; start the new second curve before the first one declines.",
           },
           detail: {
-            zh: "由哲学家查尔斯·汉迪提出、后由德格斯用于组织变革：S 形曲线描述事物从投入、起飞、成熟到衰退的轨迹，而最危险的时刻恰是巅峰——既得利益与惯性会让人拒绝改变。因此第二曲线必须在第一曲线仍处上升、资源尚充足时就播下种子，尽管它初期看起来更小、更不划算，且常与现有业务争夺资源、触发「创新者的窘境」。它考验领导者的关键正在于：在成功如日中天时主动自我颠覆。",
+            zh: "由哲学家查尔斯·汉迪提出、后由德格斯用于组织变革：S 形曲线描述事物从投入、起飞、成熟到衰退的轨迹，而最危险的时刻恰是巅峰——既得利益与惯性会让人拒绝改变。因此第二曲线必须在第一曲线仍处上升、资源尚充足时就播下种子，尽管它初期看起来更小、更不划算，且常与现有业务争夺资源、触发“创新者的窘境”。它考验领导者的关键正在于：在成功如日中天时主动自我颠覆。",
             en: "Raised by the philosopher Handy and applied to organisations by de Geus: the S-curve traces a rise, take-off, maturity and decline, and the most dangerous moment is the peak itself, when vested interest and inertia resist change. The second curve must therefore be seeded while the first is still climbing and resources are plentiful, even though it looks smaller and less worthwhile early on, competes with the core for resources, and can trigger the innovator's dilemma. The defining test of leadership is to self-disrupt at the height of success.",
           },
           tags: [{ zh: "创新", en: "Innovation" }],
@@ -1699,11 +1699,11 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "实物期权", en: "Real Options" },
           level: 3,
           oneLiner: {
-            zh: "把「未来的选择权」也算进价值：投资不只是当下净现值为正，更在于它买下了日后扩张、放弃或转向的权利。",
+            zh: "把“未来的选择权”也算进价值：投资不只是当下净现值为正，更在于它买下了日后扩张、放弃或转向的权利。",
             en: "Count the right to decide later as value: an investment is not just positive net present value now, but the option to expand, abandon or switch down the road.",
           },
           detail: {
-            zh: "传统折现把项目看成一条既定路径，低估了管理层的应变价值。实物期权借用金融期权的思路：一笔前期投入往往开出后续的选择——研发成功可加码扩张（增长期权）、行情变差可止损退出（放弃期权）、技术路线未明可推迟等待更清晰（延迟期权）。不确定性越大，这份灵活性的价值越高，有时足以让「当下账面为负、但期权为正」的项目值得尝试。它提醒人们别把决策简化成一次性的机械折现，而要显式为「保留选择权」付费。",
+            zh: "传统折现把项目看成一条既定路径，低估了管理层的应变价值。实物期权借用金融期权的思路：一笔前期投入往往开出后续的选择——研发成功可加码扩张（增长期权）、行情变差可止损退出（放弃期权）、技术路线未明可推迟等待更清晰（延迟期权）。不确定性越大，这份灵活性的价值越高，有时足以让“当下账面为负、但期权为正”的项目值得尝试。它提醒人们别把决策简化成一次性的机械折现，而要显式为“保留选择权”付费。",
             en: "Plain discounting treats a project as one fixed path and undervalues managerial flexibility. Real options borrow the logic of financial options: an early outlay often opens later choices—scale up if research succeeds (growth option), exit if the market sours (abandonment option), or wait for a clearer line before committing (deferral option). The more uncertainty, the more this flexibility is worth, sometimes enough to justify a project that looks negative on the books today yet carries positive option value. It warns against reducing decisions to one-shot mechanical discounting and urges paying explicitly for keeping options open.",
           },
           tags: [{ zh: "不确定性", en: "Uncertainty" }],
@@ -1715,11 +1715,11 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "AHP 层次分析法", en: "Analytic Hierarchy Process" },
           level: 2,
           oneLiner: {
-            zh: "把复杂的权衡拆成「目标—准则—方案」的层级，再靠两两比较算出权重，让主观判断变得可核对。",
+            zh: "把复杂的权衡拆成“目标—准则—方案”的层级，再靠两两比较算出权重，让主观判断变得可核对。",
             en: "Break a tangled choice into a goal-criteria-alternatives hierarchy, then derive weights from pairwise comparisons so gut judgement turns auditable.",
           },
           detail: {
-            zh: "由数学家萨蒂提出的这套方法：先搭出层次结构，再就每个准则把方案两两对比、回答「甲比乙重要多少」，通过判断矩阵算出各方案的相对权重，并用「一致性比率」检查你的打分是否自相矛盾。它把含糊的直觉转成可追溯的数字，适合选址、供应商评估、技术路线这类难以直接量化的多准则决策。局限也很清楚：方案一多，两两比较的工作量与打分的主观性都会上升，权重也仍靠人给定。",
+            zh: "由数学家萨蒂提出的这套方法：先搭出层次结构，再就每个准则把方案两两对比、回答“甲比乙重要多少”，通过判断矩阵算出各方案的相对权重，并用“一致性比率”检查你的打分是否自相矛盾。它把含糊的直觉转成可追溯的数字，适合选址、供应商评估、技术路线这类难以直接量化的多准则决策。局限也很清楚：方案一多，两两比较的工作量与打分的主观性都会上升，权重也仍靠人给定。",
             en: "Devised by the mathematician Saaty, the method first builds a hierarchy, then, criterion by criterion, compares alternatives two at a time asking how much one outweighs another, derives relative weights from the judgement matrix, and uses a consistency ratio to flag self-contradictory scores. It turns fuzzy intuition into traceable numbers and suits multi-criteria choices that resist direct measurement—siting, supplier selection, technology bets. Its limits are plain too: as options multiply, the volume of comparisons and the subjectivity of scoring both grow, and the weights are still human-set.",
           },
           tags: [{ zh: "决策", en: "Decision" }],
@@ -1735,7 +1735,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Observe, orient, decide, act, then loop fast and adjust mid-flight; whoever cycles quicker than the rival holds the initiative.",
           },
           detail: {
-            zh: "由战斗机飞行员博伊德总结：决策不是一次性的静态分析，而是在不断变化的环境里反复循环。其中「判断（定向）」最关键——它由既有经验、文化与新信息共同塑造，决定你如何看待眼前的局面。在商业里，OODA 鼓励缩短反馈周期、小步快跑、依据市场实况迅速修正，而不是困守一份过时的计划；它与精益创业的「构建—衡量—学习」异曲同工，都强调在动态中比对手更快学习、更快转身。",
+            zh: "由战斗机飞行员博伊德总结：决策不是一次性的静态分析，而是在不断变化的环境里反复循环。其中“判断（定向）”最关键——它由既有经验、文化与新信息共同塑造，决定你如何看待眼前的局面。在商业里，OODA 鼓励缩短反馈周期、小步快跑、依据市场实况迅速修正，而不是困守一份过时的计划；它与精益创业的“构建—衡量—学习”异曲同工，都强调在动态中比对手更快学习、更快转身。",
             en: "Distilled by fighter pilot Boyd, it holds that deciding is not one-shot static analysis but a loop repeated in a shifting environment. The orient step matters most: shaped by prior experience, culture and fresh input, it sets how you read the situation. In business the loop urges shorter feedback cycles, fast small moves and quick correction against live market signals rather than clinging to an outdated plan; it rhymes with the lean startup build-measure-learn cycle, both stressing faster learning and faster turning than the competitor.",
           },
           tags: [{ zh: "行动", en: "Action" }],
@@ -1747,11 +1747,11 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "加权决策矩阵", en: "Weighted Decision Matrix" },
           level: 1,
           oneLiner: {
-            zh: "选项列成行、准则列成列，各按重要性加权打分再求和——一张表把「取舍」摊到阳光下。",
+            zh: "选项列成行、准则列成列，各按重要性加权打分再求和——一张表把“取舍”摊到阳光下。",
             en: "Options as rows, criteria as columns, each scored and weighted by importance then summed—one grid that lays the trade-off out in plain sight.",
           },
           detail: {
-            zh: "又称普格矩阵或打分模型：先确定评判准则并赋权重，再为每个方案逐项打分、加权求和排序，把各说各话的争论转成透明的数字比较。它简单直观，适合选供应商、挑方案、定优先级。但要警惕陷阱：权重本身可能带着偏见、打分依据未必统一，还容易给人「数字精确」的错觉——其实输入的估计很粗糙。它能结构化思考，却不会替你做真正的价值判断。",
+            zh: "又称普格矩阵或打分模型：先确定评判准则并赋权重，再为每个方案逐项打分、加权求和排序，把各说各话的争论转成透明的数字比较。它简单直观，适合选供应商、挑方案、定优先级。但要警惕陷阱：权重本身可能带着偏见、打分依据未必统一，还容易给人“数字精确”的错觉——其实输入的估计很粗糙。它能结构化思考，却不会替你做真正的价值判断。",
             en: "Also called a Pugh matrix or scoring model: first fix the criteria and their weights, then score each option item by item, multiply and rank, turning a talk-past-each-other argument into transparent numeric comparison. It is simple and visual, fitting supplier choice, option picking and prioritising. Beware the traps, though: the weights can smuggle in bias, scoring bases may differ, and the neat figures can feign precision built on rough inputs. It structures thinking but does not make the real value judgements for you.",
           },
           tags: [{ zh: "决策", en: "Decision" }],
@@ -2627,11 +2627,11 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "CAPM 资本资产定价模型", en: "Capital Asset Pricing Model" },
           level: 3,
           oneLiner: {
-            zh: "收益要补偿风险，但市场只补偿「分散不掉」的系统性风险——系数越大，要求的回报越高。",
+            zh: "收益要补偿风险，但市场只补偿“分散不掉”的系统性风险——系数越大，要求的回报越高。",
             en: "Return must pay for risk, but the market only rewards the systematic risk you cannot diversify away—the higher the coefficient, the higher the required return.",
           },
           detail: {
-            zh: "模型给出一条简洁公式：某资产的预期收益等于无风险利率加上该资产相对大盘的敏感度（贝塔）乘以市场风险溢价。它把风险分成可被分散消除的非系统性风险与逃不掉的系统性风险，认为理性市场只为后者付费。它被广泛用于估算股权成本、给项目设定「至少该赚多少才算够」的门槛。正因假设苛刻（人人理性、持有同一市场组合）而常被质疑，但作为思维的基准线，它把「高收益究竟来自承担哪种风险」说得极其透彻。",
+            zh: "模型给出一条简洁公式：某资产的预期收益等于无风险利率加上该资产相对大盘的敏感度（贝塔）乘以市场风险溢价。它把风险分成可被分散消除的非系统性风险与逃不掉的系统性风险，认为理性市场只为后者付费。它被广泛用于估算股权成本、给项目设定“至少该赚多少才算够”的门槛。正因假设苛刻（人人理性、持有同一市场组合）而常被质疑，但作为思维的基准线，它把“高收益究竟来自承担哪种风险”说得极其透彻。",
             en: "The model yields one compact formula: an asset's expected return equals the risk-free rate plus its sensitivity to the whole market (beta) times the market risk premium. It splits risk into non-systematic risk that diversification can erase and systematic risk you cannot escape, holding that a rational market pays only for the latter. It is widely used to estimate the cost of equity and to set the hurdle of what a project must at least earn. Harsh assumptions (universal rationality, one shared market portfolio) draw steady criticism, yet as a baseline it makes strikingly clear which kind of risk a high return really comes from.",
           },
           tags: [{ zh: "估值", en: "Valuation" }],
@@ -2647,7 +2647,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "A firm runs on debt and equity alike; weighting each by its share gives one blended cost—the discount yardstick of valuation.",
           },
           detail: {
-            zh: "股权成本常用资本资产定价模型估算，债务成本看利率、并因利息可在税前列支而打个折（所谓税盾），再按负债与权益的比例加权，得到综合资本成本。它是净现值与现金流折现估值里那个折现率：数值越低，同样现金流算出的价值越高，所以优化资本结构、降低融资成本会直接抬升企业价值。风险越高的公司这项成本越高、越难为长远项目融资——它把「资本并非免费」量化到了每一个决策上。",
+            zh: "股权成本常用资本资产定价模型估算，债务成本看利率、并因利息可在税前列支而打个折（所谓税盾），再按负债与权益的比例加权，得到综合资本成本。它是净现值与现金流折现估值里那个折现率：数值越低，同样现金流算出的价值越高，所以优化资本结构、降低融资成本会直接抬升企业价值。风险越高的公司这项成本越高、越难为长远项目融资——它把“资本并非免费”量化到了每一个决策上。",
             en: "The cost of equity is often estimated with the capital asset pricing model; the cost of debt reads off interest rates and, because interest is tax-deductible, is discounted by a so-called tax shield; weighting the two by their shares gives the blended figure. It is the discount rate inside net present value and discounted-cash-flow valuation: the lower it runs, the higher the value of the same cash flows, so tuning capital structure and cutting funding cost lift firm value directly. Riskier firms face a higher cost and struggle to fund long projects—it quantifies capital is never free in every decision.",
           },
           tags: [{ zh: "财务", en: "Finance" }],
@@ -3447,7 +3447,7 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
             en: "Influence needs no office: reciprocity, commitment, social proof, liking, authority and scarcity are levers you pull and switches others pull on you.",
           },
           detail: {
-            zh: "西奥迪尼 1984 年从参与式观察销售、募捐与传销行业归纳出六条自动反应（2021 年补第七条「认同」，即「我们」的归属感）。它们之所以有效，是因为人在信息过载时依赖便宜的社会线索：先收小恩就难拒绝更大的请求（互惠）、公开而主动作出的小承诺会被拿来对齐大行为（承诺一致）、不知道怎么办时看相似的人怎么做（社会认同）、相似、赞美、合作与接触会提高顺从（喜好）、头衔制服与符号即构成服从（权威）、限量与截止制造稀缺感（稀缺）。管理上的正当用法是把它们变成透明机制：先给出真实价值再谈要求、让员工参与决策而非被通知、用「同类都在做」代替命令、把名额与期限说真话。识别滥用的判据也简单：一旦对方给的「好处」明显超出你的需要、且立刻附带更大的请求，你面对的不是善意而是脚本。它与权力的五种基础互补——专家权力与参照权力讲的是你是谁，六原则讲的是这句话怎么说。",
+            zh: "西奥迪尼 1984 年从参与式观察销售、募捐与传销行业归纳出六条自动反应（2021 年补第七条“认同”，即“我们”的归属感）。它们之所以有效，是因为人在信息过载时依赖便宜的社会线索：先收小恩就难拒绝更大的请求（互惠）、公开而主动作出的小承诺会被拿来对齐大行为（承诺一致）、不知道怎么办时看相似的人怎么做（社会认同）、相似、赞美、合作与接触会提高顺从（喜好）、头衔制服与符号即构成服从（权威）、限量与截止制造稀缺感（稀缺）。管理上的正当用法是把它们变成透明机制：先给出真实价值再谈要求、让员工参与决策而非被通知、用“同类都在做”代替命令、把名额与期限说真话。识别滥用的判据也简单：一旦对方给的“好处”明显超出你的需要、且立刻附带更大的请求，你面对的不是善意而是脚本。它与权力的五种基础互补——专家权力与参照权力讲的是你是谁，六原则讲的是这句话怎么说。",
             en: "Cialdini distilled six automatic responses in 1984 by taking part in sales, fundraising and direct-marketing work (a seventh, unity, arrived in 2021). They work because overloaded people lean on cheap social cues: a small favour makes the larger request hard to refuse; a commitment made publicly and actively gets aligned with later behaviour; when unsure we copy similar others; similarity, praise, cooperation and contact raise compliance; titles, uniforms and symbols elicit obedience; limits and deadlines manufacture scarcity. Legitimate management use turns them into transparent mechanics: give real value before asking, let people co-decide rather than be notified, replace orders with 'people like you already do this', and tell the truth about quotas and deadlines. The abuse test is just as plain: when the benefit offered clearly exceeds your need and arrives with a larger request attached, you are facing a script rather than goodwill. It complements the five bases of power — expert and referent power are about who you are, the six principles are about how the sentence is built.",
           },
           tags: [{ zh: "说服", en: "Persuasion" }, { zh: "影响力", en: "Influence" }],
@@ -3459,11 +3459,11 @@ export const mgmtData: Omit<SubjectConfig, "rootClass" | "accent"> = {
           term: { zh: "关系、人情与面子：本土组织行为", en: "Guanxi, Renqing and Face in Chinese Organisations" },
           level: 3,
           oneLiner: {
-            zh: "在中文语境里，组织结构图上还跑着第二套结构：谁被当「自己人」、欠了多少人情、这件事会不会让大家没面子。",
+            zh: "在中文语境里，组织结构图上还跑着第二套结构：谁被当“自己人”、欠了多少人情、这件事会不会让大家没面子。",
             en: "In Chinese settings a second org chart runs over the first: who counts as one of us, how much favour is owed, and whether this leaves everyone without face.",
           },
           detail: {
-            zh: "费孝通用「差序格局」描述中国人以己为中心、像水纹一样按亲疏推开的关系结构；黄光国在此之上把关系分为情感性关系（家人挚友，运行需求法则）、工具性关系（陌生场合，运行公平法则）与介乎两者的混合关系（同事、客户、同乡，运行人情法则——受恩要报、且不能当场结清），并指出正是混合关系里面子与人情成为可兑换的资源。组织层面的后果是可观察的：晋升与资源分配中的「自己人」效应、决策前先私下通气以避免会上让人难堪、以及「给面子」作为公开的协调机制。它既降低交易成本（信任不必从零建立），也带来关系税（能力不够的人占位、规则被例外侵蚀）。边界判据是：关系是否以公共规则为代价——一旦人情可以折现，它就滑向寻租。它与权力的五种基础中参照权力、心理契约与组织文化互补，不同的是它把文化脚本本身当作变量。",
+            zh: "费孝通用“差序格局”描述中国人以己为中心、像水纹一样按亲疏推开的关系结构；黄光国在此之上把关系分为情感性关系（家人挚友，运行需求法则）、工具性关系（陌生场合，运行公平法则）与介乎两者的混合关系（同事、客户、同乡，运行人情法则——受恩要报、且不能当场结清），并指出正是混合关系里面子与人情成为可兑换的资源。组织层面的后果是可观察的：晋升与资源分配中的“自己人”效应、决策前先私下通气以避免会上让人难堪、以及“给面子”作为公开的协调机制。它既降低交易成本（信任不必从零建立），也带来关系税（能力不够的人占位、规则被例外侵蚀）。边界判据是：关系是否以公共规则为代价——一旦人情可以折现，它就滑向寻租。它与权力的五种基础中参照权力、心理契约与组织文化互补，不同的是它把文化脚本本身当作变量。",
             en: "Fei Xiaotong described Chinese ties as a differential mode of association: ripples pushed outward from the self by closeness. Huang Kwang-kuo built on it a three-type scheme — affective ties (family and intimate friends, run on the need rule), instrumental ties (stranger settings, run on equity) and the mixed ties in between (colleagues, clients, townspeople, run on the renqing rule: a favour must be repaid, and never settled on the spot) — showing that precisely inside mixed ties face and favour become convertible resources. The organisational consequences are observable: an insider effect in promotion and allocation, pre-briefing before the meeting so nobody is embarrassed in public, and face-giving as a public coordination device. It lowers transaction costs, since trust need not start at zero, and it levies a relationship tax, as weaker people hold posts and rules erode through exceptions. The boundary test is whether the tie is paid for out of public rules — once favour can be cashed out it slides into rent-seeking. It complements referent power, the psychological contract and organisational culture, with one difference: it treats the cultural script itself as the variable.",
           },
           tags: [{ zh: "本土", en: "Indigenous" }, { zh: "文化", en: "Culture" }],
