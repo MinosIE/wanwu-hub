@@ -7,8 +7,8 @@
     "level": 2,
     "oneLiner": "按端到端的“流程”而非部门职能来设计工作；再造则是推倒重来而非修修补补。",
     "oneLinerEn": "Design work around end-to-end processes rather than functions; reengineering means tearing it up, not tidying it.",
-    "detail": " Hammer 与钱皮(1993)主张对流程做根本再思考、彻底重设计，以在成本、质量、速度上取得飞跃，但高失败率也让“再造”名声复杂。更稳健的日常做法是流程管理:显式描绘价值流、度量周期与缺陷、持续小幅改进。两者共同的盲点常是“人”——流程改了、考核与权责没跟着改，就会反弹。",
-    "detailEn": "Hammer and Champy (1993) urged fundamental rethinking and radical redesign of processes for leaps in cost, quality and speed — but high failure rates made 'reengineering' a mixed legacy. The steadier daily practice is process management: map the flow, measure cycle time and defects, improve in small steps. The shared blind spot is people — change the process but not the metrics and accountability, and it rebounds.",
+    "detail": "面对流程，管理界有两套打法。一套是迈克尔·哈默与詹姆斯·钱皮 1993 年在《企业再造》里鼓吹的彻底重设计：对流程做根本再思考、推倒重来，以求在成本、质量、速度上取得飞跃——它启发了无数公司，但高失败率也让“再造”一度名声复杂。更稳健的日常做法是流程管理：把价值流显式描绘出来、度量周期时间与缺陷率、持续小幅改进。两者共同的盲点常是“人”——流程改了、考核与权责没跟着改就会反弹；再造若只当裁员工具、而非真正重构做事方式，也很容易昙花一现。因此成功的关键不在有没有画出一张新流程图，而在绩效、激励与权责、信息是否随之同步改弦——否则再漂亮的蓝图也会悄悄退回旧轨道。",
+    "detailEn": "Toward process, management offers two playbooks. One is the radical redesign Michael Hammer and James Champy championed in Reengineering the Corporation (1993): rethink a process from the ground up and rebuild it anew to leap in cost, quality and speed—it inspired countless firms, yet a high failure rate left \"reengineering\" with a checkered reputation. The steadier day-to-day path is process management: map the value flow explicitly, measure cycle time and defect rate, and improve in small continuous steps. The shared blind spot of both is people—change the process while pay, appraisal and authority stay put and it rebounds; treat reengineering as a headcount axe rather than a genuine reweaving of how work gets done, and the gains prove fleeting.",
     "tags": ["运营"],
     "tagsEn": ["Operations"],
     "related": ["lean-production", "pdca", "systems-view", "reengineering"]
@@ -91,8 +91,8 @@
     "level": 2,
     "oneLiner": "在需要的时间、按需要的量送到——用 EOQ 与看板把库存与缺货在两端之间权衡。",
     "oneLinerEn": "Deliver what is needed when it is needed — trade stock against shortages with EOQ and kanban.",
-    "detail": "库存既缓冲不确定性也占用资金、掩盖问题(“水位降下,礁石露出”)。经济订货量(EOQ)在订货成本与持有成本间求平衡点;安全库存应对需求与交期的波动;看板则用“下游拉动上游”的信号取代提前生产。JIT 把这套推向极致,但也让系统更脆——一次断供就能停线,需要与供应商深度协同。",
-    "detailEn": "Inventory buffers uncertainty yet ties up cash and hides problems ('when the water drops, the rocks appear'). EOQ balances ordering against holding cost, safety stock absorbs swings in demand and lead time, and kanban replaces forecast-push with downstream pulling upstream. JIT takes this to the limit but makes the system more brittle — one missed delivery stops the line — demanding close supplier partnership.",
+    "detail": "库存像水库：它缓冲不确定性，却也占用资金、掩盖问题——大野耐一的比喻是“水位降下，礁石露出”。经典做法是经济订货量（EOQ），在订货成本与持有成本之间求一个平衡点；安全库存则用来应对需求与交期的波动。准时制（JIT）把这套推向极致：以“下游拉动上游”的看板信号取代提前生产，让物料按需到位。但少库存也让系统更脆——一次断供就能停线，2011 年日本地震使全球汽车与电子供应链断裂便是例证。因此 JIT 不是“库存越少越好”，而要与供应商深度协同、与风险冗余反复权衡。这也解释了为何在瘟疫与地缘冲击之后，许多企业不再一味追求零库存，而是回头补上关键料件的安全冗余。",
+    "detailEn": "Inventory is a reservoir: it buffers uncertainty yet ties up capital and hides problems—Taiichi Ohno's image was that lowering the water level exposes the rocks. The classic tool is the economic order quantity (EOQ), trading ordering cost against holding cost for a balance point, while safety stock absorbs swings in demand and lead time. Just-in-time pushes this to the limit, letting a downstream-pulls-upstream kanban signal replace advance production so materials arrive as needed. But lean stock makes the system brittle—one disrupted supplier can halt a line, as the 2011 earthquake in Japan showed by snapping global auto and electronics chains. So JIT is not \"less inventory is always better\"; it must be paired with deep supplier coordination and a constant weighing of risk against buffer.",
     "tags": ["运营"],
     "tagsEn": ["Operations"],
     "related": ["lean-production", "cashflow", "kanban"]
@@ -175,8 +175,8 @@
     "level": 1,
     "oneLiner": "整理、整顿、清扫、清洁、素养——先管好工位，再谈改善文化。",
     "oneLinerEn": "Sort, set in order, shine, standardise, sustain — tidy the workplace before chasing a culture of improvement.",
-    "detail": "5S 源自丰田，是精益最基础的入门纪律：清除不要之物(整理)、每样东西有固定位置(整顿)、保持干净并暴露异常(清扫)、把前三者制度化(清洁)、靠习惯与自律维持(素养)。看似“大扫除”，实则是让问题一眼可见、减少寻找与浪费的地基，也是检验团队能否坚持小纪律的试金石。",
-    "detailEn": "5S, from Toyota, is lean's most basic discipline: clear what is unneeded (Sort), give everything a home (Set in order), keep it clean so faults show (Shine), make the first three the rule (Standardise), hold it by habit (Sustain). It looks like housekeeping but is really the base that makes problems visible and cuts searching and waste — and a litmus test of whether a team can keep small disciplines.",
+    "detail": "5S 源自丰田（整理、整顿、清扫、清洁、素养，日文各以“S”开头），是精益最基础的入门纪律：清除不要之物（整理）、每样东西有固定位置且一目了然（整顿）、保持干净并借清扫暴露异常（清扫）、把前三者制度化、定成标准（清洁）、靠习惯与自律长期维持（素养）。看似“大扫除”，实则是让问题一眼可见、减少寻找与搬运浪费的地基，也是检验团队能否坚持小纪律的试金石。医院推行 5S 后能降低给药差错与院感，办公室套用则减少找文档、找工具的时间。它的精髓不在一次彻底打扫，而在把“看得见异常”的秩序长期固化下来。少了最后的素养一环，前四步往往在检查过后迅速回潮，5S 因此最考验的其实是管理层的长期坚持。",
+    "detailEn": "5S comes from Toyota (seiri, seiton, seiso, seiketsu, shitsuke—five Japanese words each starting with \"S\") as lean's most basic entry discipline: clear out what is unneeded (sort), give every item a fixed, obvious place (set in order), keep things clean and use cleaning to surface anomalies (shine), institutionalize the first three into standards (standardize), and sustain it by habit and self-discipline (sustain). It looks like spring-cleaning but is really the ground work that makes problems visible at a glance and cuts the waste of searching and carrying—and a touchstone for whether a team can hold small disciplines. Hospitals adopting 5S cut medication errors and infections; offices apply it to reclaim time lost hunting for files and tools. Its point is not one deep clean but freezing an order that reveals anomalies and keeping it for the long haul.",
     "tags": ["运营"],
     "tagsEn": ["Operations"],
     "related": ["lean-production", "poka-yoke", "tqm"]

@@ -147,8 +147,8 @@
     "level": 2,
     "oneLiner": "察觉与管理自己和他人的情绪，往往是比智商更强的领导力预测项。",
     "oneLinerEn": "Perceiving and managing your own and others' emotions is often a better predictor of leadership than IQ.",
-    "detail": "萨洛维与梅耶定义、戈尔曼(1995)推广的“情绪智力”：自我觉察、自我管理、社会觉察、关系管理。戈尔曼主张在领导岗位达到一定认知门槛后，情商才是区分卓越与平庸的关键。它广受欢迎，也被批评为概念泛化、易与人格重叠、测量效度存疑——当作可培养的技能有价值，当作万能指标则需谨慎。",
-    "detailEn": "Salovey and Mayer defined, and Goleman (1995) popularised, 'emotional intelligence': self-awareness, self-management, social awareness and relationship management. Goleman argued that once leaders clear a cognitive threshold, EQ distinguishes the outstanding from the merely adequate. Widely embraced, it is also criticised as conceptually over-broad, overlapping with personality and of contested measurement — valuable as a trainable skill, risky as a do-everything metric.",
+    "detail": "“情绪智力”由彼得·萨洛维与约翰·梅耶 1990 年给出学术定义，再由丹尼尔·戈尔曼 1995 年写进大众视野：自我觉察、自我管理、社会觉察与关系管理。戈尔曼主张，在领导岗位跨过一定的认知门槛之后，情商才是区分卓越与平庸的关键——同样的聪明人，能带好团队的往往赢在共情与自我掌控。它广受欢迎，也被批评为概念泛化、容易与人格重叠、测量效度存疑，有夸大其决定作用之嫌。稳妥的看法是：把它当作可培养、且值得刻意练习的软技能有价值，把它当作万能指标则需谨慎。但不可否认，它让“识人用人、自我修炼”这些老生常谈，第一次有了一套可拆解、可训练的能力语言。",
+    "detailEn": "\"Emotional intelligence\" got its academic definition from Peter Salovey and John Mayer in 1990 and its mass audience from Daniel Goleman in 1995, framed as self-awareness, self-management, social awareness and relationship management. Goleman argued that once leaders clear a certain cognitive threshold, it is emotional intelligence that separates the exceptional from the mediocre—equally bright people, and the ones who lead teams well tend to win on empathy and self-mastery. It is widely embraced yet widely criticized: the concept is seen as slippery and overlapping with personality, its measurement's validity questionable, its causal role overstated. The level-headed read is that treating it as a trainable soft skill worth deliberate practice pays off, while treating it as a do-everything metric invites trouble.",
     "tags": ["领导"],
     "tagsEn": ["Leadership"],
     "related": ["transformational", "psych-safety", "conflict-modes"]
@@ -161,8 +161,8 @@
     "level": 2,
     "oneLiner": "目标—现状—选择—意愿：教练不直接给答案，而是用问题带人自己想通。",
     "oneLinerEn": "Goal, Reality, Options, Will — the coach withholds answers and questions people into their own clarity.",
-    "detail": "亚历山大成形、惠特默推广的 GROW：先澄清要去的 Goal，再看清的 Reality，展开可选的 Options，最后确认行动的 Will。它把管理从“给指令”转向“提好问题”，配合心理安全，让下属自己找到方案并更愿执行。惠特默那句“绩效 = 潜能 − 干扰”是它的精神写照。",
-    "detailEn": "The GROW model, shaped by Alexander and popularised by Whitmore, moves through Goal (where you want to be), Reality (where you are), Options (what you could do) and Will (what you will do). It turns managing from giving orders into asking good questions and, with psychological safety, lets people find their own answers and own the follow-through. Whitmore's 'performance = potential − interference' captures its spirit.",
+    "detail": "GROW 模型由亚历山大成形、约翰·惠特默爵士与团队在 1980 年代推广，把教练式对话固定成四步：先澄清要去的目标，再看清现状，展开可选方案，最后确认行动的意愿与打算。它的价值在于把管理从“给答案、下指令”转向“提好问题”——答案由被辅导者自己说出，承诺度和执行意愿便高了一层。它配合心理安全效果最好：不评判、先听后问。惠特默那句“绩效 = 潜能 − 干扰”是它的精神写照——教练要做的不是往人里塞东西，而是移除阻碍表现的干扰。需要注意的是，GROW 不是走流程的四问：若少了真诚倾听与基本信任，它很快会退化成一套机械话术，反而让人更加戒备。",
+    "detailEn": "The GROW model, shaped by Graham Alexander and popularized in the 1980s by Sir John Whitmore and colleagues, fixes a coaching conversation into four steps: clarify the Goal you're heading to, see the present Reality plainly, open up the Options available, then confirm the Will to act. Its payoff is turning management from \"hand over the answer, give the order\" into \"ask better questions\"—when the coachee voices the answer themselves, buy-in and follow-through rise a notch. It works best atop psychological safety: non-judgmental, listen first, ask second. Whitmore's line \"performance = potential − interference\" is its spirit—coaching is not stuffing things into a person but clearing the interference that blocks performance.",
     "tags": ["领导"],
     "tagsEn": ["Leadership"],
     "related": ["situational-leadership", "goal-setting", "psych-safety"]
@@ -175,8 +175,8 @@
     "level": 2,
     "oneLiner": "培训有没有用分四层看：反应、学习、行为、结果——越往后越难量也越重要。",
     "oneLinerEn": "Judge training on four levels — reaction, learning, behaviour, results — the deeper ones harder to measure and more telling.",
-    "detail": "唐纳德·柯克帕特里克(1959)的四级：学员喜不喜欢(反应)、学到没有(学习)、回去用不用(行为)、业务有没有改善(结果)。多数培训只量到前两级(现场评分表)，真正决定价值的是行为与结果，却最难归因。它提醒：培训评估要往深处走，否则“掌声雷动”与绩效毫无关系。",
-    "detailEn": "Donald Kirkpatrick's four levels (1959): did they like it (Reaction), did they learn (Learning), do they apply it back on the job (Behaviour), did the business improve (Results). Most training is measured only at the first two (smile sheets); what decides value — behaviour and results — is hardest to attribute. It urges evaluation to go deeper, lest applause have nothing to do with performance.",
+    "detail": "唐纳德·柯克帕特里克 1959 年提出培训评估的四级：一级反应（学员喜不喜欢）、二级学习（学到知识技能没有）、三级行为（回到岗位用不用得上）、四级结果（业务指标有没有改善）。多数培训只量到前两级——现场评分表掌声雷动，却与绩效无关；真正决定价值的是行为与结果，却也最难归因（绩效改善可能来自管理、市场或运气而非培训）。它提醒：评估要往深处走，事前就定好“为何而训、拿什么指标验收”，甚至加个对照组，而不是训完发张问卷了事。后世又有菲利普斯的“五级”回本投资回报作为补充。它的四级其实是一条追责链：从“大家满意”一路逼问到“业务是否真的更好”，逼着培训设计者把目的先想清楚。",
+    "detailEn": "In 1959 Donald Kirkpatrick set out four levels for evaluating training: reaction (do learners like it), learning (did knowledge and skill land), behavior (do they apply it back on the job), and results (did business outcomes move). Most training stops at the first two—the happy-sheet applause, unrelated to performance; what actually decides value is behavior and results, yet those are hardest to attribute, since an improvement may come from management, the market or luck rather than the course. Its counsel: push evaluation deeper, fix \"why we train and by what metric we'll judge\" up front, even add a control group, instead of ending with a smile-sheet. Later, Phillips' \"level five\" return-on-investment was bolted on as a supplement.",
     "tags": ["度量"],
     "tagsEn": ["Metrics"],
     "related": ["performance-review", "goal-setting", "learning-org"]
@@ -189,8 +189,8 @@
     "level": 2,
     "oneLiner": "阅读—重述—拆为己用：把书里的知识变成“我自己的下一步行动”，而非止于读完。",
     "oneLinerEn": "Read, Interpret, Appropriate — turn a book's idea into 'my own next action' rather than stopping at finishing it.",
-    "detail": "赵周在《这样读书就够了》中提出，面向成人“翻转式”学习:R 阅读原文片段、I 用自己的话重述、A 拆为己用(A1 联系过往经验、A2 规划具体可执行的下一步应用)。它针对“读了就忘、用不出来”的痛点，把读书从输入变成行动设计，常与拆书帮、便签法、学习型组织结合。",
-    "detailEn": "Set out by Zhao Zhou in 'Reading This Way Is Enough' for adult, flipped learning: R (read the original passage), I (interpretation — restate it in your own words), A (appropriation — A1 linking it to past experience, A2 planning a concrete next application). It targets the 'read it, forget it, never use it' problem, turning reading from input into action design, and pairs with book-club facilitation, the sticky-note method and the learning organisation.",
+    "detail": "RIA 阅读法由赵周在《这样读书就够了》里提出，面向成人“拆书”式学习：R（阅读）阅读原文片段、I（重述）用自己的话重述含义、A（内化）拆为己用——A1 联系自身过往经验、A2 规划具体可执行的下一步应用。它针的是“读了就忘、用不出来”的痛点：成人学习不为积累知识而为改变行为，把读书从被动输入变成行动设计。它常与便签法、拆书帮与学习型组织结合，适合致用类、方法论书，对文学与理论经典则未必合适。它的要点不在快读，而在把一段话接回自己的经验与行动里。说到底，它把“读完没”改成“用到没”来衡量学习，正与成人教育以问题为中心、以应用为归宿的理念相合。",
+    "detailEn": "The RIA method, set out by Zhao Zhou in his reading-for-adults book, is a \"book-dismantling\" approach aimed at adult learning: R (Reading) reads a passage, I (Interpretation) restates its meaning in your own words, and A (Appropriation) makes it yours—A1 links it to your past experience, A2 plans a concrete next action to apply it. It targets the ache of \"read it, forget it, never use it\": adults learn not to bank knowledge but to change behavior, so reading turns from passive intake into action design. It pairs often with the sticky-note method, book-club \"dismantlers\" and the learning organization, suiting how-to and practical titles far better than literary or theoretical classics. Its point is not speed-reading but threading a passage back into your own experience and next step.",
     "tags": ["学习"],
     "tagsEn": ["Learning"],
     "related": ["learning-org", "kirkpatrick", "knowledge-worker"]

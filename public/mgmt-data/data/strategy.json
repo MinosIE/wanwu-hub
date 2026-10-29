@@ -77,8 +77,8 @@
     "level": 2,
     "oneLiner": "用鼓舞人心的目标(O)加两三个可量化、有时限的关键结果(KR)，让全组织朝同一方向聚焦。",
     "oneLinerEn": "An inspiring Objective plus two or three measurable, time-bound Key Results keep the whole organisation pointed one way.",
-    "detail": "由安迪·格鲁夫在英特尔成形、约翰·杜尔在《Measure What Matters》推广。要义：少而聚焦、上下对齐又高度透明、敢于设定“野心目标”(拿到约七成即算优秀)，把它与绩效考核适度脱钩以鼓励冒险。若 KR 全是“照常运营”，就退化成了任务清单。",
-    "detailEn": "Shaped by Andy Grove at Intel and popularised by John Doerr in Measure What Matters. The essentials: few and focused, aligned yet highly visible, bold enough that hitting ~70% counts as good, and kept partly separate from pay reviews so people will reach. If every KR is 'business as usual', it has decayed into a to-do list.",
+    "detail": "OKR（目标与关键结果）由安迪·格鲁夫在英特尔脱胎于德鲁克的目标管理、打磨成一套严格节奏，后经约翰·杜尔引入谷歌并在其推广著作里带向大众。要义是少而聚焦：一个鼓舞人心的定性目标配上两三条可量化、可验证的关键结果，全公司上下对齐又高度透明，鼓励人人看得到彼此在做什么。它敢于设定“野心目标”——拿到约七成即算优秀，故主张与薪酬考核适度脱钩以保护冒险。常见走形有二：把关键结果全写成“照常运营”的任务清单，就退化成了待办事项；或者自上而下硬性分派，就丢掉了它一半价值在于自下而上提报的自主性。它追求的是聚焦与透明，而非又一套考核表格——把 OKR 用作打分工具，恰恰违背了它的初衷。",
+    "detailEn": "OKRs (Objectives and Key Results) were shaped into a disciplined rhythm by Andy Grove at Intel and brought to Google by John Doerr, who popularized them in Measure What Matters. The essence is few and focused: one inspiring qualitative objective paired with two or three measurable, verifiable key results, aligned top-to-bottom and highly transparent so everyone can see what everyone else is doing. It dares to set \"moonshots\"—reaching about seventy percent counts as excellent—so it argues for decoupling from pay and performance review to protect risk-taking. Two familiar distortions: write every key result as business-as-usual and it decays into a to-do list; impose it purely top-down and you lose the half of its value that comes from bottom-up proposals.",
     "tags": ["目标"],
     "tagsEn": ["Goals"],
     "related": ["drucker-mbo", "knowledge-worker", "goal-setting"]
@@ -119,8 +119,8 @@
     "level": 2,
     "oneLiner": "把企业拆成从进料到售后的一串活动，看每一环是创造价值还是消耗成本。",
     "oneLinerEn": "Break the firm into a chain of activities from inbound logistics to service, and see which link adds value or burns cost.",
-    "detail": "迈克尔·波特(1985)区分基本活动(内部后勤、生产、外部后勤、市场销售、服务)与支持活动(基础设施、人力资源、技术、采购)，竞争优势来自比对手更优地设计并执行这条链，或用“链接”把环节咬合成对手难以复制的系统。它把“成本”与“差异化”落到具体活动上。",
-    "detailEn": "Michael Porter (1985) split primary activities (inbound logistics, operations, outbound logistics, marketing, service) from support activities (infrastructure, HR, technology, procurement). Advantage comes from performing the chain better than rivals, or from linking activities into a system hard to copy. It grounds 'cost' and 'differentiation' in concrete activities.",
+    "detail": "迈克尔·波特 1985 年在《竞争优势》里把企业拆成一条价值链：基本活动涵盖内部后勤、生产作业、外部后勤、市场销售与服务，支持活动则包括基础设施、人力资源管理、技术开发与采购。他认为竞争优势并非凭空而来，而是来自比对手更优地设计与执行这一连串具体活动；更妙的是“链接”——把研发与生产、生产与售后等环节咬合成对手难以复制的系统，在衔接处创造优势。它把“成本”与“差异化”这两大抽象战略落到可逐项审视的活动上，也为后来“哪一段自持、哪一段外包”的决策提供了工具。沿链看，成本与差异化往往藏在环节的衔接处，单看某一部门的高效，可能只是把浪费推给了下一环——这正是局部优化反而伤害全局的老问题。",
+    "detailEn": "In Competitive Advantage (1985) Michael Porter recast the firm as a value chain: primary activities spanning inbound logistics, operations, outbound logistics, marketing and sales, and service, supported by infrastructure, human-resource management, technology development and procurement. Competitive advantage, he argued, does not float free but comes from designing and executing this sequence of discrete activities better than rivals; subtler still are the links—meshing R&D to production, production to after-sales into a system rivals cannot copy, creating advantage in the seams. The frame brings \"cost\" and \"differentiation\" down from abstraction to activities you can inspect line by line, and hands later managers a tool for the \"keep which segment in-house, outsource which\" decision.",
     "tags": ["优势"],
     "tagsEn": ["Advantage"],
     "related": ["porter-generic", "core-competence", "process-mgmt"]

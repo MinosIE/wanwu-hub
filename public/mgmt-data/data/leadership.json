@@ -21,8 +21,8 @@
     "level": 2,
     "oneLiner": "对新手多给指令，对专家多给授权——风格要随下属的能力与意愿切换。",
     "oneLinerEn": "Direct the novice, delegate to the expert — shift style with the follower's competence and commitment.",
-    "detail": "赫塞与布兰查德主张，有效的领导没有固定套路，只有四种模式沿“指令—教练—支持—授权”的光谱移动，随下属对特定任务的“成熟度”(能力 + 意愿)而选。同一位员工在不同任务上、在不同阶段，可能需要完全不同的对待。它直觉好用，但也因难以严格验证而受过学理批评。",
-    "detailEn": "Hersey and Blanchard held there is no single right style, only four modes along a telling—selling—participating—delegating spectrum, chosen by the follower's readiness (competence plus commitment) for the specific task. The same person may need different handling across tasks and over time. Intuitively useful, it has been criticised as hard to validate rigorously.",
+    "detail": "保罗·赫塞与肯·布兰查德主张，有效的领导没有固定套路，只有四种模式沿“指令—教练—支持—授权”的光谱移动：对既无能力又缺意愿的新手先多指导，对其意愿尚存但能力不足者边指边鼓励，对有能力却信心不足者多支持少指挥，对又能干又愿担者则放手授权。判断依据是下属在特定任务上的“成熟度”（能力 + 意愿），而同一位员工在不同任务、不同阶段可能需要完全不同的对待。它直觉好用、在企业培训里传播极广，但也因四个维度难以严格验证、成熟度定义模糊而受过学理批评。尽管如此，“没有最好的风格、只有最合时宜的风格”这一常识，仍使它成为一线管理者最常被引用的入门框架之一。",
+    "detailEn": "Paul Hersey and Ken Blanchard held that effective leadership has no fixed style, only four modes along an instruct-coach-support-delegate spectrum: heavy direction for the unable-and-unwilling newcomer, guidance plus encouragement for one willing but still inexperienced, high support and low direction for the capable-but-insecure, and release for those both able and willing. The dial is the subordinate's readiness on that specific task (ability plus willingness), and the same person may need sharply different treatment across tasks and stages. Intuitive and hugely popular in corporate training, it has nonetheless drawn scholarly fire because its four modes and its notion of readiness resist rigorous measurement.",
     "tags": ["领导"],
     "tagsEn": ["Leadership"],
     "related": ["lewin-styles", "fiedler-contingency"]
@@ -63,8 +63,8 @@
     "level": 1,
     "oneLiner": "生理、安全、归属、尊重、自我实现——未满足的低层需求主导行为。",
     "oneLinerEn": "Physiological, safety, belonging, esteem, self-actualisation: the lowest unsatisfied need drives behaviour.",
-    "detail": "亚伯拉罕·马斯洛 (1943) 把人的需求画成阶梯，主张低层相对满足后才向上追求。它对管理的启示很直接:饿着肚子或担心被裁的人，很难被“自我实现”的口号打动。它也常被批评:证据基础薄弱、分层过于刚性、带有西方个人主义色彩——把它当作提醒而非精确模型更稳妥。",
-    "detailEn": "Abraham Maslow (1943) stacked human needs, holding that we pursue higher ones only once lower ones are relatively met. The managerial punch is blunt: people who are hungry or fearing the axe are not moved by appeals to self-actualisation. It is criticised for a thin evidence base, too-rigid tiers and a Western individualist slant — best used as a prompt, not a precise model.",
+    "detail": "亚伯拉罕·马斯洛 1943 年把人的需求画成一架阶梯：生理、安全、归属与爱、尊重，直至自我实现，主张低层相对满足后才向上追求（后又补上认知、审美与超越）。它对管理的启示很直接：饿着肚子或担心被裁的人，很难被“自我实现”的口号打动，薪酬与保障这些底层需求没安顿好，上层的激励就是空中楼阁。它也常被批评：实证基础薄弱、分层过于刚性、带有西方个人主义色彩，且现实中人常在穷困里照样追求创造与尊严——把它当作一个提醒而非精确模型更稳妥。不过它最大的贡献，是让“人并非只为钱工作”成为管理的主流共识，直接催生了赫茨伯格、麦格雷戈等内容型激励理论的繁荣。",
+    "detailEn": "Abraham Maslow, in 1943, drew human needs as a ladder—physiological, safety, love and belonging, esteem, and self-actualization (he later added cognitive, aesthetic and transcendent needs)—holding that people pursue the higher only once the lower are relatively met. Its management lesson is direct: those who are hungry or fearing the layoff can hardly be moved by slogans of self-actualization; leave the base needs of pay and security unsettled and every higher incentive is a castle in the air. It is also much criticized—thin empirical base, tiers too rigid, tinted with Western individualism, and in real life people create and keep dignity even amid poverty—so it is best read as a prompt rather than a precise model.",
     "tags": ["激励"],
     "tagsEn": ["Motivation"],
     "related": ["herzberg-two-factor", "mcgregor-xy", "hawthorne"]
@@ -77,8 +77,8 @@
     "level": 2,
     "oneLiner": "保健因素消除不满，激励因素带来满意——“满意”的反面不是“不满意”。",
     "oneLinerEn": "Hygiene removes dissatisfaction; motivators create satisfaction — the opposite of satisfaction is not dissatisfaction.",
-    "detail": "赫茨伯格访谈会计师与工程师后发现:薪资、政策、监督、条件等“保健因素”不足会让人不满，但把它们做好也只是“不再不满”，并不会真正点燃动力;真正带来满意与投入的是成就、认可、责任、成长与工作本身这些“激励因素”。这解释了为什么单纯加薪买不来长期敬业——它是止痛药，不是维生素。",
-    "detailEn": "Interviewing accountants and engineers, Herzberg found that hygiene factors — pay, policy, supervision, conditions — when lacking breed dissatisfaction, but perfected only yield 'not dissatisfied', never true drive. Satisfaction and engagement come from motivators: achievement, recognition, the work itself, responsibility and growth. Hence a pay raise alone won't buy lasting engagement — it is a painkiller, not a vitamin.",
+    "detail": "弗雷德里克·赫茨伯格访谈了一批会计师与工程师，问什么让工作格外满意或格外不满，得到一个反直觉的发现：薪资、公司政策、监督、工作条件这些“保健因素”不足会让人不满，但把它们做到位也只是“不再不满”，并不会真正点燃动力；真正带来满意与投入的是成就、认可、工作本身、责任与成长这些“激励因素”。满意与不满并非同一根轴的两端，而是两把独立的尺。这解释了为什么单纯加薪买不来长期敬业——它像止痛药而非维生素；要提振士气，得从工作内容与担子本身入手。后续实证对它的二分并不完全买账，但它把“别拿保健当激励”钉进了管理常识。对管理者的落点是：先消除让人不满的保健缺口，再靠丰富工作、授予责任去点燃真正的投入。",
+    "detailEn": "Frederick Herzberg interviewed accountants and engineers about what made work exceptionally satisfying or intolerably dissatisfying and reached a counterintuitive result: hygiene factors—pay, company policy, supervision, working conditions—when lacking breed dissatisfaction, but perfecting them only yields the absence of dissatisfaction, never real motivation; what truly brings satisfaction and engagement are motivators—achievement, recognition, the work itself, responsibility, growth. Satisfaction and dissatisfaction, he said, are not two ends of one axis but two separate scales. This is why a bare raise cannot buy lasting engagement—it is a painkiller, not a vitamin; to lift morale you redesign the job and its stakes. Later evidence has not fully bought the split, but it fixed \"do not pass off hygiene as motivation\" into management common sense.",
     "tags": ["激励"],
     "tagsEn": ["Motivation"],
     "related": ["maslow-needs", "equity", "goal-setting"]
@@ -175,8 +175,8 @@
     "level": 2,
     "oneLiner": "领导首先是服务者——先满足下属成长与自主，权力自下而上地授予。",
     "oneLinerEn": "The leader is first a server — putting subordinates' growth and autonomy first, so authority is granted from below.",
-    "detail": "罗伯特·格林利夫(1970)提出“仆人式领导”：领导者先问“团队需要什么”，通过倾听、共情、觉察、说服、管家责任与致力于他人成长来赋能，而非靠职位发号施令。它把变革型的“提升动机”再推进一步——把目的从组织绩效部分转向人的成长，成为后来谦逊领导、赋能管理的源头。",
-    "detailEn": "Robert Greenleaf (1970) proposed the servant leader, who 'starts with the natural feeling that one wants to serve' — empowering through listening, empathy, awareness, persuasion, stewardship and commitment to people's growth, rather than commanding from the chair. It pushes transformational 'elevating motive' a step further, shifting part of the purpose from organisational performance to human growth, and seeded today's humble and empowering leadership.",
+    "detail": "罗伯特·格林利夫 1970 年在《仆人式领导》里倒转了权力的方向：真正的领导者先是仆人——先问“团队需要什么”而非“我要他们做什么”，通过倾听、共情、觉察、说服、管家责任与致力于他人成长来赋能，而不是靠职位发号施令。他提醒：判断一个领导是否真在“服务”，可看被服务的人是否更健康、自主、更有能力也把自己变成仆人。它把变革型的“提升动机”再推进一步——把目的从组织绩效部分转向人的成长，成为后来谦逊领导、倒金字塔与赋能管理的源头。也有批评说它过于理想化、在需要当机立断的危机里未必顶用。它也常被追问“服务”与“软弱”的界线在哪——答案或许是，服务他人并不等于放弃决断，而是把决断用在如何服务于人上。",
+    "detailEn": "Robert Greenleaf reversed the direction of power in The Servant as Leader (1970): the genuine leader is a servant first—asking \"what does the team need\" rather than \"what will they do for me,\" empowering through listening, empathy, awareness, persuasion, stewardship and a commitment to others' growth instead of commanding from a title. His test for whether a leader truly serves: do the served people grow healthier, wiser, more autonomous, and more likely to become servants themselves? It pushes transformational leadership a step further—shifting the aim from organizational performance partly toward human growth—and became the wellspring of humble, inverted-pyramid and empowering management. Critics call it idealized, not always decisive in a crisis demanding instant command.",
     "tags": ["领导"],
     "tagsEn": ["Leadership"],
     "related": ["transformational", "psych-safety", "bases-power"]

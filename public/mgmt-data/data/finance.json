@@ -264,8 +264,8 @@
     "level": 3,
     "oneLiner": "把 ROE 拆成净利率×资产周转×权益乘数，看清回报到底靠赚钱、快转还是加杠杆。",
     "oneLinerEn": "Decompose ROE into margin × asset turnover × leverage — see whether returns come from profit, speed or borrowed money.",
-    "detail": "杜邦体系(源自通用汽车)把股东回报一层层拆开：卖得贵不贵(净利率)、资产转得快不快(周转率)、用了多少别人的钱(权益乘数)。它把“ROE 20%”这个笼统数字变成可诊断的三条路径，也暴露风险：靠杠杆堆出来的高 ROE，遇到逆风最脆弱。是连接利润表与资产负债表的桥梁。",
-    "detailEn": "The DuPont system (from General Motors) breaks shareholder return layer by layer: pricing power (net margin), how fast assets turn (turnover), how much other people's money is used (the equity multiplier). It turns a bare 'ROE 20%' into three diagnosable paths and exposes risk — a high ROE built on leverage is the most fragile against a headwind. It is the bridge linking the income statement to the balance sheet.",
+    "detail": "杜邦体系（源于通用汽车财务部门）把笼统的股东回报一层层拆开：ROE（权益净利率）= 净利率 × 总资产周转率 × 权益乘数——分别回答“卖得贵不贵”“资产转得快不快”“用了多少别人的钱”。它把“ROE 20%”这个单一数字变成可诊断的三条路径：同样的高回报，可能来自品牌溢价（高净利）、来自薄利多销与高效运营（高周转），也可能来自把杠杆拉满（高乘数）。正因如此它也暴露风险：靠杠杆堆出来的高 ROE 遇到逆风最脆弱，而零售与制造往往靠周转取胜。它是连接利润表与资产负债表的桥，也是把战略归因到运营细节的利器。使用时须当心它仍建在会计口径之上，利润率、周转与杠杆三者如何权衡，最终取决于企业真正的战略取向。",
+    "detailEn": "The DuPont system (born in General Motors' finance department) peels one aggregate shareholder-return figure layer by layer: ROE = net profit margin × asset turnover × equity multiplier, answering respectively \"do you sell dear,\" \"do your assets spin fast,\" and \"how much other people's money did you use.\" It turns a bare \"ROE of 20%\" into three diagnosable paths—the same high return may come from brand premium (margin), from thin margins and rapid efficient turnover, or from cranking up leverage (multiplier). That is also why it exposes risk: an ROE propped on leverage is the most fragile against a headwind, while retail and manufacturing often win on turnover. It is the bridge linking the income statement to the balance sheet, and a tool for attributing strategy down to operating detail.",
     "tags": ["财务"],
     "tagsEn": ["Finance"],
     "related": ["roi-roe", "ratio-analysis", "income-statement"]

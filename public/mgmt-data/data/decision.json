@@ -189,8 +189,8 @@
     "level": 2,
     "oneLiner": "已经花掉且收不回的钱不该影响下一步决策——但人偏偏为此死撑。",
     "oneLinerEn": "Money already spent and unrecoverable should not sway the next move — yet people double down because of it.",
-    "detail": "理性决策只看未来的成本与收益，沉没成本既不可回收也不随选择改变，理应被忽略。但损失厌恶、承诺升级与自我辩护让人“来都来了”“都投这么多了”继续加注，酿成越陷越深。管理上，事前设好“止损线”与退出标准、把决策者与沉没成本制造者适度分离，是对抗它的制度设计。",
-    "detailEn": "Rational decisions weigh only future costs and benefits; a sunk cost is unrecoverable and unchanged by what you do next, so it should be ignored. But loss aversion, escalation of commitment and self-justification keep people 'in too deep to quit', pouring good money after bad. Managerially, pre-setting stop-loss and exit criteria, and separating the decision-maker from those who incurred the sunk cost, are the institutional fix.",
+    "detail": "理性决策只看未来的成本与收益：沉没成本既不可回收也不随选择改变，理应被忽略。但人偏偏走不进这一条——损失厌恶、承诺升级与自我辩护让人用“来都来了”“都投这么多了”说服自己继续加注，酿成越陷越深，从亏本的工程、失败的研发到不肯止损的交易无一例外。经典教训是协和式客机：账面早已不合算，各方仍不断追加投入。管理上，对抗它的不是意志力而是制度设计：事前设好“止损线”与退出标准、把决策者与沉没成本的制造者适度分离、用独立视角复审“若今天从零开始会不会选它”。这套纪律的本质，是把“过去投了多少”从“未来还值不值得”的判断里剥出去，只让边际的前瞻收益说话。",
+    "detailEn": "Rational choice looks only to future costs and benefits: a sunk cost is neither recoverable nor changed by what you now decide, so it should be ignored. People persistently fail this—loss aversion, escalation of commitment and self-justification coax them into \"I've come this far\" and \"so much already invested,\" doubling down until they are in deeper, from doomed projects and failed R&D to positions they refuse to close. The canonical case is the Concorde: economics long since unfavorable, yet each partner kept funding. The defense in management is not willpower but institutional design—a stop-loss line and exit criteria set in advance, decision-makers separated somewhat from those who sank the cost, and an independent review asking \"knowing what we know, would we start this today?\"",
     "tags": ["决策"],
     "tagsEn": ["Decision"],
     "related": ["bounded-rationality", "decision-tree", "breakeven"]
