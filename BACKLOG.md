@@ -46,6 +46,17 @@
 
 ## 3. 内容扩充
 
+### 3.0 续批候选总账（八十二批收官时盘点，集中各科批次汇报里散落的候选；开工一批即勾一批，新候选随时补入）
+
+- [ ] **mgmt 深度批队列**（主账）：warn 档（zh<120）现存 **30** 条、zh<260 总账 **165** 条。按段扇厚、每批 14–18 条，走八十二批验证过的落地器流水线（node 定位行号→模板串 payload→四道守卫 dry-run→`JSON.stringify` 整行重写）。第三批名单首段（zh 108–119）：roi-roe 108／nominal-group 109／performance-review 109／span-control 111／org-culture 111／knowledge-worker 111／management-science 111／time-value 112／working-capital 112／centralization 112／tuckman-stages 112／pdca 113／org-design-elements 113／unit-economics 114／critical-path 114／ansoff-matrix 114／rational-model 115／brainstorming 115／gantt 115／hawthorne 115／drucker-mbo 115／learning-org 116／network-org 116／mech-vs-organic 117／business-model-canvas 117／scenario-planning 118／lmx 118／six-sigma 118／kanban 118／scm 119（后续段勘查时现算）。
+- [ ] **marketing 广度再扩**（七十九批候选②，排在深度账之后）：品牌命名与标语、广告创意理论（USP 已落，实效/Rooney/品牌形象待收）、销售漏斗与 B2B、SEO/SEM 搜索营销——动笔前一律全站查重（七十九批已因此拒重过 flywheel/内容营销两次）。
+- [ ] **mgmt:validate 阈值上抬**：深度批收完后 detail zh 的 warn@120 升 hard@260；须与深度账进度同步，一次抬爆将阻断 verify。
+- [ ] **chem 长度硬门禁接入**（七十七批起悬挂）：chem:validate 现 warn=258，长度仍为软账；深度批收段后仿 mgmt 先例硬化。
+- [ ] **「」门禁推广到其余学科**（七十七批起悬挂）：dynasty／earth／life／mind／thought 各科历史「」负债回扫，并补专属校验器接入 verify。
+- [ ] **physics 「」余账**：七十三批后残留的旧厚条目修辞「」（experiments 系 6 条 + `positron` 夹英等），已并入上行同批处理。
+- [ ] **其余 integrated 学科深度账**（远账未盘）：econ／dynasty／earth／life／mind／thought 各自 detail 长度分布待勘查，盘完再决定是否纳入统一阈值治理。
+- 更早批次的广度候选（各学科新模块/主题域）与工程化候选已各有 §4／§5 条目登记，本清单只收最近八批汇报里「续批候选」口头流转的部分；两者冲突时以本清单为准、并回改原批次条目。
+
 - [x] **儿童／亲子心理学（第二十二批已动工：mind +16 条，全站 469→485）**——结论是**该补，但缺的不是理论而是「大人怎么带」**。mind 的发展心理学层已相当厚（concepts 依恋/同一性/最近发展区/道德发展/敏感期、glossary 图式/同化与顺应/客体永久性/守恒、实验棉花糖/陌生情境/恒河猴/波波玩偶、mindbend 错误信念里程碑/视觉悬崖/过度模仿/婴儿算术/青少年奖赏缺口/过度辩护、psychologists 皮亚杰、维果茨基、埃里克森、科尔伯格、鲍尔比、布鲁纳、班杜拉、阿德勒、myths 性别与学习风格辟谣、compare `parenting-culture`）；而 `everyday` 34 条里**「育儿」分类只有 1 条**（`parenting-praise`、只讲夸奖），同科「人际与分寸」刚补到 10 条，对比悬殊。待补真缺口（已逐词扫全库含三科 `data.ts` 确认 0 命中）：鲍姆林德教养方式四型（含 Baumrind 人物条）、直升机/扫雪机式养育、情绪教练与「我信息」（戈特曼 / PET）、父母冲突与家庭氛围、同胞竞争与二孩、隔代抚养（中国语境最强，适合 compare 且可与 mgmt `guanxi-face-org` 呼应）、青少年同伴影响与风险的应对。**查重红线（几处差点踩到、不能立条）**：奖励挤出内在动机已被 `self-determination-theory` 的「物质奖励画画孩子」例子与 `mindbend` 的 `overjustification` 双占，依恋类型、最近发展区（含辅导作业例）、关键期、夸奖、屏幕与青少年情绪均已在库。**口径**：不新开「儿童心理学」学科或模块（与 mind「发展」分类必然大面积重复），仍走第十九批归属判据分流到 concepts/everyday/glossary/compare；动工时记得 mind `overview.kpis` 只收 concepts/glossary/psychologists/schools 四项且须手工改 count（everyday/compare 不进）、新 id 全站碰撞预检（mind 强制 id 全局唯一）。
   - 落地分流（未新开学科或模块、未改任何渲染代码）：**everyday +8**（育儿分类 1→9）`which-parenting-style` 四种带法先看清自己是哪一种、`helicopter-landing` 手想伸出去先等十秒、`listen-so-child-talks` 孩子不肯说时先别急着问、`emotion-coach-at-home` 情绪炸开时当教练别当法官、`sibling-quarrel` 两个孩子争别当裁判、`grandparent-handoff` 老人帮带娃分歧怎么谈、`teen-peer-risk` 怎么谈朋友与风险、`parents-fighting-in-front` 当着孩子面吵要不要收场；**glossary +5**（40→45）`authoritative-parenting`（含 authoritative／authoritarian 译名混淆提醒）、`helicopter-parenting`（含扫雪机）、`emotion-coaching`（明写幅度小于畅销书承诺、证据多为相关）、`i-message`（行为＋影响＋感受三段）、`sibling-rivalry`（差别待遇的感知）；**concepts +2**（40→42）`parenting-styles` 两轴四格（稳健结论是「回应」重要、专制必糟已被文化研究削弱）与 `behavior-vs-psychological-control` 巴伯（Barber）1996 拆分（内疚与爱的撤回）；**compare +1**（10→11）`grandparent-care` 谁来带孩子（west「人手不够是资源问题」／east「人手不够是家事」）。
   - 查重红线全部避开：奖励挤出／SDT／overjustification、依恋类型、最近发展区、关键期、夸奖、屏幕与青少年情绪**均未立条**，只作为 `related` 目标被引用；新 id 先跑全站碰撞预检（0 冲突），`related` 全部解到真实 id。
