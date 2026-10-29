@@ -7,8 +7,8 @@
     "level": 1,
     "oneLiner": "专制、民主与放任——勒温用实验让孩子体验：民主组质量更高，专制组更快却更脆。",
     "oneLinerEn": "Autocratic, democratic, laissez-faire — Lewin's experiments with children: democracy gave quality, autocracy speed but fragility.",
-    "detail": "库尔特·勒温 (1939) 把成年人带到后台，让同一批孩子分别由三种风格的“领导”带领做手工。专制组效率高但敌意与依赖强，领导一走就乱;民主组更有创造力与满意度，能自我维持;放任组最散漫、产出最低。风格没有绝对对错，但它确实塑造着群体的气氛与韧性。",
-    "detailEn": "Kurt Lewin (1939) had adults lead the same children's arts group under three styles from behind a curtain. Autocratic clusters were productive but hostile and dependent — they fell apart when the leader left. Democratic ones showed more creativity and satisfaction and sustained themselves. Laissez-faire was the least productive. No style is universally right, but each shapes the group's climate and resilience.",
+    "detail": "库尔特·勒温 1939 年与利皮特、怀特一起做了一项经典实验：把同一批十一岁上下的孩子分成小组做手工活动，由成年人假扮三种风格的“领导”，并在中途刻意撤走领导者观察后果。专制组效率尚可但敌意与依赖强，领导一不在场就散架；民主组更有创造力与满意度，能自我维持，领导缺席仍照常运转；放任组最散漫、产出最低且质量最差。这个“领导风格”研究第一次把民主与专制的管理差异放进实验室测量。风格并无绝对对错，勒温晚年也强调它塑造的是群体气氛与韧性；后来的路径-目标、情境领导等理论都是在这一问题上继续细化——什么时候该用哪种风格。它至今仍是领导力入门的经典坐标，也为后来的情境流派留下“风格须匹配场合”的伏笔。",
+    "detailEn": "In 1939 Kurt Lewin, with Ronald Lippitt and Ralph White, ran a classic study: boys of about eleven were put into activity groups led by an adult playing one of three leadership styles, and the leader was deliberately withdrawn mid-experiment to see what happened. Autocratic groups worked acceptably but ran hot with hostility and dependency, and collapsed the moment the leader left; democratic groups were more creative and satisfied and sustained themselves with the leader absent; laissez-faire groups were the most disorganized, with the lowest output and poorest quality. It was the first time the gap between democratic and autocratic management was measured in a laboratory. No style is simply right, Lewin stressed—the style shapes the group's climate and resilience—and later path-goal and contingency theories refined the same question into \"which style, when.\"",
     "tags": ["领导"],
     "tagsEn": ["Leadership"],
     "related": ["situational-leadership", "transformational"]
@@ -147,8 +147,8 @@
     "level": 3,
     "oneLiner": "领导的本职是扫清通往目标的障碍，风格要补下属所缺(指导、支持、参与、成就导向)。",
     "oneLinerEn": "The leader's job is to clear the path to goals, choosing a style — directive, supportive, participative, achievement-oriented — that supplies what the subordinate lacks.",
-    "detail": "罗伯特·豪斯(1971)把弗鲁姆期望理论与领导行为结合：领导者在下属与目标之间搭桥，按其能力、任务结构与情境，补足缺失的一环——任务模糊就多指导，任务压抑就多支持。它把“哪种风格最好”改写成“此刻这位下属需要什么”，是情境路径的精细化版本。",
-    "detailEn": "Robert House (1971) fused Vroom's expectancy theory with leadership behaviour: the leader bridges subordinate and goal, and by the person's ability, task structure and setting supplies the missing link — more direction when the task is ambiguous, more support when it is stifling. It rewrites 'which style is best' as 'what this follower needs now', a fine-grained cousin of the situational path.",
+    "detail": "罗伯特·豪斯 1971 年提出的路径-目标理论，把弗鲁姆的期望理论与领导行为研究拼在一处：领导者的活儿是在下属与其目标之间搭桥，帮他们看清路径、移开路障，并根据其能力与任务结构补足缺失的一环——任务模糊就多指导，任务压抑、风险高就多支持。它列了指导型、支持型、参与型、成就导向型四种领导行为，都同一个判断标准：此刻这位下属缺什么。它把“哪种风格最好”这个老问题改写成“在什么情境对什么人用什么风格”，是权变思路的精细化版本；后续修订（如引入规范模型）又提醒它并非万能，对结构化任务过多的指挥反而多余。后续实证也坦承它对高结构、高能力下属增益有限，过度指导反成干扰——这恰是它强调“补足缺失一环”的用意。",
+    "detailEn": "Robert House's path-goal theory (1971) joined Vroom's expectancy model with leadership-behavior research: the leader's job is to build a bridge between a subordinate and the goal, clarifying the path, removing obstacles, and supplying whatever is missing given the person's ability and the task's structure—more direction when the task is ambiguous, more support when it is oppressive and risky. It names four leader behaviors—directive, supportive, participative, achievement-oriented—judged by one test: what this subordinate lacks right now. It recast the old \"which style is best\" into \"which style, for whom, in what situation,\" a fine-grained contingency move; later revisions (adding a normative model) warned it is no cure-all—over-directing an already-structured task only backfires.",
     "tags": ["领导"],
     "tagsEn": ["Leadership"],
     "related": ["situational-leadership", "expectancy", "fiedler-contingency"]

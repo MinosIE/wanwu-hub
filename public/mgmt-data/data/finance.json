@@ -278,8 +278,8 @@
     "level": 3,
     "oneLiner": "利润扣掉“占用的资本也要有回报”之后，剩下才是真正创造的价值。",
     "oneLinerEn": "Profit less a charge for the capital employed — what remains is value actually created.",
-    "detail": "斯图尔特推广的 EVA = 税后经营利润 − 资本成本×占用资本。会计利润为正不等于创造价值：若回报低于资本的机会成本，账面在赚、经济在亏。EVA 逼管理者为占用的每一元资本负责，抑制盲目扩张与“为增长而增长”，常被用来设计更贴近价值的高管激励。",
-    "detailEn": "Popularised by Stewart, EVA = net operating profit after tax − (cost of capital × capital employed). Positive accounting profit is not the same as value created: if the return falls below capital's opportunity cost, the firm earns on the books while losing economically. EVA makes managers answerable for every dollar of capital tied up, curbing empire-building and 'growth for growth's sake', and is often used to tie executive pay closer to value.",
+    "detail": "乔尔·斯特恩与 G. 本纳·斯图尔特推广的经济增加值 = 税后经营利润 − （资本成本率 × 占用资本）。它的锋利之处在于提醒：会计利润为正不等于创造价值——若回报低于资本的机会成本，账面在赚、经济在亏，股东其实被侵蚀了。它迫使管理者为占用的每一元资本负责，抑制盲目扩张与“为增长而增长”，常被用来设计更贴近价值的高管激励与内部考核。思科在 1990 年代把它当作全公司运营罗盘而名声大噪。批评者则指出它仍依赖会计假设、容易被资本成本率的拍定人为操纵，且对初创与长周期行业不够友好——本质上它是对“自由现金流”的一个会计近似。",
+    "detailEn": "Popularized by Joel Stern and G. Bennett Stewart, economic value added equals after-tax operating profit minus (the cost of capital × capital employed). Its sharpness is the reminder that positive accounting profit is not the same as value creation—if the return falls short of capital's opportunity cost, the books show a gain while the economics show a loss and shareholders are quietly eroded. It forces managers to answer for every dollar of capital tied up, curbing blind expansion and \"growth for growth's sake,\" and is often used to design executive pay and internal scorecards closer to value; Cisco made it famous as a company-wide operating compass in the 1990s. Critics note it still leans on accounting assumptions, can be gamed by the eyeballed cost-of-capital rate, and sits awkwardly with startups and long-cycle industries—at bottom it is an accounting proxy for free cash flow.",
     "tags": ["财务"],
     "tagsEn": ["Finance"],
     "related": ["roi-roe", "time-value", "balanced-scorecard"]

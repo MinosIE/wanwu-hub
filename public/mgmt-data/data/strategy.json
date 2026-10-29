@@ -49,8 +49,8 @@
     "level": 2,
     "oneLiner": "要么更便宜(成本领先)，要么更特别(差异化)，要么更聚焦；卡在中间最难活。",
     "oneLinerEn": "Lead on cost, differentiate, or focus — being stuck in the middle is the hardest way to survive.",
-    "detail": "波特认为企业必须在三种连贯定位中选择其一：在全行业以更低成本取胜、以独特性获得溢价、或收缩到某个细分战场。最怕“夹在中间”：既没有成本优势，也没有鲜明的差异化，容易被两头挤压。取舍(Trade-off)是战略的灵魂——决定不做什么，和做什么同样重要。",
-    "detailEn": "Porter held that a firm must pursue one coherent position: win on cost across the industry, command a premium through uniqueness, or narrow to a segment. The fatal spot is 'stuck in the middle' — neither low-cost nor distinctive, squeezed from both sides. Trade-offs are the soul of strategy: deciding what not to matters as much as what to.",
+    "detail": "迈克尔·波特 1980 年在《竞争战略》里提出：在任何一个行业里，想长期获得高于平均的回报，只有三种连贯的基本定位——在全行业以更低成本取胜、以独特性换取溢价、或收缩进某个足够狭窄的细分战场深耕。三者彼此拉扯，怕的是“夹在中间”：既无成本优势、又无鲜明差异，容易被两头挤压。取舍是战略的灵魂，决定不做什么和决定做什么同样重要，因为定位一旦要通吃所有客户与需求，各项动作就会互相拆台。他后来在《什么是战略》（1996）里进一步强调：战略不是运营效益的堆叠，运营效益是追赶者能抄的，独特且环环相扣的活动耦合才是抄不动的那部分。",
+    "detailEn": "In Competitive Strategy (1980) Michael Porter argued that within any industry there are only three coherent positions from which to earn above-average returns over the long run: win on lower cost across the whole industry, command a premium through uniqueness, or concentrate on a segment narrow enough to serve better. The three pull against one another, and the trap is being \"stuck in the middle\"—neither a cost leader nor a differentiator, squeezed from both sides. Trade-offs are the soul of strategy; deciding what not to do matters as much as what to do, because a position that tries to please every buyer and every need makes its own activities undercut each other. In What Is Strategy? (1996) he pressed the point further: strategy is not operational effectiveness piled up—efficiency can be copied by any fast follower—while a distinctive, mutually reinforcing fit of activities is the part that resists copying.",
     "tags": ["定位"],
     "tagsEn": ["Positioning"],
     "related": ["porter-five-forces", "blue-ocean"]
@@ -105,8 +105,8 @@
     "level": 3,
     "oneLiner": "真正的护城河是能横跨多种产品、难以模仿、为客户带来显著价值的“能力根”。",
     "oneLinerEn": "The real moat is a root capability that spans products, is hard to imitate and delivers customer value.",
-    "detail": "普拉哈拉德与哈默尔 (1990) 用“树”作比喻：终端产品是叶子，核心竞争力是树根。多元化应围绕核心能力生长(本田的发动机能力延伸到摩托、汽车、发电机)，而不是追着一个热概念乱铺摊子。判断一条能力够不够“核心”：可延展、难模仿、客户可感知价值。",
-    "detailEn": "Prahalad and Hamel (1990) used the tree: end products are the leaves, core competences the roots. Diversification should grow out of a competence that spans markets (Honda's engines reach motorcycles, cars, generators) rather than chasing whichever concept is hot. Test a competence for extension across products, difficulty of imitation, and value to customers.",
+    "detail": "加里·哈默尔与 C. K. 普拉哈拉德 1990 年在《哈佛商业评论》的《公司的核心竞争力》里用一棵树作比喻：终端产品是枝叶，核心产品是树干，核心竞争力是根——本田小而精的发动机能力同时养出了摩托、汽车、割草机与船舶，德州仪器的精确校准则横跨芯片、显示器与机床。多元化于是变成一堆各自为政的散装生意。判断一条能力够不够核心有三道检验：能延展进多个市场、对手难模仿、客户能真切感知价值。这一概念既指导了自建能力，也为后来“外包什么、自持什么”的取舍提供了标尺。它也提醒：一旦把真正核心的能力外包出去，公司往往连带让渡了围绕它持续创新的机遇，这正是后来许多企业把业务“切回去”的原因。",
+    "detailEn": "C. K. Prahalad and Gary Hamel, in The Core Competence of the Corporation (Harvard Business Review, 1990), reached for a tree: end products are the leaves, core products the trunk, competencies the roots—Honda's small, precise engines grew motorcycles, cars, mowers and marine motors alike, while Texas Instruments' skill in fine calibration spanned chips, displays and machine tools. They faulted the portfolio analytics then in vogue for asking only whether a unit was attractive, never whether its capabilities fit, so diversification became a heap of unrelated businesses. A competency earns the label \"core\" by three tests: potential to spawn entry into many markets, rivals' difficulty in imitating it, and a perceptible contribution to the value the customer feels. The idea guided build-versus-buy on one side and, later, the sharper question of what to outsource and what to keep in hand.",
     "tags": ["优势"],
     "tagsEn": ["Advantage"],
     "related": ["porter-five-forces", "mission-vision"]

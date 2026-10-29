@@ -203,8 +203,8 @@
     "level": 3,
     "oneLiner": "让人同时向职能经理与项目经理汇报：共享专家、灵活调配，代价是两个老板的张力。",
     "oneLinerEn": "People answer to a functional and a project manager at once: experts shared and flexed, at the cost of two-boss tension.",
-    "detail": "矩阵制把按职能划分的纵向与按产品或项目划分的横向交织，员工身兼两线，常分强矩阵（项目主导）、弱矩阵（职能主导）与平衡矩阵。它适合需频繁跨部门协作、又离不开专业深度的组织；但双重指挥易生角色冲突、会议与政治增多，需清晰的权责与成熟的沟通来支撑。",
-    "detailEn": "The matrix weaves a vertical by-function split with a horizontal by-product one, so staff sit on two lines, typed strong (project-led), weak (function-led) or balanced. It suits organizations needing frequent cross-team work yet deep expertise; but dual command breeds role conflict and more meetings and politics, demanding clear authority and mature communication.",
+    "detail": "矩阵制把按职能划分的纵向与按产品或项目划分的横向交织起来，员工同时向职能经理与项目经理两条线汇报，常见于需频繁跨部门协作又离不开专业深度的组织——航天、咨询、大型工程是它的摇篮，陶氏康宁与 NASA 在 1960 年代将其制度化。它分为强矩阵（项目主导资源）、弱矩阵（职能主导）与平衡矩阵。收益是专业与响应兼顾、知识横向流动；代价是双重指挥天生带来角色冲突、会议与政治增多，靠清晰的权责与成熟的沟通文化才能支撑。因此管理学者普遍把它归入有机式结构，并提醒：矩阵不是画出格子就会运转，它考验的是谈判与影响力而非命令链。若组织既不需要跨部门协作又无专业深度要求，矩阵只会平添一层内耗。",
+    "detailEn": "The matrix braids the vertical cut by function with a horizontal cut by product or project, so a person reports to both a functional and a project manager at once. It suits organizations that need constant cross-department collaboration yet cannot do without deep expertise—space, consulting and heavy engineering were its cradle, formalized at Dow Corning and inside NASA in the 1960s. Variants run from strong (project leads on resources) through weak (function leads) to balanced. The payoff is expertise combined with responsiveness, plus knowledge flowing sideways; the price is that two-boss design breeds role conflict, more meetings and more politics, survivable only with clear accountabilities and mature communication. Scholars therefore class it as an organic structure and warn that a matrix does not run just because you draw the grid—it tests negotiation and influence, not the chain of command.",
     "tags": ["结构"],
     "tagsEn": ["Structure"],
     "related": ["org-structures", "staff-vs-line", "mech-vs-organic"]
@@ -217,8 +217,8 @@
     "level": 2,
     "oneLiner": "直线主管负责决策与结果，参谋提供专业建议——建议权与指挥权的分离，是分工也是摩擦源。",
     "oneLinerEn": "Line managers decide and own results; staff give expert counsel—the split of advisory from command authority aids and yet strains.",
-    "detail": "随着组织变大，一线管理者既请不来、也养不起样样精通的专家，于是设立财务、法务、人力等参谋职能供给建议。妙处在于参谋只建议、直线才下令；难处在于参谋越界变成事实上的命令、或直线嫌参谋纸上谈兵。厘清各自权限、让建议有分量却不越权，是组织设计的经典课题。",
-    "detailEn": "As firms outgrew the all-round line boss, they added finance, legal and HR staff to supply counsel. The genius is that staff advise while only line commands; the friction is staff overreach into de facto orders, or line dismissing them as armchair theory. Fixing each one's scope is a classic design problem.",
+    "detail": "随着组织变大，一线管理者既请不起也养不起样样精通的专家，于是设财务、法务、人力、质控等参谋职能供给建议——这是“直线与参谋”的分工：直线负成果责任、沿指挥链下令，参谋只提供专业意见与技术支持。难点恰在交界处：参谋一旦越界变成事实上的命令，直线会觉得被夺权；参谋若只写报告不担责任，又会被讥为纸上谈兵。法约尔早年在矿井里就抱怨过“好的建议却被束之高阁”，后世把解法归纳为厘清各自权限、让建议有分量却不越权，并为参谋设定服务口径与考核，把“该不该听”与“能不能下令”分开处理。今天的数据、风控、合规等部门正是这条线的延伸：它们带来专业，也把“谁说了算”的老问题一次次摆上台面。",
+    "detailEn": "As organizations grow, front-line managers can neither hire nor keep mastery in every field, so they add staff functions—finance, legal, HR, quality—to supply advice. That is the line-and-staff split: line holds result accountability and issues orders down the chain, staff offers expert counsel and support. The friction lives right at the boundary. When staff advice becomes a de facto order, line managers feel dispossessed; when staff only writes reports and owns nothing, it is dismissed as armchair expertise. Fayol complained from his mining days that good advice went nowhere on the desk, and later practice settled the tension by drawing explicit authority limits—advice must carry weight yet not command—and by giving staff its own service metrics, separating \"should we listen\" from \"may they order.\"",
     "tags": ["权责"],
     "tagsEn": ["Authority"],
     "related": ["weber-bureaucracy", "org-structures", "span-control"]
@@ -245,8 +245,8 @@
     "level": 2,
     "oneLiner": "以团队而非个人作为基本单元：把决策权下放给最接近工作的人，用互赖取代层层审批。",
     "oneLinerEn": "Teams, not individuals, as the basic unit: pushing decisions to those nearest the work, replacing tiered sign-offs with interdependence.",
-    "detail": "当环境多变，层层请示太慢，组织遂把一线编成有明确目标、跨职能、能自我管理的团队，让团队承担过去属于主管的计划与协调职责。它提升响应、投入与全局理解，也要求成员具备协作与自我约束能力；配套的选拔、培训与激励须从奖励个人转向奖励团队，否则团队只剩名义。",
-    "detailEn": "When conditions shift, climbing the ladder for sign-offs is too slow, so the front line is organized into purposeful, cross-functional, self-managing teams that absorb planning and coordinating once left to supervisors. It lifts responsiveness and engagement, yet asks members for collaboration; hiring, training and rewards must shift from honoring individuals to honoring the team.",
+    "detail": "当环境多变、层层请示太慢，组织便把一线重编为有明确目标、跨职能、能自我管理的团队，让团队接管过去属于主管的计划与协调职责。实证源头常追到 1951 年特里斯特与班福斯在英国塔维斯托克研究所对煤矿长壁采煤的研究：自动化设备使零散分工失去意义，矿工自发组成互依互救的自主组，效率与满意度双升，由此提出“社会-技术”系统观。团队型组织提升响应、投入与全局理解，也要求成员具备协作与自我约束能力；配套的选、训、激励须从奖励个人转向奖励团队，否则“团队”只剩名义，各人照旧埋头自己的 KPI。从软件业的敏捷小队到制造业的自主工作圈，都是这一思路的延续；但团队不等于没有领导，只是把领导职能更多内化到团队日常。",
+    "detailEn": "When conditions shift fast and escalation is too slow, organizations reweave the front line into teams that are cross-functional, goal-bound and self-managing, handing the team the planning and coordination once held by a supervisor. The evidence base is usually traced to 1951, when Trist and Bamforth, at Britain's Tavistock Institute, studied longwall coal mining: mechanization made fragmented jobs pointless, so miners formed interdependent, self-policing groups and both output and morale rose—giving rise to the socio-technical systems view. Team-based designs lift responsiveness, engagement and systemic understanding, but demand real collaboration and self-discipline; selection, training and incentives must then move from rewarding individuals to rewarding the team, or \"team\" stays a label while everyone still optimizes a private KPI.",
     "tags": ["团队"],
     "tagsEn": ["Team"],
     "related": ["belbin-roles", "tuckman-stages", "learning-org"]

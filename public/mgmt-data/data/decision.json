@@ -7,8 +7,8 @@
     "level": 3,
     "oneLiner": "人不是全知的“理性经济人”，只在信息、时间与认知约束下找“够好”的方案。",
     "oneLinerEn": "People are not omniscient optimisers; under limits on information, time and mind they seek a 'good enough' option.",
-    "detail": "赫伯特·西蒙(1955)主张：真正的决策者无法穷尽所有选项与后果，于是用“满意化”(satisficing)替代“最优化”——设定可接受的门槛，选第一个达标的方案。由此引出启发式、框架效应与“助推”：既然理性有限，设计更好的选择架构比苛责个人更管用。",
-    "detailEn": "Herbert Simon (1955) argued that real decision-makers cannot enumerate every option and consequence, so they 'satisfice' — set an acceptable threshold and take the first option that clears it. This leads to heuristics, framing effects and 'nudging': since reason is bounded, designing better choice architectures beats blaming individuals.",
+    "detail": "赫伯特·西蒙 1955 年前后在《管理行为》里主张：真实决策者既没有完备信息、也没有算无遗策的心智去穷尽所有选项与后果，于是用“满意化”替代“最优化”——设一个可接受的门槛，选第一个达标的方案而非理论上的最优。马奇与赛尔特的《组织》把这一思路推到组织层面：组内是一堆有界理性的成员在“有组织的无政府状态”里凑合。西蒙因这套工作获 1978 年诺贝尔经济学奖。由此又引出启发式与框架效应：既然理性有限，卡尼曼与特沃斯基发现人靠经验法则走捷路、也会被同题的不同表述带偏；而桑斯坦与塞勒的“助推”更进一步——设计更好的选择架构，比苛责个人更管用。",
+    "detailEn": "Around 1955 Herbert Simon argued in Administrative Behavior that real decision-makers have neither full information nor unlimited mind to exhaust every option and consequence, so they substitute satisficing for optimizing—set an acceptable threshold and take the first alternative that clears it rather than the theoretical optimum. March and Simon pushed this to the organization level in Organizations (1958): a coalition of boundedly rational members muddling through an \"organized anarchy.\" Simon won the 1978 Nobel in economics for this work. It spawns heuristics and framing: since reason is bounded, Kahneman and Tversky found people ride mental shortcuts and get pulled by how the same problem is worded; Thaler and Sunstein's \"nudge\" goes further—designing a better choice architecture beats blaming the individual.",
     "tags": ["决策"],
     "tagsEn": ["Decision"],
     "related": ["rational-model", "groupthink", "six-hats"]
@@ -35,8 +35,8 @@
     "level": 2,
     "oneLiner": "把选择画成分支：每个方案的概率乘收益相加，比较期望值，再想想风险谁扛得起。",
     "oneLinerEn": "Draw the choice as branches: weight each outcome by probability, compare expected values, then ask who can bear the risk.",
-    "detail": "决策树把不确定拆成“决策节点—机会节点—结果”，用期望货币价值(EMV)横向比较方案，也能倒推最优路径(逆向归纳)。它逼你显式列出概率与收益，让假设可被质疑。局限在于：概率常常是估的、期望值忽略了效用与破产风险，因此要和风险偏好、敏感性分析一起看。",
-    "detailEn": "A decision tree splits uncertainty into decision nodes, chance nodes and outcomes, ranks options by expected monetary value and solves backwards. It forces you to state probabilities and payoffs so assumptions can be challenged. Its limits: probabilities are often guesses and expected value ignores utility and ruin risk — read it alongside risk appetite and sensitivity checks.",
+    "detail": "决策树把一次不确定拆成“决策节点—机会节点—结果”三层：方框代表你能控制的选择，圆代表听天由命的概率分支，末端标上收益与成本。用期望货币价值把各枝加权求和，就能横向比较方案，并从结果往回剪枝（逆向归纳）倒推当下最优路径。它的价值不在算得准，而在迫使你把隐假设显式化——概率、收益、可选行动都摆到明面，可被质疑与讨论。局限也很硬：概率常常是拍脑袋估的，期望值忽略了效用与破产风险（一锤子买卖的期望值可能掩盖一次致命下行），因此要和风险偏好、敏感性分析一起看；对付多阶段不确定，它与实物期权、蒙特卡洛模拟互为补充。实务中它更多用作把众人拉到同一张图上讨论的共同语言，算出的最优解反倒在其次。",
+    "detailEn": "A decision tree decomposes uncertainty into decision nodes, chance nodes and outcomes: a square for the choice you control, a circle for the probabilistic branches you leave to fate, leaves tagged with payoff and cost. Weighting each limb into an expected monetary value lets you compare options side by side and, pruning backward (backward induction), derive today's optimal path. Its worth is not accuracy but forcing hidden assumptions into the open—probabilities, payoffs, feasible actions all laid out to be challenged. The limits are hard too: probabilities are often eyeballed, and expected value ignores utility and ruin risk (a one-shot EV can hide a fatal downside), so read it alongside risk preference and sensitivity analysis. For multi-stage uncertainty it complements real options and Monte Carlo simulation.",
     "tags": ["决策"],
     "tagsEn": ["Decision"],
     "related": ["rational-model", "breakeven", "roi-roe"]
@@ -91,8 +91,8 @@
     "level": 2,
     "oneLiner": "别急着救火，连问五个为什么、按类别梳理因果，找到能一次堵住复发的根子。",
     "oneLinerEn": "Don't just fight the fire — ask why five times, map causes by category, and strike the root that stops recurrence.",
-    "detail": "5Why 由丰田发展:对问题连续追问“为什么”，直到落到可改善的系统性原因而非个人失误。石川馨的鱼骨图(因果图)把人、机、料、法、环等作为骨架,把众多可能原因归类张贴,便于团队看清结构。二者共同的信条是:多数反复出现的故障,根子在流程而非某一次的粗心。",
-    "detailEn": "Toyota's 5 Whys keeps asking 'why' until it lands on an improvable systemic cause rather than one person's slip. Ishikawa's fishbone (cause-and-effect) diagram hangs people, machines, materials, methods and environment as ribs so a team can cluster possible causes. The shared creed: recurring failures usually root in the process, not a single careless moment.",
+    "detail": "根本原因分析的信条是：反复出现的故障，根子在流程而非某一次的粗心。5Why 由丰田佐吉与后来的丰田生产体系发扬——对问题连续追问“为什么”，直到落到一个可改善的系统性原因（而非某个人失职）而非停在表面。石川馨 1943 年在川崎重工画出的鱼骨图（因果图）把人、机、料、法、环等作为骨架，把众多可能原因归类贴上，便于团队看清结构而非各说各话。二者都怕常见走形：把 5Why 当成单线因果链而漏掉并行原因，或把鱼骨图当成甩锅清单。现代事故调查（如航空、医院不良事件）则把二者与屏障分析、失效模式与后果分析结合，追求的是修正系统而非只找到一个可惩罚的人。",
+    "detailEn": "Root cause analysis rests on one creed: recurring failures live in the process, not in one person's lapse. The 5 Whys, spread from Sakichi Toyoda through the Toyota Production System, keep asking \"why\" until you land on a fixable systemic cause rather than stopping at someone's error. Kaoru Ishikawa's fishbone (cause-and-effect) diagram, drawn at Kawasaki in 1943, sets up the skeleton of man, machine, material, method and environment (the 5M) and clusters many candidate causes onto it, so the team sees structure instead of arguing point by point. Both invite a familiar distortion: treating 5 Whys as a single causal chain and missing parallel causes, or turning the fishbone into a blame list. Modern incident review (aviation, hospital adverse events) pairs them with barrier analysis and FMEA—aiming to fix the system, not to find one person to punish.",
     "tags": ["质量"],
     "tagsEn": ["Quality"],
     "related": ["pdca", "tqm", "theory-constraints"]
@@ -133,8 +133,8 @@
     "level": 2,
     "oneLiner": "共情—定义—构思—原型—测试:以真实用户为原点，快速做出来再迭代。",
     "oneLinerEn": "Empathise, define, ideate, prototype, test: start from real users, build fast and iterate.",
-    "detail": "源自斯坦福 d.school 与 IDEO 的五步法，强调从对人的共情出发(而非从技术或报表出发)重新定义问题，用低保真原型把假设尽早摆到用户面前试错。它与“可行性、存续性、合意性”三者的交集对齐，常与精益创业“开发—测量—认知”的循环互补。",
-    "detailEn": "The five steps from Stanford's d.school and IDEO begin in empathy for people (not in technology or spreadsheets), reframe the problem, and use low-fidelity prototypes to test assumptions against users early. It maps to the overlap of desirability, feasibility and viability, and pairs well with the lean build-measure-learn loop.",
+    "detail": "设计思维源自大卫·凯利的 IDEO 与斯坦福设计学院，布朗把它总结为五步：共情、定义、构思、原型、测试，强调从对人的共情（而非从技术或报表）出发重新定义问题，用低保真原型把假设尽早摆到用户面前试错。它自称站在“可行性、存续性、合意性”三者的交集上：技术做得出、账算得过来、人们真正想要。它常被拿来与精益创业的“开发—测量—认知”循环互补：设计思维偏重找对了问题，精益偏重快速验证方案。常见误读是把它降格成便利贴工作坊——没有真共情与快迭代，五步只是空仪式。它的真正门槛不在步骤本身，而在愿不愿意推翻现成假设、接受早期原型被用户当场否决——做不到这一点，五步法不过是又一轮内部自嗨。",
+    "detailEn": "Design thinking grew out of David Kelley's IDEO and Stanford's d.school; Tim Brown distilled it into five steps—empathize, define, ideate, prototype, test—insisting you reframe the problem from empathy with people (not from technology or a spreadsheet) and surface assumptions early through low-fidelity prototypes put in front of users to fail cheaply. It claims to sit at the intersection of desirability, feasibility and viability: what people truly want, what technology can build, what the economics sustain. It is often paired with the lean startup's build-measure-learn loop—design thinking leans toward finding the right problem, lean toward testing solutions fast. The usual misreading is to shrink it into a sticky-note workshop: without real empathy and rapid iteration, the five steps are an empty ritual.",
     "tags": ["创新"],
     "tagsEn": ["Innovation"],
     "related": ["brainstorming", "blue-ocean", "disruptive-innovation"]

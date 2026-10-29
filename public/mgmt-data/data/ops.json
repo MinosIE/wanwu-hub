@@ -35,8 +35,8 @@
     "level": 2,
     "oneLiner": "质量是全员、全过程的责任：以客户为中心、持续改进、用统计说话。",
     "oneLinerEn": "Quality is everyone's job across the whole process: customer-focused, continually improved, argued with statistics.",
-    "detail": "戴明、朱兰、费根堡姆把战后日本制造推向世界之巅的哲学:预防优于检验、管理层的责任大于一线、85% 的质量问题源于系统而非工人。它催生了 ISO 9000 与各类质量奖。落地失败常因把它当运动式口号——缺少长期投入与真正的授权时，全员质量就变成全员填表。",
-    "detailEn": "Deming, Juran and Feigenbaum carried post-war Japanese manufacturing to the top: prevention over inspection, management bearing more responsibility than the floor, and most defects rooted in the system, not the worker. It begat ISO 9000 and the quality awards. Failed roll-outs treat it as a campaign — without lasting investment and real delegation, 'total quality' decays into 'total form-filling'.",
+    "detail": "全面质量管理把质量从一线检验员的事提升为整个组织的哲学。费根堡姆 1951 年提出这一术语，朱兰与戴明则把它塑造成战后日本制造的根基：预防优于检验、管理层担的责大于一线、约 85% 的质量问题源于系统而非工人。它催生了一系列落地工具——统计过程控制、质量功能展开、品管圈，也把戴明奖（1951）、波多里奇国家质量奖（1987）与 ISO 9000 族标准推向了世界。它的失败常因被当成运动式口号：缺少长期投入与真正的授权时，“全员质量”就退化成“全员填表”。六西格玛可视为它的度量强化版。它的精髓是把质量变成人人可谈、可测、可改进的日常语言，而非某个部门的专属指标。",
+    "detailEn": "Total quality management raised quality from an inspector's job to the philosophy of the whole organization. Feigenbaum coined the term in 1951, and Juran and Deming shaped it into the bedrock of postwar Japanese manufacturing: prevention beats inspection, management owns far more responsibility than the front line, and some 85 percent of quality problems stem from the system, not the worker. It spawned a toolkit—statistical process control, quality function deployment, quality circles—and propelled the Deming Prize (1951), the Malcolm Baldrige National Quality Award (1987) and the ISO 9000 family worldwide. It fails when treated as a campaign slogan: without long investment and real empowerment, \"everyone does quality\" decays into \"everyone fills forms.\" Six Sigma is best read as its metrology-hardened successor.",
     "tags": ["质量"],
     "tagsEn": ["Quality"],
     "related": ["pdca", "six-sigma", "root-cause"]
@@ -77,8 +77,8 @@
     "level": 3,
     "oneLiner": "系统的产出由最慢的那一环决定——优化非瓶颈，多半是自我安慰。",
     "oneLinerEn": "Output is set by the slowest link; optimising a non-bottleneck is largely self-soothing.",
-    "detail": "高德拉特在《目标》(1984) 里用五步聚焦法:识别系统约束、让一切服从约束、挖尽约束的产能、给约束扩容、然后回到第一步(约束会转移)。它用“有效产出、库存、运营费”三个指标取代局部效率，提醒管理者:链条的强度只看最弱一环，全局改善要从瓶颈下手。",
-    "detailEn": "Goldratt's The Goal (1984) gives the five focusing steps: identify the constraint, subordinate everything to it, exploit its capacity, elevate it, then repeat as the constraint moves. It measures progress through throughput, inventory and operating expense rather than local efficiency, reminding managers that a chain is only as strong as its weakest link.",
+    "detail": "埃利亚胡·高德拉特在小说《目标》（1984）里用五步聚焦法把约束讲透：识别系统的约束（瓶颈）、让一切服从约束、挖尽约束的产能、给约束扩容、然后回到第一步，因为约束会转移。他用“有效产出、库存、运营费”三个指标取代局部效率，提醒管理者：链条的强度只看最弱一环，非瓶颈环节的“改善”若无视瓶颈，只会制造更多库存与等待。由此衍生出“鼓-缓冲-绳”的排产法：以瓶颈为鼓点调度、在瓶颈前设时间缓冲保护、用信息绳限制投入。它与精益同源而视角不同：两者都盯着流动，约束理论把瓶颈抬为改善的唯一入口。它对“处处都要改进”的直觉泼了冷水：任一时刻的瓶颈只有一个，把力气花在它身上才撬动全局。",
+    "detailEn": "In the novel The Goal (1984) Eliyahu Goldratt laid out the five focusing steps: identify the system's constraint (its bottleneck), subordinate everything else to it, exploit the constraint's capacity, elevate the constraint, then return to step one, since the constraint moves. He replaced local efficiency with three measures—throughput, inventory and operating expense—warned that a chain is only as strong as its weakest link, and that \"improving\" a non-bottleneck while ignoring the bottleneck merely piles up inventory and waiting. From this came drum-buffer-rope scheduling: pace to the bottleneck's drum, place a time buffer ahead of it for protection, and cap releases with an information rope. It shares lean's roots but a different lens; both chase flow, while constraints theory crowns the bottleneck as the single gate to improvement.",
     "tags": ["运营"],
     "tagsEn": ["Operations"],
     "related": ["systems-view", "lean-production", "critical-path"]
@@ -147,8 +147,8 @@
     "level": 2,
     "oneLiner": "让操作工也参与保养设备，追求零故障、零停机、零缺陷。",
     "oneLinerEn": "Involve operators in maintaining equipment, aiming for zero breakdowns, downtime and defects.",
-    "detail": "源自日本的 TPM 把“维护是维修部门的事”改为全员生产维护：自主保养、计划保养、个别改善、教育培训等八大支柱，让一线员工负责日常点检与清洁，把设备综合效率(OEE)作为核心指标。它与精益、六西格玛互补——精益管流动，TPM 管设备这一环的可靠。",
-    "detailEn": "Born in Japan, TPM shifts maintenance from 'the repair crew's job' to everyone: eight pillars including autonomous and planned maintenance, focused improvement and training, with operators doing daily checks and cleaning, and overall equipment effectiveness (OEE) as the key metric. It complements lean and Six Sigma — lean manages flow, TPM manages the reliability of the equipment link.",
+    "detail": "源自日本的全面生产维护把“维护是维修部门的事”改为全员生产维护：1951 年美国的经营性维修概念引入日本，经中岛靖一等人在日产柴油重工发展，1969 年起以“自主保养”（操作工自己做日常点检与清洁）为旗号，配计划保养、个别改善、教育培训等支柱（常归纳为八大支柱），把设备综合效率（OEE）作为核心指标，追求零故障、零废品、零事故。它与精益、六西格玛互补：精益管流动，TPM 守设备这一环的可靠，日本设备保全协会并设 TPM 奖推动。要点在于把设备交给最了解它的人，用微小停机与换型时间的消除来撑开产能。它把“意外停机”从认命变为可控，靠的是把小问题挡在酿成大故障之前。",
+    "detailEn": "Originating in Japan, TPM flipped \"maintenance is the repair department's job\" into everyone's job: American preventive maintenance arrived in Japan in 1951, was developed by Seiichi Nakajima and others at Nippon Seiki and Nissan-Diesel, and from 1969 flew the flag of autonomous maintenance—operators doing their own daily inspection and cleaning—alongside planned maintenance, focused improvement and training under what are usually grouped as eight pillars, scoring it all with overall equipment effectiveness (OEE) in pursuit of zero breakdowns, zero defects and zero accidents. It complements lean and Six Sigma: lean manages flow, TPM secures the reliability of the equipment step, and the Japan Institute of Plant Maintenance pushes it via a TPM Award. The core move is handing machines to those who know them best and prying open capacity by erasing micro-stoppages and changeover time.",
     "tags": ["运营"],
     "tagsEn": ["Operations"],
     "related": ["lean-production", "six-sigma", "theory-constraints"]
@@ -189,8 +189,8 @@
     "level": 2,
     "oneLiner": "用物理或流程设计让错误根本犯不出来，而不是靠人加倍小心。",
     "oneLinerEn": "Design the product or process so mistakes cannot be made, rather than asking people to be more careful.",
-    "detail": "新乡重夫提出的“防呆”：通过接触、固定数量、动作步骤等方式，让零件装反就装不进、少一步就开不了机。它把质量从“事后检验、依赖注意力”转为“源头杜绝”，成本极低却极有效，从 USB-C 可正反插到工厂治具都是它。与 5Why 呼应：与其责人，不如改设计。",
-    "detailEn": "Shigeo Shingo's 'mistake-proofing': by contact, fixed-count or motion-step devices, a part that is reversed simply will not fit, a skipped step stops the machine. It moves quality from after-the-fact inspection reliant on attention to prevention at source — cheap and powerful, from reversible USB-C connectors to factory jigs. It echoes the 5 Whys: fix the design rather than blame the person.",
+    "detail": "新乡重夫提出的防错法（早期他称之为“无缺陷控制系统”）：通过接触式、定数量式、动作步序式等装置，让零件装反就装不进、少一步就开不了机、漏装则流水线自动停机。它把质量从“事后检验、依赖注意力”转为“源头杜绝”，成本极低却极有效——从只能一个方向插入的旧式接口、微波炉开门即断电，到工厂里形状唯一的治具都是它。与 5Why 呼应：与其事后追责粗心的人，不如改设计让粗心也无从犯错。它的高明处在于把“人总会犯错”这个前提摊开，用机制而非意志力去兜住。相比昂贵而繁琐的自动检测，这类物理防呆往往几乎零成本，却在源头就掐断了错误流向下游的路径，也是“质量无需检验”最朴素的落地。",
+    "detailEn": "Shigeo Shingo's poka-yoke (which he first called a zero-quality-control system) uses contact, fixed-count and motion-step devices so that a part reversed simply will not fit, a skipped step keeps the machine from starting, and a missed component halts the line. It converts quality from after-the-fact inspection that leans on attention into source-level prevention—cheap yet potent, from keyed connectors that fit only one way, to a microwave that cuts power when opened, to form-specific jigs on the line. It echoes the 5 Whys: rather than blame a careless person afterward, change the design so carelessness has nowhere to bite. Its insight is to accept that people will err and to catch that with mechanism, not willpower.",
     "tags": ["质量"],
     "tagsEn": ["Quality"],
     "related": ["lean-production", "six-sigma", "root-cause"]

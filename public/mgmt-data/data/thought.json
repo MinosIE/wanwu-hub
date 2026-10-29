@@ -7,8 +7,8 @@
     "level": 2,
     "oneLiner": "用时间与动作研究，把“活儿该怎么干”从老师傅的经验变成可测量、可复制的标准。",
     "oneLinerEn": "Study time and motion to turn 'how the job should be done' from craft lore into a measured, repeatable standard.",
-    "detail": "弗雷德里克·泰勒在《科学管理原理》(1911) 里主张：用科学方法替代“凭经验瞎猜”，先分解动作、测算最优做法与时间，再据此挑选培训工人、实行差别计件工资，并把计划与执行分开。它是管理第一次成为可研究的对象；也招致“把人当机器”的长期批评。",
-    "detailEn": "In The Principles of Scientific Management (1911) Frederick Taylor argued for replacing rule-of-thumb with measured 'best way', then selecting and training workers to it, paying by output, and separating planning from doing. It made management a researchable object for the first time — and drew the 'treating people as machines' critique that still follows it.",
+    "detail": "弗雷德里克·泰勒从米德维尔和伯利恒钢铁的机修车间起步，1911 年在《科学管理原理》里把“凭经验办事”列为管理的大敌：先用秒表把搬运生铁、铲矿砂的动作逐一分解，测出所谓“一天合理的工作量”，再据最优做法挑选并培训工人、实行差别计件工资，并把计划（方法与定额）同执行（操作）分给不同的人。这是管理第一次成为可被系统研究的对象，工时定额、标准化、职能工长制皆由此而来。它也招致长期批评——工人视之为“把人当机器的提速器”，1912 年国会听证会上劳工证词直指它变相加重劳动强度。吉尔布雷斯夫妇随后把动作研究进一步精细化，而霍桑研究恰好从“人不是经济机器”这一面修正了它，管理学的人性假设由此分岔。",
+    "detailEn": "Frederick W. Taylor came up through the machine shops of Midvale and Bethlehem Steel and, in The Principles of Scientific Management (1911), named the \"rule of thumb\" management's great enemy: break pig-iron handling and shoveling into discrete motions with a stopwatch, fix a fair day's pace, then select and train workers against the one best way, pay them on a differential piece rate, and split planning (method, standard) from execution (doing). It was the first moment management became an object of systematic study, bequeathing time standards, standardization and functional foremanship. It drew lasting fire as well—workers called it a speed-up that treated people as machines, and at the 1912 congressional hearing labor testimony charged that it quietly intensified effort. Frank and Lillian Gilbreth refined motion study next, while the Hawthorne studies corrected Taylor from exactly the opposite premise, that people are not economic machines; the human assumption of management theory forked right here.",
     "tags": ["古典"],
     "tagsEn": ["Classical"],
     "related": ["fayol-functions", "lean-thought"]
@@ -105,8 +105,8 @@
     "level": 2,
     "oneLiner": "源自丰田生产方式：定义价值、让价值流动、由客户拉动、尽善尽美地消除一切不创造价值的浪费。",
     "oneLinerEn": "From the Toyota system: define value, make it flow, let the customer pull it, and relentlessly remove waste.",
-    "detail": "《改变世界的机器》(1990) 与《精益思想》(1996) 把丰田做法提炼为五项原则：从客户视角定义价值、识别并打通价值流、让价值连续流动、以下游拉动上游、追求尽善尽美。落点是消除“muda(浪费)”——过度生产、等待、搬运、缺陷等都不创造价值。",
-    "detailEn": "The Machine That Changed the World (1990) and Lean Thinking (1996) distilled the Toyota Production System into five principles: define value from the customer's view, map the value stream, make it flow, let downstream pull upstream, and pursue perfection. The aim is to remove muda — overproduction, waiting, transport, defects and more add no value.",
+    "detail": "《改变世界的机器》（1990，沃麦克与琼斯）先用数据证明丰田的造车方式比底特律的大批量生产更省人力、省库存、省出错，沃麦克与琼斯遂在《精益思想》（1996）里把它提炼成五项原则：从客户视角界定价值、沿产品流经识别并打通价值流、让价值不因批次与排队而连续流动、以下游的真实需求拉动上游、循环往复追求尽善尽美。落点是消除日文里的“浪费”——过度生产、等待、搬运、多余加工、缺陷返工、过量库存与不必要的动作都不创造价值。它与约束理论互补：精益盯着让流动更顺的瓶颈，丰田生产方式的两大支柱正是即时化与自动化，大野耐一是这条脉络的枢纽人物。",
+    "detailEn": "The Machine That Changed the World (Womack and Jones, 1990) first showed with plant-level data that Toyota's way of building cars used less labor, less inventory and produced fewer errors than Detroit's mass production; Womack and Jones then distilled it in Lean Thinking (1996) into five principles: define value from the customer's standpoint, trace and unblock the value stream along the product's journey, let value flow without batching or queueing, pull from the true demand of the downstream step, and repeat toward perfection. The target is muda—overproduction, waiting, transport, extra processing, defects, excess inventory and needless motion create no value. It complements the theory of constraints: lean keeps flow moving through whatever the current bottleneck allows. Just-in-time and autonomation are the two pillars of the Toyota Production System, and Taiichi Ohno is the pivot of this whole lineage.",
     "tags": ["运营"],
     "tagsEn": ["Operations"],
     "related": ["lean-production", "theory-constraints", "taylor-scientific"]
@@ -147,8 +147,8 @@
     "level": 2,
     "oneLiner": "管理者不只是“计划组织控制”，而是戴着人际、信息、决策三类十顶帽子。",
     "oneLinerEn": "Managers do more than plan-organise-control; they wear ten roles in three families — interpersonal, informational, decisional.",
-    "detail": "明茨伯格通过观察真实管理者，发现其工作高度碎片化、偏好口头沟通，并归纳出十大角色：挂名首脑、领导者、联络者(人际)；信监者、传播者、发言人(信息)；企业家、混乱驾驭者、资源分配者、谈判者(决策)。它把“管理”从静态职能还原为动态的角色组合。",
-    "detailEn": "Observing real managers, Mintzberg found their work fragmented and oral-heavy, and distilled ten roles: figurehead, leader, liaison (interpersonal); monitor, disseminator, spokesperson (informational); entrepreneur, disturbance handler, resource allocator, negotiator (decisional). It restores management from static functions to a dynamic bundle of roles.",
+    "detail": "亨利·明茨伯格 1960 年代末坐在五位总经理身边逐项记录他们真实的一天，发现工作并无经典教科书里计划、组织、控制的那种有序节奏，反而高度碎片化、维持口头传统、偏爱尽快了结的含糊事务。1973 年他在《管理者工作的本质》一文中据观察归纳出十大角色，分属三类：人际的挂名首脑、领导者、联络者；信息的监视者、传播者、发言人；决策的企业家、混乱驾驭者、资源分配者、谈判者。这一框架把“管理”从静态职能还原为动态的角色组合，也解释了为何经理很难像工程师那样被一份岗位说明书框住。后来他对计划学界“精心规划”的祛魅（《战略历程》）与观察如出一辙。",
+    "detailEn": "In the late 1960s Henry Mintzberg sat beside five chief executives and logged their actual days item by item, finding none of the tidy plan-organize-control rhythm of the textbooks; the work was instead sharply fragmented, oral in habit, and drawn to quick closure, with managers switching topics constantly. From those observations he set out ten roles in The Nature of Managerial Work (1973), grouped into three families: interpersonal (figurehead, leader, liaison), informational (monitor, disseminator, spokesperson) and decisional (entrepreneur, disturbance handler, resource allocator, negotiator). The frame restored \"management\" from static functions to a dynamic bundle of roles, and explains why a manager resists the job description that binds an engineer. His later disenchantment of elaborate planning (in Strategizing) grew from the same fieldwork.",
     "tags": ["现代"],
     "tagsEn": ["Modern"],
     "related": ["fayol-functions", "drucker-mbo", "mintzberg-parts"]
@@ -189,8 +189,8 @@
     "level": 2,
     "oneLiner": "被尊为“现代管理理论之母”：她主张用整合取代妥协、以影响而非权力压人，早已预见协作式管理。",
     "oneLinerEn": "Hailed as the mother of modern management theory, she urged integration over compromise and influence over coercive power—an early foresight of collaborative management.",
-    "detail": "玛丽·帕克·福列特认为冲突不必是你输我赢：除了压制与妥协，还有“整合”——把双方真正的需求摆上台面，创造出谁都不曾想到的第三种方案。她区分“凌驾于人之上的权力”与“与人共享的权力”，强调管理者应靠专业与情境规律而非职位发号施令，让共享权力滋养组织。",
-    "detailEn": "Mary Parker Follett held that conflict need not be win-lose: besides domination and compromise lies integration—surfacing each side's real need to invent a third way neither had seen. She distinguished power-over people from power-with them, urging managers to lead by expertise and the law of the situation rather than rank.",
+    "detail": "玛丽·帕克·福列特是一战前后活跃在波士顿的社会工作者与管理思想家，其论文汇编为 1924 年的《创造的经验》。她主张冲突未必是你输我赢：除了压制与妥协这两条老路，还有“整合”——把双方真正想要的东西摆上台面，创造出谁都不曾预想的第三种方案，用需求而非立场来谈判。她把领导力的核心定义为“解决问题的技艺”而非权力本身，区分“凌驾于人之上的权力”与“与人共享的权力”，并主张管理者应依专业和情境规律而非职位发号施令。她关于“情境定律”（让规则而非个人来指挥）的设想，半个世纪后才被目标管理、共享领导等重新认领，因而被追认为组织行为学的先声。",
+    "detailEn": "Mary Parker Follett, a Boston social worker and theorist active around the First World War, left essays gathered in Creative Experience (1924). She argued conflict need not be win-lose: besides domination and compromise there is integration—put each side's real want on the table and invent a third option neither anticipated, negotiating from needs rather than positions. She defined leadership as \"the art of solving the problem\" rather than power itself, distinguished \"power over\" from \"power with,\" and urged managers to command by expertise and the law of the situation rather than by rank. Her idea of the \"law of the situation\"—letting the rule, not a person, give orders—was reclaimed only half a century later by management by objectives and shared leadership, so she is honored today as a forerunner of organizational behavior.",
     "tags": ["行为"],
     "tagsEn": ["Behavioural"],
     "related": ["hawthorne", "barnard-cooperation", "conflict-modes"]
