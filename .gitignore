@@ -9,6 +9,10 @@ pnpm-debug.log*
 # Dependencies
 node_modules
 
+# 本地用 pnpm，CI/部署用 npm（package-lock.json）；pnpm 锁文件与 workspace 配置仅本地生成，不入库以免双锁文件漂移
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
 # Build output
 dist
 dist-ssr
